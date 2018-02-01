@@ -4,7 +4,8 @@
   vertical-align: top;
 }
 .socal-der .main_col {
-  width: 95.4%;
+  margin: 0;
+  width: 100%;
 }
 .socal-der .main_col .page_tabs ul > span {
   position: relative;

@@ -8,7 +8,7 @@ gulp.task('watch', function() {
   browserSync.init({
     notify: false,
     server: {
-      baseDir: "../../"
+      baseDir: "style-guide"
     }
   });
   watch('./style-guide/index.html', () =>
@@ -18,8 +18,8 @@ gulp.task('watch', function() {
 	watch('./style-guide/assets/scripts/**/*.js', () => gulp.start('scriptsRefresh'))
 });
 
-gulp.task('cssInject', ['compile-eia-styles-less'], () =>
-  gulp.src('./style-guide/temp/styles/eia-styles.min.css')
+gulp.task('cssInject', ['styles'], () =>
+    gulp.src('./style-guide/temp/styles/eia-styles.min.css')
     .pipe(browserSync.stream())
 );
 
