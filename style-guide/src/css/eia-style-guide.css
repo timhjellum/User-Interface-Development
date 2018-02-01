@@ -1701,12 +1701,10 @@ span.line-break {
     background: linear-gradient(to bottom, #f5f5f5 0%, #fefefe 80%, #fefefe 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#fefefe', GradientType=0);
     /*
-
 0% 238 opacity 1
 50% 244 opacity 1
 90% 252 opacity 1
 100% 254 opacity 1
-
 */
   }
   .footer * {

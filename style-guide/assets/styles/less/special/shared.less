@@ -1,0 +1,549 @@
+@eia_yellow: #ffc702;
+@eia_yellow_light: #ffdd67;
+@eia_yellow_dark: #bf9502;
+@eia_green: #5d9732;
+@eia_light_blue: #0096d7;
+@eia_lighter_blue: #66c0e7;
+@eia_lightest_blue: #cceaf7;
+@eia_dark_blue: #003953;
+@eia_tan: #bd732a;
+@eia_purple: #513c7a;
+@eia_purple_light: #b9b1ca;
+@black: #333333;
+@white: #fff;
+@light_grey: #a6a6a6;
+@electricity_green_light: #d3dbb9;
+@electricity_green_dark: #626f38;
+@electricity_green: #92a753;
+@natgas_blue: #66a0b9;
+
+.socal-der {
+	.page_tabs > div > div,
+	.section > div {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.main_col {
+		width: 95.4%;
+	}
+
+	.main_col .page_tabs ul > span {
+		position: relative;
+		top: 18px;
+		float: right;
+	}
+
+	h3 span {
+		float: none;
+
+		.right_col h3 span {
+			font-weight: normal;
+			float: none;
+		}
+	}
+
+	.page_tabs {
+		.ui-widget-header {
+			border-bottom: none;
+			padding-left: 1em;
+		}
+
+		hr {
+			margin: -1px 0 26px;
+			background: @eia_green;
+		}
+
+		.ui-state-default,
+		.ui-widget-content .ui-state-default {
+			line-height: 12pt;
+			font-size: 10.5pt;
+			font-weight: bold;
+			padding: 6px 2px 4px;
+			text-transform: uppercase;
+			color  : @light_grey;
+			display: inline-block;
+			vertical-align: bottom;
+			text-align: center;
+			border : none;
+			background-color: @white;
+		}
+	}
+
+	.page_tabs .ui-state-active,
+	.ui-widget-content .ui-state-active {
+		border : 1px solid @eia_green;
+		border-bottom: none;
+		background-color: @white;
+	}
+
+	&.ui-state-default a:link,
+	.ui-state-default a,
+	.ui-state-default a:visited {
+		color: @light_grey;
+	}
+
+	.page_tabs .ui-state-active a,
+	.ui-state-active a:link,
+	.ui-state-active a:visited {
+		color: @black;
+		cursor: default;
+	}
+
+	#dashboard .left_col {
+		width: 57%;
+		position: relative;
+
+		.section {
+			.section-title h3 {
+				font-size: 12pt;
+			}
+
+			&:after {
+				content: ' ';
+				border-bottom: 1px dashed @light_grey;
+				height: 1px;
+				display: block;
+				margin: 4px 0 -4px 23%;
+				width: 75%;
+				text-align: right;
+			}
+
+			&:last-of-type:after {
+				border-bottom: none;
+			}
+		}
+	}
+
+	.natgas_prices {
+		.price h3,
+		.section-title h3 {
+			color: @natgas_blue;
+		}
+	}
+
+	.elec_prices {
+		.price h3,
+		.section-title h3 {
+			color: @electricity_green;
+		}
+	}
+
+	.right_col {
+		width: 42%;
+		margin-left: -4px;
+		border-left: 1px solid @light_grey;
+
+		.section {
+			padding-left: 8px;
+			border-top: 1px solid @light_grey;
+
+			&:first-child {
+				border-top: none;
+			}
+
+			span {
+				float: none;
+			}
+		}
+	}
+
+	.labels p {
+		font-weight: bold;
+	}
+}
+
+.ui-tabs .ui-tabs-panel {
+	border: none;
+	padding: 0;
+}
+
+.page_tabs.ui-widget-content {
+	border: none;
+}
+
+.price {
+	width: 16%;
+}
+
+.price-graph {
+	width: 319px;
+	min-height: 93px;
+}
+
+#laTemps {
+	height: 160px;
+	margin-top: 0;
+}
+
+#change,
+#inventory,
+#receipts {
+	height: 135px;
+}
+
+#editionSelect {
+	position: relative;
+	cursor: pointer;
+	z-index: 1;
+	padding-right: 20px;
+
+	&.active a {
+		background-color: @white;
+	}
+
+	.link {
+		display: none;
+	}
+
+	a {
+		text-transform: none;
+		position: absolute;
+		left : 15px;
+		width: 90px;
+		top  : 15px;
+		text-indent: 0;
+		margin: -15px -5px -2px -7px;
+		padding: 15px 5px 2px 7px;
+		z-index: -1;
+	}
+
+	.s-arrow {
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 5px solid @light_grey;
+	}
+
+	.n-arrow {
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid @light_grey;
+	}
+
+	.arrow {
+		width: 0;
+		height: 0;
+		position: absolute;
+		top: 4px;
+	}
+}
+/*Tour plugin styles*/
+.popover {
+	max-width: 294px;
+
+	.popover-title {
+		border-bottom: 1px solid @eia_green;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: 700;
+
+		> .text {
+			display: inline-block;
+			max-width: 85%;
+		}
+	}
+
+	.popover-content {
+		padding-top: 0;
+
+		.pbar_wrapper {
+			padding-bottom: 9px;
+			margin: -1px -14px 0;
+		}
+
+		.pbar {
+			border-top: 4px solid @eia_green;
+			margin: 0;
+			text-align: left;
+		}
+	}
+}
+/*-----Commentary section styles ----*/
+.commentary {
+	.left_col {
+		width: 70%;
+	}
+
+	.right_col {
+		border-left: none;
+		width: 27%;
+		margin-left: 22px;
+	}
+
+	.right_col .blue_top {
+		border-top-width: 3px;
+		padding-top: 6px;
+	}
+
+	.right_col .blue_top:first-child {
+		margin-top: 8px;
+	}
+
+	.right_col ul {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	h2 {
+		border-top: none;
+		color: inherit;
+		padding-top: 0;
+		font-size: 14pt;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		line-height: 1.5em;
+	}
+
+	h3 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 11pt;
+		border: none;
+		padding: 0;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		color: inherit;
+		margin-top: 18px;
+		line-height: 1.5em;
+	}
+
+	p {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10.5pt;
+		margin-bottom: 0;
+		margin-top: 14px;
+		line-height: 1.75em;
+	}
+
+	.left_col {
+		ol,
+		ul {
+			margin-top: 14px;
+		}
+	}
+
+	.right_col {
+		h4 {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 19pt;
+			font-weight: normal;
+			margin-bottom: 4px;
+			display: block;
+		}
+
+		p {
+			font-size: 9pt;
+			line-height: 1.5em;
+			margin-bottom: 2px;
+		}
+	}
+
+	section {
+		border-bottom: 1px dashed @light_grey;
+		clear: both;
+		padding-bottom: 10px;
+		text-align: justify;
+		text-justify: auto;
+
+		img {
+			display: inline-block;
+			float: left;
+			margin: 0 10px 10px 0;
+			width: 320px;
+		}
+
+		&:last-of-type {
+			border-bottom: none;
+		}
+		//clear-fix
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+
+	article {
+		margin-top: 9px;
+		padding-top: 9px;
+		border-top: 4px solid @eia_green;
+
+		&.active {
+			header {
+				border-bottom: 1px solid @light_grey;
+			}
+		}
+
+		&:not(.active) {
+			h1 {
+				color: @eia_light_blue;
+				cursor: pointer;
+				padding-top: 0;
+			}
+
+			section {
+				display: none;
+			}
+
+			header {
+				div {
+					font-size: 10pt;
+				}
+			}
+		}
+
+		&:first-child {
+			border-top: none;
+			padding-top: 0;
+			margin-top: 0;
+		}
+
+		h1 {
+			font-size: 13.5pt;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			border-bottom: none;
+			margin-bottom: 0;
+			padding-top: 6px;
+		}
+
+		&.active h1:first-of-type {
+			color: @black;
+			cursor: default;
+		}
+	}
+}
+
+.commentary_pub_date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10.5pt;
+	color: @light_grey;
+	font-weight: bold;
+}
+
+.pagecontent .main_col .commentary .left_col li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10.5pt;
+	margin-bottom: 0;
+	margin-top: 6px;
+	line-height: 1.75em;
+}
+
+.pub-date > span {
+	&:before {
+		content: '|';
+		margin: 0 6px 0 3px;
+	}
+
+	&:first-child:before {
+		content: '';
+		margin: 0;
+	}
+}
+
+.dashboard .notes {
+	top: 20px;
+	position: relative;
+}
+
+.previous {
+	line-height: 1.1em;
+}
+
+.main_col span .ico_tour {
+	margin-top: -4px;
+	float: none;
+	vertical-align: top;
+}
+
+/*----- print styles --------------*/
+@media print {
+	 @page{
+		margin: .5in;
+	}
+
+	.do-not-print {
+		display: none;
+	}
+
+	.ui-tabs .ui-tabs-panel.do-not-print {
+		display: none !important;
+	}
+
+	.pub_title {
+		border-top: 5px solid @eia_light_blue;
+		border-bottom: 1px solid @eia_light_blue;
+		margin-bottom: 8px;
+		height: 70px !important;
+	}
+
+	header, // new header footer
+	#header,
+	.page_tabs > hr {
+		display: none;
+		height: 0;
+	}
+	.pub_title {
+		img {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		h1 {
+			position: absolute;
+			top: .14in;
+			left: .9in;
+			font-size: 22pt;
+			padding: .2em;
+		}
+	}
+	.pub-date {
+		position: absolute;
+		top: .525in;
+		left: .9in;
+		padding: .2em .2em .2em .35em;
+		color: @light_grey
+	}
+	.left_col .section-title,
+	.right_col .section-title.left {
+		width: .8in;
+		border-bottom: none;
+	}
+	.left_col .graph-container {
+		width: 3.2in;
+	}
+	.load-column {
+		width: .7in;
+	}
+	.load-curve {
+		margin-left: 10px;
+		width: 2.0in;
+	}
+	.price-graph {
+		width: 2.45in;
+	}
+	.right_col .graph-container {
+		width: 3.25in;
+	}
+	.socal-der {
+		.dashboard {
+			h2 {
+				line-height: 1.0em;
+				font-size: 12pt;
+				color: @black;
+			}
+		 	h3 {
+				margin-top: 0;
+				color: @black;
+			}
+		}
+		.labels p {
+			font-weight: normal;
+		}
+		.main_col {
+			width: 7.5in;
+		}
+	}
+	.legend .bars {
+		margin-right: 0;
+	}
+}

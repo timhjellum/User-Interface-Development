@@ -1,6 +1,7 @@
 let gulp = require('gulp');
 let cleanCSS = require('gulp-clean-css');
 let less = require('gulp-less');
+//let changed = require('gulp-changed');
 let rename = require('gulp-rename');
 let path = require('path');
 let del = require('del');
@@ -32,59 +33,97 @@ let del = require('del');
     * style-guide/src/css/ compiled but not minimized
 */
 
+const WWWDEVDist = ' //WWWDEV/website/global/styles';
+const StyleGuideDist = ' ./style-guide/src/css';
+
+
 gulp.task('compile-eia-styles-less', ['compile-print-less'], () =>
   gulp.src('./style-guide/assets/styles/eia-styles.css')
+//  .pipe(changed(StyleGuideDist))
   .pipe(less())
-  .pipe(gulp.dest('../global/styles'))
-  .pipe(gulp.dest('style-guide/src/css'))
+  .pipe(gulp.dest(WWWDEVDist))
+  .pipe(gulp.dest(StyleGuideDist))
   .pipe(cleanCSS({debug: true}, (details) => {
-    console.log(`${details.name}: ${details.stats.originalSize}`);
-    console.log(`${details.name}: ${details.stats.minifiedSize}`);
+    console.log('${details.name}: ${details.stats.originalSize}');
+    console.log('${details.name}: ${details.stats.minifiedSize}');
   }))
   .pipe(rename("eia-styles.min.css"))
-  .pipe(gulp.dest('../global/styles'))
+  .pipe(gulp.dest(WWWDEVDist))
 );
 
 gulp.task('compile-print-less', ['compile-old-print-less'], () =>
   gulp.src('./style-guide/assets/styles/eia-print.css')
+//  .pipe(changed(StyleGuideDist))
   .pipe(less())
-  .pipe(gulp.dest('../global/styles'))
-  .pipe(gulp.dest('style-guide/src/css'))
+  .pipe(gulp.dest(WWWDEVDist))
+  .pipe(gulp.dest(StyleGuideDist))
   .pipe(cleanCSS({debug: true}, (details) => {
-    console.log(`${details.name}: ${details.stats.originalSize}`);
-    console.log(`${details.name}: ${details.stats.minifiedSize}`);
+    console.log('${details.name}: ${details.stats.originalSize}');
+    console.log('${details.name}: ${details.stats.minifiedSize}');
   }))
   .pipe(rename("eia-print.min.css"))
-  .pipe(gulp.dest('../global/styles'))
+  .pipe(gulp.dest(WWWDEVDist))
 );
 
 gulp.task('compile-old-print-less', ['compile-style-guide-less'], () =>
-  gulp.src('../global/styles/print.css')
-//  .pipe(less())
-//  .pipe(gulp.dest('../global/styles'))
+  gulp.src('./style-guide/assets/styles/print.css')
+//  .pipe(changed(StyleGuideDist))
+  .pipe(less())
   .pipe(gulp.dest('style-guide/src/css'))
   .pipe(cleanCSS({debug: true}, (details) => {
-    console.log(`${details.name}: ${details.stats.originalSize}`);
-    console.log(`${details.name}: ${details.stats.minifiedSize}`);
+    console.log('${details.name}: ${details.stats.originalSize}');
+    console.log('${details.name}: ${details.stats.minifiedSize}');
   }))
-//  .pipe(rename("print.min.css"))
-  .pipe(gulp.dest('../global/styles'))
+  .pipe(gulp.dest(WWWDEVDist))
 );
 
 // this compiles a working CSS from ALL the LESS files and makes a pretty version for the global folder and style-guide folder
 
-gulp.task('compile-style-guide-less', () =>
-  // compile the .less files
+gulp.task('compile-style-guide-less', ['compile-special-disruptions-winter'], () =>
   gulp.src('./style-guide/assets/styles/eia-style-guide.css')
+//  .pipe(changed(StyleGuideDist))
   .pipe(less())
-  .pipe(gulp.dest('style-guide/src/css'))
+  .pipe(gulp.dest(StyleGuideDist))
 );
 
+gulp.task('compile-special-disruptions-winter', ['compile-special-disruptions-summer'], () =>
+  gulp.src('./style-guide/assets/styles/winter.css')
+//  .pipe(changed(StyleGuideDist))
+  .pipe(less())
+  .pipe(gulp.dest(StyleGuideDist))
+  .pipe(cleanCSS({debug: true}, (details) => {
+  console.log('${details.name}: ${details.stats.originalSize}');
+  console.log('${details.name}: ${details.stats.minifiedSize}');
+}))
+.pipe(rename("winter_styles.css"))
+.pipe(gulp.dest('//WWWDEV/website/special/disruptions/socal/css'))
+)
 
-
-
-
-
+gulp.task('compile-special-disruptions-summer', () =>
+  gulp.src('./style-guide/assets/styles/summer.css')
+//  .pipe(changed(StyleGuideDist))
+  .pipe(less())
+  .pipe(gulp.dest(StyleGuideDist))
+  .pipe(cleanCSS({debug: true}, (details) => {
+  console.log('${details.name}: ${details.stats.originalSize}');
+  console.log('${details.name}: ${details.stats.minifiedSize}');
+}))
+.pipe(rename("summer_styles.css"))
+.pipe(gulp.dest('//WWWDEV/website/special/disruptions/socal/css'))
+)
+/*
+gulp.task('compile-special-disruptions-shared', () =>
+  gulp.src('./style-guide/assets/styles/shared.css')
+  .pipe(less())
+  .pipe(gulp.dest(StyleGuideDist))
+  .pipe(cleanCSS({debug: true}, (details) => {
+  console.log('${details.name}: ${details.stats.originalSize}');
+  console.log('${details.name}: ${details.stats.minifiedSize}');
+}))
+.pipe(rename("shared.min.css"))
+.pipe(gulp.dest('//WWWDEV/website/special/disruptions/socal/css'))
+)
+*/
 
 
 
