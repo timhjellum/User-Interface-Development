@@ -1,5 +1,5 @@
 var jQuery = require('jquery');
-//import bxslider from '../../../../node_modules/bxslider/dist/jquery.bxslider.min.js';
+//import SliderMultiCards from './modules/_slider-multi-cards';
 
 // check the page resolution on initial page load and if the browser is resized
 $(document).ready(function() {
@@ -181,3 +181,4 @@ function checkSize() {
         $(".bx-controls-direction").css("top", -elementHeight);
     }
 }
+

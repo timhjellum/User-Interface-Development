@@ -5,5 +5,3 @@ $(".page_tabs").localScroll({
     duration:0,
     hash:true
 });
-
-

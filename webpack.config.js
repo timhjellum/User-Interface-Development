@@ -7,7 +7,7 @@ module.exports = {
 	},
 	output: {
 		//path: "../global/scripts",
-		path: path.resolve(__dirname, '../global/scripts'),
+		path: path.resolve(__dirname, '../../dilly/scripts'),
 			filename: "[name].min.js"
 	},
 	module: {

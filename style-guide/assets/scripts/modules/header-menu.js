@@ -60,6 +60,8 @@ class HeaderMenu {
 				case 'default'		:	options.active = 0;
 			}
 			$('.section-tabs').tabs(options);
+//	$('.section-tabs').parent().parent().parent().parent().addClass('hi');
+//			$('.section-tabs').css("background-color", "red");
 		});
 		//console.log('Open Menu');
 		var viewPortWidth = window.innerWidth;
@@ -78,9 +80,8 @@ class HeaderMenu {
 			fitToView: false,
 			topRatio: 0,
 			autoDimension: false,
-
 			tpl: {
-				closeBtn: '<a title="Close" class="close" href="javascript:;"><i class="ico-menu close">Close</i></a>'
+				closeBtn: '<a title="Close" class="close-menu" href="javascript:;"><i class="ico-menu close-menu">Close</i></a>'
 			},
 			beforeLoad: function () {
 				viewPortWidth = window.innerWidth;
@@ -92,7 +93,10 @@ class HeaderMenu {
 					this.fitToView = false;
 				};
 			},
-			onUpdate: function onUpdate() {
+			beforeShow: function () {
+				$('.section-tabs').parent().parent().parent().parent().addClass('global-nav');
+			},
+			onUpdate: function () {
 				if (window.innerWidth <= fbWidth) {
 					this.margin = [0, 0, 0, 0];
 					this.fitToView = true;
