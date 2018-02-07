@@ -33,24 +33,31 @@ let del = require('del');
 		* style-guide/src/css/ compiled but not minimized
 */
 
-const WWWDEVDist = '//WWWDEV/website/global/styles';
+// use for wwwdev: const Dist = '//WWWDEV/website/global/styles';
+const Dist = '../../global/styles';
 const StyleGuideDist = './style-guide/src/css';
 
 
-gulp.task('styles', () =>
+gulp.task('styles', ['styles-all'], () =>
 	gulp.src('./style-guide/assets/styles/eia-styles.css')
 //  .pipe(changed(StyleGuideDist))
 	.pipe(less())
-	.pipe(gulp.dest(WWWDEVDist))
+	.pipe(gulp.dest(Dist))
 	.pipe(gulp.dest(StyleGuideDist))
 	.pipe(cleanCSS({debug: true}, (details) => {
 		console.log('${details.name}: ${details.stats.originalSize}');
 		console.log('${details.name}: ${details.stats.minifiedSize}');
 	}))
 	.pipe(rename("eia-styles.min.css"))
-	.pipe(gulp.dest(WWWDEVDist))
+	.pipe(gulp.dest(Dist))
 );
-
+gulp.task('styles-all', () =>
+	gulp.src('./style-guide/assets/styles/eia-styles.all.css')
+	.pipe(less())
+	.pipe(gulp.dest(StyleGuideDist))
+	.pipe(cleanCSS())
+	.pipe(gulp.dest(Dist))
+);
 // print specific files
 // $ npm run gulp print
 
@@ -59,18 +66,18 @@ gulp.task('print', ['new-print']);
 gulp.task('new-print', ['legacy-print'], () =>
 	gulp.src('./style-guide/assets/styles/eia-print.css')
 	.pipe(less())
-	.pipe(gulp.dest(WWWDEVDist))
+	.pipe(gulp.dest(Dist))
 	.pipe(gulp.dest(StyleGuideDist))
 	.pipe(cleanCSS())
 	.pipe(rename("eia-print.min.css"))
-	.pipe(gulp.dest(WWWDEVDist))
+	.pipe(gulp.dest(Dist))
 );
 gulp.task('legacy-print', () =>
 	gulp.src('./style-guide/assets/styles/print.css')
 	.pipe(less())
-	.pipe(gulp.dest('style-guide/src/css'))
+	.pipe(gulp.dest(StyleGuideDist))
 	.pipe(cleanCSS())
-	.pipe(gulp.dest(WWWDEVDist))
+	.pipe(gulp.dest(Dist))
 );
 
 
