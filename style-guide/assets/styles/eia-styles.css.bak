@@ -8,6 +8,5 @@
 @import "less/icons";
 @import "less/layouts";
 @import "less/social-sticker";
-@import "less/modules/bookshelf-search";
 
 

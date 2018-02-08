@@ -45,5 +45,3 @@
 @import "less/modules/page-tabs";
 
 @import "less/modules/legend";
-
-@import "less/modules/bookshelf-search";
