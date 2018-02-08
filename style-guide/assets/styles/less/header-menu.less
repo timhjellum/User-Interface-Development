@@ -1,5 +1,5 @@
 @media @mobile {
-
+    /*
     .ui-autocomplete {
         position: absolute;
         top: 0;
@@ -18,13 +18,8 @@
                 }
             }
         }
-//        jquery-ui-dp.custom.css:51
-//        .ui-widget {
-//            font-family: Arial, Verdana, sans-serif;
-//            font-size: 14px;
-//        }
     }
-
+    */
     .fancybox-skin {
         background: #fff;
         -webkit-border-radius: 0;
@@ -71,8 +66,6 @@
             }
         }
     }
-
-
     .fancybox-wrap {
         &.global-nav {
             position: absolute;
@@ -87,11 +80,13 @@
                 -o-transition: opacity 0.4s ease-in-out;
                 -webkit-transition: opacity 0.4s ease-in-out;
                 transition: opacity 0.4s ease-in-out;
+                width: 980px !important; // temp overide responsiveness
             }
             * {
                 box-sizing: border-box;
             }
             .fancybox-inner {
+                width: 980px !important; // temp overide responsiveness
                 .section-tabs {
                     border-radius: 0;
                     .tabs-wrapper {
@@ -343,12 +338,65 @@
                                 }
                             }
                         }
+                        &.upcoming {
+                            h2 {
+                                display: none;
+                            }
+                            h5 {
+                                b {
+                                    display: none
+                                }
+                            }
+                            h5 {
+                                .font;                            
+                                line-height: 1.6em;
+                                font-size: 0.875rem;
+                                cursor: pointer;
+                                margin: 0 0 0 0;
+                                display: list-item;          /* This has to be "list-item"                                               */
+                                list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+                                // list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+                                &:last-child {
+                                    display: none;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: @eia-blue; 
+                                    display: block;
+                                    &:after {
+                                        content: "";
+                                    }
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                        &.reports {
+                            #header-tags-search {
+                                ul {
+                                    margin: 0;
+                                    padding: 5px;
+                                    border: 1px solid #aaa;
+                                    background-color: #fff;
+                                    background-image: none;
+                                    .font;
+                                    list-style-type: none;
+                                    .option {
+                                        &:hover {
+                                            cursor: pointer;
+                                            color: @eia-blue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                         &.a-z-index {
                             width: 95%;
                             margin: 0 2.5%;
                             padding: 1em 0 2em 0;
                             border-bottom: none;
-.a-z-list {
+                            .a-z-list {
                                 position: relative;
                                 display: block;
                                 margin-left: 80px;
@@ -445,22 +493,8 @@
     .fancybox-overlay {
         background: rgba(0,0,0,0.7);
     }
-//    .fancybox-overlay-fixed {
-//        position: fixed;
-//        bottom: 0;
-//        right: 0;
-//    }
-//    (min-aspect-ratio: 7/8) {
     .fancybox-wrap {
         &.global-nav {
-    /*
-            &.fancybox-laptop {
-                -moz-transition: opacity 0.4s ease-in-out;
-                -o-transition: opacity 0.4s ease-in-out;
-                -webkit-transition: opacity 0.4s ease-in-out;
-                transition: opacity 0.4s ease-in-out;
-            }
-            */
             .fancybox-inner {
                 .section-tabs {
                     .sources-uses, .topics, .geography, .tools, .learn, .news {

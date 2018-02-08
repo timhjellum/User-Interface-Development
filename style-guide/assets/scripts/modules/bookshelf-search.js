@@ -7,7 +7,7 @@ class BookshelfSearch {
         this.selectedTagText = "";
 
         this.resetControl();
-        console.log("dilly");
+		
         $("input", this.container).on('keyup', function(e) {
             self.handleSearchInput(e);
         }).on('blur', function(e) {
@@ -29,13 +29,13 @@ class BookshelfSearch {
         $('#header-tags-search .bookshelftags', this.container).empty();
 
         for(var t = 0; t < this.tags.length; t++) {
-            var initCap =  this.tags[t].LABEL.substring(0,1);
-            var remDsc =  this.tags[t].LABEL.substring(1, this.tags[t].LABEL.length);
-            var fullDsc = this.tags[t].LABEL.toLowerCase();
-            var srchTag = this.tags[t].IDENTIFIER;
+            var initCap =  this.tags[t].label.substring(0,1);
+            var remDsc =  this.tags[t].label.substring(1, this.tags[t].label.length);
+            var fullDsc = this.tags[t].label.toLowerCase();
+            var srchTag = this.tags[t].identifier;
 
             if (fullDsc.search(srchStr)==0) {
-                $('#header-tags-search .bookshelftags', this.container).append("<div name=\"tag-input\" value=" + this.tags[t].IDENTIFIER + " data-selectable class=\"option\"><span class=\"highlight\">"  + initCap +   "</span>" +remDsc + "</div>");
+                $('#header-tags-search .bookshelftags', this.container).append("<div name=\"tag-input\" value=" + this.tags[t].identifier + " data-selectable class=\"option\"><span class=\"highlight\">"  + initCap +   "</span>" +remDsc + "</div>");
             }
         }
         $("#header-tags-search").show();

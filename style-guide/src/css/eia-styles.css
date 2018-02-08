@@ -1990,28 +1990,27 @@ footer [hidden] {
 - The spacing in the footer is off. I think we had more spacing between columns before? And there should be more space above the row of serif links (About EIA, Open Data, etc.). Also, just noticed that the font-family for the address is wrong, should be the Arial stack (did that shift or did neither one of us notice it before?). Here’s a screenshot that has roughly the right spacing (this is the one I sent a long time ago, we hadn’t yet made the decision to remove the logo, so ignore that). The border between the top row of serif links and the columns of links should be there, however. I think we both forgot about this one.
 */
 @media (min-width: 1px) {
-  .ui-autocomplete {
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: default;
-  }
-  .ui-autocomplete.ui-widget-content {
-    border: 1px solid #aaa;
-    background-color: #fff;
-    background-image: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    color: #333;
-    list-style-type: none;
-  }
-  .ui-autocomplete.ui-widget-content li {
-    margin-bottom: 8px;
-  }
-  .ui-autocomplete.ui-widget-content li:hover {
-    color: #189bd7;
-  }
+  /*
+    .ui-autocomplete {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: default;
+        &.ui-widget-content {
+            border: 1px solid #aaa;
+            background-color: #fff;
+            background-image: none;
+            .font;
+            list-style-type: none;
+            li {
+                margin-bottom: 8px;
+                &:hover {
+                    color: @eia-blue;
+                }
+            }
+        }
+    }
+    */
   .fancybox-skin {
     background: #fff;
     -webkit-border-radius: 0;
@@ -2069,9 +2068,13 @@ footer [hidden] {
     -o-transition: opacity 0.4s ease-in-out;
     -webkit-transition: opacity 0.4s ease-in-out;
     transition: opacity 0.4s ease-in-out;
+    width: 980px !important;
   }
   .fancybox-wrap.global-nav * {
     box-sizing: border-box;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner {
+    width: 980px !important;
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs {
     border-radius: 0;
@@ -2341,6 +2344,56 @@ footer [hidden] {
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new ul li a {
     margin-top: -6px;
   }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h2 {
+    display: none;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5 b {
+    display: none;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.6em;
+    font-size: 0.875rem;
+    cursor: pointer;
+    margin: 0 0 0 0;
+    display: list-item;
+    /* This has to be "list-item"                                               */
+    list-style-type: disc;
+    /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5:last-child {
+    display: none;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5 a {
+    text-decoration: none;
+    color: #189bd7;
+    display: block;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5 a:after {
+    content: "";
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5 a:hover {
+    text-decoration: underline;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.reports #header-tags-search ul {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    background-image: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #333;
+    list-style-type: none;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.reports #header-tags-search ul .option:hover {
+    cursor: pointer;
+    color: #189bd7;
+  }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.a-z-index {
     width: 95%;
     margin: 0 2.5%;
@@ -2436,16 +2489,6 @@ footer [hidden] {
 @media (min-width: 956px) {
   .fancybox-overlay {
     background: rgba(0, 0, 0, 0.7);
-  }
-  .fancybox-wrap.global-nav {
-    /*
-            &.fancybox-laptop {
-                -moz-transition: opacity 0.4s ease-in-out;
-                -o-transition: opacity 0.4s ease-in-out;
-                -webkit-transition: opacity 0.4s ease-in-out;
-                transition: opacity 0.4s ease-in-out;
-            }
-            */
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .sources-uses.left,
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .topics.left,
