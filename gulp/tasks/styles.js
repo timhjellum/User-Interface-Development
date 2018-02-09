@@ -6,7 +6,8 @@ let rename = require('gulp-rename');
 let path = require('path');
 let del = require('del');
 
-const dist = '//WWWDEV/website/global/styles';
+//const dist = '//WWWDEV/website/global/styles';
+const dist = '../global/styles';
 const styleGuideDist = './style-guide/src/css';
 
 
