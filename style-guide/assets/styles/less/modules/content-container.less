@@ -50,6 +50,57 @@ ul {
 
 
 
+
+
+
+
+
+
+ /* move to its own module
+        &.faq {
+            .font;
+            display: block;
+            padding: 19px 10px 10px 8px;
+            border: solid 7px #a9c5e1;
+            margin-bottom: 0 0 16px 0;
+            background: #a9c5e1 url(http://www.eia.gov/global/images/bg/white_fade.png) repeat-x top center;
+            .head {
+                margin-bottom: 0 0 6px 0;
+                h2 {
+                    padding: 0 0 0 37px;
+                    background: transparent url(/global/images/icons/Q.png) no-repeat top left;
+                     
+//                    font-size: 0.938rem;
+                    font-weight: 500;
+//                    margin-bottom: 6px;
+                     a {
+//                        font-size: 0.938rem;
+                        color: #265281;
+                        display: block;
+                        &:after { 
+                            content:"\00a0\203A";
+                        }               
+                    }
+                }
+            }
+            .sub-head {
+                font-size: .750rem;
+                line-height: 1.3em;
+                font-weight: 700;
+                margin-bottom: 3px;
+                a {
+                    color: #476381;
+                    display: block;
+                    &:after { 
+                        content:"\00a0\203A";
+                    }               
+                }
+            }
+        }
+
+
+
+
 #overviewSideNavOptions {
     font-size: 1.250em;
     float: right;
@@ -95,45 +146,8 @@ ul {
         display: block;
         margin-bottom: 2em;
         width: 100%;
-        &.faq {
-            .font;
-            display: block;
-            padding: 19px 10px 10px 8px;
-            border: solid 7px #a9c5e1;
-            margin-bottom: 16px;
-            background: #a9c5e1 url(http://www.eia.gov/global/images/bg/white_fade.png) repeat-x top center;
-            .header {
-                margin-bottom: 6px;
-                h2 {
-                    padding: 0px 0px 0px 37px;
-                    background: transparent url(/global/images/icons/Q.png) no-repeat top left;
-                     
-                    font-size: 0.938rem;
-                    font-weight: 500;
-                    margin-bottom: 6px;
-                     a {
-                        font-size: 0.938rem;
-                        color: #265281;
-                        display: block;
-                        &:after { 
-                            content:"\00a0\203A";
-                        }               
-                    }
-                }
-            }
-            .sub-header {
-                font-size: .750rem;
-                line-height: 1.3em;
-                font-weight: 700;
-                margin-bottom: 3px;
-                a {
-                    color: #476381;
-                    display: block;
-                    &:after { 
-                        content:"\00a0\203A";
-                    }               
-                }
-            }
+        * {
+            box-sizing: border-box;
         }
         ul {
             padding: 0;
@@ -157,7 +171,7 @@ ul {
             }
             li {
                 padding: 0;
-                margin-bottom: 0.688em;
+                margin-bottom: 0 0 0.688em 0; .. px
                 min-height: 17px; // the size of an icon
                 vertical-align: top;
                 line-height: 1.3em;
@@ -180,7 +194,7 @@ ul {
                 //background: transparent url(https://www.eia.gov/global/images/bg/h_line_shadow_rc.png) no-repeat bottom center;
                 border-bottom: solid 1px #e3e5e6;
             }
-            .footer {
+            .foot {
                 padding: 0;
                 margin: 0;
                 border: 0;
@@ -253,7 +267,7 @@ ul {
     .l-split-narrow {
         .content-container {
             h2 {
-                .header-font;
+                .head-font;
                 display: block;
                 font-size: 1.125rem;
                 margin-bottom: 0px;
@@ -261,7 +275,7 @@ ul {
                 clear: both;
             }
             h3 {
-                .header-font;
+                .head-font;
                 font-size: 1.188rem;
                 line-height: 1;
                 margin: 0 0 1em;
@@ -290,7 +304,7 @@ ul {
             list-style: none;
             li {
                 padding: 0;
-                margin-bottom: 5px;
+                margin-bottom: 0 0 5px 0;
                 line-height: 1.3em;
             }
         }

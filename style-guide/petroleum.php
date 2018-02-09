@@ -129,7 +129,7 @@ with This -->
 <a title="U.S. Petroleum Infrastructure Map" href="/state/maps.cfm?v=Petroleum">
 <ul>
 <li class="circle_pet_map circle"></li>
-<li class="footer">U.S. Petroleum Infrastructure Map</li>
+<li class="foot">U.S. Petroleum Infrastructure Map</li>
 </ul>
 </a>
 </div>
@@ -137,7 +137,7 @@ with This -->
 <a title="U.S. Fossil Fuel Resourse Map" href="/state/maps.cfm?v=Fossil%20Fuel%20Resources">
 <ul>
 <li class="circle_fossil_fuel circle"></li>
-<li class="footer">U.S. Fossil Fuel Resource Map</li>
+<li class="foot">U.S. Fossil Fuel Resource Map</li>
 </ul>
 </a>
 </div>
@@ -145,7 +145,7 @@ with This -->
 <a title="U.S. Crude Import Tracking Tool" href="/beta/petroleum/imports/browser/">
 <ul>
 <li class="circle_crude_import_data circle"></li>
-<li class="footer">U.S. Crude Import Tracking Tool</li>
+<li class="foot">U.S. Crude Import Tracking Tool</li>
 </ul>
 </a>
 </div>
@@ -153,7 +153,7 @@ with This -->
 <a title="STEO Data Browser" href="/forecasts/steo/query/">
 <ul>
 <li class="circle_steo circle"></li>
-<li class="footer">STEO<br />Data Browser</li>
+<li class="foot">STEO<br />Data Browser</li>
 </ul>
 </a>
 </div>
@@ -165,7 +165,7 @@ Table Browser</strong></a></li>*/ ?>
 <a title="Radio Spot" href="/radio/">
 <ul>
 <li class="circle_radio circle"></li>
-<li class="footer">Radio Spot</li>
+<li class="foot">Radio Spot</li>
 </ul>
 </a>
 </div>
@@ -173,7 +173,7 @@ Table Browser</strong></a></li>*/ ?>
 <a title="Trends in Energy: Drilling efficiency and increasing U.S. oil and natural gas production" href="http://www.youtube.com/watch?v=eIRB-NnyKyE">
 <ul>
 <li class="circle_video circle"></li>
-<li class="footer">Trends in<br />Energy Video</li>
+<li class="foot">Trends in<br />Energy Video</li>
 </ul>
 </a>
 </div>

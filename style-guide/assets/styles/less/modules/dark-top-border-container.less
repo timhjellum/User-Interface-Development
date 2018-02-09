@@ -35,22 +35,23 @@
 @media @mobile {
     .dark-top-border-container {
         border-top: solid 4px @eia-darker-blue;
-        font-size: 0.8125rem;
-        line-height: 1.25em;
         li  {
-            &.header h2  {
-                font-size: 1.3rem;
+            &.head h2  {
                 .header-font;
+                padding: 0.625em 0 0 0;
                 margin: 14px 0 0 0;
             }
             &.date {
+                .font;
                 font-style: italic;
-                font-size: 0.6875rem;
+                padding: 0.625em 0 0 0;
+                margin: 0 0 0 0;
             }
             a {
+                .font;
                 display: block;
-                padding-top: 0.625em;
-                font-size: 0.75rem;
+                padding: 0.625em 0 0 0;
+                margin: 0 0 0 0;
                 &:after { 
                     content:"\00a0\203A";
                 }               
@@ -66,15 +67,13 @@
 @media @laptop {
     .dark-top-border-container {
         li  {
-            &.header h2  {
+            &.head h2  {
                 font-size: 1.3rem;
-                margin: 14px 0 0 0;
             }
             &.date {
                 font-size: 0.6875rem;
             }
             a {
-                padding-top: 0.625em;
                 font-size: 0.75rem;           
             }
         }
