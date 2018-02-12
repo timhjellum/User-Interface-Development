@@ -35,3 +35,42 @@ $ npm install gulp
 $ gulp watch
 ```
 
+If this doesn't work try:
+
+``
+$ npm run gulp
+```
+
+
+
+
+
+  |- style-guide
+  |     |-------app
+  | 	|       |- styles
+  | 	|       |       L less
+  | 	|	    L scripts
+  | 	|		L modules
+  | 	--------- src (style guide specific files -- do not edit please)
+  | 	|       L images
+  | 	|       L includes
+  | 	|       L scripts
+  | 	|       L styles
+  | 	|       L vendor
+  | 	---------  *.html (style guide specific files -- do not edit please)
+======================================
+  |- global (auto-generated)
+        L images
+        L includes
+        L scripts
+        L styles
+        L vendor
+
+
+
+
+# Testing
+
+``
+$ gulp test
+```

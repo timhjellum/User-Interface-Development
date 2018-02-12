@@ -1,12 +1,13 @@
-let gulp = require('gulp');
-let cleanCSS = require('gulp-clean-css');
-let less = require('gulp-less');
-//let changed = require('gulp-changed');
-let rename = require('gulp-rename');
-let path = require('path');
-let del = require('del');
+const gulp = require('gulp');
+const cleanCSS = require('gulp-clean-css');
+const less = require('gulp-less');
+//const changed = require('gulp-changed');
+const rename = require('gulp-rename');
+const path = require('path');
+const del = require('del');
 
 const dist = '//WWWDEV/website/global/styles';
+//const dist = '../global/styles';
 const styleGuideDist = './style-guide/src/css';
 
 

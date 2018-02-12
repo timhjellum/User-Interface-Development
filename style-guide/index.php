@@ -95,22 +95,22 @@
     <?php /* start coming Up */ ?>
     <div class="content-container dark-top-border-container">
     <ul>
-        <li class="header"><h2>What's New</h2></li>
+        <li class="head"><h2>What's New</h2></li>
         <li><a href="/">Drilling Productivity Report</a></li>
         <li class="date">June 12</span></li>
         <li><a href="/">Short-Term Energy Outlook</a></li>
         <li class="date">June 12</span></li>
         <li><a href="/">Petroleum Marketing Monthly</a></li>
         <li class="date">June 12</span></li>
-        <li class="footer"><a href="about/new/">More</a></li>
+        <li class="foot"><a href="about/new/">More</a></li>
     </ul>
     <hr>
     <ul>
-        <li class="header"><h2>Coming Up</h2></li>
+        <li class="head"><h2>Coming Up</h2></li>
         <li><a href="/forecasts/aeo/retrospective/">AEO Retrospective Review</a></li>
         <li><a href="/forecasts/ieo/">International Energy Outlook</a></li>
         <li><a href="/beta/international/analysis.cfm?iso=ECU">Ecuador Country Analysis Brief</a></li>
-        <li class="footer"><a href="/reports/upcoming.cfm">More</a></li>
+        <li class="foot"><a href="/reports/upcoming.cfm">More</a></li>
     </ul>
 </div>
   <!--
@@ -161,7 +161,7 @@
           <div class="content-container">
             <a href="http://www.eia.gov/beta/realtime_grid/#/summary/demand"><img src="global/images/home_sm_features/electric_data_sys.jpg" alt="Electricity Data Browser"/></a>
             <ul>
-              <li class="header">
+              <li class="head">
                 <h2><a href="http://www.eia.gov/beta/realtime_grid/#/summary/demand">Electric System Operating Data Tool</a></h2>
               </li>
               <li>Near real-time electricity operations data for the Lower 48 states.</li>
@@ -172,7 +172,7 @@
           <div class="content-container">
             <a href="/special/disruptions/"><img src="global/images/home_sm_features/disruptionsmap.jpg" alt="Energy Disruptions Map"/></a>
             <ul>
-              <li class="header">
+              <li class="head">
                 <h2><a href="/special/disruptions/">Tracking hurricane season</a></h2>
               </li>
               <li>EIA’s Energy Disruptions Map displays key layers of energy infrastructure and real-time storm information.</li>
@@ -183,7 +183,7 @@
           <div class="content-container">
           <img src="/global/images/home_sm_features/energy_mapping_system.jpg" alt="U.S. Energy Mapping System"/></a>
             <ul>
-              <li class="header">
+              <li class="head">
                 <h2><a href="/state/maps.cfm">U.S. Energy Mapping System</a></h2>
               </li>
               <li>Rankings, layers of energy information, and state comparisons.</li>
@@ -202,12 +202,12 @@
         <?php /* Our Experts Speak */ ?>
         <div class="content-container dark-top-border-container">
           <ul>
-            <li class="header"><h2>Our Experts Speak</h2></li>
+            <li class="head"><h2>Our Experts Speak</h2></li>
             <li><a href="/pressroom/presentations/gruenspecht_05032017.pdf">Acting EIA Administrator Howard Gruenspecht presented the outlook for natural gas production, demand, and trade</a></li>
             <li class="date">January 31, 2017</li>
             <li><a href="/pressroom/presentations/gruenspecht_04252017.pdf">Acting EIA Administrator Howard Gruenspecht presented the outlook for oil and natural gas production in the United States</a></li>
             <li class="date">January 5, 2017</li>
-            <li class="footer"><a href="pressroom/">More</a></li>
+            <li class="foot"><a href="pressroom/">More</a></li>
           </ul>
         </div>
         <?php /* Our Experts Speak */ ?>
@@ -218,7 +218,7 @@
       <?php /* Especially For */ ?>
       <div class="content-container dark-top-border-container">
           <ul>
-            <li class="header"><h2>Especially For...</h2></li>
+            <li class="head"><h2>Especially For...</h2></li>
             <li><a href="about/careers/">Job Seekers</a></li>
             <li><a href="about/especiallyfor/analysts.cfm">Policy Analysts</a></li>
             <li><a href="pressroom/">Media</a></li>
@@ -238,7 +238,7 @@
       <?php /* Top Picks */ ?>
         <div class="content-container dark-top-border-container">
           <ul>
-            <li class="header"><h2>Top Picks</h2></li>
+            <li class="head"><h2>Top Picks</h2></li>
             <li><a href="/petroleum/gasdiesel/">Gasoline and Diesel Fuel Update</a></li>
             <li><a href="http://ir.eia.gov/ngs/ngs.html">Natural Gas Storage Report</a></li>
             <li><a href="/petroleum/weekly/">This Week in Petroleum</a></li>
@@ -259,7 +259,7 @@
     <?php /* start outlooks */ ?>
     <div class="content-container light-top-border-container">
       <ul>
-        <li class="header"><h2>Outlooks</h2></li>
+        <li class="head"><h2>Outlooks</h2></li>
         <li><a href="/outlooks/steo/">Short-Term Energy Outlook</a></li>
         <li><a href="/outlooks/aeo/">Annual Energy Outlook</a></li>
         <li><a href="/outlooks/ieo">International Energy Outlook</a></li>
@@ -270,7 +270,7 @@
     <?php /* start learn about energy */ ?>
     <div class="content-container light-top-border-container">
       <ul>
-        <li class="header"><h2>Learn About Energy</h2></li>
+        <li class="head"><h2>Learn About Energy</h2></li>
         <li><a href="/energyexplained">Energy Explained</a></li>
         <li><a href="tools/faqs/">Frequently Asked Questions</a></li>
       </ul>

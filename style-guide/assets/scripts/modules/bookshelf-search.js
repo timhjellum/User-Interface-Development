@@ -18,8 +18,9 @@ class BookshelfSearch {
             e.preventDefault();
         });
 
-        $('#goBtn', this.container).on('click', function(e) {
-            self.submitSearch(e);
+        $('#header-bookshelf-search-form', this.container).on('submit', function(e) {
+            self.submitSearch();
+			e.preventDefault();
         });
         this.getAllTags();
     }
@@ -69,6 +70,7 @@ class BookshelfSearch {
         $("input", this.container).val(this.selectedTagText);
     }
     submitSearch() {
+		$.fancybox.close();
         window.location = "/reports/#/" + this.selectedTagId;
     }
 }

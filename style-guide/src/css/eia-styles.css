@@ -2378,10 +2378,18 @@ footer [hidden] {
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5 a:hover {
     text-decoration: underline;
   }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.reports .reports-publication-search .tags-search {
+    position:  absolute;
+    max-height:  150px;
+    overflow-y:  auto;
+    z-index:  99;
+    width:  250px;
+    background-color:  #fff;
+    border: 1px solid #aaa;
+  }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.reports #header-tags-search ul {
     margin: 0;
     padding: 5px;
-    border: 1px solid #aaa;
     background-color: #fff;
     background-image: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -2533,16 +2541,11 @@ footer [hidden] {
     margin: 0 5%;
     padding: 1em 0;
   }
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .sources-uses div:last-child,
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .topics div:last-child,
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .geography div:last-child,
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .tools div:last-child,
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .learn div:last-child,
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .news div:last-child {
-    border-bottom: none;
-  }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .a-z-bottom {
     border: none;
+  }
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu:last-child {
+    border-bottom: none;
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.a-z-index {
     width: 95%;

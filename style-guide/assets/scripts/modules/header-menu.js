@@ -41,32 +41,28 @@ class HeaderMenu {
 	}
 	openMenu() {
 		$('.fancybox-menu').click(function () {
-			//console.log("clicked");
 			var target = $(this).data("target");
 			var options = {active : 0};
 			switch(target) {
-				case 'sources'		:	options.active = 0;
+				case 'nav-sources'		:	options.active = 0;
 				break;
-				case 'topics'		:	options.active = 1;
+				case 'nav-topics'		:	options.active = 1;
 				break;
-				case 'geography'	:	options.active = 2;
+				case 'nav-geography'	:	options.active = 2;
 				break;
-				case 'tools'		:	options.active = 3;
+				case 'nav-tools'		:	options.active = 3;
 				break;
-				case 'learn'		:	options.active = 4;
+				case 'nav-learn'		:	options.active = 4;
 				break;
-				case 'news'			:	options.active = 5;
+				case 'nav-news'			:	options.active = 5;
 				break;
-				case 'default'		:	options.active = 0;
+				case 'nav-default'		:	options.active = 0;
 			}
 			$('.section-tabs').tabs(options);
-//	$('.section-tabs').parent().parent().parent().parent().addClass('hi');
-//			$('.section-tabs').css("background-color", "red");
 		});
-		//console.log('Open Menu');
+
 		var viewPortWidth = window.innerWidth;
 		var viewPortHeight = window.innerHeight;
-		//console.log('viewport width is: ' + viewPortWidth + ' and viewport height is:' + viewPortHeight);
 		var fbWidth = 980;
 
 		$('.fancybox-menu').fancybox({
