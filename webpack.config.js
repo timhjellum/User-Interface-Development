@@ -1,6 +1,11 @@
 const path = require('path');
+<<<<<<< HEAD
 const dist = '//WWWDEV/website/global/scripts';
 //const dist = '../global/scripts/';
+=======
+//const dist = '//WWWDEV/website/global/scripts';
+const dist = '../global/scripts/';
+>>>>>>> 05126d50228d274c36135dad1e9fb442e570e317
 
 module.exports = {
 	entry: {
