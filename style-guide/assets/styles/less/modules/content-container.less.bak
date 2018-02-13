@@ -1,0 +1,264 @@
+/*
+REMs        Pixels
+---------------------
+0.375em; // 6 pixels
+0.438em; // 7 pixels
+0.500em; // 8 pixels
+0.563em; // 9 pixels
+0.625em; // 10 pixels	
+0.688em; // 11 pixels
+0.750em; // 12 pixels
+0.813em; // 13 pixels
+0.875em; // 14 pixels
+0.938em; // 15 pixels
+1.000em; // 16 pixels
+1.063em; // 17 pixels
+1.125em; // 18 pixels
+1.188em; // 19 pixels
+1.250em; // 20 pixels
+1.313em; // 21 pixels
+1.375em; // 22 pixels
+1.438em; // 23 pixels
+1.500em; // 24 pixels
+*/
+
+ /* move to its own module
+        &.faq {
+            .font;
+            display: block;
+            padding: 19px 10px 10px 8px;
+            border: solid 7px #a9c5e1;
+            margin-bottom: 0 0 16px 0;
+            background: #a9c5e1 url(http://www.eia.gov/global/images/bg/white_fade.png) repeat-x top center;
+            .head {
+                margin-bottom: 0 0 6px 0;
+                h2 {
+                    padding: 0 0 0 37px;
+                    background: transparent url(/global/images/icons/Q.png) no-repeat top left;
+                     
+//                    font-size: 0.938rem;
+                    font-weight: 500;
+//                    margin-bottom: 6px;
+                     a {
+//                        font-size: 0.938rem;
+                        color: #265281;
+                        display: block;
+                        &:after { 
+                            content:"\00a0\203A";
+                        }               
+                    }
+                }
+            }
+            .sub-head {
+                font-size: .750rem;
+                line-height: 1.3em;
+                font-weight: 700;
+                margin-bottom: 3px;
+                a {
+                    color: #476381;
+                    display: block;
+                    &:after { 
+                        content:"\00a0\203A";
+                    }               
+                }
+            }
+        }
+
+
+
+
+#overviewSideNavOptions {
+    font-size: 1.250em;
+    float: right;
+    label {
+        margin: 0px;
+        padding: 0px;
+        color: #000;
+        &.active {
+            color: #000;
+            cursor: text;
+        }
+        &.rpt_category {
+            color: #189bd7;
+            cursor: pointer;
+        }
+        &#ov_div {
+            font-weight: normal;
+            border-right: 1px solid #000;
+        }
+    }
+}
+
+.report-category {
+    font-size: 1.250em;
+    float: right;
+    label {
+        margin: 0px;
+        padding: 0px;
+        border-right: 1px solid #000;
+        color: #189bd7;
+        cursor: pointer;
+        &.active {
+            color: #000;
+            cursor: text;
+        }
+    }
+}
+*/
+
+
+
+
+
+
+
+
+@media @mobile {
+    .content-container {
+        .font-size;
+        display: block;
+        margin-bottom: 2em;
+        width: 100%;
+        box-sizing: border-box;
+        * {
+            box-sizing: border-box;
+        }
+        ul {
+ //           padding: 0;
+ //           margin: 0;
+            list-style: none;
+            li {
+                // nope min-height: 17px; // the size of an icon
+                vertical-align: top;
+                &.head{
+                    .font;
+                }
+                &.sub-head {
+                    .font;
+                }                
+                &.date {
+                    .font;
+                    .italic;
+                }
+                &.foot {
+                    .font;
+                    .bold;
+                }
+
+
+
+
+
+
+                ul {
+                    list-style-type: disc;
+                    display: block;
+    //                margin: .8em .8em .12em 1.4em;
+    //                li {
+    //                    padding: 0;
+    //                    margin: 0;
+    //                }
+                }
+                &.resources {
+                    li {
+                        min-height: 20px;
+                        width: 100%;
+                    }
+                }
+
+//                line-height: 1.3em;
+//                .font;
+//                span {
+//                    // margin-right: 0.625rem;
+//                    &.date {
+//                        .italic;
+//                    }
+//                }
+//                .sub-title {   //unknown
+//                    color: #5e625e;
+//                    font-weight: bold;
+//                }
+            }
+ /*
+            hr {
+                border: 0;
+                height: 7px;
+                margin: 0;
+                //background: transparent url(https://www.eia.gov/global/images/bg/h_line_shadow_rc.png) no-repeat bottom center;
+                border-bottom: solid 1px #e3e5e6;
+            }
+            */
+
+        }
+        p {
+            padding: 0;
+            margin: 0 0 1em;
+            .font;
+            line-height: 1.4em;
+        }
+    }
+}
+
+@media @tablet {
+    .l-left-column .l-side-column {
+        .l-side-column:first-child {
+            width: 50%;
+            float: left;
+            padding-left: 0px;
+            padding-right: 11px;
+        }
+        .l-side-column:last-child {
+            width: 50%;
+            float: left;
+            padding-left: 11px;
+            padding-right: 0px;
+        }
+    }
+    .l-right-column .l-side-column{
+        .l-side-column:first-child {
+            width: 50%;
+            float: left;
+            padding-left: 0px;
+            padding-right: 11px;
+        }
+        .l-side-column:last-child {
+            width: 50%;
+            float: left;
+
+            padding-left: 11px;
+            padding-right: 0px;
+        }
+    }
+}
+
+
+@media @laptop {
+    .content-container {
+        margin-bottom: 1em;
+    }
+}
+
+@media @mobile {
+    .l-split-narrow {
+        .content-container {
+            h2 {
+                .header-font;
+                display: block;
+                font-size: 1.125rem;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                clear: both;
+            }
+            h3 {
+                .header-font;
+                font-size: 1.188rem;
+                line-height: 1;
+                margin: 0 0 1em;
+            }
+            .ico {
+                float: right;
+            }
+        }
+    }
+}
+

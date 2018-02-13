@@ -280,30 +280,6 @@ html {
 body {
   margin: 0;
 }
-.bold {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  color: #333;
-}
-.italic {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  font-weight: 300;
-  color: #333;
-}
-.header-bold {
-  font-family: "Times New Roman", "Times", serif;
-  font-style: normal;
-  font-weight: 600;
-  color: #333;
-}
-.header-italic {
-  font-family: "Times New Roman", "Times", serif;
-  font-style: italic;
-  font-weight: 300;
-  color: #333;
-}
 .page-wrapper {
   /* caption
 	.source {
@@ -378,516 +354,2826 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd', GradientType=0);
   /* IE6-9 */
 }
-/*
-
-@media @mobile { // mobile
-	input[type=text] {
-		margin: 0 !important // overide screen.css
-	}
-	.l-column,
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
-	.l-split-narrow,
-	.l-split-wide,
-	.l-one-third-column,
-	.l-two-column,
-	.l-two-third-column {
-		.container {
-			position: relative;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		* {
-			box-sizing: border-box;
-		}
-		h1 {
-			.header-font;
-			display: block;
-			border-bottom: solid 1px #dadada;
-			padding-bottom: 6px;
-			padding-top: 16px;
-			clear: both;
-			//      margin-bottom: 22px;
-			MARGIN: 0;
-			font-size: 2rem; // 32px;    
-			line-height: 1.25em; // 20px
-		}
-		h2 {
-			display: block;
-			font-size: 24px; // 24px;
-			//margin: 2em 0 .5em;
-			//margin: 0 0 .5em 0;
-			MARGIN: 0;
-			line-height: 1.25em; // 20px
-		}
-		h3 { 
-			font-size: 24px;
-			margin: .83em 0;
-		}
-		h5 { 
-				font-size: 18px;
-				margin: 1.5em 0;
-		}
-		h6 {
-				font-size: 17px;
-				margin: 1.67em 0;
-		}
-		p,
-		li,
-		.error,
-		.alert,
-		.notice,
-		.success,
-		.info {
-			font-size: 17px;
-			line-height: 18px; // 18px
-			.font;
-		}
-		#tabs {
-			a {
-					font-size: 17px;
-			}
-		}
-		.content-container {
-			line-height:  1.625em; // 26px
-			li {
-				font-size: 1.188rem; // 19px
-				p {
-					font-size: 1.188rem; // 19px
-				}
-				&.header h2  {
-					font-size: 1.250rem; // 20px
-				}
-			}
-		}
-	}
-	//
-	.l-column,
-	//.l-side-column,
-	//.l-split-narrow,
-	//.l-split-wide,
-	//.l-one-third-column,
-	//.l-two-column,
-	//.l-two-third-column
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column {
-		h1, h2
-		//, h3, h4, h5, h6
-		{
-			.normal;
-			.header-font;
-		}
-	}
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column {
-		h3
-		//, h4, h5, h6
-		{
-//      font-size: 14px;
-			.font;
-			.bold;
-		//  padding-top: 10px;
-		//  display: block;
-		//  clear: both;
-		//  border-bottom: solid 1px #dadada;
-		//  padding-bottom: 6px;
-			text-transform: uppercase;
-		}
-	}
-
-
-
-
-
+@media (min-width: 1px) {
+  .global-nav .l-column,
+  header .l-column,
+  footer .l-column,
+  .global-nav .l-full-width-column,
+  header .l-full-width-column,
+  footer .l-full-width-column,
+  .global-nav .l-main-column,
+  header .l-main-column,
+  footer .l-main-column,
+  .global-nav .l-middle-column,
+  header .l-middle-column,
+  footer .l-middle-column,
+  .global-nav .l-side-column,
+  header .l-side-column,
+  footer .l-side-column,
+  .global-nav .l-split-narrow,
+  header .l-split-narrow,
+  footer .l-split-narrow,
+  .global-nav .l-split-wide,
+  header .l-split-wide,
+  footer .l-split-wide,
+  .global-nav .l-one-third-column,
+  header .l-one-third-column,
+  footer .l-one-third-column,
+  .global-nav .l-two-column,
+  header .l-two-column,
+  footer .l-two-column,
+  .global-nav .l-two-third-column,
+  header .l-two-third-column,
+  footer .l-two-third-column {
+    /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+    /* Document
+		========================================================================== */
+    /**
+			* Add the correct display in IE 9-.
+			*/
+    /**
+			* Correct the font size and margin on `h1` elements within `section` and
+			* `article` contexts in Chrome, Firefox, and Safari.
+			*/
+    /* Grouping content
+				========================================================================== */
+    /**
+			* Add the correct display in IE 9-.
+			* 1. Add the correct display in IE.
+			*/
+    /**
+			* Add the correct margin in IE 8.
+			*/
+    /**
+			* 1. Add the correct box sizing in Firefox.
+			* 2. Show the overflow in Edge and IE.
+			*/
+    /**
+			* 1. Correct the inheritance and scaling of font size in all browsers.
+			* 2. Correct the odd `em` font sizing in all browsers.
+			*/
+    /* Text-level semantics
+				========================================================================== */
+    /**
+			* 1. Remove the gray background on active links in IE 10.
+			* 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+			*/
+    /**
+			* 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+			* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+			*/
+    /**
+			* Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+			*/
+    /**
+			* Add the correct font weight in Chrome, Edge, and Safari.
+			*/
+    /**
+			* 1. Correct the inheritance and scaling of font size in all browsers.
+			* 2. Correct the odd `em` font sizing in all browsers.
+			*/
+    /**
+			* Add the correct font style in Android 4.3-.
+			*/
+    /**
+			* Add the correct background and color in IE 9-.
+			*/
+    /**
+			* Add the correct font size in all browsers.
+			*/
+    /**
+			* Prevent `sub` and `sup` elements from affecting the line height in
+			* all browsers.
+			*/
+    /* Embedded content
+				========================================================================== */
+    /**
+			* Add the correct display in IE 9-.
+			*/
+    /**
+			* Add the correct display in iOS 4-7.
+			*/
+    /**
+			* Remove the border on images inside links in IE 10-.
+			*/
+    /**
+			* Hide the overflow in IE.
+			*/
+    /* Forms
+				========================================================================== */
+    /**
+			* 1. Change the font styles in all browsers (opinionated).
+			* 2. Remove the margin in Firefox and Safari.
+			*/
+    /**
+			* Show the overflow in IE.
+			* 1. Show the overflow in Edge.
+			*/
+    /**
+			* Remove the inheritance of text transform in Edge, Firefox, and IE.
+			* 1. Remove the inheritance of text transform in Firefox.
+			*/
+    /**
+			* 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+			*    controls in Android 4.
+			* 2. Correct the inability to style clickable types in iOS and Safari.
+			*/
+    /**
+			* Remove the inner border and padding in Firefox.
+			*/
+    /**
+			* Restore the focus styles unset by the previous rule.
+			*/
+    /**
+			* Correct the padding in Firefox.
+			*/
+    /**
+			* 1. Correct the text wrapping in Edge and IE.
+			* 2. Correct the color inheritance from `fieldset` elements in IE.
+			* 3. Remove the padding so developers are not caught out when they zero out
+			*    `fieldset` elements in all browsers.
+			*/
+    /**
+			* 1. Add the correct display in IE 9-.
+			* 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+			*/
+    /**
+			* Remove the default vertical scrollbar in IE.
+			*/
+    /**
+			* 1. Add the correct box sizing in IE 10-.
+			* 2. Remove the padding in IE 10-.
+			*/
+    /**
+			* Correct the cursor style of increment and decrement buttons in Chrome.
+			*/
+    /**
+			* 1. Correct the odd appearance in Chrome and Safari.
+			* 2. Correct the outline style in Safari.
+			*/
+    /**
+			* Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+			*/
+    /**
+			* 1. Correct the inability to style clickable types in iOS and Safari.
+			* 2. Change font properties to `inherit` in Safari.
+			*/
+    /* Interactive
+				========================================================================== */
+    /*
+			* Add the correct display in IE 9-.
+			* 1. Add the correct display in Edge, IE, and Firefox.
+			*/
+    /*
+			* Add the correct display in all browsers.
+			*/
+    /* Scripting
+				========================================================================== */
+    /**
+			* Add the correct display in IE 9-.
+			*/
+    /**
+			* Add the correct display in IE.
+			*/
+    /* Hidden
+				========================================================================== */
+    /**
+			* Add the correct display in IE 10-.
+			*/
+  }
+  .global-nav .l-column *,
+  header .l-column *,
+  footer .l-column *,
+  .global-nav .l-full-width-column *,
+  header .l-full-width-column *,
+  footer .l-full-width-column *,
+  .global-nav .l-main-column *,
+  header .l-main-column *,
+  footer .l-main-column *,
+  .global-nav .l-middle-column *,
+  header .l-middle-column *,
+  footer .l-middle-column *,
+  .global-nav .l-side-column *,
+  header .l-side-column *,
+  footer .l-side-column *,
+  .global-nav .l-split-narrow *,
+  header .l-split-narrow *,
+  footer .l-split-narrow *,
+  .global-nav .l-split-wide *,
+  header .l-split-wide *,
+  footer .l-split-wide *,
+  .global-nav .l-one-third-column *,
+  header .l-one-third-column *,
+  footer .l-one-third-column *,
+  .global-nav .l-two-column *,
+  header .l-two-column *,
+  footer .l-two-column *,
+  .global-nav .l-two-third-column *,
+  header .l-two-third-column *,
+  footer .l-two-third-column * {
+    box-sizing: border-box;
+  }
+  .global-nav .l-column p,
+  header .l-column p,
+  footer .l-column p,
+  .global-nav .l-full-width-column p,
+  header .l-full-width-column p,
+  footer .l-full-width-column p,
+  .global-nav .l-main-column p,
+  header .l-main-column p,
+  footer .l-main-column p,
+  .global-nav .l-middle-column p,
+  header .l-middle-column p,
+  footer .l-middle-column p,
+  .global-nav .l-side-column p,
+  header .l-side-column p,
+  footer .l-side-column p,
+  .global-nav .l-split-narrow p,
+  header .l-split-narrow p,
+  footer .l-split-narrow p,
+  .global-nav .l-split-wide p,
+  header .l-split-wide p,
+  footer .l-split-wide p,
+  .global-nav .l-one-third-column p,
+  header .l-one-third-column p,
+  footer .l-one-third-column p,
+  .global-nav .l-two-column p,
+  header .l-two-column p,
+  footer .l-two-column p,
+  .global-nav .l-two-third-column p,
+  header .l-two-third-column p,
+  footer .l-two-third-column p,
+  .global-nav .l-column li,
+  header .l-column li,
+  footer .l-column li,
+  .global-nav .l-full-width-column li,
+  header .l-full-width-column li,
+  footer .l-full-width-column li,
+  .global-nav .l-main-column li,
+  header .l-main-column li,
+  footer .l-main-column li,
+  .global-nav .l-middle-column li,
+  header .l-middle-column li,
+  footer .l-middle-column li,
+  .global-nav .l-side-column li,
+  header .l-side-column li,
+  footer .l-side-column li,
+  .global-nav .l-split-narrow li,
+  header .l-split-narrow li,
+  footer .l-split-narrow li,
+  .global-nav .l-split-wide li,
+  header .l-split-wide li,
+  footer .l-split-wide li,
+  .global-nav .l-one-third-column li,
+  header .l-one-third-column li,
+  footer .l-one-third-column li,
+  .global-nav .l-two-column li,
+  header .l-two-column li,
+  footer .l-two-column li,
+  .global-nav .l-two-third-column li,
+  header .l-two-third-column li,
+  footer .l-two-third-column li,
+  .global-nav .l-column .error,
+  header .l-column .error,
+  footer .l-column .error,
+  .global-nav .l-full-width-column .error,
+  header .l-full-width-column .error,
+  footer .l-full-width-column .error,
+  .global-nav .l-main-column .error,
+  header .l-main-column .error,
+  footer .l-main-column .error,
+  .global-nav .l-middle-column .error,
+  header .l-middle-column .error,
+  footer .l-middle-column .error,
+  .global-nav .l-side-column .error,
+  header .l-side-column .error,
+  footer .l-side-column .error,
+  .global-nav .l-split-narrow .error,
+  header .l-split-narrow .error,
+  footer .l-split-narrow .error,
+  .global-nav .l-split-wide .error,
+  header .l-split-wide .error,
+  footer .l-split-wide .error,
+  .global-nav .l-one-third-column .error,
+  header .l-one-third-column .error,
+  footer .l-one-third-column .error,
+  .global-nav .l-two-column .error,
+  header .l-two-column .error,
+  footer .l-two-column .error,
+  .global-nav .l-two-third-column .error,
+  header .l-two-third-column .error,
+  footer .l-two-third-column .error,
+  .global-nav .l-column .alert,
+  header .l-column .alert,
+  footer .l-column .alert,
+  .global-nav .l-full-width-column .alert,
+  header .l-full-width-column .alert,
+  footer .l-full-width-column .alert,
+  .global-nav .l-main-column .alert,
+  header .l-main-column .alert,
+  footer .l-main-column .alert,
+  .global-nav .l-middle-column .alert,
+  header .l-middle-column .alert,
+  footer .l-middle-column .alert,
+  .global-nav .l-side-column .alert,
+  header .l-side-column .alert,
+  footer .l-side-column .alert,
+  .global-nav .l-split-narrow .alert,
+  header .l-split-narrow .alert,
+  footer .l-split-narrow .alert,
+  .global-nav .l-split-wide .alert,
+  header .l-split-wide .alert,
+  footer .l-split-wide .alert,
+  .global-nav .l-one-third-column .alert,
+  header .l-one-third-column .alert,
+  footer .l-one-third-column .alert,
+  .global-nav .l-two-column .alert,
+  header .l-two-column .alert,
+  footer .l-two-column .alert,
+  .global-nav .l-two-third-column .alert,
+  header .l-two-third-column .alert,
+  footer .l-two-third-column .alert,
+  .global-nav .l-column .notice,
+  header .l-column .notice,
+  footer .l-column .notice,
+  .global-nav .l-full-width-column .notice,
+  header .l-full-width-column .notice,
+  footer .l-full-width-column .notice,
+  .global-nav .l-main-column .notice,
+  header .l-main-column .notice,
+  footer .l-main-column .notice,
+  .global-nav .l-middle-column .notice,
+  header .l-middle-column .notice,
+  footer .l-middle-column .notice,
+  .global-nav .l-side-column .notice,
+  header .l-side-column .notice,
+  footer .l-side-column .notice,
+  .global-nav .l-split-narrow .notice,
+  header .l-split-narrow .notice,
+  footer .l-split-narrow .notice,
+  .global-nav .l-split-wide .notice,
+  header .l-split-wide .notice,
+  footer .l-split-wide .notice,
+  .global-nav .l-one-third-column .notice,
+  header .l-one-third-column .notice,
+  footer .l-one-third-column .notice,
+  .global-nav .l-two-column .notice,
+  header .l-two-column .notice,
+  footer .l-two-column .notice,
+  .global-nav .l-two-third-column .notice,
+  header .l-two-third-column .notice,
+  footer .l-two-third-column .notice,
+  .global-nav .l-column .success,
+  header .l-column .success,
+  footer .l-column .success,
+  .global-nav .l-full-width-column .success,
+  header .l-full-width-column .success,
+  footer .l-full-width-column .success,
+  .global-nav .l-main-column .success,
+  header .l-main-column .success,
+  footer .l-main-column .success,
+  .global-nav .l-middle-column .success,
+  header .l-middle-column .success,
+  footer .l-middle-column .success,
+  .global-nav .l-side-column .success,
+  header .l-side-column .success,
+  footer .l-side-column .success,
+  .global-nav .l-split-narrow .success,
+  header .l-split-narrow .success,
+  footer .l-split-narrow .success,
+  .global-nav .l-split-wide .success,
+  header .l-split-wide .success,
+  footer .l-split-wide .success,
+  .global-nav .l-one-third-column .success,
+  header .l-one-third-column .success,
+  footer .l-one-third-column .success,
+  .global-nav .l-two-column .success,
+  header .l-two-column .success,
+  footer .l-two-column .success,
+  .global-nav .l-two-third-column .success,
+  header .l-two-third-column .success,
+  footer .l-two-third-column .success,
+  .global-nav .l-column .info,
+  header .l-column .info,
+  footer .l-column .info,
+  .global-nav .l-full-width-column .info,
+  header .l-full-width-column .info,
+  footer .l-full-width-column .info,
+  .global-nav .l-main-column .info,
+  header .l-main-column .info,
+  footer .l-main-column .info,
+  .global-nav .l-middle-column .info,
+  header .l-middle-column .info,
+  footer .l-middle-column .info,
+  .global-nav .l-side-column .info,
+  header .l-side-column .info,
+  footer .l-side-column .info,
+  .global-nav .l-split-narrow .info,
+  header .l-split-narrow .info,
+  footer .l-split-narrow .info,
+  .global-nav .l-split-wide .info,
+  header .l-split-wide .info,
+  footer .l-split-wide .info,
+  .global-nav .l-one-third-column .info,
+  header .l-one-third-column .info,
+  footer .l-one-third-column .info,
+  .global-nav .l-two-column .info,
+  header .l-two-column .info,
+  footer .l-two-column .info,
+  .global-nav .l-two-third-column .info,
+  header .l-two-third-column .info,
+  footer .l-two-third-column .info {
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+  }
+  .global-nav .l-column article,
+  header .l-column article,
+  footer .l-column article,
+  .global-nav .l-full-width-column article,
+  header .l-full-width-column article,
+  footer .l-full-width-column article,
+  .global-nav .l-main-column article,
+  header .l-main-column article,
+  footer .l-main-column article,
+  .global-nav .l-middle-column article,
+  header .l-middle-column article,
+  footer .l-middle-column article,
+  .global-nav .l-side-column article,
+  header .l-side-column article,
+  footer .l-side-column article,
+  .global-nav .l-split-narrow article,
+  header .l-split-narrow article,
+  footer .l-split-narrow article,
+  .global-nav .l-split-wide article,
+  header .l-split-wide article,
+  footer .l-split-wide article,
+  .global-nav .l-one-third-column article,
+  header .l-one-third-column article,
+  footer .l-one-third-column article,
+  .global-nav .l-two-column article,
+  header .l-two-column article,
+  footer .l-two-column article,
+  .global-nav .l-two-third-column article,
+  header .l-two-third-column article,
+  footer .l-two-third-column article,
+  .global-nav .l-column aside,
+  header .l-column aside,
+  footer .l-column aside,
+  .global-nav .l-full-width-column aside,
+  header .l-full-width-column aside,
+  footer .l-full-width-column aside,
+  .global-nav .l-main-column aside,
+  header .l-main-column aside,
+  footer .l-main-column aside,
+  .global-nav .l-middle-column aside,
+  header .l-middle-column aside,
+  footer .l-middle-column aside,
+  .global-nav .l-side-column aside,
+  header .l-side-column aside,
+  footer .l-side-column aside,
+  .global-nav .l-split-narrow aside,
+  header .l-split-narrow aside,
+  footer .l-split-narrow aside,
+  .global-nav .l-split-wide aside,
+  header .l-split-wide aside,
+  footer .l-split-wide aside,
+  .global-nav .l-one-third-column aside,
+  header .l-one-third-column aside,
+  footer .l-one-third-column aside,
+  .global-nav .l-two-column aside,
+  header .l-two-column aside,
+  footer .l-two-column aside,
+  .global-nav .l-two-third-column aside,
+  header .l-two-third-column aside,
+  footer .l-two-third-column aside,
+  .global-nav .l-column footer,
+  header .l-column footer,
+  footer .l-column footer,
+  .global-nav .l-full-width-column footer,
+  header .l-full-width-column footer,
+  footer .l-full-width-column footer,
+  .global-nav .l-main-column footer,
+  header .l-main-column footer,
+  footer .l-main-column footer,
+  .global-nav .l-middle-column footer,
+  header .l-middle-column footer,
+  footer .l-middle-column footer,
+  .global-nav .l-side-column footer,
+  header .l-side-column footer,
+  footer .l-side-column footer,
+  .global-nav .l-split-narrow footer,
+  header .l-split-narrow footer,
+  footer .l-split-narrow footer,
+  .global-nav .l-split-wide footer,
+  header .l-split-wide footer,
+  footer .l-split-wide footer,
+  .global-nav .l-one-third-column footer,
+  header .l-one-third-column footer,
+  footer .l-one-third-column footer,
+  .global-nav .l-two-column footer,
+  header .l-two-column footer,
+  footer .l-two-column footer,
+  .global-nav .l-two-third-column footer,
+  header .l-two-third-column footer,
+  footer .l-two-third-column footer,
+  .global-nav .l-column header,
+  header .l-column header,
+  footer .l-column header,
+  .global-nav .l-full-width-column header,
+  header .l-full-width-column header,
+  footer .l-full-width-column header,
+  .global-nav .l-main-column header,
+  header .l-main-column header,
+  footer .l-main-column header,
+  .global-nav .l-middle-column header,
+  header .l-middle-column header,
+  footer .l-middle-column header,
+  .global-nav .l-side-column header,
+  header .l-side-column header,
+  footer .l-side-column header,
+  .global-nav .l-split-narrow header,
+  header .l-split-narrow header,
+  footer .l-split-narrow header,
+  .global-nav .l-split-wide header,
+  header .l-split-wide header,
+  footer .l-split-wide header,
+  .global-nav .l-one-third-column header,
+  header .l-one-third-column header,
+  footer .l-one-third-column header,
+  .global-nav .l-two-column header,
+  header .l-two-column header,
+  footer .l-two-column header,
+  .global-nav .l-two-third-column header,
+  header .l-two-third-column header,
+  footer .l-two-third-column header,
+  .global-nav .l-column nav,
+  header .l-column nav,
+  footer .l-column nav,
+  .global-nav .l-full-width-column nav,
+  header .l-full-width-column nav,
+  footer .l-full-width-column nav,
+  .global-nav .l-main-column nav,
+  header .l-main-column nav,
+  footer .l-main-column nav,
+  .global-nav .l-middle-column nav,
+  header .l-middle-column nav,
+  footer .l-middle-column nav,
+  .global-nav .l-side-column nav,
+  header .l-side-column nav,
+  footer .l-side-column nav,
+  .global-nav .l-split-narrow nav,
+  header .l-split-narrow nav,
+  footer .l-split-narrow nav,
+  .global-nav .l-split-wide nav,
+  header .l-split-wide nav,
+  footer .l-split-wide nav,
+  .global-nav .l-one-third-column nav,
+  header .l-one-third-column nav,
+  footer .l-one-third-column nav,
+  .global-nav .l-two-column nav,
+  header .l-two-column nav,
+  footer .l-two-column nav,
+  .global-nav .l-two-third-column nav,
+  header .l-two-third-column nav,
+  footer .l-two-third-column nav,
+  .global-nav .l-column section,
+  header .l-column section,
+  footer .l-column section,
+  .global-nav .l-full-width-column section,
+  header .l-full-width-column section,
+  footer .l-full-width-column section,
+  .global-nav .l-main-column section,
+  header .l-main-column section,
+  footer .l-main-column section,
+  .global-nav .l-middle-column section,
+  header .l-middle-column section,
+  footer .l-middle-column section,
+  .global-nav .l-side-column section,
+  header .l-side-column section,
+  footer .l-side-column section,
+  .global-nav .l-split-narrow section,
+  header .l-split-narrow section,
+  footer .l-split-narrow section,
+  .global-nav .l-split-wide section,
+  header .l-split-wide section,
+  footer .l-split-wide section,
+  .global-nav .l-one-third-column section,
+  header .l-one-third-column section,
+  footer .l-one-third-column section,
+  .global-nav .l-two-column section,
+  header .l-two-column section,
+  footer .l-two-column section,
+  .global-nav .l-two-third-column section,
+  header .l-two-third-column section,
+  footer .l-two-third-column section {
+    display: block;
+  }
+  .global-nav .l-column h1,
+  header .l-column h1,
+  footer .l-column h1,
+  .global-nav .l-full-width-column h1,
+  header .l-full-width-column h1,
+  footer .l-full-width-column h1,
+  .global-nav .l-main-column h1,
+  header .l-main-column h1,
+  footer .l-main-column h1,
+  .global-nav .l-middle-column h1,
+  header .l-middle-column h1,
+  footer .l-middle-column h1,
+  .global-nav .l-side-column h1,
+  header .l-side-column h1,
+  footer .l-side-column h1,
+  .global-nav .l-split-narrow h1,
+  header .l-split-narrow h1,
+  footer .l-split-narrow h1,
+  .global-nav .l-split-wide h1,
+  header .l-split-wide h1,
+  footer .l-split-wide h1,
+  .global-nav .l-one-third-column h1,
+  header .l-one-third-column h1,
+  footer .l-one-third-column h1,
+  .global-nav .l-two-column h1,
+  header .l-two-column h1,
+  footer .l-two-column h1,
+  .global-nav .l-two-third-column h1,
+  header .l-two-third-column h1,
+  footer .l-two-third-column h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  .global-nav .l-column figcaption,
+  header .l-column figcaption,
+  footer .l-column figcaption,
+  .global-nav .l-full-width-column figcaption,
+  header .l-full-width-column figcaption,
+  footer .l-full-width-column figcaption,
+  .global-nav .l-main-column figcaption,
+  header .l-main-column figcaption,
+  footer .l-main-column figcaption,
+  .global-nav .l-middle-column figcaption,
+  header .l-middle-column figcaption,
+  footer .l-middle-column figcaption,
+  .global-nav .l-side-column figcaption,
+  header .l-side-column figcaption,
+  footer .l-side-column figcaption,
+  .global-nav .l-split-narrow figcaption,
+  header .l-split-narrow figcaption,
+  footer .l-split-narrow figcaption,
+  .global-nav .l-split-wide figcaption,
+  header .l-split-wide figcaption,
+  footer .l-split-wide figcaption,
+  .global-nav .l-one-third-column figcaption,
+  header .l-one-third-column figcaption,
+  footer .l-one-third-column figcaption,
+  .global-nav .l-two-column figcaption,
+  header .l-two-column figcaption,
+  footer .l-two-column figcaption,
+  .global-nav .l-two-third-column figcaption,
+  header .l-two-third-column figcaption,
+  footer .l-two-third-column figcaption,
+  .global-nav .l-column figure,
+  header .l-column figure,
+  footer .l-column figure,
+  .global-nav .l-full-width-column figure,
+  header .l-full-width-column figure,
+  footer .l-full-width-column figure,
+  .global-nav .l-main-column figure,
+  header .l-main-column figure,
+  footer .l-main-column figure,
+  .global-nav .l-middle-column figure,
+  header .l-middle-column figure,
+  footer .l-middle-column figure,
+  .global-nav .l-side-column figure,
+  header .l-side-column figure,
+  footer .l-side-column figure,
+  .global-nav .l-split-narrow figure,
+  header .l-split-narrow figure,
+  footer .l-split-narrow figure,
+  .global-nav .l-split-wide figure,
+  header .l-split-wide figure,
+  footer .l-split-wide figure,
+  .global-nav .l-one-third-column figure,
+  header .l-one-third-column figure,
+  footer .l-one-third-column figure,
+  .global-nav .l-two-column figure,
+  header .l-two-column figure,
+  footer .l-two-column figure,
+  .global-nav .l-two-third-column figure,
+  header .l-two-third-column figure,
+  footer .l-two-third-column figure,
+  .global-nav .l-column main,
+  header .l-column main,
+  footer .l-column main,
+  .global-nav .l-full-width-column main,
+  header .l-full-width-column main,
+  footer .l-full-width-column main,
+  .global-nav .l-main-column main,
+  header .l-main-column main,
+  footer .l-main-column main,
+  .global-nav .l-middle-column main,
+  header .l-middle-column main,
+  footer .l-middle-column main,
+  .global-nav .l-side-column main,
+  header .l-side-column main,
+  footer .l-side-column main,
+  .global-nav .l-split-narrow main,
+  header .l-split-narrow main,
+  footer .l-split-narrow main,
+  .global-nav .l-split-wide main,
+  header .l-split-wide main,
+  footer .l-split-wide main,
+  .global-nav .l-one-third-column main,
+  header .l-one-third-column main,
+  footer .l-one-third-column main,
+  .global-nav .l-two-column main,
+  header .l-two-column main,
+  footer .l-two-column main,
+  .global-nav .l-two-third-column main,
+  header .l-two-third-column main,
+  footer .l-two-third-column main {
+    /* 1 */
+    display: block;
+  }
+  .global-nav .l-column figure,
+  header .l-column figure,
+  footer .l-column figure,
+  .global-nav .l-full-width-column figure,
+  header .l-full-width-column figure,
+  footer .l-full-width-column figure,
+  .global-nav .l-main-column figure,
+  header .l-main-column figure,
+  footer .l-main-column figure,
+  .global-nav .l-middle-column figure,
+  header .l-middle-column figure,
+  footer .l-middle-column figure,
+  .global-nav .l-side-column figure,
+  header .l-side-column figure,
+  footer .l-side-column figure,
+  .global-nav .l-split-narrow figure,
+  header .l-split-narrow figure,
+  footer .l-split-narrow figure,
+  .global-nav .l-split-wide figure,
+  header .l-split-wide figure,
+  footer .l-split-wide figure,
+  .global-nav .l-one-third-column figure,
+  header .l-one-third-column figure,
+  footer .l-one-third-column figure,
+  .global-nav .l-two-column figure,
+  header .l-two-column figure,
+  footer .l-two-column figure,
+  .global-nav .l-two-third-column figure,
+  header .l-two-third-column figure,
+  footer .l-two-third-column figure {
+    margin: 1em 40px;
+  }
+  .global-nav .l-column hr,
+  header .l-column hr,
+  footer .l-column hr,
+  .global-nav .l-full-width-column hr,
+  header .l-full-width-column hr,
+  footer .l-full-width-column hr,
+  .global-nav .l-main-column hr,
+  header .l-main-column hr,
+  footer .l-main-column hr,
+  .global-nav .l-middle-column hr,
+  header .l-middle-column hr,
+  footer .l-middle-column hr,
+  .global-nav .l-side-column hr,
+  header .l-side-column hr,
+  footer .l-side-column hr,
+  .global-nav .l-split-narrow hr,
+  header .l-split-narrow hr,
+  footer .l-split-narrow hr,
+  .global-nav .l-split-wide hr,
+  header .l-split-wide hr,
+  footer .l-split-wide hr,
+  .global-nav .l-one-third-column hr,
+  header .l-one-third-column hr,
+  footer .l-one-third-column hr,
+  .global-nav .l-two-column hr,
+  header .l-two-column hr,
+  footer .l-two-column hr,
+  .global-nav .l-two-third-column hr,
+  header .l-two-third-column hr,
+  footer .l-two-third-column hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+  }
+  .global-nav .l-column pre,
+  header .l-column pre,
+  footer .l-column pre,
+  .global-nav .l-full-width-column pre,
+  header .l-full-width-column pre,
+  footer .l-full-width-column pre,
+  .global-nav .l-main-column pre,
+  header .l-main-column pre,
+  footer .l-main-column pre,
+  .global-nav .l-middle-column pre,
+  header .l-middle-column pre,
+  footer .l-middle-column pre,
+  .global-nav .l-side-column pre,
+  header .l-side-column pre,
+  footer .l-side-column pre,
+  .global-nav .l-split-narrow pre,
+  header .l-split-narrow pre,
+  footer .l-split-narrow pre,
+  .global-nav .l-split-wide pre,
+  header .l-split-wide pre,
+  footer .l-split-wide pre,
+  .global-nav .l-one-third-column pre,
+  header .l-one-third-column pre,
+  footer .l-one-third-column pre,
+  .global-nav .l-two-column pre,
+  header .l-two-column pre,
+  footer .l-two-column pre,
+  .global-nav .l-two-third-column pre,
+  header .l-two-third-column pre,
+  footer .l-two-third-column pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+  }
+  .global-nav .l-column a,
+  header .l-column a,
+  footer .l-column a,
+  .global-nav .l-full-width-column a,
+  header .l-full-width-column a,
+  footer .l-full-width-column a,
+  .global-nav .l-main-column a,
+  header .l-main-column a,
+  footer .l-main-column a,
+  .global-nav .l-middle-column a,
+  header .l-middle-column a,
+  footer .l-middle-column a,
+  .global-nav .l-side-column a,
+  header .l-side-column a,
+  footer .l-side-column a,
+  .global-nav .l-split-narrow a,
+  header .l-split-narrow a,
+  footer .l-split-narrow a,
+  .global-nav .l-split-wide a,
+  header .l-split-wide a,
+  footer .l-split-wide a,
+  .global-nav .l-one-third-column a,
+  header .l-one-third-column a,
+  footer .l-one-third-column a,
+  .global-nav .l-two-column a,
+  header .l-two-column a,
+  footer .l-two-column a,
+  .global-nav .l-two-third-column a,
+  header .l-two-third-column a,
+  footer .l-two-third-column a {
+    background-color: transparent;
+    /* 1 */
+    -webkit-text-decoration-skip: objects;
+    /* 2 */
+  }
+  .global-nav .l-column abbr[title],
+  header .l-column abbr[title],
+  footer .l-column abbr[title],
+  .global-nav .l-full-width-column abbr[title],
+  header .l-full-width-column abbr[title],
+  footer .l-full-width-column abbr[title],
+  .global-nav .l-main-column abbr[title],
+  header .l-main-column abbr[title],
+  footer .l-main-column abbr[title],
+  .global-nav .l-middle-column abbr[title],
+  header .l-middle-column abbr[title],
+  footer .l-middle-column abbr[title],
+  .global-nav .l-side-column abbr[title],
+  header .l-side-column abbr[title],
+  footer .l-side-column abbr[title],
+  .global-nav .l-split-narrow abbr[title],
+  header .l-split-narrow abbr[title],
+  footer .l-split-narrow abbr[title],
+  .global-nav .l-split-wide abbr[title],
+  header .l-split-wide abbr[title],
+  footer .l-split-wide abbr[title],
+  .global-nav .l-one-third-column abbr[title],
+  header .l-one-third-column abbr[title],
+  footer .l-one-third-column abbr[title],
+  .global-nav .l-two-column abbr[title],
+  header .l-two-column abbr[title],
+  footer .l-two-column abbr[title],
+  .global-nav .l-two-third-column abbr[title],
+  header .l-two-third-column abbr[title],
+  footer .l-two-third-column abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
+  }
+  .global-nav .l-column b,
+  header .l-column b,
+  footer .l-column b,
+  .global-nav .l-full-width-column b,
+  header .l-full-width-column b,
+  footer .l-full-width-column b,
+  .global-nav .l-main-column b,
+  header .l-main-column b,
+  footer .l-main-column b,
+  .global-nav .l-middle-column b,
+  header .l-middle-column b,
+  footer .l-middle-column b,
+  .global-nav .l-side-column b,
+  header .l-side-column b,
+  footer .l-side-column b,
+  .global-nav .l-split-narrow b,
+  header .l-split-narrow b,
+  footer .l-split-narrow b,
+  .global-nav .l-split-wide b,
+  header .l-split-wide b,
+  footer .l-split-wide b,
+  .global-nav .l-one-third-column b,
+  header .l-one-third-column b,
+  footer .l-one-third-column b,
+  .global-nav .l-two-column b,
+  header .l-two-column b,
+  footer .l-two-column b,
+  .global-nav .l-two-third-column b,
+  header .l-two-third-column b,
+  footer .l-two-third-column b,
+  .global-nav .l-column strong,
+  header .l-column strong,
+  footer .l-column strong,
+  .global-nav .l-full-width-column strong,
+  header .l-full-width-column strong,
+  footer .l-full-width-column strong,
+  .global-nav .l-main-column strong,
+  header .l-main-column strong,
+  footer .l-main-column strong,
+  .global-nav .l-middle-column strong,
+  header .l-middle-column strong,
+  footer .l-middle-column strong,
+  .global-nav .l-side-column strong,
+  header .l-side-column strong,
+  footer .l-side-column strong,
+  .global-nav .l-split-narrow strong,
+  header .l-split-narrow strong,
+  footer .l-split-narrow strong,
+  .global-nav .l-split-wide strong,
+  header .l-split-wide strong,
+  footer .l-split-wide strong,
+  .global-nav .l-one-third-column strong,
+  header .l-one-third-column strong,
+  footer .l-one-third-column strong,
+  .global-nav .l-two-column strong,
+  header .l-two-column strong,
+  footer .l-two-column strong,
+  .global-nav .l-two-third-column strong,
+  header .l-two-third-column strong,
+  footer .l-two-third-column strong {
+    font-weight: inherit;
+  }
+  .global-nav .l-column b,
+  header .l-column b,
+  footer .l-column b,
+  .global-nav .l-full-width-column b,
+  header .l-full-width-column b,
+  footer .l-full-width-column b,
+  .global-nav .l-main-column b,
+  header .l-main-column b,
+  footer .l-main-column b,
+  .global-nav .l-middle-column b,
+  header .l-middle-column b,
+  footer .l-middle-column b,
+  .global-nav .l-side-column b,
+  header .l-side-column b,
+  footer .l-side-column b,
+  .global-nav .l-split-narrow b,
+  header .l-split-narrow b,
+  footer .l-split-narrow b,
+  .global-nav .l-split-wide b,
+  header .l-split-wide b,
+  footer .l-split-wide b,
+  .global-nav .l-one-third-column b,
+  header .l-one-third-column b,
+  footer .l-one-third-column b,
+  .global-nav .l-two-column b,
+  header .l-two-column b,
+  footer .l-two-column b,
+  .global-nav .l-two-third-column b,
+  header .l-two-third-column b,
+  footer .l-two-third-column b,
+  .global-nav .l-column strong,
+  header .l-column strong,
+  footer .l-column strong,
+  .global-nav .l-full-width-column strong,
+  header .l-full-width-column strong,
+  footer .l-full-width-column strong,
+  .global-nav .l-main-column strong,
+  header .l-main-column strong,
+  footer .l-main-column strong,
+  .global-nav .l-middle-column strong,
+  header .l-middle-column strong,
+  footer .l-middle-column strong,
+  .global-nav .l-side-column strong,
+  header .l-side-column strong,
+  footer .l-side-column strong,
+  .global-nav .l-split-narrow strong,
+  header .l-split-narrow strong,
+  footer .l-split-narrow strong,
+  .global-nav .l-split-wide strong,
+  header .l-split-wide strong,
+  footer .l-split-wide strong,
+  .global-nav .l-one-third-column strong,
+  header .l-one-third-column strong,
+  footer .l-one-third-column strong,
+  .global-nav .l-two-column strong,
+  header .l-two-column strong,
+  footer .l-two-column strong,
+  .global-nav .l-two-third-column strong,
+  header .l-two-third-column strong,
+  footer .l-two-third-column strong {
+    font-weight: bolder;
+  }
+  .global-nav .l-column code,
+  header .l-column code,
+  footer .l-column code,
+  .global-nav .l-full-width-column code,
+  header .l-full-width-column code,
+  footer .l-full-width-column code,
+  .global-nav .l-main-column code,
+  header .l-main-column code,
+  footer .l-main-column code,
+  .global-nav .l-middle-column code,
+  header .l-middle-column code,
+  footer .l-middle-column code,
+  .global-nav .l-side-column code,
+  header .l-side-column code,
+  footer .l-side-column code,
+  .global-nav .l-split-narrow code,
+  header .l-split-narrow code,
+  footer .l-split-narrow code,
+  .global-nav .l-split-wide code,
+  header .l-split-wide code,
+  footer .l-split-wide code,
+  .global-nav .l-one-third-column code,
+  header .l-one-third-column code,
+  footer .l-one-third-column code,
+  .global-nav .l-two-column code,
+  header .l-two-column code,
+  footer .l-two-column code,
+  .global-nav .l-two-third-column code,
+  header .l-two-third-column code,
+  footer .l-two-third-column code,
+  .global-nav .l-column kbd,
+  header .l-column kbd,
+  footer .l-column kbd,
+  .global-nav .l-full-width-column kbd,
+  header .l-full-width-column kbd,
+  footer .l-full-width-column kbd,
+  .global-nav .l-main-column kbd,
+  header .l-main-column kbd,
+  footer .l-main-column kbd,
+  .global-nav .l-middle-column kbd,
+  header .l-middle-column kbd,
+  footer .l-middle-column kbd,
+  .global-nav .l-side-column kbd,
+  header .l-side-column kbd,
+  footer .l-side-column kbd,
+  .global-nav .l-split-narrow kbd,
+  header .l-split-narrow kbd,
+  footer .l-split-narrow kbd,
+  .global-nav .l-split-wide kbd,
+  header .l-split-wide kbd,
+  footer .l-split-wide kbd,
+  .global-nav .l-one-third-column kbd,
+  header .l-one-third-column kbd,
+  footer .l-one-third-column kbd,
+  .global-nav .l-two-column kbd,
+  header .l-two-column kbd,
+  footer .l-two-column kbd,
+  .global-nav .l-two-third-column kbd,
+  header .l-two-third-column kbd,
+  footer .l-two-third-column kbd,
+  .global-nav .l-column samp,
+  header .l-column samp,
+  footer .l-column samp,
+  .global-nav .l-full-width-column samp,
+  header .l-full-width-column samp,
+  footer .l-full-width-column samp,
+  .global-nav .l-main-column samp,
+  header .l-main-column samp,
+  footer .l-main-column samp,
+  .global-nav .l-middle-column samp,
+  header .l-middle-column samp,
+  footer .l-middle-column samp,
+  .global-nav .l-side-column samp,
+  header .l-side-column samp,
+  footer .l-side-column samp,
+  .global-nav .l-split-narrow samp,
+  header .l-split-narrow samp,
+  footer .l-split-narrow samp,
+  .global-nav .l-split-wide samp,
+  header .l-split-wide samp,
+  footer .l-split-wide samp,
+  .global-nav .l-one-third-column samp,
+  header .l-one-third-column samp,
+  footer .l-one-third-column samp,
+  .global-nav .l-two-column samp,
+  header .l-two-column samp,
+  footer .l-two-column samp,
+  .global-nav .l-two-third-column samp,
+  header .l-two-third-column samp,
+  footer .l-two-third-column samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+  }
+  .global-nav .l-column dfn,
+  header .l-column dfn,
+  footer .l-column dfn,
+  .global-nav .l-full-width-column dfn,
+  header .l-full-width-column dfn,
+  footer .l-full-width-column dfn,
+  .global-nav .l-main-column dfn,
+  header .l-main-column dfn,
+  footer .l-main-column dfn,
+  .global-nav .l-middle-column dfn,
+  header .l-middle-column dfn,
+  footer .l-middle-column dfn,
+  .global-nav .l-side-column dfn,
+  header .l-side-column dfn,
+  footer .l-side-column dfn,
+  .global-nav .l-split-narrow dfn,
+  header .l-split-narrow dfn,
+  footer .l-split-narrow dfn,
+  .global-nav .l-split-wide dfn,
+  header .l-split-wide dfn,
+  footer .l-split-wide dfn,
+  .global-nav .l-one-third-column dfn,
+  header .l-one-third-column dfn,
+  footer .l-one-third-column dfn,
+  .global-nav .l-two-column dfn,
+  header .l-two-column dfn,
+  footer .l-two-column dfn,
+  .global-nav .l-two-third-column dfn,
+  header .l-two-third-column dfn,
+  footer .l-two-third-column dfn {
+    font-style: italic;
+  }
+  .global-nav .l-column mark,
+  header .l-column mark,
+  footer .l-column mark,
+  .global-nav .l-full-width-column mark,
+  header .l-full-width-column mark,
+  footer .l-full-width-column mark,
+  .global-nav .l-main-column mark,
+  header .l-main-column mark,
+  footer .l-main-column mark,
+  .global-nav .l-middle-column mark,
+  header .l-middle-column mark,
+  footer .l-middle-column mark,
+  .global-nav .l-side-column mark,
+  header .l-side-column mark,
+  footer .l-side-column mark,
+  .global-nav .l-split-narrow mark,
+  header .l-split-narrow mark,
+  footer .l-split-narrow mark,
+  .global-nav .l-split-wide mark,
+  header .l-split-wide mark,
+  footer .l-split-wide mark,
+  .global-nav .l-one-third-column mark,
+  header .l-one-third-column mark,
+  footer .l-one-third-column mark,
+  .global-nav .l-two-column mark,
+  header .l-two-column mark,
+  footer .l-two-column mark,
+  .global-nav .l-two-third-column mark,
+  header .l-two-third-column mark,
+  footer .l-two-third-column mark {
+    background-color: #ff0;
+    color: #000;
+  }
+  .global-nav .l-column small,
+  header .l-column small,
+  footer .l-column small,
+  .global-nav .l-full-width-column small,
+  header .l-full-width-column small,
+  footer .l-full-width-column small,
+  .global-nav .l-main-column small,
+  header .l-main-column small,
+  footer .l-main-column small,
+  .global-nav .l-middle-column small,
+  header .l-middle-column small,
+  footer .l-middle-column small,
+  .global-nav .l-side-column small,
+  header .l-side-column small,
+  footer .l-side-column small,
+  .global-nav .l-split-narrow small,
+  header .l-split-narrow small,
+  footer .l-split-narrow small,
+  .global-nav .l-split-wide small,
+  header .l-split-wide small,
+  footer .l-split-wide small,
+  .global-nav .l-one-third-column small,
+  header .l-one-third-column small,
+  footer .l-one-third-column small,
+  .global-nav .l-two-column small,
+  header .l-two-column small,
+  footer .l-two-column small,
+  .global-nav .l-two-third-column small,
+  header .l-two-third-column small,
+  footer .l-two-third-column small {
+    font-size: 80%;
+  }
+  .global-nav .l-column sub,
+  header .l-column sub,
+  footer .l-column sub,
+  .global-nav .l-full-width-column sub,
+  header .l-full-width-column sub,
+  footer .l-full-width-column sub,
+  .global-nav .l-main-column sub,
+  header .l-main-column sub,
+  footer .l-main-column sub,
+  .global-nav .l-middle-column sub,
+  header .l-middle-column sub,
+  footer .l-middle-column sub,
+  .global-nav .l-side-column sub,
+  header .l-side-column sub,
+  footer .l-side-column sub,
+  .global-nav .l-split-narrow sub,
+  header .l-split-narrow sub,
+  footer .l-split-narrow sub,
+  .global-nav .l-split-wide sub,
+  header .l-split-wide sub,
+  footer .l-split-wide sub,
+  .global-nav .l-one-third-column sub,
+  header .l-one-third-column sub,
+  footer .l-one-third-column sub,
+  .global-nav .l-two-column sub,
+  header .l-two-column sub,
+  footer .l-two-column sub,
+  .global-nav .l-two-third-column sub,
+  header .l-two-third-column sub,
+  footer .l-two-third-column sub,
+  .global-nav .l-column sup,
+  header .l-column sup,
+  footer .l-column sup,
+  .global-nav .l-full-width-column sup,
+  header .l-full-width-column sup,
+  footer .l-full-width-column sup,
+  .global-nav .l-main-column sup,
+  header .l-main-column sup,
+  footer .l-main-column sup,
+  .global-nav .l-middle-column sup,
+  header .l-middle-column sup,
+  footer .l-middle-column sup,
+  .global-nav .l-side-column sup,
+  header .l-side-column sup,
+  footer .l-side-column sup,
+  .global-nav .l-split-narrow sup,
+  header .l-split-narrow sup,
+  footer .l-split-narrow sup,
+  .global-nav .l-split-wide sup,
+  header .l-split-wide sup,
+  footer .l-split-wide sup,
+  .global-nav .l-one-third-column sup,
+  header .l-one-third-column sup,
+  footer .l-one-third-column sup,
+  .global-nav .l-two-column sup,
+  header .l-two-column sup,
+  footer .l-two-column sup,
+  .global-nav .l-two-third-column sup,
+  header .l-two-third-column sup,
+  footer .l-two-third-column sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  .global-nav .l-column sub,
+  header .l-column sub,
+  footer .l-column sub,
+  .global-nav .l-full-width-column sub,
+  header .l-full-width-column sub,
+  footer .l-full-width-column sub,
+  .global-nav .l-main-column sub,
+  header .l-main-column sub,
+  footer .l-main-column sub,
+  .global-nav .l-middle-column sub,
+  header .l-middle-column sub,
+  footer .l-middle-column sub,
+  .global-nav .l-side-column sub,
+  header .l-side-column sub,
+  footer .l-side-column sub,
+  .global-nav .l-split-narrow sub,
+  header .l-split-narrow sub,
+  footer .l-split-narrow sub,
+  .global-nav .l-split-wide sub,
+  header .l-split-wide sub,
+  footer .l-split-wide sub,
+  .global-nav .l-one-third-column sub,
+  header .l-one-third-column sub,
+  footer .l-one-third-column sub,
+  .global-nav .l-two-column sub,
+  header .l-two-column sub,
+  footer .l-two-column sub,
+  .global-nav .l-two-third-column sub,
+  header .l-two-third-column sub,
+  footer .l-two-third-column sub {
+    bottom: -0.25em;
+  }
+  .global-nav .l-column sup,
+  header .l-column sup,
+  footer .l-column sup,
+  .global-nav .l-full-width-column sup,
+  header .l-full-width-column sup,
+  footer .l-full-width-column sup,
+  .global-nav .l-main-column sup,
+  header .l-main-column sup,
+  footer .l-main-column sup,
+  .global-nav .l-middle-column sup,
+  header .l-middle-column sup,
+  footer .l-middle-column sup,
+  .global-nav .l-side-column sup,
+  header .l-side-column sup,
+  footer .l-side-column sup,
+  .global-nav .l-split-narrow sup,
+  header .l-split-narrow sup,
+  footer .l-split-narrow sup,
+  .global-nav .l-split-wide sup,
+  header .l-split-wide sup,
+  footer .l-split-wide sup,
+  .global-nav .l-one-third-column sup,
+  header .l-one-third-column sup,
+  footer .l-one-third-column sup,
+  .global-nav .l-two-column sup,
+  header .l-two-column sup,
+  footer .l-two-column sup,
+  .global-nav .l-two-third-column sup,
+  header .l-two-third-column sup,
+  footer .l-two-third-column sup {
+    top: -0.5em;
+  }
+  .global-nav .l-column audio,
+  header .l-column audio,
+  footer .l-column audio,
+  .global-nav .l-full-width-column audio,
+  header .l-full-width-column audio,
+  footer .l-full-width-column audio,
+  .global-nav .l-main-column audio,
+  header .l-main-column audio,
+  footer .l-main-column audio,
+  .global-nav .l-middle-column audio,
+  header .l-middle-column audio,
+  footer .l-middle-column audio,
+  .global-nav .l-side-column audio,
+  header .l-side-column audio,
+  footer .l-side-column audio,
+  .global-nav .l-split-narrow audio,
+  header .l-split-narrow audio,
+  footer .l-split-narrow audio,
+  .global-nav .l-split-wide audio,
+  header .l-split-wide audio,
+  footer .l-split-wide audio,
+  .global-nav .l-one-third-column audio,
+  header .l-one-third-column audio,
+  footer .l-one-third-column audio,
+  .global-nav .l-two-column audio,
+  header .l-two-column audio,
+  footer .l-two-column audio,
+  .global-nav .l-two-third-column audio,
+  header .l-two-third-column audio,
+  footer .l-two-third-column audio,
+  .global-nav .l-column video,
+  header .l-column video,
+  footer .l-column video,
+  .global-nav .l-full-width-column video,
+  header .l-full-width-column video,
+  footer .l-full-width-column video,
+  .global-nav .l-main-column video,
+  header .l-main-column video,
+  footer .l-main-column video,
+  .global-nav .l-middle-column video,
+  header .l-middle-column video,
+  footer .l-middle-column video,
+  .global-nav .l-side-column video,
+  header .l-side-column video,
+  footer .l-side-column video,
+  .global-nav .l-split-narrow video,
+  header .l-split-narrow video,
+  footer .l-split-narrow video,
+  .global-nav .l-split-wide video,
+  header .l-split-wide video,
+  footer .l-split-wide video,
+  .global-nav .l-one-third-column video,
+  header .l-one-third-column video,
+  footer .l-one-third-column video,
+  .global-nav .l-two-column video,
+  header .l-two-column video,
+  footer .l-two-column video,
+  .global-nav .l-two-third-column video,
+  header .l-two-third-column video,
+  footer .l-two-third-column video {
+    display: inline-block;
+  }
+  .global-nav .l-column audio:not([controls]),
+  header .l-column audio:not([controls]),
+  footer .l-column audio:not([controls]),
+  .global-nav .l-full-width-column audio:not([controls]),
+  header .l-full-width-column audio:not([controls]),
+  footer .l-full-width-column audio:not([controls]),
+  .global-nav .l-main-column audio:not([controls]),
+  header .l-main-column audio:not([controls]),
+  footer .l-main-column audio:not([controls]),
+  .global-nav .l-middle-column audio:not([controls]),
+  header .l-middle-column audio:not([controls]),
+  footer .l-middle-column audio:not([controls]),
+  .global-nav .l-side-column audio:not([controls]),
+  header .l-side-column audio:not([controls]),
+  footer .l-side-column audio:not([controls]),
+  .global-nav .l-split-narrow audio:not([controls]),
+  header .l-split-narrow audio:not([controls]),
+  footer .l-split-narrow audio:not([controls]),
+  .global-nav .l-split-wide audio:not([controls]),
+  header .l-split-wide audio:not([controls]),
+  footer .l-split-wide audio:not([controls]),
+  .global-nav .l-one-third-column audio:not([controls]),
+  header .l-one-third-column audio:not([controls]),
+  footer .l-one-third-column audio:not([controls]),
+  .global-nav .l-two-column audio:not([controls]),
+  header .l-two-column audio:not([controls]),
+  footer .l-two-column audio:not([controls]),
+  .global-nav .l-two-third-column audio:not([controls]),
+  header .l-two-third-column audio:not([controls]),
+  footer .l-two-third-column audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
+  .global-nav .l-column img,
+  header .l-column img,
+  footer .l-column img,
+  .global-nav .l-full-width-column img,
+  header .l-full-width-column img,
+  footer .l-full-width-column img,
+  .global-nav .l-main-column img,
+  header .l-main-column img,
+  footer .l-main-column img,
+  .global-nav .l-middle-column img,
+  header .l-middle-column img,
+  footer .l-middle-column img,
+  .global-nav .l-side-column img,
+  header .l-side-column img,
+  footer .l-side-column img,
+  .global-nav .l-split-narrow img,
+  header .l-split-narrow img,
+  footer .l-split-narrow img,
+  .global-nav .l-split-wide img,
+  header .l-split-wide img,
+  footer .l-split-wide img,
+  .global-nav .l-one-third-column img,
+  header .l-one-third-column img,
+  footer .l-one-third-column img,
+  .global-nav .l-two-column img,
+  header .l-two-column img,
+  footer .l-two-column img,
+  .global-nav .l-two-third-column img,
+  header .l-two-third-column img,
+  footer .l-two-third-column img {
+    border-style: none;
+  }
+  .global-nav .l-column svg:not(:root),
+  header .l-column svg:not(:root),
+  footer .l-column svg:not(:root),
+  .global-nav .l-full-width-column svg:not(:root),
+  header .l-full-width-column svg:not(:root),
+  footer .l-full-width-column svg:not(:root),
+  .global-nav .l-main-column svg:not(:root),
+  header .l-main-column svg:not(:root),
+  footer .l-main-column svg:not(:root),
+  .global-nav .l-middle-column svg:not(:root),
+  header .l-middle-column svg:not(:root),
+  footer .l-middle-column svg:not(:root),
+  .global-nav .l-side-column svg:not(:root),
+  header .l-side-column svg:not(:root),
+  footer .l-side-column svg:not(:root),
+  .global-nav .l-split-narrow svg:not(:root),
+  header .l-split-narrow svg:not(:root),
+  footer .l-split-narrow svg:not(:root),
+  .global-nav .l-split-wide svg:not(:root),
+  header .l-split-wide svg:not(:root),
+  footer .l-split-wide svg:not(:root),
+  .global-nav .l-one-third-column svg:not(:root),
+  header .l-one-third-column svg:not(:root),
+  footer .l-one-third-column svg:not(:root),
+  .global-nav .l-two-column svg:not(:root),
+  header .l-two-column svg:not(:root),
+  footer .l-two-column svg:not(:root),
+  .global-nav .l-two-third-column svg:not(:root),
+  header .l-two-third-column svg:not(:root),
+  footer .l-two-third-column svg:not(:root) {
+    overflow: hidden;
+  }
+  .global-nav .l-column button,
+  header .l-column button,
+  footer .l-column button,
+  .global-nav .l-full-width-column button,
+  header .l-full-width-column button,
+  footer .l-full-width-column button,
+  .global-nav .l-main-column button,
+  header .l-main-column button,
+  footer .l-main-column button,
+  .global-nav .l-middle-column button,
+  header .l-middle-column button,
+  footer .l-middle-column button,
+  .global-nav .l-side-column button,
+  header .l-side-column button,
+  footer .l-side-column button,
+  .global-nav .l-split-narrow button,
+  header .l-split-narrow button,
+  footer .l-split-narrow button,
+  .global-nav .l-split-wide button,
+  header .l-split-wide button,
+  footer .l-split-wide button,
+  .global-nav .l-one-third-column button,
+  header .l-one-third-column button,
+  footer .l-one-third-column button,
+  .global-nav .l-two-column button,
+  header .l-two-column button,
+  footer .l-two-column button,
+  .global-nav .l-two-third-column button,
+  header .l-two-third-column button,
+  footer .l-two-third-column button,
+  .global-nav .l-column input,
+  header .l-column input,
+  footer .l-column input,
+  .global-nav .l-full-width-column input,
+  header .l-full-width-column input,
+  footer .l-full-width-column input,
+  .global-nav .l-main-column input,
+  header .l-main-column input,
+  footer .l-main-column input,
+  .global-nav .l-middle-column input,
+  header .l-middle-column input,
+  footer .l-middle-column input,
+  .global-nav .l-side-column input,
+  header .l-side-column input,
+  footer .l-side-column input,
+  .global-nav .l-split-narrow input,
+  header .l-split-narrow input,
+  footer .l-split-narrow input,
+  .global-nav .l-split-wide input,
+  header .l-split-wide input,
+  footer .l-split-wide input,
+  .global-nav .l-one-third-column input,
+  header .l-one-third-column input,
+  footer .l-one-third-column input,
+  .global-nav .l-two-column input,
+  header .l-two-column input,
+  footer .l-two-column input,
+  .global-nav .l-two-third-column input,
+  header .l-two-third-column input,
+  footer .l-two-third-column input,
+  .global-nav .l-column optgroup,
+  header .l-column optgroup,
+  footer .l-column optgroup,
+  .global-nav .l-full-width-column optgroup,
+  header .l-full-width-column optgroup,
+  footer .l-full-width-column optgroup,
+  .global-nav .l-main-column optgroup,
+  header .l-main-column optgroup,
+  footer .l-main-column optgroup,
+  .global-nav .l-middle-column optgroup,
+  header .l-middle-column optgroup,
+  footer .l-middle-column optgroup,
+  .global-nav .l-side-column optgroup,
+  header .l-side-column optgroup,
+  footer .l-side-column optgroup,
+  .global-nav .l-split-narrow optgroup,
+  header .l-split-narrow optgroup,
+  footer .l-split-narrow optgroup,
+  .global-nav .l-split-wide optgroup,
+  header .l-split-wide optgroup,
+  footer .l-split-wide optgroup,
+  .global-nav .l-one-third-column optgroup,
+  header .l-one-third-column optgroup,
+  footer .l-one-third-column optgroup,
+  .global-nav .l-two-column optgroup,
+  header .l-two-column optgroup,
+  footer .l-two-column optgroup,
+  .global-nav .l-two-third-column optgroup,
+  header .l-two-third-column optgroup,
+  footer .l-two-third-column optgroup,
+  .global-nav .l-column select,
+  header .l-column select,
+  footer .l-column select,
+  .global-nav .l-full-width-column select,
+  header .l-full-width-column select,
+  footer .l-full-width-column select,
+  .global-nav .l-main-column select,
+  header .l-main-column select,
+  footer .l-main-column select,
+  .global-nav .l-middle-column select,
+  header .l-middle-column select,
+  footer .l-middle-column select,
+  .global-nav .l-side-column select,
+  header .l-side-column select,
+  footer .l-side-column select,
+  .global-nav .l-split-narrow select,
+  header .l-split-narrow select,
+  footer .l-split-narrow select,
+  .global-nav .l-split-wide select,
+  header .l-split-wide select,
+  footer .l-split-wide select,
+  .global-nav .l-one-third-column select,
+  header .l-one-third-column select,
+  footer .l-one-third-column select,
+  .global-nav .l-two-column select,
+  header .l-two-column select,
+  footer .l-two-column select,
+  .global-nav .l-two-third-column select,
+  header .l-two-third-column select,
+  footer .l-two-third-column select,
+  .global-nav .l-column textarea,
+  header .l-column textarea,
+  footer .l-column textarea,
+  .global-nav .l-full-width-column textarea,
+  header .l-full-width-column textarea,
+  footer .l-full-width-column textarea,
+  .global-nav .l-main-column textarea,
+  header .l-main-column textarea,
+  footer .l-main-column textarea,
+  .global-nav .l-middle-column textarea,
+  header .l-middle-column textarea,
+  footer .l-middle-column textarea,
+  .global-nav .l-side-column textarea,
+  header .l-side-column textarea,
+  footer .l-side-column textarea,
+  .global-nav .l-split-narrow textarea,
+  header .l-split-narrow textarea,
+  footer .l-split-narrow textarea,
+  .global-nav .l-split-wide textarea,
+  header .l-split-wide textarea,
+  footer .l-split-wide textarea,
+  .global-nav .l-one-third-column textarea,
+  header .l-one-third-column textarea,
+  footer .l-one-third-column textarea,
+  .global-nav .l-two-column textarea,
+  header .l-two-column textarea,
+  footer .l-two-column textarea,
+  .global-nav .l-two-third-column textarea,
+  header .l-two-third-column textarea,
+  footer .l-two-third-column textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+  }
+  .global-nav .l-column button,
+  header .l-column button,
+  footer .l-column button,
+  .global-nav .l-full-width-column button,
+  header .l-full-width-column button,
+  footer .l-full-width-column button,
+  .global-nav .l-main-column button,
+  header .l-main-column button,
+  footer .l-main-column button,
+  .global-nav .l-middle-column button,
+  header .l-middle-column button,
+  footer .l-middle-column button,
+  .global-nav .l-side-column button,
+  header .l-side-column button,
+  footer .l-side-column button,
+  .global-nav .l-split-narrow button,
+  header .l-split-narrow button,
+  footer .l-split-narrow button,
+  .global-nav .l-split-wide button,
+  header .l-split-wide button,
+  footer .l-split-wide button,
+  .global-nav .l-one-third-column button,
+  header .l-one-third-column button,
+  footer .l-one-third-column button,
+  .global-nav .l-two-column button,
+  header .l-two-column button,
+  footer .l-two-column button,
+  .global-nav .l-two-third-column button,
+  header .l-two-third-column button,
+  footer .l-two-third-column button,
+  .global-nav .l-column input,
+  header .l-column input,
+  footer .l-column input,
+  .global-nav .l-full-width-column input,
+  header .l-full-width-column input,
+  footer .l-full-width-column input,
+  .global-nav .l-main-column input,
+  header .l-main-column input,
+  footer .l-main-column input,
+  .global-nav .l-middle-column input,
+  header .l-middle-column input,
+  footer .l-middle-column input,
+  .global-nav .l-side-column input,
+  header .l-side-column input,
+  footer .l-side-column input,
+  .global-nav .l-split-narrow input,
+  header .l-split-narrow input,
+  footer .l-split-narrow input,
+  .global-nav .l-split-wide input,
+  header .l-split-wide input,
+  footer .l-split-wide input,
+  .global-nav .l-one-third-column input,
+  header .l-one-third-column input,
+  footer .l-one-third-column input,
+  .global-nav .l-two-column input,
+  header .l-two-column input,
+  footer .l-two-column input,
+  .global-nav .l-two-third-column input,
+  header .l-two-third-column input,
+  footer .l-two-third-column input {
+    /* 1 */
+    overflow: visible;
+  }
+  .global-nav .l-column button,
+  header .l-column button,
+  footer .l-column button,
+  .global-nav .l-full-width-column button,
+  header .l-full-width-column button,
+  footer .l-full-width-column button,
+  .global-nav .l-main-column button,
+  header .l-main-column button,
+  footer .l-main-column button,
+  .global-nav .l-middle-column button,
+  header .l-middle-column button,
+  footer .l-middle-column button,
+  .global-nav .l-side-column button,
+  header .l-side-column button,
+  footer .l-side-column button,
+  .global-nav .l-split-narrow button,
+  header .l-split-narrow button,
+  footer .l-split-narrow button,
+  .global-nav .l-split-wide button,
+  header .l-split-wide button,
+  footer .l-split-wide button,
+  .global-nav .l-one-third-column button,
+  header .l-one-third-column button,
+  footer .l-one-third-column button,
+  .global-nav .l-two-column button,
+  header .l-two-column button,
+  footer .l-two-column button,
+  .global-nav .l-two-third-column button,
+  header .l-two-third-column button,
+  footer .l-two-third-column button,
+  .global-nav .l-column select,
+  header .l-column select,
+  footer .l-column select,
+  .global-nav .l-full-width-column select,
+  header .l-full-width-column select,
+  footer .l-full-width-column select,
+  .global-nav .l-main-column select,
+  header .l-main-column select,
+  footer .l-main-column select,
+  .global-nav .l-middle-column select,
+  header .l-middle-column select,
+  footer .l-middle-column select,
+  .global-nav .l-side-column select,
+  header .l-side-column select,
+  footer .l-side-column select,
+  .global-nav .l-split-narrow select,
+  header .l-split-narrow select,
+  footer .l-split-narrow select,
+  .global-nav .l-split-wide select,
+  header .l-split-wide select,
+  footer .l-split-wide select,
+  .global-nav .l-one-third-column select,
+  header .l-one-third-column select,
+  footer .l-one-third-column select,
+  .global-nav .l-two-column select,
+  header .l-two-column select,
+  footer .l-two-column select,
+  .global-nav .l-two-third-column select,
+  header .l-two-third-column select,
+  footer .l-two-third-column select {
+    /* 1 */
+    text-transform: none;
+  }
+  .global-nav .l-column button,
+  header .l-column button,
+  footer .l-column button,
+  .global-nav .l-full-width-column button,
+  header .l-full-width-column button,
+  footer .l-full-width-column button,
+  .global-nav .l-main-column button,
+  header .l-main-column button,
+  footer .l-main-column button,
+  .global-nav .l-middle-column button,
+  header .l-middle-column button,
+  footer .l-middle-column button,
+  .global-nav .l-side-column button,
+  header .l-side-column button,
+  footer .l-side-column button,
+  .global-nav .l-split-narrow button,
+  header .l-split-narrow button,
+  footer .l-split-narrow button,
+  .global-nav .l-split-wide button,
+  header .l-split-wide button,
+  footer .l-split-wide button,
+  .global-nav .l-one-third-column button,
+  header .l-one-third-column button,
+  footer .l-one-third-column button,
+  .global-nav .l-two-column button,
+  header .l-two-column button,
+  footer .l-two-column button,
+  .global-nav .l-two-third-column button,
+  header .l-two-third-column button,
+  footer .l-two-third-column button,
+  .global-nav .l-column html [type="button"],
+  header .l-column html [type="button"],
+  footer .l-column html [type="button"],
+  .global-nav .l-full-width-column html [type="button"],
+  header .l-full-width-column html [type="button"],
+  footer .l-full-width-column html [type="button"],
+  .global-nav .l-main-column html [type="button"],
+  header .l-main-column html [type="button"],
+  footer .l-main-column html [type="button"],
+  .global-nav .l-middle-column html [type="button"],
+  header .l-middle-column html [type="button"],
+  footer .l-middle-column html [type="button"],
+  .global-nav .l-side-column html [type="button"],
+  header .l-side-column html [type="button"],
+  footer .l-side-column html [type="button"],
+  .global-nav .l-split-narrow html [type="button"],
+  header .l-split-narrow html [type="button"],
+  footer .l-split-narrow html [type="button"],
+  .global-nav .l-split-wide html [type="button"],
+  header .l-split-wide html [type="button"],
+  footer .l-split-wide html [type="button"],
+  .global-nav .l-one-third-column html [type="button"],
+  header .l-one-third-column html [type="button"],
+  footer .l-one-third-column html [type="button"],
+  .global-nav .l-two-column html [type="button"],
+  header .l-two-column html [type="button"],
+  footer .l-two-column html [type="button"],
+  .global-nav .l-two-third-column html [type="button"],
+  header .l-two-third-column html [type="button"],
+  footer .l-two-third-column html [type="button"],
+  .global-nav .l-column [type="reset"],
+  header .l-column [type="reset"],
+  footer .l-column [type="reset"],
+  .global-nav .l-full-width-column [type="reset"],
+  header .l-full-width-column [type="reset"],
+  footer .l-full-width-column [type="reset"],
+  .global-nav .l-main-column [type="reset"],
+  header .l-main-column [type="reset"],
+  footer .l-main-column [type="reset"],
+  .global-nav .l-middle-column [type="reset"],
+  header .l-middle-column [type="reset"],
+  footer .l-middle-column [type="reset"],
+  .global-nav .l-side-column [type="reset"],
+  header .l-side-column [type="reset"],
+  footer .l-side-column [type="reset"],
+  .global-nav .l-split-narrow [type="reset"],
+  header .l-split-narrow [type="reset"],
+  footer .l-split-narrow [type="reset"],
+  .global-nav .l-split-wide [type="reset"],
+  header .l-split-wide [type="reset"],
+  footer .l-split-wide [type="reset"],
+  .global-nav .l-one-third-column [type="reset"],
+  header .l-one-third-column [type="reset"],
+  footer .l-one-third-column [type="reset"],
+  .global-nav .l-two-column [type="reset"],
+  header .l-two-column [type="reset"],
+  footer .l-two-column [type="reset"],
+  .global-nav .l-two-third-column [type="reset"],
+  header .l-two-third-column [type="reset"],
+  footer .l-two-third-column [type="reset"],
+  .global-nav .l-column [type="submit"],
+  header .l-column [type="submit"],
+  footer .l-column [type="submit"],
+  .global-nav .l-full-width-column [type="submit"],
+  header .l-full-width-column [type="submit"],
+  footer .l-full-width-column [type="submit"],
+  .global-nav .l-main-column [type="submit"],
+  header .l-main-column [type="submit"],
+  footer .l-main-column [type="submit"],
+  .global-nav .l-middle-column [type="submit"],
+  header .l-middle-column [type="submit"],
+  footer .l-middle-column [type="submit"],
+  .global-nav .l-side-column [type="submit"],
+  header .l-side-column [type="submit"],
+  footer .l-side-column [type="submit"],
+  .global-nav .l-split-narrow [type="submit"],
+  header .l-split-narrow [type="submit"],
+  footer .l-split-narrow [type="submit"],
+  .global-nav .l-split-wide [type="submit"],
+  header .l-split-wide [type="submit"],
+  footer .l-split-wide [type="submit"],
+  .global-nav .l-one-third-column [type="submit"],
+  header .l-one-third-column [type="submit"],
+  footer .l-one-third-column [type="submit"],
+  .global-nav .l-two-column [type="submit"],
+  header .l-two-column [type="submit"],
+  footer .l-two-column [type="submit"],
+  .global-nav .l-two-third-column [type="submit"],
+  header .l-two-third-column [type="submit"],
+  footer .l-two-third-column [type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */
+  }
+  .global-nav .l-column button::-moz-focus-inner,
+  header .l-column button::-moz-focus-inner,
+  footer .l-column button::-moz-focus-inner,
+  .global-nav .l-full-width-column button::-moz-focus-inner,
+  header .l-full-width-column button::-moz-focus-inner,
+  footer .l-full-width-column button::-moz-focus-inner,
+  .global-nav .l-main-column button::-moz-focus-inner,
+  header .l-main-column button::-moz-focus-inner,
+  footer .l-main-column button::-moz-focus-inner,
+  .global-nav .l-middle-column button::-moz-focus-inner,
+  header .l-middle-column button::-moz-focus-inner,
+  footer .l-middle-column button::-moz-focus-inner,
+  .global-nav .l-side-column button::-moz-focus-inner,
+  header .l-side-column button::-moz-focus-inner,
+  footer .l-side-column button::-moz-focus-inner,
+  .global-nav .l-split-narrow button::-moz-focus-inner,
+  header .l-split-narrow button::-moz-focus-inner,
+  footer .l-split-narrow button::-moz-focus-inner,
+  .global-nav .l-split-wide button::-moz-focus-inner,
+  header .l-split-wide button::-moz-focus-inner,
+  footer .l-split-wide button::-moz-focus-inner,
+  .global-nav .l-one-third-column button::-moz-focus-inner,
+  header .l-one-third-column button::-moz-focus-inner,
+  footer .l-one-third-column button::-moz-focus-inner,
+  .global-nav .l-two-column button::-moz-focus-inner,
+  header .l-two-column button::-moz-focus-inner,
+  footer .l-two-column button::-moz-focus-inner,
+  .global-nav .l-two-third-column button::-moz-focus-inner,
+  header .l-two-third-column button::-moz-focus-inner,
+  footer .l-two-third-column button::-moz-focus-inner,
+  .global-nav .l-column [type="button"]::-moz-focus-inner,
+  header .l-column [type="button"]::-moz-focus-inner,
+  footer .l-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-full-width-column [type="button"]::-moz-focus-inner,
+  header .l-full-width-column [type="button"]::-moz-focus-inner,
+  footer .l-full-width-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-main-column [type="button"]::-moz-focus-inner,
+  header .l-main-column [type="button"]::-moz-focus-inner,
+  footer .l-main-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-middle-column [type="button"]::-moz-focus-inner,
+  header .l-middle-column [type="button"]::-moz-focus-inner,
+  footer .l-middle-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-side-column [type="button"]::-moz-focus-inner,
+  header .l-side-column [type="button"]::-moz-focus-inner,
+  footer .l-side-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-split-narrow [type="button"]::-moz-focus-inner,
+  header .l-split-narrow [type="button"]::-moz-focus-inner,
+  footer .l-split-narrow [type="button"]::-moz-focus-inner,
+  .global-nav .l-split-wide [type="button"]::-moz-focus-inner,
+  header .l-split-wide [type="button"]::-moz-focus-inner,
+  footer .l-split-wide [type="button"]::-moz-focus-inner,
+  .global-nav .l-one-third-column [type="button"]::-moz-focus-inner,
+  header .l-one-third-column [type="button"]::-moz-focus-inner,
+  footer .l-one-third-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-two-column [type="button"]::-moz-focus-inner,
+  header .l-two-column [type="button"]::-moz-focus-inner,
+  footer .l-two-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-two-third-column [type="button"]::-moz-focus-inner,
+  header .l-two-third-column [type="button"]::-moz-focus-inner,
+  footer .l-two-third-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-column [type="reset"]::-moz-focus-inner,
+  header .l-column [type="reset"]::-moz-focus-inner,
+  footer .l-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-full-width-column [type="reset"]::-moz-focus-inner,
+  header .l-full-width-column [type="reset"]::-moz-focus-inner,
+  footer .l-full-width-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-main-column [type="reset"]::-moz-focus-inner,
+  header .l-main-column [type="reset"]::-moz-focus-inner,
+  footer .l-main-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-middle-column [type="reset"]::-moz-focus-inner,
+  header .l-middle-column [type="reset"]::-moz-focus-inner,
+  footer .l-middle-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-side-column [type="reset"]::-moz-focus-inner,
+  header .l-side-column [type="reset"]::-moz-focus-inner,
+  footer .l-side-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-split-narrow [type="reset"]::-moz-focus-inner,
+  header .l-split-narrow [type="reset"]::-moz-focus-inner,
+  footer .l-split-narrow [type="reset"]::-moz-focus-inner,
+  .global-nav .l-split-wide [type="reset"]::-moz-focus-inner,
+  header .l-split-wide [type="reset"]::-moz-focus-inner,
+  footer .l-split-wide [type="reset"]::-moz-focus-inner,
+  .global-nav .l-one-third-column [type="reset"]::-moz-focus-inner,
+  header .l-one-third-column [type="reset"]::-moz-focus-inner,
+  footer .l-one-third-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-two-column [type="reset"]::-moz-focus-inner,
+  header .l-two-column [type="reset"]::-moz-focus-inner,
+  footer .l-two-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-two-third-column [type="reset"]::-moz-focus-inner,
+  header .l-two-third-column [type="reset"]::-moz-focus-inner,
+  footer .l-two-third-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-column [type="submit"]::-moz-focus-inner,
+  header .l-column [type="submit"]::-moz-focus-inner,
+  footer .l-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-full-width-column [type="submit"]::-moz-focus-inner,
+  header .l-full-width-column [type="submit"]::-moz-focus-inner,
+  footer .l-full-width-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-main-column [type="submit"]::-moz-focus-inner,
+  header .l-main-column [type="submit"]::-moz-focus-inner,
+  footer .l-main-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-middle-column [type="submit"]::-moz-focus-inner,
+  header .l-middle-column [type="submit"]::-moz-focus-inner,
+  footer .l-middle-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-side-column [type="submit"]::-moz-focus-inner,
+  header .l-side-column [type="submit"]::-moz-focus-inner,
+  footer .l-side-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-split-narrow [type="submit"]::-moz-focus-inner,
+  header .l-split-narrow [type="submit"]::-moz-focus-inner,
+  footer .l-split-narrow [type="submit"]::-moz-focus-inner,
+  .global-nav .l-split-wide [type="submit"]::-moz-focus-inner,
+  header .l-split-wide [type="submit"]::-moz-focus-inner,
+  footer .l-split-wide [type="submit"]::-moz-focus-inner,
+  .global-nav .l-one-third-column [type="submit"]::-moz-focus-inner,
+  header .l-one-third-column [type="submit"]::-moz-focus-inner,
+  footer .l-one-third-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-two-column [type="submit"]::-moz-focus-inner,
+  header .l-two-column [type="submit"]::-moz-focus-inner,
+  footer .l-two-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-two-third-column [type="submit"]::-moz-focus-inner,
+  header .l-two-third-column [type="submit"]::-moz-focus-inner,
+  footer .l-two-third-column [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  .global-nav .l-column button:-moz-focusring,
+  header .l-column button:-moz-focusring,
+  footer .l-column button:-moz-focusring,
+  .global-nav .l-full-width-column button:-moz-focusring,
+  header .l-full-width-column button:-moz-focusring,
+  footer .l-full-width-column button:-moz-focusring,
+  .global-nav .l-main-column button:-moz-focusring,
+  header .l-main-column button:-moz-focusring,
+  footer .l-main-column button:-moz-focusring,
+  .global-nav .l-middle-column button:-moz-focusring,
+  header .l-middle-column button:-moz-focusring,
+  footer .l-middle-column button:-moz-focusring,
+  .global-nav .l-side-column button:-moz-focusring,
+  header .l-side-column button:-moz-focusring,
+  footer .l-side-column button:-moz-focusring,
+  .global-nav .l-split-narrow button:-moz-focusring,
+  header .l-split-narrow button:-moz-focusring,
+  footer .l-split-narrow button:-moz-focusring,
+  .global-nav .l-split-wide button:-moz-focusring,
+  header .l-split-wide button:-moz-focusring,
+  footer .l-split-wide button:-moz-focusring,
+  .global-nav .l-one-third-column button:-moz-focusring,
+  header .l-one-third-column button:-moz-focusring,
+  footer .l-one-third-column button:-moz-focusring,
+  .global-nav .l-two-column button:-moz-focusring,
+  header .l-two-column button:-moz-focusring,
+  footer .l-two-column button:-moz-focusring,
+  .global-nav .l-two-third-column button:-moz-focusring,
+  header .l-two-third-column button:-moz-focusring,
+  footer .l-two-third-column button:-moz-focusring,
+  .global-nav .l-column [type="button"]:-moz-focusring,
+  header .l-column [type="button"]:-moz-focusring,
+  footer .l-column [type="button"]:-moz-focusring,
+  .global-nav .l-full-width-column [type="button"]:-moz-focusring,
+  header .l-full-width-column [type="button"]:-moz-focusring,
+  footer .l-full-width-column [type="button"]:-moz-focusring,
+  .global-nav .l-main-column [type="button"]:-moz-focusring,
+  header .l-main-column [type="button"]:-moz-focusring,
+  footer .l-main-column [type="button"]:-moz-focusring,
+  .global-nav .l-middle-column [type="button"]:-moz-focusring,
+  header .l-middle-column [type="button"]:-moz-focusring,
+  footer .l-middle-column [type="button"]:-moz-focusring,
+  .global-nav .l-side-column [type="button"]:-moz-focusring,
+  header .l-side-column [type="button"]:-moz-focusring,
+  footer .l-side-column [type="button"]:-moz-focusring,
+  .global-nav .l-split-narrow [type="button"]:-moz-focusring,
+  header .l-split-narrow [type="button"]:-moz-focusring,
+  footer .l-split-narrow [type="button"]:-moz-focusring,
+  .global-nav .l-split-wide [type="button"]:-moz-focusring,
+  header .l-split-wide [type="button"]:-moz-focusring,
+  footer .l-split-wide [type="button"]:-moz-focusring,
+  .global-nav .l-one-third-column [type="button"]:-moz-focusring,
+  header .l-one-third-column [type="button"]:-moz-focusring,
+  footer .l-one-third-column [type="button"]:-moz-focusring,
+  .global-nav .l-two-column [type="button"]:-moz-focusring,
+  header .l-two-column [type="button"]:-moz-focusring,
+  footer .l-two-column [type="button"]:-moz-focusring,
+  .global-nav .l-two-third-column [type="button"]:-moz-focusring,
+  header .l-two-third-column [type="button"]:-moz-focusring,
+  footer .l-two-third-column [type="button"]:-moz-focusring,
+  .global-nav .l-column [type="reset"]:-moz-focusring,
+  header .l-column [type="reset"]:-moz-focusring,
+  footer .l-column [type="reset"]:-moz-focusring,
+  .global-nav .l-full-width-column [type="reset"]:-moz-focusring,
+  header .l-full-width-column [type="reset"]:-moz-focusring,
+  footer .l-full-width-column [type="reset"]:-moz-focusring,
+  .global-nav .l-main-column [type="reset"]:-moz-focusring,
+  header .l-main-column [type="reset"]:-moz-focusring,
+  footer .l-main-column [type="reset"]:-moz-focusring,
+  .global-nav .l-middle-column [type="reset"]:-moz-focusring,
+  header .l-middle-column [type="reset"]:-moz-focusring,
+  footer .l-middle-column [type="reset"]:-moz-focusring,
+  .global-nav .l-side-column [type="reset"]:-moz-focusring,
+  header .l-side-column [type="reset"]:-moz-focusring,
+  footer .l-side-column [type="reset"]:-moz-focusring,
+  .global-nav .l-split-narrow [type="reset"]:-moz-focusring,
+  header .l-split-narrow [type="reset"]:-moz-focusring,
+  footer .l-split-narrow [type="reset"]:-moz-focusring,
+  .global-nav .l-split-wide [type="reset"]:-moz-focusring,
+  header .l-split-wide [type="reset"]:-moz-focusring,
+  footer .l-split-wide [type="reset"]:-moz-focusring,
+  .global-nav .l-one-third-column [type="reset"]:-moz-focusring,
+  header .l-one-third-column [type="reset"]:-moz-focusring,
+  footer .l-one-third-column [type="reset"]:-moz-focusring,
+  .global-nav .l-two-column [type="reset"]:-moz-focusring,
+  header .l-two-column [type="reset"]:-moz-focusring,
+  footer .l-two-column [type="reset"]:-moz-focusring,
+  .global-nav .l-two-third-column [type="reset"]:-moz-focusring,
+  header .l-two-third-column [type="reset"]:-moz-focusring,
+  footer .l-two-third-column [type="reset"]:-moz-focusring,
+  .global-nav .l-column [type="submit"]:-moz-focusring,
+  header .l-column [type="submit"]:-moz-focusring,
+  footer .l-column [type="submit"]:-moz-focusring,
+  .global-nav .l-full-width-column [type="submit"]:-moz-focusring,
+  header .l-full-width-column [type="submit"]:-moz-focusring,
+  footer .l-full-width-column [type="submit"]:-moz-focusring,
+  .global-nav .l-main-column [type="submit"]:-moz-focusring,
+  header .l-main-column [type="submit"]:-moz-focusring,
+  footer .l-main-column [type="submit"]:-moz-focusring,
+  .global-nav .l-middle-column [type="submit"]:-moz-focusring,
+  header .l-middle-column [type="submit"]:-moz-focusring,
+  footer .l-middle-column [type="submit"]:-moz-focusring,
+  .global-nav .l-side-column [type="submit"]:-moz-focusring,
+  header .l-side-column [type="submit"]:-moz-focusring,
+  footer .l-side-column [type="submit"]:-moz-focusring,
+  .global-nav .l-split-narrow [type="submit"]:-moz-focusring,
+  header .l-split-narrow [type="submit"]:-moz-focusring,
+  footer .l-split-narrow [type="submit"]:-moz-focusring,
+  .global-nav .l-split-wide [type="submit"]:-moz-focusring,
+  header .l-split-wide [type="submit"]:-moz-focusring,
+  footer .l-split-wide [type="submit"]:-moz-focusring,
+  .global-nav .l-one-third-column [type="submit"]:-moz-focusring,
+  header .l-one-third-column [type="submit"]:-moz-focusring,
+  footer .l-one-third-column [type="submit"]:-moz-focusring,
+  .global-nav .l-two-column [type="submit"]:-moz-focusring,
+  header .l-two-column [type="submit"]:-moz-focusring,
+  footer .l-two-column [type="submit"]:-moz-focusring,
+  .global-nav .l-two-third-column [type="submit"]:-moz-focusring,
+  header .l-two-third-column [type="submit"]:-moz-focusring,
+  footer .l-two-third-column [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  .global-nav .l-column fieldset,
+  header .l-column fieldset,
+  footer .l-column fieldset,
+  .global-nav .l-full-width-column fieldset,
+  header .l-full-width-column fieldset,
+  footer .l-full-width-column fieldset,
+  .global-nav .l-main-column fieldset,
+  header .l-main-column fieldset,
+  footer .l-main-column fieldset,
+  .global-nav .l-middle-column fieldset,
+  header .l-middle-column fieldset,
+  footer .l-middle-column fieldset,
+  .global-nav .l-side-column fieldset,
+  header .l-side-column fieldset,
+  footer .l-side-column fieldset,
+  .global-nav .l-split-narrow fieldset,
+  header .l-split-narrow fieldset,
+  footer .l-split-narrow fieldset,
+  .global-nav .l-split-wide fieldset,
+  header .l-split-wide fieldset,
+  footer .l-split-wide fieldset,
+  .global-nav .l-one-third-column fieldset,
+  header .l-one-third-column fieldset,
+  footer .l-one-third-column fieldset,
+  .global-nav .l-two-column fieldset,
+  header .l-two-column fieldset,
+  footer .l-two-column fieldset,
+  .global-nav .l-two-third-column fieldset,
+  header .l-two-third-column fieldset,
+  footer .l-two-third-column fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  .global-nav .l-column legend,
+  header .l-column legend,
+  footer .l-column legend,
+  .global-nav .l-full-width-column legend,
+  header .l-full-width-column legend,
+  footer .l-full-width-column legend,
+  .global-nav .l-main-column legend,
+  header .l-main-column legend,
+  footer .l-main-column legend,
+  .global-nav .l-middle-column legend,
+  header .l-middle-column legend,
+  footer .l-middle-column legend,
+  .global-nav .l-side-column legend,
+  header .l-side-column legend,
+  footer .l-side-column legend,
+  .global-nav .l-split-narrow legend,
+  header .l-split-narrow legend,
+  footer .l-split-narrow legend,
+  .global-nav .l-split-wide legend,
+  header .l-split-wide legend,
+  footer .l-split-wide legend,
+  .global-nav .l-one-third-column legend,
+  header .l-one-third-column legend,
+  footer .l-one-third-column legend,
+  .global-nav .l-two-column legend,
+  header .l-two-column legend,
+  footer .l-two-column legend,
+  .global-nav .l-two-third-column legend,
+  header .l-two-third-column legend,
+  footer .l-two-third-column legend {
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+  }
+  .global-nav .l-column progress,
+  header .l-column progress,
+  footer .l-column progress,
+  .global-nav .l-full-width-column progress,
+  header .l-full-width-column progress,
+  footer .l-full-width-column progress,
+  .global-nav .l-main-column progress,
+  header .l-main-column progress,
+  footer .l-main-column progress,
+  .global-nav .l-middle-column progress,
+  header .l-middle-column progress,
+  footer .l-middle-column progress,
+  .global-nav .l-side-column progress,
+  header .l-side-column progress,
+  footer .l-side-column progress,
+  .global-nav .l-split-narrow progress,
+  header .l-split-narrow progress,
+  footer .l-split-narrow progress,
+  .global-nav .l-split-wide progress,
+  header .l-split-wide progress,
+  footer .l-split-wide progress,
+  .global-nav .l-one-third-column progress,
+  header .l-one-third-column progress,
+  footer .l-one-third-column progress,
+  .global-nav .l-two-column progress,
+  header .l-two-column progress,
+  footer .l-two-column progress,
+  .global-nav .l-two-third-column progress,
+  header .l-two-third-column progress,
+  footer .l-two-third-column progress {
+    display: inline-block;
+    /* 1 */
+    vertical-align: baseline;
+    /* 2 */
+  }
+  .global-nav .l-column textarea,
+  header .l-column textarea,
+  footer .l-column textarea,
+  .global-nav .l-full-width-column textarea,
+  header .l-full-width-column textarea,
+  footer .l-full-width-column textarea,
+  .global-nav .l-main-column textarea,
+  header .l-main-column textarea,
+  footer .l-main-column textarea,
+  .global-nav .l-middle-column textarea,
+  header .l-middle-column textarea,
+  footer .l-middle-column textarea,
+  .global-nav .l-side-column textarea,
+  header .l-side-column textarea,
+  footer .l-side-column textarea,
+  .global-nav .l-split-narrow textarea,
+  header .l-split-narrow textarea,
+  footer .l-split-narrow textarea,
+  .global-nav .l-split-wide textarea,
+  header .l-split-wide textarea,
+  footer .l-split-wide textarea,
+  .global-nav .l-one-third-column textarea,
+  header .l-one-third-column textarea,
+  footer .l-one-third-column textarea,
+  .global-nav .l-two-column textarea,
+  header .l-two-column textarea,
+  footer .l-two-column textarea,
+  .global-nav .l-two-third-column textarea,
+  header .l-two-third-column textarea,
+  footer .l-two-third-column textarea {
+    overflow: auto;
+  }
+  .global-nav .l-column [type="checkbox"],
+  header .l-column [type="checkbox"],
+  footer .l-column [type="checkbox"],
+  .global-nav .l-full-width-column [type="checkbox"],
+  header .l-full-width-column [type="checkbox"],
+  footer .l-full-width-column [type="checkbox"],
+  .global-nav .l-main-column [type="checkbox"],
+  header .l-main-column [type="checkbox"],
+  footer .l-main-column [type="checkbox"],
+  .global-nav .l-middle-column [type="checkbox"],
+  header .l-middle-column [type="checkbox"],
+  footer .l-middle-column [type="checkbox"],
+  .global-nav .l-side-column [type="checkbox"],
+  header .l-side-column [type="checkbox"],
+  footer .l-side-column [type="checkbox"],
+  .global-nav .l-split-narrow [type="checkbox"],
+  header .l-split-narrow [type="checkbox"],
+  footer .l-split-narrow [type="checkbox"],
+  .global-nav .l-split-wide [type="checkbox"],
+  header .l-split-wide [type="checkbox"],
+  footer .l-split-wide [type="checkbox"],
+  .global-nav .l-one-third-column [type="checkbox"],
+  header .l-one-third-column [type="checkbox"],
+  footer .l-one-third-column [type="checkbox"],
+  .global-nav .l-two-column [type="checkbox"],
+  header .l-two-column [type="checkbox"],
+  footer .l-two-column [type="checkbox"],
+  .global-nav .l-two-third-column [type="checkbox"],
+  header .l-two-third-column [type="checkbox"],
+  footer .l-two-third-column [type="checkbox"],
+  .global-nav .l-column [type="radio"],
+  header .l-column [type="radio"],
+  footer .l-column [type="radio"],
+  .global-nav .l-full-width-column [type="radio"],
+  header .l-full-width-column [type="radio"],
+  footer .l-full-width-column [type="radio"],
+  .global-nav .l-main-column [type="radio"],
+  header .l-main-column [type="radio"],
+  footer .l-main-column [type="radio"],
+  .global-nav .l-middle-column [type="radio"],
+  header .l-middle-column [type="radio"],
+  footer .l-middle-column [type="radio"],
+  .global-nav .l-side-column [type="radio"],
+  header .l-side-column [type="radio"],
+  footer .l-side-column [type="radio"],
+  .global-nav .l-split-narrow [type="radio"],
+  header .l-split-narrow [type="radio"],
+  footer .l-split-narrow [type="radio"],
+  .global-nav .l-split-wide [type="radio"],
+  header .l-split-wide [type="radio"],
+  footer .l-split-wide [type="radio"],
+  .global-nav .l-one-third-column [type="radio"],
+  header .l-one-third-column [type="radio"],
+  footer .l-one-third-column [type="radio"],
+  .global-nav .l-two-column [type="radio"],
+  header .l-two-column [type="radio"],
+  footer .l-two-column [type="radio"],
+  .global-nav .l-two-third-column [type="radio"],
+  header .l-two-third-column [type="radio"],
+  footer .l-two-third-column [type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+  }
+  .global-nav .l-column [type="number"]::-webkit-inner-spin-button,
+  header .l-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-full-width-column [type="number"]::-webkit-inner-spin-button,
+  header .l-full-width-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-full-width-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-main-column [type="number"]::-webkit-inner-spin-button,
+  header .l-main-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-main-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-middle-column [type="number"]::-webkit-inner-spin-button,
+  header .l-middle-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-middle-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-side-column [type="number"]::-webkit-inner-spin-button,
+  header .l-side-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-side-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-split-narrow [type="number"]::-webkit-inner-spin-button,
+  header .l-split-narrow [type="number"]::-webkit-inner-spin-button,
+  footer .l-split-narrow [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-split-wide [type="number"]::-webkit-inner-spin-button,
+  header .l-split-wide [type="number"]::-webkit-inner-spin-button,
+  footer .l-split-wide [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-one-third-column [type="number"]::-webkit-inner-spin-button,
+  header .l-one-third-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-one-third-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-two-column [type="number"]::-webkit-inner-spin-button,
+  header .l-two-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-two-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-two-third-column [type="number"]::-webkit-inner-spin-button,
+  header .l-two-third-column [type="number"]::-webkit-inner-spin-button,
+  footer .l-two-third-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-column [type="number"]::-webkit-outer-spin-button,
+  header .l-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-full-width-column [type="number"]::-webkit-outer-spin-button,
+  header .l-full-width-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-full-width-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-main-column [type="number"]::-webkit-outer-spin-button,
+  header .l-main-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-main-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-middle-column [type="number"]::-webkit-outer-spin-button,
+  header .l-middle-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-middle-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-side-column [type="number"]::-webkit-outer-spin-button,
+  header .l-side-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-side-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-split-narrow [type="number"]::-webkit-outer-spin-button,
+  header .l-split-narrow [type="number"]::-webkit-outer-spin-button,
+  footer .l-split-narrow [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-split-wide [type="number"]::-webkit-outer-spin-button,
+  header .l-split-wide [type="number"]::-webkit-outer-spin-button,
+  footer .l-split-wide [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-one-third-column [type="number"]::-webkit-outer-spin-button,
+  header .l-one-third-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-one-third-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-two-column [type="number"]::-webkit-outer-spin-button,
+  header .l-two-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-two-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-two-third-column [type="number"]::-webkit-outer-spin-button,
+  header .l-two-third-column [type="number"]::-webkit-outer-spin-button,
+  footer .l-two-third-column [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  .global-nav .l-column [type="search"],
+  header .l-column [type="search"],
+  footer .l-column [type="search"],
+  .global-nav .l-full-width-column [type="search"],
+  header .l-full-width-column [type="search"],
+  footer .l-full-width-column [type="search"],
+  .global-nav .l-main-column [type="search"],
+  header .l-main-column [type="search"],
+  footer .l-main-column [type="search"],
+  .global-nav .l-middle-column [type="search"],
+  header .l-middle-column [type="search"],
+  footer .l-middle-column [type="search"],
+  .global-nav .l-side-column [type="search"],
+  header .l-side-column [type="search"],
+  footer .l-side-column [type="search"],
+  .global-nav .l-split-narrow [type="search"],
+  header .l-split-narrow [type="search"],
+  footer .l-split-narrow [type="search"],
+  .global-nav .l-split-wide [type="search"],
+  header .l-split-wide [type="search"],
+  footer .l-split-wide [type="search"],
+  .global-nav .l-one-third-column [type="search"],
+  header .l-one-third-column [type="search"],
+  footer .l-one-third-column [type="search"],
+  .global-nav .l-two-column [type="search"],
+  header .l-two-column [type="search"],
+  footer .l-two-column [type="search"],
+  .global-nav .l-two-third-column [type="search"],
+  header .l-two-third-column [type="search"],
+  footer .l-two-third-column [type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+  }
+  .global-nav .l-column [type="search"]::-webkit-search-cancel-button,
+  header .l-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-full-width-column [type="search"]::-webkit-search-cancel-button,
+  header .l-full-width-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-full-width-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-main-column [type="search"]::-webkit-search-cancel-button,
+  header .l-main-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-main-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-middle-column [type="search"]::-webkit-search-cancel-button,
+  header .l-middle-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-middle-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-side-column [type="search"]::-webkit-search-cancel-button,
+  header .l-side-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-side-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-split-narrow [type="search"]::-webkit-search-cancel-button,
+  header .l-split-narrow [type="search"]::-webkit-search-cancel-button,
+  footer .l-split-narrow [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-split-wide [type="search"]::-webkit-search-cancel-button,
+  header .l-split-wide [type="search"]::-webkit-search-cancel-button,
+  footer .l-split-wide [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-one-third-column [type="search"]::-webkit-search-cancel-button,
+  header .l-one-third-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-one-third-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-two-column [type="search"]::-webkit-search-cancel-button,
+  header .l-two-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-two-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-two-third-column [type="search"]::-webkit-search-cancel-button,
+  header .l-two-third-column [type="search"]::-webkit-search-cancel-button,
+  footer .l-two-third-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-column [type="search"]::-webkit-search-decoration,
+  header .l-column [type="search"]::-webkit-search-decoration,
+  footer .l-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-full-width-column [type="search"]::-webkit-search-decoration,
+  header .l-full-width-column [type="search"]::-webkit-search-decoration,
+  footer .l-full-width-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-main-column [type="search"]::-webkit-search-decoration,
+  header .l-main-column [type="search"]::-webkit-search-decoration,
+  footer .l-main-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-middle-column [type="search"]::-webkit-search-decoration,
+  header .l-middle-column [type="search"]::-webkit-search-decoration,
+  footer .l-middle-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-side-column [type="search"]::-webkit-search-decoration,
+  header .l-side-column [type="search"]::-webkit-search-decoration,
+  footer .l-side-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-split-narrow [type="search"]::-webkit-search-decoration,
+  header .l-split-narrow [type="search"]::-webkit-search-decoration,
+  footer .l-split-narrow [type="search"]::-webkit-search-decoration,
+  .global-nav .l-split-wide [type="search"]::-webkit-search-decoration,
+  header .l-split-wide [type="search"]::-webkit-search-decoration,
+  footer .l-split-wide [type="search"]::-webkit-search-decoration,
+  .global-nav .l-one-third-column [type="search"]::-webkit-search-decoration,
+  header .l-one-third-column [type="search"]::-webkit-search-decoration,
+  footer .l-one-third-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-two-column [type="search"]::-webkit-search-decoration,
+  header .l-two-column [type="search"]::-webkit-search-decoration,
+  footer .l-two-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-two-third-column [type="search"]::-webkit-search-decoration,
+  header .l-two-third-column [type="search"]::-webkit-search-decoration,
+  footer .l-two-third-column [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  .global-nav .l-column ::-webkit-file-upload-button,
+  header .l-column ::-webkit-file-upload-button,
+  footer .l-column ::-webkit-file-upload-button,
+  .global-nav .l-full-width-column ::-webkit-file-upload-button,
+  header .l-full-width-column ::-webkit-file-upload-button,
+  footer .l-full-width-column ::-webkit-file-upload-button,
+  .global-nav .l-main-column ::-webkit-file-upload-button,
+  header .l-main-column ::-webkit-file-upload-button,
+  footer .l-main-column ::-webkit-file-upload-button,
+  .global-nav .l-middle-column ::-webkit-file-upload-button,
+  header .l-middle-column ::-webkit-file-upload-button,
+  footer .l-middle-column ::-webkit-file-upload-button,
+  .global-nav .l-side-column ::-webkit-file-upload-button,
+  header .l-side-column ::-webkit-file-upload-button,
+  footer .l-side-column ::-webkit-file-upload-button,
+  .global-nav .l-split-narrow ::-webkit-file-upload-button,
+  header .l-split-narrow ::-webkit-file-upload-button,
+  footer .l-split-narrow ::-webkit-file-upload-button,
+  .global-nav .l-split-wide ::-webkit-file-upload-button,
+  header .l-split-wide ::-webkit-file-upload-button,
+  footer .l-split-wide ::-webkit-file-upload-button,
+  .global-nav .l-one-third-column ::-webkit-file-upload-button,
+  header .l-one-third-column ::-webkit-file-upload-button,
+  footer .l-one-third-column ::-webkit-file-upload-button,
+  .global-nav .l-two-column ::-webkit-file-upload-button,
+  header .l-two-column ::-webkit-file-upload-button,
+  footer .l-two-column ::-webkit-file-upload-button,
+  .global-nav .l-two-third-column ::-webkit-file-upload-button,
+  header .l-two-third-column ::-webkit-file-upload-button,
+  footer .l-two-third-column ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+  }
+  .global-nav .l-column details,
+  header .l-column details,
+  footer .l-column details,
+  .global-nav .l-full-width-column details,
+  header .l-full-width-column details,
+  footer .l-full-width-column details,
+  .global-nav .l-main-column details,
+  header .l-main-column details,
+  footer .l-main-column details,
+  .global-nav .l-middle-column details,
+  header .l-middle-column details,
+  footer .l-middle-column details,
+  .global-nav .l-side-column details,
+  header .l-side-column details,
+  footer .l-side-column details,
+  .global-nav .l-split-narrow details,
+  header .l-split-narrow details,
+  footer .l-split-narrow details,
+  .global-nav .l-split-wide details,
+  header .l-split-wide details,
+  footer .l-split-wide details,
+  .global-nav .l-one-third-column details,
+  header .l-one-third-column details,
+  footer .l-one-third-column details,
+  .global-nav .l-two-column details,
+  header .l-two-column details,
+  footer .l-two-column details,
+  .global-nav .l-two-third-column details,
+  header .l-two-third-column details,
+  footer .l-two-third-column details,
+  .global-nav .l-column menu,
+  header .l-column menu,
+  footer .l-column menu,
+  .global-nav .l-full-width-column menu,
+  header .l-full-width-column menu,
+  footer .l-full-width-column menu,
+  .global-nav .l-main-column menu,
+  header .l-main-column menu,
+  footer .l-main-column menu,
+  .global-nav .l-middle-column menu,
+  header .l-middle-column menu,
+  footer .l-middle-column menu,
+  .global-nav .l-side-column menu,
+  header .l-side-column menu,
+  footer .l-side-column menu,
+  .global-nav .l-split-narrow menu,
+  header .l-split-narrow menu,
+  footer .l-split-narrow menu,
+  .global-nav .l-split-wide menu,
+  header .l-split-wide menu,
+  footer .l-split-wide menu,
+  .global-nav .l-one-third-column menu,
+  header .l-one-third-column menu,
+  footer .l-one-third-column menu,
+  .global-nav .l-two-column menu,
+  header .l-two-column menu,
+  footer .l-two-column menu,
+  .global-nav .l-two-third-column menu,
+  header .l-two-third-column menu,
+  footer .l-two-third-column menu {
+    display: block;
+  }
+  .global-nav .l-column summary,
+  header .l-column summary,
+  footer .l-column summary,
+  .global-nav .l-full-width-column summary,
+  header .l-full-width-column summary,
+  footer .l-full-width-column summary,
+  .global-nav .l-main-column summary,
+  header .l-main-column summary,
+  footer .l-main-column summary,
+  .global-nav .l-middle-column summary,
+  header .l-middle-column summary,
+  footer .l-middle-column summary,
+  .global-nav .l-side-column summary,
+  header .l-side-column summary,
+  footer .l-side-column summary,
+  .global-nav .l-split-narrow summary,
+  header .l-split-narrow summary,
+  footer .l-split-narrow summary,
+  .global-nav .l-split-wide summary,
+  header .l-split-wide summary,
+  footer .l-split-wide summary,
+  .global-nav .l-one-third-column summary,
+  header .l-one-third-column summary,
+  footer .l-one-third-column summary,
+  .global-nav .l-two-column summary,
+  header .l-two-column summary,
+  footer .l-two-column summary,
+  .global-nav .l-two-third-column summary,
+  header .l-two-third-column summary,
+  footer .l-two-third-column summary {
+    display: list-item;
+  }
+  .global-nav .l-column canvas,
+  header .l-column canvas,
+  footer .l-column canvas,
+  .global-nav .l-full-width-column canvas,
+  header .l-full-width-column canvas,
+  footer .l-full-width-column canvas,
+  .global-nav .l-main-column canvas,
+  header .l-main-column canvas,
+  footer .l-main-column canvas,
+  .global-nav .l-middle-column canvas,
+  header .l-middle-column canvas,
+  footer .l-middle-column canvas,
+  .global-nav .l-side-column canvas,
+  header .l-side-column canvas,
+  footer .l-side-column canvas,
+  .global-nav .l-split-narrow canvas,
+  header .l-split-narrow canvas,
+  footer .l-split-narrow canvas,
+  .global-nav .l-split-wide canvas,
+  header .l-split-wide canvas,
+  footer .l-split-wide canvas,
+  .global-nav .l-one-third-column canvas,
+  header .l-one-third-column canvas,
+  footer .l-one-third-column canvas,
+  .global-nav .l-two-column canvas,
+  header .l-two-column canvas,
+  footer .l-two-column canvas,
+  .global-nav .l-two-third-column canvas,
+  header .l-two-third-column canvas,
+  footer .l-two-third-column canvas {
+    display: inline-block;
+  }
+  .global-nav .l-column template,
+  header .l-column template,
+  footer .l-column template,
+  .global-nav .l-full-width-column template,
+  header .l-full-width-column template,
+  footer .l-full-width-column template,
+  .global-nav .l-main-column template,
+  header .l-main-column template,
+  footer .l-main-column template,
+  .global-nav .l-middle-column template,
+  header .l-middle-column template,
+  footer .l-middle-column template,
+  .global-nav .l-side-column template,
+  header .l-side-column template,
+  footer .l-side-column template,
+  .global-nav .l-split-narrow template,
+  header .l-split-narrow template,
+  footer .l-split-narrow template,
+  .global-nav .l-split-wide template,
+  header .l-split-wide template,
+  footer .l-split-wide template,
+  .global-nav .l-one-third-column template,
+  header .l-one-third-column template,
+  footer .l-one-third-column template,
+  .global-nav .l-two-column template,
+  header .l-two-column template,
+  footer .l-two-column template,
+  .global-nav .l-two-third-column template,
+  header .l-two-third-column template,
+  footer .l-two-third-column template {
+    display: none;
+  }
+  .global-nav .l-column [hidden],
+  header .l-column [hidden],
+  footer .l-column [hidden],
+  .global-nav .l-full-width-column [hidden],
+  header .l-full-width-column [hidden],
+  footer .l-full-width-column [hidden],
+  .global-nav .l-main-column [hidden],
+  header .l-main-column [hidden],
+  footer .l-main-column [hidden],
+  .global-nav .l-middle-column [hidden],
+  header .l-middle-column [hidden],
+  footer .l-middle-column [hidden],
+  .global-nav .l-side-column [hidden],
+  header .l-side-column [hidden],
+  footer .l-side-column [hidden],
+  .global-nav .l-split-narrow [hidden],
+  header .l-split-narrow [hidden],
+  footer .l-split-narrow [hidden],
+  .global-nav .l-split-wide [hidden],
+  header .l-split-wide [hidden],
+  footer .l-split-wide [hidden],
+  .global-nav .l-one-third-column [hidden],
+  header .l-one-third-column [hidden],
+  footer .l-one-third-column [hidden],
+  .global-nav .l-two-column [hidden],
+  header .l-two-column [hidden],
+  footer .l-two-column [hidden],
+  .global-nav .l-two-third-column [hidden],
+  header .l-two-third-column [hidden],
+  footer .l-two-third-column [hidden] {
+    display: none;
+  }
 }
-@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
-	.l-column,
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
-	.l-split-narrow,
-	.l-split-wide,
-	.l-one-third-column,
-	.l-two-column,
-	.l-two-third-column {
-		h1 {
-			font-size: 1.938rem; // 31px;
-		}
-		h2 {
-			font-size: 23px; // 23px
-		}
-		h3 { 
-			font-size: 20px;
-			margin: .83em 0;
-		}
-		h4 { 
-			font-size: 18px;
-			margin: .83em 0;
-		}
-		h5 { 
-				font-size: 17px;
-				margin: 1.5em 0;
-		}
-		h6 {
-				font-size: 16px;
-				margin: 1.67em 0;
-		}
-		p,
-		li,
-		.error,
-		.alert,
-		.notice,
-		.success,
-		.info {
-			font-size: 18px; // 18px
-		line-height: 18px; // 18px
-	}
-	#tabs{
-		a {
-				font-size: 16px;
-			}
-		}
-		.content-container {
-			line-height: 1.563em; // 25px
-			li {
-				font-size: 1.125rem; // 18px
-				p {
-					font-size: 1.125rem; // 18px
-				}
-				&.header h2  {
-					font-size: 1.125rem; // 18px
-				}
-			}
-		}
-	}
+@media (min-width:480px) {
 }
-@media @tablet {  // mobile panorama
-	.l-column,
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
-	.l-split-narrow,
-	.l-split-wide,
-	.l-one-third-column,
-	.l-two-column,
-	.l-two-third-column {   
-		h1 {
-			font-size: 1.875rem; // 30px;
-		}
-		h2 {
-			font-size: 22px; // 22px
-		}
-		h3 { 
-			font-size: 19px;
-			margin: .83em 0;
-		}
-		h4 { 
-			font-size: 17px;
-			margin: .83em 0;
-		}
-		h5 { 
-				font-size: 16px;
-				margin: 1.5em 0;
-		}
-		h6 {
-				font-size: 15px;
-				margin: 1.67em 0;
-		}
-		p,
-		li,
-		.error,
-		.alert,
-		.notice,
-		.success,
-		.info {
-			font-size: 17px;
-		line-height: 18px; // 18px
-	}
-	#tabs{
-		a {
-				font-size: 15px;
-			}
-		}
-		.content-container {
-			line-height: 1.5em; // 24px
-			li {
-				font-size: 1.063rem; // 17px
-				p {
-					font-size: 1.063rem; // 17px
-				}
-				&.header h2  {
-					font-size: 1.063rem; // 17px
-				}
-			}
-		}
-	}
+@media (min-width: 600px) {
 }
-@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
-	.l-column,
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
-	.l-split-narrow,
-	.l-split-wide,
-	.l-one-third-column,
-	.l-two-column,
-	.l-two-third-column {
-		h1 {
-			font-size: 1.813rem; // 29px;    
-		}
-		h2 {
-			font-size: 21px; // 21px
-		}
-		h3 { 
-			font-size: 18px;
-			margin: .83em 0;
-		}
-		h4 { 
-			font-size: 16px;
-			margin: 1.5em 0;
-		}
-		h5 { 
-				font-size: 15px;
-				margin: 1.5em 0;
-		}
-		h6 {
-				font-size: 14px;
-				margin: 1.67em 0;
-		}
-		p,
-		li,
-		.error,
-		.alert,
-		.notice,
-		.success,
-		.info {
-			font-size: 14px;
-			line-height: 18px; // 18px
-		}
-		#tabs{
-			a {
-				font-size: 14px;
-			}
-		}
-		.content-container {
-			line-height: 1.438em; // 23px
-			li {
-				font-size: 1rem; // 16px
-				p {
-					font-size: 1rem; // 16px
-				}
-				&.header h2  {
-					font-size: 1rem; // 16px
-				}
-			}
-		}
-	}
+@media (min-width: 801px) {
 }
-@media @laptop { // big landscape tablets, laptops, and desktops
-	.l-column,
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
-	.l-split-narrow,
-	.l-split-wide,
-	.l-one-third-column,
-	.l-two-column,
-	.l-two-third-column {
-		.container {
-			margin-left: auto;
-			margin-right: auto;
-			width: 100%;
-			max-width: 956px;
-		}
-		h1 {
-			font-size: 1.75rem; // 28px;
-		}
-		h2 {
-			font-size:20px; // 20px
-		}
-									h3 { 
-										font-size: 17px;
-										margin: .83em 0;
-									}
-									h4 { 
-										font-size: 15px;
-										margin: 1.5em 0;
-									}
-		h5 { 
-				font-size: 14px;
-				margin: 1.5em 0;
-		}
-		h6 {
-				font-size: 13px;
-				margin: 1.67em 0;
-		}
-		p,
-		li,
-		.error,
-		.alert,
-		.notice,
-		.success,
-		.info {
-			font-size: 13px;
-			line-height: 18px; // 18px
-		}
-		#tabs{
-			a {
-				font-size: 13px;
-			}
-		}
-		.content-container {
-			line-height: 1.375em; // 22px
-			li {
-				font-size: 0.875rem; // 14px
-				p {
-					font-size: 0.875rem; // 14px
-				}
-				&.header h2  {
-					font-size: 0.875rem; // 14px
-				}
-			}
-		}
-	}
+@media (min-width: 956px) {
 }
-@media @desktop { // desktops
-	.l-column,
-	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
-	.l-split-narrow,
-	.l-split-wide,
-	.l-one-third-column,
-	.l-two-column,
-	.l-two-third-column {
-		h1 {
-			font-size: 28px;
-			.header-font;
-			margin: 0;    
-		}
-		h2 {
-			font-size: 18px; // 18px
-			.font;
-			.bold;
-			margin: 0;
-		}
-		h3 { 
-			font-size: 15px;
-			text-transform: uppercase;
-			margin: 0;
-			margin: 1.5em 0;
-		}
-		h4 { 
-			font-size: 15px;
-			margin: 0;
-			margin: 1.5em 0;
-		}
-		h5 { 
-				font-size: 0.813rem; // 13px
-				.bold;
-				margin: 1.5em 0;
-		}
-		h6 {
-				font-size: 0.813rem; // 13px
-				.italic;
-				margin: 1.67em 0;
-		}
-		p,
-		li,
-		.error,
-		.alert,
-		.notice,
-		.success,
-		.info {
-			font-size: 0.875rem; // 14px;
-			line-height: 1.75;
-		}
-		#tabs{
-			a {
-				font-size: .75rem; // 12px
-			}
-		}
-		.content-container {
-			line-height: 1.250em; // 20px
-			li {
-			font-size: 14px;
-				p {
-					font-size:  14px;
-				}
-				&.header h2  {
-					font-size: .75rem; // 12px;
-				}
-			}
-		}
-	}
+@media (min-width: 1025px) {
 }
-*/
 span.line-break {
   display: inline-block;
 }
+/*
+// float left
 .left {
-  float: left;
+	.left
 }
+// float right
 .right {
-  float: right;
+	.right
 }
 .align-left {
-  text-align: left;
+	.align-left
 }
 .align-center {
-  text-align: center;
+	.align-center
 }
 .align-right {
-  text-align: right;
+	.align-right
 }
 .align-top {
-  vertical-align: top;
+	.align-top
 }
 .align-middle {
-  vertical-align: middle;
+	.align-middle
 }
 .align-bottom {
-  vertical-align: bottom;
+	.align-bottom
 }
 .hide {
-  display: hide;
+	.hide
 }
 .show {
-  display: hide;
+	.hide
 }
 .line-through,
 .disabled {
-  text-decoration: line-through;
-  color: #a2a2a2;
-}
-/*
-.ellip {
-	display: block;
-	height: 100%;
+	text-decoration: line-through;
+	color:#a2a2a2;
 }
 
-.ellip-line {
-	display: inline-block;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	word-wrap: normal;
-	max-width: 100%;
-}
-
-.ellip,
-.ellip-line {
-	position: relative;
-	overflow: hidden;
-}
 */
 .image-container {
   text-align: center;
@@ -896,528 +3182,6 @@ span.line-break {
 .responsive {
   max-width: 100%;
   margin: 0 auto;
-}
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-.global-nav,
-header,
-footer {
-  /**
-   * Add the correct display in IE 9-.
-   */
-  /**
-	* Correct the font size and margin on `h1` elements within `section` and
-	* `article` contexts in Chrome, Firefox, and Safari.
-	*/
-  /* Grouping content
-		========================================================================== */
-  /**
-	* Add the correct display in IE 9-.
-	* 1. Add the correct display in IE.
-	*/
-  /**
-	* Add the correct margin in IE 8.
-	*/
-  /**
-	* 1. Add the correct box sizing in Firefox.
-	* 2. Show the overflow in Edge and IE.
-	*/
-  /**
-	* 1. Correct the inheritance and scaling of font size in all browsers.
-	* 2. Correct the odd `em` font sizing in all browsers.
-	*/
-  /* Text-level semantics
-		========================================================================== */
-  /**
-	* 1. Remove the gray background on active links in IE 10.
-	* 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
-	*/
-  /**
-	* 1. Remove the bottom border in Chrome 57- and Firefox 39-.
-	* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-	*/
-  /**
-	* Prevent the duplicate application of `bolder` by the next rule in Safari 6.
-	*/
-  /**
-	* Add the correct font weight in Chrome, Edge, and Safari.
-	*/
-  /**
-	* 1. Correct the inheritance and scaling of font size in all browsers.
-	* 2. Correct the odd `em` font sizing in all browsers.
-	*/
-  /**
-	* Add the correct font style in Android 4.3-.
-	*/
-  /**
-	* Add the correct background and color in IE 9-.
-	*/
-  /**
-	* Add the correct font size in all browsers.
-	*/
-  /**
-	* Prevent `sub` and `sup` elements from affecting the line height in
-	* all browsers.
-	*/
-  /* Embedded content
-		========================================================================== */
-  /**
-	* Add the correct display in IE 9-.
-	*/
-  /**
-	* Add the correct display in iOS 4-7.
-	*/
-  /**
-	* Remove the border on images inside links in IE 10-.
-	*/
-  /**
-	* Hide the overflow in IE.
-	*/
-  /* Forms
-		========================================================================== */
-  /**
-	* 1. Change the font styles in all browsers (opinionated).
-	* 2. Remove the margin in Firefox and Safari.
-	*/
-  /**
-	* Show the overflow in IE.
-	* 1. Show the overflow in Edge.
-	*/
-  /**
-	* Remove the inheritance of text transform in Edge, Firefox, and IE.
-	* 1. Remove the inheritance of text transform in Firefox.
-	*/
-  /**
-	* 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
-	*    controls in Android 4.
-	* 2. Correct the inability to style clickable types in iOS and Safari.
-	*/
-  /**
-	* Remove the inner border and padding in Firefox.
-	*/
-  /**
-	* Restore the focus styles unset by the previous rule.
-	*/
-  /**
-	* Correct the padding in Firefox.
-	*/
-  /**
-	* 1. Correct the text wrapping in Edge and IE.
-	* 2. Correct the color inheritance from `fieldset` elements in IE.
-	* 3. Remove the padding so developers are not caught out when they zero out
-	*    `fieldset` elements in all browsers.
-	*/
-  /**
-	* 1. Add the correct display in IE 9-.
-	* 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
-	*/
-  /**
-	* Remove the default vertical scrollbar in IE.
-	*/
-  /**
-	* 1. Add the correct box sizing in IE 10-.
-	* 2. Remove the padding in IE 10-.
-	*/
-  /**
-	* Correct the cursor style of increment and decrement buttons in Chrome.
-	*/
-  /**
-	* 1. Correct the odd appearance in Chrome and Safari.
-	* 2. Correct the outline style in Safari.
-	*/
-  /**
-	* Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
-	*/
-  /**
-	* 1. Correct the inability to style clickable types in iOS and Safari.
-	* 2. Change font properties to `inherit` in Safari.
-	*/
-  /* Interactive
-		========================================================================== */
-  /*
-	* Add the correct display in IE 9-.
-	* 1. Add the correct display in Edge, IE, and Firefox.
-	*/
-  /*
-	* Add the correct display in all browsers.
-	*/
-  /* Scripting
-		========================================================================== */
-  /**
-	* Add the correct display in IE 9-.
-	*/
-  /**
-	* Add the correct display in IE.
-	*/
-  /* Hidden
-		========================================================================== */
-  /**
-	* Add the correct display in IE 10-.
-	*/
-}
-.global-nav article,
-header article,
-footer article,
-.global-nav aside,
-header aside,
-footer aside,
-.global-nav footer,
-header footer,
-footer footer,
-.global-nav header,
-header header,
-footer header,
-.global-nav nav,
-header nav,
-footer nav,
-.global-nav section,
-header section,
-footer section {
-  display: block;
-}
-.global-nav h1,
-header h1,
-footer h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-.global-nav figcaption,
-header figcaption,
-footer figcaption,
-.global-nav figure,
-header figure,
-footer figure,
-.global-nav main,
-header main,
-footer main {
-  /* 1 */
-  display: block;
-}
-.global-nav figure,
-header figure,
-footer figure {
-  margin: 1em 40px;
-}
-.global-nav hr,
-header hr,
-footer hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
-}
-.global-nav pre,
-header pre,
-footer pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
-.global-nav a,
-header a,
-footer a {
-  background-color: transparent;
-  /* 1 */
-  -webkit-text-decoration-skip: objects;
-  /* 2 */
-}
-.global-nav abbr[title],
-header abbr[title],
-footer abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
-}
-.global-nav b,
-header b,
-footer b,
-.global-nav strong,
-header strong,
-footer strong {
-  font-weight: inherit;
-}
-.global-nav b,
-header b,
-footer b,
-.global-nav strong,
-header strong,
-footer strong {
-  font-weight: bolder;
-}
-.global-nav code,
-header code,
-footer code,
-.global-nav kbd,
-header kbd,
-footer kbd,
-.global-nav samp,
-header samp,
-footer samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
-.global-nav dfn,
-header dfn,
-footer dfn {
-  font-style: italic;
-}
-.global-nav mark,
-header mark,
-footer mark {
-  background-color: #ff0;
-  color: #000;
-}
-.global-nav small,
-header small,
-footer small {
-  font-size: 80%;
-}
-.global-nav sub,
-header sub,
-footer sub,
-.global-nav sup,
-header sup,
-footer sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-.global-nav sub,
-header sub,
-footer sub {
-  bottom: -0.25em;
-}
-.global-nav sup,
-header sup,
-footer sup {
-  top: -0.5em;
-}
-.global-nav audio,
-header audio,
-footer audio,
-.global-nav video,
-header video,
-footer video {
-  display: inline-block;
-}
-.global-nav audio:not([controls]),
-header audio:not([controls]),
-footer audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-.global-nav img,
-header img,
-footer img {
-  border-style: none;
-}
-.global-nav svg:not(:root),
-header svg:not(:root),
-footer svg:not(:root) {
-  overflow: hidden;
-}
-.global-nav button,
-header button,
-footer button,
-.global-nav input,
-header input,
-footer input,
-.global-nav optgroup,
-header optgroup,
-footer optgroup,
-.global-nav select,
-header select,
-footer select,
-.global-nav textarea,
-header textarea,
-footer textarea {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: #333;
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-}
-.global-nav button,
-header button,
-footer button,
-.global-nav input,
-header input,
-footer input {
-  /* 1 */
-  overflow: visible;
-}
-.global-nav button,
-header button,
-footer button,
-.global-nav select,
-header select,
-footer select {
-  /* 1 */
-  text-transform: none;
-}
-.global-nav button,
-header button,
-footer button,
-.global-nav html [type="button"],
-header html [type="button"],
-footer html [type="button"],
-.global-nav [type="reset"],
-header [type="reset"],
-footer [type="reset"],
-.global-nav [type="submit"],
-header [type="submit"],
-footer [type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-}
-.global-nav button::-moz-focus-inner,
-header button::-moz-focus-inner,
-footer button::-moz-focus-inner,
-.global-nav [type="button"]::-moz-focus-inner,
-header [type="button"]::-moz-focus-inner,
-footer [type="button"]::-moz-focus-inner,
-.global-nav [type="reset"]::-moz-focus-inner,
-header [type="reset"]::-moz-focus-inner,
-footer [type="reset"]::-moz-focus-inner,
-.global-nav [type="submit"]::-moz-focus-inner,
-header [type="submit"]::-moz-focus-inner,
-footer [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-.global-nav button:-moz-focusring,
-header button:-moz-focusring,
-footer button:-moz-focusring,
-.global-nav [type="button"]:-moz-focusring,
-header [type="button"]:-moz-focusring,
-footer [type="button"]:-moz-focusring,
-.global-nav [type="reset"]:-moz-focusring,
-header [type="reset"]:-moz-focusring,
-footer [type="reset"]:-moz-focusring,
-.global-nav [type="submit"]:-moz-focusring,
-header [type="submit"]:-moz-focusring,
-footer [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-.global-nav fieldset,
-header fieldset,
-footer fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-.global-nav legend,
-header legend,
-footer legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
-}
-.global-nav progress,
-header progress,
-footer progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
-}
-.global-nav textarea,
-header textarea,
-footer textarea {
-  overflow: auto;
-}
-.global-nav [type="checkbox"],
-header [type="checkbox"],
-footer [type="checkbox"],
-.global-nav [type="radio"],
-header [type="radio"],
-footer [type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-.global-nav [type="number"]::-webkit-inner-spin-button,
-header [type="number"]::-webkit-inner-spin-button,
-footer [type="number"]::-webkit-inner-spin-button,
-.global-nav [type="number"]::-webkit-outer-spin-button,
-header [type="number"]::-webkit-outer-spin-button,
-footer [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-.global-nav [type="search"],
-header [type="search"],
-footer [type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
-}
-.global-nav [type="search"]::-webkit-search-cancel-button,
-header [type="search"]::-webkit-search-cancel-button,
-footer [type="search"]::-webkit-search-cancel-button,
-.global-nav [type="search"]::-webkit-search-decoration,
-header [type="search"]::-webkit-search-decoration,
-footer [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-.global-nav ::-webkit-file-upload-button,
-header ::-webkit-file-upload-button,
-footer ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
-.global-nav details,
-header details,
-footer details,
-.global-nav menu,
-header menu,
-footer menu {
-  display: block;
-}
-.global-nav summary,
-header summary,
-footer summary {
-  display: list-item;
-}
-.global-nav canvas,
-header canvas,
-footer canvas {
-  display: inline-block;
-}
-.global-nav template,
-header template,
-footer template {
-  display: none;
-}
-.global-nav [hidden],
-header [hidden],
-footer [hidden] {
-  display: none;
 }
 @media (min-width: 1px) {
   .footer {
@@ -1490,7 +3254,6 @@ footer [hidden] {
   }
   .footer .address-bar .above-address-links a {
     font-family: "Times New Roman", "Times", serif;
-    font-style: normal;
     font-weight: normal;
     white-space: nowrap;
     line-height: 1.4em;
@@ -1506,7 +3269,6 @@ footer [hidden] {
     padding: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     font-size: .6875rem;
@@ -1524,12 +3286,10 @@ footer [hidden] {
     border-top: 1px solid #eee;
   }
   .footer .footer-links ul li {
-    font-weight: normal;
-    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     color: #333;
+    font-weight: 700;
     font-size: .6875rem;
     margin-bottom: .2em;
   }
@@ -1762,7 +3522,6 @@ footer [hidden] {
   }
   header .navigation .menu-toggle p {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     color: #a9c1da;
@@ -1790,7 +3549,6 @@ footer [hidden] {
   header .navigation .nav-secondary {
     display: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
   }
@@ -1902,7 +3660,6 @@ footer [hidden] {
   }
   header .navigation .nav-primary .nav-primary-item a {
     font-family: "Times New Roman", "Times", serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     font-size: 1rem;
@@ -2099,7 +3856,6 @@ footer [hidden] {
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .tabs-wrapper ul li a {
     display: block;
     font-family: "Times New Roman", "Times", serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     color: #fff;
@@ -2199,7 +3955,6 @@ footer [hidden] {
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu h3 {
     margin: 0 0 0 80px;
     font-family: "Times New Roman", "Times", serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     font-weight: 100;
@@ -2210,7 +3965,6 @@ footer [hidden] {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu h3 a {
     font-family: "Times New Roman", "Times", serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     line-height: 1.2em;
@@ -2225,7 +3979,6 @@ footer [hidden] {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu p {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     display: block;
@@ -2247,7 +4000,6 @@ footer [hidden] {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu ul li {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     line-height: 1.6em;
@@ -2310,7 +4062,6 @@ footer [hidden] {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new h5 {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     line-height: 1.6em;
@@ -2332,10 +4083,7 @@ footer [hidden] {
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new p {
     margin: 0 0 0 0;
     color: #7d7d7d;
-    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-weight: 300;
-    color: #333;
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new ul {
     list-style: none;
@@ -2352,7 +4100,6 @@ footer [hidden] {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h5 {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     line-height: 1.6em;
@@ -2393,7 +4140,6 @@ footer [hidden] {
     background-color: #fff;
     background-image: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     list-style-type: none;
@@ -2415,7 +4161,6 @@ footer [hidden] {
     overflow-wrap: break-word;
     line-height: 1.6em;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     font-size: 0.875rem;
@@ -2437,7 +4182,6 @@ footer [hidden] {
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu .form-wrapper textarea {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     font-size: 0.875rem;
@@ -2466,7 +4210,6 @@ footer [hidden] {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu .ui-autocomplete .ui-menu-item {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     margin-bottom: .5em;
@@ -2559,7 +4302,6 @@ footer [hidden] {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.a-z-index .a-z-list {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     font-weight: normal;
     color: #333;
     font-size: 1em;
@@ -2776,7 +4518,7 @@ footer [hidden] {
                         display: block;
                         margin-left: 80px;
                         overflow-wrap: break-word;
-                        color: #333;
+                        color: @eia-dark-gray;
                         line-height: 1.6em;
                         .font;
                         font-size: 0.875rem;
@@ -2894,22 +4636,18 @@ footer [hidden] {
     background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-eia-logomark%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2093.83%2075.33%22%3E%3Cg%20id%3D%22logo-mark%22%3E%3Cg%20id%3D%22eia%22%3E%3Cpath%20d%3D%22M16.63,42.39a6.19,6.19,0,0,1,4.88-2.09,6.37,6.37,0,0,1,4.77,2,7.39,7.39,0,0,1,1.91,5.36v0.49H14.58a9.25,9.25,0,0,1,2.05-5.74M32.18,59.53a18.46,18.46,0,0,1-3.45,3,8.1,8.1,0,0,1-4.19,1,8.45,8.45,0,0,1-5-1.74A10.77,10.77,0,0,1,15.84,57a19.05,19.05,0,0,1-1.26-7.25V49.35H33V48.83a9.26,9.26,0,0,0-3.24-7.06,10.9,10.9,0,0,0-7.58-3,11.67,11.67,0,0,0-8.91,3.93,13.7,13.7,0,0,0-3.64,9.68,12.58,12.58,0,0,0,3.81,9.42,13.31,13.31,0,0,0,9.67,3.7,12,12,0,0,0,5.67-1.25,14.94,14.94,0,0,0,4.64-4.18v0Z%22%20fill%3D%22@eia-dark-gray%22/%3E%3Cpath%20d%3D%22M66.39,59.62a5.46,5.46,0,0,1-2.23,2.28,5.89,5.89,0,0,1-3,.92,3.4,3.4,0,0,1-2.7-1.37,5,5,0,0,1-1.13-3.26,5.17,5.17,0,0,1,1.06-3.43q1.06-1.27,4.85-2.56,2.05-.7,3.13-1.15v8.56Zm8.36,1c-0.32,1-1.34,2.2-2.1,2.17A1.13,1.13,0,0,1,71.52,62a10.83,10.83,0,0,1-.3-3.11V48.07A9.23,9.23,0,0,0,56.1,40.93a9.76,9.76,0,0,0-3.27,5.45l1.24,0.52a7.73,7.73,0,0,1,2.54-3.95,6.43,6.43,0,0,1,4.14-1.46,5.27,5.27,0,0,1,4.1,1.69,6.33,6.33,0,0,1,1.53,4.44v1.88a23.76,23.76,0,0,1-4.73,1.67q-5.6,1.57-7.43,3.29a5.74,5.74,0,0,0-1.82,4.36,6.24,6.24,0,0,0,2.12,4.75,7.22,7.22,0,0,0,5.08,2A7.37,7.37,0,0,0,63,64.77a13.35,13.35,0,0,0,3.34-2.82q1.18,3.59,4.28,3.58a4.5,4.5,0,0,0,3.43-1.39A5.64,5.64,0,0,0,75.5,61Z%22%20fill%3D%22@eia-dark-gray%22/%3E%3Cpath%20d%3D%22M46.2,62.85c-0.61-.47-0.91-1.39-0.91-2.79V38.68H43.73l0,0c-1.49.68-8,.86-8,0.86v1.18c2.11,0,3.44.25,4,.73s0.8,1.5.8,3V60.06q0,2.13-.87,2.81c-0.58.45-1.88,0.68-3.9,0.68v1.18H49.5V63.55a5.67,5.67,0,0,1-3.3-.7%22%20fill%3D%22@eia-dark-gray%22/%3E%3Cpath%20d%3D%22M45.1,32.78a2.71,2.71,0,1,1-2.71-2.71,2.71,2.71,0,0,1,2.71,2.71%22%20fill%3D%22@eia-dark-gray%22/%3E%3C/g%3E%3Cpath%20d%3D%22M17.92,34.62c0.11-.12.26-0.27,0.46-0.47A104.56,104.56,0,0,1,42.47,16.59a56,56,0,0,1,14.26-5.23c10.1-2.08,16.36.35,18.25,1.93a2.27,2.27,0,0,1,.63.74,59.72,59.72,0,0,0-18.3,1C45.8,17.45,34.15,22.81,22.7,31c-1.48,1.06-2.95,2.17-4.36,3.29a5.12,5.12,0,0,1-.43.31%22%20fill%3D%22%235d9732%22/%3E%3Cpath%20d%3D%22M15.44,35.24c0.11-.19.28-0.46,0.55-0.86,2.48-3.58,6.32-8.79,9.33-12.34,7.15-8.45,13.92-10.88,17.32-11.58a13.7,13.7,0,0,1,3.47-.31,2.34,2.34,0,0,1-.3.36A92.51,92.51,0,0,0,23.63,26.39c-2.14,2.12-4.14,4.37-5.75,6.18-0.63.71-1.21,1.37-1.73,1.94-0.33.35-.55,0.58-0.71,0.73%22%20fill%3D%22%23ffc702%22/%3E%3Cpath%20d%3D%22M79.9,54.31a6,6,0,0,1,.28-1.38c2.14-6.48,2-12.49-.51-17.39C74.53,25.36,62,21.22,46.21,24.48a80,80,0,0,0-22.62,8.75q-0.66.36-1.29,0.75c-0.41.24-.7,0.4-0.9,0.5,0.18-.15.44-0.35,0.81-0.61A79.72,79.72,0,0,1,29,29.58a73.75,73.75,0,0,1,20.61-7.83c15.92-3.28,28.76.51,33.5,9.9a19.07,19.07,0,0,1,1.79,10.71,21.33,21.33,0,0,1-5,11.95%22%20fill%3D%22%23189bd7%22/%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
   }
   .plus-yellow {
-    font-weight: normal;
-    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     color: #333;
+    font-weight: 700;
     color: #ffc702;
     font-size: 18px;
   }
   .plus-greyish-blue {
-    font-weight: normal;
-    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     color: #333;
+    font-weight: 700;
     color: #a9c1da;
     font-size: 12px;
   }
@@ -3329,7 +5067,23 @@ footer [hidden] {
   .ico-menu.ico-nav.search-submit:hover::before:hover::before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22linear-gradient%22%20x1%3D%229.18%22%20y1%3D%220.72%22%20x2%3D%229.18%22%20y2%3D%2217.22%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-opacity%3D%220%22/%3E%3Cstop%20offset%3D%221%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg%20id%3D%22icon-submit-arrow%22%3E%3Cpath%20d%3D%22M9.18,0.72A8.25,8.25,0,1,0,17.43,9,8.25,8.25,0,0,0,9.18.72ZM10,10.57L7.62,12.51V4.77L10,6.7,12.3,8.64Z%22%20fill%3D%22%23189bd7%22/%3E%3Cg%20opacity%3D%220.5%22%3E%3Cpath%20d%3D%22M9.18,0.72A8.25,8.25,0,1,0,17.43,9,8.25,8.25,0,0,0,9.18.72ZM10,10.57L7.62,12.51V4.77L10,6.7,12.3,8.64Z%22%20fill%3D%22url%28%23linear-gradient%29%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
   }
-  /*-general Icon --------------------------*
+  /*-general Icon --------------------------*/
+  .arrow {
+    text-indent: -9999px;
+  }
+  .arrow.down {
+    display: inline-block;
+    Margin-top: -1px;
+    padding: 0px 0px 0px 16px;
+    background: transparent url(https://www.eia.gov/global/images/icons/down.png) no-repeat center left;
+  }
+  .arrow.up {
+    display: inline-block;
+    Margin-top: -1px;
+    padding: 0px 0px 0px 16px;
+    background: transparent url(https://www.eia.gov/global/images/icons/up.png) no-repeat center left;
+  }
+  /*
 		&.analysis {
 			&::before {
 				.controls-icon(20px, 20px);

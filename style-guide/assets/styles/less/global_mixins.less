@@ -1,26 +1,26 @@
 // .font is the default font
-.font(@fontFamily: @default_font; @fontWeight: normal; @fontStyle: normal; @fontColor: @eia-dark-gray) {
+.font(@fontFamily: @default_font; @fontWeight: normal; @fontColor: @eia-dark-gray) {
     font-family: @fontFamily;
-    font-style: @fontStyle;
     font-weight: @fontWeight;
     color: @fontColor;
 }
-.header-font(@fontFamily: @header_font; @fontWeight: normal; @fontStyle: normal; @fontColor: @eia-dark-gray) {
+.header-font(@fontFamily: @header_font; @fontWeight: normal; @fontColor: @eia-dark-gray) {
     font-family: @fontFamily;
-    font-style: @fontStyle;
     font-weight: @fontWeight;
     color: @fontColor;
 }
 
 
 
+.bold(@fontWeightBold: 700) {font-weight:@fontWeightBold;}
+.semi-bold(@fontWeightSemiBold: 600) {font-weight: @fontWeightSemiBold;}
+.normal(@fontWeightNormal: normal) {font-weight: @fontWeightNormal;}
+.italic(@fontStyleItalic: italic) {font-style: @fontStyleItalic;}
+.right(@floatRight: right) { float: @floatRight;}
+.left(@floatLeft: left) { float: @floatLeft;}
+.font-size (@baseFontSize: 16) {font-size: @baseFontSize; }
 
-.bold(@fontWeight: 700) {font-weight: @fontWeight; }
-.semi-bold(@fontWeight: 600) {font-weight: @fontWeight; }
-.normal(@fontWeight: normal) {font-weight: @fontWeight; }
-.right(@floatRight: right) { float: @floatRight; }
-.left(@floatLeft: left) { float: @floatLeft; }
-.base-font-size(@baseFontSize: 16) {font-size: @baseFontSize; }
+
 
 .no-wrap(@NoWrap: no-wrap) { white-space: @NoWrap; }
 

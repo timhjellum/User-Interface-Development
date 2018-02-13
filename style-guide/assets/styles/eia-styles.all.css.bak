@@ -1,0 +1,26 @@
+/*
+@import "less/vendor/fancybox";
+@import "less/global_vars";
+@import "less/global_mixins";
+@import "less/base";
+@import "less/footer";
+@import "less/header";
+@import "less/header-menu";
+@import "less/icons";
+@import "less/layouts";
+@import "less/social-sticker";
+
+
+@import "less/slider-home";
+@import "less/slider-multi-cards";
+
+
+@import "less/modules/blue-background";
+@import "less/modules/content-container";
+@import "less/modules/dark-top-border-container";
+@import "less/modules/features";
+@import "less/modules/grey-background";
+@import "less/modules/light-top-border-container";
+@import "less/modules/main-content-container";
+@import "less/modules/standard-container";
+*/

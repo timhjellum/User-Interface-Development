@@ -35,66 +35,68 @@
 
 
 @media @mobile {
-  .features {
-    overflow: hidden;
-    margin: 0 0 26px;
-    padding: 22px 0 0 22px;
-    //display: inline-block;
-    -moz-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 300px;
-    max-height: 300px;
-    background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
-    background-size: cover;
-    border-bottom: solid 1px #E3E5E6;
-    h2 {
-      margin: 0 0 6px 0;
-      padding: 0;
-      .head-font;
-    }
-    li {
-      &.head h2 {
-        margin-bottom: 4px;
-        padding: 8px 0 6px;
-        a {
-          .font;
-          font-size: 1rem; // 16px;
-        }
-      }
-    }
-    img {
-      padding: 4px;
-      border: 1px solid #dadada;
-      float: left;
-      margin: 0 18px 10px 0;
-      width: 183px;
-      height: 101px;
-    }
-  }
+	.features {
+		overflow: hidden;
+		margin: 0 0 26px;
+		padding: 22px 0 0 22px;
+		//display: inline-block;
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 300px;
+		max-height: 300px;
+		background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
+		background-size: cover;
+		border-bottom: solid 1px #E3E5E6;
+		h2 {
+			.header-font;
+			margin: 0 0 6px 0;
+			padding: 0;
+		}
+		li {
+			&.head h2 {
+				margin-bottom: 4px;
+				padding: 8px 0 6px;
+				a {
+					.font;
+					font-size: 1rem; // 16px;
+				}
+			}
+		}
+		img {
+			padding: 4px;
+			border: 1px solid #dadada;
+			float: left;
+			margin: 0 18px 10px 0;
+			width: 183px;
+			height: 101px;
+		}
+	}
 }
 @media @tablet {
-  .main-content-container {
-    li {
-      &.head h2 {
-        border-bottom: solid 1px #dadada;
-        font-size: 1rem;
-        .font;
-      }
-    }
-  }
+	.main-content-container {
+		li {
+			&.head h2 {
+				border-bottom: solid 1px #dadada;
+				font-size: 1rem;
+				.font;
+			}
+		}
+	}
 }
 @media @laptop {
-  .features {
-    h2 {
-      font-size: 1.375rem; //22px
-    }
+	.features {
+		h2 {
+			font-size: 1.375rem; //22px
+		}
 
-    li {
-      &.head h2 {
-        font-size: 1rem; // 16px;
-      }
-    }
-  }
+		li {
+			&.head {
+				h2 {
+					font-size: 1rem; // 16px;
+				}
+			}
+		}
+	}
 }
