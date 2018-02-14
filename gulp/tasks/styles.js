@@ -84,6 +84,19 @@ gulp.task('legacy-print', () =>
 );
 
 
+gulp.task('beta', ['beta-feedback']);
+
+gulp.task('beta-feedback', () =>
+	gulp.src('./style-guide/assets/styles/beta-feedback.css')
+	.pipe(less())
+	.pipe(gulp.dest(styleGuideDist))
+	.pipe(cleanCSS())
+	.pipe(rename("beta-feedback.min.css"))
+	.pipe(gulp.dest(styleGuideDist))
+);
+
+
+
 // print style-guide
 // $ npm run gulp style-guide
 

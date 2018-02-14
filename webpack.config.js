@@ -1,6 +1,7 @@
 const path = require('path');
 //const dist = '//WWWDEV/website/global/scripts';
-const dist = '../global/scripts/';
+//const dist = '../global/scripts/';
+const dist = "./style-guide/src/scripts/"
 
 module.exports = {
 	entry: {
