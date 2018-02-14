@@ -8,10 +8,10 @@ gulp.task('watch', function() {
   browserSync.init({
     notify: false,
     server: {
-      baseDir: "style-guide"
+      baseDir: "./style-guide"
     }
   });
-  watch('./style-guide/modules-home-content-containers.html', () =>
+  watch('./style-guide/*.html', () =>
   // change this to point to the file you are working on... for example ../petroleum/index.php
   // browser sync will refresh the page automatically when you build
   // also, you can copy the link into another browser and both browsers will be in sync
@@ -22,7 +22,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('cssInject', ['styles'], () =>
-    gulp.src('./style-guide/src/styles/eia-styles.min.css')
+    gulp.src('./style-guide/src/styles/eia-styles.css')
     .pipe(browserSync.stream())
 );
 

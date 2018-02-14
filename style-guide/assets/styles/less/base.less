@@ -1,23 +1,4 @@
-// Pixels	EMs	Percent	Points
-// 6px	0.375rem	37.5%	5pt
-// 7px	0.438rem	43.8%	5pt
-// 8px	0.500rem	50.0%	6pt
-// 9px	0.563rem	56.3%	7pt
-// 10px	0.625rem	62.5%	8pt
-// 11px	0.688rem	68.8%	8pt
-// 12px	0.750rem	75.0%	9pt
-// 13px	0.813rem	81.3%	10pt
-// 14px	0.875rem	87.5%	11pt
-// 15px	0.938rem	93.8%	11pt
-// 16px	1.000rem	100.0%	12pt
-// 17px	1.063rem	106.3%	13pt
-// 18px	1.125rem	112.5%	14pt
-// 19px	1.188rem	118.8%	14pt
-// 20px	1.250rem	125.0%	15pt
-// 21px	1.313rem	131.3%	16pt
-// 22px	1.375rem	137.5%	17pt
-// 23px	1.438rem	143.8%	17pt
-// 24px	1.500rem	150.0%	18pt
+
 
 /**
  * 1. Correct the line height in all browsers.
@@ -29,6 +10,9 @@
 	line-height: 1.15; /* 1 */
 	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0 !important; // overide
   }
   
   /* Sections
@@ -39,33 +23,14 @@
    */
   
 body {
+    background-color: #e8ecf2;
+	margin-bottom: 0 !important; // overide
 	margin: 0;
+	padding: 0;
 }
 .page-wrapper {
-	body, html {
-		background-color: #e8ecf2;
-		height: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	html {
-		font-size: 16px;
-	//  .font;
-	}
-	// move to ...
-	//h1, h2, h3, h4, h5, h6 {
-	//	clear: both;
-	//}
 	.no-wrap {
 		.no-wrap;
-	}
-	.gradient {
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,cccccc+100 */
-		background: #ffffff; /* Old browsers */
-		background: -moz-linear-gradient(top, #ffffff 0%, #dddddd 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, #ffffff 0%,#dddddd 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom, #ffffff 0%,#dddddd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
 	}
 	/* caption
 	.source {

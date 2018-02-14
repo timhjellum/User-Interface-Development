@@ -1,64 +1,33 @@
 @media @mobile {
-	#outerX {
-		border: 0;
-		margin: 0 auto;
-		padding: 0;
-	}
 	.page-wrapper {
 		width: 100%;
-//		height: 100%;
-		border: none;
-		background-color: transparent;
 		margin: 0;
-		padding: 0;
 		box-sizing: border-box;
-		.l-outer-wrapper {
+		.l-outer-wrapper#outerX {
 			margin: 0 auto;
 			background-color: #e2e6eb;
 			border: 0;
-//			height: 100%;
 			position: relative;
-			// end mobile
-			// start laptop
+			box-sizing: border-box;
 			position: relative;
 			padding: 0 1px;
 			max-width: 992px;
 			min-width: 992px;
 			width: 992px;
-			box-sizing: border-box;
-			box-sizing: border-box;
-
 			.l-inner-wrapper#innerX {
 				background-color: #fff;
-				display: table;
-				// end mobile
-				// start laptop
+				box-sizing: border-box;
 				border-right: 1px solid #dbdfe5;
 				border-left: 1px solid #dbdfe5; 
-				padding: 41px 15px 0 15px;
-				box-sizing: border-box;
+				padding: 96px 15px 0 15px;
 				max-width: 990px;
 				min-width: 990px;
 				width: 990px;
-				margin: 0;			
-				box-sizing: border-box;
-			}		
-		}
-	}
-//}
-//@media @laptop {
-	.l-outer-wrapper {
-		padding: 0 1px; // 990px - 2px = 990px width
-		// normall 1025 - big landscape tablets, laptops, and desktops
-		max-width: 990px;
-		min-width: 990px;
-		width: 990px;
-		.l-inner-wrapper {
-			border-right: 1px solid #dbdfe5;
-			border-left: 1px solid #dbdfe5; // 990px - 2px = 986px width
-			width: 990px;
-			padding: 106px 15px 50px 15px;
-			// this is a column reset to keep all the moibile spacing from interfering with the laptop <
+				margin: 0;
+				&.show {
+					padding: 90px 0 50px;
+				}
+			}
 		}
 	}
 	// start mobile
@@ -197,14 +166,6 @@
 }
 
 @media @laptop { // big landscape tablets, laptops, and desktops
-	.page-wrapper {
-		.l-outer-wrapper {
-			.l-inner-wrapper#innerX {
-				padding: 96px 15px 0 15px;
-			}		
-		}
-	}
-
 	.l-column {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 16.666667%;

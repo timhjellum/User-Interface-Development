@@ -9,9 +9,6 @@
     font-weight: @fontWeight;
     color: @fontColor;
 }
-
-
-
 .bold(@fontWeightBold: 700) {font-weight:@fontWeightBold;}
 .semi-bold(@fontWeightSemiBold: 600) {font-weight: @fontWeightSemiBold;}
 .normal(@fontWeightNormal: normal) {font-weight: @fontWeightNormal;}
@@ -20,10 +17,7 @@
 .left(@floatLeft: left) { float: @floatLeft;}
 .font-size (@baseFontSize: 16) {font-size: @baseFontSize; }
 
-
-
 .no-wrap(@NoWrap: no-wrap) { white-space: @NoWrap; }
-
 .align-right(@AlignRight: right) {text-align: @AlignRight; }
 .align-left(@AlignLeft: left) {text-align: @AlignLeft; }
 .align-center(@AlignCenter: center) {text-align: @AlignCenter; }
@@ -33,6 +27,15 @@
 
 .hide(@DisplayNone: hide) {display:@DisplayNone; }
 .show(@DisplayShow: block) {display:@DisplayShow; }
+
+.gradient (@origin: top, @fallback: @gradient-background,  @stops){
+    background-color: @fallback;
+    background: -webkit-linear-gradient(@origin, @stops) @fallback no-repeat;
+    background:    -moz-linear-gradient(@origin, @stops) @fallback no-repeat;
+    background:    -ms-linear-gradient(@origin, @stops) @fallback no-repeat;
+    background:      -o-linear-gradient(@origin, @stops) @fallback no-repeat;
+    background:         linear-gradient(@origin, @stops) @fallback no-repeat;
+}
 
 //container mixin defaults for adding icon via ::before or ::after
 .controls-icon(@icon-width: 30px, @icon-height: 30px) {
@@ -51,6 +54,7 @@
     border-radius: 100%;
     background-size: 68%;
 }
+
 
 /*-mixin for encoding the svg-------------*/
 .inline-svg-code( @code ) {

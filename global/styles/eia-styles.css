@@ -271,6 +271,9 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0 !important;
 }
 /* Sections
 	 ========================================================================== */
@@ -278,7 +281,10 @@ html {
    * Remove the margin in all browsers (opinionated).
    */
 body {
+  background-color: #e8ecf2;
+  margin-bottom: 0 !important;
   margin: 0;
+  padding: 0;
 }
 .page-wrapper {
   /* caption
@@ -328,31 +334,8 @@ body {
 	}
 	*/
 }
-.page-wrapper body,
-.page-wrapper html {
-  background-color: #e8ecf2;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-.page-wrapper html {
-  font-size: 16px;
-}
 .page-wrapper .no-wrap {
   white-space: no-wrap;
-}
-.page-wrapper .gradient {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,cccccc+100 */
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, #dddddd 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 0%, #dddddd 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 0%, #dddddd 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd', GradientType=0);
-  /* IE6-9 */
 }
 @media (min-width: 1px) {
   .global-nav .l-column,
@@ -3185,6 +3168,7 @@ span.line-break {
 }
 @media (min-width: 1px) {
   .footer {
+    box-sizing: border-box;
     border-top: 1px solid #265281;
     float: left;
     clear: both;
@@ -3193,20 +3177,13 @@ span.line-break {
     width: 100%;
     min-width: 320px;
     min-height: 400px;
-    background: #f5f5f5;
-    background: -moz-linear-gradient(top, #f5f5f5 0%, #fefefe 80%, #fefefe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5f5), color-stop(80%, #fefefe), color-stop(100%, #fefefe));
-    background: -webkit-linear-gradient(top, #f5f5f5 0%, #fefefe 80%, #fefefe 100%);
-    background: -o-linear-gradient(top, #f5f5f5 0%, #fefefe 80%, #fefefe 100%);
-    background: -ms-linear-gradient(top, #f5f5f5 0%, #fefefe 80%, #fefefe 100%);
-    background: linear-gradient(to bottom, #f5f5f5 0%, #fefefe 80%, #fefefe 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#fefefe', GradientType=0);
-    /*
-0% 238 opacity 1
-50% 244 opacity 1
-90% 252 opacity 1
-100% 254 opacity 1
-*/
+    background: #eeeeee;
+    background-color: #eeeeee;
+    background: -webkit-linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
+    background: -moz-linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
+    background: -ms-linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
+    background: -o-linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
+    background: linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
   }
   .footer * {
     box-sizing: border-box;
@@ -3434,46 +3411,6 @@ span.line-break {
   }
 }
 @media (min-width: 1px) {
-  /*
-    li.dropdown {
-        position: relative;
-    }
-    .dat_block {
-        -moz-transition: opacity 0.4s ease-in-out;
-        -o-transition: opacity 0.4s ease-in-out;
-        -webkit-transition: opacity 0.4s ease-in-out;
-        transition: opacity 0.4s ease-in-out;
-        left: 113px !important;
-    }
-    .dat_block:last-child {
-        -moz-transition: opacity 0.4s ease-in-out;
-        -o-transition: opacity 0.4s ease-in-out;
-        -webkit-transition: opacity 0.4s ease-in-out;
-        transition: opacity 0.4s ease-in-out;
-        left: 173px !important;
-    }
-    .g-filters-pointer {
-        margin-left: -170px !important;
-    }
-    */
-  /*
-    .rtitle_form,
-	.l-split-narrow {
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 41.666%;
-		-ms-flex: 0 0 41.666%;
-		flex: 0 0 41.666%;
-		max-width: 41.666%;
-    }
-    .rtitle,
-	.l-split-wide {
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 58.333%;
-		-ms-flex: 0 0 58.333%;
-		flex: 0 0 58.333%;
-		max-width: 58.333%;
-    }
-    */
   header {
     position: fixed;
     top: 0;
@@ -3500,8 +3437,9 @@ span.line-break {
   }
   header .navigation {
     width: 100%;
-    min-width: 320px !important;
-    position: relative;
+    position: absolute;
+    top: 1px;
+    left: 1px;
   }
   header .navigation .logo {
     padding: 0 16px;
@@ -3723,10 +3661,10 @@ span.line-break {
     height: 50px;
   }
   header.shrink .navigation .logo {
-    padding: 5px 12px;
+    padding: 5px 250px 5px 12px;
   }
   header.shrink .navigation .nav-primary {
-    margin: 16px 0 0 250px;
+    margin: 16px 0 0 0;
   }
   header.shrink .navigation .nav-secondary {
     display: none;
@@ -6032,53 +5970,35 @@ span.line-break {
 }
 */
 @media (min-width: 1px) {
-  #outerX {
-    border: 0;
-    margin: 0 auto;
-    padding: 0;
-  }
   .page-wrapper {
     width: 100%;
-    border: none;
-    background-color: transparent;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
-  .page-wrapper .l-outer-wrapper {
+  .page-wrapper .l-outer-wrapper#outerX {
     margin: 0 auto;
     background-color: #e2e6eb;
     border: 0;
+    box-sizing: border-box;
     position: relative;
     padding: 0 1px;
     max-width: 992px;
     min-width: 992px;
     width: 992px;
-    box-sizing: border-box;
   }
-  .page-wrapper .l-outer-wrapper .l-inner-wrapper#innerX {
+  .page-wrapper .l-outer-wrapper#outerX .l-inner-wrapper#innerX {
     background-color: #fff;
-    display: table;
+    box-sizing: border-box;
     border-right: 1px solid #dbdfe5;
     border-left: 1px solid #dbdfe5;
-    padding: 41px 15px 0 15px;
+    padding: 96px 15px 0 15px;
     max-width: 990px;
     min-width: 990px;
     width: 990px;
     margin: 0;
-    box-sizing: border-box;
   }
-  .l-outer-wrapper {
-    padding: 0 1px;
-    max-width: 990px;
-    min-width: 990px;
-    width: 990px;
-  }
-  .l-outer-wrapper .l-inner-wrapper {
-    border-right: 1px solid #dbdfe5;
-    border-left: 1px solid #dbdfe5;
-    width: 990px;
-    padding: 106px 15px 50px 15px;
+  .page-wrapper .l-outer-wrapper#outerX .l-inner-wrapper#innerX.show {
+    padding: 90px 0 50px;
   }
   .l-column,
   .l-full-width-column,
@@ -6205,9 +6125,6 @@ span.line-break {
   }
 }
 @media (min-width: 956px) {
-  .page-wrapper .l-outer-wrapper .l-inner-wrapper#innerX {
-    padding: 96px 15px 0 15px;
-  }
   .l-column {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 16.666667%;
