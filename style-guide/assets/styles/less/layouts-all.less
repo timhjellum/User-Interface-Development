@@ -6,24 +6,25 @@
 		margin: 0;
 		box-sizing: border-box;
 		.l-outer-wrapper#outerX {
+			box-sizing: border-box;
+			//position: relative;			
 			margin: 0 auto;
 			background-color: #e2e6eb;
 			border: 0;
-			position: relative;
-			box-sizing: border-box;
-			position: relative;
 			padding: 0 1px;
-			max-width: 992px;
-			min-width: 992px;
+			//max-width: 992px;
+			//min-width: 992px;
 			width: 992px;
+			
 			.l-inner-wrapper#innerX {
-				background-color: #fff;
 				box-sizing: border-box;
+				//position: relative;	
+				background-color: #fff;
 				border-right: 1px solid #dbdfe5;
 				border-left: 1px solid #dbdfe5; 
 				padding: 96px 15px 0 15px;
-				max-width: 990px;
-				min-width: 990px;
+				//max-width: 990px;
+				//min-width: 990px;
 				width: 990px;
 				margin: 0;
 				&.show {
@@ -428,33 +429,29 @@
 	.l-row {
 		padding-left: 22px;
 		padding-right: 0;
-																																border-left: 0 !important;
-																																border-right: 0 !important;
 	}
+/* we need to find a better way to do this.
 	.l-row > div {
 		padding-right: 44px;
 	}
 	.l-row > div:last-child {
 		padding-right: 22px;
 	}
+	*/
 	.l-row {
 		&.header {
 			padding-left: 0;
 			padding-right: 0;
 			width: 100%;
-			border-left: 0 !important;
-			border-right: 0 !important;
 			.l-full-width-column {
 				padding-right: 0;
-	//      padding-left: 0;
+
 			}
 		}
 		.l-row {
 			padding-left: 0;
 			padding-right: 0;
 			width: 100%;
-			border-left: 0 !important;
-			border-right: 0 !important;
 		}
 	}
 	

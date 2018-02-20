@@ -6,9 +6,9 @@ const rename = require('gulp-rename');
 const path = require('path');
 const del = require('del');
 
-const dist = '//WWWDEV/website/global/styles';
+//const dist = '//WWWDEV/website/global/styles';
 //const dist = '//REPLICATOR/website/css_rehab/archive/global/styles';
-//const dist = './global/styles';
+const dist = './global/styles';
 const styleGuideDist = './style-guide/src/css';
 
 
@@ -110,7 +110,7 @@ gulp.task('style-guide', () =>
 
 // print style-guide
 // $ npm run gulp special
-
+/*
 gulp.task('special', ['special-winter']);
 
 gulp.task('special-winter', ['special-summer'], () =>
@@ -128,18 +128,6 @@ gulp.task('special-summer', () =>
 	.pipe(cleanCSS())
 	.pipe(rename("summer_styles.css"))
 	.pipe(gulp.dest('//WWWDEV/website/special/disruptions/socal/css'))
-)
-/*
-gulp.task('compile-special-shared', () =>
-	gulp.src('./style-guide/assets/styles/shared.css')
-	.pipe(less())
-	.pipe(gulp.dest(styleGuideDist))
-	.pipe(cleanCSS({debug: true}, (details) => {
-	console.log('${details.name}: ${details.stats.originalSize}');
-	console.log('${details.name}: ${details.stats.minifiedSize}');
-}))
-.pipe(rename("shared.min.css"))
-.pipe(gulp.dest('//WWWDEV/website/special/disruptions/socal/css'))
 )
 */
 

@@ -7,11 +7,15 @@
 		padding-bottom: 1px;
 	}
 	.slider-home {
-		padding-top: 1px !important;
-		padding-bottom: 1px !important;
+		box-sizing: border-box;
+		* {
+			box-sizing: border-box;
+		}
+		padding-top: 1px;
+		padding-bottom: 1px;
 		width: 100%;
 		overflow: hidden;
-		ul.bxslider {
+		ul.bxslider-home {
 			list-style: none;
 			margin: 0;
 			padding: 0;
@@ -25,7 +29,7 @@
 				}
 			}
 		}
-		.bx-wrapper {
+		.bxslider-home-wrapper {
 			position: relative;
 			//margin-bottom: 60px;
 			margin: 0;
@@ -46,27 +50,35 @@
 						padding: 1em;
 						h2 {
 							.header-font;
-							color:#fff;
+							color: #fff;
 							font-size: 1.5rem; //24px
-							line-height:32px;
+							line-height: 32px;
 							a {
-								color:#FFF;
+								color: #fff;
+								text-decoration: none;
+								&:hover {
+									text-decoration: underline;
+								} 
 							}
 						}
 						h3 {
 							.header-font;
-							color:#b3c2c9;
+							color: #b3c2c9;
 							font-size: 1.25rem; //20px
-							line-height:32px;
-							text-transform:  none;
+							line-height: 32px;
 							a {
 								color:#b3c2c9;
+								text-decoration: none;
+								&:hover {
+									text-decoration: underline;
+								} 
 							}
 						}
 					}
 				}
 			}
 		}
+	/*
 		.bx-controls.bx-has-pager {
 			display: table;
 			margin: 0.75em auto .5em;
@@ -74,7 +86,7 @@
 				position: relative;
 				float: left;
 				display: block;
-				z-index: 10 !important;
+				z-index: 10;
 				.bx-pager-link {
 					//float:left;
 					text-indent: -99999px;
@@ -94,6 +106,7 @@
 					}
 				}
 			}
+			*/
 		}
 	}
 	.feature_new1 {background: url(https://www.eia.gov/global/images/homepage_rotating_features/homepage_banner1.jpg);}
@@ -119,7 +132,7 @@
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.slider-home {
-		.bx-wrapper {
+		.bxslider-home-wrapper {
 			.bx-viewport {
 				ul.bxslider {
 					li {
@@ -135,70 +148,32 @@
 		}
 	}
 }
-
-@media @tablet {
-	.slider-home {
-		.slider-overlay {
-			.slider-content {
-				padding: 1em;
-				h2 {
-					.header-font;
-					font-size: 1.5rem; //24px
-					color:#fff;
-					line-height:32px;
-					a {
-						color:#FFF;
-					}
-				}
-				h3 {
-					.header-font;
-					color:#b3c2c9;
-					line-height:32px;
-					a {
-						color:#b3c2c9;
-					}
-				}
-			}
-		}
-	}
-}
 @media @laptop {
-	//////////////////////////////////////////////////////////////////
-	//  min 956                                                    //
-	////////////////////////////////////////////////////////////////
 	.slider-home-top {
 		width: 956px;
 		border-bottom: solid 1px #d5d5d5;
 		padding-bottom: 1px;
 	}
 	.slider-home {
-		width: 956px !important;
-		height: 280px !important;
-		.bx-wrapper {
-			width: 956px !important;
-			height: 280px !important;
+		width: 956px;
+		height: 280px;
+		.bxslider-home-wrapper {
+			width: 956px;
+			height: 280px;
 			.bx-viewport {
-				width: 956px !important;
-				height: 280px !important;
+				width: 956px;
+				height: 280px;
 				li {
-					width: 956px !important;
-					height: 280px !important;
+					width: 956px;
+					height: 280px;
 					.slider-overlay {
-						//float: right;
+						float: right;
 						margin: 28px;
-						width: 353px !important;
-						height: 234px !important; // 290 - ( 28 - 28 ) = 234
+						width: 353px;
+						height: 234px; // 290 - ( 28 - 28 ) = 234
 						.slider-content {
-							padding: 17px 24px 17px 24px !important;
-							h2 {
-								font-size: 1.5rem; //24px
-								line-height:32px;
-							}
-							h3 {
-								font-size: 1.25rem; //20px
-								line-height:32px;
-								text-transform:  none;
-							}
+							.right;
+							padding: 17px 24px 17px 24px;
 						}
 					}
 				}
@@ -208,20 +183,15 @@
 
 		.bx-controls.bx-has-pager {
 			position: relative;
-			top: -90px;
-			left: 615px;
-			width: 305px;
+			top: -70px;
+			left: 605px;
+			//width: 305px;
 			display: block;
 			margin: 0;
 			.bx-pager.bx-default-pager {
 					float: left;
 				}
 			.bx-pager-item {
-				//float:left;
-				//top: -64px;
-				//left: 592px;
-				//top: -90px;
-				//left: 220px;
 				.bx-pager-link {
 					//margin-right: 12px;
 					width: 13px;

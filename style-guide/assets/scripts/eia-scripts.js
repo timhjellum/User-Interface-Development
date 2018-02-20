@@ -14,6 +14,12 @@ new SocialSticker();
 import BookshelfSearch from './modules/bookshelf-search';
 new BookshelfSearch();
 
-import PageTabs from './modules/page-tabs';
+//import PageTabs from './modules/page-tabs';
+
+import BxSlider from './modules/bxslider';
+new BxSlider();
+
+import Ellipsis from './modules/ellipsis';
+//new Ellipsis();
 
 //import HeaderAutocomplete from './modules/_header-autocomplete'; // required jquery ui
