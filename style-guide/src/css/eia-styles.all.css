@@ -5985,6 +5985,7 @@ span.line-break {
     padding: 96px 15px 0 15px;
     width: 990px;
     margin: 0;
+    display: table;
   }
   .page-wrapper .l-outer-wrapper#outerX .l-inner-wrapper#innerX.show {
     padding: 90px 0 50px;
@@ -6409,21 +6410,21 @@ span.line-break {
   .slider-home * {
     box-sizing: border-box;
   }
-  .slider-home ul.bxslider-home {
+  .slider-home ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  .slider-home ul.bxslider-home li {
+  .slider-home ul li {
     background-repeat: no-repeat;
     background-size: cover;
     list-style: none;
   }
-  .slider-home ul.bxslider-home li img {
+  .slider-home ul li img {
     max-width: 100%;
     display: block;
   }
-  .slider-home .bxslider-home-wrapper {
+  .slider-home .slider-home-wrapper {
     position: relative;
     margin: 0;
     padding: 0;
@@ -6431,20 +6432,20 @@ span.line-break {
     -ms-touch-action: pan-y;
     touch-action: pan-y;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport {
+  .slider-home .slider-home-wrapper .bx-viewport {
     /*fix other elements on the page moving (on Chrome)*/
     -webkit-transform: translatez(0);
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay {
     display: block;
     margin: 1em auto;
     width: 90%;
     background-color: rgba(0, 60, 87, 0.7);
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay .slider-content {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content {
     padding: 1em;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 {
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
@@ -6452,14 +6453,14 @@ span.line-break {
     font-size: 1.5rem;
     line-height: 32px;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 a {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 a {
     color: #fff;
     text-decoration: none;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 a:hover {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 a:hover {
     text-decoration: underline;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 {
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
@@ -6467,39 +6468,12 @@ span.line-break {
     font-size: 1.25rem;
     line-height: 32px;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 a {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 a {
     color: #b3c2c9;
     text-decoration: none;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 a:hover {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 a:hover {
     text-decoration: underline;
-  }
-  .slider-home .bx-controls.bx-has-pager {
-    display: table;
-    margin: 0.75em auto .5em;
-  }
-  .slider-home .bx-controls.bx-has-pager .bx-pager-item {
-    position: relative;
-    float: left;
-    display: block;
-    z-index: 10;
-  }
-  .slider-home .bx-controls.bx-has-pager .bx-pager-item .bx-pager-link {
-    text-indent: -99999px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 0.5em;
-    width: 5px;
-    height: 5px;
-    background-color: #a9c1da;
-    padding: 0;
-    border: 0;
-  }
-  .slider-home .bx-controls.bx-has-pager .bx-pager-item .bx-pager-link:hover {
-    background-color: #ffc702;
-  }
-  .slider-home .bx-controls.bx-has-pager .bx-pager-item .bx-pager-link.active {
-    background-color: #ffc702;
   }
   .feature_new1 {
     background: url(https://www.eia.gov/global/images/homepage_rotating_features/homepage_banner1.jpg);
@@ -6563,7 +6537,7 @@ span.line-break {
   }
 }
 @media (min-width:480px) {
-  .slider-home .bxslider-home-wrapper .bx-viewport ul.bxslider li .slider-overlay {
+  .slider-home .slider-home-wrapper .bx-viewport ul li .slider-overlay {
     float: right;
     margin: 1em;
     min-height: 180px;
@@ -6580,41 +6554,58 @@ span.line-break {
     width: 956px;
     height: 280px;
   }
-  .slider-home .bxslider-home-wrapper {
+  .slider-home .slider-home-wrapper {
     width: 956px;
     height: 280px;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport {
+  .slider-home .slider-home-wrapper .bx-viewport {
     width: 956px;
     height: 280px;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport li {
+  .slider-home .slider-home-wrapper .bx-viewport li {
     width: 956px;
     height: 280px;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport li .slider-overlay {
+  .slider-home .slider-home-wrapper .bx-viewport li .slider-overlay {
     float: right;
     margin: 28px;
     width: 353px;
     height: 234px;
   }
-  .slider-home .bxslider-home-wrapper .bx-viewport li .slider-overlay .slider-content {
+  .slider-home .slider-home-wrapper .bx-viewport li .slider-overlay .slider-content {
     float: right;
     padding: 17px 24px 17px 24px;
   }
-  .slider-home .bx-controls.bx-has-pager {
+  .slider-home .slider-home-pager .bx-pager.bx-default-pager {
     position: relative;
     top: -70px;
     left: 605px;
+    width: 305px;
     display: block;
     margin: 0;
   }
-  .slider-home .bx-controls.bx-has-pager .bx-pager.bx-default-pager {
+  .slider-home .slider-home-pager .bx-pager.bx-default-pager .bx-pager-item {
+    position: relative;
     float: left;
+    display: block;
+    z-index: 10;
   }
-  .slider-home .bx-controls.bx-has-pager .bx-pager-item .bx-pager-link {
+  .slider-home .slider-home-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link {
+    text-indent: -99999px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5em;
     width: 13px;
     height: 13px;
+    background-color: #a9c1da;
+    padding: 0;
+    border: 0;
+  }
+  .slider-home .slider-home-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link:hover {
+    background-color: #ffc702;
+  }
+  .slider-home .slider-home-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link.active {
+    background-color: #ffc702;
   }
   .slider-home-bottom {
     width: 956px;

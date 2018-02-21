@@ -10,26 +10,25 @@
 <body>
 <?php include('css_rehab/archive/global/includes/eia_header.inc') ?>
 <div class="l-row header">
-	<div class="l-full-width-header">
 		<!-- start module -->
 		<!-- start module -->
 		<!-- start module -->
 		<div class="slider-home-top"></div>
-			<?php /*ul id="slider1"*/ ?>
-			<ul id="slider3">
+		<div class="slider-home">
+			<ul>
 			<?php
-				if(!$homepageFeatures = file_get_contents("global/includes/homepage_features.html", FILE_USE_INCLUDE_PATH)) {
-			} else {
-				echo $homepageFeatures;
-			}
-			?>
-			</ul>
-			<div class="thumbs3"></div>
+					if(!$homepageFeatures = file_get_contents("global/includes/homepage_features.html", FILE_USE_INCLUDE_PATH)) {
+				} else {
+					echo $homepageFeatures;
+				}
+				?>
+				</ul>
+			<div class="slider-home-pager"></div>
+		</div>
 		<div class="slider-home-bottom"></div>
 		<!-- end module -->
 		<!-- end module -->
 		<!-- end module -->
-	</div>
 </div>
 <div class="l-row">
 	<div class="l-side-column">

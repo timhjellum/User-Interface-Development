@@ -3,10 +3,10 @@ import bxslider from '../../../../node_modules/bxslider/dist/jquery.bxslider.min
 
 class BxSlider {
 	constructor() {
-        this.bxSliderHome = $('.bxslider-home');
-        this.bxSliderMulti = $('.bxslider-multi');
-        this.bxSliderHomeWrapper = $('.bxslider-home-wrapper');
-        this.bxSlidermultiWrapper = $('.bxslider-multi-wrapper');
+        this.bxSliderHome = $('.slider-home ul');
+        this.bxSliderMulti = $('.slider-multi ul');
+        this.bxSliderHomeWrapper = $('.slider-home-wrapper');
+        this.bxSlidermultiWrapper = $('.slider-multi-wrapper');
 		this.window = $(window);
         this.checkSize();
 		this.events();
@@ -18,32 +18,32 @@ class BxSlider {
             minSlides: 1,
             maxSlides: 1,
             slideMargin: 0,  //integer
-            wrapperClass: 'bxslider-home-wrapper', // overides default bx-wrapper
-            pager: true,
-            //pagerSelector: '.slider-content',
-            slideWidth: 956,
-            autoHover: true,
+            wrapperClass: 'slider-home-wrapper', // overides default bx-wrapper
+            //autoHover: true,
             controls: false,
-            adaptiveHeight: true,
+            //adaptiveHeight: true,
+            pager: true,
+            pagerSelector: '.slider-home-pager',
+            slideWidth: 956,
             pause: 10000
         });
         this.bxSliderMulti.bxSlider({
             auto: true,
-            wrapperClass: 'bxslider-multi-wrapper', // overides default bx-wrapper
+            wrapperClass: 'slider-multi-wrapper', // overides default bx-wrapper
             minSlides: 5,
             maxSlides: 5,
             nextText: "&#8250;",
             prevText: "&#8249;",
             infiniteLoop: true,
             pager: true,
-            pagerSelector: '.slider-multi-card-pager',
+            pagerSelector: '.slider-multi-pager',
             //slideWidth: slideWidth,
             slideWidth: 154,
             slideMargin: 14
         });
         console.log("slider found");
-	}
-
+    }
+    
         // check the page resolution on initial page load and if the browser is resized
         /*
             $('.slider-home h2 a, .slider-home h3 a').attr( "href", function(ind,attr) {

@@ -15,7 +15,7 @@
 		padding-bottom: 1px;
 		width: 100%;
 		overflow: hidden;
-		ul.bxslider-home {
+		ul {
 			list-style: none;
 			margin: 0;
 			padding: 0;
@@ -29,7 +29,7 @@
 				}
 			}
 		}
-		.bxslider-home-wrapper {
+		.slider-home-wrapper {
 			position: relative;
 			//margin-bottom: 60px;
 			margin: 0;
@@ -78,36 +78,28 @@
 				}
 			}
 		}
-	/*
-		.bx-controls.bx-has-pager {
-			display: table;
-			margin: 0.75em auto .5em;
-			.bx-pager-item {
-				position: relative;
-				float: left;
-				display: block;
-				z-index: 10;
-				.bx-pager-link {
-					//float:left;
-					text-indent: -99999px;
-					border-radius: 50%;
-					display: inline-block;
-					margin-right: 0.5em;
-					width: 5px;
-					height: 5px;
-					background-color: @greyish-blue; // @eia-blue;
-					padding: 0;
-					border: 0;
-					&:hover {
-						background-color: @eia-yellow;
-					}
-					&.active {
-						background-color: @eia-yellow;
-					}
-				}
-			}
-			*/
-		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 	}
 	.feature_new1 {background: url(https://www.eia.gov/global/images/homepage_rotating_features/homepage_banner1.jpg);}
 	.feature_new2 {background: url(https://www.eia.gov/global/images/homepage_rotating_features/homepage_banner2.jpg);}
@@ -132,9 +124,9 @@
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.slider-home {
-		.bxslider-home-wrapper {
+		.slider-home-wrapper {
 			.bx-viewport {
-				ul.bxslider {
+				ul {
 					li {
 						.slider-overlay {
 							float: right;
@@ -157,7 +149,7 @@
 	.slider-home {
 		width: 956px;
 		height: 280px;
-		.bxslider-home-wrapper {
+		.slider-home-wrapper {
 			width: 956px;
 			height: 280px;
 			.bx-viewport {
@@ -181,21 +173,37 @@
 		}
 
 
-		.bx-controls.bx-has-pager {
-			position: relative;
-			top: -70px;
-			left: 605px;
-			//width: 305px;
-			display: block;
-			margin: 0;
+		.slider-home-pager {
 			.bx-pager.bx-default-pager {
+				position: relative;
+				top: -70px;
+				left: 605px;
+				width: 305px;
+				display: block;
+				margin: 0;
+				.bx-pager-item {
+					position: relative;
 					float: left;
-				}
-			.bx-pager-item {
-				.bx-pager-link {
-					//margin-right: 12px;
-					width: 13px;
-					height: 13px;
+					display: block;
+					z-index: 10;
+					.bx-pager-link {
+						//float:left;
+						text-indent: -99999px;
+						border-radius: 50%;
+						display: inline-block;
+						margin-right: 0.5em;
+						width: 13px;
+						height: 13px;
+						background-color: @greyish-blue; // @eia-blue;
+						padding: 0;
+						border: 0;
+						&:hover {
+							background-color: @eia-yellow;
+						}
+						&.active {
+							background-color: @eia-yellow;
+						}
+					}
 				}
 			}
 		}
