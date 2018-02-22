@@ -32,21 +32,21 @@
 			*/
 		}
 	}
-	.slider-multi-card-container {
+	.slider-multi {
 		box-sizing: border-box;
 		* {
 			box-sizing: border-box;
 		}
 		margin: 0;
 		width: 912px;
-		.bxslider-multi-wrapper {
+		.slider-multi-wrapper {
 			position: relative;
 			margin: 0 auto;
 			.bx-viewport {
 				display: table;
 				/*fix other elements on the page moving (on Chrome)*/
 				-webkit-transform: translatez(0);
-				ul.bxslider-multi {
+				ul {
 					margin: 0;
 					padding: 0;
 					li {
@@ -140,7 +140,6 @@
 	}
 }
 
-
 @media @laptop { // normall 1025 - big landscape tablets, laptops, and desktops
 	.feature-section {
 		margin: 12px 0 16px 0;
@@ -159,7 +158,7 @@
 				padding: o;
 				margin: 0;				
 			}
-			.slider-multi-card-pager {
+			.slider-multi-pager {
 				display: block;
 				.right;
 				margin-top: 8px;
@@ -210,7 +209,7 @@
 			}
 		}
 	}
-	.slider-multi-card-container {
+	.slider-multi {
 		width: 912px;
 		.bx-viewport {
 			display: block; // required to have fixed height

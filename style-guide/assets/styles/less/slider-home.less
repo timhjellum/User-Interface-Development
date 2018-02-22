@@ -19,6 +19,7 @@
 			list-style: none;
 			margin: 0;
 			padding: 0;
+//			display: none;
 			li {
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -31,7 +32,6 @@
 		}
 		.slider-home-wrapper {
 			position: relative;
-			//margin-bottom: 60px;
 			margin: 0;
 			padding: 0;
 			*zoom: 1;
@@ -40,39 +40,38 @@
 			.bx-viewport {
 				/*fix other elements on the page moving (on Chrome)*/
 				-webkit-transform: translatez(0);
-				//padding-top: 29.123%;
 				.slider-overlay {
 					display: block;
-					margin: 1em auto;
 					width: 90%;
 					background-color: rgba(0, 60, 87, 0.7); // must be rgba - do not use var
-					.slider-content {
-						padding: 1em;
-						h2 {
-							.header-font;
+					h2 {
+						.header-font;
+						color: #fff;
+						font-size: 1.5rem; //24px
+						line-height: 32px;
+						margin-top: 0;
+						a {
 							color: #fff;
-							font-size: 1.5rem; //24px
-							line-height: 32px;
-							a {
-								color: #fff;
-								text-decoration: none;
-								&:hover {
-									text-decoration: underline;
-								} 
-							}
+							text-decoration: none;
+							&:hover {
+								text-decoration: underline;
+							} 
 						}
-						h3 {
-							.header-font;
-							color: #b3c2c9;
-							font-size: 1.25rem; //20px
-							line-height: 32px;
-							a {
-								color:#b3c2c9;
-								text-decoration: none;
-								&:hover {
-									text-decoration: underline;
-								} 
+					}
+					h3 {
+						.header-font;
+						color: #b3c2c9;
+						font-size: 1.25rem; //20px
+						line-height: 32px;
+						a {
+							color:#b3c2c9;
+							text-decoration: none;
+							&:hover {
+								text-decoration: underline;
 							}
+							&:after { 
+								content:"\00a0\203A";
+							} 
 						}
 					}
 				}
@@ -155,17 +154,16 @@
 			.bx-viewport {
 				width: 956px;
 				height: 280px;
-				li {
-					width: 956px;
-					height: 280px;
-					.slider-overlay {
-						float: right;
-						margin: 28px;
-						width: 353px;
-						height: 234px; // 290 - ( 28 - 28 ) = 234
-						.slider-content {
-							.right;
-							padding: 17px 24px 17px 24px;
+				ul {
+					li {
+						width: 956px;
+						height: 280px;
+						.slider-overlay {
+							float: right;
+							margin: 28px;
+							padding: 17px;
+							width: 353px;
+							height: 224px; // 280 - ( 28 - 28 ) = 234
 						}
 					}
 				}

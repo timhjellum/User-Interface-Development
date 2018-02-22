@@ -6438,29 +6438,26 @@ span.line-break {
   }
   .slider-home .slider-home-wrapper .bx-viewport .slider-overlay {
     display: block;
-    margin: 1em auto;
     width: 90%;
     background-color: rgba(0, 60, 87, 0.7);
   }
-  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content {
-    padding: 1em;
-  }
-  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h2 {
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
     color: #fff;
     font-size: 1.5rem;
     line-height: 32px;
+    margin-top: 0;
   }
-  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 a {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h2 a {
     color: #fff;
     text-decoration: none;
   }
-  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h2 a:hover {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h2 a:hover {
     text-decoration: underline;
   }
-  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h3 {
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
@@ -6468,12 +6465,15 @@ span.line-break {
     font-size: 1.25rem;
     line-height: 32px;
   }
-  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 a {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h3 a {
     color: #b3c2c9;
     text-decoration: none;
   }
-  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay .slider-content h3 a:hover {
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h3 a:hover {
     text-decoration: underline;
+  }
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h3 a:after {
+    content: "\00a0\203A";
   }
   .feature_new1 {
     background: url(https://www.eia.gov/global/images/homepage_rotating_features/homepage_banner1.jpg);
@@ -6562,19 +6562,16 @@ span.line-break {
     width: 956px;
     height: 280px;
   }
-  .slider-home .slider-home-wrapper .bx-viewport li {
+  .slider-home .slider-home-wrapper .bx-viewport ul li {
     width: 956px;
     height: 280px;
   }
-  .slider-home .slider-home-wrapper .bx-viewport li .slider-overlay {
+  .slider-home .slider-home-wrapper .bx-viewport ul li .slider-overlay {
     float: right;
     margin: 28px;
+    padding: 17px;
     width: 353px;
-    height: 234px;
-  }
-  .slider-home .slider-home-wrapper .bx-viewport li .slider-overlay .slider-content {
-    float: right;
-    padding: 17px 24px 17px 24px;
+    height: 224px;
   }
   .slider-home .slider-home-pager .bx-pager.bx-default-pager {
     position: relative;
@@ -6651,32 +6648,32 @@ span.line-break {
 			}
 			*/
   }
-  .slider-multi-card-container {
+  .slider-multi {
     box-sizing: border-box;
     margin: 0;
     width: 912px;
   }
-  .slider-multi-card-container * {
+  .slider-multi * {
     box-sizing: border-box;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper {
+  .slider-multi .slider-multi-wrapper {
     position: relative;
     margin: 0 auto;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-viewport {
+  .slider-multi .slider-multi-wrapper .bx-viewport {
     display: table;
     /*fix other elements on the page moving (on Chrome)*/
     -webkit-transform: translatez(0);
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-viewport ul.bxslider-multi {
+  .slider-multi .slider-multi-wrapper .bx-viewport ul {
     margin: 0;
     padding: 0;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-viewport ul.bxslider-multi li {
+  .slider-multi .slider-multi-wrapper .bx-viewport ul li {
     background: #f2f2f2;
     padding: 0 0 10px 0;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-viewport ul.bxslider-multi li .thumbnail {
+  .slider-multi .slider-multi-wrapper .bx-viewport ul li .thumbnail {
     display: block;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -6684,18 +6681,18 @@ span.line-break {
     border-bottom: 1px solid #5d9732;
     margin: 7px 7px 0 7px;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction {
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction {
     width: 912px;
     position: absolute;
     left: -44px;
     top: 0;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction {
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction {
     position: absolute;
     width: 912px;
     height: 1px;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a {
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a {
     width: 24px;
     text-decoration: none;
     z-index: 9999;
@@ -6705,12 +6702,12 @@ span.line-break {
     -moz-osx-font-smoothing: grayscale;
     transition: all .6s;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a:hover {
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a:hover {
     color: #5d9732;
     background-color: #9ec184;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-prev,
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-next {
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-prev,
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-next {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
@@ -6718,13 +6715,13 @@ span.line-break {
     text-align: center;
     padding: 54px 0;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-prev {
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-prev {
     float: left;
   }
-  .slider-multi-card-container .bxslider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-next {
+  .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-next {
     float: right;
   }
-  .slider-multi-card-container .bx-controls.bx-has-pager {
+  .slider-multi .bx-controls.bx-has-pager {
     clear: both;
     display: block;
     width: 100%;
@@ -6752,18 +6749,18 @@ span.line-break {
     padding: o;
     margin: 0;
   }
-  .feature-section .l-row .slider-multi-card-pager {
+  .feature-section .l-row .slider-multi-pager {
     display: block;
     float: right;
     margin-top: 8px;
   }
-  .feature-section .l-row .slider-multi-card-pager .bx-pager.bx-default-pager .bx-pager-item {
+  .feature-section .l-row .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item {
     position: relative;
     float: left;
     display: block;
     z-index: 10;
   }
-  .feature-section .l-row .slider-multi-card-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link {
+  .feature-section .l-row .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link {
     text-indent: -99999px;
     border-radius: 50%;
     display: inline-block;
@@ -6774,10 +6771,10 @@ span.line-break {
     padding: 0;
     border: 0;
   }
-  .feature-section .l-row .slider-multi-card-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link:hover {
+  .feature-section .l-row .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link:hover {
     background-color: #189bd7;
   }
-  .feature-section .l-row .slider-multi-card-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link.active {
+  .feature-section .l-row .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link.active {
     background-color: #189bd7;
   }
   .feature-section .l-row a.see-more {
@@ -6796,24 +6793,24 @@ span.line-break {
   .feature-section .l-row a.see-more:after {
     content: "\00a0\203A";
   }
-  .slider-multi-card-container {
+  .slider-multi {
     width: 912px;
   }
-  .slider-multi-card-container .bx-viewport {
+  .slider-multi .bx-viewport {
     display: block;
     width: 830px;
     height: 200px;
     overflow: hidden;
     margin: 0 auto;
   }
-  .slider-multi-card-container .bx-viewport li {
+  .slider-multi .bx-viewport li {
     margin: 0px;
   }
-  .slider-multi-card-container .bx-viewport .thumbnail {
+  .slider-multi .bx-viewport .thumbnail {
     width: 140px;
     height: 70px;
   }
-  .slider-multi-card-container .bx-viewport h3 {
+  .slider-multi .bx-viewport h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
@@ -6824,7 +6821,7 @@ span.line-break {
     line-height: 0.8em;
     font-weight: 700;
   }
-  .slider-multi-card-container .bx-viewport h3 a {
+  .slider-multi .bx-viewport h3 a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
@@ -6833,10 +6830,10 @@ span.line-break {
     color: #265281;
     text-decoration: none;
   }
-  .slider-multi-card-container .bx-viewport h3 a:hover {
+  .slider-multi .bx-viewport h3 a:hover {
     text-decoration: underline;
   }
-  .slider-multi-card-container .bx-viewport p {
+  .slider-multi .bx-viewport p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
@@ -6848,15 +6845,15 @@ span.line-break {
     overflow: hidden;
     height: 30px;
   }
-  .slider-multi-card-container .bx-viewport p.tags::before {
+  .slider-multi .bx-viewport p.tags::before {
     content: "tags: ";
     color: #333;
   }
-  .slider-multi-card-container .bx-viewport p a {
+  .slider-multi .bx-viewport p a {
     color: #189bd7;
     text-decoration: none;
   }
-  .slider-multi-card-container .bx-viewport p a:hover {
+  .slider-multi .bx-viewport p a:hover {
     text-decoration: underline;
   }
 }

@@ -9,10 +9,18 @@ class BxSlider {
         this.bxSlidermultiWrapper = $('.slider-multi-wrapper');
 		this.window = $(window);
         this.checkSize();
-		this.events();
-	}
+        this.events();
+        
+    }
+    initialState() {
+        this.bxSliderHome.hide();
+        this.bxSliderMulti.hide();
+    }
 	events() {
-        this.window.resize(this.checkSize.bind(this));
+    //    this.window.resize(this.checkSize.bind(this));
+        this.bxSliderHome.show();
+        this.bxSliderMulti.show();
+
         this.bxSliderHome.bxSlider({
             auto: true,
             minSlides: 1,
