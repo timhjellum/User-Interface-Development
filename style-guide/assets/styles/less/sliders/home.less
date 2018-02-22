@@ -1,0 +1,228 @@
+@media @mobile {
+	//////////////////////////////////////////////////////////////////
+	//  home slider ratio is 283 / 958 = 29.123%                 //
+	////////////////////////////////////////////////////////////////
+	.slider-home-top {
+		border-bottom: solid 1px #d5d5d5;
+		padding-bottom: 1px;
+	}
+	.slider-home {
+		box-sizing: border-box;
+		* {
+			box-sizing: border-box;
+		}
+		padding-top: 1px;
+		padding-bottom: 1px;
+		width: 100%;
+		overflow: hidden;
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+//			display: none;
+			li {
+				background-repeat: no-repeat;
+				background-size: cover;
+				list-style: none;
+				img {
+					max-width: 100%;
+					display: block;
+				}
+			}
+		}
+		.slider-home-wrapper {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			*zoom: 1;
+			-ms-touch-action: pan-y;
+			touch-action: pan-y;
+			.bx-viewport {
+				/*fix other elements on the page moving (on Chrome)*/
+				-webkit-transform: translatez(0);
+				.slider-overlay {
+					display: block;
+					width: 90%;
+					background-color: rgba(0, 60, 87, 0.7); // must be rgba - do not use var
+					h2 {
+						.header-font;
+						color: #fff;
+						font-size: 1.5rem; //24px
+						line-height: 32px;
+						margin-top: 0;
+						a {
+							color: #fff;
+							text-decoration: none;
+							&:hover {
+								text-decoration: underline;
+							} 
+						}
+					}
+					h3 {
+						.header-font;
+						color: #b3c2c9;
+						font-size: 1.25rem; //20px
+						line-height: 32px;
+						a {
+							color:#b3c2c9;
+							text-decoration: none;
+							&:hover {
+								text-decoration: underline;
+							}
+							&:after { 
+								content:"\00a0\203A";
+							} 
+						}
+					}
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	}
+	.slide01 {background: url(/css_rehab/archive/homepage/images/slider/slide01.jpg);}
+	.slide02 {background: url(/css_rehab/archive/homepage/images/slider/slide02.jpg);}
+	.slide03 {background: url(/css_rehab/archive/homepage/images/slider/slide03.jpg);}
+	.slide04 {background: url(/css_rehab/archive/homepage/images/slider/slide04.jpg);}
+	.slide05 {background: url(/css_rehab/archive/homepage/images/slider/slide05.jpg);}
+	.slide06 {background: url(/css_rehab/archive/homepage/images/slider/slide06.jpg);}
+	.slide07 {background: url(/css_rehab/archive/homepage/images/slider/slide07.jpg);}
+	.slide08 {background: url(/css_rehab/archive/homepage/images/slider/slide08.jpg);}
+	.slide09 {background: url(/css_rehab/archive/homepage/images/slider/slide09.jpg);}
+	.slide10 {background: url(/css_rehab/archive/homepage/images/slider/slide10.jpg);}
+	.slide11 {background: url(/css_rehab/archive/homepage/images/slider/slide11.jpg);}
+	.slide12 {background: url(/css_rehab/archive/homepage/images/slider/slide12.jpg);}
+	.slide13 {background: url(/css_rehab/archive/homepage/images/slider/slide13.jpg);}
+	.slide14 {background: url(/css_rehab/archive/homepage/images/slider/slide14.jpg);}
+	.slide15 {background: url(/css_rehab/archive/homepage/images/slider/slide15.jpg);}
+	.slide16 {background: url(/css_rehab/archive/homepage/images/slider/slide16.jpg);}
+	.slide17 {background: url(/css_rehab/archive/homepage/images/slider/slide17.jpg);}
+	.slide18 {background: url(/css_rehab/archive/homepage/images/slider/slide18.jpg);}
+	.slide19 {background: url(/css_rehab/archive/homepage/images/slider/slide19.jpg);}
+	.slide20 {background: url(/css_rehab/archive/homepage/images/slider/slide20.jpg);}
+}
+@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
+	.slider-home {
+		.slider-home-wrapper {
+			.bx-viewport {
+				ul {
+					li {
+						.slider-overlay {
+							float: right;
+							margin: 1em;
+							min-height: 180px;
+							width: 50%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media @laptop {
+	.slider-home-top {
+		width: 956px;
+		border-bottom: solid 1px #d5d5d5;
+		padding-bottom: 1px;
+	}
+	.slider-home {
+		width: 956px;
+		height: 280px;
+		.slider-home-wrapper {
+			width: 956px;
+			height: 280px;
+			.bx-viewport {
+				width: 956px;
+				height: 280px;
+				ul {
+					li {
+						width: 956px;
+						height: 280px;
+						.slider-overlay {
+							float: right;
+							margin: 28px;
+							padding: 17px;
+							width: 353px;
+							height: 224px; // 280 - ( 28 - 28 ) = 234
+						}
+					}
+				}
+			}
+		}
+
+
+		.slider-home-pager {
+			.bx-pager.bx-default-pager {
+				position: relative;
+				top: -70px;
+				left: 605px;
+				width: 305px;
+				display: block;
+				margin: 0;
+				.bx-pager-item {
+					position: relative;
+					float: left;
+					display: block;
+					z-index: 10;
+					.bx-pager-link {
+						//float:left;
+						text-indent: -99999px;
+						border-radius: 50%;
+						display: inline-block;
+						margin-right: 0.5em;
+						width: 13px;
+						height: 13px;
+						background-color: @greyish-blue; // @eia-blue;
+						padding: 0;
+						border: 0;
+						&:hover {
+							background-color: @eia-yellow;
+						}
+						&.active {
+							background-color: @eia-yellow;
+						}
+					}
+				}
+			}
+		}
+	}
+	.slider-home-bottom {
+		width: 956px;
+		height: 18px;
+		float: left;
+		background: url("https://www.eia.gov/global/images/bg/h_line_shadow_feature_banner.png") no-repeat top center;
+	}
+}
+
+
+
+
+
+@media @desktop {
+	//////////////////////////////////////////////////////////////////
+	//  minimum 990                                                //
+	////////////////////////////////////////////////////////////////
+	.slider-home {
+		margin: inherit;
+	}
+}

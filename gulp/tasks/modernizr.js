@@ -1,5 +1,10 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
 modernizr = require('gulp-modernizr');
+
+//const dist = '//WWWDEV/website/global/styles';
+const dist = '//REPLICATOR/website/css_rehab/archive/global/scripts';
+//const dist = './global/styles';
+//const dist = './style-guide/src/css';
 
 gulp.task('modernizr', function() {
   return gulp.src(['./style-guide/assets/styles/**/*.less', './style-guide/assets/scripts/**/*.js'])
@@ -8,6 +13,5 @@ gulp.task('modernizr', function() {
         "setClasses"
       ]
     }))
-    .pipe(gulp.dest('../global/scripts/'))
-//    .pipe(gulp.dest('../global/vendor/'));
+    .pipe(gulp.dest(dist))
 });

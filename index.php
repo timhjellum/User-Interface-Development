@@ -9,44 +9,24 @@
 
 <body>
 <?php include('css_rehab/archive/global/includes/eia_header.inc') ?>
-<div class="l-row header">
-		<!-- start module -->
-		<!-- start module -->
-		<!-- start module -->
-		<div class="slider-home-top"></div>
-		<div class="slider-home">
-			<ul>
-			<?php
-					if(!$homepageFeatures = file_get_contents("global/includes/homepage_features.html", FILE_USE_INCLUDE_PATH)) {
-				} else {
-					echo $homepageFeatures;
-				}
-				?>
-				</ul>
-			<div class="slider-home-pager"></div>
-		</div>
-		<div class="slider-home-bottom"></div>
-		<!-- end module -->
-		<!-- end module -->
-		<!-- end module -->
-</div>
+<?php include('css_rehab/archive/homepage/includes/slider.inc') ?>
 <div class="l-row">
 	<div class="l-side-column">
-		<?php include('css_rehab/archive/global/includes/eia-home-whats-new.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/whats-new.inc') ?>
 		<hr>
-		<?php include('css_rehab/archive/global/includes/eia-home-coming-up.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/coming-up.inc') ?>
 	</div>
 	<div class="l-middle-column">
 		<?php /* include "todayinenergy/includes/file_scrub_live.inc"; */ ?>
-		<?php include('css_rehab/archive/global/includes/eia-home-today-in-energy.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/today-in-energy.inc') ?>
 	</div>
 	<div class="l-side-column">
 		<?php
 			/*
 			if(file_exists("global/includes/homepage_data.html")){
-			if(file_exists("css_rehab/archive/global/includes/eia-home-data-highlights.inc")) {
+			if(file_exists("css_rehab/archive/homepage/includes/data-highlights.inc")) {
 				// $homepage_data_file = "global/includes/homepage_data.html";
-				$homepage_data_file = "css_rehab/archive/global/includes/eia-home-data-highlights.inc";
+				$homepage_data_file = "css_rehab/archive/homepage/includes/data-highlights.inc";
 			} else{
 				$homepage_data_file = "global/includes/homepage_data.cfm";
 			}
@@ -57,30 +37,30 @@
 			}
 			*/
 		?>
-		<?php include('css_rehab/archive/global/includes/eia-home-data-highlights.inc"') ?>
+		<?php include('css_rehab/archive/homepage/includes/data-highlights.inc"') ?>
 	</div>
 </div>
 <div class="l-row">
 	<div class="l-main-column">
-		<?php include('css_rehab/archive/global/includes/eia-home-features.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/features.inc') ?>
 	</div>
 	<div class="l-side-column">
-	<?php include('css_rehab/archive/global/includes/eia-home-outlooks.inc') ?>
-	<?php include('css_rehab/archive/global/includes/eia-home-learn-about-energy.inc') ?>
+	<?php include('css_rehab/archive/homepage/includes/outlooks.inc') ?>
+	<?php include('css_rehab/archive/homepage/includes/learn-about-energy.inc') ?>
 	</div>
 </div>
 <div class="l-row">
 	<div class="l-side-column">
-		<?php include('css_rehab/archive/global/includes/eia-home-our-experts-speak.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/our-experts-speak.inc') ?>
 	</div>
 	<div class="l-side-column">
-		<?php include('css_rehab/archive/global/includes/eia-home-top-picks.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/top-picks.inc') ?>
 	</div>
 	<div class="l-side-column">
-		<?php include('css_rehab/archive/global/includes/eia-home-especially-for.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/especially-for.inc') ?>
 	</div>
 	<div class="l-side-column">
-		<?php include('css_rehab/archive/global/includes/eia-home-energy-kids.inc') ?>
+		<?php include('css_rehab/archive/homepage/includes/energy-kids.inc') ?>
 	</div>
 </div>
 <?php include'css_rehab/archive/global/includes/eia_footer.inc' ?>

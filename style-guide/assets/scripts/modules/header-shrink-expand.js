@@ -1,7 +1,5 @@
 import $ from 'jquery';
 
-//console.log("shrink-expand checking in...");
-
 class ShrinkExpand {
     constructor() {
         // dom objects
