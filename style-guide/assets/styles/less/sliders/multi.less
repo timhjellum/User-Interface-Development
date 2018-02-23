@@ -1,45 +1,27 @@
 
 
 @media @mobile { // could be 320px - smartphones, portrait iPhone, portrait 480x320 phones (Android)
-	.feature-section {
+	.current-issues-trends {
 		box-sizing: border-box;
 		* {
 			box-sizing: border-box;
 		}
-		border-bottom: 1px solid #668393;
-		padding-bottom: 1.625em; // 26px;
-//		margin: 0 22px;
-		.header {
-			display: table;
-			width: 100%;
-			border-bottom: solid 1px #dadada;
-			padding-bottom: 6px;
-			padding-top: 1em; // 16px;
-			clear: both;
-			margin-bottom: 0.5em;
-			/*
-			.left {
-			.left;
-			font-size: 1.625rem; // 26px;
-			.header-font;
-			line-height: 1;        
-			text-indent: .5em;
-			border: none;
-			padding: none;
-			}
-			.right {
-			display: none;
-			}
-			*/
-		}
+		padding: 0 0 6px 0;
+		margin: 2em 0 .5em 0;
+		width: 100%;
+		border-bottom: solid 1px #668393;
+		clear: both;
 	}
 	.slider-multi {
 		box-sizing: border-box;
 		* {
 			box-sizing: border-box;
 		}
-		margin: 0;
+		margin: 8px 0 1.625em 0;
 		width: 100%;
+		border-top: 1px solid #dadada;
+		padding: 12px 0 0 0;
+		clear: both;
 		.slider-multi-wrapper {
 			position: relative;
 			margin: 0 auto;
@@ -120,24 +102,27 @@
 		}
 	}
 }
-
 @media @laptop { // normall 1025 - big landscape tablets, laptops, and desktops
-	.feature-section {
-		margin: 12px 22px 16px 22px;
-		border-bottom: 1px solid #668393;
-		padding: 0 0 26px 0;
+	.current-issues-trends {
+		margin: 2em 22px .5em 22px;
 		width: 912px;
 		h2 {
 			font-size: 1.625rem; // 26px;
 			.header-font;
 			line-height: 1; 
-			padding: o;
-			margin: 0;				
+			padding: 0;
+			margin: 0 0 10px 0;			
 		}
+
+
+
+
+
+
+
 		.slider-multi-pager {
-			display: block;
 			.right;
-			margin-top: 8px;
+			margin: 6px 0 0 0;
 			.bx-pager {
 				&.bx-default-pager {
 					.bx-pager-item {
@@ -172,7 +157,8 @@
 				.right;
 				.font;
 				font-size: 0.750rem; // 12 pixels
-				padding: .9em 1em 0 1em;
+				padding: 0;
+				margin: 6px 1em 0 1em;
 				color: @eia-blue;
 				text-decoration: none;
 				&:hover {

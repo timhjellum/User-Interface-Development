@@ -6630,41 +6630,24 @@ span.line-break {
   }
 }
 @media (min-width: 1px) {
-  .feature-section {
+  .current-issues-trends {
     box-sizing: border-box;
-    border-bottom: 1px solid #668393;
-    padding-bottom: 1.625em;
-  }
-  .feature-section * {
-    box-sizing: border-box;
-  }
-  .feature-section .header {
-    display: table;
+    padding: 0 0 6px 0;
+    margin: 2em 0 .5em 0;
     width: 100%;
-    border-bottom: solid 1px #dadada;
-    padding-bottom: 6px;
-    padding-top: 1em;
+    border-bottom: solid 1px #668393;
     clear: both;
-    margin-bottom: 0.5em;
-    /*
-			.left {
-			.left;
-			font-size: 1.625rem; // 26px;
-			.header-font;
-			line-height: 1;        
-			text-indent: .5em;
-			border: none;
-			padding: none;
-			}
-			.right {
-			display: none;
-			}
-			*/
+  }
+  .current-issues-trends * {
+    box-sizing: border-box;
   }
   .slider-multi {
     box-sizing: border-box;
-    margin: 0;
+    margin: 8px 0 1.625em 0;
     width: 100%;
+    border-top: 1px solid #dadada;
+    padding: 12px 0 0 0;
+    clear: both;
   }
   .slider-multi * {
     box-sizing: border-box;
@@ -6741,33 +6724,30 @@ span.line-break {
   }
 }
 @media (min-width: 956px) {
-  .feature-section {
-    margin: 12px 22px 16px 22px;
-    border-bottom: 1px solid #668393;
-    padding: 0 0 26px 0;
+  .current-issues-trends {
+    margin: 2em 22px .5em 22px;
     width: 912px;
   }
-  .feature-section h2 {
+  .current-issues-trends h2 {
     font-size: 1.625rem;
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
     line-height: 1;
-    padding: o;
-    margin: 0;
+    padding: 0;
+    margin: 0 0 10px 0;
   }
-  .feature-section .slider-multi-pager {
-    display: block;
+  .current-issues-trends .slider-multi-pager {
     float: right;
-    margin-top: 8px;
+    margin: 6px 0 0 0;
   }
-  .feature-section .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item {
+  .current-issues-trends .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item {
     position: relative;
     float: left;
     display: block;
     z-index: 10;
   }
-  .feature-section .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link {
+  .current-issues-trends .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link {
     text-indent: -99999px;
     border-radius: 50%;
     display: inline-block;
@@ -6778,26 +6758,27 @@ span.line-break {
     padding: 0;
     border: 0;
   }
-  .feature-section .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link:hover {
+  .current-issues-trends .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link:hover {
     background-color: #189bd7;
   }
-  .feature-section .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link.active {
+  .current-issues-trends .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item .bx-pager-link.active {
     background-color: #189bd7;
   }
-  .feature-section a.see-more {
+  .current-issues-trends a.see-more {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
     font-size: 0.750rem;
-    padding: .9em 1em 0 1em;
+    padding: 0;
+    margin: 6px 1em 0 1em;
     color: #189bd7;
     text-decoration: none;
   }
-  .feature-section a.see-more:hover {
+  .current-issues-trends a.see-more:hover {
     text-decoration: underline;
   }
-  .feature-section a.see-more:after {
+  .current-issues-trends a.see-more:after {
     content: "\00a0\203A";
   }
   .slider-multi {
