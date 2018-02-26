@@ -6690,15 +6690,18 @@ span.line-break {
   }
   .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a {
     width: 24px;
+    height: 191px;
     text-decoration: none;
     z-index: 9999;
     font-size: 80px;
     color: #333;
+    color: #bed5ad;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: all .6s;
   }
   .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a:hover {
+    opacity: 0.85;
     color: #5d9732;
     background-color: #9ec184;
   }
@@ -6709,7 +6712,7 @@ span.line-break {
     color: #333;
     font-weight: 700;
     text-align: center;
-    padding: 54px 0;
+    padding: 28px 0 0 0;
   }
   .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-prev {
     float: left;
@@ -6830,7 +6833,7 @@ span.line-break {
     display: block;
     font-size: 8pt;
     line-height: 1.4em;
-    margin: 4px 0 0 0;
+    margin: 8px 0 0 0;
     overflow: hidden;
     height: 30px;
   }

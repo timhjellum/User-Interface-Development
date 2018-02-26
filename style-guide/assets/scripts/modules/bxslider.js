@@ -12,10 +12,10 @@ class BxSlider {
         this.events();
         
     }
-    initialState() {
-        this.bxSliderHome.hide();
-        this.bxSliderMulti.hide();
-    }
+//    initialState() {
+//        this.bxSliderHome.show();
+//        this.bxSliderMulti.show();
+//    }
 	events() {
     //    this.window.resize(this.checkSize.bind(this));
         this.bxSliderHome.show();
