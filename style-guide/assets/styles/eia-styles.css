@@ -23,18 +23,17 @@
 @import "less/layouts";
 @import "less/social-sticker";
 
+@import "less/modules/blue-background";
+@import "less/modules/content-container";
+@import "less/modules/dark-top-border-container";
+@import "less/modules/grey-background";
+@import "less/modules/light-top-border-container";
+@import "less/modules/standard-container";
+
 @import "less/sliders/shared";
 @import "less/sliders/home";
 @import "less/sliders/multi";
 
-@import "less/modules/blue-background";
-@import "less/modules/content-container";
-@import "less/modules/dark-top-border-container";
-@import "less/modules/energy-kids";
-@import "less/modules/features";
-@import "less/modules/grey-background";
-@import "less/modules/light-top-border-container";
-@import "less/modules/main-content-container";
-@import "less/modules/standard-container";
-
-
+@import "less/home/energy-kids";
+@import "less/home/features";
+@import "less/home/main-content-container";

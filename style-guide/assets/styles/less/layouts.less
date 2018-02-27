@@ -287,17 +287,19 @@
 
 @media @laptop {
 	.l-outer-wrapper {
-		padding: 0 1px; // 990px - 2px = 988px width
+//		padding: 0 1px; // 990px - 2px = 988px width
 		// normall 1025 - big landscape tablets, laptops, and desktops
-		max-width: 990px;
-		min-width: 990px;
-		width: 990px;
+//		max-width: 990px;
+//		min-width: 990px;
+//		width: 990px;
+		margin: inherit;
 	}
 	.l-inner-wrapper {
-		border-right: 1px solid #dbdfe5;
-		border-left: 1px solid #dbdfe5; // 988px - 2px = 986px width
-		width: 988px;
-		padding: 106px 15px 50px 15px;
+//		border-right: 1px solid #dbdfe5;
+//		border-left: 1px solid #dbdfe5; // 988px - 2px = 986px width
+//		width: 988px;
+//		padding: 106px 15px 50px 15px;
+		margin: inherit;
 	}
 	// this is a column reset to keep all the moibile spacing from interfering with the laptop <
 	.l-row.header > div,
@@ -439,6 +441,12 @@
 		padding-right: 22px;
 	}
 	*/
+	.l-row > div {
+		padding-right: 44px;
+	}
+	.l-row > div:last-child {
+		padding-right: 22px;
+	}
 	.l-row {
 		&.header {
 			padding-left: 0;
