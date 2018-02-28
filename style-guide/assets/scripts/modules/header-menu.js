@@ -34,6 +34,13 @@ class HeaderMenu {
 			fitToView: true,
 			autoSize: true
 		});
+		$("#youtube").fancybox({
+			'scrolling'		: 'no',
+			'titleShow'		: false,
+			'onClosed'		: function() {
+				$("#login_error").hide();
+			}
+		});
 	}
 	events() {
 		this.window.resize(this.checkSize.bind(this));

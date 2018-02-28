@@ -15,7 +15,17 @@
 			</p>
 			<div class="media">
 				<a href="/">
-					<img src="https://www.eia.gov/todayinenergy/images/2018.02.12/feature_p1.png" alt="U.S. net energy trade, as explained in the article text">
+
+
+<img src="https://www.eia.gov/todayinenergy/images/2018.02.12/feature_p1.png?<?php echo(rand() . ''); ?>" alt="U.S. net energy trade, as explained in the article text" />
+
+
+
+
+
+
+
+					<!-- img src="" -->
 				</a>
 			</div>
 			<figure>

@@ -28,11 +28,12 @@ font-size: 1.500rem; // 24 pixels
                 .font;
                 font-size: 0.750rem; // 12 pixels
                 line-height: 150%; // 18 pixels
-                padding: 8px 0 10px;
-                margin: 0;
+                padding: 0 0 10px 0;
+                margin: 8px 0 0 0;
                 border-bottom: 1px solid @eia-divider;
                 &:last-child {
                     border-bottom: none;
+                    padding: 0;
                 }
                 a {
                     color: @eia-blue;
@@ -42,10 +43,12 @@ font-size: 1.500rem; // 24 pixels
                     } 
                 }
                 &.head {
-                    padding: 0 0 10px 0;
-                    margin: 0;
-                    border-bottom: 1px solid @eia-divider;
+                    padding: 0 0 7px 0;
+                    margin: 0 0 7px 0;
+                    border-bottom: 1px solid #999;
                     h2  {
+                        .font;
+                        .bold;
                         font-size: 0.750rem; // 12 pixels
                         padding: 0;
                         margin: 0;

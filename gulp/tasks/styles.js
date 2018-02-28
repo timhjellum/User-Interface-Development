@@ -7,9 +7,9 @@ const path = require('path');
 const del = require('del');
 
 //const dist = '//WWWDEV/website/global/styles';
-//const dist = '//REPLICATOR/website/css_rehab/archive/global/styles';
+const dist = '//REPLICATOR/website/css_rehab/archive/global/styles';
 //const dist = './global/styles';
-const dist = './style-guide/src/css';
+//const dist = './style-guide/src/css';
 const styleGuideDist = './style-guide/src/css';
 
 

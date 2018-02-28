@@ -21,7 +21,6 @@ node_modules/
 
 # Generated directories
 dist/
-global/
 beta/
 petroleum/
 
@@ -42,6 +41,10 @@ petroleum/
 
 # dotenv environment variables file
 .env
+webpack.config.js
+gulp/
+
+
 
 DELETE/*
 DELETEE/*

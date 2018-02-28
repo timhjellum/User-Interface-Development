@@ -12,8 +12,6 @@
   </div>
 </li>
 
-
-
 <li class="feature_new3">
     <div class="slider-overlay">
     <h2><a href="/naturalgas/crudeoilreserves/">U.S. Crude Oil and<br />Natural Gas Proved Reserves, Year-end 2016</a></h2> 
@@ -30,17 +28,16 @@
 
 <li class="feature_new5">
     <div class="slider-overlay">
-    <h2><a href="/forecasts/steo/">Short-Term Energy Outlook February 2018
-</a></h2> 
+    <h2><a href="/forecasts/steo/">Short-Term Energy Outlook February 2018</a></h2> 
     <h3><a href="/forecasts/steo/">Energy projections for supply, demand, and prices</a></h3>
   </div>
 </li>
 
 <li class="feature_new6">
     <div class="slider-overlay">
-    <h2><a href="/conference/2018/">2018 EIA Energy Conference, June 4&#8211;5
-</a></h2> 
+    <h2><a href="/conference/2018/">2018 EIA Energy Conference, June 4&#8211;5</a></h2> 
     <h3><a href="/conference/2018/">Registration is now open</a></h3>
   </div>
 </li>
 
+<?php /* echo(rand() . ''); */ ?>

@@ -196,7 +196,7 @@
 						margin: 5px 0 2px 0;
 						overflow: hidden;
 						padding: 0 5%;
-						line-height: 0.8em; // 14 pixels
+						line-height: .75em;
 						font-weight: 700;
 						a {
 							.font;
@@ -226,11 +226,14 @@
 //							}
 //						}
 						a {
-							color: @eia-blue;					
-							//.capsule {
-							//	&:after {
-							//	}
-							text-decoration: none;
+							color: @eia-blue;
+							text-decoration: none;											
+							&.capsule {
+								&:after {
+									content: ", ";
+									color: #333;
+								}
+							}
 							&:hover {
 								text-decoration: underline;
 							} 
