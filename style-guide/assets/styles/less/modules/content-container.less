@@ -20,37 +20,38 @@ font-size: 1.500rem; // 24 pixels
 
 @media @mobile {
 	.content-container {
-		font-size: 16px;
-		font-size: 1rem;
 		display: block;
 		margin-bottom: 1em;
 		width: 100%;
-		box-sizing: border-box;
-		* {
-			box-sizing: border-box;
-		}
 		ul {
 			list-style: none;
-			/*
-			hr {
-				border: 0;
-				height: 7px;
-				margin: 0;
-				//background: transparent url(https://www.eia.gov/global/images/bg/h_line_shadow_rc.png) no-repeat bottom center;
-				border-bottom: solid 1px #e3e5e6;
-			}
-			*/
+			padding: 0;
+			margin: 0;
 			li {
+                padding: 0;
+                margin: 0 ;
 				vertical-align: top;
-				&.head {
-					color: @eia-dark-gray;
-				}
-				&.sub-head {
-					color: @eia-dark-gray;
-				}
-				&.date {
+				a {
+                    color: @eia-blue;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    } 
+                }
+                &.head {
+                    h2  {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                &.date {
 					.italic;
+//                    padding: 0;
+//					margin: 0;
 					text-transform: none;
+					color: @eia-dark-gray;
+                }
+				&.sub-head {
 					color: @eia-dark-gray;
 				}
 				&.foot {

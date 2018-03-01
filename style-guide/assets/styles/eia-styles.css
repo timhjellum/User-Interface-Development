@@ -23,12 +23,14 @@
 @import "less/layouts";
 @import "less/social-sticker";
 
-@import "less/modules/blue-background";
+
+/* content container must be the first line item of the modules */
 @import "less/modules/content-container";
+@import "less/modules/blue-background";
 @import "less/modules/dark-top-border-container";
 @import "less/modules/grey-background";
 @import "less/modules/light-top-border-container";
-@import "less/modules/standard-container";
+@import "less/modules/no-border-container";
 
 @import "less/sliders/shared";
 @import "less/sliders/home";

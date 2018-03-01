@@ -1,7 +1,7 @@
 <!-- start module -->
 <!-- start module -->
 <!-- start module -->
-<div class="content-container dark-top-border-container two">
+<div class="content-container no-border-container two">
 	<ul>
 		<li class="head"><h2>Coming Up</h2></li>
 		<li><a href="/">Refinery Capacity Report</a></li>

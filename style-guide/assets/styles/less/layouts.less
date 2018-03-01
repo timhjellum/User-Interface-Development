@@ -4,10 +4,6 @@
 	.page-wrapper {
 		width: 100%;
 		margin: 0;
-		box-sizing: border-box;
-		* {
-			box-sizing: border-box;
-		}
 		.l-outer-wrapper {
 			width: 100%;
 			background-color: #e2e6eb;
@@ -102,7 +98,7 @@
 
 	.container {
 		width: 100%;
-		max-width: 989px;
+		clear: both;
 	}
 	.l-column {
 		-webkit-box-flex: 0;
@@ -134,15 +130,9 @@
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 		max-width: 100%;
-		// added
 		width: 100%;
-		//    padding: 0 2em;
-		// padding-left: 11px;
-		// padding-right: 11px;
 	}
-	.l-full-width-column {
-			width: 100%;
-	}
+
 	.l-3-col-reorder {
 		margin: 0;
 		list-style: none;
@@ -176,49 +166,12 @@
 		order: -1;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.l-outer-wrapper {
 		max-width: 599px;
 		min-width: 480px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media @tablet {
 	// mobile panorama
 	.l-outer-wrapper {
@@ -254,24 +207,12 @@
 		max-width: 33.333333%;
 	}
 }
-
-
-
-
-
-
-
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
 	.l-outer-wrapper {
 		max-width: 801px;
 		min-width: 989px;
 	}
 }
-
-
-
-
-
 @media @laptop {
 	.page-wrapper {
 		.l-outer-wrapper {
@@ -337,14 +278,14 @@
 	.l-row > ol {
 		padding-right: 22px;
 	}
-
+/*
 	div.content {
 		padding-right: 15px;
 		padding-left: 15px;
 		width: 956px; // 986px - 30px = 956px (actual)
 		display: table;
 	}
-
+	*/
 	.container {
 		position: relative;
 		margin-left: auto;
@@ -472,6 +413,16 @@
 			&>div {
 				&:last-child {
 					padding-right: 0;
+				}
+			}
+			.l-side-column {
+				&:first-child {
+					.no-border-container,
+					.dark-top-border-container { 
+						ul {
+							margin-left: 12px;
+						}
+					}
 				}
 			}
 		}

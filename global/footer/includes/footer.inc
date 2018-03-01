@@ -74,19 +74,5 @@
         </ul>
     </div>
 </footer>
-<script>
-$('#outerX').removeAttr('id');
-$('.l-outer-wrapper').attr('id', 'outerX');
-/*
-$(document).ready(function(){
-		$(".page_tabs").tabs();
-		$(".page_tabs").localScroll({
-			                            target:".page_tabs",
-			                            duration:0,
-			                            hash:true
-		                            });
-	});
-	*/
-</script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src='/css_rehab/archive/global/scripts/eia-scripts.min.js'></script>
