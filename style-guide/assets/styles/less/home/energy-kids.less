@@ -1,16 +1,30 @@
 @media @mobile {
     .energy-kids {
+        border-top: 4px solid @eia-blue;
         a {
             display: block;
-            background: url('https://www.eia.gov/global/images/kids_promos/kids-winter.png') no-repeat top right;
             width: 100%;
-            height: 133px;
+            border: none;
+//            margin-top: -10px;
+            picture {
+                float: right;
+            }
+        }
+    }
+}
+@media @laptop {
+    .energy-kids {
+//        border-top: none;
+        a {
+            display: block;
+//            background: url('https://www.eia.gov/global/images/kids_promos/kids-winter.png') no-repeat top right;
+            width: 100%;
+//            height: 133px;
             border: none;
             margin-top: -10px;
         }
     }
 }
-
 
 
 

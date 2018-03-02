@@ -2,32 +2,30 @@
 
 @media @mobile {
 	.features {
-		overflow: hidden;
-		margin: 0 0 26px;
-		padding: 22px 0 0 0;
-		//display: inline-block;
-		-moz-background-size: 100% 100%;
-		-webkit-background-size: 100% 100%;
-		background-size: 100% 100%;
-		width: 100%;
-		height: 300px;
-		max-height: 300px;
-		background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
-		background-size: cover;
+		display: table;
+		padding: 22px 0;
 		border-bottom: solid 1px #E3E5E6;
-		box-sizing: border-box;
-		* {
-			box-sizing: border-box;
-		}
 		h2 {
 			.header-font;
-			margin: 0 22px 6px 22px;
+			font-size: 1.5rem * 1.20%;
+			margin: 0 0 6px 0;
 			padding: 0;
 		}
 		&>div {
-			width: 193px;
-			margin: 0 0 0 22px;
 			float: left;
+			margin: 0 0 2em;
+			width: 100%;
+		}
+		a {
+			width: 100%;
+			display: block;
+			background-color: yellowgreen;
+			text-align: center;
+			img {
+				margin: 1em auto;
+				border: 4px solid #fff; 
+				outline: 1px solid #dadada;
+			}			
 		}
 		ul {
 			margin: 0;
@@ -43,9 +41,12 @@
 						.font;
 						margin: 0;
 						padding: 0;
-						font-size: 1rem;
+						font-size: 1rem * 1.20%;
 						line-height: 1.1em;
 						a {
+							width: 100%;
+							text-align: left;
+							display: block;
 							color: @eia-blue;
 							text-decoration: none;
 							.normal;
@@ -58,17 +59,67 @@
 				}
 			}
 		}
+	}
+}
 
-					img {
-					//	padding: 4px;
-					//	border: 1px solid #dadada;
-					//	float: left;
-						width: 193px; // actual + 10
-						height: 111px; // actual + 10
-					//	background-color: red;
-						border: 4px solid #fff; 
-						outline: 1px solid #dadada;
+
+@media @laptop {
+	.features {
+		overflow: hidden;
+		margin: 0 0 26px;
+		padding: 22px 0 0 0;
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 300px;
+		max-height: 300px;
+		background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
+		background-size: cover;
+		h2 {
+			font-size: 1.5rem;
+			margin: 0 22px 6px 22px;
+		}
+		&>div {
+			width: 195px;
+//			margin: 0 0 0 22px;
+		}
+		&>div {
+			&:nth-child(2) {
+				margin-left: 22px;
+			}
+		}
+		&>div {
+			&:nth-child(3) {
+				margin-left: 33px;
+			}
+		}
+		&>div {
+			&:nth-child(4) {
+				margin-left: 33px;
+			}
+		}
+
+
+		ul {
+			li {
+				&.head {
+					margin: 8px 0 10px 0;
+					h3 {
+						font-size: 1rem;
 					}
-
+				}
+			}
+		}
+		img {
+		//	padding: 4px;
+		//	border: 1px solid #dadada;
+		//	float: left;
+		//	width: 193px; // actual + 10
+		//	height: 111px; // actual + 10
+		//	background-color: red;
+		//	border: 4px solid #fff; 
+		//	outline: 1px solid #dadada;
+		}
 	}
 }

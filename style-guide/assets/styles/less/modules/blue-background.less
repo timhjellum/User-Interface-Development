@@ -29,38 +29,57 @@ font-size: 1.500rem; // 24 pixels
             padding: 0.938em 0.813em; // 15 13 pixels
             li {
                 .font;
+                font-size: 0.625rem * 1.20%; 
+                margin: 0 0 0.625em 0;
+                &.head {
+                    padding: 0 0 0.625em 0;
+                    margin: 0 0 0.625em 0;
+                    border-bottom: 1px solid #999;
+                    h2  {
+                        .header-font;
+                        font-size: 1.125rem * 1.20%;
+                    }
+                }
+                &.sub-head {
+                    padding: 0;
+                    margin: 1.250em 0 4px;
+                    color: #5e625e;
+                    .bold;
+                    font-size: 0.750rem * 1.20%; 
+                }
+                &.date {
+                    font-size: 0.750rem * 1.20%; 
+                    font-style: normal;
+                    strong {
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+@media @tablet { 
+
+}
+@media @laptop {
+    .blue-background {
+        ul {
+            li {
                 font-size: 0.625rem; // 10 pixels
                 margin: 0 0 5px 0;
                 &.head {
                     padding: 0 0 5px 0;
                     margin: 0 0 5px 0;
-                    border-bottom: 1px solid #999;
                     h2  {
                         font-size: 1.125rem; // 18 pixels
-                        .header-font;
                     }
                 }
                 &.sub-head {
-                    padding: 0;
                     margin: 10px 0 2px;
-                    color: #5e625e;
-                    .bold;
                     font-size: 0.750rem; // 12 pixels
                 }
-/*                a {
-                    color: @eia-blue;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                    } 
-                }
-                */
                 &.date {
                     font-size: 0.750rem; // 12 pixels
-                    font-style: normal;
-                    strong {
-                        font-style: normal;
-                    }
                 }
             }
         }

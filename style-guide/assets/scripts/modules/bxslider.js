@@ -20,7 +20,6 @@ class BxSlider {
     //    this.window.resize(this.checkSize.bind(this));
         this.bxSliderHome.show();
         this.bxSliderMulti.show();
-
         this.bxSliderHome.bxSlider({
             auto: true,
             minSlides: 1,
@@ -36,7 +35,7 @@ class BxSlider {
             pause: 10000
         });
         this.bxSliderMulti.bxSlider({
-            auto: true,
+            auto: false,
             wrapperClass: 'slider-multi-wrapper', // overides default bx-wrapper
             minSlides: 5,
             maxSlides: 5,

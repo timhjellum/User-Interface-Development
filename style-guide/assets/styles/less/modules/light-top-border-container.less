@@ -26,7 +26,7 @@ font-size: 1.500rem; // 24 pixels
             margin: 0;
             li  {
                 .font;
-                font-size: 0.750rem; // 12 pixels
+                font-size: 0.750rem * 1.10%; // 12 pixels
                 line-height: 150%; // 18 pixels
                 padding: 0 0 10px 0;
                 margin: 8px 0 0 0;
@@ -36,6 +36,8 @@ font-size: 1.500rem; // 24 pixels
                     padding: 0;
                 }
                 a {
+                    display: block;
+                    background-color: yellowgreen;
                     color: @eia-blue;
                     text-decoration: none;
                     &:hover {
@@ -49,7 +51,7 @@ font-size: 1.500rem; // 24 pixels
                     h2  {
                         .font;
                         .bold;
-                        font-size: 0.750rem; // 12 pixels
+                        font-size: 0.750rem * 1.10%; // 12 pixels
                         padding: 0;
                         margin: 0;
                     }
@@ -73,6 +75,21 @@ font-size: 1.500rem; // 24 pixels
                     .bold;
                 }
                 */
+            }
+        }
+    }
+}
+@media @laptop {
+    .light-top-border-container {
+        ul {
+            li  {
+                .font;
+                font-size: 0.750rem; // 12 pixels
+                &.head {
+                    h2  {
+                        font-size: 0.750rem; // 12 pixels
+                    }
+                }
             }
         }
     }

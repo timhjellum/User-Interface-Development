@@ -22,27 +22,30 @@ font-size: 1.500rem; // 24 pixels
     .no-border-container,
     .dark-top-border-container {
         background-color: white;
-        border-top: solid 4px @eia-darker-blue;      
+        border-top: solid 4px @eia-darker-blue;
+        font-size: 110%;
         ul {
             li  {
                 .font;
-                font-size: 0.750rem; // 12 pixels
+                font-size: 0.750rem * 1.20%; 
                 line-height: 150%; // 18 pixels
                 margin: 10px 0 1px 0;
                 a {
+                    display: block;
+                    background-color: yellowgreen;
                     &:after { 
                         content:"\00a0\203A";
                     } 
                 }
                 &.date {
                     margin: 0;
-                    font-size: 0.688rem; // 11 pixels   
+                    font-size: 0.688rem * 1.20%; 
                 }
                 &.head {
                     margin: 14px 0 2px 0;
                     h2  {
                         .header-font;
-                        font-size: 1.125rem; // 18 pixels
+                        font-size: 1.125rem * 1.20%; 
                     }
                 }
             }
@@ -59,21 +62,22 @@ font-size: 1.500rem; // 24 pixels
 
 }
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
-    .homepage {
-        .l-row {
-            .l-side-column {
-                &:first-child {
-                    .no-border-container,
-                    .dark-top-border-container { 
-                        ul {
-                            margin-left: 12px;
-                        }
+
+}
+@media @laptop {
+    .dark-top-border-container {
+         ul {
+            li  {
+                font-size: 0.750rem; // 12 pixels
+                &.date {
+                    font-size: 0.688rem; // 11 pixels   
+                }
+                &.head {
+                    h2  {
+                        font-size: 1.125rem; // 18 pixels
                     }
                 }
             }
-        }
+        }        
     }
-}
-@media @laptop {
-
 }

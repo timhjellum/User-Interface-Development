@@ -1,9 +1,5 @@
 @media @mobile {
 	.footer {
-		box-sizing: border-box;
-		* {
-			box-sizing: border-box;
-		}
 		.l-column,
 		.l-full-width-column,
 		.l-one-third-column,
@@ -38,7 +34,7 @@
 				padding: 0 0 2em 2em;
 				margin: 0;
 				text-align: center;
-				font-size: 0.938rem;
+font-size: 0.938rem * 1.20%;
 				li {
 					display: inline-block;
 					margin: 0 12px 0 0;
@@ -60,10 +56,10 @@
 					line-height: 1.4em;
 					color: @eia-dark-gray;
 					text-decoration: none;
-				}
-				a:hover {
-					text-decoration: none;
-					color:@eia-blue;
+					&:hover {
+						text-decoration: none;
+						color:@eia-blue;
+					}
 				}
 			}
 			.address {
@@ -71,7 +67,7 @@
 				padding: 0;
 				text-align: center;
 				.font;
-				font-size: .6875rem;
+font-size: .6875rem * 1.20%;
 				color: #a6a5a6; // @eia-dark-gray;
 				display: block;
 			}
@@ -87,7 +83,7 @@
 				li {
 					.font;
 					.bold;
-					font-size: .6875rem;
+font-size: .6875rem * 1.20%;
 					margin-bottom: .2em;
 					a {
 						text-decoration: none;
@@ -227,6 +223,7 @@
 		}
 		.address-bar {
 		  	.address {
+				font-size: .6875rem;
 				float: right;
 				padding: 0 25px 0 0;
 				border-right: 1px solid #a6a5a6; // @eia-dark-gray;
@@ -234,6 +231,7 @@
 				border-top: none;
 			}
 			.above-address-links {
+				font-size: 0.938rem;
 				padding: .5em 0 0 32px;
 				margin: 0;
 				li {
@@ -252,6 +250,7 @@
 				border: none;
 				padding-right: 1.1em;
 				li {
+					font-size: .6875rem;
 					margin-bottom: .5em;
 					line-height: 1.2em;
 				}
