@@ -43,7 +43,7 @@ const styleGuideDist = './style-guide/src/css';
 
 
 
-gulp.task('styles', ['styles-all'], () =>
+gulp.task('styles', () =>
 	gulp.src('./style-guide/assets/styles/eia-styles.css')
 //  .pipe(changed(styleGuideDist))
 	.pipe(less())
@@ -53,15 +53,7 @@ gulp.task('styles', ['styles-all'], () =>
 	.pipe(rename("eia-styles.min.css"))
 	.pipe(gulp.dest(dist))
 );
-gulp.task('styles-all', () =>
-	gulp.src('./style-guide/assets/styles/eia-styles.all.css')
-	.pipe(less())
-	.pipe(gulp.dest(dist))
-	.pipe(gulp.dest(styleGuideDist))
-	.pipe(cleanCSS())
-	.pipe(rename("eia-styles.all.min.css"))
-	.pipe(gulp.dest(dist))
-);
+
 // print specific files
 // $ npm run gulp print
 
