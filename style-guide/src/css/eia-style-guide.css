@@ -690,9 +690,9 @@ template {
   }
   .l-column,
   .l-full-width-column,
-  .l-main-column,
-  .l-middle-column,
-  .l-side-column,
+  .l-main-col,
+  .l-middle-col,
+  .l-narrow-col,
   .l-split-narrow,
   .l-split-wide,
   .l-one-third-column,
@@ -706,9 +706,9 @@ template {
   }
   .l-row .l-column,
   .l-row .l-full-width-column,
-  .l-row .l-main-column,
-  .l-row .l-middle-column,
-  .l-row .l-side-column,
+  .l-row .l-main-col,
+  .l-row .l-middle-col,
+  .l-row .l-narrow-col,
   .l-row .l-split-narrow,
   .l-row .l-split-wide,
   .l-row .l-one-third-column,
@@ -718,9 +718,9 @@ template {
   }
   .l-row.header .l-column,
   .l-row.header .l-full-width-column,
-  .l-row.header .l-main-column,
-  .l-row.header .l-middle-column,
-  .l-row.header .l-side-column,
+  .l-row.header .l-main-col,
+  .l-row.header .l-middle-col,
+  .l-row.header .l-narrow-col,
   .l-row.header .l-split-narrow,
   .l-row.header .l-split-wide,
   .l-row.header .l-one-third-column,
@@ -754,14 +754,14 @@ template {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .l-side-column,
+  .l-narrow-col,
   .l-one-third-column,
   .l-two-column,
-  .l-middle-column,
+  .l-middle-col,
   .l-split-narrow,
   .l-split-wide,
   .l-two-third-column,
-  .l-main-column,
+  .l-main-col,
   .l-full-width-column {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
@@ -817,7 +817,7 @@ template {
     max-width: 800px;
     min-width: 600px;
   }
-  .l-left-column .l-side-column .l-side-column {
+  .l-left-column .l-narrow-col .l-narrow-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
@@ -829,8 +829,8 @@ template {
   }
   .l-two-column,
   .l-one-third-column,
-  .l-middle-column,
-  .l-main-column {
+  .l-middle-col,
+  .l-main-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
@@ -876,14 +876,14 @@ template {
   .l-row.header > ul,
   .l-row.header > ol,
   .l-column,
-  .l-side-column,
+  .l-narrow-col,
   .l-one-third-column,
   .l-two-column,
-  .l-middle-column,
+  .l-middle-col,
   .l-split-narrow,
   .l-split-wide,
   .l-two-third-column,
-  .l-main-column,
+  .l-main-col,
   .l-full-width-column {
     padding-left: 0;
     padding-right: 0;
@@ -919,14 +919,14 @@ template {
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
   }
-  .l-side-column {
+  .l-narrow-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 25%;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
-  .l-side-column img {
+  .l-narrow-col img {
     max-width: 174px !important;
   }
   .l-one-third-column {
@@ -943,8 +943,8 @@ template {
     flex: 0 0 41.666%;
     max-width: 41.666%;
   }
-  .l-3-col-reorder .l-main-column,
-  .l-middle-column,
+  .l-3-col-reorder .l-main-col,
+  .l-middle-col,
   .l-two-column {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 50%;
@@ -966,7 +966,7 @@ template {
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
-  .l-main-column {
+  .l-main-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 75%;
     -ms-flex: 0 0 75%;
@@ -1113,9 +1113,9 @@ template {
 	}
 	.l-column,
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
+	.l-main-col,
+	.l-middle-col,
+	.l-narrow-col,
 	.l-split-narrow,
 	.l-split-wide,
 	.l-one-third-column,
@@ -1192,15 +1192,15 @@ template {
 	}
 	//
 	.l-column,
-	//.l-side-column,
+	//.l-narrow-col,
 	//.l-split-narrow,
 	//.l-split-wide,
 	//.l-one-third-column,
 	//.l-two-column,
 	//.l-two-third-column
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column {
+	.l-main-col,
+	.l-middle-col {
 		h1, h2
 		//, h3, h4, h5, h6
 		{
@@ -1209,8 +1209,8 @@ template {
 		}
 	}
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column {
+	.l-main-col,
+	.l-middle-col {
 		h3
 		//, h4, h5, h6
 		{
@@ -1234,9 +1234,9 @@ template {
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.l-column,
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
+	.l-main-col,
+	.l-middle-col,
+	.l-narrow-col,
 	.l-split-narrow,
 	.l-split-wide,
 	.l-one-third-column,
@@ -1296,9 +1296,9 @@ template {
 @media @tablet {  // mobile panorama
 	.l-column,
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
+	.l-main-col,
+	.l-middle-col,
+	.l-narrow-col,
 	.l-split-narrow,
 	.l-split-wide,
 	.l-one-third-column,
@@ -1358,9 +1358,9 @@ template {
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
 	.l-column,
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
+	.l-main-col,
+	.l-middle-col,
+	.l-narrow-col,
 	.l-split-narrow,
 	.l-split-wide,
 	.l-one-third-column,
@@ -1420,9 +1420,9 @@ template {
 @media @laptop { // big landscape tablets, laptops, and desktops
 	.l-column,
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
+	.l-main-col,
+	.l-middle-col,
+	.l-narrow-col,
 	.l-split-narrow,
 	.l-split-wide,
 	.l-one-third-column,
@@ -1488,9 +1488,9 @@ template {
 @media @desktop { // desktops
 	.l-column,
 	.l-full-width-column,
-	.l-main-column,
-	.l-middle-column,
-	.l-side-column,
+	.l-main-col,
+	.l-middle-col,
+	.l-narrow-col,
 	.l-split-narrow,
 	.l-split-wide,
 	.l-one-third-column,
@@ -3948,7 +3948,7 @@ span.line-break {
 			}
 		}
 	}
-	.l-side-column {
+	.l-narrow-col {
 		i {
 			&.ico {
 				.left;
@@ -6850,7 +6850,7 @@ span.line-break {
     border-bottom: none;
   }
   .accordion .accordion-content .l-row .l-full-width-column,
-  .accordion .accordion-content .l-row .l-side-column,
+  .accordion .accordion-content .l-row .l-narrow-col,
   .accordion .accordion-content .l-row .l-one-third-column,
   .accordion .accordion-content .l-row .l-two-column {
     padding: 12px 24px 12px 10px;
@@ -7225,25 +7225,25 @@ ul {
   }
 }
 @media (min-width: 600px) {
-  .l-left-column .l-side-column .l-side-column:first-child {
+  .l-left-column .l-narrow-col .l-narrow-col:first-child {
     width: 50%;
     float: left;
     padding-left: 0px;
     padding-right: 11px;
   }
-  .l-left-column .l-side-column .l-side-column:last-child {
+  .l-left-column .l-narrow-col .l-narrow-col:last-child {
     width: 50%;
     float: left;
     padding-left: 11px;
     padding-right: 0px;
   }
-  .l-right-column .l-side-column .l-side-column:first-child {
+  .l-right-column .l-narrow-col .l-narrow-col:first-child {
     width: 50%;
     float: left;
     padding-left: 0px;
     padding-right: 11px;
   }
-  .l-right-column .l-side-column .l-side-column:last-child {
+  .l-right-column .l-narrow-col .l-narrow-col:last-child {
     width: 50%;
     float: left;
     padding-left: 11px;

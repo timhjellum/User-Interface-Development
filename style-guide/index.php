@@ -89,7 +89,7 @@
 <?php /* end home slider */ ?>
 
 <div class="l-row l-3-col-reorder">
-  <div class="l-side-column l-reorder-center">
+  <div class="l-narrow-col l-reorder-center">
 
     <?php /* start what's new */ ?>
     <?php /* start coming Up */ ?>
@@ -132,7 +132,7 @@
     <?php /* end today in energy */ ?>
 
   </div>
-  <div class="l-side-column l-reorder-last">
+  <div class="l-narrow-col l-reorder-last">
 
     <?php /* start data highlights */ ?>
     <?php if(file_exists("../global/includes/css_rehab_data-highlights.html")){
@@ -152,7 +152,7 @@
         </div>
 <!-- 75% / 25% --> 
 <div class="l-row">
-  <div class="l-main-column">
+  <div class="l-main-col">
     <?php /* start features */ ?>
     <div class="content-container features dark-top-border-container">
       <div class="l-row">
@@ -254,7 +254,7 @@
         </div>
 
   </div>
-  <div class="l-side-column">
+  <div class="l-narrow-col">
 
     <?php /* start outlooks */ ?>
     <div class="content-container light-top-border-container">

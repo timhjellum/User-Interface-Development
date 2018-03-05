@@ -16,16 +16,17 @@
 			<div class="media">
 				<a href="/">
 
-
-<img src="https://www.eia.gov/todayinenergy/images/2018.02.12/feature_p1.png?<?php echo(rand() . ''); ?>" alt="U.S. net energy trade, as explained in the article text" />
-
-
-
-
-
-
-
-					<!-- img src="" -->
+					<picture>
+<!-- source srcset="http://via.placeholder.com/300x155" media="(min-width: 2300px)" -->
+						<!-- source srcset="http://via.placeholder.com/" media="(min-width: 1250px)" -->
+						<source srcset="http://via.placeholder.com/430x215" media="(min-width: 956px)">
+<source srcset="http://via.placeholder.com/800x400" media="(min-width: 801px)">
+						<!-- source srcset="http://via.placeholder.com/450x250" media="(min-width: 600px)" -->
+						<source srcset="http://via.placeholder.com/600x300" media="(min-width: 600px)">
+						<source srcset="http://via.placeholder.com/430x215" media="(min-width: 480px)">
+						<img srcset="http://via.placeholder.com/300x150" alt="">
+					</picture>
+<!--img src="https://www.eia.gov/todayinenergy/images/2018.02.12/feature_p1.png?<?php /* echo(rand() . ''); */ ?>" alt="U.S. net energy trade, as explained in the article text" / -->
 				</a>
 			</div>
 			<figure>

@@ -2753,16 +2753,16 @@ ul.sub-nav {list-style-type: none;margin-left: -20px;}
 hr.style-guide {
   margin: 50px 0}
 /*
-//.l-side-column col-3 or 25% or 211.5px + 22px = 233.5px
+//.l-narrow-col col-3 or 25% or 211.5px + 22px = 233.5px
 //.l-one-third-column or col-4 or one-third or 289.333 + 22px = 311.333px
 //.l-two-column col-6 or 50% or 445px + 22px = 467px
 
-//.l-middle-column col-6 or 50% or 445px + 22px = 467px
+//.l-middle-col col-6 or 50% or 445px + 22px = 467px
 //.l-split-narrow col-5 or 367.16px + 22px = 389.16px
 
 //.l-split-wide col-7 or 522.83px + 22px = 544.83px
 //.l-two-third-column col-8 or two-thirds or 600.666px + 22px = 622.666px
-//.l-main-column col-9 or 75% or 678.5px + 22px = 700.5px
+//.l-main-col col-9 or 75% or 678.5px + 22px = 700.5px
 //.l-full-width-column col-12 or full or 912px + 22px = 934px
 */
 

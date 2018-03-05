@@ -286,6 +286,7 @@ html {
   /* 2 */
   margin: 0;
   padding: 0;
+  width: 100%;
   font-size: 16px;
   box-sizing: border-box;
 }
@@ -301,6 +302,7 @@ body {
   background-color: #e8ecf2;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 .page-wrapper {
   /* caption
@@ -360,15 +362,15 @@ body {
   .global-nav .l-full-width-column,
   header .l-full-width-column,
   footer .l-full-width-column,
-  .global-nav .l-main-column,
-  header .l-main-column,
-  footer .l-main-column,
-  .global-nav .l-middle-column,
-  header .l-middle-column,
-  footer .l-middle-column,
-  .global-nav .l-side-column,
-  header .l-side-column,
-  footer .l-side-column,
+  .global-nav .l-main-col,
+  header .l-main-col,
+  footer .l-main-col,
+  .global-nav .l-middle-col,
+  header .l-middle-col,
+  footer .l-middle-col,
+  .global-nav .l-narrow-col,
+  header .l-narrow-col,
+  footer .l-narrow-col,
   .global-nav .l-split-narrow,
   header .l-split-narrow,
   footer .l-split-narrow,
@@ -546,15 +548,15 @@ body {
   .global-nav .l-full-width-column *,
   header .l-full-width-column *,
   footer .l-full-width-column *,
-  .global-nav .l-main-column *,
-  header .l-main-column *,
-  footer .l-main-column *,
-  .global-nav .l-middle-column *,
-  header .l-middle-column *,
-  footer .l-middle-column *,
-  .global-nav .l-side-column *,
-  header .l-side-column *,
-  footer .l-side-column *,
+  .global-nav .l-main-col *,
+  header .l-main-col *,
+  footer .l-main-col *,
+  .global-nav .l-middle-col *,
+  header .l-middle-col *,
+  footer .l-middle-col *,
+  .global-nav .l-narrow-col *,
+  header .l-narrow-col *,
+  footer .l-narrow-col *,
   .global-nav .l-split-narrow *,
   header .l-split-narrow *,
   footer .l-split-narrow *,
@@ -578,15 +580,15 @@ body {
   .global-nav .l-full-width-column p,
   header .l-full-width-column p,
   footer .l-full-width-column p,
-  .global-nav .l-main-column p,
-  header .l-main-column p,
-  footer .l-main-column p,
-  .global-nav .l-middle-column p,
-  header .l-middle-column p,
-  footer .l-middle-column p,
-  .global-nav .l-side-column p,
-  header .l-side-column p,
-  footer .l-side-column p,
+  .global-nav .l-main-col p,
+  header .l-main-col p,
+  footer .l-main-col p,
+  .global-nav .l-middle-col p,
+  header .l-middle-col p,
+  footer .l-middle-col p,
+  .global-nav .l-narrow-col p,
+  header .l-narrow-col p,
+  footer .l-narrow-col p,
   .global-nav .l-split-narrow p,
   header .l-split-narrow p,
   footer .l-split-narrow p,
@@ -608,15 +610,15 @@ body {
   .global-nav .l-full-width-column li,
   header .l-full-width-column li,
   footer .l-full-width-column li,
-  .global-nav .l-main-column li,
-  header .l-main-column li,
-  footer .l-main-column li,
-  .global-nav .l-middle-column li,
-  header .l-middle-column li,
-  footer .l-middle-column li,
-  .global-nav .l-side-column li,
-  header .l-side-column li,
-  footer .l-side-column li,
+  .global-nav .l-main-col li,
+  header .l-main-col li,
+  footer .l-main-col li,
+  .global-nav .l-middle-col li,
+  header .l-middle-col li,
+  footer .l-middle-col li,
+  .global-nav .l-narrow-col li,
+  header .l-narrow-col li,
+  footer .l-narrow-col li,
   .global-nav .l-split-narrow li,
   header .l-split-narrow li,
   footer .l-split-narrow li,
@@ -638,15 +640,15 @@ body {
   .global-nav .l-full-width-column .error,
   header .l-full-width-column .error,
   footer .l-full-width-column .error,
-  .global-nav .l-main-column .error,
-  header .l-main-column .error,
-  footer .l-main-column .error,
-  .global-nav .l-middle-column .error,
-  header .l-middle-column .error,
-  footer .l-middle-column .error,
-  .global-nav .l-side-column .error,
-  header .l-side-column .error,
-  footer .l-side-column .error,
+  .global-nav .l-main-col .error,
+  header .l-main-col .error,
+  footer .l-main-col .error,
+  .global-nav .l-middle-col .error,
+  header .l-middle-col .error,
+  footer .l-middle-col .error,
+  .global-nav .l-narrow-col .error,
+  header .l-narrow-col .error,
+  footer .l-narrow-col .error,
   .global-nav .l-split-narrow .error,
   header .l-split-narrow .error,
   footer .l-split-narrow .error,
@@ -668,15 +670,15 @@ body {
   .global-nav .l-full-width-column .alert,
   header .l-full-width-column .alert,
   footer .l-full-width-column .alert,
-  .global-nav .l-main-column .alert,
-  header .l-main-column .alert,
-  footer .l-main-column .alert,
-  .global-nav .l-middle-column .alert,
-  header .l-middle-column .alert,
-  footer .l-middle-column .alert,
-  .global-nav .l-side-column .alert,
-  header .l-side-column .alert,
-  footer .l-side-column .alert,
+  .global-nav .l-main-col .alert,
+  header .l-main-col .alert,
+  footer .l-main-col .alert,
+  .global-nav .l-middle-col .alert,
+  header .l-middle-col .alert,
+  footer .l-middle-col .alert,
+  .global-nav .l-narrow-col .alert,
+  header .l-narrow-col .alert,
+  footer .l-narrow-col .alert,
   .global-nav .l-split-narrow .alert,
   header .l-split-narrow .alert,
   footer .l-split-narrow .alert,
@@ -698,15 +700,15 @@ body {
   .global-nav .l-full-width-column .notice,
   header .l-full-width-column .notice,
   footer .l-full-width-column .notice,
-  .global-nav .l-main-column .notice,
-  header .l-main-column .notice,
-  footer .l-main-column .notice,
-  .global-nav .l-middle-column .notice,
-  header .l-middle-column .notice,
-  footer .l-middle-column .notice,
-  .global-nav .l-side-column .notice,
-  header .l-side-column .notice,
-  footer .l-side-column .notice,
+  .global-nav .l-main-col .notice,
+  header .l-main-col .notice,
+  footer .l-main-col .notice,
+  .global-nav .l-middle-col .notice,
+  header .l-middle-col .notice,
+  footer .l-middle-col .notice,
+  .global-nav .l-narrow-col .notice,
+  header .l-narrow-col .notice,
+  footer .l-narrow-col .notice,
   .global-nav .l-split-narrow .notice,
   header .l-split-narrow .notice,
   footer .l-split-narrow .notice,
@@ -728,15 +730,15 @@ body {
   .global-nav .l-full-width-column .success,
   header .l-full-width-column .success,
   footer .l-full-width-column .success,
-  .global-nav .l-main-column .success,
-  header .l-main-column .success,
-  footer .l-main-column .success,
-  .global-nav .l-middle-column .success,
-  header .l-middle-column .success,
-  footer .l-middle-column .success,
-  .global-nav .l-side-column .success,
-  header .l-side-column .success,
-  footer .l-side-column .success,
+  .global-nav .l-main-col .success,
+  header .l-main-col .success,
+  footer .l-main-col .success,
+  .global-nav .l-middle-col .success,
+  header .l-middle-col .success,
+  footer .l-middle-col .success,
+  .global-nav .l-narrow-col .success,
+  header .l-narrow-col .success,
+  footer .l-narrow-col .success,
   .global-nav .l-split-narrow .success,
   header .l-split-narrow .success,
   footer .l-split-narrow .success,
@@ -758,15 +760,15 @@ body {
   .global-nav .l-full-width-column .info,
   header .l-full-width-column .info,
   footer .l-full-width-column .info,
-  .global-nav .l-main-column .info,
-  header .l-main-column .info,
-  footer .l-main-column .info,
-  .global-nav .l-middle-column .info,
-  header .l-middle-column .info,
-  footer .l-middle-column .info,
-  .global-nav .l-side-column .info,
-  header .l-side-column .info,
-  footer .l-side-column .info,
+  .global-nav .l-main-col .info,
+  header .l-main-col .info,
+  footer .l-main-col .info,
+  .global-nav .l-middle-col .info,
+  header .l-middle-col .info,
+  footer .l-middle-col .info,
+  .global-nav .l-narrow-col .info,
+  header .l-narrow-col .info,
+  footer .l-narrow-col .info,
   .global-nav .l-split-narrow .info,
   header .l-split-narrow .info,
   footer .l-split-narrow .info,
@@ -793,15 +795,15 @@ body {
   .global-nav .l-full-width-column article,
   header .l-full-width-column article,
   footer .l-full-width-column article,
-  .global-nav .l-main-column article,
-  header .l-main-column article,
-  footer .l-main-column article,
-  .global-nav .l-middle-column article,
-  header .l-middle-column article,
-  footer .l-middle-column article,
-  .global-nav .l-side-column article,
-  header .l-side-column article,
-  footer .l-side-column article,
+  .global-nav .l-main-col article,
+  header .l-main-col article,
+  footer .l-main-col article,
+  .global-nav .l-middle-col article,
+  header .l-middle-col article,
+  footer .l-middle-col article,
+  .global-nav .l-narrow-col article,
+  header .l-narrow-col article,
+  footer .l-narrow-col article,
   .global-nav .l-split-narrow article,
   header .l-split-narrow article,
   footer .l-split-narrow article,
@@ -823,15 +825,15 @@ body {
   .global-nav .l-full-width-column aside,
   header .l-full-width-column aside,
   footer .l-full-width-column aside,
-  .global-nav .l-main-column aside,
-  header .l-main-column aside,
-  footer .l-main-column aside,
-  .global-nav .l-middle-column aside,
-  header .l-middle-column aside,
-  footer .l-middle-column aside,
-  .global-nav .l-side-column aside,
-  header .l-side-column aside,
-  footer .l-side-column aside,
+  .global-nav .l-main-col aside,
+  header .l-main-col aside,
+  footer .l-main-col aside,
+  .global-nav .l-middle-col aside,
+  header .l-middle-col aside,
+  footer .l-middle-col aside,
+  .global-nav .l-narrow-col aside,
+  header .l-narrow-col aside,
+  footer .l-narrow-col aside,
   .global-nav .l-split-narrow aside,
   header .l-split-narrow aside,
   footer .l-split-narrow aside,
@@ -853,15 +855,15 @@ body {
   .global-nav .l-full-width-column footer,
   header .l-full-width-column footer,
   footer .l-full-width-column footer,
-  .global-nav .l-main-column footer,
-  header .l-main-column footer,
-  footer .l-main-column footer,
-  .global-nav .l-middle-column footer,
-  header .l-middle-column footer,
-  footer .l-middle-column footer,
-  .global-nav .l-side-column footer,
-  header .l-side-column footer,
-  footer .l-side-column footer,
+  .global-nav .l-main-col footer,
+  header .l-main-col footer,
+  footer .l-main-col footer,
+  .global-nav .l-middle-col footer,
+  header .l-middle-col footer,
+  footer .l-middle-col footer,
+  .global-nav .l-narrow-col footer,
+  header .l-narrow-col footer,
+  footer .l-narrow-col footer,
   .global-nav .l-split-narrow footer,
   header .l-split-narrow footer,
   footer .l-split-narrow footer,
@@ -883,15 +885,15 @@ body {
   .global-nav .l-full-width-column header,
   header .l-full-width-column header,
   footer .l-full-width-column header,
-  .global-nav .l-main-column header,
-  header .l-main-column header,
-  footer .l-main-column header,
-  .global-nav .l-middle-column header,
-  header .l-middle-column header,
-  footer .l-middle-column header,
-  .global-nav .l-side-column header,
-  header .l-side-column header,
-  footer .l-side-column header,
+  .global-nav .l-main-col header,
+  header .l-main-col header,
+  footer .l-main-col header,
+  .global-nav .l-middle-col header,
+  header .l-middle-col header,
+  footer .l-middle-col header,
+  .global-nav .l-narrow-col header,
+  header .l-narrow-col header,
+  footer .l-narrow-col header,
   .global-nav .l-split-narrow header,
   header .l-split-narrow header,
   footer .l-split-narrow header,
@@ -913,15 +915,15 @@ body {
   .global-nav .l-full-width-column nav,
   header .l-full-width-column nav,
   footer .l-full-width-column nav,
-  .global-nav .l-main-column nav,
-  header .l-main-column nav,
-  footer .l-main-column nav,
-  .global-nav .l-middle-column nav,
-  header .l-middle-column nav,
-  footer .l-middle-column nav,
-  .global-nav .l-side-column nav,
-  header .l-side-column nav,
-  footer .l-side-column nav,
+  .global-nav .l-main-col nav,
+  header .l-main-col nav,
+  footer .l-main-col nav,
+  .global-nav .l-middle-col nav,
+  header .l-middle-col nav,
+  footer .l-middle-col nav,
+  .global-nav .l-narrow-col nav,
+  header .l-narrow-col nav,
+  footer .l-narrow-col nav,
   .global-nav .l-split-narrow nav,
   header .l-split-narrow nav,
   footer .l-split-narrow nav,
@@ -943,15 +945,15 @@ body {
   .global-nav .l-full-width-column section,
   header .l-full-width-column section,
   footer .l-full-width-column section,
-  .global-nav .l-main-column section,
-  header .l-main-column section,
-  footer .l-main-column section,
-  .global-nav .l-middle-column section,
-  header .l-middle-column section,
-  footer .l-middle-column section,
-  .global-nav .l-side-column section,
-  header .l-side-column section,
-  footer .l-side-column section,
+  .global-nav .l-main-col section,
+  header .l-main-col section,
+  footer .l-main-col section,
+  .global-nav .l-middle-col section,
+  header .l-middle-col section,
+  footer .l-middle-col section,
+  .global-nav .l-narrow-col section,
+  header .l-narrow-col section,
+  footer .l-narrow-col section,
   .global-nav .l-split-narrow section,
   header .l-split-narrow section,
   footer .l-split-narrow section,
@@ -975,15 +977,15 @@ body {
   .global-nav .l-full-width-column h1,
   header .l-full-width-column h1,
   footer .l-full-width-column h1,
-  .global-nav .l-main-column h1,
-  header .l-main-column h1,
-  footer .l-main-column h1,
-  .global-nav .l-middle-column h1,
-  header .l-middle-column h1,
-  footer .l-middle-column h1,
-  .global-nav .l-side-column h1,
-  header .l-side-column h1,
-  footer .l-side-column h1,
+  .global-nav .l-main-col h1,
+  header .l-main-col h1,
+  footer .l-main-col h1,
+  .global-nav .l-middle-col h1,
+  header .l-middle-col h1,
+  footer .l-middle-col h1,
+  .global-nav .l-narrow-col h1,
+  header .l-narrow-col h1,
+  footer .l-narrow-col h1,
   .global-nav .l-split-narrow h1,
   header .l-split-narrow h1,
   footer .l-split-narrow h1,
@@ -1008,15 +1010,15 @@ body {
   .global-nav .l-full-width-column figcaption,
   header .l-full-width-column figcaption,
   footer .l-full-width-column figcaption,
-  .global-nav .l-main-column figcaption,
-  header .l-main-column figcaption,
-  footer .l-main-column figcaption,
-  .global-nav .l-middle-column figcaption,
-  header .l-middle-column figcaption,
-  footer .l-middle-column figcaption,
-  .global-nav .l-side-column figcaption,
-  header .l-side-column figcaption,
-  footer .l-side-column figcaption,
+  .global-nav .l-main-col figcaption,
+  header .l-main-col figcaption,
+  footer .l-main-col figcaption,
+  .global-nav .l-middle-col figcaption,
+  header .l-middle-col figcaption,
+  footer .l-middle-col figcaption,
+  .global-nav .l-narrow-col figcaption,
+  header .l-narrow-col figcaption,
+  footer .l-narrow-col figcaption,
   .global-nav .l-split-narrow figcaption,
   header .l-split-narrow figcaption,
   footer .l-split-narrow figcaption,
@@ -1038,15 +1040,15 @@ body {
   .global-nav .l-full-width-column figure,
   header .l-full-width-column figure,
   footer .l-full-width-column figure,
-  .global-nav .l-main-column figure,
-  header .l-main-column figure,
-  footer .l-main-column figure,
-  .global-nav .l-middle-column figure,
-  header .l-middle-column figure,
-  footer .l-middle-column figure,
-  .global-nav .l-side-column figure,
-  header .l-side-column figure,
-  footer .l-side-column figure,
+  .global-nav .l-main-col figure,
+  header .l-main-col figure,
+  footer .l-main-col figure,
+  .global-nav .l-middle-col figure,
+  header .l-middle-col figure,
+  footer .l-middle-col figure,
+  .global-nav .l-narrow-col figure,
+  header .l-narrow-col figure,
+  footer .l-narrow-col figure,
   .global-nav .l-split-narrow figure,
   header .l-split-narrow figure,
   footer .l-split-narrow figure,
@@ -1068,15 +1070,15 @@ body {
   .global-nav .l-full-width-column main,
   header .l-full-width-column main,
   footer .l-full-width-column main,
-  .global-nav .l-main-column main,
-  header .l-main-column main,
-  footer .l-main-column main,
-  .global-nav .l-middle-column main,
-  header .l-middle-column main,
-  footer .l-middle-column main,
-  .global-nav .l-side-column main,
-  header .l-side-column main,
-  footer .l-side-column main,
+  .global-nav .l-main-col main,
+  header .l-main-col main,
+  footer .l-main-col main,
+  .global-nav .l-middle-col main,
+  header .l-middle-col main,
+  footer .l-middle-col main,
+  .global-nav .l-narrow-col main,
+  header .l-narrow-col main,
+  footer .l-narrow-col main,
   .global-nav .l-split-narrow main,
   header .l-split-narrow main,
   footer .l-split-narrow main,
@@ -1101,15 +1103,15 @@ body {
   .global-nav .l-full-width-column figure,
   header .l-full-width-column figure,
   footer .l-full-width-column figure,
-  .global-nav .l-main-column figure,
-  header .l-main-column figure,
-  footer .l-main-column figure,
-  .global-nav .l-middle-column figure,
-  header .l-middle-column figure,
-  footer .l-middle-column figure,
-  .global-nav .l-side-column figure,
-  header .l-side-column figure,
-  footer .l-side-column figure,
+  .global-nav .l-main-col figure,
+  header .l-main-col figure,
+  footer .l-main-col figure,
+  .global-nav .l-middle-col figure,
+  header .l-middle-col figure,
+  footer .l-middle-col figure,
+  .global-nav .l-narrow-col figure,
+  header .l-narrow-col figure,
+  footer .l-narrow-col figure,
   .global-nav .l-split-narrow figure,
   header .l-split-narrow figure,
   footer .l-split-narrow figure,
@@ -1133,15 +1135,15 @@ body {
   .global-nav .l-full-width-column hr,
   header .l-full-width-column hr,
   footer .l-full-width-column hr,
-  .global-nav .l-main-column hr,
-  header .l-main-column hr,
-  footer .l-main-column hr,
-  .global-nav .l-middle-column hr,
-  header .l-middle-column hr,
-  footer .l-middle-column hr,
-  .global-nav .l-side-column hr,
-  header .l-side-column hr,
-  footer .l-side-column hr,
+  .global-nav .l-main-col hr,
+  header .l-main-col hr,
+  footer .l-main-col hr,
+  .global-nav .l-middle-col hr,
+  header .l-middle-col hr,
+  footer .l-middle-col hr,
+  .global-nav .l-narrow-col hr,
+  header .l-narrow-col hr,
+  footer .l-narrow-col hr,
   .global-nav .l-split-narrow hr,
   header .l-split-narrow hr,
   footer .l-split-narrow hr,
@@ -1170,15 +1172,15 @@ body {
   .global-nav .l-full-width-column pre,
   header .l-full-width-column pre,
   footer .l-full-width-column pre,
-  .global-nav .l-main-column pre,
-  header .l-main-column pre,
-  footer .l-main-column pre,
-  .global-nav .l-middle-column pre,
-  header .l-middle-column pre,
-  footer .l-middle-column pre,
-  .global-nav .l-side-column pre,
-  header .l-side-column pre,
-  footer .l-side-column pre,
+  .global-nav .l-main-col pre,
+  header .l-main-col pre,
+  footer .l-main-col pre,
+  .global-nav .l-middle-col pre,
+  header .l-middle-col pre,
+  footer .l-middle-col pre,
+  .global-nav .l-narrow-col pre,
+  header .l-narrow-col pre,
+  footer .l-narrow-col pre,
   .global-nav .l-split-narrow pre,
   header .l-split-narrow pre,
   footer .l-split-narrow pre,
@@ -1205,15 +1207,15 @@ body {
   .global-nav .l-full-width-column a,
   header .l-full-width-column a,
   footer .l-full-width-column a,
-  .global-nav .l-main-column a,
-  header .l-main-column a,
-  footer .l-main-column a,
-  .global-nav .l-middle-column a,
-  header .l-middle-column a,
-  footer .l-middle-column a,
-  .global-nav .l-side-column a,
-  header .l-side-column a,
-  footer .l-side-column a,
+  .global-nav .l-main-col a,
+  header .l-main-col a,
+  footer .l-main-col a,
+  .global-nav .l-middle-col a,
+  header .l-middle-col a,
+  footer .l-middle-col a,
+  .global-nav .l-narrow-col a,
+  header .l-narrow-col a,
+  footer .l-narrow-col a,
   .global-nav .l-split-narrow a,
   header .l-split-narrow a,
   footer .l-split-narrow a,
@@ -1240,15 +1242,15 @@ body {
   .global-nav .l-full-width-column abbr[title],
   header .l-full-width-column abbr[title],
   footer .l-full-width-column abbr[title],
-  .global-nav .l-main-column abbr[title],
-  header .l-main-column abbr[title],
-  footer .l-main-column abbr[title],
-  .global-nav .l-middle-column abbr[title],
-  header .l-middle-column abbr[title],
-  footer .l-middle-column abbr[title],
-  .global-nav .l-side-column abbr[title],
-  header .l-side-column abbr[title],
-  footer .l-side-column abbr[title],
+  .global-nav .l-main-col abbr[title],
+  header .l-main-col abbr[title],
+  footer .l-main-col abbr[title],
+  .global-nav .l-middle-col abbr[title],
+  header .l-middle-col abbr[title],
+  footer .l-middle-col abbr[title],
+  .global-nav .l-narrow-col abbr[title],
+  header .l-narrow-col abbr[title],
+  footer .l-narrow-col abbr[title],
   .global-nav .l-split-narrow abbr[title],
   header .l-split-narrow abbr[title],
   footer .l-split-narrow abbr[title],
@@ -1277,15 +1279,15 @@ body {
   .global-nav .l-full-width-column b,
   header .l-full-width-column b,
   footer .l-full-width-column b,
-  .global-nav .l-main-column b,
-  header .l-main-column b,
-  footer .l-main-column b,
-  .global-nav .l-middle-column b,
-  header .l-middle-column b,
-  footer .l-middle-column b,
-  .global-nav .l-side-column b,
-  header .l-side-column b,
-  footer .l-side-column b,
+  .global-nav .l-main-col b,
+  header .l-main-col b,
+  footer .l-main-col b,
+  .global-nav .l-middle-col b,
+  header .l-middle-col b,
+  footer .l-middle-col b,
+  .global-nav .l-narrow-col b,
+  header .l-narrow-col b,
+  footer .l-narrow-col b,
   .global-nav .l-split-narrow b,
   header .l-split-narrow b,
   footer .l-split-narrow b,
@@ -1307,15 +1309,15 @@ body {
   .global-nav .l-full-width-column strong,
   header .l-full-width-column strong,
   footer .l-full-width-column strong,
-  .global-nav .l-main-column strong,
-  header .l-main-column strong,
-  footer .l-main-column strong,
-  .global-nav .l-middle-column strong,
-  header .l-middle-column strong,
-  footer .l-middle-column strong,
-  .global-nav .l-side-column strong,
-  header .l-side-column strong,
-  footer .l-side-column strong,
+  .global-nav .l-main-col strong,
+  header .l-main-col strong,
+  footer .l-main-col strong,
+  .global-nav .l-middle-col strong,
+  header .l-middle-col strong,
+  footer .l-middle-col strong,
+  .global-nav .l-narrow-col strong,
+  header .l-narrow-col strong,
+  footer .l-narrow-col strong,
   .global-nav .l-split-narrow strong,
   header .l-split-narrow strong,
   footer .l-split-narrow strong,
@@ -1339,15 +1341,15 @@ body {
   .global-nav .l-full-width-column b,
   header .l-full-width-column b,
   footer .l-full-width-column b,
-  .global-nav .l-main-column b,
-  header .l-main-column b,
-  footer .l-main-column b,
-  .global-nav .l-middle-column b,
-  header .l-middle-column b,
-  footer .l-middle-column b,
-  .global-nav .l-side-column b,
-  header .l-side-column b,
-  footer .l-side-column b,
+  .global-nav .l-main-col b,
+  header .l-main-col b,
+  footer .l-main-col b,
+  .global-nav .l-middle-col b,
+  header .l-middle-col b,
+  footer .l-middle-col b,
+  .global-nav .l-narrow-col b,
+  header .l-narrow-col b,
+  footer .l-narrow-col b,
   .global-nav .l-split-narrow b,
   header .l-split-narrow b,
   footer .l-split-narrow b,
@@ -1369,15 +1371,15 @@ body {
   .global-nav .l-full-width-column strong,
   header .l-full-width-column strong,
   footer .l-full-width-column strong,
-  .global-nav .l-main-column strong,
-  header .l-main-column strong,
-  footer .l-main-column strong,
-  .global-nav .l-middle-column strong,
-  header .l-middle-column strong,
-  footer .l-middle-column strong,
-  .global-nav .l-side-column strong,
-  header .l-side-column strong,
-  footer .l-side-column strong,
+  .global-nav .l-main-col strong,
+  header .l-main-col strong,
+  footer .l-main-col strong,
+  .global-nav .l-middle-col strong,
+  header .l-middle-col strong,
+  footer .l-middle-col strong,
+  .global-nav .l-narrow-col strong,
+  header .l-narrow-col strong,
+  footer .l-narrow-col strong,
   .global-nav .l-split-narrow strong,
   header .l-split-narrow strong,
   footer .l-split-narrow strong,
@@ -1401,15 +1403,15 @@ body {
   .global-nav .l-full-width-column code,
   header .l-full-width-column code,
   footer .l-full-width-column code,
-  .global-nav .l-main-column code,
-  header .l-main-column code,
-  footer .l-main-column code,
-  .global-nav .l-middle-column code,
-  header .l-middle-column code,
-  footer .l-middle-column code,
-  .global-nav .l-side-column code,
-  header .l-side-column code,
-  footer .l-side-column code,
+  .global-nav .l-main-col code,
+  header .l-main-col code,
+  footer .l-main-col code,
+  .global-nav .l-middle-col code,
+  header .l-middle-col code,
+  footer .l-middle-col code,
+  .global-nav .l-narrow-col code,
+  header .l-narrow-col code,
+  footer .l-narrow-col code,
   .global-nav .l-split-narrow code,
   header .l-split-narrow code,
   footer .l-split-narrow code,
@@ -1431,15 +1433,15 @@ body {
   .global-nav .l-full-width-column kbd,
   header .l-full-width-column kbd,
   footer .l-full-width-column kbd,
-  .global-nav .l-main-column kbd,
-  header .l-main-column kbd,
-  footer .l-main-column kbd,
-  .global-nav .l-middle-column kbd,
-  header .l-middle-column kbd,
-  footer .l-middle-column kbd,
-  .global-nav .l-side-column kbd,
-  header .l-side-column kbd,
-  footer .l-side-column kbd,
+  .global-nav .l-main-col kbd,
+  header .l-main-col kbd,
+  footer .l-main-col kbd,
+  .global-nav .l-middle-col kbd,
+  header .l-middle-col kbd,
+  footer .l-middle-col kbd,
+  .global-nav .l-narrow-col kbd,
+  header .l-narrow-col kbd,
+  footer .l-narrow-col kbd,
   .global-nav .l-split-narrow kbd,
   header .l-split-narrow kbd,
   footer .l-split-narrow kbd,
@@ -1461,15 +1463,15 @@ body {
   .global-nav .l-full-width-column samp,
   header .l-full-width-column samp,
   footer .l-full-width-column samp,
-  .global-nav .l-main-column samp,
-  header .l-main-column samp,
-  footer .l-main-column samp,
-  .global-nav .l-middle-column samp,
-  header .l-middle-column samp,
-  footer .l-middle-column samp,
-  .global-nav .l-side-column samp,
-  header .l-side-column samp,
-  footer .l-side-column samp,
+  .global-nav .l-main-col samp,
+  header .l-main-col samp,
+  footer .l-main-col samp,
+  .global-nav .l-middle-col samp,
+  header .l-middle-col samp,
+  footer .l-middle-col samp,
+  .global-nav .l-narrow-col samp,
+  header .l-narrow-col samp,
+  footer .l-narrow-col samp,
   .global-nav .l-split-narrow samp,
   header .l-split-narrow samp,
   footer .l-split-narrow samp,
@@ -1496,15 +1498,15 @@ body {
   .global-nav .l-full-width-column dfn,
   header .l-full-width-column dfn,
   footer .l-full-width-column dfn,
-  .global-nav .l-main-column dfn,
-  header .l-main-column dfn,
-  footer .l-main-column dfn,
-  .global-nav .l-middle-column dfn,
-  header .l-middle-column dfn,
-  footer .l-middle-column dfn,
-  .global-nav .l-side-column dfn,
-  header .l-side-column dfn,
-  footer .l-side-column dfn,
+  .global-nav .l-main-col dfn,
+  header .l-main-col dfn,
+  footer .l-main-col dfn,
+  .global-nav .l-middle-col dfn,
+  header .l-middle-col dfn,
+  footer .l-middle-col dfn,
+  .global-nav .l-narrow-col dfn,
+  header .l-narrow-col dfn,
+  footer .l-narrow-col dfn,
   .global-nav .l-split-narrow dfn,
   header .l-split-narrow dfn,
   footer .l-split-narrow dfn,
@@ -1528,15 +1530,15 @@ body {
   .global-nav .l-full-width-column mark,
   header .l-full-width-column mark,
   footer .l-full-width-column mark,
-  .global-nav .l-main-column mark,
-  header .l-main-column mark,
-  footer .l-main-column mark,
-  .global-nav .l-middle-column mark,
-  header .l-middle-column mark,
-  footer .l-middle-column mark,
-  .global-nav .l-side-column mark,
-  header .l-side-column mark,
-  footer .l-side-column mark,
+  .global-nav .l-main-col mark,
+  header .l-main-col mark,
+  footer .l-main-col mark,
+  .global-nav .l-middle-col mark,
+  header .l-middle-col mark,
+  footer .l-middle-col mark,
+  .global-nav .l-narrow-col mark,
+  header .l-narrow-col mark,
+  footer .l-narrow-col mark,
   .global-nav .l-split-narrow mark,
   header .l-split-narrow mark,
   footer .l-split-narrow mark,
@@ -1561,15 +1563,15 @@ body {
   .global-nav .l-full-width-column small,
   header .l-full-width-column small,
   footer .l-full-width-column small,
-  .global-nav .l-main-column small,
-  header .l-main-column small,
-  footer .l-main-column small,
-  .global-nav .l-middle-column small,
-  header .l-middle-column small,
-  footer .l-middle-column small,
-  .global-nav .l-side-column small,
-  header .l-side-column small,
-  footer .l-side-column small,
+  .global-nav .l-main-col small,
+  header .l-main-col small,
+  footer .l-main-col small,
+  .global-nav .l-middle-col small,
+  header .l-middle-col small,
+  footer .l-middle-col small,
+  .global-nav .l-narrow-col small,
+  header .l-narrow-col small,
+  footer .l-narrow-col small,
   .global-nav .l-split-narrow small,
   header .l-split-narrow small,
   footer .l-split-narrow small,
@@ -1593,15 +1595,15 @@ body {
   .global-nav .l-full-width-column sub,
   header .l-full-width-column sub,
   footer .l-full-width-column sub,
-  .global-nav .l-main-column sub,
-  header .l-main-column sub,
-  footer .l-main-column sub,
-  .global-nav .l-middle-column sub,
-  header .l-middle-column sub,
-  footer .l-middle-column sub,
-  .global-nav .l-side-column sub,
-  header .l-side-column sub,
-  footer .l-side-column sub,
+  .global-nav .l-main-col sub,
+  header .l-main-col sub,
+  footer .l-main-col sub,
+  .global-nav .l-middle-col sub,
+  header .l-middle-col sub,
+  footer .l-middle-col sub,
+  .global-nav .l-narrow-col sub,
+  header .l-narrow-col sub,
+  footer .l-narrow-col sub,
   .global-nav .l-split-narrow sub,
   header .l-split-narrow sub,
   footer .l-split-narrow sub,
@@ -1623,15 +1625,15 @@ body {
   .global-nav .l-full-width-column sup,
   header .l-full-width-column sup,
   footer .l-full-width-column sup,
-  .global-nav .l-main-column sup,
-  header .l-main-column sup,
-  footer .l-main-column sup,
-  .global-nav .l-middle-column sup,
-  header .l-middle-column sup,
-  footer .l-middle-column sup,
-  .global-nav .l-side-column sup,
-  header .l-side-column sup,
-  footer .l-side-column sup,
+  .global-nav .l-main-col sup,
+  header .l-main-col sup,
+  footer .l-main-col sup,
+  .global-nav .l-middle-col sup,
+  header .l-middle-col sup,
+  footer .l-middle-col sup,
+  .global-nav .l-narrow-col sup,
+  header .l-narrow-col sup,
+  footer .l-narrow-col sup,
   .global-nav .l-split-narrow sup,
   header .l-split-narrow sup,
   footer .l-split-narrow sup,
@@ -1658,15 +1660,15 @@ body {
   .global-nav .l-full-width-column sub,
   header .l-full-width-column sub,
   footer .l-full-width-column sub,
-  .global-nav .l-main-column sub,
-  header .l-main-column sub,
-  footer .l-main-column sub,
-  .global-nav .l-middle-column sub,
-  header .l-middle-column sub,
-  footer .l-middle-column sub,
-  .global-nav .l-side-column sub,
-  header .l-side-column sub,
-  footer .l-side-column sub,
+  .global-nav .l-main-col sub,
+  header .l-main-col sub,
+  footer .l-main-col sub,
+  .global-nav .l-middle-col sub,
+  header .l-middle-col sub,
+  footer .l-middle-col sub,
+  .global-nav .l-narrow-col sub,
+  header .l-narrow-col sub,
+  footer .l-narrow-col sub,
   .global-nav .l-split-narrow sub,
   header .l-split-narrow sub,
   footer .l-split-narrow sub,
@@ -1690,15 +1692,15 @@ body {
   .global-nav .l-full-width-column sup,
   header .l-full-width-column sup,
   footer .l-full-width-column sup,
-  .global-nav .l-main-column sup,
-  header .l-main-column sup,
-  footer .l-main-column sup,
-  .global-nav .l-middle-column sup,
-  header .l-middle-column sup,
-  footer .l-middle-column sup,
-  .global-nav .l-side-column sup,
-  header .l-side-column sup,
-  footer .l-side-column sup,
+  .global-nav .l-main-col sup,
+  header .l-main-col sup,
+  footer .l-main-col sup,
+  .global-nav .l-middle-col sup,
+  header .l-middle-col sup,
+  footer .l-middle-col sup,
+  .global-nav .l-narrow-col sup,
+  header .l-narrow-col sup,
+  footer .l-narrow-col sup,
   .global-nav .l-split-narrow sup,
   header .l-split-narrow sup,
   footer .l-split-narrow sup,
@@ -1722,15 +1724,15 @@ body {
   .global-nav .l-full-width-column audio,
   header .l-full-width-column audio,
   footer .l-full-width-column audio,
-  .global-nav .l-main-column audio,
-  header .l-main-column audio,
-  footer .l-main-column audio,
-  .global-nav .l-middle-column audio,
-  header .l-middle-column audio,
-  footer .l-middle-column audio,
-  .global-nav .l-side-column audio,
-  header .l-side-column audio,
-  footer .l-side-column audio,
+  .global-nav .l-main-col audio,
+  header .l-main-col audio,
+  footer .l-main-col audio,
+  .global-nav .l-middle-col audio,
+  header .l-middle-col audio,
+  footer .l-middle-col audio,
+  .global-nav .l-narrow-col audio,
+  header .l-narrow-col audio,
+  footer .l-narrow-col audio,
   .global-nav .l-split-narrow audio,
   header .l-split-narrow audio,
   footer .l-split-narrow audio,
@@ -1752,15 +1754,15 @@ body {
   .global-nav .l-full-width-column video,
   header .l-full-width-column video,
   footer .l-full-width-column video,
-  .global-nav .l-main-column video,
-  header .l-main-column video,
-  footer .l-main-column video,
-  .global-nav .l-middle-column video,
-  header .l-middle-column video,
-  footer .l-middle-column video,
-  .global-nav .l-side-column video,
-  header .l-side-column video,
-  footer .l-side-column video,
+  .global-nav .l-main-col video,
+  header .l-main-col video,
+  footer .l-main-col video,
+  .global-nav .l-middle-col video,
+  header .l-middle-col video,
+  footer .l-middle-col video,
+  .global-nav .l-narrow-col video,
+  header .l-narrow-col video,
+  footer .l-narrow-col video,
   .global-nav .l-split-narrow video,
   header .l-split-narrow video,
   footer .l-split-narrow video,
@@ -1784,15 +1786,15 @@ body {
   .global-nav .l-full-width-column audio:not([controls]),
   header .l-full-width-column audio:not([controls]),
   footer .l-full-width-column audio:not([controls]),
-  .global-nav .l-main-column audio:not([controls]),
-  header .l-main-column audio:not([controls]),
-  footer .l-main-column audio:not([controls]),
-  .global-nav .l-middle-column audio:not([controls]),
-  header .l-middle-column audio:not([controls]),
-  footer .l-middle-column audio:not([controls]),
-  .global-nav .l-side-column audio:not([controls]),
-  header .l-side-column audio:not([controls]),
-  footer .l-side-column audio:not([controls]),
+  .global-nav .l-main-col audio:not([controls]),
+  header .l-main-col audio:not([controls]),
+  footer .l-main-col audio:not([controls]),
+  .global-nav .l-middle-col audio:not([controls]),
+  header .l-middle-col audio:not([controls]),
+  footer .l-middle-col audio:not([controls]),
+  .global-nav .l-narrow-col audio:not([controls]),
+  header .l-narrow-col audio:not([controls]),
+  footer .l-narrow-col audio:not([controls]),
   .global-nav .l-split-narrow audio:not([controls]),
   header .l-split-narrow audio:not([controls]),
   footer .l-split-narrow audio:not([controls]),
@@ -1817,15 +1819,15 @@ body {
   .global-nav .l-full-width-column img,
   header .l-full-width-column img,
   footer .l-full-width-column img,
-  .global-nav .l-main-column img,
-  header .l-main-column img,
-  footer .l-main-column img,
-  .global-nav .l-middle-column img,
-  header .l-middle-column img,
-  footer .l-middle-column img,
-  .global-nav .l-side-column img,
-  header .l-side-column img,
-  footer .l-side-column img,
+  .global-nav .l-main-col img,
+  header .l-main-col img,
+  footer .l-main-col img,
+  .global-nav .l-middle-col img,
+  header .l-middle-col img,
+  footer .l-middle-col img,
+  .global-nav .l-narrow-col img,
+  header .l-narrow-col img,
+  footer .l-narrow-col img,
   .global-nav .l-split-narrow img,
   header .l-split-narrow img,
   footer .l-split-narrow img,
@@ -1849,15 +1851,15 @@ body {
   .global-nav .l-full-width-column svg:not(:root),
   header .l-full-width-column svg:not(:root),
   footer .l-full-width-column svg:not(:root),
-  .global-nav .l-main-column svg:not(:root),
-  header .l-main-column svg:not(:root),
-  footer .l-main-column svg:not(:root),
-  .global-nav .l-middle-column svg:not(:root),
-  header .l-middle-column svg:not(:root),
-  footer .l-middle-column svg:not(:root),
-  .global-nav .l-side-column svg:not(:root),
-  header .l-side-column svg:not(:root),
-  footer .l-side-column svg:not(:root),
+  .global-nav .l-main-col svg:not(:root),
+  header .l-main-col svg:not(:root),
+  footer .l-main-col svg:not(:root),
+  .global-nav .l-middle-col svg:not(:root),
+  header .l-middle-col svg:not(:root),
+  footer .l-middle-col svg:not(:root),
+  .global-nav .l-narrow-col svg:not(:root),
+  header .l-narrow-col svg:not(:root),
+  footer .l-narrow-col svg:not(:root),
   .global-nav .l-split-narrow svg:not(:root),
   header .l-split-narrow svg:not(:root),
   footer .l-split-narrow svg:not(:root),
@@ -1881,15 +1883,15 @@ body {
   .global-nav .l-full-width-column button,
   header .l-full-width-column button,
   footer .l-full-width-column button,
-  .global-nav .l-main-column button,
-  header .l-main-column button,
-  footer .l-main-column button,
-  .global-nav .l-middle-column button,
-  header .l-middle-column button,
-  footer .l-middle-column button,
-  .global-nav .l-side-column button,
-  header .l-side-column button,
-  footer .l-side-column button,
+  .global-nav .l-main-col button,
+  header .l-main-col button,
+  footer .l-main-col button,
+  .global-nav .l-middle-col button,
+  header .l-middle-col button,
+  footer .l-middle-col button,
+  .global-nav .l-narrow-col button,
+  header .l-narrow-col button,
+  footer .l-narrow-col button,
   .global-nav .l-split-narrow button,
   header .l-split-narrow button,
   footer .l-split-narrow button,
@@ -1911,15 +1913,15 @@ body {
   .global-nav .l-full-width-column input,
   header .l-full-width-column input,
   footer .l-full-width-column input,
-  .global-nav .l-main-column input,
-  header .l-main-column input,
-  footer .l-main-column input,
-  .global-nav .l-middle-column input,
-  header .l-middle-column input,
-  footer .l-middle-column input,
-  .global-nav .l-side-column input,
-  header .l-side-column input,
-  footer .l-side-column input,
+  .global-nav .l-main-col input,
+  header .l-main-col input,
+  footer .l-main-col input,
+  .global-nav .l-middle-col input,
+  header .l-middle-col input,
+  footer .l-middle-col input,
+  .global-nav .l-narrow-col input,
+  header .l-narrow-col input,
+  footer .l-narrow-col input,
   .global-nav .l-split-narrow input,
   header .l-split-narrow input,
   footer .l-split-narrow input,
@@ -1941,15 +1943,15 @@ body {
   .global-nav .l-full-width-column optgroup,
   header .l-full-width-column optgroup,
   footer .l-full-width-column optgroup,
-  .global-nav .l-main-column optgroup,
-  header .l-main-column optgroup,
-  footer .l-main-column optgroup,
-  .global-nav .l-middle-column optgroup,
-  header .l-middle-column optgroup,
-  footer .l-middle-column optgroup,
-  .global-nav .l-side-column optgroup,
-  header .l-side-column optgroup,
-  footer .l-side-column optgroup,
+  .global-nav .l-main-col optgroup,
+  header .l-main-col optgroup,
+  footer .l-main-col optgroup,
+  .global-nav .l-middle-col optgroup,
+  header .l-middle-col optgroup,
+  footer .l-middle-col optgroup,
+  .global-nav .l-narrow-col optgroup,
+  header .l-narrow-col optgroup,
+  footer .l-narrow-col optgroup,
   .global-nav .l-split-narrow optgroup,
   header .l-split-narrow optgroup,
   footer .l-split-narrow optgroup,
@@ -1971,15 +1973,15 @@ body {
   .global-nav .l-full-width-column select,
   header .l-full-width-column select,
   footer .l-full-width-column select,
-  .global-nav .l-main-column select,
-  header .l-main-column select,
-  footer .l-main-column select,
-  .global-nav .l-middle-column select,
-  header .l-middle-column select,
-  footer .l-middle-column select,
-  .global-nav .l-side-column select,
-  header .l-side-column select,
-  footer .l-side-column select,
+  .global-nav .l-main-col select,
+  header .l-main-col select,
+  footer .l-main-col select,
+  .global-nav .l-middle-col select,
+  header .l-middle-col select,
+  footer .l-middle-col select,
+  .global-nav .l-narrow-col select,
+  header .l-narrow-col select,
+  footer .l-narrow-col select,
   .global-nav .l-split-narrow select,
   header .l-split-narrow select,
   footer .l-split-narrow select,
@@ -2001,15 +2003,15 @@ body {
   .global-nav .l-full-width-column textarea,
   header .l-full-width-column textarea,
   footer .l-full-width-column textarea,
-  .global-nav .l-main-column textarea,
-  header .l-main-column textarea,
-  footer .l-main-column textarea,
-  .global-nav .l-middle-column textarea,
-  header .l-middle-column textarea,
-  footer .l-middle-column textarea,
-  .global-nav .l-side-column textarea,
-  header .l-side-column textarea,
-  footer .l-side-column textarea,
+  .global-nav .l-main-col textarea,
+  header .l-main-col textarea,
+  footer .l-main-col textarea,
+  .global-nav .l-middle-col textarea,
+  header .l-middle-col textarea,
+  footer .l-middle-col textarea,
+  .global-nav .l-narrow-col textarea,
+  header .l-narrow-col textarea,
+  footer .l-narrow-col textarea,
   .global-nav .l-split-narrow textarea,
   header .l-split-narrow textarea,
   footer .l-split-narrow textarea,
@@ -2041,15 +2043,15 @@ body {
   .global-nav .l-full-width-column button,
   header .l-full-width-column button,
   footer .l-full-width-column button,
-  .global-nav .l-main-column button,
-  header .l-main-column button,
-  footer .l-main-column button,
-  .global-nav .l-middle-column button,
-  header .l-middle-column button,
-  footer .l-middle-column button,
-  .global-nav .l-side-column button,
-  header .l-side-column button,
-  footer .l-side-column button,
+  .global-nav .l-main-col button,
+  header .l-main-col button,
+  footer .l-main-col button,
+  .global-nav .l-middle-col button,
+  header .l-middle-col button,
+  footer .l-middle-col button,
+  .global-nav .l-narrow-col button,
+  header .l-narrow-col button,
+  footer .l-narrow-col button,
   .global-nav .l-split-narrow button,
   header .l-split-narrow button,
   footer .l-split-narrow button,
@@ -2071,15 +2073,15 @@ body {
   .global-nav .l-full-width-column input,
   header .l-full-width-column input,
   footer .l-full-width-column input,
-  .global-nav .l-main-column input,
-  header .l-main-column input,
-  footer .l-main-column input,
-  .global-nav .l-middle-column input,
-  header .l-middle-column input,
-  footer .l-middle-column input,
-  .global-nav .l-side-column input,
-  header .l-side-column input,
-  footer .l-side-column input,
+  .global-nav .l-main-col input,
+  header .l-main-col input,
+  footer .l-main-col input,
+  .global-nav .l-middle-col input,
+  header .l-middle-col input,
+  footer .l-middle-col input,
+  .global-nav .l-narrow-col input,
+  header .l-narrow-col input,
+  footer .l-narrow-col input,
   .global-nav .l-split-narrow input,
   header .l-split-narrow input,
   footer .l-split-narrow input,
@@ -2104,15 +2106,15 @@ body {
   .global-nav .l-full-width-column button,
   header .l-full-width-column button,
   footer .l-full-width-column button,
-  .global-nav .l-main-column button,
-  header .l-main-column button,
-  footer .l-main-column button,
-  .global-nav .l-middle-column button,
-  header .l-middle-column button,
-  footer .l-middle-column button,
-  .global-nav .l-side-column button,
-  header .l-side-column button,
-  footer .l-side-column button,
+  .global-nav .l-main-col button,
+  header .l-main-col button,
+  footer .l-main-col button,
+  .global-nav .l-middle-col button,
+  header .l-middle-col button,
+  footer .l-middle-col button,
+  .global-nav .l-narrow-col button,
+  header .l-narrow-col button,
+  footer .l-narrow-col button,
   .global-nav .l-split-narrow button,
   header .l-split-narrow button,
   footer .l-split-narrow button,
@@ -2134,15 +2136,15 @@ body {
   .global-nav .l-full-width-column select,
   header .l-full-width-column select,
   footer .l-full-width-column select,
-  .global-nav .l-main-column select,
-  header .l-main-column select,
-  footer .l-main-column select,
-  .global-nav .l-middle-column select,
-  header .l-middle-column select,
-  footer .l-middle-column select,
-  .global-nav .l-side-column select,
-  header .l-side-column select,
-  footer .l-side-column select,
+  .global-nav .l-main-col select,
+  header .l-main-col select,
+  footer .l-main-col select,
+  .global-nav .l-middle-col select,
+  header .l-middle-col select,
+  footer .l-middle-col select,
+  .global-nav .l-narrow-col select,
+  header .l-narrow-col select,
+  footer .l-narrow-col select,
   .global-nav .l-split-narrow select,
   header .l-split-narrow select,
   footer .l-split-narrow select,
@@ -2167,15 +2169,15 @@ body {
   .global-nav .l-full-width-column button,
   header .l-full-width-column button,
   footer .l-full-width-column button,
-  .global-nav .l-main-column button,
-  header .l-main-column button,
-  footer .l-main-column button,
-  .global-nav .l-middle-column button,
-  header .l-middle-column button,
-  footer .l-middle-column button,
-  .global-nav .l-side-column button,
-  header .l-side-column button,
-  footer .l-side-column button,
+  .global-nav .l-main-col button,
+  header .l-main-col button,
+  footer .l-main-col button,
+  .global-nav .l-middle-col button,
+  header .l-middle-col button,
+  footer .l-middle-col button,
+  .global-nav .l-narrow-col button,
+  header .l-narrow-col button,
+  footer .l-narrow-col button,
   .global-nav .l-split-narrow button,
   header .l-split-narrow button,
   footer .l-split-narrow button,
@@ -2197,15 +2199,15 @@ body {
   .global-nav .l-full-width-column html [type="button"],
   header .l-full-width-column html [type="button"],
   footer .l-full-width-column html [type="button"],
-  .global-nav .l-main-column html [type="button"],
-  header .l-main-column html [type="button"],
-  footer .l-main-column html [type="button"],
-  .global-nav .l-middle-column html [type="button"],
-  header .l-middle-column html [type="button"],
-  footer .l-middle-column html [type="button"],
-  .global-nav .l-side-column html [type="button"],
-  header .l-side-column html [type="button"],
-  footer .l-side-column html [type="button"],
+  .global-nav .l-main-col html [type="button"],
+  header .l-main-col html [type="button"],
+  footer .l-main-col html [type="button"],
+  .global-nav .l-middle-col html [type="button"],
+  header .l-middle-col html [type="button"],
+  footer .l-middle-col html [type="button"],
+  .global-nav .l-narrow-col html [type="button"],
+  header .l-narrow-col html [type="button"],
+  footer .l-narrow-col html [type="button"],
   .global-nav .l-split-narrow html [type="button"],
   header .l-split-narrow html [type="button"],
   footer .l-split-narrow html [type="button"],
@@ -2227,15 +2229,15 @@ body {
   .global-nav .l-full-width-column [type="reset"],
   header .l-full-width-column [type="reset"],
   footer .l-full-width-column [type="reset"],
-  .global-nav .l-main-column [type="reset"],
-  header .l-main-column [type="reset"],
-  footer .l-main-column [type="reset"],
-  .global-nav .l-middle-column [type="reset"],
-  header .l-middle-column [type="reset"],
-  footer .l-middle-column [type="reset"],
-  .global-nav .l-side-column [type="reset"],
-  header .l-side-column [type="reset"],
-  footer .l-side-column [type="reset"],
+  .global-nav .l-main-col [type="reset"],
+  header .l-main-col [type="reset"],
+  footer .l-main-col [type="reset"],
+  .global-nav .l-middle-col [type="reset"],
+  header .l-middle-col [type="reset"],
+  footer .l-middle-col [type="reset"],
+  .global-nav .l-narrow-col [type="reset"],
+  header .l-narrow-col [type="reset"],
+  footer .l-narrow-col [type="reset"],
   .global-nav .l-split-narrow [type="reset"],
   header .l-split-narrow [type="reset"],
   footer .l-split-narrow [type="reset"],
@@ -2257,15 +2259,15 @@ body {
   .global-nav .l-full-width-column [type="submit"],
   header .l-full-width-column [type="submit"],
   footer .l-full-width-column [type="submit"],
-  .global-nav .l-main-column [type="submit"],
-  header .l-main-column [type="submit"],
-  footer .l-main-column [type="submit"],
-  .global-nav .l-middle-column [type="submit"],
-  header .l-middle-column [type="submit"],
-  footer .l-middle-column [type="submit"],
-  .global-nav .l-side-column [type="submit"],
-  header .l-side-column [type="submit"],
-  footer .l-side-column [type="submit"],
+  .global-nav .l-main-col [type="submit"],
+  header .l-main-col [type="submit"],
+  footer .l-main-col [type="submit"],
+  .global-nav .l-middle-col [type="submit"],
+  header .l-middle-col [type="submit"],
+  footer .l-middle-col [type="submit"],
+  .global-nav .l-narrow-col [type="submit"],
+  header .l-narrow-col [type="submit"],
+  footer .l-narrow-col [type="submit"],
   .global-nav .l-split-narrow [type="submit"],
   header .l-split-narrow [type="submit"],
   footer .l-split-narrow [type="submit"],
@@ -2290,15 +2292,15 @@ body {
   .global-nav .l-full-width-column button::-moz-focus-inner,
   header .l-full-width-column button::-moz-focus-inner,
   footer .l-full-width-column button::-moz-focus-inner,
-  .global-nav .l-main-column button::-moz-focus-inner,
-  header .l-main-column button::-moz-focus-inner,
-  footer .l-main-column button::-moz-focus-inner,
-  .global-nav .l-middle-column button::-moz-focus-inner,
-  header .l-middle-column button::-moz-focus-inner,
-  footer .l-middle-column button::-moz-focus-inner,
-  .global-nav .l-side-column button::-moz-focus-inner,
-  header .l-side-column button::-moz-focus-inner,
-  footer .l-side-column button::-moz-focus-inner,
+  .global-nav .l-main-col button::-moz-focus-inner,
+  header .l-main-col button::-moz-focus-inner,
+  footer .l-main-col button::-moz-focus-inner,
+  .global-nav .l-middle-col button::-moz-focus-inner,
+  header .l-middle-col button::-moz-focus-inner,
+  footer .l-middle-col button::-moz-focus-inner,
+  .global-nav .l-narrow-col button::-moz-focus-inner,
+  header .l-narrow-col button::-moz-focus-inner,
+  footer .l-narrow-col button::-moz-focus-inner,
   .global-nav .l-split-narrow button::-moz-focus-inner,
   header .l-split-narrow button::-moz-focus-inner,
   footer .l-split-narrow button::-moz-focus-inner,
@@ -2320,15 +2322,15 @@ body {
   .global-nav .l-full-width-column [type="button"]::-moz-focus-inner,
   header .l-full-width-column [type="button"]::-moz-focus-inner,
   footer .l-full-width-column [type="button"]::-moz-focus-inner,
-  .global-nav .l-main-column [type="button"]::-moz-focus-inner,
-  header .l-main-column [type="button"]::-moz-focus-inner,
-  footer .l-main-column [type="button"]::-moz-focus-inner,
-  .global-nav .l-middle-column [type="button"]::-moz-focus-inner,
-  header .l-middle-column [type="button"]::-moz-focus-inner,
-  footer .l-middle-column [type="button"]::-moz-focus-inner,
-  .global-nav .l-side-column [type="button"]::-moz-focus-inner,
-  header .l-side-column [type="button"]::-moz-focus-inner,
-  footer .l-side-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-main-col [type="button"]::-moz-focus-inner,
+  header .l-main-col [type="button"]::-moz-focus-inner,
+  footer .l-main-col [type="button"]::-moz-focus-inner,
+  .global-nav .l-middle-col [type="button"]::-moz-focus-inner,
+  header .l-middle-col [type="button"]::-moz-focus-inner,
+  footer .l-middle-col [type="button"]::-moz-focus-inner,
+  .global-nav .l-narrow-col [type="button"]::-moz-focus-inner,
+  header .l-narrow-col [type="button"]::-moz-focus-inner,
+  footer .l-narrow-col [type="button"]::-moz-focus-inner,
   .global-nav .l-split-narrow [type="button"]::-moz-focus-inner,
   header .l-split-narrow [type="button"]::-moz-focus-inner,
   footer .l-split-narrow [type="button"]::-moz-focus-inner,
@@ -2350,15 +2352,15 @@ body {
   .global-nav .l-full-width-column [type="reset"]::-moz-focus-inner,
   header .l-full-width-column [type="reset"]::-moz-focus-inner,
   footer .l-full-width-column [type="reset"]::-moz-focus-inner,
-  .global-nav .l-main-column [type="reset"]::-moz-focus-inner,
-  header .l-main-column [type="reset"]::-moz-focus-inner,
-  footer .l-main-column [type="reset"]::-moz-focus-inner,
-  .global-nav .l-middle-column [type="reset"]::-moz-focus-inner,
-  header .l-middle-column [type="reset"]::-moz-focus-inner,
-  footer .l-middle-column [type="reset"]::-moz-focus-inner,
-  .global-nav .l-side-column [type="reset"]::-moz-focus-inner,
-  header .l-side-column [type="reset"]::-moz-focus-inner,
-  footer .l-side-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-main-col [type="reset"]::-moz-focus-inner,
+  header .l-main-col [type="reset"]::-moz-focus-inner,
+  footer .l-main-col [type="reset"]::-moz-focus-inner,
+  .global-nav .l-middle-col [type="reset"]::-moz-focus-inner,
+  header .l-middle-col [type="reset"]::-moz-focus-inner,
+  footer .l-middle-col [type="reset"]::-moz-focus-inner,
+  .global-nav .l-narrow-col [type="reset"]::-moz-focus-inner,
+  header .l-narrow-col [type="reset"]::-moz-focus-inner,
+  footer .l-narrow-col [type="reset"]::-moz-focus-inner,
   .global-nav .l-split-narrow [type="reset"]::-moz-focus-inner,
   header .l-split-narrow [type="reset"]::-moz-focus-inner,
   footer .l-split-narrow [type="reset"]::-moz-focus-inner,
@@ -2380,15 +2382,15 @@ body {
   .global-nav .l-full-width-column [type="submit"]::-moz-focus-inner,
   header .l-full-width-column [type="submit"]::-moz-focus-inner,
   footer .l-full-width-column [type="submit"]::-moz-focus-inner,
-  .global-nav .l-main-column [type="submit"]::-moz-focus-inner,
-  header .l-main-column [type="submit"]::-moz-focus-inner,
-  footer .l-main-column [type="submit"]::-moz-focus-inner,
-  .global-nav .l-middle-column [type="submit"]::-moz-focus-inner,
-  header .l-middle-column [type="submit"]::-moz-focus-inner,
-  footer .l-middle-column [type="submit"]::-moz-focus-inner,
-  .global-nav .l-side-column [type="submit"]::-moz-focus-inner,
-  header .l-side-column [type="submit"]::-moz-focus-inner,
-  footer .l-side-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-main-col [type="submit"]::-moz-focus-inner,
+  header .l-main-col [type="submit"]::-moz-focus-inner,
+  footer .l-main-col [type="submit"]::-moz-focus-inner,
+  .global-nav .l-middle-col [type="submit"]::-moz-focus-inner,
+  header .l-middle-col [type="submit"]::-moz-focus-inner,
+  footer .l-middle-col [type="submit"]::-moz-focus-inner,
+  .global-nav .l-narrow-col [type="submit"]::-moz-focus-inner,
+  header .l-narrow-col [type="submit"]::-moz-focus-inner,
+  footer .l-narrow-col [type="submit"]::-moz-focus-inner,
   .global-nav .l-split-narrow [type="submit"]::-moz-focus-inner,
   header .l-split-narrow [type="submit"]::-moz-focus-inner,
   footer .l-split-narrow [type="submit"]::-moz-focus-inner,
@@ -2413,15 +2415,15 @@ body {
   .global-nav .l-full-width-column button:-moz-focusring,
   header .l-full-width-column button:-moz-focusring,
   footer .l-full-width-column button:-moz-focusring,
-  .global-nav .l-main-column button:-moz-focusring,
-  header .l-main-column button:-moz-focusring,
-  footer .l-main-column button:-moz-focusring,
-  .global-nav .l-middle-column button:-moz-focusring,
-  header .l-middle-column button:-moz-focusring,
-  footer .l-middle-column button:-moz-focusring,
-  .global-nav .l-side-column button:-moz-focusring,
-  header .l-side-column button:-moz-focusring,
-  footer .l-side-column button:-moz-focusring,
+  .global-nav .l-main-col button:-moz-focusring,
+  header .l-main-col button:-moz-focusring,
+  footer .l-main-col button:-moz-focusring,
+  .global-nav .l-middle-col button:-moz-focusring,
+  header .l-middle-col button:-moz-focusring,
+  footer .l-middle-col button:-moz-focusring,
+  .global-nav .l-narrow-col button:-moz-focusring,
+  header .l-narrow-col button:-moz-focusring,
+  footer .l-narrow-col button:-moz-focusring,
   .global-nav .l-split-narrow button:-moz-focusring,
   header .l-split-narrow button:-moz-focusring,
   footer .l-split-narrow button:-moz-focusring,
@@ -2443,15 +2445,15 @@ body {
   .global-nav .l-full-width-column [type="button"]:-moz-focusring,
   header .l-full-width-column [type="button"]:-moz-focusring,
   footer .l-full-width-column [type="button"]:-moz-focusring,
-  .global-nav .l-main-column [type="button"]:-moz-focusring,
-  header .l-main-column [type="button"]:-moz-focusring,
-  footer .l-main-column [type="button"]:-moz-focusring,
-  .global-nav .l-middle-column [type="button"]:-moz-focusring,
-  header .l-middle-column [type="button"]:-moz-focusring,
-  footer .l-middle-column [type="button"]:-moz-focusring,
-  .global-nav .l-side-column [type="button"]:-moz-focusring,
-  header .l-side-column [type="button"]:-moz-focusring,
-  footer .l-side-column [type="button"]:-moz-focusring,
+  .global-nav .l-main-col [type="button"]:-moz-focusring,
+  header .l-main-col [type="button"]:-moz-focusring,
+  footer .l-main-col [type="button"]:-moz-focusring,
+  .global-nav .l-middle-col [type="button"]:-moz-focusring,
+  header .l-middle-col [type="button"]:-moz-focusring,
+  footer .l-middle-col [type="button"]:-moz-focusring,
+  .global-nav .l-narrow-col [type="button"]:-moz-focusring,
+  header .l-narrow-col [type="button"]:-moz-focusring,
+  footer .l-narrow-col [type="button"]:-moz-focusring,
   .global-nav .l-split-narrow [type="button"]:-moz-focusring,
   header .l-split-narrow [type="button"]:-moz-focusring,
   footer .l-split-narrow [type="button"]:-moz-focusring,
@@ -2473,15 +2475,15 @@ body {
   .global-nav .l-full-width-column [type="reset"]:-moz-focusring,
   header .l-full-width-column [type="reset"]:-moz-focusring,
   footer .l-full-width-column [type="reset"]:-moz-focusring,
-  .global-nav .l-main-column [type="reset"]:-moz-focusring,
-  header .l-main-column [type="reset"]:-moz-focusring,
-  footer .l-main-column [type="reset"]:-moz-focusring,
-  .global-nav .l-middle-column [type="reset"]:-moz-focusring,
-  header .l-middle-column [type="reset"]:-moz-focusring,
-  footer .l-middle-column [type="reset"]:-moz-focusring,
-  .global-nav .l-side-column [type="reset"]:-moz-focusring,
-  header .l-side-column [type="reset"]:-moz-focusring,
-  footer .l-side-column [type="reset"]:-moz-focusring,
+  .global-nav .l-main-col [type="reset"]:-moz-focusring,
+  header .l-main-col [type="reset"]:-moz-focusring,
+  footer .l-main-col [type="reset"]:-moz-focusring,
+  .global-nav .l-middle-col [type="reset"]:-moz-focusring,
+  header .l-middle-col [type="reset"]:-moz-focusring,
+  footer .l-middle-col [type="reset"]:-moz-focusring,
+  .global-nav .l-narrow-col [type="reset"]:-moz-focusring,
+  header .l-narrow-col [type="reset"]:-moz-focusring,
+  footer .l-narrow-col [type="reset"]:-moz-focusring,
   .global-nav .l-split-narrow [type="reset"]:-moz-focusring,
   header .l-split-narrow [type="reset"]:-moz-focusring,
   footer .l-split-narrow [type="reset"]:-moz-focusring,
@@ -2503,15 +2505,15 @@ body {
   .global-nav .l-full-width-column [type="submit"]:-moz-focusring,
   header .l-full-width-column [type="submit"]:-moz-focusring,
   footer .l-full-width-column [type="submit"]:-moz-focusring,
-  .global-nav .l-main-column [type="submit"]:-moz-focusring,
-  header .l-main-column [type="submit"]:-moz-focusring,
-  footer .l-main-column [type="submit"]:-moz-focusring,
-  .global-nav .l-middle-column [type="submit"]:-moz-focusring,
-  header .l-middle-column [type="submit"]:-moz-focusring,
-  footer .l-middle-column [type="submit"]:-moz-focusring,
-  .global-nav .l-side-column [type="submit"]:-moz-focusring,
-  header .l-side-column [type="submit"]:-moz-focusring,
-  footer .l-side-column [type="submit"]:-moz-focusring,
+  .global-nav .l-main-col [type="submit"]:-moz-focusring,
+  header .l-main-col [type="submit"]:-moz-focusring,
+  footer .l-main-col [type="submit"]:-moz-focusring,
+  .global-nav .l-middle-col [type="submit"]:-moz-focusring,
+  header .l-middle-col [type="submit"]:-moz-focusring,
+  footer .l-middle-col [type="submit"]:-moz-focusring,
+  .global-nav .l-narrow-col [type="submit"]:-moz-focusring,
+  header .l-narrow-col [type="submit"]:-moz-focusring,
+  footer .l-narrow-col [type="submit"]:-moz-focusring,
   .global-nav .l-split-narrow [type="submit"]:-moz-focusring,
   header .l-split-narrow [type="submit"]:-moz-focusring,
   footer .l-split-narrow [type="submit"]:-moz-focusring,
@@ -2535,15 +2537,15 @@ body {
   .global-nav .l-full-width-column fieldset,
   header .l-full-width-column fieldset,
   footer .l-full-width-column fieldset,
-  .global-nav .l-main-column fieldset,
-  header .l-main-column fieldset,
-  footer .l-main-column fieldset,
-  .global-nav .l-middle-column fieldset,
-  header .l-middle-column fieldset,
-  footer .l-middle-column fieldset,
-  .global-nav .l-side-column fieldset,
-  header .l-side-column fieldset,
-  footer .l-side-column fieldset,
+  .global-nav .l-main-col fieldset,
+  header .l-main-col fieldset,
+  footer .l-main-col fieldset,
+  .global-nav .l-middle-col fieldset,
+  header .l-middle-col fieldset,
+  footer .l-middle-col fieldset,
+  .global-nav .l-narrow-col fieldset,
+  header .l-narrow-col fieldset,
+  footer .l-narrow-col fieldset,
   .global-nav .l-split-narrow fieldset,
   header .l-split-narrow fieldset,
   footer .l-split-narrow fieldset,
@@ -2567,15 +2569,15 @@ body {
   .global-nav .l-full-width-column legend,
   header .l-full-width-column legend,
   footer .l-full-width-column legend,
-  .global-nav .l-main-column legend,
-  header .l-main-column legend,
-  footer .l-main-column legend,
-  .global-nav .l-middle-column legend,
-  header .l-middle-column legend,
-  footer .l-middle-column legend,
-  .global-nav .l-side-column legend,
-  header .l-side-column legend,
-  footer .l-side-column legend,
+  .global-nav .l-main-col legend,
+  header .l-main-col legend,
+  footer .l-main-col legend,
+  .global-nav .l-middle-col legend,
+  header .l-middle-col legend,
+  footer .l-middle-col legend,
+  .global-nav .l-narrow-col legend,
+  header .l-narrow-col legend,
+  footer .l-narrow-col legend,
   .global-nav .l-split-narrow legend,
   header .l-split-narrow legend,
   footer .l-split-narrow legend,
@@ -2610,15 +2612,15 @@ body {
   .global-nav .l-full-width-column progress,
   header .l-full-width-column progress,
   footer .l-full-width-column progress,
-  .global-nav .l-main-column progress,
-  header .l-main-column progress,
-  footer .l-main-column progress,
-  .global-nav .l-middle-column progress,
-  header .l-middle-column progress,
-  footer .l-middle-column progress,
-  .global-nav .l-side-column progress,
-  header .l-side-column progress,
-  footer .l-side-column progress,
+  .global-nav .l-main-col progress,
+  header .l-main-col progress,
+  footer .l-main-col progress,
+  .global-nav .l-middle-col progress,
+  header .l-middle-col progress,
+  footer .l-middle-col progress,
+  .global-nav .l-narrow-col progress,
+  header .l-narrow-col progress,
+  footer .l-narrow-col progress,
   .global-nav .l-split-narrow progress,
   header .l-split-narrow progress,
   footer .l-split-narrow progress,
@@ -2645,15 +2647,15 @@ body {
   .global-nav .l-full-width-column textarea,
   header .l-full-width-column textarea,
   footer .l-full-width-column textarea,
-  .global-nav .l-main-column textarea,
-  header .l-main-column textarea,
-  footer .l-main-column textarea,
-  .global-nav .l-middle-column textarea,
-  header .l-middle-column textarea,
-  footer .l-middle-column textarea,
-  .global-nav .l-side-column textarea,
-  header .l-side-column textarea,
-  footer .l-side-column textarea,
+  .global-nav .l-main-col textarea,
+  header .l-main-col textarea,
+  footer .l-main-col textarea,
+  .global-nav .l-middle-col textarea,
+  header .l-middle-col textarea,
+  footer .l-middle-col textarea,
+  .global-nav .l-narrow-col textarea,
+  header .l-narrow-col textarea,
+  footer .l-narrow-col textarea,
   .global-nav .l-split-narrow textarea,
   header .l-split-narrow textarea,
   footer .l-split-narrow textarea,
@@ -2677,15 +2679,15 @@ body {
   .global-nav .l-full-width-column [type="checkbox"],
   header .l-full-width-column [type="checkbox"],
   footer .l-full-width-column [type="checkbox"],
-  .global-nav .l-main-column [type="checkbox"],
-  header .l-main-column [type="checkbox"],
-  footer .l-main-column [type="checkbox"],
-  .global-nav .l-middle-column [type="checkbox"],
-  header .l-middle-column [type="checkbox"],
-  footer .l-middle-column [type="checkbox"],
-  .global-nav .l-side-column [type="checkbox"],
-  header .l-side-column [type="checkbox"],
-  footer .l-side-column [type="checkbox"],
+  .global-nav .l-main-col [type="checkbox"],
+  header .l-main-col [type="checkbox"],
+  footer .l-main-col [type="checkbox"],
+  .global-nav .l-middle-col [type="checkbox"],
+  header .l-middle-col [type="checkbox"],
+  footer .l-middle-col [type="checkbox"],
+  .global-nav .l-narrow-col [type="checkbox"],
+  header .l-narrow-col [type="checkbox"],
+  footer .l-narrow-col [type="checkbox"],
   .global-nav .l-split-narrow [type="checkbox"],
   header .l-split-narrow [type="checkbox"],
   footer .l-split-narrow [type="checkbox"],
@@ -2707,15 +2709,15 @@ body {
   .global-nav .l-full-width-column [type="radio"],
   header .l-full-width-column [type="radio"],
   footer .l-full-width-column [type="radio"],
-  .global-nav .l-main-column [type="radio"],
-  header .l-main-column [type="radio"],
-  footer .l-main-column [type="radio"],
-  .global-nav .l-middle-column [type="radio"],
-  header .l-middle-column [type="radio"],
-  footer .l-middle-column [type="radio"],
-  .global-nav .l-side-column [type="radio"],
-  header .l-side-column [type="radio"],
-  footer .l-side-column [type="radio"],
+  .global-nav .l-main-col [type="radio"],
+  header .l-main-col [type="radio"],
+  footer .l-main-col [type="radio"],
+  .global-nav .l-middle-col [type="radio"],
+  header .l-middle-col [type="radio"],
+  footer .l-middle-col [type="radio"],
+  .global-nav .l-narrow-col [type="radio"],
+  header .l-narrow-col [type="radio"],
+  footer .l-narrow-col [type="radio"],
   .global-nav .l-split-narrow [type="radio"],
   header .l-split-narrow [type="radio"],
   footer .l-split-narrow [type="radio"],
@@ -2742,15 +2744,15 @@ body {
   .global-nav .l-full-width-column [type="number"]::-webkit-inner-spin-button,
   header .l-full-width-column [type="number"]::-webkit-inner-spin-button,
   footer .l-full-width-column [type="number"]::-webkit-inner-spin-button,
-  .global-nav .l-main-column [type="number"]::-webkit-inner-spin-button,
-  header .l-main-column [type="number"]::-webkit-inner-spin-button,
-  footer .l-main-column [type="number"]::-webkit-inner-spin-button,
-  .global-nav .l-middle-column [type="number"]::-webkit-inner-spin-button,
-  header .l-middle-column [type="number"]::-webkit-inner-spin-button,
-  footer .l-middle-column [type="number"]::-webkit-inner-spin-button,
-  .global-nav .l-side-column [type="number"]::-webkit-inner-spin-button,
-  header .l-side-column [type="number"]::-webkit-inner-spin-button,
-  footer .l-side-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-main-col [type="number"]::-webkit-inner-spin-button,
+  header .l-main-col [type="number"]::-webkit-inner-spin-button,
+  footer .l-main-col [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-middle-col [type="number"]::-webkit-inner-spin-button,
+  header .l-middle-col [type="number"]::-webkit-inner-spin-button,
+  footer .l-middle-col [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-narrow-col [type="number"]::-webkit-inner-spin-button,
+  header .l-narrow-col [type="number"]::-webkit-inner-spin-button,
+  footer .l-narrow-col [type="number"]::-webkit-inner-spin-button,
   .global-nav .l-split-narrow [type="number"]::-webkit-inner-spin-button,
   header .l-split-narrow [type="number"]::-webkit-inner-spin-button,
   footer .l-split-narrow [type="number"]::-webkit-inner-spin-button,
@@ -2772,15 +2774,15 @@ body {
   .global-nav .l-full-width-column [type="number"]::-webkit-outer-spin-button,
   header .l-full-width-column [type="number"]::-webkit-outer-spin-button,
   footer .l-full-width-column [type="number"]::-webkit-outer-spin-button,
-  .global-nav .l-main-column [type="number"]::-webkit-outer-spin-button,
-  header .l-main-column [type="number"]::-webkit-outer-spin-button,
-  footer .l-main-column [type="number"]::-webkit-outer-spin-button,
-  .global-nav .l-middle-column [type="number"]::-webkit-outer-spin-button,
-  header .l-middle-column [type="number"]::-webkit-outer-spin-button,
-  footer .l-middle-column [type="number"]::-webkit-outer-spin-button,
-  .global-nav .l-side-column [type="number"]::-webkit-outer-spin-button,
-  header .l-side-column [type="number"]::-webkit-outer-spin-button,
-  footer .l-side-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-main-col [type="number"]::-webkit-outer-spin-button,
+  header .l-main-col [type="number"]::-webkit-outer-spin-button,
+  footer .l-main-col [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-middle-col [type="number"]::-webkit-outer-spin-button,
+  header .l-middle-col [type="number"]::-webkit-outer-spin-button,
+  footer .l-middle-col [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-narrow-col [type="number"]::-webkit-outer-spin-button,
+  header .l-narrow-col [type="number"]::-webkit-outer-spin-button,
+  footer .l-narrow-col [type="number"]::-webkit-outer-spin-button,
   .global-nav .l-split-narrow [type="number"]::-webkit-outer-spin-button,
   header .l-split-narrow [type="number"]::-webkit-outer-spin-button,
   footer .l-split-narrow [type="number"]::-webkit-outer-spin-button,
@@ -2804,15 +2806,15 @@ body {
   .global-nav .l-full-width-column [type="search"],
   header .l-full-width-column [type="search"],
   footer .l-full-width-column [type="search"],
-  .global-nav .l-main-column [type="search"],
-  header .l-main-column [type="search"],
-  footer .l-main-column [type="search"],
-  .global-nav .l-middle-column [type="search"],
-  header .l-middle-column [type="search"],
-  footer .l-middle-column [type="search"],
-  .global-nav .l-side-column [type="search"],
-  header .l-side-column [type="search"],
-  footer .l-side-column [type="search"],
+  .global-nav .l-main-col [type="search"],
+  header .l-main-col [type="search"],
+  footer .l-main-col [type="search"],
+  .global-nav .l-middle-col [type="search"],
+  header .l-middle-col [type="search"],
+  footer .l-middle-col [type="search"],
+  .global-nav .l-narrow-col [type="search"],
+  header .l-narrow-col [type="search"],
+  footer .l-narrow-col [type="search"],
   .global-nav .l-split-narrow [type="search"],
   header .l-split-narrow [type="search"],
   footer .l-split-narrow [type="search"],
@@ -2839,15 +2841,15 @@ body {
   .global-nav .l-full-width-column [type="search"]::-webkit-search-cancel-button,
   header .l-full-width-column [type="search"]::-webkit-search-cancel-button,
   footer .l-full-width-column [type="search"]::-webkit-search-cancel-button,
-  .global-nav .l-main-column [type="search"]::-webkit-search-cancel-button,
-  header .l-main-column [type="search"]::-webkit-search-cancel-button,
-  footer .l-main-column [type="search"]::-webkit-search-cancel-button,
-  .global-nav .l-middle-column [type="search"]::-webkit-search-cancel-button,
-  header .l-middle-column [type="search"]::-webkit-search-cancel-button,
-  footer .l-middle-column [type="search"]::-webkit-search-cancel-button,
-  .global-nav .l-side-column [type="search"]::-webkit-search-cancel-button,
-  header .l-side-column [type="search"]::-webkit-search-cancel-button,
-  footer .l-side-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-main-col [type="search"]::-webkit-search-cancel-button,
+  header .l-main-col [type="search"]::-webkit-search-cancel-button,
+  footer .l-main-col [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-middle-col [type="search"]::-webkit-search-cancel-button,
+  header .l-middle-col [type="search"]::-webkit-search-cancel-button,
+  footer .l-middle-col [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-narrow-col [type="search"]::-webkit-search-cancel-button,
+  header .l-narrow-col [type="search"]::-webkit-search-cancel-button,
+  footer .l-narrow-col [type="search"]::-webkit-search-cancel-button,
   .global-nav .l-split-narrow [type="search"]::-webkit-search-cancel-button,
   header .l-split-narrow [type="search"]::-webkit-search-cancel-button,
   footer .l-split-narrow [type="search"]::-webkit-search-cancel-button,
@@ -2869,15 +2871,15 @@ body {
   .global-nav .l-full-width-column [type="search"]::-webkit-search-decoration,
   header .l-full-width-column [type="search"]::-webkit-search-decoration,
   footer .l-full-width-column [type="search"]::-webkit-search-decoration,
-  .global-nav .l-main-column [type="search"]::-webkit-search-decoration,
-  header .l-main-column [type="search"]::-webkit-search-decoration,
-  footer .l-main-column [type="search"]::-webkit-search-decoration,
-  .global-nav .l-middle-column [type="search"]::-webkit-search-decoration,
-  header .l-middle-column [type="search"]::-webkit-search-decoration,
-  footer .l-middle-column [type="search"]::-webkit-search-decoration,
-  .global-nav .l-side-column [type="search"]::-webkit-search-decoration,
-  header .l-side-column [type="search"]::-webkit-search-decoration,
-  footer .l-side-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-main-col [type="search"]::-webkit-search-decoration,
+  header .l-main-col [type="search"]::-webkit-search-decoration,
+  footer .l-main-col [type="search"]::-webkit-search-decoration,
+  .global-nav .l-middle-col [type="search"]::-webkit-search-decoration,
+  header .l-middle-col [type="search"]::-webkit-search-decoration,
+  footer .l-middle-col [type="search"]::-webkit-search-decoration,
+  .global-nav .l-narrow-col [type="search"]::-webkit-search-decoration,
+  header .l-narrow-col [type="search"]::-webkit-search-decoration,
+  footer .l-narrow-col [type="search"]::-webkit-search-decoration,
   .global-nav .l-split-narrow [type="search"]::-webkit-search-decoration,
   header .l-split-narrow [type="search"]::-webkit-search-decoration,
   footer .l-split-narrow [type="search"]::-webkit-search-decoration,
@@ -2901,15 +2903,15 @@ body {
   .global-nav .l-full-width-column ::-webkit-file-upload-button,
   header .l-full-width-column ::-webkit-file-upload-button,
   footer .l-full-width-column ::-webkit-file-upload-button,
-  .global-nav .l-main-column ::-webkit-file-upload-button,
-  header .l-main-column ::-webkit-file-upload-button,
-  footer .l-main-column ::-webkit-file-upload-button,
-  .global-nav .l-middle-column ::-webkit-file-upload-button,
-  header .l-middle-column ::-webkit-file-upload-button,
-  footer .l-middle-column ::-webkit-file-upload-button,
-  .global-nav .l-side-column ::-webkit-file-upload-button,
-  header .l-side-column ::-webkit-file-upload-button,
-  footer .l-side-column ::-webkit-file-upload-button,
+  .global-nav .l-main-col ::-webkit-file-upload-button,
+  header .l-main-col ::-webkit-file-upload-button,
+  footer .l-main-col ::-webkit-file-upload-button,
+  .global-nav .l-middle-col ::-webkit-file-upload-button,
+  header .l-middle-col ::-webkit-file-upload-button,
+  footer .l-middle-col ::-webkit-file-upload-button,
+  .global-nav .l-narrow-col ::-webkit-file-upload-button,
+  header .l-narrow-col ::-webkit-file-upload-button,
+  footer .l-narrow-col ::-webkit-file-upload-button,
   .global-nav .l-split-narrow ::-webkit-file-upload-button,
   header .l-split-narrow ::-webkit-file-upload-button,
   footer .l-split-narrow ::-webkit-file-upload-button,
@@ -2936,15 +2938,15 @@ body {
   .global-nav .l-full-width-column details,
   header .l-full-width-column details,
   footer .l-full-width-column details,
-  .global-nav .l-main-column details,
-  header .l-main-column details,
-  footer .l-main-column details,
-  .global-nav .l-middle-column details,
-  header .l-middle-column details,
-  footer .l-middle-column details,
-  .global-nav .l-side-column details,
-  header .l-side-column details,
-  footer .l-side-column details,
+  .global-nav .l-main-col details,
+  header .l-main-col details,
+  footer .l-main-col details,
+  .global-nav .l-middle-col details,
+  header .l-middle-col details,
+  footer .l-middle-col details,
+  .global-nav .l-narrow-col details,
+  header .l-narrow-col details,
+  footer .l-narrow-col details,
   .global-nav .l-split-narrow details,
   header .l-split-narrow details,
   footer .l-split-narrow details,
@@ -2966,15 +2968,15 @@ body {
   .global-nav .l-full-width-column menu,
   header .l-full-width-column menu,
   footer .l-full-width-column menu,
-  .global-nav .l-main-column menu,
-  header .l-main-column menu,
-  footer .l-main-column menu,
-  .global-nav .l-middle-column menu,
-  header .l-middle-column menu,
-  footer .l-middle-column menu,
-  .global-nav .l-side-column menu,
-  header .l-side-column menu,
-  footer .l-side-column menu,
+  .global-nav .l-main-col menu,
+  header .l-main-col menu,
+  footer .l-main-col menu,
+  .global-nav .l-middle-col menu,
+  header .l-middle-col menu,
+  footer .l-middle-col menu,
+  .global-nav .l-narrow-col menu,
+  header .l-narrow-col menu,
+  footer .l-narrow-col menu,
   .global-nav .l-split-narrow menu,
   header .l-split-narrow menu,
   footer .l-split-narrow menu,
@@ -2998,15 +3000,15 @@ body {
   .global-nav .l-full-width-column summary,
   header .l-full-width-column summary,
   footer .l-full-width-column summary,
-  .global-nav .l-main-column summary,
-  header .l-main-column summary,
-  footer .l-main-column summary,
-  .global-nav .l-middle-column summary,
-  header .l-middle-column summary,
-  footer .l-middle-column summary,
-  .global-nav .l-side-column summary,
-  header .l-side-column summary,
-  footer .l-side-column summary,
+  .global-nav .l-main-col summary,
+  header .l-main-col summary,
+  footer .l-main-col summary,
+  .global-nav .l-middle-col summary,
+  header .l-middle-col summary,
+  footer .l-middle-col summary,
+  .global-nav .l-narrow-col summary,
+  header .l-narrow-col summary,
+  footer .l-narrow-col summary,
   .global-nav .l-split-narrow summary,
   header .l-split-narrow summary,
   footer .l-split-narrow summary,
@@ -3030,15 +3032,15 @@ body {
   .global-nav .l-full-width-column canvas,
   header .l-full-width-column canvas,
   footer .l-full-width-column canvas,
-  .global-nav .l-main-column canvas,
-  header .l-main-column canvas,
-  footer .l-main-column canvas,
-  .global-nav .l-middle-column canvas,
-  header .l-middle-column canvas,
-  footer .l-middle-column canvas,
-  .global-nav .l-side-column canvas,
-  header .l-side-column canvas,
-  footer .l-side-column canvas,
+  .global-nav .l-main-col canvas,
+  header .l-main-col canvas,
+  footer .l-main-col canvas,
+  .global-nav .l-middle-col canvas,
+  header .l-middle-col canvas,
+  footer .l-middle-col canvas,
+  .global-nav .l-narrow-col canvas,
+  header .l-narrow-col canvas,
+  footer .l-narrow-col canvas,
   .global-nav .l-split-narrow canvas,
   header .l-split-narrow canvas,
   footer .l-split-narrow canvas,
@@ -3062,15 +3064,15 @@ body {
   .global-nav .l-full-width-column template,
   header .l-full-width-column template,
   footer .l-full-width-column template,
-  .global-nav .l-main-column template,
-  header .l-main-column template,
-  footer .l-main-column template,
-  .global-nav .l-middle-column template,
-  header .l-middle-column template,
-  footer .l-middle-column template,
-  .global-nav .l-side-column template,
-  header .l-side-column template,
-  footer .l-side-column template,
+  .global-nav .l-main-col template,
+  header .l-main-col template,
+  footer .l-main-col template,
+  .global-nav .l-middle-col template,
+  header .l-middle-col template,
+  footer .l-middle-col template,
+  .global-nav .l-narrow-col template,
+  header .l-narrow-col template,
+  footer .l-narrow-col template,
   .global-nav .l-split-narrow template,
   header .l-split-narrow template,
   footer .l-split-narrow template,
@@ -3094,15 +3096,15 @@ body {
   .global-nav .l-full-width-column [hidden],
   header .l-full-width-column [hidden],
   footer .l-full-width-column [hidden],
-  .global-nav .l-main-column [hidden],
-  header .l-main-column [hidden],
-  footer .l-main-column [hidden],
-  .global-nav .l-middle-column [hidden],
-  header .l-middle-column [hidden],
-  footer .l-middle-column [hidden],
-  .global-nav .l-side-column [hidden],
-  header .l-side-column [hidden],
-  footer .l-side-column [hidden],
+  .global-nav .l-main-col [hidden],
+  header .l-main-col [hidden],
+  footer .l-main-col [hidden],
+  .global-nav .l-middle-col [hidden],
+  header .l-middle-col [hidden],
+  footer .l-middle-col [hidden],
+  .global-nav .l-narrow-col [hidden],
+  header .l-narrow-col [hidden],
+  footer .l-narrow-col [hidden],
   .global-nav .l-split-narrow [hidden],
   header .l-split-narrow [hidden],
   footer .l-split-narrow [hidden],
@@ -3184,7 +3186,6 @@ span.line-break {
 }
 @media (min-width: 1px) {
   .footer {
-    box-sizing: border-box;
     border-top: 1px solid #265281;
     float: left;
     clear: both;
@@ -3200,9 +3201,6 @@ span.line-break {
     background: -ms-linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
     background: -o-linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
     background: linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
-  }
-  .footer * {
-    box-sizing: border-box;
   }
   .footer .l-column,
   .footer .l-full-width-column,
@@ -3228,7 +3226,7 @@ span.line-break {
     padding: 0 0 2em 2em;
     margin: 0;
     text-align: center;
-    font-size: 0.938rem;
+    font-size: 1.1256rem;
   }
   .footer .address-bar .above-address-links li {
     display: inline-block;
@@ -3264,7 +3262,7 @@ span.line-break {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    font-size: .6875rem;
+    font-size: 0.825rem;
     color: #a6a5a6;
     display: block;
   }
@@ -3283,7 +3281,7 @@ span.line-break {
     font-weight: normal;
     color: #333;
     font-weight: 700;
-    font-size: .6875rem;
+    font-size: 0.825rem;
     margin-bottom: .2em;
   }
   .footer .footer-links ul li a {
@@ -3396,6 +3394,7 @@ span.line-break {
     width: 66.666667%;
   }
   .footer .address-bar .address {
+    font-size: .6875rem;
     float: right;
     padding: 0 25px 0 0;
     border-right: 1px solid #a6a5a6;
@@ -3403,6 +3402,7 @@ span.line-break {
     border-top: none;
   }
   .footer .address-bar .above-address-links {
+    font-size: 0.938rem;
     padding: .5em 0 0 32px;
     margin: 0;
   }
@@ -3422,6 +3422,7 @@ span.line-break {
     padding-right: 1.1em;
   }
   .footer .footer-links ul li {
+    font-size: .6875rem;
     margin-bottom: .5em;
     line-height: 1.2em;
   }
@@ -5730,7 +5731,7 @@ span.line-break {
 			}
 		}
 	}
-	.l-side-column {
+	.l-narrow-col {
 		i {
 			&.ico {
 				.left;
@@ -5980,376 +5981,6 @@ span.line-break {
 }
 */
 @media (min-width: 1px) {
-  .page-wrapper {
-    width: 100%;
-    margin: 0;
-  }
-  .page-wrapper .l-outer-wrapper {
-    background-color: #e2e6eb;
-    border: 0;
-    width: 100%;
-  }
-  .page-wrapper .l-outer-wrapper .l-inner-wrapper {
-    background-color: #fff;
-    padding: 96px 15px 0 15px;
-    margin: 0;
-    width: 100%;
-  }
-  .container {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .container-fluid {
-    position: relative;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .l-column,
-  .l-full-width-column,
-  .l-main-column,
-  .l-middle-column,
-  .l-side-column,
-  .l-split-narrow,
-  .l-split-wide,
-  .l-one-third-column,
-  .l-two-column,
-  .l-two-third-column {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    margin: 0;
-    float: left;
-  }
-  .l-row .l-column,
-  .l-row .l-full-width-column,
-  .l-row .l-main-column,
-  .l-row .l-middle-column,
-  .l-row .l-side-column,
-  .l-row .l-split-narrow,
-  .l-row .l-split-wide,
-  .l-row .l-one-third-column,
-  .l-row .l-two-column,
-  .l-row .l-two-third-column {
-    box-sizing: border-box;
-  }
-  .l-row.header .l-column,
-  .l-row.header .l-full-width-column,
-  .l-row.header .l-main-column,
-  .l-row.header .l-middle-column,
-  .l-row.header .l-side-column,
-  .l-row.header .l-split-narrow,
-  .l-row.header .l-split-wide,
-  .l-row.header .l-one-third-column,
-  .l-row.header .l-two-column,
-  .l-row.header .l-two-third-column {
-    border-top: none;
-    box-sizing: border-box;
-  }
-  .l-row {
-    padding: 0 1em;
-    display: table;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .l-row.header {
-    padding: 0 0;
-    box-sizing: border-box;
-  }
-  .l-full-width-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .container {
-    width: 100%;
-    clear: both;
-  }
-  .l-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .l-side-column,
-  .l-one-third-column,
-  .l-two-column,
-  .l-middle-column,
-  .l-split-narrow,
-  .l-split-wide,
-  .l-two-third-column,
-  .l-main-column,
-  .l-full-width-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    width: 100%;
-  }
-  .l-3-col-reorder {
-    margin: 0;
-    list-style: none;
-    -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    clear: both;
-  }
-  .l-reorder-center {
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-  }
-  .l-reorder-last {
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-  .l-reorder-first {
-    -webkit-box-ordinal-group: 1;
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: -1;
-  }
-}
-@media (min-width:480px) {
-  .l-outer-wrapper {
-    max-width: 599px;
-    min-width: 480px;
-  }
-}
-@media (min-width: 600px) {
-  .l-outer-wrapper {
-    max-width: 800px;
-    min-width: 600px;
-  }
-  .l-left-column .l-side-column .l-side-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    float: left;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .l-two-column,
-  .l-one-third-column,
-  .l-middle-column,
-  .l-main-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    float: left;
-  }
-  .l-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-}
-@media (min-width: 801px) {
-  .l-outer-wrapper {
-    max-width: 801px;
-    min-width: 989px;
-  }
-}
-@media (min-width: 956px) {
-  .page-wrapper .l-outer-wrapper {
-    margin: 0 auto;
-    background-color: #e2e6eb;
-    border: 0;
-    padding: 0 1px;
-    max-width: 992px;
-    min-width: 992px;
-    width: 992px;
-  }
-  .page-wrapper .l-inner-wrapper {
-    background-color: #fff;
-    border-right: 1px solid #dbdfe5;
-    border-left: 1px solid #dbdfe5;
-    padding: 96px 15px 0 15px;
-    max-width: 990px;
-    min-width: 990px;
-    width: 990px;
-    margin: 0;
-  }
-  .page-wrapper .l-inner-wrapper.show {
-    padding: 90px 0 50px;
-  }
-  .l-row.header > div,
-  .l-row.header > h1,
-  .l-row.header > h2,
-  .l-row.header > h3,
-  .l-row.header > h4,
-  .l-row.header > h5,
-  .l-row.header > h6,
-  .l-row.header > p,
-  .l-row.header > ul,
-  .l-row.header > ol,
-  .l-column,
-  .l-side-column,
-  .l-one-third-column,
-  .l-two-column,
-  .l-middle-column,
-  .l-split-narrow,
-  .l-split-wide,
-  .l-two-third-column,
-  .l-main-column,
-  .l-full-width-column {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .l-row > h1,
-  .l-row > h2,
-  .l-row > h3,
-  .l-row > h4,
-  .l-row > h5,
-  .l-row > h6,
-  .l-row > p,
-  .l-row > ul,
-  .l-row > ol {
-    padding-right: 22px;
-  }
-  /*
-	div.content {
-		padding-right: 15px;
-		padding-left: 15px;
-		width: 956px; // 986px - 30px = 956px (actual)
-		display: table;
-	}
-	*/
-  .container {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 956px;
-  }
-  .l-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 16.666667%;
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
-  .l-side-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 25%;
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .l-side-column img {
-    max-width: 174px !important;
-  }
-  .l-one-third-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-  .l-split-narrow {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 41.666%;
-    -ms-flex: 0 0 41.666%;
-    flex: 0 0 41.666%;
-    max-width: 41.666%;
-  }
-  .l-3-col-reorder .l-main-column,
-  .l-middle-column,
-  .l-two-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .l-split-wide {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 58.333%;
-    -ms-flex: 0 0 58.333%;
-    flex: 0 0 58.333%;
-    max-width: 58.333%;
-  }
-  .l-two-third-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 66.666667%;
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-  }
-  .l-main-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 75%;
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
-  .l-full-width-column {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .l-row {
-    padding-left: 22px;
-    padding-right: 0;
-  }
-  /* we need to find a better way to do this.
-	.l-row > div {
-		padding-right: 44px;
-	}
-	.l-row > div:last-child {
-		padding-right: 22px;
-	}
-	*/
-  .l-row > div {
-    padding-right: 44px;
-  }
-  .l-row > div:last-child {
-    padding-right: 22px;
-  }
-  .l-row.header {
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-  }
-  .l-row.header .l-full-width-column {
-    padding-right: 0;
-  }
-  .l-row .l-row {
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-  }
-  .homepage .l-row {
-    padding-left: 0;
-  }
-  .homepage .l-row > div:last-child {
-    padding-right: 0;
-  }
-  .homepage .l-row .l-side-column:first-child .no-border-container ul,
-  .homepage .l-row .l-side-column:first-child .dark-top-border-container ul {
-    margin-left: 12px;
-  }
-}
-@media (min-width: 1px) {
   #sticker {
     display: none;
   }
@@ -6424,6 +6055,637 @@ span.line-break {
 	}
 	*/
 }
+@media (min-width: 1px) {
+  .page-wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .page-wrapper .l-outer-wrapper {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  .page-wrapper .l-outer-wrapper .l-inner-wrapper {
+    background-color: #fff;
+    padding: 60px 0 0 0;
+    margin: 0;
+  }
+  .container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container-fluid {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .l-column,
+  .l-full-width-column,
+  .l-main-col,
+  .l-middle-col,
+  .l-narrow-col,
+  .l-split-narrow,
+  .l-split-wide,
+  .l-one-third-column,
+  .l-two-column,
+  .l-two-third-column {
+    position: relative;
+    min-height: 1px;
+    margin: 0;
+    float: left;
+  }
+  .l-row .l-column,
+  .l-row .l-full-width-column,
+  .l-row .l-main-col,
+  .l-row .l-middle-col,
+  .l-row .l-narrow-col,
+  .l-row .l-split-narrow,
+  .l-row .l-split-wide,
+  .l-row .l-one-third-column,
+  .l-row .l-two-column,
+  .l-row .l-two-third-column {
+    box-sizing: border-box;
+  }
+  .l-row.header .l-column,
+  .l-row.header .l-full-width-column,
+  .l-row.header .l-main-col,
+  .l-row.header .l-middle-col,
+  .l-row.header .l-narrow-col,
+  .l-row.header .l-split-narrow,
+  .l-row.header .l-split-wide,
+  .l-row.header .l-one-third-column,
+  .l-row.header .l-two-column,
+  .l-row.header .l-two-third-column {
+    border-top: none;
+    box-sizing: border-box;
+  }
+  .l-row {
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .l-row.header {
+    padding: 0 0;
+    box-sizing: border-box;
+  }
+  .l-full-width-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .container {
+    width: 100%;
+    clear: both;
+  }
+  .l-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .l-narrow-col,
+  .l-one-third-column,
+  .l-two-column,
+  .l-split-narrow,
+  .l-split-wide,
+  .l-two-third-column,
+  .l-main-col,
+  .l-full-width-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  /*
+	.l-3-col-reorder {
+		-ms-box-orient: horizontal;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		clear: both;
+	}
+	.l-reorder-second {
+		-webkit-box-ordinal-group: 2;   
+		-moz-box-ordinal-group: 2;      
+		-ms-flex-order: 2;              
+		-webkit-order: 2;               
+		order: 2;                       
+	}
+	.l-reorder-third {
+		-webkit-box-ordinal-group: 3;  
+		-moz-box-ordinal-group: 3;     
+		-ms-flex-order: 3;     
+		-webkit-order: 3;  
+		order: 3;
+	}
+	.l-reorder-first {
+		-webkit-box-ordinal-group: 1;  
+		-moz-box-ordinal-group: 1;     
+		-ms-flex-order: 1;     
+		-webkit-order: 1;  
+		order: 1;
+	}
+*/
+}
+@media (min-width:480px) {
+  .l-outer-wrapper {
+    max-width: 599px;
+    min-width: 480px;
+    /*
+		.l-4-col {
+			.l-narrow-col {
+				&:nth-child(1) {
+					padding-right:22px;
+				}
+			}
+			.l-narrow-col {
+				&:nth-child(2) {
+					padding:0;
+				}
+			}
+			.l-narrow-col {
+				&:nth-child(3) {
+					padding-right:22px;
+				}
+			}
+			.l-narrow-col {
+				&:nth-child(4) {
+					padding: 0;
+				}
+			}
+		}
+		*/
+  }
+}
+@media (min-width: 600px) {
+  .l-outer-wrapper {
+    max-width: 800px;
+    min-width: 600px;
+  }
+  /*
+	.l-left-column .l-narrow-col .l-narrow-col {
+			-webkit-box-flex: 0;
+			-webkit-flex: 0 0 100%;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 100%;
+			float: left;
+			padding-left: 0;
+			padding-right: 0;
+	}
+	*/
+  .l-two-column,
+  .l-one-third-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    float: left;
+  }
+  .l-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .l-narrow-col,
+  .l-one-third-column,
+  .l-two-column,
+  .l-split-narrow,
+  .l-split-wide,
+  .l-two-third-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 50%;
+    float: left;
+  }
+  /*
+	.l-3-col-reorder {
+		.l-narrow-col {
+			&:nth-child(1) {
+				padding-right:11px;
+			}
+		}
+		.l-narrow-col {
+			&:nth-child(2) {
+				padding-left:11px;
+			}
+		}
+	}
+	.l-4-col {
+		.l-narrow-col {
+			&:nth-child(1) {
+				padding-right:22px;
+			}
+		}
+		.l-narrow-col {
+			&:nth-child(2) {
+				padding-right:22px;
+			}
+		}
+		.l-narrow-col {
+			&:nth-child(3) {
+				padding-right:22px;
+			}
+		}
+		.l-narrow-col {
+			&:nth-child(4) {
+				padding: 0;
+			}
+		}
+	}
+	*/
+}
+@media (min-width: 801px) {
+  .l-outer-wrapper {
+    max-width: 801px;
+    min-width: 989px;
+  }
+}
+@media (min-width: 956px) {
+  .page-wrapper .l-outer-wrapper {
+    margin: 0 auto;
+    background-color: #e2e6eb;
+    border: 0;
+    padding: 0 1px;
+    max-width: 992px;
+    min-width: 992px;
+    width: 992px;
+  }
+  .page-wrapper .l-outer-wrapper .l-inner-wrapper {
+    border-right: 1px solid #dbdfe5;
+    border-left: 1px solid #dbdfe5;
+    padding: 96px 15px 0 15px;
+    max-width: 990px;
+    min-width: 990px;
+    width: 990px;
+    margin: 0;
+  }
+  .page-wrapper .l-outer-wrapper .l-inner-wrapper.show {
+    padding: 90px 0 50px;
+  }
+  .l-row.header > div,
+  .l-row.header > h1,
+  .l-row.header > h2,
+  .l-row.header > h3,
+  .l-row.header > h4,
+  .l-row.header > h5,
+  .l-row.header > h6,
+  .l-row.header > p,
+  .l-row.header > ul,
+  .l-row.header > ol,
+  .l-column,
+  .l-narrow-col,
+  .l-one-third-column,
+  .l-two-column,
+  .l-middle-col,
+  .l-split-narrow,
+  .l-split-wide,
+  .l-two-third-column,
+  .l-main-col,
+  .l-full-width-column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .l-row > h1,
+  .l-row > h2,
+  .l-row > h3,
+  .l-row > h4,
+  .l-row > h5,
+  .l-row > h6,
+  .l-row > p,
+  .l-row > ul,
+  .l-row > ol {
+    padding-right: 22px;
+  }
+  .container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 956px;
+  }
+  .l-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.666667%;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .l-narrow-col {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .l-one-third-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .l-split-narrow {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.666%;
+    -ms-flex: 0 0 41.666%;
+    flex: 0 0 41.666%;
+    max-width: 41.666%;
+  }
+  .l-middle-col,
+  .l-two-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .l-split-wide {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.333%;
+    -ms-flex: 0 0 58.333%;
+    flex: 0 0 58.333%;
+    max-width: 58.333%;
+  }
+  .l-two-third-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.666667%;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .l-main-col {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .l-full-width-column {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .l-row {
+    padding-left: 22px;
+    padding-right: 0;
+  }
+  .l-row > div {
+    padding-right: 44px;
+  }
+  .l-row > div:last-child {
+    padding-right: 22px;
+  }
+  .l-row.header {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .l-row.header .l-full-width-column {
+    padding-right: 0;
+  }
+  .l-row .l-row {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 1px) {
+  .l-3-col.l-reorder {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    clear: both;
+  }
+  .l-3-col.l-reorder .l-second {
+    -webkit-box-ordinal-group: 2;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-ordinal-group: 2;
+    /* OLD - Firefox 19- */
+    -ms-flex-order: 2;
+    /* TWEENER - IE 10 */
+    -webkit-order: 2;
+    /* NEW - Chrome */
+    order: 2;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  .l-3-col.l-reorder .l-third {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
+  }
+  .l-3-col.l-reorder .l-first {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}
+@media (min-width:480px) {
+}
+@media (min-width: 600px) {
+  .l-3-col.l-reorder .l-second {
+    padding-right: 11px;
+  }
+  .l-3-col.l-reorder .l-third {
+    padding-left: 11px;
+  }
+}
+@media (min-width: 801px) {
+}
+@media (min-width: 956px) {
+  .l-3-col.l-reorder .l-third {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
+    padding-right: 0;
+  }
+  .l-3-col.l-reorder .l-second {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    padding-right: 22px;
+  }
+  .l-3-col.l-reorder .l-first {
+    -webkit-box-ordinal-group: 2;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-ordinal-group: 2;
+    /* OLD - Firefox 19- */
+    -ms-flex-order: 2;
+    /* TWEENER - IE 10 */
+    -webkit-order: 2;
+    /* NEW - Chrome */
+    order: 2;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    padding-right: 22px;
+  }
+}
+@media (min-width: 1px) {
+  .l-4-col .l-narrow-col {
+    padding: 0;
+  }
+}
+@media (min-width:480px) {
+  .l-4-col .l-narrow-col:nth-child(1) {
+    padding-right: 22px;
+  }
+  .l-4-col .l-narrow-col:nth-child(2) {
+    padding: 0;
+  }
+  .l-4-col .l-narrow-col:nth-child(3) {
+    padding-right: 22px;
+    clear: left;
+  }
+  .l-4-col .l-narrow-col:nth-child(4) {
+    padding: 0;
+  }
+}
+@media (min-width: 600px) {
+  .l-2-col-right .l-narrow-col:nth-child(2) {
+    padding-right: 22px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 50%;
+    float: left;
+  }
+  .l-2-col-right .l-narrow-col:nth-child(3) {
+    padding-left: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 50%;
+    float: left;
+  }
+  /*
+	.l-left-column .l-narrow-col .l-narrow-col {
+			-webkit-box-flex: 0;
+			-webkit-flex: 0 0 100%;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 100%;
+			float: left;
+			padding-left: 0;
+			padding-right: 0;
+    }
+    // ---------------
+    // | 1 | main | 2 |
+    // ---------------
+
+    .l-3-col {
+        .l-narrow-col {
+            &:nth-child(1) {
+                padding-left: 0;
+                padding-right: 22px;
+            }
+        }
+        .l-narrow-col {
+            &:nth-child(2) {
+                padding-left: 22px;
+            }
+        }
+    }
+    // -----------------
+    // | 1 | 2 | 3 | 4 |
+    // -----------------
+    .l-4-col {
+        .l-narrow-col {
+            &:nth-child(1) {
+                padding-right: 22px;
+            }
+        }
+        .l-narrow-col {
+            &:nth-child(2) {
+                padding-right: 22px;
+            }
+        }
+        .l-narrow-col {
+            &:nth-child(3) {
+                padding-right: 22px;
+            }
+        }
+        .l-narrow-col {
+            &:nth-child(4) {
+                padding: 0;
+            }
+        }
+    }
+    */
+}
+@media (min-width: 801px) {
+  margin: inherit;
+}
+@media (min-width: 956px) {
+  .l-2-col-right .l-narrow-col:nth-child(2) {
+    padding-right: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    width: 25%;
+    float: left;
+  }
+  .l-2-col-right .l-narrow-col:nth-child(3) {
+    padding-left: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    width: 25%;
+    float: left;
+  }
+  .l-4-col .l-narrow-col:nth-child(1) {
+    padding-right: 22px;
+  }
+  .l-4-col .l-narrow-col:nth-child(2) {
+    padding-right: 22px;
+  }
+  .l-4-col .l-narrow-col:nth-child(3) {
+    padding-right: 22px;
+    clear: none;
+  }
+  .l-4-col .l-narrow-col:nth-child(4) {
+    padding: 0;
+  }
+}
 /* content container must be the first line item of the modules */
 /*
 REMs        Pixels
@@ -6447,7 +6709,7 @@ font-size: 1.500rem; // 24 pixels
 @media (min-width: 1px) {
   .content-container {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     width: 100%;
   }
   .content-container ul {
@@ -6502,27 +6764,37 @@ font-size: 1.500rem; // 24 pixels
     display: block;
   }
 }
+@media (min-width: 600px) {
+  .content-container {
+    margin-bottom: 1.5em;
+  }
+}
+@media (min-width: 956px) {
+  .content-container {
+    margin-bottom: 1em;
+  }
+}
 /*
 @media (min-width: 600px) {
-	.l-left-column .l-side-column .l-side-column:first-child {
+	.l-left-column .l-narrow-col .l-narrow-col:first-child {
 	width: 50%;
 	float: left;
 	padding-left: 0px;
 	padding-right: 11px;
 	}
-	.l-left-column .l-side-column .l-side-column:last-child {
+	.l-left-column .l-narrow-col .l-narrow-col:last-child {
 	width: 50%;
 	float: left;
 	padding-left: 11px;
 	padding-right: 0px;
 	}
-	.l-right-column .l-side-column .l-side-column:first-child {
+	.l-right-column .l-narrow-col .l-narrow-col:first-child {
 	width: 50%;
 	float: left;
 	padding-left: 0px;
 	padding-right: 11px;
 	}
-	.l-right-column .l-side-column .l-side-column:last-child {
+	.l-right-column .l-narrow-col .l-narrow-col:last-child {
 	width: 50%;
 	float: left;
 	padding-left: 11px;
@@ -6592,76 +6864,75 @@ font-size: 1.500rem; // 24 pixels
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    font-size: 0.625rem;
-    margin: 0 0 5px 0;
-    /*                a {
-                    color: @eia-blue;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                    } 
-                }
-                */
+    font-size: 0.75rem;
+    margin: 0 0 0.625em 0;
   }
   .blue-background ul li.head {
-    padding: 0 0 5px 0;
-    margin: 0 0 5px 0;
+    padding: 0 0 0.625em 0;
+    margin: 0 0 0.625em 0;
     border-bottom: 1px solid #999;
   }
   .blue-background ul li.head h2 {
-    font-size: 1.125rem;
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
+    font-size: 1.35rem;
   }
   .blue-background ul li.sub-head {
     padding: 0;
-    margin: 10px 0 2px;
+    margin: 1.250em 0 4px;
     color: #5e625e;
     font-weight: 700;
-    font-size: 0.750rem;
+    font-size: 0.9rem;
   }
   .blue-background ul li.date {
-    font-size: 0.750rem;
+    font-size: 0.9rem;
     font-style: normal;
   }
   .blue-background ul li.date strong {
     font-style: normal;
   }
 }
-/*
-REMs        Pixels
----------------------
-font-size: 0.625rem; // 10 pixels	
-font-size: 0.688rem; // 11 pixels
-font-size: 0.750rem; // 12 pixels
-font-size: 0.813rem; // 13 pixels
-font-size: 0.875rem; // 14 pixels
-font-size: 0.938rem; // 15 pixels
-font-size: 1.000rem; // 16 pixels
-font-size: 0.063rem; // 17 pixels
-font-size: 1.125rem; // 18 pixels
-font-size: 1.188rem; // 19 pixels
-font-size: 1.250rem; // 20 pixels
-font-size: 1.313rem; // 21 pixels
-font-size: 1.375rem; // 22 pixels
-font-size: 1.438rem; // 23 pixels
-font-size: 1.500rem; // 24 pixels
-*/
+@media (min-width: 956px) {
+  .blue-background ul li {
+    font-size: 0.625rem;
+    margin: 0 0 5px 0;
+  }
+  .blue-background ul li.head {
+    padding: 0 0 5px 0;
+    margin: 0 0 5px 0;
+  }
+  .blue-background ul li.head h2 {
+    font-size: 1.125rem;
+  }
+  .blue-background ul li.sub-head {
+    margin: 10px 0 2px;
+    font-size: 0.750rem;
+  }
+  .blue-background ul li.date {
+    font-size: 0.750rem;
+  }
+}
 @media (min-width: 1px) {
   .no-border-container,
   .dark-top-border-container {
     background-color: white;
     border-top: solid 4px #003C57;
+    font-size: 110%;
   }
   .no-border-container ul li,
   .dark-top-border-container ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    font-size: 0.750rem;
+    font-size: 0.9rem;
     line-height: 150%;
     margin: 10px 0 1px 0;
+  }
+  .no-border-container ul li a,
+  .dark-top-border-container ul li a {
+    display: block;
+    background-color: yellowgreen;
   }
   .no-border-container ul li a:after,
   .dark-top-border-container ul li a:after {
@@ -6670,7 +6941,7 @@ font-size: 1.500rem; // 24 pixels
   .no-border-container ul li.date,
   .dark-top-border-container ul li.date {
     margin: 0;
-    font-size: 0.688rem;
+    font-size: 0.8256rem;
   }
   .no-border-container ul li.head,
   .dark-top-border-container ul li.head {
@@ -6681,7 +6952,7 @@ font-size: 1.500rem; // 24 pixels
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
-    font-size: 1.125rem;
+    font-size: 1.35rem;
   }
   .no-border-container {
     border-top: solid 4px white;
@@ -6692,9 +6963,16 @@ font-size: 1.500rem; // 24 pixels
 @media (min-width: 600px) {
 }
 @media (min-width: 801px) {
-  .homepage .l-row .l-side-column:first-child .no-border-container ul,
-  .homepage .l-row .l-side-column:first-child .dark-top-border-container ul {
-    margin-left: 12px;
+}
+@media (min-width: 956px) {
+  .dark-top-border-container ul li {
+    font-size: 0.750rem;
+  }
+  .dark-top-border-container ul li.date {
+    font-size: 0.688rem;
+  }
+  .dark-top-border-container ul li.head h2 {
+    font-size: 1.125rem;
   }
 }
 /*
@@ -6725,15 +7003,23 @@ font-size: 1.500rem; // 24 pixels
     background-color: #f4f4f4;
   }
   .grey-background li {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .grey-background li.head h2 {
-    font-size: 1.3rem;
+    font-size: 1.56rem;
     font-weight: bold;
     padding: .8125em 0 .8125em 0;
   }
   .grey-background li :last-child {
     border-bottom: none;
+  }
+}
+@media (min-width: 956px) {
+  .grey-background li {
+    font-size: 1rem;
+  }
+  .grey-background li.head h2 {
+    font-size: 1.3rem;
   }
 }
 /*
@@ -6767,7 +7053,7 @@ font-size: 1.500rem; // 24 pixels
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    font-size: 0.750rem;
+    font-size: 0.825rem;
     line-height: 150%;
     padding: 0 0 10px 0;
     margin: 8px 0 0 0;
@@ -6796,6 +7082,8 @@ font-size: 1.500rem; // 24 pixels
     padding: 0;
   }
   .light-top-border-container ul li a {
+    display: block;
+    background-color: yellowgreen;
     color: #189bd7;
     text-decoration: none;
   }
@@ -6812,9 +7100,20 @@ font-size: 1.500rem; // 24 pixels
     font-weight: normal;
     color: #333;
     font-weight: 700;
-    font-size: 0.750rem;
+    font-size: 0.825rem;
     padding: 0;
     margin: 0;
+  }
+}
+@media (min-width: 956px) {
+  .light-top-border-container ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 0.750rem;
+  }
+  .light-top-border-container ul li.head h2 {
+    font-size: 0.750rem;
   }
 }
 /*
@@ -7281,45 +7580,55 @@ font-size: 1.500rem; // 24 pixels
   }
 }
 @media (min-width: 1px) {
+  .energy-kids {
+    border-top: 4px solid #189bd7;
+  }
   .energy-kids a {
     display: block;
-    background: url('https://www.eia.gov/global/images/kids_promos/kids-winter.png') no-repeat top right;
     width: 100%;
-    height: 133px;
+    border: none;
+  }
+  .energy-kids a picture {
+    float: right;
+  }
+}
+@media (min-width: 956px) {
+  .energy-kids a {
+    display: block;
+    width: 100%;
     border: none;
     margin-top: -10px;
   }
 }
 @media (min-width: 1px) {
   .features {
-    overflow: hidden;
-    margin: 0 0 26px;
-    padding: 22px 0 0 0;
-    -moz-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 300px;
-    max-height: 300px;
-    background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
-    background-size: cover;
+    display: table;
+    padding: 22px 0;
     border-bottom: solid 1px #E3E5E6;
-    box-sizing: border-box;
-  }
-  .features * {
-    box-sizing: border-box;
   }
   .features h2 {
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
-    margin: 0 22px 6px 22px;
+    font-size: 1.8rem;
+    margin: 0 0 6px 0;
     padding: 0;
   }
   .features > div {
-    width: 193px;
-    margin: 0 0 0 22px;
     float: left;
+    margin: 0 0 2em;
+    width: 100%;
+  }
+  .features a {
+    width: 100%;
+    display: block;
+    background-color: yellowgreen;
+    text-align: center;
+  }
+  .features a img {
+    margin: 1em auto;
+    border: 4px solid #fff;
+    outline: 1px solid #dadada;
   }
   .features ul {
     margin: 0;
@@ -7340,10 +7649,13 @@ font-size: 1.500rem; // 24 pixels
     color: #333;
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.1em;
   }
   .features ul li.head h3 a {
+    width: 100%;
+    text-align: left;
+    display: block;
     color: #189bd7;
     text-decoration: none;
     font-weight: normal;
@@ -7352,36 +7664,75 @@ font-size: 1.500rem; // 24 pixels
   .features ul li.head h3 a:hover {
     text-decoration: underline;
   }
-  .features img {
-    width: 193px;
-    height: 111px;
-    border: 4px solid #fff;
-    outline: 1px solid #dadada;
+}
+@media (min-width:480px) {
+  .features h2 {
+    margin: 0 22px 6px 22px;
+  }
+  .features a {
+    width: auto;
+    display: table;
+    float: left;
+  }
+  .features a img {
+    float: left;
+    margin: 0 22px 0 0;
+  }
+  .features ul {
+    float: left;
+    width: 60%;
+  }
+  .features ul li {
+    width: 100%;
+    display: table;
+  }
+  .features ul li.head h3 a {
+    width: auto;
   }
 }
-/*
-REMs        Pixels
-_________________________________
-font-size: 0.625rem; // 10 pixels	
-font-size: 0.688rem; // 11 pixels
-font-size: 0.750rem; // 12 pixels
-font-size: 0.813rem; // 13 pixels
-font-size: 0.875rem; // 14 pixels
-font-size: 0.938rem; // 15 pixels
-font-size: 1.000rem; // 16 pixels
-font-size: 1.063rem; // 17 pixels
-font-size: 1.125rem; // 18 pixels
-font-size: 1.188rem; // 19 pixels
-font-size: 1.250rem; // 20 pixels
-font-size: 1.313rem; // 21 pixels
-font-size: 1.375rem; // 22 pixels
-font-size: 1.438rem; // 23 pixels
-font-size: 1.500rem; // 24 pixels
-*/
-@media (min-width: 1px) {
-  .main-content-container {
-    font-size: 16;
+@media (min-width: 956px) {
+  .features {
+    overflow: hidden;
+    margin: 0 0 26px;
+    padding: 22px 0 0 0;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
+    background-size: cover;
   }
+  .features a img {
+    margin: 0;
+  }
+  .features h2 {
+    font-size: 1.5rem;
+  }
+  .features > div {
+    width: 195px;
+  }
+  .features > div:nth-child(2) {
+    margin-left: 22px;
+  }
+  .features > div:nth-child(3) {
+    margin-left: 33px;
+  }
+  .features > div:nth-child(4) {
+    margin-left: 33px;
+  }
+  .features ul {
+    width: 100%;
+  }
+  .features ul li.head {
+    margin: 8px 0 10px 0;
+  }
+  .features ul li.head h3 {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1px) {
   .main-content-container a {
     color: #189bd7;
     text-decoration: none;
@@ -7393,32 +7744,33 @@ font-size: 1.500rem; // 24 pixels
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
-    font-size: 1.375rem;
+    font-size: 2.2rem;
     padding: 0 0 4px 0;
     margin: 0;
     border-bottom: solid 1px #dadada;
   }
   .main-content-container h1 .date {
-    float: right;
+    float: left;
     font-style: italic;
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
-    font-size: 0.875rem;
+    width: 100%;
+    display: block;
+    font-size: 1.05rem;
     color: #928b81;
     padding: 0;
-    margin: 5px 5px 0 0;
-    text-transform: none!important;
+    margin: 10px 5px 0 0;
   }
   .main-content-container h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
     line-height: 120%;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 700;
-    padding: 8px 0 10px;
-    margin: 0;
+    padding: 0;
+    margin: 2em 0 1em;
   }
   .main-content-container h2 a {
     color: #189bd7;
@@ -7434,11 +7786,10 @@ font-size: 1.500rem; // 24 pixels
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 8px 0 10px 0;
     margin: 0;
-    /* border-bottom: solid 1px #e3e5e6; */
-    font-size: 0.750rem;
+    font-size: 0.9rem;
     line-height: 130%;
     clear: both;
   }
@@ -7457,19 +7808,11 @@ font-size: 1.500rem; // 24 pixels
   }
   .main-content-container .media {
     text-align: center;
+    margin: 2em auto .5em auto;
   }
   .main-content-container .media a {
     display: block;
     margin: 0 auto;
-    width: 100%;
-    position: relative;
-    padding-top: 50%;
-    overflow: hidden;
-  }
-  .main-content-container .media a img {
-    position: absolute;
-    left: 0;
-    top: 0;
     width: 100%;
   }
   .main-content-container figure {
@@ -7477,9 +7820,76 @@ font-size: 1.500rem; // 24 pixels
     font-weight: normal;
     color: #333;
     color: #999;
-    font-size: 0.688rem;
+    font-size: 0.8256rem;
     line-height: 110%;
     padding: 8px 0 10px 0;
     margin: 0;
+  }
+}
+@media (min-width: 956px) {
+  .main-content-container h1 {
+    font-family: "Times New Roman", "Times", serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 1.375rem;
+  }
+  .main-content-container h1 .date {
+    float: right;
+    display: table;
+    font-size: 0.875rem;
+  }
+  .main-content-container h2 {
+    font-size: 1em;
+    margin: 8px 0 10px;
+  }
+  .main-content-container p {
+    font-size: 0.750rem;
+  }
+  .main-content-container .media {
+    text-align: center;
+    margin: 0 auto 0 auto;
+  }
+  .main-content-container figure {
+    font-size: 0.688rem;
+  }
+}
+@media (min-width: 1px) {
+  .homepage {
+    margin: inherit;
+  }
+}
+@media (min-width:480px) {
+  .homepage {
+    margin: inherit;
+  }
+}
+@media (min-width: 600px) {
+  .homepage {
+    margin: inherit;
+  }
+}
+@media (min-width: 801px) {
+  .homepage {
+    margin: inherit;
+  }
+}
+@media (min-width: 956px) {
+  .homepage .l-row {
+    padding-left: 0;
+  }
+  .homepage .l-row > div {
+    padding-right: 22px;
+  }
+  .homepage .l-row > div:last-child {
+    padding-right: 0;
+  }
+  .homepage .l-row .l-narrow-col:nth-child(1) .dark-top-border-container ul {
+    margin-left: 22px;
+  }
+  .homepage .l-row .l-narrow-col:nth-child(2) .dark-top-border-container ul {
+    margin: 0 11px;
+  }
+  .homepage .l-row .l-narrow-col:nth-child(3) .dark-top-border-container ul {
+    margin-right: 22px;
   }
 }
