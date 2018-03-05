@@ -67,15 +67,14 @@
 			margin: 0 22px 6px 22px;
 		}
 		a {
-			width: 100%;
-			display: block;
-			background-color: yellowgreen;
-			text-align: center;
+			width: auto;
+			display: table;
+			float: left;
 			img {
 				//	padding: 4px;
 				//	border: 1px solid #dadada;
-				float: left;
-				margin: 0 22px;
+				  float: left;
+				  margin: 0 22px 0 0;
 				//	width: 193px; // actual + 10
 				//	height: 111px; // actual + 10
 				//	background-color: red;
@@ -85,7 +84,10 @@
 		}
 		ul {
 			float: left;
+			width: 60%;
 			li {
+				width: 100%;
+				display: table;
 				&.head {
 					h3 {
 						a {
@@ -111,6 +113,7 @@
 		background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
 		background-size: cover;
 		a {
+			
 			img {
 				margin: 0;
 			}
@@ -139,6 +142,7 @@
 			}
 		}
 		ul {
+			width: 100%;
 			li {
 				&.head {
 					margin: 8px 0 10px 0;

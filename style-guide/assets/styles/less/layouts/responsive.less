@@ -24,7 +24,7 @@
 
     // ---------
     // | 1 | 2 |
-    // ---------
+    // --------- <----- clear
     // | 3 | 4 |
     // ---------
     .l-4-col {
@@ -36,11 +36,13 @@
         .l-side-column {
             &:nth-child(2) {
                 padding:0;
+               
             }
         }
         .l-side-column {
             &:nth-child(3) {
                 padding-right:22px;
+                clear: left;
             }
         }
         .l-side-column {
@@ -56,15 +58,11 @@
 
 @media @tablet {
     // ------------
-    // | main | 1 | <----- desktop
-    // |      | 2 |
-    // ------------
-    // ------------
     // |   main   | <----- responsive
      // ------------
     // |  1  |  2 |
     // ------------
-	.l-two-column-right {
+	.l-2-column-right {
 		.l-side-column {
             &:nth-child(2) {
                 padding-right: 22px;
@@ -153,5 +151,74 @@
     margin: inherit;
 }
 @media @laptop {
-    margin: inherit;	
+    
+    
+
+    // ------------
+    // | main | 1 | <----- laptop < 
+    // |      | 2 |
+    // ------------
+
+	.l-2-column-right {
+		.l-side-column {
+            &:nth-child(2) {
+                padding-right: 0; // <--- this may need to go to the home layouts
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 25%;
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%;
+                width: 25%;
+                float: left;
+            }
+            &:nth-child(3) {
+                padding-left: 0; // <--- this may need to go to the home layouts
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 25%;
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%;
+                width: 25%;
+                float: left;
+            }
+        }
+    }
+
+
+    // ----------------
+    // | 1 | 2 | 3 | 4 |
+    // ----------------
+    .l-4-col {
+        .l-side-column {
+            &:nth-child(1) {
+                padding-right:22px;
+            }
+        }
+        .l-side-column {
+            &:nth-child(2) {
+                padding-right:22px;
+               
+            }
+        }
+        .l-side-column {
+            &:nth-child(3) {
+                padding-right:22px;
+                clear: none;
+            }
+        }
+        .l-side-column {
+            &:nth-child(4) {
+                padding: 0;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
 }

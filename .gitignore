@@ -42,7 +42,7 @@ petroleum/
 # dotenv environment variables file
 .env
 webpack.config.js
-# gulp/
+gulp/
 
 
 

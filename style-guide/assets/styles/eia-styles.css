@@ -23,8 +23,8 @@
 @import "less/social-sticker";
 
 @import "less/layouts/layouts";
-@import "less/layouts/responsive-reordering";
-@import "less/layouts/special-rules";
+@import "less/layouts/reordering";
+@import "less/layouts/responsive";
 
 /* content container must be the first line item of the modules */
 @import "less/modules/content-container";
