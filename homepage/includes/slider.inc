@@ -7,8 +7,8 @@
             } else {
                 echo $homepageFeatures;
             }
-            ?>
-            </ul>
+        ?>
+        </ul>
         <div class="slider-home-pager"></div>
     </div>
     <div class="slider-home-bottom"></div>

@@ -10,7 +10,6 @@ class BxSlider {
 		this.window = $(window);
         this.checkSize();
         this.events();
-        
     }
 //    initialState() {
 //        this.bxSliderHome.show();
