@@ -1,16 +1,3 @@
-/* v1 header + footer
-@import "less/vendor/fancybox";
-@import "less/global_vars";
-@import "less/global_mixins";
-@import "less/base";
-@import "less/footer";
-@import "less/header";
-@import "less/header-menu";
-@import "less/icons";
-@import "less/layouts";
-@import "less/social-sticker";
-@import "less/modules/bookshelf-search";
-*/
 
 @import "less/vendor/fancybox";
 @import "less/global_vars";
@@ -37,8 +24,7 @@
 @import "less/sliders/shared";
 @import "less/sliders/home";
 @import "less/sliders/multi";
-
 @import "less/home/energy-kids";
 @import "less/home/features";
-@import "less/home/main-content-container";
+@import "less/home/today-in-energy";
 @import "less/home/layout";

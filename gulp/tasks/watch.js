@@ -11,7 +11,7 @@ gulp.task('watch', function() {
       baseDir: "./style-guide"
     }
   });
-  watch('./style-guide/*.html', () =>
+  watch('./index.html', () =>
   // change this to point to the file you are working on... for example ../petroleum/index.php
   // browser sync will refresh the page automatically when you build
   // also, you can copy the link into another browser and both browsers will be in sync

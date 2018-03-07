@@ -19,7 +19,7 @@ new BookshelfSearch();
 import BxSlider from './modules/bxslider';
 new BxSlider();
 
-//import Ellipsis from './modules/ellipsis';
-//new Ellipsis();
+//import FitText from './modules/fit-text';
+//new FitText();
 
 //import HeaderAutocomplete from './modules/_header-autocomplete'; // required jquery ui

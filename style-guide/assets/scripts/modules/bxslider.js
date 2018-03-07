@@ -25,9 +25,10 @@ class BxSlider {
             maxSlides: 1,
             slideMargin: 0,  //integer
             wrapperClass: 'slider-home-wrapper', // overides default bx-wrapper
-            //autoHover: true,
+            autoHover: true,
             controls: false,
             //adaptiveHeight: true,
+            //responsive: true,
             pager: true,
             pagerSelector: '.slider-home-pager',
             slideWidth: 956,

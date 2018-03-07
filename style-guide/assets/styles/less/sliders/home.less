@@ -2,15 +2,7 @@
 	//////////////////////////////////////////////////////////////////
 	//  home slider ratio is 283 / 958 = 29.123%                 //
 	////////////////////////////////////////////////////////////////
-	.slider-home-top {
-		border-bottom: solid 1px #d5d5d5;
-		padding-bottom: 1px;
-	}
 	.slider-home {
-		box-sizing: border-box;
-		* {
-			box-sizing: border-box;
-		}
 		padding-top: 1px;
 		padding-bottom: 1px;
 		width: 100%;
@@ -19,14 +11,15 @@
 			list-style: none;
 			margin: 0;
 			padding: 0;
-//			display: none;
 			li {
 				background-repeat: no-repeat;
 				background-size: cover;
 				list-style: none;
+				position: relative;
 				img {
-					max-width: 100%;
 					display: block;
+					width: 100%;
+					height: auto;
 				}
 			}
 		}
@@ -42,16 +35,19 @@
 				-webkit-transform: translatez(0);
 				.slider-overlay {
 					display: block;
-					width: 90%;
-					margin: auto 5%;
-					padding: 5%;
-					background-color: rgba(0, 60, 87, 0.7); // must be rgba - do not use var
+					width: 100%;
+					height: 220px;
+					margin: 0;
+					padding: 5% 22px;
+					background-color: rgb(0, 59, 87); // must be rgba - do not use var
+
 					h2 {
 						.header-font;
 						color: #fff;
-						font-size: 1.5rem; //24px
-						line-height: 32px;
-						margin-top: 0;
+						font-size: 24px;
+						//line-height: 32px;
+						margin: 0;
+						height: 90px;
 						a {
 							color: #fff;
 							text-decoration: none;
@@ -63,8 +59,10 @@
 					h3 {
 						.header-font;
 						color: #b3c2c9;
-						font-size: 1.25rem; //20px
-						line-height: 32px;
+						font-size: 18px;
+						//line-height: 32px;
+						margin: 0;
+						height: 80px;
 						a {
 							color:#b3c2c9;
 							text-decoration: none;
@@ -81,7 +79,7 @@
 		}
 	}
 	.slider-home-pager {
-		top: -20px;
+		top: -25px;
 		text-align: center;
 		position: relative;
 		.bx-pager.bx-default-pager {
@@ -117,15 +115,33 @@
 	.slider-home {
 		.slider-home-wrapper {
 			.bx-viewport {
-				ul {
-					li {
-						.slider-overlay {
-							float: right;
-							margin: 1em;
-							min-height: 180px;
-							width: 50%;
-						}
+				.slider-overlay {
+					padding: 2% 22px;
+					height: 140px;
+					h2 {
+						font-size: 24px;
+						height: 55px;
 					}
+					h3 {
+						font-size: 18px;
+						height: 40px;
+					}
+				}
+			}
+		}
+	}
+}
+@media @tablet {
+	.slider-home {
+		.slider-home-wrapper {
+			.slider-overlay {
+				h2 {
+					font-size: 24px;
+					height: 60px;
+				}
+				h3 {
+					font-size: 18px;
+					height: 60px;
 				}
 			}
 		}
@@ -146,17 +162,29 @@
 			.bx-viewport {
 				width: 956px;
 				height: 280px;
+				.slider-overlay {
+					float: right;
+					margin: 28px;
+					padding: 17px;
+					width: 353px;
+					height: 224px; // 280 - ( 28 - 28 ) = 234
+					top: -280px;
+					position: relative;
+					background-color: rgba(0, 60, 87, 0.7); // must be rgba - do not use var
+					h2 {
+						font-size: 24px;
+						height: 90px;
+					}
+					h3 {
+						font-size: 18px;
+						height: 90px;
+					}
+				}
+
 				ul {
 					li {
 						width: 956px;
 						height: 280px;
-						.slider-overlay {
-							float: right;
-							margin: 28px;
-							padding: 17px;
-							width: 353px;
-							height: 224px; // 280 - ( 28 - 28 ) = 234
-						}
 					}
 				}
 			}
@@ -176,7 +204,10 @@
 		width: 956px;
 		height: 18px;
 		float: left;
-		background: url("https://www.eia.gov/global/images/bg/h_line_shadow_feature_banner.png") no-repeat top center;
+		padding: 0;
+		margin-top: -18px;
+		margin-bottom: 1em;
+		background: url(https://www.eia.gov/global/images/bg/h_line_shadow_feature_banner.png) no-repeat top center;
 	}
 }
 
