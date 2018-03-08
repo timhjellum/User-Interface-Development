@@ -3308,7 +3308,6 @@ span.line-break {
     width: 50%;
   }
   .footer .address-bar .address {
-    padding: 1em 1em 2em;
     text-align: right;
     border-right: 1px solid #a6a5a6;
     padding: 0 25px 0 0;
@@ -3324,18 +3323,34 @@ span.line-break {
   }
   .footer .l-one-third-column {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
   }
   .footer .l-two-third-column {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 66.666667%;
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-    width: 66.666667%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .footer .address-bar {
+    width: 100%;
+    padding: 0 0 1em 0;
+  }
+  .footer .address-bar .above-address-links {
+    padding: 0 22px 1em 22px;
+  }
+  .footer .address-bar .address {
+    padding: 0;
+    text-align: center;
+    border-right: none;
+  }
+  .footer .footer-links ul {
+    min-height: 250px;
   }
 }
 @media (min-width: 801px) {
@@ -3345,14 +3360,6 @@ span.line-break {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
-  }
-}
-@media (min-width: 600px) {
-  .footer .address-bar .address {
-    padding: 1em;
-  }
-  .footer .footer-links ul {
-    min-height: 300px;
   }
 }
 @media (min-width: 956px) {
@@ -3379,6 +3386,9 @@ span.line-break {
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
     width: 66.666667%;
+  }
+  .footer .address-bar {
+    padding: 1em 0 2em 0;
   }
   .footer .address-bar .address {
     font-size: .6875rem;
@@ -6516,6 +6526,7 @@ span.line-break {
     -webkit-order: 3;
     order: 3;
     padding-right: 0;
+    padding-left: 0;
   }
   .l-3-col.l-reorder .l-second {
     -webkit-box-ordinal-group: 1;
@@ -6562,6 +6573,7 @@ span.line-break {
 @media (min-width: 600px) {
   .l-2-col-right .l-narrow-col:nth-child(2) {
     padding-right: 22px;
+    padding-left: 0;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 50%;
     -ms-flex: 0 0 50%;
@@ -6572,6 +6584,7 @@ span.line-break {
   }
   .l-2-col-right .l-narrow-col:nth-child(3) {
     padding-left: 0;
+    padding-right: 0;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 50%;
     -ms-flex: 0 0 50%;
@@ -6651,6 +6664,7 @@ span.line-break {
   }
   .l-2-col-right .l-narrow-col:nth-child(3) {
     padding-left: 0;
+    padding-right: 0;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 25%;
     -ms-flex: 0 0 25%;
@@ -7325,26 +7339,18 @@ font-size: 1.500rem; // 24 pixels
 }
 @media (min-width: 1px) {
   .current-issues-trends {
-    box-sizing: border-box;
     padding: 0 0 6px 0;
     margin: 2em 0 .5em 0;
     width: 100%;
     border-bottom: solid 1px #668393;
     clear: both;
   }
-  .current-issues-trends * {
-    box-sizing: border-box;
-  }
   .slider-multi {
-    box-sizing: border-box;
     margin: 8px 0 1.625em 0;
     width: 100%;
     border-top: 1px solid #dadada;
     padding: 12px 0 0 0;
     clear: both;
-  }
-  .slider-multi * {
-    box-sizing: border-box;
   }
   .slider-multi .slider-multi-wrapper {
     position: relative;
@@ -7955,22 +7961,38 @@ font-size: 1.500rem; // 24 pixels
   }
 }
 @media (min-width: 956px) {
+  .homepage {
+    /*
+			.l-narrow-col {
+				&:nth-child(2) {
+					.dark-top-border-container { 
+						ul {
+							margin: 0 11px;
+						}
+					}
+				}
+			}
+			.l-narrow-col {
+				&:nth-child(3) {
+					.dark-top-border-container { 
+						ul {
+//							margin-right: 22px;
+						}
+					}
+				}
+			}
+			*/
+  }
   .homepage .l-row {
     padding-left: 0;
   }
   .homepage .l-row > div {
     padding-right: 22px;
   }
-  .homepage .l-row > div:last-child {
-    padding-right: 0;
-  }
-  .homepage .l-row .l-narrow-col:nth-child(1) .dark-top-border-container ul {
+  .homepage .l-row.l-4-col .l-narrow-col .dark-top-border-container ul {
     margin-left: 22px;
   }
-  .homepage .l-row .l-narrow-col:nth-child(2) .dark-top-border-container ul {
-    margin: 0 11px;
-  }
-  .homepage .l-row .l-narrow-col:nth-child(3) .dark-top-border-container ul {
-    margin-right: 22px;
+  .homepage .l-row.l-3-col .l-narrow-col .dark-top-border-container ul {
+    margin-left: 22px;
   }
 }

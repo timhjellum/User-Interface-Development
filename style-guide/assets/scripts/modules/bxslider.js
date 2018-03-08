@@ -11,6 +11,7 @@ class BxSlider {
         this.checkSize();
         this.events();
     }
+
 //    initialState() {
 //        this.bxSliderHome.show();
 //        this.bxSliderMulti.show();
@@ -27,8 +28,6 @@ class BxSlider {
             wrapperClass: 'slider-home-wrapper', // overides default bx-wrapper
             autoHover: true,
             controls: false,
-            //adaptiveHeight: true,
-            //responsive: true,
             pager: true,
             pagerSelector: '.slider-home-pager',
             slideWidth: 956,

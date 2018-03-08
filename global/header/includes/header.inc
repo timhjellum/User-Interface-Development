@@ -1,5 +1,5 @@
 <div class="page-wrapper">
-	<?php include('css_rehab/archive/global/includes/header/social-sticker/social-sticker.inc') ?>
+	<?php include('css_rehab/archive/global/header/social-sticker/social-sticker.inc') ?>
 	<header>
 		<div class="print">
 			<img src="/global/images/logos/eia-logo-print.png" alt="U.S. Energy Information Administration logo" />
