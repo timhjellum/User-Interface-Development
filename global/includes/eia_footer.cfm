@@ -17,7 +17,7 @@
                 <li><a href="/about/contact/">Contact Us</a><div class="arrow-right"></div></li>
             </ul>
         </div>
-        <div class="l-one-third-column">
+        <div class="l-one-third-col">
             <div class="address">U.S. Energy Information Administration<br />1000 Independence Ave., SW <br />Washington, DC 20585</div>
         </div>
     </div>

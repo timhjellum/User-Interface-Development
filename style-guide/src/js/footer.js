@@ -11,7 +11,7 @@ $(document).ready(function() {
         <li><a href="/about/contact/">Themes</a><div class="arrow-right"></div></li>
       </ul>
     </div>
-    <div class="l-one-third-column">
+    <div class="l-one-third-col">
       <div class="address">
         Energy Information Agency
         <br />1000 Independence Avenue, SW,

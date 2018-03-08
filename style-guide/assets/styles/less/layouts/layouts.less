@@ -5,11 +5,21 @@
 		padding: 0;
 		margin: 0;
 		.l-outer-wrapper {
-			background-color: #fff;
+			-webkit-box-flex: 0;
+			-webkit-flex: 0 0 100%;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 100%;
 			padding: 0;
-			margin: 0;		
+			margin: 0;
+			background-color: #fff;		
 			.l-inner-wrapper{
-				background-color: #fff;
+				-webkit-box-flex: 0;
+				-webkit-flex: 0 0 100%;
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				max-width: 100%;
+
 				padding: 39px 0 0 0;
 				margin: 0;
 			}
@@ -27,13 +37,13 @@
 		margin-right: auto;
 	}
 	.l-column,
-	.l-full-width-column,
+	.l-full-width-col,
 	.l-main-col,
 	.l-middle-col,
 	.l-narrow-col,
 	.l-split-narrow,
 	.l-split-wide,
-	.l-one-third-column,
+	.l-one-third-col,
 	.l-two-column,
 	.l-two-third-column {
 		position: relative;
@@ -44,49 +54,53 @@
 	}
 	.l-row {
 		.l-column,
-		.l-full-width-column,
+		.l-full-width-col,
 		.l-main-col,
 		.l-middle-col,
 		.l-narrow-col,
 		.l-split-narrow,
 		.l-split-wide,
-		.l-one-third-column,
+		.l-one-third-col,
 		.l-two-column,
 		.l-two-third-column { 
-//			margin-top: 1.500em;
-			box-sizing: border-box;
+			margin-top: inherit;
 		}
 		&.header {
 			.l-column,
-			.l-full-width-column,
+			.l-full-width-col,
 			.l-main-col,
 			.l-middle-col,
 			.l-narrow-col,
 			.l-split-narrow,
 			.l-split-wide,
-			.l-one-third-column,
+			.l-one-third-col,
 			.l-two-column,
 			.l-two-third-column { 
 				border-top: none;
-				box-sizing: border-box;
+				
 			}
 		}
 	}
 	.l-row {
-		padding: 0 20px;
-		display: table;
+		padding: 0 22px;
+//		display: table; <--- cannot be a table
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
 		width: 100%;
-		box-sizing: border-box;
+		clear: both;
 		&.header {
-			padding: 0 0;
-			box-sizing: border-box;
+			padding: 0;
+			
 		}
 	}
 
 
 
 
-	.l-full-width-column {
+	.l-full-width-col {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
@@ -95,7 +109,11 @@
 	}
 
 	.container {
-		width: 100%;
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
 		clear: both;
 	}
 	.l-column {
@@ -107,7 +125,7 @@
 	}
 	.l-narrow-col,
 	// 3 or 25%
-	.l-one-third-column,
+	.l-one-third-col,
 	// 4 or one-third
 	.l-two-column,
 	// 6 or 50%
@@ -122,7 +140,7 @@
 	.l-main-col,
 	// 9 or 75%
 	// 12 or full
-	.l-full-width-column {
+	.l-full-width-col {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
@@ -170,66 +188,15 @@
 
 
 }
+/*
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.l-outer-wrapper {
 		max-width: 599px;
 		min-width: 480px;
-		/*
-		.l-4-col {
-			.l-narrow-col {
-				&:nth-child(1) {
-					padding-right:22px;
-				}
-			}
-			.l-narrow-col {
-				&:nth-child(2) {
-					padding:0;
-				}
-			}
-			.l-narrow-col {
-				&:nth-child(3) {
-					padding-right:22px;
-				}
-			}
-			.l-narrow-col {
-				&:nth-child(4) {
-					padding: 0;
-				}
-			}
-		}
-		*/
 	}
 }
-@media @tablet {
-	// mobile panorama
-	.l-outer-wrapper {
-		max-width: 800px;
-		min-width: 600px;
-	}
-	/*
-	.l-left-column .l-narrow-col .l-narrow-col {
-			-webkit-box-flex: 0;
-			-webkit-flex: 0 0 100%;
-			-ms-flex: 0 0 100%;
-			flex: 0 0 100%;
-			max-width: 100%;
-			float: left;
-			padding-left: 0;
-			padding-right: 0;
-	}
-	*/
-	.l-two-column,
-	.l-one-third-column,// 4
-//	.l-middle-col/// 6
-//	.l-main-col
-	 {
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 100%;
-		-ms-flex: 0 0 100%;
-		flex: 0 0 100%;
-		max-width: 100%;
-		float: left;
-	}
+*/
+@media @tablet {	// mobile panorama
 	.l-column {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 33.333333%;
@@ -237,10 +204,8 @@
 		flex: 0 0 33.333333%;
 		max-width: 33.333333%;
 	}
-
-
 	.l-narrow-col,
-	.l-one-third-column,
+	.l-one-third-col,
 	.l-two-column,
 	.l-split-narrow,
 	.l-split-wide,
@@ -253,51 +218,19 @@
 		width: 50%;
 		float: left;
 	}
-
-	/*
-	.l-3-col-reorder {
-		.l-narrow-col {
-			&:nth-child(1) {
-				padding-right:11px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(2) {
-				padding-left:11px;
-			}
-		}
-	}
-	.l-4-col {
-		.l-narrow-col {
-			&:nth-child(1) {
-				padding-right:22px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(2) {
-				padding-right:22px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(3) {
-				padding-right:22px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(4) {
-				padding: 0;
-			}
-		}
-	}
-	*/
 }
+/*
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
 	.l-outer-wrapper {
 		max-width: 801px;
 		min-width: 989px;
 	}
 }
+*/
 @media @laptop {
+	body {
+		background-color: #e8ecf2;
+	}
 	.page-wrapper {
 		.l-outer-wrapper {
 			// normall 1025 - big landscape tablets, laptops, and desktops
@@ -308,17 +241,19 @@
 			max-width: 992px;
 			min-width: 992px;
 			width: 992px;
+			display: table;
 			.l-inner-wrapper {
 	//position: relative;	
 	//background-color: #fff;
 				border-right: 1px solid #dbdfe5;
-				border-left: 1px solid #dbdfe5; 
+				border-left: 1px solid #dbdfe5;
+				background-color: #fff;
 				padding: 96px 15px 0 15px;
 				max-width: 990px;
 				min-width: 990px;
 				width: 990px;
 				margin: 0;
-				//display: table;
+				display: table-cell;
 				&.show {
 					padding: 90px 0 50px;
 				}			
@@ -339,14 +274,14 @@
 	.l-row.header > ol,
 	.l-column,
 	.l-narrow-col,
-	.l-one-third-column,
+	.l-one-third-col,
 	.l-two-column,
 	.l-middle-col,
 	.l-split-narrow,
 	.l-split-wide,
 	.l-two-third-column,
 	.l-main-col,
-	.l-full-width-column {
+	.l-full-width-col {
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -389,7 +324,7 @@
 
 
 
-	.l-one-third-column {
+	.l-one-third-col {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 33.333333%;
 		-ms-flex: 0 0 33.333333%;
@@ -438,7 +373,7 @@
 		flex: 0 0 75%;
 		max-width: 75%;
 	}
-	.l-full-width-column {
+	.l-full-width-col {
 		padding-right: 0;
 		padding-left: 0;
 	}
@@ -457,7 +392,7 @@
 			padding-left: 0;
 			padding-right: 0;
 			width: 100%;
-			.l-full-width-column {
+			.l-full-width-col {
 				padding-right: 0;
 
 			}

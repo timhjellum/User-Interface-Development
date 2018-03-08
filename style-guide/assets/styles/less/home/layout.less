@@ -1,75 +1,63 @@
-.homepage {
-	@media @mobile {
-		margin: inherit;
-	}
-	@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
-		margin: inherit;
-	}
 
-
-
-
-	@media @tablet {
-		margin: inherit;
+@media @mobile {
+	margin: inherit;
+}
+@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
+	margin: inherit;
+}
+@media @tablet {
+	.homepage {
+		.l-2-col-right {
+			.l-narrow-col {
+				&:nth-child(2) {
+					padding-left: 22px;
+				}
+				&:nth-child(3) {
+					padding-right: 22px;
+				}
+			}
+		}
 	}
-	@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
-		margin: inherit;
-	}
-	@media @laptop {
+}
+@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
+	margin: inherit;
+}
+@media @laptop {
+	.homepage {
 		.l-row {
 			padding-left: 0;
 			&>div {
 				padding-right: 22px;
-//				&:last-child {
-//					padding-right: 0;
-//				}
 			}
 		}
+
 		.l-row.l-4-col {
 			.l-narrow-col {
-//				&:nth-child(1) {
-					.dark-top-border-container { 
-						ul {
-							margin-left: 22px;
-						}
+				.dark-top-border-container { 
+					ul {
+						margin-left: 22px;
 					}
-//				}
+				}
 			}
 		}
 		.l-row.l-3-col {
 			.l-narrow-col {
-//				&:nth-child(1) {
-					.dark-top-border-container { 
-						ul {
-							margin-left: 22px;
-						}
+				.dark-top-border-container { 
+					ul {
+						margin-left: 22px;
 					}
-//				}
+				}
 			}
 		}
-
-
-
-
-/*
+		.l-2-col-right {
 			.l-narrow-col {
 				&:nth-child(2) {
-					.dark-top-border-container { 
-						ul {
-							margin: 0 11px;
-						}
-					}
+					padding-left: 0;
 				}
-			}
-			.l-narrow-col {
 				&:nth-child(3) {
-					.dark-top-border-container { 
-						ul {
-//							margin-right: 22px;
-						}
-					}
+					padding-right:0;
 				}
 			}
-			*/
-    }
+		}
+	}
 }

@@ -42,15 +42,15 @@
 			<?php include('css_rehab/archive/homepage/includes/data-highlights.inc"') ?>
 		</div>
 	</div>
-	<div class="l-row l-2-col-right">
+	<div class="l-row l-2-col-right header">
 		<div class="l-main-col">
 			<?php include('css_rehab/archive/homepage/includes/features.inc') ?>
 		</div>
 		<div class="l-narrow-col">
-		<?php include('css_rehab/archive/homepage/includes/outlooks.inc') ?>
+			<?php include('css_rehab/archive/homepage/includes/outlooks.inc') ?>
 		</div>
 		<div class="l-narrow-col">
-		<?php include('css_rehab/archive/homepage/includes/learn-about-energy.inc') ?>
+			<?php include('css_rehab/archive/homepage/includes/learn-about-energy.inc') ?>
 		</div>
 	</div>
 	<div class="l-row l-4-col">

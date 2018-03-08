@@ -157,7 +157,7 @@
     <div class="content-container features dark-top-border-container">
       <div class="l-row">
         <h2>Features</h2>
-        <div class="l-one-third-column">
+        <div class="l-one-third-col">
           <div class="content-container">
             <a href="http://www.eia.gov/beta/realtime_grid/#/summary/demand"><img src="global/images/home_sm_features/electric_data_sys.jpg" alt="Electricity Data Browser"/></a>
             <ul>
@@ -168,7 +168,7 @@
             </ul>
                           </div>
         </div>
-        <div class="l-one-third-column">
+        <div class="l-one-third-col">
           <div class="content-container">
             <a href="/special/disruptions/"><img src="global/images/home_sm_features/disruptionsmap.jpg" alt="Energy Disruptions Map"/></a>
             <ul>
@@ -179,7 +179,7 @@
             </ul>
                           </div>
         </div>
-        <div class="l-one-third-column">
+        <div class="l-one-third-col">
           <div class="content-container">
           <img src="/global/images/home_sm_features/energy_mapping_system.jpg" alt="U.S. Energy Mapping System"/></a>
             <ul>
@@ -197,7 +197,7 @@
 
 
     <div class="l-row">
-      <div class="l-one-third-column">
+      <div class="l-one-third-col">
         
         <?php /* Our Experts Speak */ ?>
         <div class="content-container dark-top-border-container">
@@ -213,7 +213,7 @@
         <?php /* Our Experts Speak */ ?>
 
       </div>
-      <div class="l-one-third-column">
+      <div class="l-one-third-col">
         
       <?php /* Especially For */ ?>
       <div class="content-container dark-top-border-container">
@@ -233,7 +233,7 @@
       <?php /* Especially For */ ?>
 
       </div>
-      <div class="l-one-third-column">
+      <div class="l-one-third-col">
         
       <?php /* Top Picks */ ?>
         <div class="content-container dark-top-border-container">

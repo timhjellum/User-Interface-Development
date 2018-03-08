@@ -286,7 +286,7 @@ html * {
    * Remove the margin in all browsers (opinionated).
    */
 body {
-  background-color: #e8ecf2;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -346,9 +346,9 @@ body {
   .global-nav .l-column,
   header .l-column,
   footer .l-column,
-  .global-nav .l-full-width-column,
-  header .l-full-width-column,
-  footer .l-full-width-column,
+  .global-nav .l-full-width-col,
+  header .l-full-width-col,
+  footer .l-full-width-col,
   .global-nav .l-main-col,
   header .l-main-col,
   footer .l-main-col,
@@ -364,9 +364,9 @@ body {
   .global-nav .l-split-wide,
   header .l-split-wide,
   footer .l-split-wide,
-  .global-nav .l-one-third-column,
-  header .l-one-third-column,
-  footer .l-one-third-column,
+  .global-nav .l-one-third-col,
+  header .l-one-third-col,
+  footer .l-one-third-col,
   .global-nav .l-two-column,
   header .l-two-column,
   footer .l-two-column,
@@ -532,9 +532,9 @@ body {
   .global-nav .l-column *,
   header .l-column *,
   footer .l-column *,
-  .global-nav .l-full-width-column *,
-  header .l-full-width-column *,
-  footer .l-full-width-column *,
+  .global-nav .l-full-width-col *,
+  header .l-full-width-col *,
+  footer .l-full-width-col *,
   .global-nav .l-main-col *,
   header .l-main-col *,
   footer .l-main-col *,
@@ -550,9 +550,9 @@ body {
   .global-nav .l-split-wide *,
   header .l-split-wide *,
   footer .l-split-wide *,
-  .global-nav .l-one-third-column *,
-  header .l-one-third-column *,
-  footer .l-one-third-column *,
+  .global-nav .l-one-third-col *,
+  header .l-one-third-col *,
+  footer .l-one-third-col *,
   .global-nav .l-two-column *,
   header .l-two-column *,
   footer .l-two-column *,
@@ -564,9 +564,9 @@ body {
   .global-nav .l-column p,
   header .l-column p,
   footer .l-column p,
-  .global-nav .l-full-width-column p,
-  header .l-full-width-column p,
-  footer .l-full-width-column p,
+  .global-nav .l-full-width-col p,
+  header .l-full-width-col p,
+  footer .l-full-width-col p,
   .global-nav .l-main-col p,
   header .l-main-col p,
   footer .l-main-col p,
@@ -582,9 +582,9 @@ body {
   .global-nav .l-split-wide p,
   header .l-split-wide p,
   footer .l-split-wide p,
-  .global-nav .l-one-third-column p,
-  header .l-one-third-column p,
-  footer .l-one-third-column p,
+  .global-nav .l-one-third-col p,
+  header .l-one-third-col p,
+  footer .l-one-third-col p,
   .global-nav .l-two-column p,
   header .l-two-column p,
   footer .l-two-column p,
@@ -594,9 +594,9 @@ body {
   .global-nav .l-column li,
   header .l-column li,
   footer .l-column li,
-  .global-nav .l-full-width-column li,
-  header .l-full-width-column li,
-  footer .l-full-width-column li,
+  .global-nav .l-full-width-col li,
+  header .l-full-width-col li,
+  footer .l-full-width-col li,
   .global-nav .l-main-col li,
   header .l-main-col li,
   footer .l-main-col li,
@@ -612,9 +612,9 @@ body {
   .global-nav .l-split-wide li,
   header .l-split-wide li,
   footer .l-split-wide li,
-  .global-nav .l-one-third-column li,
-  header .l-one-third-column li,
-  footer .l-one-third-column li,
+  .global-nav .l-one-third-col li,
+  header .l-one-third-col li,
+  footer .l-one-third-col li,
   .global-nav .l-two-column li,
   header .l-two-column li,
   footer .l-two-column li,
@@ -624,9 +624,9 @@ body {
   .global-nav .l-column .error,
   header .l-column .error,
   footer .l-column .error,
-  .global-nav .l-full-width-column .error,
-  header .l-full-width-column .error,
-  footer .l-full-width-column .error,
+  .global-nav .l-full-width-col .error,
+  header .l-full-width-col .error,
+  footer .l-full-width-col .error,
   .global-nav .l-main-col .error,
   header .l-main-col .error,
   footer .l-main-col .error,
@@ -642,9 +642,9 @@ body {
   .global-nav .l-split-wide .error,
   header .l-split-wide .error,
   footer .l-split-wide .error,
-  .global-nav .l-one-third-column .error,
-  header .l-one-third-column .error,
-  footer .l-one-third-column .error,
+  .global-nav .l-one-third-col .error,
+  header .l-one-third-col .error,
+  footer .l-one-third-col .error,
   .global-nav .l-two-column .error,
   header .l-two-column .error,
   footer .l-two-column .error,
@@ -654,9 +654,9 @@ body {
   .global-nav .l-column .alert,
   header .l-column .alert,
   footer .l-column .alert,
-  .global-nav .l-full-width-column .alert,
-  header .l-full-width-column .alert,
-  footer .l-full-width-column .alert,
+  .global-nav .l-full-width-col .alert,
+  header .l-full-width-col .alert,
+  footer .l-full-width-col .alert,
   .global-nav .l-main-col .alert,
   header .l-main-col .alert,
   footer .l-main-col .alert,
@@ -672,9 +672,9 @@ body {
   .global-nav .l-split-wide .alert,
   header .l-split-wide .alert,
   footer .l-split-wide .alert,
-  .global-nav .l-one-third-column .alert,
-  header .l-one-third-column .alert,
-  footer .l-one-third-column .alert,
+  .global-nav .l-one-third-col .alert,
+  header .l-one-third-col .alert,
+  footer .l-one-third-col .alert,
   .global-nav .l-two-column .alert,
   header .l-two-column .alert,
   footer .l-two-column .alert,
@@ -684,9 +684,9 @@ body {
   .global-nav .l-column .notice,
   header .l-column .notice,
   footer .l-column .notice,
-  .global-nav .l-full-width-column .notice,
-  header .l-full-width-column .notice,
-  footer .l-full-width-column .notice,
+  .global-nav .l-full-width-col .notice,
+  header .l-full-width-col .notice,
+  footer .l-full-width-col .notice,
   .global-nav .l-main-col .notice,
   header .l-main-col .notice,
   footer .l-main-col .notice,
@@ -702,9 +702,9 @@ body {
   .global-nav .l-split-wide .notice,
   header .l-split-wide .notice,
   footer .l-split-wide .notice,
-  .global-nav .l-one-third-column .notice,
-  header .l-one-third-column .notice,
-  footer .l-one-third-column .notice,
+  .global-nav .l-one-third-col .notice,
+  header .l-one-third-col .notice,
+  footer .l-one-third-col .notice,
   .global-nav .l-two-column .notice,
   header .l-two-column .notice,
   footer .l-two-column .notice,
@@ -714,9 +714,9 @@ body {
   .global-nav .l-column .success,
   header .l-column .success,
   footer .l-column .success,
-  .global-nav .l-full-width-column .success,
-  header .l-full-width-column .success,
-  footer .l-full-width-column .success,
+  .global-nav .l-full-width-col .success,
+  header .l-full-width-col .success,
+  footer .l-full-width-col .success,
   .global-nav .l-main-col .success,
   header .l-main-col .success,
   footer .l-main-col .success,
@@ -732,9 +732,9 @@ body {
   .global-nav .l-split-wide .success,
   header .l-split-wide .success,
   footer .l-split-wide .success,
-  .global-nav .l-one-third-column .success,
-  header .l-one-third-column .success,
-  footer .l-one-third-column .success,
+  .global-nav .l-one-third-col .success,
+  header .l-one-third-col .success,
+  footer .l-one-third-col .success,
   .global-nav .l-two-column .success,
   header .l-two-column .success,
   footer .l-two-column .success,
@@ -744,9 +744,9 @@ body {
   .global-nav .l-column .info,
   header .l-column .info,
   footer .l-column .info,
-  .global-nav .l-full-width-column .info,
-  header .l-full-width-column .info,
-  footer .l-full-width-column .info,
+  .global-nav .l-full-width-col .info,
+  header .l-full-width-col .info,
+  footer .l-full-width-col .info,
   .global-nav .l-main-col .info,
   header .l-main-col .info,
   footer .l-main-col .info,
@@ -762,9 +762,9 @@ body {
   .global-nav .l-split-wide .info,
   header .l-split-wide .info,
   footer .l-split-wide .info,
-  .global-nav .l-one-third-column .info,
-  header .l-one-third-column .info,
-  footer .l-one-third-column .info,
+  .global-nav .l-one-third-col .info,
+  header .l-one-third-col .info,
+  footer .l-one-third-col .info,
   .global-nav .l-two-column .info,
   header .l-two-column .info,
   footer .l-two-column .info,
@@ -779,9 +779,9 @@ body {
   .global-nav .l-column article,
   header .l-column article,
   footer .l-column article,
-  .global-nav .l-full-width-column article,
-  header .l-full-width-column article,
-  footer .l-full-width-column article,
+  .global-nav .l-full-width-col article,
+  header .l-full-width-col article,
+  footer .l-full-width-col article,
   .global-nav .l-main-col article,
   header .l-main-col article,
   footer .l-main-col article,
@@ -797,9 +797,9 @@ body {
   .global-nav .l-split-wide article,
   header .l-split-wide article,
   footer .l-split-wide article,
-  .global-nav .l-one-third-column article,
-  header .l-one-third-column article,
-  footer .l-one-third-column article,
+  .global-nav .l-one-third-col article,
+  header .l-one-third-col article,
+  footer .l-one-third-col article,
   .global-nav .l-two-column article,
   header .l-two-column article,
   footer .l-two-column article,
@@ -809,9 +809,9 @@ body {
   .global-nav .l-column aside,
   header .l-column aside,
   footer .l-column aside,
-  .global-nav .l-full-width-column aside,
-  header .l-full-width-column aside,
-  footer .l-full-width-column aside,
+  .global-nav .l-full-width-col aside,
+  header .l-full-width-col aside,
+  footer .l-full-width-col aside,
   .global-nav .l-main-col aside,
   header .l-main-col aside,
   footer .l-main-col aside,
@@ -827,9 +827,9 @@ body {
   .global-nav .l-split-wide aside,
   header .l-split-wide aside,
   footer .l-split-wide aside,
-  .global-nav .l-one-third-column aside,
-  header .l-one-third-column aside,
-  footer .l-one-third-column aside,
+  .global-nav .l-one-third-col aside,
+  header .l-one-third-col aside,
+  footer .l-one-third-col aside,
   .global-nav .l-two-column aside,
   header .l-two-column aside,
   footer .l-two-column aside,
@@ -839,9 +839,9 @@ body {
   .global-nav .l-column footer,
   header .l-column footer,
   footer .l-column footer,
-  .global-nav .l-full-width-column footer,
-  header .l-full-width-column footer,
-  footer .l-full-width-column footer,
+  .global-nav .l-full-width-col footer,
+  header .l-full-width-col footer,
+  footer .l-full-width-col footer,
   .global-nav .l-main-col footer,
   header .l-main-col footer,
   footer .l-main-col footer,
@@ -857,9 +857,9 @@ body {
   .global-nav .l-split-wide footer,
   header .l-split-wide footer,
   footer .l-split-wide footer,
-  .global-nav .l-one-third-column footer,
-  header .l-one-third-column footer,
-  footer .l-one-third-column footer,
+  .global-nav .l-one-third-col footer,
+  header .l-one-third-col footer,
+  footer .l-one-third-col footer,
   .global-nav .l-two-column footer,
   header .l-two-column footer,
   footer .l-two-column footer,
@@ -869,9 +869,9 @@ body {
   .global-nav .l-column header,
   header .l-column header,
   footer .l-column header,
-  .global-nav .l-full-width-column header,
-  header .l-full-width-column header,
-  footer .l-full-width-column header,
+  .global-nav .l-full-width-col header,
+  header .l-full-width-col header,
+  footer .l-full-width-col header,
   .global-nav .l-main-col header,
   header .l-main-col header,
   footer .l-main-col header,
@@ -887,9 +887,9 @@ body {
   .global-nav .l-split-wide header,
   header .l-split-wide header,
   footer .l-split-wide header,
-  .global-nav .l-one-third-column header,
-  header .l-one-third-column header,
-  footer .l-one-third-column header,
+  .global-nav .l-one-third-col header,
+  header .l-one-third-col header,
+  footer .l-one-third-col header,
   .global-nav .l-two-column header,
   header .l-two-column header,
   footer .l-two-column header,
@@ -899,9 +899,9 @@ body {
   .global-nav .l-column nav,
   header .l-column nav,
   footer .l-column nav,
-  .global-nav .l-full-width-column nav,
-  header .l-full-width-column nav,
-  footer .l-full-width-column nav,
+  .global-nav .l-full-width-col nav,
+  header .l-full-width-col nav,
+  footer .l-full-width-col nav,
   .global-nav .l-main-col nav,
   header .l-main-col nav,
   footer .l-main-col nav,
@@ -917,9 +917,9 @@ body {
   .global-nav .l-split-wide nav,
   header .l-split-wide nav,
   footer .l-split-wide nav,
-  .global-nav .l-one-third-column nav,
-  header .l-one-third-column nav,
-  footer .l-one-third-column nav,
+  .global-nav .l-one-third-col nav,
+  header .l-one-third-col nav,
+  footer .l-one-third-col nav,
   .global-nav .l-two-column nav,
   header .l-two-column nav,
   footer .l-two-column nav,
@@ -929,9 +929,9 @@ body {
   .global-nav .l-column section,
   header .l-column section,
   footer .l-column section,
-  .global-nav .l-full-width-column section,
-  header .l-full-width-column section,
-  footer .l-full-width-column section,
+  .global-nav .l-full-width-col section,
+  header .l-full-width-col section,
+  footer .l-full-width-col section,
   .global-nav .l-main-col section,
   header .l-main-col section,
   footer .l-main-col section,
@@ -947,9 +947,9 @@ body {
   .global-nav .l-split-wide section,
   header .l-split-wide section,
   footer .l-split-wide section,
-  .global-nav .l-one-third-column section,
-  header .l-one-third-column section,
-  footer .l-one-third-column section,
+  .global-nav .l-one-third-col section,
+  header .l-one-third-col section,
+  footer .l-one-third-col section,
   .global-nav .l-two-column section,
   header .l-two-column section,
   footer .l-two-column section,
@@ -961,9 +961,9 @@ body {
   .global-nav .l-column h1,
   header .l-column h1,
   footer .l-column h1,
-  .global-nav .l-full-width-column h1,
-  header .l-full-width-column h1,
-  footer .l-full-width-column h1,
+  .global-nav .l-full-width-col h1,
+  header .l-full-width-col h1,
+  footer .l-full-width-col h1,
   .global-nav .l-main-col h1,
   header .l-main-col h1,
   footer .l-main-col h1,
@@ -979,9 +979,9 @@ body {
   .global-nav .l-split-wide h1,
   header .l-split-wide h1,
   footer .l-split-wide h1,
-  .global-nav .l-one-third-column h1,
-  header .l-one-third-column h1,
-  footer .l-one-third-column h1,
+  .global-nav .l-one-third-col h1,
+  header .l-one-third-col h1,
+  footer .l-one-third-col h1,
   .global-nav .l-two-column h1,
   header .l-two-column h1,
   footer .l-two-column h1,
@@ -994,9 +994,9 @@ body {
   .global-nav .l-column figcaption,
   header .l-column figcaption,
   footer .l-column figcaption,
-  .global-nav .l-full-width-column figcaption,
-  header .l-full-width-column figcaption,
-  footer .l-full-width-column figcaption,
+  .global-nav .l-full-width-col figcaption,
+  header .l-full-width-col figcaption,
+  footer .l-full-width-col figcaption,
   .global-nav .l-main-col figcaption,
   header .l-main-col figcaption,
   footer .l-main-col figcaption,
@@ -1012,9 +1012,9 @@ body {
   .global-nav .l-split-wide figcaption,
   header .l-split-wide figcaption,
   footer .l-split-wide figcaption,
-  .global-nav .l-one-third-column figcaption,
-  header .l-one-third-column figcaption,
-  footer .l-one-third-column figcaption,
+  .global-nav .l-one-third-col figcaption,
+  header .l-one-third-col figcaption,
+  footer .l-one-third-col figcaption,
   .global-nav .l-two-column figcaption,
   header .l-two-column figcaption,
   footer .l-two-column figcaption,
@@ -1024,9 +1024,9 @@ body {
   .global-nav .l-column figure,
   header .l-column figure,
   footer .l-column figure,
-  .global-nav .l-full-width-column figure,
-  header .l-full-width-column figure,
-  footer .l-full-width-column figure,
+  .global-nav .l-full-width-col figure,
+  header .l-full-width-col figure,
+  footer .l-full-width-col figure,
   .global-nav .l-main-col figure,
   header .l-main-col figure,
   footer .l-main-col figure,
@@ -1042,9 +1042,9 @@ body {
   .global-nav .l-split-wide figure,
   header .l-split-wide figure,
   footer .l-split-wide figure,
-  .global-nav .l-one-third-column figure,
-  header .l-one-third-column figure,
-  footer .l-one-third-column figure,
+  .global-nav .l-one-third-col figure,
+  header .l-one-third-col figure,
+  footer .l-one-third-col figure,
   .global-nav .l-two-column figure,
   header .l-two-column figure,
   footer .l-two-column figure,
@@ -1054,9 +1054,9 @@ body {
   .global-nav .l-column main,
   header .l-column main,
   footer .l-column main,
-  .global-nav .l-full-width-column main,
-  header .l-full-width-column main,
-  footer .l-full-width-column main,
+  .global-nav .l-full-width-col main,
+  header .l-full-width-col main,
+  footer .l-full-width-col main,
   .global-nav .l-main-col main,
   header .l-main-col main,
   footer .l-main-col main,
@@ -1072,9 +1072,9 @@ body {
   .global-nav .l-split-wide main,
   header .l-split-wide main,
   footer .l-split-wide main,
-  .global-nav .l-one-third-column main,
-  header .l-one-third-column main,
-  footer .l-one-third-column main,
+  .global-nav .l-one-third-col main,
+  header .l-one-third-col main,
+  footer .l-one-third-col main,
   .global-nav .l-two-column main,
   header .l-two-column main,
   footer .l-two-column main,
@@ -1087,9 +1087,9 @@ body {
   .global-nav .l-column figure,
   header .l-column figure,
   footer .l-column figure,
-  .global-nav .l-full-width-column figure,
-  header .l-full-width-column figure,
-  footer .l-full-width-column figure,
+  .global-nav .l-full-width-col figure,
+  header .l-full-width-col figure,
+  footer .l-full-width-col figure,
   .global-nav .l-main-col figure,
   header .l-main-col figure,
   footer .l-main-col figure,
@@ -1105,9 +1105,9 @@ body {
   .global-nav .l-split-wide figure,
   header .l-split-wide figure,
   footer .l-split-wide figure,
-  .global-nav .l-one-third-column figure,
-  header .l-one-third-column figure,
-  footer .l-one-third-column figure,
+  .global-nav .l-one-third-col figure,
+  header .l-one-third-col figure,
+  footer .l-one-third-col figure,
   .global-nav .l-two-column figure,
   header .l-two-column figure,
   footer .l-two-column figure,
@@ -1119,9 +1119,9 @@ body {
   .global-nav .l-column hr,
   header .l-column hr,
   footer .l-column hr,
-  .global-nav .l-full-width-column hr,
-  header .l-full-width-column hr,
-  footer .l-full-width-column hr,
+  .global-nav .l-full-width-col hr,
+  header .l-full-width-col hr,
+  footer .l-full-width-col hr,
   .global-nav .l-main-col hr,
   header .l-main-col hr,
   footer .l-main-col hr,
@@ -1137,9 +1137,9 @@ body {
   .global-nav .l-split-wide hr,
   header .l-split-wide hr,
   footer .l-split-wide hr,
-  .global-nav .l-one-third-column hr,
-  header .l-one-third-column hr,
-  footer .l-one-third-column hr,
+  .global-nav .l-one-third-col hr,
+  header .l-one-third-col hr,
+  footer .l-one-third-col hr,
   .global-nav .l-two-column hr,
   header .l-two-column hr,
   footer .l-two-column hr,
@@ -1156,9 +1156,9 @@ body {
   .global-nav .l-column pre,
   header .l-column pre,
   footer .l-column pre,
-  .global-nav .l-full-width-column pre,
-  header .l-full-width-column pre,
-  footer .l-full-width-column pre,
+  .global-nav .l-full-width-col pre,
+  header .l-full-width-col pre,
+  footer .l-full-width-col pre,
   .global-nav .l-main-col pre,
   header .l-main-col pre,
   footer .l-main-col pre,
@@ -1174,9 +1174,9 @@ body {
   .global-nav .l-split-wide pre,
   header .l-split-wide pre,
   footer .l-split-wide pre,
-  .global-nav .l-one-third-column pre,
-  header .l-one-third-column pre,
-  footer .l-one-third-column pre,
+  .global-nav .l-one-third-col pre,
+  header .l-one-third-col pre,
+  footer .l-one-third-col pre,
   .global-nav .l-two-column pre,
   header .l-two-column pre,
   footer .l-two-column pre,
@@ -1191,9 +1191,9 @@ body {
   .global-nav .l-column a,
   header .l-column a,
   footer .l-column a,
-  .global-nav .l-full-width-column a,
-  header .l-full-width-column a,
-  footer .l-full-width-column a,
+  .global-nav .l-full-width-col a,
+  header .l-full-width-col a,
+  footer .l-full-width-col a,
   .global-nav .l-main-col a,
   header .l-main-col a,
   footer .l-main-col a,
@@ -1209,9 +1209,9 @@ body {
   .global-nav .l-split-wide a,
   header .l-split-wide a,
   footer .l-split-wide a,
-  .global-nav .l-one-third-column a,
-  header .l-one-third-column a,
-  footer .l-one-third-column a,
+  .global-nav .l-one-third-col a,
+  header .l-one-third-col a,
+  footer .l-one-third-col a,
   .global-nav .l-two-column a,
   header .l-two-column a,
   footer .l-two-column a,
@@ -1226,9 +1226,9 @@ body {
   .global-nav .l-column abbr[title],
   header .l-column abbr[title],
   footer .l-column abbr[title],
-  .global-nav .l-full-width-column abbr[title],
-  header .l-full-width-column abbr[title],
-  footer .l-full-width-column abbr[title],
+  .global-nav .l-full-width-col abbr[title],
+  header .l-full-width-col abbr[title],
+  footer .l-full-width-col abbr[title],
   .global-nav .l-main-col abbr[title],
   header .l-main-col abbr[title],
   footer .l-main-col abbr[title],
@@ -1244,9 +1244,9 @@ body {
   .global-nav .l-split-wide abbr[title],
   header .l-split-wide abbr[title],
   footer .l-split-wide abbr[title],
-  .global-nav .l-one-third-column abbr[title],
-  header .l-one-third-column abbr[title],
-  footer .l-one-third-column abbr[title],
+  .global-nav .l-one-third-col abbr[title],
+  header .l-one-third-col abbr[title],
+  footer .l-one-third-col abbr[title],
   .global-nav .l-two-column abbr[title],
   header .l-two-column abbr[title],
   footer .l-two-column abbr[title],
@@ -1263,9 +1263,9 @@ body {
   .global-nav .l-column b,
   header .l-column b,
   footer .l-column b,
-  .global-nav .l-full-width-column b,
-  header .l-full-width-column b,
-  footer .l-full-width-column b,
+  .global-nav .l-full-width-col b,
+  header .l-full-width-col b,
+  footer .l-full-width-col b,
   .global-nav .l-main-col b,
   header .l-main-col b,
   footer .l-main-col b,
@@ -1281,9 +1281,9 @@ body {
   .global-nav .l-split-wide b,
   header .l-split-wide b,
   footer .l-split-wide b,
-  .global-nav .l-one-third-column b,
-  header .l-one-third-column b,
-  footer .l-one-third-column b,
+  .global-nav .l-one-third-col b,
+  header .l-one-third-col b,
+  footer .l-one-third-col b,
   .global-nav .l-two-column b,
   header .l-two-column b,
   footer .l-two-column b,
@@ -1293,9 +1293,9 @@ body {
   .global-nav .l-column strong,
   header .l-column strong,
   footer .l-column strong,
-  .global-nav .l-full-width-column strong,
-  header .l-full-width-column strong,
-  footer .l-full-width-column strong,
+  .global-nav .l-full-width-col strong,
+  header .l-full-width-col strong,
+  footer .l-full-width-col strong,
   .global-nav .l-main-col strong,
   header .l-main-col strong,
   footer .l-main-col strong,
@@ -1311,9 +1311,9 @@ body {
   .global-nav .l-split-wide strong,
   header .l-split-wide strong,
   footer .l-split-wide strong,
-  .global-nav .l-one-third-column strong,
-  header .l-one-third-column strong,
-  footer .l-one-third-column strong,
+  .global-nav .l-one-third-col strong,
+  header .l-one-third-col strong,
+  footer .l-one-third-col strong,
   .global-nav .l-two-column strong,
   header .l-two-column strong,
   footer .l-two-column strong,
@@ -1325,9 +1325,9 @@ body {
   .global-nav .l-column b,
   header .l-column b,
   footer .l-column b,
-  .global-nav .l-full-width-column b,
-  header .l-full-width-column b,
-  footer .l-full-width-column b,
+  .global-nav .l-full-width-col b,
+  header .l-full-width-col b,
+  footer .l-full-width-col b,
   .global-nav .l-main-col b,
   header .l-main-col b,
   footer .l-main-col b,
@@ -1343,9 +1343,9 @@ body {
   .global-nav .l-split-wide b,
   header .l-split-wide b,
   footer .l-split-wide b,
-  .global-nav .l-one-third-column b,
-  header .l-one-third-column b,
-  footer .l-one-third-column b,
+  .global-nav .l-one-third-col b,
+  header .l-one-third-col b,
+  footer .l-one-third-col b,
   .global-nav .l-two-column b,
   header .l-two-column b,
   footer .l-two-column b,
@@ -1355,9 +1355,9 @@ body {
   .global-nav .l-column strong,
   header .l-column strong,
   footer .l-column strong,
-  .global-nav .l-full-width-column strong,
-  header .l-full-width-column strong,
-  footer .l-full-width-column strong,
+  .global-nav .l-full-width-col strong,
+  header .l-full-width-col strong,
+  footer .l-full-width-col strong,
   .global-nav .l-main-col strong,
   header .l-main-col strong,
   footer .l-main-col strong,
@@ -1373,9 +1373,9 @@ body {
   .global-nav .l-split-wide strong,
   header .l-split-wide strong,
   footer .l-split-wide strong,
-  .global-nav .l-one-third-column strong,
-  header .l-one-third-column strong,
-  footer .l-one-third-column strong,
+  .global-nav .l-one-third-col strong,
+  header .l-one-third-col strong,
+  footer .l-one-third-col strong,
   .global-nav .l-two-column strong,
   header .l-two-column strong,
   footer .l-two-column strong,
@@ -1387,9 +1387,9 @@ body {
   .global-nav .l-column code,
   header .l-column code,
   footer .l-column code,
-  .global-nav .l-full-width-column code,
-  header .l-full-width-column code,
-  footer .l-full-width-column code,
+  .global-nav .l-full-width-col code,
+  header .l-full-width-col code,
+  footer .l-full-width-col code,
   .global-nav .l-main-col code,
   header .l-main-col code,
   footer .l-main-col code,
@@ -1405,9 +1405,9 @@ body {
   .global-nav .l-split-wide code,
   header .l-split-wide code,
   footer .l-split-wide code,
-  .global-nav .l-one-third-column code,
-  header .l-one-third-column code,
-  footer .l-one-third-column code,
+  .global-nav .l-one-third-col code,
+  header .l-one-third-col code,
+  footer .l-one-third-col code,
   .global-nav .l-two-column code,
   header .l-two-column code,
   footer .l-two-column code,
@@ -1417,9 +1417,9 @@ body {
   .global-nav .l-column kbd,
   header .l-column kbd,
   footer .l-column kbd,
-  .global-nav .l-full-width-column kbd,
-  header .l-full-width-column kbd,
-  footer .l-full-width-column kbd,
+  .global-nav .l-full-width-col kbd,
+  header .l-full-width-col kbd,
+  footer .l-full-width-col kbd,
   .global-nav .l-main-col kbd,
   header .l-main-col kbd,
   footer .l-main-col kbd,
@@ -1435,9 +1435,9 @@ body {
   .global-nav .l-split-wide kbd,
   header .l-split-wide kbd,
   footer .l-split-wide kbd,
-  .global-nav .l-one-third-column kbd,
-  header .l-one-third-column kbd,
-  footer .l-one-third-column kbd,
+  .global-nav .l-one-third-col kbd,
+  header .l-one-third-col kbd,
+  footer .l-one-third-col kbd,
   .global-nav .l-two-column kbd,
   header .l-two-column kbd,
   footer .l-two-column kbd,
@@ -1447,9 +1447,9 @@ body {
   .global-nav .l-column samp,
   header .l-column samp,
   footer .l-column samp,
-  .global-nav .l-full-width-column samp,
-  header .l-full-width-column samp,
-  footer .l-full-width-column samp,
+  .global-nav .l-full-width-col samp,
+  header .l-full-width-col samp,
+  footer .l-full-width-col samp,
   .global-nav .l-main-col samp,
   header .l-main-col samp,
   footer .l-main-col samp,
@@ -1465,9 +1465,9 @@ body {
   .global-nav .l-split-wide samp,
   header .l-split-wide samp,
   footer .l-split-wide samp,
-  .global-nav .l-one-third-column samp,
-  header .l-one-third-column samp,
-  footer .l-one-third-column samp,
+  .global-nav .l-one-third-col samp,
+  header .l-one-third-col samp,
+  footer .l-one-third-col samp,
   .global-nav .l-two-column samp,
   header .l-two-column samp,
   footer .l-two-column samp,
@@ -1482,9 +1482,9 @@ body {
   .global-nav .l-column dfn,
   header .l-column dfn,
   footer .l-column dfn,
-  .global-nav .l-full-width-column dfn,
-  header .l-full-width-column dfn,
-  footer .l-full-width-column dfn,
+  .global-nav .l-full-width-col dfn,
+  header .l-full-width-col dfn,
+  footer .l-full-width-col dfn,
   .global-nav .l-main-col dfn,
   header .l-main-col dfn,
   footer .l-main-col dfn,
@@ -1500,9 +1500,9 @@ body {
   .global-nav .l-split-wide dfn,
   header .l-split-wide dfn,
   footer .l-split-wide dfn,
-  .global-nav .l-one-third-column dfn,
-  header .l-one-third-column dfn,
-  footer .l-one-third-column dfn,
+  .global-nav .l-one-third-col dfn,
+  header .l-one-third-col dfn,
+  footer .l-one-third-col dfn,
   .global-nav .l-two-column dfn,
   header .l-two-column dfn,
   footer .l-two-column dfn,
@@ -1514,9 +1514,9 @@ body {
   .global-nav .l-column mark,
   header .l-column mark,
   footer .l-column mark,
-  .global-nav .l-full-width-column mark,
-  header .l-full-width-column mark,
-  footer .l-full-width-column mark,
+  .global-nav .l-full-width-col mark,
+  header .l-full-width-col mark,
+  footer .l-full-width-col mark,
   .global-nav .l-main-col mark,
   header .l-main-col mark,
   footer .l-main-col mark,
@@ -1532,9 +1532,9 @@ body {
   .global-nav .l-split-wide mark,
   header .l-split-wide mark,
   footer .l-split-wide mark,
-  .global-nav .l-one-third-column mark,
-  header .l-one-third-column mark,
-  footer .l-one-third-column mark,
+  .global-nav .l-one-third-col mark,
+  header .l-one-third-col mark,
+  footer .l-one-third-col mark,
   .global-nav .l-two-column mark,
   header .l-two-column mark,
   footer .l-two-column mark,
@@ -1547,9 +1547,9 @@ body {
   .global-nav .l-column small,
   header .l-column small,
   footer .l-column small,
-  .global-nav .l-full-width-column small,
-  header .l-full-width-column small,
-  footer .l-full-width-column small,
+  .global-nav .l-full-width-col small,
+  header .l-full-width-col small,
+  footer .l-full-width-col small,
   .global-nav .l-main-col small,
   header .l-main-col small,
   footer .l-main-col small,
@@ -1565,9 +1565,9 @@ body {
   .global-nav .l-split-wide small,
   header .l-split-wide small,
   footer .l-split-wide small,
-  .global-nav .l-one-third-column small,
-  header .l-one-third-column small,
-  footer .l-one-third-column small,
+  .global-nav .l-one-third-col small,
+  header .l-one-third-col small,
+  footer .l-one-third-col small,
   .global-nav .l-two-column small,
   header .l-two-column small,
   footer .l-two-column small,
@@ -1579,9 +1579,9 @@ body {
   .global-nav .l-column sub,
   header .l-column sub,
   footer .l-column sub,
-  .global-nav .l-full-width-column sub,
-  header .l-full-width-column sub,
-  footer .l-full-width-column sub,
+  .global-nav .l-full-width-col sub,
+  header .l-full-width-col sub,
+  footer .l-full-width-col sub,
   .global-nav .l-main-col sub,
   header .l-main-col sub,
   footer .l-main-col sub,
@@ -1597,9 +1597,9 @@ body {
   .global-nav .l-split-wide sub,
   header .l-split-wide sub,
   footer .l-split-wide sub,
-  .global-nav .l-one-third-column sub,
-  header .l-one-third-column sub,
-  footer .l-one-third-column sub,
+  .global-nav .l-one-third-col sub,
+  header .l-one-third-col sub,
+  footer .l-one-third-col sub,
   .global-nav .l-two-column sub,
   header .l-two-column sub,
   footer .l-two-column sub,
@@ -1609,9 +1609,9 @@ body {
   .global-nav .l-column sup,
   header .l-column sup,
   footer .l-column sup,
-  .global-nav .l-full-width-column sup,
-  header .l-full-width-column sup,
-  footer .l-full-width-column sup,
+  .global-nav .l-full-width-col sup,
+  header .l-full-width-col sup,
+  footer .l-full-width-col sup,
   .global-nav .l-main-col sup,
   header .l-main-col sup,
   footer .l-main-col sup,
@@ -1627,9 +1627,9 @@ body {
   .global-nav .l-split-wide sup,
   header .l-split-wide sup,
   footer .l-split-wide sup,
-  .global-nav .l-one-third-column sup,
-  header .l-one-third-column sup,
-  footer .l-one-third-column sup,
+  .global-nav .l-one-third-col sup,
+  header .l-one-third-col sup,
+  footer .l-one-third-col sup,
   .global-nav .l-two-column sup,
   header .l-two-column sup,
   footer .l-two-column sup,
@@ -1644,9 +1644,9 @@ body {
   .global-nav .l-column sub,
   header .l-column sub,
   footer .l-column sub,
-  .global-nav .l-full-width-column sub,
-  header .l-full-width-column sub,
-  footer .l-full-width-column sub,
+  .global-nav .l-full-width-col sub,
+  header .l-full-width-col sub,
+  footer .l-full-width-col sub,
   .global-nav .l-main-col sub,
   header .l-main-col sub,
   footer .l-main-col sub,
@@ -1662,9 +1662,9 @@ body {
   .global-nav .l-split-wide sub,
   header .l-split-wide sub,
   footer .l-split-wide sub,
-  .global-nav .l-one-third-column sub,
-  header .l-one-third-column sub,
-  footer .l-one-third-column sub,
+  .global-nav .l-one-third-col sub,
+  header .l-one-third-col sub,
+  footer .l-one-third-col sub,
   .global-nav .l-two-column sub,
   header .l-two-column sub,
   footer .l-two-column sub,
@@ -1676,9 +1676,9 @@ body {
   .global-nav .l-column sup,
   header .l-column sup,
   footer .l-column sup,
-  .global-nav .l-full-width-column sup,
-  header .l-full-width-column sup,
-  footer .l-full-width-column sup,
+  .global-nav .l-full-width-col sup,
+  header .l-full-width-col sup,
+  footer .l-full-width-col sup,
   .global-nav .l-main-col sup,
   header .l-main-col sup,
   footer .l-main-col sup,
@@ -1694,9 +1694,9 @@ body {
   .global-nav .l-split-wide sup,
   header .l-split-wide sup,
   footer .l-split-wide sup,
-  .global-nav .l-one-third-column sup,
-  header .l-one-third-column sup,
-  footer .l-one-third-column sup,
+  .global-nav .l-one-third-col sup,
+  header .l-one-third-col sup,
+  footer .l-one-third-col sup,
   .global-nav .l-two-column sup,
   header .l-two-column sup,
   footer .l-two-column sup,
@@ -1708,9 +1708,9 @@ body {
   .global-nav .l-column audio,
   header .l-column audio,
   footer .l-column audio,
-  .global-nav .l-full-width-column audio,
-  header .l-full-width-column audio,
-  footer .l-full-width-column audio,
+  .global-nav .l-full-width-col audio,
+  header .l-full-width-col audio,
+  footer .l-full-width-col audio,
   .global-nav .l-main-col audio,
   header .l-main-col audio,
   footer .l-main-col audio,
@@ -1726,9 +1726,9 @@ body {
   .global-nav .l-split-wide audio,
   header .l-split-wide audio,
   footer .l-split-wide audio,
-  .global-nav .l-one-third-column audio,
-  header .l-one-third-column audio,
-  footer .l-one-third-column audio,
+  .global-nav .l-one-third-col audio,
+  header .l-one-third-col audio,
+  footer .l-one-third-col audio,
   .global-nav .l-two-column audio,
   header .l-two-column audio,
   footer .l-two-column audio,
@@ -1738,9 +1738,9 @@ body {
   .global-nav .l-column video,
   header .l-column video,
   footer .l-column video,
-  .global-nav .l-full-width-column video,
-  header .l-full-width-column video,
-  footer .l-full-width-column video,
+  .global-nav .l-full-width-col video,
+  header .l-full-width-col video,
+  footer .l-full-width-col video,
   .global-nav .l-main-col video,
   header .l-main-col video,
   footer .l-main-col video,
@@ -1756,9 +1756,9 @@ body {
   .global-nav .l-split-wide video,
   header .l-split-wide video,
   footer .l-split-wide video,
-  .global-nav .l-one-third-column video,
-  header .l-one-third-column video,
-  footer .l-one-third-column video,
+  .global-nav .l-one-third-col video,
+  header .l-one-third-col video,
+  footer .l-one-third-col video,
   .global-nav .l-two-column video,
   header .l-two-column video,
   footer .l-two-column video,
@@ -1770,9 +1770,9 @@ body {
   .global-nav .l-column audio:not([controls]),
   header .l-column audio:not([controls]),
   footer .l-column audio:not([controls]),
-  .global-nav .l-full-width-column audio:not([controls]),
-  header .l-full-width-column audio:not([controls]),
-  footer .l-full-width-column audio:not([controls]),
+  .global-nav .l-full-width-col audio:not([controls]),
+  header .l-full-width-col audio:not([controls]),
+  footer .l-full-width-col audio:not([controls]),
   .global-nav .l-main-col audio:not([controls]),
   header .l-main-col audio:not([controls]),
   footer .l-main-col audio:not([controls]),
@@ -1788,9 +1788,9 @@ body {
   .global-nav .l-split-wide audio:not([controls]),
   header .l-split-wide audio:not([controls]),
   footer .l-split-wide audio:not([controls]),
-  .global-nav .l-one-third-column audio:not([controls]),
-  header .l-one-third-column audio:not([controls]),
-  footer .l-one-third-column audio:not([controls]),
+  .global-nav .l-one-third-col audio:not([controls]),
+  header .l-one-third-col audio:not([controls]),
+  footer .l-one-third-col audio:not([controls]),
   .global-nav .l-two-column audio:not([controls]),
   header .l-two-column audio:not([controls]),
   footer .l-two-column audio:not([controls]),
@@ -1803,9 +1803,9 @@ body {
   .global-nav .l-column img,
   header .l-column img,
   footer .l-column img,
-  .global-nav .l-full-width-column img,
-  header .l-full-width-column img,
-  footer .l-full-width-column img,
+  .global-nav .l-full-width-col img,
+  header .l-full-width-col img,
+  footer .l-full-width-col img,
   .global-nav .l-main-col img,
   header .l-main-col img,
   footer .l-main-col img,
@@ -1821,9 +1821,9 @@ body {
   .global-nav .l-split-wide img,
   header .l-split-wide img,
   footer .l-split-wide img,
-  .global-nav .l-one-third-column img,
-  header .l-one-third-column img,
-  footer .l-one-third-column img,
+  .global-nav .l-one-third-col img,
+  header .l-one-third-col img,
+  footer .l-one-third-col img,
   .global-nav .l-two-column img,
   header .l-two-column img,
   footer .l-two-column img,
@@ -1835,9 +1835,9 @@ body {
   .global-nav .l-column svg:not(:root),
   header .l-column svg:not(:root),
   footer .l-column svg:not(:root),
-  .global-nav .l-full-width-column svg:not(:root),
-  header .l-full-width-column svg:not(:root),
-  footer .l-full-width-column svg:not(:root),
+  .global-nav .l-full-width-col svg:not(:root),
+  header .l-full-width-col svg:not(:root),
+  footer .l-full-width-col svg:not(:root),
   .global-nav .l-main-col svg:not(:root),
   header .l-main-col svg:not(:root),
   footer .l-main-col svg:not(:root),
@@ -1853,9 +1853,9 @@ body {
   .global-nav .l-split-wide svg:not(:root),
   header .l-split-wide svg:not(:root),
   footer .l-split-wide svg:not(:root),
-  .global-nav .l-one-third-column svg:not(:root),
-  header .l-one-third-column svg:not(:root),
-  footer .l-one-third-column svg:not(:root),
+  .global-nav .l-one-third-col svg:not(:root),
+  header .l-one-third-col svg:not(:root),
+  footer .l-one-third-col svg:not(:root),
   .global-nav .l-two-column svg:not(:root),
   header .l-two-column svg:not(:root),
   footer .l-two-column svg:not(:root),
@@ -1867,9 +1867,9 @@ body {
   .global-nav .l-column button,
   header .l-column button,
   footer .l-column button,
-  .global-nav .l-full-width-column button,
-  header .l-full-width-column button,
-  footer .l-full-width-column button,
+  .global-nav .l-full-width-col button,
+  header .l-full-width-col button,
+  footer .l-full-width-col button,
   .global-nav .l-main-col button,
   header .l-main-col button,
   footer .l-main-col button,
@@ -1885,9 +1885,9 @@ body {
   .global-nav .l-split-wide button,
   header .l-split-wide button,
   footer .l-split-wide button,
-  .global-nav .l-one-third-column button,
-  header .l-one-third-column button,
-  footer .l-one-third-column button,
+  .global-nav .l-one-third-col button,
+  header .l-one-third-col button,
+  footer .l-one-third-col button,
   .global-nav .l-two-column button,
   header .l-two-column button,
   footer .l-two-column button,
@@ -1897,9 +1897,9 @@ body {
   .global-nav .l-column input,
   header .l-column input,
   footer .l-column input,
-  .global-nav .l-full-width-column input,
-  header .l-full-width-column input,
-  footer .l-full-width-column input,
+  .global-nav .l-full-width-col input,
+  header .l-full-width-col input,
+  footer .l-full-width-col input,
   .global-nav .l-main-col input,
   header .l-main-col input,
   footer .l-main-col input,
@@ -1915,9 +1915,9 @@ body {
   .global-nav .l-split-wide input,
   header .l-split-wide input,
   footer .l-split-wide input,
-  .global-nav .l-one-third-column input,
-  header .l-one-third-column input,
-  footer .l-one-third-column input,
+  .global-nav .l-one-third-col input,
+  header .l-one-third-col input,
+  footer .l-one-third-col input,
   .global-nav .l-two-column input,
   header .l-two-column input,
   footer .l-two-column input,
@@ -1927,9 +1927,9 @@ body {
   .global-nav .l-column optgroup,
   header .l-column optgroup,
   footer .l-column optgroup,
-  .global-nav .l-full-width-column optgroup,
-  header .l-full-width-column optgroup,
-  footer .l-full-width-column optgroup,
+  .global-nav .l-full-width-col optgroup,
+  header .l-full-width-col optgroup,
+  footer .l-full-width-col optgroup,
   .global-nav .l-main-col optgroup,
   header .l-main-col optgroup,
   footer .l-main-col optgroup,
@@ -1945,9 +1945,9 @@ body {
   .global-nav .l-split-wide optgroup,
   header .l-split-wide optgroup,
   footer .l-split-wide optgroup,
-  .global-nav .l-one-third-column optgroup,
-  header .l-one-third-column optgroup,
-  footer .l-one-third-column optgroup,
+  .global-nav .l-one-third-col optgroup,
+  header .l-one-third-col optgroup,
+  footer .l-one-third-col optgroup,
   .global-nav .l-two-column optgroup,
   header .l-two-column optgroup,
   footer .l-two-column optgroup,
@@ -1957,9 +1957,9 @@ body {
   .global-nav .l-column select,
   header .l-column select,
   footer .l-column select,
-  .global-nav .l-full-width-column select,
-  header .l-full-width-column select,
-  footer .l-full-width-column select,
+  .global-nav .l-full-width-col select,
+  header .l-full-width-col select,
+  footer .l-full-width-col select,
   .global-nav .l-main-col select,
   header .l-main-col select,
   footer .l-main-col select,
@@ -1975,9 +1975,9 @@ body {
   .global-nav .l-split-wide select,
   header .l-split-wide select,
   footer .l-split-wide select,
-  .global-nav .l-one-third-column select,
-  header .l-one-third-column select,
-  footer .l-one-third-column select,
+  .global-nav .l-one-third-col select,
+  header .l-one-third-col select,
+  footer .l-one-third-col select,
   .global-nav .l-two-column select,
   header .l-two-column select,
   footer .l-two-column select,
@@ -1987,9 +1987,9 @@ body {
   .global-nav .l-column textarea,
   header .l-column textarea,
   footer .l-column textarea,
-  .global-nav .l-full-width-column textarea,
-  header .l-full-width-column textarea,
-  footer .l-full-width-column textarea,
+  .global-nav .l-full-width-col textarea,
+  header .l-full-width-col textarea,
+  footer .l-full-width-col textarea,
   .global-nav .l-main-col textarea,
   header .l-main-col textarea,
   footer .l-main-col textarea,
@@ -2005,9 +2005,9 @@ body {
   .global-nav .l-split-wide textarea,
   header .l-split-wide textarea,
   footer .l-split-wide textarea,
-  .global-nav .l-one-third-column textarea,
-  header .l-one-third-column textarea,
-  footer .l-one-third-column textarea,
+  .global-nav .l-one-third-col textarea,
+  header .l-one-third-col textarea,
+  footer .l-one-third-col textarea,
   .global-nav .l-two-column textarea,
   header .l-two-column textarea,
   footer .l-two-column textarea,
@@ -2027,9 +2027,9 @@ body {
   .global-nav .l-column button,
   header .l-column button,
   footer .l-column button,
-  .global-nav .l-full-width-column button,
-  header .l-full-width-column button,
-  footer .l-full-width-column button,
+  .global-nav .l-full-width-col button,
+  header .l-full-width-col button,
+  footer .l-full-width-col button,
   .global-nav .l-main-col button,
   header .l-main-col button,
   footer .l-main-col button,
@@ -2045,9 +2045,9 @@ body {
   .global-nav .l-split-wide button,
   header .l-split-wide button,
   footer .l-split-wide button,
-  .global-nav .l-one-third-column button,
-  header .l-one-third-column button,
-  footer .l-one-third-column button,
+  .global-nav .l-one-third-col button,
+  header .l-one-third-col button,
+  footer .l-one-third-col button,
   .global-nav .l-two-column button,
   header .l-two-column button,
   footer .l-two-column button,
@@ -2057,9 +2057,9 @@ body {
   .global-nav .l-column input,
   header .l-column input,
   footer .l-column input,
-  .global-nav .l-full-width-column input,
-  header .l-full-width-column input,
-  footer .l-full-width-column input,
+  .global-nav .l-full-width-col input,
+  header .l-full-width-col input,
+  footer .l-full-width-col input,
   .global-nav .l-main-col input,
   header .l-main-col input,
   footer .l-main-col input,
@@ -2075,9 +2075,9 @@ body {
   .global-nav .l-split-wide input,
   header .l-split-wide input,
   footer .l-split-wide input,
-  .global-nav .l-one-third-column input,
-  header .l-one-third-column input,
-  footer .l-one-third-column input,
+  .global-nav .l-one-third-col input,
+  header .l-one-third-col input,
+  footer .l-one-third-col input,
   .global-nav .l-two-column input,
   header .l-two-column input,
   footer .l-two-column input,
@@ -2090,9 +2090,9 @@ body {
   .global-nav .l-column button,
   header .l-column button,
   footer .l-column button,
-  .global-nav .l-full-width-column button,
-  header .l-full-width-column button,
-  footer .l-full-width-column button,
+  .global-nav .l-full-width-col button,
+  header .l-full-width-col button,
+  footer .l-full-width-col button,
   .global-nav .l-main-col button,
   header .l-main-col button,
   footer .l-main-col button,
@@ -2108,9 +2108,9 @@ body {
   .global-nav .l-split-wide button,
   header .l-split-wide button,
   footer .l-split-wide button,
-  .global-nav .l-one-third-column button,
-  header .l-one-third-column button,
-  footer .l-one-third-column button,
+  .global-nav .l-one-third-col button,
+  header .l-one-third-col button,
+  footer .l-one-third-col button,
   .global-nav .l-two-column button,
   header .l-two-column button,
   footer .l-two-column button,
@@ -2120,9 +2120,9 @@ body {
   .global-nav .l-column select,
   header .l-column select,
   footer .l-column select,
-  .global-nav .l-full-width-column select,
-  header .l-full-width-column select,
-  footer .l-full-width-column select,
+  .global-nav .l-full-width-col select,
+  header .l-full-width-col select,
+  footer .l-full-width-col select,
   .global-nav .l-main-col select,
   header .l-main-col select,
   footer .l-main-col select,
@@ -2138,9 +2138,9 @@ body {
   .global-nav .l-split-wide select,
   header .l-split-wide select,
   footer .l-split-wide select,
-  .global-nav .l-one-third-column select,
-  header .l-one-third-column select,
-  footer .l-one-third-column select,
+  .global-nav .l-one-third-col select,
+  header .l-one-third-col select,
+  footer .l-one-third-col select,
   .global-nav .l-two-column select,
   header .l-two-column select,
   footer .l-two-column select,
@@ -2153,9 +2153,9 @@ body {
   .global-nav .l-column button,
   header .l-column button,
   footer .l-column button,
-  .global-nav .l-full-width-column button,
-  header .l-full-width-column button,
-  footer .l-full-width-column button,
+  .global-nav .l-full-width-col button,
+  header .l-full-width-col button,
+  footer .l-full-width-col button,
   .global-nav .l-main-col button,
   header .l-main-col button,
   footer .l-main-col button,
@@ -2171,9 +2171,9 @@ body {
   .global-nav .l-split-wide button,
   header .l-split-wide button,
   footer .l-split-wide button,
-  .global-nav .l-one-third-column button,
-  header .l-one-third-column button,
-  footer .l-one-third-column button,
+  .global-nav .l-one-third-col button,
+  header .l-one-third-col button,
+  footer .l-one-third-col button,
   .global-nav .l-two-column button,
   header .l-two-column button,
   footer .l-two-column button,
@@ -2183,9 +2183,9 @@ body {
   .global-nav .l-column html [type="button"],
   header .l-column html [type="button"],
   footer .l-column html [type="button"],
-  .global-nav .l-full-width-column html [type="button"],
-  header .l-full-width-column html [type="button"],
-  footer .l-full-width-column html [type="button"],
+  .global-nav .l-full-width-col html [type="button"],
+  header .l-full-width-col html [type="button"],
+  footer .l-full-width-col html [type="button"],
   .global-nav .l-main-col html [type="button"],
   header .l-main-col html [type="button"],
   footer .l-main-col html [type="button"],
@@ -2201,9 +2201,9 @@ body {
   .global-nav .l-split-wide html [type="button"],
   header .l-split-wide html [type="button"],
   footer .l-split-wide html [type="button"],
-  .global-nav .l-one-third-column html [type="button"],
-  header .l-one-third-column html [type="button"],
-  footer .l-one-third-column html [type="button"],
+  .global-nav .l-one-third-col html [type="button"],
+  header .l-one-third-col html [type="button"],
+  footer .l-one-third-col html [type="button"],
   .global-nav .l-two-column html [type="button"],
   header .l-two-column html [type="button"],
   footer .l-two-column html [type="button"],
@@ -2213,9 +2213,9 @@ body {
   .global-nav .l-column [type="reset"],
   header .l-column [type="reset"],
   footer .l-column [type="reset"],
-  .global-nav .l-full-width-column [type="reset"],
-  header .l-full-width-column [type="reset"],
-  footer .l-full-width-column [type="reset"],
+  .global-nav .l-full-width-col [type="reset"],
+  header .l-full-width-col [type="reset"],
+  footer .l-full-width-col [type="reset"],
   .global-nav .l-main-col [type="reset"],
   header .l-main-col [type="reset"],
   footer .l-main-col [type="reset"],
@@ -2231,9 +2231,9 @@ body {
   .global-nav .l-split-wide [type="reset"],
   header .l-split-wide [type="reset"],
   footer .l-split-wide [type="reset"],
-  .global-nav .l-one-third-column [type="reset"],
-  header .l-one-third-column [type="reset"],
-  footer .l-one-third-column [type="reset"],
+  .global-nav .l-one-third-col [type="reset"],
+  header .l-one-third-col [type="reset"],
+  footer .l-one-third-col [type="reset"],
   .global-nav .l-two-column [type="reset"],
   header .l-two-column [type="reset"],
   footer .l-two-column [type="reset"],
@@ -2243,9 +2243,9 @@ body {
   .global-nav .l-column [type="submit"],
   header .l-column [type="submit"],
   footer .l-column [type="submit"],
-  .global-nav .l-full-width-column [type="submit"],
-  header .l-full-width-column [type="submit"],
-  footer .l-full-width-column [type="submit"],
+  .global-nav .l-full-width-col [type="submit"],
+  header .l-full-width-col [type="submit"],
+  footer .l-full-width-col [type="submit"],
   .global-nav .l-main-col [type="submit"],
   header .l-main-col [type="submit"],
   footer .l-main-col [type="submit"],
@@ -2261,9 +2261,9 @@ body {
   .global-nav .l-split-wide [type="submit"],
   header .l-split-wide [type="submit"],
   footer .l-split-wide [type="submit"],
-  .global-nav .l-one-third-column [type="submit"],
-  header .l-one-third-column [type="submit"],
-  footer .l-one-third-column [type="submit"],
+  .global-nav .l-one-third-col [type="submit"],
+  header .l-one-third-col [type="submit"],
+  footer .l-one-third-col [type="submit"],
   .global-nav .l-two-column [type="submit"],
   header .l-two-column [type="submit"],
   footer .l-two-column [type="submit"],
@@ -2276,9 +2276,9 @@ body {
   .global-nav .l-column button::-moz-focus-inner,
   header .l-column button::-moz-focus-inner,
   footer .l-column button::-moz-focus-inner,
-  .global-nav .l-full-width-column button::-moz-focus-inner,
-  header .l-full-width-column button::-moz-focus-inner,
-  footer .l-full-width-column button::-moz-focus-inner,
+  .global-nav .l-full-width-col button::-moz-focus-inner,
+  header .l-full-width-col button::-moz-focus-inner,
+  footer .l-full-width-col button::-moz-focus-inner,
   .global-nav .l-main-col button::-moz-focus-inner,
   header .l-main-col button::-moz-focus-inner,
   footer .l-main-col button::-moz-focus-inner,
@@ -2294,9 +2294,9 @@ body {
   .global-nav .l-split-wide button::-moz-focus-inner,
   header .l-split-wide button::-moz-focus-inner,
   footer .l-split-wide button::-moz-focus-inner,
-  .global-nav .l-one-third-column button::-moz-focus-inner,
-  header .l-one-third-column button::-moz-focus-inner,
-  footer .l-one-third-column button::-moz-focus-inner,
+  .global-nav .l-one-third-col button::-moz-focus-inner,
+  header .l-one-third-col button::-moz-focus-inner,
+  footer .l-one-third-col button::-moz-focus-inner,
   .global-nav .l-two-column button::-moz-focus-inner,
   header .l-two-column button::-moz-focus-inner,
   footer .l-two-column button::-moz-focus-inner,
@@ -2306,9 +2306,9 @@ body {
   .global-nav .l-column [type="button"]::-moz-focus-inner,
   header .l-column [type="button"]::-moz-focus-inner,
   footer .l-column [type="button"]::-moz-focus-inner,
-  .global-nav .l-full-width-column [type="button"]::-moz-focus-inner,
-  header .l-full-width-column [type="button"]::-moz-focus-inner,
-  footer .l-full-width-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-full-width-col [type="button"]::-moz-focus-inner,
+  header .l-full-width-col [type="button"]::-moz-focus-inner,
+  footer .l-full-width-col [type="button"]::-moz-focus-inner,
   .global-nav .l-main-col [type="button"]::-moz-focus-inner,
   header .l-main-col [type="button"]::-moz-focus-inner,
   footer .l-main-col [type="button"]::-moz-focus-inner,
@@ -2324,9 +2324,9 @@ body {
   .global-nav .l-split-wide [type="button"]::-moz-focus-inner,
   header .l-split-wide [type="button"]::-moz-focus-inner,
   footer .l-split-wide [type="button"]::-moz-focus-inner,
-  .global-nav .l-one-third-column [type="button"]::-moz-focus-inner,
-  header .l-one-third-column [type="button"]::-moz-focus-inner,
-  footer .l-one-third-column [type="button"]::-moz-focus-inner,
+  .global-nav .l-one-third-col [type="button"]::-moz-focus-inner,
+  header .l-one-third-col [type="button"]::-moz-focus-inner,
+  footer .l-one-third-col [type="button"]::-moz-focus-inner,
   .global-nav .l-two-column [type="button"]::-moz-focus-inner,
   header .l-two-column [type="button"]::-moz-focus-inner,
   footer .l-two-column [type="button"]::-moz-focus-inner,
@@ -2336,9 +2336,9 @@ body {
   .global-nav .l-column [type="reset"]::-moz-focus-inner,
   header .l-column [type="reset"]::-moz-focus-inner,
   footer .l-column [type="reset"]::-moz-focus-inner,
-  .global-nav .l-full-width-column [type="reset"]::-moz-focus-inner,
-  header .l-full-width-column [type="reset"]::-moz-focus-inner,
-  footer .l-full-width-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-full-width-col [type="reset"]::-moz-focus-inner,
+  header .l-full-width-col [type="reset"]::-moz-focus-inner,
+  footer .l-full-width-col [type="reset"]::-moz-focus-inner,
   .global-nav .l-main-col [type="reset"]::-moz-focus-inner,
   header .l-main-col [type="reset"]::-moz-focus-inner,
   footer .l-main-col [type="reset"]::-moz-focus-inner,
@@ -2354,9 +2354,9 @@ body {
   .global-nav .l-split-wide [type="reset"]::-moz-focus-inner,
   header .l-split-wide [type="reset"]::-moz-focus-inner,
   footer .l-split-wide [type="reset"]::-moz-focus-inner,
-  .global-nav .l-one-third-column [type="reset"]::-moz-focus-inner,
-  header .l-one-third-column [type="reset"]::-moz-focus-inner,
-  footer .l-one-third-column [type="reset"]::-moz-focus-inner,
+  .global-nav .l-one-third-col [type="reset"]::-moz-focus-inner,
+  header .l-one-third-col [type="reset"]::-moz-focus-inner,
+  footer .l-one-third-col [type="reset"]::-moz-focus-inner,
   .global-nav .l-two-column [type="reset"]::-moz-focus-inner,
   header .l-two-column [type="reset"]::-moz-focus-inner,
   footer .l-two-column [type="reset"]::-moz-focus-inner,
@@ -2366,9 +2366,9 @@ body {
   .global-nav .l-column [type="submit"]::-moz-focus-inner,
   header .l-column [type="submit"]::-moz-focus-inner,
   footer .l-column [type="submit"]::-moz-focus-inner,
-  .global-nav .l-full-width-column [type="submit"]::-moz-focus-inner,
-  header .l-full-width-column [type="submit"]::-moz-focus-inner,
-  footer .l-full-width-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-full-width-col [type="submit"]::-moz-focus-inner,
+  header .l-full-width-col [type="submit"]::-moz-focus-inner,
+  footer .l-full-width-col [type="submit"]::-moz-focus-inner,
   .global-nav .l-main-col [type="submit"]::-moz-focus-inner,
   header .l-main-col [type="submit"]::-moz-focus-inner,
   footer .l-main-col [type="submit"]::-moz-focus-inner,
@@ -2384,9 +2384,9 @@ body {
   .global-nav .l-split-wide [type="submit"]::-moz-focus-inner,
   header .l-split-wide [type="submit"]::-moz-focus-inner,
   footer .l-split-wide [type="submit"]::-moz-focus-inner,
-  .global-nav .l-one-third-column [type="submit"]::-moz-focus-inner,
-  header .l-one-third-column [type="submit"]::-moz-focus-inner,
-  footer .l-one-third-column [type="submit"]::-moz-focus-inner,
+  .global-nav .l-one-third-col [type="submit"]::-moz-focus-inner,
+  header .l-one-third-col [type="submit"]::-moz-focus-inner,
+  footer .l-one-third-col [type="submit"]::-moz-focus-inner,
   .global-nav .l-two-column [type="submit"]::-moz-focus-inner,
   header .l-two-column [type="submit"]::-moz-focus-inner,
   footer .l-two-column [type="submit"]::-moz-focus-inner,
@@ -2399,9 +2399,9 @@ body {
   .global-nav .l-column button:-moz-focusring,
   header .l-column button:-moz-focusring,
   footer .l-column button:-moz-focusring,
-  .global-nav .l-full-width-column button:-moz-focusring,
-  header .l-full-width-column button:-moz-focusring,
-  footer .l-full-width-column button:-moz-focusring,
+  .global-nav .l-full-width-col button:-moz-focusring,
+  header .l-full-width-col button:-moz-focusring,
+  footer .l-full-width-col button:-moz-focusring,
   .global-nav .l-main-col button:-moz-focusring,
   header .l-main-col button:-moz-focusring,
   footer .l-main-col button:-moz-focusring,
@@ -2417,9 +2417,9 @@ body {
   .global-nav .l-split-wide button:-moz-focusring,
   header .l-split-wide button:-moz-focusring,
   footer .l-split-wide button:-moz-focusring,
-  .global-nav .l-one-third-column button:-moz-focusring,
-  header .l-one-third-column button:-moz-focusring,
-  footer .l-one-third-column button:-moz-focusring,
+  .global-nav .l-one-third-col button:-moz-focusring,
+  header .l-one-third-col button:-moz-focusring,
+  footer .l-one-third-col button:-moz-focusring,
   .global-nav .l-two-column button:-moz-focusring,
   header .l-two-column button:-moz-focusring,
   footer .l-two-column button:-moz-focusring,
@@ -2429,9 +2429,9 @@ body {
   .global-nav .l-column [type="button"]:-moz-focusring,
   header .l-column [type="button"]:-moz-focusring,
   footer .l-column [type="button"]:-moz-focusring,
-  .global-nav .l-full-width-column [type="button"]:-moz-focusring,
-  header .l-full-width-column [type="button"]:-moz-focusring,
-  footer .l-full-width-column [type="button"]:-moz-focusring,
+  .global-nav .l-full-width-col [type="button"]:-moz-focusring,
+  header .l-full-width-col [type="button"]:-moz-focusring,
+  footer .l-full-width-col [type="button"]:-moz-focusring,
   .global-nav .l-main-col [type="button"]:-moz-focusring,
   header .l-main-col [type="button"]:-moz-focusring,
   footer .l-main-col [type="button"]:-moz-focusring,
@@ -2447,9 +2447,9 @@ body {
   .global-nav .l-split-wide [type="button"]:-moz-focusring,
   header .l-split-wide [type="button"]:-moz-focusring,
   footer .l-split-wide [type="button"]:-moz-focusring,
-  .global-nav .l-one-third-column [type="button"]:-moz-focusring,
-  header .l-one-third-column [type="button"]:-moz-focusring,
-  footer .l-one-third-column [type="button"]:-moz-focusring,
+  .global-nav .l-one-third-col [type="button"]:-moz-focusring,
+  header .l-one-third-col [type="button"]:-moz-focusring,
+  footer .l-one-third-col [type="button"]:-moz-focusring,
   .global-nav .l-two-column [type="button"]:-moz-focusring,
   header .l-two-column [type="button"]:-moz-focusring,
   footer .l-two-column [type="button"]:-moz-focusring,
@@ -2459,9 +2459,9 @@ body {
   .global-nav .l-column [type="reset"]:-moz-focusring,
   header .l-column [type="reset"]:-moz-focusring,
   footer .l-column [type="reset"]:-moz-focusring,
-  .global-nav .l-full-width-column [type="reset"]:-moz-focusring,
-  header .l-full-width-column [type="reset"]:-moz-focusring,
-  footer .l-full-width-column [type="reset"]:-moz-focusring,
+  .global-nav .l-full-width-col [type="reset"]:-moz-focusring,
+  header .l-full-width-col [type="reset"]:-moz-focusring,
+  footer .l-full-width-col [type="reset"]:-moz-focusring,
   .global-nav .l-main-col [type="reset"]:-moz-focusring,
   header .l-main-col [type="reset"]:-moz-focusring,
   footer .l-main-col [type="reset"]:-moz-focusring,
@@ -2477,9 +2477,9 @@ body {
   .global-nav .l-split-wide [type="reset"]:-moz-focusring,
   header .l-split-wide [type="reset"]:-moz-focusring,
   footer .l-split-wide [type="reset"]:-moz-focusring,
-  .global-nav .l-one-third-column [type="reset"]:-moz-focusring,
-  header .l-one-third-column [type="reset"]:-moz-focusring,
-  footer .l-one-third-column [type="reset"]:-moz-focusring,
+  .global-nav .l-one-third-col [type="reset"]:-moz-focusring,
+  header .l-one-third-col [type="reset"]:-moz-focusring,
+  footer .l-one-third-col [type="reset"]:-moz-focusring,
   .global-nav .l-two-column [type="reset"]:-moz-focusring,
   header .l-two-column [type="reset"]:-moz-focusring,
   footer .l-two-column [type="reset"]:-moz-focusring,
@@ -2489,9 +2489,9 @@ body {
   .global-nav .l-column [type="submit"]:-moz-focusring,
   header .l-column [type="submit"]:-moz-focusring,
   footer .l-column [type="submit"]:-moz-focusring,
-  .global-nav .l-full-width-column [type="submit"]:-moz-focusring,
-  header .l-full-width-column [type="submit"]:-moz-focusring,
-  footer .l-full-width-column [type="submit"]:-moz-focusring,
+  .global-nav .l-full-width-col [type="submit"]:-moz-focusring,
+  header .l-full-width-col [type="submit"]:-moz-focusring,
+  footer .l-full-width-col [type="submit"]:-moz-focusring,
   .global-nav .l-main-col [type="submit"]:-moz-focusring,
   header .l-main-col [type="submit"]:-moz-focusring,
   footer .l-main-col [type="submit"]:-moz-focusring,
@@ -2507,9 +2507,9 @@ body {
   .global-nav .l-split-wide [type="submit"]:-moz-focusring,
   header .l-split-wide [type="submit"]:-moz-focusring,
   footer .l-split-wide [type="submit"]:-moz-focusring,
-  .global-nav .l-one-third-column [type="submit"]:-moz-focusring,
-  header .l-one-third-column [type="submit"]:-moz-focusring,
-  footer .l-one-third-column [type="submit"]:-moz-focusring,
+  .global-nav .l-one-third-col [type="submit"]:-moz-focusring,
+  header .l-one-third-col [type="submit"]:-moz-focusring,
+  footer .l-one-third-col [type="submit"]:-moz-focusring,
   .global-nav .l-two-column [type="submit"]:-moz-focusring,
   header .l-two-column [type="submit"]:-moz-focusring,
   footer .l-two-column [type="submit"]:-moz-focusring,
@@ -2521,9 +2521,9 @@ body {
   .global-nav .l-column fieldset,
   header .l-column fieldset,
   footer .l-column fieldset,
-  .global-nav .l-full-width-column fieldset,
-  header .l-full-width-column fieldset,
-  footer .l-full-width-column fieldset,
+  .global-nav .l-full-width-col fieldset,
+  header .l-full-width-col fieldset,
+  footer .l-full-width-col fieldset,
   .global-nav .l-main-col fieldset,
   header .l-main-col fieldset,
   footer .l-main-col fieldset,
@@ -2539,9 +2539,9 @@ body {
   .global-nav .l-split-wide fieldset,
   header .l-split-wide fieldset,
   footer .l-split-wide fieldset,
-  .global-nav .l-one-third-column fieldset,
-  header .l-one-third-column fieldset,
-  footer .l-one-third-column fieldset,
+  .global-nav .l-one-third-col fieldset,
+  header .l-one-third-col fieldset,
+  footer .l-one-third-col fieldset,
   .global-nav .l-two-column fieldset,
   header .l-two-column fieldset,
   footer .l-two-column fieldset,
@@ -2553,9 +2553,9 @@ body {
   .global-nav .l-column legend,
   header .l-column legend,
   footer .l-column legend,
-  .global-nav .l-full-width-column legend,
-  header .l-full-width-column legend,
-  footer .l-full-width-column legend,
+  .global-nav .l-full-width-col legend,
+  header .l-full-width-col legend,
+  footer .l-full-width-col legend,
   .global-nav .l-main-col legend,
   header .l-main-col legend,
   footer .l-main-col legend,
@@ -2571,9 +2571,9 @@ body {
   .global-nav .l-split-wide legend,
   header .l-split-wide legend,
   footer .l-split-wide legend,
-  .global-nav .l-one-third-column legend,
-  header .l-one-third-column legend,
-  footer .l-one-third-column legend,
+  .global-nav .l-one-third-col legend,
+  header .l-one-third-col legend,
+  footer .l-one-third-col legend,
   .global-nav .l-two-column legend,
   header .l-two-column legend,
   footer .l-two-column legend,
@@ -2596,9 +2596,9 @@ body {
   .global-nav .l-column progress,
   header .l-column progress,
   footer .l-column progress,
-  .global-nav .l-full-width-column progress,
-  header .l-full-width-column progress,
-  footer .l-full-width-column progress,
+  .global-nav .l-full-width-col progress,
+  header .l-full-width-col progress,
+  footer .l-full-width-col progress,
   .global-nav .l-main-col progress,
   header .l-main-col progress,
   footer .l-main-col progress,
@@ -2614,9 +2614,9 @@ body {
   .global-nav .l-split-wide progress,
   header .l-split-wide progress,
   footer .l-split-wide progress,
-  .global-nav .l-one-third-column progress,
-  header .l-one-third-column progress,
-  footer .l-one-third-column progress,
+  .global-nav .l-one-third-col progress,
+  header .l-one-third-col progress,
+  footer .l-one-third-col progress,
   .global-nav .l-two-column progress,
   header .l-two-column progress,
   footer .l-two-column progress,
@@ -2631,9 +2631,9 @@ body {
   .global-nav .l-column textarea,
   header .l-column textarea,
   footer .l-column textarea,
-  .global-nav .l-full-width-column textarea,
-  header .l-full-width-column textarea,
-  footer .l-full-width-column textarea,
+  .global-nav .l-full-width-col textarea,
+  header .l-full-width-col textarea,
+  footer .l-full-width-col textarea,
   .global-nav .l-main-col textarea,
   header .l-main-col textarea,
   footer .l-main-col textarea,
@@ -2649,9 +2649,9 @@ body {
   .global-nav .l-split-wide textarea,
   header .l-split-wide textarea,
   footer .l-split-wide textarea,
-  .global-nav .l-one-third-column textarea,
-  header .l-one-third-column textarea,
-  footer .l-one-third-column textarea,
+  .global-nav .l-one-third-col textarea,
+  header .l-one-third-col textarea,
+  footer .l-one-third-col textarea,
   .global-nav .l-two-column textarea,
   header .l-two-column textarea,
   footer .l-two-column textarea,
@@ -2663,9 +2663,9 @@ body {
   .global-nav .l-column [type="checkbox"],
   header .l-column [type="checkbox"],
   footer .l-column [type="checkbox"],
-  .global-nav .l-full-width-column [type="checkbox"],
-  header .l-full-width-column [type="checkbox"],
-  footer .l-full-width-column [type="checkbox"],
+  .global-nav .l-full-width-col [type="checkbox"],
+  header .l-full-width-col [type="checkbox"],
+  footer .l-full-width-col [type="checkbox"],
   .global-nav .l-main-col [type="checkbox"],
   header .l-main-col [type="checkbox"],
   footer .l-main-col [type="checkbox"],
@@ -2681,9 +2681,9 @@ body {
   .global-nav .l-split-wide [type="checkbox"],
   header .l-split-wide [type="checkbox"],
   footer .l-split-wide [type="checkbox"],
-  .global-nav .l-one-third-column [type="checkbox"],
-  header .l-one-third-column [type="checkbox"],
-  footer .l-one-third-column [type="checkbox"],
+  .global-nav .l-one-third-col [type="checkbox"],
+  header .l-one-third-col [type="checkbox"],
+  footer .l-one-third-col [type="checkbox"],
   .global-nav .l-two-column [type="checkbox"],
   header .l-two-column [type="checkbox"],
   footer .l-two-column [type="checkbox"],
@@ -2693,9 +2693,9 @@ body {
   .global-nav .l-column [type="radio"],
   header .l-column [type="radio"],
   footer .l-column [type="radio"],
-  .global-nav .l-full-width-column [type="radio"],
-  header .l-full-width-column [type="radio"],
-  footer .l-full-width-column [type="radio"],
+  .global-nav .l-full-width-col [type="radio"],
+  header .l-full-width-col [type="radio"],
+  footer .l-full-width-col [type="radio"],
   .global-nav .l-main-col [type="radio"],
   header .l-main-col [type="radio"],
   footer .l-main-col [type="radio"],
@@ -2711,9 +2711,9 @@ body {
   .global-nav .l-split-wide [type="radio"],
   header .l-split-wide [type="radio"],
   footer .l-split-wide [type="radio"],
-  .global-nav .l-one-third-column [type="radio"],
-  header .l-one-third-column [type="radio"],
-  footer .l-one-third-column [type="radio"],
+  .global-nav .l-one-third-col [type="radio"],
+  header .l-one-third-col [type="radio"],
+  footer .l-one-third-col [type="radio"],
   .global-nav .l-two-column [type="radio"],
   header .l-two-column [type="radio"],
   footer .l-two-column [type="radio"],
@@ -2728,9 +2728,9 @@ body {
   .global-nav .l-column [type="number"]::-webkit-inner-spin-button,
   header .l-column [type="number"]::-webkit-inner-spin-button,
   footer .l-column [type="number"]::-webkit-inner-spin-button,
-  .global-nav .l-full-width-column [type="number"]::-webkit-inner-spin-button,
-  header .l-full-width-column [type="number"]::-webkit-inner-spin-button,
-  footer .l-full-width-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-full-width-col [type="number"]::-webkit-inner-spin-button,
+  header .l-full-width-col [type="number"]::-webkit-inner-spin-button,
+  footer .l-full-width-col [type="number"]::-webkit-inner-spin-button,
   .global-nav .l-main-col [type="number"]::-webkit-inner-spin-button,
   header .l-main-col [type="number"]::-webkit-inner-spin-button,
   footer .l-main-col [type="number"]::-webkit-inner-spin-button,
@@ -2746,9 +2746,9 @@ body {
   .global-nav .l-split-wide [type="number"]::-webkit-inner-spin-button,
   header .l-split-wide [type="number"]::-webkit-inner-spin-button,
   footer .l-split-wide [type="number"]::-webkit-inner-spin-button,
-  .global-nav .l-one-third-column [type="number"]::-webkit-inner-spin-button,
-  header .l-one-third-column [type="number"]::-webkit-inner-spin-button,
-  footer .l-one-third-column [type="number"]::-webkit-inner-spin-button,
+  .global-nav .l-one-third-col [type="number"]::-webkit-inner-spin-button,
+  header .l-one-third-col [type="number"]::-webkit-inner-spin-button,
+  footer .l-one-third-col [type="number"]::-webkit-inner-spin-button,
   .global-nav .l-two-column [type="number"]::-webkit-inner-spin-button,
   header .l-two-column [type="number"]::-webkit-inner-spin-button,
   footer .l-two-column [type="number"]::-webkit-inner-spin-button,
@@ -2758,9 +2758,9 @@ body {
   .global-nav .l-column [type="number"]::-webkit-outer-spin-button,
   header .l-column [type="number"]::-webkit-outer-spin-button,
   footer .l-column [type="number"]::-webkit-outer-spin-button,
-  .global-nav .l-full-width-column [type="number"]::-webkit-outer-spin-button,
-  header .l-full-width-column [type="number"]::-webkit-outer-spin-button,
-  footer .l-full-width-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-full-width-col [type="number"]::-webkit-outer-spin-button,
+  header .l-full-width-col [type="number"]::-webkit-outer-spin-button,
+  footer .l-full-width-col [type="number"]::-webkit-outer-spin-button,
   .global-nav .l-main-col [type="number"]::-webkit-outer-spin-button,
   header .l-main-col [type="number"]::-webkit-outer-spin-button,
   footer .l-main-col [type="number"]::-webkit-outer-spin-button,
@@ -2776,9 +2776,9 @@ body {
   .global-nav .l-split-wide [type="number"]::-webkit-outer-spin-button,
   header .l-split-wide [type="number"]::-webkit-outer-spin-button,
   footer .l-split-wide [type="number"]::-webkit-outer-spin-button,
-  .global-nav .l-one-third-column [type="number"]::-webkit-outer-spin-button,
-  header .l-one-third-column [type="number"]::-webkit-outer-spin-button,
-  footer .l-one-third-column [type="number"]::-webkit-outer-spin-button,
+  .global-nav .l-one-third-col [type="number"]::-webkit-outer-spin-button,
+  header .l-one-third-col [type="number"]::-webkit-outer-spin-button,
+  footer .l-one-third-col [type="number"]::-webkit-outer-spin-button,
   .global-nav .l-two-column [type="number"]::-webkit-outer-spin-button,
   header .l-two-column [type="number"]::-webkit-outer-spin-button,
   footer .l-two-column [type="number"]::-webkit-outer-spin-button,
@@ -2790,9 +2790,9 @@ body {
   .global-nav .l-column [type="search"],
   header .l-column [type="search"],
   footer .l-column [type="search"],
-  .global-nav .l-full-width-column [type="search"],
-  header .l-full-width-column [type="search"],
-  footer .l-full-width-column [type="search"],
+  .global-nav .l-full-width-col [type="search"],
+  header .l-full-width-col [type="search"],
+  footer .l-full-width-col [type="search"],
   .global-nav .l-main-col [type="search"],
   header .l-main-col [type="search"],
   footer .l-main-col [type="search"],
@@ -2808,9 +2808,9 @@ body {
   .global-nav .l-split-wide [type="search"],
   header .l-split-wide [type="search"],
   footer .l-split-wide [type="search"],
-  .global-nav .l-one-third-column [type="search"],
-  header .l-one-third-column [type="search"],
-  footer .l-one-third-column [type="search"],
+  .global-nav .l-one-third-col [type="search"],
+  header .l-one-third-col [type="search"],
+  footer .l-one-third-col [type="search"],
   .global-nav .l-two-column [type="search"],
   header .l-two-column [type="search"],
   footer .l-two-column [type="search"],
@@ -2825,9 +2825,9 @@ body {
   .global-nav .l-column [type="search"]::-webkit-search-cancel-button,
   header .l-column [type="search"]::-webkit-search-cancel-button,
   footer .l-column [type="search"]::-webkit-search-cancel-button,
-  .global-nav .l-full-width-column [type="search"]::-webkit-search-cancel-button,
-  header .l-full-width-column [type="search"]::-webkit-search-cancel-button,
-  footer .l-full-width-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-full-width-col [type="search"]::-webkit-search-cancel-button,
+  header .l-full-width-col [type="search"]::-webkit-search-cancel-button,
+  footer .l-full-width-col [type="search"]::-webkit-search-cancel-button,
   .global-nav .l-main-col [type="search"]::-webkit-search-cancel-button,
   header .l-main-col [type="search"]::-webkit-search-cancel-button,
   footer .l-main-col [type="search"]::-webkit-search-cancel-button,
@@ -2843,9 +2843,9 @@ body {
   .global-nav .l-split-wide [type="search"]::-webkit-search-cancel-button,
   header .l-split-wide [type="search"]::-webkit-search-cancel-button,
   footer .l-split-wide [type="search"]::-webkit-search-cancel-button,
-  .global-nav .l-one-third-column [type="search"]::-webkit-search-cancel-button,
-  header .l-one-third-column [type="search"]::-webkit-search-cancel-button,
-  footer .l-one-third-column [type="search"]::-webkit-search-cancel-button,
+  .global-nav .l-one-third-col [type="search"]::-webkit-search-cancel-button,
+  header .l-one-third-col [type="search"]::-webkit-search-cancel-button,
+  footer .l-one-third-col [type="search"]::-webkit-search-cancel-button,
   .global-nav .l-two-column [type="search"]::-webkit-search-cancel-button,
   header .l-two-column [type="search"]::-webkit-search-cancel-button,
   footer .l-two-column [type="search"]::-webkit-search-cancel-button,
@@ -2855,9 +2855,9 @@ body {
   .global-nav .l-column [type="search"]::-webkit-search-decoration,
   header .l-column [type="search"]::-webkit-search-decoration,
   footer .l-column [type="search"]::-webkit-search-decoration,
-  .global-nav .l-full-width-column [type="search"]::-webkit-search-decoration,
-  header .l-full-width-column [type="search"]::-webkit-search-decoration,
-  footer .l-full-width-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-full-width-col [type="search"]::-webkit-search-decoration,
+  header .l-full-width-col [type="search"]::-webkit-search-decoration,
+  footer .l-full-width-col [type="search"]::-webkit-search-decoration,
   .global-nav .l-main-col [type="search"]::-webkit-search-decoration,
   header .l-main-col [type="search"]::-webkit-search-decoration,
   footer .l-main-col [type="search"]::-webkit-search-decoration,
@@ -2873,9 +2873,9 @@ body {
   .global-nav .l-split-wide [type="search"]::-webkit-search-decoration,
   header .l-split-wide [type="search"]::-webkit-search-decoration,
   footer .l-split-wide [type="search"]::-webkit-search-decoration,
-  .global-nav .l-one-third-column [type="search"]::-webkit-search-decoration,
-  header .l-one-third-column [type="search"]::-webkit-search-decoration,
-  footer .l-one-third-column [type="search"]::-webkit-search-decoration,
+  .global-nav .l-one-third-col [type="search"]::-webkit-search-decoration,
+  header .l-one-third-col [type="search"]::-webkit-search-decoration,
+  footer .l-one-third-col [type="search"]::-webkit-search-decoration,
   .global-nav .l-two-column [type="search"]::-webkit-search-decoration,
   header .l-two-column [type="search"]::-webkit-search-decoration,
   footer .l-two-column [type="search"]::-webkit-search-decoration,
@@ -2887,9 +2887,9 @@ body {
   .global-nav .l-column ::-webkit-file-upload-button,
   header .l-column ::-webkit-file-upload-button,
   footer .l-column ::-webkit-file-upload-button,
-  .global-nav .l-full-width-column ::-webkit-file-upload-button,
-  header .l-full-width-column ::-webkit-file-upload-button,
-  footer .l-full-width-column ::-webkit-file-upload-button,
+  .global-nav .l-full-width-col ::-webkit-file-upload-button,
+  header .l-full-width-col ::-webkit-file-upload-button,
+  footer .l-full-width-col ::-webkit-file-upload-button,
   .global-nav .l-main-col ::-webkit-file-upload-button,
   header .l-main-col ::-webkit-file-upload-button,
   footer .l-main-col ::-webkit-file-upload-button,
@@ -2905,9 +2905,9 @@ body {
   .global-nav .l-split-wide ::-webkit-file-upload-button,
   header .l-split-wide ::-webkit-file-upload-button,
   footer .l-split-wide ::-webkit-file-upload-button,
-  .global-nav .l-one-third-column ::-webkit-file-upload-button,
-  header .l-one-third-column ::-webkit-file-upload-button,
-  footer .l-one-third-column ::-webkit-file-upload-button,
+  .global-nav .l-one-third-col ::-webkit-file-upload-button,
+  header .l-one-third-col ::-webkit-file-upload-button,
+  footer .l-one-third-col ::-webkit-file-upload-button,
   .global-nav .l-two-column ::-webkit-file-upload-button,
   header .l-two-column ::-webkit-file-upload-button,
   footer .l-two-column ::-webkit-file-upload-button,
@@ -2922,9 +2922,9 @@ body {
   .global-nav .l-column details,
   header .l-column details,
   footer .l-column details,
-  .global-nav .l-full-width-column details,
-  header .l-full-width-column details,
-  footer .l-full-width-column details,
+  .global-nav .l-full-width-col details,
+  header .l-full-width-col details,
+  footer .l-full-width-col details,
   .global-nav .l-main-col details,
   header .l-main-col details,
   footer .l-main-col details,
@@ -2940,9 +2940,9 @@ body {
   .global-nav .l-split-wide details,
   header .l-split-wide details,
   footer .l-split-wide details,
-  .global-nav .l-one-third-column details,
-  header .l-one-third-column details,
-  footer .l-one-third-column details,
+  .global-nav .l-one-third-col details,
+  header .l-one-third-col details,
+  footer .l-one-third-col details,
   .global-nav .l-two-column details,
   header .l-two-column details,
   footer .l-two-column details,
@@ -2952,9 +2952,9 @@ body {
   .global-nav .l-column menu,
   header .l-column menu,
   footer .l-column menu,
-  .global-nav .l-full-width-column menu,
-  header .l-full-width-column menu,
-  footer .l-full-width-column menu,
+  .global-nav .l-full-width-col menu,
+  header .l-full-width-col menu,
+  footer .l-full-width-col menu,
   .global-nav .l-main-col menu,
   header .l-main-col menu,
   footer .l-main-col menu,
@@ -2970,9 +2970,9 @@ body {
   .global-nav .l-split-wide menu,
   header .l-split-wide menu,
   footer .l-split-wide menu,
-  .global-nav .l-one-third-column menu,
-  header .l-one-third-column menu,
-  footer .l-one-third-column menu,
+  .global-nav .l-one-third-col menu,
+  header .l-one-third-col menu,
+  footer .l-one-third-col menu,
   .global-nav .l-two-column menu,
   header .l-two-column menu,
   footer .l-two-column menu,
@@ -2984,9 +2984,9 @@ body {
   .global-nav .l-column summary,
   header .l-column summary,
   footer .l-column summary,
-  .global-nav .l-full-width-column summary,
-  header .l-full-width-column summary,
-  footer .l-full-width-column summary,
+  .global-nav .l-full-width-col summary,
+  header .l-full-width-col summary,
+  footer .l-full-width-col summary,
   .global-nav .l-main-col summary,
   header .l-main-col summary,
   footer .l-main-col summary,
@@ -3002,9 +3002,9 @@ body {
   .global-nav .l-split-wide summary,
   header .l-split-wide summary,
   footer .l-split-wide summary,
-  .global-nav .l-one-third-column summary,
-  header .l-one-third-column summary,
-  footer .l-one-third-column summary,
+  .global-nav .l-one-third-col summary,
+  header .l-one-third-col summary,
+  footer .l-one-third-col summary,
   .global-nav .l-two-column summary,
   header .l-two-column summary,
   footer .l-two-column summary,
@@ -3016,9 +3016,9 @@ body {
   .global-nav .l-column canvas,
   header .l-column canvas,
   footer .l-column canvas,
-  .global-nav .l-full-width-column canvas,
-  header .l-full-width-column canvas,
-  footer .l-full-width-column canvas,
+  .global-nav .l-full-width-col canvas,
+  header .l-full-width-col canvas,
+  footer .l-full-width-col canvas,
   .global-nav .l-main-col canvas,
   header .l-main-col canvas,
   footer .l-main-col canvas,
@@ -3034,9 +3034,9 @@ body {
   .global-nav .l-split-wide canvas,
   header .l-split-wide canvas,
   footer .l-split-wide canvas,
-  .global-nav .l-one-third-column canvas,
-  header .l-one-third-column canvas,
-  footer .l-one-third-column canvas,
+  .global-nav .l-one-third-col canvas,
+  header .l-one-third-col canvas,
+  footer .l-one-third-col canvas,
   .global-nav .l-two-column canvas,
   header .l-two-column canvas,
   footer .l-two-column canvas,
@@ -3048,9 +3048,9 @@ body {
   .global-nav .l-column template,
   header .l-column template,
   footer .l-column template,
-  .global-nav .l-full-width-column template,
-  header .l-full-width-column template,
-  footer .l-full-width-column template,
+  .global-nav .l-full-width-col template,
+  header .l-full-width-col template,
+  footer .l-full-width-col template,
   .global-nav .l-main-col template,
   header .l-main-col template,
   footer .l-main-col template,
@@ -3066,9 +3066,9 @@ body {
   .global-nav .l-split-wide template,
   header .l-split-wide template,
   footer .l-split-wide template,
-  .global-nav .l-one-third-column template,
-  header .l-one-third-column template,
-  footer .l-one-third-column template,
+  .global-nav .l-one-third-col template,
+  header .l-one-third-col template,
+  footer .l-one-third-col template,
   .global-nav .l-two-column template,
   header .l-two-column template,
   footer .l-two-column template,
@@ -3080,9 +3080,9 @@ body {
   .global-nav .l-column [hidden],
   header .l-column [hidden],
   footer .l-column [hidden],
-  .global-nav .l-full-width-column [hidden],
-  header .l-full-width-column [hidden],
-  footer .l-full-width-column [hidden],
+  .global-nav .l-full-width-col [hidden],
+  header .l-full-width-col [hidden],
+  footer .l-full-width-col [hidden],
   .global-nav .l-main-col [hidden],
   header .l-main-col [hidden],
   footer .l-main-col [hidden],
@@ -3098,9 +3098,9 @@ body {
   .global-nav .l-split-wide [hidden],
   header .l-split-wide [hidden],
   footer .l-split-wide [hidden],
-  .global-nav .l-one-third-column [hidden],
-  header .l-one-third-column [hidden],
-  footer .l-one-third-column [hidden],
+  .global-nav .l-one-third-col [hidden],
+  header .l-one-third-col [hidden],
+  footer .l-one-third-col [hidden],
   .global-nav .l-two-column [hidden],
   header .l-two-column [hidden],
   footer .l-two-column [hidden],
@@ -3190,8 +3190,8 @@ span.line-break {
     background: linear-gradient(top, #eeeeee 0, #f4f4f4 50%, #fcfcfc 90%, #fefefe 100%) #eeeeee no-repeat;
   }
   .footer .l-column,
-  .footer .l-full-width-column,
-  .footer .l-one-third-column,
+  .footer .l-full-width-col,
+  .footer .l-one-third-col,
   .footer .l-two-third-column {
     position: relative;
     width: 100%;
@@ -3298,7 +3298,7 @@ span.line-break {
 }
 @media (min-width:480px) {
   .footer .l-column,
-  .footer .l-one-third-column,
+  .footer .l-one-third-col,
   .footer .l-two-third-column {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 50%;
@@ -3321,7 +3321,7 @@ span.line-break {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-  .footer .l-one-third-column {
+  .footer .l-one-third-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
@@ -3370,7 +3370,7 @@ span.line-break {
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
   }
-  .footer .l-one-third-column {
+  .footer .l-one-third-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.333333%;
     -ms-flex: 0 0 33.333333%;
@@ -6059,12 +6059,21 @@ span.line-break {
     margin: 0;
   }
   .page-wrapper .l-outer-wrapper {
-    background-color: #fff;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     padding: 0;
     margin: 0;
+    background-color: #fff;
   }
   .page-wrapper .l-outer-wrapper .l-inner-wrapper {
-    background-color: #fff;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     padding: 39px 0 0 0;
     margin: 0;
   }
@@ -6080,13 +6089,13 @@ span.line-break {
     margin-right: auto;
   }
   .l-column,
-  .l-full-width-column,
+  .l-full-width-col,
   .l-main-col,
   .l-middle-col,
   .l-narrow-col,
   .l-split-narrow,
   .l-split-wide,
-  .l-one-third-column,
+  .l-one-third-col,
   .l-two-column,
   .l-two-third-column {
     position: relative;
@@ -6095,41 +6104,43 @@ span.line-break {
     float: left;
   }
   .l-row .l-column,
-  .l-row .l-full-width-column,
+  .l-row .l-full-width-col,
   .l-row .l-main-col,
   .l-row .l-middle-col,
   .l-row .l-narrow-col,
   .l-row .l-split-narrow,
   .l-row .l-split-wide,
-  .l-row .l-one-third-column,
+  .l-row .l-one-third-col,
   .l-row .l-two-column,
   .l-row .l-two-third-column {
-    box-sizing: border-box;
+    margin-top: inherit;
   }
   .l-row.header .l-column,
-  .l-row.header .l-full-width-column,
+  .l-row.header .l-full-width-col,
   .l-row.header .l-main-col,
   .l-row.header .l-middle-col,
   .l-row.header .l-narrow-col,
   .l-row.header .l-split-narrow,
   .l-row.header .l-split-wide,
-  .l-row.header .l-one-third-column,
+  .l-row.header .l-one-third-col,
   .l-row.header .l-two-column,
   .l-row.header .l-two-third-column {
     border-top: none;
-    box-sizing: border-box;
   }
   .l-row {
-    padding: 0 20px;
-    display: table;
+    padding: 0 22px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     width: 100%;
-    box-sizing: border-box;
+    clear: both;
   }
   .l-row.header {
-    padding: 0 0;
-    box-sizing: border-box;
+    padding: 0;
   }
-  .l-full-width-column {
+  .l-full-width-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
@@ -6137,7 +6148,11 @@ span.line-break {
     max-width: 100%;
   }
   .container {
-    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     clear: both;
   }
   .l-column {
@@ -6148,13 +6163,13 @@ span.line-break {
     max-width: 100%;
   }
   .l-narrow-col,
-  .l-one-third-column,
+  .l-one-third-col,
   .l-two-column,
   .l-split-narrow,
   .l-split-wide,
   .l-two-third-column,
   .l-main-col,
-  .l-full-width-column {
+  .l-full-width-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
@@ -6198,62 +6213,15 @@ span.line-break {
 	}
 */
 }
-@media (min-width:480px) {
-  .l-outer-wrapper {
-    max-width: 599px;
-    min-width: 480px;
-    /*
-		.l-4-col {
-			.l-narrow-col {
-				&:nth-child(1) {
-					padding-right:22px;
-				}
-			}
-			.l-narrow-col {
-				&:nth-child(2) {
-					padding:0;
-				}
-			}
-			.l-narrow-col {
-				&:nth-child(3) {
-					padding-right:22px;
-				}
-			}
-			.l-narrow-col {
-				&:nth-child(4) {
-					padding: 0;
-				}
-			}
-		}
-		*/
-  }
-}
-@media (min-width: 600px) {
-  .l-outer-wrapper {
-    max-width: 800px;
-    min-width: 600px;
-  }
-  /*
-	.l-left-column .l-narrow-col .l-narrow-col {
-			-webkit-box-flex: 0;
-			-webkit-flex: 0 0 100%;
-			-ms-flex: 0 0 100%;
-			flex: 0 0 100%;
-			max-width: 100%;
-			float: left;
-			padding-left: 0;
-			padding-right: 0;
+/*
+@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
+	.l-outer-wrapper {
+		max-width: 599px;
+		min-width: 480px;
 	}
-	*/
-  .l-two-column,
-  .l-one-third-column {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    float: left;
-  }
+}
+*/
+@media (min-width: 600px) {
   .l-column {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.333333%;
@@ -6262,7 +6230,7 @@ span.line-break {
     max-width: 33.333333%;
   }
   .l-narrow-col,
-  .l-one-third-column,
+  .l-one-third-col,
   .l-two-column,
   .l-split-narrow,
   .l-split-wide,
@@ -6275,50 +6243,19 @@ span.line-break {
     width: 50%;
     float: left;
   }
-  /*
-	.l-3-col-reorder {
-		.l-narrow-col {
-			&:nth-child(1) {
-				padding-right:11px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(2) {
-				padding-left:11px;
-			}
-		}
-	}
-	.l-4-col {
-		.l-narrow-col {
-			&:nth-child(1) {
-				padding-right:22px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(2) {
-				padding-right:22px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(3) {
-				padding-right:22px;
-			}
-		}
-		.l-narrow-col {
-			&:nth-child(4) {
-				padding: 0;
-			}
-		}
-	}
-	*/
 }
-@media (min-width: 801px) {
-  .l-outer-wrapper {
-    max-width: 801px;
-    min-width: 989px;
-  }
+/*
+@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
+	.l-outer-wrapper {
+		max-width: 801px;
+		min-width: 989px;
+	}
 }
+*/
 @media (min-width: 956px) {
+  body {
+    background-color: #e8ecf2;
+  }
   .page-wrapper .l-outer-wrapper {
     margin: 0 auto;
     background-color: #e2e6eb;
@@ -6327,15 +6264,18 @@ span.line-break {
     max-width: 992px;
     min-width: 992px;
     width: 992px;
+    display: table;
   }
   .page-wrapper .l-outer-wrapper .l-inner-wrapper {
     border-right: 1px solid #dbdfe5;
     border-left: 1px solid #dbdfe5;
+    background-color: #fff;
     padding: 96px 15px 0 15px;
     max-width: 990px;
     min-width: 990px;
     width: 990px;
     margin: 0;
+    display: table-cell;
   }
   .page-wrapper .l-outer-wrapper .l-inner-wrapper.show {
     padding: 90px 0 50px;
@@ -6352,14 +6292,14 @@ span.line-break {
   .l-row.header > ol,
   .l-column,
   .l-narrow-col,
-  .l-one-third-column,
+  .l-one-third-col,
   .l-two-column,
   .l-middle-col,
   .l-split-narrow,
   .l-split-wide,
   .l-two-third-column,
   .l-main-col,
-  .l-full-width-column {
+  .l-full-width-col {
     padding-left: 0;
     padding-right: 0;
   }
@@ -6395,7 +6335,7 @@ span.line-break {
     flex: 0 0 25%;
     max-width: 25%;
   }
-  .l-one-third-column {
+  .l-one-third-col {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.333333%;
     -ms-flex: 0 0 33.333333%;
@@ -6438,7 +6378,7 @@ span.line-break {
     flex: 0 0 75%;
     max-width: 75%;
   }
-  .l-full-width-column {
+  .l-full-width-col {
     padding-right: 0;
     padding-left: 0;
   }
@@ -6457,7 +6397,7 @@ span.line-break {
     padding-right: 0;
     width: 100%;
   }
-  .l-row.header .l-full-width-column {
+  .l-row.header .l-full-width-col {
     padding-right: 0;
   }
   .l-row .l-row {
@@ -6649,11 +6589,24 @@ span.line-break {
     */
 }
 @media (min-width: 801px) {
-  margin: inherit;
+  .l-4-col .l-narrow-col:nth-child(1) {
+    padding-right: 22px;
+  }
+  .l-4-col .l-narrow-col:nth-child(2) {
+    padding-right: 0;
+  }
+  .l-4-col .l-narrow-col:nth-child(3) {
+    padding-right: 22px;
+    clear: none;
+  }
+  .l-4-col .l-narrow-col:nth-child(4) {
+    padding: 0;
+  }
 }
 @media (min-width: 956px) {
   .l-2-col-right .l-narrow-col:nth-child(2) {
     padding-right: 0;
+    padding-left: 0;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 25%;
     -ms-flex: 0 0 25%;
@@ -6672,19 +6625,6 @@ span.line-break {
     max-width: 25%;
     width: 25%;
     float: left;
-  }
-  .l-4-col .l-narrow-col:nth-child(1) {
-    padding-right: 22px;
-  }
-  .l-4-col .l-narrow-col:nth-child(2) {
-    padding-right: 22px;
-  }
-  .l-4-col .l-narrow-col:nth-child(3) {
-    padding-right: 22px;
-    clear: none;
-  }
-  .l-4-col .l-narrow-col:nth-child(4) {
-    padding: 0;
   }
 }
 /* content container must be the first line item of the modules */
@@ -7610,6 +7550,7 @@ font-size: 1.500rem; // 24 pixels
   .features {
     display: table;
     padding: 22px 0;
+    background-color: #dff2fB;
     border-bottom: solid 1px #E3E5E6;
   }
   .features h2 {
@@ -7625,21 +7566,20 @@ font-size: 1.500rem; // 24 pixels
     margin: 0 0 2em;
     width: 100%;
   }
-  .features a {
-    width: 100%;
+  .features > div > div > a {
     display: block;
-    text-align: center;
-  }
-  .features a img {
-    margin: 1em auto;
-    border: 4px solid #fff;
-    outline: 1px solid #dadada;
-    width: 270px;
-    height: 150px;
-    background-color: greenyellow;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 54%;
   }
   .features ul {
-    margin: 0;
+    margin: 0 22px;
     padding: 0;
   }
   .features ul li {
@@ -7648,7 +7588,7 @@ font-size: 1.500rem; // 24 pixels
     padding: 0;
   }
   .features ul li.head {
-    margin: 8px 0 10px 0;
+    margin: 0;
     padding: 0;
   }
   .features ul li.head h3 {
@@ -7667,53 +7607,117 @@ font-size: 1.500rem; // 24 pixels
     color: #189bd7;
     text-decoration: none;
     font-weight: normal;
-    font-weight: normal !important;
+    border: none;
+    outline: none;
   }
   .features ul li.head h3 a:hover {
     text-decoration: underline;
   }
 }
 @media (min-width:480px) {
+  .features {
+    padding: 0 22px;
+  }
   .features h2 {
-    margin: 0 22px 6px 22px;
+    margin: 0 0 6px 0;
   }
-  .features a {
-    width: auto;
-    display: table;
+  .features > div > div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 33.333333%;
     float: left;
   }
-  .features a img {
-    width: 430px;
-    height: 236px;
-    background-color: yellow;
-    float: left;
-    margin: 0 22px 0 0;
+  .features > div > div > a {
+    border: 4px solid #fff;
+    outline: 1px solid #dadada;
   }
   .features ul {
     float: left;
-    width: 60%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.666667%;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    width: 66.666667%;
   }
   .features ul li {
-    width: 100%;
-    display: table;
+    padding: 0 0 0 22px;
   }
-  .features ul li.head h3 a {
-    width: auto;
-  }
-}
-@media (min-width: 600px) {
-  .features a img {
-    width: 185px;
-    height: 100px;
-    background-color: orangered;
+  .features ul li.head {
+    padding: 0 0 0 22px;
   }
 }
+/*
+@media @tablet {
+	.features {
+		padding: 0 22px;
+		h2 {
+			color: blue;
+		}
+		&>div {
+			&>div {
+				&>a {
+					width: 270px;
+					height: 150px;
+					display: block;
+					float: left;
+					padding: 0;
+					border: 4px solid #fff; 
+					outline: 1px solid #dadada;
+				}
+			}
+		}
+	}
+}
+*/
 @media (min-width: 801px) {
-  .features a img {
-    width: 185px;
-    height: 100px;
-    background-color: orange;
-    margin: 0;
+  .features h2 {
+    margin: 0 0 6px 0;
+  }
+  .features > div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 33.333333%;
+  }
+  .features > div > div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    clear: both;
+  }
+  .features > div:nth-child(2) {
+    padding-right: 22px;
+  }
+  .features > div:nth-child(3) {
+    padding: 0 11px;
+  }
+  .features > div:nth-child(4) {
+    padding-left: 22px;
+  }
+  .features ul {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .features ul li.head {
+    margin: 8px 0 10px 0;
+  }
+  .features ul li.head h3 {
+    font-size: 1rem;
   }
 }
 @media (min-width: 956px) {
@@ -7730,26 +7734,24 @@ font-size: 1.500rem; // 24 pixels
     background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
     background-size: cover;
   }
-  .features a img {
-    width: 185px;
-    height: 100px;
-    background-color: red;
-    margin: 0;
-  }
   .features h2 {
     font-size: 1.5rem;
+    padding: 0 22px;
   }
   .features > div {
     width: 195px;
   }
   .features > div:nth-child(2) {
     margin-left: 22px;
+    padding: 0;
   }
   .features > div:nth-child(3) {
     margin-left: 33px;
+    padding: 0;
   }
   .features > div:nth-child(4) {
     margin-left: 33px;
+    padding: 0;
   }
   .features ul {
     width: 100%;
@@ -7848,7 +7850,6 @@ font-size: 1.500rem; // 24 pixels
     -o-background-size: cover;
     background-size: cover;
     padding-top: 29%;
-    position: relative;
   }
   .main-content-container figure {
     font-family: Arial, Helvetica, sans-serif;
@@ -7941,48 +7942,23 @@ font-size: 1.500rem; // 24 pixels
   }
 }
 @media (min-width: 1px) {
-  .homepage {
-    margin: inherit;
-  }
+  margin: inherit;
 }
 @media (min-width:480px) {
-  .homepage {
-    margin: inherit;
-  }
+  margin: inherit;
 }
 @media (min-width: 600px) {
-  .homepage {
-    margin: inherit;
+  .homepage .l-2-col-right .l-narrow-col:nth-child(2) {
+    padding-left: 22px;
+  }
+  .homepage .l-2-col-right .l-narrow-col:nth-child(3) {
+    padding-right: 22px;
   }
 }
 @media (min-width: 801px) {
-  .homepage {
-    margin: inherit;
-  }
+  margin: inherit;
 }
 @media (min-width: 956px) {
-  .homepage {
-    /*
-			.l-narrow-col {
-				&:nth-child(2) {
-					.dark-top-border-container { 
-						ul {
-							margin: 0 11px;
-						}
-					}
-				}
-			}
-			.l-narrow-col {
-				&:nth-child(3) {
-					.dark-top-border-container { 
-						ul {
-//							margin-right: 22px;
-						}
-					}
-				}
-			}
-			*/
-  }
   .homepage .l-row {
     padding-left: 0;
   }
@@ -7994,5 +7970,11 @@ font-size: 1.500rem; // 24 pixels
   }
   .homepage .l-row.l-3-col .l-narrow-col .dark-top-border-container ul {
     margin-left: 22px;
+  }
+  .homepage .l-2-col-right .l-narrow-col:nth-child(2) {
+    padding-left: 0;
+  }
+  .homepage .l-2-col-right .l-narrow-col:nth-child(3) {
+    padding-right: 0;
   }
 }

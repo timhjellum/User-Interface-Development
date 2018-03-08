@@ -45,7 +45,7 @@
 <body>
 <?php include('global/includes/eia_header.inc'); ?>
 <div class="l-row">
-<div class="l-full-width-column">
+<div class="l-full-width-col">
 
 
 

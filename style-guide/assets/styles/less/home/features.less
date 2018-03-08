@@ -4,6 +4,7 @@
 	.features {
 		display: table;
 		padding: 22px 0;
+		background-color: @eia-light-blue;
 		border-bottom: solid 1px #E3E5E6;
 		h2 {
 			.header-font;
@@ -15,29 +16,31 @@
 			float: left;
 			margin: 0 0 2em;
 			width: 100%;
+			&>div {
+				&>a {
+					display: block;
+					width: 100%;
+					background-repeat: no-repeat;
+					background-position-x: center;
+					background-position-y: center;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+					padding-top: 54%; // 600:324 Aspect Ratio 
+				}
+			}		
 		}
-		a {
-			width: 100%;
-			display: block;
-			text-align: center;
-			img {
-				margin: 1em auto;
-				border: 4px solid #fff; 
-				outline: 1px solid #dadada;
-				width: 270px;
-				height: 150px;
-				background-color: greenyellow;
-			}			
-		}
+
 		ul {
-			margin: 0;
+			margin: 0 22px;
 			padding: 0;
 			li {
 				line-height: 120%;
 				margin: 0;
 				padding: 0;
 				&.head {
-					margin: 8px 0 10px 0;
+					margin: 0;
 					padding: 0;
 					h3 {
 						.font;
@@ -52,45 +55,133 @@
 							color: @eia-blue;
 							text-decoration: none;
 							.normal;
-							font-weight: normal !important;
+							font-weight: normal;
+							border: none;
+							outline: none;
 							&:hover {
 								text-decoration: underline;
 							}
-						} 
+						}
 					}
 				}
 			}
 		}
 	}
 }
+
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.features {
+		padding: 0 22px;
 		h2 {
-			margin: 0 22px 6px 22px;
+			margin: 0 0 6px 0;
 		}
-		a {
-			width: auto;
-			display: table;
-			float: left;
-			img {
-				width: 430px; //430x236
-				height: 236px;
-				background-color: yellow;
+		&>div {
+			&>div {
+				//max-width: 270px;
+				-webkit-box-flex: 0;
+				-webkit-flex: 0 0 33.333333%;
+				-ms-flex: 0 0 33.333333%;
+				flex: 0 0 33.333333%;
+				max-width: 33.333333%;
+				width: 33.333333%;
 				float: left;
-				margin: 0 22px 0 0;
+				&>a {
+					border: 4px solid #fff; 
+					outline: 1px solid #dadada;
+				}
 			}
 		}
 		ul {
 			float: left;
-			width: 60%;
+			margin: 0;
+			padding: 0;
+			-webkit-box-flex: 0;
+			-webkit-flex: 0 0 66.666667%;
+			-ms-flex: 0 0 66.666667%;
+			flex: 0 0 66.666667%;
+			max-width: 66.666667%;
+			width: 66.666667%;
 			li {
-				width: 100%;
-				display: table;
+				padding: 0 0 0 22px;
 				&.head {
+					padding: 0 0 0 22px;
+				}
+			}
+		}
+	}
+}
+/*
+@media @tablet {
+	.features {
+		padding: 0 22px;
+		h2 {
+			color: blue;
+		}
+		&>div {
+			&>div {
+				&>a {
+					width: 270px;
+					height: 150px;
+					display: block;
+					float: left;
+					padding: 0;
+					border: 4px solid #fff; 
+					outline: 1px solid #dadada;
+				}
+			}
+		}
+	}
+}
+*/
+@media @tablet-landscape {
+	.features {
+		h2 {
+			margin: 0 0 6px 0;
+		}
+		&>div {
+			-webkit-box-flex: 0;
+			-webkit-flex: 0 0 33.333333%;
+			-ms-flex: 0 0 33.333333%;
+			flex: 0 0 33.333333%;
+			max-width: 33.333333%;
+			width: 33.333333%;
+			&>div {
+				-webkit-box-flex: 0;
+				-webkit-flex: 0 0 100%;
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				max-width: 100%;
+				width: 100%;
+				clear: both;
+			}
+		}
+		&>div {
+			&:nth-child(2) {
+				padding-right: 22px;
+			}
+		}
+		&>div {
+			&:nth-child(3) {
+				padding: 0 11px;
+			}
+		}
+		&>div {
+			&:nth-child(4) {
+				padding-left: 22px;
+			}
+		}
+		ul {
+			-webkit-box-flex: 0;
+			-webkit-flex: 0 0 100%;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 100%;
+			width: 100%;
+			li {
+				&.head {
+					margin: 8px 0 10px 0;
 					h3 {
-						a {
-							width: auto;
-						} 
+						font-size: 1rem;
 					}
 				}
 			}
@@ -98,30 +189,6 @@
 	}
 }
 
-@media @tablet {
-	.features {
-		a {
-			img {
-				width: 185px; //185x100
-				height: 100px;
-				background-color: orangered;
-			}
-		}
-	}
-}
-
-@media @tablet-landscape {
-	.features {
-		a {
-			img {
-				width: 185px; //185x100
-				height: 100px;
-				background-color: orange;
-				margin: 0;
-			}
-		}
-	}
-}
 @media @laptop {
 	.features {
 		overflow: hidden;
@@ -135,35 +202,29 @@
 		max-height: 300px;
 		background: transparent url("https://www.eia.gov/global/images/bg/features_bg.jpg") no-repeat top center;
 		background-size: cover;
-		a {
-			img {
-				width: 185px; //185x100
-				height: 100px;
-				background-color: red;
-				margin: 0;
-			}
-		}
 		h2 {
 			font-size: 1.5rem;
-//			margin: 0 22px 6px 22px;
+			padding: 0 22px;
 		}
 		&>div {
 			width: 195px;
-//			margin: 0 0 0 22px;
 		}
 		&>div {
 			&:nth-child(2) {
 				margin-left: 22px;
+				padding: 0;
 			}
 		}
 		&>div {
 			&:nth-child(3) {
 				margin-left: 33px;
+				padding: 0;
 			}
 		}
 		&>div {
 			&:nth-child(4) {
 				margin-left: 33px;
+				padding: 0;
 			}
 		}
 		ul {
@@ -177,5 +238,6 @@
 				}
 			}
 		}
+
 	}
 }

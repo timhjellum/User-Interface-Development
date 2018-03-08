@@ -122,7 +122,7 @@ with This -->
 <?php /*end Right column*/ ?>
 </div>
 <div class="l-row">
-<div class="l-full-width-column">
+<div class="l-full-width-col">
 <?php /*Interactive visualizations section*/ ?>
 <h1>Interactive Visualizations, Data, & Multimedia</h1>
 <div class="l-column">
@@ -182,7 +182,7 @@ Table Browser</strong></a></li>*/ ?>
 </div>
 </div>
 <div class="l-row">
-<div class="l-full-width-column">
+<div class="l-full-width-col">
 <?php /*Energy education section*/ ?>
 <h1>Energy Education</h1>
 <div class="ed_section">
