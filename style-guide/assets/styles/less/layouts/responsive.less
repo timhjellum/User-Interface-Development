@@ -1,13 +1,32 @@
 @media @mobile {
 
+    // --------
+    // | main |     <----- responsive / reorder
+    // --------
+    // |   1  |     <----- responsive / reorder
+    // --------
+    // |   1  |     <----- responsive / reorder
+    // --------
+	.l-2-col-right {
+		.l-narrow-col {
+            &:nth-child(2) {
+                padding-right: 22px;
+                padding-left: 22px;
+            }
+            &:nth-child(3) {
+                padding-left: 22px;
+                padding-right: 22px;
+            }
+        }
+    }
     // -----
-    // | 1 |
+    // | 1 |    <----- responsive
     // -----
-    // | 2 |
+    // | 2 |    <----- responsive
     // -----
-    // | 3 |
+    // | 3 |    <----- responsive
     // -----
-    // | 4 |
+    // | 4 |    <----- responsive
     // -----
     .l-4-col {
         .l-narrow-col {
@@ -22,10 +41,19 @@
 
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 
+
+    .l-narrow-col {
+        .l-responsive {
+            width: 50%;
+            float: left;
+        }
+    }
+
+
     // ---------
-    // | 1 | 2 |
-    // --------- <----- clear
-    // | 3 | 4 |
+    // | 1 | 2 |    <----- responsive
+    // ---------    <----- clear
+    // | 3 | 4 |    <----- responsive
     // ---------
     .l-4-col {
         .l-narrow-col {
@@ -53,14 +81,11 @@
     }
 }
 
-
-
-
 @media @tablet {
     // ------------
-    // |   main   | <----- responsive
+    // |   main   | <----- responsive / reorder
      // ------------
-    // |  1  |  2 |
+    // |  1  |  2 | <----- responsive / reorder
     // ------------
 	.l-2-col-right {
 		.l-narrow-col {
@@ -150,10 +175,6 @@
 
 }
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
- 
-    
-
-
     // ----------------
     // | 1 | 2 | 3 | 4 |
     // ----------------
@@ -183,6 +204,12 @@
     }
 }
 @media @laptop {
+    .l-narrow-col {
+        .l-responsive {
+            width: 100%;
+        }
+    }
+    
     // ------------
     // | main | 1 | <----- laptop < 
     // |      | 2 |

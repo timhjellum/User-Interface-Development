@@ -9,7 +9,7 @@ class HeaderMenu {
 		this.footer = $('footer');
 		this.logo = $('.logo');
 		this.window = $(window);
-		this.checkSize();
+//		this.checkSize();
 		this.events();
 		this.openMenu();
 
@@ -71,7 +71,7 @@ class HeaderMenu {
 		var viewPortWidth = window.innerWidth;
 		var viewPortHeight = window.innerHeight;
 		var fbWidth = 980;
-
+	//	console.log(fbWidth);
 		$('.fancybox-menu').fancybox({
 			scrolling: 'visible',
 			type: 'inline',
@@ -90,10 +90,14 @@ class HeaderMenu {
 				viewPortWidth = window.innerWidth;
 				if (viewPortWidth <= fbWidth) {
 					this.width = viewPortWidth;
+				//	this.autoResize = true;
 					this.fitToView = true;
+				//	console.log(viewPortHeight + ' ' + this.height);
 				} else {
 					this.width = fbWidth;
+				//	this.autoResize = false;
 					this.fitToView = false;
+				//	console.log(viewPortHeight + ' ' + this.height);
 				};
 			},
 			beforeShow: function () {
@@ -120,11 +124,11 @@ class HeaderMenu {
 			}
 		});
 	}
+
 	checkSize() {
-		//console.log('Checking size');
 		var viewPortWidth = window.innerWidth;
 		var viewPortHeight = window.innerHeight;
-		//console.log('viewport width is: ' + viewPortWidth + ' and viewport height is:' + viewPortHeight);
+
 		if (viewPortWidth > 960) {
 			//console.log(viewPortWidth + " = laptop and desktop");
 			$('.fancybox-wrap').addClass('fancybox-laptop');
@@ -135,5 +139,6 @@ class HeaderMenu {
 			$('.fancybox-wrap').removeClass('fancybox-laptop');
 		}
 	}
+
 }
 export default HeaderMenu;

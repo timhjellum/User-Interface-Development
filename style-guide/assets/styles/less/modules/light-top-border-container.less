@@ -1,35 +1,14 @@
-/*
-REMs        Pixels
----------------------
-font-size: 0.625rem; // 10 pixels	
-font-size: 0.688rem; // 11 pixels
-font-size: 0.750rem; // 12 pixels
-font-size: 0.813rem; // 13 pixels
-font-size: 0.875rem; // 14 pixels
-font-size: 0.938rem; // 15 pixels
-font-size: 1.000rem; // 16 pixels
-font-size: 0.063rem; // 17 pixels
-font-size: 1.125rem; // 18 pixels
-font-size: 1.188rem; // 19 pixels
-font-size: 1.250rem; // 20 pixels
-font-size: 1.313rem; // 21 pixels
-font-size: 1.375rem; // 22 pixels
-font-size: 1.438rem; // 23 pixels
-font-size: 1.500rem; // 24 pixels
-*/
-
 @media @mobile {
     .light-top-border-container {
         border-top: 4px solid @eia-blue;
         ul {
-            padding: 17px;
             margin: 0;
             li  {
                 .font;
                 font-size: 0.750rem * 1.10%; // 12 pixels
                 line-height: 150%; // 18 pixels
                 padding: 0 0 10px 0;
-                margin: 8px 0 0 0;
+                margin: 10px 0 0; //8px 0 0 0;
                 border-bottom: 1px solid @eia-divider;
                 &:last-child {
                     border-bottom: none;
@@ -45,7 +24,7 @@ font-size: 1.500rem; // 24 pixels
                 }
                 &.head {
                     padding: 0 0 7px 0;
-                    margin: 0 0 7px 0;
+                    margin: 14px 0 7px 0;
                     border-bottom: 1px solid #999;
                     h2  {
                         .font;
@@ -78,13 +57,16 @@ font-size: 1.500rem; // 24 pixels
         }
     }
 }
+
 @media @laptop {
     .light-top-border-container {
         ul {
+            padding: 17px;
             li  {
-                .font;
-                font-size: 0.750rem; // 12 pixels
+                padding: 0 0 10px 0;
                 &.head {
+                    padding: 0 0 7px 0;
+                    margin: 0 0 7px 0;
                     h2  {
                         font-size: 0.750rem; // 12 pixels
                     }

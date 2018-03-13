@@ -1,5 +1,42 @@
 @media @mobile {
 
+
+	/*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
+	.down-arrow {			
+		text-indent: -9999px;
+		&::before {
+			.icon-down-arrow();
+			.controls-icon(10px, 16px);
+			float: left;
+			margin-right: 8px;
+		}
+	}
+	.up-arrow {
+			text-indent: -9999px;		
+		&::before {
+			.icon-up-arrow();
+			.controls-icon(10px, 16px);
+			float: left;
+			margin-right: 8px;
+		}
+	}
+	/*---Right arrow for use in footer and similar---*/
+	.right-arrow-head {
+		&::before {
+			.icon-right-arrow-head();
+			.controls-icon(12px, 12px);
+			float: left;
+			margin: 6px 0 0 4px;
+		}
+	}
+
+
+
+
+
+
+
+
     a {
 		&.logo {
 			text-indent: -9999px;
@@ -300,7 +337,7 @@
 
 			/*-search submit --------------------------*/
 			&.search-submit {
-	//			position: relative;
+
 				top: -6px;
 				left: -8px;
 				cursor: pointer;
@@ -317,26 +354,27 @@
 		}
 	}		
 		/*-general Icon --------------------------*/
-
+		/*
 		.arrow {
 			text-indent: -9999px;
 			&.down {
-//				&.eia-blue {
+				//&.eia-blue {
 					display: inline-block;
 					Margin-top: -1px;
 					padding: 0px 0px 0px 16px;
 					background: transparent url(https://www.eia.gov/global/images/icons/down.png) no-repeat center left;
-//				}
+				//}
 			}
 			&.up {
-//				&.eia-blue {
+				//	&.eia-blue {
 					display: inline-block;
 					Margin-top: -1px;
 					padding: 0px 0px 0px 16px;
 					background: transparent url(https://www.eia.gov/global/images/icons/up.png) no-repeat center left;
-//				}
+				//}
 			}
 		}
+		*/
 
 
 
@@ -345,9 +383,8 @@
 
 
 
-
-
-		/*
+	.ico {
+		text-indent: -9999px;
 		&.analysis {
 			&::before {
 				.controls-icon(20px, 20px);
@@ -882,139 +919,6 @@
 		}
 
 
-		//////////////////////////////////////////////////////////////////
-		//  legacy                                                     //
-		////////////////////////////////////////////////////////////////
-
-		&.telephone {
-			background-image: url(../images/icons/phone-icon.jpg);
-		}
-		//&.email {}
-		//&.rss {}
-		&.calendar {
-			background-image: url(../images/icons/calendar.png);
-		}
-		&.radio {
-			background-image: url(../images/icons/radio_spot.png);
-		}
-
-
-
-		&.linechart {
-			&::before {
-				.controls-icon;
-				&.line-chart(tint(@eia-blue, 40%););
-					//Less has some useful color functions. The function tint() lightens the color by whatever percentage we pass. This is similar to how I've created some of the lighter colors in Illustrator so I'm looking into how we might use this. It's not something we need to worry about right now since we'll be able to make these changes easily later on.
-				height: 29px;
-				background-position: center bottom; //you'll notice that the background position is already set in the icons file. I needed these aligned differently here.
-			}
-			&.ui-state-active, &.ui-state-hover {
-				color: @eia-blue;
-				&::before {
-					&.line-chart(@eia-blue);
-					background-position: center bottom;
-				}
-			}
-		}
-
-      	&.pdf {
-			background: transparent url(../images/icons/pdf.png) no-repeat center left;
-
-			&.grey {
-				background: transparent url(/petroleum/supply/weekly/includes/pdfgrey.png) no-repeat center left;
-			}
-		}
-		&.xls {
-			background: transparent url(../images/icons/xls2.png) no-repeat center left;
-			background-size: cover;
-		  	&.grey {
-				background: transparent url(../images/petroleum/supply/weekly/includes/xls2grey.png) no-repeat center left;
-		  	}
-		}
-		&.csv {
-			background: transparent url(../images/icons/csv.png) no-repeat center left;
-
-			&.grey {
-				background: transparent url(../images/petroleum/supply/weekly/includes/csvgrey.png);
-			}
-		}
-
-		&.up,
-		&.down,
-		&.blank {
-			margin: 0 5px 0 0;
-
-			width: 13px; // 13px actual size
-			height: 13px; // 13px actual size
-		}
-		&.up {
-			background: transparent url(https://www.eia.gov/petroleum/gasdiesel/images/upred.gif) no-repeat center left; 
-		}
-		&.down {
-			background: transparent url(https://www.eia.gov/petroleum/gasdiesel/images/dwngrn.gif) no-repeat center left;
-		}
-  
-		&.blank { 
-			width: 100%; // 13px actual size
-			height: 100%; // 13px actual size
-		&::after { 
-			content: "Values are not available. - ";
-			width: 100%; // 13px actual size
-			height: 100%; // 13px actual size
-		} 
-//	} 
-		&.value {
-			&.up,
-			&.down {
-				text-indent: -9999px;
-				width: 8px;
-				height: 12px;
-				margin-left: 2px;
-				display: inline-block;
-				float: none;
-				background: url(https://www.eia.gov/petroleum/heatingoilpropane/images/icons/arrows.png) no-repeat center;
-			}
-			&.up {
-				background-position-y: 1px;
-			}
-			&.down {
-				background-position-y: bottom;
-			}
-		  }
-		.arrow-right {
-			width: 0;
-			height: 0;
-			float: right;
-			margin: 7px 0 0 6px;
-			border-top: 4px solid transparent;
-			border-bottom: 4px solid transparent;
-			border-left: 4px solid #666;
-		}
-		.arrow-down {
-			width: 0;
-			height: 0;
-			float: right;
-			margin: 13px 0 0 6px;
-			border-top: 4px solid @eia-blue;
-			border-right: 4px solid transparent;
-			border-left: 4px solid transparent;
-		}
-		.active {
-			  .arrow-down {
-				border-top: 4px solid @eia-darker-blue;
-			  }
-		}
-
-
-		&.down-arrow {
-			background-image: url(../images/icons/arrow_bl_d.png);
-			display: inline-block;
-			height: 7px;
-			margin-bottom: 3px;
-			margin-left: 5px;
-			width: 7px;
-		}
-
 
 
 		&.beta-interactive {
@@ -1024,8 +928,6 @@
 			width: 17px;
 			height: 17px;
 		}
-
-
 		&.circle {
 			width: 100px;
 			height: 100px;
@@ -1046,7 +948,152 @@
 			}
 		}
 	}
-	.l-narrow-col {
+
+
+
+
+
+
+
+		//////////////////////////////////////////////////////////////////
+		//  legacy                                                     //
+		////////////////////////////////////////////////////////////////
+		/*
+		&.telephone {
+			background-image: url(../images/icons/phone-icon.jpg);
+		}
+		//&.email {}
+		//&.rss {}
+		&.calendar {
+			background-image: url(../images/icons/calendar.png);
+		}
+		&.radio {
+			background-image: url(../images/icons/radio_spot.png);
+		}
+
+
+
+		&.linechart {
+			&::before {
+				.controls-icon;
+				&.line-chart(tint(@eia-blue, 40%);
+					//Less has some useful color functions. The function tint() lightens the color by whatever percentage we pass. This is similar to how I've created some of the lighter colors in Illustrator so I'm looking into how we might use this. It's not something we need to worry about right now since we'll be able to make these changes easily later on.
+				height: 29px;
+				background-position: center bottom; //you'll notice that the background position is already set in the icons file. I needed these aligned differently here.
+			}
+			&.ui-state-active, &.ui-state-hover {
+				color: @eia-blue;
+				&::before {
+					&.line-chart(@eia-blue);
+					background-position: center bottom;
+				}
+			}
+		}
+
+		&.pdf {
+			background: transparent url(../images/icons/pdf.png) no-repeat center left;
+
+			&.grey {
+				background: transparent url(/petroleum/supply/weekly/includes/pdfgrey.png) no-repeat center left;
+			}
+		}
+		&.xls {
+			background: transparent url(../images/icons/xls2.png) no-repeat center left;
+			background-size: cover;
+			&.grey {
+				background: transparent url(../images/petroleum/supply/weekly/includes/xls2grey.png) no-repeat center left;
+			}
+		}
+		&.csv {
+			background: transparent url(../images/icons/csv.png) no-repeat center left;
+
+			&.grey {
+				background: transparent url(../images/petroleum/supply/weekly/includes/csvgrey.png);
+			}
+		}
+
+		&.up,
+		&.down,
+		&.blank {
+			margin: 0 5px 0 0;
+			width: 13px; // 13px actual size
+			height: 13px; // 13px actual size
+		}
+		&.up {
+			background: transparent url(https://www.eia.gov/petroleum/gasdiesel/images/upred.gif) no-repeat center left; 
+		}
+		&.down {
+			background: transparent url(https://www.eia.gov/petroleum/gasdiesel/images/dwngrn.gif) no-repeat center left;
+		}
+		&.blank { 
+			width: 100%; // 13px actual size
+			height: 100%; // 13px actual size
+			&::after { 
+				content: "Values are not available. - ";
+				width: 100%; // 13px actual size
+				height: 100%; // 13px actual size
+			} 
+		} 
+		&.value {
+			&.up,
+			&.down {
+				text-indent: -9999px;
+				width: 8px;
+				height: 12px;
+				margin-left: 2px;
+				display: inline-block;
+				float: none;
+				background: url(https://www.eia.gov/petroleum/heatingoilpropane/images/icons/arrows.png) no-repeat center;
+			}
+			&.up {
+				background-position-y: 1px;
+			}
+			&.down {
+				background-position-y: bottom;
+			}
+		}
+		&.arrow-right {
+			width: 0;
+			height: 0;
+			float: right;
+			margin: 7px 0 0 6px;
+			border-top: 4px solid transparent;
+			border-bottom: 4px solid transparent;
+			border-left: 4px solid #666;
+		}
+		&.arrow-down {
+			width: 0;
+			height: 0;
+			float: right;
+			margin: 13px 0 0 6px;
+			border-top: 4px solid @eia-blue;
+			border-right: 4px solid transparent;
+			border-left: 4px solid transparent;
+		}
+		.active {
+			.arrow-down {
+				border-top: 4px solid @eia-darker-blue;
+			}
+		}
+		&.down-arrow {
+			background-image: url(../images/icons/arrow_bl_d.png);
+			display: inline-block;
+			height: 7px;
+			margin-bottom: 3px;
+			margin-left: 5px;
+			width: 7px;
+		}
+		*/
+
+
+
+
+
+
+
+
+	/*
+	.??? {
 		i {
 			&.ico {
 				.left;
@@ -1058,6 +1105,7 @@
 			}
 		}
 	}
+	*/
 	.energy-education {
 		.ico {
 			&.energy-education {
@@ -1124,8 +1172,6 @@
 			}
 		}
 	}
-
-
 }
 
 
@@ -1160,6 +1206,12 @@
 //  social                                                     //
 ////////////////////////////////////////////////////////////////
 @media @mobile {
+
+
+
+
+
+	
 	&.ico-footer {
 		margin: 0 4px -8px 0;
 		padding: 0 0 5px 0;

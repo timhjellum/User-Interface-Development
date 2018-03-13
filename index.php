@@ -19,8 +19,10 @@
 			<?php include('css_rehab/archive/homepage/includes/whats-new.inc') ?>
 		</div>
 		<div class="l-middle-col l-first">
-			<?php /* include "todayinenergy/includes/file_scrub_live.inc"; */ ?>
-			<?php include('css_rehab/archive/homepage/includes/today-in-energy.inc') ?>
+			<div class="content-container main-content-container">
+				<?php include('todayinenergy/includes/file_scrub_live.inc') ?>
+				<?php /* include('css_rehab/archive/homepage/includes/today-in-energy.inc') */ ?>
+			</div>
 		</div>
 		<div class="l-narrow-col l-third">
 			<?php

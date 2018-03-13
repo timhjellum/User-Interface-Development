@@ -2,7 +2,9 @@
 	<h2>Features</h2>
 	<div>
 		<div>
-			<a href="https://www.eia.gov/beta/realtime_grid/" style="background-image: url(homepage/images/features/electric_data_sys.jpg)" title="Electricity Data Browser"></a>
+			<a href="https://www.eia.gov/beta/realtime_grid/">
+				<img src="homepage/images/features/electric_data_sys.jpg" alt="Electricity Data Browser">
+			</a>
 		</div>
 		<ul>
 			<li class="head"><h3><a href="https://www.eia.gov/beta/realtime_grid/">Electric System Operating Data Tool</a></h3></li>
@@ -12,7 +14,9 @@
 
 	<div>
 		<div>
-			<a href="http://www.noggateway.org" style="background-image: url(homepage/images/features/gateway.jpg)" title="Gateway"></a>
+			<a href="http://www.noggateway.org">
+				<img src="homepage/images/features/gateway.jpg" alt="Gateway">
+			</a>
 		</div>
 		<ul>
 			<li class="head"><h3><a href="http://www.noggateway.org">National Oil &amp; Gas Gateway</a></h3></li>
@@ -22,7 +26,9 @@
 
 	<div>
 		<div>
-			<a href="/state/maps.cfm" style="background-image: url(homepage/images/features/energy_mapping_system.jpg)" title="U.S. Energy Mapping System"></a>
+			<a href="/state/maps.cfm">
+				<img src="homepage/images/features/energy_mapping_system.jpg" alt="U.S. Energy Mapping System">
+			</a>
 		</div>
 		<ul>
 			<li class="head"><h3><a href="/state/maps.cfm">U.S. Energy Mapping System</a></h3></li>

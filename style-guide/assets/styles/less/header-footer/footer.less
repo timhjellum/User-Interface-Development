@@ -14,7 +14,7 @@
 		//.font-size;
 		float: left;
 		clear: both;
-		padding: 1em 0 3em;
+		padding: 1em 0;
 		display: table;
 		width: 100%;
 		min-width: 320px;
@@ -56,6 +56,7 @@ font-size: 0.938rem * 1.20%;
 					line-height: 1.4em;
 					color: @eia-dark-gray;
 					text-decoration: none;
+					float: left;
 					&:hover {
 						text-decoration: none;
 						color:@eia-blue;
@@ -63,14 +64,21 @@ font-size: 0.938rem * 1.20%;
 				}
 			}
 			.address {
-				margin: 0;
-				padding: 0;
-				text-align: center;
 				.font;
-font-size: .6875rem * 1.20%;
+				font-size: .6875rem * 1.35%;
 				color: #a6a5a6; // @eia-dark-gray;
-				display: block;
+
+				&.stacked {
+					margin: 0;
+					padding: 0;
+					text-align: center;
+					display: block;
+				}
+				&.un-stacked {
+					display: none;
+				}				
 			}
+
 		}
 		.footer-links  {
 			width: 100%;
@@ -116,9 +124,6 @@ font-size: .6875rem * 1.20%;
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.footer {
-//		.l-one-third-col {
-//			background-color: black;
-//		}
 		.l-column,
 		.l-one-third-col,
 		.l-two-third-column {
@@ -131,9 +136,18 @@ font-size: .6875rem * 1.20%;
 		}
 		.address-bar {
 			.address {
-				text-align: right;
-				border-right: 1px solid #a6a5a6; // @eia-dark-gray;
-				padding: 0 25px 0 0;	
+				&.stacked {
+					text-align: right;
+					border-right: 1px solid #a6a5a6; // @eia-dark-gray;
+					padding: 0 25px 0 0;
+					display: none;
+				}
+				&.un-stacked {
+					display: block;
+					padding: 0;
+					text-align: center;
+					border-right: none; // @eia-dark-gray;	
+				}				
 			}
 		}
 	}
@@ -169,24 +183,16 @@ font-size: .6875rem * 1.20%;
 			.above-address-links {
 				padding: 0 22px 1em 22px;
 			}
-			.address {
-				padding: 0;
-				text-align: center;
-				border-right: none; // @eia-dark-gray;	
-			}
 		}
 		.footer-links  {
 			ul {
-				min-height: 250px;
+				min-height: 260px;
 			}
 		}
 	}
 }
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
 	.footer {
-//		.l-one-third-col {
-//			background-color: yellow;
-//		}
 		.l-column {
 			-webkit-box-flex: 0;
 			-webkit-flex: 0 0 16.666667%;
@@ -230,9 +236,15 @@ font-size: .6875rem * 1.20%;
 				font-size: .6875rem;
 				float: right;
 				padding: 0 25px 0 0;
-				border-right: 1px solid #a6a5a6; // @eia-dark-gray;
-				text-align: right;
-				border-top: none;
+				&.stacked {
+//					text-align: right;
+//					border-right: 1px solid #a6a5a6; // @eia-dark-gray;
+//					padding: 0 25px 0 0;
+					display: block;
+				}
+				&.un-stacked {
+					display: none;
+				}				
 			}
 			.above-address-links {
 				font-size: 0.938rem;

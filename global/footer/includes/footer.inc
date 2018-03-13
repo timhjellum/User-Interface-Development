@@ -1,21 +1,22 @@
-            <!-- start footer -->
+            
             </div>
         </div>
     </div>
-</section>
+</section>    
 <footer class="clearfix footer">
     <div class="l-row address-bar">
         <div class="l-two-third-column">
             <ul class="above-address-links">
-                <li><a href="/about/">About EIA</a><div class="arrow-right"></div></li>
-                <li><a href="/beta/api/">Open Data</a><div class="arrow-right"></div></li>
-                <li><a href="/pressroom/">Press Room</a><div class="arrow-right"></div></li>
-                <li><a href="/about/careers/">Careers</a><div class="arrow-right"></div></li>
-                <li><a href="/about/contact/">Contact Us</a><div class="arrow-right"></div></li>
+                <li><a href="/about/">About EIA</a><i class="right-arrow-head"></i></li>
+                <li><a href="/beta/api/">Open Data</a><i class="right-arrow-head"></i></li>
+                <li><a href="/pressroom/">Press Room</a><i class="right-arrow-head"></i></li>
+                <li><a href="/about/careers/">Careers</a><i class="right-arrow-head"></i></li>
+                <li><a href="/about/contact/">Contact Us</a><i class="right-arrow-head"></i></li>
             </ul>
         </div>
         <div class="l-one-third-col">
-            <div class="address">U.S. Energy Information Administration<br />1000 Independence Ave., SW <br />Washington, DC 20585</div>
+            <div class="address stacked">U.S. Energy Information Administration<br />1000 Independence Ave., SW <br />Washington, DC 20585</div>
+            <div class="address un-stacked">U.S. Energy Information Administration, 1000 Independence Ave., SW, Washington, DC 20585</div>
         </div>
     </div>
     <div class="l-row footer-links">

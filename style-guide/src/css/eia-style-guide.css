@@ -1063,8 +1063,8 @@ template {
 	}
 
 	hr {
-		background: @light-gray;
-		color: @light-gray;
+		background: @eia-light-gray;
+		color: @eia-light-gray;
 		clear: both;
 		float: none;
 		width: 100%;
