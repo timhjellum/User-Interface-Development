@@ -124,7 +124,6 @@ class HeaderMenu {
 			}
 		});
 	}
-
 	checkSize() {
 		var viewPortWidth = window.innerWidth;
 		var viewPortHeight = window.innerHeight;

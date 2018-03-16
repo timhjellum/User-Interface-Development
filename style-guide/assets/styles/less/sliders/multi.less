@@ -57,7 +57,7 @@
 							z-index: 9999;
 							font-size: 80px;
 							color: @eia-dark-gray;
-							color: @eia-light-green;
+							color: fade(@eia-green, 40%);
 							-webkit-font-smoothing: antialiased;
 							-moz-osx-font-smoothing: grayscale;
 							transition: all .6s;
@@ -65,7 +65,7 @@
 							&:hover {
 								opacity: 0.85;
 								color: @eia-green; // was rgb(93,151,50);
-								background-color: @slider_green; // was rgb(190,213,173);
+								background-color: fade(@eia-green, 60%); // was rgb(190,213,173);
 							}
 							&.bx-prev,
 							&.bx-next {
@@ -132,7 +132,7 @@
 							margin: 0 .5em .5em 0;
 							width: 15px;
 							height: 15px;
-							background-color: @silver; //@greyish-blue; 
+							background-color: @eia-silver; //@eia-greyish-blue; 
 							padding: 0;
 							border: 0;
 							&:hover {

@@ -16,7 +16,7 @@
 <div class="homepage">
 	<div class="l-row l-3-col l-reorder">
 		<div class="l-narrow-col l-second">
-			<?php include('css_rehab/archive/homepage/includes/whats-new.inc') ?>
+			<?php include('css_rehab/archive/global/includes/whats-new.inc') ?>
 		</div>
 		<div class="l-middle-col l-first">
 			<div class="content-container main-content-container">

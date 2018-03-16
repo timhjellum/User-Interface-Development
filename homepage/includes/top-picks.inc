@@ -14,10 +14,10 @@ $topPicksThreeLabel = "This Week in Petroleum";
 $topPicksFourRL = "/petroleum/supply/weekly/";
 $topPicksFourLabel = "Weekly Petroleum Status Report";
 
-$topPicksFiveURL = "/countries";
+$topPicksFiveURL = "/countries/";
 $topPicksFiveLabel = "Profiles for countries";
 
-$topPicksSixURL = "/state";
+$topPicksSixURL = "/state/";
 $topPicksSixLabel = "Profiles for U.S. states";
 
 $topPicksSevenURL = "/todayinenergy/";

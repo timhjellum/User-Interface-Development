@@ -2,20 +2,20 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› or the  &rsaquo; */
 
-$featureOneURL = "https://www.eia.gov/beta/realtime_grid/";
-$featureOneImage = "homepage/images/features/electricity-data-browser.jpg";
+$featureOneURL = "/beta/realtime_grid/";
+$featureOneImageName = "electricity-data-browser.jpg";
 $featureOneAlt = "Electricity Data Browser";
 $featureOneLabel = "Electric System Operating Data Tool";
 $featureOneDescription = "Near real-time electricity operations data for the Lower 48 states.";
 
 $featureTwoURL = "/conference/2018/?src=home-b6";
-$featureTwoImage = "homepage/images/features/2018-eia-energy-conference.jpg";
+$featureTwoImageName = "2018-eia-energy-conference.jpg";
 $featureTwoAlt = "Gateway";
 $featureTwoLabel = "2018 Energy Conference";
 $featureTwoDescription = "Registration is now open";
 
 $featureThreeURL = "/state/maps.php";
-$featureThreeImage = "homepage/images/features/us-energy-mapping-system.jpg";
+$featureThreeImageName = "us-energy-mapping-system.jpg";
 $featureThreeAlt = "U.S. Energy Mapping System";
 $featureThreeLabel = "U.S. Energy Mapping System";
 $featureThreeDescription = "Rankings, layers of energy information, and state comparisons.";
@@ -28,7 +28,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 	<div>
 		<div>
 			<a href='<?=$featureOneURL?>'>
-				<img src='<?=$featureOneImage?>' alt='<?=$featureOneAlt?>' />
+				<img src='homepage/images/features/<?=$featureOneImageName?>' alt='<?=$featureOneAlt?>' />
 			</a>
 		</div>
 		<ul>
@@ -40,7 +40,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 	<div>
 		<div>
 			<a href='<?=$featureTwoURL?>'>
-				<img src='<?=$featureTwoImage?>' alt='<?=$featureTwoAlt?>' />
+				<img src='homepage/images/features/<?=$featureTwoImageName?>' alt='<?=$featureTwoAlt?>' />
 			</a>
 		</div>
 		<ul>
@@ -52,7 +52,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 	<div>
 		<div>
 			<a href='<?=$featureThreeURL?>'>
-				<img src='<?=$featureThreeImage?>' alt='<?=$featureThreeAlt?>' />
+				<img src='homepage/images/features/<?=$featureThreeImageName?>' alt='<?=$featureThreeAlt?>' />
 			</a>
 		</div>
 		<ul>

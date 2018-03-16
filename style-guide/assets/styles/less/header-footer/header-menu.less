@@ -20,6 +20,14 @@
         }
     }
     */
+
+    .fancybox-lock {
+        body {
+            overflow: hidden;
+            position: fixed;
+        }
+    }
+
     .fancybox-skin {
         background: #fff;
         -webkit-border-radius: 0;
@@ -183,7 +191,7 @@
                     }
                     .a-z-bottom {
                         border: none;
-                        padding: 1em 1.4em;
+                        padding: 1em 0;
                     }
                     .nav-menu {
                         border-bottom: 1px solid @eia-light-gray;
@@ -258,13 +266,12 @@
                             .energy-explained-list {
                                 &.left {
                                     .left;
-                                    width: 42%;
-                                    margin-left: 60px;
+                                    margin: 8px 0 0 60px;
+                                    clear: both;
                                 }
                                 &.right {
-                                    .right;
-                                    width: 42%;
-                                    margin-left: 0;
+                                    .left;
+                                    margin: 0 0 8px 60px;
                                 }
                             }
                         }
@@ -274,27 +281,27 @@
                             .faq-list {
                                 &.left {
                                     .left;
-                                    width: 42%;
-                                    margin-left: 60px;
+                                    margin: 8px 0 0 60px;
+                                    clear: both;
                                 }
                                 &.right {
-                                    .right;
-                                    width: 42%;
-                                    margin-left: 0;
+                                    .left;
+                                    margin: 0 0 8px 60px;
+                                    margin-left: 60px;
                                 }
                             }
                         }
                         &.energy-kids {
                             a {
-                                .right;
+                            //    .right;
                                 padding: 0;
                                 &.energy-kids {
-                                    width: 431px;
-                                    height: 105px;
-                                    background-image: url(/global/images/energy-kids/energy-kids.png);
-                                    &:hover {
-                                        background-image: url(/global/images/energy-kids/energy-kids-hover.png);
-                                    }                        
+                                   img {
+                                        width: 100%;
+                                         &:hover {
+                                            background-image: url(/css_rehab/archive/global/images/energy-kids/energy-kids-hover.png);
+                                        }                       
+                                    }
                                 }
                             }
                         }
@@ -404,8 +411,8 @@
                             }
                         }
                         &.a-z-index {
-                            width: 95%;
-                            margin: 0 2.5%;
+                            width: 94%;
+                            margin: 0 3%;
                             padding: 1em 0 2em 0;
                             border-bottom: none;
                             .a-z-list {
@@ -501,6 +508,82 @@
         }
     }
 }
+
+
+
+
+@media @tablet {
+    .fancybox-wrap {
+        &.global-nav {
+            .fancybox-inner {
+                .section-tabs {
+                    .nav-menu {
+                        &.energy-explained {
+                            .energy-explained-list {
+                                &.left {
+                                    .left;
+                                    width: 42%;
+                                    margin: 8px 0 8px 60px;
+                                    clear: none;
+                                }
+                                &.right {
+                                    .right;
+                                    width: 42%;
+                                    margin: 8px 0;
+                                    clear: none;
+                                }
+                            }
+                        }
+                        &.faq {
+                            .faq-list {
+                                &.left {
+                                    .left;
+                                    width: 42%;
+                                    margin-left: 60px;
+                                    clear: none;
+                                }
+                                &.right {
+                                    .right;
+                                    width: 42%;
+                                    margin-left: 0;
+                                    clear: none;
+                                }
+                            }
+                        }
+                        &.energy-kids {
+                            a {
+                                
+                                padding: 0;
+                                &.energy-kids {
+                                    img {
+                                        .left;
+                                        width: 431px;
+                                        height: 105px;
+                                    }                       
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media @laptop {
     .fancybox-overlay {
         background: rgba(0,0,0,0.7);
@@ -540,6 +623,14 @@
                     .nav-menu {
                         &:last-child {
                             border-bottom: none;
+                        }
+                        &.energy-kids {
+                            a {
+                                img {
+                                    width: 100%;
+                                    .right;
+                                }
+                            }
                         }
                         &.a-z-index {
                             width: 95%;
@@ -611,269 +702,3 @@
         }
     }
 }
-
-// on this page the body tag has a class that hanges the page font size to 90% https://wwwdev.eia.gov/state/?sid=MT
-// remove top margin
-// add button so it's in header
-// last child border needs to show border when stacked
-// need to isolate the normalize
-
-/*
-
-@media @mobile-aspect-ratio {
-    .fancybox-wrap {
-        top: 0 !important;
-        &.global-nav .section-tabs  {
-            width: 50%;
-            transform: scale(2);
-            transform-origin: top left;
-            .sources-uses, .topics, .geography, .tools, .learn, .news {
-                &.left {
-                    width: 94%;
-                    margin: 0 3%;
-                    border: none;
-                    > div {
-                        width: 100%;
-                        margin: 0;
-                        padding: 1em 0;
-                        &:last-child {
-                            border-bottom: 1px solid @eia-light-gray;
-                        }
-                    }
-                }
-                &.right {
-                    width: 94%;
-                    margin: 0 3%;
-                    border: none;
-                    > div {
-                        width: 100%;
-                        margin: 0;
-                        padding: 1em 0;
-                    }
-                }
-            }
-            .a-z-bottom {
-                border: none;
-                padding: 1em 1.4em;
-            }
-            .nav-menu {
-                border-bottom: 1px solid @eia-light-gray;
-                display: table;
-                min-height: 100px;
-                clear: both;
-                position: relative;
-                i {
-                    position: absolute;
-                }
-                h3 {
-                    margin: 0 0 0 80px;
-                    .header-font;
-                    font-weight: 100;
-                    text-transform: none;
-                    font-size: 1.375em;
-                    line-height: 0.8;
-                    display: block;
-                    a {
-                        .header-font;
-                        line-height: 1.2em;
-                        font-weight: 100;
-                        text-transform: none;
-                        text-decoration: none;
-                        font-size: 1.375rem;
-                        color: @eia-darker-blue;
-                        &:hover {
-                            text-decoration: underline;
-                        }
-                    }
-                }
-                p {
-                    .font;
-                    display: block;
-                    margin: 0 0 0 80px;
-                    font-size: 0.875rem;
-                    line-height: 1.4;
-                    color: #7d7d7d;
-                    a {
-                        position: relative;
-                        i {
-                            position: relative;
-                        }
-                    }
-                }
-                ul {
-                    margin: 8px 0 8px 56px;
-                    padding-left: 40px;
-                    overflow: hidden;
-                    li {
-                        .font;                            
-                        line-height: 1.6em;
-                        font-size: 0.875rem;
-                        cursor: pointer;
-                        a {
-                            text-decoration: none;
-                            color: @eia-blue; 
-                            display: block;
-                            &:after {
-                                content: "\00a0\203A";
-                            }
-                            &:hover {
-                                text-decoration: underline;
-                            }
-                        }                           
-                    }
-                }
-                &.energy-explained {
-                    display: inline-block;
-                    width: 100%;
-                    .energy-explained-list {
-                        &.left {
-                            .left;
-                            width: 42%;
-                            margin-left: 60px;
-                        }
-                        &.right {
-                            .right;
-                            width: 42%;
-                            margin-left: 0;
-                        }
-                    }
-                }
-                &.faq {
-                    display: inline-block;
-                    width: 100%;
-                    .faq-list {
-                        &.left {
-                            .left;
-                            width: 42%;
-                            margin-left: 60px;
-                        }
-                        &.right {
-                            .right;
-                            width: 42%;
-                            margin-left: 0;
-                        }
-                    }
-                }
-                &.energy-kids {
-                    a {
-                        .right;
-                        padding: 0;
-                        &.energy-kids {
-                            width: 431px;
-                            height: 105px;
-                            background-image: url(/global/images/energy-kids/energy-kids.png);
-                            &:hover {
-                                background-image: url(/global/images/energy-kids/energy-kids-hover.png);
-                            }                        
-                        }
-                    }
-                }
-                &.follow-us {
-                    p {
-                        margin: 8px 0 0 74px;
-                    }
-                }
-                &.whats-new {
-                    ul {
-                        list-style: none;
-                        padding-left: 26px;
-                        li {
-                            a {
-                                margin-top: -6px;
-                            }
-                        }
-                    }
-                }
-                &.a-z-index {
-                    width: 95%;
-                    margin: 0 2.5%;
-                    padding: 1em 0 2em 0;
-                    border-bottom: none;
-                    .a-z-list {
-                        position: relative;
-                        display: block;
-                        margin-left: 80px;
-                        overflow-wrap: break-word;
-                        color: @eia-dark-gray;
-                        line-height: 1.6em;
-                        .font;
-                        font-size: 0.875rem;
-                        a {
-                            display: inline-block;
-                            padding: 5px;
-                            cursor: pointer;
-                            color: @eia-blue;
-                        }
-                    }
-                }
-                .form-wrapper {
-                    margin: 6px 0 0 80px;
-                    display: block;   
-                    width: 250px;
-                    position: relative;
-                    input[type=text],
-                    textarea {
-                        margin: 0;
-                        .font;
-                        font-size: 0.875rem;
-                        width: 250px;
-                    }
-                    input {
-                        &.fancy-search-box {
-                            padding: 2px;
-                        }
-                    }
-                    textarea {
-                        &.fancy-search-box {
-                            width: 250px;
-                            height: auto;
-                        }
-                    }  
-                    button {
-                        &.search-submit {
-                            background-color: transparent;
-                            border: none;
-                            width: 19px;
-                            height: 19px;
-                            position: absolute;
-                            top: 8px;
-                            right: -30px;
-                        }
-                    }
-                }
-                .ui-autocomplete {
-                    position: absolute;
-                    cursor: default;
-                    background-color: #eee;
-                    .ui-menu-item {
-                        .font;
-                        margin-bottom: .5em;
-                        font-size: 0.813rem;
-                        .ui-menu-item-wrapper {
-                            &:hover {
-                                background-color: #fff;
-                            }
-                        }
-                    }
-                    &.ui-widget-content {
-                        border: 1px solid #dddddd;
-                        //background: #ffffff;
-                        color: @eia-dark-gray;
-                    }
-                    &.ui-menu {
-                        list-style: none;
-                        padding: .5em;
-                        margin: 0;
-                        display: block;
-                        outline: 0;
-                    }
-                }
-            }
-        }
-    }
-	.close-menu {
-		top: 5px;
-		right: 5px;
-    }
-}
-*/

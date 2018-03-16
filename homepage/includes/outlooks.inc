@@ -2,13 +2,13 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$outlooksOneURL = "https://www.eia.gov/outlooks/steo/";
+$outlooksOneURL = "/outlooks/steo/";
 $outlooksOneLabel = "Short-Term Energy Outlook";
 
-$outlooksTwoURL = "https://www.eia.gov/outlooks/aeo/";
+$outlooksTwoURL = "/outlooks/aeo/";
 $outlooksTwoLabel = "Annual Energy Outlook";
 
-$outlooksThreeURL = "https://www.eia.gov/outlooks/ieo";
+$outlooksThreeURL = "/outlooks/ieo/";
 $outlooksThreeLabel = "International Energy Outlook";
 
 /* DO NOT EDIT BELOW */

@@ -37,7 +37,7 @@
             <li><a href="/environment">Environment</a></li>
             <li><a href="/finance/">Markets &amp; Finance</a></li>
             <li><a href="/todayinenergy/">Today in Energy</a></li>
-            <li><br /></li>
+            <!-- li><br /></li -->
             <li>Geography</li>
             <li><a href="/state/">States</a></li>
             <li><a href="/countries/">Countries</a></li>

@@ -1,6 +1,6 @@
 @black: #000;
 @white: #fff;
-@color_3: #999;
+@color_3: fade(@eia-black, 40%);
 //@eia-dark-gray: #333333;
 @color_5: #189bd7;
 @color_6: #616060;
@@ -10,8 +10,8 @@
 @black0: #89d8ff;
 //@eia-dark-gray: #333;
 //@eia-dark-blue: #265281;
-@black3: #888888;
-//@black3: #888;
+@black3: fade(@eia-black, 45%);
+//@black3: fade(@eia-black, 45%);
 //@font_family_1: Arial, Helvetica, sans-serif;
 //@font_family_2: "Times New Roman", Times, serif;
 @font_family_3: Georgia, "Times New Roman", Times, serif;
@@ -102,7 +102,7 @@ hr {
 	clear: both;
 	margin: 10px 0px 0px 0px;
 	padding: 0;
-	border-bottom: 1px solid @silver;
+	border-bottom: 1px solid @eia-silver;
 }
 hr.space {
 	background: @white;
@@ -653,7 +653,7 @@ ol {
 	margin-top: 45px;
 	border-collapse: collapse;
 	td {
-		border-bottom: 1px solid @silver;
+		border-bottom: 1px solid @eia-silver;
 		padding-top: 6px;
 		padding-bottom: 6px;
 		a.pdf {
@@ -708,7 +708,7 @@ ol {
 		tr {
 			&:first-child {
 				td {
-					border-bottom: 2px solid @silver;
+					border-bottom: 2px solid @eia-silver;
 					&:first-child {
 						padding-left: 24px;
 					}
@@ -717,7 +717,7 @@ ol {
 		}
 		tr.summary {
 			td {
-				border-bottom: 2px solid @silver;
+				border-bottom: 2px solid @eia-silver;
 				&:first-child {
 					padding-left: 24px;
 				}
@@ -789,7 +789,7 @@ ol {
 }
 .img_container {
 	width: 45%;
-	border: solid 1px @silver;
+	border: solid 1px @eia-silver;
 	padding: 10px;
 	p {
 		.bold;
@@ -847,7 +847,7 @@ ol {
 		margin: 0;
 	}
 	td {
-		border-bottom: 1px solid @silver;
+		border-bottom: 1px solid @eia-silver;
 		vertical-align: bottom;
 		.align-right;
 		color: @eia-dark-gray;
@@ -872,7 +872,7 @@ ol {
 		tr {
 			&:first-child {
 				th {
-					border-bottom: 1px solid @silver;
+					border-bottom: 1px solid @eia-silver;
 					.align-left;
 					&:first-child {
 						border-bottom: none;
@@ -899,7 +899,7 @@ ol {
 		margin: 0;
 	}
 	td {
-		border-bottom: 1px solid @silver;
+		border-bottom: 1px solid @eia-silver;
 		vertical-align: bottom;
 		.align-right;
 		color: @eia-dark-gray;
@@ -1080,7 +1080,7 @@ ol {
 			padding-right: 10px;
 			vertical-align: bottom;
 			color: @eia-dark-gray;
-			border-bottom: 1px dashed @silver;
+			border-bottom: 1px dashed @eia-silver;
 			vertical-align: top;
 		}
 		th {
@@ -1104,7 +1104,7 @@ ol {
 	}
 	.double-header {
 		th[colspan] {
-			border-bottom: 1px solid @silver;
+			border-bottom: 1px solid @eia-silver;
 			border-right: 6px solid @white;
 			.align-left;
 			&:last-child {
@@ -1166,7 +1166,7 @@ ol {
 		}
 		.sectionhead {
 			td {
-				border-bottom: 1px solid @silver;
+				border-bottom: 1px solid @eia-silver;
 			}
 		}
 	}
@@ -1234,7 +1234,7 @@ ol {
 			padding-right: 10px;
 			vertical-align: bottom;
 			color: @eia-dark-gray;
-			border-bottom: 1px dashed @silver;
+			border-bottom: 1px dashed @eia-silver;
 			vertical-align: top;
 		}
 		th {
@@ -1377,7 +1377,7 @@ ol {
 .ngwu_image_container {
 	width: 498px;
 	margin: 38px 0 0 0;
-	border: 1px solid @silver;
+	border: 1px solid @eia-silver;
 	padding: 17px 0;
 	img {
 		.left;

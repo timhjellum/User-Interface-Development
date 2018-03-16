@@ -1,34 +1,7 @@
 @media @mobile {
 
 
-	/*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
-	.down-arrow {			
-		text-indent: -9999px;
-		&::before {
-			.icon-down-arrow();
-			.controls-icon(10px, 16px);
-			float: left;
-			margin-right: 8px;
-		}
-	}
-	.up-arrow {
-			text-indent: -9999px;		
-		&::before {
-			.icon-up-arrow();
-			.controls-icon(10px, 16px);
-			float: left;
-			margin-right: 8px;
-		}
-	}
-	/*---Right arrow for use in footer and similar---*/
-	.right-arrow-head {
-		&::before {
-			.icon-right-arrow-head();
-			.controls-icon(12px, 12px);
-			float: left;
-			margin: 6px 0 0 4px;
-		}
-	}
+
 
 
 
@@ -77,10 +50,39 @@
 	.plus-greyish-blue {
 		.font;
 		.bold;
-		color: @greyish-blue;
+		color: @eia-greyish-blue;
 		font-size: 12px;
 	}
-
+	/*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
+	.down-arrow {			
+		text-indent: -9999px;
+		&::before {
+			.icon-down-arrow();
+			.controls-icon(14px, 16px);
+			float: left;
+			margin-right: 6px;
+//			background-position: bottom center;
+		}
+	}
+	.up-arrow {
+			text-indent: -9999px;		
+		&::before {
+			.icon-up-arrow();
+			.controls-icon(14px, 16px);
+			float: left;
+			margin-right: 6px;
+//			background-position: bottom center;
+		}
+	}
+	/*---Right arrow for use in footer and similar---*/
+	.right-arrow-head {
+		&::before {
+			.icon-right-arrow-head();
+			.controls-icon(14px, 14px);
+			float: left;
+			margin: 6px 0 0 4px;
+		}
+	}
 
 
 
@@ -932,7 +934,7 @@
 			width: 100px;
 			height: 100px;
 			border-radius: 100%;
-			border: 3px solid #ccc;
+			border: 3px solid @eia-silver;
 			margin: 0 7px 10px 7px;
 			&.total-energy-mer {
 				background: url(../includes/issuestrends/images/interactive/totalenergy_mer.png) 59% 60%;
@@ -1152,7 +1154,7 @@
 			&.search {
 				&::before {
 					.controls-icon(20px, 20px);
-					.icon-search(@greyish-blue);
+					.icon-search(@eia-greyish-blue);
 					float: right;
 					margin: 10px;;
 				}
@@ -1323,6 +1325,37 @@
 
 
 @media @desktop {
+
+
+
+
+		/*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
+		.down-arrow {			
+			&::before {
+				.controls-icon(12px, 14px);
+				position: relative;
+				top: -2px;
+			}
+		}
+		.up-arrow {
+			&::before {
+				.controls-icon(12px, 14px);
+				position: relative;
+				top: -2px;
+			}
+		}
+		/*---Right arrow for use in footer and similar---*/
+		.right-arrow-head {
+			&::before {
+				.controls-icon(12px, 12px);
+			}
+		}
+
+
+
+
+
+
 	&.ico-sticker {
 		display: inline-block;
 		background-color: @eia-blue;

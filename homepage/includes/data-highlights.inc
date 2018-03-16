@@ -1,6 +1,3 @@
-<!-- start module -->
-<!-- start module -->
-<!-- start module -->
 <div class="content-container content-container-border blue-background">
 	<ul>
 		<li class="head"><h2>Data Highlights</h2></li>
@@ -26,6 +23,3 @@
 		<li><i class="up-arrow" title="Up"></i>0.819 million tons from year earlier</li>
 	</ul>
 </div>
-<!-- start module -->
-<!-- start module -->
-<!-- start module -->

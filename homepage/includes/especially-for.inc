@@ -14,7 +14,7 @@ $especiallyForThreeLabel = "Media";
 $especiallyForFourURL = "/tools/models/";
 $especiallyForFourLabel = "Researchers";
 
-$especiallyForFiveURL = "kids";
+$especiallyForFiveURL = "/kids/";
 $especiallyForFiveLabel = "Students";
 
 $especiallyForSixURL = "/kids/energy.cfm?page=6";

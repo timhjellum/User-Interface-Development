@@ -1,14 +1,63 @@
-@eia-light-green: #bed5ad;
+
+
+
+@eia-dark-green: #2a4b11;
+//@eia-dark-green-mono: #888888;
+
 @eia-green: #5d9732;
+@button_green: #7da85b;
+@slider_green: #9ec184;
+@eia-light-green: #bed5ad;
+//@slider_bg_green: #ecf2e6;
+/*
+.a1 { background-color: @eia-green; } // base color
+.a2 { background-color: @button-green; }
+.a3 { background-color: fade(@eia-green, 80%) }
+.a4 { background-color: @eia-dark-green; }
+.a5 { background-color: darken(@eia-green, 20%) }
+.a6 { background-color: @slider_green; }
+.a7 { background-color: fade(@eia-green, 60%) }
+.a8 { background-color: @eia-light-green; }
+.a9 { background-color: fade(@eia-green, 40%) }
+.a10 { background-color: @slider_bg_green; }
+.a11 { background-color: fade(@eia-green, 10%) }
+*/
+.eia-green(@eia-green: #5d9732) {color:@eia-green;background-color:@eia-green; border-color:@eia-green;}
+
+
+
+
+
+
 // @gradient-background: #d8e6ce;
 @eia-dark-gray: #333;
 @eia-light-gray: #dadada;
-@button_green: #7da85b;
 
-@slider_green: #9ec184;
-@slider_bg_green: #ecf2e6;
 @gradient-background: rgba(238,238,238,1);
 @eia-divider: #e3e5e6;
+
+@eia-black: #000000;
+//@eia-black: rgba(0, 0, 0, 0.95);	//#111111
+//@eia-black: rgba(0, 0, 0, 0.85);	//#222222
+//@eia-dark-gray: rgba(0, 0, 0, 0.80);	//#333333
+//@eia-charcoal: rgba(0, 0, 0, 0.75);	//#444444
+//@eia-matterhorn: rgba(0, 0, 0, 0.65);	//#555555
+//@eia-gray40: rgba(0, 0, 0, 0.60);	//#666666
+//@eia-gray45: rgba(0, 0, 0, 0.55);	//#777777
+//@eia-gray55: rgba(0, 0, 0, 0.45);	//#888888
+//@eia-gray60: rgba(0, 0, 0, 0.40);	//#999999
+
+/*
+@black: #000;
+
+? {
+  color: fade(@eia-black, 45%);
+}
+*/
+
+
+@eia-silver: #cccccc;
+@eia-white: #ffffff;
 
 
 // ---New Purple Color---*/
@@ -16,15 +65,14 @@
 @eia-purple: #513c7a; 
 @eia-dark-purple: #362852; 
 
-@dark-green: #2a4b11;
-@dark-green-mono: #888888;
+
 
 @eia-yellow: #ffc702;
 @eia-yellow-mono: #d0d0d0;
 
 @eia-red: #a33340;
 
-@greyish-blue: #a9c1da;
+@eia-greyish-blue: #a9c1da;
 @eia-light-blue: #dff2fB;
 
 @eia-blue: #189bd7;
@@ -35,15 +83,15 @@
 @port-blue: #3380a2;
 @eia-date-light: #928b81;
 @eia-brown-orange: #bd732a;
-@ref-brown: #7a6b4d;
-@silver: #cccccc;
-@disabled: #a6a6a6;
+//: #7a6b4d;
+
+@eia-disabled: #a6a6a6;
 
 //----border styles----
 //dark gray border
-@gray_border: 1px solid @eia-dark-gray;
-@green_border: 1px solid @eia-green;
-@eia-light-gray-border: 1px solid @eia-light-gray;
+//@gray_border: 1px solid @eia-dark-gray;
+//@green_border: 1px solid @eia-green;
+//: 1px solid @eia-light-gray;
 
 @default_font: Arial, Helvetica, sans-serif;
 @header_font: "Times New Roman", "Times", serif;

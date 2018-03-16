@@ -22,6 +22,32 @@
     <!-- start style guide required styles -->
 
     <!-- start page specific styles -->
+<style>
+.swatch-wrapper { width: 10%; text-align: center; padding: 12px 0; float: left;  border: 5px solid red; color: red; }
+.swatch { width: 100%; height: 20px; }
+.eia-black     { background-color: rgba(0, 0, 0, 1.00); /* #111111 */ }
+.eia-black-95  { background-color: rgba(0, 0, 0, 0.95); /* #111111 */ }
+.eia-black-85  { background-color: rgba(0, 0, 0, 0.85); /* #222222 */ }
+.eia-black-88  { background-color: rgba(0, 0, 0, 0.80); /* #333333 */ }
+.eia-black-75  { background-color: rgba(0, 0, 0, 0.75); /* #444444 */ }
+.eia-black-65  { background-color: rgba(0, 0, 0, 0.65); /* #555555 */ }
+.eia-black-65  { background-color: rgba(0, 0, 0, 0.60); /* #666666 */ }
+.eia-black-55  { background-color: rgba(0, 0, 0, 0.55); /* #777777 */ }
+.eia-black-45  { background-color: rgba(0, 0, 0, 0.45); /* #888888 */ }
+.eia-black-40  { background-color: rgba(0, 0, 0, 0.40); /* #999999 */ }
+
+.eia-green     { background-color: rgba(93, 151, 50, 1.00); /* @eia-green */ }
+.eia-green-95  { background-color: rgba(93, 151, 50, 0.95); }
+.eia-green-85  { background-color: rgba(93, 151, 50, 0.85); }
+.eia-green-88  { background-color: rgba(93, 151, 50, 0.80); /* @button-green */ }
+.eia-green-75  { background-color: rgba(93, 151, 50, 0.75); }
+.eia-green-65  { background-color: rgba(93, 151, 50, 0.65); }
+.eia-green-65  { background-color: rgba(93, 151, 50, 0.60); /* #@slider_green */ }
+.eia-green-55  { background-color: rgba(93, 151, 50, 0.55); }
+.eia-green-45  { background-color: rgba(93, 151, 50, 0.45); }
+.eia-green-40  { background-color: rgba(93, 151, 50, 0.40); /* @eia-light-green */ }
+
+</style>
 
     <!-- end page specific styless -->
 </head>
@@ -54,11 +80,58 @@
 							<div class="card">
 								<div class="header-style-guide">
 									<h1 class="style-guide">Color Palette</h1>
+
+
+
+									<div class="eia-black swatch-wrapper"><div class="swatch"></div>eia-black</div>
+									<div class="eia-black-95 swatch-wrapper"><div class="swatch"></div>eia-dark-grey</div>
+									<div class="eia-black-85 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-black-88 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-black-75 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-black-65 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-black-60 swatch-wrapper"><div class="swatch"></div>eia-grey</div>
+									<div class="eia-black-55 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-black-45 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-black-40 swatch-wrapper"><div class="swatch"></div></div>
+
+									<div class="eia-green swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-95 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-85 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-88 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-75 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-65 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-60 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-55 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-45 swatch-wrapper"><div class="swatch"></div></div>
+									<div class="eia-green-40 swatch-wrapper"><div class="swatch"></div></div>
+
+
+
 								</div>
 								<div class="content">
 									<!-- start style guide -->
 									<!-- start style guide -->
 									<!-- start style guide -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 									<div class="row color-palette">
 										<div class="col-sm-3">
 											<div class="card">
@@ -497,19 +570,19 @@ h6 {
 					var eiaYellow = $("div.eiaYellow").css("background-color");
 					var eiaTan = $("div.eiaTan").css("background-color");
 					var eiaBrown = $("div.eiaBrown").css("background-color");
-					$("span.eiaLightGreen").html(eiaLightGreen);
-					$("span.eiaGreen").html(eiaGreen);
-					$("span.eiaDarkGreen").html(eiaDarkGreen);
-					$("span.eiaRed").html(eiaRed);
-					$("span.eiaDarkRed").html(eiaDarkRed);
-					$("span.eiaLightBlue").html(eiaLightBlue);
-					$("span.eiaBlue").html(eiaBlue);
-					$("span.eiaDarkBlue").html(eiaDarkBlue);
-					$("span.eiaGrey").html(eiaGrey);
-					$("span.eiaDarkGrey").html(eiaDarkGrey);
-					$("span.eiaYellow").html(eiaYellow);
-					$("span.eiaTan").html(eiaTan);
-					$("span.eiaBrown").html(eiaBrown);
+					$("span.eiaLightGreen .swatch").html(eiaLightGreen);
+					$("span.eiaGreen .swatch").html(eiaGreen);
+					$("span.eiaDarkGreen .swatch").html(eiaDarkGreen);
+					$("span.eiaRed .swatch").html(eiaRed);
+					$("span.eiaDarkRed .swatch").html(eiaDarkRed);
+					$("span.eiaLightBlue .swatch").html(eiaLightBlue);
+					$("span.eiaBlue .swatch").html(eiaBlue);
+					$("span.eiaDarkBlue .swatch").html(eiaDarkBlue);
+					$("span.eiaGrey .swatch").html(eiaGrey);
+					$("span.eiaDarkGrey .swatch").html(eiaDarkGrey);
+					$("span.eiaYellow .swatch").html(eiaYellow);
+					$("span.eiaTan .swatch").html(eiaTan);
+					$("span.eiaBrown .swatch").html(eiaBrown);
 				</script>
 									<!-- end  style guide -->
 									<!-- end  style guide -->
@@ -531,10 +604,62 @@ h6 {
 
 <!-- start style guide custom scripts -->
 <script src="src/js/nav.js"></script>
-<script src="src/js/highlight.js"></script>         <script>         hljs.initHighlightingOnLoad(); 	</script>
+<script src="src/js/highlight.js"></script>
+<script>
+hljs.initHighlightingOnLoad();
+</script>
+
+<script>
+		
+		
+		var eiaBlackColor = $(".eia-black").css("color");
+		var eiaBlackColor95 = $(".eia-black-95").css("color");
+		var eiaBlackColor85 = $(".eia-black-85").css("color");
+		var eiaBlackColor80 = $(".eia-black-88").css("color");
+		var eiaBlackColor75 = $(".eia-black-75").css("color");
+		var eiaBlackColor65 = $(".eia-black-65").css("color");
+		var eiaBlackColor60 = $(".eia-black-65").css("color");
+		var eiaBlackColor55 = $(".eia-black-55").css("color");
+		var eiaBlackColor45 = $(".eia-black-45").css("color");
+		var eiaBlackColor40 = $(".eia-black-40").css("color");
+		$(".eia-black .swatch").html(eiaBlackColor);
+		$(".eia-black-95 .swatch").html(eiaBlackColor95);
+		$(".eia-black-85 .swatch").html(eiaBlackColor85);
+		$(".eia-black-88 .swatch").html(eiaBlackColor80);
+		$(".eia-black-75 .swatch").html(eiaBlackColor75);
+		$(".eia-black-65 .swatch").html(eiaBlackColor65);
+		$(".eia-black-65 .swatch").html(eiaBlackColor60);
+		$(".eia-black-55 .swatch").html(eiaBlackColor55);
+		$(".eia-black-45 .swatch").html(eiaBlackColor45);
+		$(".eia-black-40 .swatch").html(eiaBlackColor40);
+
+		var eiaGreenColor = $(".eia-green").css("color");
+		var eiaGreenColor95 = $(".eia-green-95").css("color");
+		var eiaGreenColor85 = $(".eia-green-85").css("color");
+		var eiaGreenColor80 = $(".eia-green-88").css("color");
+		var eiaGreenColor75 = $(".eia-green-75").css("color");
+		var eiaGreenColor65 = $(".eia-green-65").css("color");
+		var eiaGreenColor60 = $(".eia-green-65").css("color");
+		var eiaGreenColor55 = $(".eia-green-55").css("color");
+		var eiaGreenColor45 = $(".eia-green-45").css("color");
+		var eiaGreenColor40 = $(".eia-green-40").css("color");
+		$(".eia-green .swatch").html(eiaGreenColor);
+		$(".eia-green-95 .swatch").html(eiaGreenColor95);
+		$(".eia-green-85 .swatch").html(eiaGreenColor85);
+		$(".eia-green-88 .swatch").html(eiaGreenColor80);
+		$(".eia-green-75 .swatch").html(eiaGreenColor75);
+		$(".eia-green-65 .swatch").html(eiaGreenColor65);
+		$(".eia-green-65 .swatch").html(eiaGreenColor60);
+		$(".eia-green-55 .swatch").html(eiaGreenColor55);
+		$(".eia-green-45 .swatch").html(eiaGreenColor45);
+		$(".eia-green-40 .swatch").html(eiaGreenColor40);
+
+
+
+		</script>
+
+
 <!-- start style guide required scripts -->
 
-<!-- start page specific scripts -->
-<script src="../../global/scripts/accordion.min.js"></script>
-<!-- end page specific scripts -->
+
 </html>

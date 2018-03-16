@@ -30,7 +30,7 @@ class BxSlider {
             controls: false,
             pager: true,
             pagerSelector: '.slider-home-pager',
-            slideWidth: 956,
+            slideWidth: 960,
             pause: 10000
         });
         this.bxSliderMulti.bxSlider({

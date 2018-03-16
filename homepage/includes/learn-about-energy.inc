@@ -2,10 +2,10 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$learnAboutEnergyOneURL = "https://www.eia.gov/energyexplained";
+$learnAboutEnergyOneURL = "/energyexplained/";
 $learnAboutEnergyOneLabel = "Energy Explained";
 
-$learnAboutEnergyTwoURL = "https://www.eia.gov/tools/faqs/";
+$learnAboutEnergyTwoURL = "/tools/faqs/";
 $learnAboutEnergyTwoLabel = "Frequently Asked Questions";
 
 /* DO NOT EDIT BELOW */

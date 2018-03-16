@@ -1,33 +1,16 @@
-<!--begin content -->
-<div class="tie">
-<h2><span class="tie_date right">Posted March 9, 2018</span>Today in Energy</h2>
-</div>
 
-<div class="white_box no-border>">
-
-
-
-<!--<div class="tie_correction"> <p></p></div>-->
-
-<h3>
-<a href="/todayinenergy/detail.cfm?id=35272"><strong>Investment in tight oil, oil sands, and deepwater drives long-term oil production growth</strong>&nbsp;&rsaquo;</a>
-</h3>
-
-
-<p>Upstream investment in crude oil and liquids production is highly sensitive to crude oil prices, particularly production of higher-cost resources from tight rock formations, oil sands, and offshore deepwater. In EIA’s <em>International Energy Outlook 2017</em> (IEO2017) Reference case, increasing crude oil prices lead to more investment, driving production growth in these higher-cost resources.         
-
-						 
-<a href="/todayinenergy/detail.cfm?id=35272"><strong>More</strong> &rsaquo;</a> </p>
-
-<a href="/todayinenergy/detail.cfm?id=35272" border="0">
-<img src="/todayinenergy/images/2018.03.09/feature_p1.png" alt="production of crude oil from tight oil, oil sands, and offshore deepwater, as explained in the article text"></a>
-<br clear="all">
-<p style="font-size:11px;color:#999; line-height:1em;" id="TIEp1source">
-<strong>Source: </strong>EIA, <em>International Energy Outlook 2017</em> Reference case
-
-
-
-</p> 
-
-
+<div class="content-container main-content-container">
+	<h1>Today in Energy<span class="date">Posted September 14, 2017</span></h1>
+	<h2>
+		<a href="/">EIA projects 28% increase in world energy use by 2040</a>
+	</h2>
+	<p>The U.S. Energy Information Administration's latest <em>International Energy Outlook 2017</em> (IEO2017) <a href="/">projects</a> that world energy consumption will grow by 28% between 2015 and 2040. Most of this growth is expected to come from countries that are not in the Organization for Economic Cooperation and Development (OECD), and especially in countries where demand is driven by strong economic growth, particularly in Asia.
+		<a href="/">More</a>
+	</p>
+	<div class="media">
+		<a href="/" style="background-image: url(https://www.eia.gov/todayinenergy/images/2018.03.06/main.png)" title="U.S. net energy trade, as explained in the article text"></a>
+	</div>
+	<figure>
+		<strong>Source:</strong> EIA,  Federal Energy Regulatory Commission (FERC) Financial Reports, as accessed by Ventyx Velocity Suite
+	</figure>
 </div>
