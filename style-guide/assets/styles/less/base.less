@@ -29,14 +29,42 @@
   
 body {
 	background-color: #fff;
-//	margin-bottom: 0 !important; // overide
-	margin: 0;
-	padding: 0;
 	width: 100%;
 }
-
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
+form, fieldset, input, p, blockquote, table, th, td, embed, object {
+	padding: 0;
+	margin: 0; 
+}
 .no-wrap {
 	.no-wrap;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img, abbr {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6, th, var {
+	font-weight: normal;
+	font-style: normal;
+}
+ul {
+	list-style: none;
+}
+//caption {
+//	text-align: left;
+//	}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1.0em;
+}
+q:before, q:after {
+	content: '';
+}
+a, ins {
+	text-decoration: none;
 }
 strong {
 	font-weight: 700;
@@ -81,8 +109,8 @@ strong {
 	*/
 
 hr {
-	background: @eia-light-gray;
-	color: @eia-light-gray;
+	background: @eia-light-grey;
+	color: @eia-light-grey;
 	clear: both;
 	float: none;
 	width: 100%;
@@ -168,8 +196,7 @@ a[name]{vertical-align:top}
 			*/
 		
 			h1 {
-			font-size: 2em;
-			margin: 0.67em 0;
+
 			}
 		
 			/* Grouping content
@@ -243,19 +270,13 @@ a[name]{vertical-align:top}
 			* Prevent the duplicate application of `bolder` by the next rule in Safari 6.
 			*/
 		
-			b,
-			strong {
-			font-weight: inherit;
-			}
+
 		
 			/**
 			* Add the correct font weight in Chrome, Edge, and Safari.
 			*/
 		
-			b,
-			strong {
-			font-weight: bolder;
-			}
+
 		
 			/**
 			* 1. Correct the inheritance and scaling of font size in all browsers.
@@ -590,6 +611,10 @@ a[name]{vertical-align:top}
 
 
 
+
+
+
+
 // this forces break
 // <span class="line">Data Tools, Apps,</span> <span class="line">and Maps</span>
 // Line will break after the Apps,
@@ -604,47 +629,6 @@ a[name]{vertical-align:top}
 span.line-break {
 	display: inline-block;
 }
-/*
-// float left
-.left {
-	.left
-}
-// float right
-.right {
-	.right
-}
-.align-left {
-	.align-left
-}
-.align-center {
-	.align-center
-}
-.align-right {
-	.align-right
-}
-.align-top {
-	.align-top
-}
-.align-middle {
-	.align-middle
-}
-.align-bottom {
-	.align-bottom
-}
-.hide {
-	.hide
-}
-.show {
-	.hide
-}
-.line-through,
-.disabled {
-	text-decoration: line-through;
-	color:#a2a2a2;
-}
-
-*/
-
 
 
 .image-container {

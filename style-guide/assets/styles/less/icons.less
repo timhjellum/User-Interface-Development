@@ -35,9 +35,10 @@
 			font-size: 0;	
 			&::before {
 				.controls-icon(75px, 60px);
-				.icon-eia-logomark(full, "@eia-dark-gray");
+				.icon-eia-logomark(full, "@eia-dark-grey");
 			}
 		}
+
 	}
 
 
@@ -1121,7 +1122,7 @@
 				}
 				&.petroleum {
 					&::before {
-						.icon-petroleum(@fill-color: @eia-brown-orange);
+						.icon-petroleum(@fill-color: @eia-tan);
 						.nav-bar-icon();
 					}
 				}
@@ -1380,6 +1381,45 @@
 	}
 }
 
+
+
+
+
+
+
+
+&.energy-kids {
+	&::before {
+		.energy-kids-nav();
+	}
+	&:hover {
+		&::before {
+			.energy-kids-nav(@fill-color: @eia-blue);
+						
+		}
+	}
+}
+
+@media @tablet {
+	&.energy-kids {
+		&::before {
+			.controls-icon(431px, 105px);
+		}
+	}
+}
+@media @laptop {
+	&.energy-kids {
+		&::before {
+			.controls-icon(373px, 332px);
+		}
+	}
+}
+
+
+
+
+
+
 //////////////////////////////////////////////////////////////////
 //  accordion                                                  //
 ////////////////////////////////////////////////////////////////
@@ -1413,7 +1453,7 @@
 		&:after{
 			content: "";
 			position: absolute;
-			background-color: @eia-dark-gray;
+			background-color: @eia-dark-grey;
 			transition: transform 0.25s ease-out;
 		}
 		&.expand {

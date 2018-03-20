@@ -28,24 +28,24 @@
 
 
 
-
 // @gradient-background: #d8e6ce;
-@eia-dark-gray: #333;
-@eia-light-gray: #dadada;
+//@eia-dark-grey: #333;
+//@eia-light-grey: #dadada;
 
 @gradient-background: rgba(238,238,238,1);
+//.gradient(@stops: rgba(238,238,238,1) 0, rgba(244,244,244,1) 50%, rgba(252,252,252,1) 90%, rgba(254,254,254,1) 100%;);
 @eia-divider: #e3e5e6;
 
-@eia-black: #000000;
+//@eia-black: #000000;
 //@eia-black: rgba(0, 0, 0, 0.95);	//#111111
 //@eia-black: rgba(0, 0, 0, 0.85);	//#222222
-//@eia-dark-gray: rgba(0, 0, 0, 0.80);	//#333333
+//@eia-dark-grey: rgba(0, 0, 0, 0.80);	//#333333
 //@eia-charcoal: rgba(0, 0, 0, 0.75);	//#444444
 //@eia-matterhorn: rgba(0, 0, 0, 0.65);	//#555555
-//@eia-gray40: rgba(0, 0, 0, 0.60);	//#666666
-//@eia-gray45: rgba(0, 0, 0, 0.55);	//#777777
-//@eia-gray55: rgba(0, 0, 0, 0.45);	//#888888
-//@eia-gray60: rgba(0, 0, 0, 0.40);	//#999999
+//@eia-grey40: rgba(0, 0, 0, 0.60);	//#666666
+//@eia-grey45: rgba(0, 0, 0, 0.55);	//#777777
+//@eia-grey55: rgba(0, 0, 0, 0.45);	//#888888
+//@eia-grey60: rgba(0, 0, 0, 0.40);	//#999999
 
 /*
 @black: #000;
@@ -56,42 +56,199 @@
 */
 
 
-@eia-silver: #cccccc;
-@eia-white: #ffffff;
+//@eia-dark-blue: darken(@eia-blue, 20%);
+.eia-dark-blue.swatch {background-color: @eia-dark-blue; border-color: @eia-dark-blue }
+.eia-dark-blue-75.swatch {background-color: @eia-dark-blue-75; border-color: @eia-dark-blue-75 }
+.eia-dark-blue-50.swatch {background-color: @eia-dark-blue-50; border-color: @eia-dark-blue-50 }
+.eia-dark-blue-25.swatch {background-color: @eia-dark-blue-25; border-color: @eia-dark-blue-25 }
+.eia-blue {background-color: @eia-blue; border-color: @eia-blue }
+.eia-light-blue-25.swatch {background-color: @eia-light-blue-25; border-color: @eia-light-blue-25 }
+.eia-light-blue-50.swatch {background-color: @eia-light-blue-50; border-color: @eia-light-blue-50 }
+.eia-light-blue-75.swatch {background-color: @eia-light-blue-75; border-color: @eia-light-blue-75 }
+.eia-light-blue.swatch {background-color: @eia-light-blue; border-color: @eia-light-blue }
+.eia-dark-green.swatch {background-color: @eia-dark-green; border-color:@eia-dark-green }
+.eia-dark-green-75.swatch {background-color: @eia-dark-green-75; border-color: @eia-dark-green-75 }
+.eia-dark-green-50.swatch {background-color: @eia-dark-green-50; border-color: @eia-dark-green-50 }
+.eia-dark-green-25.swatch {background-color: @eia-dark-green-25; border-color: @eia-dark-green-25 }
+.eia-green {background-color: @eia-green; border-color: @eia-green }
+.eia-light-green-25.swatch {background-color: @eia-light-green-25; border-color: @eia-light-green-25 }
+.eia-light-green-50.swatch {background-color: @eia-light-green-50; border-color: @eia-light-green-50 }
+.eia-light-green-75.swatch {background-color: @eia-light-green-75; border-color: @eia-light-green-75 }
+.eia-light-green.swatch {background-color: @eia-light-green; border-color: @eia-light-green }
+.eia-dark-red.swatch {background-color: @eia-dark-red; border-color: @eia-dark-red }
+.eia-dark-red-75.swatch {background-color: @eia-dark-red-75; border-color: @eia-dark-red-75 }
+.eia-dark-red-50.swatch {background-color: @eia-dark-red-50; border-color: @eia-dark-red-50 }
+.eia-dark-red-25.swatch {background-color: @eia-dark-red-25; border-color: @eia-dark-red-25 }
+.eia-red {background-color: @eia-red; border-color: @eia-red }
+.eia-light-red-25.swatch {background-color: @eia-light-red-25; border-color: @eia-light-red-25 }
+.eia-light-red-50.swatch {background-color: @eia-light-red-50; border-color: @eia-light-red-50 }
+.eia-light-red-75.swatch {background-color: @eia-light-red-75; border-color: @eia-light-red-75 }
+.eia-light-red.swatch {background-color: @eia-light-red; border-color: @eia-light-red }
+.eia-yellow.swatch {background-color: @eia-yellow; border-color: @eia-yellow }
+.eia-yellow-75.swatch {background-color: @eia-yellow-75; border-color: @eia-yellow-75 }
+.eia-yellow-50.swatch {background-color: @eia-yellow-50; border-color: @eia-yellow-50 }
+.eia-yellow-25.swatch {background-color: @eia-yellow-25; border-color: @eia-yellow-25 }
+.eia-tan {background-color: @eia-tan; border-color: @eia-tan }
+.eia-brown-25.swatch {background-color: @eia-brown-25; border-color: @eia-brown-25 }
+.eia-brown-50.swatch {background-color: @eia-brown-50; border-color: @eia-brown-50 }
+.eia-brown-75.swatch {background-color: @eia-brown-75; border-color: @eia-brown-75 }
+.eia-brown.swatch {background-color: @eia-brown; border-color: @eia-brown }
+.eia-dark-purple.swatch {background-color: @eia-dark-purple; border-color: @eia-dark-purple }
+.eia-dark-purple-75.swatch {background-color: @eia-dark-purple-75; border-color: @eia-dark-purple-75 }
+.eia-dark-purple-50.swatch {background-color: @eia-dark-purple-50; border-color: @eia-dark-purple-50 }
+.eia-dark-purple-25.swatch {background-color: @eia-dark-purple-25; border-color: @eia-dark-purple-25 }
+.eia-purple {background-color: @eia-purple; border-color: @eia-purple }
+.eia-light-purple-25.swatch {background-color: @eia-light-purple-25; border-color: @eia-light-purple-25 }
+.eia-light-purple-50.swatch {background-color: @eia-light-purple-50; border-color: @eia-light-purple-50 }
+.eia-light-purple-75.swatch {background-color: @eia-light-purple-75; border-color: @eia-light-purple-75 }
+.eia-light-purple.swatch {background-color: @eia-light-purple; border-color: @eia-light-purple }
+
+.eia-000000 {background-color: @eia-black; border-color: @eia-black}
+.eia-111111 {background-color: @eia-111111; border-color: @eia-111111}
+.eia-222222 {background-color: @eia-222222; border-color: @eia-222222}
+.eia-333333 {background-color: @eia-dark-grey; border-color: @eia-dark-grey}
+.eia-444444 {background-color: @eia-444444; border-color: @eia-444444}
+.eia-555555 {background-color: @eia-555555; border-color: @eia-555555}
+.eia-666666 {background-color: @eia-grey; border-color: @eia-grey}
+.eia-767676 {background-color: @eia-767676; border-color: @eia-767676}
+.eia-888888 {background-color: @eia-888888; border-color: @eia-888888}
+.eia-999999 {background-color: @eia-light-grey; border-color: @eia-light-grey}
+.eia-aaaaaa {background-color: @eia-aaaaaa; border-color: @eia-aaaaaa}
+.eia-b2b2b2 {background-color: @eia-b2b2b2; border-color: @eia-b2b2b2}
+.eia-bbbbbb {background-color: @eia-bbbbbb; border-color: @eia-bbbbbb}
+.eia-c3c3c3 {background-color: @eia-c3c3c3; border-color: @eia-c3c3c3}
+.eia-cccccc {background-color: @eia-silver; border-color: @eia-silver}
+.eia-d4d4d4 {background-color: @eia-d4d4d4; border-color: @eia-d4d4d4}
+.eia-dddddd {background-color: @eia-dddddd; border-color: @eia-dddddd}
+.eia-e5e5e5 {background-color: @eia-e5e5e5; border-color: @eia-e5e5e5}
+.eia-eeeeee {background-color: @eia-eeeeee; border-color: @eia-eeeeee}
+.eia-f6f6f6 {background-color: @eia-f6f6f6; border-color: @eia-f6f6f6}
+.eia-ffffff {background-color: @eia-white; border-color: @eia-white}
+
+@eia-dark-blue: #265281;
+@eia-dark-blue-75: mix(@eia-dark-blue, @eia-blue, 75%);
+@eia-dark-blue-50: mix(@eia-dark-blue, @eia-blue, 50%);
+@eia-dark-blue-25: mix(@eia-dark-blue, @eia-blue, 25%);
+@eia-blue: #189bd7;
+@eia-light-blue-75: mix(@eia-light-blue, @eia-blue, 75%);
+@eia-light-blue-50: mix(@eia-light-blue, @eia-blue, 50%);
+@eia-light-blue-25: mix(@eia-light-blue, @eia-blue, 25%);
+@eia-light-blue:  #76d5ff;
+
+// @eia-light-blue: #dff2fB; old
+@eia-dark-green: #2a4b11;
+@eia-dark-green-75: mix(@eia-dark-green, @eia-green, 75%);
+@eia-dark-green-50: mix(@eia-dark-green, @eia-green, 50%);
+@eia-dark-green-25: mix(@eia-dark-green, @eia-green, 25%);
+@eia-green: #5d9732;
+@eia-light-green-75: mix(@eia-light-green, @eia-green, 75%);
+@eia-light-green-50: mix(@eia-light-green, @eia-green, 50%);
+@eia-light-green-25: mix(@eia-light-green, @eia-green, 25%);
+@eia-light-green:  #bed5ad;
+
+@eia-dark-red: #410e14;
+@eia-dark-red-75: mix(@eia-dark-red, @eia-red, 75%);
+@eia-dark-red-50: mix(@eia-dark-red, @eia-red, 50%);
+@eia-dark-red-25: mix(@eia-dark-red, @eia-red, 25%);
+@eia-red:  #a33340;
+@eia-light-red-75: mix(@eia-light-red, @eia-red, 75%);
+@eia-light-red-50: mix(@eia-light-red, @eia-red, 50%);
+@eia-light-red-25: mix(@eia-light-red, @eia-red, 25%);
+@eia-light-red:  #8e6166;
+
+@eia-yellow: #ffc702;
+@eia-yellow-75: mix(@eia-yellow, @eia-tan, 75%);
+@eia-yellow-50: mix(@eia-yellow, @eia-tan, 50%);
+@eia-yellow-25: mix(@eia-yellow, @eia-tan, 25%);
+@eia-tan: #bd732a;
+@eia-brown-75: mix(@eia-brown, @eia-tan, 75%);
+@eia-brown-50: mix(@eia-brown, @eia-tan, 50%);
+@eia-brown-25: mix(@eia-brown, @eia-tan, 25%);
+@eia-brown:  #403203;
+
+@eia-dark-purple: #362852;
+@eia-dark-purple-75: mix(@eia-dark-purple, @eia-purple, 75%);
+@eia-dark-purple-50: mix(@eia-dark-purple, @eia-purple, 50%);
+@eia-dark-purple-25: mix(@eia-dark-purple, @eia-purple, 25%);
+@eia-purple:  #513c7a;
+@eia-light-purple-75: mix(@eia-light-purple, @eia-purple, 75%);
+@eia-light-purple-50: mix(@eia-light-purple, @eia-purple, 50%);
+@eia-light-purple-25: mix(@eia-light-purple, @eia-purple, 25%);
+@eia-light-purple:  #6f2e9f;
+
+@eia-black:#000;
+@eia-111111:#111;
+@eia-222222:#222;
+@eia-dark-grey:#333;
+@eia-444444:#444;
+@eia-555555:#555;
+@eia-grey:#666;
+@eia-767676:#767676;
+@eia-888888:#888;
+@eia-light-grey:#999;
+@eia-aaaaaa:#aaa;
+@eia-b2b2b2:#b2b2b2;
+@eia-bbbbbb:#bbb;
+@eia-c3c3c3:#c3c3c3;
+@eia-silver:#ccc;
+@eia-d4d4d4:#d4d4d4;
+@eia-dddddd:#ddd;
+@eia-e5e5e5:#e5e5e5;
+@eia-eeeeee:#eee;
+@eia-f6f6f6:#f6f6f6;
+@eia-white:#fff;
+
+
+//@eia-light-purple: #6f2e9f;
+//@eia-purple: #513c7a; 
+//@eia-dark-purple: #362852; 
+
+
+
+
+
+//@eia-silver: #cccccc;
+//@eia-white: #ffffff;
 
 
 // ---New Purple Color---*/
-@eia-bright-purple: #6f2e9f;
-@eia-purple: #513c7a; 
-@eia-dark-purple: #362852; 
 
 
 
-@eia-yellow: #ffc702;
-@eia-yellow-mono: #d0d0d0;
 
-@eia-red: #a33340;
+//@eia-tan: #ffc702;
+@eia-tan-mono: #d0d0d0;
+
+//@eia-red: #a33340;
 
 @eia-greyish-blue: #a9c1da;
-@eia-light-blue: #dff2fB;
-
-@eia-blue: #189bd7;
 @eia-blue-mono: #6e6e6e;
-
-@eia-dark-blue: #265281;
 @eia-darker-blue: #003C57;
 @port-blue: #3380a2;
 @eia-date-light: #928b81;
-@eia-brown-orange: #bd732a;
+//@eia-tan: #bd732a;
 //: #7a6b4d;
-
-@eia-disabled: #a6a6a6;
-
+//@eia-b2b2b2: #a6a6a6;
 //----border styles----
 //dark gray border
-//@gray_border: 1px solid @eia-dark-gray;
+//@gray_border: 1px solid @eia-dark-grey;
 //@green_border: 1px solid @eia-green;
-//: 1px solid @eia-light-gray;
+//: 1px solid @eia-light-grey;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @default_font: Arial, Helvetica, sans-serif;
 @header_font: "Times New Roman", "Times", serif;

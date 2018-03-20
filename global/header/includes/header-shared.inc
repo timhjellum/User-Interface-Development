@@ -513,7 +513,7 @@
 						</div>
 						<div class="nav-menu energy-kids">
 							<a href="/kids/" class="energy-kids">
-								<img src="/css_rehab/archive/global/images/energy-kids/energy-kids.png" alt="Energy Kids" />
+								<i class="energy-kids-nav"></i>
 							</a>
 						</div>
 					</div>

@@ -345,16 +345,24 @@ hr {
   z-index: 2;
   float: right;
   width: calc(100% - 260px);
-  min-height: 100%; }
+  min-height: 100%; 
+}
   .main-panel > .content {
     padding: 30px 15px;
-    min-height: calc(100% - 123px); }
+    min-height: calc(100% - 123px);
+    width: 100% !important;
+  }
+  .content {
+    padding: 30px 15px;
+    min-height: calc(100% - 123px);
+    width: 100% !important;
+  }
   .main-panel > .footer {
     border-top: 1px solid rgba(0, 0, 0, 0.1); }
   .main-panel .navbar {
     margin-bottom: 0; }
 
-.sidebar,
+    .sidebar,
 .main-panel {
   overflow: auto;
   max-height: 100%;
@@ -3004,20 +3012,87 @@ table.style-guide tr.even { background-color: silver}
 .color-palette .row > div {margin-bottom: 20px}
 .card {
   margin-bottom: 2em}
+
+
+
+
+
+  .swatch-wrapper {
+    width: 10%;
+    text-align: center;
+    padding: 12px 0;
+    float: left;
+    color: #666;
+  }
+
+  .swatch-wrapper.base-color .swatch {
+    border: 2px solid #000;
+  }
+
+  .swatch {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40%;
+    border-width: 2px;
+    border-style: solid;
+  }
+  .swatch.hex999999 {background-color: #999999; border-color:	#999999; color: #ccc}
+  .swatch.hex888888 {background-color: #888888; border-color:	#888888	}
+  .swatch.hex767676 {background-color: #767676; border-color:	#767676	}
+  .swatch.hex666666 {background-color: #666666; border-color:	#666666; color: #bbb}
+  .swatch.hex555555 {background-color: #555555; border-color:	#555555	}
+  .swatch.hex444444 {background-color: #444444; border-color:	#444444	}
+  .swatch.hex333333 {background-color: #333333; border-color:	#333333; color: #999}
+  .swatch.hex222222 {background-color: #222222; border-color:	#222222	}
+  .swatch.hex111111 {background-color: #111111; border-color:	#111111	}
+  .swatch.hex000000 {background-color: #000000; border-color:	#000000; color: #666}
+  .swatch.hexaaaaaa {background-color: #aaaaaa; border-color:	#aaaaaa	}
+  .swatch.hexb2b2b2 {background-color: #b2b2b2; border-color:	#b2b2b2	}
+  .swatch.hexbbbbbb {background-color: #bbbbbb; border-color:	#bbbbbb	}
+  .swatch.hexc3c3c3 {background-color: #c3c3c3; border-color:	#c3c3c3	}
+  .swatch.hexcccccc {background-color: #cccccc; border-color:	#cccccc	}
+  .swatch.hexd4d4d4 {background-color: #d4d4d4; border-color:	#d4d4d4	}
+  .swatch.hexdddddd {background-color: #dddddd; border-color:	#dddddd	}
+  .swatch.hexe5e5e5 {background-color: #e5e5e5; border-color:	#e5e5e5	}
+  .swatch.hexeeeeee {background-color: #eeeeee; border-color:	#eeeeee	}
+  .swatch.hexf6f6f6 {background-color: #f6f6f6; border-color:	#f6f6f6	}
+  .swatch.hexffffff {background-color: #ffffff; border-color:	#eeeeee	}
+
+
+
+
 ul.color-swatch-description {
     border: 0;
     margin: 0;
     padding: 0
 }
+
 ul.color-swatch-description li {
     text-align: center;
     padding: 0;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
-    font-family: "Segoe UI",Helvetica Neue,Tahoma,Arial,sans-serif;
-    font-size: .8rem;
+    /* font-family: 'Roboto', sans-serif;*/
+    font-family: "Segoe UI",Helvetica Neue,Tahoma,Arial,sans-serif; 
+    font-size: .6rem;
     color: #666
 }
+.swatch-wrapper.base-color ul.color-swatch-description li {
+  color: #333;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
 ul.color-swatch-description li:first-child {
     font-weight: bold}
 div.eiaLightGreen { background-color: #bed5ad;border-color: #bed5ad }
@@ -3033,7 +3108,7 @@ div.eiaDarkGrey { background-color: #333;border-color: #333 }
 div.eiaYellow { background-color: #ffc702;border-color: #ffc702 }
 div.eiaTan { background-color: #bd732a;border-color: #bd732a }
 div.eiaBrown { background-color: #403203;border-color: #403203 }
-
+*/
 
 
 
@@ -3060,40 +3135,27 @@ div.eiaBrown { background-color: #403203;border-color: #403203 }
 /*////////////////////////////////////////////////////////////////*/
 /*/  typography                                                 /*/
 /*//////////////////////////////////////////////////////////////*/
-h1.style-guide.typography {
+h1.typography,
+h2.typography,
+h3.typography,
+h4.typography,
+h5.typography,
+h6.typography {
+  margin: 0 !important;
+  padding: 0 !important;
 
-}
-h2.style-guide.typography {
+  color: #333 !important;
+  width: 100%;
+  background-color: white !important}
+  }
 
-}
-h3.style-guide.typography {
-
-}
-h4.style-guide.typography {
-
-}
-h5.style-guide.typography {
-
-}
-h6.style-guide.typography {
-
-}
-h1.style-guide.typography,
-h2.style-guide.typography,
-h3.style-guide.typography,
-h4.style-guide.typography,
-h5.style-guide.typography,
-h6.style-guide.typography {
-
-}
-h1.style-guide.typography,
-h2.style-guide.typography,
-h3.style-guide.typography,
-h4.style-guide.typography,
-h5.style-guide.typography,
-h6.style-guide.typography,
 ul.typography,
 p.typography {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+  font-family: arial;
   background-color: white !important}
 /*////////////////////////////////////////////////////////////////*/
 /*/  left navigation                                            /*/
