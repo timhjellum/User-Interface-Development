@@ -169,8 +169,10 @@
                     }
                     .sources-uses, .topics, .geography, .tools, .learn, .news {
                         &.left {
-                            width: 94%;
-                            margin: 0 3%;
+                            //width: 94%;
+                            //margin: 0 3%;
+                            width: 91%;
+                            margin: 0 6% 0 3%;
                             border: none;
                             > div {
                                 width: 100%;
@@ -179,8 +181,10 @@
                             }
                         }
                         &.right {
-                            width: 94%;
-                            margin: 0 3%;
+                            //width: 94%;
+                            //margin: 0 3%;
+                            width: 91%;
+                            margin: 0 6% 0 3%;
                             border: none;
                             > div {
                                 width: 100%;
@@ -194,7 +198,7 @@
                         padding: 1em 0;
                     }
                     .nav-menu {
-                        border-bottom: 1px solid @eia-light-grey;
+                        border-bottom: 1px solid @eia-d4d4d4;
                         display: table;
                         min-height: 100px;
                         clear: both;
@@ -291,20 +295,27 @@
                                 }
                             }
                         }
+                    
                         &.energy-kids {
                             a {
-                            //    .right;
                                 padding: 0;
-                                &.energy-kids {
-                                   img {
-                                        width: 100%;
-                                         &:hover {
-                                            background-image: url(/css_rehab/archive/global/images/energy-kids/energy-kids-hover.png);
-                                        }                       
+                                width: 100%;
+                                display: block;
+                                svg {
+                                    path {
+                                        fill: @eia-dark-blue;
+                                    }
+                                }
+                                &:hover {
+                                    svg {
+                                        path {
+                                            fill: @eia-blue;
+                                        }
                                     }
                                 }
                             }
                         }
+
                         &.follow-us {
                             p {
                                 margin: 8px 0 0 74px;
@@ -411,8 +422,10 @@
                             }
                         }
                         &.a-z-index {
-                            width: 94%;
-                            margin: 0 3%;
+                            //width: 94%;
+                            //margin: 0 3%;
+                            width: 91%;
+                            margin: 0 6% 0 3%;
                             padding: 1em 0 2em 0;
                             border-bottom: none;
                             .a-z-list {
@@ -550,19 +563,18 @@
                                 }
                             }
                         }
+                        /*
                         &.energy-kids {
                             a {
-                                
                                 padding: 0;
                                 &.energy-kids {
-                                    img {
-                                        .left;
-                                        width: 431px;
-                                        height: 105px;
-                                    }                       
+                                    display: table;
+                                    width: auto;
+                                    .left;
                                 }
                             }
                         }
+                        */
                     }
                 }
             }
@@ -597,7 +609,7 @@
                             width: 50%;
                             margin: 0 0 1em 0;
                             padding: 0;
-                            border-right: 1px solid @eia-light-grey;
+                            border-right: 1px solid @eia-d4d4d4;
                             float: left;
                             > div {
                                 width: 90%;
@@ -626,8 +638,7 @@
                         }
                         &.energy-kids {
                             a {
-                                img {
-                                    width: 100%;
+                                &.energy-kids {
                                     .right;
                                 }
                             }
@@ -636,7 +647,7 @@
                             width: 95%;
                             margin: 0 2.5%;
                             padding: 1em 0 2em 0;
-                            border-top: 1px solid @eia-light-grey;
+                            border-top: 1px solid @eia-d4d4d4;
                             border-bottom: none;
                             p {
                                 margin-bottom: 5px;
