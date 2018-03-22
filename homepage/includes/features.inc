@@ -8,7 +8,7 @@ $featureOneAlt = "Electricity Data Browser";
 $featureOneLabel = "Electric System Operating Data Tool";
 $featureOneDescription = "Near real-time electricity operations data for the Lower 48 states.";
 
-$featureTwoURL = "/conference/2018/?src=home-b6";
+$featureTwoURL = "/conference/2018/";
 $featureTwoImageName = "2018-eia-energy-conference.jpg";
 $featureTwoAlt = "Gateway";
 $featureTwoLabel = "2018 Energy Conference";

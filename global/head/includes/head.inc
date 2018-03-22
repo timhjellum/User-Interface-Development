@@ -7,7 +7,7 @@
 <meta name="subject" content="official energy statistics, data, analysis and forecasting" />
 <meta name="Description" content="Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government" />
 
-<link href="/css_rehab/archive/global/styles/eia-styles.min.css" type="text/css" media="screen, projection" rel="stylesheet" />
+<link href="/css_rehab/archive/global/styles/eia-styles.v2.css" type="text/css" media="screen, projection" rel="stylesheet" />
 <link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
 
 <link rel="shortcut icon" href="//www.eia.gov/favicon.ico" />

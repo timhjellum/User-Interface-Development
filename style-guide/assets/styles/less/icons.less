@@ -66,7 +66,7 @@
 		}
 	}
 	.up-arrow {
-			text-indent: -9999px;		
+		text-indent: -9999px;		
 		&::before {
 			.icon-up-arrow();
 			.controls-icon(14px, 16px);
@@ -75,6 +75,32 @@
 //			background-position: bottom center;
 		}
 	}
+	/*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
+	.ico_up {			
+		text-indent: -9999px;
+		font-size: 0;
+		&::before {
+			.icon-down-arrow();
+			.controls-icon(14px, 16px);
+			float: left;
+			margin-right: 3px;
+	
+		}
+	}
+	.ico_down {
+		text-indent: -9999px;
+		font-size: 0;	
+		&::before {
+			.icon-up-arrow();
+			.controls-icon(14px, 16px);
+			float: left;
+			margin-right: 3px;
+		}
+	}
+
+
+
+
 	/*---Right arrow for use in footer and similar---*/
 	.right-arrow-head {
 		&::before {

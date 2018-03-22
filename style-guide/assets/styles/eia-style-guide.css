@@ -1,39 +1,9 @@
 
-/*
-@import "less/energy-explained";
-
-
-@import "less/report-title";
-
-@import "less/subnav";
-@import "less/tables";
-@import "less/templates";
-@import "less/title";
-
-
-@import "less/modules/analysis-projections";
-@import "less/modules/accordion";
-@import "less/modules/tabs";
-@import "less/modules/messaging";
-
-@import "less/modules/features";
-@import "less/modules/reports";
-@import "less/modules/report-details";
-@import "less/modules/standard-container";
-@import "less/modules/standard-table";
-
-
-@import "less/modules/visualizations";
-@import "less/modules/energy-education";
-@import "less/modules/page-tabs";
-@import "less/modules/legend";
-@import "less/modules/bookshelf-search";
-*/
-
+/* variables & mixins */
 @import "less/global_vars";
 @import "less/global_mixins";
 
-
+/* base */
 @import "less/base";
 @import "less/icons";
 
@@ -51,7 +21,6 @@
 
 /* content container must be the first line item of the modules */
 @import "less/modules/content-container";
-@import "less/modules/blue-background";
 @import "less/modules/dark-top-border-container";
 @import "less/modules/grey-background";
 @import "less/modules/light-top-border-container";
@@ -67,3 +36,10 @@
 @import "less/home/features";
 @import "less/home/today-in-energy";
 @import "less/home/layout";
+@import "less/home/data-highlights";
+
+
+@import "less/style-guide/swatch";
+@import "less/style-guide/typography";
+@import "less/style-guide/nav";
+@import "less/style-guide/styles";

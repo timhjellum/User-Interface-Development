@@ -1,14 +1,37 @@
+@media @mobile {
+    .homepage {
+        .energy-kids {
+            border-top: 4px solid @eia-blue;
+            a {
+                display: block;
+                width: 100%;
+                border: none;
+                margin-top: -15px;
+                picture {
+                    width: 100%;
+                    .left;
+                    img {
+                        width: 100%;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+@media @tablet {
 
-.homepage {
-    .energy-kids {
-        border-top: 4px solid @eia-blue;
-        a {
-            display: block;
-            width: 100%;
-            border: none;
-            margin-top: -15px;
-            img {
-                .right;
+}
+@media @laptop {
+    .homepage {
+        .energy-kids {
+            border-left: 1px solid @eia-e5e5e5;
+            border-right: 1px solid @eia-e5e5e5;
+            display: table;
+            a {
+                picture {
+                    .right;
+                }
             }
         }
     }

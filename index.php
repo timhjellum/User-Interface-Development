@@ -16,7 +16,7 @@
 <div class="homepage">
 	<div class="l-row l-3-col l-reorder">
 		<div class="l-narrow-col l-second">
-			<?php include('css_rehab/archive/global/includes/whats-new.inc') ?>
+			<?php include('css_rehab/archive/homepage/includes/whats-new.inc') ?>
 		</div>
 		<div class="l-middle-col l-first">
 			<div class="content-container main-content-container">
@@ -25,23 +25,12 @@
 			</div>
 		</div>
 		<div class="l-narrow-col l-third">
-			<?php
-				/*
-				if(file_exists("global/includes/homepage_data.html")){
-				if(file_exists("css_rehab/archive/homepage/includes/data-highlights.inc")) {
-					// $homepage_data_file = "global/includes/homepage_data.html";
-					$homepage_data_file = "css_rehab/archive/homepage/includes/data-highlights.inc";
-				} else{
-					$homepage_data_file = "global/includes/homepage_data.cfm";
-				}
-				if(!$homepageData = file_get_contents($homepage_data_file, FILE_USE_INCLUDE_PATH)) {
-					echo "Data highlights not currently available. Check back soon.";
-				} else {
-					echo $homepageData;
-				}
-				*/
-			?>
-			<?php include('css_rehab/archive/homepage/includes/data-highlights.inc"') ?>
+			<div class="content-container content-container-border blue-background">
+				<ul>
+				<?php include('global/includes/homepage_data.html') ?>
+			</ul>
+			</div>
+			<?php /* include('css_rehab/archive/homepage/includes/data-highlights.inc') */ ?>
 		</div>
 	</div>
 	<div class="l-row l-2-col-right header">
@@ -72,14 +61,4 @@
 </div>	
 <?php include'css_rehab/archive/global/footer/includes/footer.inc' ?>
 </body>
-<?php /* the script below appends a query string to the end of each image name in the homepage rotating banner forcing the browser to fetch a new, updated image
-<script>
-	(function(){
-		$('.home_feature_banner ul li').each(function(){
-			var newName = '.jpg?' + $.now();
-			$(this).css('background-image',$(this).css('background-image').replace('.jpg',newName));
-		})
-	}());
-</script>
-*/ ?>
 </html>

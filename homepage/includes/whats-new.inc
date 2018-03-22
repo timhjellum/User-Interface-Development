@@ -2,18 +2,6 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$whatsNewOneURL = "/petroleum/drilling/";
-$whatsNewOneLabel = "Drilling Productivity Report";
-$whatsNewOneDate = "March 12";
-
-$whatsNewTwoURL = "/outlooks/steo/report/";
-$whatsNewTwoLabel = "Short-Term Energy Outlook";
-$whatsNewTwoDate = "March 6";
-
-$whatsNewThreeURL = "/beta/international/analysis.cfm?iso=SDN";
-$whatsNewThreeLabel = "Sudan and South Sudan Country Analysis Brief";
-$whatsNewThreeDate = "March 5";
-
 $comingUpOneURL = "/electricity/monthly/";
 $comingUpOneLabel = "Electric Power Monthly";
 
@@ -26,17 +14,14 @@ $comingUpThreeLabel = "United Kingdom Country Analysis Brief";
 ?>
 <?php
 /* DO NOT EDIT BELOW */
+/* DO NOT EDIT BELOW */
+/* DO NOT EDIT BELOW */
 ?>
 
 <div class="content-container dark-top-border-container">
 	<ul>
 		<li class="head"><h2>What's New</h2></li>
-		<li><a href='<?=$whatsNewOneURL?>' title='<?=$whatsNewOneLabel?>'><?=$whatsNewOneLabel?></a></li>
-		<li class="date"><?=$whatsNewOneDate?></li>
-		<li><a href='<?=$whatsNewTwoURL?>' title='<?=$whatsNewTwoLabel?>'><?=$whatsNewTwoLabel?></a></li>
-		<li class="date"><?=$whatsNewTwoDate?></li>
-		<li><a href='<?=$whatsNewThreeURL?>' title='<?=$whatsNewThreeLabel?>'><?=$whatsNewThreeLabel?></a></li>
-		<li class="date"><?=$whatsNewThreeDate?></li>
+		<?php include('global/whatsnew/whats-new.html') ?>
 		<li class="foot"><a href="/about/new/">More</a></li>
 	</ul>
 	<hr>

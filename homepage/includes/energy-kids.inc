@@ -29,7 +29,11 @@
 			}
 		}
 		?>
-		<img src="/global/images/kids_promos/kids-<?php echo $theme; ?>.png" alt="Small image of Energy Kids banner with host Energy Ant">
+		<picture>
+			<source media="(min-width: 956px)" srcset="/css_rehab/archive/homepage/images/energy-kids/kids-laptop-<?php echo $theme; ?>.png?<?php echo(rand());?>">
+			<source media="(min-width: 480px)" srcset="/css_rehab/archive/homepage/images/energy-kids/kids-tablet-<?php echo $theme; ?>.png?<?php echo(rand());?>">
+			<img src="/css_rehab/archive/homepage/images/energy-kids/kids-mobile-<?php echo $theme; ?>.png?<?php echo(rand());?>" alt="Small image of Energy Kids banner with host Energy Ant">
+		</picture>
 	</a>
 </div>
 

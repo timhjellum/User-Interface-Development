@@ -41,18 +41,27 @@ const styleGuideDist = './style-guide/src/css';
 
 // use for wwwdev: const dist = '//WWWDEV/website/global/styles';
 
+gulp.task('styles', ['eia-styles']);
 
-
-gulp.task('styles', () =>
-	gulp.src('./style-guide/assets/styles/eia-styles.css')
+gulp.task('eia-styles', ['eia-style-guide'], () =>
+	gulp.src('./style-guide/assets/styles/eia-styles.v2.css')
 //  .pipe(changed(styleGuideDist))
 	.pipe(less())
 	.pipe(gulp.dest(dist))
-	.pipe(gulp.dest(styleGuideDist))
+//	.pipe(gulp.dest(styleGuideDist))
 	.pipe(cleanCSS())
-	.pipe(rename("eia-styles.min.css"))
+	.pipe(rename("eia-styles.v2.min.css"))
 	.pipe(gulp.dest(dist))
 );
+
+// $ npm run gulp style-guide
+
+gulp.task('eia-style-guide', () =>
+	gulp.src('./style-guide/assets/styles/eia-style-guide.css')
+	.pipe(less())
+	.pipe(gulp.dest(styleGuideDist))
+);
+
 
 // print specific files
 // $ npm run gulp print
@@ -91,13 +100,7 @@ gulp.task('beta-feedback', () =>
 
 
 // print style-guide
-// $ npm run gulp style-guide
 
-gulp.task('style-guide', () =>
-	gulp.src('./style-guide/assets/styles/eia-style-guide.css')
-	.pipe(less())
-	.pipe(gulp.dest(styleGuideDist))
-);
 
 
 
