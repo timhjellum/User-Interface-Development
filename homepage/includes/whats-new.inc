@@ -2,14 +2,14 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$comingUpOneURL = "/electricity/monthly/";
-$comingUpOneLabel = "Electric Power Monthly";
+$comingUpOneURL = "/totalenergy/data/monthly/";
+$comingUpOneLabel = "Monthly Energy Review";
 
-$comingUpTwoURL = "/biofuels/biomass/";
-$comingUpTwoLabel = "Monthly Densified Biomass Fuel Report";
+$comingUpTwoURL = "/naturalgas/monthly/";
+$comingUpTwoLabel = "Natural Gas Monthly";
 
-$comingUpThreeURL = "/beta/international/analysis.cfm?iso=GBR";
-$comingUpThreeLabel = "United Kingdom Country Analysis Brief";
+$comingUpThreeURL = "/petroleum/production/";
+$comingUpThreeLabel = "Monthly Crude Oil and Natural Gas Production";
 
 ?>
 <?php

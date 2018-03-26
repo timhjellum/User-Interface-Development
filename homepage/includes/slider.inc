@@ -1,36 +1,36 @@
 <?php
-/* edit the link URL, Label and Date below */
+/* edit the link URL, Title and Date below */
 /* no need to add the  > or the &nbsp;› or the  &rsaquo; */
 
-$slideOneURL = "/petroleum/drilling/";
+$slideOneURL = "/outlooks/aeo/section_issues.php#grt";
 $slideOneImageName = "slide01.jpg";
-$slideOneLabel = "Drilling Productivity Report";
-$slideOneDescription = "Approach to assessing the productivity of oil and gas drilling operations&mdash; March report";
+$slideOneTitle = "Annual Energy Outlook 2018 Issue in Focus: Oil and Natural Gas Resources and Technology Analysist";
+$slideOneDescription = "";
 
-$slideTwoURL = "/forecasts/steo/";
+$slideTwoURL = "/beta/international/analysis.cfm?iso=GBR";
 $slideTwoImageName = "slide02.jpg";
-$slideTwoLabel = "Short-Term Energy Outlook March 2018";
-$slideTwoDescription = "Energy projections for supply, demand, and prices";
+$slideTwoTitle = "The United Kingdom is the second-largest producer of oil in OECD Europe";
+$slideTwoDescription = "Read the Country Analysis Brief";
 
-$slideThreeURL = "/outlooks/aeo/";
+$slideThreeURL = "/petroleum/drilling/";
 $slideThreeImageName = "slide03.jpg";
-$slideThreeLabel = "Annual Energy Outlook 2018";
-$slideThreeDescription = "Full Annual Energy Outlook with projections to 2050";
+$slideThreeTitle = "Drilling Productivity Report";
+$slideThreeDescription = "Approach to assessing the productivity of oil and gas drilling operations&#8212; March report";
 
 $slideFourURL = "/conference/2018/";
 $slideFourImageName = "slide04.jpg";
-$slideFourLabel = "2018 EIA Energy Conference, June 4-5";
+$slideFourTitle = "2018 EIA Energy Conference, June 4-5";
 $slideFourDescription = "Session topics now available";
 
 $slideFiveURL = "/petroleum/marketing/monthly/";
 $slideFiveImageName = "slide05.jpg";
-$slideFiveLabel = "Petroleum Marketing Monthly";
+$slideFiveTitle = "Petroleum Marketing Monthly";
 $slideFiveDescription = "Monthly price and volume statistics on crude oil and petroleum products";
 
-$slideSixURL = "/beta/international/analysis.cfm?iso=SDN";
+$slideSixURL = "/electricity/monthly/";
 $slideSixImageName = "slide06.jpg";
-$slideSixLabel = "Most of Sudan&#039s and South Sudan&#039s oil and gas reserves extend into both countries";
-$slideSixDescription = "Read the Country Analysis Brief";
+$slideSixTitle = "Electric Power Monthly";
+$slideSixDescription = "Data for January 2018";
 
 /* DO NOT EDIT BELOW */
 /* DO NOT EDIT BELOW */
@@ -43,45 +43,45 @@ $slideSixDescription = "Read the Country Analysis Brief";
 	<div class="slider-home-top"></div>
     <div class="slider-home">
         <ul>
-			<li>
-				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideOneImageName?>?<?php echo(rand());?>' alt='<?=$slideOneLabel?>' />
+			<li class="b1">
+				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideOneImageName?>?<?php echo(rand());?>' alt='<?=$slideOneTitle?>' />
 				<div class="slider-overlay">
-					<h2><a href='<?=$slideOneURL?>' title='<?=$slideOneLabel?>'><?=$slideOneLabel?></a></h2> 
+					<h2><a href='<?=$slideOneURL?>' title='<?=$slideOneTitle?>'><?=$slideOneTitle?></a></h2> 
 					<h3><a href='<?=$slideOneURL?>'><?=$slideOneDescription?></a></h3>
 				</div>
 			</li>
-			<li>
-				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideTwoImageName?>?<?php echo(rand());?>' alt='<?=$slideTwoLabel?>' />
+			<li class="b2">
+				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideTwoImageName?>?<?php echo(rand());?>' alt='<?=$slideTwoTitle?>' />
 				<div class="slider-overlay">
-					<h2><a href='<?=$slideTwoURL?>' title='<?=$slideTwoLabel?>'><?=$slideTwoLabel?></a></h2> 
+					<h2><a href='<?=$slideTwoURL?>' title='<?=$slideTwoTitle?>'><?=$slideTwoTitle?></a></h2> 
 					<h3><a href='<?=$slideTwoURL?>'><?=$slideTwoDescription?></a></h3>
 				</div>
 			</li>
-			<li>
-				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideThreeImageName?>?<?php echo(rand());?>' alt='<?=$slideThreeLabel?>' />
+			<li class="b3">
+				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideThreeImageName?>?<?php echo(rand());?>' alt='<?=$slideThreeTitle?>' />
 				<div class="slider-overlay">
-					<h2><a href='<?=$slideThreeURL?>' title='<?=$slideThreeLabel?>'><?=$slideThreeLabel?></a></h2> 
+					<h2><a href='<?=$slideThreeURL?>' title='<?=$slideThreeTitle?>'><?=$slideThreeTitle?></a></h2> 
 					<h3><a href='<?=$slideThreeURL?>'><?=$slideThreeDescription?></a></h3>
 				</div>
 			</li>
-			<li>
-				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideFourImageName?>?<?php echo(rand());?>' alt='<?=$slideFourLabel?>' />
+			<li class="b4">
+				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideFourImageName?>?<?php echo(rand());?>' alt='<?=$slideFourTitle?>' />
 				<div class="slider-overlay">
-					<h2><a href='<?=$slideFourURL?>' title='<?=$slideFourLabel?>'><?=$slideFourLabel?></a></h2> 
+					<h2><a href='<?=$slideFourURL?>' title='<?=$slideFourTitle?>'><?=$slideFourTitle?></a></h2> 
 					<h3><a href='<?=$slideFourURL?>'><?=$slideFourDescription?></a></h3>
 				</div>
 			</li>
-			<li>
-				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideFiveImageName?>?<?php echo(rand());?>' alt='<?=$slideFiveLabel?>' />
+			<li class="b5">
+				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideFiveImageName?>?<?php echo(rand());?>' alt='<?=$slideFiveTitle?>' />
 				<div class="slider-overlay">
-					<h2><a href='<?=$slideFiveURL?>' title='<?=$slideFiveLabel?>'><?=$slideFiveLabel?></a></h2> 
+					<h2><a href='<?=$slideFiveURL?>' title='<?=$slideFiveTitle?>'><?=$slideFiveTitle?></a></h2> 
 					<h3><a href='<?=$slideFiveURL?>'><?=$slideFiveDescription?></a></h3>
 				</div>
 			</li>
-			<li>
-				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideSixImageName?>?<?php echo(rand());?>' alt='<?=$slideSixLabel?>' />
+			<li class="b6">
+				<img src='/css_rehab/archive/homepage/images/slider/<?=$slideSixImageName?>?<?php echo(rand());?>' alt='<?=$slideSixTitle?>' />
 				<div class="slider-overlay">
-					<h2><a href='<?=$slideSixURL?>' title='<?=$slideSixLabel?>'><?=$slideSixLabel?></a></h2> 
+					<h2><a href='<?=$slideSixURL?>' title='<?=$slideSixTitle?>'><?=$slideSixTitle?></a></h2> 
 					<h3><a href='<?=$slideSixURL?>'><?=$slideSixDescription?></a></h3>
 				</div>
 			</li>

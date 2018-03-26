@@ -25,7 +25,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 
 <div class="content-container dark-top-border-container features">
 	<h2>Features</h2>
-	<div>
+	<div class="f1">
 		<div>
 			<a href='<?=$featureOneURL?>'>
 				<img src='homepage/images/features/<?=$featureOneImageName?>' alt='<?=$featureOneAlt?>' />
@@ -37,7 +37,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 		</ul>
 	</div>
 
-	<div>
+	<div class="f2">
 		<div>
 			<a href='<?=$featureTwoURL?>'>
 				<img src='homepage/images/features/<?=$featureTwoImageName?>' alt='<?=$featureTwoAlt?>' />
@@ -49,7 +49,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 		</ul>
 	</div>
 
-	<div>
+	<div class="f3">
 		<div>
 			<a href='<?=$featureThreeURL?>'>
 				<img src='homepage/images/features/<?=$featureThreeImageName?>' alt='<?=$featureThreeAlt?>' />

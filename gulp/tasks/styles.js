@@ -7,9 +7,9 @@ const path = require('path');
 const del = require('del');
 
 //const dist = '//WWWDEV/website/global/styles';
-//const dist = '//REPLICATOR/website/css_rehab/archive/global/styles';
+const dist = '//REPLICATOR/website/css_rehab/archive/global/styles';
 //const dist = './global/styles';
-const dist = './style-guide/src/css';
+//const dist = './style-guide/src/css';
 const styleGuideDist = './style-guide/src/css';
 
 
@@ -44,13 +44,13 @@ const styleGuideDist = './style-guide/src/css';
 gulp.task('styles', ['eia-styles']);
 
 gulp.task('eia-styles', ['eia-style-guide'], () =>
-	gulp.src('./style-guide/assets/styles/eia-styles.v2.css')
+	gulp.src('./style-guide/assets/styles/global.css')
 //  .pipe(changed(styleGuideDist))
 	.pipe(less())
 	.pipe(gulp.dest(dist))
 //	.pipe(gulp.dest(styleGuideDist))
 	.pipe(cleanCSS())
-	.pipe(rename("eia-styles.v2.min.css"))
+	.pipe(rename("global.min.css"))
 	.pipe(gulp.dest(dist))
 );
 

@@ -25,9 +25,12 @@
 @import "less/modules/dark-top-border-container";
 @import "less/modules/grey-background";
 @import "less/modules/light-top-border-container";
-@import "less/modules/no-border-container";
+@import "less/modules/standard-container";
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
+
+@import "less/l2/analysis-projections.less";
+@import "less/l2/visualizations";
 
 /* sliders */
 @import "less/sliders/shared";

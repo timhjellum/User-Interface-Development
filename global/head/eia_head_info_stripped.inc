@@ -32,20 +32,42 @@ isset($highstock) || $highstock = '';
 ?>
 
 <?php /* Meta Data */ ?>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<?php /* IE Edge */ ?>
 <meta http-equiv="Content-Language" content="en-us" />
 <meta name="robots" content="all" />
 <meta name="agency" content="EIA - Energy Information Administration" />
 <meta name="subject" content="official energy statistics, data, analysis and forecasting" />
 <meta name="Description" content="Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government" />
 
-<link href="/css_rehab/archive/global/styles/global.css?v=1.0.0" type="text/css" media="screen, projection" rel="stylesheet" />
-<link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
+<?php /* Framework CSS Includes */ ?>
+<link href="/global/styles/screen.css" type="text/css" media="screen, projection" rel="stylesheet" />
+<link href="/global/styles/eia-styles.min.css?v=1.1" media="screen, projection" rel="stylesheet" />
+
+<?php /*EIA CSS Includes */ ?>
+<link type="text/css" href="/global/scripts/jquery/datepicker/jquery-ui-dp.custom.css" rel="stylesheet" />
+<link href="/global/styles/EIA_global.css?v=1.1" type="text/css" media="screen, projection" rel="stylesheet" />
+
+<!--[if lt IE 8]><link href="/global/styles/ie.css" type="text/css" media="screen, projection" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="/global/styles/ie.css" type="text/css" media="screen, projection" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 8]><link href="/global/styles/ie_fixes.css" type="text/css" media="screen, projection" rel="stylesheet" /><![endif]-->
+<link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
+<link href="/global/styles/eia-print.min.css?v=1.1" type="text/css" media="print" rel="stylesheet" />
+<!--[if lte IE 8]><link href="/global/styles/ie_print.css" type="text/css" media="print" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="/global/styles/ie_print.css" type="text/css" media="print" rel="stylesheet" /><![endif]-->
+
+<?php /* jQuery itself */ ?>
+<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/ui/1.10.3/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/touch-punch/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/eia_utils.js"></script>
+<script type="text/javascript" src="/global/scripts/eia_global.js?v=1.1"></script>
 
 <?php
 //Include Highcharts (uses variables hcVersion, highstock, and jQueryUpgrade)
-//include $_SERVER['DOCUMENT_ROOT'] . '/global/includes/highcharts.inc';
+include $_SERVER['DOCUMENT_ROOT'] . '/global/includes/highcharts.inc';
 //Search Landing Fix
 /* REHAB-COMMENT-BLOCK
  * $locale will be set on pages such as /petroleum/data/index.php
@@ -97,17 +119,10 @@ if($widgets == "y"){
 }
 	*/
 
-
-// REHAB-COMMENT-BLOCK
-?>
-
-
-
-<?php
-
-// Keep google analytics
-// Omit Google Analytics for dev server 
-
+// Omit Google Analytics for dev server -->
+/* REHAB-COMMENT-BLOCK
+ * Keep google analytics
+ */
 if(strpos($_SERVER['HTTP_HOST'],'wwwdev')===false){
 ?>
 	<script type="text/javascript" src="/global/scripts/jquery/ga/ga-file-downloads.js" ></script>
@@ -116,9 +131,6 @@ if(strpos($_SERVER['HTTP_HOST'],'wwwdev')===false){
 	include $_SERVER['DOCUMENT_ROOT']."/global/includes/ga.inc";
 }
 ?>
-
-
-
 <?php /* EIA logo favicon */ ?>
 <link rel="shortcut icon" href="//www.eia.gov/favicon.ico" />
 <link rel="icon" href="//www.eia.gov/favicon.ico" type="image/x-icon">
@@ -135,23 +147,23 @@ $faqs_path = '/tools/faqs/';
  * Keep survey engine code
  */
 	// Since the failover DB doesn't allow writes, we shouldn't include the survey_engine js
-//	if(isset($_SERVER["COMPUTERNAME"]) && $_SERVER["COMPUTERNAME"] === 'WWW3'){
+	if(isset($_SERVER["COMPUTERNAME"]) && $_SERVER["COMPUTERNAME"] === 'WWW3'){
 		// don't show survey engine
-//	} else {
+	} else {
 ?>	
-<!-- script type="text/javascript" src="/global/survey/engine/js/survey_engine.js"></script -->
-<!-- link href="/global/survey/engine/css/layout.css" rel="stylesheet" type="text/css" media="screen" / -->
+	<script type="text/javascript" src="/global/survey/engine/js/survey_engine.js"></script>
+	<link href="/global/survey/engine/css/layout.css" rel="stylesheet" type="text/css" media="screen" />
 <?php
-//	} // End checking for failover host
+	} // End checking for failover host
 ?>
 <?php
 /* 
  * REHAB_COMMENT_BLOCK
  * this will output a title on pages, we should probably remove this and put them on the actual pageTitle
  */
-//	if(isset($pageTitle) && $pageTitle) {
-//		print "<title>" . $pageTitle . "</title>"; print PHP_EOL;
-//	}
+	if(isset($pageTitle) && $pageTitle) {
+		print "<title>" . $pageTitle . "</title>"; print PHP_EOL;
+	}
 ?>
 <?php
 /*

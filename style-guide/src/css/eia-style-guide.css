@@ -3163,28 +3163,28 @@ span.line-break {
     margin-right: 6px;
   }
   /*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
-  .ico_up {
-    text-indent: -9999px;
-    font-size: 0;
-  }
-  .ico_up::before {
-    background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-down-arrow%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2010%2012%22%3E%3Cpolygon%20points%3D%221%204.2%205%2011%209%204.2%206.6%204.2%206.6%201%203.4%201%203.4%204.2%201%204.2%22%20fill%3D%22%235d9732%22/%3E%3C/svg%3E') no-repeat center center;
-    content: ' ';
-    height: 16px;
-    width: 14px;
-    display: block;
-    float: left;
-    margin-right: 3px;
-  }
   .ico_down {
     text-indent: -9999px;
     font-size: 0;
   }
   .ico_down::before {
+    background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-down-arrow%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2010%2012%22%3E%3Cpolygon%20points%3D%221%204.2%205%2011%209%204.2%206.6%204.2%206.6%201%203.4%201%203.4%204.2%201%204.2%22%20fill%3D%22%235d9732%22/%3E%3C/svg%3E') no-repeat center center;
+    content: ' ';
+    height: 14px;
+    width: 12px;
+    display: block;
+    float: left;
+    margin-right: 3px;
+  }
+  .ico_up {
+    text-indent: -9999px;
+    font-size: 0;
+  }
+  .ico_up::before {
     background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-up-arrow%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2010%2012%22%3E%3Cpolygon%20points%3D%229%207.8%205%201%201%207.8%203.4%207.8%203.4%2011%206.6%2011%206.6%207.8%209%207.8%22%20fill%3D%22%23513c7a%22/%3E%3C/svg%3E') no-repeat center center;
     content: ' ';
-    height: 16px;
-    width: 14px;
+    height: 14px;
+    width: 12px;
     display: block;
     float: left;
     margin-right: 3px;
@@ -5689,36 +5689,11 @@ span.line-break {
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.follow-us p {
     margin: 8px 0 0 74px;
   }
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new h5 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: #333;
-    line-height: 1.6em;
-    font-size: 0.875rem;
-    cursor: pointer;
-    margin: 0 0 0 0;
-  }
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new h5 a {
-    text-decoration: none;
-    color: #189bd7;
-    display: block;
-  }
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new h5 a:after {
-    content: "";
-  }
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new h5 a:hover {
-    text-decoration: underline;
-  }
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new p {
-    margin: 0 0 0 0;
-    color: #7d7d7d;
-    font-style: italic;
-  }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new ul {
     list-style: none;
     padding-left: 26px;
   }
-  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new ul li a {
+  .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new ul li.date {
     margin-top: -6px;
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h2 {
@@ -7235,28 +7210,82 @@ font-size: 1.500rem; // 24 pixels
     font-size: 0.750rem;
   }
 }
-/*
-REMs        Pixels
----------------------
-font-size: 0.625rem; // 10 pixels	
-font-size: 0.688rem; // 11 pixels
-font-size: 0.750rem; // 12 pixels
-font-size: 0.813rem; // 13 pixels
-font-size: 0.875rem; // 14 pixels
-font-size: 0.938rem; // 15 pixels
-font-size: 1.000rem; // 16 pixels
-font-size: 0.063rem; // 17 pixels
-font-size: 1.125rem; // 18 pixels
-font-size: 1.188rem; // 19 pixels
-font-size: 1.250rem; // 20 pixels
-font-size: 1.313rem; // 21 pixels
-font-size: 1.375rem; // 22 pixels
-font-size: 1.438rem; // 23 pixels
-font-size: 1.500rem; // 24 pixels
-*/
 @media (min-width: 1px) {
-  margin: inherit;
+  .standard-container ul {
+    margin: 0;
+  }
+  .standard-container ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0 0 10px 0;
+    margin: 10px 0 0;
+    border-bottom: 1px solid #e3e5e6;
+  }
+  .standard-container ul li:last-child {
+    border-bottom: none;
+    padding: 0;
+  }
+  .standard-container ul li a {
+    display: block;
+    color: #189bd7;
+    text-decoration: none;
+  }
+  .standard-container ul li a:hover {
+    text-decoration: underline;
+  }
+  .standard-container ul li.head {
+    padding: 0 0 7px 0;
+    margin: 14px 0 7px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+  .standard-container ul li.head h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
 }
+@media (min-width: 956px) {
+  .standard-container ul {
+    padding: 17px;
+  }
+  .standard-container ul li {
+    padding: 0 0 10px 0;
+    font-size: 0.750rem;
+  }
+  .standard-container ul li.head {
+    padding: 0 0 7px 0;
+    margin: 0 0 7px 0;
+  }
+  .standard-container ul li.head h2 {
+    font-size: 0.750rem;
+  }
+}
+/*
+    .standard-list-container {
+        li {
+            padding: 0;
+            list-style-type: disc;
+            margin-left: 20px;
+            .font;
+            &.header {
+                list-style-type: none;
+                border-bottom: 1px solid #dadada;
+                padding: 0 0 2px 0;
+                margin: 1.75em 0 .5em 0 ;
+                h2 {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    */
 @media (min-width: 1px) {
   .tabs {
     display: block;
@@ -7776,6 +7805,200 @@ font-size: 1.500rem; // 24 pixels
     font-size: 1.6875rem;
   }
 }
+@media (min-width: 1px) {
+  ul.analysis-projections {
+    width: 100%;
+    display: table;
+    clear: both;
+    margin-bottom: .75em;
+  }
+  ul.analysis-projections li {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    font-size: .8125rem;
+  }
+  ul.analysis-projections li:first-child {
+    float: left;
+    width: 35px;
+  }
+  ul.analysis-projections li:first-child img {
+    width: 35px;
+    height: 35px;
+  }
+  ul.analysis-projections li.header {
+    width: 384px;
+    float: right;
+  }
+  ul.analysis-projections li.header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  ul.analysis-projections li.header h2 a {
+    font-size: .9375rem;
+    color: #265281;
+    font-weight: bold;
+  }
+  ul.analysis-projections li.tags {
+    width: 384px;
+    float: right;
+  }
+  ul.analysis-projections li.tags a {
+    color: #189bd7;
+  }
+  ul.analysis-projections li.tags em::after {
+    padding: 0 0 0 2px;
+    font-style: normal;
+  }
+  ul.analysis-projections li.tags a.capsule::after {
+    color: #333;
+  }
+  ul.analysis-projections li.footer {
+    float: left;
+    font-size: 1rem;
+    width: 100%;
+  }
+  ul.analysis-projections li.footer a {
+    font-weight: 600;
+    font-size: .8125rem;
+  }
+}
+/*
+@media @mobile {
+    .analysis-projections {
+        width: 445px;
+        display: table;
+        clear: both;
+        li {
+            color: @eia-dark-grey;
+            margin: 0;
+            font-size: .8125rem; //13px;
+            &:first-child {
+                float: left;
+                width: 35px;
+                img {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            &.header h2 {
+                width: 384px;
+                float: right;
+                a {
+                    font-size: .9375rem; //15px;
+                    color: @eia-dark-blue; 
+                    font-weight: bold;
+                }
+            }
+            &.tags {
+                width: 384px;
+                float: right;
+                a {
+                    color: @eia-blue;                
+                }
+                .date {
+                    font-style: italic;
+                }
+                span::after {
+//content: " | tags: ";
+                    padding: 0 0 0 2px;
+                    font-style: normal;
+                }
+                a.capsule::after {
+//content: ", ";
+                    color: @eia-dark-grey;
+                }
+            }
+
+            &.footer {
+                float: left;
+                width: 100%;
+
+            }
+        }
+    }
+}
+*/
+@media (min-width: 1px) {
+  .visualizations ul {
+    text-align: center;
+    margin: 1em 0 3em;
+  }
+  .visualizations ul li.circle_ng_navigator {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nat_gas_nav.png') 59% 60%;
+  }
+  .visualizations ul li.circle_ng_map {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nat_gas_map.png') 59% 60%;
+  }
+  .visualizations ul li.circle_ng_query {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nat_gas_query.png') 59% 60%;
+  }
+  .visualizations ul li.circle_pet_map {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/petroleum_map.png') 59% 60%;
+  }
+  .visualizations ul li.circle_fossil_fuel {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/fossil_fuel_map.png') 59% 60%;
+  }
+  .visualizations ul li.circle_disruptions {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/disruptions.png') 59% 60%;
+  }
+  .visualizations ul li.circle_steo {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/steo.png') 59% 60%;
+  }
+  .visualizations ul li.circle_radio {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/radio.png') 59% 60%;
+  }
+  .visualizations ul li.circle_totalenergy_mer {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/totalenergy_mer.png') 59% 60%;
+  }
+  .visualizations ul li.circle_elec_data {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/elec_data_browse.png') 59% 60%;
+  }
+  .visualizations ul li.circle_coal_data {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/coal_data_browse.png') 59% 60%;
+  }
+  .visualizations ul li.circle_renew_data {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/renew_plant_map.png') 59% 60%;
+  }
+  .visualizations ul li.circle_crude_import_data {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/crude_import_tool.png') 59% 60%;
+  }
+  .visualizations ul li.circle_aeo {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/aeo.png') 59% 60%;
+  }
+  .visualizations ul li.circle_video {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/video.png') 59% 60%;
+  }
+  .visualizations ul li.circle_nuclear_outages {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nuclear_outages2.png') 59% 60%;
+  }
+  .visualizations ul li.circle_afv {
+    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/afv.png') 59% 60%;
+  }
+  .visualizations ul li.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 3px solid #ccc;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .visualizations ul li.links {
+    font-size: 13px;
+    font-weight: 700;
+    color: #189bd7;
+  }
+}
+@media (min-width: 956px) {
+  .visualizations li {
+    font-size: 13px;
+    line-height: 1.313em;
+  }
+}
 /* sliders */
 @media (min-width: 1px) {
   .slider-home {
@@ -7852,6 +8075,9 @@ font-size: 1.500rem; // 24 pixels
   }
   .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h3 a:after {
     content: "\00a0\203A";
+  }
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h3 a:empty {
+    display: none;
   }
   .slider-home-pager {
     top: -25px;
