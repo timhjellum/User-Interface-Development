@@ -1,4 +1,3 @@
-
 /* variables & mixins */
 @import "less/global_vars";
 @import "less/global_mixins";
@@ -20,11 +19,14 @@
 @import "less/layouts/responsive";
 
 /* content container must be the first line item of the modules */
+@import "less/modules/accordion";
 @import "less/modules/content-container";
 @import "less/modules/dark-top-border-container";
 @import "less/modules/grey-background";
 @import "less/modules/light-top-border-container";
 @import "less/modules/no-border-container";
+@import "less/modules/page-tabs";
+@import "less/modules/page-titles";
 
 /* sliders */
 @import "less/sliders/shared";

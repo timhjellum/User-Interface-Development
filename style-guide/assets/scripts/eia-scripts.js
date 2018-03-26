@@ -16,3 +16,9 @@ new BookshelfSearch();
 
 import BxSlider from './modules/bxslider';
 new BxSlider();
+
+import Accordion from './modules/accordion';
+new Accordion();
+
+import Tabs from './modules/tabs';
+new Tabs();

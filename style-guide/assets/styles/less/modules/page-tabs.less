@@ -1,95 +1,65 @@
-/*
-.bold(@fontWeight: 700) {font-weight: @fontWeight }
-.semi-bold(@fontWeight: 600) {font-weight: @fontWeight }
-.normal(@fontWeight: normal) {font-weight: @fontWeight }
-.right(@floatRight: right) { float: @floatRight  }
-.left(@floatLeft: left) { float: @floatLeft  }
-.base-font-size(@baseFontSize: 16) {font-size: @baseFontSize; }
-.align-right(@AlignRight: right) {text-align: @AlignRight; }
-.align-left(@AlignLeft: left) {text-align: @AlignLeft; }
-.no-wrap(@NoWrap: no-wrap) { white-space: @NoWrap;}
-
-// Pixels	EMs	Percent	Points
-// 6px	0.375em	37.5%	5pt
-// 7px	0.438em	43.8%	5pt
-// 8px	0.500em	50.0%	6pt
-// 9px	0.563em	56.3%	7pt
-// 10px	0.625em	62.5%	8pt
-// 11px	0.688em	68.8%	8pt
-// 12px	0.750em	75.0%	9pt
-// 13px	0.813em	81.3%	10pt
-// 14px	0.875em	87.5%	11pt
-// 15px	0.938em	93.8%	11pt
-// 16px	1.000em	100.0%	12pt
-// 17px	1.063em	106.3%	13pt
-// 18px	1.125em	112.5%	14pt
-// 19px	1.188em	118.8%	14pt
-// 20px	1.250em	125.0%	15pt
-// 21px	1.313em	131.3%	16pt
-// 22px	1.375em	137.5%	17pt
-// 23px	1.438em	143.8%	17pt
-// 24px	1.500em	150.0%	18pt
-
-*/
 
 
 @media @mobile {
-section {
-	.section-tabs {
-		.font-size;
-		//a {
-		//    color: #189BD7;
-		//    text-decoration: none;
-		//}
-		.ui-tab {
-				display: block;
-				float: left;
-				margin-top: 1px;
-				margin-right: 1px;
-				margin-bottom: none;
-				margin-left: 1px;
+
+	.tabs {
+		display: block;
+		float: left;
+		margin-top: 1px;
+		margin-right: 1px;
+		margin-bottom: none;
+		margin-left: 1px;
+		a {
+			display: block;
+			text-decoration: none;
+			padding: .5em 1em;
+			font-size: 12px;
+			.font;
+			.bold;
+		}
+		&>li {
+			background-color: #dadada;
+			border-top: 1px solid #dadada;
+			border-right: 1px solid #dadada;
+			border-bottom: 1px solid #dadada;
+			border-left: 1px solid #dadada;
+			&:active {
+				background:none;
+				background-color: #189bd7;
+				border-top: 1px solid #189bd7;
+				border-right: 1px solid #189bd7;
+				border-bottom: 1px solid #fff;
+				border-left: 1px solid #189bd7;
 				a {
-						display: block;
-						text-decoration: none;
-						padding: .5em 1em;
-						font-size: 12px;
-						.font;
-						.bold;
-				}
-				&.ui-state-default {
-						background-color: #dadada;
-						border-top: 1px solid #dadada;
-						border-right: 1px solid #dadada;
-						border-bottom: 1px solid #dadada;
-						border-left: 1px solid #dadada;
-				}
-				&.ui-state-hover {
-						background-color:#ccefff;
-						border-top: 1px solid #189bd7;
-						border-right: 1px solid #189bd7;
-						border-bottom: 1px solid #ccefff;
-						border-left: 1px solid #189bd7;
-				}
-				&.ui-state-active {
-						background:none;
-						background-color: #189bd7;
-						border-top: 1px solid #189bd7;
-						border-right: 1px solid #189bd7;
-						border-bottom: 1px solid #fff;
-						border-left: 1px solid #189bd7;
-						a
-						//, .ui-state-active a:link, .ui-state-active a:visited
-						{
-								color: white;
-						}    
-				}
+						color: white;
+				}    
+			}
+		}
+		&>li:hover {
+			background-color:#ccefff;
+			border-top: 1px solid #189bd7;
+			border-right: 1px solid #189bd7;
+			border-bottom: 1px solid #ccefff;
+			border-left: 1px solid #189bd7;
+			&:active {
+				background:none;
+				background-color: #189bd7;
+				border-top: 1px solid #189bd7;
+				border-right: 1px solid #189bd7;
+				border-bottom: 1px solid #fff;
+				border-left: 1px solid #189bd7;
+				a {
+						color: white;
+				}    
+			}
 		}
 		.ui-widget-header {
-				background:none;
-				border:none;
-				border-bottom: 4px solid #189bd7;
-				padding:0px;
+			background:none;
+			border:none;
+			border-bottom: 4px solid #189bd7;
+			padding:0px;
 		}
+		/*
 		.ui-tabs .ui-tabs-nav li {
 		margin: 0 0.2em 0 0;
 		}
@@ -109,9 +79,6 @@ section {
 		.ui-corner-top, .ui-corner-all {
 				border-radius: 0px;
 		}
-		/*---------------------------------------------------*/
-		/* FAUX jQuery UI Tabs *******************************/
-		/*---------------------------------------------------*/
 		#tab-container {
 				border-bottom: 4px solid #189BD7; 
 				padding-bottom:4px;
@@ -131,7 +98,7 @@ section {
 				text-decoration:none;
 			} 
 
-		.tab-unselected { /*not selected*/
+		.tab-unselected { 
 				display: inline;
 				font-weight:bold;
 				padding: .5em 1em;
@@ -158,20 +125,17 @@ section {
 				padding: .5em 1em;
 				margin:-1px 0 ;
 			}
-
-		.tab-contentbox {
-				border-left: 1px solid #DADADA;
-				border-right: 1px solid #DADADA;
-				border-bottom: 1px solid #DADADA;
-				padding:1em 1.4em;
-			}
+		*/
+		&>div {
+			border-left: 1px solid #DADADA;
+			border-right: 1px solid #DADADA;
+			border-bottom: 1px solid #DADADA;
+			padding:1em 1.4em;
 		}
 	}
 }
 @media @laptop {
-		.section-tabs {
 
-		}
 		
 }
 
