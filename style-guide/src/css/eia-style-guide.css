@@ -5695,6 +5695,8 @@ span.line-break {
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.whats-new ul li.date {
     margin-top: -6px;
+    font-style: italic;
+    color: #767676;
   }
   .fancybox-wrap.global-nav .fancybox-inner .section-tabs .nav-menu.upcoming h2 {
     display: none;
@@ -7026,7 +7028,7 @@ font-size: 1.500rem; // 24 pixels
 @media (min-width: 1px) {
   .no-border-container,
   .dark-top-border-container {
-    background-color: white;
+    background-color: #fff;
     border-top: solid 4px #003C57;
   }
   .no-border-container ul li,
@@ -7063,7 +7065,7 @@ font-size: 1.500rem; // 24 pixels
     font-size: 1.35rem;
   }
   .no-border-container {
-    border-top: solid 4px white;
+    border-top: solid 4px #fff;
   }
 }
 @media (min-width:480px) {
@@ -7074,10 +7076,10 @@ font-size: 1.500rem; // 24 pixels
 }
 @media (min-width: 956px) {
   .dark-top-border-container ul li {
-    font-size: 0.750rem;
+    font-size: 0.8rem;
   }
   .dark-top-border-container ul li.date {
-    font-size: 0.688rem;
+    font-size: 0.7rem;
   }
   .dark-top-border-container ul li.head h2 {
     font-size: 1.125rem;
@@ -7200,14 +7202,14 @@ font-size: 1.500rem; // 24 pixels
   }
   .light-top-border-container ul li {
     padding: 0 0 10px 0;
-    font-size: 0.750rem;
+    font-size: 0.8rem;
   }
   .light-top-border-container ul li.head {
     padding: 0 0 7px 0;
     margin: 0 0 7px 0;
   }
   .light-top-border-container ul li.head h2 {
-    font-size: 0.750rem;
+    font-size: 0.8rem;
   }
 }
 @media (min-width: 1px) {

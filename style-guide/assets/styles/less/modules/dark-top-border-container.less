@@ -2,7 +2,7 @@
 @media @mobile {
     .no-border-container,
     .dark-top-border-container {
-        background-color: white;
+        background-color: @eia-white;
         border-top: solid 4px @eia-darker-blue;
         ul {
             li  {
@@ -33,7 +33,7 @@
         }        
     }
     .no-border-container {
-        border-top: solid 4px white;
+        border-top: solid 4px @eia-white;
     }
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
@@ -49,9 +49,9 @@
     .dark-top-border-container {
          ul {
             li  {
-                font-size: 0.750rem; // 12 pixels
+                font-size: 0.8rem; // 12 pixels
                 &.date {
-                    font-size: 0.688rem; // 11 pixels   
+                    font-size: 0.7rem; // 11 pixels   
                 }
                 &.head {
                     h2  {
