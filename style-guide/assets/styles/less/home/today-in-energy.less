@@ -61,15 +61,13 @@
 				} 
 				&:last-child {
 					.bold;							
-//					display: inline-block;
-//					position: relative;
-//					margin-left: 6px;					
+				
 				}
 			}
 		}
 		img {
 			margin: .5em auto .5em auto;
-width: 100%;
+			width: 100%;
 			background-size: cover;
 		}    
 		p {
@@ -80,9 +78,9 @@ width: 100%;
 				line-height: 110%; // 11 pixels
 				padding: 8px 0 10px 0;
 				margin: 0;
-//				strong {
-//					margin: 0 4px 0 12px;
-//				}
+				em {
+					.italic;
+				}
 			}
 		}
 	}
@@ -99,7 +97,6 @@ width: 100%;
     // |  1  |  2 | <----- responsive / reorder
     // ------------
 
-
 	.main-content-container {
 		h2 {
 			margin: 0 0 .5em 0;
@@ -112,31 +109,24 @@ width: 100%;
 			}
 		}
 		h3 {
-width: 50%;
+			width: 50%;
 			.left;
 			clear: none;
 			margin: 0 0 12px 0;
 			padding: 0 22px 0 0;
 		}
 		p {
-width: 50%;
+			width: 50%;
 			.left;
 			clear: left;
 			margin: 0;
 			padding: 0 22px 0 0;
 			position: relative;
-			a {
-				&:last-child {
-				// display: inline-block;
-				//	position: absolute;
-				//	margin-left: 6px;					
-				}
-			}
 		}
 		img {
 			padding: 0 0 0 22px;
 			margin: 0;
-width: 50%;
+			width: 50%;
 		}
 		p {
 			&:last-child {
@@ -152,11 +142,6 @@ width: 50%;
 		}
 	}
 }
-
-
-
-
-
 @media @laptop {
 	.main-content-container {
 		h2 {
@@ -173,19 +158,19 @@ width: 50%;
 			font-size: 1em;
 			margin:  8px 0 10px;
 			padding: 0;
-width: 100%;
+			width: 100%;
 			clear: both;
 		}
 		p {
 			font-size: 0.750rem; // 12 pixels
-width: 100%;
+			width: 100%;
 			margin:  .5em 0 1em;
 			padding: 0;
 			clear: both;
 		}
 		img {
 			padding: 0;
-width: 100%;
+			width: 100%;
 			clear: both;
 		}
 		p {

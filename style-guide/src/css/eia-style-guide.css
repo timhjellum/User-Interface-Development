@@ -8742,6 +8742,9 @@ font-size: 1.500rem; // 24 pixels
     padding: 8px 0 10px 0;
     margin: 0;
   }
+  .main-content-container p:last-child em {
+    font-style: italic;
+  }
 }
 @media (min-width: 600px) {
   .main-content-container h2 {
