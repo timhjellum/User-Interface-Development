@@ -10,7 +10,7 @@ class HeaderSearch {
         this.searchIcon = $('.search-menu-toggle');
         this.events();
     }
-    
+
     events() {
         this.searchIcon.click(this.toggleSearchPanel.bind(this));       
     }

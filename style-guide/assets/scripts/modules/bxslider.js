@@ -11,11 +11,6 @@ class BxSlider {
         this.checkSize();
         this.events();
     }
-
-//    initialState() {
-//        this.bxSliderHome.show();
-//        this.bxSliderMulti.show();
-//    }
 	events() {
     //    this.window.resize(this.checkSize.bind(this));
         this.bxSliderHome.show();
@@ -48,8 +43,24 @@ class BxSlider {
             slideMargin: 14
         });
         //console.log("slider found");
+/*
+        if ($("LblMobileNumer") == null) {
+            $("#TxtMobile").show();
+        }
+        else {
+            $("#EditNumber").click(function () {
+                $(".MobileNumber").toggle("blind");
+                $("#TxtMobile").val($("#LblMobileNumer").text());
 
 
+            });
+
+            $("#CancelEditNumber").click(function () {
+                $(".MobileNumber").toggle("blind");
+                $("#TxtMobile").val("");
+            });
+        }
+*/
         // HP (slider3) - banners
         $('.slider-home h2 a, .slider-home h3 a').attr( "href", function(ind,attr) {
             // if the href contains "?", append &x=z, else, append ?x=z

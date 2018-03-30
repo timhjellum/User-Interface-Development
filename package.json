@@ -43,6 +43,7 @@
     "npm": "^5.4.0",
     "path": "^0.12.7",
     "truncate.js": "^1.1.2",
-    "webpack": "^1.15.0"
+    "webpack": "^1.15.0",
+    "webpack-jquery-ui": "^1.0.0"
   }
 }

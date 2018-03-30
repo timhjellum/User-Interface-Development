@@ -326,7 +326,7 @@ html * {
    * Remove the margin in all browsers (opinionated).
    */
 body {
-  background-color: #fff;
+  background-color: white;
   width: 100%;
 }
 body,
@@ -375,7 +375,6 @@ caption,
 cite,
 code,
 dfn,
-em,
 h1,
 h2,
 h3,
@@ -386,6 +385,10 @@ th,
 var {
   font-weight: normal;
   font-style: normal;
+}
+em {
+  font-weight: normal;
+  font-style: italic;
 }
 h1,
 h2,

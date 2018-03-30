@@ -22,3 +22,7 @@ new Accordion();
 
 import Tabs from './modules/tabs';
 new Tabs();
+
+
+//const $ = require("jquery");
+const jqueryUiTabs = require('webpack-jquery-ui/tabs');

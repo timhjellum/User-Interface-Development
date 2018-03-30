@@ -7,7 +7,7 @@ class BookshelfSearch {
         this.selectedTagText = "";
 
         this.resetControl();
-		
+        
         $("input", this.container).on('keyup', function(e) {
             self.handleSearchInput(e);
         }).on('blur', function(e) {

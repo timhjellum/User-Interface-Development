@@ -9,14 +9,10 @@ class HeaderMenu {
 		this.footer = $('footer');
 		this.logo = $('.logo');
 		this.window = $(window);
-//		this.checkSize();
 		this.events();
 		this.openMenu();
-
-
 	}
 	lightBox() {
-
 		// this.closeButton.prepend('<i class="ico-menu close">Close</i>');
 		// console.log("fancybox lightbox");
 		$("a.lightbox").fancybox({
@@ -27,7 +23,6 @@ class HeaderMenu {
 			'speedOut'		:	200, 
 			'overlayShow'	:	false
 		});
-		
 		// For HTML content, since Fancybox 2 now requires specifying IFRAME mode explicitly for non-images
 		$("a.lightboxhtml").fancybox({
 			type: "iframe",
@@ -67,7 +62,6 @@ class HeaderMenu {
 			}
 			$('.section-tabs').tabs(options);
 		});
-
 		var viewPortWidth = window.innerWidth;
 		var viewPortHeight = window.innerHeight;
 		var fbWidth = 980;
@@ -129,11 +123,11 @@ class HeaderMenu {
 		var viewPortHeight = window.innerHeight;
 
 		if (viewPortWidth > 960) {
-			//console.log(viewPortWidth + " = laptop and desktop");
+			console.log(viewPortWidth + " = laptop and desktop");
 			$('.fancybox-wrap').addClass('fancybox-laptop');
 			$('.fancybox-wrap').removeClass('fancybox-mobile');
 		} else if (viewPortWidth <= 960) {
-			//console.log(viewPortWidth + " = mobile");
+			console.log(viewPortWidth + " = mobile");
 			$('.fancybox-wrap').addClass('fancybox-mobile');
 			$('.fancybox-wrap').removeClass('fancybox-laptop');
 		}
