@@ -77,6 +77,10 @@ class BxSlider {
             return /\?/.test(attr) ? attr + '&src=home-' + featureOrder : attr + '?src=home-' + featureOrder;
         });
 
+        
+        $(".slider-home h3 a:empty").each(function() {
+            $(this).parent().parent().addClass("no-description"); 
+        });
 
 
 

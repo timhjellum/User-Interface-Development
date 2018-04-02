@@ -40,7 +40,16 @@
 					margin: 0;
 					padding: 5% 22px;
 					background-color: rgb(0, 59, 87); // must be rgba - do not use var
-
+					&.no-description {
+						h2 {
+							a {
+								&:after { 
+									content:"\00a0\203A";
+								}
+							}
+						}
+						h3 { display: none;}
+					}
 					h2 {
 						.header-font;
 						color: #fff;

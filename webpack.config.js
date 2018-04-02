@@ -24,29 +24,30 @@ module.exports = {
 				test: /\.js$/,
 				// ignore the mode modules folder
 				exclude: /node_modules/
-			},
+			}
+			/*,
 			{
 				test: /\.(jpe?g|png|gif)$/i,
 				loader:"file-loader",
-				query:{
-					name:'[name].[ext]',
-					outputPath:'./style-guide/src/images/'
-					//the images will be emmited to public/assets/images/ folder 
-					//the images will be put in the DOM <style> tag as eg. background: url(assets/images/image.png); 
-				}
 			},
 			{
 				test: /\.css$/,
+				//exclude: "/themes/base/tabs.css",
 				loaders: ["style-loader","css-loader"],
-				options: {
-					transform: './transform.js'
-				}
 			}
+			*/
 		],
 	},
 	resolve: {
 		alias: {
-			jquery: "jquery/src/jquery"
+			jquery: "jquery/src/jquery",
+//		}
+//	},
+//	resolve : {
+//		alias: {
+			"jqueryUiDist": "jquery-ui-dist/jquery-ui.js",   
+		  	// bind to modules;
+		  	modules: path.join(__dirname, "node_modules"),
 		}
 	},
 	plugins: [

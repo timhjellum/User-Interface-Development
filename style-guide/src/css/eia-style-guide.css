@@ -8048,6 +8048,12 @@ font-size: 1.500rem; // 24 pixels
     padding: 5% 22px;
     background-color: #003b57;
   }
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay.no-description h2 a:after {
+    content: "\00a0\203A";
+  }
+  .slider-home .slider-home-wrapper .bx-viewport .slider-overlay.no-description h3 {
+    display: none;
+  }
   .slider-home .slider-home-wrapper .bx-viewport .slider-overlay h2 {
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
