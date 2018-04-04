@@ -19,7 +19,7 @@ node_modules/
 # Generated directories
 dist/
 beta/
-petroleum/
+# petroleum/
 
 # backup files
 *.bak

@@ -22,7 +22,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('cssInject', ['styles'], () =>
-    gulp.src('./style-guide/src/styles/eia-styles.css')
+    gulp.src('./style-guide/src/styles/global.css')
     .pipe(browserSync.stream())
 );
 

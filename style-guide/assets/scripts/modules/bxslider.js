@@ -77,11 +77,12 @@ class BxSlider {
             return /\?/.test(attr) ? attr + '&src=home-' + featureOrder : attr + '?src=home-' + featureOrder;
         });
 
-        
         $(".slider-home h3 a:empty").each(function() {
             $(this).parent().parent().addClass("no-description"); 
         });
-
+        $(".link-list a:empty").each(function() {
+            $(this).parent().addClass("hide"); 
+        });
 
 
         // L2 (slider1) - banners

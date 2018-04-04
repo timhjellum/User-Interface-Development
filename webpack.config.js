@@ -2,8 +2,8 @@ const webpack = require('webpack');
 const path = require('path');
 //const dist = '//WWWDEV/website/global/scripts';
 //const dist = './global/scripts';
-//const dist = '//REPLICATOR/website/css_rehab/archive/global/scripts';
-const dist = "./style-guide/src/js";
+const dist = '//REPLICATOR/website/css_rehab/archive/global/scripts';
+//const dist = "./style-guide/src/js";
 
 module.exports = {
 	entry: {
