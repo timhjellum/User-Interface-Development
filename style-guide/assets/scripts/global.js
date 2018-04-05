@@ -21,8 +21,18 @@ new BxSlider();
 import Accordion from './modules/accordion';
 new Accordion();
 
+import AnalysisProjections from './modules/analysis-projections';
+new AnalysisProjections();
+
+
+
+
+
+
 // must use full path
 const jqueryUiTabs = require('jquery-ui-dist/jquery-ui.js');
 // jquery ui init files go below
 //import PageTabs from './modules/page-tabs';
 //new PageTabs();
+
+

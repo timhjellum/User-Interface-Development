@@ -53,12 +53,18 @@
 		font-weight: 600;
 		text-transform: uppercase;
 	}
-	p.style-guide {
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		font-family: 'Muli', "Helvetica", Arial, sans-serif;
-		font-size: 16px;
-		line-height: 1.4em;
+	p {
+		&.style-guide {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: 'Muli', "Helvetica", Arial, sans-serif;
+			font-size: 1rem;
+			line-height: 1.4em;
+			width: 100%;
+			clear: both;
+			margin: 1.5em 1.1em 1.1em 1.1em;
+			padding: 0;
+		}
 	}
 
 
@@ -810,9 +816,6 @@ hr {
 	hr.style-guide {
 		margin: 50px 0;
 	}
-	.standard-container {
-		width: 211.5px;
-	}
 
 	
 
@@ -836,7 +839,6 @@ hr {
 
 			
 						.content-container {
-							min-width: 211.5px;
 							background-color: white;
 						}
 
@@ -984,12 +986,7 @@ hr {
 		margin: 0;
 		padding: 0;
 	}
-	p.style-guide {
-		width: 100%;
-		clear: both;
-		margin: 1em 0 0;
-		padding: 0;
-	}
+
 	ul {
 		span.style-guide {
 			display: inline-flex;

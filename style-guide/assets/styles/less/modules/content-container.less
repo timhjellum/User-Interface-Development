@@ -28,10 +28,12 @@ font-size: 1.500rem; // 24 pixels
 			padding: 0;
 			margin: 0;
 			li {
-                padding: 0;
+				.font;
+				padding: 0;
                 margin: 0 ;
 				vertical-align: top;
-				a {
+                a {
+                    display: inline-block;
                     color: @eia-blue;
                     text-decoration: none;
                     &:hover {
@@ -46,8 +48,6 @@ font-size: 1.500rem; // 24 pixels
                 }
                 &.date {
 					.italic;
-//                    padding: 0;
-//					margin: 0;
 					text-transform: none;
 					color: @eia-dark-grey;
                 }
@@ -55,7 +55,15 @@ font-size: 1.500rem; // 24 pixels
 					color: @eia-dark-grey;
 				}
 				&.foot {
+					.font;
 					.bold;
+					a {
+						display: block;
+						color: @eia-blue;
+						&:after { 
+							content:"\00a0\203A";
+						} 
+					}
 				}
 				ul {
 					list-style-type: disc;

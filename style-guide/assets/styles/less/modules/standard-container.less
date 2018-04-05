@@ -1,40 +1,26 @@
 @media @mobile {
     .standard-container {
         ul {
-            margin: 0;
             li  {
                 .font;
-                //font-size: 0.750rem * 1.10%; // 12 pixels
-                .font-size;
+                font-size: 0.813rem * 1.20%;
                 line-height: 150%; // 18 pixels
-                padding: 0 0 10px 0;
-                margin: 10px 0 0; //8px 0 0 0;
-                border-bottom: 1px solid @eia-divider;
-                &:last-child {
-                    border-bottom: none;
-                    padding: 0;
-                }
-                a {
-                    display: block;
-                    color: @eia-blue;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                    } 
-                }
                 &.head {
-                    padding: 0 0 7px 0;
-                    margin: 14px 0 7px 0;
-                    border-bottom: 1px solid fade(@eia-black, 40%);
-                    
+                    padding: 0 0 2px 0;
+                    margin: 0 0 8px 0;
+                    border-bottom: @eia-dddddd;
                     h2  {
                         .font;
                         .bold;
-                        //font-size: 0.750rem * 1.35%;
-                        .font-size;
+                        font-size: 0.750rem * 1.35%;
                         padding: 0;
                         margin: 0;
+                        text-transform: uppercase;
+                        line-height: 1.2em;
                     }
+                }
+                span {
+                    .font;
                 }
             }
         }
@@ -43,15 +29,11 @@
 @media @laptop {
     .standard-container {
         ul {
-            padding: 17px;
             li  {
-                padding: 0 0 10px 0;
-                font-size: 0.750rem; // 12 pixels
+                font-size: 0.813rem; // 13 pixels 
                 &.head {
-                    padding: 0 0 7px 0;
-                    margin: 0 0 7px 0;
                     h2  {
-                        font-size: 0.750rem; // 12 pixels
+                        font-size: 0.750rem; // 12px
                     }
                 }
             }
@@ -59,25 +41,5 @@
     }
 }
 
-
-    /*
-    .standard-list-container {
-        li {
-            padding: 0;
-            list-style-type: disc;
-            margin-left: 20px;
-            .font;
-            &.header {
-                list-style-type: none;
-                border-bottom: 1px solid #dadada;
-                padding: 0 0 2px 0;
-                margin: 1.75em 0 .5em 0 ;
-                h2 {
-                    text-transform: uppercase;
-                }
-            }
-        }
-    }
-    */
 
 

@@ -31,9 +31,9 @@ $upcomingReleasesSixDate = "February 13, 2018";
 /* DO NOT EDIT BELOW */
 ?>
 
-<div class="content-container standard-container">
-<ul>
-    <li class="head"><h2>Upcoming Releases</h2></li>
+<div class="content-container standard-container link-list">
+	<ul>
+		<li class="head"><h2>Upcoming Releases</h2></li>
 		<li><a href='<?=$upcomingReleasesOneURL?>' title='<?=$upcomingReleasesOneLabel?>'><?=$upcomingReleasesOneLabel?></a>: <span class="date"><?=$upcomingReleasesOneDate?></span></li>
 		<li><a href='<?=$upcomingReleasesTwoURL?>' title='<?=$upcomingReleasesTwoLabel?>'><?=$upcomingReleasesTwoLabel?></a>: <span class="date"><?=$upcomingReleasesTwoDate?></span></li>
 		<li><a href='<?=$upcomingReleasesThrURL?>' title='<?=$upcomingReleasesThrLabel?>'><?=$upcomingReleasesThrLabel?></a>: <span class="date"><?=$upcomingReleasesThrDate?></span></li>

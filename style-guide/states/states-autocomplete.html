@@ -7,31 +7,41 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>EIA Style Guide</title>
+	<!-- color favicon -->
+	<!--
+	<link rel="apple-touch-icon" sizes="180x180" href="/style-guide/src/img/color/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/style-guide/src/img/color/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/style-guide/src/img/color/favicon-16x16.png">
+	<link rel="manifest" href="/style-guide/src/color/img/site.webmanifest">
+	<link rel="mask-icon" href="/style-guide/src/img/color/safari-pinned-tab.svg" color="#003c57">
+	<link rel="shortcut icon" href="/style-guide/src/img/color/favicon.ico">
+	<meta name="msapplication-TileColor" content="#003c57">
+	<meta name="msapplication-config" content="/style-guide/src/img/color/browserconfig.xml">
+	<meta name="theme-color" content="#003c57">
+	-->
+	<!-- b&w favicon -->
 
+	<link href="/style-guide/src/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="/style-guide/src/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+	<link href="/style-guide/src/img/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+	<link href="/style-guide/src/img/site.webmanifest" rel="manifest">
+	<link href="/style-guide/src/img/safari-pinned-tab.svg" rel="mask-icon" color="#292929">
+	<meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#292929">
+    
     <!-- start style guide required vendor styles -->
-    <link href="src/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- end style guide required vendor styles -->
-
-    <!-- start style guide vendor styles -->
-    
-    
+    <link href="../src/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../src/css/themify-icons.css" rel="stylesheet">
+    <link href="../src/css/highlight/ir-black.css" rel="stylesheet" />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" />
-    <link href="src/css/themify-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/highlight/ir-black.css" />
     <!-- start style guide required styles -->
 
     <!-- start page specific styles -->
-
+    <link href="../src/css/eia-style-guide.css" rel="stylesheet" />
     <!-- end page specific styless -->
 </head>
 <body>
-
-    <!-- start page specific styles -->
-    <script src='global/vendor/jquery.ui.autocomplete/jquery-ui.min.css'></script>
-    <!-- end page specific styless -->
-
-
     <div class="wrapper">
         <div class="sidebar" data-background-color="white" data-active-color="danger">
             <div class="sidebar-wrapper">
@@ -99,14 +109,36 @@
 </pre>
                     </div>
                 </div>
-                <hr class="style-guide"></hr>
-            </div>
-        </div>
-    </div>
-</div>
+									<!-- end  style guide -->
+									<!-- end  style guide -->
+									<!-- end  style guide -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div id="footer"></div>
+</body>
 <!-- start page specific scripts -->
-<script src='../../global/scripts/eia-scripts.min.js'></script>
+<script src='../../global/scripts/global.min.js'></script>
 <!-- end page specific scripts -->
 
-<div id="footer"></div></body>
+<!-- start style guide required vendor scripts -->
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- end style guide required vendor scripts -->
+
+<!-- start style guide custom scripts -->
+<script src="../src/js/style-guide-side-nav.js"></script>
+<script src="../src/js/style-guide-header.js"></script>
+<script src="../src/js/style-guide-footer.js"></script>
+<script src="../src/js/highlight.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+<!-- start style guide required scripts -->
 </html>

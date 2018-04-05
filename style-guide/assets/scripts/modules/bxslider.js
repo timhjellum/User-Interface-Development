@@ -80,6 +80,10 @@ class BxSlider {
         $(".slider-home h3 a:empty").each(function() {
             $(this).parent().parent().addClass("no-description"); 
         });
+
+
+
+        
         $(".link-list a:empty").each(function() {
             $(this).parent().addClass("hide"); 
         });

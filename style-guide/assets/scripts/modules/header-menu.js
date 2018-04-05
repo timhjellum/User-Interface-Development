@@ -132,6 +132,5 @@ class HeaderMenu {
 			$('.fancybox-wrap').removeClass('fancybox-laptop');
 		}
 	}
-
 }
 export default HeaderMenu;

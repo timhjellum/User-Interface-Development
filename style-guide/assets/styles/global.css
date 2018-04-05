@@ -28,6 +28,11 @@
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
 
+
+/* tables */
+@import "less/modules/tables";
+@import "less/modules/table-basic";
+
 @import "less/l2/analysis-projections.less";
 @import "less/l2/visualizations";
 

@@ -1,5 +1,38 @@
 
+ h1 {
+    display: block;
+    font-size: 26px;
+    border-bottom: solid 1px #dadada;
+    padding-bottom: 6px;
+    padding-top: 16px;
+    clear: both;
+}
 
+
+
+
+.rpt_category.active, .rpt_category:hover {
+    margin: 0px;
+    padding: 0px;
+    color: #189bd7;
+    border-bottom: 2px solid #189bd7;
+}
+
+.v_divider {
+    font-size: 14pt;
+    color: @eia-silver;
+    line-height: 1.0em;
+}
+
+.rpt_category {
+    margin: 0px;
+    padding: 0px;
+    font-size: 11pt;
+    font-weight: normal;
+    color: @eia-light-grey;
+    cursor: pointer;
+    text-transform: uppercase;
+}
 
 
 @media @mobile {
@@ -10,25 +43,35 @@
             clear: both;
             margin-bottom: .75em;
             li {
-                font-size: 1rem;
+                //font-size: 1rem;
                 color: @eia-dark-grey;
                 margin: 0;
-                font-size: .8125rem; //13px;
-                &:first-child {
+                padding: 0;
+                //font-size: .8125rem; //13px;
+                width: 100%;
+                clear: both;
+
+               img {
                     float: left;
                     width: 35px;
-                    img {
-                        width: 35px;
-                        height: 35px;
-                    }
+                    height: 35px;
+                    padding: 0;
+                    margin: 12px 16px 12px 0;
                 }
-                &.header {
+                &>div {
                     width: 384px;
-                    float: right;
+                    float: left;
+                    margin: 0;
+                    padding: 9px 0 0 0;
+                    .font;
+                    font-size: 12.5px;
                     h2 {
                         .font;
                         .bold;
                         margin: 0;
+                        padding: 0;
+                        line-height: 1.2em;
+                        margin: 0 0 2px;
                         padding: 0;
                         a {
                             font-size: .9375rem; //15px;
@@ -36,25 +79,51 @@
                             font-weight: bold;
                         }
                     }
-                }
-                &.tags {
-                    width: 384px;
-                    float: right;
-                    a {
-                        color: @eia-blue;                
+                    span {
+                        &.tag-list {
+                            display: inline;
+                            a {
+                                color: @eia-blue;
+    
+                                &.capsule::after {
+                                    color: @eia-dark-grey;
+                                    content: ", ";
+                                }
+                                // hide the comma on last instance
+                                &:last-child::after {
+                                    content: "";
+                                }
+                                &.show-more-tags {
+                                    text-decoration: none;
+                                    .bold;
+                                    background-color: #dff2fb;
+                                    padding: 0 4px;
+                                }
+                            }
+                            // initial state
+                            .more-tags {
+                                display: none;
+                            }
+                            // onclick
+                            &.show-more {
+                                a {
+                                    .show-more-tags {
+                                        display: none;
+                                    }
+                                }
+                                .more-tags {
+                                    display: inline;
+                                }
+                            }
+                        }                   
                     }
-                    em::after {
-//                    content: " | tags: ";
-                        padding: 0 0 0 2px;
-                        font-style: normal;
-                    }
-                    a.capsule::after {
-    //                   content: ", ";
-                        color: @eia-dark-grey;
-                    }
+
                 }
 
-                &.footer {
+
+
+
+                &.foot {
                     font-size: 1rem;
                     float: left;
                     width: 100%;

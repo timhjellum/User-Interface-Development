@@ -24,38 +24,9 @@
 <!-- 50% / 50% -->       
 <div class="l-row">
 	<div class="l-two-column">
-
-<?php include('./includes/recent-data.inc'); ?>
-<!--
-<h1>Recent Data</h1>
--->
-<?php /* replace this with something local in the include directory, or with inline code*/ ?>
-<?php /*
-if(file_exists($_SERVER['DOCUMENT_ROOT'] . "/petroleum/includes/data_table.html")){
-$homepage_data_file = $_SERVER['DOCUMENT_ROOT'] . "/petroleum/includes/data_table.html";
-} else{
-$homepage_data_file = $_SERVER['DOCUMENT_ROOT'] . "/petroleum/includes/data_table.inc";
-}
-if(!$homepageData = file_get_contents($homepage_data_file, FILE_USE_INCLUDE_PATH)) {
-echo "Data not currently available. Check back soon.";
-} else {
-echo $homepageData;
-}
-
-//include ('petroleum/includes/data_table.inc') ;
-*/ ?>
-<!-- p><a href="data.php"><strong>See more data &rsaquo;</strong></a></p -->
-<?php include('./includes/updated-data-series.inc'); ?>
-<!--
-<h2>Updated Data Series</h2>
-<ul class="updated_data">
-<li><span class="series_date">3/28/2018</span> <a href="/dnav/pet/pet_sum_sndw_dcus_nus_w.htm">Weekly supply estimates</a></li>
-<li><span class="series_date">3/28/2018</span> <a href="/dnav/pet/pet_pri_spt_s1_d.htm">Spot prices</a></li>
-<li><span class="series_date">3/28/2018</span> <a href="/dnav/pet/pet_pri_fut_s1_d.htm">Futures prices (NYMEX)</a></li>
-<li><span class="series_date">3/28/2018</span> <a href="/dnav/pet/pet_pnp_wiup_dcu_nus_w.htm">Weekly inputs &amp; utilization</a></li>
-</ul>
--->
-<?php include('./includes/survey-forms-changes-announcements.inc'); ?>
+		<?php include('./includes/recent-data.inc') ?>
+		<?php include('./includes/updated-data-series.inc') ?>
+		<?php include('./includes/survey-forms-changes-announcements.inc') ?>
 
 
 
@@ -69,11 +40,11 @@ echo $homepageData;
 </div>
 	<div class="l-two-column">
 
+			  <!-- span id="ovHeadr" -->
 
-              <!-- span id="ovHeadr" -->
-
-<?php require ('global/includes/recent_highlighted_AP.inc') ; ?>
-<?php include('./includes/upcoming-releases.inc'); ?>
+<?php /* require ('css_rehab/archive/global/includes/analysis-projections/analysis-projections.inc') */ ?>
+<?php include('css_rehab/archive/global/analysis-projections/analysis-projections.inc') ?>
+<?php include('./includes/upcoming-releases.inc') ?>
 <!--
 <h2>Upcoming Releases</h2>
 <p>
@@ -136,31 +107,31 @@ Energy Video</strong></a></li>
 
 
 
-            <?php /*Energy education section
-            <h1>Energy Education</h1>
-            <div class="ed_section">
-              <div>
-                <div> <img src="/global/images/icons/education/petroleum.png" alt=""/> <span>
-            <h2><a href="/energyexplained/index.cfm?page=oil_home">Oil: Crude &amp; Petroleum Products Explained</a></h2>
-            <p><em><a href="/energyexplained/index.cfm?page=gasoline_prices">Gasoline Prices and Outlook</a></em></p>
-            <p><a href="/energyexplained/index.cfm?page=oil_home"><strong>See more petroleum topics &rsaquo;</strong></a></p>
-            </span> </div>
-              </div>
-              <div>
-                <div> <img src="/global/includes/issuestrends/images/icon_faq.png" alt=""/> <span>
-            <h2><a href="/tools/faqs/">FAQs</a></h2>
-            <p><em><a href="/tools/faqs/faq.cfm?id=45&t=8">What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?</a></em></p>
-            <p><a href="/tools/faqs/"><strong>See all petroleum FAQs &rsaquo;</strong></a></p>
-            </span> </div>
-              </div>
-              <div>
-                <div> <img src="/global/includes/issuestrends/images/icon_kids.png" alt=""/> <span>
-            <h2><a href="/kids">Energy Kids</a></h2>
-            <p><em><a href="/kids/energy.cfm?page=oil_home-basics">How was oil formed?</a></em></p>
-            <p><a href="/kids/energy.cfm?page=nonrenewable_home-basics"><strong>See nonrenewable sources on Energy Kids &rsaquo;</strong></a></p>
-            </span> </div>
-              </div>
-            </div>
+			<?php /*Energy education section
+			<h1>Energy Education</h1>
+			<div class="ed_section">
+			  <div>
+				<div> <img src="/global/images/icons/education/petroleum.png" alt=""/> <span>
+			<h2><a href="/energyexplained/index.cfm?page=oil_home">Oil: Crude &amp; Petroleum Products Explained</a></h2>
+			<p><em><a href="/energyexplained/index.cfm?page=gasoline_prices">Gasoline Prices and Outlook</a></em></p>
+			<p><a href="/energyexplained/index.cfm?page=oil_home"><strong>See more petroleum topics &rsaquo;</strong></a></p>
+			</span> </div>
+			  </div>
+			  <div>
+				<div> <img src="/global/includes/issuestrends/images/icon_faq.png" alt=""/> <span>
+			<h2><a href="/tools/faqs/">FAQs</a></h2>
+			<p><em><a href="/tools/faqs/faq.cfm?id=45&t=8">What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?</a></em></p>
+			<p><a href="/tools/faqs/"><strong>See all petroleum FAQs &rsaquo;</strong></a></p>
+			</span> </div>
+			  </div>
+			  <div>
+				<div> <img src="/global/includes/issuestrends/images/icon_kids.png" alt=""/> <span>
+			<h2><a href="/kids">Energy Kids</a></h2>
+			<p><em><a href="/kids/energy.cfm?page=oil_home-basics">How was oil formed?</a></em></p>
+			<p><a href="/kids/energy.cfm?page=nonrenewable_home-basics"><strong>See nonrenewable sources on Energy Kids &rsaquo;</strong></a></p>
+			</span> </div>
+			  </div>
+			</div>
 end Energy education section*/ ?>
 </div>	
 <?php include'css_rehab/archive/global/footer/includes/footer.inc' ?>
