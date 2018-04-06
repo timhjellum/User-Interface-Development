@@ -1,6 +1,6 @@
 <?php $L2Title = "Petroleum & Other Liquids"; ?>
 <div class="l-full-width-col
-<div class="l-full-width-column">
+<div class="l-split-wide-col">
 <div class="title-banner bg-petroleum"><?php /* Page/Section Title */ ?>
 <h1><?php echo "$L2Title"?></h1>
 </div>

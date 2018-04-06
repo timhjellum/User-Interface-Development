@@ -125,7 +125,7 @@ with This -->
 <div class="l-full-width-col">
 <?php /*Interactive visualizations section*/ ?>
 <h1>Interactive Visualizations, Data, & Multimedia</h1>
-<div class="l-column">
+<div class="l-col">
 <a title="U.S. Petroleum Infrastructure Map" href="/state/maps.cfm?v=Petroleum">
 <ul>
 <li class="circle_pet_map circle"></li>
@@ -133,7 +133,7 @@ with This -->
 </ul>
 </a>
 </div>
-<div class="l-column">
+<div class="l-col">
 <a title="U.S. Fossil Fuel Resourse Map" href="/state/maps.cfm?v=Fossil%20Fuel%20Resources">
 <ul>
 <li class="circle_fossil_fuel circle"></li>
@@ -141,7 +141,7 @@ with This -->
 </ul>
 </a>
 </div>
-<div class="l-column">
+<div class="l-col">
 <a title="U.S. Crude Import Tracking Tool" href="/beta/petroleum/imports/browser/">
 <ul>
 <li class="circle_crude_import_data circle"></li>
@@ -149,7 +149,7 @@ with This -->
 </ul>
 </a>
 </div>
-<div class="l-column">
+<div class="l-col">
 <a title="STEO Data Browser" href="/forecasts/steo/query/">
 <ul>
 <li class="circle_steo circle"></li>
@@ -161,7 +161,7 @@ with This -->
 <div class="circle_aeo circle"></div>
 <strong>AEO<br />
 Table Browser</strong></a></li>*/ ?>
-<div class="l-column">
+<div class="l-col">
 <a title="Radio Spot" href="/radio/">
 <ul>
 <li class="circle_radio circle"></li>
@@ -169,7 +169,7 @@ Table Browser</strong></a></li>*/ ?>
 </ul>
 </a>
 </div>
-<div class="l-column">
+<div class="l-col">
 <a title="Trends in Energy: Drilling efficiency and increasing U.S. oil and natural gas production" href="http://www.youtube.com/watch?v=eIRB-NnyKyE">
 <ul>
 <li class="circle_video circle"></li>

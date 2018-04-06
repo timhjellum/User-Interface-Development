@@ -65,7 +65,7 @@ $LatestTWIPTags = $neic->get($bindVariables);
 <a class="ico_email sidecol_icon_pad" href="/tools/emailupdates/">Sign up for email updates</a>
 <a href="includes/week_in_petroleum_rss.xml"><i class="ico rss"></i>This Week in Petroleum RSS feed</a>
 </p>
-</div><!-- /l-column -->
+</div><!-- /l-col -->
 </div><!-- /l-row -->
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 </body>

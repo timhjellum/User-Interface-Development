@@ -21,7 +21,7 @@ content="Propane and Other Liquefied Petroleum Gases Production, Imports, Stocks
 <?php include('../includes/sub-navigation.inc'); ?>
 <?php include('./includes/twip_header.inc'); ?>
 <div class="l-full-width-col
-<div class="l-full-width-column">
+<div class="l-split-wide-col">
 <?php include('./includes/propane_template.html'); ?>
 </div>
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>

@@ -55,7 +55,7 @@ Source: U.S. Energy Information Administration, Form EIA-782C, "Monthly Report o
 </div>l-narrow-col
 <div class="l-side-column">
 <?php include('./includes/psr_side.inc'); ?>
-</div><!-- /l-column -->
+</div><!-- /l-col -->
 </div><!-- /l-row -->
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 </body>

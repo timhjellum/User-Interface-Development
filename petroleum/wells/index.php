@@ -50,7 +50,7 @@ padding: 3px 0px 2px 16px;
 <p>This report includes four sections: an explanation of what a well is, methodology, frequently asked questions, and suggestions for querying the downloadable Excel data file of individual state data. The distribution tables for the production rates of all U.S. oil and natural gas wellsâ€”including marginal wellsâ€”cover the years 2000 through 2015.  The Appendix provides summary breakouts for four regions: the total United States, the Lower 48 states excluding the Federal Gulf of Mexico, the Federal Gulf of Mexico, and the state of Alaska.
 </p>
 </div>
-</div><!-- /.l-column -->
+</div><!-- /.l-col -->
 </div><!-- /.l-row -->
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 </body>

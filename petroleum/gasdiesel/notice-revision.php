@@ -11,7 +11,7 @@
 <?php include('../includes/sub-navigation.inc'); ?>
 <?php include('./includes/subnav_notice-revision.inc'); ?>
 <div class="l-full-width-col
-<div class="l-full-width-column">
+<div class="l-split-wide-col">
 <?php /* start main content */ ?>
 <p>
 The Retail Gasoline Prices for May 21, 28, and June 4 included an error in the calculation of the average prices for New York City and New York State reformulated gasoline.  EIA has corrected this error and provides a revision to the affected three weeks.  This correction also resulted in minor increases to the PADD 1B, PADD 1, and US reformulated and all formulation gasoline averages for each grade.  The affected publication cells include an increase in averages for the following:

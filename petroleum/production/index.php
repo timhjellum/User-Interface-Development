@@ -83,7 +83,7 @@ Sources: Form EIA-914,  Monthly Crude Oil, Lease Condensate, and Natural Gas Pro
 </div>l-narrow-col
 <div class="l-side-column">
 <?php include('./includes/side.inc'); ?>
-</div><!-- /l-column -->
+</div><!-- /l-col -->
 </div><!-- /l-row -->
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 <script src="js/914.js" charset="utf-8"></script>

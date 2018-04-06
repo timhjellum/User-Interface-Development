@@ -52,7 +52,7 @@ background: transparent url(/global/images/icons/audio.png) no-repeat center lef
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">
-</div><!-- /l-column -->
+</div><!-- /l-col -->
 </div><!-- /l-row -->
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 </body>

@@ -21,29 +21,29 @@ $(document).ready(function() {
     */
   '</div>'+
   '<div class="l-row footer-links">'+
-  '  <ul class="l-column">'+
+  '  <ul class="l-col">'+
   '      <li>Title</li>'+
   '      <li><a href="https://www.eia.gov/">EIA</a></li>'+
   '  </ul>'+
-  '  <ul class="l-column">'+
+  '  <ul class="l-col">'+
   '      <li>Inspiration</li>'+
   '      <li><a href="http://uspto.github.io/designpatterns/">USPTO UI Design Library</a></li>'+
   '  </ul>'+
-  '  <ul class="l-column">'+
+  '  <ul class="l-col">'+
   '      <li>Style-Guide Tools</li>'+
   '      <li><a href="http://pxtoem.com/">PX to EM (conversion for px, em, rem, pt, %)</a></li>'+
   '      <li><a href="https://opinionatedgeek.com/Codecs/HtmlEncoder">HTML Encoder</a></li>'+
   '  </ul>'+
-  '  <ul class="l-column">'+
+  '  <ul class="l-col">'+
   '      <li>Internal Resources</li>'+
   '      <li><a href="http://git.eia.gov/">git.eia.gov</a></li>'+
   '  </ul>'+
-  '  <ul class="l-column">'+
+  '  <ul class="l-col">'+
   '      <li>Developer Tools</li>'+
   '      <li><a href="https://nodejs.org/en/">nodejs</a></li>'+
   '      <li><a href="https://www.npmjs.com/">npm</a></li>'+
   '  </ul>'+
-  '  <ul class="l-column">'+
+  '  <ul class="l-col">'+
   '      <li>Contact</li>'+
   '      <li><a href="/" target="_blank">Miroslava</a></li>'+
   '      <li><a href="/" target="_blank">Tim</a></li>'+

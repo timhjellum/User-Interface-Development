@@ -139,7 +139,7 @@ display: block;
 </div>l-narrow-col
 <div class="l-side-column">
 <?php include('./includes/transrail_side.inc'); ?>
-</div><!-- /l-column -->
+</div><!-- /l-col -->
 </div><!-- /l-row -->
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 </body>
