@@ -1,4 +1,5 @@
-<div class="l-row"><div class="l-two-third-column report-details">
+l-two-third-col
+<div class="l-two-third-column report-details">
         
                 <a href="/petroleum/reports.cfm">&lsaquo; See all Petroleum &amp; Other Liquids Reports</a>
                 <h2>Monthly Crude Oil and Natural Gas Production</h2>

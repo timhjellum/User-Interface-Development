@@ -5,7 +5,7 @@
 </section>    
 <footer class="clearfix footer">
     <div class="l-row address-bar">
-        <div class="l-two-third-column">
+        <div class="l-two-third-col">
             <ul class="above-address-links">
                 <li><a href="/about/">About EIA</a><i class="right-arrow-head"></i></li>
                 <li><a href="/beta/api/">Open Data</a><i class="right-arrow-head"></i></li>

@@ -125,7 +125,7 @@
   <?php /* end coming Up */ ?>
 
   </div>
-  <div class="l-two-column l-reorder-first">
+  <div class="l-two-col l-reorder-first">
 
     <?php /* start today in energy */ ?>
       <?php include "todayinenergy/includes/css_rehab_file_scrub_live.inc" ?>

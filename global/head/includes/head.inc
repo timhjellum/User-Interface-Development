@@ -35,13 +35,16 @@ isset($highstock) || $highstock = '';
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <meta name="robots" content="all" />
 <meta name="agency" content="EIA - Energy Information Administration" />
 <meta name="subject" content="official energy statistics, data, analysis and forecasting" />
 <meta name="Description" content="Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government" />
 
 <link href="/css_rehab/archive/global/styles/global.css" type="text/css" media="screen, projection" rel="stylesheet" />
-<link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
+
+<link href="/global/styles/print.css?v=1.0.0" type="text/css" media="print" rel="stylesheet" />
+<link href="/global/styles/eia-print.min.css?v=1.0.0" type="text/css" media="print" rel="stylesheet" />
 
 <?php
 //Include Highcharts (uses variables hcVersion, highstock, and jQueryUpgrade)

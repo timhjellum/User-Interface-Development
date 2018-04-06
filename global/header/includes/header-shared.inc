@@ -1,6 +1,6 @@
 <header>
 	<div class="print">
-		<img src="/global/images/logos/eia-logo-print.png" alt="U.S. Energy Information Administration logo" />
+		<img src="/global/images/logos/eia_logo_print.png" alt="U.S. Energy Information Administration logo" />
 	</div>
 	<nav class="navigation">
 		<a class="logo" href="/">

@@ -14,7 +14,7 @@
 <?php $next = 'June 2018'; ?>
 <?php include('./includes/prodcap_selector.inc'); ?>
 <div class="l-row">
-<div class="l-two-third-column">
+<div class="l-two-third-col">
 <p>
 The U.S. Energy Information Administration released its annual fuel ethanol production capacity report.   The new report contains data for all operating U.S. fuel ethanol production plants as of January 1, 2017.
 </p>
@@ -103,7 +103,7 @@ The U.S. Energy Information Administration released its annual fuel ethanol prod
 </tfoot>
 </table>
 </div>l-one-third-col
-<div class="l-one-third-column">                </div>
+<div class="l-one-third-col">                </div>
 </div>
 </div>
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>

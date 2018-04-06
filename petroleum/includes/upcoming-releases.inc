@@ -2,29 +2,29 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$upcomingReleasesOneURL = "/";
-$upcomingReleasesOneLabel = "Abcdefghijklmnopqrstuvwxyz";
-$upcomingReleasesOneDate = "March 7, 2018";
+$OneURL = "/";
+$OneLabel = "Abcdefghijklmnopqrstuvwxyz";
+$OneDate = "March 7, 2018";
 
-$upcomingReleasesTwoURL = "/";
-$upcomingReleasesTwoLabel = "Abcdefghijklmnopqrstuvwxyz";
-$upcomingReleasesTwoDate = "February 13, 2018";
+$TwoURL = "/";
+$TwoLabel = "Abcdefghijklmnopqrstuvwxyz";
+$TwoDate = "February 13, 2018";
 
-$upcomingReleasesThrURL = "/";
-$upcomingReleasesThrLabel = "Abcdefghijklmnopqrstuvwxyz";
-$upcomingReleasesThrDate = "March 7, 2018";
+$ThrURL = "/";
+$ThrLabel = "Abcdefghijklmnopqrstuvwxyz";
+$ThrDate = "March 7, 2018";
 
-$upcomingReleasesFouURL = "/";
-$upcomingReleasesFouLabel = "Abcdefghijklmnopqrstuvwxyz";
-$upcomingReleasesFouDate = "February 13, 2018";
+$FouURL = "/";
+$FouLabel = "Abcdefghijklmnopqrstuvwxyz";
+$FouDate = "February 13, 2018";
 
-$upcomingReleasesFivURL = "/";
-$upcomingReleasesFivLabel = "Abcdefghijklmnopqrstuvwxyz";
-$upcomingReleasesFivDate = "March 7, 2018";
+$FivURL = "/";
+$FivLabel = "Abcdefghijklmnopqrstuvwxyz";
+$FivDate = "March 7, 2018";
 
-$upcomingReleasesSixURL = "/";
-$upcomingReleasesSixLabel = "Abcdefghijklmnopqrstuvwxyz";
-$upcomingReleasesSixDate = "February 13, 2018";
+$SixURL = "/";
+$SixLabel = "Abcdefghijklmnopqrstuvwxyz";
+$SixDate = "February 13, 2018";
 
 ?>
 <?php
@@ -34,12 +34,12 @@ $upcomingReleasesSixDate = "February 13, 2018";
 <div class="content-container standard-container link-list">
 	<ul>
 		<li class="head"><h2>Upcoming Releases</h2></li>
-		<li><a href='<?=$upcomingReleasesOneURL?>' title='<?=$upcomingReleasesOneLabel?>'><?=$upcomingReleasesOneLabel?></a>: <span class="date"><?=$upcomingReleasesOneDate?></span></li>
-		<li><a href='<?=$upcomingReleasesTwoURL?>' title='<?=$upcomingReleasesTwoLabel?>'><?=$upcomingReleasesTwoLabel?></a>: <span class="date"><?=$upcomingReleasesTwoDate?></span></li>
-		<li><a href='<?=$upcomingReleasesThrURL?>' title='<?=$upcomingReleasesThrLabel?>'><?=$upcomingReleasesThrLabel?></a>: <span class="date"><?=$upcomingReleasesThrDate?></span></li>
-        <li><a href='<?=$upcomingReleasesFouURL?>' title='<?=$upcomingReleasesFouLabel?>'><?=$upcomingReleasesFouLabel?></a>: <span class="date"><?=$upcomingReleasesFouDate?></span></li>
-		<li><a href='<?=$upcomingReleasesFivURL?>' title='<?=$upcomingReleasesFivLabel?>'><?=$upcomingReleasesFivLabel?></a>: <span class="date"><?=$upcomingReleasesFivDate?></span></li>
-		<li><a href='<?=$upcomingReleasesSixURL?>' title='<?=$upcomingReleasesSixLabel?>'><?=$upcomingReleasesSixLabel?></a>: <span class="date"><?=$upcomingReleasesSixDate?></span></li>
+		<li><a href='<?=$OneURL?>' title='<?=$OneLabel?>'><?=$OneLabel?></a>: <span class="date"><?=$OneDate?></span></li>
+		<li><a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'><?=$TwoLabel?></a>: <span class="date"><?=$TwoDate?></span></li>
+		<li><a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'><?=$ThrLabel?></a>: <span class="date"><?=$ThrDate?></span></li>
+        <li><a href='<?=$FouURL?>' title='<?=$FouLabel?>'><?=$FouLabel?></a>: <span class="date"><?=$FouDate?></span></li>
+		<li><a href='<?=$FivURL?>' title='<?=$FivLabel?>'><?=$FivLabel?></a>: <span class="date"><?=$FivDate?></span></li>
+		<li><a href='<?=$SixURL?>' title='<?=$SixLabel?>'><?=$SixLabel?></a>: <span class="date"><?=$SixDate?></span></li>
         <li class="foot"><a href="/reports/upcoming.cfm">See all upcoming</a></li>
 	</ul>
 </div>

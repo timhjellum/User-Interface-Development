@@ -1,5 +1,5 @@
 <div class="l-row header report-details">
-        <div class="l-two-third-column">
+        <div class="l-two-third-col">
         
                 <a href="/petroleum/reports.cfm">&lsaquo; See All Petroleum & Other Liquids Reports</a>
                 <h2><?php echo "$headtitle"?></h2>

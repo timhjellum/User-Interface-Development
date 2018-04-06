@@ -1,7 +1,7 @@
 <div class="l-row header report-details">
-        <div class="l-split-wide">
+        <div class="l-split-wide-col">
 </div>
-<div class="l-split-narrow gradient">
+<div class="l-split-narrow-col gradient">
                 <span class="form-wrapper-outer">
                         <h4>Previous Issues</h4>
                         <span class="form-wrapper-inner">

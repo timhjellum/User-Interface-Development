@@ -1,5 +1,5 @@
 <div class="l-row header report-details">
-        <div class="l-split-wide">
+        <div class="l-split-wide-col">
         
                 <a href="/petroleum/reports.cfm">&lsaquo; See All Petroleum Reports</a>
 <?php
@@ -19,7 +19,7 @@ print "<a href=\"/petroleum/drilling/\">&lsaquo; See Current Issue</a>";
                         <div class="report-download-container"><!-- /report-download-container -->
                                         <a href="pdf/dpr-full.pdf">full report</a><i class="ico pdf">PDF</i></div>
 </div>
-</div><div class="l-split-narrow gradient">
+</div><div class="l-split-narrow-col gradient">
                 <span class="form-wrapper-outer">
                         <h4>Previous Issues</h4>
                         <span class="form-wrapper-inner">

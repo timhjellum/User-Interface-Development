@@ -1,7 +1,8 @@
-<div class="l-row"><div class="l-full-width-column">
+<div class="l-row">
+<div class="l-full-width-column">
 <h1>Energy Education</h1>
 <div class="l-row content-container energy-education">
-<div class="l-one-third-column">
+<div class="l-one-third-col">
 <i class="ico energy-education petroleum"></i>
     <ul>
         <li class="header"><h2><a href="/energyexplained/index.cfm?page=oil_home">Oil: Crude &amp; Petroleum Products Explained</a></h2></li>
@@ -9,7 +10,7 @@
 <li class="footer"><a href="/energyexplained/index.cfm?page=oil_home">See more petroleum topics</a></li>
     </ul>
 </div>
-<div class="l-one-third-column">
+<div class="l-one-third-col">
 <div class="border">
 <i class="ico energy-education faq"></i>
     <ul>
@@ -19,7 +20,7 @@
     </ul>
 </div>
 </div>
-<div class="l-one-third-column">
+<div class="l-one-third-col">
 <img src="/global/includes/issuestrends/images/icon_kids.png"/>
     <ul>
         <li class="header"><h2><a href="/kids">Energy Kids</a></h2></li>

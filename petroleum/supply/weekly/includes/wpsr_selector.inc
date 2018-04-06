@@ -19,7 +19,7 @@
                         </div>
                 </div>
         </div>
-        <div class="l-split-narrow gradient">
+        <div class="l-split-narrow-col gradient">
                 <span class="form-wrapper-outer">
                         <h4>Previous Issues</h4>
                         <span class="form-wrapper-inner">

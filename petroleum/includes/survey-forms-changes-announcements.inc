@@ -3,23 +3,23 @@
 /* note, you must add the arrow &nbsp; */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$surveyFormsChangesAnnouncementsOneURL = "/";
-$surveyFormsChangesAnnouncementsOneTitle = "Abcdefghijklmnopqrstuvwxyz &nbsp;";
+$OneURL = "/";
+$OneTitle = "Abcdefghijklmnopqrstuvwxyz &nbsp;";
 
-$surveyFormsChangesAnnouncementsTwoURL = "/";
-$surveyFormsChangesAnnouncementsTwoTitle = "Abcdefghijklmnopqrstuvwxyz &nbsp;";
+$TwoURL = "/";
+$TwoTitle = "Abcdefghijklmnopqrstuvwxyz &nbsp;";
 
-$surveyFormsChangesAnnouncementsThrURL = "/";
-$surveyFormsChangesAnnouncementsThrTitle = "Abcdefghijklmnopqrstuvwxyz";
+$ThrURL = "/";
+$ThrTitle = "Abcdefghijklmnopqrstuvwxyz";
 
-$surveyFormsChangesAnnouncementsFouURL = "";
-$surveyFormsChangesAnnouncementsFouTitle = "";
+$FouURL = "";
+$FouTitle = "";
 
-$surveyFormsChangesAnnouncementsFivURL = "";
-$surveyFormsChangesAnnouncementsFivTitle = "";
+$FivURL = "";
+$FivTitle = "";
 
-$surveyFormsChangesAnnouncementsSixURL = "";
-$surveyFormsChangesAnnouncementsSixTitle = "";
+$SixURL = "";
+$SixTitle = "";
 
 ?>
 <?php
@@ -29,11 +29,11 @@ $surveyFormsChangesAnnouncementsSixTitle = "";
 <div class="content-container standard-container link-list">
     <ul>
         <li class="head"><h2>Survey Forms, Changes &amp; Announcements</h2></li>
-		<li><a href='<?=$surveyFormsChangesAnnouncementsOneURL?>' title='<?=$surveyFormsChangesAnnouncementsOneTitle?>'><?=$surveyFormsChangesAnnouncementsOneTitle?></a></li>
-		<li><a href='<?=$surveyFormsChangesAnnouncementsTwoURL?>' title='<?=$surveyFormsChangesAnnouncementsTwoTitle?>'><?=$surveyFormsChangesAnnouncementsTwoTitle?></a></li>
-		<li><a href='<?=$surveyFormsChangesAnnouncementsThrURL?>' title='<?=$surveyFormsChangesAnnouncementsThrTitle?>'><?=$surveyFormsChangesAnnouncementsThrTitle?></a></li>
-        <li><a href='<?=$surveyFormsChangesAnnouncementsFouURL?>' title='<?=$surveyFormsChangesAnnouncementsFouTitle?>'><?=$surveyFormsChangesAnnouncementsFouTitle?></a></li>
-		<li><a href='<?=$surveyFormsChangesAnnouncementsFivURL?>' title='<?=$surveyFormsChangesAnnouncementsFivTitle?>'><?=$surveyFormsChangesAnnouncementsFivTitle?></a></li>
-		<li><a href='<?=$surveyFormsChangesAnnouncementsSixURL?>' title='<?=$surveyFormsChangesAnnouncementsSixTitle?>'><?=$surveyFormsChangesAnnouncementsSixTitle?></a></li>
+		<li><a href='<?=$OneURL?>' title='<?=$OneTitle?>'><?=$OneTitle?></a></li>
+		<li><a href='<?=$TwoURL?>' title='<?=$TwoTitle?>'><?=$TwoTitle?></a></li>
+		<li><a href='<?=$ThrURL?>' title='<?=$ThrTitle?>'><?=$ThrTitle?></a></li>
+        <li><a href='<?=$FouURL?>' title='<?=$FouTitle?>'><?=$FouTitle?></a></li>
+		<li><a href='<?=$FivURL?>' title='<?=$FivTitle?>'><?=$FivTitle?></a></li>
+		<li><a href='<?=$SixURL?>' title='<?=$SixTitle?>'><?=$SixTitle?></a></li>
 	</ul>
 </div>

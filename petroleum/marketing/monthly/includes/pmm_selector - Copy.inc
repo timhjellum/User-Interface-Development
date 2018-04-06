@@ -1,5 +1,5 @@
 <div class="l-row header report-details">
-        <div class="l-two-third-column">
+        <div class="l-two-third-col">
         
                 <a href="/petroleum/reports.cfm">&lsaquo; All Petroleum and Other Liquids Reports</a>
                 <h2>Petroleum Marketing Monthly <!--| <span class="date">August 2012</span>--></h2>
@@ -22,7 +22,7 @@
                         </div>
                 </div>
         </div>
-        <div class="l-split-narrow gradient">
+        <div class="l-split-narrow-col gradient">
                 <span class="form-wrapper-outer">
                         <h4>Previous Issues</h4>
                         <span class="form-wrapper-inner">

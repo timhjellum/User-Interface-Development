@@ -78,18 +78,19 @@
 
 
 										<ol class="style-guide">
-												<li><a href="#FullWidthHeaderLayout">Full-Width-Header Layout</a> |-15px-|---100%---|-15px-|</li>
-												<li><a href="#FullWidthLayout">Full-Width Layout</a> |-15px-|-22px-|---100%---|-22px-|-15px-|</li>
-												<li><a href="#LeftRightColumnLayout">Left &amp; Right Column</a> |-15px-|-50%-|-15px-|</li>
-												<li><a href="#RightColumnLayout">Right-Column Layout</a> |-15px-|-75%-|-25%-|-15px-|</li>
+												<li><a href="#header-row">Full-Width-Header Layout</a> |-15px-|---100%---|-15px-|</li>
+												<li><a href="#row">Full-Width Layout</a> |-15px-|-22px-|---100%---|-22px-|-15px-|</li>
+												<li><a href="#full-width">Full-Width Layout</a> |-15px-|-22px-|---100%---|-22px-|-15px-|</li>
+												<li><a href="#side+main+side">Left &amp; Right Column</a> |-15px-|-50%-|-15px-|</li>
+												<li><a href="#main+side">Right-Column Layout</a> |-15px-|-75%-|-25%-|-15px-|</li>
 												<li class="line-through"><!-- a href="#LeftColumnLayout" -->Left-Column Layout<!-- /a --> |-15px-|-25%-|-75%-|-15px-| <!-- 228px + 684px = 912px --></li>
-												<li><a href="#WideRightColumnLayout">Wide-Right-Column Layout</a> |-15px-|-22px-|-41.333%-|-44px-|-58.666%-|-22px-|-15px-|</li>
-												<li><a href="#WideLeftColumnLayout">Wide-Left-Column-Layout</a>  |-15px-|-22px-|-58.666%-44px-|-41.333%-|-22px-|-15px-|</li>
-												<li><a href="#OneThirdColumnLeftLayout">One-Third-Column-Left Layout</a>  |-15px-|-22px-|-33.333%-|-44px-|-66.666%-|-22px-|-15px-|</li>
-												<li><a href="#OneThirdColumnRightLayout">One-Third-Column-right Layout</a>  |-15px-|-22px-|-66.666%-|-44px-|-33.333%-|-22px-|-15px-|</li>
-												<li><a href="#SplitColumnLayout">Split Column Layout</a> |-15px-|-22px-|- xxx -|- xxx -|-22px-|-15px-|</li>
-												<li><a href="#ThreeColumnLayout">Three Column Layout</a> |-15px-|-22px-|-33%-|-22px-|-33%-|-44px-|-33%-|-22px-|-15px-|</li>
-												<li><a href="#FourColumnLayout">Four Column Layout</a> |-15px-|-22px-|-25%-|-44px-|-25%-|-44px-|-25%-|-44px-|-25%-|-22px-|-15px-|</li>
+												<li><a href="#main+wide-side">Wide-Right-Column Layout</a> |-15px-|-22px-|-41.333%-|-44px-|-58.666%-|-22px-|-15px-|</li>
+												<li><a href="#wide-side+main">Wide-Left-Column-Layout</a>  |-15px-|-22px-|-58.666%-44px-|-41.333%-|-22px-|-15px-|</li>
+												<li><a href="#one-third+two-thirds">One-Third-Column-Left Layout</a>  |-15px-|-22px-|-33.333%-|-44px-|-66.666%-|-22px-|-15px-|</li>
+												<li><a href="#two-thirds+one-third">One-Third-Column-right Layout</a>  |-15px-|-22px-|-66.666%-|-44px-|-33.333%-|-22px-|-15px-|</li>
+												<li><a href="#two-even-columns">Split Column Layout</a> |-15px-|-22px-|- xxx -|- xxx -|-22px-|-15px-|</li>
+												<li><a href="#three-even-columns">Three Column Layout</a> |-15px-|-22px-|-33%-|-22px-|-33%-|-44px-|-33%-|-22px-|-15px-|</li>
+												<li><a href="#four-even-columns">Four Column Layout</a> |-15px-|-22px-|-25%-|-44px-|-25%-|-44px-|-25%-|-44px-|-25%-|-22px-|-15px-|</li>
 												<!--
 												li>Wide-Right Column + Nested Split Column</li>
 												<li>Wide-Right Column + Nested Split Column</li>
@@ -117,7 +118,7 @@
 
 
 									<section>
-										<a name="FullWidthHeaderLayout"></a>
+										<a name="header-row"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Full-Width Header Layout (22px + 100% + 22px)</h3>
 											<ul class="legend style-guide">
@@ -134,7 +135,7 @@
 											<div class="module-container">
 												<!-- 22px + 100% + 22px -->
 												<div class="l-row header">
-													<div class="l-full-width-col">
+													<div class="full-width">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -145,12 +146,12 @@
 										</div>
 
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#FullWidthHeaderLayoutHtml" aria-expanded="false" aria-controls="FullWidthHeaderLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#header-rowHtml" aria-expanded="false" aria-controls="header-rowHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="FullWidthHeaderLayoutHtml">
+										<div class="collapse style-guide" id="header-rowHtml">
 											<pre><code class="html">&lt;!-- 22px + 100% + 22px --&gt;
 &lt;div class="l-row header"&gt;
-	&lt;div class="l-full-width-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="full-width"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
 									</section>
@@ -160,7 +161,7 @@
 
 
 									<section>
-										<a name="FullWidthLayout"></a>
+										<a name="row"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Full-Width Layout (100%)</h3>
 											<ul class="legend style-guide">
@@ -175,7 +176,7 @@
 										<div class="module-wrapper">
 											<div class="module-container">
 												<div class="l-row">
-													<div class="l-full-width-col">
+													<div class="full-width">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -185,12 +186,12 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#FullWidthLayoutHtml" aria-expanded="false" aria-controls="FullWidthLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#rowHtml" aria-expanded="false" aria-controls="rowHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="FullWidthLayoutHtml">
+										<div class="collapse style-guide" id="rowHtml">
 											<pre><code class="html">&lt;!-- 100% --&gt;
 &lt;div class="l-row"&gt;
-	&lt;div class="l-full-width-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="full-width"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
 									</section>
@@ -203,7 +204,7 @@
 
 
 									<section>
-										<a name="LeftRightColumnLayout"></a>
+										<a name="side+main+side"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Left &amp; Right Column Layout (25% / 50% / 25%)</h3>
 											<ul class="legend style-guide">
@@ -224,7 +225,7 @@
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
 															Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.</span>
 													</div>
-													<div class="l-two-column l-reorder-first">
+													<div class="l-two-col l-reorder-first">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -241,13 +242,13 @@
 										</div>
 
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#LeftRightColumnLayoutHtml" aria-expanded="false" aria-controls="LeftRightColumnLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#side+main+sideHtml" aria-expanded="false" aria-controls="side+main+sideHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="LeftRightColumnLayoutHtml">
+										<div class="collapse style-guide" id="side+main+sideHtml">
 											<pre><code class="html">&lt;!-- 25% / 50% / 25% --&gt; 
 &lt;div class="l-row"&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
-	&lt;div class="l-two-column"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-two-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
@@ -336,7 +337,7 @@
 
 
 									<section>
-										<a name="RightColumnLayout"></a>
+										<a name="main+side"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Right Column (75% / 25%)</h3>
 											<ul class="legend style-guide">
@@ -374,9 +375,9 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#WideRightColumnLayoutHtml" aria-expanded="false" aria-controls="WideRightColumnLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#main+wide-sideHtml" aria-expanded="false" aria-controls="main+wide-sideHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="WideRightColumnLayoutHtml">
+										<div class="collapse style-guide" id="main+wide-sideHtml">
 											<pre><code class="html">&lt;!-- 75% / 25% --&gt; 
 &lt;div class="l-row"&gt;
 	&lt;div class="l-main-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -392,7 +393,7 @@
 
 
 									<section>
-										<a name="WideRightColumnLayout"></a>
+										<a name="main+wide-side"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Wide-Right-Column Layout (41.666% / 58.333%)</h3>
 											<ul class="legend style-guide">
@@ -408,13 +409,13 @@
 											<div class="module-container">
 												<!-- 41.666% / 58.333% -->
 												<div class="l-row">
-													<div class="l-split-narrow">
+													<div class="l-split-narrow-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
 															Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.</span>
 													</div>
-													<div class="l-split-wide">
+													<div class="l-split-wide-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -424,20 +425,20 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#RightColumnLayoutHtml" aria-expanded="false" aria-controls="RightColumnLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#main+sideHtml" aria-expanded="false" aria-controls="main+sideHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="RightColumnLayoutHtml">
+										<div class="collapse style-guide" id="main+sideHtml">
 											<pre><code class="html">&lt;!-- 41.666% / 58.333% --&gt;
 &lt;div class="l-row"&gt;
-	&lt;div class="l-split-narrow"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
-	&lt;div class="l-split-wide"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-split-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-split-wide-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
 									</section>
 
 
 									<section>
-										<a name="WideLeftColumnLayout"></a>
+										<a name="wide-side+main-col"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Wide-Left-Column Layout (58.333% / 41.666%)</h3>
 											<ul class="legend style-guide">
@@ -453,13 +454,13 @@
 											<div class="module-container">
 												<!-- 58.333% / 41.666% -->
 												<div class="l-row">
-													<div class="l-split-wide">
+													<div class="l-split-wide-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
 															Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.</span>
 													</div>
-													<div class="l-split-narrow">
+													<div class="l-split-narrow-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -469,13 +470,13 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#WideLeftColumnLayoutHtml" aria-expanded="false" aria-controls="WideLeftColumnLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#wide-side+mainHtml" aria-expanded="false" aria-controls="wide-side+main-colHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="WideLeftColumnLayoutHtml">
+										<div class="collapse style-guide" id="wide-side+main-colHtml">
 											<pre><code class="html">&lt;!-- 58.333% / 41.666% --&gt;
 	&lt;div class="l-row"&gt;
-	&lt;div class="l-split-wide"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
-	&lt;div class="l-split-narrow"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-split-wide-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-split-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
 									</section>
@@ -487,7 +488,7 @@
 
 
 									<section>
-										<a name="OneThirdColumnLeftLayout"></a>
+										<a name="one-third+two-thirds"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">One-Third-Column-Left Layout (33.333% / 66.666%)</h3>
 											<ul class="legend style-guide">
@@ -509,7 +510,7 @@
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
 															Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.</span>
 													</div>
-													<div class="l-two-third-column">
+													<div class="l-two-third-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -519,20 +520,20 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#OneThirdColumnLeftLayoutHtml" aria-expanded="false" aria-controls="OneThirdColumnLeftLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#one-third+two-thirdsHtml" aria-expanded="false" aria-controls="one-third+two-thirdsHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="OneThirdColumnLeftLayoutHtml">
+										<div class="collapse style-guide" id="one-third+two-thirdsHtml">
 											<pre><code class="html">&lt;!-- 33.333% / 66.666% --&gt;
 &lt;div class="l-row"&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
-	&lt;div class="l-two-third-column"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-two-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
 									</section>
 
 
 									<section>
-										<a name="OneThirdColumnRightLayout"></a>
+										<a name="two-thirds+one-third"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">One-Third-Column-Right Layout (66.666% / 33.333%)</h3>
 											<ul class="legend style-guide">
@@ -548,7 +549,7 @@
 											<div class="module-container">
 												<!-- 66.666% / 33.333% -->
 												<div class="l-row">
-													<div class="l-two-third-column">
+													<div class="l-two-third-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -564,12 +565,12 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#OneThirdColumnRightLayoutHtml" aria-expanded="false" aria-controls="OneThirdColumnRightLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#two-thirds+one-thirdHtml" aria-expanded="false" aria-controls="two-thirds+one-thirdHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="OneThirdColumnRightLayoutHtml">
+										<div class="collapse style-guide" id="two-thirds+one-thirdHtml">
 											<pre><code class="html">&lt;!-- 66.666% / 33.333% --&gt;
 &lt;div class="l-row"&gt;
-	&lt;div class="l-two-third-column"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-two-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
@@ -589,7 +590,7 @@
 
 
 									<section>
-										<a name="SplitColumnLayout"></a>
+										<a name="two-even-columns"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Split Column Layout (50/50)</h3>
 											<ul class="legend style-guide">
@@ -605,13 +606,13 @@
 											<div class="module-container">
 												<!-- 50% / 50% -->
 												<div class="l-row">
-													<div class="l-two-column">
+													<div class="l-two-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
 															Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.</span>
 													</div>
-													<div class="l-two-column">
+													<div class="l-two-col">
 														<span class="style-guide">Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis
 															diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus
 															ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui.
@@ -621,13 +622,13 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#SplitColumnLayoutHtml" aria-expanded="false" aria-controls="SplitColumnLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#two-even-columnsHtml" aria-expanded="false" aria-controls="two-even-columnsHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="SplitColumnLayoutHtml">
+										<div class="collapse style-guide" id="two-even-columnsHtml">
 											<pre><code class="html">&lt;!-- 50% / 50% --&gt;       
 &lt;div class="l-row"&gt;
-	&lt;div class="l-two-column"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
-	&lt;div class="l-two-column"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-two-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
+	&lt;div class="l-two-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 										</div>
 									</section>
@@ -660,7 +661,7 @@
 
 
 									<section>
-										<a name="ThreeColumnLayout"></a>
+										<a name="three-even-columns"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Three Column Layout (33% / 33% / 33%)</h3>
 											<ul class="legend style-guide">
@@ -697,9 +698,9 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#ThreeColumnLayoutHtml" aria-expanded="false" aria-controls="ThreeColumnLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#three-even-columnsHtml" aria-expanded="false" aria-controls="three-even-columnsHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="ThreeColumnLayoutHtml">
+										<div class="collapse style-guide" id="three-even-columnsHtml">
 											<pre><code class="html">&lt;div class="l-row"&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -711,7 +712,7 @@
 
 
 									<section>
-										<a name="FourColumnLayout"></a>
+										<a name="four-even-columns"></a>
 										<div class="row style-guide">
 											<h3 class="style-guide">Four Column Layout (25% / 25% / 25% / 25%)</h3>
 											<ul class="legend style-guide">
@@ -754,9 +755,9 @@
 											</div>
 										</div>
 										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#FourColumnLayoutHtml" aria-expanded="false" aria-controls="FourColumnLayoutHtml">&lt;html&gt;</a>
+											<a class="btn btn-primary" data-toggle="collapse" href="#four-even-columnsHtml" aria-expanded="false" aria-controls="four-even-columnsHtml">&lt;html&gt;</a>
 										</p>
-										<div class="collapse style-guide" id="FourColumnLayoutHtml">
+										<div class="collapse style-guide" id="four-even-columnsHtml">
 											<pre><code class="html">&lt;!-- 4 Column 25% / 25% / 25% / 25% --&gt; 
 &lt;div class="l-row"&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -791,7 +792,7 @@
 													<div class="l-narrow-col l-reorder-center">
 														<span class="style-guide">Desktop &amp; laptop view, this container will be first. Mobile view and this should be second.</span>
 													</div>
-													<div class="l-two-column l-reorder-first">
+													<div class="l-two-col l-reorder-first">
 														<span class="style-guide">Desktop &amp; laptop view, this container will be second. Mobile view and this should be first.</span>
 													</div>
 													<div class="l-narrow-col l-reorder-last">
@@ -808,7 +809,7 @@
 												<pre>
 <code class="html">&lt;div class="l-row l-3-col-reorder"&gt;
 	&lt;div class="l-narrow-col l-reorder-center"&gt;Desktop &amp; laptop view, this container will be first. Mobile view and this should be second.&lt;/div&gt;
-	&lt;div class="l-two-column l-reorder-first"&gt;Desktop &amp; laptop view, this container will be second. Mobile view and this should be first.&lt;/div&gt;
+	&lt;div class="l-two-col l-reorder-first"&gt;Desktop &amp; laptop view, this container will be second. Mobile view and this should be first.&lt;/div&gt;
 	&lt;div class="l-narrow-col l-reorder-last"&gt;Desktop &amp; laptop view, this container will be third. Mobile view and this should be last.&lt;/div&gt;
 &lt;/div&gt;</code>
 </pre>

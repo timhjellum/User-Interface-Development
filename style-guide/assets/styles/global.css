@@ -12,6 +12,7 @@
 @import "less/header-footer/header";
 @import "less/header-footer/header-menu";
 @import "less/header-footer/social-sticker";
+@import "less/sub-navigation";
 
 /* layouts */
 @import "less/layouts/global";

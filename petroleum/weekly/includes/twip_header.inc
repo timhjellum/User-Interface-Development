@@ -1,6 +1,7 @@
-<?php$twip_page = isset($twip_page) ? $twip_page : '';
+<?php
+$twip_page = isset($twip_page) ? $twip_page : '';
 ?>
-<div class="l-row header report-details">
+<div class="l-row hel-split-wide-coldetails">
         <div class="l-split-wide">
 
 <a href="/petroleum/reports.cfm">&lsaquo; See all Petroleum &amp; Other Liquids Reports</a>

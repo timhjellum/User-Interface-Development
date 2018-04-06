@@ -1,6 +1,6 @@
 <div class="l-row header report-details">
-        <div class="l-two-third-column">
-<div class="l-split-wide"> <a href="/petroleum/reports.php">&lsaquo; See All Petroleum & Other Liquids Reports</a>
+        <div class="l-two-third-col">
+<div class="l-split-wide-col"> <a href="/petroleum/reports.php">&lsaquo; See All Petroleum & Other Liquids Reports</a>
                 <h2><?php echo "$headtitle"?></h2>
 
                 <div class="release-dates">
@@ -15,7 +15,7 @@
                         </div>
                 </div>
         </div>
-        <div class="l-split-narrow gradient">
+        <div class="l-split-narrow-col gradient">
                 <span class="form-wrapper-outer">
                         <h4>Previous Issues</h4>
                         <span class="form-wrapper-inner">

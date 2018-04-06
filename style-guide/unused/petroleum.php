@@ -69,7 +69,7 @@ div class="left">Current Issues &amp; Trends</div>
 <span class="main_col">
 with This -->
 <div class="l-row">
-<div class="l-two-column">
+<div class="l-two-col">
 <h1>Recent Data</h1>
 <?php /* replace this with something local in the include directory, or with inline code*/ ?>
 <?php
@@ -105,7 +105,7 @@ with This -->
 </div>
 <?php /*End left column*/ ?>
 <?php /*Right column*/ ?>
-<div class="l-two-column">
+<div class="l-two-col">
 <?php include ('global/includes/issuestrends/recent_AP_schedule.inc') ; ?>
 <h2>Upcoming Releases</h2>
 <p>

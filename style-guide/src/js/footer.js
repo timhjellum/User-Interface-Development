@@ -2,7 +2,7 @@ $(document).ready(function() {
   $(".add-footer").html('<footer class="clearfix">'+
   '<div class="l-row address-bar">'+
   /*
-    <div class="l-two-third-column">
+    <div class="l-two-third-col">
       <ul class="above-address-links">
         <li><a href="/about/">Base</a><div class="arrow-right"></div></li>
         <li><a href="/beta/api/">Layouts</a><div class="arrow-right"></div></li>

@@ -1,5 +1,6 @@
 <?php include_once('../../config.php'); ?>
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
 <head>
 <title>Refinery Capacity Report</title>
 <?php include(ROOT.'global/includes/css_rehab_eia-head.inc'); ?>
@@ -14,7 +15,7 @@
 <?php $next = 'June 22, 2018'; ?>
 <?php include('./includes/refcap_selector.inc'); ?>
 <div class="l-row">
-<div class="l-split-wide">
+<div class="l-split-wide-col">
 <?php /* start main content */ ?>
 <p>
 Data series include fuel, electricity, and steam purchased for consumption at the refinery; refinery receipts of crude oil by method of transportation; and current and projected atmospheric crude oil distillation, downstream charge, and production capacities.  Respondents are operators of all operating and idle petroleum refineries (including new refineries under construction) and refineries shut down during the previous year, located in the 50 States, the District of Columbia, Puerto Rico, the Virgin Islands, Guam, and other U.S. possessions. <br /><br />
@@ -173,11 +174,11 @@ The Refinery Capacity Report does not contain working and shell storage capacity
     </div><!-- end accordion-panel -->
     </div><!-- end accordion -->
 </div><!-- end column -->
-
+l-split-narrow-col
 <div class="l-split-narrow">
 <?php include('./includes/refcap_side.inc'); ?>
 </div>
 </div>
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 </body>
-</html>
+</html>

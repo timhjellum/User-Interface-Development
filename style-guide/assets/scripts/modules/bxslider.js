@@ -42,7 +42,7 @@ class BxSlider {
             slideWidth: 154,
             slideMargin: 14
         });
-        //console.log("slider found");
+        console.log("slider found");
 /*
         if ($("LblMobileNumer") == null) {
             $("#TxtMobile").show();
