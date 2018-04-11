@@ -14,7 +14,7 @@
     }
     //include ('petroleum/includes/data_table.inc') ;
     ?>
-    <ul>
+    <ul class="basic_table">
         <li class="foot"><a href="data.php">See more data</a></li>
 	</ul>
 </div>

@@ -1,49 +1,57 @@
 
  h1 {
     display: block;
-    font-size: 26px;
-    border-bottom: solid 1px #dadada;
-    padding-bottom: 6px;
-    padding-top: 16px;
+    font-size: 1.625rem; // 26px pixels
+    border-bottom: solid 1px @eia-d4d4d4; //#dadada;
+    padding: 1em 0 6px;
+    margin: 0 0 22px 0;
     clear: both;
 }
 
 
 
 
-.rpt_category.active, .rpt_category:hover {
-    margin: 0px;
-    padding: 0px;
-    color: #189bd7;
-    border-bottom: 2px solid #189bd7;
-}
 
-.v_divider {
-    font-size: 14pt;
-    color: @eia-silver;
-    line-height: 1.0em;
-}
-
-.rpt_category {
-    margin: 0px;
-    padding: 0px;
-    font-size: 11pt;
-    font-weight: normal;
-    color: @eia-light-grey;
-    cursor: pointer;
-    text-transform: uppercase;
-}
 
 
 @media @mobile {
+
+    #overviewSideNavOptions {
+        .font;
+        font-size: 0.938rem; // 15 pixels
+        //font-size: 11pt;
+        //font-weight: normal;
+        color: @eia-light-grey;
+        text-transform: uppercase;
+        .rpt_category {
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            &.active {
+                color: #189bd7;
+                border-bottom: 2px solid #189bd7;
+            }
+            &.hover {
+                color: #189bd7;
+                border-bottom: 2px solid #189bd7;
+            }
+        }
+        
+        .v_divider {
+            font-size: 0.875rem; // 14 pixels
+            color: @eia-silver;
+            line-height: 1.0em;
+        }
+    }
+
     ul {
         &.analysis-projections {
             width: 100%;
             display: table;
             clear: both;
-            margin-bottom: .75em;
+            margin-bottom: 2em;
             li {
-                //font-size: 1rem;
+                display: table;
                 color: @eia-dark-grey;
                 margin: 0;
                 padding: 0;
@@ -84,30 +92,35 @@
                             display: inline;
                             a {
                                 color: @eia-blue;
-    
-                                &.capsule::after {
-                                    color: @eia-dark-grey;
-                                    content: ", ";
-                                }
-                                // hide the comma on last instance
-                                &:last-child::after {
-                                    content: "";
+                                    &.capsule {
+                                    margin: 0 0 0 6px;
+                                    &:after {
+                                        color: @eia-dark-grey;
+                                        content: ",";
+                                    }
+                                    // hide the comma on last instance
+                                    &:last-child {
+                                        &:after {
+                                            content: "";
+                                        }
+                                    }
                                 }
                                 &.show-more-tags {
                                     text-decoration: none;
                                     .bold;
                                     background-color: #dff2fb;
                                     padding: 0 4px;
+                                    margin: 0 0 0 6px;
+                                    //tag-list show-more
                                 }
                             }
                             // initial state
                             .more-tags {
                                 display: none;
                             }
-                            // onclick
                             &.show-more {
                                 a {
-                                    .show-more-tags {
+                                    &.show-more-tags {
                                         display: none;
                                     }
                                 }
@@ -117,18 +130,10 @@
                             }
                         }                   
                     }
-
                 }
-
-
-
-
                 &.foot {
-                    font-size: 1rem;
-                    float: left;
-                    width: 100%;
-                    font-size: 1rem;
-                    width: 100%;
+                    margin: 8px 0 0 0;
+                    //border-top: 8px solid red;
                     a {
                         font-weight: 600;
                         font-size: .8125rem; //13px;

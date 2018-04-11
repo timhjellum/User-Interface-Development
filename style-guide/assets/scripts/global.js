@@ -24,7 +24,8 @@ new Accordion();
 import AnalysisProjections from './modules/analysis-projections';
 new AnalysisProjections();
 
-
+import moduleScripts from './modules/modules';
+new moduleScripts();
 
 
 

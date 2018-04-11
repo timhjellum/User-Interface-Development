@@ -26,7 +26,7 @@ $SixTitle = "";
 /* DO NOT EDIT BELOW */
 ?>
 
-<div class="content-container standard-container link-list">
+<div class="content-container standard-container hide-mt">
     <ul>
         <li class="head"><h2>Survey Forms, Changes &amp; Announcements</h2></li>
 		<li><a href='<?=$OneURL?>' title='<?=$OneTitle?>'><?=$OneTitle?></a></li>

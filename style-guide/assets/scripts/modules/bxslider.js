@@ -42,7 +42,7 @@ class BxSlider {
             slideWidth: 154,
             slideMargin: 14
         });
-        console.log("slider found");
+
 /*
         if ($("LblMobileNumer") == null) {
             $("#TxtMobile").show();
@@ -83,12 +83,6 @@ class BxSlider {
 
 
 
-        
-        $(".link-list a:empty").each(function() {
-            $(this).parent().addClass("hide"); 
-        });
-
-
         // L2 (slider1) - banners
         /*
         var tito = 1;
@@ -116,30 +110,12 @@ class BxSlider {
             $(this).addClass('f'+tato);
             tato++;
         });
-*/
+        */
 
 
-
-
-    }
-    
-        // check the page resolution on initial page load and if the browser is resized
-        /*
-            $('.slider-home h2 a, .slider-home h3 a').attr( "href", function(ind,attr) {
-            // if the href contains "?", append &x=z, else, append ?x=z
-            var pos = $(this).parents('li').attr('class').replace("feature_new", "b");
-            var hash_position = attr.indexOf('#');
-            var new_url_argument = /\?/.test(attr) ? '&src=home-' + pos : '?src=home-' + pos;
-
-            // if there is no hash in the url, then add the new argument to the end, otherwise insert before the hash.
-            return hash_position == -1 ? (attr + new_url_argument) : attr.substring(0, hash_position) + new_url_argument + attr.substring(hash_position, attr.length)
-            //return /\?/.test(attr) ? attr + '&src=home-' + pos : attr + '?src=home-' + pos;
-            });
-        */       
+    }  
     checkSize() {
-        //console.log("checking size");
-
-
+            console.log("checking size");
+        }
     }
-}
-export default BxSlider;
+    export default BxSlider;

@@ -2,10 +2,11 @@
 
 @media @mobile { // could be 320px - smartphones, portrait iPhone, portrait 480x320 phones (Android)
 	.slider-multi-header {
-		padding: 0 0 6px 0;
-		margin: 2em 0 .5em 0;
+		//padding: 0 0 6px 0;
+		padding: 0;
+		margin: 2em 0 0 0;
 		width: 100%;
-		border-bottom: solid 1px #668393;
+//		border-bottom: solid 1px #668393;
 		display: table;
 	}
 
@@ -17,10 +18,11 @@
 
 
 	.slider-multi {
-		margin: 8px 0 1.625em 0;
+		margin: 2px 0 1.625em 0;
 		width: 100%;
 		border-top: 1px solid #dadada;
-		padding: 12px 0 0 0;
+		border-bottom: 1px solid #668393;
+		padding: 12px 0 16px 0;
 		clear: both;
 		.slider-multi-wrapper {
 			position: relative;
@@ -106,10 +108,11 @@
 }
 @media @laptop { // normall 1025 - big landscape tablets, laptops, and desktops
 	.slider-multi-header {
-		margin: 2em 22px .5em 22px;
+		margin: 2em 22px 0 22px;
 		width: 912px;
 		.left {
 			.left;
+			margin: 0 0 0 0;
 			h2 {
 				font-size: 1.625rem; // 26px;
 				.header-font;
@@ -119,7 +122,8 @@
 			}			
 		}
 		.right {
-			.right;
+			float: right;
+			margin: 0 0 0 0;
 			.slider-multi-pager {
 				margin: 6px 0 0 0;
 				display: table;

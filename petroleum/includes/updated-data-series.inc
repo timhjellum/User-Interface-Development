@@ -32,7 +32,7 @@ $SixDate = "4/4/2018";
 /* DO NOT EDIT BELOW */
 ?>
 
-<div class="content-container standard-container link-list">
+<div class="content-container standard-container hide-mt">
     <ul>
         <li class="head"><h2>Updated Data Series</h2></li>
 		<li><span><?=$OneDate?></span>&#160;&#160;<a href='<?=$OneURL?>' title='<?=$OneLabel?>'><?=$OneLabel?></a></li>

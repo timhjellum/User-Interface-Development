@@ -955,6 +955,7 @@
 			width: 17px;
 			height: 17px;
 		}
+		/*
 		&.circle {
 			width: 100px;
 			height: 100px;
@@ -974,6 +975,7 @@
 				background: url(../includes/issuestrends/images/interactive/aeo.png) 59% 60%;
 			}
 		}
+		*/	
 	}
 
 
@@ -1141,13 +1143,21 @@
 				&.faq {
 					&::before {
 						.icon-faq(@fill-color: @eia-darker-blue, @fill-color-lt: @eia-light-blue);
-						.nav-bar-icon();
+						.nav-bar-icon(80px, 70px);
+						border: none;
+						background-size: 90%;
+						border: none;
+						margin: -6px 0 0 -12px;
 					}
 				}
 				&.petroleum {
 					&::before {
 						.icon-petroleum(@fill-color: @eia-tan);
-						.nav-bar-icon();
+						.nav-bar-icon(80px, 70px);
+						border: none;
+						background-size: 90%;
+						border: none;
+						margin: -6px 0 0 -18px;
 					}
 				}
 	

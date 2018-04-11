@@ -12,20 +12,20 @@
 	
 	"scenarios": [
 		{
-			"label": "Home Containers",
-			"url": "_index.html",
+			"label": "Petroleum Containers",
+			"url": "https://www.eia.gov/css_rehab/archive/petroleum/index.html",
 			"hideSelectors": [],
 			"removeSelectors": [
 			],
 			"selectors": [
-				".content-container.dark-top-border-container.one",
-				".content-container.dark-top-border-container.two",
-				".content-container.dark-top-border-container.thr",
-				".content-container.dark-top-border-container.fou",
-				".content-container.light-top-border-container.grey-background.one",
-				".content-container.light-top-border-container.grey-background.two",
-				".content-container.content-container-border.blue-background",
-				".content-container.main-content-container"
+				".feature-section",
+				".title",
+				".subnav",
+				".basic_table",
+				"#overviewSideNavOptions",
+				".analysis-projections",
+				".visualizations",
+				".ed_section"
 			],
 			"readyEvent": null,
 			"delay": 0,

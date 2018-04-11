@@ -2,7 +2,8 @@
     table {
         //margin-bottom: 12px;
         width: 100%;
-        margin: 1.2em 0;
+       // margin: auto;
+        //padding: auto;
         border-collapse: collapse; // eliminate all cellspacing
         border-spacing: 0;
         color: @eia-dark-grey;
@@ -48,11 +49,8 @@
             text-align: left;
             .bold;
             caption-side: top;
-            //margin: 0;
-            //padding: 0;
-            text-transform: uppercase;
             a {
-                color: #189bd7;    
+                color: @eia-blue;    
             }
         }
         thead {
@@ -123,6 +121,9 @@
                     vertical-align: top;
                     text-align: left;
                     padding: 6px 10px 5px 10px;
+                    a {
+                        color: @eia-blue;    
+                    }
                     h4 {
                         margin: 0;
                         padding: 0;
@@ -199,7 +200,10 @@
                     font-size: .750rem; // 12px;
                     vertical-align: top;
                     text-align: left;                     
-                    padding: 6px 10px 5px 10px; 
+                    padding: 6px 10px 5px 10px;
+                    a {
+                        color: @eia-blue;   
+                    }
                 }
             }    
         }

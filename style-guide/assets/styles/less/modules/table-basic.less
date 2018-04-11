@@ -3,10 +3,12 @@
         // data aligns the first column left, all other columns right 
         &.basic_table {
             width: 100%;
+            margin: 1.2em 0 .2em;
             // this puts a border on top
             caption {
-                border-bottom: 1px solid #189bd7;
+                //border-bottom: 1px solid @eia-blue;
                 padding: 0 10px;
+                //font-size: .9375rem; // * 120%; //15px    
                 em {
                     .normal;
                     text-transform: none;
@@ -101,7 +103,7 @@
                     }
                     &:first-child {
                         td {
-                            border-top: 3px solid #189bd7;
+                            border-top: 3px solid @eia-blue;
                             &.divider {
                                 border-top-color: #fff;
                             }
@@ -124,15 +126,16 @@
                     }
                     &:last-child {
                         td {
-                            //border-bottom: 1px solid #189bd7;
+                            //border-bottom: 1px solid @eia-blue;
                             // this adds a natural 1px line on bottom when tfoot is present
-                            border-top: 1px solid #189bd7;
+                            border-top: 2px solid @eia-blue;
+                            border-bottom: 1px solid @eia-blue;
                         }
                     }
                     &.total {                   
                         td {
                             border-top: 2px solid @eia-silver;
-                            border-bottom: 1px solid #189bd7;
+                            border-bottom: 1px solid @eia-blue;
                             padding: 12px 10px 10px 10px;
                             margin-bottom: -2px;
                             &.divider {
@@ -142,7 +145,7 @@
                     }
                     &.foot-note {
                         td {
-                            border-top: 1px solid #189bd7;
+                            border-top: 1px solid @eia-blue;
                             border-bottom: #fff;
                             padding: 12px 10px 10px 10px;
                         }
@@ -155,224 +158,12 @@
                 } 
             }
         }
-
-        
-        &.donkey { // temporary name obviously
-            tbody {
-                tr {
-                    &:first-child {
-                        td {
-                            border-top: 3px solid @eia-silver;
-                            &.divider {
-                                border-top-color: #fff;
-                            }
-                        }
-                    } 
-                }
-            }
+    }
+    ul {
+        &.basic_table {
+            margin: 0 0 2em;
         }
-
-        thead tr td { border: 1px dashed RED;} // used to identify bad formatted HTML tables
-        tbody tr:first-child th { border-top: 3px solid RED;}// used to identify bad formatted HTML tables
-        tbody th { border-bottom: 1px dashed RED;}// used to identify bad formatted HTML tables
-
-        &.zebra {
-            &.highlight-col-1 {
-                tr {
-                    &:nth-child(even) {
-                        th:nth-child(1) {
-                            background-color: #00405d;
-                        }
-                        td:nth-child(1) {
-                            background-color: #c7e6f5;
-                        }
-                    }
-                    &:nth-child(odd) {
-                        th:nth-child(1) {
-                            background-color: #00405d;
-                        }
-                    }
-                }
-            }
-            &.highlight-col-2 {
-                tr {
-                    &:nth-child(even) {
-                        th:nth-child(2) {
-                            background-color: #00405d;
-                        }
-                        td:nth-child(2) {
-                            background-color: #c7e6f5;
-                        }
-                    }
-                    &:nth-child(odd) {
-                        th:nth-child(2) {
-                            background-color: #00405d;
-                        }
-                    }
-                }
-            }
-            &.highlight-col-3 {
-                tr {
-                    &:nth-child(even) {
-                        th:nth-child(3) {
-                            background-color: #00405d;
-                        }
-                        td:nth-child(3) {
-                            background-color: #c7e6f5;
-                        }
-                    }
-                    &:nth-child(odd) {
-                        th:nth-child(3) {
-                            background-color: #00405d;
-                        }
-                    }
-                }
-            }
-            &.highlight-col-4 {
-                tr {
-                    &:nth-child(even) {
-                        th:nth-child(4) {
-                            background-color: #00405d;
-                        }
-                        td:nth-child(4) {
-                            background-color: #c7e6f5;
-                        }
-                    }
-                    &:nth-child(odd) {
-                        th:nth-child(4) {
-                            background-color: #00405d;
-                        }
-                    }
-                }
-            }
-            &.highlight-col-5 {
-                tr {
-                    &:nth-child(even) {
-                        th:nth-child(5) {
-                            background-color: #00405d;
-                        }
-                        td:nth-child(5) {
-                            background-color: #c7e6f5;
-                        }
-                    }
-                    &:nth-child(odd) {
-                        th:nth-child(5) {
-                            background-color: #00405d;
-                        }
-                    }
-                }
-            }
-            &.highlight-col-6 {
-                tr {
-                    &:nth-child(even) {
-                        th:nth-child(6) {
-                            background-color: #00405d;
-                        }
-                        td:nth-child(6) {
-                            background-color: #c7e6f5;
-                        }
-                    }
-                    &:nth-child(odd) {
-                        th:nth-child(6) {
-                            background-color: #00405d;
-                        }
-                    }
-                }
-            }
-
-            thead {
-                tr {
-                    th {
-                        //font-size: .750rem; // 12px;
-                        //vertical-align: top;
-                        //text-align: left;                    
-                        //padding: 6px 10px 5px 10px;
-                        //.bold;
-                        font-weight: normal;
-                        color: #FFF;
-                        background-color: #00405d;
-                        padding: 8px 10px 7px 10px;
-                        a {
-                            color: #fff;
-                        }
-                        &.no-border {
-                            border-color: transparent;
-                        }
-                        &.left {
-                            float: left;
-                        }
-                        // float right
-                        &.right {
-                            float: right;
-                        }
-                        &.align-left {
-                            text-align: left;
-                        }
-                        &.align-center {
-                            text-align: center;
-                        }
-                        &.align-right {
-                            text-align: right;
-                        }
-                        &.align-top {
-                            vertical-align: top;
-                        }
-                        &.align-middle {
-                            vertical-align: middle;
-                        }
-                        &.align-bottom {
-                            vertical-align: bottom;
-                        }
-                    }
-                }
-                //&.nested-header {
-                //    th {
-                        //border-top: 2px solid @eia-silver;
-                        //border-bottom: 2px solid @eia-silver;
-                        //background-color: #00405d;
-                        //padding: 8px 10px 7px 10px;
-                        //font-size: 13px;
-                //    }
-                //}
-            }
-            tbody {
-                tr {
-                    &:nth-child(even) td {
-                        background-color: #ddf0f9;
-                    }
-                    &:last-child {
-                        td {
-                            border-bottom: 1px solid #e3e5e6;
-                        }
-                    } 
-                    /*
-                    th {
-                    color: #fff;
-                    background-color: @eia-darker-blue;
-                    font-size: 0.75em;
-                    font-weight: normal;
-                    text-align: left;
-                    padding: 5px 10px;
-                    vertical-align: middle;
-                    border-bottom: 1px solid #fff;
-                    }
-                    */
-
-                    td {
-                        a {
-                            &.ico {
-                                display: inline;
-                            }
-                        }
-                        h4 {
-                            padding: 0 !important;
-                            margin: 0 !important;
-                        }
-                    }
-                }
-            }
-        }
-    }  
+    }
 }
 
 
@@ -452,10 +243,10 @@
     .data-table-three {
         caption {
             text-transform: uppercase;
-            border-bottom: 1px solid #189bd7;
+            border-bottom: 1px solid @eia-blue;
             padding: 0 0 6px 0;
             a {
-                color: #189bd7;            
+                color: @eia-blue;            
             }
             em {
                 text-transform: none;
@@ -506,7 +297,7 @@
         .section td {
             padding-top: 12px;
             padding-left: 10px;
-            border-top: 1px solid #189bd7;
+            border-top: 1px solid @eia-blue;
         }
         tr:last-child td,
         .section td {
@@ -529,7 +320,7 @@
 
 
     tr:last-child th {
-        border-bottom: 2px solid #189bd7;
+        border-bottom: 2px solid @eia-blue;
     }
     tr td {
         border-bottom: 1px dashed @eia-silver;
@@ -554,7 +345,7 @@
     tfoot tr:first-child td {
         padding-left: 10px;
         padding-top: 12px;
-        border-top: 2px solid #189bd7;
+        border-top: 2px solid @eia-blue;
     }
     tfoot tr td {
         border-bottom: none;
@@ -691,7 +482,7 @@
 
 
         tbody tr:first-child td {
-            border-top: 2px solid #189bd7;
+            border-top: 2px solid @eia-blue;
         }
         tbody td {
             font-size: .750rem; // 12px;
@@ -711,7 +502,7 @@
         tfoot td {
 
             padding-top: 12px;
-            border-top: 2px solid #189bd7;
+            border-top: 2px solid @eia-blue;
         }
         /*
 
@@ -734,7 +525,7 @@
         tbody tr:first-child td,tbody .section td {
             padding-top: 12px;
             padding-left: 10px;
-            border-top: 1px solid #189bd7;
+            border-top: 1px solid @eia-blue;
         }
         tbody tr:first-child td,tbody .section td {
             padding-top: 5px;
@@ -743,7 +534,7 @@
             border-top: none;
         }
         tr:last-child th {
-            border-bottom: 2px solid #189bd7;
+            border-bottom: 2px solid @eia-blue;
         }
 
         .double-header th[colspan] {

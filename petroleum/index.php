@@ -14,8 +14,12 @@
 </head>
 <body>
 <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
-<?php include('./includes/sub-navigation.inc'); ?>
-<?php include('css_rehab/archive/global/sliders/multi-card-slider.inc') ?>
+<span class="subnav">
+	<?php include('./includes/sub-navigation.inc'); ?>
+</div>
+<span class="feature-section">
+	<?php include('css_rehab/archive/global/sliders/multi-card-slider.inc') ?>
+</div>
 <?php /*<div class="alert"><p><strong>What's changed?</strong> &nbsp; See <a href="/about/eia_explained.cfm#l2_enhancements" id="enhance" style="background:none; padding-right:0; margin-right:0">highlights of new features</a> or <a href="#video" id="youtube" style="background:none; padding-right:0; margin-right:0">take a 60 second video tour</a>.</p></div>*/ ?>
 <?php /*div class="alert"><p><strong>New data on the movements of crude oil by rail added.</strong> &nbsp;  <a href="transportation/webinar/" id="enhance" style="background:none; padding-right:0; margin-right:0">Webinar</a> discusses changes 11 a.m. Tuesday, March 31.</p></div*/ ?>
 <?/* php include ('global/includes/l2-youtube.inc') ; */ ?>
@@ -35,7 +39,9 @@
 	</div>
 </div>
 <?php include('./includes/interactive-visualizations-data-multimedia.inc'); ?>
-<?php include('./includes/energy-education.inc'); ?>
+<span class="ed_section">
+	<?php include('./includes/energy-education.inc'); ?>
+</span>
 <?php include'css_rehab/archive/global/footer/includes/footer.inc' ?>
 </body>
 </html>

@@ -36,6 +36,7 @@
 
 @import "less/l2/analysis-projections.less";
 @import "less/l2/visualizations";
+@import "less/l2/energy-education";
 
 /* sliders */
 @import "less/sliders/shared";

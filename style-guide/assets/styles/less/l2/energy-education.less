@@ -1,0 +1,97 @@
+@media @mobile {
+    div {
+        .energy-education {
+            margin: 0 0 3em;
+            width: 100%;
+            display: table;
+            .l-one-third-col {
+                padding-right: 0;
+            }
+            img {
+                float: left;
+                margin: 0 0 0 0;
+                width: 80px;
+                height: 94px;
+            }
+            i {
+                //float: left;
+                margin: 0 0 0 0;
+                width: 60px;
+                height: 60px;
+            }
+            ul {
+                display: table;
+                margin: 0 0 1em 2em;
+                li {
+                    &.head {
+                        padding: 0 0 2px 0;
+                        margin-top: 4px; 
+                        h2 {
+                            font-size: .9375rem * 120%; //15px
+                            a {
+                                .font;
+                                .bold;
+                                color: #265281;
+                                line-height: 1.2em;
+                                text-transform: uppercase;               
+                            }
+                        }
+                    }
+                    &.sub-head {
+                        .font;
+                        font-size: 1rem;
+                        font-style: italic;
+                        line-height: 1em; //18px;
+                        a {
+                            color: @eia-dark-grey;
+                        }
+                    }
+                    &.foot {
+                        font-size: .750rem; // 12px
+                        margin-top: 8px;
+                        line-height: 1.375em; // 22px
+                        a {
+                            &:after { 
+                                content:"\00a0\203A";
+                            }  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media @laptop {
+    div {
+        &.energy-education {
+            width: 912px; // this is to make it stand alone only
+            .border {
+                border-left: 1px solid @eia-d4d4d4;
+                border-right: 1px solid @eia-d4d4d4;
+                padding: 0 10px;
+                display: table;
+            }      
+            ul {
+                width: 210px;
+                margin: 0 0 1em .5em;
+                float: left;
+                li {
+                    &.head {
+                        h2 {
+                            font-size: .9375rem; //15px
+                        }
+                    }
+                    &.sub-head {
+                        font-size: .8125rem; // 13px
+                        line-height: 1.5em;
+                    }
+                    &.foot {
+                        font-size: .750rem; // 12px
+                        margin-top: 8px;
+                        line-height: 1.375em; // 22px
+                    }
+                }
+            }
+        }
+    }
+}

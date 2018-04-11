@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 class SocialSticker {
     constructor() {
         this.target = $('#sticker');
@@ -13,25 +15,28 @@ class SocialSticker {
         }
 
         position();
-            $('#sticker').hover(function(event) {
-            },function(event){
-            });
-            $(window).scroll(function() {
-                position();
-            });
-            $(window).resize(function() {
-                position();
-            });
-            $('header').on('transitionend', function() {
-                position();
-            });
-        }
         
-        hover(target) {
-            let $hoverTarget = $(target);
-            let rolloverClass = 'hover';
-            $hoverTarget.hover(
-            (event) => {
+        $('#sticker').hover(function(event) {
+            },function(event){
+        });
+        
+        $(window).scroll(function() {
+            position();
+        });
+        
+        $(window).resize(function() {
+            position();
+        });
+        $('header').on('transitionend', function() {
+            position();
+        });
+    }
+        
+    hover(target) {
+        let $hoverTarget = $(target);
+        let rolloverClass = 'hover';
+        $hoverTarget.hover(
+        (event) => {
             $(event.currentTarget).addClass(rolloverClass);    
         },
         (event) => {

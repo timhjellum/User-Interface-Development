@@ -3381,6 +3381,27 @@ span.line-break {
 		*/
   .ico {
     text-indent: -9999px;
+    /*
+		&.circle {
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			border: 3px solid @eia-silver;
+			margin: 0 7px 10px 7px;
+			&.total-energy-mer {
+				background: url(../includes/issuestrends/images/interactive/totalenergy_mer.png) 59% 60%;
+			}
+			&.disruptions {
+				background: url(../includes/issuestrends/images/interactive/disruptions.png) 59% 60%;
+			}
+			&.steo {
+				background: url(../includes/issuestrends/images/interactive/steo.png) 59% 60%;
+			}
+			&.aeo {
+				background: url(../includes/issuestrends/images/interactive/aeo.png) 59% 60%;
+			}
+		}
+		*/
   }
   .ico.analysis::before {
     content: ' ';
@@ -3878,25 +3899,6 @@ span.line-break {
     width: 17px;
     height: 17px;
   }
-  .ico.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    border: 3px solid #ccc;
-    margin: 0 7px 10px 7px;
-  }
-  .ico.circle.total-energy-mer {
-    background: url(../includes/issuestrends/images/interactive/totalenergy_mer.png) 59% 60%;
-  }
-  .ico.circle.disruptions {
-    background: url(../includes/issuestrends/images/interactive/disruptions.png) 59% 60%;
-  }
-  .ico.circle.steo {
-    background: url(../includes/issuestrends/images/interactive/steo.png) 59% 60%;
-  }
-  .ico.circle.aeo {
-    background: url(../includes/issuestrends/images/interactive/aeo.png) 59% 60%;
-  }
   /*
 		&.telephone {
 			background-image: url(../images/icons/phone-icon.jpg);
@@ -4044,22 +4046,28 @@ span.line-break {
   .energy-education .ico.energy-education.faq::before {
     background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-faqs%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Cpath%20d%3D%22M4,16.74A13.56,13.56,0,0,1,5.15,11,12.88,12.88,0,0,1,8.3,6.7,13.67,13.67,0,0,1,13,4a17.2,17.2,0,0,1,5.68-.93A17.19,17.19,0,0,1,24.32,4,13.66,13.66,0,0,1,29,6.7,12.88,12.88,0,0,1,32.12,11a13.54,13.54,0,0,1,1.17,5.74,13.55,13.55,0,0,1-1.17,5.74A12.91,12.91,0,0,1,29,26.78a13.62,13.62,0,0,1-4.65,2.69,17.14,17.14,0,0,1-5.68.93A17.15,17.15,0,0,1,13,29.47,13.63,13.63,0,0,1,8.3,26.78a12.92,12.92,0,0,1-3.15-4.3A13.57,13.57,0,0,1,4,16.74ZM36,30.83q-1.11,1.42-2,2.57a10.56,10.56,0,0,1-2,1.92,8.24,8.24,0,0,1-2.44,1.19,11.5,11.5,0,0,1-3.31.41,9.3,9.3,0,0,1-2.79-.41,17.39,17.39,0,0,1-2.59-1.05q-1.27-.63-2.52-1.39t-2.51-1.39a16.74,16.74,0,0,0-2.63-1,9.66,9.66,0,0,0-2.83-.42,5.58,5.58,0,0,0-1.86.32,12.61,12.61,0,0,0-1.74.75L6.2,31.66a10.65,10.65,0,0,1,2.67-1.25,10.49,10.49,0,0,1,3-.38,15.32,15.32,0,0,1,4.38.65q2.2,0.65,4.3,1.43t4.06,1.41a11.9,11.9,0,0,0,3.66.63,9,9,0,0,0,2.26-.26,6.63,6.63,0,0,0,1.82-.77,8.67,8.67,0,0,0,1.56-1.25,19.19,19.19,0,0,0,1.49-1.68ZM8.18,16.74a15.06,15.06,0,0,0,.71,4.63A12.07,12.07,0,0,0,11,25.27,10.14,10.14,0,0,0,14.24,28a9.38,9.38,0,0,0,4.4,1A9.38,9.38,0,0,0,23,28a10.17,10.17,0,0,0,3.29-2.69,12.1,12.1,0,0,0,2.06-3.9,15.45,15.45,0,0,0,0-9.27,12.13,12.13,0,0,0-2.06-3.9A10.16,10.16,0,0,0,23,5.51a9.36,9.36,0,0,0-4.4-1,9.36,9.36,0,0,0-4.4,1A10.13,10.13,0,0,0,11,8.21a12.1,12.1,0,0,0-2.06,3.9A15.06,15.06,0,0,0,8.18,16.74Z%22%20fill%3D%22%23003C57%22/%3E%3C/svg%3E') no-repeat center center;
     content: ' ';
-    height: 55px;
-    width: 55px;
+    height: 70px;
+    width: 80px;
     display: block;
     border: 1px solid #5d9732;
     border-radius: 100%;
     background-size: 68%;
+    background-size: 90%;
+    border: none;
+    margin: -6px 0 0 -12px;
   }
   .energy-education .ico.energy-education.petroleum::before {
     background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-petroleum%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Cpath%20id%3D%22icon-petroleum-2%22%20data-name%3D%22icon-petroleum%22%20d%3D%22M20,2.46a47.2,47.2,0,0,1,4.9.24,26.16,26.16,0,0,1,4,.7,11.33,11.33,0,0,1,2.69,1,1.58,1.58,0,0,1,1,1.24,1.58,1.58,0,0,1-1,1.24,11.38,11.38,0,0,1-2.69,1,26,26,0,0,1-4,.7,46.65,46.65,0,0,1-4.9.24,46.61,46.61,0,0,1-4.9-.24,26,26,0,0,1-4-.7,11.39,11.39,0,0,1-2.69-1,1.58,1.58,0,0,1-1-1.24,1.58,1.58,0,0,1,1-1.24,11.34,11.34,0,0,1,2.69-1,26.07,26.07,0,0,1,4-.7A47.17,47.17,0,0,1,20,2.46ZM8.27,9.3a24.25,24.25,0,0,0,5.29,1.39,40.37,40.37,0,0,0,6.32.48,43,43,0,0,0,6.32-.45A21.25,21.25,0,0,0,31.49,9.3v8.47A1.66,1.66,0,0,1,32.58,19a1.51,1.51,0,0,1-1,1.15,10.74,10.74,0,0,1-2.69.94,33,33,0,0,1-4,.64,46.94,46.94,0,0,1-4.9.24,46.9,46.9,0,0,1-4.9-.24,32.85,32.85,0,0,1-4-.64,10.75,10.75,0,0,1-2.69-.94,1.51,1.51,0,0,1-1-1.15,1.35,1.35,0,0,1,.85-1.09V9.3ZM31.49,22.42V33.37a1.66,1.66,0,0,1,1.09,1.21,1.51,1.51,0,0,1-1,1.15,10.81,10.81,0,0,1-2.69.94,33,33,0,0,1-4,.63,46.68,46.68,0,0,1-4.9.24,46.65,46.65,0,0,1-4.9-.24,32.88,32.88,0,0,1-4-.63,10.82,10.82,0,0,1-2.69-.94,1.51,1.51,0,0,1-1-1.15,1.46,1.46,0,0,1,.85-1.09V22.42a24.19,24.19,0,0,0,5.29,1.39,40.12,40.12,0,0,0,6.32.48,43.05,43.05,0,0,0,6.32-.45A21.21,21.21,0,0,0,31.49,22.42Z%22%20fill%3D%22%23bd732a%22/%3E%3C/svg%3E') no-repeat center center;
     content: ' ';
-    height: 55px;
-    width: 55px;
+    height: 70px;
+    width: 80px;
     display: block;
     border: 1px solid #5d9732;
     border-radius: 100%;
     background-size: 68%;
+    background-size: 90%;
+    border: none;
+    margin: -6px 0 0 -18px;
   }
   /*-Search Icon Mobile--------------------------*/
   .search .ico-menu.search::before {
@@ -6087,6 +6095,7 @@ span.line-break {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
+    width: 16.666667%;
   }
   .l-narrow-col {
     -webkit-box-flex: 0;
@@ -6142,8 +6151,8 @@ span.line-break {
     max-width: 75%;
   }
   .l-full-width-col {
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
+    width: 100%;
   }
   .l-row {
     padding-left: 22px;
@@ -6155,18 +6164,23 @@ span.line-break {
   .l-row > div:last-child {
     padding-right: 22px;
   }
+  .l-row > div.l-full-width-col {
+    padding: 0;
+    width: 100%;
+  }
+  .l-row > div.l-full-width-col:last-child {
+    padding: 0;
+  }
+  .l-row > div .l-row {
+    padding: 0;
+    width: 100%;
+  }
   .l-row.header {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     width: 100%;
   }
   .l-row.header .l-full-width-col {
-    padding-right: 0;
-  }
-  .l-row .l-row,
-  .l-row .l-full-width-col {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     width: 100%;
   }
 }
@@ -6644,6 +6658,8 @@ font-size: 1.313rem; // 21 pixels
 font-size: 1.375rem; // 22 pixels
 font-size: 1.438rem; // 23 pixels
 font-size: 1.500rem; // 24 pixels
+
+font-size: 1.625rem; // 26px pixels
 */
 @media (min-width: 1px) {
   .content-container {
@@ -6704,10 +6720,13 @@ font-size: 1.500rem; // 24 pixels
     font-weight: normal;
     color: #333;
     font-weight: 700;
+    padding: 0;
+    margin: 10px 0 0;
   }
   .content-container ul li.foot a {
     display: block;
     color: #189bd7;
+    font-size: .8125rem;
   }
   .content-container ul li.foot a:after {
     content: "\00a0\203A";
@@ -6969,7 +6988,7 @@ font-size: 1.500rem; // 24 pixels
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    font-size: 0.9756rem;
+    font-size: 97.56rem;
     line-height: 150%;
   }
   .standard-container ul li.head {
@@ -6982,7 +7001,7 @@ font-size: 1.500rem; // 24 pixels
     font-weight: normal;
     color: #333;
     font-weight: 700;
-    font-size: 1.0125rem;
+    font-size: 126.63rem;
     padding: 0;
     margin: 0;
     text-transform: uppercase;
@@ -6999,7 +7018,7 @@ font-size: 1.500rem; // 24 pixels
     font-size: 0.813rem;
   }
   .standard-container ul li.head h2 {
-    font-size: 0.750rem;
+    font-size: 0.938rem;
   }
 }
 @media (min-width: 1px) {
@@ -7523,41 +7542,47 @@ font-size: 1.500rem; // 24 pixels
 }
 h1 {
   display: block;
-  font-size: 26px;
-  border-bottom: solid 1px #dadada;
-  padding-bottom: 6px;
-  padding-top: 16px;
+  font-size: 1.625rem;
+  border-bottom: solid 1px #d4d4d4;
+  padding: 1em 0 6px;
+  margin: 0 0 22px 0;
   clear: both;
 }
-.rpt_category.active,
-.rpt_category:hover {
-  margin: 0px;
-  padding: 0px;
-  color: #189bd7;
-  border-bottom: 2px solid #189bd7;
-}
-.v_divider {
-  font-size: 14pt;
-  color: #ccc;
-  line-height: 1.0em;
-}
-.rpt_category {
-  margin: 0px;
-  padding: 0px;
-  font-size: 11pt;
-  font-weight: normal;
-  color: #999;
-  cursor: pointer;
-  text-transform: uppercase;
-}
 @media (min-width: 1px) {
+  #overviewSideNavOptions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 0.938rem;
+    color: #999;
+    text-transform: uppercase;
+  }
+  #overviewSideNavOptions .rpt_category {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  #overviewSideNavOptions .rpt_category.active {
+    color: #189bd7;
+    border-bottom: 2px solid #189bd7;
+  }
+  #overviewSideNavOptions .rpt_category.hover {
+    color: #189bd7;
+    border-bottom: 2px solid #189bd7;
+  }
+  #overviewSideNavOptions .v_divider {
+    font-size: 0.875rem;
+    color: #ccc;
+    line-height: 1.0em;
+  }
   ul.analysis-projections {
     width: 100%;
     display: table;
     clear: both;
-    margin-bottom: .75em;
+    margin-bottom: 2em;
   }
   ul.analysis-projections li {
+    display: table;
     color: #333;
     margin: 0;
     padding: 0;
@@ -7602,11 +7627,14 @@ h1 {
   ul.analysis-projections li > div span.tag-list a {
     color: #189bd7;
   }
-  ul.analysis-projections li > div span.tag-list a.capsule::after {
-    color: #333;
-    content: ", ";
+  ul.analysis-projections li > div span.tag-list a.capsule {
+    margin: 0 0 0 6px;
   }
-  ul.analysis-projections li > div span.tag-list a:last-child::after {
+  ul.analysis-projections li > div span.tag-list a.capsule:after {
+    color: #333;
+    content: ",";
+  }
+  ul.analysis-projections li > div span.tag-list a.capsule:last-child:after {
     content: "";
   }
   ul.analysis-projections li > div span.tag-list a.show-more-tags {
@@ -7614,20 +7642,19 @@ h1 {
     font-weight: 700;
     background-color: #dff2fb;
     padding: 0 4px;
+    margin: 0 0 0 6px;
   }
   ul.analysis-projections li > div span.tag-list .more-tags {
     display: none;
   }
-  ul.analysis-projections li > div span.tag-list.show-more a .show-more-tags {
+  ul.analysis-projections li > div span.tag-list.show-more a.show-more-tags {
     display: none;
   }
   ul.analysis-projections li > div span.tag-list.show-more .more-tags {
     display: inline;
   }
   ul.analysis-projections li.foot {
-    float: left;
-    font-size: 1rem;
-    width: 100%;
+    margin: 8px 0 0 0;
   }
   ul.analysis-projections li.foot a {
     font-weight: 600;
@@ -7691,79 +7718,89 @@ h1 {
 }
 */
 @media (min-width: 1px) {
-  .visualizations ul {
+  ul.visualizations {
     text-align: center;
-    margin: 1em 0 3em;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 3em;
+    width: 100%;
+    display: table;
   }
-  .visualizations ul li.circle_ng_navigator {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nat_gas_nav.png') 59% 60%;
-  }
-  .visualizations ul li.circle_ng_map {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nat_gas_map.png') 59% 60%;
-  }
-  .visualizations ul li.circle_ng_query {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nat_gas_query.png') 59% 60%;
-  }
-  .visualizations ul li.circle_pet_map {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/petroleum_map.png') 59% 60%;
-  }
-  .visualizations ul li.circle_fossil_fuel {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/fossil_fuel_map.png') 59% 60%;
-  }
-  .visualizations ul li.circle_disruptions {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/disruptions.png') 59% 60%;
-  }
-  .visualizations ul li.circle_steo {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/steo.png') 59% 60%;
-  }
-  .visualizations ul li.circle_radio {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/radio.png') 59% 60%;
-  }
-  .visualizations ul li.circle_totalenergy_mer {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/totalenergy_mer.png') 59% 60%;
-  }
-  .visualizations ul li.circle_elec_data {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/elec_data_browse.png') 59% 60%;
-  }
-  .visualizations ul li.circle_coal_data {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/coal_data_browse.png') 59% 60%;
-  }
-  .visualizations ul li.circle_renew_data {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/renew_plant_map.png') 59% 60%;
-  }
-  .visualizations ul li.circle_crude_import_data {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/crude_import_tool.png') 59% 60%;
-  }
-  .visualizations ul li.circle_aeo {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/aeo.png') 59% 60%;
-  }
-  .visualizations ul li.circle_video {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/video.png') 59% 60%;
-  }
-  .visualizations ul li.circle_nuclear_outages {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/nuclear_outages2.png') 59% 60%;
-  }
-  .visualizations ul li.circle_afv {
-    background: url('https://www.eia.gov/global/includes/issuestrends/images/interactive/afv.png') 59% 60%;
-  }
-  .visualizations ul li.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    border: 3px solid #ccc;
-    margin: auto;
-    margin-bottom: 10px;
-  }
-  .visualizations ul li.links {
-    font-size: 13px;
+  ul.visualizations li h3 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
     font-weight: 700;
+    display: block;
+    font-size: 0.813rem;
     color: #189bd7;
   }
-}
-@media (min-width: 956px) {
-  .visualizations li {
-    font-size: 13px;
-    line-height: 1.313em;
+  ul.visualizations li h3 a:hover {
+    text-decoration: underline;
+  }
+  div {
+    /*
+        &.circle {
+            width:100px;
+            height:100px;
+            border-radius:100px;
+            border: 3px solid #cccccc;
+            margin: auto;
+            margin-bottom: 10px;
+            &.nine-thirty {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/nine-thirty.png) 59% 60%;}
+            &.aeo {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/aeo.png) 59% 60%;}
+            &.afv {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/afv.png) 59% 60%;}
+            &.afv-orig {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/afv-orig.png) 59% 60%;}
+            &.api {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/api.png) 59% 60%;}
+            &.bulk-download {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/bulk-download.png) 59% 60%;}
+            &.calc {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/calc.png) 59% 60%;}
+            &.coal-data-browser {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/coal-data-browser.png) 59% 60%;}
+            &.coal-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/coal-infrastructure-map.png) 59% 60%;}
+            &.crude-oil-import-data-browser {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/crude-import-tool.png) 59% 60%;}
+            &.crude-oil-import-tool {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/crude-oil-import-tool.png) 59% 60%;}
+            &.disruptions {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/disruptions.png) 59% 60%;}
+            &.electricity-data-browser {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electric-data-browser.png) 59% 60%;}
+            &.electric-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electric-infrastructure-map.png) 59% 60%;}
+            &.electricity-infrastructure {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electricity-infrastructure.jpg) 59% 60%;}
+            &.electric-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electricity-map.jpg) 59% 60%;}
+            &.embed {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/embed.png) 59% 60%;}
+            &.energy-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/energy-infrastructure-map.png) 59% 60%;}
+            &.excel {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/excel.png) 59% 60%;}
+            &.fossil-fuel {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/fossil-fuel-map.png) 59% 60%;}
+            &.google-sheets {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/google-sheets.png) 59% 60%;}
+            &.ieo {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/ieo.png) 59% 60%;}
+            &.ies {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/ies.png) 59% 60%;}
+            &.international {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/international.png) 59% 60%;}
+            &.natural-gas-navigator {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/natural-gas-nav.png) 59% 60%;}
+            &.natural-gas-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/natural-gas-map.png) 59% 60%;}
+            &.natural-gas-query {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/natural-gas-query.png) 59% 60%;}
+            &.nuclear-outages-v1 {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/nuclear-outages-v1.png) 59% 60%;}
+            &.nuclear-outages-v2 {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/nuclear-outages-v2.png) 59% 60%;}
+            &.petroleum-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/petroleum-map.png) 59% 60%;}
+            &.petroleum-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/petroleum-infrastructure-map.png) 59% 60%;}
+            &.placeholder {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/placeholder.png) 59% 60%;}
+            &.play {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/play.png) 59% 60%;}
+            &.radio {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/radio.png) 59% 60%;}
+            &.renewables-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/renewables-map.jpg) 59% 60%;}
+            &.renewables-plant-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/renewables-plant-map.png) 59% 60%;}
+            &.steo {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/steo.png) 59% 60%;}
+            &.total-energy-mer {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/total-energy-mer.png) 59% 60%;}
+            &.us {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/us.png) 59% 60%;}
+            &.video {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/video.png) 59% 60%;}
+            &.wind-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/wind-map.png) 59% 60%;}
+        }
+        */
+  }
+  div.circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px auto;
+    display: block;
+  }
+  div.circle img {
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    margin-left: -3px;
   }
 }
 /* sliders */
@@ -7970,17 +8007,17 @@ h1 {
 }
 @media (min-width: 1px) {
   .slider-multi-header {
-    padding: 0 0 6px 0;
-    margin: 2em 0 .5em 0;
+    padding: 0;
+    margin: 2em 0 0 0;
     width: 100%;
-    border-bottom: solid 1px #668393;
     display: table;
   }
   .slider-multi {
-    margin: 8px 0 1.625em 0;
+    margin: 2px 0 1.625em 0;
     width: 100%;
     border-top: 1px solid #dadada;
-    padding: 12px 0 0 0;
+    border-bottom: 1px solid #668393;
+    padding: 12px 0 16px 0;
     clear: both;
   }
   .slider-multi .slider-multi-wrapper {
@@ -8059,11 +8096,12 @@ h1 {
 }
 @media (min-width: 956px) {
   .slider-multi-header {
-    margin: 2em 22px .5em 22px;
+    margin: 2em 22px 0 22px;
     width: 912px;
   }
   .slider-multi-header .left {
     float: left;
+    margin: 0 0 0 0;
   }
   .slider-multi-header .left h2 {
     font-size: 1.625rem;
@@ -8076,15 +8114,16 @@ h1 {
   }
   .slider-multi-header .right {
     float: right;
+    margin: 0 0 0 0;
   }
   .slider-multi-header .right .slider-multi-pager {
     margin: 6px 0 0 0;
-    border: 3px solid red;
     display: table;
   }
   .slider-multi-header .right .slider-multi-pager .bx-pager.bx-default-pager .bx-pager-item {
     position: relative;
     float: left;
+    margin: 0 0 0 0;
     display: block;
     z-index: 10;
   }
@@ -8119,7 +8158,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    border: 3px solid red;
     display: table;
     font-size: 0.750rem;
     padding: 0;
@@ -10225,4 +10263,53 @@ body > .navbar-collapse.collapse {
     border-bottom: 3px solid #333 !important;
     display: table;
   }
+}
+/*
+ul,
+ul li,
+ul ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
+*/
+.navigation {
+  clear: both;
+  margin: 25px 0;
+}
+.navigation > li {
+  width: 100%;
+  display: table;
+  padding: 5px 10px;
+}
+.navigation label {
+  cursor: pointer;
+}
+.navigation [type=radio] {
+  display: none;
+}
+.navigation ul {
+  width: 100%;
+  opacity: 0;
+  max-height: 0;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+}
+.navigation [type=radio]:checked ~ label {
+  z-index: 2;
+}
+.navigation [type=radio]:checked ~ label ~ ul {
+  z-index: 1;
+  opacity: 1;
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+}
+.issue-trends-style-guide div {
+  float: left;
+  margin: 15px;
+}
+code {
+  white-space: nowrap;
+  overflow-x: scroll;
 }
