@@ -13,19 +13,12 @@
 	"scenarios": [
 		{
 			"label": "Petroleum Containers",
-			"url": "https://www.eia.gov/css_rehab/archive/petroleum/index.html",
+			"url": "https://www.eia.gov/css_rehab/archive/index.php",
 			"hideSelectors": [],
 			"removeSelectors": [
 			],
 			"selectors": [
-				".feature-section",
-				".title",
-				".subnav",
-				".basic_table",
-				"#overviewSideNavOptions",
-				".analysis-projections",
-				".visualizations",
-				".ed_section"
+				".features"
 			],
 			"readyEvent": null,
 			"delay": 0,
