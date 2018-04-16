@@ -7,13 +7,18 @@
             margin: 0 0 3em;
             width: 100%;
             display: table;
+            .l-col {
+                padding: 1.2em;
+            }
             li {
                 h3 {
+                    margin-top: 12px;
                     a {
                         .font;
                         .bold;
                         display: block;
                         font-size: 0.813rem; // 13 pixels
+                        line-height: 1.4em;
                         color: @eia-blue;
                         &:hover {
                             text-decoration: underline;
@@ -88,6 +93,76 @@
         */
     }                
 }
+@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
+    ul {
+        &.visualizations {
+            .l-col {
+                padding: 20px;
+            }
+        }
+	}
+}
+
+@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
+    ul {
+        &.visualizations {
+            .l-col {
+                padding: 20px;
+            }
+            .l-col {
+                &:nth-child(3) {
+                    clear: right;//border: 3px solid red;        
+                }
+            }
+            /*
+            .l-col {
+                &:nth-child(4) {
+                    clear: right;
+                }
+            }
+
+            .l-col {
+                &:nth-child(1) {
+                    clear: right;
+                }
+            }
+            .l-col {
+                &:nth-child(2) {
+                    clear: right;        
+                }
+            }
+            .l-col {
+                &:nth-child(3) {
+                    border: 1px solid blue;
+                }
+            }
+            .l-col {
+                &:nth-child(4) {
+                    clear: right;
+                }
+            }
+            .l-col {
+                &:nth-child(5) {
+                    clear: right;
+                }
+            }
+            .l-col {
+                &:nth-child(6) {
+                    clear: right;
+                }
+            }
+            */
+        }
+    }
+}
+
+
+
+
+
+
+
+
 
 @media @laptop {
     ul {

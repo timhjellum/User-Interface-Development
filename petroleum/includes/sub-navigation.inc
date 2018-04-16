@@ -9,7 +9,7 @@
             <div class="left">
                 <ul class="left-nav">
                     <li class="<?php if ( $locale == "overview") {?>active<?php } ?>"><a href="/petroleum/">Overview</a></li>
-                    <li class="dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/petroleum/data.php" class="dropbtn">Data<i class="arrow-down"></i></a>
+                    <li class="dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/petroleum/data.php" class="dropbtn">Data<i class="ico sort-up"></i></a>
                         <div class="dropdown-data-content dropdown-content">
                             <ul>
                                 <li><a href="/petroleum/data.cfm#summary">Summary</a></li>
@@ -23,7 +23,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/petroleum/reports.cfm" class="dropbtn">Analysis & Projections<i class="arrow-down"></i></a>
+                    <li class="dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/petroleum/reports.cfm" class="dropbtn">Analysis & Projections<i class="ico sort-up"></i></a>
                         <div class="dropdown-analysis-projections-content dropdown-content">
                             <div class="l-row">
                                 <div class="l-two-third-col"><h4>Major Topics</h4></div>

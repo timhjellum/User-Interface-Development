@@ -45,8 +45,6 @@ $slideSevDescription = "";
 ?>
 
 <?php $arrow = ""; ?>
-/*  &#8250; */
-
 <div class="l-row header">
 	<div class="slider-home-top"></div>
     <div class="slider-home">

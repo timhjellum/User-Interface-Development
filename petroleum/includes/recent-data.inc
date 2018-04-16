@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="content-container basic-table">
     <h1>Recent Data</h1>
     <?php /* replace this with something local in the include directory, or with inline code*/ ?>
     <?php 

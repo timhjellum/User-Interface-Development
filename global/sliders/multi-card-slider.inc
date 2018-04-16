@@ -2,18 +2,20 @@
 $l2dir = str_replace ("index.php", "", $_SERVER['SCRIPT_NAME']); ?>
 
 
-<div class="l-row slider-multi-header">
+<div class="l-row header">
     <div class="l-full-width-col">
-        <div class="left">
-            <h2>Current Issues &amp; Trends</h2>
-        </div>
-        <div class="right">
-            <a href="<?php echo $l2dir . 'issuestrends/'?>" class="see-all">See all</a>
-            <div class="slider-multi-pager"></div>
+        <div class="slider-multi-header">
+            <div class="left">
+                <h2>Current Issues &amp; Trends</h2>
+            </div>
+            <div class="right">
+                <a href="<?php echo $l2dir . 'issuestrends/'?>" class="see-all">See all</a>
+                <div class="slider-multi-pager"></div>
+            </div>
         </div>
     </div>    
 </div>
-<div class="l-row">
+<div class="l-row header">
     <div class="l-full-width-col">
         <div class="slider-multi">
             <ul>
@@ -52,6 +54,6 @@ for($j=0; $j < count($IssuesTrendsQuery) && $displayedCards < $cardLimit; $j++) 
 <?php } } ?>
             </ul>
         </div>
-    </div>
+    </div>    
 </div>
 <?php /* include "it_displaytags.inc"; */ ?>

@@ -79,6 +79,60 @@
             }
         }
     }
+
+
+
+
+
+
+
+
+
+    // from
+    // -------------
+    // | 1 | 2 | 3 |
+    // -------------
+    // | 4 | 5 | 6 |
+    // -------------
+    // to
+    // ---------
+    // | 1 | 2 |
+    // ---------
+    // | 3 | 4 |
+    // ---------
+    // | 5 | 6 |
+    // ---------
+
+    .l-col {
+        &:nth-child(1) {
+            clear: left;        
+        }
+    }
+    .l-col {
+        &:nth-child(2) {
+            clear: right;        
+        }
+    }
+    .l-col {
+        &:nth-child(3) {
+            clear: left;        
+        }
+    }
+    .l-col {
+        &:nth-child(4) {
+            clear: right;        
+        }
+    }
+    .l-col {
+        &:nth-child(5) {
+            clear: left;        
+        }
+    }
+    .l-col {
+        &:nth-child(6) {
+            clear: right;        
+        }
+    }
 }
 
 @media @tablet {
@@ -202,6 +256,50 @@
             }
         }
     }
+
+
+
+    // from
+    // -------------------------
+    // | 1 | 2 | 3 | 4 | 5 | 6 |
+    // -------------------------
+    // to
+    // -------------
+    // | 1 | 2 | 3 |
+    // -------------
+    // | 4 | 5 | 6 |
+    // -------------
+    
+    .l-col {
+        &:nth-child(1) {
+            clear: left;        
+        }
+    }
+    .l-col {
+        &:nth-child(2) {
+            clear: none;        
+        }
+    }
+    .l-col {
+        &:nth-child(3) {
+            clear: right;        
+        }
+    }
+    .l-col {
+        &:nth-child(4) {
+            clear: left;        
+        }
+    }
+    .l-col {
+        &:nth-child(5) {
+            clear: none;        
+        }
+    }
+    .l-col {
+        &:nth-child(6) {
+            clear: right;        
+        }
+    }
 }
 @media @laptop {
     .l-narrow-col {
@@ -240,4 +338,52 @@
             }
         }
     }
+
+    // from
+    // -------------
+    // | 1 | 2 | 3 |
+    // -------------
+    // | 4 | 5 | 6 |
+    // -------------
+    // to
+    // -------------------------
+    // | 1 | 2 | 3 | 4 | 5 | 6 |
+    // -------------------------
+        
+    .l-col {
+        &:nth-child(1) {
+            clear: none        
+        }
+    }
+    .l-col {
+        &:nth-child(3) {
+            clear: none;        
+        }
+    }
+    .l-col {
+        &:nth-child(4) {
+            clear: none;        
+        }
+    }
+    .l-col {
+        &:nth-child(6) {
+            clear: none;        
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

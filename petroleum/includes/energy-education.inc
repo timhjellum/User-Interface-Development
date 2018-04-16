@@ -1,7 +1,7 @@
 <div class="l-row">
     <div class="l-full-width-col">
         <h1>Energy Education</h1>
-        <div class="l-row content-container energy-education">
+        <div class="content-container energy-education">
             <div class="l-one-third-col">
                 <i class="ico energy-education petroleum"></i>
                 <ul>

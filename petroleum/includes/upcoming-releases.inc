@@ -1,30 +1,31 @@
 <?php
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
+/* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/";
-$OneLabel = "Abcdefghijklmnopqrstuvwxyz";
-$OneDate = "March 7, 2018";
+$OneURL = "/petroleum/gasdiesel/";
+$OneLabel = "Gasoline and Diesel Fuel Update";
+$OneDate = "5:00 p.m. ET, Monday";
 
-$TwoURL = "/";
-$TwoLabel = "Abcdefghijklmnopqrstuvwxyz";
-$TwoDate = "February 13, 2018";
+$TwoURL = "/petroleum/supply/weekly/";
+$TwoLabel = "Weekly Petroleum Status Report";
+$TwoDate = "10:30 a.m. ET, Wednesday";
 
-$ThrURL = "/";
-$ThrLabel = "Abcdefghijklmnopqrstuvwxyz";
-$ThrDate = "March 7, 2018";
+$ThrURL = "/petroleum/heatingoilpropane/";
+$ThrLabel = "Heating Oil and Propane Update:";
+$ThrDate = "After 1:00 p.m. ET, Wednesday (Oct - March only)";
 
-$FouURL = "/";
-$FouLabel = "Abcdefghijklmnopqrstuvwxyz";
-$FouDate = "February 13, 2018";
+$FouURL = "/petroleum/weekly/";
+$FouLabel = "This Week in Petroleum";
+$FouDate = "After 1:00 p.m. ET, Wednesday";
 
 $FivURL = "/";
-$FivLabel = "Abcdefghijklmnopqrstuvwxyz";
-$FivDate = "March 7, 2018";
+$FivLabel = "";
+$FivDate = "";
 
 $SixURL = "/";
-$SixLabel = "Abcdefghijklmnopqrstuvwxyz";
-$SixDate = "February 13, 2018";
+$SixLabel = "";
+$SixDate = "";
 
 ?>
 <?php
@@ -40,7 +41,7 @@ $SixDate = "February 13, 2018";
         <li><a href='<?=$FouURL?>' title='<?=$FouLabel?>'><?=$FouLabel?></a>: <span class="date"><?=$FouDate?></span></li>
 		<li><a href='<?=$FivURL?>' title='<?=$FivLabel?>'><?=$FivLabel?></a>: <span class="date"><?=$FivDate?></span></li>
 		<li><a href='<?=$SixURL?>' title='<?=$SixLabel?>'><?=$SixLabel?></a>: <span class="date"><?=$SixDate?></span></li>
-        <li class="foot"><a href="/reports/upcoming.cfm">See all upcoming</a></li>
+        <li class="foot"><a href="/reports/upcoming.php">See all upcoming</a></li>
 	</ul>
 </div>
 

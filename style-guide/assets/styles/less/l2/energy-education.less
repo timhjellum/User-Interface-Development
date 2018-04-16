@@ -2,58 +2,90 @@
     div {
         .energy-education {
             margin: 0 0 3em;
-            width: 100%;
+            // width: 100%;
             display: table;
             .l-one-third-col {
-                padding-right: 0;
-            }
-            img {
-                float: left;
-                margin: 0 0 0 0;
-                width: 80px;
-                height: 94px;
-            }
-            i {
-                //float: left;
-                margin: 0 0 0 0;
-                width: 60px;
-                height: 60px;
-            }
-            ul {
-                display: table;
-                margin: 0 0 1em 2em;
-                li {
-                    &.head {
-                        padding: 0 0 2px 0;
-                        margin-top: 4px; 
-                        h2 {
-                            font-size: .9375rem * 120%; //15px
+                padding: 1em 0 1.5em 0;
+                ul {
+                    //width: 100%;
+                    clear: both;
+                    display: table;
+                    margin: 1em 0 1em 0;
+                    li {
+                        &.head {
+                            padding: 0 0 2px 0;
+                            margin-top: 4px; 
+                            h2 {
+                                font-size: .9375rem * 1.20%; //15px
+                                a {
+                                    .font;
+                                    .bold;
+                                    color: #265281;
+                                    line-height: 1.2em;
+                                    text-transform: uppercase;               
+                                }
+                            }
+                        }
+                        &.sub-head {
+                            .font;
+                            font-size: 1rem;
+                            font-style: italic;
+                            line-height: 1em; //18px;
                             a {
-                                .font;
-                                .bold;
-                                color: #265281;
-                                line-height: 1.2em;
-                                text-transform: uppercase;               
+                                color: @eia-dark-grey;
+                            }
+                        }
+                        &.foot {
+                            font-size: .750rem; // 12px
+                            margin-top: 8px;
+                            line-height: 1.375em; // 22px
+                            a {
+                                &:after { 
+                                    content:"\00a0\203A";
+                                }  
                             }
                         }
                     }
-                    &.sub-head {
-                        .font;
-                        font-size: 1rem;
-                        font-style: italic;
-                        line-height: 1em; //18px;
-                        a {
-                            color: @eia-dark-grey;
+                }
+            }
+            img {
+                margin: 0 auto 0 auto;
+                width: 80px;
+                height: 94px;
+                float: none;
+                clear: both;
+            }
+            i {
+                margin: 0 auto 1em auto;
+                width: 100%;
+                height: 100px;
+                &.ico {
+                    &.energy-education {
+                        display: block;
+                        float: none;
+                        text-align: center;
+                        //float: left;
+                        &.faq {
+                            &::before {
+                                .icon-faq(@fill-color: @eia-darker-blue, @fill-color-lt: @eia-light-blue);
+                                //.nav-bar-icon(80px, 70px);
+                                .nav-bar-icon(107px, 107px);
+                                border: none !important;
+                                background-size: 90%;
+                                border: none;
+                                margin: 0 auto 0 auto;
+                            }
                         }
-                    }
-                    &.foot {
-                        font-size: .750rem; // 12px
-                        margin-top: 8px;
-                        line-height: 1.375em; // 22px
-                        a {
-                            &:after { 
-                                content:"\00a0\203A";
-                            }  
+                        &.petroleum {
+                            &::before {
+                                .icon-petroleum(@fill-color: @eia-tan);
+                                //.nav-bar-icon(80px, 70px);
+                                .nav-bar-icon(107px, 107px);
+                                border: none !important;
+                                background-size: 90%;
+                                border: none;
+                                margin: 0 auto 0 auto;
+                            }
                         }
                     }
                 }
@@ -61,37 +93,97 @@
         }
     }
 }
+
+@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
+    div {
+        .energy-education {
+            .l-one-third-col {
+                padding: 1em 0 1.5em 0;
+                ul {
+                    position: absolute;
+                    margin: 0 0 0 85px;
+                }
+                &:last-child {
+                    ul {
+                        margin: 0 0 0 85px;
+                    }
+                }
+            }
+            img {
+                float: left;
+                margin: 0 2em 0 0;
+                width: 80px;
+                height: 94px;
+            }
+            i {
+                float: left;
+                width: 80px;
+                height: 60px;
+                margin: 0 2em 0 0;
+                &.ico {
+                    &.energy-education {
+                        float: left;
+                        &.faq {
+                            &::before {
+                                margin: -6px 0 0 -12px;
+                                .nav-bar-icon(80px, 70px);
+                            }
+                        }
+                        &.petroleum {
+                            &::before {
+                                margin: -6px 0 0 -18px;
+                                .nav-bar-icon(80px, 70px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media @laptop {
     div {
         &.energy-education {
-            width: 912px; // this is to make it stand alone only
+            .l-one-third-col {
+                padding: 0;
+                ul {
+                    margin: 0 0 0 65px;
+                    li {
+                        &.head {
+                            h2 {
+                                font-size: .9375rem; //15px
+                            }
+                        }
+                        &.sub-head {
+                            font-size: .8125rem; // 13px
+                            line-height: 1.5em;
+                        }
+                        &.foot {
+                            font-size: .750rem; // 12px
+                            margin-top: 8px;
+                            line-height: 1.375em; // 22px
+                        }
+                    }
+                }
+//                &:last-child {
+//                    ul {
+//                        margin: 0 0 0 85px;
+//                    }
+//                }
+            }
+            img {
+                margin: 0 0 0 0;
+            }
+            i {
+                margin: 0 0 0 0;
+            }
             .border {
                 border-left: 1px solid @eia-d4d4d4;
                 border-right: 1px solid @eia-d4d4d4;
                 padding: 0 10px;
-                display: table;
+                width: 100%;
             }      
-            ul {
-                width: 210px;
-                margin: 0 0 1em .5em;
-                float: left;
-                li {
-                    &.head {
-                        h2 {
-                            font-size: .9375rem; //15px
-                        }
-                    }
-                    &.sub-head {
-                        font-size: .8125rem; // 13px
-                        line-height: 1.5em;
-                    }
-                    &.foot {
-                        font-size: .750rem; // 12px
-                        margin-top: 8px;
-                        line-height: 1.375em; // 22px
-                    }
-                }
-            }
         }
     }
 }

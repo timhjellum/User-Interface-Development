@@ -3,14 +3,14 @@
 /* note, you must add the arrow &nbsp; */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/";
-$OneTitle = "Abcdefghijklmnopqrstuvwxyz &nbsp;";
+$OneURL = "/survey/#petroleum";
+$OneTitle = "Petroleum surveys &nbsp;";
 
-$TwoURL = "/";
-$TwoTitle = "Abcdefghijklmnopqrstuvwxyz &nbsp;";
+$TwoURL = "/survey/notice/petform806ngliquids.php";
+$TwoTitle = "Information for stakeholders of Form EIA-806 Weekly Natural Gas Liquids Report";
 
-$ThrURL = "/";
-$ThrTitle = "Abcdefghijklmnopqrstuvwxyz";
+$ThrURL = "";
+$ThrTitle = "";
 
 $FouURL = "";
 $FouTitle = "";

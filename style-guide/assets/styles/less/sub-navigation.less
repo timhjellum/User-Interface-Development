@@ -41,19 +41,40 @@
 					// sub-navigation styles
 					a {
 						padding: 6px 10px 8px 10px;
-						//font-size: 0.822em;
+						font-size: 0.822em;
 						display:inline-block;
 						height: 30px;
-
+						color: @eia-blue;
 						border-right: 1px solid #ededed;
+						i {
+							&.ico {
+								&.sort-up {
+									&::before {
+										.controls-icon(16px, 10px);
+										.icon-sort-up();
+										float: right;
+									}
+									&:hover {
+										&::before {
+											.icon-sort-up(@fill-color: @eia-black);
+										}
+									}
+								}
+							}
+						}
+
+
 						&:hover {
 							color: @eia-darker-blue;
 							i {
-								border-top: 4px solid @eia-darker-blue;
+								&.ico {
+									&.sort-up {
+										&::before {
+											.icon-sort-up(@fill-color: @eia-black);
+										}
+									}
+								}
 							}
-						}
-						i {
-							margin: 6px 0 0 6px;
 						}
 					}
 					&.active {
@@ -63,18 +84,24 @@
 						border-left: 1px solid fade(@eia-black, 45%);
 						a {
 							color: @eia-darker-blue;
+							i {
+								&.ico {
+									&.sort-up {
+										&::before {
+											.icon-sort-up(@fill-color: @eia-black);
+										}
+									}
+								}
+							}
 							&:hover {
 								color: @eia-darker-blue;
-								//background-color: @eia-blue;
 							}
 						}
 					}
 				}
-
-
 				.dropdown-data-content {
 					width: 300px;
-			}
+				}
 				.dropdown-analysis-projections-content {
 					width: 650px;
 					h4 {
@@ -166,6 +193,10 @@
 			.right;
 			a {
 				margin-right: 2.909em;
+				color: #189bd7;
+				text-decoration: none;
+				font-size: 11px;
+				font-size: 0.688rem; // 11 pixels
 				&:after {
 					content:"\00a0\203A";
 					vertical-align: 2px;

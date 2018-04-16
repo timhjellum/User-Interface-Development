@@ -99,6 +99,7 @@
 
 
 
+/*
 	.l-full-width-col {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 100%;
@@ -106,8 +107,10 @@
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
-
-	.container {
+*/
+	.container,
+	/*
+	 {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
@@ -115,31 +118,18 @@
 		max-width: 100%;
 		clear: both;
 	}
-	.l-col {
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 100%;
-		-ms-flex: 0 0 100%;
-		flex: 0 0 100%;
-		max-width: 100%;
-	}
-	.l-narrow-col,
-	// 3 or 25%
-	.l-one-third-col,
-	// 4 or one-third
-	.l-two-col,
-	// 6 or 50%
+	*/
+	.l-col,
+	.l-narrow-col,// 3 or 25%
+	.l-one-third-col,// 4 or one-third
+	.l-two-col,// 6 or 50%
 //	.l-middle-col,
 	// 6 or 50%
-	.l-split-narrow-col,
-	// 5
-	.l-split-wide-col,
-	// 7
-	.l-two-third-col,
-	// 8 or two-thirds
-	.l-main-col,
-	// 9 or 75%
-	// 12 or full
-	.l-full-width-col {
+	.l-split-narrow-col,// 5
+	.l-split-wide-col,// 7
+	.l-two-third-col,// 8 or two-thirds
+	.l-main-col,// 9 or 75%
+	.l-full-width-col { // 12 or full
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
@@ -187,15 +177,27 @@
 
 
 }
-/*
+
+
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
-	.l-outer-wrapper {
-		max-width: 599px;
-		min-width: 480px;
+	.l-col {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 50%;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+		width: 50%;
 	}
 }
-*/
+
 @media @tablet {	// mobile panorama
+
+
+
+
+
+
+	/*
 	.l-col {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 33.333333%;
@@ -217,15 +219,41 @@
 		width: 50%;
 		float: left;
 	}
+	*/
 }
-/*
+
+
+
+
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
-	.l-outer-wrapper {
-		max-width: 801px;
-		min-width: 989px;
+	.l-col {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 33.333333%;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+		width: 33.333333%;
+	}
+//	.l-one-third-col,
+	.l-two-col,
+//	.l-split-narrow-col,
+//	.l-split-wide-col,
+	.l-two-third-col {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 50%;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+		width: 50%;
+		float: left;
+		&:first-child {
+			padding: 0 22px 0 0;
+		}		
+		&:last-child {
+			padding: 0 0 0 22px;
+		}
 	}
 }
-*/
 @media @laptop {
 	body {
 		background-color: #e8ecf2;
@@ -258,7 +286,7 @@
 		}
 	}
 
-	// this is a col reset to keep all the moibile spacing from interfering with the laptop <
+	// this is a col reset to keep all the mobile spacing from interfering with the laptop <
 	.l-row.header > div,
 	.l-row.header > h1,
 	.l-row.header > h2,
@@ -384,13 +412,13 @@
 				padding-right: 22px;
 			}
 			// if full-width, remove all padding, margins and make 100%
-			&.l-full-width-col {
-				padding: 0;
-				width: 100%;
-				&:last-child {
-					padding: 0;
-				}
-			}
+//			&.l-full-width-col {
+//				padding: 0;
+//				width: 100%;
+//				&:last-child {
+//					padding: 0;
+//				}
+//			}
 			// if nested, remove all padding, margins and make 100%
 			.l-row {
 				padding: 0;

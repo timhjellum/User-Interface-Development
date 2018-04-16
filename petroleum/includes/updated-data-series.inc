@@ -3,29 +3,29 @@
 /* no need to add the  > or the &nbsp;› */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/";
+$OneURL = "/dnav/pet/pet_sum_sndw_dcus_nus_w.htm/";
 $OneLabel = "Weekly supply estimates";
-$OneDate = "4/4/2018";
+$OneDate = "March 11, 2018";
 
-$TwoURL = "/";
-$TwoLabel = "Abcdefghijklmnopqrstuvwxyz";
-$TwoDate = "4/4/2018";
+$TwoURL = "/dnav/pet/pet_pri_spt_s1_d.htm";
+$TwoLabel = "Spot prices";
+$TwoDate = "March 11, 2018";
 
-$ThrURL = "/";
-$ThrLabel = "Abcdefghijklmnopqrstuvwxyz";
-$ThrDate = "4/4/2018";
+$ThrURL = "/dnav/pet/pet_pri_fut_s1_d.htm";
+$ThrLabel = "Futures prices (NYMEX)";
+$ThrDate = "March 11, 2018";
 
-$FouURL = "";
-$FouLabel = "";
-$FouDate = "";
+$FouURL = "/dnav/pet/pet_sum_sndw_dcus_nus_w.htm";
+$FouLabel = "Weekly inputs & utilization";
+$FouDate = "March 11, 2018";
 
 $FivURL = "/";
-$FivLabel = "Abcdefghijklmnopqrstuvwxyz";
-$FivDate = "4/4/2018";
+$FivLabel = "";
+$FivDate = "";
 
 $SixURL = "/";
-$SixLabel = "Abcdefghijklmnopqrstuvwxyz";
-$SixDate = "4/4/2018";
+$SixLabel = "";
+$SixDate = "";
 
 ?>
 <?php

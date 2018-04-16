@@ -119,6 +119,7 @@ class HeaderMenu {
 		});
 	}
 	checkSize() {
+		/*
 		var viewPortWidth = window.innerWidth;
 		var viewPortHeight = window.innerHeight;
 
@@ -131,6 +132,7 @@ class HeaderMenu {
 			$('.fancybox-wrap').addClass('fancybox-mobile');
 			$('.fancybox-wrap').removeClass('fancybox-laptop');
 		}
+		*/
 	}
 }
 export default HeaderMenu;

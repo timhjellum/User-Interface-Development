@@ -19,7 +19,7 @@
 			"removeSelectors": [
 			],
 			"selectors": [
-				".subnav",
+				".content-container.standard-container",
 				".feature-section",
 				".basic_table",
 				"#overviewSideNavOptions",

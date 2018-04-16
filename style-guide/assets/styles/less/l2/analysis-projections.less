@@ -15,12 +15,11 @@
 
 
 @media @mobile {
-
     #overviewSideNavOptions {
         .font;
         font-size: 0.938rem; // 15 pixels
-        //font-size: 11pt;
-        //font-weight: normal;
+        margin-bottom: 5px;
+        display: block;
         color: @eia-light-grey;
         text-transform: uppercase;
         .rpt_category {
@@ -53,38 +52,41 @@
             li {
                 display: table;
                 color: @eia-dark-grey;
-                margin: 0;
+                margin: 9px 0 0 0;
                 padding: 0;
+                //border: 1px solid pink;
                 //font-size: .8125rem; //13px;
                 width: 100%;
                 clear: both;
 
                img {
                     float: left;
-                    width: 35px;
-                    height: 35px;
+                    width: 60px;
+                    height: 60px;
                     padding: 0;
-                    margin: 12px 16px 12px 0;
+                    margin: 0 0 12px 0;
                 }
                 &>div {
-                    width: 384px;
-                    float: left;
-                    margin: 0;
-                    padding: 9px 0 0 0;
+                    //width: 384px;
+                    //float: left;
+                    position: relative;
+                    margin: 0 0 0 75px;
+                    padding: 0;
                     .font;
-                    font-size: 12.5px;
+                    font-size: 0.750rem * 1.20%; 
+                    line-height: 1.25em;
                     h2 {
                         .font;
                         .bold;
                         margin: 0;
                         padding: 0;
                         line-height: 1.2em;
-                        margin: 0 0 2px;
                         padding: 0;
                         a {
-                            font-size: .9375rem; //15px;
+                            font-size: .9375rem * 1.20%; 
                             color: @eia-dark-blue; 
                             font-weight: bold;
+                            margin: 0 0 10px;
                         }
                     }
                     span {
@@ -136,67 +138,98 @@
                     //border-top: 8px solid red;
                     a {
                         font-weight: 600;
+                        font-size: .8125rem * 1.20%; //13px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
+    ul {
+        &.analysis-projections {
+            li {
+                //border: 1px solid yellowgreen;
+               img {
+                    width: 55px;
+                    height: 55px;
+                }
+                &>div {
+                    margin: 0 0 0 70px;
+                }
+            }
+        }
+	}
+}
+
+@media @tablet { // tablet, landscape iPad, lo-res laptops ands desktops
+    ul {
+        &.analysis-projections {
+            li {
+                //border: 1px solid greenyellow;
+               img {
+                    width: 50px;
+                    height: 50px;
+                }
+                &>div {
+                    margin: 0 0 0 65px;
+                    h2 {
+                        a {
+                            font-size: .9375rem * 1.10%;
+                            margin: 0 0 6px;
+                        }
+                    }
+                }
+                &.foot {
+                    a {
+                        font-size: .8125rem * 1.10%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
+    ul {
+        &.analysis-projections {
+            li {
+                //border: 1px solid red;
+               img {
+                    width: 40px;
+                    height: 40px;
+                }
+                &>div {
+                    margin: 0 0 0 55px;
+                }
+            }
+        }
+	}
+}
+@media @laptop { // tablet, landscape iPad, lo-res laptops ands desktops
+    ul {
+        &.analysis-projections {
+            li {
+                //border: 1px solid blue;
+               img {
+                    width: 35px;
+                    height: 35px;
+                }
+                &>div {
+                    margin: 0 0 0 51px;
+                    font-size: 0.750rem; // 12 pixels
+                    h2 {
+                        a {
+                            font-size: .9375rem; //15px;
+                            margin: 0 0 2px;
+                        }
+                    }
+                }
+                &.foot {
+                    a {
                         font-size: .8125rem; //13px;
                     }
                 }
             }
         }
     }
-
 }
-/*
-@media @mobile {
-    .analysis-projections {
-        width: 445px;
-        display: table;
-        clear: both;
-        li {
-            color: @eia-dark-grey;
-            margin: 0;
-            font-size: .8125rem; //13px;
-            &:first-child {
-                float: left;
-                width: 35px;
-                img {
-                    width: 35px;
-                    height: 35px;
-                }
-            }
-            &.header h2 {
-                width: 384px;
-                float: right;
-                a {
-                    font-size: .9375rem; //15px;
-                    color: @eia-dark-blue; 
-                    font-weight: bold;
-                }
-            }
-            &.tags {
-                width: 384px;
-                float: right;
-                a {
-                    color: @eia-blue;                
-                }
-                .date {
-                    font-style: italic;
-                }
-                span::after {
-//content: " | tags: ";
-                    padding: 0 0 0 2px;
-                    font-style: normal;
-                }
-                a.capsule::after {
-//content: ", ";
-                    color: @eia-dark-grey;
-                }
-            }
-
-            &.footer {
-                float: left;
-                width: 100%;
-
-            }
-        }
-    }
-}
-*/
