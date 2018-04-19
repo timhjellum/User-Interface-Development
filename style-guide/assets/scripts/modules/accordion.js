@@ -20,7 +20,6 @@ class Accordion {
 		this.headerExpandCollapseInitialState.removeClass('expand');
 	}
 
-
 	events() {
 		$(this.header).click(function() {
 			console.log('clicked');

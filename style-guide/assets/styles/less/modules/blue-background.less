@@ -29,32 +29,64 @@ font-size: 1.500rem; // 24 pixels
             padding: 0.938em 0.813em; // 15 13 pixels
             li {
                 .font;
-                font-size: 0.625rem * 1.50%; 
-                margin: 0 0 0.625em 0;
+                font-size: 0.750rem; // 12 pixels
+                a {
+                    display: block;
+                    color: @eia-blue;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    } 
+                }
                 &.head {
-                    padding: 0 0 0.625em 0;
-                    margin: 0 0 0.625em 0;
-                    border-bottom: 1px solid fade(@eia-black, 40%);
-                    h2  {
-                        .header-font;
-                        font-size: 1.125rem * 1.20%;
+                    h2 {
+                        border: none;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 1.000rem; // 16 pixels
+                        color: #265281;
+                        line-height: 1.3em;                        
                     }
                 }
                 &.sub-head {
-                    padding: 0;
-                    margin: 1.250em 0 4px;
-                    color: #5e625e;
-                    .bold;
-                    font-size: 0.750rem * 1.20%; 
-                }
-                &.date {
-                    font-size: 0.750rem * 1.20%; 
-                    font-style: normal;
-                    strong {
-                        font-style: normal;
+                    h3 {
+                        .font;
+                        .bold;
+                        font-size: 0.750rem; // 12 pixels
+                        //font-size: 0.875rem; // 14 pixels
+                        margin: 10px 0 1em 0;
+                        padding: 10px 0 6px 0;
+                        border-bottom: solid 1px #dadada;
+                        text-transform: uppercase;
                     }
                 }
+                &.date {
+                    font-size: 0.750rem; // 12 pixels
+                    margin: 0 0 14px 0;
+                    padding: 0 0 0 0;
+                }
             }
+
+            /*
+            h3 {
+                .font;
+                font-size: 0.625rem * 1.50%; 
+                margin: 0 0 0.625em 0;
+                padding: 0;
+                margin: 1.250em 0 4px;
+                color: #5e625e;
+                .bold;
+                font-size: 0.750rem * 1.20%;
+                a {
+                    display: block;
+                    color: @eia-blue;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    } 
+                }
+            }
+            */
         }
     }
 }
@@ -64,23 +96,27 @@ font-size: 1.500rem; // 24 pixels
 @media @laptop {
     .blue-background {
         ul {
-            li {
+            h2 {
+                padding: 0 0 5px 0;
+                margin: 0 0 5px 0;
+                font-size: 1.125rem; // 18 pixels
+            }
+            p {
+
+                font-size: 0.625rem; // 10 pixels
+            }
+            p {
+                &.p12 {
+                    font-size: 0.750rem; // 12 pixels
+                }
+
+            }
+
+            h3 {
                 font-size: 0.625rem; // 10 pixels
                 margin: 0 0 5px 0;
-                &.head {
-                    padding: 0 0 5px 0;
-                    margin: 0 0 5px 0;
-                    h2  {
-                        font-size: 1.125rem; // 18 pixels
-                    }
-                }
-                &.sub-head {
-                    margin: 10px 0 2px;
-                    font-size: 0.750rem; // 12 pixels
-                }
-                &.date {
-                    font-size: 0.750rem; // 12 pixels
-                }
+                margin: 10px 0 2px;
+                font-size: 0.750rem; // 12 pixels
             }
         }
     }

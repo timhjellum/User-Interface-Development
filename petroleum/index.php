@@ -24,9 +24,9 @@
 		<?php include('./includes/upcoming-releases.inc') ?>
 	</div>
 </div>
-<?php include('./includes/interactive-visualizations-data-multimedia.inc'); ?>
+<?php include('./includes/visualizations.inc') ?>
 <?php include('./includes/energy-education.inc'); ?>
-<?php include'css_rehab/archive/global/footer/includes/footer.inc' ?>
+<?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 </html>
 

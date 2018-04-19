@@ -20,6 +20,43 @@ node_modules/
 dist/
 beta/
 # petroleum/
+petroleum/articles
+petroleum/drilling
+petroleum/ethanolcapacity
+petroleum/gasdiesel
+petroleum/gasdiesel/includes/release-date-gdu.inc
+petroleum/heatingoilpropane
+petroleum/imports
+# petroleum/includes
+petroleum/issuestrends
+petroleum/marketing/annual/includes
+# petroleum/marketing/monthly/includes/release-date-pmm.inc
+petroleum/marketing/prime/includes
+petroleum/nn
+petroleum/oilmarketbasics
+petroleum/ptoduction
+petroleum/refinery
+petroleum/refinerycapacity
+petroleum/storagecapacity
+petroleum/supply
+petroleum/transportation
+petroleum/weekly
+petroleum/wells
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # backup files
 *.bak

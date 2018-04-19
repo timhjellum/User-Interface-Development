@@ -10,13 +10,18 @@ class BxSlider {
 		this.window = $(window);
         this.checkSize();
         this.events();
+        this.window.resize(this.checkSize.bind(this));
+        //this.window.load(this.checkSize.bind(this));
+        //this.window.orientationchange(this.checkSize.bind(this));
+        //this.window.on("orientationchange load resize", function () {
+        //    bxslider();
+        //});
     }
 	events() {
         setTimeout(function() {
             $(".slider-multi").addClass("bxslider-visible");
             console.log("visible");
         }, 2000);
-    //    this.window.resize(this.checkSize.bind(this));
         this.bxSliderHome.show();
         this.bxSliderMulti.show();
         this.bxSliderHome.bxSlider({
@@ -32,39 +37,12 @@ class BxSlider {
             slideWidth: 960,
             pause: 10000
         });
-        this.window.resize(this.checkSize.bind(this));
-
-
-
-
-
-        // HP (slider3) - banners
-        $('.slider-home h2 a, .slider-home h3 a').attr( "href", function(ind,attr) {
-            // if the href contains "?", append &x=z, else, append ?x=z
-            var slideOrder = $(this).parents('li').attr('class');
-            var hash_position = attr.indexOf('#');
-            var new_url_argument = /\?/.test(attr) ? '&src=home-' + slideOrder : '?src=home-' + slideOrder;
-
-            // if there is no hash in the url, then add the new argument to the end, otherwise insert before the hash.
-            return hash_position == -1 ? (attr + new_url_argument) : attr.substring(0, hash_position) + new_url_argument + attr.substring(hash_position, attr.length)
-            //return /\?/.test(attr) ? attr + '&src=home-' + pos : attr + '?src=home-' + pos;
-        });
-        $('.features a').attr( "href", function(ind,attr) {
-            var featureOrder = $(this).parents('div').attr('class');
-            return /\?/.test(attr) ? attr + '&src=home-' + featureOrder : attr + '?src=home-' + featureOrder;
-        });
-
-        $(".slider-home h3 a:empty").each(function() {
-            $(this).parent().parent().addClass("no-description"); 
-        });
     }
-
-
 
     checkSize() {
         var viewPortWidth = window.innerWidth;
         //console.log("Viewport: " + viewPortWidth);
-        var slider = $('.slider-multi ul').bxSlider();
+        var slider = this.bxSliderMulti.bxSlider();
         //console.log("multi-slider initiated");
         var mobileLandscapeSlideWidth = parseInt(viewPortWidth/2);
         //console.log("mobile landscape / slide width: " + mobileLandscapeSlideWidth);
@@ -98,7 +76,7 @@ class BxSlider {
             infiniteLoop: true,
             pager: true,
             pagerSelector: '.slider-multi-pager',
-            slideWidth: mobileLandscapeSlideWidth,
+            slideWidth: tabletLandscapeSlideWidth,
             slideMargin: 10
         };
         var tablet = {
@@ -144,20 +122,35 @@ class BxSlider {
             slideMargin: 0
         };
         if ((viewPortWidth >= 801) && (viewPortWidth <= 987)) {
-            slider.reloadSlider(tabletLandscape);
-            //console.log("tablet-landscape");
+            //slider.destroySlider();
+            //console.log("slider destroyed");
+            //slider.reloadSlider(tabletLandscape);
+            //this.bxSliderMulti.bxSlider(tabletLandscape);
+            console.log("reloaded tablet-landscape");
         } else if ((viewPortWidth >= 600) && (viewPortWidth <= 800)) {
-            slider.reloadSlider(tablet);
-            //console.log("tablet");
+            //slider.destroySlider();
+            //console.log("slider destroyed");
+            //slider.reloadSlider(tablet);
+            //this.bxSliderMulti.bxSlider(tablet);
+            console.log("reloaded tablet");
         } else if ((viewPortWidth >= 450) && (viewPortWidth <= 599)) {
-            slider.reloadSlider(mobileLandscape);
-            //console.log("mobile landscape");
+            //slider.destroySlider();
+            //console.log("slider destroyed");
+            //slider.reloadSlider(mobileLandscape);
+            //this.bxSliderMulti.bxSlider(mobileLandscape);
+            console.log("reloaded mobile landscape");
         } else if ((viewPortWidth >= 320) && (viewPortWidth <= 449)) {
-            slider.reloadSlider(mobile);
-            //console.log("mobile");
+            //slider.destroySlider();
+            //console.log("slider destroyed");
+            //slider.reloadSlider(mobile);
+            //this.bxSliderMulti.bxSlider(mobile);
+            console.log("reloaded mobile");
         } else {
-            slider.reloadSlider(laptop);
-            //console.log("laptop +");
+            //slider.destroySlider();
+            //console.log("slider destroyed");
+            //slider.reloadSlider(laptop);
+            //this.bxSliderMulti.bxSlider(laptop);
+            console.log("reloaded laptop +");
         }
     }
 }

@@ -54,6 +54,9 @@ em {
 	font-weight: normal;
 	font-style: italic;
 }
+i {
+	font-style: normal;
+}
 //ul {
 //	list-style: none;
 //}
@@ -66,15 +69,16 @@ h1, h2, h3, h4, h5, h6 {
 q:before, q:after {
 	content: '';
 }
-a, ins {
-	text-decoration: none;
-}
+//a, ins {
+//	text-decoration: none;
+//}
 strong {
 	font-weight: 700;
 }
 .hide {
 	display: none;
 }
+
 
 	/* caption
 	.source {
@@ -601,7 +605,12 @@ a[name]{vertical-align:top}
 	}
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
-
+	p {
+		.font;
+		font-size: 0.750rem * 1.30%; // 12 pixels
+		line-height: 1.125rem; // 18 pixels
+		margin: 0 0 1.0em;
+	}
 }
 @media @tablet {  // mobile panorama
 
@@ -610,7 +619,9 @@ a[name]{vertical-align:top}
 
 }
 @media @laptop { // big landscape tablets, laptops, and desktops
-
+	p {
+		font-size: 0.750rem; // 12 pixels
+	}
 }
 @media @desktop { // desktops
 
