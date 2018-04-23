@@ -4967,6 +4967,7 @@ span.line-break {
     padding: 0;
     margin: 55px 0 7px 0;
     transition: all 0.3s ease-in-out;
+    line-height: 1.5em;
   }
   header .navigation .nav-primary .nav-primary-item {
     display: block;
@@ -6476,8 +6477,9 @@ span.line-break {
     padding-bottom: 2em;
   }
   .accordion-content ul li {
-    padding: 0 1.6em;
-    margin: 4px 0;
+    color: #333;
+    margin: 0.25em 0 .5em 0;
+    padding: 0;
   }
   .accordion-content ul li a {
     color: #189bd7;
@@ -6487,92 +6489,71 @@ span.line-break {
   .accordion-content ul li a:hover {
     text-decoration: underline;
   }
-  .accordion-content ul li.date {
-    font-style: italic;
-    color: #333;
-  }
   .accordion-content ul li span.date {
     font-style: italic;
     color: #333;
   }
-  .accordion-content ul li .additional-formats {
-    display: table;
-    float: right;
+  .accordion-content ul li span.release-date {
+    color: #333;
   }
-  .accordion-content ul li .additional-formats a {
-    display: inline;
-    float: left;
-    margin-left: 8px;
-    text-decoration: none;
+  .accordion-content ul li.release-schedule {
+    font-style: italic;
+    color: #333;
   }
-  .accordion-content ul li .additional-formats a:after {
-    content: "";
-  }
-  .accordion-content ul li .additional-formats a:hover {
-    text-decoration: underline;
+  .accordion-content ul li.additional-formats {
+    font-style: italic;
+    color: #333;
   }
   .accordion-content ul li.head {
-    border-top: 1px solid #ecedee;
-    margin-top: 1.6em;
-    padding-top: 1.6em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-weight: 700;
+    border-top: dashed 1px #d8d8d8;
+    margin-top: 1.6em;
+    padding-top: 1.6em;
+    font-size: 1em;
+    line-height: 1.2em;
     color: #333;
-    font-size: 0.750rem;
   }
   .accordion-content ul li.head:first-child {
     border-top: none;
-    margin-top: 1.6em;
     padding-top: 0;
+  }
+  .accordion-content ul li.head a {
+    color: #189bd7;
+    text-decoration: none;
+  }
+  .accordion-content ul li.head a:hover {
+    text-decoration: underline;
   }
   .accordion-content ul li.head a {
     color: #189bd7;
     font-size: 0.750rem;
     text-decoration: none;
   }
+  .accordion-content ul li.head a:after {
+    content: "\00a0\203A";
+  }
+  .accordion-content ul li.head a:after:hover {
+    text-decoration: none;
+  }
   .accordion-content ul li.head a:hover {
     text-decoration: underline;
   }
-  .accordion-content ul li.head h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-weight: 700;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin: 0;
-    color: #333;
-    font-size: 0.750rem;
-  }
-  .accordion-content ul li.head h2 a {
-    color: #189bd7;
-    font-size: 0.750rem;
-    text-decoration: none;
-  }
-  .accordion-content ul li.head h2 a:after {
-    content: "\00a0\203A";
-  }
-  .accordion-content ul li.head h2 a:after:hover {
-    text-decoration: none;
-  }
-  .accordion-content ul li.head h2 a:hover {
-    text-decoration: underline;
-  }
-  .accordion-content ul li.head h2 .additional-formats {
+  .accordion-content ul li.head .additional-formats {
     display: table;
     float: right;
   }
-  .accordion-content ul li.head h2 .additional-formats a {
+  .accordion-content ul li.head .additional-formats a {
     display: inline;
     float: left;
     margin-left: 8px;
     text-decoration: none;
   }
-  .accordion-content ul li.head h2 .additional-formats a:after {
+  .accordion-content ul li.head .additional-formats a:after {
     content: "";
   }
-  .accordion-content ul li.head h2 .additional-formats a:hover {
+  .accordion-content ul li.head .additional-formats a:hover {
     text-decoration: underline;
   }
   .accordion-content ul li ul {
@@ -6606,21 +6587,20 @@ span.line-break {
     margin-bottom: 1.6em;
   }
   .accordion h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
     color: #333;
-    font-size: 0.750rem;
+    font-size: 1rem;
     width: 100%;
-    color: #fff;
+    color: #189bd7;
     font-weight: 700;
     border: 0px;
-    border-bottom: 1px solid #fff;
     padding: 7px 10px 7px 22px;
-    background: #00405d;
+    border: 1px solid #666;
     cursor: pointer;
   }
   .accordion h2.active {
-    background: #00405d;
+    border: 1px solid #000;
   }
   .accordion h2 .additional-formats {
     float: right;
@@ -7877,7 +7857,7 @@ h1 {
     color: #189bd7;
   }
   ul.analysis-projections li > div span.tag-list a.capsule {
-    margin: 0 0 0 6px;
+    margin: 0 3px 0 0;
   }
   ul.analysis-projections li > div span.tag-list a.capsule:after {
     color: #333;

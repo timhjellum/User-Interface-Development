@@ -125,31 +125,31 @@ class BxSlider {
             //slider.destroySlider();
             //console.log("slider destroyed");
             //slider.reloadSlider(tabletLandscape);
-            //this.bxSliderMulti.bxSlider(tabletLandscape);
+            $(".slider-multi ul").bxSlider(tabletLandscape);
             console.log("reloaded tablet-landscape");
         } else if ((viewPortWidth >= 600) && (viewPortWidth <= 800)) {
             //slider.destroySlider();
             //console.log("slider destroyed");
             //slider.reloadSlider(tablet);
-            //this.bxSliderMulti.bxSlider(tablet);
+            $(".slider-multi ul").bxSlider(tablet);
             console.log("reloaded tablet");
         } else if ((viewPortWidth >= 450) && (viewPortWidth <= 599)) {
             //slider.destroySlider();
             //console.log("slider destroyed");
             //slider.reloadSlider(mobileLandscape);
-            //this.bxSliderMulti.bxSlider(mobileLandscape);
+            $(".slider-multi ul").bxSlider(mobileLandscape);
             console.log("reloaded mobile landscape");
         } else if ((viewPortWidth >= 320) && (viewPortWidth <= 449)) {
             //slider.destroySlider();
             //console.log("slider destroyed");
             //slider.reloadSlider(mobile);
-            //this.bxSliderMulti.bxSlider(mobile);
+            $(".slider-multi ul").bxSlider(mobile);
             console.log("reloaded mobile");
         } else {
             //slider.destroySlider();
             //console.log("slider destroyed");
             //slider.reloadSlider(laptop);
-            //this.bxSliderMulti.bxSlider(laptop);
+            $(".slider-multi ul").bxSlider(laptop);
             console.log("reloaded laptop +");
         }
     }

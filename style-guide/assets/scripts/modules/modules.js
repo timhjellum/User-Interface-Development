@@ -1,4 +1,4 @@
-class moduleScripts {
+class ModuleScripts {
 	constructor() {
         //this.moduleVisualizations = $(".visualizations h3 a:empty");
         //this.moduleLinkList = $(".link-list a:empty");
@@ -53,4 +53,4 @@ class moduleScripts {
         });
     }     
 }
-export default moduleScripts;
+export default ModuleScripts;

@@ -1,0 +1,1 @@
+document.write('<div align="left"><em class="hideme">Release date: March 27, 2018 | data from: <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></em><!---<br />Production, consumption, exports, imports, prices, and stocks for the last 2+ years.---></div>')

@@ -1,1 +1,0 @@
-Release date: March 27, 2018 | data from: <a href="/totalenergy/data/monthly/">Monthly Energy Review</a>

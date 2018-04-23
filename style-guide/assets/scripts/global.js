@@ -24,11 +24,14 @@ new Accordion();
 import AnalysisProjections from './modules/analysis-projections';
 new AnalysisProjections();
 
-import moduleScripts from './modules/modules';
-new moduleScripts();
+import ModuleScripts from './modules/modules';
+new ModuleScripts();
 
+import ScrollTo from './modules/scroll-to';
+new ScrollTo();
 
-
+import LocalScroll from './modules/local-scroll';
+new LocalScroll();
 
 // must use full path
 const jqueryUiTabs = require('jquery-ui-dist/jquery-ui.js');
