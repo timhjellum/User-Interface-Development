@@ -10,15 +10,15 @@
                     <li class="foot"><a href="/energyexplained/index.cfm?page=oil_home">See more petroleum topics</a></li>
                 </ul>
             </div>
-            <div class="l-one-third-col">
-                <div class="border">
+            <div class="l-one-third-col border">
+                <!-- div class="border" -->
                     <i class="ico energy-education faq"></i>
                     <ul>
                         <li class="head"><h2><a href="/tools/faqs/">FAQs</a></h2></li>
                         <li class="sub-head"><a href="/tools/faqs/faq.cfm?id=45&t=8">What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?</a></li>
                         <li class="foot"><a href="/tools/faqs/">See all petroleum FAQs</a></li>
                     </ul>
-                </div>
+                <!-- /div -->
             </div>
             <div class="l-one-third-col">
                 <img src="/global/includes/issuestrends/images/icon_kids.png"/>

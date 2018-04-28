@@ -1,3 +1,4 @@
+<div style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;"><a href="#content">Skip to Main Content</a></div>
 <header>
 	<div class="print">
 		<img src="/global/images/logos/eia_logo_print.png" alt="U.S. Energy Information Administration logo" />
@@ -200,11 +201,11 @@
 							<h3>
 								<a href="/analysis/">Analysis &amp; Projections</a>
 							</h3>
-							<p>Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, Congressional reports.
+							<p>Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
 							</p>
 							<ul>
 								<li>
-									<a href='/outlooks/steo/'>Short Term Energy Outlook</a>
+									<a href='/outlooks/steo/'>Short-Term Energy Outlook</a>
 								</li>
 								<li>
 									<a href='/outlooks/aeo/'>Annual Energy Outlook</a>
@@ -657,3 +658,4 @@
 		</div>
 	</nav>
 </header>
+<a name="content"></a>

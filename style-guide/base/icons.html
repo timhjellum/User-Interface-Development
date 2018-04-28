@@ -50,21 +50,22 @@
 
 
 	<style>
-ul.list-group.general-icons li.list-group-item,
-ul.list-group.ico-nav li.list-group-item {
-	width: 100px;
-	height: 100px;
-	text-align: center;
-}
-ul.list-group.general-icons li.list-group-item i,
-ul.list-group.general-icons li.list-group-item i:before,
-ul.list-group.ico-nav li.list-group-item i,
-ul.list-group.ico-nav li.list-group-item i:before {
-	margin: 0px auto 0px auto;
-	float: none;
-	font-size: 0
-}		
-		
+		ul.list-group.general-icons li.list-group-item,
+		ul.list-group.ico-nav li.list-group-item {
+			width: 100px;
+			height: 100px;
+			text-align: center;
+		}
+
+		ul.list-group.general-icons li.list-group-item i,
+		ul.list-group.general-icons li.list-group-item i:before,
+		ul.list-group.ico-nav li.list-group-item i,
+		ul.list-group.ico-nav li.list-group-item i:before {
+			margin: 0px auto 0px auto;
+			float: none;
+			font-size: 0
+		}
+
 		ul.ico-nav li,
 		ul.general-icons li {
 			display: inline-block;
@@ -139,7 +140,7 @@ ul.list-group.ico-nav li.list-group-item i:before {
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#">States</a>
+						<a class="navbar-brand" href="#">Base</a>
 					</div>
 					<div class="collapse navbar-collapse">
 					</div>
@@ -171,6 +172,9 @@ ul.list-group.ico-nav li.list-group-item i:before {
 											<a href="#General">General</a>
 										</li>
 										<li>
+											<a href="#analysis-projections">Analysis Projections</a>
+										</li>
+										<li>
 											<a href="#nav-bar">Navigation</a>
 										</li>
 										<li>
@@ -200,9 +204,9 @@ ul.list-group.ico-nav li.list-group-item i:before {
 									<!-- start style guide -->
 									<!-- start style guide -->
 									<a name="logos"></a>
-									<h3>Logos</h3>
-									<p>The width and height below reflect the actual width and height of the navigational icons.</p>
-									<ul>
+									<h3 class="style-guide">Logos</h3>
+									<!--
+										<ul>
 										<li><strong>Width</strong>:
 											<div class="a-logo-width"></div>
 										</li>
@@ -210,6 +214,7 @@ ul.list-group.ico-nav li.list-group-item i:before {
 											<div class="a-logo-height"></div>
 										</li>
 									</ul>
+								-->
 									<ul class="list-group logo-style-guide">
 										<li class="list-group-item">
 											<a class="logo">EIA</a>
@@ -227,7 +232,7 @@ ul.list-group.ico-nav li.list-group-item i:before {
 											<a class="logo-white-background">EIA</a>
 										</li>
 									</ul>
-									<h3>Header Menu</h3>
+									<h3 class="style-guide">Header Menu</h3>
 									<ul class="list-group">
 										<li class="list-group-item">
 											<a class="energy-kids"></a>
@@ -245,8 +250,7 @@ ul.list-group.ico-nav li.list-group-item i:before {
 
 
 
-									<a name="general"></a>
-									<h3>General Icons</h3>
+									<a name="general"></a><h3 class="style-guide">General Icons</h3>
 									<ul class="list-group general-icons">
 										<li class="list-group-item">
 											<i class="ico analysis">analysis</i>
@@ -414,8 +418,33 @@ ul.list-group.ico-nav li.list-group-item i:before {
 
 
 
+								<a name="analysis-projections"></a>
+								<h3 class="style-guide">Analysis Projections Icons</h3>
+								<ul class="list-group general-icons">
+									<li class="list-group-item">
+										<i class="ico d">D</i>
+									</li>
+									<li class="list-group-item">
+										<i class="ico a">A</i>
+									</li>
+									<li class="list-group-item">
+										<i class="ico p">P</i>
+									</li>
 
+									<li class="list-group-item">
+										<i class="ico da">DA</i>
+									</li>
+									<li class="list-group-item">
+										<i class="ico ap">AP</i>
+									</li>
+									<li class="list-group-item">
+										<i class="ico dp">DP</i>
+									</li>
 
+									<li class="list-group-item">
+										<i class="ico dap">DAP</i>
+									</li>
+								</ul>
 
 
 
@@ -428,9 +457,11 @@ ul.list-group.ico-nav li.list-group-item i:before {
 
 
 									<a name="navigational"></a>
-									<h3>Navigational Icons</h3>
-									<p>The width and height below reflect the actual width and height of the navigational icons.</p>
-									<ul>
+									<h3 class="style-guide">Navigational Icons</h3>
+									<!--
+										<p>The width and height below reflect the actual width and height of the navigational icons.</p>
+										<!--
+											<ul>
 										<li><strong>Width</strong>:
 											<div class="ico-nav-width"></div>
 										</li>
@@ -438,6 +469,7 @@ ul.list-group.ico-nav li.list-group-item i:before {
 											<div class="ico-nav-height"></div>
 										</li>
 									</ul>
+									-->
 									<ul class="list-group ico-nav">
 										<li class="list-group-item">
 											<i class="ico-menu ico-nav analysis-projections">Analysis &amp; Projections</i>
@@ -608,14 +640,30 @@ ul.list-group.ico-nav li.list-group-item i:before {
 
 
 									<a name="social"></a>
-									<h3>Social (Stay Connected...) Icons in the Navigation</h3>
-									<p>The width and height below reflect the actual width and height of the social icons in the primary navigation menu.</p>
-									<ul>
+									<h3 class="style-guide">Social (Stay Connected...) Icons in the Navigation</h3>
+									<!--
+										<ul>
 										<li><strong>Width</strong>:
 											<div class="ico-nav-footer-width"></div>
 										</li>
 										<li><strong>height</strong>:
 											<div class="ico-nav-footer-height"></div>
+										</li>
+									</ul>
+									-->
+									<ul class="list-group ico-nav">
+										<li class="list-group-item">
+											<i class="ico ico-menu facebook">Facebook</i></i>
+										</li>
+									</ul>
+									<ul class="list-group ico-nav">
+										<li class="list-group-item">
+											<i class="ico ico-menu facebook">Facebook</i></i>
+										</li>
+									</ul>
+									<ul class="list-group ico-nav">
+										<li class="list-group-item">
+											<i class="ico ico-menu facebook">Facebook</i></i>
 										</li>
 									</ul>
 									<ul class="list-group ico-nav">
@@ -624,9 +672,17 @@ ul.list-group.ico-nav li.list-group-item i:before {
 										</li>
 									</ul>
 
-									<h3>Social (Stay Connected...) Icons in the Footer</h3>
-									<p>The width and height below reflect the actual width and height of the social icons in the footer.</p>
-									<ul>
+
+
+
+
+
+
+
+
+									<h3 class="style-guide">Social (Stay Connected...) Icons in the Footer</h3>
+									<!--
+										<ul>
 										<li><strong>Width</strong>:
 											<div class="ico-footer-width"></div>
 										</li>
@@ -634,6 +690,7 @@ ul.list-group.ico-nav li.list-group-item i:before {
 											<div class="ico-footer-height"></div>
 										</li>
 									</ul>
+									-->
 									<ul class="list-group">
 										<li class="list-group-item">
 											<i class="ico ico-footer facebook">Facebook</i>
@@ -661,7 +718,8 @@ ul.list-group.ico-nav li.list-group-item i:before {
 
 
 
-									<a name="side-column"></a>
+									<!--
+										<a name="side-column"></a>
 									<div class="row style-guide">
 										<h3 class="style-guide">Side Column Icons</h3>
 									</div>
@@ -670,10 +728,6 @@ ul.list-group.ico-nav li.list-group-item i:before {
 											<div class="outer-container">
 												<div class="l-row">
 													<div class="l-narrow-col">
-														<!-- start module -->
-														<!-- start module -->
-														<!-- start module -->
-
 														<div class="content-container light-top-border-container grey-background">
 															<ul>
 																<li>
@@ -708,16 +762,8 @@ ul.list-group.ico-nav li.list-group-item i:before {
 																</li>
 															</ul>
 														</div>
-
-														<!-- end module -->
-														<!-- end module -->
-														<!-- end module -->
 													</div>
 													<div class="l-narrow-col">
-														<!-- start module -->
-														<!-- start module -->
-														<!-- start module -->
-
 														<div class="content-container light-top-border-container grey-background">
 															<ul>
 																<li>
@@ -762,16 +808,8 @@ ul.list-group.ico-nav li.list-group-item i:before {
 
 															</ul>
 														</div>
-
-														<!-- end module -->
-														<!-- end module -->
-														<!-- end module -->
 													</div>
 													<div class="l-narrow-col">
-														<!-- start module -->
-														<!-- start module -->
-														<!-- start module -->
-
 														<div class="content-container light-top-border-container grey-background">
 															<ul>
 																<li>
@@ -815,16 +853,8 @@ ul.list-group.ico-nav li.list-group-item i:before {
 																</li>
 															</ul>
 														</div>
-
-														<!-- end module -->
-														<!-- end module -->
-														<!-- end module -->
 													</div>
 													<div class="l-narrow-col">
-														<!-- start module -->
-														<!-- start module -->
-														<!-- start module -->
-
 														<div class="content-container light-top-border-container grey-background">
 															<ul>
 																<li>
@@ -873,22 +903,18 @@ ul.list-group.ico-nav li.list-group-item i:before {
 																<li><a href="#" data-toggle="tooltip" title="Hooray!"><i class="ico collapse">collapse</i></a></li>
 															</ul>
 														</div>
-
-														<!-- end module -->
-														<!-- end module -->
-														<!-- end module -->
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-
+ -->
 
 
 
 
 									<a name="misc"></a>
-									<h3>Miscellanious Icons, In Progress, </h3>
+									<h3 class="style-guide">Miscellanious Icons, In Progress...</h3>
 
 									<ul class="list-group">
 										<li class="list-group-item">
@@ -909,12 +935,13 @@ ul.list-group.ico-nav li.list-group-item i:before {
 										<li class="list-group-item">
 											<i class="ico circle aeo">aeo</i>
 										</li>
-
-										<li class="list-group-item">
+										<!--
+											<li class="list-group-item">
 											<i class="ico linechart">linechart</i>
 										</li>
+										-->
 										<li class="list-group-item">
-											<i class="ico telephone">linechart</i>
+											<i class="ico telephone">telephone</i>
 										</li>
 										<li class="list-group-item">
 											<i class="ico-email">email</i>
@@ -928,37 +955,8 @@ ul.list-group.ico-nav li.list-group-item i:before {
 										</li>
 										<li class="list-group-item">
 											<i class="ico radio">radio</i>
-
 										</li>
 									</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-									<div class="row style-guide">
-										<p class="style-guide">
-											<a class="btn btn-primary" data-toggle="collapse" href="#SideColumnIcons" aria-expanded="false" aria-controls="SideColumnIcons">&lt;html&gt;</a>
-										</p>
-										<div class="collapse style-guide" id="SideColumnIcons">
-											<pre>
-<code class="html"></code>
-											</pre>
-										</div>
-									</div>
-									</section>
-									<!-- end  style guide -->
-									<!-- end  style guide -->
-									<!-- end  style guide -->
 								</div>
 							</div>
 						</div>

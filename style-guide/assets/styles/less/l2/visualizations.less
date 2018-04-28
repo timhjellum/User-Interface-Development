@@ -20,6 +20,7 @@
                         font-size: 0.813rem; // 13 pixels
                         line-height: 1.4em;
                         color: @eia-blue;
+                        text-decoration: none;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -40,57 +41,6 @@
                 margin-left: -3px;
             } 
         }
-        /*
-        &.circle {
-            width:100px;
-            height:100px;
-            border-radius:100px;
-            border: 3px solid #cccccc;
-            margin: auto;
-            margin-bottom: 10px;
-            &.nine-thirty {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/nine-thirty.png) 59% 60%;}
-            &.aeo {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/aeo.png) 59% 60%;}
-            &.afv {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/afv.png) 59% 60%;}
-            &.afv-orig {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/afv-orig.png) 59% 60%;}
-            &.api {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/api.png) 59% 60%;}
-            &.bulk-download {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/bulk-download.png) 59% 60%;}
-            &.calc {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/calc.png) 59% 60%;}
-            &.coal-data-browser {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/coal-data-browser.png) 59% 60%;}
-            &.coal-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/coal-infrastructure-map.png) 59% 60%;}
-            &.crude-oil-import-data-browser {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/crude-import-tool.png) 59% 60%;}
-            &.crude-oil-import-tool {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/crude-oil-import-tool.png) 59% 60%;}
-            &.disruptions {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/disruptions.png) 59% 60%;}
-            &.electricity-data-browser {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electric-data-browser.png) 59% 60%;}
-            &.electric-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electric-infrastructure-map.png) 59% 60%;}
-            &.electricity-infrastructure {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electricity-infrastructure.jpg) 59% 60%;}
-            &.electric-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/electricity-map.jpg) 59% 60%;}
-            &.embed {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/embed.png) 59% 60%;}
-            &.energy-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/energy-infrastructure-map.png) 59% 60%;}
-            &.excel {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/excel.png) 59% 60%;}
-            &.fossil-fuel {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/fossil-fuel-map.png) 59% 60%;}
-            &.google-sheets {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/google-sheets.png) 59% 60%;}
-            &.ieo {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/ieo.png) 59% 60%;}
-            &.ies {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/ies.png) 59% 60%;}
-            &.international {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/international.png) 59% 60%;}
-            &.natural-gas-navigator {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/natural-gas-nav.png) 59% 60%;}
-            &.natural-gas-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/natural-gas-map.png) 59% 60%;}
-            &.natural-gas-query {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/natural-gas-query.png) 59% 60%;}
-            &.nuclear-outages-v1 {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/nuclear-outages-v1.png) 59% 60%;}
-            &.nuclear-outages-v2 {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/nuclear-outages-v2.png) 59% 60%;}
-            &.petroleum-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/petroleum-map.png) 59% 60%;}
-            &.petroleum-infrastructure-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/petroleum-infrastructure-map.png) 59% 60%;}
-            &.placeholder {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/placeholder.png) 59% 60%;}
-            &.play {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/play.png) 59% 60%;}
-            &.radio {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/radio.png) 59% 60%;}
-            &.renewables-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/renewables-map.jpg) 59% 60%;}
-            &.renewables-plant-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/renewables-plant-map.png) 59% 60%;}
-            &.steo {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/steo.png) 59% 60%;}
-            &.total-energy-mer {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/total-energy-mer.png) 59% 60%;}
-            &.us {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/us.png) 59% 60%;}
-            &.video {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/video.png) 59% 60%;}
-            &.wind-map {background:url(https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/wind-map.png) 59% 60%;}
-        }
-        */
     }                
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
@@ -102,7 +52,6 @@
         }
 	}
 }
-
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
     ul {
         &.visualizations {
@@ -114,61 +63,34 @@
                     clear: right;//border: 3px solid red;        
                 }
             }
-            /*
-            .l-col {
-                &:nth-child(4) {
-                    clear: right;
-                }
-            }
-
-            .l-col {
-                &:nth-child(1) {
-                    clear: right;
-                }
-            }
-            .l-col {
-                &:nth-child(2) {
-                    clear: right;        
-                }
-            }
-            .l-col {
-                &:nth-child(3) {
-                    border: 1px solid blue;
-                }
-            }
-            .l-col {
-                &:nth-child(4) {
-                    clear: right;
-                }
-            }
-            .l-col {
-                &:nth-child(5) {
-                    clear: right;
-                }
-            }
-            .l-col {
-                &:nth-child(6) {
-                    clear: right;
-                }
-            }
-            */
         }
     }
 }
-
-
-
-
-
-
-
-
-
 @media @laptop {
     ul {
         &.visualizations {
-            //padding: 0;
-            //margin: 1em 0 3em;
+            margin: 0 0 1em;
+            .l-col {
+                padding: 0 1.2em 1.2em 1.2em;
+                &:first-child {
+                    padding-left: 0;
+                }
+                //&:nth-child(2) {
+                    //border: 1px solid silver;
+                //}
+                //&:nth-child(3) {
+                    //border: 1px solid silver;
+                //}
+                //&:nth-child(4) {
+                    //border: 1px solid silver;
+                //}
+                //&:nth-child(5) {
+                    //border: 1px solid silver;
+                //}
+                &:nth-child(6) {
+                    padding-right: 0;
+                }
+            }
         }  
     }
 }

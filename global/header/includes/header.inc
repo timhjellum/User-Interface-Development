@@ -14,3 +14,4 @@
 	<section>
 		<div class="l-outer-wrapper">
 			<div class="l-inner-wrapper">
+				<?php include('global/announcements/includes/announcement.inc') ?>

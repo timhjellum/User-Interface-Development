@@ -33,7 +33,7 @@ Domestic Crude Oil Production Estimate Update
 
 
 <p>
-Starting with the Weekly Petroleum Status Report for the week ending January 13, 2012, one of the inputs used to estimate weekly domestic crude oil production has changed.  This new estimate now uses the latest revised input from EIA's Short Term Energy Outlook to estimate crude oil production in the U.S. Gulf of Mexico.
+Starting with the Weekly Petroleum Status Report for the week ending January 13, 2012, one of the inputs used to estimate weekly domestic crude oil production has changed.  This new estimate now uses the latest revised input from EIA's Short-Term Energy Outlook to estimate crude oil production in the U.S. Gulf of Mexico.
 <br /><br />
 Contact: <a href="mailto:Alex.Wood@eia.gov">Alex Wood</a>, (202) 586-3537
 </p>

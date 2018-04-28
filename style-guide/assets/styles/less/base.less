@@ -137,10 +137,36 @@ a[name]{vertical-align:top}
 
 
 @media @mobile { // mobile
-
-
-
-
+	p {
+		.font;
+		font-size: 0.750rem * 1.20%; // 12 pixels
+		line-height: 1.125rem; // 18 pixels
+		margin: 0 0 1.0em;
+	}
+	// start accessibility - do not edit
+	.hidden {
+		position:absolute;
+		left:-10000px;
+		top:auto;
+		width:1px;
+		height:1px;
+		overflow:hidden;
+	}
+	#skip a { 
+		position:absolute; 
+		left:-10000px; 
+		top:auto; 
+		width:1px; 
+		height:1px; 
+		overflow:hidden;
+	} 
+	 
+	#skip a:focus { 
+		position:static; 
+		width:auto; 
+		height:auto; 
+	}
+	// end accessibility
 
 
 	.global-nav,
@@ -605,12 +631,7 @@ a[name]{vertical-align:top}
 	}
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
-	p {
-		.font;
-		font-size: 0.750rem * 1.30%; // 12 pixels
-		line-height: 1.125rem; // 18 pixels
-		margin: 0 0 1.0em;
-	}
+
 }
 @media @tablet {  // mobile panorama
 

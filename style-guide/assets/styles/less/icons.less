@@ -944,6 +944,58 @@
 			}
 		}
 
+
+//		&.dap-single {
+			&.d {
+				&::before {
+					.icon-single(@fill-color: @eia-blue, @letter: D);
+					.controls-icon(35px, 35px);
+				}
+			}
+			&.a {
+				&::before {
+					.icon-single(@fill-color: @eia-green, @letter: A);
+					.controls-icon(35px, 35px);
+				}
+			}
+			&.p {
+				&::before {
+					.icon-single(@fill-color: @eia-tan, @letter: P);
+					.controls-icon(35px, 35px);
+				}
+			}
+//		}
+//		&.dap-dual {
+			&.da {
+				&::before {
+					.icon-dual(@fill-color-top: @eia-blue, @fill-color-bottom: @eia-green, @letter-top: D, @letter-bottom: A);
+					.controls-icon(35px, 35px);
+					
+				}
+			}
+//		}
+//		&.dap-dual {
+			&.ap {
+				&::before {
+					.icon-dual(@fill-color-top: @eia-green, @fill-color-bottom: @eia-tan, @letter-top: A, @letter-bottom: P);
+					.controls-icon(35px, 35px);
+				}
+			}
+//		}
+//		&.dap-dual {
+			&.dp {
+				&::before {
+					.icon-dual(@fill-color-top: @eia-blue, @fill-color-bottom: @eia-tan, @letter-top: D, @letter-bottom: P);
+					.controls-icon(35px, 35px);
+				}
+			}
+//		}
+		&.dap {
+			&::before {
+				.icon-triple();
+				.controls-icon(35px, 35px);
+			}
+		}
 		&.beta-interactive {
 			background: transparent url(../images/icons/beta.png) no-repeat center left;
 			padding: 3px 0 2px 16px;

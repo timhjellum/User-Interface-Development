@@ -110,7 +110,8 @@ $recent_AP = $neic->get($bindVariables);
 				$TitleText .= ", ";
 		}
 
-		echo '<li data_value="' . $row['rpt_category'] . '"><img src="/global/images/icons/dap/';
+		//echo '<li data_value="' . $row['rpt_category'] . '"><img src="/global/images/icons/dap/';
+		echo '<li data_value="' . $row['rpt_category'] . '"><i class="ico ';
 		if(strtolower($row['has_data']) == "y") {
 			echo 'd';
 		}
@@ -120,7 +121,7 @@ $recent_AP = $neic->get($bindVariables);
 		if(strtolower($row['has_forecast']) == "y") {
 			echo 'p';
 		}
-		echo '.png" title="' . $TitleText . '"/>';
+		echo '"><div class="hidden">' . $TitleText . '</div></i>';
 
 		echo PHP_EOL;
 		echo '<div><h2>';
