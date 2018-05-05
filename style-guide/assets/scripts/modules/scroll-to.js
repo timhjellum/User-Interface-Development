@@ -4,7 +4,7 @@ import scrollTo from 'animated-scroll-to';
 
 class ScrollTo {
     constructor() {
-        console.log("animated-scroll-to to checking in");
+//        console.log("animated-scroll-to to checking in");
 
 
 

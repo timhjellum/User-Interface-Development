@@ -16,7 +16,7 @@
 
 
 	.swatch-wrapper {
-		width: 10%;
+		width: 11.111%;
 		text-align: center;
 		padding: 12px 0;
 		float: left;
@@ -38,9 +38,58 @@
 		width: 100%;
 		text-align: center;
 		padding-top: 40%;
-		border-width: 2px;
-		border-style: solid;
+//		border-width: 2px;
+//		border-style: solid;
 	}
+
+
+
+
+//common used shades of white
+.eia-333333 { background-color: tint(black, 20%) }
+.eia-666666 { background-color: tint(black, 40%) }
+.eia-767676 { background-color: tint(black, 46.4%) }
+.eia-999999 { background-color: tint(black, 60%) }
+.eia-silver { background-color: tint(black, 80%) }
+
+
+//common used shades of white
+.eia-b2b2b2 { background-color: shade(white, 30.2%) }
+.eia-d3d3d3 { background-color: shade(white, 17.2%) }
+.eia-d4d4d4 { background-color: shade(white, 16.8%) }
+.eia-dddddd { background-color: shade(white, 13.4%) }
+.eia-e5e5e5 { background-color: shade(white, 10.2%) }
+.eia-efefef { background-color: shade(white, 7.0%) }
+// f4f4f4 shade(white, 4.2%)
+
+.misc-one { background-color: @eia-darker-blue }
+.misc-two { background-color: @port-blue }
+.misc-thr { background-color: @eia-blue-mono }
+.misc-fou { background-color: @eia-greyish-blue }
+.misc-fiv { background-color: @eia-yellow-mono }
+.misc-six { background-color: @eia-blue-module-background }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/*
 	.swatch.hex999999 {
 		background-color: #999999;
@@ -82,8 +131,8 @@
 		border-color: #111111;
 	}
 	.swatch.hex000000 {
-		background-color: #000000;
-		border-color: #000000;
+		background-color: black;
+		border-color: black;
 		color: #666;
 	}
 	.swatch.hexaaaaaa {
@@ -127,7 +176,7 @@
 		border-color: #f6f6f6;
 	}
 	.swatch.hexffffff {
-		background-color: #ffffff;
+		background-color: white;
 		border-color: #eeeeee;
 	}
 	*/
@@ -145,103 +194,97 @@
 		}
 	}
 
+	.font-black {
+		color: #000;
+	}
+
+	.font-white {
+		color: #fff;
+	}
 
 
 
 
 
+//shade(@eia-blue: darken(@eia-blue, 20%);
+.eia-dark-blue.swatch {background-color: shade(@eia-blue, 60%) }//; border-color: shade(@eia-blue) }
+.eia-dark-blue-75.swatch {background-color: shade(@eia-blue, 45%) }//;border-color: shade(@eia-blue) }
+.eia-dark-blue-50.swatch {background-color: shade(@eia-blue, 30%) }//;border-color: shade(@eia-blue) }
+.eia-dark-blue-25.swatch {background-color: shade(@eia-blue, 15%) }//;border-color: shade(@eia-blue) }
+.eia-blue {background-color: @eia-blue }//; border-color: @eia-blue }
+.eia-light-blue-25.swatch {background-color: tint(@eia-blue, 15%) }//;border-color: tint(@eia-blue) }
+.eia-light-blue-50.swatch {background-color: tint(@eia-blue, 30%) }//;border-color: tint(@eia-blue) }
+.eia-light-blue-75.swatch {background-color: tint(@eia-blue, 45%) }//;border-color: tint(@eia-blue) }
+.eia-light-blue.swatch {background-color: tint(@eia-blue, 60%) }//; border-color: tint(@eia-blue) }
 
-//@eia-dark-blue: darken(@eia-blue, 20%);
-.eia-dark-blue.swatch {background-color: @eia-dark-blue; border-color: @eia-dark-blue }
-.eia-dark-blue-75.swatch {background-color: @eia-dark-blue-75; border-color: @eia-dark-blue-75 }
-.eia-dark-blue-50.swatch {background-color: @eia-dark-blue-50; border-color: @eia-dark-blue-50 }
-.eia-dark-blue-25.swatch {background-color: @eia-dark-blue-25; border-color: @eia-dark-blue-25 }
-.eia-blue {background-color: @eia-blue; border-color: @eia-blue }
-.eia-light-blue-25.swatch {background-color: @eia-light-blue-25; border-color: @eia-light-blue-25 }
-.eia-light-blue-50.swatch {background-color: @eia-light-blue-50; border-color: @eia-light-blue-50 }
-.eia-light-blue-75.swatch {background-color: @eia-light-blue-75; border-color: @eia-light-blue-75 }
-.eia-light-blue.swatch {background-color: @eia-light-blue; border-color: @eia-light-blue }
+.eia-dark-green.swatch {background-color: shade(@eia-green, 60%) }//border-color:shade(@eia-green) }
+.eia-dark-green-75.swatch {background-color: shade(@eia-green, 45%) }//;border-color: shade(@eia-green) }
+.eia-dark-green-50.swatch {background-color: shade(@eia-green, 30%) }//;border-color: shade(@eia-green) }
+.eia-dark-green-25.swatch {background-color: shade(@eia-green, 15%) }//;border-color: shade(@eia-green) }
+.eia-green {background-color: @eia-green }//; border-color: @eia-green }
+.eia-light-green-25.swatch {background-color: tint(@eia-green, 15%) }//;border-color: tint(@eia-green) }
+.eia-light-green-50.swatch {background-color: tint(@eia-green, 30%) }//;border-color: tint(@eia-green) }
+.eia-light-green-75.swatch {background-color: tint(@eia-green, 45%) }//;border-color: tint(@eia-green) }
+.eia-light-green.swatch {background-color: tint(@eia-green, 60%) }//; border-color: tint(@eia-green) }
 
-.eia-dark-green.swatch {background-color: @eia-dark-green; border-color:@eia-dark-green }
-.eia-dark-green-75.swatch {background-color: @eia-dark-green-75; border-color: @eia-dark-green-75 }
-.eia-dark-green-50.swatch {background-color: @eia-dark-green-50; border-color: @eia-dark-green-50 }
-.eia-dark-green-25.swatch {background-color: @eia-dark-green-25; border-color: @eia-dark-green-25 }
-.eia-green {background-color: @eia-green; border-color: @eia-green }
-.eia-light-green-25.swatch {background-color: @eia-light-green-25; border-color: @eia-light-green-25 }
-.eia-light-green-50.swatch {background-color: @eia-light-green-50; border-color: @eia-light-green-50 }
-.eia-light-green-75.swatch {background-color: @eia-light-green-75; border-color: @eia-light-green-75 }
-.eia-light-green.swatch {background-color: @eia-light-green; border-color: @eia-light-green }
+.eia-dark-red.swatch {background-color: shade(@eia-red, 60%) }//; border-color: shade(@eia-red) }
+.eia-dark-red-75.swatch {background-color: shade(@eia-red, 45%) }//;border-color: shade(@eia-red) }
+.eia-dark-red-50.swatch {background-color: shade(@eia-red, 30%) }//;border-color: shade(@eia-red) }
+.eia-dark-red-25.swatch {background-color: shade(@eia-red, 15%) }//;border-color: shade(@eia-red) }
+.eia-red {background-color: @eia-red }//; border-color: @eia-red }
+.eia-light-red-25.swatch {background-color: tint(@eia-red, 15%) }//;border-color: tint(@eia-red) }
+.eia-light-red-50.swatch {background-color: tint(@eia-red, 30%) }//;border-color: tint(@eia-red) }
+.eia-light-red-75.swatch {background-color: tint(@eia-red, 45%) }//;border-color: tint(@eia-red) }
+.eia-light-red.swatch {background-color: tint(@eia-red, 60%) }//; border-color: tint(@eia-red) }
 
-.eia-dark-red.swatch {background-color: @eia-dark-red; border-color: @eia-dark-red }
-.eia-dark-red-75.swatch {background-color: @eia-dark-red-75; border-color: @eia-dark-red-75 }
-.eia-dark-red-50.swatch {background-color: @eia-dark-red-50; border-color: @eia-dark-red-50 }
-.eia-dark-red-25.swatch {background-color: @eia-dark-red-25; border-color: @eia-dark-red-25 }
-.eia-red {background-color: @eia-red; border-color: @eia-red }
-.eia-light-red-25.swatch {background-color: @eia-light-red-25; border-color: @eia-light-red-25 }
-.eia-light-red-50.swatch {background-color: @eia-light-red-50; border-color: @eia-light-red-50 }
-.eia-light-red-75.swatch {background-color: @eia-light-red-75; border-color: @eia-light-red-75 }
-.eia-light-red.swatch {background-color: @eia-light-red; border-color: @eia-light-red }
+.eia-dark-yellow.swatch {background-color: shade(@eia-yellow, 60%) }//; border-color: shade(@eia-yellow) }
+.eia-dark-yellow-75.swatch {background-color: shade(@eia-yellow, 45%) }//;border-color: shade(@eia-yellow) }
+.eia-dark-yellow-50.swatch {background-color: shade(@eia-yellow, 30%) }//;border-color: shade(@eia-yellow) }
+.eia-dark-yellow-25.swatch {background-color: shade(@eia-yellow, 15%) }//;border-color: shade(@eia-yellow) }
+.eia-yellow {background-color: @eia-yellow }//; border-color: @eia-yellow }
+.eia-light-yellow-25.swatch {background-color: tint(@eia-yellow, 15%) }//;border-color: tint(@eia-yellow) }
+.eia-light-yellow-50.swatch {background-color: tint(@eia-yellow, 30%) }//;border-color: tint(@eia-yellow) }
+.eia-light-yellow-75.swatch {background-color: tint(@eia-yellow, 45%) }//;border-color: tint(@eia-yellow) }
+.eia-light-yellow.swatch {background-color: tint(@eia-yellow, 60%) }//; border-color: tint(@eia-yellow) }
 
-.eia-dark-yellow.swatch {background-color: @eia-dark-yellow; border-color: @eia-dark-yellow }
-.eia-dark-yellow-75.swatch {background-color: @eia-dark-yellow-75; border-color: @eia-dark-yellow-75 }
-.eia-dark-yellow-50.swatch {background-color: @eia-dark-yellow-50; border-color: @eia-dark-yellow-50 }
-.eia-dark-yellow-25.swatch {background-color: @eia-dark-yellow-25; border-color: @eia-dark-yellow-25 }
-.eia-yellow {background-color: @eia-yellow; border-color: @eia-yellow }
-.eia-light-yellow-25.swatch {background-color: @eia-light-yellow-25; border-color: @eia-light-yellow-25 }
-.eia-light-yellow-50.swatch {background-color: @eia-light-yellow-50; border-color: @eia-light-yellow-50 }
-.eia-light-yellow-75.swatch {background-color: @eia-light-yellow-75; border-color: @eia-light-yellow-75 }
-.eia-light-yellow.swatch {background-color: @eia-light-yellow; border-color: @eia-light-yellow }
+.eia-dark-purple.swatch {background-color: shade(@eia-purple, 60%) }//; border-color: shade(@eia-purple) }
+.eia-dark-purple-75.swatch {background-color: shade(@eia-purple, 45%) }//;border-color: shade(@eia-purple) }
+.eia-dark-purple-50.swatch {background-color: shade(@eia-purple, 30%) }//;border-color: shade(@eia-purple) }
+.eia-dark-purple-25.swatch {background-color: shade(@eia-purple, 15%) }//;border-color: shade(@eia-purple) }
+.eia-purple {background-color: @eia-purple }//; border-color: @eia-purple }
+.eia-light-purple-25.swatch {background-color: tint(@eia-purple, 15%) }//;border-color: tint(@eia-purple) }
+.eia-light-purple-50.swatch {background-color: tint(@eia-purple, 30%) }//;border-color: tint(@eia-purple) }
+.eia-light-purple-75.swatch {background-color: tint(@eia-purple, 45%) }//;border-color: tint(@eia-purple) }
+.eia-light-purple.swatch {background-color: tint(@eia-purple, 60%) }//; border-color: tint(@eia-purple) }
 
-.eia-dark-purple.swatch {background-color: @eia-dark-purple; border-color: @eia-dark-purple }
-.eia-dark-purple-75.swatch {background-color: @eia-dark-purple-75; border-color: @eia-dark-purple-75 }
-.eia-dark-purple-50.swatch {background-color: @eia-dark-purple-50; border-color: @eia-dark-purple-50 }
-.eia-dark-purple-25.swatch {background-color: @eia-dark-purple-25; border-color: @eia-dark-purple-25 }
-.eia-purple {background-color: @eia-purple; border-color: @eia-purple }
-.eia-light-purple-25.swatch {background-color: @eia-light-purple-25; border-color: @eia-light-purple-25 }
-.eia-light-purple-50.swatch {background-color: @eia-light-purple-50; border-color: @eia-light-purple-50 }
-.eia-light-purple-75.swatch {background-color: @eia-light-purple-75; border-color: @eia-light-purple-75 }
-.eia-light-purple.swatch {background-color: @eia-light-purple; border-color: @eia-light-purple }
+.eia-dark-brown.swatch {background-color: shade(@eia-brown, 60%) }//;border-color: shade(@eia-brown, 60%) }
+.eia-dark-brown-75.swatch {background-color: shade(@eia-brown, 45%) }//;border-color: shade(@eia-brown, 50%) }
+.eia-dark-brown-50.swatch {background-color: shade(@eia-brown, 30%) }//;border-color: shade(@eia-brown, 30%) }
+.eia-dark-brown-25.swatch {background-color: shade(@eia-brown, 15%) }//;border-color: shade(@eia-brown, 15%) }
+.eia-brown {background-color: @eia-brown }//; border-color: @eia-brown }
+.eia-light-brown-25.swatch {background-color: tint(@eia-brown, 15%) }//;border-color: tint(@eia-brown, 15%) }
+.eia-light-brown-50.swatch {background-color: tint(@eia-brown, 30%) }//;border-color: tint(@eia-brown, 60%) }
+.eia-light-brown-75.swatch {background-color: tint(@eia-brown, 45%) }//;border-color: tint(@eia-brown, 45%) }
+.eia-light-brown.swatch {background-color: tint(@eia-brown, 60%) }//;border-color: tint(@eia-brown, 60%) }
 
-.eia-dark-brown.swatch {background-color: @eia-dark-brown; border-color: @eia-dark-brown }
-.eia-dark-brown-75.swatch {background-color: @eia-dark-brown-75; border-color: @eia-dark-brown-75 }
-.eia-dark-brown-50.swatch {background-color: @eia-dark-brown-50; border-color: @eia-dark-brown-50 }
-.eia-dark-brown-25.swatch {background-color: @eia-dark-brown-25; border-color: @eia-dark-brown-25 }
-.eia-brown {background-color: @eia-brown; border-color: @eia-brown }
-.eia-light-brown-25.swatch {background-color: @eia-light-brown-25; border-color: @eia-light-brown-25 }
-.eia-light-brown-50.swatch {background-color: @eia-light-brown-50; border-color: @eia-light-brown-50 }
-.eia-light-brown-75.swatch {background-color: @eia-light-brown-75; border-color: @eia-light-brown-75 }
-.eia-light-brown.swatch {background-color: @eia-light-brown; border-color: @eia-light-brown }
+.eia-dark-black.swatch {background-color: shade(@eia-black, 60%); border-color:shade(@eia-black) }
+.eia-dark-black-75.swatch {background-color: shade(@eia-black, 45%) }//;border-color: shade(@eia-black) }
+.eia-dark-black-50.swatch {background-color: shade(@eia-black, 30%) }//;border-color: shade(@eia-black) }
+.eia-dark-black-25.swatch {background-color: shade(@eia-black, 15%) }//;border-color: shade(@eia-black) }
+.eia-black {background-color: @eia-black }//; border-color: @eia-black }
+.eia-light-black-25.swatch {background-color: tint(@eia-black, 15%) }//;border-color: tint(@eia-black) }
+.eia-light-black-50.swatch {background-color: tint(@eia-black, 30%) }//;border-color: tint(@eia-black) }
+.eia-light-black-75.swatch {background-color: tint(@eia-black, 45%) }//;border-color: tint(@eia-black) }
+.eia-light-black.swatch {background-color: tint(@eia-black, 60%) }//; border-color: tint(@eia-black) }
 
-.eia-black.swatch {background-color: @eia-black; border-color: @eia-black }
-.eia-black-75.swatch {background-color: @eia-black-75; border-color: @eia-black-75 }
-.eia-black-50.swatch {background-color: @eia-black-50; border-color: @eia-black-50 }
-.eia-black-25.swatch {background-color: @eia-black-25; border-color: @eia-black-25 }
-.eia-middle-grey {background-color: @eia-middle-grey; border-color: @eia-middle-grey }
-.eia-white-25.swatch {background-color: @eia-white-25; border-color: @eia-white-25 }
-.eia-white-50.swatch {background-color: @eia-white-50; border-color: @eia-white-50 }
-.eia-white-75.swatch {background-color: @eia-white-75; border-color: @eia-white-75 }
-.eia-white.swatch {background-color: @eia-white; border-color: @eia-white }
+.eia-dark-white.swatch {background-color: shade(@eia-white, 60%); border-color:shade(@eia-white) }
+.eia-dark-white-75.swatch {background-color: shade(@eia-white, 45%) }//;border-color: shade(@eia-white) }
+.eia-dark-white-50.swatch {background-color: shade(@eia-white, 30%) }//;border-color: shade(@eia-white) }
+.eia-dark-white-25.swatch {background-color: shade(@eia-white, 15%) }//;border-color: shade(@eia-white) }
+.eia-white {background-color: @eia-white }//; border-color: @eia-white }
+.eia-light-white-25.swatch {background-color: tint(@eia-white, 15%) }//;border-color: tint(@eia-white) }
+.eia-light-white-50.swatch {background-color: tint(@eia-white, 30%) }//;border-color: tint(@eia-white) }
+.eia-light-white-75.swatch {background-color: tint(@eia-white, 45%) }//;border-color: tint(@eia-white) }
+.eia-light-white.swatch {background-color: tint(@eia-white, 60%) }//; border-color: tint(@eia-white) }
 
-/*
-.eia-000000 {background-color: @eia-black; border-color: @eia-black}
-.eia-111111 {background-color: @eia-111111; border-color: @eia-111111}
-.eia-222222 {background-color: @eia-222222; border-color: @eia-222222}
-.eia-333333 {background-color: @eia-dark-grey; border-color: @eia-dark-grey}
-.eia-444444 {background-color: @eia-444444; border-color: @eia-444444}
-.eia-555555 {background-color: @eia-555555; border-color: @eia-555555}
-.eia-666666 {background-color: @eia-grey; border-color: @eia-grey}
-.eia-767676 {background-color: @eia-767676; border-color: @eia-767676}
-.eia-888888 {background-color: @eia-888888; border-color: @eia-888888}
-.eia-999999 {background-color: @eia-light-grey; border-color: @eia-light-grey}
-.eia-aaaaaa {background-color: @eia-aaaaaa; border-color: @eia-aaaaaa}
-.eia-b2b2b2 {background-color: @eia-b2b2b2; border-color: @eia-b2b2b2}
-.eia-bbbbbb {background-color: @eia-bbbbbb; border-color: @eia-bbbbbb}
-.eia-c3c3c3 {background-color: @eia-c3c3c3; border-color: @eia-c3c3c3}
-.eia-cccccc {background-color: @eia-silver; border-color: @eia-silver}
-.eia-d4d4d4 {background-color: @eia-d4d4d4; border-color: @eia-d4d4d4}
-.eia-dddddd {background-color: @eia-dddddd; border-color: @eia-dddddd}
-.eia-e5e5e5 {background-color: @eia-e5e5e5; border-color: @eia-e5e5e5}
-.eia-eeeeee {background-color: @eia-eeeeee; border-color: @eia-eeeeee}
-.eia-f6f6f6 {background-color: @eia-f6f6f6; border-color: @eia-f6f6f6}
-.eia-ffffff {background-color: @eia-white; border-color: @eia-white}color: @eia-white; border-color: @eia-white}
-*/
+

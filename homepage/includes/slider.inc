@@ -2,35 +2,37 @@
 /* edit the link URL, Title and Date below */
 /* no need to add the  > or the &nbsp;› or the  &rsaquo; */
 
-$slideOneURL = "/outlooks/aeo/section_issues.php#grt";
+$slideOneURL = "/conference/2018/";
 $slideOneImageName = "slide01.jpg";
-$slideOneTitle = "Annual Energy Outlook 2018 Issues in Focus: Oil and Natural Gas Resources and Technology";
-$slideOneDescription = "";
+$slideOneTitle = "2018 EIA Energy Conference";
+$slideOneDescription = "Join the conversation.<br>
+Register today";
 
-$slideTwoURL = "/beta/international/analysis.cfm?iso=GBR";
+$slideTwoURL = "/outlooks/steo/report/";
 $slideTwoImageName = "slide02.jpg";
-$slideTwoTitle = "The United Kingdom is the second-largest producer of oil in OECD Europe";
-$slideTwoDescription = "Read the Country Analysis Brief";
+$slideTwoTitle = "Short-Term Energy Outlook April 2018";
+$slideTwoDescription = "Energy projections for supply, demand, and prices";
 
-$slideThreeURL = "/petroleum/drilling/";
+$slideThreeURL = "/beta/international/analysis.cfm?iso=IRN";
 $slideThreeImageName = "slide03.jpg";
-$slideThreeTitle = "Drilling Productivity Report";
-$slideThreeDescription = "Approach to assessing the productivity of oil and gas drilling operations&#8212; March report";
+$slideThreeTitle = "Iran holds the world's fourth-largest proved crude oil reserves";
+$slideThreeDescription = "Read the Country Analysis Brief";
 
-$slideFourURL = "/conference/2018/";
+$slideFourURL = "/petroleum/drilling/";
 $slideFourImageName = "slide04.jpg";
-$slideFourTitle = "2018 EIA Energy Conference, June 4-5";
-$slideFourDescription = "Session topics now available";
+$slideFourTitle = "Drilling Productivity Report";
+$slideFourDescription = "Assessing the productivity of oil and gas drilling operations&#8212;April 2018 report";
 
-$slideFiveURL = "/totalenergy/data/monthly/";
+$slideFiveURL = "/electricity/monthly/update/archive/april2018/";
 $slideFiveImageName = "slide05.jpg";
-$slideFiveTitle = "Monthly Energy Review";
-$slideFiveDescription = "Recent energy statistics";
+$slideFiveTitle = "Electricity Monthly Update";
+$slideFiveDescription = "With data for February 2018";
 
-$slideSixURL = "/electricity/monthly/";
+$slideSixURL = "/totalenergy/data/monthly/";
 $slideSixImageName = "slide06.jpg";
-$slideSixTitle = "Electric Power Monthly";
-$slideSixDescription = "Data for January 2018";
+$slideSixTitle = "Monthly Energy Review";
+$slideSixDescription = "Recent energy statistics";
+
 
 /* test slide - you must remove the 'start' and 'end' php comment lines to view the slide */
 

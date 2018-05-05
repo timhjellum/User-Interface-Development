@@ -38,15 +38,13 @@ class BxSlider {
             pause: 10000
         });
     }
-
     checkSize() {
-        var viewPortWidth = window.innerWidth;
-        
-        if ((viewPortWidth >= 801) && (viewPortWidth <= 987)) {
+        var footerWidth = $('footer > div').width();
+        console.log("footer > div: " + footerWidth);
+        if ((footerWidth >= 801) && (footerWidth <= 987)) {
             // element width / number of slides
-            var slideWidth = parseInt(viewPortWidth/4);
-            console.log("tablet-landscape slide width: " + slideWidth);
-    
+            var tabletLandscapeSlideWidth = parseInt(footerWidth/4);
+            console.log("tablet-landscape slide width: " + tabletLandscapeSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 wrapperClass: 'slider-multi-wrapper',
@@ -60,27 +58,11 @@ class BxSlider {
                 pagerSelector: '.slider-multi-pager',
                 slideWidth: tabletLandscapeSlideWidth,
                 slideMargin: 10
-            });
-            // slide width - thumb margin (7 + 7) + slideMargin: 10
-            /*
-            $(".thumbnail").css("width", slideWidth-24);
-            $(".thumbnail").css('height', slideWidth/2);
-            $(".bx-wrapper").css("width", viewPortWidth);
-            $(".bx-viewport").css("width", viewPortWidth);
-            $(".slider-multi-cards-container").css("width", viewPortWidth);
-    
-            var elementHeight = $(".bx-viewport").height();
-            console.log(viewPortWidth + ' plus ' + elementHeight);
-    
-            $(".bx-prev").css("height", elementHeight);
-            $(".bx-next").css("height", elementHeight);
-            $(".bx-controls-direction").css("top", -elementHeight);
-            */
-    
-        } else if ((viewPortWidth >= 600) && (viewPortWidth <= 800)) {
+            });  
+        } else if ((footerWidth >= 600) && (footerWidth <= 800)) {
             // element width / number of slides
-            var slideWidth = parseInt(viewPortWidth/3);
-            console.log("tablet slide width: " + slideWidth);
+            var tabletSlideWidth = parseInt((footerWidth - 60)/3);
+            console.log("tablet slide width: " + tabletSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 wrapperClass: 'slider-multi-wrapper',
@@ -90,33 +72,17 @@ class BxSlider {
                 nextText: '&#8250;',
                 prevText: '&#8249;',
                 infiniteLoop: true,
-                pager: true,
+                pager: false,
+                controls: false,
                 pagerSelector: '.slider-multi-pager',
                 slideWidth: tabletSlideWidth,
                 slideMargin: 10
             });
-            // slide width - thumb margin (7 + 7) + slideMargin: 10
-            /*
-            $(".thumbnail").css("width", slideWidth-24);
-            $(".thumbnail").css('height', slideWidth/2);
-            $(".bx-wrapper").css("width", viewPortWidth);
-            $(".bx-viewport").css("width", viewPortWidth);
-            $(".slider-multi-cards-container").css("width", viewPortWidth);
-    
-            var elementHeight = $(".bx-viewport").height();
-            console.log(viewPortWidth + ' plus ' + elementHeight);
-    
-            $(".bx-prev").css("height", elementHeight);
-            $(".bx-next").css("height", elementHeight);
-            $(".bx-controls-direction").css("top", -elementHeight);
-            */
-        } else if ((viewPortWidth >= 450) && (viewPortWidth <= 599)) {
-    
+            $(".bx-viewport").css("overflow", "visible"); // required for peeking left and right slides
+        } else if ((footerWidth >= 450) && (footerWidth <= 599)) {
             // element width / number of slides
-            var slideWidth = parseInt(viewPortWidth/2);
-            console.log("element width: " + viewPortWidth);
-            console.log("mobile landscape slide width: " + slideWidth);
-    
+            var mobileLandscapeSlideWidth = parseInt((footerWidth - 60)/2);
+            console.log("mobile landscape slide width: " + mobileLandscapeSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 wrapperClass: 'slider-multi-wrapper',
@@ -126,63 +92,32 @@ class BxSlider {
                 nextText: '&#8250;',
                 prevText: '&#8249;',
                 infiniteLoop: true,
-                pager: true,
+                pager: false,
+                controls: false,
                 pagerSelector: '.slider-multi-pager',
                 slideWidth: mobileLandscapeSlideWidth,
                 slideMargin: 10
             });
-            // slide width - thumb margin (7 + 7) + slideMargin: 10
-            /*
-            $(".thumbnail").css("width", slideWidth-24);
-            $(".thumbnail").css('height', slideWidth/2);
-            $(".bx-wrapper").css("width", viewPortWidth);
-            $(".bx-viewport").css("width", viewPortWidth);
-            $(".slider-multi-cards-container").css("width", viewPortWidth);
-    
-            var elementHeight = $(".bx-viewport").height();
-            console.log(viewPortWidth + ' plus ' + elementHeight);
-    
-            $(".bx-prev").css("height", elementHeight);
-            $(".bx-next").css("height", elementHeight);
-            $(".bx-controls-direction").css("top", -elementHeight);
-            */
-    
-        } else if ((viewPortWidth >= 320) && (viewPortWidth <= 449)) {
-    
-            console.log("mobile slide width: " + viewPortWidth);
-    
+            $(".bx-viewport").css("overflow", "visible"); // required for peeking left and right slides
+        } else if ((footerWidth >= 320) && (footerWidth <= 449)) {
+            // element width / number of slides
+            var mobileSlideWidth = parseInt(footerWidth - 40);
+            console.log("mobile slide width: " + mobileSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
+                startSlide: 1,
                 wrapperClass: 'slider-multi-wrapper',
                 minSlides: 1,
                 maxSlides: 1,
                 moveSlides: 1,
-                nextText: '&#8250;',
-                prevText: '&#8249;',
                 infiniteLoop: true,
-                pager: true,
-                pagerSelector: '.slider-multi-pager',
-                slideWidth: viewPortWidth,
-                slideMargin: 0
+                pager: false,
+                controls: false,
+                slideWidth: mobileSlideWidth,
+                //slideWidth: footerWidth,
+                slideMargin: 10
             });
-            /*
-            $(".thumbnail").css("width", viewPortWidth);
-            $(".thumbnail").css('height', viewPortWidth / 2);
-            $(".slide-content").css("width", viewPortWidth);
-            $(".bx-wrapper").css("width", viewPortWidth);
-            $(".bx-viewport").css("width", viewPortWidth);
-            $(".bx-controls-direction").css("width", viewPortWidth);
-            $(".bx-controls").css("width", viewPortWidth);
-            $(".slider-multi-cards-container").css("width", viewPortWidth);
-    
-            var elementHeight = $(".bx-viewport").height();
-            console.log(viewPortWidth + ' plus ' + elementHeight);
-    
-            $(".bx-prev").css("height", elementHeight);
-            $(".bx-next").css("height", elementHeight);
-            $(".bx-controls-direction").css("top", -elementHeight);
-            */
-    
+            $(".bx-viewport").css("overflow", "visible"); 
         } else  {
             console.log("laptop and everything larger");
             this.bxSliderMulti.bxSlider({
@@ -194,26 +129,11 @@ class BxSlider {
                 nextText: '&#8250;',
                 prevText: '&#8249;',
                 infiniteLoop: true,
-                pager: true,
+                //pager: true,
                 pagerSelector: '.slider-multi-pager',
                 slideWidth: 154,
                 slideMargin: 14
             });
-            /*
-            $(".thumbnail").css("width", slideWidth-28);
-            $(".thumbnail").css('height', slideWidth/2);
-    
-            $(".slider-multi-cards-container").css("width", viewPortWidth);
-            $(".bx-wrapper").css("width", viewPortWidth);
-            $(".bx-wrapper").css("max-width", viewPortWidth);
-    
-            var elementHeight = $(".bx-viewport").height();
-            console.log(viewPortWidth + ' plus ' + elementHeight);
-    
-            $(".bx-prev").css("height", elementHeight);
-            $(".bx-next").css("height", elementHeight);
-            $(".bx-controls-direction").css("top", -elementHeight);
-            */
         }
     }
 }

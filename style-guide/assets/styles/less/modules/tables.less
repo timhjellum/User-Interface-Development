@@ -56,7 +56,7 @@
         thead {
             tr {
                 th {
-                    font-size: .750rem; // 12px;
+                    font-size: .750rem * 1.10%;
                     vertical-align: top;
                     text-align: left;                     
                     padding: 6px 10px 5px 10px;
@@ -107,7 +107,7 @@
             }
             &.nested-header {
                 th {
-                    border-top: 1px solid @eia-silver;
+                    border-top: 1px solid silver;
                     background-color: #fff;
                     padding: 8px 10px 7px 10px;
                     font-weight: 13px;
@@ -117,7 +117,7 @@
         tbody {
             tr {
                 td {
-                    font-size: .750rem; // 12px;
+                    font-size: .750rem * 1.10%;
                     vertical-align: top;
                     text-align: left;
                     padding: 6px 10px 5px 10px;
@@ -171,7 +171,7 @@
                 }
                 &.past-holiday{
                     td {
-                        border-bottom:1px solid @eia-silver;
+                        border-bottom:1px solid silver;
                         //vertical-align:bottom;
                         //text-align:right;
                         color:fade(@eia-black, 40%);
@@ -197,13 +197,46 @@
         tfoot {
             tr {
                 td {
-                    font-size: .750rem; // 12px;
+                    font-size: .750rem * 1.10%;
                     vertical-align: top;
                     text-align: left;                     
                     padding: 6px 10px 5px 10px;
                     a {
                         color: @eia-blue;   
                     }
+                }
+            }    
+        }
+    }  
+}
+
+
+
+
+
+@media @mobile {
+    table {
+        caption {
+            font-size: .938rem; //15px / 11pt;
+        }
+        thead {
+            tr {
+                th {
+                    font-size: .750rem; // 12px;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    font-size: .750rem; // 12px;
+                }
+            }   
+        }
+        tfoot {
+            tr {
+                td {
+                    font-size: .750rem; // 12px;
                 }
             }    
         }

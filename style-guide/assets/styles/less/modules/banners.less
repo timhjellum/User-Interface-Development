@@ -1,22 +1,24 @@
 @media @mobile {
     a {
-        display: table;
-        margin: 1em 0;
-        width: 100%; 
-        height: 100%; 
-        background-color: @eia-dark-blue;
-        img {
-            float: left;
-            display: block;
-            width: 100%;
-            height: auto
+        &.conference {
+            display: table;
+            margin: .1em 0 0 0;
+            width: 100%; 
+            height: 100%; 
+            background-color: @eia-dark-blue;
+            img {
+                float: left;
+                display: block;
+                width: 100%;
+                height: auto
+            }
         }
     }
-    .conference {
-//        background: @eia-dark-blue src('') left top;
-        width: 100%;
-        .font;
-        font-size: 1em; 
-        color: #fff;
+}
+@media @laptop {
+    a {
+        &.conference {
+            margin: 1em 0;
+        }
     }
 }

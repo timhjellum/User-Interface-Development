@@ -4,7 +4,7 @@ import localScroll from 'local-scroll';
 
 class LocalScroll {
     constructor() {
-        console.log("local scroll checking in");
+//        console.log("local scroll checking in");
     } 
 }
 export default LocalScroll;

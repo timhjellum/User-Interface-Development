@@ -78,7 +78,18 @@ strong {
 .hide {
 	display: none;
 }
-
+a[href^="http:"],
+a[href^="https:"],
+a[href*=".com"] {
+	background: url(/global/images/icons/external_link.png) no-repeat scroll right center transparent;
+	padding-right: 10px;
+	margin-right: 1px;
+	a {
+		&:hover {
+			text-decoration: underline !important;
+		}
+	}
+}
 
 	/* caption
 	.source {
@@ -118,10 +129,10 @@ strong {
 	*/
 
 hr {
-//	background: @eia-light-grey;
-//	color: @eia-light-grey;
-	background: @eia-d4d4d4;
-	color: @eia-d4d4d4;
+//	background: tint(@eia-black, 60%);
+//	color: tint(@eia-black, 60%);
+	background: shade(white, 17%);
+	color: shade(white, 17%);
 	clear: both;
 	float: none;
 	width: 100%;
@@ -143,6 +154,21 @@ a[name]{vertical-align:top}
 		line-height: 1.125rem; // 18 pixels
 		margin: 0 0 1.0em;
 	}
+	h1 {
+		display: block;
+		font-size: 1.625rem; // 26px pixels
+		border-bottom: solid 1px shade(white, 17%); //#dadada;
+		padding: 0 0 6px 0; // 1em 0 6px;
+		margin: 0 0 .5em 0; //0 0 22px 0;
+		clear: both;
+	}
+
+
+
+
+
+
+
 	// start accessibility - do not edit
 	.hidden {
 		position:absolute;
@@ -341,7 +367,7 @@ a[name]{vertical-align:top}
 		
 			mark {
 			background-color: #ff0;
-			color: #000;
+			color: black;
 			}
 		
 			/**
@@ -642,6 +668,10 @@ a[name]{vertical-align:top}
 @media @laptop { // big landscape tablets, laptops, and desktops
 	p {
 		font-size: 0.750rem; // 12 pixels
+	}
+	h1 {
+		padding: 1em 0 6px;
+		margin: 0 0 22px 0;
 	}
 }
 @media @desktop { // desktops

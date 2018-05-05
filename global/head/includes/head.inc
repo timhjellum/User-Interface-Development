@@ -41,10 +41,10 @@ isset($highstock) || $highstock = '';
 <meta name="subject" content="official energy statistics, data, analysis and forecasting" />
 <meta name="Description" content="Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government" />
 
-<link href="/css_rehab/archive/global/styles/global.css" type="text/css" media="screen, projection" rel="stylesheet" />
+<link href="/css_rehab/archive/global/styles/global.min.css" type="text/css" media="screen, projection" rel="stylesheet" />
 
-<link href="/global/styles/print.css?v=1.0.0" type="text/css" media="print" rel="stylesheet" />
-<link href="/global/styles/eia-print.min.css?v=1.0.0" type="text/css" media="print" rel="stylesheet" />
+<link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
+<link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
 
 <?php
 //Include Highcharts (uses variables hcVersion, highstock, and jQueryUpgrade)

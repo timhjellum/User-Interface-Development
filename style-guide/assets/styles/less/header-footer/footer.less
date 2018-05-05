@@ -1,7 +1,7 @@
 
 
 .footer {
-@media @mobile {
+	@media @mobile {
 		border-top: 1px solid @eia-dark-blue;
 		float: left;
 		clear: both;
@@ -115,21 +115,10 @@
 							}
 						}
 					}
-					a[href^="http:"],
-					a[href^="https:"],
-					a[href*=".com"] {
-						background: url(/global/images/icons/external_link.png) no-repeat scroll right center transparent;
-						padding-right: 10px;
-						margin-right: 1px;
-						a {
-							&:hover {
-								text-decoration: underline !important;
-							}
-						}
-					}
 				}
 			}
 		}
+	
 }
 @media @mobile-landscape { // smartphones, Android phones, landscape iPhone
 	.l-col {
@@ -160,7 +149,7 @@
 			}
 			&.un-stacked {
 				display: block;
-				padding: 0;
+				padding: 0 1em;
 				text-align: center;
 				border-right: none; // @eia-dark-grey;	
 			}				

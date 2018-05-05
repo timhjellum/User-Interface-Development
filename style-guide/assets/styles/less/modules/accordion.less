@@ -43,7 +43,7 @@
 		ul {
 			list-style: none;
 			padding: 0;
-			margin: 0;
+			margin: 0 0 0 27px;
 			&:last-child {
 				padding-bottom: 2em;
 			}
@@ -65,8 +65,8 @@
                 span {
 					&.date {
 						.italic;
-						color: @eia-dark-grey;
-						//color: orangered;
+						//color: @eia-dark-grey;
+						color: tint(@eia-black, 46.5%);
 					}
 					&.release-date {
 						//.italic;
@@ -170,19 +170,51 @@
 			.bold;
 			border: 0px;
 			//border-bottom: 1px solid #fff;
-			padding: 7px 10px 7px 22px;
+			padding: 7px 10px 7px 8px;
 			//background: #00405d;
-			border: 1px solid #666;
+			border: 1px solid @eia-blue;
 			cursor: pointer;
+			.ico {
+				&.expand-collapse {
+					float: left;
+					margin: 5px 6px 0 0;
+					&:before {
+						.controls-icon(12px, 12px);
+						.icon-remove();
+						transform: rotate(45deg)
+					}
+					&:hover {
+						&::before {
+							.icon-remove;
+						}
+					}
+				}
+			}
 			&.active {
-				border: 1px solid #000;
+				border: 1px solid @eia-dark-blue;
+				color: @eia-dark-blue;
+				.ico {
+					&.expand-collapse {
+						float: left;
+						margin: 5px 6px 0 0;
+						&:before {
+							.controls-icon(12px, 12px);
+							.icon-collapse(@eia-dark-blue);
+							transform: rotate(0deg)
+						}
+						&:hover {
+							&::before {
+								.icon-remove;
+							}
+						}
+					}
+				}
 			}
 			.additional-formats {
 				.right;
 				font-weight: normal;
 			}
 		}
-	
 		.expand-all {
 			display: none;
 			&.show {

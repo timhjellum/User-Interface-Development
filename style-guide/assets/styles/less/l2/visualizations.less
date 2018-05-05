@@ -37,7 +37,7 @@
             display: block;
             img {
                 border-radius: 50%;
-                border: 3px solid @eia-silver;
+                border: 3px solid silver;
                 margin-left: -3px;
             } 
         }
@@ -48,20 +48,20 @@
         &.visualizations {
             .l-col {
                 padding: 20px;
-            }
-        }
-	}
-}
-@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
-    ul {
-        &.visualizations {
-            .l-col {
-                padding: 20px;
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 33.333333%;
+                -ms-flex: 0 0 33.333333%;
+                flex: 0 0 33.333333%;
+                max-width: 33.333333%;
+                width: 33.333333%;
             }
             .l-col {
                 &:nth-child(3) {
-                    clear: right;//border: 3px solid red;        
+                    clear: right;       
                 }
+            }
+            .l-col:nth-child(5) {
+                clear: none;
             }
         }
     }

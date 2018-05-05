@@ -46,7 +46,7 @@ gulp.task('eia-styles', ['eia-style-guide'], () =>
 	.pipe(less())
 	.pipe(gulp.dest(dist))
 	.pipe(cleanCSS())
-//	.pipe(rename("global.min.css"))
+	.pipe(rename("global.min.css"))
 	.pipe(gulp.dest(dist))
 );
 

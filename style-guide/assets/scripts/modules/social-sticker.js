@@ -14,7 +14,7 @@ class SocialSticker {
             $('#sticker').offset({top:$(window).scrollTop() + $('header').height()+2});
         }
 
-        position();
+        
         
         $('#sticker').hover(function(event) {
             },function(event){
@@ -23,15 +23,24 @@ class SocialSticker {
         $(window).scroll(function() {
             position();
         });
-        
         $(window).resize(function() {
             position();
         });
         $('header').on('transitionend', function() {
             position();
         });
+
+        const load = () => {
+            position();
+        } 
+        window.onload = load;
     }
-        
+
+
+
+
+
+
     hover(target) {
         let $hoverTarget = $(target);
         let rolloverClass = 'hover';

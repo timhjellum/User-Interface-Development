@@ -1,12 +1,5 @@
 
- h1 {
-    display: block;
-    font-size: 1.625rem; // 26px pixels
-    border-bottom: solid 1px @eia-d4d4d4; //#dadada;
-    padding: 1em 0 6px;
-    margin: 0 0 22px 0;
-    clear: both;
-}
+
 
 
 //
@@ -20,7 +13,7 @@
         font-size: 0.938rem; // 15 pixels
         margin-bottom: 5px;
         display: block;
-        color: @eia-light-grey;
+        color: tint(@eia-black, 60%);
         text-transform: uppercase;
         .rpt_category {
             margin: 0;
@@ -38,7 +31,7 @@
         
         .v_divider {
             font-size: 0.875rem; // 14 pixels
-            color: @eia-silver;
+            color: silver;
             line-height: 1.0em;
         }
     }
@@ -52,7 +45,7 @@
             li {
                 display: table;
                 color: @eia-dark-grey;
-                margin: 9px 0 0 0;
+                margin: 1em 0 0 0;
                 padding: 0;
                 width: 100%;
                 clear: both;
@@ -140,77 +133,13 @@
         }
     }
 }
-@media @mobile-landscape { // smartphones, Android phones, landscape iPhone
-    ul {
-        &.analysis-projections {
-            li {
-                //border: 1px solid yellowgreen;
-               img {
-                    width: 55px;
-                    height: 55px;
-                }
-                &>div {
-                    margin: 0 0 0 70px;
-                }
-            }
-        }
-	}
-}
-
-@media @tablet { // tablet, landscape iPad, lo-res laptops ands desktops
-    ul {
-        &.analysis-projections {
-            li {
-                //border: 1px solid greenyellow;
-               img {
-                    width: 50px;
-                    height: 50px;
-                }
-                &>div {
-                    //margin: 0 0 0 65px;
-                    h2 {
-                        a {
-                            font-size: .9375rem * 1.10%;
-                            margin: 0 0 6px;
-                        }
-                    }
-                }
-                &.foot {
-                    a {
-                        font-size: .8125rem * 1.10%;
-                    }
-                }
-            }
-        }
-    }
-}
 @media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
     ul {
         &.analysis-projections {
             li {
-                //border: 1px solid red;
-               img {
-                    width: 40px;
-                    height: 40px;
-                }
+                margin: 9px 0 0 0;
                 &>div {
                     margin: 0 0 0 55px;
-                }
-            }
-        }
-	}
-}
-@media @laptop { // tablet, landscape iPad, lo-res laptops ands desktops
-    ul {
-        &.analysis-projections {
-            li {
-                //border: 1px solid blue;
-               //img {
-               //     width: 35px;
-               //     height: 35px;
-                //}
-                &>div {
-                    //margin: 0 0 0 51px;
                     font-size: 0.750rem; // 12 pixels
                     h2 {
                         a {

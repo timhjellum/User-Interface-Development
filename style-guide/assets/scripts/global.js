@@ -39,4 +39,5 @@ const jqueryUiTabs = require('jquery-ui-dist/jquery-ui.js');
 //import PageTabs from './modules/page-tabs';
 //new PageTabs();
 
-
+import FirefoxHack from './modules/firefox-hack';
+new FirefoxHack();

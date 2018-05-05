@@ -1,20 +1,12 @@
 @media @mobile {
-    .content-container {
-        &.basic-table {
-//            overflow-x: auto;            
-        }
-    }
     table {
         // data aligns the first column left, all other columns right 
         &.basic_table {
             width: 100%;
             margin: 1.2em 0 .2em;
-
-            // this puts a border on top
             caption {
-                //border-bottom: 1px solid @eia-blue;
                 padding: 0 10px;
-                //font-size: .9375rem; // * 120%; //15px    
+                font-size: .9375rem * 1.10%;    
                 em {
                     .normal;
                     text-transform: none;
@@ -34,7 +26,7 @@
                 tr {
                     th {
                         vertical-align: bottom;
-                        border-bottom: 1px solid @eia-silver;
+                        border-bottom: 1px solid silver;
                         text-align: right;
                         &:first-child {
                             text-align: left;
@@ -74,7 +66,7 @@
                 tr {
                     td {
                         text-align: right;
-                        border-bottom: 1px dashed @eia-silver;
+                        border-bottom: 1px dashed silver;
                         white-space: normal !important;
                         &:first-child {
                             text-align: left;
@@ -127,9 +119,9 @@
                 tr {
                     td {
                         padding: 12px 10px 10px 10px;
-                        font-size: 0.688rem; // 11 pixels
+                        font-size: 0.688rem * 1.10%;
                         a {
-                            font-size: 0.688rem; // 11 pixels
+                            font-size: 0.688rem * 1.10%;
                         }
                         text-align: right;
                         &:first-child {
@@ -144,7 +136,7 @@
                     }
                     &.total {                   
                         td {
-                            border-top: 2px solid @eia-silver;
+                            border-top: 2px solid silver;
                             border-bottom: 1px solid @eia-blue;
                             margin-bottom: -2px;
                             &.divider {
@@ -165,6 +157,28 @@
     ul {
         &.basic_table {
             margin: 0 0 2em;
+        }
+    }
+}
+@media @tablet {
+    table {
+        &.basic_table {
+            caption {
+                font-size: .9375rem; //15px    
+                p {
+                    font-size: 12px;
+                }
+            }
+            tfoot {
+                tr {
+                    td {
+                        font-size: 0.688rem; // 11 pixels
+                        a {
+                            font-size: 0.688rem; // 11 pixels
+                        }
+                    }
+                } 
+            }
         }
     }
 }

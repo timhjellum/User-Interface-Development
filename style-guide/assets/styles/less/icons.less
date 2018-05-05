@@ -17,13 +17,13 @@
 			float: left;
 			transition: all 0.3s ease-in-out;
 
-			&::before {
+			&:before {
 				.controls-icon(44px, 35px);
 				.icon-eia-logomark();
 				transition: all 0.3s ease-in-out;
 			}
 			&.show {
-				&::before {
+				&:before {
 					.controls-icon(75px, 60px);
 					.icon-eia-logomark();
 					transition: all 0.3s ease-in-out;					
@@ -33,7 +33,7 @@
 		&.logo-white-background {
 			text-indent: -9999px;
 			font-size: 0;	
-			&::before {
+			&:before {
 				.controls-icon(75px, 60px);
 				.icon-eia-logomark(full, "@eia-dark-grey");
 			}
@@ -57,7 +57,7 @@
 	/*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
 	.down-arrow {			
 		text-indent: -9999px;
-		&::before {
+		&:before {
 			.icon-down-arrow();
 			.controls-icon(14px, 16px);
 			float: left;
@@ -67,7 +67,7 @@
 	}
 	.up-arrow {
 		text-indent: -9999px;		
-		&::before {
+		&:before {
 			.icon-up-arrow();
 			.controls-icon(14px, 16px);
 			float: left;
@@ -79,7 +79,7 @@
 	.ico_down {			
 		text-indent: -9999px;
 		font-size: 0;
-		&::before {
+		&:before {
 			.icon-down-arrow();
 			.controls-icon(12px, 14px);
 			float: left;
@@ -90,7 +90,7 @@
 	.ico_up {
 		text-indent: -9999px;
 		font-size: 0;	
-		&::before {
+		&:before {
 			.icon-up-arrow();
 			.controls-icon(12px, 14px);
 			float: left;
@@ -101,7 +101,7 @@
 
 	/*---Right arrow for use in footer and similar---*/
 	.right-arrow-head {
-		&::before {
+		&:before {
 			.icon-right-arrow-head();
 			.controls-icon(14px, 14px);
 			float: left;
@@ -121,44 +121,44 @@
             top: -6px;
             left: -8px;
             cursor: pointer;
-            &::before {
+            &:before {
                 .controls-icon(19px, 19px);
                 .search-submit();
             }
             &:hover {
-                &::before {
+                &:before {
                     .search-submit();
                 }
             }
 		}
 		/*-Close Icon --------------------------*/
 		&.close-menu {
-			&::before {
+			&:before {
 				.controls-icon(40px, 40px);
 				.icon-cancel();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-cancel();
 				}
 			}
 		}
 		&.ico-nav {
 			&.analysis-projections {
-				&::before {
+				&:before {
 					.icon-analysis-projections();
 					.nav-bar-icon();
 					background-position: 60% 70%;
 				}
 			}
 			&.markets-finance {
-				&::before {
+				&:before {
 					.icon-markets-finance();
 					.nav-bar-icon();
 				}
 			}
 			&.environment {
-				&::before {
+				&:before {
 					.icon-environment();
 					.nav-bar-icon();
 					background-position-y: 45%;
@@ -167,50 +167,50 @@
 
 			/*-Sources & Uses Icons --------------*/
 			&.petroleum {
-				&::before {
+				&:before {
 					.icon-petroleum();
 					.nav-bar-icon();
 				}
 			}
 			&.natural-gas {
-				&::before {
+				&:before {
 					.icon-natural-gas();
 					.nav-bar-icon();
 				}
 			}
 			&.electricity {
-				&::before {
+				&:before {
 					.icon-electricity();
 					.nav-bar-icon();
 				}
 			}
 			&.consumption {
-				&::before {
+				&:before {
 					.icon-consumption();
 					.nav-bar-icon();
 				}
 			}
 			&.coal {
-				&::before {
+				&:before {
 					.icon-coal();
 					.nav-bar-icon();
 					background-position-y: 45%;
 				}
 			}
 			&.nuclear {
-				&::before {
+				&:before {
 					.icon-nuclear();
 					.nav-bar-icon();
 				}
 			}
 			&.renewable {
-				&::before {
+				&:before {
 					.icon-renewable();
 					.nav-bar-icon();
 				}
 			}
 			&.total-energy {
-				&::before {
+				&:before {
 					.icon-total-energy();
 					.nav-bar-icon();
 				}
@@ -218,25 +218,25 @@
 
 			/*-News Icons -------------------------------*/
 			&.featured-reports {
-				&::before {
+				&:before {
 					.icon-featured-reports();
 					.nav-bar-icon();
 				}
 			}
 			&.press-room {
-				&::before {
+				&:before {
 					.icon-press-room();
 					.nav-bar-icon();
 				}
 			}
 			&.whats-new {
-				&::before {
+				&:before {
 					.icon-whats-new();
 					.nav-bar-icon();
 				}
 			}
 			&.upcoming {
-				&::before {
+				&:before {
 					.icon-upcoming();
 					.nav-bar-icon();
 				}
@@ -244,7 +244,7 @@
 
 			/*-Tools Icons ----------------------------*/
 			&.eia-glossary {
-				&::before {
+				&:before {
 					.icon-glossary();
 					.nav-bar-icon();
 					background-position-y: 45%;
@@ -252,49 +252,49 @@
 				}
 			}
 			&.data-tools-model {
-				&::before {
+				&:before {
 					.icon-data-tools-model();
 					.nav-bar-icon();
 				}
 			}
 			&.open-data {
-				&::before {
+				&:before {
 					.icon-open-data();
 					.nav-bar-icon();
 				}
 			}
 			&.beta {
-				&::before {
+				&:before {
 					.icon-beta();
 					.nav-bar-icon();
 				}
 			}
 			&.follow-us {
-				&::before {
+				&:before {
 					.icon-follow-us();
 					.nav-bar-icon();
 				}
 			}
 			&.reports {
-				&::before {
+				&:before {
 					.icon-reports();
 					.nav-bar-icon();
 				}
 			}
 			&.survey-forms {
-				&::before {
+				&:before {
 					.icon-survey-forms();
 					.nav-bar-icon();
 				}
 			}
 			&.email-complex {
-				&::before {
+				&:before {
 					.icon-email-complex();
 					.nav-bar-icon();
 				}
 			}
 			&.rss-complex {
-				&::before {
+				&:before {
 					.icon-rss-complex();
 					.nav-bar-icon();
 				}
@@ -302,31 +302,31 @@
 
 			/*-Learn About Energy Icons -----------------*/
 			&.today-in-energy {
-				&::before {
+				&:before {
 					.icon-today-in-energy();
 					.nav-bar-icon();
 				}
 			}
 			&.energy-explained {
-				&::before {
+				&:before {
 					.icon-energy-explained();
 					.nav-bar-icon();
 				}
 			}
 			&.energy-in-brief {
-				&::before {
+				&:before {
 					.icon-energy-in-brief();
 					.nav-bar-icon();
 				}
 			}
 			&.faq {
-				&::before {
+				&:before {
 					.icon-faq();
 					.nav-bar-icon();
 				}
 			}
 			&.teachers {
-				&::before {
+				&:before {
 					.icon-teachers();
 					.nav-bar-icon();
 				}
@@ -334,20 +334,20 @@
 
 			/*-Geography Icons ------------------------*/
 			&.states {
-				&::before {
+				&:before {
 					.icon-states();
 					.nav-bar-icon();
 				}
 			}
 			&.maps {
-				&::before {
+				&:before {
 					.icon-maps();
 					.nav-bar-icon();
 					background-size: 100% 100%;
 				}
 			}
 			&.international {
-				&::before {
+				&:before {
 					.icon-international();
 					.nav-bar-icon();
 					background-size: 100% 100%;
@@ -355,7 +355,7 @@
 			}
 			/*-A-Z Icon --------------------------*/
 			&.a-z-index {
-				&::before {
+				&:before {
 					.icon-a-z-index();
 					.nav-bar-icon();
 				}
@@ -367,12 +367,12 @@
 				top: -6px;
 				left: -8px;
 				cursor: pointer;
-				&::before {
+				&:before {
 					.controls-icon(19px, 19px);
 					.search-submit();
 				}
 				&:hover {
-					&::before {
+					&:before {
 						.search-submit();
 					}
 				}
@@ -412,533 +412,533 @@
 	.ico {
 		text-indent: -9999px;
 		&.analysis {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-analysis();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-analysis;
 				}
 			}
 		}
 		&.cancel {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-cancel();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-cancel;
 				}
 			}
 		}
 		&.column-chart {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-column-chart();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-column-chart;
 				}
 			}
 		}
 		&.compare {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-compare();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-compare;
 				}
 			}
 		}
 		&.d-arrow {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-d-arrow();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-d-arrow;
 				}
 			}
 		}
 		&.download {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-download();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-download;
 				}
 			}
 		}
 		&.edit {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-edit();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-edit;
 				}
 			}
 		}
 		&.filter {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-filter();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-filter;
 				}
 			}
 		}
 		&.grab-dot {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grab-dot();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grab-dot;
 				}
 			}
 		}
 		&.grid-column {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-column();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-column;
 				}
 			}
 		}
 		&.grid-line {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-line();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-line;
 				}
 			}
 		}
 		&.grid-map {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-map();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-map;
 				}
 			}
 		}
 		&.grid-parent-column {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-parent-column();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-parent-column;
 				}
 			}
 		}
 		&.grid-parent-line {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-parent-line();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-parent-line;
 				}
 			}
 		}
 		&.grid-parent-map {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-parent-map();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-parent-map;
 				}
 			}
 		}
 		&.grid-parent-pin {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-parent-pin();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-parent-pin;
 				}
 			}
 		}
 		&.grid-pin {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-pin();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-pin;
 				}
 			}
 		}
 		&.grid-key {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-grid-key();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-grid-key;
 				}
 			}
 		}
 		&.help {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-help();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-help;
 				}
 			}
 		}
 		&.key {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-key();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-key;
 				}
 			}
 		}
 		&.l-arrow {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-l-arrow();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-l-arrow;
 				}
 			}
 		}
 		&.l-range {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-l-range();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-l-range;
 				}
 			}
 		}
 		&.line-chart {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-line-chart();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-line-chart;
 				}
 			}
 		}
 		&.map {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-map();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-map;
 				}
 			}
 		}
 		&.pause {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-pause();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-pause;
 				}
 			}
 		}
 		&.pin {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-pin();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-pin;
 				}
 			}
 		}
 		&.play {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-play();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-play;
 				}
 			}
 		}
 		&.r-arrow {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-r-arrow();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-r-arrow;
 				}
 			}
 		}
 		&.r-range {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-r-range();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-r-range;
 				}
 			}
 		}
 		&.remove {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-remove();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-remove;
 				}
 			}
 		}
 		&.reset {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-reset();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-reset;
 				}
 			}
 		}
 		&.reset-animation {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-reset-animation();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-reset-animation;
 				}
 			}
 		}
 		&.scroll-h {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-scroll-h();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-scroll-h;
 				}
 			}
 		}
 		&.scroll-v {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-scroll-v();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-scroll-v;
 				}
 			}
 		}
 		&.search {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-search();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-search;
 				}
 			}
 		}
 		&.slide {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-slide();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-slide;
 				}
 			}
 		}
 		&.sort {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-sort();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-sort;
 				}
 			}
 		}
 		&.sort-down {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-sort-down();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-sort-down;
 				}
 			}
 		}
 		&.sort-up {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-sort-up();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-sort-up;
 				}
 			}
 		}
 		&.submit {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-submit();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-submit;
 				}
 			}
 		}
 		&.checkmark {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-checkmark();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-checkmark;
 				}
 			}
 		}
 		&.dash {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-dash();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-dash;
 				}
 			}
 		}
 		&.dot {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-dot();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-dot;
 				}
 			}
 		}
 		&.collapse {
-			&::before {
+			&:before {
 				.controls-icon(20px, 20px);
 				.icon-collapse();
 			}
 			&:hover {
-				&::before {
+				&:before {
 					.icon-collapse;
 				}
 			}
 		}
 		&.facebook {
-			&::before {
+			&:before {
 				.icon-facebook();
 				.controls-icon(20px, 20px);
 			}
 		}
 
 		&.twitter {
-			&::before {
+			&:before {
 				.icon-twitter();
 				.controls-icon(20px, 20px);
 			}
 		}
 
 		&.youtube {
-			&::before {
+			&:before {
 				.icon-you-tube();
 				.controls-icon(20px, 20px);
 			}
 		}
 
 		&.flickr {
-			&::before {
+			&:before {
 				.icon-flickr();
 				.controls-icon(20px, 20px);
 			}
 		}
 
 		&.linkedin {
-			&::before {
+			&:before {
 				.icon-linked-in();
 				.controls-icon(20px, 20px);
 			}
 		}
 
 		&.email {
-			&::before {
+			&:before {
 				.icon-email();
 				.controls-icon(20px, 20px);
 			}
 		}
 
 		&.rss {
-			&::before {
+			&:before {
 				.icon-rss();
 				.controls-icon(20px, 20px);
 			}
@@ -947,19 +947,19 @@
 
 //		&.dap-single {
 			&.d {
-				&::before {
+				&:before {
 					.icon-single(@fill-color: @eia-blue, @letter: D);
 					.controls-icon(35px, 35px);
 				}
 			}
 			&.a {
-				&::before {
+				&:before {
 					.icon-single(@fill-color: @eia-green, @letter: A);
 					.controls-icon(35px, 35px);
 				}
 			}
 			&.p {
-				&::before {
+				&:before {
 					.icon-single(@fill-color: @eia-tan, @letter: P);
 					.controls-icon(35px, 35px);
 				}
@@ -967,7 +967,7 @@
 //		}
 //		&.dap-dual {
 			&.da {
-				&::before {
+				&:before {
 					.icon-dual(@fill-color-top: @eia-blue, @fill-color-bottom: @eia-green, @letter-top: D, @letter-bottom: A);
 					.controls-icon(35px, 35px);
 					
@@ -976,7 +976,7 @@
 //		}
 //		&.dap-dual {
 			&.ap {
-				&::before {
+				&:before {
 					.icon-dual(@fill-color-top: @eia-green, @fill-color-bottom: @eia-tan, @letter-top: A, @letter-bottom: P);
 					.controls-icon(35px, 35px);
 				}
@@ -984,14 +984,14 @@
 //		}
 //		&.dap-dual {
 			&.dp {
-				&::before {
+				&:before {
 					.icon-dual(@fill-color-top: @eia-blue, @fill-color-bottom: @eia-tan, @letter-top: D, @letter-bottom: P);
 					.controls-icon(35px, 35px);
 				}
 			}
 //		}
 		&.dap {
-			&::before {
+			&:before {
 				.icon-triple();
 				.controls-icon(35px, 35px);
 			}
@@ -1005,16 +1005,28 @@
 		}
 
 		&.pdf {
-			background: transparent url(/global/images/icons/pdf.png) no-repeat center left;
-			padding: 0 0 0 15px;
+			&:before {
+				.icon-file-type(pdf);
+				.controls-icon();
+			}
 		}
 		&.xls {
-			background: transparent url(/global/images/icons/xls2.png) no-repeat center left;
-			padding: 0 0 0 18px;
+			&:before {
+				.icon-file-type(xls);
+				.controls-icon();
+			}
 		}
 		&.csv {
-			background: transparent url(/global/images/icons/csv.png) no-repeat center left;
-			padding: 0 0 0 15px;
+			&:before {
+				.icon-file-type(csv);
+				.controls-icon();
+			}
+		}
+		&.external-link {
+			&:before {
+				.icon-external-link(csv);
+				.controls-icon();
+			}
 		}
 	}
 
@@ -1043,7 +1055,7 @@
 
 
 		&.linechart {
-			&::before {
+			&:before {
 				.controls-icon;
 				&.line-chart(tint(@eia-blue, 40%);
 					//Less has some useful color functions. The function tint() lightens the color by whatever percentage we pass. This is similar to how I've created some of the lighter colors in Illustrator so I'm looking into how we might use this. It's not something we need to worry about right now since we'll be able to make these changes easily later on.
@@ -1052,7 +1064,7 @@
 			}
 			&.ui-state-active, &.ui-state-hover {
 				color: @eia-blue;
-				&::before {
+				&:before {
 					&.line-chart(@eia-blue);
 					background-position: center bottom;
 				}
@@ -1084,7 +1096,7 @@
 		&.blank { 
 			width: 100%; // 13px actual size
 			height: 100%; // 13px actual size
-			&::after { 
+			&:after { 
 				content: "Values are not available. - ";
 				width: 100%; // 13px actual size
 				height: 100%; // 13px actual size
@@ -1167,7 +1179,7 @@
 	.search {	
 		.ico-menu {
 			&.search {
-				&::before {
+				&:before {
 					.controls-icon(16px, 16px);
 					.icon-search(@eia-blue);
 					position: relative;
@@ -1180,7 +1192,7 @@
 	.search-menu-toggle {	
 		.ico-menu {
 			&.search {
-				&::before {
+				&:before {
 					.controls-icon(20px, 20px);
 					.icon-search(@eia-greyish-blue);
 					float: right;
@@ -1192,12 +1204,12 @@
 
 
 	.fancybox-close {
-		&::before {
+		&:before {
 			.controls-icon(40px, 40px);
 			.icon-cancel();
 		}
 		&:hover {
-			&::before {
+			&:before {
 				.icon-cancel();
 			}
 		}
@@ -1208,7 +1220,7 @@
 @media @laptop {
 	a {
 		&.logo {
-			&::before {
+			&:before {
 				.controls-icon(302px, 101px);
 				.icon-logo;
 				transition: all 0.3s ease-in-out;
@@ -1218,7 +1230,7 @@
 	.shrink {
 		a {
 			&.logo {
-				&::before {
+				&:before {
 					.controls-icon(50px, 40px);
 					.icon-eia-logomark;
 					transition: all 0.3s ease-in-out;
@@ -1248,37 +1260,37 @@
 		display: inline-block;
 		font-size: 0;
 		&.facebook {
-			&::before {
+			&:before {
 				.icon-facebook();
 			}
 		}
 		&.twitter {
-			&::before {
+			&:before {
 				.icon-twitter();
 			}
 		}
 		&.youtube {
-			&::before {
+			&:before {
 				.icon-you-tube();
 			}
 		}
 		&.flickr {
-			&::before {
+			&:before {
 				.icon-flickr();
 			}
 		}
 		&.linkedin {
-			&::before {
+			&:before {
 				.icon-linked-in();
 			}
 		}
 		&.email {
-			&::before {
+			&:before {
 				.icon-email();
 			}
 		}
 		&.rss {
-			&::before {
+			&:before {
 				.icon-rss();
 			}
 		}
@@ -1289,7 +1301,7 @@
 		&.linkedin,
 		&.email,
 		&.rss {
-			&::before {
+			&:before {
 				.controls-icon(16px, 16px);
 			}
 		}
@@ -1300,37 +1312,37 @@
 		text-indent: -9999px;
 		&.facebook {
 			padding: 0;
-			&::before {
+			&:before {
 				.icon-facebook();
 			}
 		}
 		&.twitter {
-			&::before {
+			&:before {
 				.icon-twitter();
 			}
 		}
 		&.youtube {
-			&::before {
+			&:before {
 				.icon-you-tube();
 			}
 		}
 		&.flickr {
-			&::before {
+			&:before {
 				.icon-flickr();
 			}
 		}
 		&.linkedin {
-			&::before {
+			&:before {
 				.icon-linked-in();
 			}
 		}
 		&.email {
-			&::before {
+			&:before {
 				.icon-email();
 			}
 		}
 		&.rss {
-			&::before {
+			&:before {
 				.icon-rss();
 			}
 		}
@@ -1341,7 +1353,7 @@
 		&.linkedin,
 		&.email,
 		&.rss {
-			&::before {
+			&:before {
 				.controls-icon(40px, 40px);
 
 			}
@@ -1359,14 +1371,14 @@
 
 		/*---Up and Down arrows for use in data highlights and elsewhere on the website---*/
 		.down-arrow {			
-			&::before {
+			&:before {
 				.controls-icon(12px, 14px);
 				position: relative;
 				top: -2px;
 			}
 		}
 		.up-arrow {
-			&::before {
+			&:before {
 				.controls-icon(12px, 14px);
 				position: relative;
 				top: -2px;
@@ -1374,7 +1386,7 @@
 		}
 		/*---Right arrow for use in footer and similar---*/
 		.right-arrow-head {
-			&::before {
+			&:before {
 				.controls-icon(12px, 12px);
 			}
 		}
@@ -1388,7 +1400,7 @@
 		display: inline-block;
 		background-color: @eia-blue;
 		&.facebook {
-			&::before {
+			&:before {
 				.icon-facebook();
 				.controls-icon(39px, 42px);
 				top: -3px;
@@ -1398,7 +1410,7 @@
 			}
 		}
 		&.twitter {
-			&::before {
+			&:before {
 				.icon-twitter();
 				.controls-icon(39px, 42px);
 				position: relative;
