@@ -38,7 +38,7 @@
 <p><strong>Refinery-level trends in imports other than light sweet crude:</strong> There is evidence that some refineries have recently reduced imports of medium and heavy grades of crude oil in order to accommodate increasing light domestic production while other refiners, which have made changes in processing equipment to accommodate heavier crudes, have decreased their demand for light crude.
 </p>
 <br />
-<p><a href="pdf/tracking_tool.pdf"><i class="ico pdf">PDF</i>See complete report</a></p>
+<p><a href="pdf/tracking_tool.pdf"><i class="ico pdf"><span>PDF</span></i>See complete report</a></p>
 
 <?php /* end main content */ ?>
 </div>

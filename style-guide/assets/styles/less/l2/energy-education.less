@@ -13,57 +13,67 @@
                     clear: both;
                 }
                 i {
-                    margin: 0 auto 1em auto;
-                    width: 100%;
-                    height: 100px;
+                    //margin: 0 auto 1em auto;
+                    //width: 100%;
+                    //height: 100px;
+                    float: left;
+                    width: 75px;
+                    height: 66px;
+                    margin: 0;
                     &.ico {
                         &.energy-education {
-                            display: block;
-                            float: none;
-                            text-align: center;
-                            //float: left;
+                            float: left;
                             &.faq {
                                 &::before {
                                     .icon-faq(@fill-color: @eia-darker-blue, @fill-color-lt: @eia-light-blue);
-                                    //.nav-bar-icon(80px, 70px);
-                                    .nav-bar-icon(107px, 107px);
-                                    border: none !important;
+                                    .nav-bar-icon(75px, 66px);
                                     background-size: 90%;
                                     border: none;
-                                    margin: 0 auto 0 auto;
                                 }
                             }
                             &.petroleum {
                                 &::before {
                                     .icon-petroleum(@fill-color: @eia-brown);
-                                    //.nav-bar-icon(80px, 70px);
-                                    .nav-bar-icon(107px, 107px);
-                                    border: none !important;
+                                    .nav-bar-icon(75px, 66px);
                                     background-size: 90%;
+                                    margin-left: 0;
                                     border: none;
-                                    margin: 0 auto 0 auto;
                                 }
                             }
                         }
+                    }
+                }
+                &:first-child {
+                    i {
+                        width: 55px;
+                    }
+                }
+                &:last-child {
+                    img {
+                        float: left;
+                        margin: 0 0 0 13px;
+                    }
+                    ul {
+                        margin: 0 0 0 85px;
                     }
                 }
 
 
 
 
-
                 ul {
-                    //width: 100%;
-                    clear: both;
-                    display: table;
-                    margin: 1em 0 1em 0;
+                    clear: none;
+                    margin: 0 0 0 80px;
+                    position: relative;
+                    text-align: left;
                     li {
                         &.head {
                             padding: 0 0 2px 0;
                             margin-top: 4px;
                             text-align: center;
                             h2 {
-                                font-size: .9375rem * 1.20%; //15px
+                                font-size: .9375rem; //15px
+                                text-align: left;
                                 a {
                                     .font;
                                     .bold;
@@ -75,17 +85,17 @@
                         }
                         &.sub-head {
                             .font;
-                            font-size: 1rem;
                             font-style: italic;
-                            line-height: 1em; //18px;
-                            text-align: center;
+                            font-size: .8125rem; // 13px
+                            line-height: 1.5em;
+                            text-align: left;
                             a {
                                 color: @eia-dark-grey;
                             }
                         }
                         &.foot {
                             margin-top: 8px;
-                            text-align: center;
+                            text-align: left;
                             a {
                                 font-size: .750rem; // 12px
                                 line-height: 1.375em; // 22px
@@ -106,68 +116,12 @@
         &.energy-education {
             .l-one-third-col {
                 padding: 1em 0 1.5em 0;
-                i {
-                    float: left;
-                    width: 75px;
-                    height: 66px;
-                    margin: 0;
-                    &.ico {
-                        &.energy-education {
-                            float: left;
-                            &.faq {
-                                &::before {
-                                    //margin: -6px 0 0 -12px;
-                                    .nav-bar-icon(75px, 66px);
-                                    background-size: 90%;
-                                    //margin-left: -17px;
-                                }
-                            }
-                            &.petroleum {
-                                &::before {
-                                    //margin: -6px 0 0 -18px;
-                                    .nav-bar-icon(75px, 66px);
-                                    background-size: 90%;
-                                    margin-left: 0; // -17px;
-                                }
-                            }
-                        }
-                    }
-                }
-                ul {
-                    clear: none;
-                    margin: 0 0 0 80px;
-                    position: relative;
-                    text-align: left;
-                    li {
-                        &.head {
-                            h2 {
-                                font-size: .9375rem; //15px
-                            }
-                        }
-                        &.sub-head {
-                            font-size: .8125rem; // 13px
-                            line-height: 1.5em;
-                            text-align: left;
-                        }
-                        &.foot {
-                            text-align: left;
-                        }
-                    }
-                }
-                &:first-child {
-                    i {
-                        width: 55px;
-                    }
-                }
-                &:last-child {
-                    img {
-                        float: left;
-                        margin: 0 0 0 13px;
-                    }
-                    ul {
-                        margin: 0 0 0 85px;
-                    }
-                }
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 33.333333%;
+                -ms-flex: 0 0 33.333333%;
+                flex: 0 0 33.333333%;
+                max-width: 33.333333%;
+                width: 33.333333%;
             }
         }
     }

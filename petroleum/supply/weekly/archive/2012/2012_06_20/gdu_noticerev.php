@@ -47,7 +47,7 @@ The Retail Gasoline Prices for May 21, 28, and June 4 included an error in the c
 </p>
 <p>
 Any values calculated from these revisions (including, but not limited to monthly averages) also have been revised.<br /><br />
-Errata Sheet for Retail Gasoline Prices for May 21, 28, and June 4 - <a href="mogas_errata_sheet.xls" ><i class="ico xls">XLS</i>XLS</a><br /><br />
+Errata Sheet for Retail Gasoline Prices for May 21, 28, and June 4 - <a href="mogas_errata_sheet.xls" ><i class="ico xls"><span>XLS</span></i>XLS</a><br /><br />
 The revised data will be released this week during the regular publication times for the following publications:<br /><br />
 <a href="/petroleum/gasdiesel/">Gasoline and Diesel Fuel Update</a> and <a href="/dnav/pet/pet_pri_gnd_dcus_nus_w.htm">Petroleum Data Tables</a> pages will reflect the revised data today Monday June 18, 2012 by 5:00 pm.<br />
 Table 14 of the <a href="/oil_gas/petroleum/data_publications/weekly_petroleum_status_report/wpsr.html">Weekly Petroleum Status Report</a> will contain the revised data Wednesday June 20, 2012 after 1:00 pm.<br />

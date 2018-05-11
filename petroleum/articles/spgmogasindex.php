@@ -54,7 +54,7 @@ at $3.22 per gallon. Retail prices rose with wholesale (spot) gasoline prices. C
 however, only rose about 30 cents per gallon during this same time period.
 Two primary supply factors contributed to the gasoline price increases over crude oil prices in the first half of 2007: large refinery outages in the United States and inadequate import increases to make up for the U.S. refinery production losses.
 </p>
-<p><a href="/petroleum/archive/spgmogas2008.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/spgmogas2008.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_spgmogas.inc'); ?>

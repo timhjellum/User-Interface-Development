@@ -53,7 +53,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">U.S. Supply, Disposition, and Ending Stocks of Crude Oil and Petroleum Products</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table1.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table1.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table1.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -61,7 +61,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">U.S. Year-to-Date Supply, Disposition, and Ending Stocks of Crude Oil and Petroleum Products</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table2.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table2.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table2.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -69,7 +69,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">U.S. Daily Average Supply and Disposition of Crude Oil and Petroleum Products</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table3.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table3.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table3.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -77,7 +77,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">U.S. Year-to-Date Daily Average Supply and Disposition of Crude Oil and Petroleum Products</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table4.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table4.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table4.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Supply and Disposition of Crude Oil and Petroleum Products</b></th>        </span>
@@ -86,7 +86,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 1</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table5.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table5.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table5.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -94,7 +94,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 1</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table6.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table6.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table6.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -102,7 +102,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Daily Average PAD District 1</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table7.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table7.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table7.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -110,7 +110,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Daily Average PAD District 1</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table8.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table8.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table8.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -118,7 +118,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 2</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table9.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table9.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table9.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -126,7 +126,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 2</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table10.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table10.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table10.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -134,7 +134,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Daily Average PAD District 2</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table11.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table11.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table11.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -142,7 +142,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Daily Average PAD District 2</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table12.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table12.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table12.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -150,7 +150,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 3</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table13.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table13.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table13.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -158,7 +158,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 3</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table14.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table14.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table14.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -166,7 +166,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Daily Average PAD District 3</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table15.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table15.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table15.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -174,7 +174,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Daily Average PAD District 3</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table16.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table16.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table16.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -182,7 +182,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 4</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table17.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table17.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table17.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -190,7 +190,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 4</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table18.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table18.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table18.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -198,7 +198,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Daily Average PAD District 4</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table19.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table19.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table19.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -206,7 +206,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Daily Average PAD District 4</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table20.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table20.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table20.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -214,7 +214,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 5</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table21.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table21.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table21.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -222,7 +222,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 5</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table22.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table22.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table22.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -230,7 +230,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Daily Average PAD District 5</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table23.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table23.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table23.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -238,7 +238,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Daily Average PAD District 5</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table24.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table24.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table24.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Crude Oil</b></th>        </span>
@@ -247,7 +247,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Crude Oil Supply, Disposition, and Ending Stocks by PAD District</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table25.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table25.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table25.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -255,7 +255,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Production of Crude Oil by PAD District and State</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table26.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table26.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table26.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Natural Gas Processing</b></th>        </span>
@@ -264,7 +264,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Natural Gas Plant Net Production and Stocks of Petroleum Products by PAD and Refining District</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table27.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table27.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table27.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Refinery Operations</b></th>        </span>
@@ -273,7 +273,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Refinery and Blender Net Inputs of Crude Oil and Petroleum Products by PAD and Refining Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table28.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table28.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table28.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -281,7 +281,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Refinery and Blender Net Production of Finished Petroleum Products by PAD and Refining Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table29.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table29.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table29.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -289,7 +289,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Refinery Net Input of Crude Oil and Petroleum Products by PAD and Refining Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table30.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table30.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table30.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -297,7 +297,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Refinery Net Production of Finished Petroleum Products by PAD and Refining Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table31.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table31.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table31.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -305,7 +305,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Blender Net Inputs of Petroleum Products by PAD District</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table32.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table32.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table32.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -313,7 +313,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Blender Net Production of Petroleum Products by PAD District</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table33.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table33.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table33.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -321,7 +321,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Refinery Stocks of Crude Oil and Petroleum Products by PAD and Refining Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table34.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table34.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table34.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -329,7 +329,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Percent Yield of Petroleum Products by PAD and Refining Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table35.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table35.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table35.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Imports of Crude Oil and Petroleum Products State of Entry</b></th>        </span>
@@ -338,7 +338,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Imports of Residual Fuel Oil by Sulfur Content</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table36.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table36.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table36.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>PAD District</b></th>        </span>
@@ -347,7 +347,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Imports of Crude Oil and Petroleum Products</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table37.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table37.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table37.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -355,7 +355,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Imports of Crude Oil and Petroleum Products</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table38.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table38.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table38.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Country of Origin</b></th>        </span>
@@ -364,7 +364,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">United States</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table39.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table39.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table39.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -372,7 +372,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date United States</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table40.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table40.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table40.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -380,7 +380,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 1</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table41.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table41.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table41.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -388,7 +388,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 2</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table42.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table42.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table42.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -396,7 +396,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD District 3</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table43.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table43.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table43.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -404,7 +404,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">PAD Districts 4 and 5</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table44.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table44.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table44.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -412,7 +412,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 1</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table45.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table45.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table45.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -420,7 +420,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 2</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table46.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table46.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table46.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -428,7 +428,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD District 3</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table47.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table47.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table47.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -436,7 +436,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date PAD Districts 4 and 5</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table48.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table48.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table48.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Exports of Crude Oil and Petroleum Products</b></th>        </span>
@@ -445,7 +445,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Exports of Crude Oil and Petroleum Products by PAD District</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table49.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table49.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table49.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -453,7 +453,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Exports of Crude Oil and Petroleum Products by PAD District</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table50.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table50.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table50.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -461,7 +461,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Exports of Crude Oil and Petroleum Products by Destination</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table51.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table51.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table51.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -469,7 +469,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Exports of Crude Oil and Petroleum Products by Destination</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table52.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table52.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table52.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Net Imports</b></th>        </span>
@@ -478,7 +478,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Net Imports of Crude Oil and Petroleum Products into the United States by Country</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table53.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table53.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table53.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -486,7 +486,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Year-to-Date Net Imports of Crude Oil and Petroleum Products into the United States by Country</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table54.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table54.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table54.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Stocks</b></th>        </span>
@@ -495,7 +495,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Stocks of Crude Oil and Petroleum Products by PAD District</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table55.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table55.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table55.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -503,7 +503,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Refinery, Bulk Terminal, and Natural Gas Plant Stocks of Selected Petroleum Products by PAD District and State</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table56.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table56.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table56.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Movements of Crude Oil and Petroleum Products</b></th>        </span>
@@ -512,7 +512,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Movements of Crude Oil and Petroleum Products by Pipeline, Tanker, and Barge Between PAD Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table57.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table57.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table57.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -520,7 +520,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Movements of Crude Oil and Petroleum Products by Pipeline Between PAD Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table58.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table58.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table58.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -528,7 +528,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Movements of Crude Oil and Petroleum Products by Tanker, and Barge Between PAD Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table59.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table59.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table59.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container">
@@ -536,7 +536,7 @@ U.S. and regional petroleum supply and disposition balances reported by the U.S.
 <span class="not-numbered">Net Movements of Crude Oil and Petroleum Products by Pipeline, Tanker, and Barge Between PAD Districts</span>
 <span class="formats">
 <span>Available formats:</span><a href="pdf/table60.pdf"><i class="ico pdf">PDF</i></a></span>
-<span class="header"><a href="csv/table60.csv" ><i class="ico csv">CSV</i>CSV</a>
+<span class="header"><a href="csv/table60.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a>
 </span>
 </span>
 <span class="zebra-container"><th><b>Appendices</b></th>        </span>

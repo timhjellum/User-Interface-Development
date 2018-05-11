@@ -64,7 +64,7 @@ computer diskette. The most popular table in the previous
 quarterly report, a listing of new discoveries, continues in
 this annual report as Appendix A.
 </p>
-<p><a href="/petroleum/archive/0577.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/0577.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

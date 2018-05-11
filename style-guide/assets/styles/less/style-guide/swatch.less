@@ -1,4 +1,6 @@
 
+	
+@media @mobile {
 	.color-palette {
 		.row {
 			margin: 20px 0;
@@ -11,7 +13,13 @@
 		margin-bottom: 2em;
 	}
 
+	.font-black {
+		font-size: 0px;
+	}
 
+	.font-white {
+		font-size: 0px;
+	}
 
 
 
@@ -69,117 +77,6 @@
 .misc-fiv { background-color: @eia-yellow-mono }
 .misc-six { background-color: @eia-blue-module-background }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*
-	.swatch.hex999999 {
-		background-color: #999999;
-		border-color: #999999;
-		color: #ccc;
-	}
-	.swatch.hex888888 {
-		background-color: #888888;
-		border-color: #888888;
-	}
-	.swatch.hex767676 {
-		background-color: #767676;
-		border-color: #767676;
-	}
-	.swatch.hex666666 {
-		background-color: #666666;
-		border-color: #666666;
-		color: #bbb;
-	}
-	.swatch.hex555555 {
-		background-color: #555555;
-		border-color: #555555;
-	}
-	.swatch.hex444444 {
-		background-color: #444444;
-		border-color: #444444;
-	}
-	.swatch.hex333333 {
-		background-color: #333333;
-		border-color: #333333;
-		color: #999;
-	}
-	.swatch.hex222222 {
-		background-color: #222222;
-		border-color: #222222;
-	}
-	.swatch.hex111111 {
-		background-color: #111111;
-		border-color: #111111;
-	}
-	.swatch.hex000000 {
-		background-color: black;
-		border-color: black;
-		color: #666;
-	}
-	.swatch.hexaaaaaa {
-		background-color: #aaaaaa;
-		border-color: #aaaaaa;
-	}
-	.swatch.hexb2b2b2 {
-		background-color: #b2b2b2;
-		border-color: #b2b2b2;
-	}
-	.swatch.hexbbbbbb {
-		background-color: #bbbbbb;
-		border-color: #bbbbbb;
-	}
-	.swatch.hexc3c3c3 {
-		background-color: #c3c3c3;
-		border-color: #c3c3c3;
-	}
-	.swatch.hexcccccc {
-		background-color: #cccccc;
-		border-color: #cccccc;
-	}
-	.swatch.hexd4d4d4 {
-		background-color: #d4d4d4;
-		border-color: #d4d4d4;
-	}
-	.swatch.hexdddddd {
-		background-color: #dddddd;
-		border-color: #dddddd;
-	}
-	.swatch.hexe5e5e5 {
-		background-color: #e5e5e5;
-		border-color: #e5e5e5;
-	}
-	.swatch.hexeeeeee {
-		background-color: #eeeeee;
-		border-color: #eeeeee;
-	}
-	.swatch.hexf6f6f6 {
-		background-color: #f6f6f6;
-		border-color: #f6f6f6;
-	}
-	.swatch.hexffffff {
-		background-color: white;
-		border-color: #eeeeee;
-	}
-	*/
 	ul.color-swatch-description {
 		border: 0;
 		margin: 0;
@@ -194,13 +91,7 @@
 		}
 	}
 
-	.font-black {
-		color: #000;
-	}
 
-	.font-white {
-		color: #fff;
-	}
 
 
 
@@ -267,7 +158,7 @@
 .eia-light-brown-75.swatch {background-color: tint(@eia-brown, 45%) }//;border-color: tint(@eia-brown, 45%) }
 .eia-light-brown.swatch {background-color: tint(@eia-brown, 60%) }//;border-color: tint(@eia-brown, 60%) }
 
-.eia-dark-black.swatch {background-color: shade(@eia-black, 60%); border-color:shade(@eia-black) }
+.eia-dark-black.swatch {background-color: shade(@eia-black, 60%) } //; border-color:shade(@eia-black) }
 .eia-dark-black-75.swatch {background-color: shade(@eia-black, 45%) }//;border-color: shade(@eia-black) }
 .eia-dark-black-50.swatch {background-color: shade(@eia-black, 30%) }//;border-color: shade(@eia-black) }
 .eia-dark-black-25.swatch {background-color: shade(@eia-black, 15%) }//;border-color: shade(@eia-black) }
@@ -277,7 +168,7 @@
 .eia-light-black-75.swatch {background-color: tint(@eia-black, 45%) }//;border-color: tint(@eia-black) }
 .eia-light-black.swatch {background-color: tint(@eia-black, 60%) }//; border-color: tint(@eia-black) }
 
-.eia-dark-white.swatch {background-color: shade(@eia-white, 60%); border-color:shade(@eia-white) }
+.eia-dark-white.swatch {background-color: shade(@eia-white, 60%) } //; border-color:shade(@eia-white) }
 .eia-dark-white-75.swatch {background-color: shade(@eia-white, 45%) }//;border-color: shade(@eia-white) }
 .eia-dark-white-50.swatch {background-color: shade(@eia-white, 30%) }//;border-color: shade(@eia-white) }
 .eia-dark-white-25.swatch {background-color: shade(@eia-white, 15%) }//;border-color: shade(@eia-white) }
@@ -287,4 +178,23 @@
 .eia-light-white-75.swatch {background-color: tint(@eia-white, 45%) }//;border-color: tint(@eia-white) }
 .eia-light-white.swatch {background-color: tint(@eia-white, 60%) }//; border-color: tint(@eia-white) }
 
+
+
+	
+}
+
+@media @tablet {
+	.font-black {
+		color: #000;
+		white-space: nowrap;
+		font-family: "century gothic";
+		font-size: 1em;
+	}
+	.font-white {
+		color: #fff;
+		white-space: nowrap;
+		font-family: "century gothic";
+		font-size: 1em;
+	}
+}
 

@@ -4,7 +4,7 @@
 
     <thead>
         <tr>
-<th colspan="99">U.S. On-Highway Diesel Fuel Prices*&nbsp;&nbsp;(dollars per gallon)<span class="right"><a href="/petroleum/gasdiesel/xls/psw18vwall.xls"><i class="ico xls">XLS</i>full history</a></span></th>
+<th colspan="99">U.S. On-Highway Diesel Fuel Prices*&nbsp;&nbsp;(dollars per gallon)<span class="right"><a href="/petroleum/gasdiesel/xls/psw18vwall.xls"><i class="ico xls"><span>XLS</span></i>full history</a></span></th>
         </tr>
     </thead>
     <tbody>

@@ -3,8 +3,8 @@
 	and consumption/sales.</p>
 <div class="accordion">
 	<div class="expand-collapse-container">
-		<i class="ico expand-all">+ Expand all</i>
-		<i class="ico collapse-all">- Collapse all</i>
+		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
 	</div>
 	<h2><i class="ico expand-collapse"></i>
 		<!-- id="summary --><a name="summary"></a>Summary
@@ -49,7 +49,7 @@
 
 			<li class="head">Petroleum overview</li>
 			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span> (<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li> 
-			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec3_3.pdf"><i class="ico pdf">PDF</i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T03.01"><i class="ico csv">CSV</i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T03.01&amp;freq=m"><i class="ico xls">XLS</i></a></li>
+			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec3_3.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T03.01"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T03.01&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
 
 
 
@@ -115,14 +115,14 @@
 
 			<li class="head">Motor gasoline retail prices, U.S. city average</li>
 			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span></li>
-			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf "><i class="ico pdf">PDF</i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T09.04"><i class="ico csv">CSV</i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T09.04&amp;freq=m"><i class="ico xls">XLS</i></a></li>
+			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T09.04"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T09.04&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			
 
 
 
 			<li class="head"><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0524">Motor gasoline retail prices </a></li>
-			<li class="additional-formats">Available formats: <a href="/totalenergy/data/annual/pdf/sec5_59.pdf"><i class="ico pdf">PDF</i></a> <a href="/totalenergy/data/annual/xls/stb0524.xls"><i class="ico xls">XLS</i></a></li>
+			<li class="additional-formats">Available formats: <a href="/totalenergy/data/annual/pdf/sec5_59.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0524.xls"><i class="ico xls"><span>XLS</span></i></a></li>
 			<li><span class="release-date">Release Date: </span><span class="date">September 27, 2012</span></li>
 			<li>U.S. city average, annual from 1949&#8211;current</li>
 			<li class="release-schedule">Annual Energy Review</li>
@@ -293,7 +293,7 @@
 
 
 			<li class="head"><a href="/energyexplained/images/charts/u.s.tight_oil_production.jpg" class="lightbox">Tight oil production estimates by play</a></li>
-			<li class="additional-formats">Available formats: <a href="/energyexplained/data/U.S. tight oil production.xlsx"><i class="ico xls">XLS</i></a></li>
+			<li class="additional-formats">Available formats: <a href="/energyexplained/data/U.S. tight oil production.xlsx"><i class="ico xls"><span>XLS</span></i></a></li>
 			<li><span class="release-date">Release Date: </span><span class="date">Monthly</span></li>
 			<li>Estimated monthly production derived from state administrative data</li>
 			<li class="release-schedule">Monthly</li>
@@ -553,9 +553,9 @@
 					<li><a href="/dnav/pet/pet_pnp_feedng_k_a.htm">Natural gas used as feedstock for hydrogen production</a></li>
 					<li><a href="/petroleum/refinerycapacity/">Refinery capacity report</a></li>
 					<li>Refinery capacity data by individual refinery as of January 1, 2017</li> 
-					<li class="additional-formats">Available formats: <a href="/petroleum/refinerycapacity/refcap17.xls"><i class="ico xls">XLS</i></a></li>
+					<li class="additional-formats">Available formats: <a href="/petroleum/refinerycapacity/refcap17.xls"><i class="ico xls"><span>XLS</span></i></a></li>
 					<li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0509">Refinery capacity and utilization data, annual 1949 - 2011</a></li> 
-					<li class="additional-formats">Available formats: <a href="/totalenergy/data/annual/pdf/sec5_23.pdf"><i class="ico pdf">PDF</i></a> <a href="/totalenergy/data/annual/xls/stb0509.xls"><i class="ico xls">XLS</i></a></li>
+					<li class="additional-formats">Available formats: <a href="/totalenergy/data/annual/pdf/sec5_23.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0509.xls"><i class="ico xls"><span>XLS</span></i></a></li>
 				</ul>
 			</li>
 

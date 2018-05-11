@@ -111,7 +111,7 @@ periods that can occur in the summer driving season. In addition, the transition
 fuel specification, such as changing from MTBE to ethanol as described below, can cause
 upward price pressure.
 </p>
-<p><a href="/petroleum/archive/caprice.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/caprice.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

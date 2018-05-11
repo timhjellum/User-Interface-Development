@@ -25,7 +25,7 @@ $pageTitle = '';
 </p>
 <p>A summary presentation to inform discussion of the recently announced acquisition of XTO Energy Inc. by Exxon Mobil Corporation, a transaction which is reportedly $41 billion in value. "Aspects of Exxon Mobil Corporation's Acquisition of XTO Energy Inc" presents non-proprietary company-level oil and gas production and reserve data and the relevant U.S. aggregate data published by the Energy Information Administration.
 </p>
-<p><a href="/naturalgas/archive/xom_xto.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/naturalgas/archive/xom_xto.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_exxon.inc'); ?>

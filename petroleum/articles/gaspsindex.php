@@ -79,7 +79,7 @@ refineries increased Californiaâ€˜s difficulty in acquiring additional volum
 <p>EIA&#8482;'s findings and supporting data are discussed in greater detail below and in the body
 of this report.
 </p>
-<p><a href="/petroleum/archive/gasps.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/gasps.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>
 <div class="l-narrow-col">

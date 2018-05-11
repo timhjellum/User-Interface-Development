@@ -71,7 +71,7 @@ currently being adapted to horizontal drilling in the effort to reduce costs. Th
 tubing rather than conventional drill pipe for both drilling and completion operations and the use of
 smaller than conventional diameter (slim) holes.
 </p>
-<p><a href="/petroleum/archive/tr0565.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/tr0565.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

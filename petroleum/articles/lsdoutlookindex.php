@@ -60,7 +60,7 @@ when the California Air Resources Board reduced the
 sulfur specification for diesel fuel from 0.5 to 0.05
 percent by weight.
 </p>
-<p><a href="/petroleum/archive/lidder2.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/lidder2.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

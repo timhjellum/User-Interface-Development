@@ -17,7 +17,7 @@ print "<a href=\"/petroleum/drilling/\">&lsaquo; See Current Issue</a>";
                                 <div class="date"><?php /* echo "$next" */?></div>
                         </div>
                         <div class="report-download-container"><!-- /report-download-container -->
-                                        <a href="pdf/dpr-full.pdf">full report</a><i class="ico pdf">PDF</i></div>
+                                        <a href="pdf/dpr-full.pdf">full report</a><i class="ico pdf"><span>PDF</span></i></div>
 </div>
 </div><div class="l-split-narrow-col gradient">
                 <span class="form-wrapper-outer">

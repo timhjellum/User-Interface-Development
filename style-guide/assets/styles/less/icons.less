@@ -960,7 +960,7 @@
 			}
 			&.p {
 				&:before {
-					.icon-single(@fill-color: @eia-tan, @letter: P);
+					.icon-single(@fill-color: @eia-brown, @letter: P);
 					.controls-icon(35px, 35px);
 				}
 			}
@@ -977,7 +977,7 @@
 //		&.dap-dual {
 			&.ap {
 				&:before {
-					.icon-dual(@fill-color-top: @eia-green, @fill-color-bottom: @eia-tan, @letter-top: A, @letter-bottom: P);
+					.icon-dual(@fill-color-top: @eia-green, @fill-color-bottom: @eia-brown, @letter-top: A, @letter-bottom: P);
 					.controls-icon(35px, 35px);
 				}
 			}
@@ -985,7 +985,7 @@
 //		&.dap-dual {
 			&.dp {
 				&:before {
-					.icon-dual(@fill-color-top: @eia-blue, @fill-color-bottom: @eia-tan, @letter-top: D, @letter-bottom: P);
+					.icon-dual(@fill-color-top: @eia-blue, @fill-color-bottom: @eia-brown, @letter-top: D, @letter-bottom: P);
 					.controls-icon(35px, 35px);
 				}
 			}
@@ -1007,25 +1007,29 @@
 		&.pdf {
 			&:before {
 				.icon-file-type(pdf);
-				.controls-icon();
+				.controls-icon(18px, 18px);
+
 			}
 		}
 		&.xls {
 			&:before {
 				.icon-file-type(xls);
-				.controls-icon();
+				.controls-icon(18px, 18px);
+
 			}
 		}
 		&.csv {
 			&:before {
 				.icon-file-type(csv);
-				.controls-icon();
+				.controls-icon(18px, 18px);
+
 			}
 		}
 		&.external-link {
 			&:before {
-				.icon-external-link(csv);
-				.controls-icon();
+				.icon-external-link();
+				.controls-icon(12px, 12px);
+
 			}
 		}
 	}

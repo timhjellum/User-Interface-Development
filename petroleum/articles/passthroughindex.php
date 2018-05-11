@@ -91,7 +91,7 @@ asymmetric model specifications with error correction terms. Conclusions are dra
 the final section, together with several suggestions for future work. Supporting materials
 and results are organized in appendices at the end of the paper.
 </p>
-<p><a href="/petroleum/archive/gaspassthrough2005.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/gaspassthrough2005.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

@@ -43,7 +43,7 @@
 		ul {
 			list-style: none;
 			padding: 0;
-			margin: 0 0 0 27px;
+			margin: 0 27px;
 			&:last-child {
 				padding-bottom: 2em;
 			}
@@ -63,26 +63,34 @@
 					} 
 				}
                 span {
-					&.date {
-						.italic;
-						//color: @eia-dark-grey;
-						color: tint(@eia-black, 46.5%);
-					}
+						color: @eia-dark-grey;					
+//					&.date {
+
+//					}
 					&.release-date {
-						//.italic;
-						color: @eia-dark-grey;
-						//color: greenyellow;
+						.italic;
+//						color: @eia-dark-grey;
 					}
 				}
 				&.release-schedule {
 					.italic;
-					color: @eia-dark-grey;
-					//color: blue;
+//					color: @eia-dark-grey;
 				}
 				&.additional-formats {
 					.italic;
-					color: @eia-dark-grey;
-					//color: lawngreen;
+//					color: @eia-dark-grey;
+					a {
+						display: inline-block;
+						.ico {
+							&:before {
+								//.controls-icon(18px, 18px);
+								display: inline-block;
+							}
+							span {
+								margin: 0 0 0 2px;
+							}								
+						}
+					}
 				}
 				&.head {
 					.font;
@@ -94,7 +102,7 @@
 					//font-size: 12pt;
 					font-size: 0.750rem * 1.20%; // 12 pixels
 					line-height: 1.2em;
-					color: @eia-dark-grey;
+//					color: @eia-dark-grey;
 					&:first-child {
 						border-top: none;
 						//margin-top: 1.6em;
@@ -140,7 +148,7 @@
 					}
 					li {
 						.font;
-						color: @eia-dark-grey;
+//						color: @eia-dark-grey;
 						font-size: 0.750rem * 1.20%; // 12 pixels
 						margin: 8px 0;
 						padding: 0;
@@ -162,22 +170,28 @@
 	}
 	.accordion {
 		margin-bottom: 1.6em;
+		border-bottom: 1px solid @eia-dark-blue;
 		h2 {
 			.header-font;
 			font-size: 1rem * 1.20%; // 12 pixels
 			width: 100%;
-			color: @eia-blue;
-			.bold;
+			color: @eia-dark-grey;
 			border: 0px;
 			//border-bottom: 1px solid #fff;
-			padding: 7px 10px 7px 8px;
+			//padding: 7px 10px 7px 8px;
+			padding: 7px 0;
 			//background: #00405d;
-			border: 1px solid @eia-blue;
+			border-top: 1px solid @eia-blue;
+			&:first-child {
+				border-top: 1px solid @eia-dark-blue;
+			}
+
 			cursor: pointer;
 			.ico {
 				&.expand-collapse {
 					float: left;
-					margin: 5px 6px 0 0;
+					//margin: 2px 4px 0 0;
+					margin: 4px 4px 0 0;
 					&:before {
 						.controls-icon(12px, 12px);
 						.icon-remove();
@@ -191,15 +205,16 @@
 				}
 			}
 			&.active {
-				border: 1px solid @eia-dark-blue;
-				color: @eia-dark-blue;
+				//border: 1px solid @eia-dark-blue;
+				//color: @eia-dark-blue;
 				.ico {
 					&.expand-collapse {
 						float: left;
-						margin: 5px 6px 0 0;
+						//margin: 2px 4px 0 0;
+						margin: 4px 4px 0 0;
 						&:before {
 							.controls-icon(12px, 12px);
-							.icon-collapse(@eia-dark-blue);
+							.icon-collapse(@eia-blue);
 							transform: rotate(0deg)
 						}
 						&:hover {
@@ -215,6 +230,7 @@
 				font-weight: normal;
 			}
 		}
+		/*
 		.expand-all {
 			display: none;
 			&.show {
@@ -235,6 +251,7 @@
 				display: block;
 			}
 		}
+		*/
 		.expand-collapse-container {
 			.font;
 			font-size: 0.750rem * 1.20%; // 12 pixels
@@ -251,6 +268,22 @@
 					text-align: right;
 					padding: 0 12px 4px 0;
 					display: table;
+					.ico {
+						&.expand-collapse {
+							float: left;
+							margin: 2px 4px 0 0;
+							&:before {
+								.controls-icon(12px, 12px);
+								.icon-remove(@eia-blue);
+								transform: rotate(45deg);
+							}
+							&:hover {
+								&::before {
+									.icon-remove;
+								}
+							}
+						}
+					}
 				}
 			}
 			.collapse-all {
@@ -260,12 +293,27 @@
 					text-align: right;
 					padding: 0 12px 4px 0;
 					display: table;
+					.ico {
+						&.expand-collapse {
+							float: left;
+							margin: 2px 4px 0 0;
+							&:before {
+								.controls-icon(12px, 12px);
+								.icon-collapse(@eia-blue);
+								transform: rotate(0deg);
+							}
+							&:hover {
+								&::before {
+									.icon-collapse;
+								}
+							}
+						}
+					}
 				}
 			}
 		}
 	}
 }
-
 @media @tablet-landscape {
 	.accordion-content {
 		font-size: 0.750rem; // 12 pixels
@@ -297,6 +345,7 @@
 	.accordion {
 		h2 {
 			font-size: 1rem; // 12 pixels
+			padding: 7px 10px 7px 8px;
 		}
 		.expand-all {
 			&.show {

@@ -23,7 +23,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
 </p>
 <table align="left">
         <span class="zebra-container">
-            <span class="header"><a href="refcap17.xls"><i class="ico xls">XLS</i></a> --- Refinery Capacity Data by individual refinery as of <strong>January 1, 2017</h2>
+            <span class="header"><a href="refcap17.xls"><i class="ico xls"><span>XLS</span></i></a> --- Refinery Capacity Data by individual refinery as of <strong>January 1, 2017</h2>
 
 <div><!-- accordion-panel --></span>
         
@@ -35,7 +35,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
         <span class="zebra-container">
             <span class="header">Tables</span>
             <span class="formats">
-                <span>Available formats:</span><a href="refcap17.pdf"><i class="ico pdf">PDF</i>Full Report</a></div>
+                <span>Available formats:</span><a href="refcap17.pdf"><i class="ico pdf"><span>PDF</span></i>Full Report</a></div>
 </span>
         
         <span class="zebra-container">
@@ -43,7 +43,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header"><a href="/dnav/pet/pet_pnp_cap1_dcu_nus_a.htm">Number and Capacity of Operable Petroleum Refineries by PAD District and State as of January 1, 2017</a></span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table1.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table1.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -52,7 +52,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header"><a href="/dnav/pet/pet_pnp_capprod_dcu_nus_a.htm">Production Capacity of Operable Petroleum Refineries by PAD District and State as of January 1, 2017</a></span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table2.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table2.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -61,7 +61,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">Capacity of Operable Petroleum Refineries by State and Individual Refinery as of January 1, 2017</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table3.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table3.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -70,7 +70,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">Production Capacity of Operable Petroleum Refineries by State and Individual Refinery as of January 1, 2017</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table4.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table4.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -79,7 +79,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">Refiners' Total Operable Atmospheric Crude Oil Distillation Capacity by Individual Refinery as of January 1, 2017</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table5.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table5.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -88,7 +88,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header"><a href="/dnav/pet/pet_pnp_capchg_dcu_nus_a.htm">Operable Crude Oil and Downstream Charge Capacity of Petroleum Refineries, January 1, 1988 to January 1, 2017</a></span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table6.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table6.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -97,7 +97,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header"><a href="/dnav/pet/pet_pnp_capprod_dcu_nus_a.htm">Operable Production Capacity of Petroleum Refineries, January 1, 1988 to January 1, 2017</a></span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table7.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table7.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -106,7 +106,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">Capacity and Fresh Feed Input to Selected Downstream Units at U.S. Refineries, 2015 - 2017</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table8.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table8.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -115,7 +115,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header"><a href="/dnav/pet/pet_pnp_caprec_dcu_nus_a.htm">Refinery Receipts of Crude Oil by Method of Transportation by PAD District, 2016</a></span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table9.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table9.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -124,7 +124,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header"><a href="/dnav/pet/pet_pnp_capfuel_dcu_nus_a.htm">Fuels Consumed at Refineries by PAD District, 2016</a></span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table10.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table10.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -133,7 +133,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header"><a href="/dnav/pet/pet_pnp_feedng_k_a.htm">Natural Gas Used as Feedstock for Hydrogen Production by PAD District, 2016</a></span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table10.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table10.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -142,7 +142,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">New, Shutdown and Reactivated Refineries During 2016</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table11.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table11.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -151,7 +151,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">Refinery Sales During 2016</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table12.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table12.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -160,7 +160,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">Refineries Permanently Shutdown by PAD District Between January 1, 1990 and January 1, 2017</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="table13.pdf"><i class="ico pdf">PDF</i></a>
+<a href="table13.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
 
@@ -168,7 +168,7 @@ The Refinery Capacity Report does not contain working and shell storage capacity
             <span class="header">Explanatory Notes</span>
             <span class="formats">
                 <span>Available formats:</span>
-<a href="820notes.pdf"><i class="ico pdf">PDF</i></a>
+<a href="820notes.pdf"><i class="ico pdf"><span>PDF</span></i></a>
             </span>
         </span>
     </div><!-- end accordion-panel -->

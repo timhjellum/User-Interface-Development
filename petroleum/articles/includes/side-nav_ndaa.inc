@@ -1,4 +1,5 @@
-<div class="content-container light-top-border-container grey-background">    <ul>
+<div class="content-container light-top-border-container grey-background">
+    <ul><i class="ico pdf"><span>PDF</span></i>
         <li><a href="pdf/ndaa.pdf">Full report<i class="ico pdf">PDF</i></a></li>
 
         <li class="header"><h2>Previous Issues</h2></li>

@@ -157,7 +157,7 @@ billion barrels at a cost of 127 to 161 billion dollars through
 between those associated with no replacement of produced
 reserves and those associated with total replacement of
 produced reserves.) </p>
-<p><a href="/petroleum/archive/tr0606.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/tr0606.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_capexpansion.inc'); ?>

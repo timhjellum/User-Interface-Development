@@ -25,7 +25,7 @@ $pageTitle = '';
 </p>
 <p>These pages summarize a recent EIA presentation on when world convntional oil production will peak and the effect of different estimates of the world conventional oil resource base.  A version of this presentation was given by former EIA Administrator Jay Hakes to the April 18, 2000 meeting of the American Association of Petroleum Geologists in New Orleans, Louisiana. Specific information about this presentation may be obtained from John Wood (john.wood@eia.doe.gov), Gary Long (gary.long@eia.doe.gov) or David Morehouse (david.morehouse@eia.doe.gov).
 </p>
-<p><a href="/petroleum/archive/longterm.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/longterm.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

@@ -101,7 +101,7 @@ Year-to-date averages through July 1996 have yet to register a
 decline. The impact of other long-term forces is obscured by a
 number of trends.
 </p>
-<p><a href="/petroleum/archive/abohn1.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/abohn1.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

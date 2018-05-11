@@ -3,7 +3,7 @@
 <cartion>U.S. Gasoline and Diesel Fuel Prices</caption>
     <thead>
         <tr>
-<th colspan="99">U.S. Regular Gasoline Prices*&nbsp;&nbsp;(dollars per gallon)<span class="right"><a href="/petroleum/gasdiesel/xls/pswrgvwall.xls"><i class="ico xls">XLS</i>full history</a></span></th>
+<th colspan="99">U.S. Regular Gasoline Prices*&nbsp;&nbsp;(dollars per gallon)<span class="right"><a href="/petroleum/gasdiesel/xls/pswrgvwall.xls"><i class="ico xls"><span>XLS</span></i>full history</a></span></th>
         </tr>
     </thead>
     <tbody>

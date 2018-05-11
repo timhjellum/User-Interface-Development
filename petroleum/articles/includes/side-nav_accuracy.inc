@@ -1,6 +1,6 @@
 <div class="content-container light-top-border-container grey-background">
     <ul>
-        <li><a href="/petroleum/archive/art0902.pdf">Full report<i class="ico pdf">PDF</i></a></li>
+        <li><a href="/petroleum/archive/art0902.pdf">Full report<i class="ico pdf"><span>PDF</span></i></a></li>
         <li class="form-label">Previous editions</li>
         <li><form name="form" id="form">
             <label>Year: </label>

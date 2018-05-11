@@ -16,7 +16,7 @@ a href="/petroleum/reports.cfm">&lsaquo; See All Petroleum & Other Liquids Repor
 </div>
 <div class="download-container">
         
-        <a href="data/import.xlsx"><i class="ico xls">XLS</i></a>
+        <a href="data/import.xlsx"><i class="ico xls"><span>XLS</span></i></a>
                                 </div>
                         </div>
                 </div>

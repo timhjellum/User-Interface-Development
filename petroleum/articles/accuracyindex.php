@@ -36,7 +36,7 @@ Petroleum Supply Monthly (PSM), and the Petroleum
 Supply Annual (PSA). Weekly estimates in the WPSR and
 TWIP were the first values available.
 </p>
-<p><a href="/petroleum/archive/art0902.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/art0902.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>
 <div class="l-narrow-col">

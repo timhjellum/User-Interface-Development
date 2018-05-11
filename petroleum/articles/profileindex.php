@@ -150,7 +150,7 @@ supply networkâ€”from the petroleum resource base
 through crude oil exploration and production, refining, transportation
 and storage, product marketing, and distribution.
 </p>
-<p><a href="/petroleum/archive/054599.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/054599.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

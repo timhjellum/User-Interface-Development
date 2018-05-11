@@ -25,7 +25,7 @@ $pageTitle = '';
 </p>
 <p>On April 16, 2009, the Wall Street Journal reported ("Sunoco to Sell Refinery to Holly for $65 Million") that Sunoco Inc. agreed to sell its Tulsa, Oklahoma refinery to Holly Corporation for $65 million in cash. Although no debt was reportedly acquired by Holly, Holly did agree to make an undisclosed amount of environmental upgrade investments in the refinery. The transaction is expected to close June 1, 2009 and to move Holly from the twenty-eighth-largest domestic refiner at the outset of 2008 to the eighteenthlargest refiner, and the fifth-largest non-vertically integrated, publicly traded U.S. refiner. The acquisition provides Holly with a midwestern presence and increases its national significance.
 </p>
-<p><a href="/petroleum/archive/holly_tulsaref.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/holly_tulsaref.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

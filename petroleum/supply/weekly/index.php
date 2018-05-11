@@ -63,71 +63,71 @@ The petroleum supply situation in the context of historical information and sele
 <tr>
 <td class="align-center">1</td>
 <td class="align-left">U.S. Petroleum Balance Sheet</td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table1.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw01.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table1.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw01.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table1.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">2</td>
 <td class="align-left"><a href="/dnav/pet/pet_sum_sndw_dcus_nus_w.htm">U.S. Inputs and Production by PAD District</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table2.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw02.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table2.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw02.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table2.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">3</td>
 <td class="align-left"><a href="/dnav/pet/pet_pnp_wprodr_s1_w.htm">Refiner</a> and <a href="/dnav/pet/pet_pnp_wprodb_s1_w.htm">Blender</a> Net Production</td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table3.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw03.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table3.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw03.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table3.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">4</td>
 <td class="align-left"><a href="/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm">Stocks of Crude Oil by PAD District, and Stocks of Petroleum Products, U.S. Totals</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table4.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw04.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table4.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw04.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table4.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">5</td>
 <td class="align-left"><a href="/dnav/pet/pet_stoc_wstk_a_epm0_sae_mbbl_w.htm">Stocks of Total Motor Gasoline and Fuel Ethanol by PAD District</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table5.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw05.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table5.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw05.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table5.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">5A</td>
 <td class="align-left">Stocks of Total Motor Gasoline and Fuel Ethanol by PAD District with Total Gasoline by Sub-PADD</td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table5a.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw05a.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table5a.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw05a.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td></td>
 </tr>
 <tr>
 <td class="align-center">6</td>
 <td class="align-left"><a href="/dnav/pet/pet_stoc_wstk_a_epd0_sae_mbbl_w.htm">Stocks of Distillate, Kerosene-Type Jet Fuel, Residual Fuel Oil, and Propane/Propylene by PAD District</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table6.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw06.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table6.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw06.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table6.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">7</td>
 <td class="align-left"><a href="/dnav/pet/pet_move_wkly_dc_NUS-Z00_mbblpd_w.htm">Imports of Crude Oil and Total Products by PAD District</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table7.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw07.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table7.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw07.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table7.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">8</td>
 <td class="align-left"><a href="/dnav/pet/pet_move_wimpc_s1_w.htm">Preliminary Crude Imports by Country of Origin</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table8.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw08.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table8.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw08.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table8.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">9</td>
 <td class="align-left"><a href="/dnav/pet/pet_sum_sndw_dcus_nus_w.htm">U.S. and PAD District Weekly Estimates</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table9.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw09.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table9.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw09.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table9.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
@@ -140,29 +140,29 @@ The petroleum supply situation in the context of historical information and sele
 <tr>
 <td class="align-center">11</td>
 <td class="align-left"><a href="/dnav/pet/pet_pri_spt_s1_d.htm">Spot Prices of Crude Oil, Motor Gasoline, and Heating Oil</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table11.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw11.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table11.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw11.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table11.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">12</td>
 <td class="align-left"><a href="/dnav/pet/pet_pri_spt_s1_d.htm">Spot Prices of Ultra-Low Sulfur Diesel Fuel, Kerosene-Type Jet Fuel, and Propane</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table12.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw12.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table12.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw12.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table12.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">13</td>
 <td class="align-left"><a href="/dnav/pet/pet_pri_fut_s1_d.htm">NYMEX Futures Prices of Crude Oil, Motor Gasoline, and No. 2 Heating Oil</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table13.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw13.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table13.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw13.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table13.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 <tr>
 <td class="align-center">14</td>
 <td class="align-left"><a href="/dnav/pet/pet_pri_gnd_dcus_nus_w.htm">U.S. Retail Motor Gasoline and On-Highway Diesel Fuel Prices</a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/table14.csv"><i class="ico csv">CSV</i></a></td>
-<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw14.xls" target="_blank"><i class="ico xls">XLS</i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/table14.csv"><i class="ico csv"><span>CSV</span></i></a></td>
+<td class="align-center"><a href="http://ir.eia.gov/wpsr/psw14.xls" target="_blank"><i class="ico xls"><span>XLS</span></i></a></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/table14.pdf"><i class="ico pdf">PDF</i></a></td>
 </tr>
 </tbody>

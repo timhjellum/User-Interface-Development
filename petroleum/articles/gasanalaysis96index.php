@@ -41,7 +41,7 @@ demand and high refinery capacity utilization; and persistent expectations that 
 gasoline prices would fall several months in the future, which discouraged production in excess of
 demand to build stocks.
 </p>
-<p><a href="/petroleum/archive/gasoline_45day.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/gasoline_45day.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_gasanalaysis96.inc'); ?>

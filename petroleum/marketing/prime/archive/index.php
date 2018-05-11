@@ -41,57 +41,57 @@ Prime Supplier Report Archives
 </tr>
 <tr>
 <td>January</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_01/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_01/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_01/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>January</td>
-<td><a href="/petroleum/marketing/prime/archive/2017/2017_01/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2017/2017_01/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2017/2017_01/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <tr>
 <td>February</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_02/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_02/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_02/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>February</td>
-<td><a href="/petroleum/marketing/prime/archive/2017/2017_02/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2017/2017_02/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2017/2017_02/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>March</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_03/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_03/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_03/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>March</td>
-<td><a href="/petroleum/marketing/prime/archive/2017/2017_03/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2017/2017_03/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2017/2017_03/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 </tr>
 <tr>
 <td>April</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_04/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_04/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_04/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>April</td>
-<td><a href="/petroleum/marketing/prime/archive/2017/2017_04/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2017/2017_04/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2017/2017_04/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 </tr>
 <tr>
 <td>May</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_05/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_05/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_05/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>May</td>
-<td><a href="/petroleum/marketing/prime/archive/2017/2017_05/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2017/2017_05/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2017/2017_05/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 </tr>
 <tr>
 <td>June</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_06/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_06/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_06/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>June</td>
-<td><a href="/petroleum/marketing/prime/archive/2017/2017_06/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2017/2017_06/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2017/2017_06/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>July</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_07/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_07/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_07/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td><!--May--></td>
 <td class="indented"></td>
@@ -99,7 +99,7 @@ Prime Supplier Report Archives
 </tr>
 <tr>
 <td>August</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_08/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_08/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_08/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td><!--May--></td>
 <td class="indented"></td>
@@ -107,7 +107,7 @@ Prime Supplier Report Archives
 </tr>
 <tr>
 <td>September</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_09/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_09/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_09/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td><!--May--></td>
 <td class="indented"></td>
@@ -115,7 +115,7 @@ Prime Supplier Report Archives
 </tr>
 <tr>
 <td>October</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_10/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_10/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_10/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td><!--May--></td>
 <td class="indented"></td>
@@ -123,7 +123,7 @@ Prime Supplier Report Archives
 </tr>
 <tr>
 <td>November</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_11/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_11/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_11/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td><!--May--></td>
 <td class="indented"></td>
@@ -131,7 +131,7 @@ Prime Supplier Report Archives
 </tr>
 <tr>
 <td>December</td>
-<td><a href="/petroleum/marketing/prime/archive/2016/2016_12/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2016/2016_12/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2016/2016_12/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td><!--May--></td>
 <td class="indented"></td>
@@ -160,92 +160,92 @@ Prime Supplier Report Archives
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_01/html/t01_p1.htm" class="ico_html">HTML</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_01/pdf/c007.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>January</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_01/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_01/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_01/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>February</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_02/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_02/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_02/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>February</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_02/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_02/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_02/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>March</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_03/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_03/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_03/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>March</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_03/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_03/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_03/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>April</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_04/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_04/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_04/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>April</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_04/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_04/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_04/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>May</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_05/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_05/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_05/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>May</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_05/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_05/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_05/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>June</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_06/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_06/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_06/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>June</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_06/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_06/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_06/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>July</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_07/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_07/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_07/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>July</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_07/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_07/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_07/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>August</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_08/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_08/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_08/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>August</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_08/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_08/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_08/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 </tr>
 <tr>
 <td>September</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_09/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_09/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_09/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>September</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_09/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_09/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_09/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <tr>
 <td>October</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_10/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_10/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_10/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>October</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_10/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_10/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_10/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <tr>
 <td>November</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_11/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_11/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_11/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>November</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_11/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_11/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_11/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <tr>
 <td>December</td>
-<td><a href="/petroleum/marketing/prime/archive/2014/2014_12/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2014/2014_12/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2014/2014_12/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <td>December</td>
-<td><a href="/petroleum/marketing/prime/archive/2015/2015_12/csv/psrall.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+<td><a href="/petroleum/marketing/prime/archive/2015/2015_12/csv/psrall.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
 <td><a href="/petroleum/marketing/prime/archive/2015/2015_12/pdf/psrall.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
 <h2 id="2012-2013"><i class="ico expand-collapse"></i>
 <tr>

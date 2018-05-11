@@ -56,7 +56,7 @@ different measures defined? How do they compare? What
 are the sources of the differences? Which is the most meaningful
 measure? Why does it matter?
 </p>
-<p><a href="/petroleum/archive/skinner1.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/skinner1.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_dependence.inc'); ?>

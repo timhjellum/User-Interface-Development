@@ -311,6 +311,7 @@
 		padding-right: 0;
 	}
 	// this is fallback incase a l-row isn't used.. 
+	/*
 	.l-row > h1,
 	.l-row > h2,
 	.l-row > h3,
@@ -322,12 +323,13 @@
 	.l-row > ol {
 		padding-right: 22px;
 	}
+	*/
 	.container {
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
-		max-width: 956px;
+		//max-width: 956px;
 	}
 	.l-col {
 		-webkit-box-flex: 0;
@@ -409,7 +411,7 @@
 		&>div {
 			padding-right: 44px;
 			&:last-child {
-				padding-right: 22px;
+				padding-right: 0;
 			}
 			// if full-width, remove all padding, margins and make 100%
 //			&.l-full-width-col {

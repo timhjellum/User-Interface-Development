@@ -60,7 +60,7 @@ further quantify the relationship between crude oil and gasoline market factors;
 between retail prices and spot prices is quantified; and, finally, an updated outlook for what to
 expect for the remainder of the summer is provided.
 </p>
-<p><a href="/petroleum/archive/0613.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/0613.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_gasassess97.inc'); ?>

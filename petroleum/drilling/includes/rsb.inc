@@ -2,23 +2,23 @@
 <div class="content-container standard-container">
     <ul>
         <li class="header"><h2>Contents</h2></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/anadarko.pdf">Anadarko</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/appalachia.pdf">Appalachia</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/bakken.pdf">Bakken</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/eagleford.pdf">Eagle Ford</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/haynesville.pdf">Haynesville</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/niobrara.pdf">Niobrara</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/permian.pdf">Permian</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/dpr-full.pdf">Full report</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/summary.pdf">Year-over-year summary</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/anadarko.pdf">Anadarko</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/appalachia.pdf">Appalachia</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/bakken.pdf">Bakken</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/eagleford.pdf">Eagle Ford</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/haynesville.pdf">Haynesville</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/niobrara.pdf">Niobrara</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/permian.pdf">Permian</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/dpr-full.pdf">Full report</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/summary.pdf">Year-over-year summary</a></li>
                 <li></li>
-                <li><i class="ico xls">XLS</i><a href="xls/dpr-data.xlsx">Report data</a> (aggregated by region)</li>
-                <li><i class="ico xls">XLS</i><a href="xls/duc-data.xlsx">DUC data</a> (aggregated by region)</li>
+                <li><i class="ico xls"><span>XLS</span></i><a href="xls/dpr-data.xlsx">Report data</a> (aggregated by region)</li>
+                <li><i class="ico xls"><span>XLS</span></i><a href="xls/duc-data.xlsx">DUC data</a> (aggregated by region)</li>
                 <li></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/duc_supplement.pdf">DUC supplement</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/dpr_methodology.pdf"> Documentation</a></li>
-                <li><i class="ico pdf">PDF</i><a href="pdf/notes-sources.pdf">Explanatory notes and sources</a></li>
-                <li><i class="ico pdf">PDF</i><a href="faqs.php">Frequently Asked Questions</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/duc_supplement.pdf">DUC supplement</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/dpr_methodology.pdf"> Documentation</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/notes-sources.pdf">Explanatory notes and sources</a></li>
+                <li><i class="ico pdf"><span>PDF</span></i><a href="faqs.php">Frequently Asked Questions</a></li>
     </ul>
 </div>
 <div class="content-container standard-list-container">

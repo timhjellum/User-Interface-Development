@@ -68,7 +68,7 @@ switch between markets and add to "hot money"
 flows, and that noncommercial traders follow price
 trends in energy markets rather than set them.
 </p>
-<p><a href="/petroleum/archive/dalezyrn.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/dalezyrn.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_dalezyrn.inc'); ?>

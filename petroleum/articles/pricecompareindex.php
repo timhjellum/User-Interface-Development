@@ -25,7 +25,7 @@ $pageTitle = '';
 </p>
 <p>This article describes the sampling frames and basic data collection methods for petroleum price data reported by Energy Information Administration (EIA) and other Government agencies. In addition, it compares and contrasts annual average prices reported by EIA with comparable prices from the Bureau of Labor Statistics (BLS) CPI (Consumer Price Indexes) for the retail prices of residential No. 2 distillate, on-highway diesel fuel and motor gasoline (all grades.) Further, it compares refiner wholesale/resale prices for No. 2 fuel oil, No. 2 diesel fuel, motor gasoline (all grades,) kerosene-type jet fuel and residual fuel oil reported by EIA with comparable prices from the BLS PPI (Producer Price Index.) A discussion of the various crude oil prices and spot/futures prices published by EIA and other Government agencies is also included in the article.
 </p>
-<p><a href="/petroleum/feature/price-comparison092012_article.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/feature/price-comparison092012_article.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 </div>
 </div>
 </div>

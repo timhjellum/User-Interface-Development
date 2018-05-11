@@ -77,7 +77,7 @@ $pageTitle = '';
 </p>
 <p>This article compares annual average prices reported from the EIA-782 survey series for residential No. 2 distillate, on-highway diesel fuel, retail regular motor gasoline, refiner No. 2 fuel oil for resale, refiner No. 2 diesel fuel for resale, refiner regular motor gasoline for resale, and refiner kerosene-type jet fuel for resale with annual average prices reported by other sources. In terms of volume, it compares EIA-782C Prime Supplier annual volumes for motor gasoline (all grades), distillate fuel oil, kerosene-type jet fuel and residual fuel oil with annual volumes from other sources.
 </p>
-<p><a href="/petroleum/archive/price-comparison092012_article.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/price-comparison092012_article.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
  
 
 <input id="project"><a id="Go" href="www.google.com?=hi">Hi</a>

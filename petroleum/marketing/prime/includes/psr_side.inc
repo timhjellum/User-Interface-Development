@@ -1,6 +1,6 @@
 <div class="content-container">
     <ul>
-        <li>Full report<a href="/petroleum/marketing/prime/csv/PSRALL.csv"><i class="ico csv">CSV</i></a><a href="/petroleum/marketing/prime/pdf/PSRALL.pdf"><i class="ico pdf">PDF</i></a></li>
+        <li>Full report<a href="/petroleum/marketing/prime/csv/PSRALL.csv"><i class="ico csv"><span>CSV</span></i></a><a href="/petroleum/marketing/prime/pdf/PSRALL.pdf"><i class="ico pdf">PDF</i></a></li>
     </ul>
 </div>
 <div class="content-container grey-background">

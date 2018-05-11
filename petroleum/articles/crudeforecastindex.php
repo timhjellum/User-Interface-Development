@@ -84,7 +84,7 @@ why petroleum prices and inventories are related. Next is an analysis of the dat
 for the study, followed by a presentation of the forecast model and results. The final section
 concludes the paper and suggests avenues for future investigation.
 </p>
-<p><a href="/petroleum/archive/crudeforecast1.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/crudeforecast1.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_crudeforecast.inc'); ?>

@@ -83,7 +83,7 @@ Clarke and Dr. James A. Peterson, USGS retired, who
 contributed Appendix A, Petroleum Geology in its
 entirety.
 </p>
-<p><a href="/petroleum/archive/0617.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/0617.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

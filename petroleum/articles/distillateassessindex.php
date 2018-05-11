@@ -70,7 +70,7 @@ discouraged building stocks. Now, at the beginning of
 the heating season, distillate fuel has replaced gasoline
 as the focus of concern.
 </p>
-<p><a href="/petroleum/archive/cranston.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/cranston.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_distillateassess.inc'); ?>

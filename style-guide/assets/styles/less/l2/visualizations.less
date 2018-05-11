@@ -8,7 +8,32 @@
             width: 100%;
             display: table;
             .l-col {
-                padding: 1.2em;
+                padding: 0 1.2em;
+                padding: 1em 0 1.5em 0;
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 50.000%;
+                -ms-flex: 0 0 50.000%;
+                flex: 0 0 50.000%;
+                max-width: 50.000%;
+                width: 50.000%;
+                &:nth-child(1) {
+                    clear: left;        
+                }
+                &:nth-child(2) {
+                    clear: right;        
+                }
+                &:nth-child(3) {
+                    clear: left;        
+                }
+                &:nth-child(4) {
+                    clear: right;        
+                }
+                &:nth-child(5) {
+                    clear: left;        
+                }
+                &:nth-child(6) {
+                    clear: right;        
+                }
             }
             li {
                 h3 {
@@ -71,6 +96,12 @@
         &.visualizations {
             margin: 0 0 1em;
             .l-col {
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 16.666667%;
+                -ms-flex: 0 0 16.666667%;
+                flex: 0 0 16.666667%;
+                max-width: 16.666667%;
+                width: 16.666667%;
                 padding: 0 1.2em 1.2em 1.2em;
                 &:first-child {
                     padding-left: 0;

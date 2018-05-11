@@ -39,7 +39,7 @@ background: transparent url(/global/images/icons/audio.png) no-repeat center lef
 <caption>Presentation</caption>
 <tr class="no-border">
 <td colspan=2>Presentation</td>
-<td><a href="pdf/2014_shopp_informational_webex.pdf"><i class="ico pdf">PDF</i></a></td>
+<td><a href="pdf/2014_shopp_informational_webex.pdf"><i class="ico pdf"><span>PDF</span></i></a></td>
 <td><a href="audio/2014_shopp_informational_webex.mp4" class="presentation_icons">MP4</a></td>
 </tr>
 </tbody>

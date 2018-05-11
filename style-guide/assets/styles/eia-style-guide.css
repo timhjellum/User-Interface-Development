@@ -29,8 +29,11 @@
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
 
+/* L2 */
 @import "less/l2/analysis-projections.less";
 @import "less/l2/visualizations";
+@import "less/l2/energy-education";
+@import "less/l2/sub-navigation";
 
 /* sliders */
 @import "less/sliders/shared";

@@ -1,4 +1,5 @@
-<div class="content-container">
+
+<div class="content-container">
     <ul>
         <li><h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong>Crude Oil and Petroleum Product Wholesale Prices</li>
@@ -40,7 +41,9 @@
                 <li>Prices for other surveyed products largely decreased during March.  Propane and kerosene-type jet fuel prices fell at both the retail and wholesale levels.  Aviation gasoline prices fell at retail, but increased at wholesale, while prices for No. 1 distillate did just the opposite.  Wholesale prices for kerosene and No. 4 distillate declined during March.</li>
                 <li>Refiner sales of propane, kerosene-type jet fuel, and No. 1 distillate declined at both the retail and wholesale levels during March, while aviation gasoline sales increased at both levels.  Sales of kerosene decreased at wholesale, while No. 4 distillate sales increased in the same category.</li>
     </ul>
-</div><?php /*        <li><a href="pdf/hilites.pdf">Read all highlights...</a></li>
+</div>
+<?php /*
+        <li><a href="pdf/hilites.pdf">Read all highlights...</a></li>
     </ul>
 </div>
 <div class="content-container light-top-border-container grey-background">
@@ -53,8 +56,10 @@
                 <li><a href="pdf/mgt.pdf">Motor Fuel Taxes</a></li>
                 <li><a href="pdf/pguide.pdf">Product Guide</a></li>
                 <li><a href="pdf/glossary.pdf">Glossary</a></li>
-                <li><a href="pdf/artlist.pdf">List of Articles</a></li>    </ul>
-</div>*/ ?><br />
+                <li><a href="pdf/artlist.pdf">List of Articles</a></li>
+    </ul>
+</div>*/ ?>
+<br /><i class="ico xls"><span>XLS</span></i>
 <div class="content-container light-top-border-container grey-background">
     <ul>
         <li class="header"><h2>Related information</h2></li>
@@ -63,4 +68,4 @@
                 <li><a href="pdf/paddmap.pdf" ><i class="ico pdf">PDF</i>Petroleum Administration for Defense District (PADD) map</a></li>
                 <li><a href="pdf/pguide.pdf" ><i class="ico pdf">PDF</i>Petroleum marketing product guide</a></li>
                 <li><a href="pdf/glossary.pdf" ><i class="ico pdf">PDF</i>Petroleum marketing glossary</a></li>
-                <li><a href="pdf/artlist.pdf" ><i class="ico pdf">PDF</i>Petroleum marketing list of articles</a>
+                <li><a href="pdf/artlist.pdf" ><i class="ico pdf">PDF</i>Petroleum marketing list of articles</a>

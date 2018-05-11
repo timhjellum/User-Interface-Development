@@ -25,7 +25,7 @@
 <?php /* start main content */ ?>
 <p>	<strong>Data Revision Notice:</strong>&nbsp;
 The Retail On-Highway Diesel Fuel Prices for December 28, 2015 did not include all taxes for some stations in the West Coast less California region. EIA has corrected this error and provides a revision to the affected areas for December 28, 2015 in this
-<a href="diesel_errata_sheet_12_28_2015.xls"><i class="ico xls">XLS</i>spreadsheet</a>. <br /><br />
+<a href="diesel_errata_sheet_12_28_2015.xls"><i class="ico xls"><span>XLS</span></i>spreadsheet</a>. <br /><br />
 The revised data has been released in the <a href="/petroleum/gasdiesel/">Gasoline and Diesel Fuel Update</a> and <a href="/dnav/pet/pet_pri_gnd_dcus_nus_w.htm">Petroleum Data Tables</a>.
 </p>
 <?php /* end main content */ ?>

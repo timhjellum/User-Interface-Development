@@ -76,7 +76,7 @@ levels, and the changes in price differences between light and heavy crude oils.
 <p>EIA&#8482;s findings and supporting data are discussed in greater detail below and in the body
 of this report.
 </p>
-<p><a href="/petroleum/archive/vzimpacts.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/vzimpacts.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

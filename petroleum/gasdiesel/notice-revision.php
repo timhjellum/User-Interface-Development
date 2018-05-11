@@ -29,7 +29,7 @@ The Retail Gasoline Prices for May 21, 28, and June 4 included an error in the c
 <p>
 Any values calculated from these revisions (including, but not limited to monthly averages) also have been revised
 <p>
-Errata Sheet for Retail Gasoline Prices for May 21, 28, and June 4 - <a href="mogas_errata_sheet.xls"><i class="ico xls">XLS</i></a>
+Errata Sheet for Retail Gasoline Prices for May 21, 28, and June 4 - <a href="mogas_errata_sheet.xls"><i class="ico xls"><span>XLS</span></i></a>
 </p>
 The revised data will be released this week during the regular publication times for the following publications:
 </p>

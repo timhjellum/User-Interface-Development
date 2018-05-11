@@ -25,7 +25,7 @@ $pageTitle = '';
 </p>
 <p>Compares final petroleum data published in the Petroleum Supply Annual with similar petroleum data obtained from other sources. Data comparisons are presented for 1994 through 2003.
 </p>
-<p><a href="/petroleum/archive/art0509.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/art0509.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_compare.inc'); ?>

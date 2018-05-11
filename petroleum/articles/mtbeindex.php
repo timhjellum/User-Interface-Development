@@ -54,7 +54,7 @@ MTBE, must be transported and stored separately from the base gasoline mixture t
 which it is added until the last step in the distribution chain. Many areas of the
 distribution system cannot handle additional products without further investments.
 </p>
-<p><a href="/petroleum/archive/mtbe2006.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/mtbe2006.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

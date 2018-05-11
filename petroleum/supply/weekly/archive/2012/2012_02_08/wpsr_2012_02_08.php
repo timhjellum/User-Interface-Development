@@ -65,70 +65,70 @@ Data for week ending February 3, 2012
 <span class="numbered">1</span>
             <td style="text-align:left;">U.S. Petroleum Balance Sheet</td>
             <td></td>
-            <td><a href="csv/table1.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table1.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table1.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">2</span>
             <td style="text-align:left;">U.S. Inputs and Production by PAD District</td>
             <td></td>
-            <td><a href="csv/table2.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table2.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table2.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">3</span>
             <td style="text-align:left;">Refiner and Blender Net Production</td>
             <td></td>
-            <td><a href="csv/table3.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table3.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table3.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">4</span>
             <td style="text-align:left;">Stocks of Crude Oil by PAD District, and Stocks of Petroleum Products, U.S. Totals</td>
             <td></td>
-            <td><a href="csv/table4.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table4.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table4.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">5</span>
             <td style="text-align:left;">Stocks of Total Motor Gasoline and Fuel Ethanol by PAD District</td>
             <td></td>
-            <td><a href="csv/table5.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table5.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table5.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">5A</span>
             <td style="text-align:left;">Stocks of Total Motor Gasoline and Fuel Ethanol by PAD District with Total Gasoline by Sub-PADD</td>
             <td></td>
-            <td><a href="csv/table5a.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table5a.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td></td>
         </tr>
         <tr>
 <span class="numbered">6</span>
             <td style="text-align:left;">Stocks of Distillate, Kerosene-Type Jet Fuel, Residual Fuel Oil, and Propane/Propylene by PAD District</td>
             <td></td>
-            <td><a href="csv/table6.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table6.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table6.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">7</span>
             <td style="text-align:left;">Imports of Crude Oil and Total Products by PAD District</td>
             <td></td>
-            <td><a href="csv/table7.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table7.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table7.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">8</span>
             <td style="text-align:left;">Preliminary Crude Imports by Country of Origin</td>
             <td></td>
-            <td><a href="csv/table8.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table8.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table8.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">9</span>
             <td style="text-align:left;">U.S. and PAD District Weekly Estimates</td>
             <td></td>
-            <td><a href="csv/table9.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table9.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table9.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
@@ -142,28 +142,28 @@ Data for week ending February 3, 2012
 <span class="numbered">11</span>
             <td style="text-align:left;">Spot Prices of Crude Oil, Motor Gasoline, and Heating Oil</td>
             <td></td>
-            <td><a href="csv/table11.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table11.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table11.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">12</span>
             <td style="text-align:left;">Spot Prices of Ultra-Low Sulfur Diesel Fuel, Kerosene-Type Jet Fuel, and Propane</td>
             <td></td>
-            <td><a href="csv/table12.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table12.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table12.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">13</span>
             <td style="text-align:left;">NYMEX Futures Prices of Crude Oil, Motor Gasoline, and No. 2 Heating Oil</td>
             <td></td>
-            <td><a href="csv/table13.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table13.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table13.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>
 <span class="numbered">14</span>
             <td style="text-align:left;">U.S. Retail Motor Gasoline and On-Highway Diesel Fuel Prices</td>
             <td></td>
-            <td><a href="csv/table14.csv" ><i class="ico csv">CSV</i>CSV</a></td>
+            <td><a href="csv/table14.csv" ><i class="ico csv"><span>CSV</span></i>CSV</a></td>
             <td><a href="pdf/table14.pdf" ><i class="ico pdf">PDF</i>PDF</a></td>
         </tr>
         <tr>

@@ -30,7 +30,7 @@
         </li>
         <li class="sub-header">Other</li>
         <li><a href="/petroleum/gasdiesel/pump_methodology.php">Pump methodology and data history</a></li>
-        <li><a href="/petroleum/marketing/monthly/xls/fueltaxes.xls"><i class="ico xls">XLS</i>Federal and state motor fuel taxes</a></li>
+        <li><a href="/petroleum/marketing/monthly/xls/fueltaxes.xls"><i class="ico xls"><span>XLS</span></i>Federal and state motor fuel taxes</a></li>
         <li class="footer"><a href="/petroleum/gasdiesel/learnmore.php">Learn more</a></li>
     </ul>
 </div>

@@ -46,7 +46,7 @@ provide a better indicator of potential constraints in refining
 capacity. A more complex analysis could expand the scope to
 include foreign refiners in a global view of petroleum markets.
 </p>
-<p><a href="/petroleum/archive/lidder3.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/lidder3.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

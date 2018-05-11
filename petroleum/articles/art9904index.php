@@ -106,7 +106,7 @@ motor gasoline components they displace, raises consumers&#8482;
 effective final costs by 0.5 to 1.5 percent as a result of reduced fuel
 economy (i.e., miles per gallon).
 </p>
-<p><a href="/petroleum/archive/art9904.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/art9904.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_art9904.inc'); ?>                        </div>

@@ -29,7 +29,7 @@ $pageTitle = '';
 </p>
 <p>After 1973 the coupling of significant concentrations of supply-side market power with short-term inelasticity of demand and regional conflicts rendered the world crude oil market subject to huge inter-annual volatility. The resulting post-1970 world crude oil price path, represented by the nominal U.S. refiner acquisition cost of imported crude oil, is shown in Figure 36. It is annotated with significant events that affected the market, the U.S. actions taken in response to them, and the domestic environmental and energy conservation measures referred to or discussed in the other chapters. In keeping with the other chapters&#8482; short-term horizon, the following sections of this chapter primarily address the past decade, which began with the crude oil price collapse of 1986.
 </p>
-<p><a href="/petroleum/archive/CHAPTER3.PDF"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/CHAPTER3.PDF"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

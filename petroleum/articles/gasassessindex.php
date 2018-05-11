@@ -41,7 +41,7 @@ Petroleum Administration for Defense District (PADD) 5 region needed additional 
 (Appendix A). This report is a study of this late summer gasoline market and some of the important
 issues surrounding that event.
 </p>
-<p><a href="/petroleum/archive/0621.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/0621.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

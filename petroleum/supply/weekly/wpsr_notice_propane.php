@@ -35,7 +35,7 @@
 Following the release of the Weekly Petroleum Status Report (WPSR) for the week ended June 7, 2013, EIA discovered an error in company reporting that caused Propane stock levels in PADD 4&5 (Rocky Mountain and West Coast regions) to be overstated.  With today's WPSR release for the week ended June 14, 2013, EIA has corrected this error and provides a revision to last week's PADD-level and Total propane stock levels.  This correction also results in other minor changes to last week's published data, including revisions to NGPLs/LRGs (Excluding Propane/Propylene) Stocks, Other Oils Stocks, Propane Product Supplied, and Other Product Supplied that flow from the corrected Propane stock levels. Furthermore, there are revisions to the A1 table for the month of May for these data points. An errata sheet listing last week's revised data is included in the link below as well as in the .pdf copy accompanying this week's WPSR publication.
 </p>
 <p>
-Errata Sheet for WPSR Week Ending 6/7/2013 - <a href="wpsrerrata_sheet_06072013.pdf"><i class="ico pdf">PDF</i></a>&nbsp;&nbsp;&nbsp;<a href="wpsrerrata_sheet_06072013.xls"><i class="ico xls">XLS</i></a>
+Errata Sheet for WPSR Week Ending 6/7/2013 - <a href="wpsrerrata_sheet_06072013.pdf"><i class="ico pdf"><span>PDF</span></i></a>&nbsp;&nbsp;&nbsp;<a href="wpsrerrata_sheet_06072013.xls"><i class="ico xls"><span>XLS</span></i></a>
 </p>
 
 

@@ -1,4 +1,4 @@
-//import $ from 'jquery';
+import $ from 'jquery';
 import bxslider from '../../../../node_modules/bxslider/dist/jquery.bxslider.min.js';
 
 class BxSlider {
@@ -10,14 +10,10 @@ class BxSlider {
 		this.window = $(window);
         this.checkSize();
         this.events();
-        this.window.resize(this.checkSize.bind(this));
-        //this.window.load(this.checkSize.bind(this));
-        //this.window.orientationchange(this.checkSize.bind(this));
-        //this.window.on("orientationchange load resize", function () {
-        //    bxslider();
-        //});
     }
 	events() {
+        //$(window).resize(this.checkSize);
+
         setTimeout(function() {
             $(".slider-multi").addClass("bxslider-visible");
             console.log("visible");
@@ -37,8 +33,35 @@ class BxSlider {
             slideWidth: 960,
             pause: 10000
         });
+
+        // Returns a function, that, as long as it continues to be invoked, will not
+        // be triggered. The function will be called after it stops being called for
+        // N milliseconds. If `immediate` is passed, trigger the function on the
+        // leading edge, instead of the trailing.
+        
+        function debounce(func, wait, immediate) {
+            var timeout;
+            return function() {
+                var context = this, args = arguments;
+                var later = function() {
+                    timeout = null;
+                    if (!immediate) func.apply(context, args);
+                };
+                var callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) func.apply(context, args);
+            };
+        };
+        var myEfficientFn = debounce(function() {
+            console.log("resized");
+            
+        }, 250);       
+        window.addEventListener('resize', myEfficientFn);
+
     }
     checkSize() {
+        console.log("check size");
         var footerWidth = $('footer > div').width();
         console.log("footer > div: " + footerWidth);
         if ((footerWidth >= 801) && (footerWidth <= 987)) {

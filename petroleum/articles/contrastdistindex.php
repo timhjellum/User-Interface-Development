@@ -34,7 +34,7 @@ in distillate markets. The factors that led last year to such low stock
 levels have not been repeated this year. Hence, stocks are higher
 and markets less vulnerable (but not invulnerable) to price spikes.
 </p>
-<p><a href="/petroleum/archive/distmkts.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/distmkts.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column"><?php include('./includes/side-nav_contrastdist.inc'); ?>

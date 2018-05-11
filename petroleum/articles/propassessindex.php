@@ -92,7 +92,7 @@ of the heating season. By the end of March, stocks stood at
 27.6 million barrels, 6.6 million barrels above the "Base Case"?
 projection.
 </p>
-<p><a href="/petroleum/archive/propane2.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/propane2.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">

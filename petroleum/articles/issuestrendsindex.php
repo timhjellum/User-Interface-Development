@@ -81,7 +81,7 @@ operations, to new financial markets that affect the prices of
 its products. When such changes evolve gradually, they can
 be absorbed smoothly in the markets. But when changes in  supply and demand occur suddenly or unexpectedly, they can lead to sharp market reactions. The resulting rapid price  changes are symptoms of these reactions â€” evidence of a market imbalance, and the signal that a market correction is underway.
 </p>
-<p><a href="/petroleum/archive/061596.pdf"><i class="ico pdf">PDF</i>See full report</a></p>
+<p><a href="/petroleum/archive/061596.pdf"><i class="ico pdf"><span>PDF</span></i>See full report</a></p>
 <?php /* end main content */ ?>
 </div>l-narrow-col
 <div class="l-side-column">
