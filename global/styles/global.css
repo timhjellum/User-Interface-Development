@@ -9124,7 +9124,6 @@ font-size: 1.500rem; // 24 pixels
     padding: 0 5%;
     line-height: 1em;
     font-weight: 700;
-    border: 1px solid red;
     height: 67px;
     overflow: hidden;
   }
@@ -9348,7 +9347,7 @@ font-size: 1.500rem; // 24 pixels
   }
   .slider-multi .slider-multi-wrapper .bx-controls.bx-has-controls-direction {
     width: 912px;
-    height: 158px;
+    height: 200px;
     position: absolute;
     left: -44px;
     top: 0;

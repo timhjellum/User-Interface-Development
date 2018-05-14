@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bubble2 {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	overflow:inherit;
+}
+#bubble2 li {
+/*	display: inline-block;*/
+	float:left;
+	margin-left: 22px;
+	margin-bottom:10px;
+	padding: 0px;
+	width: 166px;
+	height: 127px;
+}
+#bubble2 li:first-child {margin-left: 0px;}
+#bubble2 li a img {
+	position: relative;
+	border: none;
+}
+ 
+#bubble2 li a img.large {
+	display: none;
+}
+ 
+#bubble2 li a:hover img.small {
+	display: none;
+	z-index: 0;
+}
+ 
+#bubble2 li a:hover img.large {
+	display: block;
+	margin-top: -14px;
+	margin-left: -14px;
+	z-index: 500 !important;
+}
+.show_menu {
+    background-image: url("/finance/markets/images/show_menu.png");
+    width: 130px;
+	height:28px;
+	text-align:-99999px;
+}
+.show_menu:hover {background-image: url("/finance/markets/images/show_menu_on.png");}
+.hide_menu {
+    background-image: url("/finance/markets/images/hide_menu.png");
+    width: 130px;
+	height:28px;
+	text-align:-99999px;
+}
+.hide_menu:hover {background-image: url("/finance/markets/images/hide_menu_on.png");}
+.efmi_ui_container {
+	background:  transparent url("/finance/markets/images/ui/arrows_back.png") no-repeat top left;
+	height:410px;
+	width:590px;
+	margin:10px 10px 0 20px;
+	}
+.efmi_ui_side {
+	margin:10px 10px 0 10px;
+	}
+
+/*#lnk {margin-top:8px;}*/
+#lnk span {
+	display:block;
+	width:314px;
+	height:34px;
+	margin-top:8px;
+	}
+.btn {
+	display:block;
+	width:314px;
+	height:34px;
+	margin-top:8px;
+	text-align:-99999px;
+	}
+.btn1 {background: transparent url("/finance/markets/images/ui/btn_overview_off.png") no-repeat top left;}
+  .btn1:hover {background: transparent url("/finance/markets/images/ui/btn_overview_on.png") no-repeat top left;}
+.btn2 {background: transparent url("/finance/markets/images/ui/btn_who_off.png") no-repeat top left;}
+  .btn2:hover {background: transparent url("/finance/markets/images/ui/btn_who_on.png") no-repeat top left;}
+.btn3 {background: transparent url("/finance/markets/images/ui/btn_factors_off.png") no-repeat top left;}
+  .btn3:hover {background: transparent url("/finance/markets/images/ui/btn_factors_on.png") no-repeat top left;}
+.btn4 {background: transparent url("/finance/markets/images/ui/btn_presentation_off.png") no-repeat top left;}
+  .btn4:hover {background: transparent url("/finance/markets/images/ui/btn_presentation_on.png") no-repeat top left;}
+
+.chart_r {width:700px;;padding:10px;border:solid 1px #CCC;margin:auto;margin-bottom:36px;margin-top:20px;}
+.chart_l {width:640px;padding:10px;border:solid 1px #CCC;margin-right:20px;margin-bottom:36px;}
+.chart_h {margin-left:10px;line-height:1.2em;font-family:'Times New Roman',Times,serif;font-size:22px;color:#0096D7;}
+.mt20 {margin-top:20px;}
+.chart_desc {
+	margin-top:12px;
+/*	font-size:11px;*/
+	padding:8px;
+	background-color:#e1f5ff;
+	}
+.main_col h2 {margin-top:20px;}

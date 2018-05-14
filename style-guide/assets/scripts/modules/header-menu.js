@@ -9,7 +9,7 @@ class HeaderMenu {
 		this.footer = $('footer');
 		this.logo = $('.logo');
 		this.window = $(window);
-		this.events();
+		//this.events();
 		this.openMenu();
 	}
 	lightBox() {
@@ -37,10 +37,10 @@ class HeaderMenu {
 			}
 		});
 	}
-	events() {
-		this.window.resize(this.checkSize.bind(this));
+	//events() {
+	//	this.window.resize(this.checkSize.bind(this));
 	//	$("a.lightbox").click(lightBox());
-	}
+	//}
 	openMenu() {
 		$('.fancybox-menu').click(function () {
 			var target = $(this).data("target");
@@ -118,7 +118,7 @@ class HeaderMenu {
 			}
 		});
 	}
-	checkSize() {
+	//checkSize() {
 		/*
 		var viewPortWidth = window.innerWidth;
 		var viewPortHeight = window.innerHeight;
@@ -133,6 +133,6 @@ class HeaderMenu {
 			$('.fancybox-wrap').removeClass('fancybox-laptop');
 		}
 		*/
-	}
+	//}
 }
 export default HeaderMenu;

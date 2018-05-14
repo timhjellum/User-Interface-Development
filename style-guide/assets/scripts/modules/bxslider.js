@@ -10,35 +10,17 @@ class BxSlider {
 		this.window = $(window);
         this.checkSize();
         this.events();
+        this.windowResizeEvents();
     }
-	events() {
-        //$(window).resize(this.checkSize);
-
-        setTimeout(function() {
-            $(".slider-multi").addClass("bxslider-visible");
-            console.log("visible");
-        }, 2000);
-        this.bxSliderHome.show();
-        this.bxSliderMulti.show();
-        this.bxSliderHome.bxSlider({
-            auto: true,
-            minSlides: 1,
-            maxSlides: 1,
-            slideMargin: 0,  //integer
-            wrapperClass: 'slider-home-wrapper',
-            autoHover: true,
-            controls: false,
-            pager: true,
-            pagerSelector: '.slider-home-pager',
-            slideWidth: 960,
-            pause: 10000
-        });
-
+    windowResizeEvents() {
+        
+        this.window.resize(this.checkSize.bind(this));
+        
         // Returns a function, that, as long as it continues to be invoked, will not
         // be triggered. The function will be called after it stops being called for
         // N milliseconds. If `immediate` is passed, trigger the function on the
         // leading edge, instead of the trailing.
-        
+
         function debounce(func, wait, immediate) {
             var timeout;
             return function() {
@@ -55,10 +37,30 @@ class BxSlider {
         };
         var myEfficientFn = debounce(function() {
             console.log("resized");
-            
+
         }, 250);       
         window.addEventListener('resize', myEfficientFn);
-
+    }
+	events() {
+        setTimeout(function() {
+            $(".slider-multi").addClass("bxslider-visible");
+            console.log("visible");
+        }, 2000);
+        //this.bxSliderHome.show();
+        //this.bxSliderMulti.show();
+        this.bxSliderHome.bxSlider({
+            auto: true,
+            minSlides: 1,
+            maxSlides: 1,
+            slideMargin: 0,  //integer
+            wrapperClass: 'slider-home-wrapper',
+            autoHover: true,
+            controls: false,
+            pager: true,
+            pagerSelector: '.slider-home-pager',
+            slideWidth: 960,
+            pause: 10000
+        });
     }
     checkSize() {
         console.log("check size");

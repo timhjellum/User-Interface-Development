@@ -1,0 +1,35 @@
+      <div class="side_col right">
+        <?php /* Side Column */ ?>
+        <span class="grey_side blue_top">
+        <p><a href="/consumption/residential/about.cfm">About the RECS</a></p>
+        <p><a href="/consumption/residential/methodology/index.cfm">Methodology</a></p>
+        <p class="no_btm_border"><a href="/consumption/residential/surveyforms.cfm">Survey Forms</a></p>
+        </span>
+
+        <?php /* FAQ Promo 
+        <span class="blue_side">
+          <h4 class="q_side">
+          	<a href="recs_faqs.cfm">Were you contacted about participating in RECS Energy Supplier Survey?</a>
+      </h4>
+          <strong>
+          <p><a href="/tools/faqs/">See all RECS FAQs &rsaquo;</a></p></strong>
+        </span>*/ ?>
+         
+        <?php /* Featured Data */ ?>
+        <span class="grey_side blue_top">
+          <p class="no_btm_border">
+          <h4>Featured Data Tables</h4>
+          <p><a href="data/2009/#fueluses">Fuels Used & End Uses</a></p>
+                    <p class="no_btm_border"><a href="data/2009/#appliances">Appliances</a></p>
+
+        </span> 
+        <?php /* Other Consumption Surveys */ ?>
+        <span class="grey_side blue_top">
+            <h4>Other End Use Surveys</h4>
+            <p><a href="/emeu/cbecs/contents.html">Commercial Buildings - CBECS</a></p>
+            <p><a href="/emeu/mecs/contents.html">Manufacturing - MECS</a>
+      <p class="no-border"><a href="/consumption/archive/rtecs/contents.html">Transportation</a></p>
+      </span>
+        </div>
+      <?php /*/ Side Content */ ?>
+
