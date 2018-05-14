@@ -7767,7 +7767,6 @@ font-size: 1.500rem; // 24 pixels
     color: #333;
     text-transform: uppercase;
     padding: 0 .5em;
-    border-bottom: 2px solid #003953;
     font-size: 2rem;
   }
 }
@@ -9100,6 +9099,7 @@ font-size: 1.500rem; // 24 pixels
     padding: 0;
   }
   .slider-multi .slider-multi-wrapper ul li {
+    background: #f2f2f2;
     padding: 7px 0 10px 0;
   }
   .slider-multi .slider-multi-wrapper ul li h3 {
