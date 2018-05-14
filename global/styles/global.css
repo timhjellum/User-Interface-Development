@@ -154,20 +154,18 @@ strong {
 .hide {
   display: none;
 }
-/*
-a[href^="http:"],
-a[href^="https:"],
-a[href*=".com"] {
-	background: url(/global/images/icons/external_link.png) no-repeat scroll right center transparent;
-	padding-right: 10px;
-	margin-right: 1px;
-	a {
-		&:hover {
-			text-decoration: underline !important;
-		}
-	}
+.footer a[href^="http:"],
+.footer a[href^="https:"],
+.footer a[href*=".com"] {
+  background: url(/global/images/icons/external_link.png) no-repeat scroll right center transparent;
+  padding-right: 10px;
+  margin-right: 1px;
 }
-*/
+.footer a[href^="http:"] a:hover,
+.footer a[href^="https:"] a:hover,
+.footer a[href*=".com"] a:hover {
+  text-decoration: underline !important;
+}
 /* caption
 	.source {
 		width: 100%;
@@ -4615,21 +4613,6 @@ span.line-break {
     /*The size of the normal image, half the size of the hi-res image*/
   }
 }
-.footer {
-  /*
-@media @tablet-landscape { // tablet, landscape iPad, lo-res laptops ands desktops
-
-		.l-col {
-			-webkit-box-flex: 0;
-			-webkit-flex: 0 0 16.666667%;
-			-ms-flex: 0 0 16.666667%;
-			flex: 0 0 16.666667%;
-			max-width: 16.666667%;
-		}
-
-}
-*/
-}
 @media (min-width: 1px) {
   .footer {
     border-top: 1px solid #003953;
@@ -4726,11 +4709,11 @@ span.line-break {
   }
   .footer .footer-links ul {
     padding: 1em 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #dddddd;
   }
   .footer .footer-links ul:nth-child(2) li:nth-child(6) {
     padding-top: 1em;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #dddddd;
     margin-top: 1em;
   }
   .footer .footer-links ul li {
