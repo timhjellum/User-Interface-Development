@@ -12,6 +12,5 @@
         <li <?php if ( $locale == 'residential') {?>class="active"<?php  } // end if ?>><a href="/consumption/residential/">Residential</a></li>
         <li <?php if ( $locale == 'commercial') {?>class="active"<?php  } // end if ?>><a href="/consumption/commercial/">Commercial</a></li>
         <li <?php if ( $locale == 'industrial') {?>class="active"<?php  } // end if ?>><a href="/consumption/industrial/">Industrial</a></li>
-        <li <?php if ( $locale == 'transportation') {?>class="active"<?php  } // end if ?>><a href="/consumption/transportation/">Transportation</a></li>
       </ul>
     </div><?php /*/ Page/Sub Nav */ ?>

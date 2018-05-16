@@ -70,7 +70,8 @@ $(document).ready(function(){
         <h4 style="margin: 12px 20px 6px 20px; border-bottom:1px solid #ccc; padding-bottom:2px;">Find by</h4>
         <ul>
           <li><a href="/consumption/browsebytag.php">Alphabetical</a></li>
-          <li><a href="/consumption/reports.php#/T100,T4060">Recurring</a></li>
+          <li><a href="/consumption/reports.php#/T100,T214,T4060">Recurring</a></li>
+           <?php /* <li><a href="/consumption/browsebytag.php?frequency">Frequency</a></li> */ ?>
           <li><a href="/consumption/browsebytag.php?tagcloud">Tag Cloud</a></li>
         </ul>
       </div>

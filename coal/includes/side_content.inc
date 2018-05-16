@@ -18,13 +18,13 @@ $neic->sql = "     Select *
     AND tags like :tags
     ORDER BY ID DESC ";
 $bindVariables[":active"] = "yes";
-$bindVariables[":tags"] = "%crude%";
+$bindVariables[":tags"] = "%nuclear%";
 //print $neic->sql;
 //print_r($bindVariables);
 $tie_lookup = $neic->get($bindVariables);
 ?>
 <?php if (!empty($tie_lookup)) {?>
-<?php $tietopic = 'crude'; ?>
+<?php $tietopic = 'coal'; ?>
 <span class="dblue_side_top blue_top ">
   <a href="/todayinenergy/"><img src="/global/images/sprites/tie_w_title.png"/></a>
 </span>

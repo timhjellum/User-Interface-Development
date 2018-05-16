@@ -54,7 +54,8 @@ $(document).ready(function(){
         <h4 style="margin: 12px 20px 6px 20px; border-bottom:1px solid #ccc; padding-bottom:2px;">Find by</h4>
         <ul>
           <li><a href="/finance/browsebytag.php">Alphabetical</a></li>
-          <li><a href="/finance/reports.php#/T235,T182,T198,T1564,T1568">Recurring</a></li>
+          <li><a href="/finance/reports.php#/T235,T214,T1568,T1564,T182,T198">Recurring</a></li>
+          <?php /* <li><a href="/finance/browsebytag.php?frequency">Frequency</a></li> */ ?>
           <li><a href="/finance/browsebytag.php?tagcloud">Tag Cloud</a></li>
         </ul>
       </div>

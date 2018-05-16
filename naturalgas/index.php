@@ -37,7 +37,7 @@ $l2id = 1;
       
       <h2>Updated Data Series</h2>
       <ul class="updated_data">
-        <li><span class="series_date">5/9/2018</span> <a href="/dnav/ng/ng_pri_fut_s1_d.htm">Natural gas spot and futures prices </a></li>
+        <li><span class="series_date">5/16/2018</span> <a href="/dnav/ng/ng_pri_fut_s1_d.htm">Natural gas spot and futures prices </a></li>
             <li><span class="series_date">4/30/2018</span> <a href="/dnav/ng/ng_pri_sum_dcu_nus_m.htm">Natural gas prices</a></li>
             <li><span class="series_date">4/30/2018</span> <a href="/dnav/ng/ng_prod_sum_a_EPG0_FGW_mmcf_m.htm">Natural gas gross withdrawals and production</a></li>
 
@@ -129,11 +129,16 @@ $l2id = 1;
       </div>
       <?php /*end Energy education section*/ ?>
     </div>
-
-    
-
-
-
-    <?php include('/global/footer/includes/footer.inc') ?>
+    <?php include ('global/includes/eia_footer.inc') ; ?>
+</div>
+<script>
+$("#youtube").fancybox({
+	'scrolling'		: 'no',
+	'titleShow'		: false,
+	'onClosed'		: function() {
+	    $("#login_error").hide();
+	}
+});
+</script>
 </body>
 </html>

@@ -55,7 +55,8 @@ $(document).ready(function(){
         <h4 style="margin: 12px 20px 6px 20px; border-bottom:1px solid #ccc; padding-bottom:2px;">Find by</h4>
         <ul>
           <li><a href="/analysis/browsebytag.php">Alphabetical</a></li>
-          <li><a href="/analysis/reports.php#/T186,T182,T198,T1568">Recurring</a></li>
+          <li><a href="/analysis/reports.php#/T186,T214,T182,T198">Recurring</a></li>
+          <?php /* <li><a href="/analysis/browsebytag.php?frequency">Frequency</a></li> */ ?>
           <li><a href="/analysis/browsebytag.php?tagcloud">Tag Cloud</a></li>
         </ul>
       </div>

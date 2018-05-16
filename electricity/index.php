@@ -12,7 +12,6 @@ $l2id = 2;
 <html>
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta http-equiv="Content-Language" content="en-us" />
 <?php include ('global/includes/eia_head_info.inc') ; ?>
     <script src="/global/vendor/bxslider/dist/jquery.bxslider.min.js"></script>
     <script src="/global/scripts/slider-multi-cards-init.min.js"></script>
@@ -35,16 +34,16 @@ $l2id = 2;
       <div class="main"><?php /*Left column*/ ?><span class="main_col">
       <h1>Recent Data</h1>
       <?php include ('includes/table_data.php') ;  ?>
-       <p><a href="data.php"><b>See more data &rsaquo;</b></a></p>
+       <p><a href="data.php"><strong>See more data &rsaquo;</strong></a></p>
        
-                       <h2>Hourly Electricity Data </h2>
+                              <h2>Hourly Electricity Data </h2>
                 <ul class="updated_data">
                   <li> <a href="/realtime_grid/?src=data#/summary/">Realtime electric system operating data</a></li>
 
                 </ul>
 
-       
-      <h2>Updated Data Series</h2>
+
+                <h2>Updated Data Series</h2>
                 <ul class="updated_data">
                   <li><span class="series_date"><script language="JavaScript" type="text/JavaScript" src="/electricity/monthly/includes/elect_l2.txt"></script></span> <a href="/electricity/data/browser/">Net generation</a></li>
                   <li><span class="series_date"><script language="JavaScript" type="text/JavaScript" src="/electricity/monthly/includes/elect_l2.txt"></script></span> <a href="/electricity/data/browser/#/topic/7?agg=2,0,1&geo=g&freq=M">Average retail price of electricity</a></li>
@@ -79,8 +78,8 @@ $l2id = 2;
               <a href="/electricity/monthly/">Electric Power Monthly</a>: <em>between the 20th and the 25th  of the month</em><br />
               <a href="/electricity/monthly/update">Electricity Monthly Update</a>: <em>between the 20th and the 25th of the month</em></p>
             <?php /*p><em>*No releases: Monday, Tuesday, Wednesday or Friday.</p*/ ?>
-            <?php /*p><a href="/todayinenergy/index.cfm?tg=INSERT_YOUR_TAG_HERE_FOR_TIE"><b>Recent Articles &rsaquo;</b></a></p*/ ?>
-            <p><a href="/reports/upcoming.php"><b> See all upcoming &rsaquo;</b></a></p>
+            <?php /*p><a href="/todayinenergy/index.cfm?tg=INSERT_YOUR_TAG_HERE_FOR_TIE"><strong>Recent Articles &rsaquo;</strong></a></p*/ ?>
+            <p><a href="/reports/upcoming.php"><strong> See all upcoming &rsaquo;</strong></a></p>
             </span>
             <?php /*end Right column*/ ?>
             <?php /*Interactive visualizations section*/ ?>
@@ -88,34 +87,34 @@ $l2id = 2;
             <ul class="visualizations">
               <li><a title="Electricity Data Browsers" href="/electricity/data/browser/">
                   <div class="circle_elec_data circle"></div>
-                  <b>Electricity<br />Data Browser</b></a></li>
+                  <strong>Electricity<br />Data Browser</strong></a></li>
 
               <li><a title="U.S. Electricity Infrastructure Map" href="/state/maps.cfm?v=Electricity">
                   <div class="circle_ng_map circle"></div>
-                  <b>U.S. Electricity Infrastructure Map</b></a></li>
+                  <strong>U.S. Electricity Infrastructure Map</strong></a></li>
 
               <li><a title="U.S. Energy Disruptions Map" href="/special/disruptions/">
                   <div class="circle_disruptions circle"></div>
-                  <b>U.S. Energy Disruptions Map</b></a></li>
+                  <strong>U.S. Energy Disruptions Map</strong></a></li>
 
               <li><a title="STEO Data Browser" href="/forecasts/steo/query/">
                   <div class="circle_steo circle"></div>
-                  <b>STEO<br />
-                    Data Browser</b></a></li>
+                  <strong>STEO<br />
+                    Data Browser</strong></a></li>
 
               <li><a title="AEO Data Browser" href="/beta/aeo/">
                   <div class="circle_aeo circle"></div>
-                  <b>AEO<br />
-                    Table Browser</b></a></li>
+                  <strong>AEO<br />
+                    Table Browser</strong></a></li>
 
               <li><a title="Status of U.S. Nuclear Outages" href="/nuclear/outages/">
                   <div class="circle_nuclear_outages circle"></div>
-                  <b>Status of U.S. Nuclear Outages</b></a></li>
+                  <strong>Status of U.S. Nuclear Outages</strong></a></li>
 
 
               <?php /*<li><a href="/radio/">
 								<div class="circle_radio circle"></div>
-								<b>Radio Spot</b></a></li>*/ ?>
+								<strong>Radio Spot</strong></a></li>*/ ?>
             </ul>
             <?php /*end Interactive visualizations section*/ ?>
             <?php /*Energy education section*/ ?>
@@ -125,28 +124,40 @@ $l2id = 2;
                 <div> <img src="/global/images/icons/education/nat_gas.png"/> <span>
             <h2><a href="/energyexplained/index.cfm?page=electricity_home">Electricity Explained</a></h2>
             <p><em><a href="/energyexplained/index.cfm?page=electricity_in_the_united_states">Electricity in the United States</a></em></p>
-			<p><a href="/energyexplained/index.cfm?page=electricity_home"><b>See more electricity topics &rsaquo;</b></a></p>
+			<p><a href="/energyexplained/index.cfm?page=electricity_home"><strong>See more electricity topics &rsaquo;</strong></a></p>
 			</span> </div>
               </div>
               <div>
                 <div> <img src="/global/includes/issuestrends/images/icon_faq.png"/> <span>
             <h2><a href="/tools/faqs/">FAQs</a></h2>
             <p><em><a href="/tools/faqs/faq.cfm?id=97&t=3">How much electricity does an American home use?</a></em></p>
-            <p><a href="/tools/faqs/index.cfm#electricity"><b>See all electricty FAQs &rsaquo;</b></a></p>
+            <p><a href="/tools/faqs/index.cfm#electricity"><strong>See all electricty FAQs &rsaquo;</strong></a></p>
             </span> </div>
               </div>
               <div>
                 <div> <img src="/global/includes/issuestrends/images/icon_kids.png"/> <span>
             <h2><a href="/kids">Energy Kids</a></h2>
             <p><em><a href="/kids/energy.cfm?page=electricity_science-basics">Science of Electricity Basics</a></em></p>
-            <p><a href="/kids/energy.cfm?page=electricity_home-basics"><b>See electricity on Energy Kids &rsaquo;</b></a></p>
+            <p><a href="/kids/energy.cfm?page=electricity_home-basics"><strong>See electricity on Energy Kids &rsaquo;</strong></a></p>
             </span> </div>
               </div>
             </div>
+            <?php /*end Energy education section-*/ ?>
 
-            
-
-
-            <?php include('/global/footer/includes/footer.inc') ?>
+            <?php /* Main */ ?>
+    </div>
+        <?php /*/ Page/Body Content */ ?>
+        <?php include("global/includes/eia_footer.inc"); ?>
+      </div>
+  <?php /*/ Outer Wrapper */ ?>
+  <script>
+    $("#youtube").fancybox({
+                             'scrolling'		: 'no',
+                             'titleShow'		: false,
+                             'onClosed'		: function() {
+                               $("#login_error").hide();
+                             }
+                           });
+  </script>
 </body>
 </html>

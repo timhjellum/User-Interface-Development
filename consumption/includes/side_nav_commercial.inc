@@ -35,7 +35,7 @@ $DataService = new DataService();
     <?php  } else { ?>
   <?php  } // end if ?>
   <p><a href="/consumption/commercial/building-type-definitions.cfm">Building Type Definitions</a></p>
-  <p class="no-border"><a href="/consumption/commercial/data/archive/">Archived Reports</a></p>
+  <p class="no-border"><a href="/consumption/commercial/data/archive.php">Archived Reports</a></p>
   </span> 
   
 <?php /*    FAQ Promo */ ?>
@@ -101,5 +101,5 @@ Energy Usage Summary  (2012)</a> </p>
   <h4>Other End Use Surveys</h4>
   <p><a href="/consumption/manufacturing/">Manufacturing - MECS</a></p>
   <p><a href="/consumption/residential/">Residential - RECS</a>
-  <p class="no-border"><a href="/consumption/archive/rtecs/contents.html">Transportation</a></p>
+  <p class="no-border"><a href="/consumption/transportation/archive/rtecs/index.php">Transportation</a></p>
   </span> </div>

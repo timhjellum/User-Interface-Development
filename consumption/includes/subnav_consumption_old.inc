@@ -35,14 +35,14 @@ $(document).ready(function(){
     <?php /* Data Menu Drop Down */ ?>
     <div class="dat_block dat_links">
       <ul>
-      <li><a href="/consumption/residential/data/2015/">Residential Energy Consumption Survey data</a></li>
-      <li><a href="/consumption/commercial/data/2012/">Commercial Energy Consumption Survey data</a></li>
-      <li><a href="/consumption/manufacturing/data/2014/">Manufacturing Energy Consumption Survey data</a></li>
-      <!--<li><a href="/consumption/data.cfm#vehicles">Vehicle Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.cfm#rec">Residential Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.cfm#cec">Commercial Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.cfm#mfg">Manufacturing Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.cfm#vehicles">Vehicle Energy Consumption Survey data</a></li>
       <li><a href="/consumption/data.cfm#intensity">Energy intensity</a></li>
       <li><a href="/consumption/data.cfm#consumption">Consumption summaries</a></li>
       <li><a href="/consumption/data.cfm#avgcost">Average cost of fossil-fuels for electricity generation</a></li>
-      <li><a href="/consumption/reports.php">All consumption &amp; efficiency data reports</a></li>-->
+      <li><a href="/consumption/data.cfm">All consumption &amp; efficiency data reports</a></li>
       </ul>
     </div>
     <?php /*/ Data Menu Drop Down */ ?>

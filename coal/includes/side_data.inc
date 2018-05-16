@@ -20,8 +20,8 @@
 <p class="no-border"><b><a href="/coal/production/quarterly/pdf/t37p01p1.pdf" title="html format: ">Stocks</a></b>
 <p class="no-border"><strong>Imports &amp; exports</strong></p>
 <ul>
-  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t4p01p1.pdf" title="html format: Coal Imports">Coal imports</a></li> 
-  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t4p01p1.pdf" title="html format: Coal Exports">Coal exports</a> </li> 
+  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t18p01p1.pdf" title="html format: Coal Imports">Coal imports</a></li>
+  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t7p01p1.pdf" title="html format: Coal Exports">Coal exports</a> </li>
 </ul>
 
 </span>

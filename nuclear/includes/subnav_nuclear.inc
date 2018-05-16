@@ -56,7 +56,8 @@ $(document).ready(function(){
         <h4 style="margin: 12px 20px 6px 20px; border-bottom:1px solid #ccc; padding-bottom:2px;">Find by</h4>
         <ul>
           <li><a href="/nuclear/browsebytag.php">Alphabetical</a></li>
-          <li><a href="/nuclear/reports.php#/T204,T182,T198,T1564">Recurring</a></li>
+          <li><a href="/nuclear/reports.php#/T204,T214">Recurring</a></li>
+           <?php /* <li><a href="/nuclear/browsebytag.php?frequency">Frequency</a></li> */ ?>
           <li><a href="/nuclear/browsebytag.php?tagcloud">Tag Cloud</a></li>
         </ul>
       </div>

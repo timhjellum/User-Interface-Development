@@ -90,21 +90,21 @@ $pageTitle = "";
       <h1>Consumption Surveys</h1>
       <div class="ed_section">
         <div>
-          <div> <img src="/global/images/icons/consumption/residential.png"/> <span>
+          <div> <img src="/global/images/icons/consumption/residential.png" alt=""/> <span>
             <h2><a href="/consumption/residential/">Residential Energy Consumption Survey (RECS)</a></h2>
             <p>A  nationally representative sample of housing units that specially trained interviewers collect energy characteristics, usage patterns, and household demographics.</p>
             <p><a href="/consumption/residential/"><b>view the RECS &rsaquo;</b></a></p>
             </span> </div>
         </div>
         <div>
-          <div> <img src="/global/images/icons/consumption/commercial.png"/> <span>
+          <div> <img src="/global/images/icons/consumption/commercial.png" alt=""/> <span>
             <h2><a href="/consumption/commercial/">Commercial Building Energy Consumption Survey (CBECS)</a></h2>
             <p>A national sample survey that collects information on the stock of U.S. commercial buildings, including their energy-related building characteristics and energy usage data.</p>
             <p><a href="/consumption/commercial/"><b>view the CBECS &rsaquo;</b></a></p>
             </span> </div>
         </div>
         <div>
-          <div> <img src="/global/images/icons/consumption/industrial.png"/> <span>
+          <div> <img src="/global/images/icons/consumption/industrial.png" alt=""/> <span>
             <h2><a href="/consumption/manufacturing/">Manufacturing Energy Consumption Survey (MECS)</a></h2>
 			<p>A national sample survey that collects information on the  U.S. manufacturing establishment, their energy-related building characteristics, and their energy usage and expenditures.</p>
             <p><a href="/consumption/manufacturing/"><b>view the MECS &rsaquo;</b></a></p>
@@ -164,13 +164,21 @@ $pageTitle = "";
             </span> </div>
         </div>
       </div>
-
-
-
-
-
-
-
-      <?php include('/global/footer/includes/footer.inc') ?>
-      </body>
-      </html>
+      <?php /*end Energy education section-*/ ?>
+      <?php /* Main */ ?>
+    </div>
+        <?php /*/ Page/Body Content */ ?>
+        <?php include("global/includes/eia_footer.inc"); ?>
+      </div>
+  <?php /*/ Outer Wrapper */ ?>
+  <script>
+    $("#youtube").fancybox({
+                             'scrolling'		: 'no',
+                             'titleShow'		: false,
+                             'onClosed'		: function() {
+                               $("#login_error").hide();
+                             }
+                           });
+  </script>
+</body>
+</html>

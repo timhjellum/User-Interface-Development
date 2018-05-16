@@ -2,7 +2,7 @@
 <div class="side_col right">
         <?php /* Side Column */ ?>
         <span class="grey_side blue_top">
-        <p class="no_btm_border"><a class="ico_pdf" href="pdf/methodology_report.pdf">Full report</a> &mdash; Date: May 30, 2017 <br /><br /><br />
+        <p class="no_btm_border"><a class="ico_pdf" href="pdf/methodology_report.pdf">Full report</a><br /><br /><br />
        
         
         <?php /*h4>Previous Issues</h4> 

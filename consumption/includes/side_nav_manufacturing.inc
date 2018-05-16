@@ -31,7 +31,7 @@
   <h4>DOE Uses MECS Data</h4>
   <p class="no-border"><a href="http://www.energy.gov/eere/amo/manufacturing-energy-and-carbon-footprints-2010-mecs">Manufacturing Energy and Carbon Footprints
 </a>
-<p class="no-border"><img src="/consumption/manufacturing/reports/2010/images/doe_mecs.jpg">
+<p class="no-border"><img src="/consumption/manufacturing/reports/2010/images/doe_mecs.jpg" alt="manufacturing and carbon footprints">
 <p class="no-border"><a href="http://www.energy.gov/eere/amo/downloads/us-manufacturing-energy-use-and-greenhouse-gas-emissions-analysis">Associated Analysis</a><br /><a href="http://www.energy.gov/eere/amo/sankey-diagram-energy-flow-us-manufacturing">Manufacturing Energy Sankey Diagrams</a><br /><a href="http://www.energy.gov/eere/amo/manufacturing-energy-flows-sankey-tool ">Manufacturing Energy Flows Tool </a>
 </span>
 

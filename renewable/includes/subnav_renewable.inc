@@ -67,7 +67,8 @@ $(document).ready(function(){
         <h4 style="margin: 12px 20px 6px 20px; border-bottom:1px solid #ccc; padding-bottom:2px;">Find by</h4>
         <ul>
           <li><a href="/renewable/browsebytag.php">Alphabetical</a></li>
-          <li><a href="/renewable/reports.php#/T1099,T182,T198">Recurring</a></li>
+          <li><a href="/renewable/reports.php#/T1099,T214,T182,T198">Recurring</a></li>
+           <?php /* <li><a href="/renewable/browsebytag.php?frequency">Frequency</a></li> */ ?>
           <li><a href="/renewable/browsebytag.php?tagcloud">Tag Cloud</a></li>
         </ul>
       </div>
