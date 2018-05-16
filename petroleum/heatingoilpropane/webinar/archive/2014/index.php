@@ -47,15 +47,15 @@ background: transparent url(/global/images/icons/audio.png) no-repeat center lef
 <td><a href="audio/2014_shopp_informational_webex.mp4" class="presentation_icons">MP4</a></td>
 </tr>
 </table>
-<?php /* Main Column */ ?>
+
+
+
+
 </div>
-<div class="side_col right">
-<?php /* Side Column */ ?>
+<div class="l-narrow-col">
+  <?php include('includes/side-data.inc') ?>
 </div>
 </div>
-<?php /*/ Page/Body Content */ ?>
-</div>
-<?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
-<?php /*/ Outer Wrapper */ ?>
+<?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 </html>

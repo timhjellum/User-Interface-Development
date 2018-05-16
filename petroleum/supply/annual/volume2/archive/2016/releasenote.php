@@ -238,7 +238,7 @@ Beginning with data released on August 31, 2017, stocks of ethylene held at bulk
 <?php /* END Left Column */ ?>
 
       </div>
-<?php /*/ Page/Body Content */ ?>
+
       </div><?php /* end .content */ ?>
     </div><?php /* end .l-inner-wrapper */ ?>
   </div><?php /* end .l-outer-wrapper */ ?>

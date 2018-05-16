@@ -61,7 +61,7 @@ Adding inter-PADD movements of biodiesel and ethanol by rail to movements by pip
 <?php /* END Left Column */ ?>
 
       </div>
-<?php /*/ Page/Body Content */ ?>
+
       </div><?php /* end .content */ ?>
     </div><?php /* end .l-inner-wrapper */ ?>
   </div><?php /* end .l-outer-wrapper */ ?>

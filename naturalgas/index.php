@@ -129,16 +129,11 @@ $l2id = 1;
       </div>
       <?php /*end Energy education section*/ ?>
     </div>
-    <?php include ('global/includes/eia_footer.inc') ; ?>
-</div>
-<script>
-$("#youtube").fancybox({
-	'scrolling'		: 'no',
-	'titleShow'		: false,
-	'onClosed'		: function() {
-	    $("#login_error").hide();
-	}
-});
-</script>
+
+    
+
+
+
+    <?php include('/global/footer/includes/footer.inc') ?>
 </body>
 </html>

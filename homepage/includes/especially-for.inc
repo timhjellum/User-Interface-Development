@@ -11,7 +11,7 @@ $especiallyForTwoLabel = "Policy Analysts";
 $especiallyForThreeURL = "/pressroom/";
 $especiallyForThreeLabel = "Media";
 
-$especiallyForFourURL = "/tools/models/";
+$especiallyForFourURL = "/tools/";
 $especiallyForFourLabel = "Researchers";
 
 $especiallyForFiveURL = "/kids/";

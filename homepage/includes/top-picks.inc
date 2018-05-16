@@ -11,7 +11,7 @@ $topPicksTwoLabel = "Natural Gas Storage Report";
 $topPicksThreeURL = "/petroleum/weekly/";
 $topPicksThreeLabel = "This Week in Petroleum";
 
-$topPicksFourRL = "/petroleum/supply/weekly/";
+$topPicksFourURL = "/petroleum/supply/weekly/";
 $topPicksFourLabel = "Weekly Petroleum Status Report";
 
 $topPicksFiveURL = "/countries/";

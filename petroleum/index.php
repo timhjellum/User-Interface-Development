@@ -1,9 +1,10 @@
 <!doctype html>
-<?php $L2T = 'Petroleum & Other Liquids'; ?>
-<?php $locale = 'overview'; ?>
-<?php /* set this so that the carousel.cfm include query will pull the correct set of Issues and Trends for this page. */ ?>
-<?php $l2page = 'page_pet'; ?>
-<?php $l2id = 0; ?>
+<?php
+ $L2T = 'Petroleum & Other Liquids';
+ $locale = 'overview';
+ $l2page = 'page_pet';
+ $l2id = 0; 
+?>
 <html>
 <head>
 <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
@@ -29,7 +30,5 @@
 <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 </html>
-
-
 
 

@@ -61,7 +61,7 @@ presentations provided below</h4><br/><br/>
 <?php /* Side Column */ ?>
 </div>
 </div>
-<?php /*/ Page/Body Content */ ?>
+
 </div>
 <?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
 <?php /*/ Outer Wrapper */ ?>

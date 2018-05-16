@@ -68,7 +68,7 @@ Starting with the March 2015 release of January 2015 data in the Petroleum Suppl
 <?php /* END Left Column */ ?>
 
       </div>
-<?php /*/ Page/Body Content */ ?>
+
       </div><?php /* end .content */ ?>
     </div><?php /* end .l-inner-wrapper */ ?>
   </div><?php /* end .l-outer-wrapper */ ?>

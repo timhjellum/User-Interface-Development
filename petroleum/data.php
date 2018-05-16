@@ -1,5 +1,6 @@
 <!doctype html>
 <?php $locale = 'data'; ?>
+<html>
 <head>
 <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
 <?php  if(!isset($no_titling)) include('global/includes/titling.inc') ?>

@@ -53,6 +53,6 @@
 		</div>
 	</div>
 </div>	
-<?php include'css_rehab/archive/global/footer/includes/footer.inc' ?>
+<?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 </html>

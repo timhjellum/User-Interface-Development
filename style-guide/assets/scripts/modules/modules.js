@@ -38,12 +38,12 @@ class ModuleScripts {
 
 
 
-        //$(".slider-home h3 a:empty").each(function() {
-        //    $(this).parent().parent().addClass("no-description"); 
+        $(".slider-home h3 a:empty").each(function() {
+            $(this).parent().parent().addClass("no-description"); 
+        });
+        //this.hideDescriptionIfEmpty.each((index, element) => {
+        //    $(element).closest('li').addClass('no-description');
         //});
-        this.hideDescriptionIfEmpty.each((index, element) => {
-            $(element).closest('li').addClass('no-description');
-        })
 
 
 

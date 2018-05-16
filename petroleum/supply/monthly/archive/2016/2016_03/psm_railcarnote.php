@@ -68,7 +68,7 @@ PSM tables affected include tables 5-24, 57, and 61.
 <?php /* END Left Column */ ?>
 
       </div>
-<?php /*/ Page/Body Content */ ?>
+
       </div><?php /* end .content */ ?>
     </div><?php /* end .l-inner-wrapper */ ?>
   </div><?php /* end .l-outer-wrapper */ ?>

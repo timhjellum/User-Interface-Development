@@ -10,18 +10,9 @@
 
 <?php /* Outer Wrapper */ ?>
 <?php include(ROOT.'global/includes/css_rehab_eia-header.inc'); ?>
-<section class="content">
-    <div class="l-outer-wrapper" id="outerX">
-      <div class="l-inner-wrapper" id="innerX">
-        <div class="content">
-          <div class="l-row header">
-	          <div class="l-full-width-col">
-<?php include(ROOT.'global/petroleum/includes/subnav_petroleum.inc'); ?>
-<?php /* Page/Body Content */ ?>
 
-	  
-            </div>
-          </div>
+<?php include(ROOT.'global/petroleum/includes/subnav_petroleum.inc'); ?>
+
 <div class="l-row">
 <div class="l-main-col">
 <?php /* start main content */ ?>
@@ -59,18 +50,3 @@
 </dl>
 
 
-        </div>
-<?php /* END Left Column */ ?>
-
-      </div>
-<?php /*/ Page/Body Content */ ?>
-      </div><?php /* end .content */ ?>
-    </div><?php /* end .l-inner-wrapper */ ?>
-  </div><?php /* end .l-outer-wrapper */ ?>
-</section><?php /* end section */ ?>
-<?php include(ROOT.'global/includes/css_rehab_eia-footer.inc'); ?>
-
-<?php /*/ Outer Wrapper */ ?>
-
-</body>
-</html>

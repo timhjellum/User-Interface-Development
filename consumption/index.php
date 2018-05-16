@@ -164,21 +164,13 @@ $pageTitle = "";
             </span> </div>
         </div>
       </div>
-      <?php /*end Energy education section-*/ ?>
-      <?php /* Main */ ?>
-    </div>
-        <?php /*/ Page/Body Content */ ?>
-        <?php include("global/includes/eia_footer.inc"); ?>
-      </div>
-  <?php /*/ Outer Wrapper */ ?>
-  <script>
-    $("#youtube").fancybox({
-                             'scrolling'		: 'no',
-                             'titleShow'		: false,
-                             'onClosed'		: function() {
-                               $("#login_error").hide();
-                             }
-                           });
-  </script>
-</body>
-</html>
+
+
+
+
+
+
+
+      <?php include('/global/footer/includes/footer.inc') ?>
+      </body>
+      </html>

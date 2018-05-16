@@ -2,14 +2,14 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$comingUpOneURL = "/totalenergy/data/monthly/";
-$comingUpOneLabel = "Monthly Energy Review";
+$comingUpOneURL = "/state/";
+$comingUpOneLabel = "State Energy Profiles";
 
-$comingUpTwoURL = "/naturalgas/monthly/";
-$comingUpTwoLabel = "Natural Gas Monthly";
+$comingUpTwoURL = "/state/seds/seds-data-fuel.php?sid=US";
+$comingUpTwoLabel = "State Energy Data System (SEDS) for 2016 - Noncombustible renewable energy: geothermal energy, hydroelectric power, solar energy, and wind energy consumption";
 
-$comingUpThreeURL = "/petroleum/production/";
-$comingUpThreeLabel = "Monthly Crude Oil and Natural Gas Production";
+$comingUpThreeURL = "/petroleum/marketing/prime/";
+$comingUpThreeLabel = "Prime Supplier Report";
 
 ?>
 <?php

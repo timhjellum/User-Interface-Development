@@ -74,7 +74,7 @@
 <?php /* END Left Column */ ?>
 
       </div>
-<?php /*/ Page/Body Content */ ?>
+
       </div><?php /* end .content */ ?>
     </div><?php /* end .l-inner-wrapper */ ?>
   </div><?php /* end .l-outer-wrapper */ ?>
