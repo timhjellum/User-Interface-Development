@@ -214,10 +214,9 @@
 							</h3>
 							<p>Greenhouse gas data, voluntary reporting, electric power plant emissions.</p>
 							<ul>
-								<li>									<a href='/environment/emissions/state/analysis/'>Energy-Related Carbon Dioxide Emissions at the State Level, 2000-2015</a>
-								</li>
-								<li>									<a href='/environment/emissions/state/'>State Carbon Dioxide Emissions</a>
-								</li>
+								<li><a href="/environment/emissions/carbon/">U.S. Energy-Related Carbon Dioxide Emissions</a></li>
+								<li><a href='/environment/emissions/state/analysis/'>Energy-Related Carbon Dioxide Emissions at the State Level, 2000-2015</a></li>
+								<!-- li><a href='/environment/emissions/state/'>State Carbon Dioxide Emissions</a></li -->
 							</ul>
 						</div>
 					</div>

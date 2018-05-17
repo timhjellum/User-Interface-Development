@@ -44,6 +44,7 @@ class BxSlider {
 	events() {
         setTimeout(function() {
             $(".slider-multi").addClass("bxslider-visible");
+            $(".slider-home").addClass("bxslider-visible");
             console.log("visible");
         }, 2000);
         //this.bxSliderHome.show();
