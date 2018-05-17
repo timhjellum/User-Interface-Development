@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-Monthly average prices for refiner sales of No. 2 distillates fell in most categories of sales during February. The average price for No. 2 diesel fuel sold to end users decreased 1.2 cents to $1.186 per gallon, while the average wholesale price increased 2.8 cents to $1.043 per gallon. The average retail price for No. 2 fuel oil declined 4.3 cents to $1.407 per gallon, while the average wholesale price dropped 2.8 cents to 94.8 cents per gallon.</li>
+        <li>Monthly average prices for refiner sales of No. 2 distillates fell in most categories of sales during February. The average price for No. 2 diesel fuel sold to end users decreased 1.2 cents to $1.186 per gallon, while the average wholesale price increased 2.8 cents to $1.043 per gallon. The average retail price for No. 2 fuel oil declined 4.3 cents to $1.407 per gallon, while the average wholesale price dropped 2.8 cents to 94.8 cents per gallon.</li>
                 <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel rose in February. Retail sales increased 300,000 gallons per day (2.5%), while wholesales climbed 3.0 million gallons per day (2.3%).</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sales by refiners continued to fall in February. The wholesale price for low-sulfur residual fuel oil dropped 0.2 cent to 47.5 cents per gallon. Prices for high-sulfur residual fuel oil fell 3.3 cents to 60.8 cents per gallon at retail, while the wholesale price decreased 0.4 cent to 49.8 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sales by refiners continued to fall in February. The wholesale price for low-sulfur residual fuel oil dropped 0.2 cent to 47.5 cents per gallon. Prices for high-sulfur residual fuel oil fell 3.3 cents to 60.8 cents per gallon at retail, while the wholesale price decreased 0.4 cent to 49.8 cents per gallon.</li>
                 <li>Overall, sales of residual fuel oil by refiners declined in February. Retail sales were flat, while wholesales fell 100,000 gallons per day (1.1%).</li>
     </ul>
 <br />

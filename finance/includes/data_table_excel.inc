@@ -35,32 +35,28 @@
     </tr>
   <tbody>
     <tr>
-      <td><strong>Real Gross Domestic Product</strong></td>
+      			<li class="head">Real Gross Domestic Product</strong></td>
       <td><?php echo $RGDP_data[0]['col_1']; ?></td>
       <td><?php echo $RGDP_data[0]['col_2']; ?></td>
       <td><?php echo $RGDP_data[0]['col_3']; ?></td>
-      <td><?php echo $RGDP_data[0]['col_4']; ?></td>
-    </tr>
+      <td><?php echo $RGDP_data[0]['col_4']; ?></li>
     <tr>
-      <td><strong>GDP Implicit Price Deflator</strong></td>
+      			<li class="head">GDP Implicit Price Deflator</strong></td>
       <td><?php echo $GDP_DEFLATOR_data[0]['col_1']; ?></td>
       <td><?php echo $GDP_DEFLATOR_data[0]['col_2']; ?></td>
       <td><?php echo $GDP_DEFLATOR_data[0]['col_3']; ?></td>
-      <td><?php echo $GDP_DEFLATOR_data[0]['col_4']; ?></td>
-    </tr>
+      <td><?php echo $GDP_DEFLATOR_data[0]['col_4']; ?></li>
     <tr>
-      <td><strong>Real Disposable Personal Income</strong></td>
+      			<li class="head">Real Disposable Personal Income</strong></td>
       <td><?php echo $RDPI_data[0]['col_1']; ?></td>
       <td><?php echo $RDPI_data[0]['col_2']; ?></td>
       <td><?php echo $RDPI_data[0]['col_3']; ?></td>
-      <td><?php echo $RDPI_data[0]['col_4']; ?></td>
-    </tr>
+      <td><?php echo $RDPI_data[0]['col_4']; ?></li>
     <tr>
-      <td><strong>Manufacturing Production Index</strong></td>
+      			<li class="head">Manufacturing Production Index</strong></td>
       <td><?php echo $MPI_data[0]['col_1']; ?></td>
       <td><?php echo $MPI_data[0]['col_2']; ?></td>
       <td><?php echo $MPI_data[0]['col_3']; ?></td>
-      <td><?php echo $MPI_data[0]['col_4']; ?></td>
-    </tr>
+      <td><?php echo $MPI_data[0]['col_4']; ?></li>
     </tbody>
 </table>

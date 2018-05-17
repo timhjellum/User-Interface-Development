@@ -17,14 +17,11 @@
 				</li>
 				<?php /*li><a href="/totalenergy/data/annual/pdf/sec1_31.pdf">Sales of Fossil Fuels Produced on Federal and American Indian Lands</a> (Table 1.14),  previously titled "Fossil Fuel Production on Federally Administered Lands,"  now provides data on sales of fossil fuels from Federal and American Indian lands for fiscal years 2003 through 2011.
 				</li>
-				<li>
-				<a href="/totalenergy/data/annual/pdf/sec2_9.pdf">Industrial Sector Energy Consumption Estimates</a> (Table 2.1d), <a href="/totalenergy/data/annual/pdf/sec10_7.pdf">Renewable Energy Consumption: Industrial and Transportation Sectors</a> (Table 10.2b), <a href="/totalenergy/data/annual/pdf/sec8_11.pdf">Electricity Net Generation: Commercial and Industrial Sectors</a>, (Table 8.2d), and <a href="/totalenergy/data/annual/pdf/sec8_19.pdf">Consumption for Electricity Generation by Energy Source: Commercial and Industrial Sectors</a> (Table 8.4c) have been modified to include industrial wind consumption.
+				<li>				<a href="/totalenergy/data/annual/pdf/sec2_9.pdf">Industrial Sector Energy Consumption Estimates</a> (Table 2.1d), <a href="/totalenergy/data/annual/pdf/sec10_7.pdf">Renewable Energy Consumption: Industrial and Transportation Sectors</a> (Table 10.2b), <a href="/totalenergy/data/annual/pdf/sec8_11.pdf">Electricity Net Generation: Commercial and Industrial Sectors</a>, (Table 8.2d), and <a href="/totalenergy/data/annual/pdf/sec8_19.pdf">Consumption for Electricity Generation by Energy Source: Commercial and Industrial Sectors</a> (Table 8.4c) have been modified to include industrial wind consumption.
 				</li>
-				<li>
-				<a href="/totalenergy/data/annual/pdf/sec5_6.pdf">Petroleum and Other Liquids Overview</a> (Table 5.1a), <a href="/totalenergy/data/annual/pdf/sec5_7.pdf">Petroleum Overview</a> (Table 5.1b), and <a href="/totalenergy/data/annual/pdf/sec5_9.pdf">Crude Oil Production and Crude Oil Well Productivity</a> (Table 5.2) now incorporate revisions to crude oil production, total field production, and adjustments in coordination with the <i>Petroleum Supply Monthly</i>.
+				<li>				<a href="/totalenergy/data/annual/pdf/sec5_6.pdf">Petroleum and Other Liquids Overview</a> (Table 5.1a), <a href="/totalenergy/data/annual/pdf/sec5_7.pdf">Petroleum Overview</a> (Table 5.1b), and <a href="/totalenergy/data/annual/pdf/sec5_9.pdf">Crude Oil Production and Crude Oil Well Productivity</a> (Table 5.2) now incorporate revisions to crude oil production, total field production, and adjustments in coordination with the <i>Petroleum Supply Monthly</i>.
 				</li*/ ?>
-				<li>
-					<a href="whatsnew.cfm">See a full list of content changes to all AER reports by year.&nbsp;&gt;</a>
+				<li>					<a href="whatsnew.cfm">See a full list of content changes to all AER reports by year.&nbsp;&gt;</a>
 				</li>
 			</ul>
           <?php /* End of Changes in AER 2011  right side box content */ ?>

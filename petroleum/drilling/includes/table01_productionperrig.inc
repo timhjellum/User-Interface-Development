@@ -27,8 +27,7 @@
 <td class="indented"></td>
 <td>2,507</td>
 <td>2,512</td>
-<td>5</td>
-</tr>
+<td>5</li>
 <tr>
 <td>Appalachia</td>
 <td>127</td>
@@ -37,8 +36,7 @@
 <td class="indented"></td>
 <td>14,210</td>
 <td>14,108</td>
-<td>(102)</td>
-</tr>
+<td>(102)</li>
 <tr>
 <td>Bakken</td>
 <td>1,177</td>
@@ -47,8 +45,7 @@
 <td class="indented"></td>
 <td>1,554</td>
 <td>1,557</td>
-<td>3</td>
-</tr>
+<td>3</li>
 <tr>
 <td>Eagle Ford</td>
 <td>1,410</td>
@@ -57,8 +54,7 @@
 <td class="indented"></td>
 <td>4,620</td>
 <td>4,642</td>
-<td>22</td>
-</tr>
+<td>22</li>
 <tr>
 <td>Haynesville</td>
 <td>33</td>
@@ -67,8 +63,7 @@
 <td class="indented"></td>
 <td>7,540</td>
 <td>7,578</td>
-<td>38</td>
-</tr>
+<td>38</li>
 <tr>
 <td>Niobrara</td>
 <td>1,284</td>
@@ -77,8 +72,7 @@
 <td class="indented"></td>
 <td>4,523</td>
 <td>4,552</td>
-<td>29</td>
-</tr>
+<td>29</li>
 <tr>
 <td>Permian</td>
 <td>599</td>
@@ -87,8 +81,7 @@
 <td class="indented"></td>
 <td>1,005</td>
 <td>999</td>
-<td>(6)</td>
-</tr>
+<td>(6)</li>
 <tr>
 <td>Total</td>
 <td>655</td>
@@ -97,8 +90,7 @@
 <td class="indented"></td>
 <td>3,483</td>
 <td>3,460</td>
-<td>(23)</td>
-</tr>
+<td>(23)</li>
 </tbody>
 <tfoot>
 </tfoot>

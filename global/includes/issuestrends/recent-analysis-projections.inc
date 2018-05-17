@@ -1,7 +1,6 @@
 <h1>Recent Analysis &amp; Projections</h1><div class="content-container">
 <ul class="analysis-projections">
-<li>
-<img src="https://www.eia.gov/global/images/icons/dap/da.png">
+<li><img src="https://www.eia.gov/global/images/icons/dap/da.png">
 </li>
 <li class="header">
 <h2>
@@ -41,8 +40,7 @@ class="capsule" title="shale">shale</a>
 </li>
 </ul>
 <ul class="analysis-projections">
-<li>
-<img src="https://www.eia.gov/global/images/icons/dap/da.png">
+<li><img src="https://www.eia.gov/global/images/icons/dap/da.png">
 </li>
 <li class="header">
 <h2>
@@ -82,8 +80,7 @@ class="capsule" title="shale">shale</a>
 </li>
 </ul>
 <ul class="analysis-projections">
-<li>
-<img src="https://www.eia.gov/global/images/icons/dap/da.png">
+<li><img src="https://www.eia.gov/global/images/icons/dap/da.png">
 </li>
 <li class="header">
 <h2>

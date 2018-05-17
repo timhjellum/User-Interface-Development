@@ -32,9 +32,9 @@
                               
                 <ul>
                 <li><a href="/aer/txt/ptb0208.html">Motor Vehicle Milage, Fuel Consumption, and Fuel Economy</a> 1949-2008<br />
-                  <em>Annual Energy Review 2009</em></li>
+                  			<li class="release-schedule">Annual Energy Review 2009</em></li>
           <li><a href="http://www.eia.gov/oiaf/aeo/tablebrowser/#release=AEO2011&subject=0-AEO2011&table=7-AEO2011&region=0-0&cases=ref2011-d120810c">Transportation sector key indicators and consumption</a><br /> projections to 2035<br />
-            <em>Annual Energy Outlook 2011, Early Release</em></li>
+            			<li class="release-schedule">Annual Energy Outlook 2011, Early Release</em></li>
           
           
           </ul></ul>

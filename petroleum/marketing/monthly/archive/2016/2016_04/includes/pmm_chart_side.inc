@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-January average prices for refiner sales of No. 2 distillates also decreased in all categories of sales. The average price for No. 2 diesel fuel sold to end users dropped 16.7 cents to $1.198 per gallon, while the average wholesale price fell 16.1 cents to $1.015 per gallon. The average retail price for No. 2 fuel oil decreased 24.5 cents to $1.450 per gallon, while the average wholesale price fell 15.0 cents to 97.6 cents per gallon.</li>
+        <li>January average prices for refiner sales of No. 2 distillates also decreased in all categories of sales. The average price for No. 2 diesel fuel sold to end users dropped 16.7 cents to $1.198 per gallon, while the average wholesale price fell 16.1 cents to $1.015 per gallon. The average retail price for No. 2 fuel oil decreased 24.5 cents to $1.450 per gallon, while the average wholesale price fell 15.0 cents to 97.6 cents per gallon.</li>
                 <li>Overall, refiner sales of No. 2 ultra-low sulfur diesel fuel declined in January. Retail sales increased 400,000 gallons per day (3.5%), while wholesales fell 9.1 million gallons per day (6.6%.</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sales by refiners decreased in January. The wholesale price for low-sulfur residual fuel oil dropped 7.5 cents to 47.7 cents per gallon. Prices for high-sulfur residual fuel oil declined 22.0 cents to 64.1 cents per gallon at retail, while the wholesale price decreased 13.7 cents to 50.2 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sales by refiners decreased in January. The wholesale price for low-sulfur residual fuel oil dropped 7.5 cents to 47.7 cents per gallon. Prices for high-sulfur residual fuel oil declined 22.0 cents to 64.1 cents per gallon at retail, while the wholesale price decreased 13.7 cents to 50.2 cents per gallon.</li>
                 <li>Sales of residual fuel oil by refiners rose in January. Retail sales increased 100,000 gallons per day (2.5%), while wholesales climbed 400,000 gallons per day (4.5%).</li>
     </ul>
 <br />

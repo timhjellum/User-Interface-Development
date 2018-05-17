@@ -1,1381 +1,930 @@
-
-
-	      <?php /* Start of MER */ 
-           /* <p class="dat"><script type="text/javascript">PubReleaseTimeStamp()</script></p> */ ?>          </h2>
-          <p>Find data from forecast models on crude oil and petroleum liquids, gasoline, diesel, natural gas, electricity, coal prices, supply, and demand projections and more.<br />
-          <?php /* <a href="" class="ico_pdf">PDF</a> */ ?></p>
-          <span class="condaterange"><a class="no-border expandall">+ EXPAND ALL</a></span>
-          <table class="contable">
-<?php /* Start of Energy Overview Content  */ ?>
-            <thead id="forecasts">
-              <tr>
-                <th><a name="forecasts"></a><b>Monthly short-term forecasts through the next calender year</b></th>
-                <th><?php /* <span class="right">additional formats</span> */ ?></th>
-              </tr>
-            </thead>
-              <?php /*tr>
-                <td>Data</td>
-                <td></td>
-              </tr*/ ?>
-              <tr>
-                <td><em><a href="/outlooks/steo/">Short-Term Energy Outlook</a></em> Released: the first Tuesday following the first Thursday of each month. </td>
-               <td><span class="right">&nbsp;</span> </td> 
-              </tr><tr class="white_first">
-                <td><p>WF01. Average consumer prices and expenditures for heating fuels during the winter</td>
-                <td><span class="right"><a href="/outlooks/steo/tables/pdf/wf-table.pdf" class="ico_pdf" title="Table  WF01. Average consumer prices and expenditures for heating fuels during the winter ">
-PDF</a> </span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=3">1. U.S. energy market summary</a><br /></td>
-                <td><span class="right">  <a href="/outlooks/steo/tables/pdf/1tab.pdf" class="ico_pdf" title="Table  1. U.S. energy market summary ">
-PDF</a></span>				</td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=8">2. U.S. energy prices </a><br /></td>
-                <td><span class="right">  <a href="/outlooks/steo/tables/pdf/2tab.pdf" class="ico_pdf" title="Table  2. U.S. energy prices  ">
-PDF</a> </span>				</td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=6">3a. International crude oil and liquid fuels supply, consumption, and inventories</a></td>
-                <td><span class="right">  <a href="/outlooks/steo/tables/pdf/3atab.pdf" class="ico_pdf" title="Table  3a. International crude oil and liquid fuels supply, consumption, and inventories ">
-PDF</a></span>				</td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=29">3b. Non-OPEC crude oil and liquid fuels supply</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/3btab.pdf" class="ico_pdf" title="Table  3b. Non-OPEC crude oil and liquid fuels supply ">
-PDF</a> </span>				</td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=7">3c. OPEC crude oil and liquid fuels supply</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/3ctab.pdf" class="ico_pdf" title="Table  3c. OPEC crude oil and liquid fuels supply ">
-PDF</a> </span>				</td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=30">3d. World liquid fuels consumption</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/3dtab.pdf" class="ico_pdf" title="Table  3d. World liquid fuels consumption ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=9">4a. U.S. crude oil and liquid fuels supply, consumption, and inventories</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/4atab.pdf" class="ico_pdf" title="Table  4a. U.S. crude oil and liquid fuels supply, consumption, and inventories ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=27">4b. U.S. petroleum refinery balance</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/4btab.pdf" class="ico_pdf" title="Table  4b. U.S. petroleum refinery balance ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=10">4c. U.S. regional motor gasoline prices and inventories</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/4ctab.pdf" class="ico_pdf" title="Table  4c. U.S. regional motor gasoline prices and inventories ">
-PDF</a></span></td>
-              </tr>
-              <?php /*<tr>
-                <td><a href="/forecasts/steo/tables/?tableNumber=11">4d. U.S. regional heating oil prices and inventories</a></td>
-                <td><span class="right"> <a href="/forecasts/steo/tables/pdf/4dtab.pdf" class="ico_pdf">PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/forecasts/steo/tables/?tableNumber=12">4e. U.S. regional propane prices and inventories</a></td>
-                <td><span class="right"> <a href="/forecasts/steo/tables/pdf/4etab.pdf" class="ico_pdf">PDF</a></span></td>
-              </tr> */ ?>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=15">5a. U.S. natural gas supply, consumption, and inventories</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/5atab.pdf" class="ico_pdf" title="Table  5a. U.S. natural gas supply, consumption, and inventories ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=16">5b. U.S. regional natural gas prices</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/5btab.pdf" class="ico_pdf" title="Table 5b. U.S. regional natural gas prices ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=18">6. &nbsp; U.S. coal supply, consumption, and inventories</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/6tab.pdf" class="ico_pdf" title="Table 6. Â  U.S. coal supply, consumption, and inventories ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=19">7a. U.S. electricity overview</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/7atab.pdf" class="ico_pdf" title="Table 7a. U.S. electricity overview ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=20">7b. U.S. regional electricity retail sales</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/7btab.pdf" class="ico_pdf" title="Table 7b. U.S. regional electricity retail sales ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=21">7c. U.S. regional electricity prices</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/7ctab.pdf" class="ico_pdf" title="Table 7c. U.S. regional electricity prices ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=22">7d. U.S.  electricity generation by fuel and sector</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/7dtab.pdf" class="ico_pdf" title="Table 7d. U.S. electricity generation by fuel and sector ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=23">7e. U.S. fuel consumption for electricity generation by sector</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/7etab.pdf" class="ico_pdf" title="Table 7e. U.S. fuel consumption for electricity generation by sector ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=24">8. U.S. renewable energy supply and consumption</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/8tab.pdf" class="ico_pdf" title="Table 8. U.S. renewable energy supply and consumption ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=5">9a. U.S. macroeconomic indicators and CO<sub>2</sub> emissions</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/9atab.pdf" class="ico_pdf" title="Table 9a. U.S. macroeconomic indicators and CO2 emissions ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=4">9b. U.S. regional macroeconomic data</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/9btab.pdf" class="ico_pdf" title="Table 9b. U.S. regional macroeconomic data ">
-PDF</a></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/steo/tables/?tableNumber=28">9c. U.S. regional weather data</a></td>
-                <td><span class="right"> <a href="/outlooks/steo/tables/pdf/9ctab.pdf" class="ico_pdf" title="Table 9c. U.S. regional weather data ">
-PDF</a></span></td>
-              </tr>
-              
-              <tr>
-                <td><a href="/cfapps/ipdbproject/IEDIndex3.cfm">International petroleum supply, disposition</a><br />
-                Query tool for detailed country and regional energy data (monthly, annual)</td>
-                
-              </tr>
-<?php /* ***** End of Energy Overview Content  ******* -->
-<!-- ***** Start of Energy Consumption by Sector Content  ******* */ ?>
-            <thead id="annualproj">
-              <tr>
-                <th><a name="annualproj"></a><b>Annual projections to 2050</b></th>
-                <th><?php /* <span class="right">additional formats</span> */ ?></th>
-              </tr>
-            </thead>
-              <tr>
-                <td><em><a href="/outlooks/aeo/">Annual Energy Outlook 2017</a></em> (released: January 5, 2017) -- Reference case main 21 tables<br />
-                See complete table listing for <a href="/outlooks/aeo/tables_ref.cfm">reference case</a> and <a href="/outlooks/aeo/tables_side.cfm">side cases</a>. <a href="/outlooks/aeo/supplemental_case.cfm"> Supplemental case </a>(released June 26, 2017)</td>
-               <td><span class="right">&nbsp;</span> </td> 
-              </tr>
-			  <?php /* <tr class="white_first">
-                <td>Summary Reference Case Tables</td>
-                <td><h2><span class="right"> <a href="/forecasts/aeo/pdf/appa.pdf" class="ico_pdf">PDF</a></span></h2></td>
-              </tr>
-              <tr class="white_first">
-                <td>Year-by-Year Reference Case Tables</td>
-                <td><h2><span class="right"> <a href="/forecasts/aeo/excel/yearbyyear.xls">XLS</a> </span></h2></td>
-              </tr> */ ?>
-               <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=1-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A1. Total energy supply and disposition demand</a> <br /></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_1.xlsx" class="ico_xls" title="Table  A1. Total energy supply and disposition demand ">
-XLS</a>
-                  <?php /* <a href="/outlooks/aeo/pdf/tbla1.pdf" class="ico_pdf">PDF</a> */ ?>
-                </span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=2-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A2. Energy consumption by sector and source </a> <br /></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_2.xlsx" class="ico_xls" title="Table  A2. Energy consumption by sector and source  ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla2.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=3-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A3. Energy prices by sector and source</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_3.xlsx" class="ico_xls" title="Table  A3. Energy prices by sector and source ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla3.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=4-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A4. Residential sector key indicators and consumption</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_4.xlsx" class="ico_xls" title="Table  A4. Residential sector key indicators and consumption ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla4.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=5-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A5. Commercial sector key indicators and consumption</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_5.xlsx" class="ico_xls" title="Table  A5. Commercial sector key indicators and consumption ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla5.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=6-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A6. Industrial sector key indicators and consumption</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_6.xlsx" class="ico_xls" title="Table  A6. Industrial sector key indicators and consumption ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla6.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=7-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A7. Transportation sector key indicators and delivered energy consumption</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_7.xlsx" class="ico_xls" title="Table  A7. Transportation sector key indicators and delivered energy consumption ">
-XLS</a> <?php /* <a href="/outlooks/aeo/er/pdf/tbla7.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=8-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A8. Electricity supply Disposition, prices, and emissions</a></td>
-                <td><span class="right"><a href="/outlooks/aeo/excel/aeotab_8.xlsx" class="ico_xls" title="Table  A8. Electricity supply Disposition, prices, and emissions ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla8.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=9-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A9. Electricity generating capacity</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_9.xlsx" class="ico_xls" title="Table  A9. Electricity generating capacity ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla9.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=10-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A10. Electricity trade</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_10.xlsx" class="ico_xls" title="Table  A10. Electricity trade ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla10.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=11-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A11. Liquid fuels supply and disposition balance</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_11.xlsx" class="ico_xls" title="Table  A11. Liquid fuels supply and disposition balance ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla11.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=12-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A12. Petroleum product prices</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_12.xlsx" class="ico_xls" title="Table A12. Petroleum product prices ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla12.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=13-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A13. Natural gas supply, disposition, and prices</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_13.xlsx" class="ico_xls" title="Table A13. Natural gas supply, disposition, and prices ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla13.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=14-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A14. Oil and gas supply</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_14.xlsx" class="ico_xls" title="Table A14. Oil and gas supply ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla14.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=15-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A15. Coal supply, disposition, and price</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_15.xlsx" class="ico_xls" title="Table A15. Coal supply, disposition, and price ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla15.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=16-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A16. Renewable energy generating capacity and generation</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_16.xlsx" class="ico_xls" title="Table A16. Renewable energy generating capacity and generation ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla16.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=24-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A17. Renewable energy consumption by sector and source</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_17.xlsx" class="ico_xls" title="Table A17. Renewable energy consumption by sector and source ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla17.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=17-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A18. Carbon dioxide emissions by sector and source</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_18.xlsx" class="ico_xls" title="Table A18. Carbon dioxide emissions by sector and source ">
-XLS</a> <?php /*<a href="/outlooks/aeo/pdf/tbla18.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=22-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A19. Energy-related carbon dioxide emissions by end-use</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_19.xlsx" class="ico_xls" title="Table A19. Energy-related carbon dioxide emissions by end-use ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla19.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=18-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A20. Macroeconomic indicators</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_20.xlsx" class="ico_xls" title="Table A20. Macroeconomic indicators ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla20.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-              <tr>
-                <td><a href="/outlooks/aeo/data/browser/#/?id=19-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A21. International liquids supply disposition summary</a></td>
-                <td><span class="right"> <a href="/outlooks/aeo/excel/aeotab_21.xlsx" class="ico_xls" title="Table A21. International liquids supply disposition summary ">
-XLS</a> <?php /* <a href="/outlooks/aeo/pdf/tbla21.pdf" class="ico_pdf">PDF</a> */ ?></span></td>
-              </tr>
-                <?php /* <td><a href="/outlooks/aeo/tables_ref.cfm">Complete list of AEO tables for all projection scenarios</a></td>
-                <td>&nbsp;</td>
-              </tr> */ ?>
-              
-              
-<?php /* ***** End of Energy Consumption by Sector Content  ******* -->
-<!-- ***** Start of Petroleum Content  ******* */ ?>
-            <thead id="intlproj">
-              <tr>
-                <th><a name="intlproj"></a><b>International projections to 2050</b></th>
-                <th style="white-space: nowrap;"><strong><?php /*<span class="right">additional formats</span */ ?></strong></th>
-              </tr>
-            </thead>
-             
-<?php /* ***** End of Electricity Content  ******* -->
-         </table>
-          <table class="contable"> 
-            <!-- ***** Start of Energy Overview Content  ******* --> */ ?>
-            <?php /*tr>
-                <td>Data</td>
-                <td></td>
-              </tr
-            <!-- ***** End of Energy Overview Content  ******* -->
-            <!-- ***** Start of Energy Consumption by Sector Content  ******* --> */ ?>
-            
-              <tr>
-                <td><em><a href="/outlooks/ieo/">International Energy Outlook</a></em>-- Reference Case tables released: September 14, 2017</td>
-                <td><a href="/outlooks/ieo/pdf/appa.pdf" class="pdf" title="International Energy Outlook ">
-PDF (all tables)</a></td>
-              <?php /*<td><span class="right">&nbsp;</span></td>*/ 
-            
-             /* <tr class="white_first">
-                <td>Summary Reference Case Tables</td>
-                <td><h2><span class="right"> <a href="/forecasts/aeo/pdf/appa.pdf" class="ico_pdf">PDF</a></span></h2></td>
-              </tr>
-              <tr class="white_first">
-                <td>Year-by-Year Reference Case Tables</td>
-                <td><h2><span class="right"> <a href="/forecasts/aeo/excel/yearbyyear.xls">XLS</a> </span></h2></td>
-              </tr> */ ?>
-            <tr class="white_first">
-              <td><a href="/outlooks/aeo/data/browser/#/?id=1-IEO2017">A1. World total primary energy consumption by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_1.pdf" class="ico_pdf" title="Table  A1. World total primary energy consumption by region ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=2-IEO2017">A2. World total energy consumption by region and fuel</a><br /></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_2.pdf" class="ico_pdf" title="Table  A2. World total energy consumption by region and fuel ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=3-IEO2017">A3. World gross domestic product (GDP) by region expressed in purchasing power parity</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_3.pdf" class="ico_pdf" title="Table  A3. World gross domestic product (GDP) by region expressed in purchasing power parity ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=4-IEO2017">A4. World gross domestic product (GDP) by region expressed in market exchange rates</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_4.pdf" class="ico_pdf" title="Table  A4. World gross domestic product (GDP) by region expressed in market exchange rates ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=5-IEO2017">A5. World liquids consumption by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_5.pdf" class="ico_pdf" title="Table  A5. World liquids consumption by region ">
-PDF</a></span></td>
-            </tr>
-             <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=6-IEO2017">A6. World natural gas consumption by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_6.pdf" class="ico_pdf" title="Table  A6. World natural gas consumption by region ">
-PDF</a></span></td>
-            </tr>
-             <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=7-IEO2017">A7. World coal consumption by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_7.pdf" class="ico_pdf" title="Table  A7. World coal consumption by region ">
-PDF</a></span></td>
-            </tr>
-             <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=8-IEO2017">A8. World nuclear energy consumption by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_8.pdf" class="ico_pdf" title="Table  A8. World nuclear energy consumption by region ">
-PDF</a></span></td>
-            </tr>
-             <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=9-IEO2017">A9. World consumption of hydroelectricity and other renewable energy by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_9.pdf" class="ico_pdf" title="Table  A9. World consumption of hydroelectricity and other renewable energy by region ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=10-IEO2017">A10. World carbon dioxide emissions by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_10.pdf" class="ico_pdf" title="Table  A10. World carbon dioxide emissions by region ">
-PDF</a></span></td>
-            </tr>
-           <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=11-IEO2017">A11. World carbon dioxide emissions from liquids use by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_11.pdf" class="ico_pdf" title="Table  A11. World carbon dioxide emissions from liquids use by region ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=12-IEO2017">A12. World carbon dioxide emissions from natural gas use by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_12.pdf" class="ico_pdf" title="Table A12. World carbon dioxide emissions from natural gas use by region ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=13-IEO2017">A13. World carbon dioxide emissions from coal use by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_13.pdf" class="ico_pdf" title="Table A13. World carbon dioxide emissions from coal use by region ">
-PDF</a></span></td>
-            </tr>
-            <tr>
-              <td><a href="/outlooks/aeo/data/browser/#/?id=14-IEO2017">A14. World population by region</a></td>
-              <td><span class="right"> <a href="/outlooks/ieo/pdf/ieotab_14.pdf" class="ico_pdf" title="Table A14. World population by region ">
-PDF</a></span></td>
-            </tr>
-            <?php /*tr>
-              <td>A7. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=7-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Coal Consumption by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_7.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            <!--<tr>
-              <td><ul>
-                <li>World Coal Consumption by Region 
-                  - (million short tons)</li>
-              </ul></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/table7_mst.xls" class="ico_xls">XLS</a></span></t></td>
-            </tr> -->
-            <tr>
-              <td>A8. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=8-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Nuclear Energy Consumption by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_8.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            <tr>
-              <td>A9. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=9-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Consumption of Hydroelectricity and Other Renewable Energy by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_9.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            <tr>
-              <td>A10. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=10-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Carbon Dioxide Emissions by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_10.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            <tr>
-              <td>A11. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=11-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Carbon Dioxide Emissions from Liquids Use by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_11.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            <tr>
-              <td>A12. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=12-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Carbon Dioxide Emissions from Natural Gas Use by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_12.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            <tr>
-              <td>A13. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=13-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Carbon Dioxide Emissions from Coal Use by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_13.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            <tr>
-              <td>A14. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=14-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Population by Region</a></td>
-              <td><span class="right"> <a href="/forecasts/ieo/excel/ieotab_14.xls" class="ico_xls">XLS</a></span></td>
-            </tr>
-            
-            <!-- ***** End of Energy Consumption by Sector Content  ******* -->
-            <!-- ***** Start of Petroleum Content  ******* -->
-            <!-- ***** End of Electricity Content  ******* --> */ ?>
-          </table>
-
-
-
-
-
-
-
-
-
-<p>Find statistics on crude oil, gasoline, diesel, propane, jet fuel, ethanol, and other liquid fuels. Click on the blue bars
-	below for information on petroleum prices, crude reserves and production, refining and processing, imports/exports, stocks,
-	and consumption/sales.</p>
-<div class="accordion">
-	<div class="expand-collapse-container">
-		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
-		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
-	</div>
-	<h2><i class="ico expand-collapse"></i>
-		<!-- id="summary --><a name="summary"></a>Summary
-	</h2>
-	<div class="accordion-content">
-		<ul>
-			<li class="head"><a href="/dnav/pet/pet_sum_sndw_dcus_nus_w.htm">Weekly supply estimates</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Production, refinery inputs and utilization, stocks, days of supply, imports, exports, and product supplied estimates for crude oil and petroleum products by U.S., PAD District</li>
-			<li class="release-schedule">Weekly and 4-week average</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_sum_snd_d_nus_mbbl_m_cur.htm">Supply and disposition</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Field production, net production, imports, net receipts, stock changes, net inputs, exports, and product supplied statistics for crude oil and petroleum products by U.S., PAD District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_sum_crdsnd_k_m.htm">U.S. crude oil supply &amp; disposition</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Detailed statistics for crude oil supply, disposition, and ending stocks. Includes statistics for commercial and Strategic Petroleum Reserve sectors</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_sum_mkt_dcu_nus_m.htm">Prices, sales volumes &amp; stocks by state</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>U.S., PAD District, and state level data includes retail prices, prime supplier sales volumes and stocks</li>
-
-
-
-
-
-			<li class="head">Petroleum overview</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span> (<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li> 
-			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec3_3.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T03.01"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T03.01&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
-
-
-
-
-
-
-			<li class="head"><a href="http://tonto.eia.gov/cfapps/ipdbproject/IEDIndex3.cfm">Petroleum statistics by country</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">Varies</span></li>
-			<li>Query detailed country and regional energy data supply, disposition</li>
-			<li class="release-schedule">Annual, selected quarterly, monthly</li>
-		</ul>
-	</div>
-	<?php /* END Summary Content ////////////////*/ ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<h2><i class="ico expand-collapse"></i><a name="prices"></a>Prices</h2>
-	<div class="accordion-content">
-		<ul>
-			<li class="head"><a href="/petroleum/gasdiesel/">Gasoline and diesel fuel update</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/gasdiesel/release-date_gdu.inc'); ?></span></li>
-			<li>Prices of regular gasoline and on-highway diesel fuel by PAD District.</li> 
-			<li class="release-schedule">Weekly</li>
-
-
-
-
-
-			<li class="head"><a href="/petroleum/heatingoilpropane/">Heating Oil and Propane Update</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsrshopp.inc'); ?></span></li>
-			<li>Weekly heating oil and propane prices; October through March..</li>
-			<li class="release-schedule">Weekly</li>
-
-			
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pri_gnd_dcus_nus_w.htm">Weekly retail gasoline and on-highway diesel prices</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/gasdiesel/release-date_gdu.inc'); ?></span></li>
-			<li>Gasoline prices by grade and formulation and diesel prices by sulfur content for U.S., PAD District, selected states and cities</li>
-			<li class="release-schedule">Weekly</li>
-
-					
-
-
-
-			<li class="head">Motor gasoline retail prices, U.S. city average</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span></li>
-			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T09.04"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T09.04&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
-
-			
-
-
-
-			<li class="head"><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0524">Motor gasoline retail prices </a></li>
-			<li class="additional-formats">Available formats: <a href="/totalenergy/data/annual/pdf/sec5_59.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0524.xls"><i class="ico xls"><span>XLS</span></i></a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">September 27, 2012</span></li>
-			<li>U.S. city average, annual from 1949&#8211;current</li>
-			<li class="release-schedule">Annual Energy Review</li>
-
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pri_spt_s1_d.htm">Spot prices</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by selected U.S. and international areas</li>
-			<li class="release-schedule">Daily, weekly, monthly, annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pri_fut_s1_d.htm">Futures prices (NYMEX)</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Crude oil, motor gasoline, heating oil, and propane</li>
-			<li class="release-schedule">Daily, weekly, monthly, annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pri_wfr_dcus_nus_w.htm">Weekly heating oil &amp; propane prices</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsrshopp.inc'); ?></span></li>
-			<li>Residential and wholesale prices of heating oil and propane by U.S., selected PAD Districts and states</li>
-			<li class="release-schedule">Weekly, monthly from October - March</li>
-
-
-
-
-
-			<li class="head">Refiner petroleum product prices by sales type</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>Petroleum product retail and wholesale prices by U.S., PAD District and state</li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pri_refoth_dcu_nus_m.htm">Refiner petroleum product prices by sales type</a></li>
-					<li><a href="/dnav/pet/pet_pri_refmg_dcu_nus_m.htm">Refiner gasoline prices by grade, sales type</a></li>
-					<li><a href="/dnav/pet/pet_pri_refmg2_d_nus_PTG_dpgal_m.htm">Refiner gasoline prices by formulation, grade, sales type</a></li>
-				</ul>
-			</li>
-
-
-	
-
-
-			<li class="head">Refiner, reseller, and retailer monthly prices (suspended)</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date">May 2, 2011</span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">August 6, 2010</span></li>
-			<li>Petroleum product retail and wholesale prices by U.S., PAD District and state</li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pri_allmg_d_nus_PTA_dpgal_m.htm">Gasoline prices by formulation, grade, sales type</a></li>
-					<li><a href="/dnav/pet/pet_pri_dist_dcu_nus_m.htm">No. 2 distillate prices by sales type and selected states</a></li>
-					<li><a href="/dnav/pet/pet_pri_prop_dcu_nus_m.htm">Propane (consumer grade) prices by sales type</a></li>
-					<li><a href="/dnav/pet/pet_pri_resid_dcu_nus_m.htm">Residual fuel oil prices by sales type</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pri_rac2_dcu_nus_m.htm">Refiner acquisition cost of crude oil</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>Domestic, imported, and composite costs by U.S. and PAD Districts</li>
-
-
-
-
-
-			<li class="head">Domestic crude oil first purchase prices</li>
-			<li><span class="release-date">Monthly Release Date: </span><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pri_dfp1_k_m.htm">By area</a></li>
-					<li><a href="/dnav/pet/pet_pri_dfp2_k_m.htm">By crude stream</a></li>
-					<li><a href="/dnav/pet/pet_pri_dfp3_k_m.htm">By API gravity</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head">F.O.B. costs of imported crude oil</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pri_imc1_k_m.htm">By area</a></li>
-					<li><a href="/dnav/pet/pet_pri_imc2_k_m.htm">By crude stream</a></li>
-					<li><a href="/dnav/pet/pet_pri_imc3_k_m.htm">By API gravity</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head">Landed costs of imported crude oil</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pri_land1_k_m.htm">By area</a></li>
-					<li><a href="/dnav/pet/pet_pri_land2_k_m.htm">By crude stream</a></li>
-					<li><a href="/dnav/pet/pet_pri_land3_k_m.htm">By API gravity</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head"><a href="/outlooks/steo/realprices/">Real U.S. petroleum prices (past &amp; projected)</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/outlooks/steo/includes/release-date_steo.inc'); ?></span></li>
-			<li>Real and nominal U.S. prices for gasoline, heating oil, diesel fuel, and imported crude oil</li>
-			<li class="release-schedule">Monthly, annual; past and projected values</li>
-		</ul>
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<h2><i class="ico expand-collapse"></i><a name="crude"></a>Crude reserves and production</h2>
-	<div class="accordion-content">
-		<ul>
-			<li class="head"><a href="/dnav/pet/pet_crd_crpdn_adc_mbbl_m.htm">Crude oil production</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by U.S., PAD District and state</span></li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_api_adc_mbblpd_m.htm">Crude Oil and Lease Condensate Production by API Gravity</a></li>
-			<li>Monthly crude oil production by API gravity data collected on Form EIA-914 (Monthly Crude Oil, Lease Condensate, and Natural Gas Production Report)</li>
-			<li class="release-schedule">Monthly</li>
-
-
-
-
-
-			<li class="head"><a href="/energyexplained/images/charts/u.s.tight_oil_production.jpg" class="lightbox">Tight oil production estimates by play</a></li>
-			<li class="additional-formats">Available formats: <a href="/energyexplained/data/U.S. tight oil production.xlsx"><i class="ico xls"><span>XLS</span></i></a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">Monthly</span></li>
-			<li>Estimated monthly production derived from state administrative data</li>
-			<li class="release-schedule">Monthly</li>
-
-
-
-
-
-
-			<li class="head">Proved reserves, reserves changes, and production</li>
-			<li><span class="release-date">Release Date: </span><span class="date">February 13, 2018</span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_crd_pres_dcu_NUS_a.htm">Crude oil</a></li>
-					<li><a href="/dnav/pet/pet_crd_cplc_dcu_NUS_a.htm">Crude oil plus lease condensate</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/PET_CRD_NPROD_DCU_NUS_A.htm">Proved nonproducing reserves</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">February 13, 2018</span></li>
-			<li>Reported proved reserves of crude oil, lease condensate, and wet natural gas, after lease separation by U.S., region, and state</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_gom_s1_a.htm">Gulf of Mexico Federal Offshore production</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">November 19, 2015</span></li>
-			<li>Production of crude oil, natural gas wet after lease separation, natural gas liquids, dry natural gas, and lease condensate</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_drill_s1_m.htm">Crude oil and natural gas drilling activity</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc'); ?></span></li>
-			<li>Rotary rigs in operation, footage drilled, and active well service rig counts</li>
-			<li class="release-schedule">Monthly, annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_wellend_s1_m.htm">Crude oil and natural gas exploratory and development wells</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc'); ?></span></li>
-			<li>Exploratory and development wells drilled for crude oil, natural gas and dry holes; total footage drilled</li>
-			<li class="release-schedule">Monthly, annual></li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_wellfoot_s1_a.htm">Footage drilled for crude oil and natural gas wells</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc'); ?></span></li>
-			<li>Footage drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_welldep_s1_a.htm">Average depth of crude oil and natural gas wells</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc'); ?></span></li>
-			<li>Average depth of wells drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_wellcost_s1_a.htm">Costs of crude oil and natural gas wells drilled</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc'); ?></span></li>
-			<li>Per well and per foot costs of crude oil, natural gas, and dry hole wells</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_crd_seis_s1_m.htm">Maximum U.S. active seismic crew counts</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc'); ?></span> by onshore/offshore/Alaska and dimension</li>
-			<li class="release-schedule">Monthly</li>
-
-
-
-
-
-			<li class="head"><a href="/petroleum/production/">Monthly Crude Oil and Natural Gas Production</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/production/includes/release-date_914.inc'); ?></span></li>
-			<li>Monthly crude oil and natural gas production data collected on Form EIA-914 (Monthly Crude Oil, Lease Condensate, and Natural Gas Production Report)</li>
-			<li class="release-schedule">Monthly</li>
-
-
-
-
-
-			<li class="head"><a href="/naturalgas/archive/cost_indices_equipment_production/current/coststudy.html">Oil and gas lease equipment and operating costs 1994 Through 2009</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">September 28, 2010</span></li>
-			<li>Regional and national oil and gas equipping and operating cost trends.</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/naturalgas/fieldcode/">Oil and gas county code master list</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/naturalgas/fieldcode/includes/release-date_fcml.inc'); ?></span></li>
-			<li>Comprehensive listing of U.S. oil and gas field names.</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/petroleum/wells/">Distribution and production of oil &amp; gas wells</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">December 11, 2017</span></li>
-			<li>State level tables and graphs</li>
-			<li class="release-schedule">Annual</li>
-		</ul>
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<h2><i class="ico expand-collapse"></i><a name="refining"></a>Refining and processing</h2>
-	<div class="accordion-content">
-		<ul>
-			<li class="head"><a href="/dnav/pet/pet_pnp_wiup_dcu_nus_w.htm">Weekly inputs &amp; utilization</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Refiner inputs, operable capacity, percent utilization, and refinery and blender net inputs by U.S. and PAD District</li>
-			<li class="release-schedule">Weekly, 4-week average</li>
-
-
-
-
-
-			<li class="head">Weekly production</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Production of petroleum products by U.S. and PAD District</li>
-			<li class="release-schedule">Weekly, 4-week average</span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pnp_wprodrb_dcu_nus_w.htm">Refiner &amp; blender</a></li>
-					<li><a href="/dnav/pet/pet_pnp_wprodr_s1_w.htm">Refiner</a></li>
-					<li><a href="/dnav/pet/pet_pnp_wprodb_s1_w.htm">Blender</a></li>
-					<li><a href="/dnav/pet/pet_pnp_wprode_s1_w.htm">Ethanol plant</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head">Net input</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Net input of crude oil and petroleum products by PAD and Refining Districts</li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pnp_inpt_dc_nus_mbbl_m.htm">Refiner & blender</a></li>
-					<li><a href="/dnav/pet/pet_pnp_inpt2_dc_nus_mbbl_m.htm">Refiner</a></li>
-					<li><a href="/dnav/pet/pet_pnp_inpt3_dc_nus_mbbl_m.htm">Blender</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pnp_unc_dcu_nus_m.htm">Refinery utilization and capacity</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Gross input to crude distillation units, operable capacity and utilization rate by PAD and Refining Districts</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pnp_crq_dcu_nus_m.htm">Crude oil input qualities</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil sulfur content and API</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pnp_dwns_dc_nus_mbblpd_m.htm">Downstream processing of fresh feed input</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Catalytic cracking, catalytic hydrocracking, and delayed and fluid coking by PAD and Refining Districts</li>
-
-
-
-
-
-			<li class="head">Net production</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Net production of finished petroleum products by PAD and Refining Districts</li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pnp_refp_dc_nus_mbbl_m.htm">Refiner & blender</a></li>
-					<li><a href="/dnav/pet/pet_pnp_refp2_dc_nus_mbbl_m.htm">Refiner</a></li>
-					<li><a href="/dnav/pet/pet_pnp_refp3_dc_nus_mbbl_m.htm">Blender</a></li>
-					<li><a href="/dnav/pet/pet_pnp_oxy_dc_nus_mbbl_m.htm">Oxygenate (ethanol and MTBE)</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pnp_pct_dc_nus_pct_m.htm">Refinery yield</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Percent yield of petroleum products by PAD and Refining Districts</li>
-
-
-
-
-
-			<li class="head">Refinery Capacity</li>
-			<li><span class="release-date">Release Date: </span><span class="date">June 21, 2017</span> by U.S., PAD District and state</li>
-			<!-- li><span class="release-date">Annual Release Date:</span></li -->
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_pnp_cap1_dcu_nus_a.htm">Number and capacity</a></li>
-					<li><a href="/dnav/pet/pet_pnp_capprod_dcu_nus_a.htm">Production capacity</a></li>
-					<li><a href="/dnav/pet/pet_pnp_capchg_dcu_nus_a.htm">Downstream charge capacity</a></li>
-					<li><a href="/dnav/pet/pet_pnp_capwork_dcu_nus_a.htm">Working storage capacity</a> (historical data 1982 - 2010)</li>
-					<li><a href="/dnav/pet/pet_pnp_capshell_dcu_nus_a.htm">Shell storage capacity</a> (historical data 1982 - 2010)</li>
-					<li><a href="/dnav/pet/pet_pnp_caprec_dcu_nus_a.htm">Receipts of crude oil by method of transport</a></li>
-					<li><a href="/dnav/pet/pet_pnp_capfuel_dcu_nus_a.htm">Fuel consumed at refineries</a></li>
-					<li><a href="/dnav/pet/pet_pnp_feedng_k_a.htm">Natural gas used as feedstock for hydrogen production</a></li>
-					<li><a href="/petroleum/refinerycapacity/">Refinery capacity report</a></li>
-					<li>Refinery capacity data by individual refinery as of January 1, 2017</li> 
-					<li class="additional-formats">Available formats: <a href="/petroleum/refinerycapacity/refcap17.xls"><i class="ico xls"><span>XLS</span></i></a></li>
-					<li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0509">Refinery capacity and utilization data, annual 1949 - 2011</a></li> 
-					<li class="additional-formats">Available formats: <a href="/totalenergy/data/annual/pdf/sec5_23.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0509.xls"><i class="ico xls"><span>XLS</span></i></a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_pnp_gp_dc_nus_mbbl_m.htm">Natural gas plant field production</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Net production of petroleum products by PAD and Refining Districts</li>
-
-
-
-
-
-			<li class="head"><a href="/petroleum/ethanolcapacity/">U.S. fuel ethanol plant production capacity</a></li>
-			<li class="release-schedule">Release Date:  June 20, 2017</span></li>
-			<li>The U.S. Energy Information Administration released its annual fuel ethanol production capacity report. The new report contains data for all operating U.S. fuel ethanol production plants as of January 1, 2017.</li>
-			<li class="release-schedule">Annual</li>
-
-
-
-
-
-			<li class="head"><a href="/biofuels/biodiesel/production/">Monthly biodiesel production</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/biofuels/biodiesel/production/includes/release-date_biodiesel.inc'); ?></span></li>
-			<li>The U.S. Energy Information Administration release showing national and regional monthly biodiesel production. In addition to biodiesel production, data included producer sales, producer stocks, and feedstock inputs.</li>
-		</ul>
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<h2><i class="ico expand-collapse"></i><a name="imports"></a>Imports/exports &amp; movements</h2>
-	<div class="accordion-content">
-		<ul>
-			<li class="head"><a href="/dnav/pet/pet_move_wkly_dc_NUS-Z00_mbblpd_w.htm">Weekly imports &amp; exports</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by U.S. and PAD District</li>
-			<li class="release-schedule">Weekly, 4-week average</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_wimpc_s1_w.htm">Weekly preliminary crude imports by country of origin</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>U.S. crude oil imports</li>
-			<li class="release-schedule">Weekly, 4-week average</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_imp_dc_NUS-Z00_mbbl_m.htm">Imports by area of entry</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by U.S., PAD District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_imp2_dc_R10-Z00_mbbl_m.htm">Imports by processing area</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by U.S., PAD District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_impcus_a2_nus_ep00_im0_mbbl_m.htm">U.S. imports by country of origin</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by country of origin</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_impcp_a2_r10_ep00_ip0_mbbl_m.htm">PAD District imports by country of origin</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and unfinished oils by country of origin</li>
-
-
-
-
-
-			<li class="head"><a href="/petroleum/imports/companylevel/">Company level imports</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li>Crude oil and total petroleum imports by the top 15 countries (monthly) and a summary of crude oil imports by company from the Persian Gulf (year-to-date).</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_res_dc_nus-Z00_mbbl_m.htm">Residual fuel imports by state of entry</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by U.S., PAD District, state</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_ipct_k_m.htm">Percentages of total imported crude oil by API gravity</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span> June 1, 2016</span>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_exp_dc_NUS-Z00_mbbl_m.htm">Exports</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by U.S., PAD District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_expc_a_EP00_EEX_mbbl_m.htm">Exports by destination</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by country of export destination</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_neti_a_EP00_IMN_mbblpd_m.htm">U.S. net imports by country</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by country and region</li>
-
-
-
-
-
-			<li class="head">Movements between PAD Districts</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_move_ptb_dc_R20-R10_mbbl_m.htm">By pipeline, tanker, barge, and rail</a></li>
-					<li><a href="/dnav/pet/pet_move_pipe_dc_R20-R10_mbbl_m.htm">By pipeline</a></li>
-					<li><a href="/dnav/pet/pet_move_tb_dc_R20-R10_mbbl_m.htm">By tanker and barge</a></li>
-					<li><a href="/dnav/pet/PET_MOVE_RAIL_A_EPC0_RAIL_MBBL_M.htm">By rail</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/PET_MOVE_RAILNA_A_EPC0_RAIL_MBBL_M.htm">Movements of Crude Oil and Selected Products by Rail</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_move_netr_d_r10-z0p_VNR_mbbl_m.htm">Net receipts of crude oil and petroleum products by pipeline, tanker, barge, and rail</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-
-
-
-
-
-			<li class="head">F.O.B. costs of imported crude oil</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span> June 1, 2016</span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_move_imc1_k_m.htm">By area</a></li>
-					<li><a href="/dnav/pet/pet_move_imc2_k_m.htm">By crude stream</a></li>
-					<li><a href="/dnav/pet/pet_move_imc3_k_m.htm">By API gravity</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head">Landed costs of imported crude oil</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_move_land1_k_m.htm">By area</a></li>
-					<li><a href="/dnav/pet/pet_move_land2_k_m.htm">By crude stream</a></li>
-					<li><a href="/dnav/pet/pet_move_land3_k_m.htm">By API gravity</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<h2><i class="ico expand-collapse"></i><a name="stocks"></a>Stocks</h2>
-	<div class="accordion-content">
-		<ul>
-			<li class="head"><a href="/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm">Weekly stocks</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by U.S. and PAD District</li>
-			<li class="release-schedule">Weekly</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_stoc_ts_dcu_nus_m.htm">Stocks of motor gasoline, distillate fuel oil, residual fuel oil, propane, and propylene</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Stocks of selected petroleum products by U.S., PAD District, and sub-PAD District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_stoc_typ_d_nus_SAE_mbbl_m.htm">Stocks by type</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by U.S., PAD District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_stoc_st_dc_NUS_mbbl_m.htm">Refinery, bulk terminal, and natural gas plant stocks by state</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and petroleum products</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_stoc_ref_dc_nus_mbbl_m.htm">Refinery stocks</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Crude oil and petroleum products by U.S., PAD and Refining District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_stoc_cu_s1_m.htm">Crude oil stocks at tank farms & pipelines</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by U.S., PAD District, and Cushing, Oklahoma</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_stoc_gp_dcu_nus_m.htm">Natural gas plant stocks</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>Petroleum products by U.S., PAD and Refining District</li>
-
-
-
-
-
-			<li class="head"><a href="/petroleum/storagecapacity/">Working and net available shell storage capacity</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">November 30, 2017</span></li>
-			<li>Working and net available shell storage capacity as of March 31, 2017 is the U.S. Energy Information Administration's (EIA) report containing semi-annual storage capacity data. It includes three tables detailing working and net available shell storage capacity by facility type, product, and PAD District as of March 31.</li>
-			<li class="release-schedule">Semi-annual</li>
-		</ul>
-	</div>
-
-
-
-
-
-
-
-
-
-
-	<h2><i class="ico expand-collapse"></i><a name="consumption"></a>Consumption/sales</h2>
-	<div class="accordion-content">
-		<ul>
-			<li class="head"><a href="/dnav/pet/pet_cons_wpsup_k_w.htm">U.S. weekly product supplied</a></li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
-			<li>Measures the disappearance of petroleum products from primary sources; approximately represents consumption of petroleum products.</li>
-			<li class="release-schedule">Weekly, 4-week average</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_cons_psup_dc_nus_mbbl_m.htm">Product supplied</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by U.S., PAD District</li>
-
-
-
-
-
-			<li class="head"><a href="/dnav/pet/pet_cons_prim_dcu_nus_m.htm">Prime supplier sales volumes</a></li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/prime/includes/release-date_psr.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">April 1, 2013</span></li>
-			<li>Sales of petroleum products by refiners, gas plant operators, importers and large inter-state distributors into the final local markets of consumption by U.S., PAD District, State</li>
-
-
-
-
-
-			<li class="head">Refiner sales volumes</li>
-			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
-			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span> by U.S., PAD District, state and sales type</li>
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_cons_refmg_d_nus_VTR_mgalpd_m.htm">Motor gasoline</a></li>
-					<li><a href="/dnav/pet/pet_cons_refres_d_nus_VTR_mgalpd_m.htm">Residual fuel oil and No. 4 fuel oil</a></li>
-					<li><a href="/dnav/pet/pet_cons_refoth_d_nus_VTR_mgalpd_m.htm">Other products</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head">Sales of fuel oil and kerosene</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc'); ?></span> by U.S., PAD District, state</li>
-			<!-- li><span class="release-date">annual Release Date: </span></li -->
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_cons_821dst_dcu_nus_a.htm">Distillate by end use</a></li>
-					<li><a href="/dnav/pet/pet_cons_821rsd_dcu_nus_a.htm">Residual fuel oil by end use</a></li>
-					<li><a href="/dnav/pet/pet_cons_821ker_dcu_nus_a.htm">Kerosene by end use</a></li>
-					<li><a href="/dnav/pet/pet_cons_821use_dcu_nus_a.htm">Distillate and kerosene by end use</a></li>
-				</ul>
-			</li>
-
-
-
-
-
-			<li class="head">Adjusted sales of fuel oil and kerosene</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc'); ?></span> by U.S., PAD District, state</li>
-			<!-- li><span class="release-date">annual Release Date:</span></li -->
-			<li>
-				<ul>
-					<li><a href="/dnav/pet/pet_cons_821dsta_dcu_nus_a.htm">Distillate by end use</a></li>
-					<li><a href="/dnav/pet/pet_cons_821rsda_dcu_nus_a.htm">Residual fuel oil by end use</a></li>
-					<li><a href="/dnav/pet/pet_cons_821kera_dcu_nus_a.htm">Kerosene by end use</a></li>
-					<li><a href="/dnav/pet/pet_cons_821usea_dcu_nus_a.htm">Distillate and kerosene by end use</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
+<p>Find statistics on electric power plants, capacity, generation, fuel consumption, sales, prices and customers.</p>
+<span class="condaterange"><a class="no-border expandall"> EXPAND ALL</a></span>
+<table class="contable">
+<?php /* BEGIN Summary Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="summary"></a>Summary</th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr class="white_first">
+			<li><strong>Electricity overview </strong> <span class="right"><a href="/totalenergy/data/monthly/pdf/sec7_3.pdf" class="ico_pdf" title=" Electricity overview  ">PDF</a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.01" class="ico_csv" title=" Electricity overview  ">CSV</a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.01&amp;freq=m" class="ico_xls" title=" Electricity overview  ">XLS</a>&nbsp;<span class="beta right"> <a href="/beta/MER/?tbl=T07.01#/?f=M&start=200001" title=" Electricity overview  ">INTERACTIVE</a></span></span>
+
+
+<div>
+<script language="JavaScript" type="text/JavaScript" src="/totalenergy/data/monthly/txt/new_merheader.txt"></script> <em>Interactive data from Total Energy Data Browser</em> </div></li>
+<tr class="white_first">
+			<li><p><strong>Total electric power industry summary statistics</strong></p>
+<ul>
+<li><strong>Monthly</strong>
+</li>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
 </div>
+
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_es1a.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - monthly  ">XLS</a></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_es1a" title=" Total electric power industry summary statistics  ">Latest month </a> </li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_es1b.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - Year-to-date  ">XLS</a></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_es1b" title=" Total electric power industry summary statistics  ">Year-to-date </a></li>
+</ul>
+<li><strong>Annual</strong>
+(back to 2005)
+</li>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_01_02.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - annual  ">XLS</a></span><a href="/electricity/annual/html/epa_01_02.html">Summary statistics </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_01_03.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - annual Supply and disposition of electricity ">XLS</a></span><a href="/electricity/annual/html/epa_01_03.html">Supply and disposition of electricity </a></li>
+</ul>
+</ul>
+</li>
+			<li><a href="/totalenergy/data/monthly/#electricity">...more national-level summary data </a></li>
+
+
+			<li><a href="/electricity/state/">State summary statistics</a> (Capacity, generation, price,  emissions and more)<br />  
+			<li><span class="release-date">Release Date: </span><span class="date">January 25, 2018 | data from: State Electricity Profiles</em></li>
+
+
+			<li><strong>International electricity data</li>
+			<li>
+<em>data from: <a href="/beta/international/data/browser/">International Energy Statistics</a></em>
+<ul>
+<li><a href="/beta/international/data/browser/#?ord=SA&amp;cy=2013&amp;v=H&amp;vo=0&amp;so=0&amp;io=0&amp;start=1980&amp;end=2013&amp;vs=INTL.2-12-AFRC-BKWH.A~INTL.2-12-ASOC-BKWH.A~INTL.2-12-CSAM-BKWH.A~INTL.2-12-EURA-BKWH.A~INTL.2-12-EURO-BKWH.A~INTL.2-12-MIDE-BKWH.A~INTL.2-12-NOAM-BKWH.A&amp;c=4100000002000060000000000000g000200000000000000001&amp;pa=00000000000000000000000000000fvu&amp;f=A&amp;ug=g&amp;ct=1&amp;tl_type=p&amp;tl_id=2-A">Generation </a></li>
+<li><a href="/beta/international/data/browser/#?ord=SA&amp;cy=2012&amp;v=H&amp;vo=0&amp;so=0&amp;io=0&amp;start=1980&amp;end=2012&amp;vs=INTL.2-2-AFRC-BKWH.A~INTL.2-2-ASOC-BKWH.A~INTL.2-2-CSAM-BKWH.A~INTL.2-2-EURA-BKWH.A~INTL.2-2-EURO-BKWH.A~INTL.2-2-MIDE-BKWH.A~INTL.2-2-NOAM-BKWH.A&amp;c=4100000002000060000000000000g000200000000000000001&amp;pa=0000002&amp;f=A&amp;ug=g&amp;ct=1&amp;tl_type=p&amp;tl_id=2-A">Consumption </a></li>
+
+</ul></li>
+
+<?php /* END Summary Content ////////////////*/ ?>
+<?php /* BEGIN Sales, Revenue, Prices & Customers Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="sales"></a>Sales (consumption), revenue, prices &amp; customers</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+
+			<li><strong> Detailed preliminary <a href="/survey/#eia-826">EIA-826</a> monthly survey data</strong> (back to 1990)
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/data/eia826/xls/sales_revenue.xls" class="ico_xls" title=" Revenue, sales, customer counts, and retail price by state and sector  ">XLS</a></span>Revenue, sales, customer counts, and retail price by state and sector</li>
+</ul></li>
+<tr class="white_first">
+			<li><p><strong>Retail sales of electricity to ultimate customers</strong></p>
+<ul>
+<li><strong>Monthly</strong></li>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_5_01.xlsx" class="ico_xls" title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers ">XLS</a> <span class="beta right"><a title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers " href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=g&amp;linechart=ELEC.SALES.US-ALL.M~ELEC.SALES.US-RES.M~ELEC.SALES.US-COM.M~ELEC.SALES.US-IND.M&amp;columnchart=ELEC.SALES.US-ALL.M~ELEC.SALES.US-RES.M~ELEC.SALES.US-COM.M~ELEC.SALES.US-IND.M&amp;map=ELEC.SALES.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg">INTERACTIVE</a></span></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_01">By sector</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_5_04_b.xlsx" class="ico_xls" title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers  ">XLS</a> <span class="beta right"><a title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers  " href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;linechart=ELEC.SALES.TX-ALL.M~ELEC.SALES.TX-RES.M~ELEC.SALES.TX-COM.M~ELEC.SALES.TX-IND.M&amp;columnchart=ELEC.SALES.TX-ALL.M~ELEC.SALES.TX-RES.M~ELEC.SALES.TX-COM.M~ELEC.SALES.TX-IND.M&amp;map=ELEC.SALES.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201510&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg">INTERACTIVE</a></span></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_04_a" title=" Monthly retail sales of electricity to ultimate customers  ">By sector, by state  </a></li>
+</ul>
+<li><strong>Annual</strong> </li>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_02_02.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers  ">XLS</a> <span class="beta right"><a  href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;linechart=ELEC.SALES.US-ALL.A&amp;columnchart=ELEC.SALES.US-ALL.A&amp;map=ELEC.SALES.US-ALL.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title=" Annual retail sales of electricity to ultimate customers  ">INTERACTIVE</a></span></span> <a href="/electricity/annual/html/epa_02_02.html" title=" Annual retail sales of electricity to ultimate customers  ">By sector, by provider</a> (back to 2005, Interactive to 2001)</li>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/sales_annual.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers by sector, by state, by provider ">XLS</a></span>By sector, by state, by provider (back to 1990)<br />
+			<li><span class="release-date">Release Date: </span><span class="date">November 6, 2017 | <a href="/electricity/data/eia861/">Form EIA-861 annual survey data</a></em></li>
+<li><strong>By state and utility</strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/sales_revenue_price/esr_header.txt"></script>
+</div>
+<?php /*li>By state and utility<a href="/electricity/annual/html/epa_01_03.html"> </a>                </li*/ ?>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector  ">XLS</a> </span>Residential  sector </li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector  ">XLS</a></span>Commercial  sector </li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector  ">XLS</a></span>Industrial   sector </li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector  ">XLS</a></span>Transportation    sector </li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors  ">XLS</a></span>Total, all sectors </li>
+</ul>
+</ul>
+</ul></li>
+<tr class="white_first">
+			<li><strong>Revenue from retail sales of electricity to ultimate customers</strong>
+
+<li><strong>Monthly</strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_5_02.xlsx" class="ico_xls" title=" monthly revenue from retail sales of electricity to ultimate customers ">XLS</a> <span class="beta right"><a title="View in Total Energy Browser monthly revenue from retail sales of electricity to ultimate customers by sector" href="/electricity/data/browser/#/topic/6?agg=0,1&amp;geo=g&amp;linechart=ELEC.REV.US-ALL.M~ELEC.REV.US-RES.M~ELEC.REV.US-COM.M~ELEC.REV.US-IND.M&amp;columnchart=ELEC.REV.US-ALL.M~ELEC.REV.US-RES.M~ELEC.REV.US-COM.M~ELEC.REV.US-IND.M&amp;map=ELEC.REV.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg">INTERACTIVE</a></span></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_02" title=" monthly revenue from retail sales of electricity to ultimate customers ">By sector</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_5_05_a.xlsx" class="ico_xls" title=" monthly revenue from retail sales of electricity to ultimate customers ">XLS</a> <span class="beta right"><a title="View in Total Energy Browser monthly revenue from retail sales of electricity to ultimate customers by sector, by state" href="/electricity/data/browser/#/topic/6?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0">INTERACTIVE</a></span></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_05_a" title=" monthly revenue from retail sales of electricity to ultimate customers ">By sector, by state</a></li>
+
+</ul>
+</li>
+<br />
+<li><strong>Annual</strong>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_02_03.xlsx" class="ico_xls" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by provider (back to 2005) ">XLS</a></span> <a href="/electricity/annual/html/epa_02_03.html" title=" annual revenue from retail sales of electricity to ultimate customers By sector ">By sector, by provider</a> (back to 2005)
+
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+
+</li>
+
+<!--              </ul>
+					<ul> -->
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/revenue_annual.xlsx" class="ico_xls" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by state, by provider (back to 2005) ">XLS</a></span> By sector, by state, by provider (back to 1990)<br />
+			<li><span class="release-date">Release Date: </span><span class="date">November 6, 2017 | <a href="/electricity/data/eia861/">Form EIA-861 annual survey data</a></em></li>
+<li><span class="right"><span class="beta"><a href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;linechart=ELEC.SALES.US-ALL.A&amp;columnchart=ELEC.SALES.US-ALL.A&amp;map=ELEC.SALES.US-ALL.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by state, by provider (back to 2005) ">INTERACTIVE</a></span></span> By sector, by state (back to 2001)
+
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script>
+</div>
+
+</li>
+<li><strong>By state and utility</strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/sales_revenue_price/esr_header.txt"></script>
+</div>
+
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility residential, sector  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table6.xls" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, residential sector  ">XLS</a></span>Residential sector</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector  ">XLS</a></span>Commercial  sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility Industrial sector  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, Industrial sector  ">XLS</a></span>Industrial   sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector   ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector   ">XLS</a></span>Transportation    sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, all sectors  ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls">XLS</a></span title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, all sectors  ">Total, all sectors</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>            </li>
+
+			<li><strong>Average retail price  of electricity to ultimate customers:</strong>
+<ul>
+<li><strong>Monthly</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script></div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_5_03.xlsx" class="ico_xls" title="Monthly average retail price of electricity to ultimate customers  ">XLS</a> <span class="beta right"><a title="View in Total Energy Browser Monthly average retail price of electricity to ultimate customers  by sector" href="/electricity/data/browser/#/topic/7?agg=0,1&amp;geo=g&amp;linechart=ELEC.PRICE.US-ALL.M~ELEC.PRICE.US-RES.M~ELEC.PRICE.US-COM.M~ELEC.PRICE.US-IND.M&amp;columnchart=ELEC.PRICE.US-ALL.M~ELEC.PRICE.US-RES.M~ELEC.PRICE.US-COM.M~ELEC.PRICE.US-IND.M&amp;map=ELEC.PRICE.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg">INTERACTIVE</a></span></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_03" title="Monthly average retail price of electricity to ultimate customers  ">By sector</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_5_06_a.xlsx" class="ico_xls" title="Monthly average retail price of electricity to ultimate customers  ">XLS</a> <span class="beta right"><a title="View in Total Energy Browser Annual  average retail price of electricity to ultimate customers  by sector" href="/electricity/data/browser/#/topic/7?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0">INTERACTIVE</a></span></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_06_a" title="Annual  average retail price of electricity to ultimate customers ">By sector, by state</a></li>
+</ul>
+</li>
+<br />
+<li><strong>Annual</strong>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_02_04.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider(back to 2005) ">XLS</a></span> <a href="/electricity/annual/html/epa_02_04.html" title="Annual  average retail price of electricity to ultimate customers ">By sector, by provider</a>  (back to 2005)
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+</li>
+
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/avgprice_annual.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider (back to 1990) ">XLS</a></span> By sector, by state, by provider (back to 1990)</li>
+			<li><span class="release-date">Release Date: </span><span class="date">November 6, 2017 | <a href="/electricity/data/eia861/">Form EIA-861 annual survey data</a></em>
+
+</li>
+<li><span class="right"><span class="beta"><a href="/electricity/data/browser/#/topic/7?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;linechart=ELEC.PRICE.US-ALL.A&amp;columnchart=ELEC.PRICE.US-ALL.A&amp;map=ELEC.PRICE.US-ALL.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider (back to 2001) ">INTERACTIVE</a></span></span> By sector, by state (back to 2001)
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script>
+</div>
+</li>
+<li><strong>By state and utility</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/sales_revenue_price/esr_header.txt"></script> </div>
+
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector ">XLS</a> </span>Residential sector</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector ">XLS</a></span>Commercial  sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector ">XLS</a></span>Industrial   sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector ">XLS</a></span>Transportation    sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors ">XLS</a></span>All sectors</li>
+</ul>
+</ul>
+</li>
+</ul>            </li>
+
+			<li><strong>Number of customers (annual):</strong>
+
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_02_01.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) ">XLS</a></span> <a href="/electricity/annual/html/epa_02_01.html" title=" Number of customers (annual) (back to 2005) ">By sector, by provider</a>
+(back to 2005)
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div></li>
+<li><strong>By sector by state and/or utility</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/sales_revenue_price/esr_header.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/customers_annual.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, by provider ">XLS</a></span>By state, by provider
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table1.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, by sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table1.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, by sector ">XLS</a></span>By state by sector,
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, residential sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, residential sector ">XLS</a> </span>Residential sector</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, commercial sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, commercial sector ">XLS</a></span>Commercial  sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, industrial sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, industrial sector ">XLS</a></span>Industrial   sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, transportation sector ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, transportation sector ">XLS</a></span>Transportation    sector
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, all sectors ">PDF</a> <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, all sectors ">XLS</a></span>All sectors by state and utility
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><!--<li class="additional-formats">Available formats: <a href="/electricity/data/eia826/xls/sales_revenue.xls" class="ico_xls">XLS</a></span>By state back to 2007 (Form EIA-826) </li> -->
+</p>
+</blockquote>
+</li>
+<!--
+			<li>
+<a href="/electricity/sales_revenue_price/">More sales, revenue, price, and consumers data tables </a>
+
+</li> -->
+	<h2><i class="ico expand-collapse"></i><a name="netmetering"></a>Net metering</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr class="white_first">
+			<li><strong> Net metering</strong>
+<ul>
+<li><strong>Monthly</strong> (back to 2011)
+<ul>
+<li><a href="/electricity/data/eia826/" title=" monthly ">Net metering</a> - capacity, number of meters, and energy sold back, by state, sector, and utility</li>
+<li><a href="/electricity/data/eia826/index.html#ammeter" title=" monthly ">Advanced metering</a> - number  and megawatthours served, by state by sector </li>
+</ul>
+</li>
+<br />
+<li><strong>Annual</strong> (back to 2005)
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_10.xlsx" class="ico_xls" title=" annual net metering back to 2005 ">XLS</a></span> <a href="/electricity/annual/html/epa_04_10.html">Net metering customers and capacity by technology type, by end use sector</a>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>  </li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+	<h2><i class="ico expand-collapse"></i><a name="generation"></a>Generation and thermal output</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+
+			<li><strong>Detailed preliminary <a href="/survey/#eia-923">EIA-923</a> monthly and annual survey data </strong>(back to 1990)
+
+<ul>
+<li><a href="/electricity/data/eia923/index.html">Plant-level generation and fuel consumption data </a></li>
+<li>State-level generation and fuel consumption data</li>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/generation_monthly.xlsx" class="ico_xls" title=" State-level generation and fuel consumption, monthly (back to 2001)  ">XLS</a></span> Monthly (back to 2001)
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/annual_generation_state.xls" class="ico_xls" title=" State-level generation and fuel consumption, annual (back to 1990)  ">XLS</a></span> Annual (back to 1990)
+</li>
+</ul>
+</ul>
+</li>
+<tr  class="white_first">
+			<li><p><strong>Net generation</strong></p>
+<ul>
+<li><strong>Monthly</strong>
+
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script>
+</div>
+
+
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_1_01.xlsx" class="ico_xls" title=" Monthly Net generation By all energy sources "><i class="ico xls"><span>XLS</span></i></a> <span class="beta right"> <a href="/electricity/data/browser/#/topic/0?agg=0,1&amp;fuel=vtvo&amp;geo=vvvvvvvvvvvvo&amp;linechart=ELEC.GEN.ALL-US-99.M&amp;columnchart=ELEC.GEN.ALL-US-99.M&amp;map=ELEC.GEN.ALL-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title=" Monthly Net generation By all energy sources ">
+INTERACTIVE</a></span></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01" title=" Monthly Net generation ">
+By all energy sources</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_1_01_a.xlsx" class="ico_xls" title="Monthly Net generation By type of renewable source "><i class="ico xls"><span>XLS</span></i></a> <span class="beta right"> <a href="/electricity/data/browser/#/topic/0?agg=1,0,2&amp;fuel=02&amp;geo=vvvvvvvvvvvvo&amp;sec=o3g&amp;linechart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&amp;columnchart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&amp;map=ELEC.GEN.AOR-US-99.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Net generation By type of renewable source ">
+INTERACTIVE</a></span></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01_a" title="Monthly Net generation ">
+By type of  renewable source</a></li>
+<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec7_5.pdf" class="ico_pdf" title=" Monthly Net generation By energy source (plus by annual back to 1950) "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.02A" class="ico_csv" title=" Monthly Net generation By energy source (plus by annual back to 1950) "><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.02A&amp;freq=m" class="ico_xls" title=" Monthly Net generation By energy source (plus by annual back to 1950) "><i class="ico xls"><span>XLS</span></i></a> <span class="beta right"><a href="/beta/MER/?tbl=T07.02A#/?f=A&amp;start=1949&amp;end=2014&amp;charted=1-2-3-5-8-14" title=" Monthly Net generation By energy source (plus by annual back to 1950) ">
+INTERACTIVE</a></span></span> By energy source (plus by annual back to 1950)
+<div>
+<script language="javascript" type="text/javascript" src="/totalenergy/data/monthly/txt/new_merheader.txt"></script>
+<em>Interactive data from <a href="/totalenergy/data/browser/">Total Energy Data Browser</a></em></div>
+</li>
+<li><strong>By energy source and producing sector</strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script>
+</div>
+<ul>
+<li><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=8&amp;linechart=ELEC.GEN.ALL-US-1.M~ELEC.GEN.COW-US-1.M~ELEC.GEN.NG-US-1.M~ELEC.GEN.NUC-US-1.M~ELEC.GEN.HYC-US-1.M&amp;columnchart=ELEC.GEN.ALL-US-1.M~ELEC.GEN.COW-US-1.M~ELEC.GEN.NG-US-1.M~ELEC.GEN.NUC-US-1.M~ELEC.GEN.HYC-US-1.M&amp;map=ELEC.GEN.ALL-US-1.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="  title="Monthly Net generation By energy source and producing sector Electric utilities ">
+INTERACTIVE</a></span><span class="right"> <a href="/electricity/monthly/xls/table_1_02.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Electric utilities "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_a" title="Monthly Net generation By energy source and producing sector ">
+Electric utilities</a></li>
+<li><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=00g&amp;linechart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;columnchart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;map=ELEC.GEN.ALL-US-94.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Monthly Net generation By energy source and producing sector  Independent power producers Electric utilities ">
+INTERACTIVE</a></span><span class="right"> <a href="/electricity/monthly/xls/table_1_03.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector  Independent power producers  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_b" title="Monthly Net generation By energy source and producing sector  ">
+Independent power producers</a></li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=00g&amp;linechart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;columnchart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;map=ELEC.GEN.ALL-US-94.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Monthly Net generation By energy source and producing sector Commercial combined heat and power sector ">
+INTERACTIVE</a></span></span><span class="right"> <a href="/electricity/monthly/xls/table_1_04.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Commercial combined heat and power sector "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_c" title="Monthly Net generation By energy source and producing sector ">
+Commercial combined heat and power sector</a></li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=0g&amp;linechart=ELEC.GEN.ALL-US-5.M~ELEC.GEN.COW-US-5.M~ELEC.GEN.AOR-US-5.M~ELEC.GEN.NG-US-5.M&amp;columnchart=ELEC.GEN.ALL-US-5.M~ELEC.GEN.COW-US-5.M~ELEC.GEN.AOR-US-5.M~ELEC.GEN.NG-US-5.M&amp;map=ELEC.GEN.ALL-US-5.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Net generation By energy source and producing sector Industrial combined heat and power sector ">
+INTERACTIVE</a></span></span><span class="right"> <a href="/electricity/monthly/xls/table_1_05.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Industrial combined heat and power sector "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_d" title="Monthly Net generation By energy source and producing sector ">
+Industrial combined heat and power sector</a></li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vtvv&amp;geo=g&amp;sec=004&amp;freq=M&amp;start=200101&amp;end=201610&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Net generation By energy source and producing sector Residential combined heat and power sector ">
+INTERACTIVE</a></span></span><span class="right"> <a href="/electricity/monthly/xls/table_1_05.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Residential combined heat and power sector "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_e" title="Monthly Net generation By energy source and producing sector  ">
+Residential combined heat and power sector</a>                  </li>
+</ul>
+</li>
+</ul>
+</li>
+
+</ul><?php /*/td>
+<td colspan="2"*/ ?>
+<a href="/electricity/monthly/#generation" style="margin-left:20px">... more monthly generation data from the <em>Electric Power Monthly</em></a><?php /*/td>
+<td colspan="2"*/ ?>
+<br /><br />
+<ul>
+<li><strong>Annual</strong>
+
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script>
+</div>
+
+<ul>
+<li><strong>By all energy sources and by producing sector</strong>
+<ul>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=04&amp;linechart=ELEC.GEN.ALL-US-7.A~ELEC.GEN.COW-US-7.A~ELEC.GEN.NG-US-7.A~ELEC.GEN.AOR-US-7.A&amp;columnchart=ELEC.GEN.ALL-US-7.A~ELEC.GEN.COW-US-7.A~ELEC.GEN.NG-US-7.A~ELEC.GEN.AOR-US-7.A&amp;map=ELEC.GEN.ALL-US-7.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation By all energy sources and by producing sector  All sectors ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_01_a.xlsx" class="ico_xls" title="Annual Net generation By all energy sources and by producing sector  All sectors "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_01_a.html" title="Annual Net generation By all energy sources and by producing sector">
+All sectors</a></li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=8&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation By all energy sources and by producing sector  Electric utilities ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_02_a.xlsx" class="ico_xls" title="Annual Net generation By all energy sources and by producing sector  Electric utilities "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_02_a.html" title="Annual Net generation By all energy sources and by producing sector ">
+Electric utilities</a>
+</li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=00g&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation By all energy sources and by producing sector  Independent power producers ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_03_a.xlsx" class="ico_xls" title="Annual Net generation By all energy sources and by producing sector  Independent power producers "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_03_a.html" title="Annual Net generation By all energy sources and by producing sector ">
+Independent power producers</a>
+</li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=01&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation   Commercial sector ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_04_a.xlsx" class="ico_xls" title="Annual Net generation   Commercial sector "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_04_a.html" title="Annual Net generation ">
+Commercial sector</a>
+</li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=02&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation   Industrial sector ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_05_a.xlsx" class="ico_xls" title="Annual Net generation   Industrial sector "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_05_a.html" title="Annual Net generation ">
+Industrial sector</a></li>
+<li><strong>By type of renewable source</strong>
+	<ul>
+		<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=g&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation  By type of renewable source All sectors ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_01_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source All sectors "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_01_b.html" title="Annual Net generation  By type of renewable source ">
+All sectors</a></li>
+		<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=8&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation  By type of renewable source Electric utilities ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_02_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Electric utilities "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_02_b.html" title="Annual Net generation  By type of renewable source ">
+Electric utilities</a>
+		</li>
+		<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=00g&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation  By type of renewable source Independent power producers ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_03_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Independent power producers "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_03_b.html" title="Annual Net generation  By type of renewable source ">
+Independent power producers</a>
+		</li>
+		<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=01&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation  By type of renewable source Commercial sector ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_04_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Commercial sector "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_04_b.html" title="Annual Net generation  By type of renewable source ">
+Commercial sector</a> </li>
+		<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=02&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation  By type of renewable source Industrial sector ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/annual/xls/epa_03_05_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Industrial sector "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_03_05_b.html" title="Annual Net generation  By type of renewable source">
+Industrial sector</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+</tr--->
+<?php /* END Sales, Revenue, Prices & Customers Content ////////////////*/ ?>
+<?php /* BEGIN Generation and Thermal Output Content ////////////////*/ ?>
+
+
+			<li>
+<strong>Useful thermal output</strong>
+<ul>
+<li><strong>By energy source and type of combined heat and power producers</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_03_23.xlsx" class="ico_xls" title="Useful thermal output All sectors "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_03_23.html" title="Useful thermal output">
+All sectors</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_03_24.xlsx" class="ico_xls" title="Useful thermal output Electric power sector "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_03_24.html" title="Useful thermal output">Electric power sector</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_03_25.xlsx" class="ico_xls" title="Useful thermal output Commercial sector "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_03_25.html" title="Useful thermal output ">
+Commercial sector</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_03_26.xlsx" class="ico_xls" title="Useful thermal output Industrial sector "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_03_26.html" title="Useful thermal output  ">
+Industrial sector</a></li>
+<!--<li><a href="/electricity/data/eia923/index.html">Monthly and annual generation &amp; fuel consumption detailed data files</a>
+The EIA-906, EIA-920, EIA-923 and predecessor forms provide monthly and annual data on useful thermal output at the power plant and prime mover level.</li> -->
+</ul>
+</li>
+
+			<li>
+<strong>International</strong>
+<ul>
+<li><a href="/beta/international/data/browser/#?ord=SA&amp;cy=2013&amp;v=H&amp;vo=0&amp;so=0&amp;io=0&amp;start=1980&amp;end=2013&amp;vs=INTL.2-12-AFRC-BKWH.A~INTL.2-12-ASOC-BKWH.A~INTL.2-12-CSAM-BKWH.A~INTL.2-12-EURA-BKWH.A~INTL.2-12-EURO-BKWH.A~INTL.2-12-MIDE-BKWH.A~INTL.2-12-NOAM-BKWH.A&amp;c=4100000002000060000000000000g000200000000000000001&amp;pa=00000000000000000000000000000fvu&amp;f=A&amp;ug=g&amp;ct=1&amp;tl_type=p&amp;tl_id=2-A" title="International ">
+Total  net generation</a><br />
+<em>data from: <a href="/beta/international/data/browser/">International Energy Statistics</a></em>
+</ul></li>
+<?php /* END Generation and Thermal Output Content ////////////////*/ ?>
+<?php /* BEGIN Electric Power Plants Generating Capacity Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="gencapacity"></a>Capacity of electric power plants</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+
+			<li><strong>Detailed <a href="/survey/#eia-860">EIA-860</a> survey data </strong>
+<ul>
+<li><a href="/electricity/data/eia860M/">Preliminary monthly electric generator inventory </a></li>
+<li><a href="/electricity/data/eia860/">Annual generator-level capacity information</a> (back to 1990)</li>
+
+<!-- 
+<li><form name="form3"  id="form3" >
+<span class="right ico_xls">
+<select name="jumpMenu3" id="jumpMenu3" >
+<option value="/electricity/capacity/xls/existing_gen_units_2015.xlsx">2015</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2014.xls">2014</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2013.xls">2013</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2012.xls">2012</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2011.xls">2011</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2010.xls">2010</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2009.xls">2009</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2008.xls">2008</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2007.xls">2007</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2006.xls">2006</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2005.xls">2005</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2004.xls">2004</option>
+<option value="/electricity/capacity/xls/existing_gen_units_2003.xls">2003</option>
+</select>
+<input type="button" name="go_button3" class="arrow_go" align="right"  id= "go_button3" value="Go" onclick="MM_jumpMenuGo('jumpMenu3','parent',1)" />
+</span>
+</form>
+Coal-fired generating units capacity, energy source, date of first operation, and planned retirement date.</li>
+-->              
+</ul>
+</li>
+<tr class="white_first">
+			<li>
+
+<ul>
+<li>  <strong>Monthly</strong>
+
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_6_03.xlsx" class="ico_xls" title="Monthly New electric generating units ">XLS</a></span> New electric generating units</li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_6_05.xlsx" class="ico_xls" title=" Monthly Planned electric generating unit additions  "><i class="ico xls"><span>XLS</span></i></a></span> Planned electric generating unit additions </li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_6_06.xlsx" class="ico_xls" title="Monthly Planned electric generating unit retirements  "><i class="ico xls"><span>XLS</span></i></a></span> Planned electric generating unit retirements </li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_6_04.xlsx" class="ico_xls" title=" Monthly Retired electric generating units "><i class="ico xls"><span>XLS</span></i></a></span> Retired electric generating units</li>
+</ul>
+
+</li></ul>
+<li><strong>Annual</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_03.xlsx" class="ico_xls" title="Annual Net generation By energy source  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_04_03.html" title="Annual Net generation  ">
+By energy source</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_04.xlsx" class="ico_xls" title="Annual Net generation By producer type  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_04_04.html" title="Annual Net generation  ">
+By producer type</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_02_a.xlsx" class="ico_xls" title="Annual Net generation By energy source, by producer   "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_04_02_a.html" title="Annual Net generation  ">
+By energy source, by producer </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_02_b.xlsx" class="ico_xls" title="Annual Net generation By other renewables, by producer   "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_04_02_b.html" title="Annual Net generation  ">
+By other renewables, by producer </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/existcapacity_annual.xls" class="ico_xls" title="Existing capacity by energy source, by producer, by state back to 2000 (annual data from the EIA-860) "><i class="ico xls"><span>XLS</span></i></a></span> Existing capacity by energy source, by producer, by state back to 2000 (annual data from the EIA-860)</li>
+
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_06.xlsx" class="ico_xls" title="Annual Additions, retirements and changes in 2015  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_04_06.html">Additions, retirements and changes in 2015 </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_05.xlsx" class="ico_xls" title="Annual Planned generating capacity changes, by energy source, 2016-2020 "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_04_05.html">Planned generating capacity changes, by energy source, 2016-2020</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_01.xlsx" class="ico_xls" title="Annual Count of power plants by predominant source  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_04_01.html">Count of power plants by predominant source </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_02.xlsx" class="ico_xls" title="Annual Heat rates for selected energy sources  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_08_01.html">Heat rates for selected energy sources </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_04_04.xlsx" class="ico_xls" title="Annual Heat rates by prime mover "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_08_02.html">Heat rates by prime mover </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/plancapacity_annual.xls" class="ico_xls" title="Annual Proposed additions by year, energy source, and state "><i class="ico xls"><span>XLS</span></i></a></span> Proposed additions by year, energy source, and state (annual data from the <a href="/electricity/data/eia860/">Form EIA-860</a>)</li>
+</ul>
+<br />
+<ul>
+<li><strong>Daily nuclear capacity status/outages </strong>(with annual capacity)</li>
+<ul>
+<li><span class="right"><span class="right beta"><a href="/beta/outages/" title="Status of nuclear power plants ">
+INTERACTIVE</a></span></span>Status of nuclear power plants</li>
+</ul>
+</ul>
+</li>
+<!--
+			<li><strong>Generating Units</strong>
+
+<ul>
+<li class="additional-formats">Available formats: <a href="/cneaf/electricity/page/capacity/existingunits2008.xls" class="ico_xls">XLS</a></span>by State, by Company, by Plant</li>
+
+<li class="additional-formats">Available formats: <a href="/cneaf/electricity/page/capacity/existingunitsbs2008.xls" class="ico_xls">XLS</a></span>by State, by Company, by Plant, by dominant Source</li>
+
+</ul></li> --> <!--
+			<li class="head"><a href="/cneaf/electricity/page/gen_companies/codesp1.html">Electric Power Industry Companies </a></strong></li>
+ -->
+<?php /* END Electric Power Plants Generating Capacity Content ////////////////*/ ?>
+<?php /* BEGIN Consumption of Fuels Used to Generate Electricity Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="consumption"></a>Consumption of fuels used to generate electricity</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+
+
+			<li><strong>Detailed <a href="/survey/#eia-923">EIA-923</a> (and previous) annual and preliminary monthly survey data </strong>
+<ul>
+<li><a href="/electricity/data/eia923/">By plant and utility/operator</a></li>
+</ul>
+</li>
+
+<tr class="white_first">
+			<li><strong>Monthly and annual</strong>
+<div>
+<script language="JavaScript" type="text/JavaScript" src="/totalenergy/data/monthly/txt/new_merheader.txt"></script> <em>Interactive data from <a href="/totalenergy/data/browser/" title="Consumption of fuels used to generate electricity ">
+Total Energy Data Browser</a></em> </div>
+<ul>
+<li>All combustible fuels (monthly back to 1973, annual to 1949)<span class="right"><a href="/totalenergy/data/monthly/pdf/sec7_9.pdf" class="ico_pdf" title="All combustible fuels (monthly back to 1973, annual to 1949)  "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.03A" class="ico_csv" title="All combustible fuels (monthly back to 1973, annual to 1949)  "><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.03A&amp;freq=m" class="ico_xls" title="All combustible fuels (monthly back to 1973, annual to 1949)  "><i class="ico xls"><span>XLS</span></i></a> <span class="beta right"><a href="/beta/MER/?tbl=T07.03A#/?f=M&amp;start=200001" title="All combustible fuels (monthly back to 1973, annual to 1949)  ">
+INTERACTIVE</a></span></span> </li>
+
+<li><strong>By energy source</strong>
+
+
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script></div>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script></div></li>
+
+<ul>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/3?agg=1,0,2&amp;fuel=8&amp;geo=g&amp;sec=o3g&amp;linechart=ELEC.CONS_EG.COW-US-99.M~ELEC.CONS_EG.COW-US-1.M~ELEC.CONS_EG.COW-US-94.M~ELEC.CONS_EG.COW-US-96.M~ELEC.CONS_EG.COW-US-97.M&amp;columnchart=ELEC.CONS_EG.COW-US-99.M~ELEC.CONS_EG.COW-US-1.M~ELEC.CONS_EG.COW-US-94.M~ELEC.CONS_EG.COW-US-96.M~ELEC.CONS_EG.COW-US-97.M&amp;map=ELEC.CONS_EG.COW-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Consumption of fuels used to generate electricity by coal ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/monthly/xls/table_2_01_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by coal "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_01_a" title="Consumption of fuels used to generate electricity by   ">
+Coal</a>
+</li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/3?agg=1,0,2&amp;fuel=4&amp;geo=g&amp;sec=o3g&amp;linechart=ELEC.CONS_EG.PEL-US-99.M~ELEC.CONS_EG.PEL-US-1.M~ELEC.CONS_EG.PEL-US-94.M~ELEC.CONS_EG.PEL-US-96.M~ELEC.CONS_EG.PEL-US-97.M&amp;columnchart=ELEC.CONS_EG.PEL-US-99.M~ELEC.CONS_EG.PEL-US-1.M~ELEC.CONS_EG.PEL-US-94.M~ELEC.CONS_EG.PEL-US-96.M~ELEC.CONS_EG.PEL-US-97.M&amp;map=ELEC.CONS_EG.PEL-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Consumption of fuels used to generate electricity by Petroleum liquids ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/monthly/xls/table_2_02_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by Petroleum liquids "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_02_a" title="Consumption of fuels used to generate electricity by   ">
+Petroleum liquids</a>
+</li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/3?agg=1,0,2&amp;fuel=2&amp;geo=g&amp;sec=o3g&amp;linechart=ELEC.CONS_EG.PC-US-99.M~ELEC.CONS_EG.PC-US-1.M~ELEC.CONS_EG.PC-US-94.M~ELEC.CONS_EG.PC-US-96.M~ELEC.CONS_EG.PC-US-97.M&amp;columnchart=ELEC.CONS_EG.PC-US-99.M~ELEC.CONS_EG.PC-US-1.M~ELEC.CONS_EG.PC-US-94.M~ELEC.CONS_EG.PC-US-96.M~ELEC.CONS_EG.PC-US-97.M&amp;map=ELEC.CONS_EG.PC-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Consumption of fuels used to generate electricity by Petroleum coke ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/monthly/xls/table_2_03_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by Petroleum coke "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_03_a" title="Consumption of fuels used to generate electricity by   ">
+Petroleum coke</a></li>
+<li><span class="right"><span class="beta right"><a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=02&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Consumption of fuels used to generate electricity by Natural gas ">
+INTERACTIVE</a></span></span> <span class="right"><a href="/electricity/monthly/xls/table_2_04_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by Natural gas "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_04_a" title="Consumption of fuels used to generate electricity by   ">
+Natural gas</a></li> </ul>
+<li><strong>By industry type and state</strong></li>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/consumption_monthly.xls" class="ico_xls" title="Consumption of fuels used to generate electricity by industry type and state, monthly  "><i class="ico xls"><span>XLS</span></i></a></span> Monthly</li>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/annual_consumption_state.xls" class="ico_xls" title="Consumption of fuels used to generate electricity by industry type and state, annual  "><i class="ico xls"><span>XLS</span></i></a></span> Annual (back to 1990)</li>
+</ul>
+</ul>
+<br />
+... more fuel consumption data from: <a href="/electricity/monthly/#two"> <em>Electric Power Monthly</em></a> and <a href="/electricity/annual/#five" ><em>Electric Power Annual</em></a>
+</li>
+<?php /* END Consumption of Fuels Used to Generate Electricity Content ////////////////*/ ?>
+
+<?php /* BEGIN Receipts of Fossil-Fuels for Electricity Generation Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="fossilfuels"></a>Receipts of fossil-fuels for electricity generation</strong></th>
+<th><span class="right"></th>
+
+</thead>
+<tr class="white_first">
+			<li>
+<strong>Monthly summary </strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<ul>
+<li>Physical units                <span class="right"> <a href="/electricity/monthly/xls/table_es2a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation Physical units  "><i class="ico xls"><span>XLS</span></i></a></span>
+</li>
+<li>Btu             <span class="right"> <a href="/electricity/monthly/xls/table_es2b.xlsx" class="ico_xls">
+<span hidden="Monthly summary Receipts of fossil-fuels for electricity generation Btu "><i class="ico xls"><span>XLS</span></i></a></span>
+
+</li>
+</ul>
+
+</li>
+
+
+			<li><strong>By fuel</strong>
+<ul>
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_06_a" title="Monthly summary Receipts of fossil-fuels for electricity generation  ">
+Coal</a> <span class="right"><a href="/electricity/monthly/xls/table_4_06_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation coal "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"><a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=8&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.COW-US-99.M&amp;columnchart=ELEC.RECEIPTS.COW-US-99.M&amp;map=ELEC.RECEIPTS.COW-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly summary Receipts of fossil-fuels for electricity generation coal ">
+INTERACTIVE</a></span></span></li>
+
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_07_a" title="Monthly summary Receipts of fossil-fuels for electricity generation  ">
+Petroleum liquids</a> <span class="right"><a href="/electricity/monthly/xls/table_4_07_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum liquids "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"><a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=4&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.PEL-US-99.M&amp;columnchart=ELEC.RECEIPTS.PEL-US-99.M&amp;map=ELEC.RECEIPTS.PEL-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum liquids ">
+INTERACTIVE</a></span></span></li>
+
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_08_a" title="Monthly summary Receipts of fossil-fuels for electricity generation  ">
+Petroleum coke</a> <span class="right"><a href="/electricity/monthly/xls/table_4_08_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum coke "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"><a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=2&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.PC-US-99.M&amp;columnchart=ELEC.RECEIPTS.PC-US-99.M&amp;map=ELEC.RECEIPTS.PC-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum coke ">
+INTERACTIVE</a></span></span></li>
+
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_09_a" title="Monthly summary Receipts of fossil-fuels for electricity generation  ">
+Natural gas</a> <span class="right"><a href="/electricity/monthly/xls/table_4_09_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation natural gas "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"><a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=1&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.NG-US-99.M&amp;columnchart=ELEC.RECEIPTS.NG-US-99.M&amp;map=ELEC.RECEIPTS.NG-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Monthly summary Receipts of fossil-fuels for electricity generation natural gas ">
+INTERACTIVE</a></span></span>              </li>
+</ul>
+<br />
+... more fuel receipts data from: <a href="/electricity/monthly/#four" title="more fuel receipts data from ">
+<em>Electric Power Monthly</em></a> and <a href="/electricity/annual/#seven"  title="more fuel receipts data from "><em>Electric Power Annual</em></a>
+
+</li>
+<?php /* END Monthly Receipts of Fossil-Fuels for Electricity Generation Content ////////////////*/ ?>
+
+<?php /* BEGIN Average Cost of Fossil-Fuels for Electricity Generation Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="avgcost"></a>Average cost of fossil-fuels for electricity generation</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr >
+			<li><strong>Detailed <a href="/survey/#eia-923">EIA-923</a> (and previous) annual and preliminary monthly survey data </strong>
+<ul>
+<li><a href="/electricity/data/eia923/">By plant and utility/operator</a> </li>
+</ul>
+</li>
+
+<tr class="white_first">
+			<li>
+<ul>
+<li><strong>Monthly</li>
+			<li>
+<strong>Average cost of fossil fuels delivered by state</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script></div>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script></div>
+<ul>
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_10_a" title="Monthly Average cost of fossil fuels delivered by state  ">
+Coal</a> <span class="right"><a href="/electricity/monthly/xls/table_4_10_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state  Coal "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"><a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=8&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.COW-US-98.M&amp;columnchart=ELEC.COST_BTU.COW-US-98.M&amp;map=ELEC.COST_BTU.COW-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Average cost of fossil fuels delivered by state  Coal ">
+INTERACTIVE</a></span></span></li>
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_11_a" title="Monthly Average cost of fossil fuels delivered by state  ">
+Petroleum liquids</a> <span class="right"><a href="/electricity/monthly/xls/table_4_11_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state Petroleum liquids "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"><a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=4&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.PEL-US-98.M&amp;columnchart=ELEC.COST_BTU.PEL-US-98.M&amp;map=ELEC.COST_BTU.PEL-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Monthly Average cost of fossil fuels delivered by state Petroleum liquids ">
+INTERACTIVE</a></span></span></li>
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_12_a" title="Monthly Average cost of fossil fuels delivered by state  ">
+Petroleum coke</a> <span class="right"><a href="/electricity/monthly/xls/table_4_12_a.xlsx"class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state Petroleum coke "><i class="ico xls"><span>XLS</span></i></a> <span class="beta right"><a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=2&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.PC-US-98.M&amp;columnchart=ELEC.COST_BTU.PC-US-98.M&amp;map=ELEC.COST_BTU.PC-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Average cost of fossil fuels delivered by state Petroleum coke ">
+INTERACTIVE</a></span></span></li>
+<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_13_a" title="Monthly Average cost of fossil fuels delivered by state  ">
+Natural gas</a> <span class="right"><a href="/electricity/monthly/xls/table_4_13_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state Natural gas "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"><a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=1&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.NG-US-98.M&amp;columnchart=ELEC.COST_BTU.NG-US-98.M&amp;map=ELEC.COST_BTU.NG-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0" title="Monthly Average cost of fossil fuels delivered by state Natural gas ">
+INTERACTIVE</a></span></span></li>
+</ul>
+</li>
+
+</ul>
+<br />
+... more fuel cost data from: <a href="/electricity/monthly/#four"> <span hidden="more fuel cost data from ">
+<em>Electric Power Monthly</em></a>
+
+</li>
+<?php /*tr><li><a href="/electricity/monthly/index.cfm#four">More fuel cost data data from the Electric Power Monthly</a></li></tr*/ ?>
+
+			<li>
+<ul>
+<li><strong>Annual <br />
+Receipts, average cost, and quality of fossil fuels for electricity generation</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_07_01.xlsx" class="ico_xls" title="Receipts, cost, and quality of coal, petroleum, and natural gas  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_07_01.html">Receipts,  cost, and quality of coal, petroleum, and natural gas</a>
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_07_02.xlsx" class="ico_xls" title="Receipts and quality of coal  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_07_02.html">Receipts and quality of coal</a>
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_07_03.xlsx" class="ico_xls" title="Average quality of coal, petroleum, and natural gas  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_07_03.html">Average quality of coal, petroleum, and natural gas</a>
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_07_04.xlsx" class="ico_xls" title=" Weighted average cost of coal, petroleum, and natural gas "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/annual/html/epa_07_04.html">Weighted average cost of coal, petroleum, and natural gas</a>
+</li>
+</ul>
+</li>
+
+</ul>
+<br />
+... more fuel cost data from: <a href="/electricity/annual/#seven" ><em>Electric Power Annual</em></a>
+
+</li>
+<?php /*tr><li><a href="/electricity/annual/index.cfm#seven">More fuel cost data data from the Electric Power Annual</a></li></tr*/ ?>
+<?php /* END Average Cost of Fossil-Fuels for Electricity Generation Content ////////////////*/ ?>
+<?php /* BEGIN Fossil-Fuel Stocks for Electricity Generation Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="ffstocks"></a>Fossil-fuel stocks for electricity generation</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr class="white_first">
+			<li><strong>Stocks of fossil fuels by</strong>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<div>
+<script language="JavaScript" type="text/javascript" src="/electricity/monthly/electricitydatabrowser.txt"></script></div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_3_01.xlsx" class="ico_xls" title="Stocks of fossil fuels by Electric power sector "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_01" title="Stocks of fossil fuels by  ">
+Electric power sector</a> </li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_3_02.xlsx" class="ico_xls" title="Stocks of fossil fuels by state "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_02" title="Stocks of fossil fuels by  ">
+State</a> </li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_3_03.xlsx" class="ico_xls" title="Stocks of fossil fuels by Census division "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_03" title="Stocks of fossil fuels by  ">
+Census division</a> </li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_3_04.xlsx" class="ico_xls" title="Stocks of fossil fuels by Coal and rank "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_04" title="Stocks of fossil fuels by  ">
+Coal and rank</a> </li>
+<li><span class="right"><span class="beta"><a href="/electricity/data/browser/#/topic/11?agg=2,0,1&amp;fuel=e&amp;geo=vvvvvvvvvvvvo&amp;sec=008&amp;freq=M&amp;start=200801&amp;end=201411&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Stocks of fossil fuels by State and Census division ">
+INTERACTIVE</a></span></span> State and Census division </li>
+</li>
+</ul></li>
+<?php /* END Fossil-Fuel Stocks for Electricity Generation Content ////////////////*/ ?>
+<?php /* BEGIN Electricity Costs Content ////////////////*/ ?>
+<?php /* END Electricity Costs Content ////////////////*/ ?>
+<?php /* BEGIN Revenue and Exepense Statistics for... Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="revenue"></a>Cost, revenue and expenses</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr class="white_first">
+			<li><div>
+<strong>For major investor-owned utilities</strong></li>
+			<li><span class="release-date">Release Date: </span><span class="date"><script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Revenue and expense statistics  "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_08_03.html">Revenue and expense statistics </a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Average power plant operating expenses  "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_08_04.html">Average power plant operating expenses </a></li>
+</ul>
+<!--              <strong>For cooperative borrower-owned utilities</li>
+			<li> <script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script> 
+	</div>
+	<ul>
+		<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_05.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_05.html">Revenue and expense statistics </a></li></ul>
+--> <strong>Forecast assumptions</li>
+			<li>
+<em class="hideme">Release date: February 6, 2018 | <a href="/outlooks/aeo/">Annual Energy Outlook 2018</a></em>
+<ul>
+<li><a href="/outlooks/aeo/electricity_generation.cfm">Levelized cost of new generating technologies</a></li>
+<!--<li><a href="/analysis/studies/powerplants/capitalcost/">Updated capital cost estimates for electricity generation plants</a></li> -->
+<li><a href="/outlooks/aeo/assumptions/pdf/table_8.2.pdf">Cost and performance characteristics of new    generating technologies</a></li>
+</li>
+</ul>
+<b>Generator Construction cost data</b><br />
+<em class="hideme">Release date: May 18, 2017 | data from <a href="/electricity/data/eia860/">Form EIA-860</a></em>
+<li><a href="/electricity/generatorcosts/">For electric generators installed in 2015</a>&nbsp;&nbsp;&nbsp;  <a href="/electricity/generatorcosts/xls/generator_costs_2015.xlsx" class="ico_xls" title="Generator Construction cost data or electric generators installed in 2015    "><i class="ico xls"><span>XLS</span></i></a></li>
+<li><a href="/electricity/generatorcosts/archive/2014/">For electric generators installed in 2014</a>&nbsp;&nbsp;&nbsp;  <a href="/electricity/generatorcosts/archive/2014/xls/generator_costs_2014.xlsx" class="ico_xls" title="Generator Construction cost data or electric generators installed in 2014    "><i class="ico xls"><span>XLS</span></i></a></li>
+<li><a href="/electricity/generatorcosts/archive/2013/">For electric generators installed in 2013</a>&nbsp;&nbsp;&nbsp;  <a href="/electricity/generatorcosts/archive/2013/xls/generator_costs_2013.xlsx" class="ico_xls" title="Generator Construction cost data or electric generators installed in 2013    "><i class="ico xls"><span>XLS</span></i></a></li>
+</li>
+<?php /* END Revenue and Exepenses Content ////////////////*/ ?>
+<?php /* BEGIN Electricity Costs: Trade &amp; Reliability Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i><a name="traderel"></a>Electricity transactions, reliability<!--, transmission capacity --></strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr >
+			<li>
+<strong>Detailed EIA-411 survey  data </strong>(Data for 1990-2015, projections for 2016-2026)
+<ul>
+<li><a href="/electricity/data/eia411/">Electric reliability information and bulk power supply and demand information </a> <br />
+</li>
+</ul>
+</li>
+<tr class="white_first">
+			<li><li><strong>Electricity transactions</strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_02_11.xlsx" class="ico_xls" title="Electricity purchases    "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_02_11.html">Electricity purchases</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_02_12.xlsx" class="ico_xls" title="Electricity sales for resale  "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_02_12.html">Electricity sales for resale</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_02_13.xlsx" class="ico_xls" title="Electricity imports and exports  "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_02_13.html">Electricity imports and exports</a></li>
+<li><a href="/electricity/wholesale/">Wholesale market data </a></li>
+</ul>
+</li>
+<br />
+<li><strong>Electric disturbance events</strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/monthly/epm_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_b_1.xlsx" class="ico_xls" title="Electric disturbance events,  Monthly, year-to-date current year   "><i class="ico xls"><span>XLS</span></i></a></span>Monthly, year-to-date current year </li>
+<li class="additional-formats">Available formats: <a href="/electricity/monthly/xls/table_b_2.xlsx" class="ico_xls" title="Electric disturbance events, Monthly, last year     "><i class="ico xls"><span>XLS</span></i></a></span>Monthly, last year </li>
+<li><a href="/electricity/data/disturbance/disturb_events_archive.html" title="Electric disturbance events, ">
+Monthly, prior years </a> </li>
+</ul>
+</li>
+<!--<ul>
+
+<li><strong>Transmission capacity by high-voltage size</strong>
+<div> 
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script> 
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_10_b.xlsx" class="ico_xls">XLS</a></span> <a href="/electricity/annual/html/epa_08_10_a.html">Existing</a>
+</li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_10_b.xlsx" class="ico_xls">XLS</a></span> <a href="/electricity/annual/html/epa_08_10_b.html">Proposed</a>
+</li>
+</ul>
+</ul> --></li>
+<?php /* END Electricity Costs: Trade &amp; Reliability Content ////////////////*/ ?>
+<?php /* BEGIN Demand, Capability Resources, and Capability Margins Content ////////////////*/ ?>
+<!--        	<h2><i class="ico expand-collapse"></i><a name="demand"></a>Demand, load, capacity resources, and capacity margins</strong></th>
+<th><span class="right"></th>
+
+</thead>
+<tr class="white_first">
+			<li><div> 
+<script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script> 
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_06_a.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_06_a.html">Noncoincident peak load, 2002-2012 actual</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_06_b.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_06_b.html">Noncoincident peak load , 2012 actual, 2013-2017 projected</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_07_a.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_07_a.html">Net energy for load , 2002-2012 actual</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_07_b.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_07_b.html">Net energy for load , 2012 actual, 2013-2017 projected</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_08_a.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_08_a.html">Summer net internal demand, capacity resources, and capacity margins, 2002-2012 actual</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_08_b.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_08_b.html">Summer net internal demand, capacity resources, and capacity margins, 2012 actual, 2013-2017 projected</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_09_a.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_09_a.html">Winter net internal demand, capacity resources, and capacity margins, 2002-2012 actual</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_08_09_b.xlsx" class="ico_xls">XLS</a></span><a href="/electricity/annual/html/epa_08_09_b.html">Winter net internal demand, capacity resources, and capacity margins, 2012 actual, 2013-2017 projected</a></li>
+</li>
+</ul>
+ -->
+	<h2><i class="ico expand-collapse"></i><a name="dsm"></a>Demand-side management program</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr class="white_first">
+			<li><div>
+<script language="JavaScript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_10_06.xlsx" class="ico_xls" title="Energy efficiency   "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_10_06.html">Energy efficiency</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_10_07.xlsx" class="ico_xls" title="Energy efficiency - life cycle     "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_10_07.html">Energy efficiency - life cycle</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_10_08.xlsx" class="ico_xls" title="Demand response - yearly energy and demand savings   "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_10_08.html">Demand response - yearly energy and demand savings</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_10_09.xlsx" class="ico_xls" title="Demand response- program costs  "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_10_09.html">Demand response- program costs</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_10_10.xlsx" class="ico_xls" title="Advanced metering count by technology type  "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_10_10.html">Advanced metering  count by technology type</a></li>
+</li>
+</ul></li>
+
+
+<?php /* END Demand, Capability Resources, and Capability Margins Content ////////////////*/ ?>
+<?php /* BEGIN Electricity and the Environment Content ////////////////*/ ?>
+	<h2><i class="ico expand-collapse"></i>
+<th align="right"><a name="elecenv"></a>Electricity and the environment</strong></th>
+<th><span class="right"><?php /*Additional formats*/ ?></span></th>
+
+</thead>
+<tr >
+			<li><strong>Detailed EIA-923 emissions survey  data</strong>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/data/state/emission_annual.xls" class="ico_xls" title="Electric power industry estimated emissions by state (back to 1990 )   "> XLS</a></span> Electric power industry estimated emissions by state (back to 1990 )</li>
+<li><a href="/electricity/data/emissions/">Annual emissions by plant and region</a><br />
+			<li><span class="release-date">Release Date: </span><span class="date">December 18, 2017 </em></li>
+<li><a href="/electricity/data/water/">Annual thermoelectric cooling water data</a><br />
+			<li><span class="release-date">Release Date: </span><span class="date">December 19, 2017 </em></li>
+</ul></li>
+<tr class="white_first">
+			<li>
+<ul>
+<li><strong>Annual</strong>
+<div>
+<script language="javascript" type="text/javascript" src="/electricity/annual/epa_release_date.txt"></script>
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_09_01.xlsx" class="ico_xls" title="Emissions from energy consumption at power plants    "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_09_01.html">Emissions from energy consumption at power plants</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_09_02.xlsx" class="ico_xls" title="Generators with environmental equipment "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_09_02.html">Generators with environmental equipment</a></li>
+<li class="additional-formats">Available formats: <a href="/electricity/annual/xls/epa_09_04.xlsx" class="ico_xls" title="Average flue gas desulfurization costs "><i class="ico xls"><span>XLS</span></i></a></span><a href="/electricity/annual/html/epa_09_04.html">Average flue gas desulfurization costs</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Monthly/Annual</strong>
+(monthly back to 2015, annual to 1950)
+<div>
+<script language="JavaScript" type="text/JavaScript" src="/totalenergy/data/monthly/txt/new_merheader.txt"></script>
+
+<em>Interactive data from <a href="/totalenergy/data/browser/">Total Energy Data Browser</a></em>
+
+</div>
+<ul>
+<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" class="ico_pdf" title="Carbon dioxide emissions from electricity generation   "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T12.06" class="ico_csv" title="Carbon dioxide emissions from electricity generation   "><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T12.06&amp;freq=m" class="ico_xls" title="Carbon dioxide emissions from electricity generation   "><i class="ico xls"><span>XLS</span></i></a><span class="beta right"> <a href="/beta/MER/?tbl=T12.06#/?f=M&amp;start=200001" title="Carbon dioxide emissions from electricity generation   ">
+INTERACTIVE</a></span></span> Carbon dioxide emissions from electricity generation
+</li>
+</ul>
+
+
+</li>
+</ul>          </li>
+<?php /*
+			<li class="head">Projected emissions of Carbon Dioxide from electricity generation</strong>
+<em class="hideme">Release Date: April 26, 2011</li>
+			<li class="additional-formats">Available formats:  <a href="/oiaf/aeo/tablebrowser/aeo_query_server/?event=ehExcel.getFile&amp;study=AEO2011&amp;region=1-0&amp;cases=ref2011-d020911a&amp;table=17-AEO2011&amp;yearFilter=0" class="ico_xls">XLS</a> </span></li>
+
+			<li class="head">Projected emissions of Sulfur Dioxide from electricity generation</strong>
+<em class="hideme">Release Date: April 26, 2011</li>
+			<li class="additional-formats">Available formats:  <a href="/forecasts/aeo/excel/fig107.data.xls" class="ico_xls">XLS</a> </span></li>
+
+			<li class="head">Projected emissions of Nitrogen Oxide from electricity generation</strong>
+<em class="hideme">Release Date: April 26, 2011</li>
+			<li class="additional-formats">Available formats:  <a href="/forecasts/aeo/excel/fig108.data.xls" class="ico_xls">XLS</a> </span></li>*/ ?>
+<?php /* END Electricity and the Environment Content ////////////////*/ ?>
+</table>
+<?php /* End of Main Column */ ?>

@@ -25,9 +25,7 @@
 					<td class="up">+1.6</td>
 					<td class="d1">30.73</td>
 					<td class="dn">-0.4</td>
-					<td class="d1">9.03</td>
-
-		</tr>
+					<td class="d1">9.03</li>
 
 
 
@@ -40,9 +38,7 @@
 					<td class="d1">30.97</td>
 					<td class="%c.electmidatlclass">+0.5</td>
 
-					<td class="d1">11.23</td>
-
-		</tr>
+					<td class="d1">11.23</li>
 
 
 		<tr>
@@ -54,9 +50,7 @@
 					<td class="d1">30.46</td>
 					<td class="dn">-6.5</td>
 
-					<td class="d1">8.60</td>
-
-		</tr>
+					<td class="d1">8.60</li>
 
 
 
@@ -69,9 +63,7 @@
 					<td class="d1">38.25</td>
 					<td class="up">+3.4</td>
 
-					<td class="d1">18.33</td>
-
-		</tr>
+					<td class="d1">18.33</li>
 
 
 		<tr>
@@ -83,15 +75,12 @@
 					<td class="d1">24.75</td>
 					<td class="dn">-20.2</td>
 
-					<td class="d1">5.99</td>
-
-		</tr>
+					<td class="d1">5.99</li>
 
         <tfoot>
             <tr>
             <td colspan="6"> *Percent changes based on daily settlement price from previous business day.<br />Source: <a href="/todayinenergy/prices.cfm">Daily Prices</a>
-            </td>
-            </tr>
+            </li>
         </tfoot>
 
 	</table>

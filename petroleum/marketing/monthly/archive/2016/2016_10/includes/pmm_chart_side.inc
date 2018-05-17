@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-Monthly average prices for refiner sales of No. 2 distillates decreased in July. The average price for No. 2 diesel fuel sold to end users dropped 8.5 cents to $1.576 per gallon, while the average wholesale price fell 10.5 cents to $1.426 per gallon. The average retail price for No. 2 fuel oil declined 4.7 cents to $1.814 per gallon, while the average wholesale price dropped 9.9 cents to $1.305 per gallon.</li>
+        <li>Monthly average prices for refiner sales of No. 2 distillates decreased in July. The average price for No. 2 diesel fuel sold to end users dropped 8.5 cents to $1.576 per gallon, while the average wholesale price fell 10.5 cents to $1.426 per gallon. The average retail price for No. 2 fuel oil declined 4.7 cents to $1.814 per gallon, while the average wholesale price dropped 9.9 cents to $1.305 per gallon.</li>
                 <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel were mixed in July. Retail sales rose 100,000 gallons per day (0.8%), while wholesales fell 6.7 million gallons per day (4.9%).</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sold by refiners continued to rise during July. The wholesale price for low-sulfur residual fuel oil rose 2.6 cents to 87.6 cents per gallon. Prices for high-sulfur residual fuel oil increased 4.7 cents to 95.8 cents per gallon at retail, while the wholesale price rose 1.1 cents to 83.4 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sold by refiners continued to rise during July. The wholesale price for low-sulfur residual fuel oil rose 2.6 cents to 87.6 cents per gallon. Prices for high-sulfur residual fuel oil increased 4.7 cents to 95.8 cents per gallon at retail, while the wholesale price rose 1.1 cents to 83.4 cents per gallon.</li>
                 <li>Overall, sales of residual fuel oil by refiners declined in July. Retail sales increased 300,000 gallons per day (7.9%), while wholesales fell 1.0 million gallons per day (11.2%).</li>
     </ul>
 <br />

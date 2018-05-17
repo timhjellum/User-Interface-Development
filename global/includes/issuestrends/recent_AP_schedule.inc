@@ -104,8 +104,7 @@ if($x<$count-1)
 $TitleText .= ", ";
 }
 echo '<ul class="analysis-projections">';
-echo '        <li>
-<img src="/global/images/icons/dap/';
+echo '        <li><img src="/global/images/icons/dap/';
 if(strtolower($row['has_data']) == "y") {
 echo 'd';
 }

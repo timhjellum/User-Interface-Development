@@ -18,8 +18,7 @@ Current Issues &amp; Trends
 </div>
 <div class="slider-multi-cards-container">
 <ul class="bxslider">
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.15/main.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.15/main.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -34,8 +33,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.11/main.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.11/main.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -50,8 +48,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170809/article_images/twip170809fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170809/article_images/twip170809fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -66,8 +63,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170809/article_images/twip170809fig2.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170809/article_images/twip170809fig2.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -82,8 +78,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.04/main.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.04/main.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -98,8 +93,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -114,8 +108,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -130,8 +123,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -146,8 +138,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -162,8 +153,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -178,8 +168,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -194,8 +183,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -210,8 +198,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -226,8 +213,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -242,8 +228,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">
@@ -258,8 +243,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 </p>
 </div>
 </li>
-<li>
-<a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
+<li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">

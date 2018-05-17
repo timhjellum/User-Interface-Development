@@ -2,8 +2,7 @@
     <ul>
         <li class="header"><h2>Receive Email Updates</h2></li>
                 <li>Sign up to receive Drilling Productivity Report updates via email</li>
-                <li>
-<fieldset>
+                <li><fieldset>
 <form action="http://www.eia.gov/nl/subscribe.cfm" method="POST" name="signup" class="report_summary">
 <input type="text" name="email" value="" /><br/>
 <input name="subscribe" type="submit" title="subscribe" value="Subscribe" alt="subscribe" />

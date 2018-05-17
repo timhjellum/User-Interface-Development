@@ -1,8 +1,7 @@
 <div class="content-container">
     <ul>
         <li><h2>Highlights</h2></li>
-                <li>
-<i class="ico xls"><span>XLS</span></i>
+                <li><i class="ico xls"><span>XLS</span></i>
 <strong>Figure HL1.</strong> Crude oil and petroleum product wholesale prices</li>
                 <li><div class="image-container"><a href="images/2012-03/fig_HL1_coppwp.jpg" class="lightbox"><img src="images/2012-03/fig_HL1_coppwp_sm.jpg" /></a>
 <span class="align-right"><a href="pdf/pmmgraphic.pdf"><i class="ico xls">XLS</i>figure data</a></span>

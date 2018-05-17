@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-April monthly average prices for refiner sales of No. 2 distillates increased from March levels. The average price for No. 2 diesel fuel sold to end users rose 6.8 cents to $1.385 per gallon, while the average wholesale price increased 6.2 cents to $1.251 per gallon. The average retail price for No. 2 fuel oil climbed 6.9 cents to $1.624 per gallon, while the average wholesale price rose 4.2 cents to $1.112 per gallon.</li>
+        <li>April monthly average prices for refiner sales of No. 2 distillates increased from March levels. The average price for No. 2 diesel fuel sold to end users rose 6.8 cents to $1.385 per gallon, while the average wholesale price increased 6.2 cents to $1.251 per gallon. The average retail price for No. 2 fuel oil climbed 6.9 cents to $1.624 per gallon, while the average wholesale price rose 4.2 cents to $1.112 per gallon.</li>
                 <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel were mixed again during April. Retail sales declined 100,000 gallons per day (0.8%), while wholesales increased 600,000 gallons per day (0.4%).</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sales by refiners rose during April. The wholesale price for low-sulfur residual fuel oil increased 5.1 cents to 63.3 cents per gallon. Prices for high-sulfur residual fuel oil rose 2.9 cents to 70.1 cents per gallon at retail, while the wholesale price increased 5.9 cents to 61.4 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sales by refiners rose during April. The wholesale price for low-sulfur residual fuel oil increased 5.1 cents to 63.3 cents per gallon. Prices for high-sulfur residual fuel oil rose 2.9 cents to 70.1 cents per gallon at retail, while the wholesale price increased 5.9 cents to 61.4 cents per gallon.</li>
                 <li>Sales of residual fuel oil by refiners fell in April. Retail sales dropped 100,000 gallons per day (2.4%), while wholesales declined 200,000 gallons per day (2.2%).</li>
     </ul>
 <br />

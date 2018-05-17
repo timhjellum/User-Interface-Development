@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-Monthly average prices for refiner sales of No. 2 distillates increased in June. The average price for No. 2 diesel fuel sold to end users rose 11.0 cents to $1.665 per gallon, while the average wholesale price climbed 9.9 cents to $1.531 per gallon. The average retail price for No. 2 fuel oil increased 12.8 cents to $1.861 per gallon, while the average wholesale price rose 11.3 cents to $1.404 per gallon.</li>
+        <li>Monthly average prices for refiner sales of No. 2 distillates increased in June. The average price for No. 2 diesel fuel sold to end users rose 11.0 cents to $1.665 per gallon, while the average wholesale price climbed 9.9 cents to $1.531 per gallon. The average retail price for No. 2 fuel oil increased 12.8 cents to $1.861 per gallon, while the average wholesale price rose 11.3 cents to $1.404 per gallon.</li>
                 <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel increased in June. Retail sales remained flat, while wholesales climbed 1.6 million gallons per day (1.1%).</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sold by refiners increased during June. The wholesale price for low-sulfur residual fuel oil climbed 12.1 cents to 85.0 cents per gallon. Prices for high-sulfur residual fuel oil rose 4.3 cents to 91.1 cents per gallon at retail, while the wholesale price increased 10.1 cents to 82.3 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sold by refiners increased during June. The wholesale price for low-sulfur residual fuel oil climbed 12.1 cents to 85.0 cents per gallon. Prices for high-sulfur residual fuel oil rose 4.3 cents to 91.1 cents per gallon at retail, while the wholesale price increased 10.1 cents to 82.3 cents per gallon.</li>
                 <li>Sales of residual fuel oil by refiners decreased in June. Retail sales fell 100,000 gallons per day (2.6%), while wholesales declined 1.0 million gallons per day (10.1%).</li>
     </ul>
 <br />

@@ -10,8 +10,7 @@
 <li class="sub-header">Contact</strong>:
         <li><a href="mailto:Jeffrey.Little@eia.gov">Jeffrey Little</a></li> <!--(202) 586-6284
 </li>
-                <li>
-Phone: 1-877-434-2914 - toll free</li>
+                <li>Phone: 1-877-434-2914 - toll free</li>
 Email:         <li><a href="mailto:oog.eia914@eia.gov">oog.eia914@eia.gov</a></li>
 Fax: 1-214-720-6155 - Attn EIA-914
 </li>-->

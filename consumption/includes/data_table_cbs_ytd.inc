@@ -412,53 +412,46 @@ $TE_CONS_YTD_2018 = $neic->get($bindVariables);
           <td align="right">&nbsp;</td>
           <td align="right">&nbsp;</td>			 
           <td align="right">&nbsp;</td>
-          <td align="right">&nbsp;</td>
-     </tr>
+          <td align="right">&nbsp;</li>
       <tr class="indented">
           <td>Residential</td>
           <td align="right"><?php echo number_format($arrRES_Cons[5]); ?></td>
           <td align="right"><?php echo number_format($arrRES_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrRES_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrRES_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrRES_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrRES_Cons[1]); ?></li>
       <tr class="indented">
           <td>Commercial</td>
         <td align="right"><?php echo number_format($arrCONSUM_Cons[5]); ?></td>
         <td align="right"><?php echo number_format($arrCONSUM_Cons[4]); ?></td>
         <td align="right"><?php echo number_format($arrCONSUM_Cons[3]); ?></td>
         <td align="right"><?php echo number_format($arrCONSUM_Cons[2]); ?></td>
-        <td align="right"><?php echo number_format($arrCONSUM_Cons[1]); ?></td>
-     </tr>
+        <td align="right"><?php echo number_format($arrCONSUM_Cons[1]); ?></li>
       <tr class="indented">
           <td>Industrial</td>
           <td align="right"><?php echo number_format($arrINDUS_Cons[5]); ?></td>
           <td align="right"><?php echo number_format($arrINDUS_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrINDUS_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrINDUS_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrINDUS_Cons[1]); ?></td>
-      </tr>
+          <td align="right"><?php echo number_format($arrINDUS_Cons[1]); ?></li>
       <tr class="indented">
           <td>Transportation</td>
           <td align="right"><?php echo number_format($arrTRAN_Cons[5]); ?></td>
           <td align="right"><?php echo number_format($arrTRAN_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrTRAN_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrTRAN_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrTRAN_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrTRAN_Cons[1]); ?></li>
       <tr class="indented">
           <td>Primary Total</td>
           <td align="right"><?php echo number_format($arrTE_Cons[5]); ?></td>
           <td align="right"><?php echo number_format($arrTE_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrTE_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrTE_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrTE_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrTE_Cons[1]); ?></li>
 <?php /* Primary Energy Overview: Consumption - Year-to-Year data reference link */ ?>
     <tfoot>
     <tr>
-    <td colspan="6">Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec2_3.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 2.1</a></td>
-    </tr>
+    <td colspan="6">Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec2_3.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 2.1</a></li>
     </tfoot>
 	</tbody>
 </table>

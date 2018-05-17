@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-Monthly average prices for refiner sales of No. 2 distillates decreased in December. The average price for No. 2 diesel fuel sold to end users fell 24.3 cents to $1.360 per gallon, while the average wholesale price declined 28.0 cents to $1.176 per gallon. The average wholesale price for No. 2 fuel oil decreased 23.0 cents to $1.126 per gallon.</li>
+        <li>Monthly average prices for refiner sales of No. 2 distillates decreased in December. The average price for No. 2 diesel fuel sold to end users fell 24.3 cents to $1.360 per gallon, while the average wholesale price declined 28.0 cents to $1.176 per gallon. The average wholesale price for No. 2 fuel oil decreased 23.0 cents to $1.126 per gallon.</li>
                 <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel rose in December. Retail sales fell 500,000 gallons per day (4.2%), while wholesales increased 900,000 gallons per day (0.7%).</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sales by refiners declined in December. The wholesale price for low-sulfur residual fuel oil decreased 21.4 cents to 55.2 cents per gallon. Prices for high-sulfur residual fuel oil dropped 14.0 cents to 86.1 cents per gallon at retail, while the wholesale price fell 15.8 cents to 63.3 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sales by refiners declined in December. The wholesale price for low-sulfur residual fuel oil decreased 21.4 cents to 55.2 cents per gallon. Prices for high-sulfur residual fuel oil dropped 14.0 cents to 86.1 cents per gallon at retail, while the wholesale price fell 15.8 cents to 63.3 cents per gallon.</li>
                 <li>Sales of residual fuel oil by refiners increased in December. Retail sales declined 400,000 gallons per day (9.1%), while wholesales climbed 700,000 gallons per day (8.7%).</li>
     </ul>
 <br />

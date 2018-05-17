@@ -21,19 +21,17 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border">&nbsp;</td>
 <td colspan="2" class="align-center"><strong>YTD</strong></td>
 <td class="no-border" style="width:1px"> </td>
-<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></td>
-</tr>
+<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></li>
 <tr>
-<td><strong>Area</strong></td>
-<td><strong>May 2017</strong></td>
-<td><strong>June 2017</strong></td>
-<td><strong>2016</strong></td>
-<td><strong>2017</strong></td>
+			<li class="head">Area</strong></td>
+			<li class="head">May 2017</strong></td>
+			<li class="head">June 2017</strong></td>
+			<li class="head">2016</strong></td>
+			<li class="head">2017</strong></td>
 <td class="no-border" style="width:1px"> </td>
 <td class="no-wrap"><strong>month</strong> ago</strong></td>
 <td class="no-wrap"><strong>year</strong> ago</strong></td>
-<td class="no-wrap"><strong>YTD</strong></td>
-</tr>
+<td class="no-wrap"><strong>YTD</strong></li>
 <tr>
 <td class="align-left">U.S.</td>
 <td>11,901,057</td>
@@ -43,8 +41,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>2.5</td>
 <td>1.0</td>
-<td>1.1</td>
-</tr>
+<td>1.1</li>
 <tr>
 <td class="align-left">PADD 1</td>
 <td>3,934,211</td>
@@ -54,8 +51,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>1.9</td>
 <td>-1.4</td>
-<td>-0.4</td>
-</tr>
+<td>-0.4</li>
 <tr>
 <td class="align-left">PADD 2</td>
 <td>3,279,135</td>
@@ -65,8 +61,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>4.0</td>
 <td>2.6</td>
-<td>0.9</td>
-</tr>
+<td>0.9</li>
 <tr>
 <td class="align-left">PADD 3</td>
 <td>2,144,437</td>
@@ -76,8 +71,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>1.7</td>
 <td>3.1</td>
-<td>4.6</td>
-</tr>
+<td>4.6</li>
 <tr>
 <td class="align-left">PADD 4</td>
 <td>475,179</td>
@@ -87,8 +81,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>4.8</td>
 <td>3.3</td>
-<td>4.1</td>
-</tr>
+<td>4.1</li>
 <tr>
 <td class="align-left">PADD 5</td>
 <td>2,068,095</td>
@@ -98,8 +91,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>1.7</td>
 <td>0.7</td>
-<td>0.3</td>
-</tr>
+<td>0.3</li>
 <tr>
 <th colspan="9"></strong>Prime supplier sales volumes of gasoline by state </strong><span style="font-weight:normal">thousand gallons </span></th>
 </tr>
@@ -109,19 +101,17 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td class="no-border">&nbsp;</td>
 <td colspan="2" class="align-center"><strong>YTD</strong></td>
 <td class="no-border" style="width:1px"> </td>
-<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></td>
-</tr>
+<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></li>
 <tr>
 <td colspan="1"><strong>State</strong></td>
-<td><strong>May 2017</strong></td>
-<td><strong>June 2017</strong></td>
-<td><strong>2016</strong></td>
-<td><strong>2017</strong></td>
+			<li class="head">May 2017</strong></td>
+			<li class="head">June 2017</strong></td>
+			<li class="head">2016</strong></td>
+			<li class="head">2017</strong></td>
 <td style="width:1px"> </td>
 <td class="no-wrap"><strong>month</strong> ago</strong></td>
 <td class="no-wrap"><strong>year</strong> ago</strong></td>
-<td class="no-wrap"><strong>YTD</strong></td>
-</tr>
+<td class="no-wrap"><strong>YTD</strong></li>
 <tr>
 <td class="align-left">Alaska</td>
 <td>22,466</td>
@@ -131,8 +121,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>18.1</td>
 <td>3.1</td>
-<td>2.1</td>
-</tr>
+<td>2.1</li>
 <tr>
 <td class="align-left">Alabama</td>
 <td>214,152</td>
@@ -142,8 +131,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.0</td>
 <td>1.3</td>
-<td>1.4</td>
-</tr>
+<td>1.4</li>
 <tr>
 <td class="align-left">Arkansas</td>
 <td>125,419</td>
@@ -153,8 +141,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.7</td>
 <td>0.4</td>
-<td>-1.0</td>
-</tr>
+<td>-1.0</li>
 <tr>
 <td class="align-left">Arizona</td>
 <td>261,188</td>
@@ -164,8 +151,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-1.8</td>
 <td>1.8</td>
-<td>2.7</td>
-</tr>
+<td>2.7</li>
 <tr>
 <td class="align-left">California</td>
 <td>1,262,711</td>
@@ -175,8 +161,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>1.2</td>
 <td>0.8</td>
-<td>0.4</td>
-</tr>
+<td>0.4</li>
 <tr>
 <td class="align-left">Colorado</td>
 <td>197,102</td>
@@ -186,8 +171,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.5</td>
 <td>7.1</td>
-<td>8.3</td>
-</tr>
+<td>8.3</li>
 <tr>
 <td class="align-left">Connecticut</td>
 <td>131,687</td>
@@ -197,8 +181,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>5.1</td>
 <td>1.3</td>
-<td>-7.6</td>
-</tr>
+<td>-7.6</li>
 <tr>
 <td class="align-left">D.C.</td>
 <td>5,891</td>
@@ -208,8 +191,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.8</td>
 <td>-3.4</td>
-<td>0.7</td>
-</tr>
+<td>0.7</li>
 <tr>
 <td class="align-left">Delaware</td>
 <td>41,011</td>
@@ -219,8 +201,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-2.4</td>
 <td>-6.4</td>
-<td>2.7</td>
-</tr>
+<td>2.7</li>
 <tr>
 <td class="align-left">Florida</td>
 <td>654,636</td>
@@ -230,8 +211,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-5.2</td>
 <td>-2.2</td>
-<td>-2.4</td>
-</tr>
+<td>-2.4</li>
 <tr>
 <td class="align-left">Georgia</td>
 <td>424,117</td>
@@ -241,8 +221,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>1.5</td>
 <td>-4.3</td>
-<td>-2.1</td>
-</tr>
+<td>-2.1</li>
 <tr>
 <td class="align-left">Hawaii</td>
 <td>40,788</td>
@@ -252,8 +231,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-1.7</td>
 <td>0.0</td>
-<td>-1.0</td>
-</tr>
+<td>-1.0</li>
 <tr>
 <td class="align-left">Iowa</td>
 <td>105,144</td>
@@ -263,8 +241,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>8.1</td>
 <td>-4.1</td>
-<td>-1.1</td>
-</tr>
+<td>-1.1</li>
 <tr>
 <td class="align-left">Idaho</td>
 <td>64,435</td>
@@ -274,8 +251,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>7.3</td>
 <td>5.1</td>
-<td>1.1</td>
-</tr>
+<td>1.1</li>
 <tr>
 <td class="align-left">Illinois</td>
 <td>417,482</td>
@@ -285,8 +261,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.1</td>
 <td>0.1</td>
-<td>-1.1</td>
-</tr>
+<td>-1.1</li>
 <tr>
 <td class="align-left">Indiana</td>
 <td>279,195</td>
@@ -296,8 +271,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.5</td>
 <td>3.2</td>
-<td>1.6</td>
-</tr>
+<td>1.6</li>
 <tr>
 <td class="align-left">Kansas</td>
 <td>140,309</td>
@@ -307,8 +281,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.4</td>
 <td>4.2</td>
-<td>2.6</td>
-</tr>
+<td>2.6</li>
 <tr>
 <td class="align-left">Kentucky</td>
 <td>178,867</td>
@@ -318,8 +291,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>1.5</td>
 <td>0.5</td>
-<td>0.7</td>
-</tr>
+<td>0.7</li>
 <tr>
 <td class="align-left">Louisiana</td>
 <td>246,244</td>
@@ -329,8 +301,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-2.5</td>
 <td>3.3</td>
-<td>4.4</td>
-</tr>
+<td>4.4</li>
 <tr>
 <td class="align-left">Massachusetts</td>
 <td>226,980</td>
@@ -340,8 +311,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.9</td>
 <td>-2.2</td>
-<td>1.1</td>
-</tr>
+<td>1.1</li>
 <tr>
 <td class="align-left">Maryland</td>
 <td>183,559</td>
@@ -351,8 +321,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-0.6</td>
 <td>-2.5</td>
-<td>1.9</td>
-</tr>
+<td>1.9</li>
 <tr>
 <td class="align-left">Maine</td>
 <td>60,264</td>
@@ -362,8 +331,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>12.3</td>
 <td>4.4</td>
-<td>1.7</td>
-</tr>
+<td>1.7</li>
 <tr>
 <td class="align-left">Michigan</td>
 <td>408,176</td>
@@ -373,8 +341,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.2</td>
 <td>5.8</td>
-<td>2.1</td>
-</tr>
+<td>2.1</li>
 <tr>
 <td class="align-left">Minnesota</td>
 <td>195,677</td>
@@ -384,8 +351,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>11.7</td>
 <td>-1.6</td>
-<td>-3.7</td>
-</tr>
+<td>-3.7</li>
 <tr>
 <td class="align-left">Missouri</td>
 <td>257,875</td>
@@ -395,8 +361,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.5</td>
 <td>5.7</td>
-<td>3.6</td>
-</tr>
+<td>3.6</li>
 <tr>
 <td class="align-left">Mississippi</td>
 <td>161,275</td>
@@ -406,8 +371,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-2.0</td>
 <td>-7.0</td>
-<td>4.4</td>
-</tr>
+<td>4.4</li>
 <tr>
 <td class="align-left">Montana</td>
 <td>65,468</td>
@@ -417,8 +381,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>12.0</td>
 <td>0.2</td>
-<td>0.0</td>
-</tr>
+<td>0.0</li>
 <tr>
 <td class="align-left">North Carolina</td>
 <td>386,142</td>
@@ -428,8 +391,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.4</td>
 <td>2.2</td>
-<td>1.6</td>
-</tr>
+<td>1.6</li>
 <tr>
 <td class="align-left">North Dakota</td>
 <td>38,906</td>
@@ -439,8 +401,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-4.2</td>
 <td>-2.4</td>
-<td>5.7</td>
-</tr>
+<td>5.7</li>
 <tr>
 <td class="align-left">Nebraska</td>
 <td>71,032</td>
@@ -450,8 +411,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.3</td>
 <td>-0.4</td>
-<td>0.5</td>
-</tr>
+<td>0.5</li>
 <tr>
 <td class="align-left">New Hampshire</td>
 <td>46,670</td>
@@ -461,8 +421,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>17.3</td>
 <td>10.7</td>
-<td>-2.7</td>
-</tr>
+<td>-2.7</li>
 <tr>
 <td class="align-left">New Jersey</td>
 <td>330,781</td>
@@ -472,8 +431,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-0.6</td>
 <td>-11.8</td>
-<td>-6.4</td>
-</tr>
+<td>-6.4</li>
 <tr>
 <td class="align-left">New Mexico</td>
 <td>85,506</td>
@@ -483,8 +441,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.6</td>
 <td>2.0</td>
-<td>0.6</td>
-</tr>
+<td>0.6</li>
 <tr>
 <td class="align-left">Nevada</td>
 <td>98,357</td>
@@ -494,8 +451,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>5.9</td>
 <td>4.4</td>
-<td>2.3</td>
-</tr>
+<td>2.3</li>
 <tr>
 <td class="align-left">New York</td>
 <td>469,340</td>
@@ -505,8 +461,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>6.1</td>
 <td>-3.7</td>
-<td>-3.0</td>
-</tr>
+<td>-3.0</li>
 <tr>
 <td class="align-left">Ohio</td>
 <td>419,932</td>
@@ -516,8 +471,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>1.2</td>
 <td>1.5</td>
-<td>1.5</td>
-</tr>
+<td>1.5</li>
 <tr>
 <td class="align-left">Oklahoma</td>
 <td>181,294</td>
@@ -527,8 +481,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.8</td>
 <td>4.0</td>
-<td>-0.5</td>
-</tr>
+<td>-0.5</li>
 <tr>
 <td class="align-left">Oregon</td>
 <td>143,680</td>
@@ -538,8 +491,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.3</td>
 <td>-4.0</td>
-<td>-2.8</td>
-</tr>
+<td>-2.8</li>
 <tr>
 <td class="align-left">Pennsylvania</td>
 <td>294,966</td>
@@ -549,8 +501,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.2</td>
 <td>12.5</td>
-<td>14.5</td>
-</tr>
+<td>14.5</li>
 <tr>
 <td class="align-left">Rhode Island</td>
 <td>54,436</td>
@@ -560,8 +511,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.7</td>
 <td>-3.5</td>
-<td>-0.8</td>
-</tr>
+<td>-0.8</li>
 <tr>
 <td class="align-left">South Carolina</td>
 <td>228,787</td>
@@ -571,8 +521,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.5</td>
 <td>0.5</td>
-<td>0.8</td>
-</tr>
+<td>0.8</li>
 <tr>
 <td class="align-left">South Dakota</td>
 <td>39,013</td>
@@ -582,8 +531,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>9.6</td>
 <td>0.9</td>
-<td>3.1</td>
-</tr>
+<td>3.1</li>
 <tr>
 <td class="align-left">Tennessee</td>
 <td>313,669</td>
@@ -593,8 +541,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.2</td>
 <td>9.2</td>
-<td>3.8</td>
-</tr>
+<td>3.8</li>
 <tr>
 <td class="align-left">Texas</td>
 <td>1,311,841</td>
@@ -604,8 +551,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.6</td>
 <td>5.0</td>
-<td>6.1</td>
-</tr>
+<td>6.1</li>
 <tr>
 <td class="align-left">Utah</td>
 <td>117,673</td>
@@ -615,8 +561,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.4</td>
 <td>-1.4</td>
-<td>1.9</td>
-</tr>
+<td>1.9</li>
 <tr>
 <td class="align-left">Virginia</td>
 <td>305,022</td>
@@ -626,8 +571,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.4</td>
 <td>-1.2</td>
-<td>0.4</td>
-</tr>
+<td>0.4</li>
 <tr>
 <td class="align-left">Vermont</td>
 <td>26,625</td>
@@ -637,8 +581,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>6.8</td>
 <td>2.5</td>
-<td>2.1</td>
-</tr>
+<td>2.1</li>
 <tr>
 <td class="align-left">Washington</td>
 <td>238,905</td>
@@ -648,8 +591,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.1</td>
 <td>0.2</td>
-<td>-1.3</td>
-</tr>
+<td>-1.3</li>
 <tr>
 <td class="align-left">Wisconsin</td>
 <td>232,564</td>
@@ -659,8 +601,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>5.4</td>
 <td>-0.2</td>
-<td>-0.9</td>
-</tr>
+<td>-0.9</li>
 <tr>
 <td class="align-left">West Virginia</td>
 <td>63,297</td>
@@ -670,8 +611,7 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>5.1</td>
 <td>3.7</td>
-<td>4.5</td>
-</tr>
+<td>4.5</li>
 <tr>
 <td class="align-left">Wyoming</td>
 <td>30,501</td>
@@ -681,6 +621,5 @@ Prime supplier sales volumes of gasoline</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>16.2</td>
 <td>2.5</td>
-<td>1.5</td>
-</tr>
+<td>1.5</li>
 </table>

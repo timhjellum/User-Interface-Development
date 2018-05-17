@@ -25,49 +25,23 @@
         <tbody id="dpst_data">
             <tr>
                 <td>Central Appalachia<br/>
-                <em>12,500 Btu, 1.2 SO<sub>2</sub></em></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+                <em>12,500 Btu, 1.2 SO<sub>2</sub></em></li>
             <tr>
                 <td>Northern Appalachia<br/>
-                <em>13,000 Btu, < 3.0 SO<sub>2</sub></em></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+                <em>13,000 Btu, < 3.0 SO<sub>2</sub></em></li>
             <tr>
                 <td>Illinois Basin<br/>
-                <em>11,800 Btu, 5.0 SO<sub>2</sub></em></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+                <em>11,800 Btu, 5.0 SO<sub>2</sub></em></li>
             <tr>
                 <td>Powder River Basin<br/>
-                <em>8,800 Btu, 0.8 SO<sub>2</sub></em></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+                <em>8,800 Btu, 0.8 SO<sub>2</sub></em></li>
             <tr>
                 <td>Uinta Basin<br/>
-                <em>11,700 Btu, 0.8 SO<sub>2</sub></em></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+                <em>11,700 Btu, 0.8 SO<sub>2</sub></em></li>
         </tbody>
         <tfoot>
             <tr>
-            	<td colspan="6"><b>Source: </b>With permission, <a href="/coal/markets/">Coal Markets</a></td>
-            </tr>
+            	<td colspan="6"><b>Source: </b>With permission, <a href="/coal/markets/">Coal Markets</a></li>
         </tfoot>
         
 </table>

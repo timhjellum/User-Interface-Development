@@ -78,60 +78,60 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>WTI Crude Oil<sup>a</sup></strong><br /><span style="font-size:11px; font-style:italic">dollars per barrel</span></td>
+      			<li class="head">WTI Crude Oil<sup>a</sup></li>
+			<li><span style="font-size:11px; font-style:italic">dollars per barrel</span></td>
       <td><?php echo $WTIPUUS_data[0]['col_1']; ?></td>
       <td><?php echo $WTIPUUS_data[0]['col_2']; ?></td>
-      <td><em><?php echo $WTIPUUS_data[0]['col_3']; ?></em></td>
-      <td><em><?php echo $WTIPUUS_data[0]['col_4']; ?></em></td>
-    </tr>
+      <td><em><?php echo $WTIPUUS_data[0]['col_3']; ?></li>
+      <td><em><?php echo $WTIPUUS_data[0]['col_4']; ?></em></li>
     <tr>
-      <td><strong>Brent Crude Oil</strong><br />
+      			<li class="head">Brent Crude Oil</li>
+			<li>
 <span style="font-size:11px; font-style:italic">dollars per barrel</span></td>
       <td><?php echo $BREPUUS_data[0]['col_1']; ?></td>
       <td><?php echo $BREPUUS_data[0]['col_2']; ?></td>
-      <td><em><?php echo $BREPUUS_data[0]['col_3']; ?></em></td>
-      <td><em><?php echo $BREPUUS_data[0]['col_4']; ?></em></td>
-    </tr>
+      <td><em><?php echo $BREPUUS_data[0]['col_3']; ?></li>
+      <td><em><?php echo $BREPUUS_data[0]['col_4']; ?></em></li>
     <tr>
-      <td><strong>Gasoline<sup>b</sup></strong><br />
+      			<li class="head">Gasoline<sup>b</sup></li>
+			<li>
 <span style="font-size:11px; font-style:italic">dollars per gallon</span></td>
 	  <td><?php echo $formattedGasArray1; ?></td>
       <td><?php echo $formattedGasArray2; ?></td>
-      <td><em><?php echo $formattedGasArray3; ?></em></td>
-      <td><em><?php echo $formattedGasArray4; ?></em></td>
-    </tr>
+      <td><em><?php echo $formattedGasArray3; ?></li>
+      <td><em><?php echo $formattedGasArray4; ?></em></li>
     <tr>
-      <td><strong>Diesel<sup>c</sup></strong><br />
+      			<li class="head">Diesel<sup>c</sup></li>
+			<li>
 <span style="font-size:11px; font-style:italic">dollars per gallon</span></td>
 	  <td><?php echo $formattedDieselArray1; ?></td>
       <td><?php echo $formattedDieselArray2; ?></td>
-      <td><em><?php echo $formattedDieselArray3; ?></em></td>
-      <td><em><?php echo $formattedDieselArray4; ?></em></td>
-    </tr>
+      <td><em><?php echo $formattedDieselArray3; ?></li>
+      <td><em><?php echo $formattedDieselArray4; ?></em></li>
     <tr>
-      <td><strong>Heating Oil<sup>d</sup></strong><br />
+      			<li class="head">Heating Oil<sup>d</sup></li>
+			<li>
 <span style="font-size:11px; font-style:italic">dollars per gallon</span></td>
 	  <td><?php echo $formattedHeatArray1; ?></td>
       <td><?php echo $formattedHeatArray2; ?></td>
-      <td><em><?php echo $formattedHeatArray3; ?></em></td>
-      <td><em><?php echo $formattedHeatArray4; ?></em></td>
-    </tr>
+      <td><em><?php echo $formattedHeatArray3; ?></li>
+      <td><em><?php echo $formattedHeatArray4; ?></em></li>
     <tr>
-      <td><strong>Natural Gas<sup>d</sup></strong><br />
+      			<li class="head">Natural Gas<sup>d</sup></li>
+			<li>
 <span style="font-size:11px; font-style:italic">dollars per thousand cubic feet</span></td>
       <td><?php echo $NGRCUUS_data[0]['col_1']; ?></td>
       <td><?php echo $NGRCUUS_data[0]['col_2']; ?></td>
-      <td><em><?php echo $NGRCUUS_data[0]['col_3']; ?></em></td>
-      <td><em><?php echo $NGRCUUS_data[0]['col_4']; ?></em></td>
-    </tr>
+      <td><em><?php echo $NGRCUUS_data[0]['col_3']; ?></li>
+      <td><em><?php echo $NGRCUUS_data[0]['col_4']; ?></em></li>
     <tr>
-      <td><strong>Electricity<sup>d</sup></strong><br />
+      			<li class="head">Electricity<sup>d</sup></li>
+			<li>
 <span style="font-size:11px; font-style:italic">cents per kilowatthour</span></td>
       <td><?php echo $ESRCUUS_data[0]['col_1']; ?></td>
       <td><?php echo $ESRCUUS_data[0]['col_2']; ?></td>
-      <td><em><?php echo $ESRCUUS_data[0]['col_3']; ?></em></td>
-      <td><em><?php echo $ESRCUUS_data[0]['col_4']; ?></em></td>
-    </tr>
+      <td><em><?php echo $ESRCUUS_data[0]['col_3']; ?></li>
+      <td><em><?php echo $ESRCUUS_data[0]['col_4']; ?></em></li>
     </tbody>
     <tfoot>
     <tr>
@@ -142,7 +142,6 @@
         </td>
         <td style="text-align:left" colspan="4">
         <sup>c</sup>On-highway retail.<br />
-        <sup>d</sup>U.S. Residential average.</td>
-    </tr>
+        <sup>d</sup>U.S. Residential average.</li>
   </tfoot>
 </table>

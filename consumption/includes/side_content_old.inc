@@ -2,27 +2,31 @@
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
         <span class="grey_side blue_top">
         <h4>Energy Use Data by Sector</h4>
-<p class="no_btm_border"><strong>Residential</strong><br />
+<p class="no_btm_border"><strong>Residential</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="residential/">Sector Overview</a></li><li><a href="residential/data/2005/">Most Recent Data (2005)</a></li>
           <li><a href="residential/reports/">Analysis  &amp; Reports</a></li></ul>
           </p>
-<p class="no_btm_border"><strong>Commercial Buildings</strong><br />
+<p class="no_btm_border"><strong>Commercial Buildings</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="commercial/">Sector Overview</a></li>
           <li><a href="commercial/data/2003/">Most Recent Data (2003)</a></li>
           <li><a href="commercial/reports/">Analysis  &amp; Reports</a></li></ul>
           </p>
-<p class="no_btm_border"><strong>Manufacturing</strong><br />
+<p class="no_btm_border"><strong>Manufacturing</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="industrial/">Sector Overview</a></li>
           <li><a href="manufacturing/data/2006/">Most Recent Data (2006)</a></li>
           <li><a href="manufacturing/reports/">Analysis  &amp; Reports</a></li></ul>
           </p>
-<p class="no_btm_border" ><strong>Transportation</strong><br />
+<p class="no_btm_border" ><strong>Transportation</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="transportation/">Sector Overview</a></li>

@@ -19,8 +19,7 @@
               <p><strong>Energy Flow 2009</strong></br>
               (quadrillion Btu)</p>
               
-<a href="/aer/diagram1.html"><img src="/aer/overview_flow_2009_xsmall.jpg"></a>
-<b>Flow Diagrams:</b>
+<a href="/aer/diagram1.html"><img src="/aer/overview_flow_2009_xsmall.jpg"></a>Flow Diagrams:</b>
 <ul>
 			<li><a href="/aer/diagram1.html" target="_self">Total Energy</a></li>
 			<li><a href="/aer/diagram2.html" target="_self">Petroleum</a></li>

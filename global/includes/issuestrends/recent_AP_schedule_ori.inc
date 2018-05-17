@@ -483,8 +483,7 @@ $TitleText .= $DataTypesArray[$x];
 if($x<$count-1)
 $TitleText .= ", ";
 }
-echo '        <li>
-<img src="/global/images/icons/dap/';
+echo '        <li><img src="/global/images/icons/dap/';
 if(strtolower($row['has_data']) == "y") {
 echo 'd';
 }
@@ -520,8 +519,7 @@ echo PHP_EOL;
 }
 ?>
 </ul>
-</div>        <li>
-<a href="reports.cfm">
+</div>        <li><a href="reports.cfm">
 <strong>See more analysis & projections &rsaquo;</strong>
 </a>
 </p>

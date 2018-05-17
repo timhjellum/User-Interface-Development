@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-Monthly average prices for refiner sales of No. 2 distillates increased in March. The average price for No. 2 diesel fuel sold to end users rose 13.1 cents to $1.316 per gallon, while the average wholesale price climbed 14.6 cents to $1.189 per gallon. The average retail price for No. 2 fuel oil rose 14.8 cents to $1.555 per gallon, while the average wholesale price increased 12.2 cents to $1.070 per gallon.</li>
+        <li>Monthly average prices for refiner sales of No. 2 distillates increased in March. The average price for No. 2 diesel fuel sold to end users rose 13.1 cents to $1.316 per gallon, while the average wholesale price climbed 14.6 cents to $1.189 per gallon. The average retail price for No. 2 fuel oil rose 14.8 cents to $1.555 per gallon, while the average wholesale price increased 12.2 cents to $1.070 per gallon.</li>
                 <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel were mixed in March. Retail sales fell 300,000 gallons per day (2.5%), while wholesales rose 3.5 million gallons per day (2.7%).</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sales by refiners increased during March. The wholesale price for low-sulfur residual fuel oil climbed 10.7 cents to 58.2 cents per gallon. Prices for high-sulfur residual fuel oil rose 6.6 cents to 67.2 cents per gallon at retail, while the wholesale price increased 3.7 cents to 54.5 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sales by refiners increased during March. The wholesale price for low-sulfur residual fuel oil climbed 10.7 cents to 58.2 cents per gallon. Prices for high-sulfur residual fuel oil rose 6.6 cents to 67.2 cents per gallon at retail, while the wholesale price increased 3.7 cents to 54.5 cents per gallon.</li>
                 <li>Sales of residual fuel oil by refiners were flat in March. Retail sales rose 200,000 gallons per day (5.1%), while wholesales fell 200,000 gallons per day (2.2%).</li>
     </ul>
 <br />

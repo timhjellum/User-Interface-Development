@@ -51,23 +51,17 @@
 			<div class="section-tabs" id="menu">
 				<div class="tabs-wrapper">
 					<ul>
-						<li>
-							<a href="#nav-sources">Sources &amp; Uses</a>
+						<li>							<a href="#nav-sources">Sources &amp; Uses</a>
 						</li>
-						<li>
-							<a href="#nav-topics">Topics</a>
+						<li>							<a href="#nav-topics">Topics</a>
 						</li>
-						<li>
-							<a href="#nav-geography">Geography</a>
+						<li>							<a href="#nav-geography">Geography</a>
 						</li>
-						<li>
-							<a href="#nav-tools">Tools</a>
+						<li>							<a href="#nav-tools">Tools</a>
 						</li>
-						<li>
-							<a href="#nav-learn">Learn About Energy</a>
+						<li>							<a href="#nav-learn">Learn About Energy</a>
 						</li>
-						<li>
-							<a href="#nav-news">News</a>
+						<li>							<a href="#nav-news">News</a>
 						</li>
 					</ul>
 				</div>
@@ -81,11 +75,9 @@
 							</h3>
 							<p>Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.</p>
 							<ul>
-								<li>
-									<a href='/petroleum/weekly/'>This Week in Petroleum</a>
+								<li>									<a href='/petroleum/weekly/'>This Week in Petroleum</a>
 								</li>
-								<li>
-									<a href='/petroleum/supply/weekly/'>Weekly Petroleum Status Report</a>
+								<li>									<a href='/petroleum/supply/weekly/'>Weekly Petroleum Status Report</a>
 								</li>
 							</ul>
 						</div>
@@ -96,11 +88,9 @@
 							</h3>
 							<p>Exploration and reserves, storage, imports and exports, production, prices, sales.</p>
 							<ul>
-								<li>
-									<a href='http://ir.eia.gov/ngs/ngs.html'>Weekly Natural Gas Storage Report</a>
+								<li>									<a href='http://ir.eia.gov/ngs/ngs.html'>Weekly Natural Gas Storage Report</a>
 								</li>
-								<li>
-									<a href='/naturalgas/weekly/'>Natural Gas Weekly Update</a>
+								<li>									<a href='/naturalgas/weekly/'>Natural Gas Weekly Update</a>
 								</li>
 							</ul>
 						</div>
@@ -112,11 +102,9 @@
 							<p>Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand &amp; emissions.
 							</p>
 							<ul>
-								<li>
-									<a href='/electricity/monthly/'>Electric Power Monthly</a>
+								<li>									<a href='/electricity/monthly/'>Electric Power Monthly</a>
 								</li>
-								<li>
-									<a href='/electricity/data/browser/'>Electricity Data Browser</a>
+								<li>									<a href='/electricity/data/browser/'>Electricity Data Browser</a>
 								</li>
 							</ul>
 						</div>
@@ -127,11 +115,9 @@
 							</h3>
 							<p>Energy use in homes, commercial buildings, manufacturing, and transportation.</p>
 							<ul>
-								<li>
-									<a href='/consumption/residential/'>Residential Energy Consumption Survey (RECS)</a>
+								<li>									<a href='/consumption/residential/'>Residential Energy Consumption Survey (RECS)</a>
 								</li>
-								<li>
-									<a href='/consumption/commercial/'>Commercial Buildings Energy Consumption Survey (CBECS)</a>
+								<li>									<a href='/consumption/commercial/'>Commercial Buildings Energy Consumption Survey (CBECS)</a>
 								</li>
 							</ul>
 						</div>
@@ -144,11 +130,9 @@
 							</h3>
 							<p>Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.</p>
 							<ul>
-								<li>
-									<a href='/coal/production/quarterly/'>Quarterly Coal Report</a>
+								<li>									<a href='/coal/production/quarterly/'>Quarterly Coal Report</a>
 								</li>
-								<li>
-									<a href='/beta/coal/data/browser/'>Coal Data Browser</a>
+								<li>									<a href='/beta/coal/data/browser/'>Coal Data Browser</a>
 								</li>
 							</ul>
 						</div>
@@ -159,8 +143,7 @@
 							</h3>
 							<p>Includes hydropower, solar, wind, geothermal, biomass and ethanol.</p>
 							<ul>
-								<li>
-									<a href='/renewable/afv/'>Alternative Fuel Vehicle Browser</a>
+								<li>									<a href='/renewable/afv/'>Alternative Fuel Vehicle Browser</a>
 								</li>
 							</ul>
 						</div>
@@ -171,8 +154,7 @@
 							</h3>
 							<p>Uranium fuel, nuclear reactors, generation, spent fuel.</p>
 							<ul>
-								<li>
-									<a href='/nuclear/outages/'>Daily Status of Nuclear Outages</a>
+								<li>									<a href='/nuclear/outages/'>Daily Status of Nuclear Outages</a>
 								</li>
 							</ul>
 						</div>
@@ -183,11 +165,9 @@
 							</h3>
 							<p>Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.</p>
 							<ul>
-								<li>
-									<a href='/totalenergy/data/monthly/'>Monthly Energy Review</a>
+								<li>									<a href='/totalenergy/data/monthly/'>Monthly Energy Review</a>
 								</li>
-								<li>
-									<a href='/totalenergy/data/annual/'>Annual Energy Review</a>
+								<li>									<a href='/totalenergy/data/annual/'>Annual Energy Review</a>
 								</li>
 							</ul>
 						</div>
@@ -204,14 +184,11 @@
 							<p>Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
 							</p>
 							<ul>
-								<li>
-									<a href='/outlooks/steo/'>Short-Term Energy Outlook</a>
+								<li>									<a href='/outlooks/steo/'>Short-Term Energy Outlook</a>
 								</li>
-								<li>
-									<a href='/outlooks/aeo/'>Annual Energy Outlook</a>
+								<li>									<a href='/outlooks/aeo/'>Annual Energy Outlook</a>
 								</li>
-								<li>
-									<a href='/outlooks/ieo/'>International Energy Outlook</a>
+								<li>									<a href='/outlooks/ieo/'>International Energy Outlook</a>
 								</li>
 							</ul>
 						</div>
@@ -222,11 +199,9 @@
 							</h3>
 							<p>Financial market analysis and financial data for major energy companies.</p>
 							<ul>
-								<li>
-									<a href='/finance/data.php'>Market Prices and Uncertainty Report</a>
+								<li>									<a href='/finance/data.php'>Market Prices and Uncertainty Report</a>
 								</li>
-								<li>
-									<a href='/finance/markets/crudeoil/'>Energy &amp; Financial Markets: What Drives Crude Oil Prices?</a>
+								<li>									<a href='/finance/markets/crudeoil/'>Energy &amp; Financial Markets: What Drives Crude Oil Prices?</a>
 								</li>
 							</ul>
 						</div>
@@ -239,11 +214,9 @@
 							</h3>
 							<p>Greenhouse gas data, voluntary reporting, electric power plant emissions.</p>
 							<ul>
-								<li>
-									<a href='/environment/emissions/state/analysis/'>Energy-Related Carbon Dioxide Emissions at the State Level, 2000-2015</a>
+								<li>									<a href='/environment/emissions/state/analysis/'>Energy-Related Carbon Dioxide Emissions at the State Level, 2000-2015</a>
 								</li>
-								<li>
-									<a href='/environment/emissions/state/'>State Carbon Dioxide Emissions</a>
+								<li>									<a href='/environment/emissions/state/'>State Carbon Dioxide Emissions</a>
 								</li>
 							</ul>
 						</div>
@@ -259,8 +232,7 @@
 							</h3>
 							<p>State energy information, including overviews, rankings, data, and analyses.</p>
 							<ul>
-								<li>
-									<a href='/state/seds/'>State Energy Data System (SEDS)</a>
+								<li>									<a href='/state/seds/'>State Energy Data System (SEDS)</a>
 								</li>
 							</ul>
 						</div>
@@ -271,14 +243,11 @@
 							</h3>
 							<p>Maps by energy source and topic, includes forecast maps.</p>
 							<ul>
-								<li>
-									<a href='/state/maps.php'>U.S. Energy Mapping System</a>
+								<li>									<a href='/state/maps.php'>U.S. Energy Mapping System</a>
 								</li>
-								<li>
-									<a href='/special/gulf_of_mexico/'>Gulf of Mexico</a>
+								<li>									<a href='/special/gulf_of_mexico/'>Gulf of Mexico</a>
 								</li>
-								<li>
-									<a href='/special/disruptions/'>Energy Disruptions</a>
+								<li>									<a href='/special/disruptions/'>Energy Disruptions</a>
 								</li>
 							</ul>
 						</div>
@@ -291,8 +260,7 @@
 							</h3>
 							<p>International energy information, including overviews, rankings, data, and analyses.</p>
 							<ul>
-								<li>
-									<a href='/beta/international/data/browser/'>International Energy Statistics</a>
+								<li>									<a href='/beta/international/data/browser/'>International Energy Statistics</a>
 								</li>
 							</ul>
 						</div>
@@ -399,52 +367,37 @@
 								<a href="/energyexplained/">Energy Explained</a>
 							</h3>
 							<ul class="energy-explained-list left">
-								<li>
-									<a href="/energyexplained/index.cfm?page=about_home">What is Energy?</a>
+								<li>									<a href="/energyexplained/index.cfm?page=about_home">What is Energy?</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=about_energy_units">Units &amp; Calculators</a>
+								<li>									<a href="/energyexplained/index.cfm?page=about_energy_units">Units &amp; Calculators</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=us_energy_use">Use of Energy</a>
+								<li>									<a href="/energyexplained/index.cfm?page=us_energy_use">Use of Energy</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=environment_home">Energy &amp; Environment</a>
+								<li>									<a href="/energyexplained/index.cfm?page=environment_home">Energy &amp; Environment</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=oil_home">Petroleum</a>
+								<li>									<a href="/energyexplained/index.cfm?page=oil_home">Petroleum</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=hgls_home">Hydrocarbon Gas Liquids</a>
+								<li>									<a href="/energyexplained/index.cfm?page=hgls_home">Hydrocarbon Gas Liquids</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=natural_gas_home">Natural Gas</a>
+								<li>									<a href="/energyexplained/index.cfm?page=natural_gas_home">Natural Gas</a>
 								</li>
 							</ul>
 							<ul class="energy-explained-list right">
-								<li>
-									<a href="/energyexplained/index.cfm?page=coal_home">Coal</a>
+								<li>									<a href="/energyexplained/index.cfm?page=coal_home">Coal</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=nuclear_home">Nuclear</a>
+								<li>									<a href="/energyexplained/index.cfm?page=nuclear_home">Nuclear</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=electricity_home">Electricity</a>
+								<li>									<a href="/energyexplained/index.cfm?page=electricity_home">Electricity</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=hydropower_home">Hydropower</a>
+								<li>									<a href="/energyexplained/index.cfm?page=hydropower_home">Hydropower</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=biofuel_home">Biofuels: Ethanol &amp; Biodiesel</a>
+								<li>									<a href="/energyexplained/index.cfm?page=biofuel_home">Biofuels: Ethanol &amp; Biodiesel</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=wind_home">Wind</a>
+								<li>									<a href="/energyexplained/index.cfm?page=wind_home">Wind</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=geothermal_home">Geothermal</a>
+								<li>									<a href="/energyexplained/index.cfm?page=geothermal_home">Geothermal</a>
 								</li>
-								<li>
-									<a href="/energyexplained/index.cfm?page=solar_home">Solar</a>
+								<li>									<a href="/energyexplained/index.cfm?page=solar_home">Solar</a>
 								</li>
 							</ul>
 						</div>
@@ -472,43 +425,31 @@
 								<a href="/tools/faqs/">FAQs</a>
 							</h3>
 							<ul class="faq-list left">
-								<li>
-									<a href="/tools/faqs/#coal">Coal</a>
+								<li>									<a href="/tools/faqs/#coal">Coal</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/#conversion equivalents">Conversion &amp; Equivalents</a>
+								<li>									<a href="/tools/faqs/#conversion equivalents">Conversion &amp; Equivalents</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/#crudeoil">Crude Oil</a>
+								<li>									<a href="/tools/faqs/#crudeoil">Crude Oil</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/#diesel">Diesel</a>
+								<li>									<a href="/tools/faqs/#diesel">Diesel</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/#electricity">Electricity</a>
+								<li>									<a href="/tools/faqs/#electricity">Electricity</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/#environment">Environment</a>
+								<li>									<a href="/tools/faqs/#environment">Environment</a>
 								</li>
 							</ul>
 							<ul class="faq-list right">
-								<li>
-									<a href="/tools/faqs/index.cfm#gasoline">Gasoline</a>
+								<li>									<a href="/tools/faqs/index.cfm#gasoline">Gasoline</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/index.cfm#generalenergy">General Energy</a>
+								<li>									<a href="/tools/faqs/index.cfm#generalenergy">General Energy</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/index.cfm#naturalgas">Natural Gas</a>
+								<li>									<a href="/tools/faqs/index.cfm#naturalgas">Natural Gas</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/index.cfm#nuclear">Nuclear</a>
+								<li>									<a href="/tools/faqs/index.cfm#nuclear">Nuclear</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/index.cfm#prices">Prices</a>
+								<li>									<a href="/tools/faqs/index.cfm#prices">Prices</a>
 								</li>
-								<li>
-									<a href="/tools/faqs/index.cfm#renewables">Renewables</a>
+								<li>									<a href="/tools/faqs/index.cfm#renewables">Renewables</a>
 								</li>
 							</ul>
 						</div>
@@ -542,20 +483,15 @@
 								<a href="/pressroom/">Press Room</a>
 							</h3>
 							<ul>
-								<li>
-									<a href="/pressroom/releases.php">Press Releases</a>
+								<li>									<a href="/pressroom/releases.php">Press Releases</a>
 								</li>
-								<li>
-									<a href="/pressroom/testimony.php">Congressional Testimony</a>
+								<li>									<a href="/pressroom/testimony.php">Congressional Testimony</a>
 								</li>
-								<li>
-									<a href="/pressroom/presentations.php">Presentations</a>
+								<li>									<a href="/pressroom/presentations.php">Presentations</a>
 								</li>
-								<li>
-									<a href="/pressroom/events/">Events</a>
+								<li>									<a href="/pressroom/events/">Events</a>
 								</li>
-								<li>
-									<a href="/pressroom/radio/">Radio Spots</a>
+								<li>									<a href="/pressroom/radio/">Radio Spots</a>
 								</li>
 							</ul>
 						</div>
@@ -577,20 +513,15 @@
 							</h3>
 							<p>Reports requested by congress or otherwise deemed important.</p>
 							<ul>
-								<li>
-									<a href='/analysis/transportationfuels/padd2n4/'>Midwest and Rocky Mountain Transportation Fuels Markets</a>
+								<li>									<a href='/analysis/transportationfuels/padd2n4/'>Midwest and Rocky Mountain Transportation Fuels Markets</a>
 								</li>
-								<li>
-									<a href='/analysis/transportationfuels/padd1n3/'>East Coast and Gulf Coast Transportation Fuels Markets</a>
+								<li>									<a href='/analysis/transportationfuels/padd1n3/'>East Coast and Gulf Coast Transportation Fuels Markets</a>
 								</li>
-								<li>
-									<a href='/analysis/transportationfuels/padd5/'>West Coast Transportation Fuels Markets</a>
+								<li>									<a href='/analysis/transportationfuels/padd5/'>West Coast Transportation Fuels Markets</a>
 								</li>
-								<li>
-									<a href='/special/disruptions/socal/winter/'>Southern California Daily Energy Report</a>
+								<li>									<a href='/special/disruptions/socal/winter/'>Southern California Daily Energy Report</a>
 								</li>
-								<li>
-									<a href='/outlooks/archive/aeo16/section_issues.cfm#cpp'>Effects of the Clean Power Plan</a>
+								<li>									<a href='/outlooks/archive/aeo16/section_issues.cfm#cpp'>Effects of the Clean Power Plan</a>
 								</li>
 							</ul>
 						</div>

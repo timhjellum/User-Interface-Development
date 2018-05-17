@@ -44,8 +44,7 @@ for($j=0; $j < count($IssuesTrendsQuery) && $displayedCards < $cardLimit; $j++) 
         $thetagnames = $row['reporttagnames'];
         $displayedCards++;
 ?>
-                <li>
-                    <a href="<?= $thelink ?>" class="thumbnail" style="background-image: url('<?= $row['imgurl'] ?>');"></a>
+                <li>                    <a href="<?= $thelink ?>" class="thumbnail" style="background-image: url('<?= $row['imgurl'] ?>');"></a>
                     <div class="slide-content">
                         <h3 class="ellipsis"><a href="<?= $thelink ?>"><?= $thetitle ?></a></h3>
                         <p class="tags"><?php include('global/includes/it_displaytags.inc') ?></p>

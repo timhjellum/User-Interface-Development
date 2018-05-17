@@ -7,8 +7,7 @@
 		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
 	</div>
 	<h2><i class="ico expand-collapse"></i>
-		<!-- id="summary --><a name="summary"></a>Summary
-	</h2>
+		<!-- id="summary --><a name="summary"></a>Summary</h2>
 	<div class="accordion-content">
 		<ul>
 			<li class="head"><a href="/dnav/pet/pet_sum_sndw_dcus_nus_w.htm">Weekly supply estimates</a></li>
@@ -48,7 +47,7 @@
 
 
 			<li class="head">Petroleum overview</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span> (<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li> 
+			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?></span> (<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li> 
 			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec3_3.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T03.01"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T03.01&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
 
 
@@ -114,7 +113,7 @@
 
 
 			<li class="head">Motor gasoline retail prices, U.S. city average</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span></li>
+			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?></span></li>
 			<li class="additional-formats">Available formats: <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T09.04"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T09.04&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			
@@ -163,8 +162,7 @@
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
 			<li>Petroleum product retail and wholesale prices by U.S., PAD District and state</li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pri_refoth_dcu_nus_m.htm">Refiner petroleum product prices by sales type</a></li>
 					<li><a href="/dnav/pet/pet_pri_refmg_dcu_nus_m.htm">Refiner gasoline prices by grade, sales type</a></li>
 					<li><a href="/dnav/pet/pet_pri_refmg2_d_nus_PTG_dpgal_m.htm">Refiner gasoline prices by formulation, grade, sales type</a></li>
@@ -179,8 +177,7 @@
 			<li><span class="release-date">Monthly Release Date: </span><span class="date">May 2, 2011</span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date">August 6, 2010</span></li>
 			<li>Petroleum product retail and wholesale prices by U.S., PAD District and state</li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pri_allmg_d_nus_PTA_dpgal_m.htm">Gasoline prices by formulation, grade, sales type</a></li>
 					<li><a href="/dnav/pet/pet_pri_dist_dcu_nus_m.htm">No. 2 distillate prices by sales type and selected states</a></li>
 					<li><a href="/dnav/pet/pet_pri_prop_dcu_nus_m.htm">Propane (consumer grade) prices by sales type</a></li>
@@ -204,8 +201,7 @@
 			<li class="head">Domestic crude oil first purchase prices</li>
 			<li><span class="release-date">Monthly Release Date: </span><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pri_dfp1_k_m.htm">By area</a></li>
 					<li><a href="/dnav/pet/pet_pri_dfp2_k_m.htm">By crude stream</a></li>
 					<li><a href="/dnav/pet/pet_pri_dfp3_k_m.htm">By API gravity</a></li>
@@ -219,8 +215,7 @@
 			<li class="head">F.O.B. costs of imported crude oil</li>
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pri_imc1_k_m.htm">By area</a></li>
 					<li><a href="/dnav/pet/pet_pri_imc2_k_m.htm">By crude stream</a></li>
 					<li><a href="/dnav/pet/pet_pri_imc3_k_m.htm">By API gravity</a></li>
@@ -234,8 +229,7 @@
 			<li class="head">Landed costs of imported crude oil</li>
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pri_land1_k_m.htm">By area</a></li>
 					<li><a href="/dnav/pet/pet_pri_land2_k_m.htm">By crude stream</a></li>
 					<li><a href="/dnav/pet/pet_pri_land3_k_m.htm">By API gravity</a></li>
@@ -305,8 +299,7 @@
 
 			<li class="head">Proved reserves, reserves changes, and production</li>
 			<li><span class="release-date">Release Date: </span><span class="date">February 13, 2018</span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_crd_pres_dcu_NUS_a.htm">Crude oil</a></li>
 					<li><a href="/dnav/pet/pet_crd_cplc_dcu_NUS_a.htm">Crude oil plus lease condensate</a></li>
 				</ul>
@@ -456,8 +449,7 @@
 			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
 			<li>Production of petroleum products by U.S. and PAD District</li>
 			<li class="release-schedule">Weekly, 4-week average</span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pnp_wprodrb_dcu_nus_w.htm">Refiner &amp; blender</a></li>
 					<li><a href="/dnav/pet/pet_pnp_wprodr_s1_w.htm">Refiner</a></li>
 					<li><a href="/dnav/pet/pet_pnp_wprodb_s1_w.htm">Blender</a></li>
@@ -473,8 +465,7 @@
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
 			<li>Net input of crude oil and petroleum products by PAD and Refining Districts</li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pnp_inpt_dc_nus_mbbl_m.htm">Refiner & blender</a></li>
 					<li><a href="/dnav/pet/pet_pnp_inpt2_dc_nus_mbbl_m.htm">Refiner</a></li>
 					<li><a href="/dnav/pet/pet_pnp_inpt3_dc_nus_mbbl_m.htm">Blender</a></li>
@@ -516,8 +507,7 @@
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
 			<li>Net production of finished petroleum products by PAD and Refining Districts</li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pnp_refp_dc_nus_mbbl_m.htm">Refiner & blender</a></li>
 					<li><a href="/dnav/pet/pet_pnp_refp2_dc_nus_mbbl_m.htm">Refiner</a></li>
 					<li><a href="/dnav/pet/pet_pnp_refp3_dc_nus_mbbl_m.htm">Blender</a></li>
@@ -541,8 +531,7 @@
 			<li class="head">Refinery Capacity</li>
 			<li><span class="release-date">Release Date: </span><span class="date">June 21, 2017</span> by U.S., PAD District and state</li>
 			<!-- li><span class="release-date">Annual Release Date:</span></li -->
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_pnp_cap1_dcu_nus_a.htm">Number and capacity</a></li>
 					<li><a href="/dnav/pet/pet_pnp_capprod_dcu_nus_a.htm">Production capacity</a></li>
 					<li><a href="/dnav/pet/pet_pnp_capchg_dcu_nus_a.htm">Downstream charge capacity</a></li>
@@ -712,8 +701,7 @@
 			<li class="head">Movements between PAD Districts</li>
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_move_ptb_dc_R20-R10_mbbl_m.htm">By pipeline, tanker, barge, and rail</a></li>
 					<li><a href="/dnav/pet/pet_move_pipe_dc_R20-R10_mbbl_m.htm">By pipeline</a></li>
 					<li><a href="/dnav/pet/pet_move_tb_dc_R20-R10_mbbl_m.htm">By tanker and barge</a></li>
@@ -744,8 +732,7 @@
 			<li class="head">F.O.B. costs of imported crude oil</li>
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span> June 1, 2016</span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_move_imc1_k_m.htm">By area</a></li>
 					<li><a href="/dnav/pet/pet_move_imc2_k_m.htm">By crude stream</a></li>
 					<li><a href="/dnav/pet/pet_move_imc3_k_m.htm">By API gravity</a></li>
@@ -759,8 +746,7 @@
 			<li class="head">Landed costs of imported crude oil</li>
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_move_land1_k_m.htm">By area</a></li>
 					<li><a href="/dnav/pet/pet_move_land2_k_m.htm">By crude stream</a></li>
 					<li><a href="/dnav/pet/pet_move_land3_k_m.htm">By API gravity</a></li>
@@ -901,8 +887,7 @@
 			<li class="head">Refiner sales volumes</li>
 			<li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc'); ?></span></li>
 			<li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span> by U.S., PAD District, state and sales type</li>
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_cons_refmg_d_nus_VTR_mgalpd_m.htm">Motor gasoline</a></li>
 					<li><a href="/dnav/pet/pet_cons_refres_d_nus_VTR_mgalpd_m.htm">Residual fuel oil and No. 4 fuel oil</a></li>
 					<li><a href="/dnav/pet/pet_cons_refoth_d_nus_VTR_mgalpd_m.htm">Other products</a></li>
@@ -916,8 +901,7 @@
 			<li class="head">Sales of fuel oil and kerosene</li>
 			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc'); ?></span> by U.S., PAD District, state</li>
 			<!-- li><span class="release-date">annual Release Date: </span></li -->
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_cons_821dst_dcu_nus_a.htm">Distillate by end use</a></li>
 					<li><a href="/dnav/pet/pet_cons_821rsd_dcu_nus_a.htm">Residual fuel oil by end use</a></li>
 					<li><a href="/dnav/pet/pet_cons_821ker_dcu_nus_a.htm">Kerosene by end use</a></li>
@@ -932,8 +916,7 @@
 			<li class="head">Adjusted sales of fuel oil and kerosene</li>
 			<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc'); ?></span> by U.S., PAD District, state</li>
 			<!-- li><span class="release-date">annual Release Date:</span></li -->
-			<li>
-				<ul>
+			<li>				<ul>
 					<li><a href="/dnav/pet/pet_cons_821dsta_dcu_nus_a.htm">Distillate by end use</a></li>
 					<li><a href="/dnav/pet/pet_cons_821rsda_dcu_nus_a.htm">Residual fuel oil by end use</a></li>
 					<li><a href="/dnav/pet/pet_cons_821kera_dcu_nus_a.htm">Kerosene by end use</a></li>

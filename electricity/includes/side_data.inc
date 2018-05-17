@@ -4,8 +4,8 @@
       <span class="blue_side">
         <h4 class="d_side">Interactive Electricity Data </h4>
         
-        <p><em>browse pre-defined or custom data views, graph or map data series down to the plant level</em><br />
-        <br /><b><a href="/electricity/data/browser/">Electricity data browser &rsaquo;</a></b><br />
+        <p><em>browse pre-defined or custom data views, graph or map data series down to the plant level</span></li>
+			<li>        <br /><b><a href="/electricity/data/browser/">Electricity data browser &rsaquo;</a></b><br />
 	     <br />
          <?php /*hr width="55" align="center"/*/ ?>
          <span style="font-size:18px; text-align:center"> - OR - </span><br /><br />

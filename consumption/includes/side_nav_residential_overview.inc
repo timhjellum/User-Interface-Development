@@ -5,10 +5,9 @@
                 <h4>Residential Consumption:</h4>
                  <p class="no_btm_border"> <strong>Residential Sector Total</strong> </li>         
          <ul>
-          <li><a href="/aer/txt/ptb0201e.html">annual</a> 	&mdash; 1949-2009<br />
-          Annual Energy Review 2009<em></em></li>
+          <li><a href="/aer/txt/ptb0201e.html">annual</a> 	&mdash; 1949-2009			<li class="release-schedule">Annual Energy Review 2009<em></em></li>
           <li><a href="/mer/consump.html">monthly</a><br />
-           <em>Monthly Energy Review</em></li>
+           			<li class="release-schedule">Monthly Energy Review</em></li>
           </ul>
        <!--  <p class="no_btm_border"><strong>Residential Energy Consumption Statistics</strong><br/>
            Residential Energy Consumption Survey 2005 and previous<br />  
@@ -26,7 +25,7 @@
                 <li><a href="/emeu/recs/recs2005/hc2005_tables/detailed_tables2005.html">Lighting usage indicator tables</a><br />
                   Residential Energy Consumption Survey 2005</li>
           <li><a href="http://www.eia.gov/oiaf/aeo/tablebrowser/#release=AEO2011&subject=0-AEO2011&table=4-AEO2011&region=0-0&cases=ref2011-d120810c">Residential sector key indicators and consumption</a><br /> projections to 2035<br />
-            <em>Annual Energy Outlook 2011, Early Release</em></li>
+            			<li class="release-schedule">Annual Energy Outlook 2011, Early Release</em></li>
           
           
           </ul></ul>

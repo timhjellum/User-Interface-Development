@@ -561,69 +561,59 @@ $ELECTRICITY_CONS_YTD_2015 = $neic->get($bindVariables);
           <td align="right"><?php echo number_format($arrCoal_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrCoal_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrCoal_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrCoal_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrCoal_Cons[1]); ?></li>
 
       <tr>
           <td>Natural Gas</td>
           <td align="right"><?php echo number_format($arrNaturalGas_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrNaturalGas_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrNaturalGas_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrNaturalGas_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrNaturalGas_Cons[1]); ?></li>
       <tr>
           <td>Petroleum</td>
           <td align="right"><?php echo number_format($arrPetroleum_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrPetroleum_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrPetroleum_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrPetroleum_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrPetroleum_Cons[1]); ?></li>
       <tr>
           <td>Hydroelectric Power</td>
           <td align="right"><?php echo number_format($arrHydroelectric_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrHydroelectric_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrHydroelectric_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrHydroelectric_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrHydroelectric_Cons[1]); ?></li>
       <tr>
           <td>Geothermal</td>
           <td align="right"><?php echo number_format($arrGeothermal_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrGeothermal_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrGeothermal_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrGeothermal_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrGeothermal_Cons[1]); ?></li>
       <tr>
           <td>Solar/PV</td>
           <td align="right"><?php echo number_format($arrSolar_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrSolar_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrSolar_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrSolar_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrSolar_Cons[1]); ?></li>
       <tr>
           <td>Wind</td>
           <td align="right"><?php echo number_format($arrWind_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrWind_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrWind_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrWind_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrWind_Cons[1]); ?></li>
       <tr>
           <td>Biomass</td>
           <td align="right"><?php echo number_format($arrBiomass_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrBiomass_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrBiomass_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrBiomass_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrBiomass_Cons[1]); ?></li>
       <tr>
           <td>Electricity Retail Sales</td>
           <td align="right"><?php echo number_format($arrElectricity_Cons[4]); ?></td>
           <td align="right"><?php echo number_format($arrElectricity_Cons[3]); ?></td>
           <td align="right"><?php echo number_format($arrElectricity_Cons[2]); ?></td>
-          <td align="right"><?php echo number_format($arrElectricity_Cons[1]); ?></td>
-     </tr>
+          <td align="right"><?php echo number_format($arrElectricity_Cons[1]); ?></li>
     <tfoot>
     <tr>
-    <td colspan="5">Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec2_7.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 2.3</a></td>
-    </tr>
+    <td colspan="5">Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec2_7.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 2.3</a></li>
     </tfoot>
 	</tbody>
 </table>

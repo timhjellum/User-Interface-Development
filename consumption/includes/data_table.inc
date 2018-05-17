@@ -14,32 +14,26 @@
     <tr>
       <td>Residential</td>
       <td>11,440</td>
-      <td>21,287</td>
-    </tr>
+      <td>21,287</li>
     <tr>
       <td>Commercial</td>
       <td>9,281</td>
-      <td>18,047</td>
-    </tr>
+      <td>18,047</li>
     <tr>
       <td>Industrial</td>
       <td>15,580</td>
-      <td>31,154</td>
-    </tr>
+      <td>31,154</li>
     <tr>
       <td>Transportation</td>
       <td>13,348</td>
-      <td >27,147</td>
-    </tr>
+      <td >27,147</li>
     <tr class="total">
       <td >Total primary</td>
       <td>49,659</td>
-      <td >97,635</td>
-    </tr><tfoot>
+      <td >97,635</li><tfoot>
         <tr>
         <td colspan="3">Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/#consumption											
-">Monthly Energy Review</a></td>
-        </tr>
+">Monthly Energy Review</a></li>
         </tfoot>
   </tbody>
 </table>

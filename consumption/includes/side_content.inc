@@ -2,27 +2,31 @@
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
         <span class="grey_side blue_top">
         <h4>Energy Use Information by Sector</h4>
-<p class="no_btm_border"><strong>Residential</strong><br />
+<p class="no_btm_border"><strong>Residential</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="residential/"> overview</a></li>
           <li><a href="residential/data/2005/">most recent data (2005)</a></li>
           <li><a href="residential/reports/">analysis, projections &amp; reports</a></li></ul>
           <hr/>
-<strong>Commercial Buildings</strong><br />
+<strong>Commercial Buildings</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="commercial/">overview</a></li>
           <li><a href="commercial/data/2003/">most recent data (2003)</a></li>
           <li><a href="commercial/reports/">analysis, projections &amp; reports</a></li></ul><hr/>
-          <strong>Manufacturing</strong><br />
+          <strong>Manufacturing</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="industrial/">overview</a></li>
           <li><a href="manufacturing/data/2006/">most recent data (2006)</a></li>
           <li><a href="manufacturing/reports/">analysis, projections &amp; reports</a></li></ul>
           <hr/>
-<p class="no_btm_border" ><strong>Transportation</strong><br />
+<p class="no_btm_border" ><strong>Transportation</li>
+			<li>
             Energy use by fuel type, housing type, and end uses
         <ul>
           <li><a href="transportation/">overview</a></li>

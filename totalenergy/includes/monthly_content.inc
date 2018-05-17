@@ -4,11 +4,9 @@
 <span class="grey_side blue_top side_list_nocolumn">
 	<h4>Changes this month</h4>
 	<ul>
-	<li>
-	<a href="/totalenergy/data/monthly/pdf/sec10_8.pdf">Biodiesel Overview</a> (Table 10.4) now incorporates monthly biodiesel production data from Form EIA-22M.
+	<li>	<a href="/totalenergy/data/monthly/pdf/sec10_8.pdf">Biodiesel Overview</a> (Table 10.4) now incorporates monthly biodiesel production data from Form EIA-22M.
 	</li>
-	<li>
-	<a href="/totalenergy/data/monthly/pdf/sec13_5.pdf">Approximate Heat Content of Coal and Coal Coke</a> (Table A5) has revised coal heat content values.
+	<li>	<a href="/totalenergy/data/monthly/pdf/sec13_5.pdf">Approximate Heat Content of Coal and Coal Coke</a> (Table A5) has revised coal heat content values.
 	</li>
 	<li><a href="/totalenergy/data/monthly/whatsnew.cfm">See list of previous changes</a></li>
 	</ul>

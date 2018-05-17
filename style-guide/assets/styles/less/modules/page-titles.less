@@ -10,16 +10,15 @@
 			min-height: 74px;
 			padding-bottom: 10px;
 		}
-		a {
-			position: relative;
-			top: 12px;
-			left: 15px;
-		}
+//		a {
+//			position: relative;
+//			top: 12px;
+//			left: 15px;
+//		}
 		h1 {
 			.header-font;
 			text-transform: uppercase;
-			padding: 0 .5em;
-			//border-bottom: 2px solid @eia-dark-blue;
+			text-indent: 1.375rem; // 22 pixels
 			font-size: 2rem; // 32px
 		}
 	}
@@ -28,9 +27,10 @@
 @media @tablet{
 	.title-banner {
 		h1 {
-			padding: .25em;
-			margin: 0 0 .75em 0;
-			border: none !important;
+			padding: .25em 0 0 0;
+			margin: 0 0 0 0;
+			text-indent: 1.375rem; // 22 pixels
+			border: none;
 			&.cbecs {
 				font-size: 1.125em;
 				padding: 15px 0 0 20px;
@@ -49,91 +49,142 @@
 		background-size: cover;
 		display: table;
 		width: 100%;
-
+		h1 {
+			border-bottom: none;
+			padding: 25px 0 0 0;
+			float: left;
+			text-indent: 1.375rem; // 22 pixels
+			&.cbecs {
+				font-size: 1.6875rem;
+			}
+		}
+		&.bg-page-title {
+			background-image: url(https://www.eia.gov/global/images/page_headers/default-pub-header.jpg);
+			h1 {
+				font-size: 32px;
+				padding: 55px 0 0 0; // 22 pixels;
+				text-indent: 1.375rem; // 22 pixels
+				text-transform: uppercase;
+			}
+			.pub-title {
+				width: 100%;
+				clear: both;
+				font-size: 0.688rem; // 11 pixels
+				text-indent: 1.375rem; // 22 pixels
+				margin: 0px;
+				padding: 2px 0px;
+				color: #7d7d7d;
+				&>span {
+					&:before {
+						content: '|';
+						margin: 0 6px 0 3px;
+					}
+					a {
+						display: inline-block;
+						color: @eia-dark-blue;
+						text-decoration: none;
+						&:hover {
+							text-decoration: underline;
+						} 
+					}
+					.pdf {
+						float: left;
+						span {
+							position: absolute;
+							left: -10000px;
+							top: auto;
+							width: 1px;
+							height: 1px;
+							overflow: hidden;
+						}
+					}
+				}
+				&>span {
+					&:first-child {
+						&:before {
+							content: '';
+							margin: 0 6px 0 3px;
+						}						
+					}
+				}
+			}
+		}
 		&.bg-all-sources {
-			background-image: url(/global/images/page_headers/all-sources.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/all-sources.jpg);
 		}
 
 		&.bg-analysis {
-			background-image: url(/global/images/page_headers/analysis-projections.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/analysis-projections.jpg);
 		}
 
 		&.bg-coal {
-			background-image: url(/global/images/page_headers/coal.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/coal.jpg);
 		}
 		&.bg-commercial {
-			background-image: url(/global/images/page_headers/commercial.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/commercial.jpg);
 			background-color: #fff;
 			padding: 0;
 		}
 		&.bg-conference {
-			background-image: url(/global/images/page_headers/conference.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/conference.jpg);
 			min-height: 106px;
 		}
 		&.bg-countries {
-			background-image: url(/global/images/page_headers/countries.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/countries.jpg);
 		}
 		&.bg-electricity {
-			background-image: url(/global/images/page_headers/electricity.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/electricity.jpg);
 		}
 		&.bg-environment {
-			background-image: url(/global/images/page_headers/environment.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/environment.jpg);
 		}
 		&.bg-enduse {
-			background-image: url(/global/images/page_headers/enduse.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/enduse.jpg);
 		}
 		&.bg-finance {
-			background-image: url(/global/images/page_headers/finance.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/finance.jpg);
 		}
 		&.bg-industrial {
-			background-image: url(/global/images/page_headers/industrial.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/industrial.jpg);
 		}
 		&.bg-maps {
-			background-image: url(/global/images/page_headers/maps.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/maps.jpg);
 		}
 		&.bg-natural-gas {
-			background-image: url(/global/images/page_headers/natural-gas.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/natural-gas.jpg);
 		}
 		&.bg-nuclear {
-			background-image: url(/global/images/page_headers/nuclear.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/nuclear.jpg);
 		}
 		&.bg-petroleum {
-			background-image: url(/global/images/page_headers/petroleum.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/petroleum.jpg);
 		}
 		&.bg-press {
-			background-image: url(/global/images/page_headers/press.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/press.jpg);
 		}
 		&.bg-regions {
-			background-image: url(/global/images/page_headers/regions.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/regions.jpg);
 		}
 		&.bg-renewable {
-			background-image: url(/global/images/page_headers/renewable.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/renewable.jpg);
 		}
 		&.bg-residential {
-			background-image: url(/global/images/page_headers/residential.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/residential.jpg);
 		}
 		&.bg-recs {
-			background-image: url(/global/images/page_headers/recs.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/recs.jpg);
 		}
 		&.bg-states {
-			background-image: url(/global/images/page_headers/states.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/states.jpg);
 		}
 		&.bg-transportation {
-			background-image: url(/global/images/page_headers/transportation.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/transportation.jpg);
 		}
 		&.bg-tie {
-			background-image: url(/global/images/page_headers/today-in-energy.jpg);
+			background-image: url(https://www.eia.gov/global/images/page_headers/today-in-energy.jpg);
 		}
 		&.bg-models {
-			background-image: url(/global/images/page_headers/models.jpg);
-		}
-		h1 {
-			border-bottom: none;
-			padding: 25px 0 10px 22px;
-			float: left;
-			&.cbecs {
-				font-size: 1.6875rem;
-			}
+			background-image: url(https://www.eia.gov/global/images/page_headers/models.jpg);
 		}
 	}
 }

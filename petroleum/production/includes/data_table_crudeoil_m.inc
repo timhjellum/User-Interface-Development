@@ -20,8 +20,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>9,235</td>
 <td>-0.6<i class="ico value down"></i></td>
 <td>9,341</td>
-<td>-1.7<i class="ico value down"></i></td>
-</tr>
+<td>-1.7<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Alabama</td>
@@ -29,8 +28,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>23</td>
 <td>-3.0<span class="no_change"></span></td>
 <td>27</td>
-<td>-18.8<i class="ico value up">up</i></td>
-</tr>
+<td>-18.8<i class="ico value up">up</i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Alaska</td>
@@ -38,8 +36,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>522</td>
 <td>-1.3<i class="ico value down"></i></td>
 <td>500</td>
-<td>3.1<i class="ico value up">up</i></td>
-</tr>
+<td>3.1<i class="ico value up">up</i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Arizona</td>
@@ -47,8 +44,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>0</td>
 <td>-35.0<i class="ico value down"></i></td>
 <td>0</td>
-<td>-81.2<i class="ico value down"></i></td>
-</tr>
+<td>-81.2<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Arkansas</td>
@@ -56,8 +52,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>16</td>
 <td>-5.3<i class="ico value down"></i></td>
 <td>21</td>
-<td>-26.6<i class="ico value down"></i></td>
-</tr>
+<td>-26.6<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>California</td>
@@ -65,8 +60,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>543</td>
 <td>-1.2<i class="ico value down"></i>
 <td>565</td>
-<td>-5.0<i class="ico value down"></i></td>
-</tr>
+<td>-5.0<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Colorado</td>
@@ -74,8 +68,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>324</td>
 <td>-0.2<i class="ico value down"></i></td>
 <td>310</td>
-<td>4.3<i class="ico value up">up</i></td>
-</tr>
+<td>4.3<i class="ico value up">up</i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Federal Offshore Gulf of Mexico</td>
@@ -83,8 +76,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>1,629</td>
 <td>-1.1<i class="ico value down"></i></td>
 <td>1,497</td>
-<td>7.6<i class="ico value up">up</i></td>
-</tr>
+<td>7.6<i class="ico value up">up</i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Federal Offshore Pacific</td>
@@ -92,8 +84,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>21</td>
 <td>-21.7<i class="ico value down"></i></td>
 <td>53</td>
-<td>-68.2<i class="ico value down"></i></td>
-</tr>
+<td>-68.2<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Florida</td>
@@ -101,8 +92,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>6</td>
 <td>-5.1<i class="ico value down"></i></td>
 <td>6</td>
-<td>-8.2<i class="ico value down"></i></td>
-</tr>
+<td>-8.2<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Illinois</td>
@@ -110,8 +100,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>27</td>
 <td>-16.3<i class="ico value down"></i></td>
 <td>26</td>
-<td>-12.8<i class="ico value down"></i></td>
-</tr>
+<td>-12.8<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Indiana</td>
@@ -119,8 +108,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>6</td>
 <td>-19.4<i class="ico value down"></i></td>
 <td>7</td>
-<td>-32.8<i class="ico value down"></i></td>
-</tr>
+<td>-32.8<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Kansas</td>
@@ -128,8 +116,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>107</td>
 <td>0.4<i class="ico value up">up</i></td>
 <td>137</td>
-<td>-21.8<i class="ico value down"></i></td>
-</tr>
+<td>-21.8<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Kentucky</td>
@@ -137,8 +124,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>12</td>
 <td>-34.9<i class="ico value down"></i></td>
 <td>9</td>
-<td>-16.7<i class="ico value down"></i></td>
-</tr>
+<td>-16.7<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Louisiana</td>
@@ -146,8 +132,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>163</td>
 <td>-4.1<i class="ico value down"></i></td>
 <td>186</td>
-<td>-15.8<i class="ico value down"></i></td>
-</tr>
+<td>-15.8<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Michigan</td>
@@ -155,8 +140,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>16</td>
 <td>-5.2<i class="ico value down"></i></td>
 <td>18</td>
-<td>-16.7<i class="ico value down"></i></td>
-</tr>
+<td>-16.7<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Mississippi</td>
@@ -164,8 +148,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>62</td>
 <td>-2.8<i class="ico value down"></i></td>
 <td>71</td>
-<td>-14.6<i class="ico value down"></i></td>
-</tr>
+<td>-14.6<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Missouri</td>
@@ -173,8 +156,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>0</td>
 <td>-12.8<i class="ico value down"></i></td>
 <td>0</td>
-<td>-29.8<i class="ico value down"></i></td>
-</tr>
+<td>-29.8<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Montana</td>
@@ -182,8 +164,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>72</td>
 <td>-3.6<i class="ico value down"></i></td>
 <td>84</td>
-<td>-17.5<i class="ico value down"></i></td>
-</tr>
+<td>-17.5<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Nebraska</td>
@@ -191,8 +172,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>7</td>
 <td>-9.1<i class="ico value down"></i></td>
 <td>8</td>
-<td>-19.7<i class="ico value down"></i></td>
-</tr>
+<td>-19.7<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Nevada</td>
@@ -200,8 +180,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>1</td>
 <td>-19.5<i class="ico value down"></i></td>
 <td>1</td>
-<td>-16.0<i class="ico value down"></i></td>
-</tr>
+<td>-16.0<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>New Mexico</td>
@@ -209,8 +188,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>361</td>
 <td>6.0<i class="ico value up">up</i></td>
 <td>370</td>
-<td>3.3<i class="ico value up">up</i></td>
-</tr>
+<td>3.3<i class="ico value up">up</i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>New York</td>
@@ -218,8 +196,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>1</td>
 <td>0.0<span class="no_change"></span></td>
 <td>1</td>
-<td>0.0<span class="no_change"></span></td>
-</tr>
+<td>0.0<span class="no_change"></span></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>North Dakota</td>
@@ -227,8 +204,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>1,140</td>
 <td>-2.8<i class="ico value down"></i></td>
 <td>1,167</td>
-<td>-5.1<i class="ico value down"></i></td>
-</tr>
+<td>-5.1<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Ohio</td>
@@ -236,8 +212,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>78</td>
 <td>-7.6<i class="ico value down"></i></td>
 <td>51</td>
-<td>41.5<i class="ico value up">up</i></td>
-</tr>
+<td>41.5<i class="ico value up">up</i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Oklahoma</td>
@@ -245,8 +220,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>396</td>
 <td>2.2<i class="ico value up">up</i></td>
 <td>448</td>
-<td>-9.7<i class="ico value down"></i></td>
-</tr>
+<td>-9.7<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Pennsylvania</td>
@@ -254,8 +228,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>18</td>
 <td>-5.6<i class="ico value down"></i></td>
 <td>19</td>
-<td>-12.3<i class="ico value down"></i></td>
-</tr>
+<td>-12.3<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>South Dakota</td>
@@ -263,8 +236,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>4</td>
 <td>4.1<i class="ico value up">up</i></td>
 <td>5</td>
-<td>-13.7<i class="ico value down"></i></td>
-</tr>
+<td>-13.7<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Tennessee</td>
@@ -272,8 +244,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>1</td>
 <td>-4.7<i class="ico value down"></i></td>
 <td>1</td>
-<td>-36.5<i class="ico value down"></i></td>
-</tr>
+<td>-36.5<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Texas</td>
@@ -281,8 +252,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>3,340</td>
 <td>0.7<i class="ico value up">up</i></td>
 <td>3,373</td>
-<td>-0.2<i class="ico value down"></i></td>
-</tr>
+<td>-0.2<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Utah</td>
@@ -290,8 +260,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>90</td>
 <td>-3.2<i class="ico value down"></i></td>
 <td>111</td>
-<td>-21.0<i class="ico value down"></i></td>
-</tr>
+<td>-21.0<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Virginia</td>
@@ -299,8 +268,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>0</td>
 <td>0.0<span class="no_change"></span></td>
 <td>0</td>
-<td>53.8<i class="ico value up">up</i></td>
-</tr>
+<td>53.8<i class="ico value up">up</i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>West Virginia</td>
@@ -308,8 +276,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>21</td>
 <td>4.9<i class="ico value up">up</i></td>
 <td>25</td>
-<td>-15.2<i class="ico value down"></i></td>
-</tr>
+<td>-15.2<i class="ico value down"></i></li>
 <tr class="addToVis">
 <td class="icon"><i class="ico linechart" title="Click to chart this series"></i></td>
 <td>Wyoming</td>
@@ -317,8 +284,7 @@ Crude Oil <span class="date">(thousand barrels per day)</span>
 <td>228</td>
 <td>-4.5<i class="ico value down"></i></td>
 <td>241</td>
-<td>-9.7<i class="ico value down"></i></td>
-</tr>
+<td>-9.7<i class="ico value down"></i></li>
 </tbody>
 <tfoot>
 <td colspan="10">        <li>Notes: Crude oil includes lease condensate. The sum of  individual states may not equal total U.S. volumes due to independent rounding.  A zero may indicate volume of less than 0.5 thousand barrels per day. Previous  months' production volumes may have been revised for all states/areas.<br/>

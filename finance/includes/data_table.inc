@@ -16,35 +16,30 @@
           <td>1.9</td>			 
           <td>2.6</td>
           <td>2.7</td>
-          <td>2.5</td>
-     </tr>
+          <td>2.5</li>
       <tr>
           <td>GDP Implicit Price Deflator</td>
           <td>1.4</td>			 
           <td>1.7</td>
           <td>1.6</td>
-          <td>1.2</td>
-     </tr>
+          <td>1.2</li>
       <tr>
           <td>Real Disposable Personal Income</td>
           <td>2.4</td>			 
           <td>2.2</td>
           <td>2.3</td>
-          <td>3.2</td>
-     </tr>
+          <td>3.2</li>
       <tr>
           <td>Manufacturing Production Index</td>
           <td>2.4</td>			 
           <td>3.8</td>
           <td>4.6</td>
-          <td>4.4</td>
-     </tr>
+          <td>4.4</li>
 <?php /*
  Upstream financial review reference link 
     <tfoot>
     <tr>
-    <td colspan="2">Source: U.S. Energy Information Administration, <a href="/finance/review/pdf/financial.pdf">Upstream Financial Review &mdash; <em>July 2014</em></a></td>
-    </tr>
+    			<li>Source: U.S. Energy Information Administration, <a href="/finance/review/pdf/financial.pdf">Upstream Financial Review &mdash; <em>July 2014</em></a></li>
     </tfoot>
 */ ?>
 	</tbody>

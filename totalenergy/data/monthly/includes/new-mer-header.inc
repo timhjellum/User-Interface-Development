@@ -1,0 +1,1 @@
+document.write('<li><span class="release-date">Release Date: </span><span class="date hideme">April 26, 2018</span> | <span class="date hideme">data from: <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span></li>')

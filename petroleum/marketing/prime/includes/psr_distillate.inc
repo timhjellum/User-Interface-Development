@@ -22,19 +22,17 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border">&nbsp;</td>
 <td colspan="2" class="align-center"><strong>YTD</strong></td>
 <td class="no-border" style="width:1px"> </td>
-<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></td>
-</tr>
+<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></li>
 <tr>
-<td><strong>Area</strong></td>
-<td><strong>May 2017</strong></td>
-<td><strong>June 2017</strong></td>
-<td><strong>2016</strong></td>
-<td><strong>2017</strong></td>
+			<li class="head">Area</strong></td>
+			<li class="head">May 2017</strong></td>
+			<li class="head">June 2017</strong></td>
+			<li class="head">2016</strong></td>
+			<li class="head">2017</strong></td>
 <td class="no-border" style="width:1px"> </td>
 <td class="no-wrap"><strong>month</strong> ago</strong></td>
 <td class="no-wrap"><strong>year</strong> ago</strong></td>
-<td class="no-wrap"><strong>YTD</strong></td>
-</tr>
+<td class="no-wrap"><strong>YTD</strong></li>
 <tr>
 <td class="align-left">U.S.</td>
 <td>5,372,879</td>
@@ -44,8 +42,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>0.6</td>
 <td>9.4</td>
-<td>5.1</td>
-</tr>
+<td>5.1</li>
 <tr>
 <td class="align-left">PADD 1</td>
 <td>1,412,996</td>
@@ -55,8 +52,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>-4.2</td>
 <td>3.7</td>
-<td>1.4</td>
-</tr>
+<td>1.4</li>
 <tr>
 <td class="align-left">PADD 2</td>
 <td>1,659,918</td>
@@ -66,8 +62,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>3.6</td>
 <td>9.2</td>
-<td>6.0</td>
-</tr>
+<td>6.0</li>
 <tr>
 <td class="align-left">PADD 3</td>
 <td>1,303,360</td>
@@ -77,8 +72,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>0.9</td>
 <td>21.6</td>
-<td>10.6</td>
-</tr>
+<td>10.6</li>
 <tr>
 <td class="align-left">PADD 4</td>
 <td>287,940</td>
@@ -88,8 +82,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>-0.6</td>
 <td>1.3</td>
-<td>4.9</td>
-</tr>
+<td>4.9</li>
 <tr>
 <td class="align-left">PADD 5</td>
 <td>708,665</td>
@@ -99,8 +92,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border" style="width:1px"> </td>
 <td>3.2</td>
 <td>4.8</td>
-<td>2.2</td>
-</tr>
+<td>2.2</li>
 <tr>
 <th colspan="9"></strong>Prime supplier sales volumes of No. 2 distillate by state </strong> <span style="font-weight:normal">thousand gallons </span></th>
 </tr>
@@ -110,19 +102,17 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td class="no-border">&nbsp;</td>
 <td colspan="2" class="align-center"><strong>YTD</strong></td>
 <td class="no-border" style="width:1px"> </td>
-<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></td>
-</tr>
+<td colspan="3" class="align-center"><strong>% change</strong><sup>1</sup></li>
 <tr>
-<td><strong>State</strong></td>
-<td><strong>May 2017</strong></td>
-<td><strong>June 2017</strong></td>
-<td><strong>2016</strong></td>
-<td><strong>2017</strong></td>
+			<li class="head">State</strong></td>
+			<li class="head">May 2017</strong></td>
+			<li class="head">June 2017</strong></td>
+			<li class="head">2016</strong></td>
+			<li class="head">2017</strong></td>
 <td style="width:1px"> </td>
 <td class="no-wrap"><strong>month</strong> ago</strong></td>
 <td class="no-wrap"><strong>year</strong> ago</strong></td>
-<td class="no-wrap"><strong>YTD</strong></td>
-</tr>
+<td class="no-wrap"><strong>YTD</strong></li>
 <tr>
 <td class="align-left">Alaska</td>
 <td>W</td>
@@ -132,8 +122,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>W</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Alabama</td>
 <td>92,300</td>
@@ -143,8 +132,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.0</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Arkansas</td>
 <td>71,757</td>
@@ -154,8 +142,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>6.2</td>
 <td>9.5</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Arizona</td>
 <td>84,908</td>
@@ -165,8 +152,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>1.2</td>
 <td>0.2</td>
-<td>-2.2</td>
-</tr>
+<td>-2.2</li>
 <tr>
 <td class="align-left">California</td>
 <td>366,548</td>
@@ -176,8 +162,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-0.8</td>
 <td>4.8</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Colorado</td>
 <td>73,791</td>
@@ -187,8 +172,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>7.2</td>
 <td>0.0</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Connecticut</td>
 <td>34,661</td>
@@ -198,8 +182,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-2.6</td>
 <td>-2.9</td>
-<td>-9.6</td>
-</tr>
+<td>-9.6</li>
 <tr>
 <td class="align-left">D.C.</td>
 <td>1,462</td>
@@ -209,8 +192,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-4.8</td>
 <td>-0.6</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Delaware</td>
 <td>W</td>
@@ -220,8 +202,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>W</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Florida</td>
 <td>W</td>
@@ -231,8 +212,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>W</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Georgia</td>
 <td>150,176</td>
@@ -242,8 +222,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-1.9</td>
 <td>-3.8</td>
-<td>-0.3</td>
-</tr>
+<td>-0.3</li>
 <tr>
 <td class="align-left">Hawaii</td>
 <td>23,185</td>
@@ -253,8 +232,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>1.4</td>
 <td>43.9</td>
-<td>3.1</td>
-</tr>
+<td>3.1</li>
 <tr>
 <td class="align-left">Iowa</td>
 <td>94,707</td>
@@ -264,8 +242,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-1.3</td>
 <td>5.2</td>
-<td>0.9</td>
-</tr>
+<td>0.9</li>
 <tr>
 <td class="align-left">Idaho</td>
 <td>44,208</td>
@@ -275,8 +252,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-6.0</td>
 <td>-8.3</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Illinois</td>
 <td>188,950</td>
@@ -286,8 +262,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.9</td>
 <td>6.7</td>
-<td>2.7</td>
-</tr>
+<td>2.7</li>
 <tr>
 <td class="align-left">Indiana</td>
 <td>154,668</td>
@@ -297,8 +272,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.9</td>
 <td>7.9</td>
-<td>6.5</td>
-</tr>
+<td>6.5</li>
 <tr>
 <td class="align-left">Kansas</td>
 <td>87,340</td>
@@ -308,8 +282,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>19.1</td>
 <td>2.9</td>
-<td>13.9</td>
-</tr>
+<td>13.9</li>
 <tr>
 <td class="align-left">Kentucky</td>
 <td>80,773</td>
@@ -319,8 +292,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>4.0</td>
 <td>-0.3</td>
-<td>-0.7</td>
-</tr>
+<td>-0.7</li>
 <tr>
 <td class="align-left">Louisiana</td>
 <td>W</td>
@@ -330,8 +302,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>W</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Massachusetts</td>
 <td>62,193</td>
@@ -341,8 +312,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-11.0</td>
 <td>19.9</td>
-<td>6.8</td>
-</tr>
+<td>6.8</li>
 <tr>
 <td class="align-left">Maryland</td>
 <td>57,327</td>
@@ -352,8 +322,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.0</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Maine</td>
 <td>31,751</td>
@@ -363,8 +332,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-6.0</td>
 <td>8.0</td>
-<td>2.7</td>
-</tr>
+<td>2.7</li>
 <tr>
 <td class="align-left">Michigan</td>
 <td>112,483</td>
@@ -374,8 +342,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-0.4</td>
 <td>7.9</td>
-<td>2.9</td>
-</tr>
+<td>2.9</li>
 <tr>
 <td class="align-left">Minnesota</td>
 <td>87,125</td>
@@ -385,8 +352,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.8</td>
 <td>8.2</td>
-<td>3.2</td>
-</tr>
+<td>3.2</li>
 <tr>
 <td class="align-left">Missouri</td>
 <td>120,265</td>
@@ -396,8 +362,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>9.5</td>
 <td>10.9</td>
-<td>8.0</td>
-</tr>
+<td>8.0</li>
 <tr>
 <td class="align-left">Mississippi</td>
 <td>W</td>
@@ -407,8 +372,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>W</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Montana</td>
 <td>55,898</td>
@@ -418,8 +382,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>2.1</td>
 <td>1.8</td>
-<td>6.1</td>
-</tr>
+<td>6.1</li>
 <tr>
 <td class="align-left">North Carolina</td>
 <td>119,896</td>
@@ -429,8 +392,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-0.4</td>
 <td>0.0</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">North Dakota</td>
 <td>63,345</td>
@@ -440,8 +402,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-5.3</td>
 <td>20.7</td>
-<td>3.9</td>
-</tr>
+<td>3.9</li>
 <tr>
 <td class="align-left">Nebraska</td>
 <td>68,439</td>
@@ -451,8 +412,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>12.7</td>
 <td>3.7</td>
-<td>6.5</td>
-</tr>
+<td>6.5</li>
 <tr>
 <td class="align-left">New Hampshire</td>
 <td>18,178</td>
@@ -462,8 +422,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-6.4</td>
 <td>13.8</td>
-<td>-2.4</td>
-</tr>
+<td>-2.4</li>
 <tr>
 <td class="align-left">New Jersey</td>
 <td>W</td>
@@ -473,8 +432,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>W</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">New Mexico</td>
 <td>61,355</td>
@@ -484,8 +442,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-0.2</td>
 <td>4.3</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Nevada</td>
 <td>W</td>
@@ -495,8 +452,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.0</td>
 <td>14.5</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">New York</td>
 <td>142,736</td>
@@ -506,8 +462,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-6.8</td>
 <td>6.2</td>
-<td>0.3</td>
-</tr>
+<td>0.3</li>
 <tr>
 <td class="align-left">Ohio</td>
 <td>173,935</td>
@@ -517,8 +472,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>6.6</td>
 <td>9.0</td>
-<td>7.2</td>
-</tr>
+<td>7.2</li>
 <tr>
 <td class="align-left">Oklahoma</td>
 <td>170,308</td>
@@ -528,8 +482,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-3.8</td>
 <td>22.1</td>
-<td>16.5</td>
-</tr>
+<td>16.5</li>
 <tr>
 <td class="align-left">Oregon</td>
 <td>68,233</td>
@@ -539,8 +492,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.0</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Pennsylvania</td>
 <td>175,455</td>
@@ -550,8 +502,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-3.8</td>
 <td>3.1</td>
-<td>1.3</td>
-</tr>
+<td>1.3</li>
 <tr>
 <td class="align-left">Rhode Island</td>
 <td>NA</td>
@@ -561,8 +512,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>NA</td>
 <td>NA</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">South Carolina</td>
 <td>W</td>
@@ -572,8 +522,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.0</td>
 <td>0.0</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">South Dakota</td>
 <td>36,100</td>
@@ -583,8 +532,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-0.4</td>
 <td>18.4</td>
-<td>12.5</td>
-</tr>
+<td>12.5</li>
 <tr>
 <td class="align-left">Tennessee</td>
 <td>121,387</td>
@@ -594,8 +542,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>1.8</td>
 <td>7.3</td>
-<td>3.0</td>
-</tr>
+<td>3.0</li>
 <tr>
 <td class="align-left">Texas</td>
 <td>758,652</td>
@@ -605,8 +552,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.0</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Utah</td>
 <td>68,337</td>
@@ -616,8 +562,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-13.2</td>
 <td>-1.8</td>
-<td>3.0</td>
-</tr>
+<td>3.0</li>
 <tr>
 <td class="align-left">Virginia</td>
 <td>124,731</td>
@@ -627,8 +572,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-3.8</td>
 <td>7.4</td>
-<td>7.7</td>
-</tr>
+<td>7.7</li>
 <tr>
 <td class="align-left">Vermont</td>
 <td>9,798</td>
@@ -638,8 +582,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>-6.3</td>
 <td>-2.3</td>
-<td>-5.1</td>
-</tr>
+<td>-5.1</li>
 <tr>
 <td class="align-left">Washington</td>
 <td>197,315</td>
@@ -649,8 +592,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>3.8</td>
 <td>-0.2</td>
-<td>-1.1</td>
-</tr>
+<td>-1.1</li>
 <tr>
 <td class="align-left">Wisconsin</td>
 <td>100,093</td>
@@ -660,8 +602,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>6.5</td>
 <td>15.6</td>
-<td>3.4</td>
-</tr>
+<td>3.4</li>
 <tr>
 <td class="align-left">West Virginia</td>
 <td>37,050</td>
@@ -671,8 +612,7 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>0.0</td>
 <td>W</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 <tr>
 <td class="align-left">Wyoming</td>
 <td>45,706</td>
@@ -682,6 +622,5 @@ Prime supplier sales volumes of No. 2 distillate</a> by U.S. and PADD regions
 <td style="width:1px"> </td>
 <td>7.8</td>
 <td>0.0</td>
-<td>NA</td>
-</tr>
+<td>NA</li>
 </table>

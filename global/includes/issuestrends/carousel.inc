@@ -32,8 +32,7 @@ $thelink = $row['linkurl'];
 }
 $thetagnames = $row['reporttagnames'];
 ?>
-<li>
-<a href="<?= $thelink ?>" class="thumbnail" style="background-image: url('<?= $row['imgurl'] ?>');">
+<li><a href="<?= $thelink ?>" class="thumbnail" style="background-image: url('<?= $row['imgurl'] ?>');">
 </a>
 <div class="slide-content">
 <h3 class="ellipsis" data-truncate-lines="4" data-truncate-position="end">

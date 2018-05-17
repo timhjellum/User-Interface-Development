@@ -26,15 +26,13 @@
 <br />
 <h5 style="margin-bottom:-8px">No. 2 distillate</h5>
     <ul>
-        <li>
-August monthly average prices for refiner sales of No. 2 distillates show small changes from July levels. The average price for No. 2 diesel fuel sold to end users remained flat at $1.577 per gallon, while the average wholesale price rose 1.4 cents to $1.440 per gallon. The average wholesale price for No. 2 fuel oil increased 0.2 cent to $1.307 per gallon.</li>
+        <li>August monthly average prices for refiner sales of No. 2 distillates show small changes from July levels. The average price for No. 2 diesel fuel sold to end users remained flat at $1.577 per gallon, while the average wholesale price rose 1.4 cents to $1.440 per gallon. The average wholesale price for No. 2 fuel oil increased 0.2 cent to $1.307 per gallon.</li>
                 <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel rose in August. Retail sales rose 1.0 million gallons per day (8.1%), while wholesales increased 11.5 million gallons per day (8.9%).</li>
     </ul>
 <br />
 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
     <ul>
-        <li>
-Monthly average prices for residual fuel oil sold by refiners fell in August. The wholesale price for low-sulfur residual fuel oil declined 3.4 cents to 84.2 cents per gallon. Prices for high-sulfur residual fuel oil dropped 2.4 cents to 92.4 cents per gallon at retail, while the wholesale price fell 2.3 cents to 81.1 cents per gallon.</li>
+        <li>Monthly average prices for residual fuel oil sold by refiners fell in August. The wholesale price for low-sulfur residual fuel oil declined 3.4 cents to 84.2 cents per gallon. Prices for high-sulfur residual fuel oil dropped 2.4 cents to 92.4 cents per gallon at retail, while the wholesale price fell 2.3 cents to 81.1 cents per gallon.</li>
                 <li>Sales of residual fuel oil by refiners increased in August. Retail sales rose 100,000 gallons per day (2.3%), while wholesales increased 500,000 gallons per day (6.6%).</li>
     </ul>
 <br />

@@ -101,36 +101,28 @@ $neic      = new NEIC();
     <tbody>
       <tr>
           <td>Coal</td>
-          <td><?php echo number_format($dblCoal,3); ?></td>
-     </tr>
+          <td><?php echo number_format($dblCoal,3); ?></li>
       <tr>
           <td>Coal Coke</td>
-          <td><?php echo number_format($dblCoalCoke,3); ?></td>
-     </tr>
+          <td><?php echo number_format($dblCoalCoke,3); ?></li>
       <tr>
           <td>Natural Gas</td>
-          <td><?php echo number_format($dblNaturalGas,3); ?></td>
-     </tr>
+          <td><?php echo number_format($dblNaturalGas,3); ?></li>
       <tr>
           <td>Crude Oil</td>
-          <td><?php echo number_format($dblCrude,3); ?></td>
-     </tr>
+          <td><?php echo number_format($dblCrude,3); ?></li>
       <tr>
           <td>Petroleum Products</td>
-          <td><?php echo number_format($dblPetroleum,3); ?></td>
-     </tr>
+          <td><?php echo number_format($dblPetroleum,3); ?></li>
       <tr>
           <td>Biofuels</td>
-          <td><?php echo number_format($dblBiofuels,3); ?></td>
-     </tr>
+          <td><?php echo number_format($dblBiofuels,3); ?></li>
       <tr>
           <td>Electricity</td>
-          <td><?php echo number_format($dblElectricity,3); ?></td>
-     </tr>
+          <td><?php echo number_format($dblElectricity,3); ?></li>
     <tfoot>
         <tr>
-	        <td colspan="2">Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec1_11.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 1.4b</a></td>
-        </tr>
+	        			<li>Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec1_11.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 1.4b</a></li>
     </tfoot>
 	</tbody>
 </table>
