@@ -13,7 +13,7 @@
 			<li>
 				<ul>
 					<li>Monthly</li>
-					<li><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></li>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 					<li class="note">Interactive data from</li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/browser/">Total Energy Browser</a></li>
 					<li class="additional-formats">Available formats</li>
@@ -23,7 +23,7 @@
 			<li>
 				<ul>
 					<li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0701">Annual</a></li>
-					<li class="note"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></li>
+<?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?>
 					<li class="additional-formats">Available formats</li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/annual/pdf/sec7_5.pdf" class="ico_pdf" title="Coal overview annual"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0701.xls" class="ico_xls" title="Coal overview annual"><i class="ico xls"><span>XLS</span></i></a></li>
 				</ul>
@@ -50,7 +50,7 @@
 			<li>
 				<ul>
 					<li><strong>Average sales price</strong></li>
-					<li><span class="release-date"><?php include('css_rehab/archive/coal/annual/acr-release-date.inc') ?></li>
+<?php include('css_rehab/archive/coal/annual/acr-release-date.inc') ?>
 					<li class="note">Interactive data from <a href="/beta/coal/data/browser/" title="Average sales price Interactive data from">Coal Data Browser</a></li>
 					<li>
 						<ul>
@@ -70,7 +70,7 @@
 							<li class="additional-formats no-bullet">Available formats: <a href="/coal/annual/pdf/table32.pdf" class="ico_pdf" title="Average sales price By mine production range and mine type"><i class="ico pdf"><span>PDF</span></i></a> <a href="/coal/annual/xls/table32.xls" class="ico_xls" title="Average sales price By mine production range and mine type"><i class="ico xls"><span>XLS</span></i></a></li>
 							<li>By coal rank</li>
 							<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/annual/pdf/sec7_21.pdf" class="ico_pdf" title="Average sales price By coal rank"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0709.xls" class="ico_xls" title="Average sales price By coal rank"><i class="ico xls"><span>XLS</span></i></a>
-							<li class="note"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></li>
+<?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?>
 						</ul>
 					</li>
 				</ul>
@@ -79,7 +79,9 @@
 				<ul>
 					<li class="additional-formats">Average delivered prices to end use sector by Census division and state</li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/coal/annual/pdf/table34.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
-<a href="/coal/annual/xls/table34.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>					<?php include('css_rehab/archive/coal/annual/acr-release-date.inc') ?></li>
+<a href="/coal/annual/xls/table34.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>
+
+<?php include('css_rehab/archive/coal/annual/acr-release-date.inc') ?>
 					<li class="additional-formats">Price of coal shipments to the electric power sector, by Census division, and state</li>
 					<li class="additional-formats no-bullet">Available formats: <!-- beta right --> <a href="/beta/coal/data/browser/#/topic/45?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Price of coal shipments to the electric power sector, by Census division, and state"><i class="ico interactive"><span>INTERACTIVE</span></a></li>
 				</ul>
@@ -93,7 +95,7 @@
 			<li><a href="/coal/reserves/">Demonstrated Reserve Base</a></li>
 			<li><span class="release-date">Release Date: <span class="date">November 15, 2017 </span> | <span class="date"> data from <a href="/coal/reserves/">U.S. Coal Reserves</a></span></li>
 			<li><strong>Recoverable reserves</strong></li>
-			<li><span class="release-date"><script language="JavaScript" type="text/javascript" src="/coal/annual/acr-release-date.inc"></script></li>
+<?php include('css_rehab/archive//coal/annual/acr-release-date.inc') ?>
 			<li><span class="note">Interactive data from <a href="/coal/data/browser/" title="Recoverable reserves Interactive data from">Coal Data Browser</a></span></li>
 			<li class="dashed-divider">
 				<ul>
@@ -118,7 +120,7 @@
 	<div class="accordion-content">
 		<ul>
 			<li><strong>Monthly</strong></li>
-			<li><span class="release-date"><script language="javascript" type="text/javascript" src="/totalenergy/data/monthly/includes/new-mer-header.inc"></script></li>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
 			<li class="note">Interactive data from <a href="/coal/data/browser/" title="Consumption Monthly Interactive data from">Coal Data Browser</a></span></li>
 			<li class="additional-formats"><a href="/totalenergy/data/monthly/pdf/sec6_4.pdf" class="ico_pdf" title="Consumption Monthly"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T06.02" class="ico_csv" title="Consumption Monthly"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T06.02&amp;freq=m" class="ico_xls" title="Consumption Monthly"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a href="/beta/MER/index.cfm?tbl=T06.02#/?f=M&amp;start=200001" title="Consumption Monthly"><i class="ico interactive"><span>Interactive</span></i></a>
 			<li><strong>Quarterly</strong></li>
@@ -136,10 +138,11 @@
 			<li>
 				<ul>
 					<li>By sector (latest year), Census division and state</li>
-					<li><span class="release-date">Release Date: </span><span class="date"><script language="JavaScript" type="text/javascript" src="/coal/annual/acr-release-date.inc"></script></span></div>
+<?php include('css_rehab/archive//coal/annual/acr-release-date.inc') ?>
+
 					<li class="additional-formats no-bullet">Available formats: <a href="/coal/annual/pdf/table26.pdf" class="ico_pdf" title="Consumption Annual By sector (latest year), Census division and state"><i class="ico pdf"><span>PDF</span></i></a> <a href="/coal/annual/xls/table26.xls" class="ico_xls" title="Consumption Annual By sector (latest year), Census division and state"><i class="ico xls"><span>XLS</span></i></a></li>
 					<li>By sector (1949-2011)</li>
-					<li><span class="release-date">Release Date: </span><span class="date"><script language="JavaScript" type="text/javascript" src="/totalenergy/data/annual/txt/new_aerheader.txt"></script> </span></div>
+<?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?>
 					<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/annual/pdf/sec7_9.pdf" class="ico_pdf" title="Consumption Annual By sector (1949-2011)"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0703.xls" class="ico_xls" title="Consumption Annual By sector (1949-2011)"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a href="/beta/MER/index.cfm?tbl=T06.02#/?f=A&amp;start=1949&amp;end=2014&amp;charted=1-5-12-13-14" title="Consumption Annual By sector (1949-2011)"><i class="ico interactive"><span>Interactive</span></i></a></li>
 					<li>By electric power sector,  Census division, and state</li>
 					<li class="additional-formats no-bullet">Available formats: <!-- beta right --><a href="/beta/coal/data/browser/#/topic/20?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;sec=g&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" class="beta" title="Consumption Annual  By electric power sector, Census division, and state"><i class="ico interactive"><span>Interactive</span></i></a></li>
@@ -208,7 +211,7 @@
 			<li class="additional-formats"><a href="/coal/production/quarterly/pdf/t1p01p1.pdf" class="ico_pdf" title="Consumption quarterly"><i class="ico pdf"><span>PDF</span></i></a> <a href="/coal/production/quarterly/xls/t1p01p1.xls" class="ico_xls" title="Consumption quarterly"><i class="ico xls"><span>XLS</span></i></a></li>
 			<li><span class="release-date"><script language="JavaScript" type="text/JavaScript" src="/coal/production/quarterly/qcr_releasedate.txt"></script></li>
 			<li><strong>Annual</strong></li>
-			<li><span class="release-date"><?php include('css_rehab/archive/coal/annual/acr-release-date.inc') ?></li>
+<?php include('css_rehab/archive/coal/annual/acr-release-date.inc') ?>
 			<li><span class="note">Interactive data from <a href="/coal/data/browser/">Coal Data Browser</a></span></li>
 			<li class="dashed-line">
 				<ul>
@@ -224,7 +227,7 @@
 					<li class="additional-formats no-bullet">Available formats: <!-- beta right --><a href="/beta/coal/data/browser/#/topic/38?agg=0,2,1&amp;rank=g&amp;geo=vvvvvvvvvvvvo&amp;mntp=g&amp;freq=A&amp;start=2001&amp;ctype=map&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" class="beta" title="production Annual, Detailed mine level production data"><i class="ico interactive"><span>Interactive</span></i></a></li>
 					<li>By coal rank and mining method, 1949-2011</li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/annual/pdf/sec7_7.pdf" class="ico_pdf" title="production Annual By coal rank and mining method, 1949-2011"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0702.xls" class="ico_xls" title="production Annual By coal rank and mining method, 1949-2011"><i class="ico xls"><span>XLS</span></i></a>
-					<li class="note"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></li>
+<?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?>
 				</ul>
 			</li> 
 			<li><a href="/beta/international/data/browser/#?ord=CR&amp;cy=2013&amp;start=1980&amp;v=H&amp;vo=0&amp;so=0&amp;io=0&amp;vs=INTL.7-1-AFG-TST.A~INTL.7-1-ALB-TST.A~INTL.7-1-DZA-TST.A~INTL.7-1-ASM-TST.A~INTL.7-1-AGO-TST.A~INTL.7-1-ATA-TST.A~INTL.7-1-ATG-TST.A~INTL.7-1-ARG-TST.A~INTL.7-1-ARM-TST.A~INTL.7-1-ABW-TST.A~INTL.7-1-AUS-TST.A~INTL.7-1-AUT-TST.A~INTL.7-1-AZE-TST.A~INTL.7-1-BHS-TST.A~INTL.7-1-BHR-TST.A~INTL.7-1-BGD-TST.A~INTL.7-1-BRB-TST.A~INTL.7-1-BLR-TST.A~INTL.7-1-BEL-TST.A~INTL.7-1-BLZ-TST.A~INTL.7-1-BEN-TST.A~INTL.7-1-BMU-TST.A~INTL.7-1-BTN-TST.A~INTL.7-1-BOL-TST.A~INTL.7-1-BIH-TST.A~INTL.7-1-BWA-TST.A~INTL.7-1-BRA-TST.A~INTL.7-1-BRN-TST.A~INTL.7-1-BGR-TST.A~INTL.7-1-BFA-TST.A~INTL.7-1-MMR-TST.A~INTL.7-1-BDI-TST.A~INTL.7-1-KHM-TST.A~INTL.7-1-CMR-TST.A~INTL.7-1-CAN-TST.A~INTL.7-1-CPV-TST.A~INTL.7-1-CYM-TST.A~INTL.7-1-CAF-TST.A~INTL.7-1-TCD-TST.A~INTL.7-1-CHL-TST.A~INTL.7-1-CHN-TST.A~INTL.7-1-COL-TST.A~INTL.7-1-COM-TST.A~INTL.7-1-COG-TST.A~INTL.7-1-COD-TST.A~INTL.7-1-COK-TST.A~INTL.7-1-CRI-TST.A~INTL.7-1-CIV-TST.A~INTL.7-1-HRV-TST.A~INTL.7-1-CUB-TST.A~INTL.7-1-CYP-TST.A~INTL.7-1-CZE-TST.A~INTL.7-1-DNK-TST.A~INTL.7-1-DJI-TST.A~INTL.7-1-DMA-TST.A~INTL.7-1-DOM-TST.A~INTL.7-1-ECU-TST.A~INTL.7-1-EGY-TST.A~INTL.7-1-SLV-TST.A~INTL.7-1-GNQ-TST.A~INTL.7-1-ERI-TST.A~INTL.7-1-EST-TST.A~INTL.7-1-ETH-TST.A~INTL.7-1-FLK-TST.A~INTL.7-1-FRO-TST.A~INTL.7-1-FJI-TST.A~INTL.7-1-FIN-TST.A~INTL.7-1-CSK-TST.A~INTL.7-1-SCG-TST.A~INTL.7-1-SUN-TST.A~INTL.7-1-YUG-TST.A~INTL.7-1-FRA-TST.A~INTL.7-1-GUF-TST.A~INTL.7-1-PYF-TST.A~INTL.7-1-GAB-TST.A~INTL.7-1-GMB-TST.A~INTL.7-1-GEO-TST.A~INTL.7-1-DEU-TST.A~INTL.7-1-DDR-TST.A~INTL.7-1-DEUW-TST.A~INTL.7-1-GHA-TST.A~INTL.7-1-GIB-TST.A~INTL.7-1-GRC-TST.A~INTL.7-1-GRL-TST.A~INTL.7-1-GRD-TST.A~INTL.7-1-GLP-TST.A~INTL.7-1-GUM-TST.A~INTL.7-1-GTM-TST.A~INTL.7-1-GIN-TST.A~INTL.7-1-GNB-TST.A~INTL.7-1-GUY-TST.A~INTL.7-1-HTI-TST.A~INTL.7-1-HITZ-TST.A~INTL.7-1-HND-TST.A~INTL.7-1-HKG-TST.A~INTL.7-1-HUN-TST.A~INTL.7-1-ISL-TST.A~INTL.7-1-IND-TST.A~INTL.7-1-IDN-TST.A~INTL.7-1-IRN-TST.A~INTL.7-1-IRQ-TST.A~INTL.7-1-IRL-TST.A~INTL.7-1-ISR-TST.A~INTL.7-1-ITA-TST.A~INTL.7-1-JAM-TST.A~INTL.7-1-JPN-TST.A~INTL.7-1-JOR-TST.A~INTL.7-1-KAZ-TST.A~INTL.7-1-KEN-TST.A~INTL.7-1-KIR-TST.A~INTL.7-1-PRK-TST.A~INTL.7-1-KOR-TST.A~INTL.7-1-UNK-TST.A~INTL.7-1-KWT-TST.A~INTL.7-1-KGZ-TST.A~INTL.7-1-LAO-TST.A~INTL.7-1-LVA-TST.A~INTL.7-1-LBN-TST.A~INTL.7-1-LSO-TST.A~INTL.7-1-LBR-TST.A~INTL.7-1-LBY-TST.A~INTL.7-1-LTU-TST.A~INTL.7-1-LUX-TST.A~INTL.7-1-MAC-TST.A~INTL.7-1-MKD-TST.A~INTL.7-1-MDG-TST.A~INTL.7-1-MWI-TST.A~INTL.7-1-MYS-TST.A~INTL.7-1-MDV-TST.A~INTL.7-1-MLI-TST.A~INTL.7-1-MLT-TST.A~INTL.7-1-MTQ-TST.A~INTL.7-1-MRT-TST.A~INTL.7-1-MUS-TST.A~INTL.7-1-MEX-TST.A~INTL.7-1-FSM-TST.A~INTL.7-1-MDA-TST.A~INTL.7-1-MNG-TST.A~INTL.7-1-MNE-TST.A~INTL.7-1-MSR-TST.A~INTL.7-1-MAR-TST.A~INTL.7-1-MOZ-TST.A~INTL.7-1-NAM-TST.A~INTL.7-1-NRU-TST.A~INTL.7-1-NPL-TST.A~INTL.7-1-NLD-TST.A~INTL.7-1-NLDA-TST.A~INTL.7-1-NCL-TST.A~INTL.7-1-NZL-TST.A~INTL.7-1-NIC-TST.A~INTL.7-1-NER-TST.A~INTL.7-1-NGA-TST.A~INTL.7-1-NIU-TST.A~INTL.7-1-MNP-TST.A~INTL.7-1-NOR-TST.A~INTL.7-1-OMN-TST.A~INTL.7-1-PAK-TST.A~INTL.7-1-PSE-TST.A~INTL.7-1-PAN-TST.A~INTL.7-1-PNG-TST.A~INTL.7-1-PRY-TST.A~INTL.7-1-PER-TST.A~INTL.7-1-PHL-TST.A~INTL.7-1-POL-TST.A~INTL.7-1-PRT-TST.A~INTL.7-1-PRI-TST.A~INTL.7-1-QAT-TST.A~INTL.7-1-REU-TST.A~INTL.7-1-ROU-TST.A~INTL.7-1-RUS-TST.A~INTL.7-1-RWA-TST.A~INTL.7-1-SHN-TST.A~INTL.7-1-KNA-TST.A~INTL.7-1-LCA-TST.A~INTL.7-1-SPM-TST.A~INTL.7-1-VCT-TST.A~INTL.7-1-WSM-TST.A~INTL.7-1-STP-TST.A~INTL.7-1-SAU-TST.A~INTL.7-1-SEN-TST.A~INTL.7-1-SRB-TST.A~INTL.7-1-SYC-TST.A~INTL.7-1-SLE-TST.A~INTL.7-1-SGP-TST.A~INTL.7-1-SVK-TST.A~INTL.7-1-SVN-TST.A~INTL.7-1-SLB-TST.A~INTL.7-1-SOM-TST.A~INTL.7-1-ZAF-TST.A~INTL.7-1-ESP-TST.A~INTL.7-1-LKA-TST.A~INTL.7-1-SDN-TST.A~INTL.7-1-SUR-TST.A~INTL.7-1-SWZ-TST.A~INTL.7-1-SWE-TST.A~INTL.7-1-CHE-TST.A~INTL.7-1-SYR-TST.A~INTL.7-1-TWN-TST.A~INTL.7-1-TJK-TST.A~INTL.7-1-TZA-TST.A~INTL.7-1-THA-TST.A~INTL.7-1-TLS-TST.A~INTL.7-1-TGO-TST.A~INTL.7-1-TON-TST.A~INTL.7-1-TTO-TST.A~INTL.7-1-TUN-TST.A~INTL.7-1-TUR-TST.A~INTL.7-1-TKM-TST.A~INTL.7-1-TCA-TST.A~INTL.7-1-TUV-TST.A~INTL.7-1-USIQ-TST.A~INTL.7-1-USOH-TST.A~INTL.7-1-UGA-TST.A~INTL.7-1-UKR-TST.A~INTL.7-1-ARE-TST.A~INTL.7-1-GBR-TST.A~INTL.7-1-USA-TST.A~INTL.7-1-URY-TST.A~INTL.7-1-UZB-TST.A~INTL.7-1-VUT-TST.A~INTL.7-1-VEN-TST.A~INTL.7-1-VNM-TST.A~INTL.7-1-VIR-TST.A~INTL.7-1-VGB-TST.A~INTL.7-1-WAK-TST.A~INTL.7-1-ESH-TST.A~INTL.7-1-YEM-TST.A~INTL.7-1-ZMB-TST.A~INTL.7-1-ZWE-TST.A&amp;c=ruvvvvvfvtvnvv1vrvvvvfvvvvvvfvvvou20evvvvvvvvvvvvuvo&amp;pa=bi0000000000000000000000000000000000018001&amp;f=A&amp;ug=g&amp;ct=0&amp;tl_type=p&amp;tl_id=1-A&amp;s=">International  production</a></li>
@@ -254,11 +257,11 @@
 				</ul>
 			</li>
 			<li><strong>Monthly</strong> by sector</li>
-			<li><span class="release-date"><script language="javascript" type="text/javascript" src="/totalenergy/data/monthly/includes/new-mer-header.inc"></script></li>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
 			<li><span class="note"> Interactive data from <a href="/totalenergy/data/browser/" title="Interactive data from">Total Energy Browser</a></span></li>
 			<li class="additional-formats"><a href="/totalenergy/data/monthly/pdf/sec6_5.pdf" class="ico_pdf" title="Monthly by sector"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T06.03" class="ico_csv" title="Monthly by sector"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T06.03&amp;freq=m" class="ico_xls" title="Monthly by sector"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a href="/beta/MER/index.cfm?tbl=T06.03#/?f=M&amp;start=200001" title="Monthly by sector"><i class="ico interactive"><span>Interactive</span></i></a></li>
 			<li><strong title="By sector html">Annual</strong></a> by sector</li>
-			<li class="note"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></li>
+<?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?>
 			<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/annual/pdf/sec7_15.pdf" class="ico_pdf" title="Annual by sector"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0706.xls" class="ico_xls" title="Annual by sector"><i class="ico xls"><span>XLS</span></i></a></li>
 
 

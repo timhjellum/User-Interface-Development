@@ -1,1 +1,1 @@
-<span class="release-date">Release Date: </span><span class="date">April 26, 2018</span> | <span class="date">data from: <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
+<li><span class="release-date">Release Date: </span><span class="date">April 26, 2018</span> | <span class="date">data from: <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span></li>
