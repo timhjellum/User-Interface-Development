@@ -75,7 +75,7 @@
 <strong>Consumption of energy for all purposes, by industry & region</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">October 2017</span></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="manufacturing/data/2014/XLS/Table1_1.xlsx" class="ico_xls" title="Consumption of energy for all purposes, by industry & region"><i class="ico xls"><span>XLS</span></i></a>
 <!-- &nbsp; --><a href="manufacturing/data/2014/pdf/Table1_1.pdf" class="ico_pdf" title="Consumption of energy for all purposes, by industry & region"><i class="ico pdf"><span>PDF</span></i></a></li>      
 
@@ -245,39 +245,39 @@ Monthly Energy Review (MER)</li>
 
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 
 
 <span class="note">Interactive data from</li>
 <li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/browser/">Total Energy Data Browser</a></span></div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" class="ico_pdf"><span hidden="Renewable energy production and consumption by source"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.01&amp;freq=m" class="ico_xls"><span hidden="Renewable energy production and consumption by source"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001"><span hidden="Renewable energy production and consumption by source"></span>
 INTERACTIVE<!-- &nbsp; --></a></span></span>Renewable energy production and consumption by source</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/state/seds/sep_prod/SEDS_Production_Report.pdf" class="ico_pdf"><span hidden="Renewable energy production and total energy production by state"></span><i class="ico pdf"><span>PDF</span></i></a>
 Renewable energy production and total energy production by state</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec1_7.pdf" class="ico_pdf"><span hidden="Total energy consumption of renewable and nonrenewable energy sources"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.03&amp;freq=m" class="ico_xls"><span hidden="Total energy consumption of renewable and nonrenewable energy sources"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/totalenergy/data/browser/?tbl=T01.03#/?f=M&start=200001"><span hidden="Total energy consumption of renewable and nonrenewable energy sources"></span>
 INTERACTIVE<!-- &nbsp; --></a></span></span> Total energy consumption of renewable and nonrenewable energy sources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/state/seds/sep_use/notes/use_print.pdf" class="ico_pdf"><span hidden="Renewable energy consumption and total energy consumption by state"></span><i class="ico pdf"><span>PDF</span></i></a>
 Renewable energy consumption and total energy consumption by state</li>
 
 			<li>Renewable energy consumption by sector
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_4.pdf" class="ico_pdf"><span hidden="Renewable energy consumption by sector   Residential and commercial"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02A&amp;freq=m" class="ico_xls"><span hidden="Renewable energy consumption by sector   Residential and commercial"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001"><span hidden="Renewable energy consumption by sector   Residential and commercial"></span>
 INTERACTIVE<!-- &nbsp; --></a></span></span>Residential and commercial </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_5.pdf" class="ico_pdf"><span hidden="Renewable energy consumption by sector    Industrial and transportation"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02B&amp;freq=m" class="ico_xls"><span hidden="Renewable energy consumption by sector    Industrial and transportation"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001"><span hidden="Renewable energy consumption by sector    Industrial and transportation"></span>
 INTERACTIVE<!-- &nbsp; --></a></span></span> Industrial and transportation </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_6.pdf" class="ico_pdf"><span hidden="Renewable energy consumption by sector    Electric power"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02C&amp;freq=m" class="ico_xls"><span hidden="Renewable energy consumption by sector    Electric power"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001"><span hidden="Renewable energy consumption by sector    Electric power"></span>
 		INTERACTIVE<!-- &nbsp; --></a></span></span> Electric power</li>
@@ -289,12 +289,12 @@ INTERACTIVE<!-- &nbsp; --></a></span></span> Industrial and transportation </li>
 			<?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
 			<li>
 				<ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_03.xlsx" class="ico_xls"><span hidden="Generation capacity"></span><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_03.html">Generation capacity</a></li>
 			<li>
 Capacity  by energy source showing renewables' share </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_03_01_b.xlsx" class="ico_xls"><span hidden="net generation from renewable sources"></span><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="http://www.eia.gov/electricity/annual/html/epa_03_01_b.html">Net generation from renewable sources</a></li>
 		</ul></li>
@@ -317,7 +317,7 @@ Capacity  by energy source showing renewables' share </li>
 
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 
 
@@ -326,11 +326,11 @@ Capacity  by energy source showing renewables' share </li>
 <li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/browser/">Total Energy Data Browser</a></span>
 </div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" class="ico_pdf"><span hidden="Fuel ethanol overview"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.03&amp;freq=m" class="ico_xls"><span hidden="Fuel ethanol overview"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/totalenergy/data/browser/?tbl=T10.03#/?f=M&start=200001"><span hidden="Fuel ethanol overview"></span>
 INTERACTIVE<!-- &nbsp; --></a></span></span> Fuel ethanol overview</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_8.pdf" class="ico_pdf"><span hidden="Biodiesel and other renewable fuels overview"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.04&amp;freq=m" class="ico_xls"><span hidden="Biodiesel and other renewable fuels overview"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/beta/MER/index.cfm?tbl=T10.04#/?f=M&amp;start=200001"><span hidden="Biodiesel and other renewable fuels overview"></span>
 INTERACTIVE<!-- &nbsp; --></a></span></span> Biodiesel and other renewable fuels  overview</li>
@@ -354,24 +354,24 @@ Monthly densified biomass fuel (wood pellets, compressed bricks/logs) data on ma
 
 
 
-<?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc'); ?>
+<?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ?>
 
 
  <span class="note"></span> </p>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table1.pdf" class="ico_pdf"><span hidden="Production capacity and production"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/biofuels/biodiesel/production/table1.xls" class="ico_xls"><span hidden="Production capacity and production"></span><i class="ico xls"><span>XLS</span></i></a>
 </span>Production capacity and production</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table2.pdf" class="ico_pdf"><span hidden="Production, sales, and stocks"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/biofuels/biodiesel/production/table2.xls" class="ico_xls"><span hidden="Production, sales, and stocks"></span><i class="ico xls"><span>XLS</span></i></a>
 </span>Production, sales, and stocks</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table3.pdf" class="ico_pdf"><span hidden="Inputs to biodiesel production"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/biofuels/biodiesel/production/table3.xls" class="ico_xls"><span hidden="Inputs to biodiesel production"></span><i class="ico xls"><span>XLS</span></i></a>
 </span>Inputs to biodiesel production</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table4.pdf" class="ico_pdf"><span hidden="Producers and production capacity, by state"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/biofuels/biodiesel/production/table4.xls" class="ico_xls"><span hidden="Producers and production capacity, by state"></span><i class="ico xls"><span>XLS</span></i></a>
 </span>Producers and production capacity, by state</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table5.pdf" class="ico_pdf"><span hidden="Production by Petroleum Administration for Defense District"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/biofuels/biodiesel/production/table5.xls" class="ico_xls"><span hidden="Production by Petroleum Administration for Defense District"></span><i class="ico xls"><span>XLS</span></i></a>
 </span>Production by Petroleum Administration for Defense District              </li>
 		</ul></li>
@@ -385,7 +385,7 @@ Monthly densified biomass fuel (wood pellets, compressed bricks/logs) data on ma
 	<h2><i class="ico expand-collapse"></i><a name="geothermal"></a>Geothermal</h2>
 	<div class="accordion-content">
 		<ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" class="ico_pdf"><span hidden="Geothermal energy consumption"></span><i class="ico pdf"><span>PDF</span></i></a>
 <strong>Geothermal energy consumption</li>
 			<li>
@@ -393,7 +393,7 @@ Monthly densified biomass fuel (wood pellets, compressed bricks/logs) data on ma
 
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 
 
@@ -403,7 +403,7 @@ Monthly densified biomass fuel (wood pellets, compressed bricks/logs) data on ma
 	<h2><i class="ico expand-collapse"></i><a name="hydro"></a>Hydropower</h2>
 	<div class="accordion-content">
 		<ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_03_14.xlsx" class="ico_xls"><span hidden="Hydropower generation"></span><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_03_14.html"><span hidden="Hydropower"></span>
 Generation</a></li>
@@ -430,10 +430,10 @@ Net generation from hydroelectric (conventional) power by state by sector</li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/renewable/annual/solar_photo/">Solar Photovoltaic Cell/Module Shipments Report</a></span></li>
 			<li>
 				<ul>
-					<li class="additional-formats">Available formats</li>
+					<li></li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/renewable/annual/solar_photo/pdf/table1.pdf" class="ico_pdf"><span hidden="Number of companies involved in photovoltaic activities and number of employees"></span><i class="ico pdf"><span>PDF</span></i></a>
 Number of companies involved in photovoltaic activities and number of employees</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/renewable/annual/solar_photo/pdf/table3.pdf" class="ico_pdf"><span hidden="Annual photovoltaic module shipments, back to 2006"></span><i class="ico pdf"><span>PDF</span></i></a>
 Annual photovoltaic module shipments, back to 2006</li>
 			<li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb1008">Photovoltaic Cell and Module Shipments by Type, Trade, and Prices</a>, 1982-2010</li>
@@ -456,10 +456,7 @@ Annual photovoltaic module shipments, back to 2006</li>
 
 
 
-<?php include('css_rehab/archive/renewable/monthly/solar_photo/includes/renewable-header.inc'); ?>
-
-
-</div></li>
+<?php include('css_rehab/archive/renewable/monthly/solar_photo/includes/renewable-header.inc') ?></li>
 
 
 		</ul></li>
@@ -488,10 +485,7 @@ Annual photovoltaic module shipments, back to 2006</li>
 
 
 
-<?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
-
-
-</div>                </li>
+<?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>                </li>
 
 
 <!-- 
@@ -499,7 +493,7 @@ Annual photovoltaic module shipments, back to 2006</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">August 2010</span></li>
 			<li>This spreadsheet shows land cover characteristics and weights</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/cneaf/solar.renewables/page/fedland/table1.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head"><a href="/cneaf/solar.renewables/ilands/fig13.html">Wind resource potential &rsaquo;</a></li>
@@ -524,10 +518,7 @@ Annual photovoltaic module shipments, back to 2006</li>
 
 
 
-<?php include('css_rehab/archive/renewable/afv/afv-release-date.inc'); ?>
-
-
-</div> 
+<?php include('css_rehab/archive/renewable/afv/afv-release-date.inc') ?> 
 Data on alternative fuel vehicle (AFV) supply and fuel use and number of vehicles for four types of vehicle fleets: federal government, state government, transit agencies, and fuel providers; fleet &amp; fuel data back to 2003, supplier data back to 1994 </li>
 <li>
 					<ul>
@@ -539,7 +530,7 @@ Data on alternative fuel vehicle (AFV) supply and fuel use and number of vehicle
 </strong>
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" class="ico_pdf"><span hidden="Fuel ethanol overview"></span><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.03&amp;freq=m" class="ico_xls"><span hidden="Fuel ethanol overview"></span><i class="ico xls"><span>XLS</span></i></a>
 <span  class="beta"><a href="/totalenergy/data/browser/?tbl=T10.03#/?f=M&start=200001"><span hidden="Fuel ethanol overview"></span>
 INTERACTIVE<!-- &nbsp; --></a></span></span> Fuel ethanol overview </li>
@@ -549,7 +540,7 @@ INTERACTIVE<!-- &nbsp; --></a></span></span> Fuel ethanol overview </li>
 
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 
 
@@ -571,24 +562,24 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date">
 						
 						
-<?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc'); ?>
+<?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ?>
 
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table1.pdf" class="ico_pdf"><span hidden="Production capacity and production"></span> <i class="ico pdf"><span>PDF</span></i></a>
 <a href="/biofuels/biodiesel/production/table1.xls" class="ico_xls"><span hidden="Production capacity and production"></span> XLS</a></span>Production capacity and production</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table2.pdf" class="ico_pdf"><span hidden="Production, sales, and stocks"></span> <i class="ico pdf"><span>PDF</span></i></a>
 <a href="/biofuels/biodiesel/production/table2.xls" class="ico_xls"><span hidden="Production, sales, and stocks"></span> XLS</a></span>Production, sales, and stocks</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table3.pdf" class="ico_pdf"><span hidden="Inputs to biodiesel production"></span> <i class="ico pdf"><span>PDF</span></i></a>
 <a href="/biofuels/biodiesel/production/table3.xls" class="ico_xls"><span hidden="Inputs to biodiesel production"></span> XLS</a></span>Inputs to biodiesel production</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table4.pdf" class="ico_pdf"><span hidden="Producers and production capacity, by state"></span> <i class="ico pdf"><span>PDF</span></i></a>
 <a href="/biofuels/biodiesel/production/table4.xls" class="ico_xls"><span hidden="Producers and production capacity, by state"></span> XLS</a></span>Producers and production capacity, by state</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/biofuels/biodiesel/production/table5.pdf" class="ico_pdf"><span hidden="Production by Petroleum Administration for Defense District"></span> <i class="ico pdf"><span>PDF</span></i></a>
 <a href="/biofuels/biodiesel/production/table5.xls" class="ico_xls"><span hidden="Production by Petroleum Administration for Defense District"></span> XLS</a></span>Production by Petroleum Administration for Defense District </li>
 		</ul></li>
@@ -649,7 +640,7 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 
 
@@ -666,9 +657,9 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_es1a.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - monthly"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_es1a" title=" Total electric power industry summary statistics">Latest month </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_es1b.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - Year-to-date"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_es1b" title=" Total electric power industry summary statistics">Year-to-date </a></li>
 		</ul>
 			<li class="release-schedule">Annual</strong>
@@ -681,9 +672,9 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_01_02.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - annual"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_01_02.html">Summary statistics </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_01_03.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - annual Supply and disposition of electricity"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_01_03.html">Supply and disposition of electricity </a></li>
 		</ul>
 				</ul>
@@ -716,7 +707,7 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 
 			<li><strong> Detailed preliminary <a href="/survey/#eia-826">EIA-826</a> monthly survey data</strong> (back to 1990)
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/eia826/xls/sales_revenue.xls" class="ico_xls" title=" Revenue, sales, customer counts, and retail price by state and sector"><i class="ico xls"><span>XLS</span></i></a>Revenue, sales, customer counts, and retail price by state and sector</li>
 		</ul></li>
 <!-- end special styling -->
@@ -728,10 +719,10 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_5_01.xlsx" class="ico_xls" title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers" href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=g&amp;linechart=ELEC.SALES.US-ALL.M~ELEC.SALES.US-RES.M~ELEC.SALES.US-COM.M~ELEC.SALES.US-IND.M&amp;columnchart=ELEC.SALES.US-ALL.M~ELEC.SALES.US-RES.M~ELEC.SALES.US-COM.M~ELEC.SALES.US-IND.M&amp;map=ELEC.SALES.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg"><i class="ico interactive"><span>Interactive</span></i></a>
 </span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_01">By sector</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_5_04_b.xlsx" class="ico_xls" title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers " href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;linechart=ELEC.SALES.TX-ALL.M~ELEC.SALES.TX-RES.M~ELEC.SALES.TX-COM.M~ELEC.SALES.TX-IND.M&amp;columnchart=ELEC.SALES.TX-ALL.M~ELEC.SALES.TX-RES.M~ELEC.SALES.TX-COM.M~ELEC.SALES.TX-IND.M&amp;map=ELEC.SALES.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201510&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg"><i class="ico interactive"><span>Interactive</span></i></a>
 </span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_04_a" title=" Monthly retail sales of electricity to ultimate customers">By sector, by state  </a></li>
 		</ul>
@@ -742,10 +733,10 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_02_02.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a  href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;linechart=ELEC.SALES.US-ALL.A&amp;columnchart=ELEC.SALES.US-ALL.A&amp;map=ELEC.SALES.US-ALL.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title=" Annual retail sales of electricity to ultimate customers"><i class="ico interactive"><span>Interactive</span></i></a>
 </span> <a href="/electricity/annual/html/epa_02_02.html" title=" Annual retail sales of electricity to ultimate customers">By sector, by provider</a> (back to 2005, Interactive to 2001)</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/sales_annual.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers by sector, by state, by provider"><i class="ico xls"><span>XLS</span></i></a>By sector, by state, by provider (back to 1990)</li>
 			<li>
 			<li><span class="release-date">Release Date</li>
@@ -762,23 +753,23 @@ Production capacity data for all operating U.S. fuel ethanol production plants <
 </div>
 <?php /*li>By state and utility<a href="/electricity/annual/html/epa_01_03.html"> </a>                </li*/ ?>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector"><i class="ico xls"><span>XLS</span></i></a>
 Residential sector</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector"><i class="ico xls"><span>XLS</span></i></a>
 Commercial sector</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector"><i class="ico xls"><span>XLS</span></i></a>
 Industrial sector</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector"><i class="ico xls"><span>XLS</span></i></a>
 Transportation sector</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors"><i class="ico xls"><span>XLS</span></i></a>
 Total, all sectors </li>
@@ -799,10 +790,10 @@ Total, all sectors </li>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_5_02.xlsx" class="ico_xls" title=" monthly revenue from retail sales of electricity to ultimate customers"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a title="View in Total Energy Browser monthly revenue from retail sales of electricity to ultimate customers by sector" href="/electricity/data/browser/#/topic/6?agg=0,1&amp;geo=g&amp;linechart=ELEC.REV.US-ALL.M~ELEC.REV.US-RES.M~ELEC.REV.US-COM.M~ELEC.REV.US-IND.M&amp;columnchart=ELEC.REV.US-ALL.M~ELEC.REV.US-RES.M~ELEC.REV.US-COM.M~ELEC.REV.US-IND.M&amp;map=ELEC.REV.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg"><i class="ico interactive"><span>Interactive</span></i></a>
 </span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_02" title=" monthly revenue from retail sales of electricity to ultimate customers">By sector</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_5_05_a.xlsx" class="ico_xls" title=" monthly revenue from retail sales of electricity to ultimate customers"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a title="View in Total Energy Browser monthly revenue from retail sales of electricity to ultimate customers by sector, by state" href="/electricity/data/browser/#/topic/6?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"><i class="ico interactive"><span>Interactive</span></i></a>
 </span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_05_a" title=" monthly revenue from retail sales of electricity to ultimate customers">By sector, by state</a></li>
 
@@ -813,7 +804,7 @@ Total, all sectors </li>
 			<li class="release-schedule">Annual</strong></li>
 			<li>
 				<ul>
-					<li class="additional-formats">Available formats</li>
+					<li></li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_02_03.xlsx" class="ico_xls" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by provider (back to 2005)"><i class="ico xls"><span>XLS</span></i></a> <a href="/electricity/annual/html/epa_02_03.html" title=" annual revenue from retail sales of electricity to ultimate customers By sector">By sector, by provider</a> (back to 2005)
 
 
@@ -824,7 +815,7 @@ Total, all sectors </li>
 
 <!--              </ul>
 <ul> -->
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/revenue_annual.xlsx" class="ico_xls" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by state, by provider (back to 2005)"><i class="ico xls"><span>XLS</span></i></a>
 By sector, by state, by provider (back to 1990)</li>
 			<li>
@@ -850,22 +841,22 @@ By sector, by state (back to 2001)
 
 </div>
 
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility residential, sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table6.xls" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, residential sector"><i class="ico xls"><span>XLS</span></i></a>Residential sector</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector"><i class="ico xls"><span>XLS</span></i></a>Commercial sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility Industrial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, Industrial sector"><i class="ico xls"><span>XLS</span></i></a>Industrial sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector "><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector "><i class="ico xls"><span>XLS</span></i></a>Transportation  sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, all sectors"><i class="ico pdf"><span>PDF</span></i></a>
 		<a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>/span title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, all sectors">Total, all sectors</li>
 						</ul>
@@ -881,14 +872,11 @@ By sector, by state (back to 2001)
 <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
 </div>
 <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-
-
-</div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_5_03.xlsx" class="ico_xls" title="Monthly average retail price of electricity to ultimate customers"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a title="View in Total Energy Browser Monthly average retail price of electricity to ultimate customers  by sector" href="/electricity/data/browser/#/topic/7?agg=0,1&amp;geo=g&amp;linechart=ELEC.PRICE.US-ALL.M~ELEC.PRICE.US-RES.M~ELEC.PRICE.US-COM.M~ELEC.PRICE.US-IND.M&amp;columnchart=ELEC.PRICE.US-ALL.M~ELEC.PRICE.US-RES.M~ELEC.PRICE.US-COM.M~ELEC.PRICE.US-IND.M&amp;map=ELEC.PRICE.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg"><i class="ico interactive"><span>Interactive</span></i></a>
 </span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_03" title="Monthly average retail price of electricity to ultimate customers">By sector</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_5_06_a.xlsx" class="ico_xls" title="Monthly average retail price of electricity to ultimate customers"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a title="View in Total Energy Browser Annual  average retail price of electricity to ultimate customers  by sector" href="/electricity/data/browser/#/topic/7?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"><i class="ico interactive"><span>Interactive</span></i></a>
 		</span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_06_a" title="Annual  average retail price of electricity to ultimate customers">By sector, by state</a></li>
 				</ul>
@@ -898,7 +886,7 @@ By sector, by state (back to 2001)
 			<li class="release-schedule">Annual</strong></li>
 			<li>
 				<ul>
-					<li class="additional-formats">Available formats</li>
+					<li></li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_02_04.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider(back to 2005)"><i class="ico xls"><span>XLS</span></i></a> <a href="/electricity/annual/html/epa_02_04.html" title="Annual  average retail price of electricity to ultimate customers">By sector, by provider</a>  (back to 2005)
 
 
@@ -907,7 +895,7 @@ By sector, by state (back to 2001)
 
 </li>
 
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/avgprice_annual.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider (back to 1990)"><i class="ico xls"><span>XLS</span></i></a>
 By sector, by state, by provider (back to 1990)</li>
 			<li><span class="release-date">Release Date</li>
@@ -932,23 +920,23 @@ By sector, by state (back to 2001)
  </div>
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector"><i class="ico xls"><span>XLS</span></i></a>
 Residential sector</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector"><i class="ico xls"><span>XLS</span></i></a>Commercial sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector"><i class="ico xls"><span>XLS</span></i></a>Industrial sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector"><i class="ico xls"><span>XLS</span></i></a>Transportation  sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors"><i class="ico xls"><span>XLS</span></i></a>All sectors</li>
 		</ul>
@@ -959,7 +947,7 @@ Residential sector</li>
 			<li><strong>Number of customers (annual):</strong>
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_02_01.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005)"><i class="ico xls"><span>XLS</span></i></a> <a href="/electricity/annual/html/epa_02_01.html" title=" Number of customers (annual) (back to 2005)">By sector, by provider</a>
 (back to 2005)
 
@@ -982,30 +970,30 @@ Residential sector</li>
 
 </div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/customers_annual.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, by provider"><i class="ico xls"><span>XLS</span></i></a>By state, by provider
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table1.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, by sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table1.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, by sector"><i class="ico xls"><span>XLS</span></i></a>By state by sector,
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, residential sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, residential sector"><i class="ico xls"><span>XLS</span></i></a>
 Residential sector</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, commercial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, commercial sector"><i class="ico xls"><span>XLS</span></i></a>Commercial sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, industrial sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, industrial sector"><i class="ico xls"><span>XLS</span></i></a>Industrial sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, transportation sector"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, transportation sector"><i class="ico xls"><span>XLS</span></i></a>Transportation  sector
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, all sectors"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, all sectors"><i class="ico xls"><span>XLS</span></i></a>All sectors by state and utility
 		</li>
@@ -1013,7 +1001,7 @@ Residential sector</li>
 			</li>
 		</ul>
 <blockquote>
-<p><!--			<li class="additional-formats">Available formats</li>
+<p><!--			<li></li>
 <li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/eia826/xls/sales_revenue.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>By state back to 2007 (Form EIA-826) </li> -->
 </p>
 </blockquote>
@@ -1038,7 +1026,7 @@ Residential sector</li>
 			<li>
 			<li class="release-schedule">Annual</strong> (back to 2005)
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_10.xlsx" class="ico_xls" title=" annual net metering back to 2005"><i class="ico xls"><span>XLS</span></i></a> <a href="/electricity/annual/html/epa_04_10.html">Net metering customers and capacity by technology type, by end use sector</a>
 
 
@@ -1061,10 +1049,10 @@ Residential sector</li>
 					<li><a href="/electricity/data/eia923/index.html">Plant-level generation and fuel consumption data </a></li>
 			<li>State-level generation and fuel consumption data</li>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/generation_monthly.xlsx" class="ico_xls" title=" State-level generation and fuel consumption, monthly (back to 2001)"><i class="ico xls"><span>XLS</span></i></a> Monthly (back to 2001)
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/annual_generation_state.xls" class="ico_xls" title=" State-level generation and fuel consumption, annual (back to 1990)"><i class="ico xls"><span>XLS</span></i></a> Annual (back to 1990)
 </li>
 		</ul>
@@ -1082,23 +1070,23 @@ Residential sector</li>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_1_01.xlsx" class="ico_xls" title=" Monthly Net generation By all energy sources"><i class="ico xls"><span>XLS</span></i></a>
 <!-- beta right --> <a href="/electricity/data/browser/#/topic/0?agg=0,1&amp;fuel=vtvo&amp;geo=vvvvvvvvvvvvo&amp;linechart=ELEC.GEN.ALL-US-99.M&amp;columnchart=ELEC.GEN.ALL-US-99.M&amp;map=ELEC.GEN.ALL-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title=" Monthly Net generation By all energy sources"><i class="ico interactive"><span>Interactive</span></i></a>
 </span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01" title=" Monthly Net generation">
 By all energy sources</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_1_01_a.xlsx" class="ico_xls" title="Monthly Net generation By type of renewable source"><i class="ico xls"><span>XLS</span></i></a>
 <!-- beta right --> <a href="/electricity/data/browser/#/topic/0?agg=1,0,2&amp;fuel=02&amp;geo=vvvvvvvvvvvvo&amp;sec=o3g&amp;linechart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&amp;columnchart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&amp;map=ELEC.GEN.AOR-US-99.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Net generation By type of renewable source"><i class="ico interactive"><span>Interactive</span></i></a>
 </span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01_a" title="Monthly Net generation">
 By type of  renewable source</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec7_5.pdf" class="ico_pdf" title=" Monthly Net generation By energy source (plus by annual back to 1950)"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.02A" class="ico_csv" title=" Monthly Net generation By energy source (plus by annual back to 1950)"><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.02A&amp;freq=m" class="ico_xls" title=" Monthly Net generation By energy source (plus by annual back to 1950)"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a href="/beta/MER/?tbl=T07.02A#/?f=A&amp;start=1949&amp;end=2014&amp;charted=1-2-3-5-8-14" title=" Monthly Net generation By energy source (plus by annual back to 1950)"><i class="ico interactive"><span>Interactive</span></i></a>
 </span>
 By energy source (plus by annual back to 1950)
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 
 
@@ -1229,18 +1217,18 @@ Commercial sector</a></li>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_03_23.xlsx" class="ico_xls" title="Useful thermal output All sectors"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_03_23.html" title="Useful thermal output">
 All sectors</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_03_24.xlsx" class="ico_xls" title="Useful thermal output Electric power sector"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_03_24.html" title="Useful thermal output">Electric power sector</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_03_25.xlsx" class="ico_xls" title="Useful thermal output Commercial sector"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_03_25.html" title="Useful thermal output">
 Commercial sector</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_03_26.xlsx" class="ico_xls" title="Useful thermal output Industrial sector"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_03_26.html" title="Useful thermal output">
 Industrial sector</a></li>
@@ -1307,15 +1295,15 @@ Coal-fired generating units capacity, energy source, date of first operation, an
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_6_03.xlsx" class="ico_xls" title="Monthly New electric generating units"><i class="ico xls"><span>XLS</span></i></a> New electric generating units</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_6_05.xlsx" class="ico_xls" title=" Monthly Planned electric generating unit additions"><i class="ico xls"><span>XLS</span></i></a>
 </span> Planned electric generating unit additions </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_6_06.xlsx" class="ico_xls" title="Monthly Planned electric generating unit retirements"><i class="ico xls"><span>XLS</span></i></a>
 </span> Planned electric generating unit retirements </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_6_04.xlsx" class="ico_xls" title=" Monthly Retired electric generating units"><i class="ico xls"><span>XLS</span></i></a>
 </span> Retired electric generating units</li>
 		</ul></li></ul>
@@ -1327,42 +1315,42 @@ Coal-fired generating units capacity, energy source, date of first operation, an
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_03.xlsx" class="ico_xls" title="Annual Net generation By energy source"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_03.html" title="Annual Net generation">
 By energy source</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_04.xlsx" class="ico_xls" title="Annual Net generation By producer type"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_04.html" title="Annual Net generation">
 By producer type</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_02_a.xlsx" class="ico_xls" title="Annual Net generation By energy source, by producer "><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_02_a.html" title="Annual Net generation">
 By energy source, by producer </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_02_b.xlsx" class="ico_xls" title="Annual Net generation By other renewables, by producer "><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_02_b.html" title="Annual Net generation">
 By other renewables, by producer </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/existcapacity_annual.xls" class="ico_xls" title="Existing capacity by energy source, by producer, by state back to 2000 (annual data from the EIA-860)"><i class="ico xls"><span>XLS</span></i></a>
 </span> Existing capacity by energy source, by producer, by state back to 2000 (annual data from the EIA-860)</li>
 
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_06.xlsx" class="ico_xls" title="Annual Additions, retirements and changes in 2015"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_06.html">Additions, retirements and changes in 2015 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_05.xlsx" class="ico_xls" title="Annual Planned generating capacity changes, by energy source, 2016-2020"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_05.html">Planned generating capacity changes, by energy source, 2016-2020</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_01.xlsx" class="ico_xls" title="Annual Count of power plants by predominant source"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_04_01.html">Count of power plants by predominant source </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_02.xlsx" class="ico_xls" title="Annual Heat rates for selected energy sources"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_08_01.html">Heat rates for selected energy sources </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_04_04.xlsx" class="ico_xls" title="Annual Heat rates by prime mover"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_08_02.html">Heat rates by prime mover </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/plancapacity_annual.xls" class="ico_xls" title="Annual Proposed additions by year, energy source, and state"><i class="ico xls"><span>XLS</span></i></a>
 		</span> Proposed additions by year, energy source, and state (annual data from the <a href="/electricity/data/eia860/">Form EIA-860</a>)</li>
 				</ul>
@@ -1380,10 +1368,10 @@ By other renewables, by producer </a></li>
 			<li><strong>Generating Units</strong>
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/cneaf/electricity/page/capacity/existingunits2008.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>by State, by Company, by Plant</li>
 
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/cneaf/electricity/page/capacity/existingunitsbs2008.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>by State, by Company, by Plant, by dominant Source</li>
 
 </ul></li> --> <!--
@@ -1408,7 +1396,7 @@ By other renewables, by producer </a></li>
 			<li class="release-schedule">Monthly and annual</strong>
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
  <span class="note">Interactive data from <a href="/totalenergy/data/browser/" title="Consumption of fuels used to generate electricity">
 Total Energy Data Browser</a></span> </div>
@@ -1443,10 +1431,10 @@ Petroleum coke</a></li>
 Natural gas</a></li> </ul>
 			<li><strong>By industry type and state</strong></li>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/consumption_monthly.xls" class="ico_xls" title="Consumption of fuels used to generate electricity by industry type and state, monthly"><i class="ico xls"><span>XLS</span></i></a>
 </span> Monthly</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/annual_consumption_state.xls" class="ico_xls" title="Consumption of fuels used to generate electricity by industry type and state, annual"><i class="ico xls"><span>XLS</span></i></a>
 </span> Annual (back to 1990)</li>
 		</ul>
@@ -1518,13 +1506,7 @@ Natural gas</a> 			<li class="additional-formats"><a href="/electricity/monthly/
 			<li>
 <strong>Average cost of fossil fuels delivered by state</strong>
 <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
-
-
-</div>
 <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-
-
-</div>
 					<ul>
 					<li><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_10_a" title="Monthly Average cost of fossil fuels delivered by state">
 Coal</a> 			<li class="additional-formats"><a href="/electricity/monthly/xls/table_4_10_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state  Coal"><i class="ico xls"><span>XLS</span></i></a> | <!-- beta right --><a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=8&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.COW-US-98.M&amp;columnchart=ELEC.COST_BTU.COW-US-98.M&amp;map=ELEC.COST_BTU.COW-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Average cost of fossil fuels delivered by state  Coal"><i class="ico interactive"><span>Interactive</span></i></a></li>
@@ -1557,16 +1539,16 @@ Receipts, average cost, and quality of fossil fuels for electricity generation</
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_07_01.xlsx" class="ico_xls" title="Receipts, cost, and quality of coal, petroleum, and natural gas"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_07_01.html">Receipts,  cost, and quality of coal, petroleum, and natural gas</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_07_02.xlsx" class="ico_xls" title="Receipts and quality of coal"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_07_02.html">Receipts and quality of coal</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_07_03.xlsx" class="ico_xls" title="Average quality of coal, petroleum, and natural gas"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/annual/html/epa_07_03.html">Average quality of coal, petroleum, and natural gas</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_07_04.xlsx" class="ico_xls" title=" Weighted average cost of coal, petroleum, and natural gas"><i class="ico xls"><span>XLS</span></i></a>
 		</span> <a href="/electricity/annual/html/epa_07_04.html">Weighted average cost of coal, petroleum, and natural gas</a></li>
 				</ul>
@@ -1588,23 +1570,20 @@ Receipts, average cost, and quality of fossil fuels for electricity generation</
 <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
 </div>
 <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-
-
-</div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_3_01.xlsx" class="ico_xls" title="Stocks of fossil fuels by Electric power sector"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_01" title="Stocks of fossil fuels by">
 Electric power sector</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_3_02.xlsx" class="ico_xls" title="Stocks of fossil fuels by state"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_02" title="Stocks of fossil fuels by">
 State</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_3_03.xlsx" class="ico_xls" title="Stocks of fossil fuels by Census division"><i class="ico xls"><span>XLS</span></i></a>
 </span> <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_03" title="Stocks of fossil fuels by">
 Census division</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_3_04.xlsx" class="ico_xls" title="Stocks of fossil fuels by Coal and rank"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_04" title="Stocks of fossil fuels by">
 Coal and rank</a></li>
@@ -1632,10 +1611,10 @@ Coal and rank</a></li>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Revenue and expense statistics"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_08_03.html">Revenue and expense statistics </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Average power plant operating expenses"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_08_04.html">Average power plant operating expenses </a></li>
 		</ul>
@@ -1643,7 +1622,7 @@ Coal and rank</a></li>
 			<li> <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?> 
 </div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_05.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_05.html">Revenue and expense statistics </a></li></ul>
 --> <strong>Forecast assumptions</li>
 			<li><span class="release-date">Release Date</li>
@@ -1683,13 +1662,13 @@ Coal and rank</a></li>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_02_11.xlsx" class="ico_xls" title="Electricity purchases  "><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_02_11.html">Electricity purchases</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_02_12.xlsx" class="ico_xls" title="Electricity sales for resale"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_02_12.html">Electricity sales for resale</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_02_13.xlsx" class="ico_xls" title="Electricity imports and exports"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_02_13.html">Electricity imports and exports</a></li>
 					<li><a href="/electricity/wholesale/">Wholesale market data </a></li>
@@ -1703,10 +1682,10 @@ Coal and rank</a></li>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_b_1.xlsx" class="ico_xls" title="Electric disturbance events,  Monthly, year-to-date current year "><i class="ico xls"><span>XLS</span></i></a>
 </span>Monthly, year-to-date current year </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/monthly/xls/table_b_2.xlsx" class="ico_xls" title="Electric disturbance events, Monthly, last year   "><i class="ico xls"><span>XLS</span></i></a>
 </span>Monthly, last year </li>
 			<li><a href="/electricity/data/disturbance/disturb_events_archive.html" title="Electric disturbance events,">
@@ -1723,9 +1702,9 @@ Coal and rank</a></li>
 
 v>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_10_b.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a> <a href="/electricity/annual/html/epa_08_10_a.html">Existing</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_10_b.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a> <a href="/electricity/annual/html/epa_08_10_b.html">Proposed</a></li>
 		</ul>
 </ul> --></li>
@@ -1738,21 +1717,21 @@ v>
 			<li>					<li><span class="release-date"><?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?> 
 </div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_06_a.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_06_a.html">Noncoincident peak load, 2002-2012 actual</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_06_b.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_06_b.html">Noncoincident peak load , 2012 actual, 2013-2017 projected</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_07_a.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_07_a.html">Net energy for load , 2002-2012 actual</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_07_b.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_07_b.html">Net energy for load , 2012 actual, 2013-2017 projected</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_08_a.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_08_a.html">Summer net internal demand, capacity resources, and capacity margins, 2002-2012 actual</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_08_b.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_08_b.html">Summer net internal demand, capacity resources, and capacity margins, 2012 actual, 2013-2017 projected</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_09_a.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_09_a.html">Winter net internal demand, capacity resources, and capacity margins, 2002-2012 actual</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_08_09_b.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/electricity/annual/html/epa_08_09_b.html">Winter net internal demand, capacity resources, and capacity margins, 2012 actual, 2013-2017 projected</a></li>
 </li>
 		</ul>
@@ -1767,19 +1746,19 @@ v>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_10_06.xlsx" class="ico_xls" title="Energy efficiency "><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_10_06.html">Energy efficiency</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_10_07.xlsx" class="ico_xls" title="Energy efficiency - life cycle   "><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_10_07.html">Energy efficiency - life cycle</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_10_08.xlsx" class="ico_xls" title="Demand response - yearly energy and demand savings "><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_10_08.html">Demand response - yearly energy and demand savings</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_10_09.xlsx" class="ico_xls" title="Demand response- program costs"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_10_09.html">Demand response- program costs</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_10_10.xlsx" class="ico_xls" title="Advanced metering count by technology type"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_10_10.html">Advanced metering  count by technology type</a></li>
 </li>
@@ -1797,7 +1776,7 @@ v>
 			<li><strong>Detailed EIA-923 emissions survey  data</strong></li>
 			<li>
 				<ul>
-					<li class="additional-formats">Available formats</li>
+					<li></li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/electricity/data/state/emission_annual.xls" class="ico_xls" title="Electric power industry estimated emissions by state (back to 1990 ) "> XLS</a></span> Electric power industry estimated emissions by state (back to 1990 )</li>
 			<li><a href="/electricity/data/emissions/">Annual emissions by plant and region</a></li>
 			<li>
@@ -1818,13 +1797,13 @@ v>
 
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_09_01.xlsx" class="ico_xls" title="Emissions from energy consumption at power plants  "><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_09_01.html">Emissions from energy consumption at power plants</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_09_02.xlsx" class="ico_xls" title="Generators with environmental equipment"><i class="ico xls"><span>XLS</span></i></a>
 </span><a href="/electricity/annual/html/epa_09_02.html">Generators with environmental equipment</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_09_04.xlsx" class="ico_xls" title="Average flue gas desulfurization costs"><i class="ico xls"><span>XLS</span></i></a>
 		</span><a href="/electricity/annual/html/epa_09_04.html">Average flue gas desulfurization costs</a></li>
 				</ul>
@@ -1833,13 +1812,13 @@ v>
 (monthly back to 2015, annual to 1950)
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 <span class="note">Interactive data from <a href="/totalenergy/data/browser/">Total Energy Data Browser</a></span>
 
 </div>
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" class="ico_pdf" title="Carbon dioxide emissions from electricity generation "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T12.06" class="ico_csv" title="Carbon dioxide emissions from electricity generation "><i class="ico csv"><span>CSV</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T12.06&amp;freq=m" class="ico_xls" title="Carbon dioxide emissions from electricity generation "><i class="ico xls"><span>XLS</span></i></a>
 <!-- beta right --> <a href="/beta/MER/?tbl=T12.06#/?f=M&amp;start=200001" title="Carbon dioxide emissions from electricity generation "><i class="ico interactive"><span>Interactive</span></i></a>
 </span> Carbon dioxide emissions from electricity generation
@@ -1917,7 +1896,7 @@ v>
 
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?></span> 
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> 
 
 
 
@@ -1926,31 +1905,31 @@ v>
 
 
 			<li class="head">By source</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_3.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By source"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T12.01&amp;freq=m" class="ico_xls" title="U.S. Carbon dioxide emissions By source"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">By residential sector</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_5.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By residential sector"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T12.02&amp;freq=m" class="ico_xls" title="U.S. Carbon dioxide emissions By residential sector"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">By commercial sector </strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_6.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By commercial sector"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T12.03&amp;freq=m" class="ico_xls" title="U.S. Carbon dioxide emissions By commercial sector"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">By industrial sector</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_7.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By industrial sector"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T12.04&amp;freq=m" class="ico_xls" title="U.S. Carbon dioxide emissions By industrial sector"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">By transportation sector</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_8.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By transportation sector"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T12.05&amp;freq=m" class="ico_xls" title="U.S. Carbon dioxide emissions By transportation sector"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">By electric power</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By electric power"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T12.06&amp;freq=m" class="ico_xls" title="U.S. Carbon dioxide emissions By electric power"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">From biomass</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec12_10.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions From biomass"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T12.07&amp;freq=m" class="ico_xls" title="U.S. Carbon dioxide emissions From biomass"><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head"><a href="/environment/emissions/state/state_emissions.cfm">State CO<sub>2</sub> emissions &rsaquo;</a></li>
@@ -1970,7 +1949,7 @@ v>
 			<li>
 Release Date: September 27, 2012</span> </span> | <span class="date"> data from</li>
 <li class="additional-formats no-bullet">Available formats: <span class="note"> <a href="/totalenergy/data/annual/">Annual Energy Review</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/annual/pdf/sec11.pdf" class="ico_pdf" title="Annual Energy Review carbon data"><i class="ico pdf"><span>PDF</span></i></a></li>          
 <?php /*
 			<li class="head"><a href="/environment/emissions/ghg_report/ghg_gwp.cfm">High-Global Warning Potential Gasses &rsaquo;</a></strong><em class="hideme"></span><span class="note"></li>
@@ -2102,19 +2081,19 @@ Data from</li>
 			<li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig16.png" class="lightbox">Figure 16: Probability of the January 2016 Henry Hub contract expiring above price levels</a></li>
 
 			<li><a href="/forecasts/steo/images/Fig1.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/forecasts/steo/xls/Fig1.xls" class="ico_xls"><span hidden="West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li><a href="/forecasts/steo/images/Probability_WTI.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Probabilities</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/forecasts/steo/xls/Probability_WTI.xls" class="ico_xls"><span hidden="West Texas Intermediate (WTI) Crude Oil Price Probabilities"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li><a href="/forecasts/steo/images/Fig4.png" class="lightbox">Henry Hub natural gas prices and confidence intervals</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/forecasts/steo/xls/Fig4.xls" class="ico_xls"><span hidden="Henry Hub natural gas prices and confidence intervals"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li><a href="/forecasts/steo/images/Probability_HH.png" class="lightbox">Henry Hub natural gas price probabilities</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/forecasts/steo/xls/Probability_HH.xls" class="ico_xls"><span hidden="Henry Hub natural gas price probabilities"></span><i class="ico xls"><span>XLS</span></i></a></li>
 </tbody>
 </table>
@@ -2134,79 +2113,79 @@ Data from</li>
 			<li class="head">Selected financial items</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-1.xlsx" class="ico_xls"><span hidden="Selected financial items"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Consolidated income statement</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-2.xlsx" class="ico_xls"><span hidden="Consolidated income statement"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Consolidated balance sheet</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-3.xlsx" class="ico_xls"><span hidden="Consolidated balance sheet"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Statement of cash flows</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-4.xlsx" class="ico_xls"><span hidden="Statement of cash flows"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Statement of income for U.S. &amp; foreign petroleum</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-5.xlsx" class="ico_xls"><span hidden=" Statement of income for U.S. & foreign petroleum"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Statement of income for U.S. & foreign downstream natural gas</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-6.xlsx" class="ico_xls"><span hidden=" Statement of income for U.S. & foreign downstream natural gas"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Statement of income for U.S. & foreign electric power</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-7.xlsx" class="ico_xls"><span hidden=" Statement of income for U.S. & foreign electric power"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">PP&E and investments and advances, by lines of business</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-8.xlsx" class="ico_xls"><span hidden=" PP&E and investments and advances, by lines of business"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Return on investment for lines of business</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-9.xlsx" class="ico_xls"><span hidden=" Return on investment for lines of business"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Size distribution of net investment in place</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-10.xlsx" class="ico_xls"><span hidden=" Size distribution of net investment in place"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Research and development</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-11.xlsx" class="ico_xls"><span hidden="Research and development"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Income taxes</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-12.xlsx" class="ico_xls"><span hidden="Income taxes "></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">U.S. taxes other than income taxes </li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-13.xlsx" class="ico_xls"><span hidden="U.S. taxes other than income taxes"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Summary Content ////////////////*/ ?> 
 <?php /* BEGIN Oil and Natural Gas Costs/Expenditures Content ////////////////*/ ?>
@@ -2216,81 +2195,81 @@ Data from</li>
 			<li class="head">U.S. energy operating statistics</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-14.xlsx" class="ico_xls"><span hidden="U.S. energy operating statistics"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Exploration and development expenditures</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-15.xlsx" class="ico_xls"><span hidden="Exploration and development expenditures"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Exploration and development expenditures, U.S. &amp; foreign</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-16.xlsx" class="ico_xls"><span hidden="Exploration and development expenditures, U.S. & foreign"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Exploration and development expenditures by region</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-17.xlsx" class="ico_xls"><span hidden="Exploration and development expenditures by region"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Production (lifting) costs by region</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-18.xlsx" class="ico_xls"><span hidden=" Production (lifting) costs by region"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Oil and natural gas reserves</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-19.xlsx" class="ico_xls"><span hidden=" Oil and natural gas reserves"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Oil and natural gas reserve balances</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-20.xlsx" class="ico_xls"><span hidden=" Oil and natural gas reserve balances"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Exploration and development expenditures, reserves, and 
 production by region</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-21.xlsx" class="ico_xls"><span hidden=" Exploration and development expenditures, reserves, and production by region"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Oil and natural gas acreage</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-22.xlsx" class="ico_xls"><span hidden=" Oil and natural gas acreage"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">U.S. wells completed, and in-progress at year end</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-23.xlsx" class="ico_xls">X<span hidden=" U.S. wells completed, and in-progress at year end"></span>
 LS</a></span></li>
 
 			<li class="head">U.S. drilling footage and producing wells</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-24.xlsx" class="ico_xls"><span hidden="U.S. drilling footage and producing wells"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">U.S. wells completed, and average depth</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-25.xlsx" class="ico_xls"><span hidden="U.S. wells completed, and average depth"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Foreign wells completed, in-progress, and producing, by region</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-26.xlsx" class="ico_xls"><span hidden="Foreign wells completed, in-progress, and producing, by region"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Oil and Natural Gas Costs/Expenditures Content ////////////////*/ ?> 
 <?php /* BEGIN Refining and Marketing Content ////////////////*/ ?>
@@ -2300,49 +2279,49 @@ LS</a></span></li>
 			<li class="head">U.S. refining/marketing statement of income</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-27.xlsx" class="ico_xls"><span hidden="U.S. refining/marketing statement of income"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">U.S. petroleum refining/marketing general operating expenses</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-28.xlsx" class="ico_xls"><span hidden="U.S. petroleum refining/marketing general operating expenses"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">U.S. and foreign petroleum refining statistics</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-29.xlsx" class="ico_xls"><span hidden="U.S. and foreign petroleum refining statistics"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Refinery output and capacity, U.S. & foreign</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-30.xlsx" class="ico_xls"><span hidden="Refinery output and capacity, U.S. & foreign"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Sources and dispositions of raw materials, U.S. & foreign</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-31.xlsx" class="ico_xls"><span hidden=" Sources and dispositions of raw materials, U.S. & foreign"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">U.S. purchases and sales of raw materials, and refined products</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-32.xlsx" class="ico_xls"><span hidden=" U.S. purchases and sales of raw materials, and refined products"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">U.S. sales of refined products, by sales type</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-33.xlsx" class="ico_xls"><span hidden=" U.S. sales of refined products, by sales type"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Sales of U.S. refined products, by volume and price</li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date hideme">April 2011</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/T-34.xlsx" class="ico_xls"><span hidden=" Sales of U.S. refined products, by volume and price"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Refining and Marketing Content ////////////////*/ ?> 
 <?php /*/table>
@@ -2363,31 +2342,31 @@ LS</a></span></li>
 			<li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data  from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
 <!-- end special styling -->
 			<li class="head">Consolidating statement if Income</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5110.xls" class="ico_xls"><span hidden="Consolidating statement if Income"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Research &amp; development funding &amp; expenditures</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5111.xls" class="ico_xls"><span hidden="Research & development funding & expenditures"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Analysis of income taxes</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5112.xls" class="ico_xls"><span hidden="Analysis of income taxes"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Selected consolidated data (balance sheet)</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5120.xls" class="ico_xls"><span hidden="Selected consolidated data (balance sheet)"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Statement of sources &amp; uses of funds</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5130.xls" class="ico_xls"><span hidden=" Statement of sources & uses of funds"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Consolidated statement of cash flows</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5131.xls" class="ico_xls"><span hidden=" Consolidated statement of cash flows"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Download all consolidated company operations data</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s51.xls" class="ico_xls"><span hidden=" Download all consolidated company operations data"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Consolidated Company Operations Content ////////////////*/ ?> 
 <?php /* BEGIN Petroleum Operations Content ////////////////*/ ?>
@@ -2399,35 +2378,35 @@ LS</a></span></li>
 			<li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data  from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
 <!-- end special styling -->
 			<li class="head">Statement of income</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5210.xls" class="ico_xls"><span hidden="Statement of income"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Refining, exploration &amp; production operations,  expenditures &amp; operating expense detail</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5211.xls" class="ico_xls"><span hidden="Refining, exploration & production operations, expenditures & operating expense detail"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Purchases &amp; sales of raw materials &amp; refined products</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5212.xls" class="ico_xls"><span hidden="Purchases & sales of raw materials & refined products"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Exploration, development, &amp; production statistics</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5241.xls" class="ico_xls"><span hidden="Exploration, development, & production statistics"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Refining statistics</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5242.xls" class="ico_xls"><span hidden=" Refining statistics"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Sources &amp; dispositions of crude &amp; NGL's</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5245.xls" class="ico_xls"><span hidden=" Sources & dispositions of crude & NGL's"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Proved petroleum reserves</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5246.xls" class="ico_xls"><span hidden=" Proved petroleum reserves"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Download all company petroleum operations data</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s52.xls" class="ico_xls"><span hidden=" Download all company petroleum operations data"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Petroleum Operations Content ////////////////*/ ?> 
 <?php /* BEGIN Coal Operations Content ////////////////*/ ?>
@@ -2438,7 +2417,7 @@ LS</a></span></li>
 			<li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data  from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
 <!-- end special styling -->
 			<li class="head">Coal - reserves &amp; production statistics</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5341.xls" class="ico_xls"><span hidden=" Coal - reserves & production statistics"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Coal Operations Content ////////////////*/ ?> 
 <?php /* BEGIN Downstream Natural Gas Operations Content ////////////////*/ ?>
@@ -2449,19 +2428,19 @@ LS</a></span></li>
 			<li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data  from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
 <!-- end special styling -->
 			<li class="head">Statement of income</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5710.xls" class="ico_xls"><span hidden="Downstream natural gas operations Statement of income"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">General operating expense detail</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5711.xls" class="ico_xls"><span hidden="Downstream natural gas operations General operating expense detail"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Purchases &amp; sales of natural gas and NGL's</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5712.xls" class="ico_xls"><span hidden="Downstream natural gas operations Purchases & sales of natural gas and NGL's"></span><i class="ico xls"><span>XLS</span></i></a></li>
 
 			<li class="head">Download all company downstream natural gas operations data</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s57.xls" class="ico_xls"><span hidden="Downstream natural gas operations Download all company downstream natural gas operations data"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Downstream Natural Gas Operations Content ////////////////*/ ?> 
 <?php /* BEGIN Electric Power Operations Content ////////////////*/ ?>
@@ -2472,7 +2451,7 @@ LS</a></span></li>
 			<li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data  from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
 <!-- end special styling -->
 			<li class="head">Statement of Income</strong></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/archive/frsdata/s5810.xls" class="ico_xls"><span hidden="Electric power operations Statement of income"></span><i class="ico xls"><span>XLS</span></i></a></li>
 <?php /* END Electric Power Operations Content ////////////////*/ ?>
 </table>
@@ -2488,33 +2467,33 @@ LS</a></span></li>
 	<div class="accordion-content">
 		<ul>
 			<li>Third quarter 2010 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q310.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2010"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2010</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q210.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2010"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2010</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q110.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2010"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2009"></a>2009</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2009</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q409.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2009"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2009</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q309.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2009"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2009</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q209.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2009"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2009</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q109.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2009"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 <thead>
 <tr id="2008">
@@ -2522,133 +2501,133 @@ LS</a></span></li>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2008</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q408.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2008"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2008</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q308.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2008"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2008</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q208.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2008"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2008</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q108.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2008"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2007"></a>2007</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2007</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q407.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2007"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2007</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q307.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2007"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2007</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q207.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2007"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2007</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q107.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2007"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2006"></a>2006</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2006</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q406.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2006"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2006</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q306.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2006"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2006</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q206.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2006"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2006</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q106.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2006"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2005"></a>2005</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2005</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q405.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2005"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2005</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q305.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2005"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2005</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q205.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2005"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2005</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q105.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2005"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2004"></a>2004</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2004</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q404.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2004"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2004</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q304.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2004"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2004</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q204.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2004"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2004</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q104.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2004"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2003"></a>2003</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2003</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q403.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2003"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2003</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q303.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2003"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2003</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q203.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2003"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2003</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q103.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2003"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2002"></a>2002</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2002</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q402.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2002"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2002</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q302.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Third quarter 2002"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Second quarter 2002</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q202.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Second quarter 2002"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>First quarter 2002</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q102.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers First quarter 2002"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 	<h2><i class="ico expand-collapse"></i><a name="2001"></a>2001</h2>
 	<div class="accordion-content">
 		<ul>
 			<li>Fourth quarter 2001</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/finance/performanceprofiles/news_m/q401.pdf" class="ico_pdf"><span hidden="Financial News for Major Energy Producers Fourth quarter 2001"></span><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Third quarter 2001</li>
@@ -2771,7 +2750,7 @@ U.S. and state level statistics for production, deliveries and receipts, storage
 
 
 
-<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 
 
 
@@ -2784,13 +2763,13 @@ U.S. and state level statistics for production, deliveries and receipts, storage
 			<li>Statistics on gross withdrawals, marketed production, dry gas production, supplemental gases, imports, exports, consumption, and storage withdrawals.
 
 <ul>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec4_3.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/totalenergy/data/browser/csv.cfm?tbl=T04.01" class="ico_csv">CSV</a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T04.01&amp;freq=m" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>
 Monthly (<a href="/totalenergy/data/monthly/#naturalgas">more on natural gas</a>)</li>
 			<li>
 <!-- &nbsp; --></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/annual/pdf/sec6_5.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/totalenergy/data/annual/xls/stb0601.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>Annual (<a href="/totalenergy/data/annual/showtext.cfm?t=ptb0601">more on natural gas</a>)</li>
 		</ul></li>
@@ -3084,7 +3063,7 @@ Components of natural gas production for the U.S., states and the Gulf of Mexico
 			<li>Estimated monthly production derived from state administrative data</li>
 			<li>
 			<li class="release-schedule">Monthly</span></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/naturalgas/weekly/img/shale_gas_201803.xlsx" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a></li>
 
 
@@ -3233,7 +3212,7 @@ U.S. and state level statistics for natural gas processed, total liquids extract
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date">
 						
 
-<?php include('css_rehab/archive/naturalgas/fieldcode/includes/fcml-release-date.inc'); ?>
+<?php include('css_rehab/archive/naturalgas/fieldcode/includes/fcml-release-date.inc') ?>
 
 
 
@@ -3269,7 +3248,7 @@ Annual production volumes from data collected on Form EIA-176 (Annual Report of 
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date">
 						
 						
-<?php include('css_rehab/archive/petroleum/production/includes/914-release-date.inc'); ?>
+<?php include('css_rehab/archive/petroleum/production/includes/914-release-date.inc') ?>
 
 
 
@@ -3749,7 +3728,7 @@ Interactive</a></span></span><strong> Nuclear generation, capacity summary data<
 
 	
 	
-	<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc'); ?>
+	<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
 	
 	
 
@@ -3777,77 +3756,63 @@ Interactive</a></span></span><strong> Nuclear generation, capacity summary data<
 			<li>
 			<li><span class="release-date">Release Date</li>
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date">May 24, 2017 </span> | <span class="date"> data from</li>
-						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></span></li>
+						<li><a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></span></li>
 			<li>Estimates of uranium reserves as of end of year</li>
 
 			<li><p><strong>Uranium production</strong></p>
 					<ul>
 					<li> Annual</li>
-			<li>
-			<li><span class="release-date">Release Date</li>
+
 						<li class="additional-formats no-bullet">Available formats: </span><span class="date">May 24, 2017 </span> | <span class="date"> data from</li>
-						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></span></li>
+						<li><a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></span></li>
 			<li>
 				<ul>
-					<li class="additional-formats">Available formats</li>
+					<li><a href="/uranium/production/annual/usummary.cfm">Summary uranium production data</a>, back to 1993</li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/annual/pdf/usummarytbl9.pdf" class="ico_pdf" title="Summary uranium production data, back to 1993"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/annual/xls/usummarytbl9.xls" class="ico_xls" title="Summary uranium production data, back to 1993"><i class="ico xls"><span>XLS</span></i></a>
-</span> <a href="/uranium/production/annual/usummary.cfm">Summary uranium production data</a>, back to 1993</li>
-			<li class="additional-formats">Available formats</li>
+</span> </li>
+			<li><a href="/uranium/production/annual/umills.cfm">U.S. uranium mills by owner, capacity, and operating status</a></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/annual/pdf/umillstbl4.pdf" class="ico_pdf" title="U.S. uranium mills by owner, capacity, and operating status"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/annual/xls/umillstbl4.xls" class="ico_xls" title="U.S. uranium mills by owner, capacity, and operating status"><i class="ico xls"><span>XLS</span></i></a>
-</span> <a href="/uranium/production/annual/umills.cfm">U.S. uranium mills by owner, capacity, and operating status</a></li>
-			<li class="additional-formats">Available formats</li>
+</span> </li>
+			<li><a href="/uranium/production/annual/uisl.cfm">U.S. uranium in-situ-leach plants by owner, capacity, and operating status</a></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/annual/pdf/uisltbl5.pdf" class="ico_pdf" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/annual/xls/uisltbl5.xls" class="ico_xls" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status"><i class="ico xls"><span>XLS</span></i></a>
-		</span> <a href="/uranium/production/annual/uisl.cfm">U.S. uranium in-situ-leach plants by owner, capacity, and operating status</a></li>
+		</span> </li>
 				</ul>
 			</li>
 			<li>Quarterly</li>
-			<li><span class="release-date">Release Date</li>
-						<li class="additional-formats no-bullet">Available formats: </span><span class="date">
-		
-		
-
-<?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc'); ?>
+			<?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') ?>
 
 
 
 <ul>
-
-
-			<li class="additional-formats">Available formats</li>
+						<li><a href="/uranium/production/quarterly/qupdtable1.cfm">Total production of uranium concentrate</a></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/quarterly/pdf/qupd_tbl1.pdf" class="ico_pdf" title="Total production of uranium concentrate"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/quarterly/xls/qupd_tbl1.xls" class="ico_xls" title="Total production of uranium concentrate"><i class="ico xls"><span>XLS</span></i></a>
-</span> <a href="/uranium/production/quarterly/qupdtable1.cfm">Total production of uranium concentrate</a></li>
-			<li class="additional-formats">Available formats</li>
+
+						<li><a href="/uranium/production/quarterly/qupdtable2.cfm"> Number of uranium mills and plants producing uranium concentrate in the United States</a></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="http://www.eia.gov/uranium/production/quarterly/pdf/qupd_tbl2.pdf" class="ico_pdf" title="Number of uranium mills and plants producing uranium concentrate in the United States"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/quarterly/xls/qupd_tbl2.xls" class="ico_xls" title="Number of uranium mills and plants producing uranium concentrate in the United States"><i class="ico xls"><span>XLS</span></i></a>
-</span> <a href="/uranium/production/quarterly/qupdtable2.cfm"> Number of uranium mills and plants producing uranium concentrate in the United States</a></li>
-			<li class="additional-formats">Available formats</li>
+
+						<li><a href="/uranium/production/quarterly/qupdtable3.cfm">U.S. uranium mills by owner, capacity, and operating status</a></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/quarterly/pdf/qupd_tbl3.pdf" class="ico_pdf" title="U.S. uranium mills by owner, capacity, and operating status"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/quarterly/xls/qupd_tbl3.xls" class="ico_xls" title="U.S. uranium mills by owner, capacity, and operating status"><i class="ico xls"><span>XLS</span></i></a>
-</span> <a href="/uranium/production/quarterly/qupdtable3.cfm">U.S. uranium mills by owner, capacity, and operating status</a></li>
-			<li class="additional-formats">Available formats</li>
+
+						<li><a href="/uranium/production/quarterly/qupdtable4.cfm" class="no-border">U.S. uranium in-situ-leach plants by owner, capacity, and operating status</a></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/production/quarterly/pdf/qupd_tbl4.pdf" class="ico_pdf" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/quarterly/xls/qupd_tbl4.xls" class="ico_xls" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status"><i class="ico xls"><span>XLS</span></i></a>
-		</span> <a href="/uranium/production/quarterly/qupdtable4.cfm" class="no-border">U.S. uranium in-situ-leach plants by owner, capacity, and operating status</a></li>
-				</ul>
-			</li>
-		</ul></li>
-
-			<li class="additional-formats">Available formats</li>
-						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/marketing/pdf/umartable1figures1n2.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
-<a href="/uranium/marketing/xls/umartable1figures1n2.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a> <a href="/uranium/marketing/html/table1.cfm">Uranium purchases</a></li>
-			<li>
-Quantity of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
-			<li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Quantity of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
+		<li class="additional-formats no-bullet">Available formats: <a href="/uranium/marketing/pdf/umartable1figures1n2.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/marketing/xls/umartable1figures1n2.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a>
+		<li><a href="/uranium/marketing/html/table1.cfm">Uranium purchases</a></li>
 
 
 
 
 
-<?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc'); ?>
 
-
-</div></li>
+<?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') ?></li>
 
 
 
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/uranium/marketing/pdf/umartableS1bfigureS2.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="/uranium/marketing/xls/umartableS1bfigureS2.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a> <a href="/uranium/marketing/html/summarytable1b.cfm">Uranium price</a></li>
 			<li>
@@ -3860,10 +3825,7 @@ Weighted-average price of uranium purchased by owners and operators of U.S. civi
 
 
 
-<?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc'); ?>
-
-
-</div>
+<?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') ?>
 
 
 </li>
@@ -4020,7 +3982,7 @@ As of March 15, 2012, the data in Table 1.14 for fiscal years 2003-2010 are revi
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/flow/total_energy.pdf" class="ico_pdf" title="Table 1.0  Energy flow"><i class="ico pdf"><span>PDF</span></i>GRAPH</a>/li>
 <td class="no_bdr2"></li>
 
@@ -4031,7 +3993,7 @@ As of March 15, 2012, the data in Table 1.14 for fiscal years 2003-2010 are revi
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec1_3.pdf" class="ico_pdf" title="Table 1.1  Primary energy overview"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.01&freq=a" class="ico_xls" title="Table 1.1  Primary energy overview"><i class="ico xls"><span>XLS</span></i></a>
 <a href="/totalenergy/data/browser/csv.cfm?tbl=T01.01" class="ico_csv" title="Table 1.1  Primary energy overview"><i class="ico csv"><span>CSV</span></i></a></li>
 			<li><span class="beta">
@@ -4044,7 +4006,7 @@ As of March 15, 2012, the data in Table 1.14 for fiscal years 2003-2010 are revi
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec1_5.pdf" class="ico_pdf" title="Table 1.2  Primary energy production by source"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.02&freq=a" class="ico_xls" title="Table 1.2  Primary energy production by source"><i class="ico xls"><span>XLS</span></i></a>
 <a href="/totalenergy/data/browser/csv.cfm?tbl=T01.02" class="ico_csv" title="Table 1.2  Primary energy production by source"><i class="ico csv"><span>CSV</span></i></a></li>
 			<li><span class="beta">
@@ -4057,7 +4019,7 @@ As of March 15, 2012, the data in Table 1.14 for fiscal years 2003-2010 are revi
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec1_7.pdf" class="ico_pdf" title="Table 1.3  Primary energy consumption estimates by source"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.03&freq=a" class="ico_xls" title="Table 1.3  Primary energy consumption estimates by source"><i class="ico xls"><span>XLS</span></i></a>
 <a href="/totalenergy/data/browser/csv.cfm?tbl=T01.03" class="ico_csv" title="Table 1.3  Primary energy consumption estimates by source"><i class="ico csv"><span>CSV</span></i></a></li>
 			<li><span class="beta"><a href="/beta/MER/index.cfm?tbl=T01.03#/?f=A&start=200001" title="Table 1.3  Primary energy consumption estimates by source  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
@@ -4099,7 +4061,7 @@ As of March 15, 2012, the data in Table 1.14 for fiscal years 2003-2010 are revi
 			
 			
 			 <i>by Source and Total Net Imports</i></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.04B&freq=a" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.cfm?tbl=T01.04B" class="ico_csv">CSV</a></span></li>
 			<li><span class="beta"><a href="/beta/MER/index.cfm?tbl=T01.04B#/?f=A&start=200001 - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 </tr*/ ?>
@@ -4129,7 +4091,7 @@ href="/totalenergy/data/browser/index.cfm?tbl=T01.05#/?f=A">Total Energy Browser
 <?php /*br /><span class="right" style="margin-top:5px">(Find the latest annual data in 
 <a 
 href="/totalenergy/data/browser/index.cfm?tbl=T01.06#/?f=A">Total Energy Browser 1.6</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec1_15.pdf" class="ico_pdf" title="Table 1.6  State-level energy consumption, expenditure, and prices estimates, 2010"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0106.xls" class="ico_xls" title="Table 1.6  State-level energy consumption, expenditure, and prices estimates, 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4144,7 +4106,7 @@ href="/totalenergy/data/browser/index.cfm?tbl=T01.06#/?f=A">Total Energy Browser
 <?php /*br /><span class="right" style="margin-top:5px">(Find the latest annual data in 
 <a 
 href="/totalenergy/data/browser/index.cfm?tbl=T01.07#/?f=A">Total Energy Browser 1.7</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec1_20.pdf" class="ico_pdf" title="Table 1.7  Heating degree-days by month"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.09&amp;freq=m" class="ico_xls" title="Table 1.7  Heating degree-days by month"><i class="ico xls"><span>XLS</span></i></a>
 <a href="/totalenergy/data/browser/csv.cfm?tbl=T01.09" class="ico_csv" title="Table 1.7  Heating degree-days by month"><i class="ico csv"><span>CSV</span></i></a></li>
 			<li><span class="beta"><a href="/beta/MER/index.cfm?tbl=T01.09#/?f=A&start=200001" title="Table 1.7  Heating degree-days by month - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
@@ -4170,7 +4132,7 @@ href="/totalenergy/data/browser/index.cfm?tbl=T01.08#/?f=A">Total Energy Browser
 
 
 --></a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec1_20.pdf" class="ico_pdf" title="Table 1.9  Heating degree-days by Census division"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.09&amp;freq=m" class="ico_xls" title="Table 1.9  Heating degree-days by Census division"><i class="ico xls"><span>XLS</span></i></a>
 <a href="/totalenergy/data/browser/csv.cfm?tbl=T01.09" class="ico_csv" title="Table 1.9  Heating degree-days by Census division"><i class="ico csv"><span>CSV</span></i></a></li>
 			<li><span class="beta"><a href="/beta/MER/index.cfm?tbl=T01.09#/?f=A&start=200001" title="Table 1.9  Heating degree-days by Census division - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
@@ -4247,7 +4209,7 @@ Fiscal years 1975&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec1_29.pdf" class="ico_pdf" title="Table 1.13  U.S. government energy consumption by agency and source, fiscal years 2003, 2010, and 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0113.xls" class="ico_xls" title="Table 1.13  U.S. government energy consumption by agency and source, fiscal years 2003, 2010, and 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4264,7 +4226,7 @@ fiscal years 2003&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec1_31.pdf" class="ico_pdf" title="Table 1.15  in physical units"><i class="ico pdf"><span>PDF</span></i></a>
 
 <a href="xls/stb0114.xls" class="ico_xls" title="Table 1.15  in physical units"><i class="ico xls"><span>XLS</span></i></a>
@@ -4323,7 +4285,7 @@ fiscal years 2003&ndash;
 </tr */ ?>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote1.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -4348,7 +4310,7 @@ fiscal years 2003&ndash;
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/flow/css_2016_energy.pdf" class="ico_pdf" title="Table 2.0  Primary energy consumption by source and sector"><i class="ico pdf"><span>PDF</span></i>GRAPH</a>/li>
 
 			<li><span style="color:#CCC">2.1a</span><!-- &nbsp; --><!-- &nbsp; -->Energy consumption estimates by sector<!--, 1949&ndash;
@@ -4457,7 +4419,7 @@ fiscal years 2003&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_13.pdf" class="ico_pdf" title="Table 2.2  Manufacturing energy consumption for all purposes, 2006"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0202.xls" class="ico_xls" title="Table 2.2  Manufacturing energy consumption for all purposes, 2006"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4472,7 +4434,7 @@ by end use,
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_15.pdf" class="ico_pdf" title="Table 2.3  Manufacturing energy consumption for heat, power, and electricity generation by end use, 2006"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0203.xls" class="ico_xls" title="Table 2.3  Manufacturing energy consumption for heat, power, and electricity generation by end use, 2006"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4486,7 +4448,7 @@ by end use,
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_17.pdf" class="ico_pdf" title="Table 2.4  Household energy consumption by Census region, selected years, 1978– 2009"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0204.xls" class="ico_xls" title="Table 2.4  Household energy consumption by Census region, selected years, 1978– 2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4500,7 +4462,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_19.pdf" class="ico_pdf" title="Table 2.5  Household energy consumption and expenditures by end use and energy source, selected years, 1978–2005"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0205.xls" class="ico_xls" title="Table 2.5  Household energy consumption and expenditures by end use and energy source, selected years, 1978–2005"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4514,7 +4476,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_21.pdf" class="ico_pdf" title="Table 2.6  Household end uses: fuel types and appliances and electronics, selected years, 1978–2009"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0206.xls" class="ico_xls" title="Table 2.6  Household end uses: fuel types and appliances and electronics, selected years, 1978–2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4528,7 +4490,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_23.pdf" class="ico_pdf" title="Table 2.7  Type of heating in occupied housing units, selected years, 1950– 2009"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0207.xls" class="ico_xls" title="Table 2.7  Type of heating in occupied housing units, selected years, 1950– 2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4558,7 +4520,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_27.pdf" class="ico_pdf" title="Table 2.9  Commercial buildings consumption by energy source, selected years, 1979– 2003"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0209.xls" class="ico_xls" title="Table 2.9  Commercial buildings consumption by energy source, selected years, 1979– 2003"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4572,7 +4534,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_29.pdf" class="ico_pdf" title="Table 2.10  Commercial buildings energy consumption and expenditure indicators, selected years, 1979–2003"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0210.xls" class="ico_xls" title="Table 2.10  Commercial buildings energy consumption and expenditure indicators, selected years, 1979–2003"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4586,14 +4548,14 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_31.pdf" class="ico_pdf" title="Table 2.11  Commercial buildings electricity consumption by end use, 2003"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0211.xls" class="ico_xls" title="Table 2.11  Commercial buildings electricity consumption by end use, 2003"><i class="ico xls"><span>XLS</span></i></a>
 
 <a href="pdf/sec2_30.pdf" class="ico_pdf" title="Table 2.11  Commercial buildings electricity consumption by end use, 2003"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote2.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -4620,7 +4582,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_3.pdf" class="ico_pdf" title="Table 3.1  Fossil fuel production prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0301.xls" class="ico_xls" title="Table 3.1  Fossil fuel production prices, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4634,7 +4596,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_5.pdf" class="ico_pdf" title="Table 3.2  Value of fossil fuel production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0302.xls" class="ico_xls" title="Table 3.2  Value of fossil fuel production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4648,7 +4610,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_7.pdf" class="ico_pdf" title="Table 3.3  Consumer price estimates for energy by source, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0303.xls" class="ico_xls" title="Table 3.3  Consumer price estimates for energy by source, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4662,7 +4624,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_9.pdf" class="ico_pdf" title="Table 3.4  Consumer price estimates for energy by end-use sector, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0304.xls" class="ico_xls" title="Table 3.4  Consumer price estimates for energy by end-use sector, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4676,7 +4638,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_11.pdf" class="ico_pdf" title="Table 3.5  Consumer expenditure estimates for energy by source, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0305.xls" class="ico_xls" title="Table 3.5  Consumer expenditure estimates for energy by source, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4690,7 +4652,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_13.pdf" class="ico_pdf" title="Table 3.6  Consumer expenditure estimates for energy by end-use sector, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0306.xls" class="ico_xls" title="Table 3.6  Consumer expenditure estimates for energy by end-use sector, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4704,7 +4666,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_15.pdf" class="ico_pdf" title="Table 3.7  Value of fossil fuel imports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0307.xls" class="ico_xls" title="Table 3.7  Value of fossil fuel imports, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4718,7 +4680,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_17.pdf" class="ico_pdf" title="Table 3.8  Value of fossil fuel exports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0308.xls" class="ico_xls" title="Table 3.8  Value of fossil fuel exports, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4732,7 +4694,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_19.pdf" class="ico_pdf" title="Table 3.9  Value of fossil fuel net imports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0309.xls" class="ico_xls" title="Table 3.9  Value of fossil fuel net imports, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4746,7 +4708,7 @@ selected years, 1978&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_21.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0310.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_20.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -4757,7 +4719,7 @@ selected years, 1978&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_23.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0311.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_22.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -4768,7 +4730,7 @@ selected years, 1978&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_25.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0312.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_24.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -4780,7 +4742,7 @@ selected years, 1978&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_27.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0313.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_26.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -4788,7 +4750,7 @@ selected years, 1978&ndash;
 <?php /* No section 3 notes: Comment out on 10/05/2011 by CA2
 
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote3.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -4812,7 +4774,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_3.pdf" class="ico_pdf" title="Table 4.1  Technically recoverable crude oil and natural gas resource estimates, 2009"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0401.xls" class="ico_xls" title="Table 4.1  Technically recoverable crude oil and natural gas resource estimates, 2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4826,7 +4788,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_5.pdf" class="ico_pdf" title="Table 4.2  Crude oil and natural gas cumulative production and proved reserves, 1977– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0402.xls" class="ico_xls" title="Table 4.2  Crude oil and natural gas cumulative production and proved reserves, 1977– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4840,7 +4802,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_7.pdf" class="ico_pdf" title="Table 4.3  Crude oil, natural gas, and natural gas liquids proved reserves, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0403.xls" class="ico_xls" title="Table 4.3  Crude oil, natural gas, and natural gas liquids proved reserves, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4870,7 +4832,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_11.pdf" class="ico_pdf" title="Table 4.5  Crude oil and natural gas exploratory and development wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0405.xls" class="ico_xls" title="Table 4.5  Crude oil and natural gas exploratory and development wells, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4884,7 +4846,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_13.pdf" class="ico_pdf" title="Table 4.6  Crude oil and natural gas exploratory wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0406.xls" class="ico_xls" title="Table 4.6  Crude oil and natural gas exploratory wells, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4898,7 +4860,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_15.pdf" class="ico_pdf" title="Table 4.7  Crude oil and natural gas development wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0407.xls" class="ico_xls" title="Table 4.7  Crude oil and natural gas development wells, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4914,7 +4876,7 @@ selected years, 1978&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_17.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0408.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_16.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -4927,7 +4889,7 @@ selected years, 1978&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_17.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0408.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_16.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -4940,7 +4902,7 @@ selected years, 1978&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_19.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0409.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_18.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -4956,7 +4918,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_17.pdf" class="ico_pdf" title="Table 4.8  Coal demonstrated reserve base, January 1, 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0408.xls" class="ico_xls" title="Table 4.8  Coal demonstrated reserve base, January 1, 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4970,7 +4932,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_19.pdf" class="ico_pdf" title="Table 4.9  Uranium exploration and development drilling, 1949— 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0409.xls" class="ico_xls" title="Table 4.9  Uranium exploration and development drilling, 1949— 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -4984,34 +4946,34 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_21.pdf" class="ico_pdf" title="Table 4.10  Uranium reserves, 2008"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0410.xls" class="ico_xls" title="Table 4.10  Uranium reserves, 2008"><i class="ico xls"><span>XLS</span></i></a>
 
 <a href="pdf/sec4_20.pdf" class="ico_pdf" title="Table 4.10  Uranium reserves, 2008"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>4.11<!-- &nbsp; --><!-- &nbsp; -->Concentrating solar resources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_22.pdf" class="ico_pdf" title="Table 4.11  Concentrating solar resources"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>4.12<!-- &nbsp; --><!-- &nbsp; -->Photovoltaic solar resources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_23.pdf" class="ico_pdf" title="Table 4.12  Photovoltaic solar resources"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>4.13<!-- &nbsp; --><!-- &nbsp; -->Onshore wind resources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_24.pdf" class="ico_pdf" title="Table 4.13  Onshore wind resources"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>4.14<!-- &nbsp; --><!-- &nbsp; -->Offshore wind resources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_25.pdf" class="ico_pdf" title="Table 4.14  Offshore wind resources"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>4.15<!-- &nbsp; --><!-- &nbsp; -->Geothermal resources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_26.pdf" class="ico_pdf" title="Table 4.15  Geothermal resources"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>4.16<!-- &nbsp; --><!-- &nbsp; -->Biomass resources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_27.pdf" class="ico_pdf" title="Table 4.16  Biomass resources"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 <?php /* ***** End of Energy Resources Content  ******* */ ?>
 <?php /* ***** Start of Petroleum Content  ******* */ ?>
@@ -5024,7 +4986,7 @@ selected years, 1978&ndash;
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/flow/petroleum.pdf" class="ico_pdf" title="Table 5.0  Petroleum Flow"><i class="ico pdf"><span>PDF</span></i>GRAPH</a>/li>
 
 			<li>5.1a<!-- &nbsp; --><!-- &nbsp; --><a href="showtext.cfm?t=ptb0501a">Petroleum and other liquids overview, 1949&ndash;
@@ -5035,7 +4997,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_6.pdf" class="ico_pdf" title="Table 5.1a  Petroleum and other liquids overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0501a.xls" class="ico_xls" title="Table 5.1a  Petroleum and other liquids overview, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5065,7 +5027,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_9.pdf" class="ico_pdf" title="Table 5.2  Crude oil production and crude oil well productivity, 1954– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0502.xls" class="ico_xls" title="Table 5.2  Crude oil production and crude oil well productivity, 1954– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5138,7 +5100,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_17.pdf" class="ico_pdf" title="Table 5.6  Petroleum exports by country of destination, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0506.xls" class="ico_xls" title="Table 5.6  Petroleum exports by country of destination, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5152,7 +5114,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_19.pdf" class="ico_pdf" title="Table 5.7  Petroleum net imports by country of origin, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0507.xls" class="ico_xls" title="Table 5.7  Petroleum net imports by country of origin, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5183,7 +5145,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_23.pdf" class="ico_pdf" title="Table 5.9  Refinery capacity and utilization, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0509.xls" class="ico_xls" title="Table 5.9  Refinery capacity and utilization, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5197,7 +5159,7 @@ selected years, 1978&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_25.pdf" class="ico_pdf" title="Table 5.10  Natural gas plant liquids production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0510.xls" class="ico_xls" title="Table 5.10  Natural gas plant liquids production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5355,7 +5317,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_41.pdf" class="ico_pdf" title="Table 5.15  Fuel oil and kerosene sales, 1984– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0515.xls" class="ico_xls" title="Table 5.15  Fuel oil and kerosene sales, 1984– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5385,7 +5347,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_45.pdf" class="ico_pdf" title="Table 5.17  Strategic Petroleum Reserve, 1977– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0517.xls" class="ico_xls" title="Table 5.17  Strategic Petroleum Reserve, 1977– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5399,7 +5361,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_47.pdf" class="ico_pdf" title="Table 5.18  Crude oil domestic first purchase prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0518.xls" class="ico_xls" title="Table 5.18  Crude oil domestic first purchase prices, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5429,7 +5391,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_51.pdf" class="ico_pdf" title="Table 5.20  Value of crude oil imports from selected countries, 1973– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0520.xls" class="ico_xls" title="Table 5.20  Value of crude oil imports from selected countries, 1973– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5443,7 +5405,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_53.pdf" class="ico_pdf" title="Table 5.21  Crude oil refiner acquisition costs, 1968– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0521.xls" class="ico_xls" title="Table 5.21  Crude oil refiner acquisition costs, 1968– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5463,7 +5425,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_55.pdf" class="ico_pdf" title="Table 5.22  Refiner sales prices and refiner margins for selected petroleum products, 1995–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0522.xls" class="ico_xls" title="Table 5.22  Refiner sales prices and refiner margins for selected petroleum products, 1995–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5477,7 +5439,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_57.pdf" class="ico_pdf" title="Table 5.23  All sellers sales prices for selected petroleum products,1994– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0523.xls" class="ico_xls" title="Table 5.23  All sellers sales prices for selected petroleum products,1994– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5500,7 +5462,7 @@ Sectors<!--, 1949&ndash;
 <a href="/beta/MER/index.cfm?tbl=T09.04#/?f=A&start=200001" title="Table 5.24  Retail motor gasoline and on-highway diesel fuel prices - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote5.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -5523,7 +5485,7 @@ Sectors<!--, 1949&ndash;
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/flow/natural_gas.pdf" class="ico_pdf" title="Table 6.0 Natural gas flow"><i class="ico pdf"><span>PDF</span></i>GRAPH</a>/li>
 
 			<li><span style="color:#CCC">6.1</span><!-- &nbsp; --><!-- &nbsp; -->Natural gas overview<!--, 1949&ndash;
@@ -5550,7 +5512,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec6_7.pdf" class="ico_pdf" title="Table 6.2  Natural gas production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0602.xls" class="ico_xls" title="Table 6.2  Natural gas production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5584,7 +5546,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec6_11.pdf" class="ico_pdf" title="Table 6.4  Natural gas gross withdrawals and natural gas well productivity, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0604.xls" class="ico_xls" title="Table 6.4  Natural gas gross withdrawals and natural gas well productivity, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5671,7 +5633,7 @@ Sectors<!--, 1949&ndash;
 <a href="/beta/MER/index.cfm?tbl=T09.10#/?f=A&start=200001" title="Table 6.8  Natural gas prices by secto  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote6.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -5694,7 +5656,7 @@ Sectors<!--, 1949&ndash;
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/flow/coal.pdf" class="ico_pdf" title="Table 7.0 Coal flow"><i class="ico pdf"><span>PDF</span></i>GRAPH</a>/li>
 
 			<li><span style="color:#CCC">7.1</span><!-- &nbsp; --><!-- &nbsp; -->Coal overview<!--, 1949&ndash;
@@ -5721,7 +5683,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7_7.pdf" class="ico_pdf" title="Table 7.2  Coal production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0702.xls" class="ico_xls" title="Table 7.2  Coal production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5751,7 +5713,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7_11.pdf" class="ico_pdf" title="Table 7.4  Coal imports by country of origin, 2000– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0704.xls" class="ico_xls" title="Table 7.4  Coal imports by country of origin, 2000– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5766,7 +5728,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7_13.pdf" class="ico_pdf" title="Table 7.5  Coal exports by country of destination, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb0705.xls" class="ico_xls" title="Table 7.5  Coal exports by country of destination, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5796,7 +5758,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7_17.pdf" class="ico_pdf" title="Table 7.7  Coal mining productivity, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0707.xls" class="ico_xls" title="Table 7.7  Coal mining productivity, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5810,7 +5772,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7_19.pdf" class="ico_pdf" title="Table 7.8  Coke overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0708.xls" class="ico_xls" title="Table 7.8  Coke overview, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5824,14 +5786,14 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7_21.pdf" class="ico_pdf" title="Table 7.9  Coal prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0709.xls" class="ico_xls" title="Table 7.9  Coal prices, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
 <a href="pdf/sec7_20.pdf" class="ico_pdf" title="Table 7.9  Coal prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote7.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span></li>
 
@@ -5853,7 +5815,7 @@ Sectors<!--, 1949&ndash;
 			
 			
 			--></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/flow/electricity.pdf" class="ico_pdf" title="Table 8.0   Electricity flow"><i class="ico pdf"><span>PDF</span></i>GRAPH</a>/li>
 
 			<li><span style="color:#CCC">8.1</span><!-- &nbsp; --><!-- &nbsp; -->Electricity overview<!--, 1949&ndash;
@@ -5912,7 +5874,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_10.pdf" class="ico_pdf" title="Table 8.2c  Electricity net generation: electric power sector by plant type, 1989– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0802c.xls" class="ico_xls" title="Table 8.2c  Electricity net generation: electric power sector by plant type, 1989– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5942,7 +5904,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_13.pdf" class="ico_pdf" title="Table 8.3a  Useful thermal output at combined-heat-and-power plants: total (all sectors), 1989 –2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0803a.xls" class="ico_xls" title="Table 8.3a  Useful thermal output at combined-heat-and-power plants: total (all sectors), 1989 –2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5956,7 +5918,7 @@ Sectors<!--, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_14.pdf" class="ico_pdf" title="Table 8.3b  Useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0803b.xls" class="ico_xls" title="Table 8.3b  Useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5970,7 +5932,7 @@ sectors, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_15.pdf" class="ico_pdf" title="Table 8.3c  Useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0803c.xls" class="ico_xls" title="Table 8.3c  Useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5984,7 +5946,7 @@ sectors, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_17.pdf" class="ico_pdf" title="Table 8.4a  Consumption for electricity generation by energy source: total (all sectors), 1949–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0804a.xls" class="ico_xls" title="Table 8.4a  Consumption for electricity generation by energy source: total (all sectors), 1949–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -5998,7 +5960,7 @@ sectors, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_18.pdf" class="ico_pdf" title="Table 8.4b  Consumption for electricity generation by energy source: electric power sector, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0804b.xls" class="ico_xls" title="Table 8.4b  Consumption for electricity generation by energy source: electric power sector, 1949–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6012,7 +5974,7 @@ Sectors, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_19.pdf" class="ico_pdf" title="Table 8.4c  Consumption for electricity generation by energy source: commercial and industrial Sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0804c.xls" class="ico_xls" title="Table 8.4c  Consumption for electricity generation by energy source: commercial and industrial Sectors, 1989–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6058,7 +6020,7 @@ by Plant Type, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_24.pdf" class="ico_pdf" title="Table 8.5c  Consumption of combustible fuels for electricity generation: electric power sector by Plant Type, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0805c.xls" class="ico_xls" title="Table 8.5c  Consumption of combustible fuels for electricity generation: electric power sector by Plant Type, 1989–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6088,7 +6050,7 @@ combined-heat-and-power plants: total (all sectors), 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_27.pdf" class="ico_pdf" title="Table 8.6a  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: total (all sectors), 1989–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0806a.xls" class="ico_xls" title="Table 8.6a  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: total (all sectors), 1989–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6102,7 +6064,7 @@ combined-heat-and-power plants: electric power sector, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_28.pdf" class="ico_pdf" title="Table 8.6b  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0806b.xls" class="ico_xls" title="Table 8.6b  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6116,7 +6078,7 @@ combined-heat-and-power plants: commercial and industrial sectors, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_29.pdf" class="ico_pdf" title="Table 8.6c  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0806c.xls" class="ico_xls" title="Table 8.6c  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6226,7 +6188,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_42.pdf" class="ico_pdf" title="Table 8.11a  Electric net summer capacity: total (all sectors), 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0811a.xls" class="ico_xls" title="Table 8.11a  Electric net summer capacity: total (all sectors), 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6240,7 +6202,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_43.pdf" class="ico_pdf" title="Table 8.11b  Electric net summer capacity: electric power sector, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0811b.xls" class="ico_xls" title="Table 8.11b  Electric net summer capacity: electric power sector, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6254,7 +6216,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_44.pdf" class="ico_pdf" title="Table 8.11c  Electric net summer capacity: electric power sector by plant type, 1989– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0811c.xls" class="ico_xls" title="Table 8.11c  Electric net summer capacity: electric power sector by plant type, 1989– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6268,7 +6230,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_45.pdf" class="ico_pdf" title="Table 8.11d  Electric net summer capacity: commercial and industrial sectors, 1989– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0811d.xls" class="ico_xls" title="Table 8.11d  Electric net summer capacity: commercial and industrial sectors, 1989– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6282,7 +6244,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_48.pdf" class="ico_pdf" title="Table 8.12a  Electric noncoincident peak load and capacity margin: summer peak period, 1986– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0812a.xls" class="ico_xls" title="Table 8.12a  Electric noncoincident peak load and capacity margin: summer peak period, 1986– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6296,7 +6258,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_49.pdf" class="ico_pdf" title="Table 8.12b  Electric noncoincident peak load and capacity margin: winter peak period, 1986– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0812b.xls" class="ico_xls" title="Table 8.12b  Electric noncoincident peak load and capacity margin: winter peak period, 1986– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6310,14 +6272,14 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_51.pdf" class="ico_pdf" title="Table 8.13  Electric utility demand-Side management programs, 1989– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0813.xls" class="ico_xls" title="Table 8.13  Electric utility demand-Side management programs, 1989– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
 <a href="pdf/sec8_50.pdf" class="ico_pdf" title="Table 8.13  Electric utility demand-Side management programs, 1989– 2010"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote8.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -6342,7 +6304,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec9_3.pdf" class="ico_pdf" title="Table 9.1  Nuclear generating units, 1955– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0901.xls" class="ico_xls" title="Table 9.1  Nuclear generating units, 1955– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6372,14 +6334,14 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec9_7.pdf" class="ico_pdf" title="Table 9.3  Uranium overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb0903.xls" class="ico_xls" title="Table 9.3  Uranium overview, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a>
 
 <a href="pdf/sec9_6.pdf" class="ico_pdf" title="Table 9.3  Uranium overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote9.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -6500,7 +6462,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec10_15.pdf" class="ico_pdf" title="Table 10.5  Estimated number of alternative-fueled vehicles in use and fuel consumption, 1992– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1005.xls" class="ico_xls" title="Table 10.5  Estimated number of alternative-fueled vehicles in use and fuel consumption, 1992– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6514,7 +6476,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec10_17.pdf" class="ico_pdf" title="Table 10.6  Solar thermal collector shipments by type, price, and trade, 1974– 2009"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1006.xls" class="ico_xls" title="Table 10.6  Solar thermal collector shipments by type, price, and trade, 1974– 2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6528,7 +6490,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec10_19.pdf" class="ico_pdf" title="Table 10.7  Solar thermal collector shipments by market sector, end use, and type, 2000– 2009"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1007.xls" class="ico_xls" title="Table 10.7  Solar thermal collector shipments by market sector, end use, and type, 2000– 2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6542,7 +6504,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec10_21.pdf" class="ico_pdf" title="Table 10.8  Photovoltaic cell and module shipments by type, trade, and prices, 1982– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1008.xls" class="ico_xls" title="Table 10.8  Photovoltaic cell and module shipments by type, trade, and prices, 1982– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6556,14 +6518,14 @@ commercial and industrial sectors<!--, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec10_23.pdf" class="ico_pdf" title="Table 10.9  Photovoltaic cell and module shipments by sector and end use, 1989– 2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1009.xls" class="ico_xls" title="Table 10.9  Photovoltaic cell and module shipments by sector and end use, 1989– 2010"><i class="ico xls"><span>XLS</span></i></a>
 
 <a href="pdf/sec10_22.pdf" class="ico_pdf" title="Table 10.9  Photovoltaic cell and module shipments by sector and end use, 1989– 2010"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 <?php /*tr>
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote10.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -6587,7 +6549,7 @@ commercial and industrial sectors<!--, 1989&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_3.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 <a href="xls/stb1101.xls" class="ico_xls"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_2.pdf" class="ico_pdf">GRAPH</a></span>
 </li>
@@ -6792,7 +6754,7 @@ Electric Power Sector, Selected Years, 1949&ndash;
 </li>
 			<li>
 <span class="right" style="margin-top:5px">(Find the latest annual data for biomass in <a href="../monthly/#environment">MER Table 12.7</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_3.pdf" class="ico_pdf" title="Table 11.1  Carbon dioxide emissions from energy consumption by source Selected Years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1101.xls" class="ico_xls" title="Table 11.1  Carbon dioxide emissions from energy consumption by source Selected Years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a>
 <a href="pdf/sec11_2.pdf" class="ico_pdf" title="Table 11.1  Carbon dioxide emissions from energy consumption by source Selected Years, 1949–2011"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
@@ -6807,7 +6769,7 @@ Electric Power Sector, Selected Years, 1949&ndash;
 </li>
 			<li>
 <span class="right" style="margin-top:5px">(Find the latest annual data for biomass in <a href="../monthly/#environment">MER Table 12.7</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_5.pdf" class="ico_pdf" title="Table 11.2a  Carbon dioxide emissions from energy consumption: residential sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a> <a href="xls/stb1102a.xls" class="ico_xls" title="Table 11.2a  Carbon dioxide emissions from energy consumption: residential sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a>
 <a href="pdf/sec11_4.pdf" class="ico_pdf" title="Table 11.2a  Carbon dioxide emissions from energy consumption: residential sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
@@ -6824,7 +6786,7 @@ commercial sector, selected years, 1949&ndash;
 </li>
 			<li>
 <span class="right" style="margin-top:5px">(Find the latest annual data for biomass in <a href="../monthly/#environment">MER Table 12.7</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_6.pdf" class="ico_pdf" title="Table 11.2b  Carbon dioxide emissions from energy consumption: 11.2b  Carbon dioxide emissions from energy consumption:"><i class="ico pdf"><span>PDF</span></i></a>  <a href="xls/stb1102b.xls" class="ico_xls" title="Table 11.2b  Carbon dioxide emissions from energy consumption: 11.2b  Carbon dioxide emissions from energy consumption:"><i class="ico xls"><span>XLS</span></i></a>
 <a href="pdf/sec11_4.pdf" class="ico_pdf" title="Table 11.2b  Carbon dioxide emissions from energy consumption: 11.2b  Carbon dioxide emissions from energy consumption:"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
@@ -6841,7 +6803,7 @@ industrial sector, selected years, 1949&ndash;
 </li>
 			<li>
 <span class="right" style="margin-top:5px">(Find the latest annual data for biomass in <a href="../monthly/#environment">MER Table 12.7</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_7.pdf" class="ico_pdf" title="Table 11.2c  Carbon dioxide emissions from energy consumption: industrial sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a> <a href="xls/stb1102c.xls" class="ico_xls" title="Table 11.2c  Carbon dioxide emissions from energy consumption: industrial sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a>
 <a href="pdf/sec11_4.pdf" class="ico_pdf" title="Table 11.2c  Carbon dioxide emissions from energy consumption: industrial sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
@@ -6856,7 +6818,7 @@ industrial sector, selected years, 1949&ndash;
 </li>
 			<li>
 <span class="right" style="margin-top:5px">(Find the latest annual data for biomass in <a href="../monthly/#environment">MER Table 12.7</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_8.pdf" class="ico_pdf" title="Table 11.2d  Carbon dioxide emissions from energy consumption: transportation sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a> <a href="xls/stb1102d.xls" class="ico_xls" title="Table 11.2d  Carbon dioxide emissions from energy consumption: transportation sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a>
 <a href="pdf/sec11_4.pdf" class="ico_pdf" title="Table 11.2d  Carbon dioxide emissions from energy consumption: transportation sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
@@ -6871,7 +6833,7 @@ industrial sector, selected years, 1949&ndash;
 </li>
 			<li>
 <span class="right" style="margin-top:5px">(Find the latest annual data for biomass in <a href="../monthly/#environment">MER Table 12.7</a>)</span*/ ?></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_9.pdf" class="ico_pdf" title="Table 11.2e  Carbon dioxide emissions from energy consumption: electric power sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a> <a href="xls/stb1102e.xls" class="ico_xls" title="Table 11.2e  Carbon dioxide emissions from energy consumption: electric power sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a>
 <a href="pdf/sec11_4.pdf" class="ico_pdf" title="Table 11.2e  Carbon dioxide emissions from energy consumption: electric power sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
@@ -6883,7 +6845,7 @@ industrial sector, selected years, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_11.pdf" class="ico_pdf" title="Table 11.3  Methane emissions, 1980– 2009"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1103.xls" class="ico_xls" title="Table 11.3  Methane emissions, 1980– 2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6897,7 +6859,7 @@ industrial sector, selected years, 1949&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_13.pdf" class="ico_pdf" title="Table 11.4  Nitrous oxide emissions, 1980– 2009"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1104.xls" class="ico_xls" title="Table 11.4  Nitrous oxide emissions, 1980– 2009"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6913,7 +6875,7 @@ total (all sectors), 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_15.pdf" class="ico_pdf" title="Table 11.5a  Emissions from energy consumption for electricity generation and useful thermal output: total (all sectors), 1989–2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1105a.xls" class="ico_xls" title="Table 11.5a  Emissions from energy consumption for electricity generation and useful thermal output: total (all sectors), 1989–2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6927,7 +6889,7 @@ total (all sectors), 1989&ndash;
 			
 			
 			</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_16.pdf" class="ico_pdf" title="Table 11.5b  Emissions from energy consumption for electricity generation and useful thermal output: electric power sector, 1989–2010">P
 DF</a> 
 <a href="xls/stb1105b.xls" class="ico_xls" title="Table 11.5b  Emissions from energy consumption for electricity generation and useful thermal output: electric power sector, 1989–2010"><i class="ico xls"><span>XLS</span></i></a>
@@ -6944,7 +6906,7 @@ commercial and industrial sectors, 1989&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_17.pdf" class="ico_pdf" title="Table 11.5c  Emissions From energy consumption for electricity generation and useful thermal output: commercial and industrial sectors, 1989–2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1105c.xls" class="ico_xls" title="Table 11.5c  Emissions From energy consumption for electricity generation and useful thermal output: commercial and industrial sectors, 1989–2010"><i class="ico xls"><span>XLS</span></i></a>
 
@@ -6959,14 +6921,14 @@ with environmental equipment, 1985&ndash;
 
 
 </a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_19.pdf" class="ico_pdf" title="Table 11.6  Installed nameplate capacity of fossil-fuel steam-electric generators with environmental equipment, 1985–2010"><i class="ico pdf"><span>PDF</span></i></a> 
 <a href="xls/stb1106.xls" class="ico_xls" title="Table 11.6  Installed nameplate capacity of fossil-fuel steam-electric generators with environmental equipment, 1985–2010"><i class="ico xls"><span>XLS</span></i></a>
 
 <a href="pdf/sec11_18.pdf" class="ico_pdf" title="Table 11.6  Installed nameplate capacity of fossil-fuel steam-electric generators with environmental equipment, 1985–2010"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>Section Notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote11.pdf" class="ico_pdf"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -6979,7 +6941,7 @@ with environmental equipment, 1985&ndash;
 			<li>Topic</li>
 
 			<li><span style="color:#CCC">A1</span><!-- &nbsp; --><!-- &nbsp; -->Approximate heat content of petroleum products</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec13_1.pdf" class="ico_pdf" title="Appendix A1 Approximate heat content of petroleum products"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li><span style="color:#CCC">A2</span><!-- &nbsp; --><!-- &nbsp; -->Approximate heat content of petroleum production, imports, and exports<!--, 1949&ndash;
@@ -7063,7 +7025,7 @@ with environmental equipment, 1985&ndash;
 <a href="/beta/MER/index.cfm?tbl=TA6#/?f=A&start=200001" title="Appendix A6  Approximate heat rates for electricity, and heat content of electricity  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Documentation</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/secnote12.pdf" class="ico_pdf" title="Documentation"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li><span style="color:#CCC">B1</span><!-- &nbsp; --><!-- &nbsp; -->Metric conversion factors</li>
@@ -7091,15 +7053,15 @@ with environmental equipment, 1985&ndash;
 			<li><span class="beta"><a href="/beta/MER/index.cfm?tbl=TC1#/?f=A&start=1991" title="Appendix D1  Population, U.S. gross domestic product, and implicit price deflator - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li><span style="color:#CCC">E1</span><!-- &nbsp; --><!-- &nbsp; --><?php /*a href="showtext.cfm?t=ptb1601"*/ ?>Estimated primary energy consumption in the United States, 1635-1945</a></li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec13_21.pdf" class="ico_pdf" title="Appendix E1  Estimated primary energy consumption in the United States, 1635-1945"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Appendix F: Alternatives for estimating energy consumption</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec17.pdf" class="ico_pdf" title="Appendix F: Alternatives for estimating energy consumption"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>F1<!-- &nbsp; --><!-- &nbsp; -->Conversion efficiencies of noncombustible renewable energy sources</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec17_3.pdf" class="ico_pdf" title="Appendix F1  Conversion efficiencies of noncombustible renewable energy sources"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>F1<!-- &nbsp; --><!-- &nbsp; -->Primary energy consumption and delivered total energy, 
@@ -7110,7 +7072,7 @@ with environmental equipment, 1985&ndash;
 
 
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec17_5.pdf" class="ico_pdf" title="Appendix F1  Primary energy consumption and delivered total energy, 2010"><i class="ico pdf"><span>PDF</span></i>GRAPH</a></li>
 
 			<li>F2<!-- &nbsp; --><!-- &nbsp; -->Energy consumption by sector, 
@@ -7121,7 +7083,7 @@ with environmental equipment, 1985&ndash;
 
 
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec17_6.pdf" class="ico_pdf" title="Appendix F2  Energy consumption by sector, 2010"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>F3<!-- &nbsp; --><!-- &nbsp; -->Noncombustible renewable primary energy consumption by energy source, 
@@ -7132,11 +7094,11 @@ with environmental equipment, 1985&ndash;
 
 
 </li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec17_6.pdf" class="ico_pdf" title="Appendix F3  Noncombustible renewable primary energy consumption by energy source, 2010"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Glossary</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec18.pdf" class="ico_pdf" title="Glossary"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Appendices Content  ******* */ ?>
 </table>          
@@ -7230,7 +7192,7 @@ Table E1a,"Noncombustible renewable primary energy consumption:  conventional hy
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec1.pdf" class="pdf" title="entire section">
 PDF (entire section )</a></span></li>
 
@@ -7289,7 +7251,7 @@ by source and total net imports</li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T01.08#/?f=M&start=200001" title="Table 1.8  Motor vehicle mileage, fuel consumption, and fuel economy  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>1.9<!-- &nbsp; --><!-- &nbsp; -->Heating degree-days by Census division</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec1_20.pdf" class="ico_pdf" title="Table 1.9  Heating degree-days by Census division"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=T01.09&amp;freq=m" class="ico_xls" title="Table 1.9  Heating degree-days by Census division"><i class="ico xls"><span>XLS</span></i></a>
 <a href="/totalenergy/data/browser/csv.php?tbl=T01.09" class="ico_csv" title="Table 1.9  Heating degree-days by Census division"><i class="ico csv"><span>CSV</span></i></a></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T01.09#/?f=A&start=200001" title="Table 1.9  Heating degree-days by Census division  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
@@ -7310,7 +7272,7 @@ by source and total net imports</li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T01.11B#/?f=A&amp;start=200001" title="Table 1.11b  Heat Content of Non-Combustion Use of Fossil Fuels  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec1_n.pdf" class="ico_pdf" title="Section 1 notes"><i class="ico pdf"><span>PDF</span></i></a>
 /span>
 </li>
@@ -7323,7 +7285,7 @@ by source and total net imports</li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2.pdf" class="pdf" title="entire section 2">
 PDF (entire section)</a></span></li>
 
@@ -7369,7 +7331,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T02.08#/?f=M&start=200001" title="Table 2.8   U.S. government energy consumption by source, fiscal years  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec2_n.pdf" class="ico_pdf" title="Table 2 Section notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Energy Consumption by Sector Content  ******* */ ?>
 <?php /* ***** Start of Petroleum Content  ******* */ ?>
@@ -7378,7 +7340,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3.pdf" class="pdf" title="entire section 3">
 PDF (entire section)</a></span></li>
 
@@ -7467,7 +7429,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T03.08C#/?f=M&start=200001" title="Table 3.8c  Transportation and electric power sectors - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec3_n.pdf" class="ico_pdf" title="section 3 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Petroleum Content  ******* */ ?>
 <?php /* ***** Start of Natural Gas Content  ******* */ ?>
@@ -7476,7 +7438,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4.pdf" class="pdf" title="entire section 4">
 PDF (entire section)</a></span></li>
 
@@ -7503,7 +7465,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T04.04#/?f=M&start=200001" title="Underground storage  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec4_n.pdf" class="ico_pdf" title="Section 4 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Natural Gas Content  ******* */ ?>
 <?php /* ***** Start of Crude Oil and Natural Gas Resource Development Content  ******* */ ?>
@@ -7512,7 +7474,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5.pdf" class="pdf" title="entire section 5">
 PDF (entire section)</a></span></li>
 
@@ -7536,7 +7498,7 @@ PDF (entire section)</a></span></li>
 ******* */ ?>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec5_n.pdf" class="ico_pdf" title="Section 5 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Crude Oil and Natural Gas Resource Development Content  ******* */ ?>
 <?php /* ***** Start of Coal Content  ******* */ ?>
@@ -7545,7 +7507,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec6.pdf" class="pdf" title="entire section 6">
 PDF (entire section)</a></span></li>
 
@@ -7568,7 +7530,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T06.03#/?f=M&start=200001" title="Table 6.3 Stocks by sector  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec6_n.pdf" class="ico_pdf" title="Section 6 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Coal Content  ******* */ ?>
 <?php /* ***** Start of Electricity Content  ******* */ ?>
@@ -7577,7 +7539,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7.pdf" class="pdf" title="entire section 7">
 PDF (entire section)</a></span></li>
 
@@ -7660,22 +7622,22 @@ for electricity generation and useful thermal output:</li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T07.06#/?f=M&start=200001" title="Table 7.6  Electricity end use  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec7_n.pdf" class="ico_pdf" title="Section 7 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 			<li class="note">Other notes:</li>
 
 			<li>Notes on estimated monthly data 
 (1989-2000)</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/historical/sec7_estimation.pdf" class="ico_pdf" title="Table Notes on estimated monthly data (1989-2000)"><i class="ico pdf"><span>PDF</span></i></a></li>
 			<li>Estimating power sector fuel use</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/historical/sec12_d.pdf" class="ico_pdf" title="Table Estimating power sector fuel use"><i class="ico pdf"><span>PDF</span></i></a></li>
 			<li>Allocating municipal solid waste to 
 biogenic and </li>
 			<li>
 nonbiogenic energy</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/historical/msw.pdf" class="ico_pdf" title="Table Allocating municipal solid waste to biogenic and nonbiogenic energy"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Electricity Content  ******* */ ?>
 <?php /* ***** Start of Nuclear Energy Content  ******* */ ?>
@@ -7684,7 +7646,7 @@ nonbiogenic energy</li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8.pdf" class="pdf" title="entire section 8">
 PDF (entire section)</a></span></li>
 
@@ -7694,7 +7656,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T08.01#/?f=M&start=200001" title="Table 8.1 Overview  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec8_n.pdf" class="ico_pdf" title="Section 8 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Nuclear Energy Content  ******* */ ?>
 <?php /* ***** Start of Energy Prices Content  ******* */ ?>
@@ -7703,7 +7665,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec9.pdf" class="pdf" title="entire section 9">
 PDF (entire section)</a></span></li>
 
@@ -7786,7 +7748,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T09.10#/?f=M&start=200001" title="Table 9.10  Natural gas prices  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec9_n.pdf" class="ico_pdf" title="Section 9 notes"><i class="ico pdf"><span>PDF</span></i></a><!-- &nbsp; --></span>
 </li>
 <?php /* ***** End of Energy Prices Content  ******* */ ?>
@@ -7796,7 +7758,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec10.pdf" class="pdf" title="entire section 10">
 PDF (entire section)</a></span></li>
 
@@ -7846,11 +7808,11 @@ PDF (entire section)</a></span></li>
 
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec10_n.pdf" class="ico_pdf" title="Section 10 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Allocating municipal solid waste to biogenic and non-biogenic energy</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/historical/msw.pdf" class="ico_pdf" title="Table Allocating municipal solid waste to biogenic and non-biogenic energy"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Renewable Energy Content  ******* */ ?>
 <?php /* ***** Start of International Petroleum Content  ******* */ ?>
@@ -7859,7 +7821,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11.pdf" class="pdf" title="entire section 11">
 PDF (entire section)</a></span></li>
 
@@ -7888,7 +7850,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T11.03#/?f=M&start=200001" title="Table 1.3  Petroleum stocks in OECD countries  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec11_n.pdf" class="ico_pdf" title="Section 11 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of International Petroleum Content  ******* */ ?>
 <?php /* ***** Start of Environment Content  ******* */ ?>
@@ -7897,7 +7859,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec12.pdf" class="pdf" title="entire section 12">
 PDF (entire section)</a></span></li>
 
@@ -7942,7 +7904,7 @@ PDF (entire section)</a></span></li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=T12.07#/?f=M&start=200001" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec12_n.pdf" class="ico_pdf" title="Section 12 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Environment Content  ******* */ ?>
 <?php /* ***** Start of Appendices Content  ******* */ ?>
@@ -7954,7 +7916,7 @@ PDF (entire section)</a></span></li>
 		<ul>
 
 			<li>Topic</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <a href="pdf/sec13.pdf" class="pdf" title="Appendices">
 PDF (entire section)</a></span></li>
 
@@ -7993,19 +7955,19 @@ and heat content of electricity</li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=TA6#/?f=A&start=1991" title="Table A6  Approximate heat rates for electricity, - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>Appendix A documentation</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec13_a_doc.pdf" class="ico_pdf" title="Appendix A documentation"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>B1<!-- &nbsp; --><!-- &nbsp; -->Metric conversion factors</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec13_16.pdf" class="ico_pdf" title="Table B1  Metric conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>B2<!-- &nbsp; --><!-- &nbsp; -->Metric prefixes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec13_17.pdf" class="ico_pdf" title="Table B2  Metric prefixes"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>B3<!-- &nbsp; --><!-- &nbsp; -->Other physical conversion factors</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec13_17.pdf" class="ico_pdf" title="Table B3  Other physical conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
 			<li>C1<!-- &nbsp; --><!-- &nbsp; -->Population, U.S. gross domestic product, and U.S. gross output</li>
 			<li class="additional-formats">Available formats:  <a href="pdf/sec13_19.pdf" class="ico_pdf" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/xls.php?tbl=TC1&freq=a" class="ico_xls" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico xls"><span>XLS</span></i></a>
@@ -8013,15 +7975,15 @@ and heat content of electricity</li>
 			<li><span class="beta"><a href="/totalenergy/data/browser/index.php?tbl=TC1#/?f=A&start=1991" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
 
 			<li>D1<!-- &nbsp; --><!-- &nbsp; -->Estimated primary energy consumption in the United States, selected years, 1635-1945</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec13_21.pdf" class="ico_pdf" title="Table D1  Estimated primary energy consumption in the United States, selected years, 1635-1945"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Appendix D section notes</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec13_22.pdf" class="ico_pdf" title="appendix D section  notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>Appendix E</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec13_23.pdf" class="ico_pdf" title="Appendix E"><i class="ico pdf"><span>PDF</span></i></a></li>
 
 			<li>E1a<!-- &nbsp; --><!-- &nbsp; -->Noncombustible renewable primary energy consumption: conventional hydroelectric power, geothermal, and wind</li>
@@ -8038,7 +8000,7 @@ and heat content of electricity</li>
 		<ul>
 
 			<li><!-- &nbsp; --><!-- &nbsp; -->Glossary</li>
-			<li class="additional-formats">Available formats</li>
+			<li></li>
 						<li class="additional-formats no-bullet">Available formats: <!-- &nbsp; --><a href="pdf/sec14.pdf" class="ico_pdf" title="Glossary"><i class="ico pdf"><span>PDF</span></i></a></li>
 <?php /* ***** End of Appendices Content  ******* */ ?>
 </table>    
