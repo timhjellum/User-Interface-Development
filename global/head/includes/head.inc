@@ -28,6 +28,7 @@ isset($highstock) || $highstock = '';
 <link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
 <link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
 
+<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script> 
 <?php include('global/includes/highcharts.inc') ?>
 
 <?php
@@ -35,7 +36,7 @@ if(strpos($_SERVER['HTTP_HOST'],'wwwdev')===false){
 ?>
 <script type="text/javascript" src="/global/scripts/jquery/ga/ga-file-downloads.js" ></script>
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/global/includes/ga.inc";
+include('/global/includes/ga.inc";
 }
 ?>
 <?php

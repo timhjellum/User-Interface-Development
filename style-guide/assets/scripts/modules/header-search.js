@@ -1,4 +1,4 @@
-import $ from 'jquery';
+//import $ from 'jquery';
 
 //console.log("header search checking in...");
 

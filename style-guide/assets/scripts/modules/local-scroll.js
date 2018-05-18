@@ -1,4 +1,4 @@
-const $ = require("jquery");
+//const $ = require("jquery");
 //import scrollTo from '../../../../node_modules/local-scroll/dist/local-scroll.js;
 import localScroll from 'local-scroll';
 

@@ -1,4 +1,4 @@
-import $ from 'jquery';
+//import $ from 'jquery';
 import bxslider from '../../../../node_modules/bxslider/dist/jquery.bxslider.min.js';
 
 class BxSlider {
