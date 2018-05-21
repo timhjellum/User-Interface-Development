@@ -21,7 +21,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 		<!--?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?-->include here
 	</li>
 	<li class="note">Interactive data from: Total Energy Data Browser</li>
-	<li class="additional-formats dashed-divider">
+	<li class="additional-formats item-divider">
 		<a href="/totalenergy/data/monthly/pdf/sec7_3.pdf" class="ico_pdf" title=" Electricity overview">
 			<i class="ico pdf">
 				<span>PDF</span>
@@ -49,7 +49,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li>
 		<strong>Total electric power industry summary statistics</strong>
 	</li>
-	<li class="dashed-divider">
+	<li class="item-divider">
 		<ul>
 			<li>
 				<strong>Monthly</strong>
@@ -112,13 +112,13 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			</li>
 		</ul>
 	</li>
-	<li class="dashed-divider">
+	<li class="item-divider">
 		<a href="/totalenergy/data/monthly/#electricity">...more national-level summary data </a>
 	</li>
 	<li>
 		<a href="/electricity/state/">State summary statistics</a> (Capacity, generation, price, emissions and more)</li>
 	<li>
-		<span class="release-date dashed-divider">Annual Release Date: </span>
+		<span class="release-date item-divider">Annual Release Date: </span>
 		<span class="date">January 25, 2018 </span> | data from:
 		<span class="date">State Electricity Profiles</span>
 	</li>
@@ -128,7 +128,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li class="note">data from:
 		<a href="/beta/international/data/browser/">International Energy Statistics</a>
 	</li>
-	<li class="dashed-divider">
+	<li class="item-divider">
 		<ul>
 			<li>
 				<a href="/beta/international/data/browser/#?ord=SA&amp;cy=2013&amp;v=H&amp;vo=0&amp;so=0&amp;io=0&amp;start=1980&amp;end=2013&amp;vs=INTL.2-12-AFRC-BKWH.A~INTL.2-12-ASOC-BKWH.A~INTL.2-12-CSAM-BKWH.A~INTL.2-12-EURA-BKWH.A~INTL.2-12-EURO-BKWH.A~INTL.2-12-MIDE-BKWH.A~INTL.2-12-NOAM-BKWH.A&amp;c=4100000002000060000000000000g000200000000000000001&amp;pa=00000000000000000000000000000fvu&amp;f=A&amp;ug=g&amp;ct=1&amp;tl_type=p&amp;tl_id=2-A">Generation </a>
@@ -165,7 +165,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li>
 		<strong>Retail sales of electricity to ultimate customers</strong>
 	</li>
-	<li class="dashed-divider">
+	<li class="item-divider">
 		<ul>
 			<li class="release-schedule">
 				<strong>Monthly</strong>
@@ -317,7 +317,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li>
 		<strong>Revenue from retail sales of electricity to ultimate customers</strong>
 	</li>
-	<li class="dashed-divider">
+	<li class="item-divider">
 		<ul>
 			<li class="release-schedule">
 				<strong>Monthly</strong>
@@ -496,7 +496,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 		</ul>
 	</li>
 
-	<li class="dashed-divider">
+	<li class="item-divider">
 		<strong>Average retail price of electricity to ultimate customers:</strong>
 	</li>
 			<li class="no-bullet">
@@ -666,7 +666,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li>
 		<strong>Number of customers (annual):</strong>
 	</li>
-	<li class="dashed-divider">
+	<li class="item-divider">
 		<ul>
 			<li>
 				<a href="/electricity/annual/html/epa_02_01.html" title=" Number of customers (annual) (back to 2005)">By sector, by provider</a> (back to 2005)
@@ -835,7 +835,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<strong>Detailed preliminary
 						<a href="/survey/#eia-923">EIA-923</a> monthly and annual survey data</strong> (back to 1990)
 				</li>
-				<li class="highlight solid-divider">
+				<li class="highlight divider">
 					<ul>
 						<li>
 							<a href="/electricity/data/eia923/index.html">Plant-level generation and fuel consumption data </a>
@@ -870,7 +870,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 				<li>
 					<strong>Net generation</strong>
 				</li>
-				<li class="no-bullet dashed-divider">
+				<li class="no-bullet item-divider">
 					<ul>
 						<li class="release-schedule">
 							<strong>Monthly</strong>

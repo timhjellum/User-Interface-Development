@@ -30,18 +30,3 @@ isset($highstock) || $highstock = '';
 
 <script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script> 
 <?php include('global/includes/highcharts.inc') ?>
-
-<?php
-if(strpos($_SERVER['HTTP_HOST'],'wwwdev')===false){
-?>
-<script type="text/javascript" src="/global/scripts/jquery/ga/ga-file-downloads.js" ></script>
-<?php
-include('/global/includes/ga.inc";
-}
-?>
-<?php
-$glossary_path = '/tools/glossary/';
-$faqs_path = '/tools/faqs/';
-?>
-
-
