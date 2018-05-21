@@ -2,9 +2,9 @@
 
 
 @media @mobile {
-	.accordion-content {
+	._accordion-content {
 		overflow: hidden;
-		max-height: 0;
+		max-height: 10000px;
 		padding-top: 0;
 		padding-bottom: 0;
 		margin-top: 0;
@@ -17,10 +17,9 @@
 		-webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 		-o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-		.font;
 		color: @eia-dark-grey;
 		font-size: 0.750rem * 1.20%; // 12 pixels
-		a {
+/*		a {
 			color: @eia-blue;
 			font-size: 0.750rem * 1.20%; // 12 pixels
 			text-decoration: none;
@@ -28,6 +27,7 @@
 				text-decoration: underline;
 			} 
 		}
+		*/
 		&.expanded {
 			-moz-transition-duration: 0.3s;
 			-webkit-transition-duration: 0.3s;
@@ -40,6 +40,7 @@
 			max-height: 10000px;
 			//overflow: hidden;
 		}
+
 		ul {
 			list-style: none;
 			padding: 0;
@@ -48,12 +49,11 @@
 				padding-bottom: 2em;
 			}
 			li {
-				//padding: 0 1.6em;
-				//margin: 4px 0;
-				//font-size: 10pt;
+				.font;
 				color: @eia-dark-grey;
 				margin: 0.25em 0 .5em 0;
 				padding: 0;
+				list-style: none;
 				a {
 					color: @eia-blue;
 					font-size: 0.750rem * 1.20%; // 12 pixels
@@ -63,27 +63,20 @@
 					} 
 				}
                 span {
-						color: @eia-dark-grey;					
-//					&.date {
-
-//					}
-					&.release-date {
-						.italic;
-//						color: @eia-dark-grey;
-					}
+					color: @eia-dark-grey;					
+				}
+				&.release-date {
+					.italic;
 				}
 				&.release-schedule {
 					.italic;
-//					color: @eia-dark-grey;
 				}
 				&.additional-formats {
 					.italic;
-//					color: @eia-dark-grey;
 					a {
 						display: inline-block;
 						.ico {
 							&:before {
-								//.controls-icon(18px, 18px);
 								display: inline-block;
 							}
 							span {
@@ -92,11 +85,9 @@
 						}
 					}
 				}
-				&.head {
+				&.highlight {
 					.font;
-					.bold;
-					//border-top: 1px solid #ecedee;
-					border-top: dashed 1px #d8d8d8;
+					background-color: #fee;
 					margin-top: 1.6em;
 					padding-top: 1.6em;
 					//font-size: 12pt;
@@ -115,39 +106,25 @@
 						&:hover { 
 							text-decoration: underline;
 						} 
-						&:after { 
-							content:"\00a0\203A";
-							&:hover { 
-								text-decoration: none;
-							} 
-						}
-					}
-					.additional-formats {
-						display: table;
-						.right;
-						a {
-							display: inline;
-							.left;
-							margin-left: 8px;
-							text-decoration: none;
-							&:after { 
-								content:"";
-							}
-							&:hover { 
-								text-decoration: underline;
-							} 
-						}
-					}
-					.highlight {
-						background-color: #ddf0f9;
-					}
-					.dashed-divider {
-						border-bottom: dashed 1px #d8d8d8;
-					}
-					.solid-divider {
-						border-bottom: dashed 1px #d8d8d8;
 					}
 				}
+				&.additional-formats {
+					a {
+						display: inline;
+						margin-left: 8px;
+						text-decoration: none;
+						&:hover { 
+							text-decoration: underline;
+						} 
+					}
+				}
+				&.dashed-divider {
+					border-bottom: dashed 2px red;
+				}
+				&.solid-divider {
+					border-bottom: solid 3px red;
+				}
+
 				ul {
 					list-style-type: disc;
 					margin: 0 0 1.5em 1.5em;
@@ -157,23 +134,46 @@
 					}
 					li {
 						.font;
-//						color: @eia-dark-grey;
 						font-size: 0.750rem * 1.20%; // 12 pixels
 						margin: 8px 0;
 						padding: 0;
+						list-style-type: disc;
 						a {
 							color: @eia-blue;
 							font-size: 0.750rem * 1.20%; // 12 pixels
 							text-decoration: none;
-							&:after { 
-								content:"\00a0\203A";
-							}
 							&:hover { 
 								text-decoration: underline;
 							}
 						}
+						ul {
+							list-style-type: disc;
+							margin: 0 0 1.5em 1.5em;
+							padding: .3em 0;
+							&:last-child {
+								padding-bottom: 1em;
+							}
+							li {
+								.font;
+								font-size: 0.750rem * 1.20%; // 12 pixels
+								margin: 8px 0;
+								padding: 0;
+								list-style-type: disc;
+								a {
+									color: @eia-blue;
+									font-size: 0.750rem * 1.20%; // 12 pixels
+									text-decoration: none;
+									&:hover { 
+										text-decoration: underline;
+									}
+								}
+							}
+						}
 					}
 				}
+			}
+			.no-bullet {
+				list-style: none;
 			}
 		}
 	}
@@ -324,7 +324,7 @@
 	}
 }
 @media @tablet-landscape {
-	.accordion-content {
+	._accordion-content {
 		font-size: 0.750rem; // 12 pixels
 		a {
 			font-size: 0.750rem; // 12 pixels

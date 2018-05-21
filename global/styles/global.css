@@ -3998,6 +3998,7 @@ span.line-break {
     height: 18px;
     width: 18px;
     display: block;
+    display: inline-block;
   }
   .ico.xls:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2061.65%2066.17%22%3E%3Crect%20x%3D%2230.29%22%20y%3D%2217.94%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2217.94%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2217.94%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2224.43%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2224.43%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2224.43%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2230.92%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2230.92%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2230.92%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2237.41%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2237.41%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2237.41%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2243.9%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2243.9%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2243.9%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2250.4%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2250.4%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2250.4%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Cpath%20d%3D%22M42.8,4.83H12.08V61H56.8V18.83ZM54,58.23H14.86V7.61H42.8V18.83H54v39.4Z%22%20fill%3D%22%23777777%22/%3E%3Crect%20x%3D%224.16%22%20y%3D%2212.34%22%20width%3D%2233.28%22%20height%3D%2214.5%22%20fill%3D%22%235d9732%22/%3E%3Ctext%20transform%3D%22translate%2811.08%2023.24%29%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Arial%22%20font-weight%3D%22700%22%20style%3D%22text-transform%3A%20uppercase%22%3Exls%3C/text%3E%3Cpolygon%20points%3D%2256.8%2018.83%2042.8%204.83%2042.8%2018.83%2056.8%2018.83%22%20fill%3D%22%23c8c8c8%22/%3E%3C/svg%3E') no-repeat center center;
@@ -4005,6 +4006,7 @@ span.line-break {
     height: 18px;
     width: 18px;
     display: block;
+    display: inline-block;
   }
   .ico.csv:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2061.65%2066.17%22%3E%3Crect%20x%3D%2220.32%22%20y%3D%2231.25%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2237.74%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2244.24%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2250.73%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2224.76%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2218.27%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Cpath%20d%3D%22M42.8,4.83H12.08V61H56.8V18.83ZM54,58.23H14.86V7.61H42.8V18.83H54v39.4Z%22%20fill%3D%22%23777777%22/%3E%3Crect%20x%3D%224.16%22%20y%3D%2212.34%22%20width%3D%2233.28%22%20height%3D%2214.5%22%20fill%3D%22%23777777%22/%3E%3Ctext%20transform%3D%22translate%2811.08%2023.24%29%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Arial%22%20font-weight%3D%22700%22%20style%3D%22text-transform%3A%20uppercase%22%3Ecsv%3C/text%3E%3Cpolygon%20points%3D%2256.8%2018.83%2042.8%204.83%2042.8%2018.83%2056.8%2018.83%22%20fill%3D%22%23c8c8c8%22/%3E%3C/svg%3E') no-repeat center center;
@@ -4012,6 +4014,15 @@ span.line-break {
     height: 18px;
     width: 18px;
     display: block;
+    display: inline-block;
+  }
+  .ico.interactive:before {
+    background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2061.65%2066.17%22%3E%3Crect%20x%3D%2220.32%22%20y%3D%2231.25%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2237.74%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2244.24%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2250.73%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2224.76%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2218.27%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Cpath%20d%3D%22M42.8,4.83H12.08V61H56.8V18.83ZM54,58.23H14.86V7.61H42.8V18.83H54v39.4Z%22%20fill%3D%22%23777777%22/%3E%3Crect%20x%3D%224.16%22%20y%3D%2212.34%22%20width%3D%2233.28%22%20height%3D%2214.5%22%20fill%3D%22%23777777%22/%3E%3Ctext%20transform%3D%22translate%2811.08%2023.24%29%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Arial%22%20font-weight%3D%22700%22%20style%3D%22text-transform%3A%20uppercase%22%3Ecsv%3C/text%3E%3Cpolygon%20points%3D%2256.8%2018.83%2042.8%204.83%2042.8%2018.83%2056.8%2018.83%22%20fill%3D%22%23c8c8c8%22/%3E%3C/svg%3E') no-repeat center center;
+    content: ' ';
+    height: 18px;
+    width: 18px;
+    display: block;
+    display: inline-block;
   }
   .ico.external-link:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2013.92%2013.92%22%3E%3Cpolygon%20points%3D%2210%2012.92%200.92%2012.92%200.92%203.84%205.46%203.84%205.46%205.12%202.2%205.12%202.2%2011.63%208.71%2011.63%208.71%208.38%2010%208.38%2010%2012.92%22%20fill%3D%22%230096d7%22/%3E%3Cpolygon%20points%3D%2212.92%206.44%2012.92%200.92%207.39%200.92%209.7%203.22%205%207.92%205.91%208.83%2010.61%204.13%2012.92%206.44%22%20fill%3D%22%230096d7%22/%3E%3C/svg%3E') no-repeat center center;
@@ -4019,6 +4030,7 @@ span.line-break {
     height: 12px;
     width: 12px;
     display: block;
+    display: inline-block;
   }
   /*
 		&.telephone {
@@ -6524,9 +6536,9 @@ span.line-break {
 }
 /* content container must be the first line item of the modules */
 @media (min-width: 1px) {
-  .accordion-content {
+  ._accordion-content {
     overflow: hidden;
-    max-height: 0;
+    max-height: 10000px;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
@@ -6539,20 +6551,19 @@ span.line-break {
     -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
     color: #333;
     font-size: 0.9rem;
+    /*		a {
+			color: @eia-blue;
+			font-size: 0.750rem * 1.20%; // 12 pixels
+			text-decoration: none;
+			&:hover { 
+				text-decoration: underline;
+			} 
+		}
+		*/
   }
-  .accordion-content a {
-    color: #0096d7;
-    font-size: 0.9rem;
-    text-decoration: none;
-  }
-  .accordion-content a:hover {
-    text-decoration: underline;
-  }
-  .accordion-content.expanded {
+  ._accordion-content.expanded {
     -moz-transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
@@ -6563,128 +6574,139 @@ span.line-break {
     transition-timing-function: ease-in;
     max-height: 10000px;
   }
-  .accordion-content ul {
+  ._accordion-content ul {
     list-style: none;
     padding: 0;
     margin: 0 27px;
   }
-  .accordion-content ul:last-child {
+  ._accordion-content ul:last-child {
     padding-bottom: 2em;
   }
-  .accordion-content ul li {
+  ._accordion-content ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
     color: #333;
     margin: 0.25em 0 .5em 0;
     padding: 0;
+    list-style: none;
   }
-  .accordion-content ul li a {
+  ._accordion-content ul li a {
     color: #0096d7;
     font-size: 0.9rem;
     text-decoration: none;
   }
-  .accordion-content ul li a:hover {
+  ._accordion-content ul li a:hover {
     text-decoration: underline;
   }
-  .accordion-content ul li span {
+  ._accordion-content ul li span {
     color: #333;
   }
-  .accordion-content ul li span.release-date {
+  ._accordion-content ul li.release-date {
     font-style: italic;
   }
-  .accordion-content ul li.release-schedule {
+  ._accordion-content ul li.release-schedule {
     font-style: italic;
   }
-  .accordion-content ul li.additional-formats {
+  ._accordion-content ul li.additional-formats {
     font-style: italic;
   }
-  .accordion-content ul li.additional-formats a {
+  ._accordion-content ul li.additional-formats a {
     display: inline-block;
   }
-  .accordion-content ul li.additional-formats a .ico:before {
+  ._accordion-content ul li.additional-formats a .ico:before {
     display: inline-block;
   }
-  .accordion-content ul li.additional-formats a .ico span {
+  ._accordion-content ul li.additional-formats a .ico span {
     margin: 0 0 0 2px;
   }
-  .accordion-content ul li.head {
+  ._accordion-content ul li.highlight {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
-    font-weight: 700;
-    border-top: dashed 1px #d8d8d8;
+    background-color: #fee;
     margin-top: 1.6em;
     padding-top: 1.6em;
     font-size: 0.9rem;
     line-height: 1.2em;
   }
-  .accordion-content ul li.head:first-child {
+  ._accordion-content ul li.highlight:first-child {
     border-top: none;
     padding-top: 0;
   }
-  .accordion-content ul li.head a {
+  ._accordion-content ul li.highlight a {
     color: #0096d7;
     font-size: 0.9rem;
     text-decoration: none;
   }
-  .accordion-content ul li.head a:hover {
+  ._accordion-content ul li.highlight a:hover {
     text-decoration: underline;
   }
-  .accordion-content ul li.head a:after {
-    content: "\00a0\203A";
-  }
-  .accordion-content ul li.head a:after:hover {
-    text-decoration: none;
-  }
-  .accordion-content ul li.head .additional-formats {
-    display: table;
-    float: right;
-  }
-  .accordion-content ul li.head .additional-formats a {
+  ._accordion-content ul li.additional-formats a {
     display: inline;
-    float: left;
     margin-left: 8px;
     text-decoration: none;
   }
-  .accordion-content ul li.head .additional-formats a:after {
-    content: "";
-  }
-  .accordion-content ul li.head .additional-formats a:hover {
+  ._accordion-content ul li.additional-formats a:hover {
     text-decoration: underline;
   }
-  .accordion-content ul li.head .highlight {
-    background-color: #ddf0f9;
+  ._accordion-content ul li.dashed-divider {
+    border-bottom: dashed 2px red;
   }
-  .accordion-content ul li.head .dashed-divider {
-    border-bottom: dashed 1px #d8d8d8;
+  ._accordion-content ul li.solid-divider {
+    border-bottom: solid 3px red;
   }
-  .accordion-content ul li.head .solid-divider {
-    border-bottom: dashed 1px #d8d8d8;
-  }
-  .accordion-content ul li ul {
+  ._accordion-content ul li ul {
     list-style-type: disc;
     margin: 0 0 1.5em 1.5em;
     padding: .3em 0;
   }
-  .accordion-content ul li ul:last-child {
+  ._accordion-content ul li ul:last-child {
     padding-bottom: 1em;
   }
-  .accordion-content ul li ul li {
+  ._accordion-content ul li ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
     font-size: 0.9rem;
     margin: 8px 0;
     padding: 0;
+    list-style-type: disc;
   }
-  .accordion-content ul li ul li a {
+  ._accordion-content ul li ul li a {
     color: #0096d7;
     font-size: 0.9rem;
     text-decoration: none;
   }
-  .accordion-content ul li ul li a:after {
-    content: "\00a0\203A";
-  }
-  .accordion-content ul li ul li a:hover {
+  ._accordion-content ul li ul li a:hover {
     text-decoration: underline;
+  }
+  ._accordion-content ul li ul li ul {
+    list-style-type: disc;
+    margin: 0 0 1.5em 1.5em;
+    padding: .3em 0;
+  }
+  ._accordion-content ul li ul li ul:last-child {
+    padding-bottom: 1em;
+  }
+  ._accordion-content ul li ul li ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 0.9rem;
+    margin: 8px 0;
+    padding: 0;
+    list-style-type: disc;
+  }
+  ._accordion-content ul li ul li ul li a {
+    color: #0096d7;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  ._accordion-content ul li ul li ul li a:hover {
+    text-decoration: underline;
+  }
+  ._accordion-content ul .no-bullet {
+    list-style: none;
   }
   .accordion {
     margin-bottom: 1.6em;
@@ -6821,25 +6843,25 @@ span.line-break {
   }
 }
 @media (min-width: 801px) {
-  .accordion-content {
+  ._accordion-content {
     font-size: 0.750rem;
   }
-  .accordion-content a {
+  ._accordion-content a {
     font-size: 0.750rem;
   }
-  .accordion-content ul li a {
+  ._accordion-content ul li a {
     font-size: 0.750rem;
   }
-  .accordion-content ul li.head {
+  ._accordion-content ul li.head {
     font-size: 1em;
   }
-  .accordion-content ul li.head a {
+  ._accordion-content ul li.head a {
     font-size: 0.750rem;
   }
-  .accordion-content ul li ul li {
+  ._accordion-content ul li ul li {
     font-size: 0.750rem;
   }
-  .accordion-content ul li ul li a {
+  ._accordion-content ul li ul li a {
     font-size: 0.750rem;
   }
   .accordion h2 {

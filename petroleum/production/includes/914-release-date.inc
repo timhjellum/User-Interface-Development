@@ -1,1 +1,1 @@
-<li><span class="release-date">Release Date: </span><span class="date">March 30, 2018</span></li>
+<span class="release-date">Release Date: </span><span class="date">March 30, 2018</span>
