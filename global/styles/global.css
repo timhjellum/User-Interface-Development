@@ -6683,7 +6683,6 @@ span.line-break {
     list-style-type: none;
     border-bottom: none;
     padding: 0;
-    border: 1px solid blue;
   }
   .accordion-content .sub-list ul:last-child {
     padding: 0;
@@ -6706,7 +6705,6 @@ span.line-break {
   }
   .accordion-content .list-item {
     list-style-type: none;
-    border: 1px solid red;
   }
   .accordion-content .list-item > ul {
     margin: 0 0 13px 0;
