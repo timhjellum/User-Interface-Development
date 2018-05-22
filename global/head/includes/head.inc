@@ -24,7 +24,7 @@ isset($highstock) || $highstock = '';
 <link rel="icon" href="//www.eia.gov/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="//www.eia.gov/favicon.ico" />
 
-<link href="/css_rehab/archive/global/styles/global.min.css" type="text/css" media="screen, projection" rel="stylesheet" />
+<link href="/adaptive/global/styles/global.min.css" type="text/css" media="screen, projection" rel="stylesheet" />
 <link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
 <link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
 

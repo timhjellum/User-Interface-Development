@@ -6569,15 +6569,6 @@ span.line-break {
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     color: #333;
     font-size: 0.750rem;
-    /*		a {
-			color: @eia-blue;
-			font-size: 0.750rem; // 12 pixels
-			text-decoration: none;
-			&:hover { 
-				text-decoration: underline;
-			} 
-		}
-		*/
   }
   .accordion-content.expanded {
     -moz-transition-duration: 0.3s;
@@ -6590,22 +6581,26 @@ span.line-break {
     transition-timing-function: ease-in;
     max-height: 10000px;
   }
+  .accordion-content > ul {
+    margin-bottom: 26px;
+    border-bottom: dashed 1px #d8d8d8;
+  }
+  .accordion-content > ul:last-child {
+    border-bottom: none;
+    margin: 26px 0;
+  }
+  .accordion-content > ul > li {
+    padding: 0 27px;
+  }
   .accordion-content ul {
     list-style: none;
     margin: 0;
-    border-bottom: dashed 1px #d8d8d8;
-    padding: 26px 0;
-  }
-  .accordion-content ul:last-child {
-    border-bottom: none;
-    margin-bottom: 26px;
   }
   .accordion-content ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
     margin: 0;
-    padding: 0 27px;
     list-style: none;
   }
   .accordion-content ul li a {
@@ -6616,13 +6611,32 @@ span.line-break {
   .accordion-content ul li a:hover {
     text-decoration: underline;
   }
-  .accordion-content ul li .release-date,
-  .accordion-content ul li .note,
+  .accordion-content ul li.head {
+    color: firebrick;
+    font-weight: 700;
+    margin-top: 12px;
+  }
+  .accordion-content ul li.head:first-child {
+    margin-top: 0;
+  }
+  .accordion-content ul li .release-date {
+    color: orangered;
+    font-style: italic;
+  }
+  .accordion-content ul li .note {
+    color: orange;
+    font-style: italic;
+  }
   .accordion-content ul li .release-schedule {
     font-style: italic;
+    color: yellowgreen;
+  }
+  .accordion-content ul li .include {
+    color: red;
   }
   .accordion-content ul li .additional-formats {
     font-style: italic;
+    color: green;
   }
   .accordion-content ul li .additional-formats a {
     display: inline-block;
@@ -6648,7 +6662,6 @@ span.line-break {
   .accordion-content ul li.highlight:last-child {
     border-bottom: 1px solid #d8d8d8;
     padding-bottom: 12px;
-    color: red;
   }
   .accordion-content ul li form {
     margin: 8px 0;
@@ -6670,13 +6683,6 @@ span.line-break {
   }
   .accordion-content .sub-list {
     list-style-type: none;
-    /*
-			&>ul {
-				&>li {
-
-				}
-			}
-			*/
   }
   .accordion-content .sub-list ul {
     margin: 0 0 0 1.5em;
@@ -6712,9 +6718,13 @@ span.line-break {
   .accordion-content .list-item > ul > li {
     list-style-type: none;
     margin: 0;
+    margin-left: 17px;
   }
   .accordion-content .list-item > ul > li:first-child {
     list-style-type: disc;
+  }
+  .accordion-content .list-item.sub-list ul {
+    margin-left: 20px;
   }
   .accordion {
     margin-bottom: 1.6em;

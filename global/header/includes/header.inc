@@ -5,7 +5,7 @@
 			isset($a40412) || $a40412 = '';
 			if($a40412 != "y"){
 	?>
-	<?php include('css_rehab/archive/global/header/social-sticker/social-sticker.inc') ?>
+	<?php include('global/header/social-sticker/social-sticker.inc') ?>
 	<?php
 		}
 	}
