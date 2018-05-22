@@ -943,7 +943,21 @@
 				.controls-icon(20px, 20px);
 			}
 		}
-
+		/*-search submit --------------------------*/
+		&.submit {
+			top: -6px;
+			left: -8px;
+			cursor: pointer;
+			&:before {
+				.controls-icon(19px, 19px);
+				.search-submit();
+			}
+			&:hover {
+				&:before {
+					.search-submit();
+				}
+			}
+		}
 
 //		&.dap-single {
 			&.d {

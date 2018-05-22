@@ -3446,6 +3446,7 @@ span.line-break {
 		*/
   .ico {
     text-indent: -9999px;
+    /*-search submit --------------------------*/
   }
   .ico.analysis:before {
     content: ' ';
@@ -3935,6 +3936,21 @@ span.line-break {
     height: 20px;
     width: 20px;
     display: block;
+  }
+  .ico.submit {
+    top: -6px;
+    left: -8px;
+    cursor: pointer;
+  }
+  .ico.submit:before {
+    content: ' ';
+    height: 19px;
+    width: 19px;
+    display: block;
+    background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22linear-gradient%22%20x1%3D%229.18%22%20y1%3D%220.72%22%20x2%3D%229.18%22%20y2%3D%2217.22%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-opacity%3D%220%22/%3E%3Cstop%20offset%3D%221%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg%20id%3D%22icon-submit-arrow%22%3E%3Cpath%20d%3D%22M9.18,0.72A8.25,8.25,0,1,0,17.43,9,8.25,8.25,0,0,0,9.18.72ZM10,10.57L7.62,12.51V4.77L10,6.7,12.3,8.64Z%22%20fill%3D%22%230096d7%22/%3E%3Cg%20opacity%3D%220.5%22%3E%3Cpath%20d%3D%22M9.18,0.72A8.25,8.25,0,1,0,17.43,9,8.25,8.25,0,0,0,9.18.72ZM10,10.57L7.62,12.51V4.77L10,6.7,12.3,8.64Z%22%20fill%3D%22url%28%23linear-gradient%29%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
+  }
+  .ico.submit:hover:before {
+    background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22linear-gradient%22%20x1%3D%229.18%22%20y1%3D%220.72%22%20x2%3D%229.18%22%20y2%3D%2217.22%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-opacity%3D%220%22/%3E%3Cstop%20offset%3D%221%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg%20id%3D%22icon-submit-arrow%22%3E%3Cpath%20d%3D%22M9.18,0.72A8.25,8.25,0,1,0,17.43,9,8.25,8.25,0,0,0,9.18.72ZM10,10.57L7.62,12.51V4.77L10,6.7,12.3,8.64Z%22%20fill%3D%22%230096d7%22/%3E%3Cg%20opacity%3D%220.5%22%3E%3Cpath%20d%3D%22M9.18,0.72A8.25,8.25,0,1,0,17.43,9,8.25,8.25,0,0,0,9.18.72ZM10,10.57L7.62,12.51V4.77L10,6.7,12.3,8.64Z%22%20fill%3D%22url%28%23linear-gradient%29%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
   }
   .ico.d:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2035%2035%22%3E%3Crect%20width%3D%2235%22%20height%3D%2235%22%20fill%3D%22%230096d7%22/%3E%3Ctext%20transform%3D%22translate%2812.44%2022.87%29%22%20font-size%3D%2214%22%20fill%3D%22%23f7f7f7%22%20font-family%3D%22Arial%22%20font-weight%3D%22700%22%3ED%3C/text%3E%3C/svg%3E') no-repeat center center;
@@ -6552,10 +6568,10 @@ span.line-break {
     -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     color: #333;
-    font-size: 0.9rem;
+    font-size: 0.750rem;
     /*		a {
 			color: @eia-blue;
-			font-size: 0.750rem * 1.20%; // 12 pixels
+			font-size: 0.750rem; // 12 pixels
 			text-decoration: none;
 			&:hover { 
 				text-decoration: underline;
@@ -6576,51 +6592,29 @@ span.line-break {
   }
   .accordion-content ul {
     list-style: none;
-    padding: 0;
-    margin: 0 27px;
-    border-bottom: 1px dotted #333;
+    margin: 0;
+    border-bottom: dashed 1px #d8d8d8;
+    padding: 26px 0;
   }
   .accordion-content ul:last-child {
-    padding-bottom: 1em;
     border-bottom: none;
+    margin-bottom: 26px;
   }
   .accordion-content ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
     margin: 0;
-    padding: 0;
+    padding: 0 27px;
     list-style: none;
-    /*
-				.additional-formats {
-					a {
-						display: inline;
-						//margin-left: 8px;
-						text-decoration: none;
-						&:hover { 
-							text-decoration: underline;
-						} 
-					}
-				}
-
-				&.item-divider {
-					border-bottom: dashed 1px #333;
-				}
-				&.solid-divider {
-					border-bottom: 2px solid red;
-				}
-				*/
   }
   .accordion-content ul li a {
     color: #0096d7;
-    font-size: 0.9rem;
+    font-size: 0.750rem;
     text-decoration: none;
   }
   .accordion-content ul li a:hover {
     text-decoration: underline;
-  }
-  .accordion-content ul li:first-child {
-    margin: 0.75em 0 0 0;
   }
   .accordion-content ul li .release-date,
   .accordion-content ul li .note,
@@ -6644,52 +6638,85 @@ span.line-break {
     font-weight: normal;
     color: #333;
     background-color: #C6E6F3;
-    margin-top: 1.6em;
-    padding-top: 1.6em;
-    font-size: 0.9rem;
-    line-height: 1.2em;
+    margin: 0;
+    display: table;
+    width: 100%;
+  }
+  .accordion-content ul li.highlight:first-child {
+    padding-top: 12px;
   }
   .accordion-content ul li.highlight:last-child {
-    border-bottom: 1px solid #1F86E7;
-    padding-top: 0;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 12px;
+    color: red;
   }
-  .accordion-content ul li.highlight a {
-    color: #0096d7;
-    font-size: 0.9rem;
-    text-decoration: none;
+  .accordion-content ul li form {
+    margin: 8px 0;
   }
-  .accordion-content ul li.highlight a:hover {
-    text-decoration: underline;
+  .accordion-content ul li form select {
+    width: 100px;
   }
-  .accordion-content ul li ul {
+  .accordion-content ul li form .button {
+    position: absolute;
+    margin-left: 6px;
+  }
+  .accordion-content ul li form .button span {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  .accordion-content .sub-list {
+    list-style-type: none;
+    /*
+			&>ul {
+				&>li {
+
+				}
+			}
+			*/
+  }
+  .accordion-content .sub-list ul {
     margin: 0 0 0 1.5em;
     list-style-type: none;
     border-bottom: none;
+    padding: 0;
+    border: 1px solid blue;
   }
-  .accordion-content ul li ul li {
-    list-style-type: none;
-    border-bottom: none;
+  .accordion-content .sub-list ul:last-child {
+    padding: 0;
+    margin-bottom: 12px;
   }
-  .accordion-content ul li ul li:first-child {
+  .accordion-content .sub-list ul li {
     list-style-type: disc;
+    border-bottom: none;
+    padding: 0;
+    margin: 0 0 6px 0;
   }
-  .accordion-content ul li ul li ul {
-    margin: 0 0 0 1.5em;
-  }
-  .accordion-content ul li ul li ul li:first-child {
+  .accordion-content .sub-list ul li ul li:first-child {
     list-style-type: square;
   }
-  .accordion-content ul li ul li ul li ul {
-    margin: 0 0 1.5em 1.5em;
-  }
-  .accordion-content ul li ul li ul li ul li:first-child {
+  .accordion-content .sub-list ul li ul li ul li:first-child {
     list-style-type: circle;
   }
-  .accordion-content ul li ul li ul li ul li ul {
-    margin: 0 0 0 1.5em;
-  }
-  .accordion-content ul li ul li ul li ul li ul li {
+  .accordion-content .sub-list ul li ul li ul li ul li {
     list-style-type: decimal;
+  }
+  .accordion-content .list-item {
+    list-style-type: none;
+    border: 1px solid red;
+  }
+  .accordion-content .list-item > ul {
+    margin: 0 0 13px 0;
+  }
+  .accordion-content .list-item > ul > li {
+    list-style-type: none;
+    margin: 0;
+  }
+  .accordion-content .list-item > ul > li:first-child {
+    list-style-type: disc;
   }
   .accordion {
     margin-bottom: 1.6em;
@@ -6699,7 +6726,7 @@ span.line-break {
 			display: none;
 			&.show {
 				text-align: left;
-				font-size: 0.750rem * 1.20%; // 12 pixels
+				font-size: 0.750rem; // 12 pixels
 				padding: 0 12px 4px 0; // 12px
 				color: @eia-blue;
 				display: block;
@@ -6709,7 +6736,7 @@ span.line-break {
 			display: none;
 			&.show {
 				text-align: left;
-				font-size: 0.750rem * 1.20%; // 12 pixels
+				font-size: 0.750rem; // 12 pixels
 				padding: 0 12px 4px 0; // 12px
 				color: @eia-blue;
 				display: block;
@@ -6720,7 +6747,7 @@ span.line-break {
   .accordion h2 {
     font-family: "Times New Roman", "Times", serif;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 100%;
     color: #333;
     border: 0px;
@@ -6768,7 +6795,7 @@ span.line-break {
   .accordion .expand-collapse-container {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
-    font-size: 0.9rem;
+    font-size: 0.750rem;
     color: #0096d7;
     cursor: pointer;
     display: table;
@@ -6823,42 +6850,6 @@ span.line-break {
   }
   .accordion .expand-collapse-container .collapse-all.show .ico.expand-collapse:hover::before {
     background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-collapse%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2036%2036%22%3E%3Cg%20id%3D%22collapse-path%22%3E%3Cpath%20d%3D%22M34.5,18A16.5,16.5,0,1,1,18,1.5,16.5,16.5,0,0,1,34.5,18Z%22%20fill%3D%22%230096d7%22%20opacity%3D%220%22/%3E%3Crect%20id%3D%22Rectangle_collapse%22%20data-name%3D%22Rectangle%20collapse%22%20x%3D%2210%22%20y%3D%2215%22%20width%3D%2216%22%20height%3D%226%22%20fill%3D%22%230096d7%22/%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
-  }
-}
-@media (min-width: 801px) {
-  ._accordion-content {
-    font-size: 0.750rem;
-  }
-  ._accordion-content a {
-    font-size: 0.750rem;
-  }
-  ._accordion-content ul li a {
-    font-size: 0.750rem;
-  }
-  ._accordion-content ul li.head {
-    font-size: 1em;
-  }
-  ._accordion-content ul li.head a {
-    font-size: 0.750rem;
-  }
-  ._accordion-content ul li ul li {
-    font-size: 0.750rem;
-  }
-  ._accordion-content ul li ul li a {
-    font-size: 0.750rem;
-  }
-  .accordion h2 {
-    font-size: 1rem;
-    padding: 7px 10px 7px 8px;
-  }
-  .accordion .expand-all.show {
-    font-size: 0.750rem;
-  }
-  .accordion .collapse-all.show {
-    font-size: 0.750rem;
-  }
-  .accordion .expand-collapse-container {
-    font-size: 0.750rem;
   }
 }
 @media (min-width: 1px) {

@@ -18,10 +18,10 @@
 		-o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 		color: @eia-dark-grey;
-		font-size: 0.750rem * 1.20%; // 12 pixels
+		font-size: 0.750rem; // 12 pixels
 /*		a {
 			color: @eia-blue;
-			font-size: 0.750rem * 1.20%; // 12 pixels
+			font-size: 0.750rem; // 12 pixels
 			text-decoration: none;
 			&:hover { 
 				text-decoration: underline;
@@ -40,34 +40,33 @@
 			max-height: 10000px;
 			//overflow: hidden;
 		}
-
 		ul {
 			list-style: none;
-			padding: 0;
-			margin: 0 27px;
-			border-bottom: 1px dotted #333;
+			margin: 0;
+			border-bottom: dashed 1px #d8d8d8;
+			padding: 26px 0;
 			&:last-child {
-				padding-bottom: 1em;
 				border-bottom: none;
+				margin-bottom: 26px;
 			}
 			li {
 				.font;
 				color: @eia-dark-grey;
 				margin: 0;
-				padding: 0;
+				padding: 0 27px; 
 				list-style: none;
-				
 				a {
 					color: @eia-blue;
-					font-size: 0.750rem * 1.20%; // 12 pixels
+					font-size: 0.750rem; // 12 pixels
 					text-decoration: none;
 					&:hover { 
 						text-decoration: underline;
 					} 
 				}
-				&:first-child {
-					margin: 0.75em 0 0 0;
-				}
+				// list item is when the item has more than one lines
+				//&.head {
+				//	margin-top: 26px;
+				//}
 				.release-date,
 				.note,
 				.release-schedule {
@@ -88,80 +87,97 @@
 						}
 					}
 				}
-				
 				&.highlight {
 					.font;
 					background-color: #C6E6F3;
-					margin-top: 1.6em;
-					padding-top: 1.6em;
-					//font-size: 12pt;
-					font-size: 0.750rem * 1.20%; // 12 pixels
-					line-height: 1.2em;
-//					color: @eia-dark-grey;
+					margin: 0;
+					display: table;
+					width: 100%;
+					&:first-child {
+						padding-top: 12px;
+					}
 					&:last-child {
-						border-bottom: 1px solid #1F86E7;
-						padding-top: 0;
-					}
-					a {
-						color: @eia-blue;
-						font-size: 0.750rem * 1.20%; // 12 pixels
-						text-decoration: none;
-						&:hover { 
-							text-decoration: underline;
-						} 
+						border-bottom: 1px solid #d8d8d8;
+						padding-bottom: 12px;
+						color: red;
 					}
 				}
-				/*
-				.additional-formats {
-					a {
-						display: inline;
-						//margin-left: 8px;
-						text-decoration: none;
-						&:hover { 
-							text-decoration: underline;
-						} 
+				form {
+					margin: 8px 0;
+					select {
+						width: 100px;
 					}
-				}
-
-				&.item-divider {
-					border-bottom: dashed 1px #333;
-				}
-				&.solid-divider {
-					border-bottom: 2px solid red;
-				}
-				*/
-				ul {
-					margin: 0 0 0 1.5em;
-					list-style-type: none;
-					border-bottom: none;
-					li {
-						list-style-type: none;
-						border-bottom: none;
-						&:first-child {
-							list-style-type: disc;
+					.button {
+						position: absolute;
+						margin-left: 6px;
+						span {
+							position: absolute;
+							left: -10000px;
+							top: auto;
+							width: 1px;
+							height: 1px;
+							overflow: hidden;
 						}
-						ul {
-							margin: 0 0 0 1.5em;
-							li {
-								&:first-child {
-									list-style-type: square;
-								}
-								ul {
-									margin: 0 0 1.5em 1.5em;
-									li {
-										&:first-child {
-											list-style-type: circle;
-										}
-										ul {
-											margin: 0 0 0 1.5em;
-											li {
-												list-style-type: decimal;
-											}
+					}					
+				}
+			}
+		}
+		.sub-list {
+			list-style-type: none;
+			/*
+			&>ul {
+				&>li {
+
+				}
+			}
+			*/
+			ul {
+				margin: 0 0 0 1.5em;
+				list-style-type: none;
+				border-bottom: none;
+				padding: 0;
+				border: 1px solid blue;
+				&:last-child {
+					padding: 0;
+					margin-bottom: 12px;
+				}
+				li {
+					list-style-type: disc;
+					border-bottom: none;
+					padding: 0;
+					margin: 0 0 6px 0;
+					ul {
+						li {
+							&:first-child {
+								list-style-type: square;
+							}
+							ul {
+								li {
+									&:first-child {
+										list-style-type: circle;
+									}
+									ul {
+										li {
+											list-style-type: decimal;
 										}
 									}
 								}
 							}
 						}
+					}
+				}
+			}
+		}
+		.list-item {
+			list-style-type: none;
+			border: 1px solid red;
+			&>ul {
+				margin: 0 0 13px 0;
+				&>li {
+					list-style-type: none;
+					margin: 0;
+					&:first-child {
+						list-style-type: disc;
 					}
 				}
 			}
@@ -172,7 +188,7 @@
 		border-bottom: 1px solid @eia-dark-blue;
 		h2 {
 			.header-font;
-			font-size: 1rem * 1.20%; // 12 pixels
+			font-size: 1rem; // 12 pixels
 			width: 100%;
 			color: @eia-dark-grey;
 			border: 0px;
@@ -234,7 +250,7 @@
 			display: none;
 			&.show {
 				text-align: left;
-				font-size: 0.750rem * 1.20%; // 12 pixels
+				font-size: 0.750rem; // 12 pixels
 				padding: 0 12px 4px 0; // 12px
 				color: @eia-blue;
 				display: block;
@@ -244,7 +260,7 @@
 			display: none;
 			&.show {
 				text-align: left;
-				font-size: 0.750rem * 1.20%; // 12 pixels
+				font-size: 0.750rem; // 12 pixels
 				padding: 0 12px 4px 0; // 12px
 				color: @eia-blue;
 				display: block;
@@ -253,7 +269,7 @@
 		*/
 		.expand-collapse-container {
 			.font;
-			font-size: 0.750rem * 1.20%; // 12 pixels
+			font-size: 0.750rem; // 12 pixels
 			color: @eia-blue;
 			cursor: pointer;
 			display: table;
@@ -313,53 +329,3 @@
 		}
 	}
 }
-@media @tablet-landscape {
-	._accordion-content {
-		font-size: 0.750rem; // 12 pixels
-		a {
-			font-size: 0.750rem; // 12 pixels
-		}
-		ul {
-			li {
-				a {
-					font-size: 0.750rem; // 12 pixels
-				}
-				&.head {
-					font-size: 1em;
-					a {
-						font-size: 0.750rem; // 12 pixels
-					}						
-				}
-				ul {
-					li {
-						font-size: 0.750rem; // 12 pixels
-						a {
-							font-size: 0.750rem; // 12 pixels
-						}
-					}
-				}
-			}
-		}
-	}
-	.accordion {
-		h2 {
-			font-size: 1rem; // 12 pixels
-			padding: 7px 10px 7px 8px;
-		}
-		.expand-all {
-			&.show {
-				font-size: 0.750rem; // 12 pixels
-			}
-		}
-		.collapse-all {
-			&.show {
-				font-size: 0.750rem; // 12 pixels
-			}
-		}
-		.expand-collapse-container {
-			font-size: 0.750rem; // 12 pixels
-		}
-	}
-}			
-
-

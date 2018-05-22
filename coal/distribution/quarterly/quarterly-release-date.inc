@@ -1,0 +1,1 @@
+<span class="release-date">Release Date: </span><span class="date">February 12, 2018</span> | <span class="note"><a href="/coal/distribution/quarterly/">Quarterly Coal Distribution Report</a></span>

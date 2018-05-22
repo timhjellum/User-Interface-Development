@@ -1,1 +1,0 @@
-<span class="release-date">Release Date: </span><span class="date">November 15, 2017</span> | <span class="date">data from: <a href="/coal/annual/">Annual Coal Report</a></span>
