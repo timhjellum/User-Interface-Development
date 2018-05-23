@@ -32,15 +32,37 @@
 			//overflow: hidden;
 		}
 		&>ul{
+			padding: 26px 0;
 			margin-bottom: 26px;
 			border-bottom: dashed 1px #d8d8d8;
 			&:last-child {
 				border-bottom: none;
-				margin: 26px 0;
+				margin-bottom: 26px;
+			}
+			&:first-child {
+				margin-bottom: 0;
 			}
 			&> li {
 				padding: 0 27px;
 
+			}
+			&.highlight {
+				.font;
+				background-color: #C6E6F3;
+				margin: 0;
+				padding: 0;
+				//display: table;
+				width: 100%;
+				border-bottom: 1px solid #d8d8d8;
+				li {
+					&:first-child {
+						padding-top: 12px;
+					}
+					&:last-child {
+						
+						padding-bottom: 12px;
+					}	
+				}
 			}
 		}
 		ul {
@@ -61,11 +83,23 @@
 				}
 				&.head {
 					color: firebrick;
-					.bold;
+					//.bold;
 					margin-top: 12px;
 					&:first-child {
 						margin-top: 0;
 					}
+				}
+				.space {
+					margin: 8px;
+				}
+				.normal {
+					font-style: normal;
+					color: #333;
+				}
+				.include {
+					border: 1px solid blue;
+					width: 100%;
+					height: 18px;
 				}
 				.release-date {
 					color: orangered;
@@ -97,20 +131,7 @@
 						}
 					}
 				}
-				&.highlight {
-					.font;
-					background-color: #C6E6F3;
-					margin: 0;
-					display: table;
-					width: 100%;
-					&:first-child {
-						padding-top: 12px;
-					}
-					&:last-child {
-						border-bottom: 1px solid #d8d8d8;
-						padding-bottom: 12px;
-					}
-				}
+
 				form {
 					margin: 8px 0;
 					select {
@@ -173,7 +194,7 @@
 		.list-item {
 			list-style-type: none;
 			&>ul {
-				margin: 0 0 13px 0;
+				margin: 3px 0 10px 0;
 				&>li {
 					list-style-type: none;
 					margin: 0;

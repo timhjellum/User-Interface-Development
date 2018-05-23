@@ -4015,6 +4015,7 @@ span.line-break {
     width: 18px;
     display: block;
     display: inline-block;
+    margin-bottom: -5px;
   }
   .ico.xls:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2061.65%2066.17%22%3E%3Crect%20x%3D%2230.29%22%20y%3D%2217.94%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2217.94%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2217.94%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2224.43%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2224.43%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2224.43%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2230.92%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2230.92%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2230.92%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2237.41%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2237.41%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2237.41%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2243.9%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2243.9%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2243.9%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2230.29%22%20y%3D%2250.4%22%20width%3D%228.3%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2240.6%22%20y%3D%2250.4%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Crect%20x%3D%2219.98%22%20y%3D%2250.4%22%20width%3D%228.31%22%20height%3D%223.99%22%20fill%3D%22%23bed5ad%22/%3E%3Cpath%20d%3D%22M42.8,4.83H12.08V61H56.8V18.83ZM54,58.23H14.86V7.61H42.8V18.83H54v39.4Z%22%20fill%3D%22%23777777%22/%3E%3Crect%20x%3D%224.16%22%20y%3D%2212.34%22%20width%3D%2233.28%22%20height%3D%2214.5%22%20fill%3D%22%235d9732%22/%3E%3Ctext%20transform%3D%22translate%2811.08%2023.24%29%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Arial%22%20font-weight%3D%22700%22%20style%3D%22text-transform%3A%20uppercase%22%3Exls%3C/text%3E%3Cpolygon%20points%3D%2256.8%2018.83%2042.8%204.83%2042.8%2018.83%2056.8%2018.83%22%20fill%3D%22%23c8c8c8%22/%3E%3C/svg%3E') no-repeat center center;
@@ -4023,6 +4024,7 @@ span.line-break {
     width: 18px;
     display: block;
     display: inline-block;
+    margin-bottom: -5px;
   }
   .ico.csv:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2061.65%2066.17%22%3E%3Crect%20x%3D%2220.32%22%20y%3D%2231.25%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2237.74%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2244.24%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2250.73%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2224.76%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2218.27%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Cpath%20d%3D%22M42.8,4.83H12.08V61H56.8V18.83ZM54,58.23H14.86V7.61H42.8V18.83H54v39.4Z%22%20fill%3D%22%23777777%22/%3E%3Crect%20x%3D%224.16%22%20y%3D%2212.34%22%20width%3D%2233.28%22%20height%3D%2214.5%22%20fill%3D%22%23777777%22/%3E%3Ctext%20transform%3D%22translate%2811.08%2023.24%29%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Arial%22%20font-weight%3D%22700%22%20style%3D%22text-transform%3A%20uppercase%22%3Ecsv%3C/text%3E%3Cpolygon%20points%3D%2256.8%2018.83%2042.8%204.83%2042.8%2018.83%2056.8%2018.83%22%20fill%3D%22%23c8c8c8%22/%3E%3C/svg%3E') no-repeat center center;
@@ -4031,6 +4033,7 @@ span.line-break {
     width: 18px;
     display: block;
     display: inline-block;
+    margin-bottom: -5px;
   }
   .ico.interactive:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2061.65%2066.17%22%3E%3Crect%20x%3D%2220.32%22%20y%3D%2231.25%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2237.74%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2244.24%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2250.73%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2224.76%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Crect%20x%3D%2220.32%22%20y%3D%2218.27%22%20width%3D%2228.93%22%20height%3D%223.99%22%20fill%3D%22%23c8c8c8%22/%3E%3Cpath%20d%3D%22M42.8,4.83H12.08V61H56.8V18.83ZM54,58.23H14.86V7.61H42.8V18.83H54v39.4Z%22%20fill%3D%22%23777777%22/%3E%3Crect%20x%3D%224.16%22%20y%3D%2212.34%22%20width%3D%2233.28%22%20height%3D%2214.5%22%20fill%3D%22%23777777%22/%3E%3Ctext%20transform%3D%22translate%2811.08%2023.24%29%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Arial%22%20font-weight%3D%22700%22%20style%3D%22text-transform%3A%20uppercase%22%3Ecsv%3C/text%3E%3Cpolygon%20points%3D%2256.8%2018.83%2042.8%204.83%2042.8%2018.83%2056.8%2018.83%22%20fill%3D%22%23c8c8c8%22/%3E%3C/svg%3E') no-repeat center center;
@@ -4039,6 +4042,7 @@ span.line-break {
     width: 18px;
     display: block;
     display: inline-block;
+    margin-bottom: -5px;
   }
   .ico.external-link:before {
     background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2013.92%2013.92%22%3E%3Cpolygon%20points%3D%2210%2012.92%200.92%2012.92%200.92%203.84%205.46%203.84%205.46%205.12%202.2%205.12%202.2%2011.63%208.71%2011.63%208.71%208.38%2010%208.38%2010%2012.92%22%20fill%3D%22%230096d7%22/%3E%3Cpolygon%20points%3D%2212.92%206.44%2012.92%200.92%207.39%200.92%209.7%203.22%205%207.92%205.91%208.83%2010.61%204.13%2012.92%206.44%22%20fill%3D%22%230096d7%22/%3E%3C/svg%3E') no-repeat center center;
@@ -6582,15 +6586,35 @@ span.line-break {
     max-height: 10000px;
   }
   .accordion-content > ul {
+    padding: 26px 0;
     margin-bottom: 26px;
     border-bottom: dashed 1px #d8d8d8;
   }
   .accordion-content > ul:last-child {
     border-bottom: none;
-    margin: 26px 0;
+    margin-bottom: 26px;
+  }
+  .accordion-content > ul:first-child {
+    margin-bottom: 0;
   }
   .accordion-content > ul > li {
     padding: 0 27px;
+  }
+  .accordion-content > ul.highlight {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    background-color: #C6E6F3;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .accordion-content > ul.highlight li:first-child {
+    padding-top: 12px;
+  }
+  .accordion-content > ul.highlight li:last-child {
+    padding-bottom: 12px;
   }
   .accordion-content ul {
     list-style: none;
@@ -6613,11 +6637,22 @@ span.line-break {
   }
   .accordion-content ul li.head {
     color: firebrick;
-    font-weight: 700;
     margin-top: 12px;
   }
   .accordion-content ul li.head:first-child {
     margin-top: 0;
+  }
+  .accordion-content ul li .space {
+    margin: 8px;
+  }
+  .accordion-content ul li .normal {
+    font-style: normal;
+    color: #333;
+  }
+  .accordion-content ul li .include {
+    border: 1px solid blue;
+    width: 100%;
+    height: 18px;
   }
   .accordion-content ul li .release-date {
     color: orangered;
@@ -6646,22 +6681,6 @@ span.line-break {
   }
   .accordion-content ul li .additional-formats a .ico span {
     margin: 0 0 0 2px;
-  }
-  .accordion-content ul li.highlight {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: #333;
-    background-color: #C6E6F3;
-    margin: 0;
-    display: table;
-    width: 100%;
-  }
-  .accordion-content ul li.highlight:first-child {
-    padding-top: 12px;
-  }
-  .accordion-content ul li.highlight:last-child {
-    border-bottom: 1px solid #d8d8d8;
-    padding-bottom: 12px;
   }
   .accordion-content ul li form {
     margin: 8px 0;
@@ -6713,7 +6732,7 @@ span.line-break {
     list-style-type: none;
   }
   .accordion-content .list-item > ul {
-    margin: 0 0 13px 0;
+    margin: 3px 0 10px 0;
   }
   .accordion-content .list-item > ul > li {
     list-style-type: none;
