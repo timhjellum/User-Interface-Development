@@ -74,8 +74,8 @@ petroleum/wells
 *.tgz
 
 # environment variables file
-webpack.config.js
-gulp/
+//webpack.config.js
+//gulp/
 
 
 
