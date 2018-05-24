@@ -1,47 +1,12 @@
+<!--removeIf(INCconversion)-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>EIA Style Guide</title>
-
-	<link href="../../style-guide/src/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-	<link href="../../style-guide/src/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-	<link href="../../style-guide/src/img/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
-	<link href="../../style-guide/src/img/site.webmanifest" rel="manifest">
-	<link href="../../style-guide/src/img/safari-pinned-tab.svg" rel="mask-icon" color="#292929">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#292929">
-
-	<!-- start page specific styles -->
-	<link href="../../global/styles/global.min.css" rel="stylesheet" />
-	<!-- end page specific styless -->
-	<style>
-		body {
-			background-color: white;
-		}
-
-		h2 {
-			background-color: #999;
-		}
-	</style>
+<link href="../../global/styles/global.min.css" rel="stylesheet" />
 </head>
-
 <body>
-
-
-
-
-
-
-
-	<p>Find statistics on crude oil, gasoline, diesel, propane, jet fuel, ethanol, and other liquid fuels. Click on the blue bars
-		below for information on petroleum prices, crude reserves and production, refining and processing, imports/exports, stocks,
-		and consumption/sales.</p>
+<!--endRemoveIf(INCconversion)-->
+<p>Find statistics on crude oil, gasoline, diesel, propane, jet fuel, ethanol, and other liquid fuels. Click on the blue bars below for information on petroleum prices, crude reserves and production, refining and processing, imports/exports, stocks, and consumption/sales.</p>
 	<div class="accordion">
 		<div class="expand-collapse-container">
 			<span class="expand-all">
@@ -60,7 +25,7 @@
 						<a href="/dnav/pet/pet_sum_sndw_dcus_nus_w.htm">Weekly supply estimates</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Production, refinery inputs and utilization, stocks, days of supply, imports, exports, and product supplied estimates
@@ -73,10 +38,10 @@
 						<a href="/dnav/pet/pet_sum_snd_d_nus_mbbl_m_cur.htm">Supply and disposition</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Field production, net production, imports, net receipts, stock changes, net inputs, exports, and product supplied statistics
@@ -88,10 +53,10 @@
 						<a href="/dnav/pet/pet_sum_crdsnd_k_m.htm">U.S. crude oil supply &amp; disposition</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Detailed statistics for crude oil supply, disposition, and ending stocks. Includes statistics for commercial and Strategic
@@ -103,7 +68,7 @@
 						<a href="/dnav/pet/pet_sum_mkt_dcu_nus_m.htm">Prices, sales volumes &amp; stocks by state</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -115,8 +80,9 @@
 			<ul>
 				<li class="head">
 					<strong>Petroleum overview</strong></li>
-				<li>
-					<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+				<li class="include">
+					<?php /* include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') */ ?>
+<span class="release-date">Release Date: </span><span class="date">April 26, 2018</span> | <span class="date">data from: <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
 				</li>
 				<li>(
 					<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li>
@@ -160,7 +126,7 @@
 						<a href="/petroleum/gasdiesel/">Gasoline and diesel fuel update</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/gasdiesel/release-date_gdu.inc') ?>
 				</li>
 				<li>Prices of regular gasoline and on-highway diesel fuel by PAD District.</li>
@@ -172,7 +138,7 @@
 						<a href="/petroleum/heatingoilpropane/">Heating Oil and Propane Update</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsrshopp.inc') ?>
 				</li>
 				<li>Weekly heating oil and propane prices; October through March..</li>
@@ -184,7 +150,7 @@
 						<a href="/dnav/pet/pet_pri_gnd_dcus_nus_w.htm">Weekly retail gasoline and on-highway diesel prices</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/gasdiesel/release-date_gdu.inc') ?>
 				</li>
 				<li>Gasoline prices by grade and formulation and diesel prices by sulfur content for U.S., PAD District, selected states
@@ -194,8 +160,9 @@
 			<ul>
 				<li class="head">
 					<strong>Motor gasoline retail prices, U.S. city average</strong></li>
-				<li>
-					<?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+				<li class="include">
+					<?php /* include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') */ ?>
+<span class="release-date">Release Date: </span><span class="date">April 26, 2018</span> | <span class="date">data from: <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
 				</li>
 				<li class="additional-formats">Available formats:
 					<a href="/totalenergy/data/monthly/pdf/sec9_6.pdf ">
@@ -249,7 +216,7 @@
 						<a href="/dnav/pet/pet_pri_spt_s1_d.htm">Spot prices</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by selected U.S. and international areas</li>
@@ -261,7 +228,7 @@
 						<a href="/dnav/pet/pet_pri_fut_s1_d.htm">Futures prices (NYMEX)</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Crude oil, motor gasoline, heating oil, and propane</li>
@@ -273,7 +240,7 @@
 						<a href="/dnav/pet/pet_pri_wfr_dcus_nus_w.htm">Weekly heating oil &amp; propane prices</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsrshopp.inc') ?>
 				</li>
 				<li>Residential and wholesale prices of heating oil and propane by U.S., selected PAD Districts and states</li>
@@ -282,7 +249,7 @@
 			<ul>
 				<li class="head">
 					<strong>Refiner petroleum product prices by sales type</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -339,7 +306,7 @@
 						<a href="/dnav/pet/pet_pri_rac2_dcu_nus_m.htm">Refiner acquisition cost of crude oil</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -352,7 +319,7 @@
 				<li class="head">
 					<strong>Domestic crude oil first purchase prices</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -377,7 +344,7 @@
 				<li class="head">
 					<strong>F.O.B. costs of imported crude oil</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -402,7 +369,7 @@
 				<li class="head">
 					<strong>Landed costs of imported crude oil</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -429,7 +396,7 @@
 						<a href="/outlooks/steo/realprices/">Real U.S. petroleum prices (past &amp; projected)</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/outlooks/steo/includes/release-date_steo.inc') ?>
 				</li>
 				<li>Real and nominal U.S. prices for gasoline, heating oil, diesel fuel, and imported crude oil</li>
@@ -448,10 +415,10 @@
 						<a href="/dnav/pet/pet_crd_crpdn_adc_mbbl_m.htm">Crude oil production</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>by U.S., PAD District and state</span>
 				</li>
 			</ul>
@@ -539,7 +506,7 @@
 						<a href="/dnav/pet/pet_crd_drill_s1_m.htm">Crude oil and natural gas drilling activity</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc') ?>
 				</li>
 				<li>Rotary rigs in operation, footage drilled, and active well service rig counts</li>
@@ -551,7 +518,7 @@
 						<a href="/dnav/pet/pet_crd_wellend_s1_m.htm">Crude oil and natural gas exploratory and development wells</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc') ?>
 				</li>
 				<li>Exploratory and development wells drilled for crude oil, natural gas and dry holes; total footage drilled</li>
@@ -563,7 +530,7 @@
 						<a href="/dnav/pet/pet_crd_wellfoot_s1_a.htm">Footage drilled for crude oil and natural gas wells</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc') ?>
 				</li>
 				<li>Footage drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
@@ -575,7 +542,7 @@
 						<a href="/dnav/pet/pet_crd_welldep_s1_a.htm">Average depth of crude oil and natural gas wells</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc') ?>
 				</li>
 				<li>Average depth of wells drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
@@ -587,7 +554,7 @@
 						<a href="/dnav/pet/pet_crd_wellcost_s1_a.htm">Costs of crude oil and natural gas wells drilled</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc') ?>
 				</li>
 				<li>Per well and per foot costs of crude oil, natural gas, and dry hole wells</li>
@@ -599,7 +566,7 @@
 						<a href="/dnav/pet/pet_crd_seis_s1_m.htm">Maximum U.S. active seismic crew counts</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/dnav/pet/includes/release-date_petmer.inc') ?>
 				</li>
 				<li> by onshore/offshore/Alaska and dimension</li>
@@ -611,7 +578,7 @@
 						<a href="/petroleum/production/">Monthly Crude Oil and Natural Gas Production</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/production/includes/914-release-date.inc') ?>
 				</li>
 				<li>Monthly crude oil and natural gas production data collected on Form EIA-914 (Monthly Crude Oil, Lease Condensate, and
@@ -637,7 +604,7 @@
 						<a href="/naturalgas/fieldcode/">Oil and gas county code master list</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/naturalgas/fieldcode/includes/fcml-release-date.inc') ?>
 				</li>
 				<li>Comprehensive listing of U.S. oil and gas field names.</li>
@@ -667,7 +634,7 @@
 						<a href="/dnav/pet/pet_pnp_wiup_dcu_nus_w.htm">Weekly inputs &amp; utilization</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Refiner inputs, operable capacity, percent utilization, and refinery and blender net inputs by U.S. and PAD District</li>
@@ -676,7 +643,7 @@
 			<ul>
 				<li class="head">
 					<strong>Weekly production</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Production of petroleum products by U.S. and PAD District</li>
@@ -702,10 +669,10 @@
 			<ul>
 				<li class="head">
 					<strong>Net input</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Net input of crude oil and petroleum products by PAD and Refining Districts</li>
@@ -729,10 +696,10 @@
 						<a href="/dnav/pet/pet_pnp_unc_dcu_nus_m.htm">Refinery utilization and capacity</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Gross input to crude distillation units, operable capacity and utilization rate by PAD and Refining Districts</li>
@@ -743,10 +710,10 @@
 						<a href="/dnav/pet/pet_pnp_crq_dcu_nus_m.htm">Crude oil input qualities</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil sulfur content and API</li>
@@ -757,10 +724,10 @@
 						<a href="/dnav/pet/pet_pnp_dwns_dc_nus_mbblpd_m.htm">Downstream processing of fresh feed input</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Catalytic cracking, catalytic hydrocracking, and delayed and fluid coking by PAD and Refining Districts</li>
@@ -768,10 +735,10 @@
 			<ul>
 				<li class="head">
 					<strong>Net production</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Net production of finished petroleum products by PAD and Refining Districts</li>
@@ -798,10 +765,10 @@
 						<a href="/dnav/pet/pet_pnp_pct_dc_nus_pct_m.htm">Refinery yield</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Percent yield of petroleum products by PAD and Refining Districts</li>
@@ -878,10 +845,10 @@
 						<a href="/dnav/pet/pet_pnp_gp_dc_nus_mbbl_m.htm">Natural gas plant field production</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Net production of petroleum products by PAD and Refining Districts</li>
@@ -904,7 +871,7 @@
 						<a href="/biofuels/biodiesel/production/">Monthly biodiesel production</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ?>
 				</li>
 				<li>The U.S. Energy Information Administration release showing national and regional monthly biodiesel production. In addition
@@ -938,7 +905,7 @@
 						<a href="/dnav/pet/pet_move_wkly_dc_NUS-Z00_mbblpd_w.htm">Weekly imports &amp; exports</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by U.S. and PAD District</li>
@@ -950,7 +917,7 @@
 						<a href="/dnav/pet/pet_move_wimpc_s1_w.htm">Weekly preliminary crude imports by country of origin</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>U.S. crude oil imports</li>
@@ -962,10 +929,10 @@
 						<a href="/dnav/pet/pet_move_imp_dc_NUS-Z00_mbbl_m.htm">Imports by area of entry</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by U.S., PAD District</li>
@@ -976,10 +943,10 @@
 						<a href="/dnav/pet/pet_move_imp2_dc_R10-Z00_mbbl_m.htm">Imports by processing area</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by U.S., PAD District</li>
@@ -990,10 +957,10 @@
 						<a href="/dnav/pet/pet_move_impcus_a2_nus_ep00_im0_mbbl_m.htm">U.S. imports by country of origin</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by country of origin</li>
@@ -1004,10 +971,10 @@
 						<a href="/dnav/pet/pet_move_impcp_a2_r10_ep00_ip0_mbbl_m.htm">PAD District imports by country of origin</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and unfinished oils by country of origin</li>
@@ -1018,7 +985,7 @@
 						<a href="/petroleum/imports/companylevel/">Company level imports</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
 				<li>Crude oil and total petroleum imports by the top 15 countries (monthly) and a summary of crude oil imports by company
@@ -1030,10 +997,10 @@
 						<a href="/dnav/pet/pet_move_res_dc_nus-Z00_mbbl_m.htm">Residual fuel imports by state of entry</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li> by U.S., PAD District, state</li>
@@ -1044,7 +1011,7 @@
 						<a href="/dnav/pet/pet_move_ipct_k_m.htm">Percentages of total imported crude oil by API gravity</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -1056,10 +1023,10 @@
 						<a href="/dnav/pet/pet_move_exp_dc_NUS-Z00_mbbl_m.htm">Exports</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li> by U.S., PAD District</li>
@@ -1070,10 +1037,10 @@
 						<a href="/dnav/pet/pet_move_expc_a_EP00_EEX_mbbl_m.htm">Exports by destination</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li> by country of export destination</li>
@@ -1084,10 +1051,10 @@
 						<a href="/dnav/pet/pet_move_neti_a_EP00_IMN_mbblpd_m.htm">U.S. net imports by country</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by country and region</li>
@@ -1095,10 +1062,10 @@
 			<ul>
 				<li class="head">
 					<strong>Movements between PAD Districts</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li class="sub-list">
@@ -1124,10 +1091,10 @@
 						<a href="/dnav/pet/PET_MOVE_RAILNA_A_EPC0_RAIL_MBBL_M.htm">Movements of Crude Oil and Selected Products by Rail</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 			</ul>
@@ -1137,17 +1104,17 @@
 						<a href="/dnav/pet/pet_move_netr_d_r10-z0p_VNR_mbbl_m.htm">Net receipts of crude oil and petroleum products by pipeline, tanker, barge, and rail</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 			</ul>
 			<ul>
 				<li class="head">
 					<strong>F.O.B. costs of imported crude oil</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -1171,7 +1138,7 @@
 			<ul>
 				<li class="head">
 					<strong>Landed costs of imported crude oil</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -1204,7 +1171,7 @@
 						<a href="/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm">Weekly stocks</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by U.S. and PAD District</li>
@@ -1216,10 +1183,10 @@
 						<a href="/dnav/pet/pet_stoc_ts_dcu_nus_m.htm">Stocks of motor gasoline, distillate fuel oil, residual fuel oil, propane, and propylene</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Stocks of selected petroleum products by U.S., PAD District, and sub-PAD District</li>
@@ -1230,10 +1197,10 @@
 						<a href="/dnav/pet/pet_stoc_typ_d_nus_SAE_mbbl_m.htm">Stocks by type</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by U.S., PAD District</li>
@@ -1244,10 +1211,10 @@
 						<a href="/dnav/pet/pet_stoc_st_dc_NUS_mbbl_m.htm">Refinery, bulk terminal, and natural gas plant stocks by state</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products</li>
@@ -1258,10 +1225,10 @@
 						<a href="/dnav/pet/pet_stoc_ref_dc_nus_mbbl_m.htm">Refinery stocks</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Crude oil and petroleum products by U.S., PAD and Refining District</li>
@@ -1272,10 +1239,10 @@
 						<a href="/dnav/pet/pet_stoc_cu_s1_m.htm">Crude oil stocks at tank farms & pipelines</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li> by U.S., PAD District, and Cushing, Oklahoma</li>
@@ -1286,10 +1253,10 @@
 						<a href="/dnav/pet/pet_stoc_gp_dcu_nus_m.htm">Natural gas plant stocks</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li>Petroleum products by U.S., PAD and Refining District</li>
@@ -1330,7 +1297,7 @@
 						<a href="/dnav/pet/pet_cons_wpsup_k_w.htm">U.S. weekly product supplied</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc') ?>
 				</li>
 				<li>Measures the disappearance of petroleum products from primary sources; approximately represents consumption of petroleum
@@ -1344,10 +1311,10 @@
 						<a href="/dnav/pet/pet_cons_psup_dc_nus_mbbl_m.htm">Product supplied</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc') ?>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc') ?>
 				</li>
 				<li> by U.S., PAD District</li>
@@ -1358,7 +1325,7 @@
 						<a href="/dnav/pet/pet_cons_prim_dcu_nus_m.htm">Prime supplier sales volumes</a>
 					</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/prime/includes/release-date_psr.inc') ?>
 				</li>
 				<li>
@@ -1371,7 +1338,7 @@
 			<ul>
 				<li class="head">
 					<strong>Refiner sales volumes</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/marketing/monthly/includes/release-date_pmm.inc') ?>
 				</li>
 				<li>
@@ -1395,7 +1362,7 @@
 				<li class="head">
 					<strong>Sales of fuel oil and kerosene</strong>
 				</li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc') ?>
 				</li>
 				<li> by U.S., PAD District, state</li>
@@ -1419,7 +1386,7 @@
 			<ul>
 				<li class="head">
 					<strong>Adjusted sales of fuel oil and kerosene</strong></li>
-				<li>
+				<li class="include">
 					<?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc') ?>
 				</li>
 				<li> by U.S., PAD District, state</li>
@@ -1442,12 +1409,12 @@
 			</ul>
 		</div>
 	</div>
-
-
-
-
-
-
+<!--removeIf(INCconversion)-->
 </body>
-
 </html>
+<!--endRemoveIf(INCconversion)-->
+
+
+
+
+
