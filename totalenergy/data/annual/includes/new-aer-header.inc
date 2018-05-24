@@ -1,1 +1,1 @@
-<span class="release-date">Release Date: </span><span class="date">September 27,  2012</span> | <span class="date">data from: <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a> (no longer updated)</span></li>
+<span class="release-date">Release Date: </span><span class="date">September 27,  2012</span> | <span class="date">data from: <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a> (no longer updated)</span>

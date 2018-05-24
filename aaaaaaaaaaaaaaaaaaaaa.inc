@@ -1,5 +1,5 @@
 <h1>Monthly Energy Review</h1>
-<?php include ('includes/release_date.inc') ; ?>
+
 <p>A publication of recent and historical energy statistics. This publication includes statistics on total energy production,
 	consumption, and trade; energy prices; overviews of petroleum, natural gas, coal, electricity, nuclear energy, renewable
 	energy, and international petroleum; carbon dioxide emissions; and data unit conversion values.</p>
