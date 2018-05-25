@@ -6,7 +6,7 @@ const path = require('path');
 const del = require('del');
 const removeCode = require('gulp-remove-code');
 
-const server = '//WWWDEV/website/adaptive/'
+const server = '//WWWDEV/website/adaptive/';
 
 const analysis      = '//WWWDEV/website/adaptive/analysis/includes';
 const coal          = '//WWWDEV/website/adaptive/coal/includes';
@@ -106,7 +106,7 @@ gulp.task('xfer-total-energy-annual', ['xfer-style-folder'], () =>
 	.pipe(rename('main-data.inc'))
 	.pipe(gulp.dest(totalEnergyAnnual))
 );
-gulp.task('xfer-style-folder', () =>
+gulp.task('xfer-style-folder', ['pmm-release-date'], () =>
 	gulp.src('./style-guide/assets/styles/**/*')
 	.pipe(gulp.dest(styleFolder))
 );
@@ -219,7 +219,7 @@ gulp.task('new-mer-header', ['uma-new-header'], () =>
 gulp.src('/totalenergy/data/monthly/includes/new-mer-header.inc')
 .pipe(gulp.dest(server + '/totalenergy/data/monthly/includes'))
 );
-gulp.task('uma-new-header'], () =>
+gulp.task('uma-new-header', () =>
 gulp.src('/uranium/production/quarterly/html/uma-new-header.inc')
 .pipe(gulp.dest(server + '/uranium/production/quarterly/html'))
 );
