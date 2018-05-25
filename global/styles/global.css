@@ -6636,7 +6636,6 @@ span.line-break {
     text-decoration: underline;
   }
   .accordion-content ul li.head {
-    color: firebrick;
     margin-top: 12px;
   }
   .accordion-content ul li.head:first-child {
@@ -6650,28 +6649,26 @@ span.line-break {
     color: #333;
   }
   .accordion-content ul li .include {
-    border: 1px solid blue;
     width: 100%;
     height: 18px;
   }
   .accordion-content ul li .release-date {
-    color: orangered;
     font-style: italic;
   }
   .accordion-content ul li .note {
-    color: orange;
     font-style: italic;
   }
   .accordion-content ul li .release-schedule {
     font-style: italic;
-    color: yellowgreen;
   }
   .accordion-content ul li .include {
+    color: firebrick;
+  }
+  .accordion-content ul li .include a {
     color: red;
   }
   .accordion-content ul li .additional-formats {
     font-style: italic;
-    color: green;
   }
   .accordion-content ul li .additional-formats a {
     display: inline-block;
