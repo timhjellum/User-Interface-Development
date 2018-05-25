@@ -1,4 +1,4 @@
-//const $ = require("jquery");
+const $ = require("jquery");
 //import scrollTo from '../../../../node_modules/scrollto/index.js;
 import scrollTo from 'animated-scroll-to';
 

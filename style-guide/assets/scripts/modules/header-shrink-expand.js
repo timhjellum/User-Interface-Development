@@ -1,4 +1,4 @@
-//import $ from 'jquery';
+import $ from 'jquery';
 
 class ShrinkExpand {
     constructor() {

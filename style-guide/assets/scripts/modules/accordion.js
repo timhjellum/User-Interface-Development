@@ -1,4 +1,4 @@
-//import $ from 'jquery';
+import $ from 'jquery';
 
 class Accordion {
 	constructor() {
@@ -17,7 +17,6 @@ class Accordion {
 		this.content.addClass('collapsed');
 		this.allExpandCollapseInitialState.addClass('show');
 	}
-
 	events() {
 		$('h2.active').click(function() {
 			$('.expand-all').toggleClass('show');
