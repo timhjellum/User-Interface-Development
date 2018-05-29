@@ -36,8 +36,6 @@ gulp.task('xfer-analysis', ['xfer-coal'], () =>
 	gulp.src('./analysis/includes/main-data.html')
 	.pipe(removeCode({ INCconversion: true }))
 	.pipe(rename('main-data.inc'))
-	.pipe(removeCode({ INCconversion: true }))
-	.pipe(rename('main-data.inc'))
 	.pipe(gulp.dest(analysis))
 );
 gulp.task('xfer-coal', ['xfer-consumption'], () =>
@@ -133,19 +131,19 @@ gulp.src('/dnav/pet/includes/petmer-release-date.inc')
 );
 gulp.task('epa-release-date', ['electricity-data-browser'], () =>
 gulp.src('/electricity/annual/epa-release-date.inc')
-.pipe(gulp.dest(server + '/electricity/annual'))
+.pipe(gulp.dest(server + '/electricity/includes/annual'))
 );
 gulp.task('electricity-data-browser', ['epm-release-date'], () =>
-gulp.src('/electricity/monthly/electricity-data-browser.inc')
+gulp.src('/electricity/monthly/includes/electricity-data-browser.inc')
 .pipe(gulp.dest(server + '/electricity/monthly'))
 );
 gulp.task('epm-release-date', ['esr-header'], () =>
 gulp.src('/electricity/monthly/epm-release-date.inc')
-.pipe(gulp.dest(server + '/electricity/monthly'))
+.pipe(gulp.dest(server + '/electricity/monthly/includes'))
 );
 gulp.task('esr-header', ['annual-release-date'], () =>
 gulp.src('/electricity/sales_revenue_price/esr-header.inc')
-.pipe(gulp.dest(server + '/electricity/sales_revenue_price'))
+.pipe(gulp.dest(server + '/electricity/sales_revenue_price/includes'))
 );
 gulp.task('annual-release-date', ['fcml-release-date'], () =>
 gulp.src('/naturalgas/annual/includes/annual-release-date.inc')
@@ -165,7 +163,7 @@ gulp.src('/outlooks/steo/includes/steo-release-date.inc')
 );
 gulp.task('gdu-release-date', ['release-date_pmm'], () =>
 gulp.src('/petroleum/gasdiesel/include/gdu-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/gasdiesel/include'))
+.pipe(gulp.dest(server + '/petroleum/gasdiesel/includes'))
 );
 gulp.task('release-date_pmm', ['psr-release-date'], () =>
 gulp.src('/petroleum/marketing/monthly/includes/release-date_pmm.inc')
@@ -205,7 +203,7 @@ gulp.src('/petroleum/supply/weekly/includes/wspr-release-date.inc')
 );
 gulp.task('afv-release-date', ['renewable-header'], () =>
 gulp.src('/renewable/afv/afv-release-date.inc')
-.pipe(gulp.dest(server + '/renewable/afv'))
+.pipe(gulp.dest(server + '/renewable/afv/includes'))
 );
 gulp.task('renewable-header', ['new-aer-header'], () =>
 gulp.src('/renewable/monthly/solar_photo/includes/renewable-header.inc')
@@ -221,5 +219,5 @@ gulp.src('/totalenergy/data/monthly/includes/new-mer-header.inc')
 );
 gulp.task('uma-new-header', () =>
 gulp.src('/uranium/production/quarterly/html/uma-new-header.inc')
-.pipe(gulp.dest(server + '/uranium/production/quarterly/html'))
+.pipe(gulp.dest(server + '/uranium/production/quarterly/includes'))
 );
