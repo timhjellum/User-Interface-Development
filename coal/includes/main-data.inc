@@ -292,7 +292,7 @@
 					<a href="/coal/reserves/">Demonstrated Reserve Base</a>
 				</li>
 				<li class="release-date">Release Date:
-						<span class="date">November 15, 2017 </span> | data from <span class="note"><a href="/coal/reserves/">U.S. Coal Reserves</a>
+						<span class="date">November 15, 2017<span class="note">data from</span> <span class="source"><a href="/coal/reserves/">U.S. Coal Reserves</a>
 						</span>
 				</li>
 				<li class="head">
@@ -1146,8 +1146,7 @@
 				<li class="head">
 					<strong>Real and nominal average transportation costs</strong> (back to 2008) - <a href="/coal/transportationrates/">methodology</a>
 				</li>
-				<li class="release-date">Release Date: </span>
-					<span class="date">May 5, 2017 </span> | data from <span class="note"><a href="/electricity/data/eia923/">Form EIA-923, &quot;Power Plant Operations Report</a>&quot;</span></li>
+				<li class="release-date">Release Date:</span> <span class="date">May 5, 2017<span class="note">data from</span> <span class="source"><a href="/electricity/data/eia923/">Form EIA-923, &quot;Power Plant Operations Report</a>&quot;</span></li>
 				<li class="list-item">
 					<ul>
 						<li>

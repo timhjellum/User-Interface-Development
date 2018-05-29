@@ -2,7 +2,7 @@ const gulp = require('gulp'),
 modernizr = require('gulp-modernizr');
 
 //const dist = '//WWWDEV/website/global/styles';
-const dist = '//REPLICATOR/website/css_rehab/archive/global/scripts';
+const dist = '//REPLICATOR/website/adaptive/global/scripts';
 //const dist = './global/styles';
 //const dist = './style-guide/src/scripts';
 

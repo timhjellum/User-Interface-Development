@@ -1,1 +1,1 @@
-<span class="release-date">Release Date: </span><span class="date">May 24, 2016</span> |  <span class="date">data from: Uranium Marketing Annual Report</span>
+<span class="release-date">Release Date:</span> <span class="date">May 24, 2016</span> | <span class="note">data from</span> <span class="source">Uranium Marketing Annual Report</span>

@@ -40,13 +40,13 @@ Interactive</a></span></span><strong> Nuclear generation, capacity summary data<
 	<div class="accordion-content">
 		<ul>
 			<li><a href="/uranium/production/annual/ureserve.cfm">Uranium reserves estimates</a><br />
-			<li><span class="release-date">Release Date: </span><span class="date">May 24, 2017 | data from: <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></span></li>
+			<li><span class="release-date">Release Date:</span> <span class="date">May 24, 2017 | data from: <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></span></li>
 			<li>Estimates of uranium reserves as of end of year</li>
 
 			<li><p><strong>Uranium production</strong></p>
 <ul>
 <li> Annual<br />
-			<li><span class="release-date">Release Date: </span><span class="date">May 24, 2017 | data from: <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></em>
+			<li><span class="release-date">Release Date:</span> <span class="date">May 24, 2017 | data from: <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></em>
 <ul>
 <li class="additional-formats">Available formats: <a href="/uranium/production/annual/pdf/usummarytbl9.pdf" class="ico_pdf" title="Summary uranium production data, back to 1993  "><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/annual/xls/usummarytbl9.xls" class="ico_xls" title="Summary uranium production data, back to 1993  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/uranium/production/annual/usummary.cfm">Summary uranium production data</a>, back to 1993</li>
 <li class="additional-formats">Available formats: <a href="/uranium/production/annual/pdf/umillstbl4.pdf" class="ico_pdf" title="U.S. uranium mills by owner, capacity, and operating status  "><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/annual/xls/umillstbl4.xls" class="ico_xls" title="U.S. uranium mills by owner, capacity, and operating status  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/uranium/production/annual/umills.cfm">U.S. uranium mills by owner, capacity, and operating status</a></li>
@@ -54,7 +54,7 @@ Interactive</a></span></span><strong> Nuclear generation, capacity summary data<
 </ul>
 </li>
 <li>Quarterly</li>
-			<li><span class="release-date">Release Date: </span><span class="date"><script language="javascript" type="text/javascript" src="/uranium/production/quarterly/html/qpdheader.txt"></script>
+			<li><span class="release-date">Release Date:</span> <span class="date"><script language="javascript" type="text/javascript" src="/uranium/production/quarterly/html/qpdheader.txt"></script>
 <ul>
 <li class="additional-formats">Available formats: <a href="/uranium/production/quarterly/pdf/qupd_tbl1.pdf" class="ico_pdf" title="Total production of uranium concentrate  "><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/quarterly/xls/qupd_tbl1.xls" class="ico_xls" title="Total production of uranium concentrate  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/uranium/production/quarterly/qupdtable1.cfm">Total production of uranium concentrate</a> </li>
 <li class="additional-formats">Available formats: <a href="http://www.eia.gov/uranium/production/quarterly/pdf/qupd_tbl2.pdf" class="ico_pdf" title="Number of uranium mills and plants producing uranium concentrate in the United States  "><i class="ico pdf"><span>PDF</span></i></a> <a href="/uranium/production/quarterly/xls/qupd_tbl2.xls" class="ico_xls" title="Number of uranium mills and plants producing uranium concentrate in the United States  "><i class="ico xls"><span>XLS</span></i></a></span> <a href="/uranium/production/quarterly/qupdtable2.cfm"> Number of uranium mills and plants producing uranium concentrate in the United States</a> </li>

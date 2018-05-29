@@ -17,8 +17,7 @@
 					</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">February 27, 2017</span>
+					<span class="release-date">Release Date:</span> <span class="date">February 27, 2017</span>
 				</li>
 				<li>Characteristics data (including structural features, appliance stock, electronics stock, and square footage) for occupied
 					primary housing units.</li>
@@ -30,8 +29,7 @@
 					</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">Anticipated Spring 2018</span>
+					<span class="release-date">Release Date:</span> <span class="date">Anticipated Spring 2018</span>
 				</li>
 				<li>Energy consumption and expenditures for occupied primary housing units by end uses and by fuel.</li>
 
@@ -43,8 +41,7 @@
 					</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">October 2017</span>
+					<span class="release-date">Release Date:</span> <span class="date">October 2017</span>
 				</li>
 				<li>Data are available in two formats: CSV (a comma delimited file) and a SAS data file.</li>
 			</ul>
@@ -62,8 +59,7 @@
 					</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">March 2015</span>
+					<span class="release-date">Release Date:</span> <span class="date">March 2015</span>
 				</li>
 				<li>Detailed tabulated data providing number of buildings and floorspace by characteristics such as geographic region, building
 					activity, size and age, employment and occupancy, energy sources used, and energy-related equipment.</li>
@@ -76,8 +72,7 @@
 					</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">May, 2016</span>
+					<span class="release-date">Release Date:</span> <span class="date">May, 2016</span>
 				</li>
 				<li>Detailed tabulated data providing total energy, electricity, natural gas, fuel oil and district heat consumption figures
 					and data by end use (heating, cooling, lighting, etc.).</li>
@@ -90,8 +85,7 @@
 					</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">May, 2016</span>
+					<span class="release-date">Release Date:</span> <span class="date">May, 2016</span>
 				</li>
 				<li>Raw data for 6,720 buildings for data users to create custom tables that are not available through the tabulated information.
 					The data represent commercial buildings from the 50 States and the District of Columbia. Each record corresponds to
@@ -112,8 +106,7 @@
 					<strong>Consumption of energy for all purposes, by industry & region</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">October 2017</span>
+					<span class="release-date">Release Date:</span> <span class="date">October 2017</span>
 				</li>
 				<li class="additional-formats">Available formats:
 					<a href="manufacturing/data/2014/XLS/Table1_1.xlsx" class="ico_xls" title="Consumption of energy for all purposes, by industry & region">
@@ -134,8 +127,7 @@
 					<strong>Energy Used as a Nonfuel (Feedstock)</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">October 2017</span>
+					<span class="release-date">Release Date:</span> <span class="date">October 2017</span>
 				</li>
 				<li class="additional-formats">Available formats:
 					<a href="manufacturing/data/2014/xls/Table2_1.xlsx" class="ico_xls" title="Energy Used as a Nonfuel (Feedstock)">
@@ -156,8 +148,7 @@
 					<strong>Energy consumption as a fuel, by industry &amp; region</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">October 2017</span>
+					<span class="release-date">Release Date:</span> <span class="date">October 2017</span>
 				</li>
 				<li class="additional-formats">Available formats:
 					<a href="manufacturing/data/2014/xls/Table3_1.xlsx" class="ico_xls" title="Energy consumption as a fuel, by industry & region">
@@ -178,8 +169,7 @@
 					<strong>Offsite-produced fuel consumption, by industry</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">October 2017</span>
+					<span class="release-date">Release Date:</span> <span class="date">October 2017</span>
 				</li>
 				<li class="additional-formats">Available formats:
 					<a href="manufacturing/data/2014/xls/Table4_1.xlsx" class="ico_xls" title="Offsite-produced fuel consumption, by industry">
@@ -200,8 +190,7 @@
 					<strong>Total consumption of electricity, by industry &amp; region</strong>
 				</li>
 				<li>
-					<span class="release-date">Release Date: </span>
-					<span class="date">October 2017</span>
+					<span class="release-date">Release Date:</span> <span class="date">October 2017</span>
 				</li>
 				<li class="additional-formats">Available formats:
 					<a href="manufacturing/data/2014/xls/Table11_1.xlsx" class="ico_xls" title="Total consumption of electricity, by industry & region">

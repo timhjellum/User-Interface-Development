@@ -16,7 +16,7 @@ from renewable sources, biomass and alternative fuels.</p>
 
 
 
-<li><!-- ?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ? -->
+<li><!-- ?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ? -->
 
 
 
@@ -56,7 +56,7 @@ from renewable sources, biomass and alternative fuels.</p>
 <!-- end special styling -->
 <li><strong>Renewable electricity</strong>
 </li>
-<li><!-- ?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ? -->
+<li><!-- ?php include('adaptive/electricity/annual/epa-release-date.inc') ? -->
 <li>
 <ul>
 
@@ -93,7 +93,7 @@ from renewable sources, biomass and alternative fuels.</p>
 
 
 
-<li><!-- ?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ? -->
+<li><!-- ?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ? -->
 
 
 
@@ -114,9 +114,9 @@ from renewable sources, biomass and alternative fuels.</p>
 </li>
 <tr class="white-first">
 <li><a href="/biofuels/biomass/#table_data">Densified biomass fuel</a></li>
-<li><span class="release-date">Release Date: </span><span class="date">
+<li><span class="release-date">Release Date:</span> <span class="date">
 
-<li><!-- ?php include('css_rehab/archive/biofuels/biomass/includes/biofuels-release-date.inc') ? --> Monthly densified biomass fuel (wood pellets, compressed bricks/logs) data on manufacturing facilities and
+<li><!-- ?php include('adaptive/biofuels/biomass/includes/biofuels-release-date.inc') ? --> Monthly densified biomass fuel (wood pellets, compressed bricks/logs) data on manufacturing facilities and
 capacity, production, inventories, feedstocks and cost, sales and price, exports and price, and product characteristics
 </li>
 
@@ -131,7 +131,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 
 
 
-<li><!-- ?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ? -->
+<li><!-- ?php include('adaptive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ? -->
 
 
 <li class="note"></li>
@@ -172,7 +172,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 	<div class="accordion-content">
 		<ul>
 			<li><strong>Geothermal energy consumption</strong></li>
-			<li><!-- ?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ? --></li>
+			<li><!-- ?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ? --></li>
 			<!-- li> (<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a></li -->
 			<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" class="ico_pdf"><!-- span hidden="Geothermal energy consumption"></span --><i class="ico pdf"><span>PDF</span></i></a>
 		</ul>
@@ -184,7 +184,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 	<div class="accordion-content">
 		<ul>
 			<li><a href="/electricity/annual/html/epa_03_14.html"><!-- span hidden="Hydropower"></span -->Generation</a></li>
-			<li><!-- ?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ? --></li>
+			<li><!-- ?php include('adaptive/electricity/annual/epa-release-date.inc') ? --></li>
 			<li>Net generation from hydroelectric (conventional) power by state by sector</li>			
 			<li class="additional-formats no-bullet">Available formats: <a href="/electricity/annual/xls/epa_03_14.xlsx" class="ico_xls"><!-- span hidden="Hydropower generation"></span --><i class="ico xls"><span>XLS</span></i></a></li>
 		</ul>
@@ -207,7 +207,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 					<li class="additional-formats no-bullet">Available formats: <a href="/renewable/annual/solar_photo/pdf/table3.pdf" class="ico_pdf"><!-- span hidden="Annual photovoltaic module shipments, back to 2006"></span --><i class="ico pdf"><span>PDF</span></i></a>
 
 					<li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb1008">Photovoltaic Cell and Module Shipments by Type, Trade, and Prices</a>, 1982-2010</li>
-					<li><!-- ?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ? --></li>
+					<li><!-- ?php include('adaptive/totalenergy/data/annual/includes/new-aer-header.inc') ? --></li>
 				</ul>
 			</li>
 			<li>Solar Photovoltaic Cell/Module Shipments Reports:</li>
@@ -215,7 +215,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 				<ul>
 					<li><a href="/renewable/annual/solar_photo/">Annual Solar Photovoltaic Cell/Module Shipments Report</a></li>
 					<li><a href="/renewable/monthly/solar_photo/">Monthly Solar Photovoltaic Module Shipments Report</a></li>
-					<li><!-- ?php include('css_rehab/archive/renewable/monthly/solar_photo/includes/renewable-header.inc') ? --></li>
+					<li><!-- ?php include('adaptive/renewable/monthly/solar_photo/includes/renewable-header.inc') ? --></li>
 				</ul>
 			</li>
 		</ul>
@@ -227,7 +227,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 	<div class="accordion-content">
 		<ul>
 			<li><strong>Net generation from wind by state by sector</strong></li>
-			<li><!-- ?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ? --></li>
+			<li><!-- ?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ? --></li>
 			<li>
 				<ul>
 					<li>Annual (back to 2001)</li>
@@ -237,7 +237,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 				</ul>
 			</li>
 			<li><a href="/electricity/annual/html/epa_04_02_b.html">Electric net summer capacity by wind and other renewable sources</a>, annual (back to 2002)</li>
-			<li><!-- ?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ? --> </li>
+			<li><!-- ?php include('adaptive/electricity/annual/epa-release-date.inc') ? --> </li>
 		</ul>
 	</div>
 	<!-- END Wind Content //////////////// -->
@@ -248,7 +248,7 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 	<div class="accordion-content">
 	<ul>
 		<li><strong>Alternative fueled and hybrid vehicles</strong> (on-road)</li>
-		<li><!-- ?php include('css_rehab/archive/renewable/afv/afv-release-date.inc') ? --></li>
+		<li><!-- ?php include('adaptive/renewable/afv/afv-release-date.inc') ? --></li>
 		<li>Data on alternative fuel vehicle (AFV) supply and fuel use and number of vehicles for four types of vehicle fleets: federal	government, state government, transit agencies, and fuel providers; fleet &amp; fuel data back to 2003, supplier data back to 1994 </li>
 			<li>
 				<ul>
@@ -260,14 +260,14 @@ capacity, production, inventories, feedstocks and cost, sales and price, exports
 			<li>
 				<ul>
 					<li> Fuel ethanol overview </li>
-					<li><!-- ?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ? --></li>
+					<li><!-- ?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ? --></li>
 					<li class="additional-formats no-bullet">Available formats: <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" class="ico_pdf"><!-- span hidden="Fuel ethanol overview"></span --><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.cfm?tbl=T10.03&amp;freq=m" class="ico_xls"><!-- span hidden="Fuel ethanol overview"></span --><i class="ico xls"><span>XLS</span></i></a> | <!-- span class="beta" --><a href="/totalenergy/data/browser/?tbl=T10.03#/?f=M&start=200001"><!-- span hidden="Fuel ethanol overview"></span --><i class="ico interactive"><span>Interactive</span></i></a><!-- /span --></li>
 				</ul>
 			</li>
 			<li><a href="/petroleum/ethanolcapacity/index.cfm">Plant production capacity </a></li>
-			<li><span class="release-date">Release Date: </span><span class="date">June 20, 2017 </span> | data from: <span class="note"><a href="/survey/#eia-819">Form EIA-819M Monthly Oxygenate Report</a></span></li>
+			<li><span class="release-date">Release Date:</span> <span class="date">June 20, 2017 </span> | data from: <span class="note"><a href="/survey/#eia-819">Form EIA-819M Monthly Oxygenate Report</a></span></li>
 			<li>Production capacity data for all operating U.S. fuel ethanol production plants </li>
-			<li><!-- ?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ? --></li>
+			<li><!-- ?php include('adaptive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ? --></li>
 			<li>
 				<ul>
 					<li>Production capacity and production</li>

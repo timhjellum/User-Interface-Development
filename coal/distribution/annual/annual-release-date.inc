@@ -1,1 +1,1 @@
-<span class="release-date">Release Date: </span><span class="date">November 21, 2017</span> | <span class="note"><a href="/coal/distribution/annual/">Annual Coal Distribution Report</a></span>
+<span class="release-date">Release Date:</span> <span class="date">November 21, 2017</span> | <span class="note"><a href="/coal/distribution/annual/">Annual Coal Distribution Report</a></span>

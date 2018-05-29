@@ -27,7 +27,7 @@ const styleFolder   = '//WWWDEV/website/adaptive/style-guide/assets/styles';
 
 
 
-
+// gulp xfer2adaptive
 
 
 gulp.task('xfer2adaptive', ['xfer-analysis']);

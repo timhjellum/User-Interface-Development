@@ -273,7 +273,7 @@
 							<h3>
 								<a href="/tools/glossary/">Glossary</a>
 							</h3>
-							<?php include('css_rehab/archive/global/header/includes/glossary-search.inc') ?>
+							<?php include('adaptive/global/header/includes/glossary-search.inc') ?>
 						</div>
 						<div class="nav-menu data-tools-model">
 							<i class="ico-menu ico-nav data-tools-model"></i>
@@ -324,7 +324,7 @@
 							<h3>
 								<a href="/reports/">All Reports &amp; Publications</a>
 							</h3>
-							<?php include('css_rehab/archive/global/header/includes/reports-publications-search.inc') ?>
+							<?php include('adaptive/global/header/includes/reports-publications-search.inc') ?>
 						</div>
 						<div class="nav-menu survey-forms">
 							<i class="ico-menu ico-nav survey-forms"></i>
@@ -332,7 +332,7 @@
 								<a href="/survey/">EIA Survey Forms</a>
 							</h3>
 							<p>Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.</p>
-							<?php /* include('css_rehab/archive/global/header/includes/survey-search.inc') */ ?>
+							<?php /* include('adaptive/global/header/includes/survey-search.inc') */ ?>
 						</div>
 						<div class="nav-menu email-complex">
 							<i class="ico-menu ico-nav email-complex"></i>
@@ -416,7 +416,7 @@
 							<h3>
 								<a href="/tools/glossary/">Glossary</a>
 							</h3>
-							<?php include('css_rehab/archive/global/header/includes/glossary-search.inc'); ?>
+							<?php include('adaptive/global/header/includes/glossary-search.inc'); ?>
 						</div>
 						<div class="nav-menu faq">
 							<i class="ico-menu ico-nav faq"></i>
@@ -475,7 +475,7 @@
 				<!--News-->
 				<div id="nav-news">
 					<div class="news left">
-						<?php include('css_rehab/archive/global/header/includes/whats-new.inc') ?>
+						<?php include('adaptive/global/header/includes/whats-new.inc') ?>
 						<div class="nav-menu press-room">
 							<i class="ico-menu ico-nav press-room"></i>
 							<h3>
