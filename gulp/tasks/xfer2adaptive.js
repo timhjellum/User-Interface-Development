@@ -8,19 +8,19 @@ const removeCode = require('gulp-remove-code');
 
 const server = '//WWWDEV/website/adaptive/';
 
-const analysis      = '//WWWDEV/website/adaptive/analysis/includes';
-const coal          = '//WWWDEV/website/adaptive/coal/includes';
-const consumption   = '//WWWDEV/website/adaptive/consumption/includes';
-const electricity   = '//WWWDEV/website/adaptive/electricity/includes';
-const environment   = '//WWWDEV/website/adaptive/environment/includes';
-const finance       = '//WWWDEV/website/adaptive/finance/includes';
-const naturalGas    = '//WWWDEV/website/adaptive/naturalgas/includes';
-const nuclear       = '//WWWDEV/website/adaptive/nuclear/includes';
-const petroleum     = '//WWWDEV/website/adaptive/petroleum/includes';
-const renewable     = '//WWWDEV/website/adaptive/renewable/includes';
+const analysis      		= '//WWWDEV/website/adaptive/analysis/includes';
+const coal          		= '//WWWDEV/website/adaptive/coal/includes';
+const consumption   		= '//WWWDEV/website/adaptive/consumption/includes';
+const electricity   		= '//WWWDEV/website/adaptive/electricity/includes';
+const environment   		= '//WWWDEV/website/adaptive/environment/includes';
+const finance       		= '//WWWDEV/website/adaptive/finance/includes';
+const naturalGas    		= '//WWWDEV/website/adaptive/naturalgas/includes';
+const nuclear       		= '//WWWDEV/website/adaptive/nuclear/includes';
+const petroleum     		= '//WWWDEV/website/adaptive/petroleum/includes';
+const renewable     		= '//WWWDEV/website/adaptive/renewable/includes';
 const totalEnergyMonthly   	= '//WWWDEV/website/adaptive/totalenergy/data/monthly/includes';
 const totalEnergyAnnual   	= '//WWWDEV/website/adaptive/totalenergy/data/annual/includes';
-const styleFolder   = '//WWWDEV/website/adaptive/style-guide/assets/styles';
+const styleFolder   		= '//WWWDEV/website/adaptive/style-guide/assets/styles';
 
 
 
@@ -122,27 +122,27 @@ gulp.src('/dnav/ng/includes_ng/ngmer-release-date.inc')
 .pipe(gulp.dest(server + '/dnav/ng/includes_ng'))
 );
 gulp.task('wngsr-release-date', ['petmer-release-date'], () =>
-gulp.src('/dnav/ng/includes_ng/wngsr-release-date.inc')
-.pipe(gulp.dest(server + '/dnav/ng/includes_ng'))
+gulp.src('/dnav/ng/includes_ng/includes/wngsr-release-date.inc')
+.pipe(gulp.dest(server + '/dnav/ng/includes_ng/includes'))
 );
 gulp.task('petmer-release-date', ['epa-release-date'], () =>
 gulp.src('/dnav/pet/includes/petmer-release-date.inc')
 .pipe(gulp.dest(server + '/dnav/pet/includes'))
 );
 gulp.task('epa-release-date', ['electricity-data-browser'], () =>
-gulp.src('/electricity/annual/epa-release-date.inc')
-.pipe(gulp.dest(server + '/electricity/includes/annual'))
+gulp.src('/electricity/annual/includes/epa-release-date.inc')
+.pipe(gulp.dest(server + '/electricity/annual/includes'))
 );
 gulp.task('electricity-data-browser', ['epm-release-date'], () =>
 gulp.src('/electricity/monthly/includes/electricity-data-browser.inc')
-.pipe(gulp.dest(server + '/electricity/monthly'))
+.pipe(gulp.dest(server + '/electricity/monthly/includes'))
 );
 gulp.task('epm-release-date', ['esr-header'], () =>
-gulp.src('/electricity/monthly/epm-release-date.inc')
+gulp.src('/electricity/monthly/includes/epm-release-date.inc')
 .pipe(gulp.dest(server + '/electricity/monthly/includes'))
 );
 gulp.task('esr-header', ['annual-release-date'], () =>
-gulp.src('/electricity/sales_revenue_price/esr-header.inc')
+gulp.src('/electricity/sales_revenue_price/includes/esr-header.inc')
 .pipe(gulp.dest(server + '/electricity/sales_revenue_price/includes'))
 );
 gulp.task('annual-release-date', ['fcml-release-date'], () =>
@@ -202,7 +202,7 @@ gulp.src('/petroleum/supply/weekly/includes/wspr-release-date.inc')
 .pipe(gulp.dest(server + '/petroleum/supply/weekly/includes'))
 );
 gulp.task('afv-release-date', ['renewable-header'], () =>
-gulp.src('/renewable/afv/afv-release-date.inc')
+gulp.src('/renewable/afv/includes/afv-release-date.inc')
 .pipe(gulp.dest(server + '/renewable/afv/includes'))
 );
 gulp.task('renewable-header', ['new-aer-header'], () =>
@@ -217,7 +217,11 @@ gulp.task('new-mer-header', ['uma-new-header'], () =>
 gulp.src('/totalenergy/data/monthly/includes/new-mer-header.inc')
 .pipe(gulp.dest(server + '/totalenergy/data/monthly/includes'))
 );
+//gulp.task('uma-new-header', () =>
+//gulp.src('/uranium/production/quarterly/html/uma-new-header.inc')
+//.pipe(gulp.dest(server + '/uranium/production/quarterly/includes'))
+//);
 gulp.task('uma-new-header', () =>
-gulp.src('/uranium/production/quarterly/html/uma-new-header.inc')
-.pipe(gulp.dest(server + '/uranium/production/quarterly/includes'))
+gulp.src('/uranium/marketing/quarterly/html/uma-new-header.inc')
+.pipe(gulp.dest(server + '/uranium/marketing/quarterly/includes'))
 );
