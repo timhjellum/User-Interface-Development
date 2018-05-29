@@ -28,5 +28,6 @@ isset($highstock) || $highstock = '';
 <link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
 <link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
 
-<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script> 
+<!-- script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script -->
+<script src="/global/scripts/jquery.min.js"></script>
 <?php include('global/includes/highcharts.inc') ?>

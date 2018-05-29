@@ -1,1 +1,1 @@
-<span class="release-date">Annual Release Date:</span> <span class="date">May 17, 2018</a></span>
+May 17, 2018

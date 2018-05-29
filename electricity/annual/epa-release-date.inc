@@ -1,0 +1,1 @@
+<span class="release-date">Annual Release Date: </span><span class="date">December 7, 2017</span> | <span class="date">data from: <a href="/electricity/annual/">Electric Power Annual</a></span>
