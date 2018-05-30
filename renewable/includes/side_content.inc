@@ -29,20 +29,21 @@
 
 <?php /*cfinclude template="/about/new/whatsnew_sitewide.cfm"*/ ?>
 
-<span class="grey_side blue_top">
-  <h4>Survey Forms, Changes & Announcements</h4>
+<div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Survey Forms, Changes & Announcements</h2></li>
   <p><a href="/cneaf/solar.renewables/page/forms.html">Renewable and Alternate Fuels Survey Forms and Instructions  &rsaquo;</a></p>
 </span> 
 
 <?php /*span class="grey_side green_top">
-  <h4><a href="/maps#renewable">Renewable Energy Maps</a></h4>
+  <li class="head"><h2><a href="/maps#renewable">Renewable Energy Maps</a></h2></li>
   <a href="/cneaf/solar.renewables/page/biodiesel/biodiesel.html"><img src="/renewable/images/biodiesel-map-200.gif" /></a> <br />
   </p>
   <p><a href="/maps/">See more  maps  &rsaquo;</a></p>
 </span*/ ?>
 
 <span class="blue_side">
-  <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=93&t=4">How many alternative fuel and hybrid vehicles are in the U.S.? &rsaquo;</a></h4>
+  <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=93&t=4">How many alternative fuel and hybrid vehicles are in the U.S.? &rsaquo;</a></h2></li>
   <p><a href="/tools/faqs/#renewables">See all renewable & alternative fuels FAQs  &rsaquo;</a></p>
 </span>
 <p><a href="/energyexplained/index.cfm?page=renewable_home"><img src="/global/images/side_features/ee_renewable.jpg" width="240" height="123" alt="Energy Explained - Renewable Energy" /></a></p>

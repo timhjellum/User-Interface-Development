@@ -1,6 +1,6 @@
 <div class="content-container light-top-border-container grey-background">    <ul>
 <li class="header">
-        <li>&nbsp; </li>
+        <li>&nbsp;</li>
 <div class="content-container light-top-border-container grey-background">
     <ul>
 <li class="header">

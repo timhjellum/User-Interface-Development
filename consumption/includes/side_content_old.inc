@@ -1,7 +1,8 @@
         <?php $what = 'consumption'; ?>
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
-        <span class="grey_side blue_top">
-        <h4>Energy Use Data by Sector</h4>
+        <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Energy Use Data by Sector</h2></li>
 <p class="no_btm_border"><strong>Residential</li>
 			<li>
             Energy use by fuel type, housing type, and end uses
@@ -33,10 +34,10 @@
           <li><a href="transportation/data/2001/">Most Recent Data (2001)</a></li>
           <li><a href="transportation/reports/">Analysis  &amp; Reports          </a></li>
         </ul></p><span style="margin-bottom:10px">&nbsp;</span>
-        <h4>Topics</h4>
-        <p class="no_btm_border"><strong>Efficiency (Energy Intensity)</strong></p>
-        
-        <ul>
+        <li class="head"><h2>Topics</h2></li>
+        <p class="no_btm_border"><strong>Efficiency (Energy Intensity)</strong></li>
+<li>
+<ul>
           <li><a href="/consumption/efficiency/index.cfm">Overview</a></li>
           <li><a href="/consumption/efficiency/data/index.cfm">Data</a></li>
           <li><a href="/consumption/efficiency/reports/index.cfm">Analysis and Reports</a></li>
@@ -45,7 +46,7 @@
           </span>
           <?php /* FAQ Promo */ ?>
         <span class="blue_side">
-          <h4 class="q_side"><a href="consumption_faqs.cfm#rfaq1">What is the basis for EIA&#8217;s statistics on household energy consumption and expenditures?</a></h4>
+          <h4 class="q_side"><a href="consumption_faqs.cfm#rfaq1">What is the basis for EIA&#8217;s statistics on household energy consumption and expenditures?</a></h2></li>
           <p><a href="consumption_faqs.cfm">See all Energy End Use FAQs &rsaquo;</a></p>
         </span>
         

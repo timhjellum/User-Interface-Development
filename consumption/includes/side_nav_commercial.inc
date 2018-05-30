@@ -1,7 +1,8 @@
 <?php /*cfif IsDefined("report")>
   <div class="side_col right"> <span class="grey_side_nav blue_top side_nav">
-    <h4>2007 Large Hospital Report</h4>
-    <ul>
+    <li class="head"><h2>2007 Large Hospital Report</h2></li>
+<li>
+<ul>
       <li><a href="/consumption/commercial/reports/2007/large-hospital.cfm">Main Report</a></li>
       <li><a href="/consumption/commercial/reports/2007/large-hospital-methodology.cfm">Methodology</a></li>
       <li><a href="/consumption/commercial/reports/2007/large-hospital-faq.cfm">FAQs</a></li>
@@ -20,7 +21,7 @@ $DataService = new DataService();
 ?>
 
 <div class="side_col right"> <span class="grey_side green_top">
-  <h4>Background Information</h4>
+  <li class="head"><h2>Background Information</h2></li>
   <p><a href="/consumption/commercial/about.cfm">About the CBECS</a></p>
 <?php /*   <p><a href="/consumption/commercial/about_ess.cfm">About the ESS</a></p> */ ?>
   
@@ -40,14 +41,14 @@ $DataService = new DataService();
   
 <?php /*    FAQ Promo */ ?>
   <span class="blue_side">
-  <h4 class="q_side"> <a href="/consumption/commercial/faq.cfm#q9">Is it possible to obtain a list of all the buildings that participated in your survey?</a> </h4>
+  <h4 class="q_side"> <a href="/consumption/commercial/faq.cfm#q9">Is it possible to obtain a list of all the buildings that participated in your survey?</a> </h2></li>
   <strong>
   <p><a href="/consumption/commercial/faq.cfm">See all CBECS FAQs &rsaquo;</a></p>
   </strong> </span> 
   
 <?php /*   Featured Data */ ?>
   <span class="grey_side green_top side_list_nocolumn">
-  <h4>Features</h4>
+  <li class="head"><h2>Features</h2></li>
    <p><a href="/consumption/commercial/reports/2012/lighting/">
 Trends in Lighting in Commercial Buildings</a> </p>
   <p><a href="/consumption/commercial/reports/2012/water/">
@@ -97,8 +98,9 @@ Energy Usage Summary  (2012)</a> </p>
 
 <?php /*/ Today in Energy Widget Top3 */ ?>
    <?php /*Other Consumption Surveys*/ ?>
-  <span class="grey_side blue_top">
-  <h4>Other End Use Surveys</h4>
+  <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Other End Use Surveys</h2></li>
   <p><a href="/consumption/manufacturing/">Manufacturing - MECS</a></p>
   <p><a href="/consumption/residential/">Residential - RECS</a>
   <p class="no-border"><a href="/consumption/transportation/archive/rtecs/index.php">Transportation</a></p>

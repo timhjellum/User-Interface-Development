@@ -1,8 +1,9 @@
 <?php $what = 'multifuel'; ?>
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
         <?php /* Start of New in Energy Source -->
-            <span class="grey_side blue_top">
-                <h4>What's New in Total Energy?</h4>
+            <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>What's New in Total Energy?</h2></li>
                 
             
             <p><a href="monthly.cfm"><strong>Monthly Energy Review &rsaquo;</strong></a>
@@ -15,8 +16,8 @@
               
 <?php /* Start of Energy Flow Content box */ ?>
           <span class="grey_side green_top side_list_nocolumn">
-             <h4 style="color:#000">Diagrams</h4>
-             <p class="no-border"><strong>Energy flows</strong></p>
+             <h4 style="color:#000">Diagrams</h2></li>
+             <li class="sub-head"><strong>Energy flows</strong></li>
 <?php /* <a href="/totalenergy/data/monthly/pdf/flow/primary_energy.pdf"> */ ?><img src="/totalenergy/data/monthly/pdf/flow/overview_flow_xsmall.jpg" alt="Total Energy diagram image"><?php /*</a>*/ ?>
 			<dl>
 			<dt>&nbsp;</dt>
@@ -26,7 +27,7 @@
 			<dt>&nbsp;<a style="font-weight:normal" href="/totalenergy/data/monthly/pdf/flow/coal.pdf" class="ico_pdf">Coal</a></dt>
 			<dt>&nbsp;<a style="font-weight:normal" href="/totalenergy/data/monthly/pdf/flow/electricity.pdf" class="ico_pdf">Electricity</a></dt>
 			</dl>           
-			<p><strong>Primary energy consumption</strong></p>
+			<p><strong>Primary energy consumption</strong></li>
 			<img src="/totalenergy/data/monthly/pdf/flow/css_2013_xsmall.jpg" alt="Consumption by Source and Sector diagram image">
 			<dl>
 			<dt>&nbsp;</dt>
@@ -35,7 +36,7 @@
           </span>
           <?php /* End of Energy Flow Content box */ ?>
 <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=85&t=1">How much energy does a person use in a year? &rsaquo;</a></h4>
+          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=85&t=1">How much energy does a person use in a year? &rsaquo;</a></h2></li>
           <p><a href="/tools/faqs/#generalenergy" width="240"><br />
           See all general energy FAQs  &rsaquo;</a></p>
         </span>

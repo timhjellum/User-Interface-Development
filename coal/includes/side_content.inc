@@ -36,8 +36,9 @@ $tie_lookup = $neic->get($bindVariables);
 <br />
 <?php  } // end if ?>
        <?php /* Weekly Releases */ ?>
-         <span class="grey_side blue_top">
-        <h4>Regular Weekly Releases*</h4>
+         <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Regular Weekly Releases*</h2></li>
         <p><a href="/coal/nymex/">Weekly NYMEX Coal Futures &rsaquo;</a><br />
 
 <?php /*        <p><a href="/cneaf/coal/page/nymex/nymex_report.html">Weekly NYMEX Coal Futures &rsaquo;</a><br /> */ ?>
@@ -56,8 +57,9 @@ $tie_lookup = $neic->get($bindVariables);
        
         </span> 
            <?php /* Survey */ ?>
-         <span class="grey_side blue_top">
-      <h4>Survey Forms, Changes & Announcements</h4>
+         <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Survey Forms, Changes & Announcements</h2></li>
             <p><a href="/survey/#coal">Coal survey forms &rsaquo;</a> </p>
           <?php /*p><a href="/survey/changes/coal/">Comment by October 28th on survey changes &rsaquo;</a></p*/ ?>
            <p class="no-border"><a href="/survey/meetings/coal1212/coal_data_revision_policy.pdf">Coal data revision policy. &rsaquo;</a></p>
@@ -66,14 +68,14 @@ $tie_lookup = $neic->get($bindVariables);
           </span>
 		  <?php /*
        <span class="grey_side green_top">
-            <h4>Coal Maps</h4>
+            <li class="head"><h2>Coal Maps</h2></li>
             
           <p><a href="/energy_in_brief/role_coal_us.cfm "><img src="/energy_in_brief/images/maps/coal_production_map.jpg"  width="200"></a><br/><br/><a href="/maps#coal">See more coal maps &rsaquo;</a></p>
           </span>
 		  */ ?>
                   <?php /* FAQ Promo */ ?>
         <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=527&t=2 ">How much coal, natural gas, or petroleum is used to generate a kilowatt-hour of electricity? &rsaquo;</a></h4> 
+          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=527&t=2 ">How much coal, natural gas, or petroleum is used to generate a kilowatt-hour of electricity? &rsaquo;</a></h2></li> 
           <p><a href="/tools/faqs/#coal">See all coal FAQs  &rsaquo;</a></p>
         </span>
          <?php /* Energy Explained Promo */ ?>

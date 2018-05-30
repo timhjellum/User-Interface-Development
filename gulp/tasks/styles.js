@@ -6,7 +6,7 @@ const path = require('path');
 const del = require('del');
 
 
-const dist = './global/styles';
+//const dist = './global/styles';
 //const dist = './style-guide/src/css';
 const styleGuideDist = './style-guide/src/css';
 
@@ -38,6 +38,7 @@ const styleGuideDist = './style-guide/src/css';
 */
 
 // use for wwwdev: const dist = '//WWWDEV/website/global/styles';
+const dist = '//WWWDEV/website/adaptive/global/styles';
 
 gulp.task('styles', ['eia-styles']);
 

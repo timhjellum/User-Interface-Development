@@ -4,20 +4,22 @@
   <p><a href="/consumption/residential/maps.cfm">RECS Maps</a></p>
   <p><a href="/consumption/residential/terminology.cfm">RECS Terminology</a></p>
   <p class="no-border"><a href="/consumption/residential/data/archive/">Archived Reports</a></p></span>
-  <span class="grey_side blue_top">
-  <h4>State fact sheets</h4>
+  <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>State fact sheets</h2></li>
   
   <a href="/consumption/residential/reports/2009/state_briefs/"><img src= "/consumption/images/images_recs/state-promo.jpg" alt="Arizona household graph" height="85" border="0" /></a><p><a href="/consumption/residential/reports/2009/state_briefs/">See state fact sheets &rsaquo;</a> </p> </span>
   <?php /* FAQ Promo */ ?> 
  <?php /* <span class="blue_side">
-  <h4 class="q_side"><a href="/consumption/residential/faqs.cfm##rfaq1">Does EIA have official EIA energy consumption statistics for counties, cities and ZIP codes?</a></h4>
-  <p><strong><a href="../residential/faqs.cfm">See all RECS FAQs &rsaquo;</a></strong></p>
+  <h4 class="q_side"><a href="/consumption/residential/faqs.cfm##rfaq1">Does EIA have official EIA energy consumption statistics for counties, cities and ZIP codes?</a></h2></li>
+  <p><strong><a href="../residential/faqs.cfm">See all RECS FAQs &rsaquo;</a></strong></li>
   </span> */ ?>
   <?php /* Featured Data */ ?>
   <?php if ( $page['year'] == 'home') {?>
     <?php  } else { ?>
-    <span class="grey_side blue_top">
-    <h4>2009 RECS Features</h4>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>2009 RECS Features</h2></li>
     <p><a href="/todayinenergy/detail.cfm?id=10271">Heating and cooling no longer majority of U.S. home energy use</a><br />
       <em>March 7, 2013</em>
     <p><a href="/todayinenergy/detail.cfm?id=9951">Newer U.S. homes are 30% larger but consume about as much energy as older homes</a><br />
@@ -38,7 +40,7 @@
       <em>March 28, 2011</em> </p>
       <p><a href="/consumption/residential/reports/2009/methodology-end-use.cfm">How does EIA estimate energy consumption and end uses  in U.S.  homes?</a><br />
       <em>March 28, 2011</em> </p> */ ?>
-    <p class="no-border"><strong><a href="/consumption/residential/reports.cfm">See more ></a></strong></p>
+    <li class="sub-head"><strong><a href="/consumption/residential/reports.cfm">See more ></a></strong></li>
     </span>
   <?php  } // end if ?>
   
@@ -78,8 +80,9 @@ $neic      = new NEIC();
 <?php /* Today in Energy Widget Top3 */ ?>
 
    <?php /* Other Consumption Surveys */ ?>
-  <span class="grey_side blue_top">
-  <h4>Other End Use Surveys</h4>
+  <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Other End Use Surveys</h2></li>
   <p><a href="/consumption/commercial/">Commercial Buildings - CBECS</a></p>
   <p><a href="/consumption/manufacturing/">Manufacturing - MECS</a> </p>
   <p class="no-border"><a href="/consumption/archive/rtecs/contents.html">Transportation</a></p>

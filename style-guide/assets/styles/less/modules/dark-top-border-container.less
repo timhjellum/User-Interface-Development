@@ -1,9 +1,25 @@
 
 @media @mobile {
+    .top-border {
+        &.dark-blue {
+            border-top: solid 4px @eia-darker-blue;
+        }
+        &.blue {
+            border-top: solid 4px @eia-blue;
+        }
+        &.green {
+            border-top: solid 4px green;
+        }
+    }
+
     .no-border-container,
     .dark-top-border-container {
         background-color: @eia-white;
         border-top: solid 4px @eia-darker-blue;
+        
+        
+        
+        
         ul {
             li  {
                 .font;

@@ -7,9 +7,11 @@
   <p class="no-border"><a href="/consumption/residential/data/archive.cfm">Archived Reports</a></p>
   </span>
   <?php if ( $page['year'] == "2009") {?>
-    <span class="grey_side blue_top">
-    <h4><?php echo "$page['year']"?> Survey Forms</h4>
-    <ul>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
+<li>
+<ul>
       <li><a href="/survey/form/eia_457/form.pdf" class="ico_pdf" title="2009 RECS 457-A Household Survey">457-A Household Survey</a></li>
       <li><a href="/survey/form/eia_457/2009 RECS 457-C Rental Agent Questionnaire.pdf" class="ico_pdf" title="2009 RECS 457-C Rental Agent Questionnaire">457-C Rental Agent Questionnaire</a></li>
       <li><a href="/survey/form/eia_457/2009 RECS 457-D LPGPropane Usage Form.pdf" class="ico_pdf" title="2009 RECS 457-D LPGPropane Usage Form">457-D LPGPropane Usage Form</a></li>
@@ -19,8 +21,9 @@
       <li><a href="/survey/<?php echo "$"?>eia-457"><strong>See all Survey Forms ></strong></a></li>
     </ul>
     </span>
-    <span class="grey_side blue_top">
-    <h4>2009 Features</h4>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>2009 Features</h2></li>
     <p><a href="/consumption/residential/reports/2009-RECS-methodology-square-footage-data.cfm">Where does RECS square footage data come from?</a><br />
     <em>July 9, 2012</em>
     <p><a href="/consumption/residential/reports/2009-RECS-show-decreased-home-energy-consumption.cfm">RECS data show decreased energy consumption per household</a><br />
@@ -37,14 +40,16 @@
     <p><a href="/consumption/residential/reports/electronics.cfm">Share of energy used by appliances and consumer electronics increases in U.S. homes</a><br />
     <em>March 28, 2011</em>
     </p>
-    <p class="no-border"><strong><a href="/consumption/residential/reports.cfm">See more RECS features and reports ></a></strong></p>
+    <li class="sub-head"><strong><a href="/consumption/residential/reports.cfm">See more RECS features and reports ></a></strong></li>
   </span>
   
   <?php  } // end if ?>
   <?php if ( $page['year'] == "2005") {?>
-    <span class="grey_side blue_top">
-    <h4><?php echo "$page['year']"?> Survey Forms</h4>
-    <ul>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
+<li>
+<ul>
       <li><a href="/survey/form/eia_457/2005 RECS 457-A Household Survey.pdf" class="ico_pdf" title="2005 RECS 457-A Household Survey">457-A Household Survey</a></li>
       <li><a href="/survey/form/eia_457/2005 RECS 457-D Bottled Gas.pdf" class="ico_pdf" title="2005 RECS 457-D Bottled Gas Form">457-D Bottled Gas Form</a></li>
       <li><a href="/survey/form/eia_457/2005 RECS 457-E Electricity Usage Form.pdf" class="ico_pdf" title="2005 RECS 457-E Electricity Usage Form">457-E Electricity Usage Form</a></li>
@@ -55,9 +60,11 @@
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "2001") {?>
-    <span class="grey_side blue_top">
-    <h4><?php echo "$page['year']"?> Survey Forms</h4>
-    <ul>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
+<li>
+<ul>
       <li><a href="/survey/form/eia_457/2001 RECS 457-A Household Survey.pdf" class="ico_pdf" title="2001 RECS 457-A Household Survey">457-A Household Survey</a></li>
       <li><a href="/survey/form/eia_457/2001 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="2001 RECS 457-B Nationwide Household Mail Survey">457-B Nationwide Household Mail Survey</a></li>
       <li><a href="/survey/form/eia_457/2001 RECS 457-C Rental Agent Questionnaire.pdf" class="ico_pdf" title="2001 RECS 457-C Rental Agent Questionnaire">457-C Rental Agent Questionnaire</a></li>
@@ -70,12 +77,15 @@
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "1997") {?>
-    <span class="grey_side blue_top">
-    <h4><a href="/pub/pdf/consumption/063297.pdf" class="ico_pdf">Download the full <?php echo "$page['year']"?> RECS report</a></h4>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2><a href="/pub/pdf/consumption/063297.pdf" class="ico_pdf">Download the full <?php echo "$page['year']"?> RECS report</a></h2></li>
     </span>
-    <span class="grey_side blue_top">
-    <h4><?php echo "$page['year']"?> Survey Forms</h4>
-    <ul>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
+<li>
+<ul>
       <li><a href="/survey/form/eia_457/1997 RECS 457-A Household Survey.pdf" class="ico_pdf" title="1997 RECS 457-A Household Survey">457-A Household Survey</a></li>
       <li><a href="/survey/form/eia_457/1997 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1997 RECS 457-B Nationwide Household Mail Survey">457-B Nationwide Household Mail Survey</a></li>
       <li><a href="/survey/form/eia_457/1997 RECS 457-C Rental Agent Questionnaire.pdf" class="ico_pdf" title="1997 RECS 457-C Rental Agent Questionnaire">457-C Rental Agent Questionnaire</a></li>
@@ -85,30 +95,34 @@
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "1993") {?>
-    <span class="grey_side blue_top">
-    <h4><?php echo "$page['year']"?> Survey Forms</h4>
-    <ul>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
+<li>
+<ul>
       <li><a href="/survey/form/eia_457/1993 RECS 457-A Household Survey.pdf" class="ico_pdf" title="1993 RECS 457-A Household Survey">457-A Household Survey</a></li>
       <li><a href="/survey/<?php echo "$"?>eia-457">View All Years</a></li>
     </ul>
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "previous") {?>
-    <span class="grey_side blue_top">
-    <h4><?php echo "$page['year']"?> Survey Forms</h4>
-    <ul>
-      <li>1990 <a href="/survey/form/eia_457/1990 RECS 457-A Household Survey.pdf" class="ico_pdf" title="1990 RECS 457-A Household Survey">457-A Household Survey</a> </li>
-      <li>1987 <a href="/survey/form/eia_457/1987 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1987 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a> </li>
-      <li>1984 <a href="/survey/form/eia_457/1984-85 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1984-85 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a> </li>
-      <li>1982 <a href="/survey/form/eia_457/1982-83 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1982-83 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a> </li>
-      <li>1981 <a href="/survey/form/eia_457/1981-82 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1981-82 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a> </li>
-      <li>1980 <a href="/survey/form/eia_457/1980-81 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1980-81 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a> </li>
+    <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
+<li>
+<ul>
+      <li>1990 <a href="/survey/form/eia_457/1990 RECS 457-A Household Survey.pdf" class="ico_pdf" title="1990 RECS 457-A Household Survey">457-A Household Survey</a></li>
+      <li>1987 <a href="/survey/form/eia_457/1987 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1987 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a></li>
+      <li>1984 <a href="/survey/form/eia_457/1984-85 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1984-85 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a></li>
+      <li>1982 <a href="/survey/form/eia_457/1982-83 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1982-83 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a></li>
+      <li>1981 <a href="/survey/form/eia_457/1981-82 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1981-82 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a></li>
+      <li>1980 <a href="/survey/form/eia_457/1980-81 RECS 457-B Nationwide Household Mail Survey.pdf" class="ico_pdf" title="1980-81 RECS 457-B Nationwide Household Mail Survey">457-B Household Survey</a></li>
       <li><a href="/survey/<?php echo "$"?>eia-457">View All Years</a></li>
     </ul>
     </span>
   <?php  } // end if ?>
   <span class="grey_side green_top">
-  <h4>Other End Use Survey Data</h4>
+  <li class="head"><h2>Other End Use Survey Data</h2></li>
   <p><a href="/consumption/commercial/">Commercial Buildings - CBECS</a></p>
   <p><a href="/emeu/mecs/contents.html">Manufacturing - MECS</a></p>
   <p class="no-border"><a href="/consumption/archive/rtecs/contents.html">Transportation</a></p>

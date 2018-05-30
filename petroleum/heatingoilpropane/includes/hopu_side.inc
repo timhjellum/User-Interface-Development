@@ -20,13 +20,13 @@
                 <li><a href="padd-state_maps.cfm">Survey maps</a></li>
                 <li><a href="revision_report.cfm" style="white-space:nowrap;">Revision reports</a></li>
             </ul>
-        </li>
+</li>
         <li class="header"><h2>More Price Data</h2></li>
         <li>            <ul>
                 <li><a href="/dnav/pet/pet_pri_spt_s1_d.htm">Spot prices</a></li>
                 <li><a href="/dnav/pet/pet_pri_fut_s1_d.htm">NYMEX futures prices</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>
 
@@ -61,7 +61,7 @@
                 <li><a href="/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li>
                 <li><a href="/petroleum/supply/weekly/nehor.cfm">Northeast Heating Oil Reserve</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>
 

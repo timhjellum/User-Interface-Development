@@ -35,19 +35,20 @@ $tie_lookup = $neic->get($bindVariables);
 <?php  } // end if ?>
 
 <?php /*/ Today in Energy Widget Top3 */ ?>
-<span class="grey_side blue_top">
-<h4>Survey Forms, Changes & Announcements</h4>
+<div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Survey Forms, Changes & Announcements</h2></li>
 <p class="no-border"><a href="/survey/#uranium">Uranium Survey Forms and Instructions  &rsaquo;</a></p>
 <?php /*p class="no-border"><a href="/survey/changes/uranium/">See proposed changes for 2012 &rsaquo; </a></p*/ ?>
 </span> 
 
 <?php /* FAQ Promo */ ?> 
 <span class="blue_side">
-<h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=104&t=21">How much electricity does a typical nuclear power plant generate? &rsaquo;</a> </h4>
+<h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=104&t=21">How much electricity does a typical nuclear power plant generate? &rsaquo;</a> </h2></li>
 <p><a href="/tools/faqs/ ">See all FAQs &rsaquo;</a></p>
 </span> 
 <?php /*<span class="grey_side green_top">
-<h4><a href="/nuclear/state/">State Nuclear Profiles</a></h4>
+<li class="head"><h2><a href="/nuclear/state/">State Nuclear Profiles</a></h2></li>
 <p><a href="/nuclear/state/"><img src="/nuclear/images/state-nuclear-profiles.jpg " alt="State Nuclear Profiles"/></a><br/>
   <br/>
 </p>

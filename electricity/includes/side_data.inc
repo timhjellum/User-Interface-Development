@@ -2,7 +2,7 @@
 
 <?php /* Interactive Table Viewer Promo */ ?>
       <span class="blue_side">
-        <h4 class="d_side">Interactive Electricity Data </h4>
+        <h4 class="d_side">Interactive Electricity Data </h2></li>
         
         <p><em>browse pre-defined or custom data views, graph or map data series down to the plant level</span></li>
 			<li>        <br /><b><a href="/electricity/data/browser/">Electricity data browser &rsaquo;</a></b><br />
@@ -16,13 +16,15 @@
 		<?php /* Interactive Table Viewer Promo */ ?>
 
 
-<span class="grey_side blue_top">
- <h4>Detailed and historical electricity data by survey</h4>
-       <ul>
-         <li> <a href="/electricity/data/state/">State-level</a> </li>  
-         <li> <a href="/electricity/data/eia826/">Sales and revenue</a> </li>  
-         <li> <a href="/electricity/data/eia860/">Generating capacity</a> </li> 
-         <li> <a href="/electricity/data/eia923/">Power plant operating data</a> </li> 
-         <li> <a href="/electricity/data/detail-data.html">see more...</a> </li> 
+<div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Detailed and historical electricity data by survey</h2></li>
+<li>
+<ul>
+         <li> <a href="/electricity/data/state/">State-level</a></li>  
+         <li> <a href="/electricity/data/eia826/">Sales and revenue</a></li>  
+         <li> <a href="/electricity/data/eia860/">Generating capacity</a></li> 
+         <li> <a href="/electricity/data/eia923/">Power plant operating data</a></li> 
+         <li> <a href="/electricity/data/detail-data.html">see more...</a></li> 
          </ul>
 </span>

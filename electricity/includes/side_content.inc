@@ -36,8 +36,9 @@ $tie_lookup = $neic->get($bindVariables);
 <?php  } // end if ?>
 
 <?php /*/ Today in Energy Widget Top3 */ ?>
-        <span class="grey_side blue_top">
-        <h4>Survey Forms, Changes &amp; Announcements</h4>
+        <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Survey Forms, Changes &amp; Announcements</h2></li>
           <p><a href="/survey/#electricity"><?php /* <img src="/cneaf/electricity/forms/images/efile1s.png" border="0" /> */ ?> Electric Power forms & help &rsaquo;</a></p>
           <?php /*<p><a href="/cneaf/electricity/2008forms/consolidate.html">Forms 923 &amp; 860 updates &rsaquo;</a></p>*/ ?>
          
@@ -51,12 +52,12 @@ $tie_lookup = $neic->get($bindVariables);
         </span>
          <?php /* FAQ Promo */ ?>
         <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=97&t=3 ">How much electricity does an American home use?   &rsaquo;</a></h4>
+          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=97&t=3 ">How much electricity does an American home use?   &rsaquo;</a></h2></li>
         <p><a href="/tools/faqs/#electricity"><strong>Read all electricity FAQs &rsaquo;</strong></a></p>
         </span>
         <?php /* State Electricity Restructuring Map */ ?>
         <span class="grey_side green_top">
-          <h4> Electricity-Related Maps</h4>
+          <li class="head"><h2> Electricity-Related Maps</h2></li>
          
           
          

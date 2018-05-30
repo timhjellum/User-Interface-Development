@@ -3,7 +3,7 @@
         <li class="header"><h2>Procedures &amp; Methodology</h2></li>
 <li class="sub-header"> Gasoline</li>
                 <li><a href="gas_procedure.php">Data collection procedures</a></li>
-                <li><a href="gas_methodology.php">Sampling methodology</a>  </li>
+                <li><a href="gas_methodology.php">Sampling methodology</a></li>
                 <li><a href="sampling_error_report.php">Coefficient of variation</a></li>
                 <li><a href="reformulated_map.php#reformulatedmap">Map of reformulated gasoline</a></li>
                 <li><a href="reformulated_map.php#statesmap">Map of states in each region</a></li>

@@ -14,7 +14,7 @@
 </p>*/ ?>
    
  
-<span class="grey_side blue_top">
+<div class="content-container light-top-border-container grey-background">
     <h2>Supplemental Data</h2>
     
 <p ><?php /*class="left no-border"*/ ?>Annual Electric Utility data - EIA-861 data file, includes county service areas <a href="/electricity/data/eia861/" title="Annual Electric Utility data - EIA-861 data file, includes county service areas">dbf.xlsx</a>

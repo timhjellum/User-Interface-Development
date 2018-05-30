@@ -5,41 +5,32 @@
 <p>A publication of recent and historical energy statistics. This publication includes statistics on total energy production,
 	consumption, and trade; energy prices; overviews of petroleum, natural gas, coal, electricity, nuclear energy, renewable
 	energy, and international petroleum; carbon dioxide emissions; and data unit conversion values.</p>
-<div class="tie_correction">
-	<p>The tables and graphs from the
-		<li class="release-schedule">Monthly Energy Review</span>are available in an interactive format on
-			<a href="/totalenergy/data/browser/">EIA's Total Energy Data Browser</a>.</p>
+<div class="notice">
+	<p>The tables and graphs from the Monthly Energy Review are available in an interactive format on <a href="/totalenergy/data/browser/">EIA's Total Energy Data Browser</a>.</p>
 	<p>Previous editions of the MER are available from January 1980 forward.</p>
-	<p>EIA periodically adds tables to the MER containing data previously published in the
-		<li class="release-schedule">Annual Energy Review</span>, which has been discontinued. For a record of the MER expansion, please see &quot;
-			<a href="/totalenergy/data/monthly/whatsnew.cfm">What's New in the Monthly Energy Review - Content Changes </a>."</p>
+	<p>EIA periodically adds tables to the MER containing data previously published in the Annual Energy Review , which has been discontinued. For a record of the MER expansion, please see &quot; <a href="/totalenergy/data/monthly/whatsnew.cfm">What's New in the Monthly Energy Review - Content Changes </a>."</p>
 </div>
+
+
 <h3>Data categories</h3>
-</p>
+
 <div class="accordion">
 	<div class="expand-collapse-container">
-		<span class="expand-all">
-			<i class="ico expand-collapse"></i> Expand all</span>
-		<span class="collapse-all">
-			<i class="ico expand-collapse"></i> Collapse all</span>
+		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
 	</div>
-	<col>
-	<col>
-	<col style="background-color: #cccccc;">
-	<h2>
-		<i class="ico expand-collapse"></i>
-		<a name="summary"></a>Energy overview</h2>
+	<h2><i class="ico expand-collapse"></i><a name="summary"></a>Energy overview</h2>
 	<div class="accordion-content">
 		<ul>
 			<li class="head">Topic</li>
-			<li class="additional-formats">Available formats:
-				<a href="pdf/sec1.pdf" class="pdf" title="entire section"> PDF (entire section )</a>
+			<li class="additional-formats">Available formats: <a href="pdf/sec1.pdf" class="pdf" title="entire section">
+				<i class="ico pdf">
+					<span>PDF</span>
+				</i> (entire section )</a>
 			</li>
 		</ul>
 		<ul> 
-		<li>1.1
-			<span class="space"></span>Primary energy overview</a>
-		</li>
+		<li>1.1<span class="space"></span>Primary energy overview</a></li>
 		<li class="additional-formats">Available formats:
 			<a href="pdf/sec1_3.pdf" class="ico_pdf" title="Table 1.1  Primary energy overview">
 				<i class="ico pdf">
@@ -56,18 +47,20 @@
 					<span>CSV</span>
 				</i>
 			</a>
-			<a href="pdf/sec1_2.pdf" class="ico_pdf" title="Table 1.1  Primary energy overview"> GRAPH</a>
+			<a href="pdf/sec1_2.pdf" class="ico_pdf" title="Table 1.1  Primary energy overview">
+			<i class="ico pdf">
+					<span>PDF</span>
+				</i>
+			</a> (Graph)
 		</li>
 		<a href="/totalenergy/data/browser/index.php?tbl=T01.01#/?f=M&start=200001" title="Table 1.1  Primary energy overview  - View in Total Energy Browser">
 			<i class="ico interactive">
 				<span>Interactive</span>
 			</i>
-		</a>
-		</li>
+		</a></li>
 		</ul>
 		<ul>
-			<li>1.2
-				<span class="space"></span>Primary energy production by source</li>
+			<li>1.2<span class="space"></span>Primary energy production by source</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_5.pdf" class="ico_pdf" title="Table 1.2  Primary energy production by source">
 					<i class="ico pdf">
@@ -87,7 +80,8 @@
 				<a href="pdf/sec1_4.pdf" class="ico_pdf" title="Table 1.2  Primary energy production by source">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.02#/?f=M&start=200001" title="Table 1.2  Primary energy production by source  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -96,8 +90,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.3
-				<span class="space"></span>Primary energy consumption by source</li>
+			<li>1.3<span class="space"></span>Primary energy consumption by source</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_7.pdf" class="ico_pdf" title="Table 1.3  Primary energy consumption by source">
 					<i class="ico pdf">
@@ -117,7 +110,8 @@
 				<a href="pdf/sec1_6.pdf" class="ico_pdf" title="Table 1.3  Primary energy consumption by source">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.03#/?f=M&start=200001" title="Table 1.3  Primary energy consumption by source  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -126,8 +120,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.4a
-				<span class="space"></span>Primary energy imports by source</li>
+			<li>1.4a<span class="space"></span>Primary energy imports by source</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_10.pdf" class="ico_pdf" title="Table 1.4a  Primary energy imports by source">
 					<i class="ico pdf">
@@ -147,7 +140,8 @@
 				<a href="pdf/sec1_8.pdf" class="ico_pdf" title="Table 1.4a  Primary energy imports by source">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.04A#/?f=M&start=200001" title="Table 1.4a  Primary energy imports by source  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -156,8 +150,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.4b
-				<span class="space"></span>Primary energy exports</li>
+			<li>1.4b<span class="space"></span>Primary energy exports</li>
 			<li>by source and total net imports</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_11.pdf" class="ico_pdf" title="Table 1.4b  Primary energy exports">
@@ -178,7 +171,8 @@
 				<a href="pdf/sec1_9.pdf" class="ico_pdf" title="Table 1.4b  Primary energy exports">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.04B#/?f=M&start=200001" title="Table 1.4b  Primary energy exports  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -187,8 +181,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.5
-				<span class="space"></span>Merchandise trade value</li>
+			<li>1.5<span class="space"></span>Merchandise trade value</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_13.pdf" class="ico_pdf" title="Table 1.5  Merchandise trade value">
 					<i class="ico pdf">
@@ -208,7 +201,8 @@
 				<a href="pdf/sec1_12.pdf" class="ico_pdf" title="Table 1.5  Merchandise trade value">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.05#/?f=M&start=200001" title="Table 1.5  Merchandise trade value  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -217,8 +211,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.6
-				<span class="space"></span>Cost of fuels to end users in real (1982-1984) dollars</li>
+			<li>1.6<span class="space"></span>Cost of fuels to end users in real (1982-1984) dollars</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_15.pdf" class="ico_pdf" title="Table 1.6  Cost of fuels to end users in real (1982-1984) dollars">
 					<i class="ico pdf">
@@ -238,7 +231,8 @@
 				<a href="pdf/sec1_14.pdf" class="ico_pdf" title="Table 1.6  Cost of fuels to end users in real (1982-1984) dollars">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.06#/?f=M&start=200001" title="Table 1.6  Cost of fuels to end users in real (1982-1984) dollars  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -247,8 +241,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.7
-				<span class="space"></span>Primary energy consumption, energy expenditures, and carbon dioxide emissions indicators</li>
+			<li>1.7<span class="space"></span>Primary energy consumption, energy expenditures, and carbon dioxide emissions indicators</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_17.pdf" class="ico_pdf" title="Table 1.7  Primary energy consumption, energy expenditures, and carbon dioxide emissions indicators">
 					<i class="ico pdf">
@@ -268,7 +261,8 @@
 				<a href="pdf/sec1_16.pdf" class="ico_pdf" title="Table 1.7  Primary energy consumption, energy expenditures, and carbon dioxide emissions indicators">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.07#/?f=M&start=200001" title="Table 1.7  Primary energy consumption, energy expenditures, and carbon dioxide emissions indicators  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -277,8 +271,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.8
-				<span class="space"></span>Motor vehicle mileage, fuel consumption, and fuel economy</li>
+			<li>1.8<span class="space"></span>Motor vehicle mileage, fuel consumption, and fuel economy</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_19.pdf" class="ico_pdf" title="Table 1.8  Motor vehicle mileage, fuel consumption, and fuel economy">
 					<i class="ico pdf">
@@ -298,7 +291,8 @@
 				<a href="pdf/sec1_18.pdf" class="ico_pdf" title="Table 1.8  Motor vehicle mileage, fuel consumption, and fuel economy">
 					<i class="ico pdf">
 						<span>PDF</span>
-					</i>GRAPH</a> |
+					</i>
+				</a> (Graph) |
 				<a href="/totalenergy/data/browser/index.php?tbl=T01.08#/?f=M&start=200001" title="Table 1.8  Motor vehicle mileage, fuel consumption, and fuel economy  - View in Total Energy Browser">
 					<i class="ico interactive">
 						<span>Interactive</span>
@@ -307,8 +301,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.9
-				<span class="space"></span>Heating degree-days by Census division</li>
+			<li>1.9<span class="space"></span>Heating degree-days by Census division</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_20.pdf" class="ico_pdf" title="Table 1.9  Heating degree-days by Census division">
 					<i class="ico pdf">
@@ -333,8 +326,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.10
-				<span class="space"></span>Cooling degree-days by Census division</li>
+			<li>1.10<span class="space"></span>Cooling degree-days by Census division</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_21.pdf" class="ico_pdf" title="Table 1.10  Cooling degree-days by Census division">
 					<i class="ico pdf">
@@ -359,8 +351,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.11a
-				<span class="space"></span>Non-Combustion Use of Fossil Fuels in Physical Units</li>
+			<li>1.11a<span class="space"></span>Non-Combustion Use of Fossil Fuels in Physical Units</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_22.pdf" class="ico_pdf" title="Table 1.11a  Non-Combustion Use of Fossil Fuels in Physical Units">
 					<i class="ico pdf">
@@ -385,8 +376,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li>1.11b
-				<span class="space"></span>Heat Content of Non-Combustion Use of Fossil Fuels</li>
+			<li>1.11b<span class="space"></span>Heat Content of Non-Combustion Use of Fossil Fuels</li>
 			<li class="additional-formats">Available formats:
 				<a href="pdf/sec1_23.pdf" class="ico_pdf" title="Table 1.11b  Heat Content of Non-Combustion Use of Fossil Fuels">
 					<i class="ico pdf">
@@ -427,7 +417,7 @@
 						<a href="pdf/sec2.pdf" class="pdf" title="entire section 2">PDF (entire section)</a>
 					</li>
 				</ul>
-				<ul>
+			 	<ul>
 					<li>2.1
 						<span class="space"></span>Energy consumption by sector</li>
 					<li class="additional-formats">Available formats:
@@ -477,7 +467,8 @@
 						<a href="pdf/sec2_4.pdf" class="ico_pdf" title="Table 2.2  Residential sector energy consumption">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T02.02#/?f=M&start=200001" title="Table 2.2  Residential sector energy consumption  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -507,7 +498,8 @@
 						<a href="pdf/sec2_6.pdf" class="ico_pdf" title="Table 2.3  Commercial sector energy consumption">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T02.03#/?f=M&start=200001" title="Table 2.3  Commercial sector energy consumption  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -537,7 +529,8 @@
 						<a href="pdf/sec2_8.pdf" class="ico_pdf" title="Table 2.4  Industrial sector energy consumption">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T02.04#/?f=M&start=200001" title="Table 2.4  Industrial sector energy consumption  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -567,7 +560,8 @@
 						<a href="pdf/sec2_10.pdf" class="ico_pdf" title="Table 2.5  Transportation sector energy consumption">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T02.05#/?f=M&start=200001" title="Table 2.5  Transportation sector energy consumption  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -597,7 +591,8 @@
 						<a href="pdf/sec2_12.pdf" class="ico_pdf" title="Table 2.6  Electric power sector energy consumption">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T02.06#/?f=M&start=200001" title="Table 2.6  Electric power sector energy consumption  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -700,7 +695,8 @@
 						<a href="pdf/sec3_2.pdf" class="ico_pdf" title="Table 3.1  Overview">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.01#/?f=M&start=200001" title="Table 3.1  Overview  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -730,7 +726,8 @@
 						<a href="pdf/sec3_4.pdf" class="ico_pdf" title="Table 3.2  Refinery and blender net inputs and net production">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.02#/?f=M&start=200001" title="Table 3.2  Refinery and blender net inputs and net production  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -788,7 +785,8 @@
 						<a href="pdf/sec3_8.pdf" class="ico_pdf" title="Table 3.3b  Imports and exports by type">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.03B#/?f=M&start=200001" title="Table 3.3b  Imports and exports by type  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -818,7 +816,8 @@
 						<a href="pdf/sec3_8.pdf" class="ico_pdf" title="Table 3.3c  Imports from OPEC countries">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.03C#/?f=M&start=200001" title="Table 3.3c  Imports from OPEC countries  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -848,7 +847,8 @@
 						<a href="pdf/sec3_8.pdf" class="ico_pdf" title="Table 3.3d  Imports from non-OPEC countries">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.03D#/?f=M&start=200001" title="Table 3.3d  Imports from non-OPEC countries  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -878,7 +878,8 @@
 						<a href="pdf/sec3_12.pdf" class="ico_pdf" title="Table 3.4  Stocks">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.04#/?f=M&start=200001" title="Table 3.4  Stocks  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -908,7 +909,8 @@
 						<a href="pdf/sec3_14.pdf" class="ico_pdf" title="Table 3.5  Products supplied by type">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.05#/?f=M&start=200001" title="Table 3.5  Products supplied by type  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -938,7 +940,8 @@
 						<a href="pdf/sec3_16.pdf" class="ico_pdf" title="Table 3.6  Heat content of petroleum products supplied by type">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.06#/?f=M&start=200001" title="Table 3.6  Heat content of petroleum products supplied by type  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -971,7 +974,8 @@
 						<a href="pdf/sec3_18.pdf" class="ico_pdf" title="Table 3.7a  Residential and commercial sectors">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.07A#/?f=M&start=200001" title="Table 3.7a  Residential and commercial sectors  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -1001,7 +1005,8 @@
 						<a href="pdf/sec3_18.pdf" class="ico_pdf" title="Table 3.7b  Industrial sector">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.07B#/?f=M&start=200001" title="Table 3.7b  Industrial sector  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -1031,7 +1036,8 @@
 						<a href="pdf/sec3_18.pdf" class="ico_pdf" title="Table 3.7c  Transportation and electric power sectors">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.07C#/?f=M&start=200001" title="Table 3.7c  Transportation and electric power sectors  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -1064,7 +1070,8 @@
 						<a href="pdf/sec3_22.pdf" class="ico_pdf" title="Table 3.8a  Residential and commercial sectors">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.08A#/?f=M&start=200001" title="Table 3.8a  Residential and commercial sectors  - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -1094,7 +1101,8 @@
 						<a href="pdf/sec3_22.pdf" class="ico_pdf" title="Table 3.8b  Industrial sector">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a> |
+							</i>
+						</a> (Graph) |
 						<a href="/totalenergy/data/browser/index.php?tbl=T03.08B#/?f=M&start=200001" title="Table 3.8b  Industrial sector - View in Total Energy Browser">
 							<i class="ico interactive">
 								<span>Interactive</span>
@@ -1124,7 +1132,8 @@
 						<a href="pdf/sec3_22.pdf" class="ico_pdf" title="Table 3.8c  Transportation and electric power sectors">
 							<i class="ico pdf">
 								<span>PDF</span>
-							</i>GRAPH</a>
+							</i>
+						</a> (Graph)
 					</li>
 					<a href="/totalenergy/data/browser/index.php?tbl=T03.08C#/?f=M&start=200001" title="Table 3.8c  Transportation and electric power sectors - View in Total Energy Browser">
 						<i class="ico interactive">
@@ -1945,7 +1954,8 @@
 										<a href="pdf/sec8_2.pdf" class="ico_pdf" title="Table 8.1 Overview">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T08.01#/?f=M&start=200001" title="Table 8.1 Overview  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -1995,7 +2005,8 @@
 										<a href="pdf/sec9_2.pdf" class="ico_pdf" title="Table 9.1  Crude oil price summary">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T09.01#/?f=M&start=200001" title="Table 9.1  Crude oil price summary  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2128,7 +2139,8 @@
 										<a href="pdf/sec9_2.pdf" class="ico_pdf" title="Table 9.5  Refiner prices of residual fuel oil">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T09.05#/?f=M&start=200001" title="Table 9.5  Refiner prices of residual fuel oil  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2226,7 +2238,8 @@
 										<a href="pdf/sec9_10.pdf" class="ico_pdf" title="Table 9.8  Average retail prices of electricity">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T09.08#/?f=M&start=200001" title="Table 9.8  Average retail prices of electricity  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2257,7 +2270,8 @@
 										<a href="pdf/sec9_12.pdf" class="ico_pdf" title="Table 9.9  Cost of fossil-fuel receipts at electric generating plants">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T09.09#/?f=M&start=200001" title="Table 9.9  Cost of fossil-fuel receipts at electric generating plants  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2288,7 +2302,8 @@
 										<a href="pdf/sec9_14.pdf" class="ico_pdf" title="Table 9.10  Natural gas prices">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T09.10#/?f=M&start=200001" title="Table 9.10  Natural gas prices  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2338,7 +2353,8 @@
 										<a href="pdf/sec10_2.pdf" class="ico_pdf" title="Table 10.1  Production and consumption by source">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T10.01#/?f=M&start=200001" title="Table 10.1  Production and consumption by source  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2370,7 +2386,8 @@
 										<a href="pdf/sec10_2.pdf" class="ico_pdf" title="Table 10.2a  Consumption: residential and commercial sectors">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T10.02A#/?f=M&start=200001" title="Table 10.2a  Consumption: residential and commercial sectors  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2402,7 +2419,8 @@
 										<a href="pdf/sec10_2.pdf" class="ico_pdf" title="Table 10.2b  Consumption: industrial and transportation sectors">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T10.02B#/?f=M&start=200001" title="Table 10.2b  Consumption: industrial and transportation sectors  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2434,7 +2452,8 @@
 										<a href="pdf/sec10_2.pdf" class="ico_pdf" title="Table 10.2c  Consumption: electric power sector">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T10.02C#/?f=M&start=200001" title="Table 10.2c  Consumption: electric power sector  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2634,7 +2653,8 @@
 										<a href="pdf/sec11_2.pdf" class="ico_pdf" title="Table 11.1a  OPEC members">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T11.01A#/?f=M&start=200001" title="Table 11.1a  OPEC members  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2665,7 +2685,8 @@
 										<a href="pdf/sec11_3.pdf" class="ico_pdf" title="Table 11.1b  Persian Gulf nations, non-OPEC, and world">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T11.01B#/?f=M&start=200001" title="Table 11.1b  Persian Gulf nations, non-OPEC, and world  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2696,7 +2717,8 @@
 										<a href="pdf/sec11_6.pdf" class="ico_pdf" title="Table 11.2  Petroleum consumption in OECD countries">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T11.02#/?f=M&start=200001" title="Table 11.2  Petroleum consumption in OECD countries  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2727,7 +2749,8 @@
 										<a href="pdf/sec11_8.pdf" class="ico_pdf" title="Table 1.3  Petroleum stocks in OECD countries">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T11.03#/?f=M&start=200001" title="Table 1.3  Petroleum stocks in OECD countries  - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2776,7 +2799,8 @@
 										<a href="pdf/sec12_2.pdf" class="ico_pdf" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T12.01#/?f=M&start=200001" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2805,7 +2829,8 @@
 										<a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T12.02#/?f=M&start=200001" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2834,7 +2859,8 @@
 										<a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T12.03#/?f=M&start=200001" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2863,7 +2889,8 @@
 										<a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T12.04#/?f=M&start=200001" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2892,7 +2919,8 @@
 										<a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T12.05#/?f=M&start=200001" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>
@@ -2921,7 +2949,8 @@
 										<a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector">
 											<i class="ico pdf">
 												<span>PDF</span>
-											</i>GRAPH</a> |
+											</i>
+										</a> (Graph) |
 										<a href="/totalenergy/data/browser/index.php?tbl=T12.06#/?f=M&start=200001" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector - View in Total Energy Browser">
 											<i class="ico interactive">
 												<span>Interactive</span>

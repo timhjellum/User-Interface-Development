@@ -1,11 +1,11 @@
       <br />
 <div class="side_col right">
         <?php /* Side Column */ ?>
-        <span class="grey_side blue_top">
+        <div class="content-container light-top-border-container grey-background">
         <p class="no_btm_border"><a class="ico_pdf" href="pdf/methodology_report.pdf">Full report</a><br /><br /><br />
        
         
-        <?php /*h4>Previous Issues</h4> 
+        <?php /*h4>Previous Issues</h2></li> 
         <a class="ico_pdf" href="../ndaa/archive/pdf/ndaa_oct_30_2014.pdf">10-30-2014</a><br />
         <a class="ico_pdf" href="../ndaa/archive/pdf/ndaa_aug_28_2014.pdf">8-28-2014</a><br />
         <a class="ico_pdf" href="../ndaa/archive/pdf/ndaa_jun_26_2014.pdf">6-26-2014</a><br />

@@ -1,8 +1,9 @@
 <?php $what = 'multifuel'; ?>
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
         <?php /* Start of New in Energy Source -->
-            <span class="grey_side blue_top">
-                <h4>What's New in Total Energy?</h4>
+            <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>What's New in Total Energy?</h2></li>
                 
             
             <p><a href="monthly.cfm"><strong>Monthly Energy Review &rsaquo;</strong></a>
@@ -29,7 +30,7 @@
           </ul>
 </span>
 <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=85&t=1">How much energy does a person use in a year? &rsaquo;</a></h4>
+          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=85&t=1">How much energy does a person use in a year? &rsaquo;</a></h2></li>
           <p><a href="/tools/faqs/#generalenergy" width="240"><br />
           See all general energy FAQs  &rsaquo;</a></p>
         </span>

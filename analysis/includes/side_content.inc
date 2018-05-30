@@ -27,10 +27,10 @@
 <?php  } // end if ?>
 
 <!---/ Today in Energy Widget Top3 --->
-      <span class="grey_side blue_top">
-        
-            <h4>Requested service reports <br/>
-            from Congress and others</h4>
+      <div class="content-container light-top-border-container grey-background">
+<ul>
+<li class="head"><h2>Requested service reports <br/>
+            from Congress and others</h2></li>
          
       
       <p><a href="/analysis/requests/ndaa/">The Availability and Price of Petroleum and Petroleum Products Produced in Countries Other Than Iran </a></br>
@@ -65,7 +65,7 @@ The Availability and Price of Petroleum and Petroleum Products Produced in Count
         </p>
         </strong>
         <span class="grey_side green_top">
-            <h4>Presentations </h4> 
+            <li class="head"><h2>Presentations </h2></li> 
         <p><a href=/pressroom/presentations/sieminski_04202013.pdf" class="ico_pdf">Outlook for shale gas and tight oil development in the U.S.</a><br/>
           Adam Sieminski, Administrator<br/>
       <em>April 20, 2013</em>
@@ -82,6 +82,6 @@ The Availability and Price of Petroleum and Petroleum Products Produced in Count
 		
 		<!--- FAQ Promo --->
         <span class="blue_side">
-      <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=287&t=10">What is the outlook for gasoline prices for 2014 and for 2015  &rsaquo;</a></h4>
+      <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=287&t=10">What is the outlook for gasoline prices for 2014 and for 2015  &rsaquo;</a></h2></li>
           <p><a href="/ask/faq.asp">See all Frequently asked questions &rsaquo;</a></p>
         </span>
