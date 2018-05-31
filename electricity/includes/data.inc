@@ -20,7 +20,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li class="no-bullet">
 		<!--?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?-->include here
 	</li>
-	<li class="source">Interactive data from: Total Energy Data Browser</li>
+	<li><span class="source">Interactive data from:</span>  Total Energy Data Browser</li>
 	<li class="additional-formats">
 		<a href="/totalenergy/data/monthly/pdf/sec7_3.pdf" class="ico_pdf" title=" Electricity overview">
 			<i class="ico pdf">
@@ -28,7 +28,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			</i>
 		</a>
 	</li>
-	<li class="additional-formats">Available formats:
+	<li><span class="formats">Available formats:</span> 
 		<a href="/totalenergy/data/browser/csv.cfm?tbl=T07.01" class="ico_csv" title=" Electricity overview">
 			<i class="ico csv">
 				<span>CSV</span>
@@ -125,7 +125,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li>
 		<strong>International electricity data</strong>
 	</li>
-	<li class="note">data from:
+	<li><span class="source">Data from:</span>
 		<a href="/beta/international/data/browser/">International Energy Statistics</a>
 	</li>
 	<li>
@@ -153,7 +153,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<li class="highlight">
 		<ul>
 			<li>Revenue, sales, customer counts, and retail price by state and sector</li>
-			<li class="additional-formats">Available formats:
+			<li><span class="formats">Available formats:</span> 
 				<a href="/electricity/data/eia826/xls/sales_revenue.xls" class="ico_xls" title=" Revenue, sales, customer counts, and retail price by state and sector">
 					<i class="ico xls">
 						<span>XLS</span>
@@ -886,7 +886,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 								<li>
 									<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01" title=" Monthly Net generation">By all energy sources</a>
 								</li>
-								<li class="additional-formats">Available formats:
+								<li><span class="formats">Available formats:</span> 
 									<a href="/electricity/monthly/xls/table_1_01.xlsx" class="ico_xls" title=" Monthly Net generation By all energy sources">
 										<i class="ico xls">
 											<span>XLS</span>
@@ -903,7 +903,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 								<li>
 									<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01_a" title="Monthly Net generation">By type of renewable source</a>
 								</li>
-								<li class="additional-formats">Available formats:
+								<li><span class="formats">Available formats:</span> 
 									<a href="/electricity/monthly/xls/table_1_01_a.xlsx" class="ico_xls" title="Monthly Net generation By type of renewable source">
 										<i class="ico xls">
 											<span>XLS</span>
@@ -928,7 +928,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 										<a href="/totalenergy/data/browser/">Total Energy Data Browser</a>
 									</span>
 								</li>
-								<li class="additional-formats">Available formats:
+								<li><span class="formats">Available formats:</span> 
 									<a href="/totalenergy/data/monthly/pdf/sec7_5.pdf" class="ico_pdf" title=" Monthly Net generation By energy source (plus by annual back to 1950)">
 										<i class="ico pdf">
 											<span>PDF</span>
@@ -1344,7 +1344,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 								 title="International">
 									Total net generation</a>
 							</li>
-							<li class="note">data from:</li>
+							<li><span class="source">data from:</span> </li>
 							<li class="additional-formats no-bullet">Available formats:
 								<a href="/beta/international/data/browser/">International Energy Statistics</a>
 
@@ -1570,7 +1570,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			<li class="no-bullet">
 				<!--?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?-->include here
 			</li>
-			<li class="source">Interactive data from:
+			<li><span class="source">Interactive data from:</span> 
 				<a href="/totalenergy/data/browser/" title="Consumption of fuels used to generate electricity">
 					Total Energy Data Browser</a>
 			</li>
@@ -1616,7 +1616,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 							<li>
 								<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_01_a" title="Consumption of fuels used to generate electricity by ">Coal</a>
 							</li>
-							<li class="additional-formats">Available formats:
+							<li><span class="formats">Available formats:</span> 
 								<a href="/electricity/monthly/xls/table_2_01_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by coal">
 									<i class="ico xls">
 										<span>XLS</span>
@@ -1634,7 +1634,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 							<li>
 								<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_02_a" title="Consumption of fuels used to generate electricity by ">Petroleum liquids</a>
 							</li>
-							<li class="additional-formats">Available formats:
+							<li><span class="formats">Available formats:</span> 
 								<a href="/electricity/monthly/xls/table_2_02_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by Petroleum liquids">
 									<i class="ico xls">
 										<span>XLS</span>
@@ -1713,7 +1713,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						... more fuel consumption data from:
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/monthly/#two">
 							<span class="note">Electric Power Monthly</span>
 						</a> and
@@ -1836,7 +1836,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			</li>
 			<li>
 				... more fuel receipts data from:</li>
-			<li class="additional-formats">Available formats:
+			<li><span class="formats">Available formats:</span> 
 				<a href="/electricity/monthly/#four" title="more fuel receipts data from:">
 					<span class="note">Electric Power Monthly</span>
 				</a> and
@@ -1953,7 +1953,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			</li>
 			<li>
 				... more fuel cost data from:</li>
-			<li class="additional-formats">Available formats:
+			<li><span class="formats">Available formats:</span> 
 				<a href="/electricity/monthly/#four">
 					<span hidden="more fuel cost data from:">
 						<span class="note">Electric Power Monthly</span>
@@ -2053,7 +2053,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_01" title="Stocks of fossil fuels by">Electric power sector</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/monthly/xls/table_3_01.xlsx" class="ico_xls" title="Stocks of fossil fuels by Electric power sector">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2063,7 +2063,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_02" title="Stocks of fossil fuels by">State</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/monthly/xls/table_3_02.xlsx" class="ico_xls" title="Stocks of fossil fuels by state">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2073,7 +2073,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_03" title="Stocks of fossil fuels by">Census division</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/monthly/xls/table_3_03.xlsx" class="ico_xls" title="Stocks of fossil fuels by Census division">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2083,7 +2083,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_04" title="Stocks of fossil fuels by">Coal and rank</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/monthly/xls/table_3_04.xlsx" class="ico_xls" title="Stocks of fossil fuels by Coal and rank">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2125,7 +2125,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_08_03.html">Revenue and expense statistics </a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Revenue and expense statistics">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2133,7 +2133,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						</a>
 						<a href="/electricity/annual/html/epa_08_04.html">Average power plant operating expenses </a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Average power plant operating expenses">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2232,7 +2232,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_02_11.html">Electricity purchases</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_02_11.xlsx" class="ico_xls" title="Electricity purchases  ">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2242,7 +2242,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_02_12.html">Electricity sales for resale</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_02_12.xlsx" class="ico_xls" title="Electricity sales for resale">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2252,7 +2252,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_02_13.html">Electricity imports and exports</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_02_13.xlsx" class="ico_xls" title="Electricity imports and exports">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2273,7 +2273,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			<li>
 				<ul>
 					<li>Monthly, year-to-date current year </li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/monthly/xls/table_b_1.xlsx" class="ico_xls" title="Electric disturbance events,  Monthly, year-to-date current year ">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2281,7 +2281,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						</a>
 					</li>
 					<li>Monthly, last year </li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/monthly/xls/table_b_2.xlsx" class="ico_xls" title="Electric disturbance events, Monthly, last year   ">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2311,7 +2311,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_10_06.html">Energy efficiency</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_10_06.xlsx" class="ico_xls" title="Energy efficiency ">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2321,7 +2321,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_10_07.html">Energy efficiency - life cycle</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_10_07.xlsx" class="ico_xls" title="Energy efficiency - life cycle   ">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2331,7 +2331,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_10_08.html">Demand response - yearly energy and demand savings</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_10_08.xlsx" class="ico_xls" title="Demand response - yearly energy and demand savings ">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2341,7 +2341,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_10_09.html">Demand response- program costs</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_10_09.xlsx" class="ico_xls" title="Demand response- program costs">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2351,7 +2351,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li>
 						<a href="/electricity/annual/html/epa_10_10.html">Advanced metering count by technology type</a>
 					</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/annual/xls/epa_10_10.xlsx" class="ico_xls" title="Advanced metering count by technology type">
 							<i class="ico xls">
 								<span>XLS</span>
@@ -2375,7 +2375,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			<li class="highlight">
 				<ul>
 					<li>Electric power industry estimated emissions by state (back to 1990 )</li>
-					<li class="additional-formats">Available formats:
+					<li><span class="formats">Available formats:</span> 
 						<a href="/electricity/data/state/emission_annual.xls" class="ico_xls" title="Electric power industry estimated emissions by state (back to 1990 ) ">
 							XLS</a>
 					</li>
@@ -2441,13 +2441,13 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 					<li class="no-bullet">
 						<!--?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?-->include here
 					</li>
-					<li class="source">Interactive data from:
+					<li><span class="source">Interactive data from:</span> 
 						<a href="/totalenergy/data/browser/">Total Energy Data Browser</a>
 					</li>
 					<li class="no-bullet">
 						<ul>
 							<li>Carbon dioxide emissions from electricity generation</li>
-							<li class="additional-formats">Available formats:
+							<li><span class="formats">Available formats:</span> 
 								<a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" class="ico_pdf" title="Carbon dioxide emissions from electricity generation ">
 									<i class="ico pdf">
 										<span>PDF</span>

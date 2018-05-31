@@ -20,6 +20,7 @@
 
 /* content container must be the first line item of the modules */
 @import "less/modules/accordion";
+@import "less/modules/banners";
 @import "less/modules/content-container";
 @import "less/modules/blue-background";
 @import "less/modules/dark-top-border-container";
@@ -28,6 +29,7 @@
 @import "less/modules/standard-container";
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
+@import "less/modules/messaging";
 
 /* L2 */
 @import "less/l2/analysis-projections.less";

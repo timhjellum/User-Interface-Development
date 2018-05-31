@@ -21,33 +21,43 @@
 
 
 @media @mobile {
-    .error,
-    .alert,
-    .notice,
-    .success,
-    .info {
-        display: block;
-        margin: 0.625em 0 1em 0;
-        font-size: 0.938em;
-        clear: both;
-        border-top-right-radius: .25rem;
-        border-top-left-radius: .25rem;
-        p {
-            padding: 1em 1.250em;
-            margin: 0;
-            a {
-                text-decoration: underline;
+    div {
+        &.error,
+        &.alert,
+        &.notice,
+        &.success,
+        &.info {
+            display: block;
+            margin: 0.625em 0 1em 0;
+            font-size: 0.938em;
+            clear: both;
+            border-top-right-radius: .25rem;
+            border-top-left-radius: .25rem;
+            p {
+                padding: 1em 1.250em;
+                margin: 0;
+                a {
+                    text-decoration: underline;
+                }
             }
-        }
+        }   
     }
-    .alert {
-        background-color: @eia-yellow;
-        border-color: 1px solid #666;
-        color: @eia-dark-grey;
-        p {
-            a {
-                color: @eia-dark-grey;
-                text-decoration: underline;
+    span {
+        .alert {
+            background-color: tint(@eia-yellow, 60%);
+            color: @eia-dark-grey;
+        }
+    }    
+    div {
+        &.alert {
+            background-color: tint(@eia-yellow, 60%);
+            border-color: 1px solid #666;
+            color: @eia-dark-grey;
+            p {
+                a {
+                    color: @eia-dark-grey;
+                    text-decoration: underline;
+                }
             }
         }
     }

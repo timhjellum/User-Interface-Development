@@ -83,7 +83,7 @@
                     <ul>
                         <li>Monthly (
                             <a href="/totalenergy/data/monthly/#naturalgas">more on natural gas</a>)</li>
-                        <li class="additional-formats">Available formats:
+                        <li><span class="formats">Available formats:</span> 
                             <a href="/totalenergy/data/monthly/pdf/sec4_3.pdf">
                                 <i class="ico pdf">
                                     <span>PDF</span>
@@ -104,7 +104,7 @@
                     <ul>
                         <li>Annual (
                             <a href="/totalenergy/data/annual/showtext.cfm?t=ptb0601">more on natural gas</a>)</li>
-                        <li class="additional-formats">Available formats:
+                        <li><span class="formats">Available formats:</span> 
                             <a href="/totalenergy/data/annual/pdf/sec6_5.pdf">
                                 <i class="ico pdf">
                                     <span>PDF</span>
@@ -457,7 +457,7 @@
                 <li>Estimated monthly production derived from state administrative data</li>
                 <li class="release-schedule">Monthly</span>
                 </li>
-                <li class="additional-formats">Available formats:
+                <li><span class="formats">Available formats:</span> 
                     <a href="/naturalgas/weekly/img/shale_gas_201803.xlsx">
                         <i class="ico xls">
                             <span>XLS</span>

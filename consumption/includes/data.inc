@@ -119,7 +119,7 @@
 					<span class="release-date">Release Date: </span>
 					<span class="date">October 2017</span>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="manufacturing/data/2014/XLS/Table1_1.xlsx" class="ico_xls" title="Consumption of energy for all purposes, by industry & region">
 						<i class="ico xls">
 							<span>XLS</span>
@@ -141,7 +141,7 @@
 					<span class="release-date">Release Date: </span>
 					<span class="date">October 2017</span>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="manufacturing/data/2014/xls/Table2_1.xlsx" class="ico_xls" title="Energy Used as a Nonfuel (Feedstock)">
 						<i class="ico xls">
 							<span>XLS</span>
@@ -163,7 +163,7 @@
 					<span class="release-date">Release Date: </span>
 					<span class="date">October 2017</span>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="manufacturing/data/2014/xls/Table3_1.xlsx" class="ico_xls" title="Energy consumption as a fuel, by industry & region">
 						<i class="ico xls">
 							<span>XLS</span>
@@ -185,7 +185,7 @@
 					<span class="release-date">Release Date: </span>
 					<span class="date">October 2017</span>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="manufacturing/data/2014/xls/Table4_1.xlsx" class="ico_xls" title="Offsite-produced fuel consumption, by industry">
 						<i class="ico xls">
 							<span>XLS</span>
@@ -207,7 +207,7 @@
 					<span class="release-date">Release Date: </span>
 					<span class="date">October 2017</span>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="manufacturing/data/2014/xls/Table11_1.xlsx" class="ico_xls" title="Total consumption of electricity, by industry & region">
 						<i class="ico xls">
 							<span>XLS</span>

@@ -78,12 +78,12 @@ $(function() {
       value: "EIA-23S",
       label: "EIA-23S",
       anchor: "eia-23s",
-      desc: "Annual Survey of Domestic Oil and Gas Reserves (Summary Version) (Suspended)"
+      desc: "Annual Survey of Domestic Oil and Gas Reserves (Summary Version)  <span class="alert">(suspended)</span>"
     }, {
       value: "EIA-28",
       label: "EIA-28",
       anchor: "eia-28",
-      desc: "Financial Reporting System  (Suspended)"
+      desc: "Financial Reporting System   <span class="alert">(suspended)</span>"
     }, {
       value: "EIA-63A",
       label: "EIA-63A",
@@ -168,7 +168,7 @@ $(function() {
       value: "EIA-782B",
       label: "EIA-782B",
       anchor: "eia-782b",
-      desc: " Resellers'/Retailers' Monthly Petroleum Product Sales Report (Suspended)"
+      desc: " Resellers'/Retailers' Monthly Petroleum Product Sales Report  <span class="alert">(suspended)</span>"
     }, {
       value: "EIA-782C",
       label: "EIA-782C",
@@ -398,7 +398,7 @@ $(function() {
       value: "EIA-1605",
       label: "EIA-1605",
       anchor: "eia-1605",
-      desc: "Voluntary Reporting of Greenhouse Gases (Suspended)"
+      desc: "Voluntary Reporting of Greenhouse Gases  <span class="alert">(suspended)</span>"
     }, {
       value: "FE-746R",
       label: "FE-746R",

@@ -57,13 +57,13 @@ $( function() {
             anchor: 'eia-23l',
         
             }, {
-            value: 'EIA-23S - Annual Survey of Domestic Oil and Gas Reserves (Summary Version) (Suspended)',
-            label: 'EIA-23S - Annual Survey of Domestic Oil and Gas Reserves (Summary Version) (Suspended)',
+            value: 'EIA-23S - Annual Survey of Domestic Oil and Gas Reserves (Summary Version)  <span class="alert">(suspended)</span>',
+            label: 'EIA-23S - Annual Survey of Domestic Oil and Gas Reserves (Summary Version)  <span class="alert">(suspended)</span>',
             anchor: 'eia-23s',
         
             }, {
-            value: 'EIA-28 - Financial Reporting System  (Suspended)',
-            label: 'EIA-28 - Financial Reporting System  (Suspended)',
+            value: 'EIA-28 - Financial Reporting System   <span class="alert">(suspended)</span>',
+            label: 'EIA-28 - Financial Reporting System   <span class="alert">(suspended)</span>',
             anchor: 'eia-28',
         
             }, {
@@ -147,8 +147,8 @@ $( function() {
             anchor: 'eia-782a',
         
             }, {
-            value: 'EIA-782B - Resellers/Retailers Monthly Petroleum Product Sales Report (Suspended)',
-            label: 'EIA-782B - Resellers/Retailers Monthly Petroleum Product Sales Report (Suspended)',
+            value: 'EIA-782B - Resellers/Retailers Monthly Petroleum Product Sales Report  <span class="alert">(suspended)</span>',
+            label: 'EIA-782B - Resellers/Retailers Monthly Petroleum Product Sales Report  <span class="alert">(suspended)</span>',
             anchor: 'eia-782b',
         
             }, {
@@ -377,8 +377,8 @@ $( function() {
             anchor: 'eia-930',
         
             }, {
-            value: 'EIA-1605 - Voluntary Reporting of Greenhouse Gases (Suspended)',
-            label: 'EIA-1605 - Voluntary Reporting of Greenhouse Gases (Suspended)',
+            value: 'EIA-1605 - Voluntary Reporting of Greenhouse Gases  <span class="alert">(suspended)</span>',
+            label: 'EIA-1605 - Voluntary Reporting of Greenhouse Gases  <span class="alert">(suspended)</span>',
             anchor: 'eia-1605',
         
             }, {

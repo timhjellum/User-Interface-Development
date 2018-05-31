@@ -53,7 +53,7 @@
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<a class="navbar-brand">Modules</a>
+						<a class="navbar-brand">Layouts</a>
 					</div>
 					<div class="collapse navbar-collapse">
 					</div>
@@ -65,6 +65,200 @@
 						<div class="col-md-12">
 							<div class="card">
 								<div class="header-style-guide">
+										<article>
+												<h1 class="style-guide">Layout Rules</h1>
+												
+												<p class="style-guide">CSS, by its very nature, is used to lay elements out on the page. However, there is a distinction between layouts dictating the major and minor components of a page. The minor components—such as a callout, or login form, or a navigation item—sit within the scope of major components such as a header or footer. I refer to the minor components as Modules and will dive into those in the next section. The major components are referred to as Layout styles. </p>
+												
+												<p class="style-guide">Layout styles can also be divided into major and minor styles based on reuse. Major layout styles such as header and footer are traditionally styled using ID selectors but take the time to think about the elements that are common across all components of the page and use class selectors where appropriate.</p>
+												
+												
+												<div  class="example">
+												<p class="example-caption style-guide">Layout declarations</p>
+<pre><code class="html">#header, #article, #footer {
+	width: 960px;
+	margin: auto;
+}
+
+#article {
+	border: solid #CCC;
+	border-width: 1px 0 0;
+}
+</code></pre>
+												</div>
+												
+												<p class="style-guide">Some sites may have a need for a more generalized layout framework (for example, <a href="http://960.gs/">960.gs</a>). These minor Layout styles will use class names instead of IDs so that the styles can be used multiple times on the page.</p>
+												
+												
+												<p class="style-guide">Generally, a Layout style only has a single selector: a single ID or class name. However, there are times when a Layout needs to respond to different factors. For example, you may have different layouts based on user preference. This layout preference would still be declared as a Layout style and used in combination with other Layout styles. </p>
+												
+												
+												<div  class="example">
+												<p class="example-caption style-guide">Use of a higher level Layout style affecting other Layout styles.</p>
+<pre><code class="html">#article {
+	float: left;
+}
+
+#sidebar {
+	float: right;
+}
+
+.l-flipped #article {
+	float: right;
+}
+
+.l-flipped #sidebar {
+	float: left;
+}
+</code></pre>
+												</div>
+												
+												<p class="style-guide">In the Layout example, the .l-flipped class is applied on a higher level element such as the body element and allows the article and sidebar content to be swapped, moving the sidebar from the right to the left and vice versa for the article.</p>
+												
+												<div  class="example">
+												<p class="example-caption style-guide">Using two Layout styles together to switch from fluid to fixed layout.</p>
+<pre><code class="html">#article {
+	width: 80%;
+	float: left;
+}
+
+#sidebar {
+	width: 20%;
+	float: right;
+}
+
+.l-fixed #article {
+	width: 600px;
+}
+
+.l-fixed #sidebar {
+	width: 200px;
+}
+</code></pre>
+												</div>
+												
+												<p class="style-guide">In this last example, the <code>.l-fixed</code> class modifies the design to change the layout from fluid (using percentages) to fixed (using pixels).</p>
+												
+												<p class="style-guide">One other thing to note in the Layout example is the naming convention that I have used. The declarations that use ID selectors are named accurately and with no particular namespacing. The class-based selectors, however, <em>do</em> use an <code>l-</code> prefix. This helps easily identify the purpose of these styles and separate them from Modules or States. Layout styles are the only primary category type to use ID selectors, if you choose to use them at all. If you wish to namespace your ID selectors, you can, but it is not as necessary to do so.</p>
+												
+												<h4>Using ID selectors</h4>
+												<p class="style-guide">To be clear, using ID attributes in your HTML can be a good thing and in some cases, absolutely necessary. For example, they provide efficient hooks for JavaScript. For CSS, however, ID selectors aren’t necessary as the performance difference between ID and class selectors is nearly non-existent and can make styling more complicated due to increasing specificity.</p>
+												
+												<h4>Layout Examples</h4>
+												<p class="style-guide">Theory is one thing but application is another. Let’s take a look at an actual web site and consider what is part of the layout and what is a module.</p>
+												<div  class="example">
+													<img src="/img/lyt-cnn0.png" alt="Using CNN.com as an example.">
+												</div>
+												
+												<p class="style-guide">In taking a look at the CNN web site, there are a number of patterns that occur in plenty of web sites. For example, there is a header, a navigation bar, a content area and a footer (not seen in the screenshot).</p>
+												
+												<div  class="example">
+													<img src="/img/lyt-cnn1.png" alt="Breaking the page down into header, main navigation, and three main content areas.">
+												</div>
+												
+												<p class="style-guide">At the time of this writing, the web site follows very closely to this break down and provides ID attributes for these major sections.</p>
+												
+												<div  class="example">
+													<p class="example-caption style-guide">Our CSS structure might look something like this:</p>
+<pre><code class="css">#header { … }
+#primarynav { … }
+#maincontent { … }
+
+&lt;div id="header"&gt;&lt;/div&gt;
+&lt;div id="primarynav"&gt;&lt;/div&gt;
+&lt;div id="maincontent"&gt;&lt;/div&gt;
+
+</code></pre>
+												</div>
+												
+												<p class="style-guide">That was straightforward and I’m sure you are thinking, “Really? You’re showing me how to do this?!” Let’s take a look at another part of the page.</p>
+												
+												<div  class="example">
+													<img src="/img/lyt-cnn-ft0.png" alt="The featured section of the home page of CNN.com"> 
+												</div>
+												
+												<p class="style-guide">Taking a look at the Featured section, we see a grid of news items. CNN’s current markup is a container <code>div</code> with a series of child <code>div</code>s. I would have likely gone with an unordered list, so let’s do that instead.</p>
+												
+												<div  class="example">
+													<p class="example-caption style-guide">Example HTML code for the Featured section layout</p>
+<pre><code class="html">&lt;div&gt;
+&lt;h2&gt;Featured&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href="…"&gt;…&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="…"&gt;…&lt;/a&gt;&lt;/li&gt;
+	…
+&lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+												</div>
+												<p class="style-guide">Without considering the SMACSS approach to this, we might be inclined to add an ID of <code>featured</code> to the surrounding DIV and then style up the contents from there.</p>
+												
+												<div  class="example">
+													<p class="example-caption style-guide">A possible approach to styling the list of featured items</p>
+<pre><code class="css">div#featured ul { 
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#featured li {
+	float: left;
+	height: 100px;
+	margin-left: 10px;
+}
+</code></pre>
+												</div>
+												
+												<p class="style-guide">There are some assumptions that we make with this approach:</p>
+												<ol>
+													<li>There will only ever be one featured section on the page</li>
+													<li>List items are floated to the left</li>
+													<li>List items have a height of 100 pixels</li>
+												</ol>
+												
+												<p class="style-guide">These may be reasonable assumptions to make. This is a prime example of where a small site can get away with this structure: it is unlikely to change and it is unlikely to become more complex than it already is. <em>Maybe.</em> Larger sites with a higher rate of change just have a higher chance of refactoring a component within the page and needing to readdress the styling that goes with it.</p>
+												
+												<p class="style-guide">Looking back at the code example, there are definitely some optimizations that could be made. The ID selector didn’t need to be qualified with a tag selector, too, and since the list is a direct descendant of the <code>div</code>, the child selector (&gt;) could’ve been used.</p>
+												<p class="style-guide">Let’s take a look at how this could be readdressed to give us some more flexibility.</p>
+												
+												<p class="style-guide">From a layout perspective, all we care about is how each item relates to each other. We don’t care, necessarily, about the design of the modules themselves nor do we want to have to worry about the context that this layout sits within.</p>
+												
+												<div  class="example">
+												<p class="example-caption style-guide">Grid Module applied to OL or UL.</p>
+<pre><code class="css">.l-grid {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.l-grid &gt; li {
+	display: inline-block;
+	margin: 0 0 10px 10px; 
+	
+	/* IE7 hack to mimic inline-block on block elements */
+	*display: inline;
+	*zoom: 1;
+}
+</code></pre>
+												</div>
+												
+												<p class="style-guide">What problems were solved with this approach and what problems did we introduce? (Very rarely does <em>any</em> solution solve 100% of the problem.)</p>
+												<ol>
+													<li>The grid layout can now be applied to any container to create a float-style layout</li>
+													<li>We have decreased the <em>depth of applicability</em> by 1 (See the chapter on Depth of Applicability for more on that)</li>
+													<li>We have reduced the specificity of the selectors</li>
+													<li>The height requirement has been removed. A particular row will grow to the height of the tallest item in that row.</li>
+												</ol>
+												
+												<p class="style-guide">On the flip-side, how did we make things worse?</p>
+												
+												<ol>
+													<li>By using a child selector, we are locking out IE6. (We could get around this by avoiding the child selector.)</li>
+													<li>The CSS has increased in size and in complexity.</li>
+												</ol>
+												
+												<p class="style-guide">The increase in size can’t be disputed but it is nominal. Now that we have this reusable module, we can apply it throughout the site without code duplication. The increase in complexity is also nominal. We did have to work around outdated browsers and thrown in hacks that may be frowned upon by some. However, the selectors are less complex which allow us to extend this layout while still minimizing the impact of specificity.</p>
+												
 										<p class="style-guide">Layout rules divide the page into sections. Layouts hold one or more modules together.</p>
 
 										<p class="style-guide">These layouts were created from examining hundreds of eia.gov pages. The new layouts simply take the existing fixed
@@ -75,7 +269,7 @@
 											widths.
 										</p>
 										<!--  . Every instance of these templates has been replaced with a singular class called main-template.</p -->
-
+									</article>
 
 										<ol class="style-guide">
 												<li><a href="#header-row">Full-Width-Header Layout</a> |-15px-|---100%---|-15px-|</li>
@@ -149,7 +343,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#header-rowHtml" aria-expanded="false" aria-controls="header-rowHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="header-rowHtml">
-											<pre><code class="html">&lt;!-- 22px + 100% + 22px --&gt;
+<pre><code class="html">&lt;!-- 22px + 100% + 22px --&gt;
 &lt;div class="l-row header"&gt;
 	&lt;div class="full-width"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
@@ -189,7 +383,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#rowHtml" aria-expanded="false" aria-controls="rowHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="rowHtml">
-											<pre><code class="html">&lt;!-- 100% --&gt;
+<pre><code class="html">&lt;!-- 100% --&gt;
 &lt;div class="l-row"&gt;
 	&lt;div class="full-width"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
@@ -245,7 +439,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#side+main+sideHtml" aria-expanded="false" aria-controls="side+main+sideHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="side+main+sideHtml">
-											<pre><code class="html">&lt;!-- 25% / 50% / 25% --&gt; 
+<pre><code class="html">&lt;!-- 25% / 50% / 25% --&gt; 
 &lt;div class="l-row"&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-two-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -326,7 +520,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#LeftColumnLayoutHtml" aria-expanded="false" aria-controls="LeftColumnLayoutHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="LeftColumnLayoutHtml">
-											<pre><code class="html">&lt;!-- 4 Column 25% / 75% --&gt; 
+<pre><code class="html">&lt;!-- 4 Column 25% / 75% --&gt; 
 &lt;div class="l-row"&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-main-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -378,7 +572,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#main+wide-sideHtml" aria-expanded="false" aria-controls="main+wide-sideHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="main+wide-sideHtml">
-											<pre><code class="html">&lt;!-- 75% / 25% --&gt; 
+<pre><code class="html">&lt;!-- 75% / 25% --&gt; 
 &lt;div class="l-row"&gt;
 	&lt;div class="l-main-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -428,7 +622,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#main+sideHtml" aria-expanded="false" aria-controls="main+sideHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="main+sideHtml">
-											<pre><code class="html">&lt;!-- 41.666% / 58.333% --&gt;
+<pre><code class="html">&lt;!-- 41.666% / 58.333% --&gt;
 &lt;div class="l-row"&gt;
 	&lt;div class="l-split-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-split-wide-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -473,7 +667,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#wide-side+mainHtml" aria-expanded="false" aria-controls="wide-side+main-colHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="wide-side+main-colHtml">
-											<pre><code class="html">&lt;!-- 58.333% / 41.666% --&gt;
+<pre><code class="html">&lt;!-- 58.333% / 41.666% --&gt;
 	&lt;div class="l-row"&gt;
 	&lt;div class="l-split-wide-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-split-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -523,7 +717,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#one-third+two-thirdsHtml" aria-expanded="false" aria-controls="one-third+two-thirdsHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="one-third+two-thirdsHtml">
-											<pre><code class="html">&lt;!-- 33.333% / 66.666% --&gt;
+<pre><code class="html">&lt;!-- 33.333% / 66.666% --&gt;
 &lt;div class="l-row"&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-two-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -568,7 +762,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#two-thirds+one-thirdHtml" aria-expanded="false" aria-controls="two-thirds+one-thirdHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="two-thirds+one-thirdHtml">
-											<pre><code class="html">&lt;!-- 66.666% / 33.333% --&gt;
+<pre><code class="html">&lt;!-- 66.666% / 33.333% --&gt;
 &lt;div class="l-row"&gt;
 	&lt;div class="l-two-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -625,7 +819,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#two-even-columnsHtml" aria-expanded="false" aria-controls="two-even-columnsHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="two-even-columnsHtml">
-											<pre><code class="html">&lt;!-- 50% / 50% --&gt;       
+<pre><code class="html">&lt;!-- 50% / 50% --&gt;       
 &lt;div class="l-row"&gt;
 	&lt;div class="l-two-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-two-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -701,7 +895,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#three-even-columnsHtml" aria-expanded="false" aria-controls="three-even-columnsHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="three-even-columnsHtml">
-											<pre><code class="html">&lt;div class="l-row"&gt;
+<pre><code class="html">&lt;div class="l-row"&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-one-third-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -758,7 +952,7 @@
 											<a class="btn btn-primary" data-toggle="collapse" href="#four-even-columnsHtml" aria-expanded="false" aria-controls="four-even-columnsHtml">&lt;html&gt;</a>
 										</p>
 										<div class="collapse style-guide" id="four-even-columnsHtml">
-											<pre><code class="html">&lt;!-- 4 Column 25% / 25% / 25% / 25% --&gt; 
+<pre><code class="html">&lt;!-- 4 Column 25% / 25% / 25% / 25% --&gt; 
 &lt;div class="l-row"&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
 	&lt;div class="l-narrow-col"&gt;Sed id imperdiet quam, tempor euismod lorem. Mauris bibendum, diam sed venenatis sodales, ligula dolor iaculis diam, vitae viverra diam odio at risus. Vestibulum imperdiet pharetra elit, placerat pharetra justo cursus ut. Suspendisse eget suscipit purus. Donec felis leo, venenatis non nunc sit amet, rutrum ullamcorper dui. Integer vehicula eleifend aliquet. Vestibulum congue congue ipsum ut suscipit.&lt;/div&gt;
@@ -806,7 +1000,7 @@
 												<a class="btn btn-primary" data-toggle="collapse" href="#ColumnOrderingHtml" aria-expanded="false" aria-controls="ColumnOrderingHtml">&lt;html&gt;</a>
 											</p>
 											<div class="collapse style-guide" id="ColumnOrderingHtml">
-												<pre>
+	<pre>
 <code class="html">&lt;div class="l-row l-3-col-reorder"&gt;
 	&lt;div class="l-narrow-col l-reorder-center"&gt;Desktop &amp; laptop view, this container will be first. Mobile view and this should be second.&lt;/div&gt;
 	&lt;div class="l-two-col l-reorder-first"&gt;Desktop &amp; laptop view, this container will be second. Mobile view and this should be first.&lt;/div&gt;
@@ -848,8 +1042,8 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="header-style-guide">
-                                    <h1>Introduction</h1>
-		<p></p>
+                                    <h1 class="style-guide">Introduction</h1>
+		<p class="style-guide"></p>
                                 </div>
                                 <div class="content">
 				<div class="jumbotron">
@@ -914,8 +1108,8 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="header-style-guide">
-                                    <h1>Introduction</h1>
-		<p></p>
+                                    <h1 class="style-guide">Introduction</h1>
+		<p class="style-guide"></p>
                                 </div>
                                 <div class="content">
 				<div class="jumbotron">
@@ -973,8 +1167,8 @@ coming soon
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="header-style-guide">
-                                    <h1>Introduction</h1>
-		<p></p>
+                                    <h1 class="style-guide">Introduction</h1>
+		<p class="style-guide"></p>
                                 </div>
                                 <div class="content">
 				<div class="jumbotron">
@@ -1046,8 +1240,8 @@ coming soon
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="header-style-guide">
-                                    <h1>Introduction</h1>
-		<p></p>
+                                    <h1 class="style-guide">Introduction</h1>
+		<p class="style-guide"></p>
                                 </div>
                                 <div class="content">
 				<div class="jumbotron">
@@ -1112,8 +1306,8 @@ coming soon
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="header-style-guide">
-                                    <h1>Introduction</h1>
-		<p></p>
+                                    <h1 class="style-guide">Introduction</h1>
+		<p class="style-guide"></p>
                                 </div>
                                 <div class="content">
 <div class="jumbotron"><section>

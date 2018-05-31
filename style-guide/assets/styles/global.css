@@ -29,6 +29,7 @@
 @import "less/modules/standard-container";
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
+@import "less/modules/messaging";
 
 
 /* tables */

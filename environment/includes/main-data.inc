@@ -27,7 +27,7 @@
 				<li>
 					<strong>By source</strong>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_3.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By source">
 						<i class="ico pdf">
 							<span>PDF</span>
@@ -44,7 +44,7 @@
 				<li>
 					<strong>By residential sector</strong>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_5.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By residential sector">
 						<i class="ico pdf">
 							<span>PDF</span>
@@ -61,7 +61,7 @@
 				<li>
 					<strong>By commercial sector </strong>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_6.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By commercial sector">
 						<i class="ico pdf">
 							<span>PDF</span>
@@ -78,7 +78,7 @@
 				<li>
 					<strong>By industrial sector</strong>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_7.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By industrial sector">
 						<i class="ico pdf">
 							<span>PDF</span>
@@ -95,7 +95,7 @@
 				<li>
 					<strong>By transportation sector</strong>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_8.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By transportation sector">
 						<i class="ico pdf">
 							<span>PDF</span>
@@ -112,7 +112,7 @@
 				<li>
 					<strong>By electric power</strong>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By electric power">
 						<i class="ico pdf">
 							<span>PDF</span>
@@ -129,7 +129,7 @@
 				<li>
 					<strong>From biomass</strong>
 				</li>
-				<li class="additional-formats">Available formats:
+				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_10.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions From biomass">
 						<i class="ico pdf">
 							<span>PDF</span>
@@ -188,7 +188,7 @@
 			<a name="electric"></a>Electric power plant environmental</h2>
 		<div class="accordion-content">
 			<ul>
-				<li class="additional-formats">
+				<li>
 					<strong>
 						<a href="/electricity/annual/html/epa_04_01.html">Number of generators &amp; capacity &rsaquo;</a>
 					</strong>

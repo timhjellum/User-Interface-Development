@@ -52,8 +52,43 @@
 						<div class="col-md-12">
 							<div class="card">
 								<div class="header-style-guide">
-									<h1>Introduction</h1>
-									<p></p>
+										<article>
+												<h1 class="style-guide">Base Rules</h1>
+												
+												<p class="style-guide">A Base rule is applied to an element using an element selector, a descendent selector, or a child selector, along with any pseudo-classes. It doesn’t include any class or ID selectors. It is defining the default styling for how that element should look in all occurrences on the page.</p>
+												
+												<div  class="example">
+												<p class="example-caption style-guide">Example Base Styles</p>
+<pre><code class="css">body, form {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #039;
+}
+
+a:hover {
+	color: #03F;    
+}
+</code></pre>
+												</div>
+												
+												<p class="style-guide">Base styles include setting heading sizes, default link styles, default font styles, and body backgrounds. There should be no need to use <code>!important</code> in a Base style.</p>
+												
+												<p class="style-guide">I highly recommended that you specify a body background. Some users may define their own background as something other than white. If you work off the expectation that the background will be white, your design may look broken. Worse, your font colour choice may clash with the user’s setting and make your site unusable.</p>
+												
+												<h2 id="resets">CSS Resets</h2>
+												
+												<p class="style-guide">A CSS Reset is a set of Base styles designed to strip out—or <em>reset</em>—the default margin, padding, and other properties. Its purpose is to define a consistent foundation across browsers to build the site on.</p>
+												
+												<p class="style-guide">Many reset frameworks can be overly aggressive and can introduce more problems than they solve. Removing margin and padding from elements only to introduce them again creates duplicated effort and increases the amount of code needed to be sent to the client.</p>
+												
+												<p class="style-guide">Many find resetting styles a helpful tool in site development. Just be sure to understand the drawbacks of the framework you wish to use and plan accordingly.</p>
+												
+												<p class="style-guide">Developing your own set of default styles that you consistently use from project to project can also be advantageous.</p>
+												
+												</article>
 								</div>
 								<div class="content">
 									<!-- start style guide -->
@@ -65,11 +100,12 @@
             below can be referenced to convert fixed width pixels and points to REM and EM formats.</p>
           <p class="style-guide">The conversion process assumes that the base font size is 16px. This is typically the case but adding a class of <code>.font-size;</code> to the .less file of the elements container styles will do this for you.</p>
           <p class="style-guide">The <code>.font-size;</code> will render as follows to the output .CSS file.
-            <pre>
-          <code class="css">:root {
-          font-size: 16px;
-          }</code>
-          </pre>
+<pre>
+<code class="css">:root {
+	font-size: 16px;
+}
+</code>
+</pre>
             <p class="style-guide">Once the base font-size is set at 16px, the font-size, line-spacing, padding, margins can be converted in the .less files.</p>
             <p class="style-guide">Best practiced suggest using the REM method for font-sizes and the EM method for everything else. Additionally, anything under 8px should retain the pixel method as this level or granularity is not worth the effort.</p>
           -->
@@ -207,7 +243,7 @@
 										<div class="row style-guide">
 											<h3 class="style-guide">Scroll Scripts</h3>
 										</div>
-										<p>Notes: Not sure where these are used yet but they are required - tim</p>
+										<p class="style-guide">Notes: Not sure where these are used yet but they are required - tim</p>
 										<ul class="list-group">
 											<li class="list-group-item justify-content-between">jQuery.ScrollTo - Description: Easy element scrolling using jQuery.
 												<span>

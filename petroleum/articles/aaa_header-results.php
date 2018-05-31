@@ -252,7 +252,7 @@ $pageTitle = '';
 
             <tr>
               <td><a name="eia-23s"></a>EIA-23S</td>
-              <td><strong>Annual Survey of Domestic Oil and Gas Reserves (Summary Version)</strong> <strong>(Suspended)</strong><br>
+              <td><strong>Annual Survey of Domestic Oil and Gas Reserves (Summary Version)</strong>  <span class="alert">(suspended)</span><br>
                 <p>Collects data from a sample of small operators on reserves of crude oil, natural gas, and natural gas liquids.
                   These data are summary reports at a State or geographic subdivision level. </p>
                 <p> <a href="/survey/form/eia_23s/instructions.pdf" class="ico_pdf">Instructions</a> </p>
@@ -275,7 +275,7 @@ $pageTitle = '';
 
             <tr>
               <td><a name="eia-28"></a>EIA-28</td>
-              <td><strong>Financial Reporting System </strong> <strong>(Suspended)</strong><br>
+              <td><strong>Financial Reporting System </strong>  <span class="alert">(suspended)</span><br>
 
                 
                 <p> The Energy Information Administration has suspended Form EIA-28, "Financial Reporting System," and will not be collecting 2011 data on the currently approved form.  Historically, The Financial Reporting System (FRS) was designed to permit review of the functional performance of the major U.S. energy-producing companies in total, as well as by specific functions and geographic areas of operation. </p>
@@ -711,7 +711,7 @@ $pageTitle = '';
             </tr>
             <tr>
               <td><a name="eia-782b"></a>EIA-782B</td>
-              <td><strong>Resellers'/Retailers' Monthly Petroleum Product Sales Report </strong><strong>(Suspended)</strong><br>
+              <td><strong>Resellers'/Retailers' Monthly Petroleum Product Sales Report </strong> <span class="alert">(suspended)</span><br>
                 <p>Price and volume data at the State level for gasoline, No. 2 distillate, propane, and residual fuel are reported by a sample of distillate fuel oil resellers and retailers, motor gasoline wholesalers, and residual fuel oil resellers and retailers. </p>
                 <p><a href="/survey/form/eia_782b/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_782b/reference_guide.pdf" class="ico_pdf"> Reference Guide (PDF)</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_782b/exclusion_list.pdf" class="ico_pdf">EIA-782B Exclusionary List</a> </p>
                 <a class="show">[+] See more</a>
@@ -1897,7 +1897,7 @@ $pageTitle = '';
             </tr>
             <tr>
               <td><a name="eia-1605"></a>EIA-1605</td>
-              <td><strong>Voluntary Reporting of Greenhouse Gases</strong> <strong>(Suspended)</strong><br>
+              <td><strong>Voluntary Reporting of Greenhouse Gases</strong>  <span class="alert">(suspended)</span><br>
                 <p>Provides the means by which an "entity" may participate in the EIA Voluntary Reporting of Greenhouse Gas Emissions Program. </p>
                 <p> <a href="/survey/form/eia_1605/instructions.pdf" class="ico_pdf">Instructions</a></p>
                 <a class="show">[+] See more</a>

@@ -18,7 +18,7 @@ $pageTitle = "";
 <body>
 <?php include('adaptive/global/header/includes/header.inc') ?>
 <?php include('./includes/sub-navigation.inc'); ?>
-<?php // include('adaptive/global/sliders/multi-card-slider.inc') // ?>
+<?php include('adaptive/global/sliders/multi-card-slider.inc') ?>
 <div class="l-row">
 	<div class="l-two-col">
 		<?php include('./includes/recent-data.inc') ?>
