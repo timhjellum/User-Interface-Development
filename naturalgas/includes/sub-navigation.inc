@@ -1,54 +1,47 @@
-<?php $l2id = 9; ?>
-<?php $sectionname = "Analysis & Projections"; ?>
-
+<?php $l2id = 1; ?>
+<?php $sectionname = "Natural Gas"; ?>
 <?php
 
+$directory = "naturalgas"; 
+$subNavLink02URL = "data.php"; 
+$subNavLink02Label = "Data"; 
 
+$subNavLink03URL = "reports.php"; 
+$subNavLink03Label = "Analysis & Projections"; 
 
-$directory = ""; // petroleum
-$subNavLink02URL = "projection-data.php"; // data.php
-$subNavLink02Label = "Projection Data"; // Data
+$menu01link01URL = "data.php#summary";
+$menu01link01Label = "Summary";
+$menu01link02URL = "data.php#prices";
+$menu01link02Label = "Prices";
+$menu01link03URL = "data.php#exploration";
+$menu01link03Label = "Exploration & reserves";
+$menu01link04URL = "data.php#production";
+$menu01link04Label = "Production";
+$menu01link05URL = "data.php#imports";
+$menu01link05Label = "Imports/exports";
+$menu01link06URL = "data.php#pipelines";
+$menu01link06Label = "Pipelines";
+$menu01link07URL = "data.php#storage";
+$menu01link07Label = "Storage";
+$menu01link08URL = "data.php#consumption";
+$menu01link08Label = "Consumption";
+$menu01link09URL = "data.php";
+$menu01link09Label = "All natural gas data reports";
 
-$subNavLink03URL = "reports.php"; // reports.php
-$subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
+$menu02Title01 = "Major Topics"; 
+$menu02Title01 = "Find by"; 
 
-// dropdown one
-$menu01link01URL = "";
-$menu01link01Label = "";
-$menu01link02URL = "";
-$menu01link02Label = "";
-$menu01link03URL = "";
-$menu01link03Label = "";
-$menu01link04URL = "";
-$menu01link04Label = "";
-$menu01link05URL = "";
-$menu01link05Label = "";
-$menu01link06URL = "";
-$menu01link06Label = "";
-$menu01link07URL = "";
-$menu01link07Label = "";
-$menu01link08URL = "";
-$menu01link08Label = "";
-//$menu01link09URL = "";
-//$menu01link09Label = "";
+$menu02link01URL = "browsebytag.php";
+$menu02link01Label = "Alphabetical";
+$menu02link02URL = "reports.php#/T202,T182,T198,T1564,T1568";
+$menu02link02Label = "Recurring";
+$menu02link03URL = "browsebytag.php?tagcloud";
+$menu02link03Label = "Tag Cloud";
 
-// dropdown one
-// dropdown one
-$menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
-
-$menu02link01URL = "";
-$menu02link01Label = "";
-$menu02link02URL = "";
-$menu02link02Label = "";
-$menu02link03URL = "";
-//$menu02link03Label = "";
-//$menu02link04URL = "";
-
-$glossaryURL = "/glossary/"; // /glossary/
-$glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/"; ///tools/faqs/
-$faqLabel = "FAQS"; // FAQ
+$glossaryURL = "/glossary/"; 
+$glossaryLabel = "Glossary"; 
+$faqURL = "/tools/faqs/"; 
+$faqLabel = "FAQS"; 
 ?>
 
 
@@ -73,6 +66,7 @@ $faqLabel = "FAQS"; // FAQ
                                 <li><a href="/<?=$directory?>/<?=$menu01link06URL?>"><?=$menu01link06Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link07URL?>"><?=$menu01link07Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link08URL?>"><?=$menu01link08Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link09URL?>"><?=$menu01link09Label?></a></li>
                             </ul>
                         </div>
                     </li>

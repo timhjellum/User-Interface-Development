@@ -1,53 +1,46 @@
-<?php $l2id = 9; ?>
-<?php $sectionname = "Analysis & Projections"; ?>
-
+<?php $l2id = 7; ?>
+<?php $sectionname = "Renewable & Alternative Fuels"; ?>
 <?php
-
-
-
-$directory = ""; // petroleum
-$subNavLink02URL = "projection-data.php"; // data.php
-$subNavLink02Label = "Projection Data"; // Data
+$directory = "renewables"; // renewables
+$subNavLink02URL = "data.php"; // data.php
+$subNavLink02Label = "Data"; // Data
 
 $subNavLink03URL = "reports.php"; // reports.php
 $subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
 
 // dropdown one
-$menu01link01URL = "";
-$menu01link01Label = "";
-$menu01link02URL = "";
-$menu01link02Label = "";
-$menu01link03URL = "";
-$menu01link03Label = "";
-$menu01link04URL = "";
-$menu01link04Label = "";
-$menu01link05URL = "";
-$menu01link05Label = "";
-$menu01link06URL = "";
-$menu01link06Label = "";
-$menu01link07URL = "";
-$menu01link07Label = "";
-$menu01link08URL = "";
-$menu01link08Label = "";
-//$menu01link09URL = "";
-//$menu01link09Label = "";
+$menu01link01URL    = "data.php#summary";
+$menu01link01Label  = "Summary";
+$menu01link02URL    = "data.php#biomass";
+$menu01link02Label  = "Biomass";
+$menu01link03URL    = "data.php#geothermal";
+$menu01link03Label  = "Geothermal";
+$menu01link04URL    = "data.php#hydro";
+$menu01link04Label  = "Hydropower";
+$menu01link05URL    = "data.php#solar";
+$menu01link05Label  = "Solar";
+$menu01link06URL    = "data.php#wind";
+$menu01link06Label  = "Wind";
+$menu01link07URL    = "data.php#alternative";
+$menu01link07Label  = "Alternative transportation fuels";
+$menu01link08URL    = "data.php";
+$menu01link08Label  = "All renewable & alternative fuels data reports";
 
 // dropdown one
 // dropdown one
 $menu02Title01 = "Major Topics"; // Major Topics
 $menu02Title01 = "Find by"; // Find by
 
-$menu02link01URL = "";
-$menu02link01Label = "";
-$menu02link02URL = "";
-$menu02link02Label = "";
-$menu02link03URL = "";
-//$menu02link03Label = "";
-//$menu02link04URL = "";
+$menu02link01URL = "browsebytag.php";
+$menu02link01Label = "Alphabetical";
+$menu02link02URL = "reports.php#/T1099,T214,T182,T198";
+$menu02link02Label = "Recurring";
+$menu02link03URL = "browsebytag.php?tagcloud";
+$menu02link03Label = "Tag Cloud";
 
-$glossaryURL = "/glossary/"; // /glossary/
+$glossaryURL = "/glossary/?id=renewable"; // /glossary/
 $glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/"; ///tools/faqs/
+$faqURL = "/tools/faqs/#renewable"; ///tools/faqs/
 $faqLabel = "FAQS"; // FAQ
 ?>
 
@@ -55,7 +48,7 @@ $faqLabel = "FAQS"; // FAQ
 
 <div class="l-row header">
     <div class="l-full-width-col">
-        <div class="title-banner bg-petroleum">
+        <div class="title-banner bg-renewables">
         <h1><?php echo "$sectionname"?></h1>
         </div>
         <div class="sub-navigation">

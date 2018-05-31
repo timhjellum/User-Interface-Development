@@ -1,54 +1,52 @@
-<?php $l2id = 9; ?>
-<?php $sectionname = "Analysis & Projections"; ?>
+<?php 
+$l2id = 2; 
+$sectionname = "Electricity";
+$directory = "electricity";
+$subNavLink02URL = "data.php";
+$subNavLink02Label = "Data";
 
-<?php
+$subNavLink03URL = "reports.php";
+$subNavLink03Label = "Analysis & Projections";
 
+$menu01link01URL    = "data/browser";
+$menu01link01Label  = "Electricity Data Browser (interactive query tool with charting &amp; mapping)";
+$menu01link02URL    = "data.php#summary";
+$menu01link02Label  = "Summary";
+$menu01link03URL    = "data.php#sales";
+$menu01link03Label  = "Sales (consumption), revenue, prices & customers";
+$menu01link04URL    = "data.php#generation";
+$menu01link04Label  = "Generation and thermal output";
+$menu01link05URL    = "data.php#gencapacity";
+$menu01link05Label  = "Capacity of electric power plants";
+$menu01link06URL    = "data.php#consumption";
+$menu01link06Label  = "Consumption of fuels used to generate electricity";
+$menu01link07URL    = "data.php#fossilfuels";
+$menu01link07Label  = "Receipts of fossil-fuels for electricity generation";
+$menu01link08URL    = "data.php#avgcost";
+$menu01link08Label  = "Average cost of fossil-fuels for electricity generation";
+$menu01link09URL    = "data.php#ffstocks";
+$menu01link09Label  = "Fossil-fuel stocks for electricity generation";
+$menu01link10URL    = "data.php#revenue";
+$menu01link10Label  = "Cost, revenue and expense statistics for...";
+$menu01link11URL    = "data.php#traderel";
+$menu01link11Label  = "Electricity transactions, reliability";
+$menu01link12URL    = "data.php";
+$menu01link12Label  = "All electricity data reports";
 
+$menu02Title01      = "Major Topics"; 
+$menu02Title01      = "Find by"; 
 
-$directory = ""; // petroleum
-$subNavLink02URL = "projection-data.php"; // data.php
-$subNavLink02Label = "Projection Data"; // Data
+$menu02link01URL    = "browsebytag.php";
+$menu02link01Label  = "Alphabetical";
+$menu02link02URL    = "reports.php#/T194,T214,T182,T198,T1564";
+$menu02link02Label  = "Recurring";
+$menu02link03URL    = "browsebytag.php?tagcloud";
+$menu02link03Label  = "Tag Cloud";
 
-$subNavLink03URL = "reports.php"; // reports.php
-$subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
-
-// dropdown one
-$menu01link01URL = "";
-$menu01link01Label = "";
-$menu01link02URL = "";
-$menu01link02Label = "";
-$menu01link03URL = "";
-$menu01link03Label = "";
-$menu01link04URL = "";
-$menu01link04Label = "";
-$menu01link05URL = "";
-$menu01link05Label = "";
-$menu01link06URL = "";
-$menu01link06Label = "";
-$menu01link07URL = "";
-$menu01link07Label = "";
-$menu01link08URL = "";
-$menu01link08Label = "";
-//$menu01link09URL = "";
-//$menu01link09Label = "";
-
-// dropdown one
-// dropdown one
-$menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
-
-$menu02link01URL = "";
-$menu02link01Label = "";
-$menu02link02URL = "";
-$menu02link02Label = "";
-$menu02link03URL = "";
-//$menu02link03Label = "";
-//$menu02link04URL = "";
-
-$glossaryURL = "/glossary/"; // /glossary/
-$glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/"; ///tools/faqs/
-$faqLabel = "FAQS"; // FAQ
+$glossaryURL = "/glossary/?id=electricity";
+$glossaryLabel = "Glossary";
+$faqURL = "/tools/faqs/#electricity";
+$faqLabel = "FAQS";
 ?>
 
 
@@ -73,6 +71,10 @@ $faqLabel = "FAQS"; // FAQ
                                 <li><a href="/<?=$directory?>/<?=$menu01link06URL?>"><?=$menu01link06Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link07URL?>"><?=$menu01link07Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link08URL?>"><?=$menu01link08Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link09URL?>"><?=$menu01link09Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link10URL?>"><?=$menu01link10Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link11URL?>"><?=$menu01link11Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link12URL?>"><?=$menu01link12Label?></a></li>
                             </ul>
                         </div>
                     </li>

@@ -1,54 +1,52 @@
-<?php $l2id = 9; ?>
-<?php $sectionname = "Analysis & Projections"; ?>
+<?php 
+$l2id = 4;
+$sectionname = "Consumption & Efficiency";
+$directory = "consumption";
+$subNavLink02URL = "data.php";
+$subNavLink02Label = "Data";
 
-<?php
+$subNavLink03URL = "reports.php";
+$subNavLink03Label = "Analysis & Projections";
 
+$menu01link01URL = "data.php#rec";
+$menu01link01Label = "Residential Energy Consumption Survey data";
+$menu01link02URL = "data.php#cec";
+$menu01link02Label = "Commercial Buildings Energy Consumption Survey data";
+$menu01link03URL = "data.php#mfg";
+$menu01link03Label = "Manufacturing Energy Consumption Survey data";
+/*
+$menu01link04URL = "residential/data/2015/";
+$menu01link04Label = "Residential Energy Consumption Survey data";
+$menu01link05URL = "commercial/data/2012/";
+$menu01link05Label = "Commercial Energy Consumption Survey data";
+$menu01link06URL = "manufacturing/data/2014/";
+$menu01link06Label = "Manufacturing Energy Consumption Survey data";
+$menu01link07URL = "data.php#vehicles";
+$menu01link07Label = "Vehicle Energy Consumption Survey data";
+$menu01link08URL = "data.php#intensity";
+$menu01link08Label = "Energy intensity";
+$menu01link09URL = "data.php#consumption";
+$menu01link09Label = "Consumption summaries";
+$menu01link10URL = "data.php#avgcost";
+$menu01link10Label = "Average cost of fossil-fuels for electricity generation";
+$menu01link11URL = "data.php";
+$menu01link11Label = "All consumption &amp; efficiency data reports";
+*/
 
+$menu02Title01 = "Major Topics"; 
+$menu02Title01 = "Find by"; 
 
-$directory = ""; // petroleum
-$subNavLink02URL = "projection-data.php"; // data.php
-$subNavLink02Label = "Projection Data"; // Data
+$menu02link01URL = "browsebytag.php";
+$menu02link01Label = "Alphabetical";
+$menu02link02URL = "reports.php#/T100,T214,T4060";
+$menu02link02Label = "Recurring";
+$menu02link03URL = "browsebytag.php?tagcloud";
+$menu02link03Label = "Tag Cloud";
 
-$subNavLink03URL = "reports.php"; // reports.php
-$subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
-
-// dropdown one
-$menu01link01URL = "";
-$menu01link01Label = "";
-$menu01link02URL = "";
-$menu01link02Label = "";
-$menu01link03URL = "";
-$menu01link03Label = "";
-$menu01link04URL = "";
-$menu01link04Label = "";
-$menu01link05URL = "";
-$menu01link05Label = "";
-$menu01link06URL = "";
-$menu01link06Label = "";
-$menu01link07URL = "";
-$menu01link07Label = "";
-$menu01link08URL = "";
-$menu01link08Label = "";
-//$menu01link09URL = "";
-//$menu01link09Label = "";
-
-// dropdown one
-// dropdown one
-$menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
-
-$menu02link01URL = "";
-$menu02link01Label = "";
-$menu02link02URL = "";
-$menu02link02Label = "";
-$menu02link03URL = "";
-//$menu02link03Label = "";
-//$menu02link04URL = "";
-
-$glossaryURL = "/glossary/"; // /glossary/
-$glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/"; ///tools/faqs/
-$faqLabel = "FAQS"; // FAQ
+$glossaryURL = "/glossary/?id=consumption";
+$glossaryLabel = "Glossary";
+$faqURL = "/tools/faqs/#conversion%20equivalents";
+$faqLabel = "FAQS";
 ?>
 
 
@@ -68,11 +66,6 @@ $faqLabel = "FAQS"; // FAQ
                                 <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link03URL?>"><?=$menu01link03Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link04URL?>"><?=$menu01link04Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link05URL?>"><?=$menu01link05Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link06URL?>"><?=$menu01link06Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link07URL?>"><?=$menu01link07Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link08URL?>"><?=$menu01link08Label?></a></li>
                             </ul>
                         </div>
                     </li>

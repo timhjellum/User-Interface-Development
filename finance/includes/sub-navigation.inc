@@ -1,49 +1,33 @@
-<?php $l2id = 9; ?>
-<?php $sectionname = "Analysis & Projections"; ?>
+<?php $l2id = 10; ?>
+<?php $sectionname = "Markets & Finance"; ?>
 
 <?php
 
 
 
-$directory = ""; // petroleum
-$subNavLink02URL = "projection-data.php"; // data.php
-$subNavLink02Label = "Projection Data"; // Data
+$directory = "finance"; // petroleum
+$subNavLink02URL = "data.php"; // data.php
+$subNavLink02Label = "Data"; // Data
 
 $subNavLink03URL = "reports.php"; // reports.php
 $subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
 
-// dropdown one
-$menu01link01URL = "";
-$menu01link01Label = "";
-$menu01link02URL = "";
-$menu01link02Label = "";
-$menu01link03URL = "";
-$menu01link03Label = "";
-$menu01link04URL = "";
-$menu01link04Label = "";
-$menu01link05URL = "";
-$menu01link05Label = "";
-$menu01link06URL = "";
-$menu01link06Label = "";
-$menu01link07URL = "";
-$menu01link07Label = "";
-$menu01link08URL = "";
-$menu01link08Label = "";
-//$menu01link09URL = "";
-//$menu01link09Label = "";
+$menu01link01URL = "data.php#mpurc";
+$menu01link01Label = "Market Prices and Uncertainty Charts";
+$menu01link02URL = "data.php#archive";
+$menu01link02Label = "Archive";
 
 // dropdown one
 // dropdown one
 $menu02Title01 = "Major Topics"; // Major Topics
 $menu02Title01 = "Find by"; // Find by
 
-$menu02link01URL = "";
-$menu02link01Label = "";
-$menu02link02URL = "";
-$menu02link02Label = "";
-$menu02link03URL = "";
-//$menu02link03Label = "";
-//$menu02link04URL = "";
+$menu02link01URL = "browsebytag.php";
+$menu02link01Label = "Alphabetical";
+$menu02link02URL = "reports.php#/T235,T214,T1568,T1564,T182,T198";
+$menu02link02Label = "Recurring";
+$menu02link03URL = "browsebytag.php?tagcloud";
+$menu02link03Label = "Tag Cloud";
 
 $glossaryURL = "/glossary/"; // /glossary/
 $glossaryLabel = "Glossary"; // Glossary
@@ -67,13 +51,7 @@ $faqLabel = "FAQS"; // FAQ
                             <ul>
                                 <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link03URL?>"><?=$menu01link03Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link04URL?>"><?=$menu01link04Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link05URL?>"><?=$menu01link05Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link06URL?>"><?=$menu01link06Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link07URL?>"><?=$menu01link07Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link08URL?>"><?=$menu01link08Label?></a></li>
-                            </ul>
+                              </ul>
                         </div>
                     </li>
                     <li class="dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn"><?=$subNavLink03Label?><i class="ico sort-up"></i></a>
