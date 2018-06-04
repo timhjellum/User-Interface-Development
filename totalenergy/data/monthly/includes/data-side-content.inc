@@ -1,43 +1,79 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul>
-		<li class="head"><h2>U.S. Summary Data</h2></li>
-		<li>
-			<ul>
-                <li title="Energy production, consumption, net imports; more...">Energy Overview</li>
-                <li><a href="http://www.eia.gov/mer/overview.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/overview.html" title="Annual Energy Review">AER</a></li>
-                <li title="Residential, commercial, industrial, transportation, and electric power consumption of energy; more... ">Consumption by Sector</li>
-                <li><a href="http://www.eia.gov/mer/consump.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/consump.html" title="Annual Energy Review">AER</a></li>
-                <li title="Production; stock change; products supplied; imports by country; exports; prices; SPR; more...">Petroleum</li>
-                <li><a href="http://www.eia.gov/mer/petro.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/petro.html" title="Annual Energy Review">AER</a></li>
-                <li title="Production; consumption by sector; trade; storage; prices; more...">Natural Gas</li>
-                <li><a href="http://www.eia.gov/mer/natgas.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/natgas.html" title="Annual Energy Review">AER</a></li>
-                <li title="Production; consumption by sector; imports; exports; stocks; more...">Coal</li>
-                <li><a href="http://www.eia.gov/mer/coal.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/coal.html" title="Annual Energy Review">AER</a></li>
-                <li title="Net generation; consumption of fuels; coal and petroleum stocks; electricity retail sales and prices; more...">Electricity</li>
-                <li><a href="http://www.eia.gov/mer/elect.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/elect.html" title="Annual Energy Review">AER</a></li>
-                <li title="Operable units; net generation; nuclear share of total generation; capacity factor; more...">Nuclear</li>
-                <li><a href="http://www.eia.gov/mer/nuclear.html" title="Monthly Energy Review">MER</a> <a href="http://www.eia.gov/aer/nuclear.html" title="Annual Energy Review">| AER</a></li>
-                <li title="Hydroelectricity, solar, wind, geothermal, wood, and waste consumption by sector; more...">Renewable Energy</li>
-                <li><a href="http://www.eia.gov/mer/renew.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/renew.html" title="Annual Energy Review">AER</a></li>
-                <li title="Crude oil and product prices; costs of crude oil imports by country; electricity retail prices; natural gas prices.">Prices</li>
-                <li><a href="http://www.eia.gov/mer/prices.html" title="Monthly Energy Review">MER</a> <em>| &#8212;&#8211;-</em></li>
-                <li title="Price and value of fossil fuel production, imports, exports; consumer prices, expenditures; U.S. company domestic production, refining, net income, profitability; more...">Financial Indicators</li>
-                <li>&#8212;&#8211;- |  <a href="http://www.eia.gov/aer/finan.html" title="Annual Energy Review">AER</a></li>
-                <li title="Drilling activity measurements; wells drilled; active seismic crew counts; more...">Energy Resources</li>
-                <li><a href="http://www.eia.gov/mer/resource.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/resource.html" title="Annual Energy Review">AER</a></li>
-                <li title="Greenhouse gas emissions; carbon dioxide, methane, nitrous oxide emissions; emissions from electricity generation; more...">Environment</li>
-                <li><a href="http://www.eia.gov/mer/environ.html" title="Monthly Energy Review">MER</a> | <a href="http://www.eia.gov/aer/envir.html" title="Annual Energy Review">AER</a></li>
+		<li class="head"><h2>Changes this month</h2></li>
+        <li>
+            <ul>
+                <li>"Approximate heat content of coal and coal coke" (<a href="/totalenergy/data/monthly/pdf/sec13_5.pdf">Table A5</a>) includes revisions for 2017 and 2018 that affect data in <a href="/totalenergy/data/monthly/#summary">Energy overview</a>, <a href="/totalenergy/data/monthly/#consumption">Energy consumption by sector</a>, and <a href="/totalenergy/data/monthly/#environment">Environment</a>.</li>
+                <li>"Approximate heat content of natural gas" (<a href="/totalenergy/data/monthly/pdf/sec13_4.pdf">Table A4</a>) includes revisions for 2017 and 2018 that affect data in <a href="/totalenergy/data/monthly/#summary">Energy overview</a>, <a href="/totalenergy/data/monthly/#consumption">Energy consumption by sector</a>, and <a href="/totalenergy/data/monthly/#environment">Environment</a>.</li>
+                <li>"Approximate heat content of petroleum consumption and fuel ethanol" (<a href="/totalenergy/data/monthly/pdf/sec13_3.pdf">Table A3</a>) has revised petroleum consumption factors for 2010-2018.</li>
+                <li>Data updates</li>
+                <li><a href="/totalenergy/data/monthly/whatsnew.php">See list of previous changes</a></li>
             </ul>
         </li>
-		<li class="head"><h2>International Data</h2></li>
-		<li>
-			<ul>
-				<li title="Crude oil production by OPEC, Persian Gulf, Non-OPEC, World; OECD petroleum consumption, stocks; more...">Petroleum</li>
-                <li><a href="http://www.eia.gov/mer/inter.html" title="Monthly Energy Review">MER</a> | &#8212;&#8211;-</li>
-                <li title="World energy reserves, production, consumption by energy resource; more� ">World Energy</li>
-                <li>&#8212;&#8211;- | <a href="http://www.eia.gov/aer/inter.html" title="Annual Energy Review">AER</a></li>
-			</ul>
-		</li>
-	</ul>
+    </ul>
 </div>
-
+<div class="secondary-alt">
+    <ul>
+		<li class="head"><h2>Diagrams</h2></li>
+        <li class="sub-head"><strong>Energy flows 2017</strong></li>
+        <li class="image"><img src="/totalenergy/data/monthly/pdf/flow/overview_flow_xsmall_2017.png" alt="Total Energy diagram image"></li>
+        <li class="icon">
+            <a href="/totalenergy/data/monthly/pdf/flow/total_energy.pdf">Total energy</a>
+            <a href="/totalenergy/data/monthly/pdf/flow/total_energy.pdf">
+                <i class="ico pdf">
+                    <span>PDF</span>
+                </i>
+            </a>
+        </li>
+        <li class="icon">
+            <a href="/totalenergy/data/monthly/pdf/flow/petroleum.pdf">Petroleum</a>
+            <a href="/totalenergy/data/monthly/pdf/flow/petroleum.pdf">
+                <i class="ico pdf">
+                    <span>PDF</span>
+                </i>
+            </a>
+        </li>
+        <li class="icon">
+            <a href="/totalenergy/data/monthly/pdf/flow/natural_gas.pdf">Natural gas</a>
+            <a href="/totalenergy/data/monthly/pdf/flow/natural_gas.pdf">
+                <i class="ico pdf">
+                    <span>PDF</span>
+                </i>
+            </a>
+        </li>
+        <li class="icon">
+            <a href="/totalenergy/data/monthly/pdf/flow/coal.pdf">Coal</a>
+            <a href="/totalenergy/data/monthly/pdf/flow/coal.pdf">
+                <i class="ico pdf">
+                    <span>PDF</span>
+                </i>
+            </a>
+        </li>
+        <li class="icon">
+            <a href="/totalenergy/data/monthly/pdf/flow/electricity.pdf">Electricity</a>
+            <a href="/totalenergy/data/monthly/pdf/flow/electricity.pdf">
+                        <i class="ico pdf">
+                    <span>PDF</span>
+                </i>
+            </a>
+        </li>
+        <li class="sub-head"><strong>Primary energy consumption 2017</strong></li>
+        <li class="image"><img src="/totalenergy/data/monthly/pdf/flow/css_2017_xsmall.png" alt="Consumption by Source and Sector diagram image"></li>
+        <li class="icon">
+            <a href="/totalenergy/data/monthly/pdf/flow/css_2017_energy.pdf">Consumption by source and sector</a>
+            <a href="/totalenergy/data/monthly/pdf/flow/css_2017_energy.pdf">
+                <i class="ico pdf">
+                    <span>PDF</span>
+                </i>
+            </a>
+        </li>
+        <li class="icon">
+            <a href="/totalenergy/data/annual/archive/energyflow.php">Archive of energy flow and consumption diagrams</a>
+            <a href="/totalenergy/data/annual/archive/energyflow.php">
+            <i class="ico pdf">
+                    <span>PDF</span>
+                </i>
+            </a>
+        </li>
+    </ul>
+</div>

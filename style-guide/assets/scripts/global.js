@@ -19,7 +19,7 @@ import BxSlider from './modules/bxslider';
 new BxSlider();
 
 import Accordion from './modules/accordion';
-new Accordion();
+//new Accordion();
 
 import AnalysisProjections from './modules/analysis-projections';
 new AnalysisProjections();

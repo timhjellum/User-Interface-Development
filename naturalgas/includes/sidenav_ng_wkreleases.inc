@@ -19,7 +19,7 @@
           <p><i>No weekly releases</i></p>
           <p class="no-border"><i>*Releases change on weeks with Federal holidays</i></p>
       </span>
-      <div class="content-container light-top-border-container grey-background">
+      <div class="secondary">
 <p class="ico_reports">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/calendar/reports.html">Full list of upcoming reports</a></p>
           <p class="ico_email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Sign up for email notifications </a></p>
           <p class="ico_rss">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Get the What's New RSS feed </a></p>

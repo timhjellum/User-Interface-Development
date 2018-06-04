@@ -1,16 +1,16 @@
 <p>Find statistics on crude oil, gasoline, diesel, propane, jet fuel, ethanol, and other liquid fuels. Click on the blue bars below for information on petroleum prices, crude reserves and production, refining and processing, imports/exports, stocks, and consumption/sales.</p>
-	<div class="accordion">
-		<div class="expand-collapse-container">
-			<span class="expand-all">
-				<i class="ico expand-collapse"></i> Expand all</span>
-			<span class="collapse-all">
-				<i class="ico expand-collapse"></i> Collapse all</span>
-		</div>
-		<h2>
-			<i class="ico expand-collapse"></i>
-			<!-- id="summary -->
+<div class="accordions"><!-- is-first-expanded" -->
+<div class="expand-collapse-container">
+	<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+	<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
+</div>
+<article class="accordion">
+	  <div class="accordion-head">
+		  <i class="ico expand-collapse"></i>
 			<a name="summary"></a>Summary</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -104,12 +104,17 @@
 				</li>
 				<li>Query detailed country and regional energy data supply, disposition</li>
 				<li class="release-schedule">Annual, selected quarterly, monthly</li>
-			</ul>
-		</div>
-		<h2>
-			<i class="ico expand-collapse"></i>
-			<a name="prices"></a>Prices</h2>
-		<div class="accordion-content">
+				</ul>
+				</div>
+			</div>
+		  </article>
+		<article class="accordion">
+			<div class="accordion-head">
+				<i class="ico expand-collapse"></i>
+				<h2><a name="prices"></a>Prices</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -383,14 +388,17 @@
 				</li>
 				<li>Real and nominal U.S. prices for gasoline, heating oil, diesel fuel, and imported crude oil</li>
 				<li class="release-schedule">Monthly, annual; past and projected values</li>
-			</ul>
-		</div>
-
-
-		<h2>
-			<i class="ico expand-collapse"></i>
-			<a name="crude"></a>Crude reserves and production</h2>
-		<div class="accordion-content">
+				</ul>
+				</div>
+			</div>
+		  </article>
+		<article class="accordion">
+			<div class="accordion-head">
+				<i class="ico expand-collapse"></i>
+				<h2><a name="crude"></a>Crude reserves and production</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -598,12 +606,17 @@
 				</li>
 				<li>State level tables and graphs</li>
 				<li class="release-schedule">Annual</li>
-			</ul>
-		</div>
-		<h2>
-			<i class="ico expand-collapse"></i>
-			<a name="refining"></a>Refining and processing</h2>
-		<div class="accordion-content">
+				</ul>
+				</div>
+			</div>
+		  </article>
+		<article class="accordion">
+			<div class="accordion-head">
+				<i class="ico expand-collapse"></i>
+				<h2><a name="refining"></a>Refining and processing</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -873,7 +886,9 @@
 		<h2>
 			<i class="ico expand-collapse"></i>
 			<a name="imports"></a>Imports/exports &amp; movements</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -1136,7 +1151,9 @@
 		<h2>
 			<i class="ico expand-collapse"></i>
 			<a name="stocks"></a>Stocks</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -1261,7 +1278,9 @@
 		<h2>
 			<i class="ico expand-collapse"></i>
 			<a name="consumption"></a>Consumption/sales</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -1376,7 +1395,9 @@
 					</ul>
 				</li>
 			</ul>
-		</div>
+			</div>
+			</div>
+		</article>
 	</div>
 
 

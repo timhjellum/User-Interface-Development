@@ -7,7 +7,7 @@
   <p class="no-border"><a href="/consumption/residential/data/archive.cfm">Archived Reports</a></p>
   </span>
   <?php if ( $page['year'] == "2009") {?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
 <li>
@@ -21,7 +21,7 @@
       <li><a href="/survey/<?php echo "$"?>eia-457"><strong>See all Survey Forms ></strong></a></li>
     </ul>
     </span>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2>2009 Features</h2></li>
     <p><a href="/consumption/residential/reports/2009-RECS-methodology-square-footage-data.cfm">Where does RECS square footage data come from?</a><br />
@@ -45,7 +45,7 @@
   
   <?php  } // end if ?>
   <?php if ( $page['year'] == "2005") {?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
 <li>
@@ -60,7 +60,7 @@
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "2001") {?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
 <li>
@@ -77,11 +77,11 @@
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "1997") {?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2><a href="/pub/pdf/consumption/063297.pdf" class="ico_pdf">Download the full <?php echo "$page['year']"?> RECS report</a></h2></li>
     </span>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
 <li>
@@ -95,7 +95,7 @@
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "1993") {?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
 <li>
@@ -106,7 +106,7 @@
     </span>
   <?php  } // end if ?>
   <?php if ( $page['year'] == "previous") {?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2><?php echo "$page['year']"?> Survey Forms</h2></li>
 <li>

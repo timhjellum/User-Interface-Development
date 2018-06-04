@@ -2,7 +2,7 @@
             <li class="head"><h2>Data Tables<a href="../generic.cfm"></a></h2></li>
             All available data for Residential Energy Consumption Surveys.
           </span>
-          <div class="content-container light-top-border-container grey-background">
+          <div class="secondary">
 <ul>
 <li class="head"><h2>Public Use Microdata</h2></li>
             <p>Comma delimited data files available for public use with various software applications.</p>

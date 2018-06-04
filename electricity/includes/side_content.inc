@@ -36,7 +36,7 @@ $tie_lookup = $neic->get($bindVariables);
 <?php  } // end if ?>
 
 <?php /*/ Today in Energy Widget Top3 */ ?>
-        <div class="content-container light-top-border-container grey-background">
+        <div class="secondary">
 <ul>
 <li class="head"><h2>Survey Forms, Changes &amp; Announcements</h2></li>
           <p><a href="/survey/#electricity"><?php /* <img src="/cneaf/electricity/forms/images/efile1s.png" border="0" /> */ ?> Electric Power forms & help &rsaquo;</a></p>

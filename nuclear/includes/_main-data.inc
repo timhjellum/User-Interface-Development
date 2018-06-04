@@ -5,7 +5,7 @@
     <p>Find statistics on nuclear operable units, nuclear electricity net generation, nuclear share of electricity net generation,
         and capacity factor.</p>
 
-    <div class="accordion">
+    <div class="accordion-head"><h2><i
         <div class="expand-collapse-container">
             <span class="expand-all">
                 <i class="ico expand-collapse"></i> Expand all</span>

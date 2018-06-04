@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 <ul>
 <li class="head"><h2>Most requested nuclear data</h2></li>
 <li class="sub-head"><strong>Uranium &amp; nuclear fuel</strong></li>

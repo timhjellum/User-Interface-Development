@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul>
         <li class="header"><h2>Receive Email Updates</h2></li>
                 <li>Sign up to receive Drilling Productivity Report updates via email</li>

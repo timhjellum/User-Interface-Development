@@ -1,18 +1,18 @@
     <p>Find statistics on nuclear operable units, nuclear electricity net generation, nuclear share of electricity net generation,
         and capacity factor.</p>
 
-    <div class="accordion">
+        <div class="accordions"><!-- is-first-expanded" -->
         <div class="expand-collapse-container">
-            <span class="expand-all">
-                <i class="ico expand-collapse"></i> Expand all</span>
-            <span class="collapse-all">
-                <i class="ico expand-collapse"></i> Collapse all</span>
+            <span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+            <span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
         </div>
-        <!--  BEGIN Summary Content //////////////// -->
-        <h2>
-            <i class="ico expand-collapse"></i>
+        <article class="accordion">
+              <div class="accordion-head">
+                  <i class="ico expand-collapse"></i>
             <a name="nuclear"></a>Nuclear power plants</h2>
-        <div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>Daily nuclear status/outages</strong> (with annual capacity)</li>
@@ -103,14 +103,17 @@
                 </li>
                 <li><span class="source">Data from:</span> International Energy Portal</span>
                 </li>
-            </ul>
-        </div>
-        <!--  END Summary Content //////////////// -->
-        <!--  BEGIN Uranium & Nuclear Fuel Content //////////////// -->
-        <h2>
-            <i class="ico expand-collapse"></i>
-            <a name="uranium"></a>Uranium (nuclear fuel)</h2>
-        <div class="accordion-content">
+				</ul>
+                </div>
+            </div>
+          </article>
+        <article class="accordion">
+            <div class="accordion-head">
+                <i class="ico expand-collapse"></i>
+                <h2><a name="uranium"></a>Uranium (nuclear fuel)</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <a href="/uranium/production/annual/ureserve.cfm">Uranium reserves estimates</a>
@@ -319,16 +322,17 @@
             <ul>
                 <li>...more uranium data from:
                     <a href="/totalenergy/data/annual/showtext.cfm?t=ptb0903">Annual Energy Review</a>, 1949-2011 <span class="alert">(no longer updated)</span></li>
-            </ul>
-        </div>
-        <!--  END Nuclear Power Plants Content //////////////// -->
-
-
-        <!--  BEGIN Radioactive Waste Content //////////////// -->
-        <h2>
-            <i class="ico expand-collapse"></i>
-            <a name="spentfuel"></a>Spent nuclear fuel (radioactive waste)</h2>
-        <div class="accordion-content">
+                    </ul>
+                    </div>
+                </div>
+              </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <i class="ico expand-collapse"></i>
+                    <h2><a name="spentfuel"></a>Spent nuclear fuel (radioactive waste)</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <a href="/nuclear/spent_fuel/">Spent nuclear fuel discharged and stored at commercial sites</a>
@@ -364,5 +368,7 @@
                     </span>
                 </li>
             </ul>
-        </div>
+			</div>
+            </div>
+        </article>
     </div>

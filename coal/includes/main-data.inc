@@ -1,5 +1,5 @@
 <p>Find statistics on coal production, consumption, exports, imports, stocks, mining, and prices.</p>
-	<div class="accordion">
+	<div class="accordion-head"><h2><i
 		<div class="expand-collapse-container">
 			<span class="expand-all">
 				<i class="ico expand-collapse"></i> Expand all</span>

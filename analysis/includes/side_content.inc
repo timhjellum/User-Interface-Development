@@ -27,7 +27,7 @@
 <?php  } // end if ?>
 
 <!---/ Today in Energy Widget Top3 --->
-      <div class="content-container light-top-border-container grey-background">
+      <div class="secondary">
 <ul>
 <li class="head"><h2>Requested service reports <br/>
             from Congress and others</h2></li>

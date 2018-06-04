@@ -3,17 +3,18 @@
 
 
 	<p>Find statistics on energy consumption and efficiency across all fuel sources.</p>
-	<div class="accordion">
-		<div class="expand-collapse-container">
-			<span class="expand-all">
-				<i class="ico expand-collapse"></i> Expand all</span>
-			<span class="collapse-all">
-				<i class="ico expand-collapse"></i> Collapse all</span>
-		</div>
-		<h2>
-			<i class="ico expand-collapse"></i>
+	<div class="accordions"><!-- is-first-expanded" -->
+	<div class="expand-collapse-container">
+		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
+	</div>
+	<article class="accordion">
+		  <div class="accordion-head">
+			  <i class="ico expand-collapse"></i>
 			<a name="rec"></a>Residential Energy Consumption Survey data</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -58,7 +59,9 @@
 		<h2>
 			<i class="ico expand-collapse"></i>
 			<a name="cec"></a>Commercial Buildings Energy Consumption Survey data</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>
@@ -109,7 +112,9 @@
 		<h2>
 			<i class="ico expand-collapse"></i>
 			<a name="mfg"></a>Manufacturing Energy Consumption Survey data</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 
 			<ul>
 				<li class="head">

@@ -16,7 +16,7 @@
 		<?php /* Interactive Table Viewer Promo */ ?>
 
 
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 <ul>
 <li class="head"><h2>Detailed and historical electricity data by survey</h2></li>
 <li>

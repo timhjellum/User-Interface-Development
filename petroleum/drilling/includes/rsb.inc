@@ -40,7 +40,7 @@
                 <li><a href="/todayinenergy/detail.cfm?id=13471">Highlights of new Drilling Productivity Report</a></li>
     </ul>
 </div>
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul>
         <li class="header"><h2>Give Us Your Feedback</h2></li>
     </ul>

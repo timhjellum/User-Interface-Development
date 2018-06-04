@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 <ul>
 <li class="head"><h2>Most requested coal data</h2></li>
 <li class="sub-head"><strong><a href="/coal/annual/pdf/table28.pdf" title="pdf format: ">Prices</a></strong></li>

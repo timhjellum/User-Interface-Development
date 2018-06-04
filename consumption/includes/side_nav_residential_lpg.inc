@@ -15,7 +15,7 @@
   <h4 class="q_side"><a href="/consumption/residential/reports/2015/home-selected.cfm">Has your home been selected for the RECS?</a></h2></li> */ ?>
   <?php /*p><strong><a href="../residential/data/2015/home-selected.cfm">See all RECS FAQs &rsaquo;</a></strong></p*/ ?>
   <?php /*</span> */ ?>
-  <?php /*<div class="content-container light-top-border-container grey-background">
+  <?php /*<div class="secondary">
 <h4 class="announcement_side">RECS Status</h2></li>
 <p><a href="status/">2015 RECS data coming soon ></a></p>
 </span>*/ ?>
@@ -36,7 +36,7 @@
   <?php /*
   if ( $page['year'] == 'home') {
       } else { ?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2>2009 RECS Features</h2></li>
     <p><a href="/todayinenergy/detail.cfm?id=10271">Heating and cooling no longer majority of U.S. home energy use</a><br />
@@ -102,7 +102,7 @@ $neic      = new NEIC();
 <?php /*/ Today in Energy Widget Top3 */ ?>
 
   <?php /* Other Consumption Surveys */ ?> 
-  <div class="content-container light-top-border-container grey-background">
+  <div class="secondary">
 <ul>
 <li class="head"><h2>Other End Use Surveys</h2></li>
   <p><a href="/consumption/commercial/">Commercial Buildings - CBECS</a></p>

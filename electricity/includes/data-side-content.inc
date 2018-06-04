@@ -1,4 +1,4 @@
-<div class="content-container blue-background">
+<div class="secondary">
 	<ul>
 		<li class="head"><h3>Interactive Electricity Data</h3></li>
 		<li class="description">browse pre-defined or custom data views, graph or map data series down to the plant level</li>
@@ -7,7 +7,7 @@
 		<li><em> create your own app with our</em> <a href="/beta/api/qb.cfm?category=0"><strong>API</strongb></a></li>
 	</ul>
 </div>
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 	<ul>
 		<li class="head"><h2>Detailed and historical electricity data by survey</h2></li>
 		<li>

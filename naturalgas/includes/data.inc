@@ -1,15 +1,16 @@
     <p>Find statistics on prices, exploration &amp; reserves, production, imports, exports, storage and consumption.</p>
-    <div class="accordion">
-        <div class="expand-collapse-container">
-            <span class="expand-all">
-                <i class="ico expand-collapse"></i> Expand all</span>
-            <span class="collapse-all">
-                <i class="ico expand-collapse"></i> Collapse all</span>
-        </div>
-        <h2>
-            <i class="ico expand-collapse"></i>
+    <div class="accordions"><!-- is-first-expanded" -->
+	<div class="expand-collapse-container">
+		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
+	</div>
+	<article class="accordion">
+		  <div class="accordion-head">
+			  <i class="ico expand-collapse"></i>
             <a name="summary"></a>Summary</h2>
-        <div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -128,14 +129,17 @@
                 </li>
                 <li>Query detailed country and regional energy data supply, disposition</li>
                 <li class="release-schedule">Annual</li>
-            </ul>
-        </div>
-        <!--  END Summary Content //////////////// -->
-        <!--  BEGIN Prices Content //////////////// -->
-        <h2>
-            <i class="ico expand-collapse"></i>
-            <a name="prices"></a>Prices</h2>
-        <div class="accordion-content">
+				</ul>
+                </div>
+            </div>
+          </article>
+        <article class="accordion">
+            <div class="accordion-head">
+                <i class="ico expand-collapse"></i>
+                <h2><a name="prices"></a>Prices</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -193,13 +197,17 @@
                         <li class="release-schedule">Monthly, annual </ul>
                     </li>
 
-            </ul>
-        </div>
-        <!--  END Prices Content //////////////// -->
-        <!--  BEGIN Exploration & Reserves Content //////////////// -->
-        <h2>
-            <a name="exploration"></a>Exploration &amp; reserves</h2>
-        <div class="accordion-content">
+                    </ul>
+                    </div>
+                </div>
+              </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <i class="ico expand-collapse"></i>
+                    <h2><a name="exploration"></a>Exploration &amp; reserves</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -424,13 +432,17 @@
                                 <span class="release-date">Release Date: </span>
                                 <span class="date">April 2, 2015 </span>
                                 <br> Ranks the 100 largest U.S. oil and gas fields by their estimated 2013 proved reserves.</li>
-            </ul>
-        </div>
-        <!--  END Exploration & Reserves Content //////////////// -->
-        <!--  BEGIN Production Content //////////////// -->
-        <h2>
-            <a name="production"></a>Production</h2>
-        <div class="accordion-content">
+                                </ul>
+                                </div>
+                            </div>
+                          </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <i class="ico expand-collapse"></i>
+                                <h2><a name="production"></a>Production</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -671,13 +683,17 @@
                         <li>Monthly crude oil and natural gas production data collected on Form EIA-914 (Monthly Crude Oil, Lease
                             Condensate, and Natural Gas Production Report)</li>
                         <li class="release-schedule">Monthly</li>
-            </ul>
-        </div>
-        <!--  END Production Content //////////////// -->
-        <!--  BEGIN Imports/Exports Content //////////////// -->
-        <h2>
-            <a name="imports"></a>Imports/exports</h2>
-        <div class="accordion-content">
+                        </ul>
+                        </div>
+                    </div>
+                  </article>
+                <article class="accordion">
+                    <div class="accordion-head">
+                        <i class="ico expand-collapse"></i>
+                        <h2><a name="imports"></a>Imports/exports</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -766,15 +782,17 @@
                 </li>
                 <li>
                     Exports by country, region and country groups</li>
-            </ul>
-        </div>
-        <!--  END Imports/Exports Content //////////////// -->
-
-
-        <!--  BEGIN Pipelines Content //////////////// -->
-        <h2>
-            <a name="pipelines"></a>Pipelines</h2>
-        <div class="accordion-content">
+                    </ul>
+                    </div>
+                </div>
+              </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <i class="ico expand-collapse"></i>
+                    <h2><a name="pipelines"></a>Pipelines</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -801,18 +819,18 @@
                 </li>
                 <li>
                     Detailed information on the size and location of pipeline projects announced or under construction.</li>
-            </ul>
-        </div>
-        <!--  END Pipelines Content Content //////////////// -->
-
-
-
-
-        <!--  BEGIN Storage Content //////////////// -->
-        <h2>
-            <i class="ico expand-collapse"></i>
+                    </ul>
+                    </div>
+                </div>
+              </article>
+            <article class="accordion">
+                <div class="accordion-head">
+                    <i class="ico expand-collapse"></i>
+                    <h2><i class="ico expand-collapse"></i>
             <a name="storage"></a>Storage</h2>
-        <div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -921,14 +939,17 @@
                 </li>
                 <li>Detailed information on the size and location of underground storage facilities announced or under construction.
                 </li>
-            </ul>
-        </div>
-        <!--  END Storage Content //////////////// -->
-        <!--  BEGIN Consumption Content //////////////// -->
-        <h2>
-            <i class="ico expand-collapse"></i>
-            <a name="consumption"></a>Consumption</h2>
-        <div class="accordion-content">
+				</ul>
+                </div>
+            </div>
+          </article>
+        <article class="accordion">
+            <div class="accordion-head">
+                <i class="ico expand-collapse"></i>
+                <h2><a name="consumption"></a>Consumption</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="head">
                     <strong>
@@ -1035,5 +1056,7 @@
                     <a href="/beta/international/data/browser/">International Energy Statistics</a>
                     <li class="release-schedule">Annual</li>
             </ul>
-        </div>
+			</div>
+            </div>
+        </article>
     </div>

@@ -1,9 +1,8 @@
-<div class="content-container top-border blue grey-background">
+<div class="secondary">
     <ul>
 		<li class="head"><h2>Changes this month</h2></li>
         <li>
             <ul>
-                <?php /* April 2018 */ ?>
                 <li>"Approximate heat content of coal and coal coke" (<a href="/totalenergy/data/monthly/pdf/sec13_5.pdf">Table A5</a>) includes revisions for 2017 and 2018 that affect data in <a href="/totalenergy/data/monthly/#summary">Energy overview</a>, <a href="/totalenergy/data/monthly/#consumption">Energy consumption by sector</a>, and <a href="/totalenergy/data/monthly/#environment">Environment</a>.</li>
                 <li>"Approximate heat content of natural gas" (<a href="/totalenergy/data/monthly/pdf/sec13_4.pdf">Table A4</a>) includes revisions for 2017 and 2018 that affect data in <a href="/totalenergy/data/monthly/#summary">Energy overview</a>, <a href="/totalenergy/data/monthly/#consumption">Energy consumption by sector</a>, and <a href="/totalenergy/data/monthly/#environment">Environment</a>.</li>
                 <li>"Approximate heat content of petroleum consumption and fuel ethanol" (<a href="/totalenergy/data/monthly/pdf/sec13_3.pdf">Table A3</a>) has revised petroleum consumption factors for 2010-2018.</li>
@@ -13,7 +12,7 @@
         </li>
     </ul>
 </div>
-<div class="content-container top-border green grey-background">
+<div class="secondary-alt">
     <ul>
 		<li class="head"><h2>Diagrams</h2></li>
         <li class="sub-head"><strong>Energy flows 2017</strong></li>

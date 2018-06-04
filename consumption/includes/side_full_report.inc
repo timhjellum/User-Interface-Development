@@ -1,7 +1,7 @@
       <br />
 <div class="side_col right">
         <?php /* Side Column */ ?>
-        <div class="content-container light-top-border-container grey-background">
+        <div class="secondary">
         <p class="no_btm_border"><a class="ico_pdf" href="pdf/methodology_report.pdf">Full report</a><br /><br /><br />
        
         

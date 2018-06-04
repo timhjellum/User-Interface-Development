@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 <ul>
 <li class="head"><h2>Most requested energy consumption &amp; efficiency data</h2></li>
 <li class="sub-head"><strong>Residential energy consumption</strong></li>
@@ -57,7 +57,7 @@
 <ul>
   <li><a href="http://www.eia.gov/emeu/international/energyconsumption.html">Primary energy consumption &amp; efficiency</a></li>
 </ul>
-</span> <div class="content-container light-top-border-container grey-background">
+</span> <div class="secondary">
 <ul>
 <li class="head"><h2>End-use consumption<br />
   data &amp; surveys </h2></li>
@@ -68,7 +68,7 @@
   <li><a href="/emeu/mecs/contents.html">Manufacturing Energy Consumption (MECS)</a></li>
   <li><a href="/consumption/archive/rtecs/">Transportation (RTECS)</a></li>
 </ul>
-</span> <div class="content-container light-top-border-container grey-background">
+</span> <div class="secondary">
 <ul>
 <li class="head"><h2>Sector totals:</h2></li>
 <ul class="top">

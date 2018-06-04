@@ -1,7 +1,7 @@
 <?php $what = 'multifuel'; ?>
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
         <?php /* Start of New in Energy Source -->
-            <div class="content-container light-top-border-container grey-background">
+            <div class="secondary">
 <ul>
 <li class="head"><h2>What's New in Total Energy?</h2></li>
                 

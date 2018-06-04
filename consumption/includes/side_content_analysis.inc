@@ -2,7 +2,7 @@
             <li class="head"><h2>Lighting in Commercial Buildings</h2></li>
             <p>Lighting is a major consumer of electricity in commercial buildings and a target for energy savings through use of energy-efficient light sources along with other advanced lighting technologies. The Commercial Buildings Energy Consumption Survey (CBECS) collects information on types of lighting equipment, the amount of floorspace that is lit, and the percentage of floorspace lit by each type. <a href="/consumption/commercial/reports/lighting_buildings.cfm">See more &rsaquo;</a></p>
           </span>
-          <div class="content-container light-top-border-container grey-background">
+          <div class="secondary">
 <ul>
 <li class="head"><h2>Energy Use in Manufacturing</h2></li>
             <p>Energy Use in Manufacturing provides information related to energy consumption changes within the U.S. manufacturing sector between 1998 and 2002.   This report addresses both manufacturing energy consumption and characteristics of the manufacturing economy related to energy consumption. In addition, special sections on fuel switching capacity and energy-management activities between 1998 and 2002 are also featured in this report. <a href="/consumption/industrial/reports/industrial_report.cfm">See more &rsaquo;</a></p>

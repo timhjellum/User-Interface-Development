@@ -29,7 +29,7 @@
 
 <?php /*cfinclude template="/about/new/whatsnew_sitewide.cfm"*/ ?>
 
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 <ul>
 <li class="head"><h2>Survey Forms, Changes & Announcements</h2></li>
   <p><a href="/cneaf/solar.renewables/page/forms.html">Renewable and Alternate Fuels Survey Forms and Instructions  &rsaquo;</a></p>

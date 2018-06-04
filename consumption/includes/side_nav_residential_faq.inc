@@ -1,6 +1,6 @@
       <div class="side_col right">
         <?php /* Side Column */ ?>
-        <div class="content-container light-top-border-container grey-background">
+        <div class="secondary">
         <p><a href="/consumption/residential/about.cfm">About the RECS</a></p>
         <p><a href="/consumption/residential/methodology/index.cfm">Methodology</a></p>
         <p class="no_btm_border"><a href="/consumption/residential/surveyforms.cfm">Survey Forms</a></p>
@@ -16,7 +16,7 @@
         </span>*/ ?>
          
         <?php /* Featured Data */ ?>
-        <div class="content-container light-top-border-container grey-background">
+        <div class="secondary">
           <p class="no_btm_border">
           <li class="head"><h2>Featured Data Tables</h2></li>
           <p><a href="data/2009/#fueluses">Fuels Used & End Uses</a></p>
@@ -24,7 +24,7 @@
 
         </span> 
         <?php /* Other Consumption Surveys */ ?>
-        <div class="content-container light-top-border-container grey-background">
+        <div class="secondary">
 <ul>
 <li class="head"><h2>Other End Use Surveys</h2></li>
             <p><a href="/emeu/cbecs/contents.html">Commercial Buildings - CBECS</a></p>

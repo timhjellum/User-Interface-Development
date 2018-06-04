@@ -33,7 +33,7 @@ $neic = new NEIC();
 <?php  } // end if ?>
                 
         <?php /* Weekly Releases */ ?>
-         <div class="content-container light-top-border-container grey-background">
+         <div class="secondary">
 <ul>
 <li class="head"><h2>Regular Weekly Releases*</h2></li>
        
@@ -45,7 +45,7 @@ $neic = new NEIC();
        <li class="head"><h2><a href="/todayinenergy/index.cfm?tg=natural gas">Recent Articles &rsaquo;</a></h2></li>
         </span>
         <?php /* Survey */ ?>
-           <div class="content-container light-top-border-container grey-background">
+           <div class="secondary">
 <ul>
 <li class="head"><h2>Survey Forms, Changes &amp; Announcements</h2></li>
        <?php /* <p><strong>Announcement:</strong> The July 2011 Monthly Natural Gas Gross Production Report and July 2011 Natural Gas Monthly, originally scheduled for release July 29th, 2011, will be released August 2, 2011.  The delay is due to processing difficulties arising from recent resource reductions to EIA.</p>   */ ?>

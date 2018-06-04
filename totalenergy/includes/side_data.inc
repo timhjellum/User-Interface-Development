@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background"><b>U.S. Summary Data</b><br />
+<div class="secondary"><b>U.S. Summary Data</b><br />
 <span class="side_list2">
 <ul>
   <li title="Energy production, consumption, net imports; more...">Energy Overview</li>

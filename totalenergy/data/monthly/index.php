@@ -17,7 +17,7 @@ $locale = 'data';
     <?php include('./includes/data.inc'); ?>
 	</div>
 	<div class="l-narrow-col">
-	  <? /* php include('./includes/data-side-content.inc') */ ?>
+	  <?php include('./includes/data-side-content.inc') ?>
 	</div>
 </div>
 <?php include('adaptive/global/footer/includes/footer.inc') ?>

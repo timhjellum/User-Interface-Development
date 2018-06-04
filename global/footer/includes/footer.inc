@@ -75,4 +75,4 @@
         </ul>
     </div>
 </footer>
-<script src='/global/scripts/global.min.js?v1.0.0'></script>
+<script src='/adaptive/global/scripts/global.min.js'></script>

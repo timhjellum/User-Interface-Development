@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul>
         <li><a href="/petroleum/archive/art0902.pdf">Full report<i class="ico pdf"><span>PDF</span></i></a></li>
         <li class="form-label">Previous editions</li>

@@ -1,6 +1,6 @@
 <p>Find data from forecast models on crude oil and petroleum liquids, gasoline, diesel, natural gas, electricity, coal prices,
         supply, and demand projections and more.</p>
-    <div class="accordion">
+    <div class="accordion-head"><h2><i
         <div class="expand-collapse-container">
             <span class="expand-all">
                 <i class="ico expand-collapse"></i> Expand all</span>

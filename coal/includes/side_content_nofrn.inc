@@ -1,7 +1,7 @@
         <?php $what = 'coal'; ?>
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
        <?php /* Weekly Releases */ ?>
-         <div class="content-container light-top-border-container grey-background">
+         <div class="secondary">
 <ul>
 <li class="head"><h2>Regular Weekly Releases*</h2></li>
         <p><a href="/coal/nymex/">Weekly NYMEX Coal Futures &rsaquo;</a><br />
@@ -22,7 +22,7 @@
        
         </span> 
            <?php /* Survey */ ?>
-         <div class="content-container light-top-border-container grey-background">
+         <div class="secondary">
 <ul>
 <li class="head"><h2>Survey Forms, Changes & Announcements</h2></li>
             <p><a href="/cneaf/coal/page/coalforms.html">Coal survey forms &rsaquo;</a> </p>

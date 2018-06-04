@@ -38,7 +38,7 @@ const styleGuideDist = './style-guide/src/css';
 */
 
 // use for wwwdev: const dist = '//WWWDEV/website/global/styles';
-const dist = '//WWWDEV/website/adaptive/global/styles';
+const dist = './global/styles';
 
 gulp.task('styles', ['eia-styles']);
 

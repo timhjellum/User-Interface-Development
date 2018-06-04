@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 	<ul>
 		<li class="head"><h2>Most requested nuclear data</h2></li>
 		<li class="sub-head"><strong>Uranium &amp; nuclear fuel</strong></li>
@@ -28,7 +28,7 @@
 		</li>
 	</ul>
 </div>	
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 	<ul>
 		<li class="head"><h2>Nuclear energy</h2></li>
 		<li><a href="/energyexplained/index.cfm?page=nuclear_home">Nuclear energy explained</a></li>

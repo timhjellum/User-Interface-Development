@@ -4,7 +4,7 @@
   <p><a href="/consumption/residential/maps.cfm">RECS Maps</a></p>
   <p><a href="/consumption/residential/terminology.cfm">RECS Terminology</a></p>
   <p class="no-border"><a href="/consumption/residential/data/archive/">Archived Reports</a></p></span>
-  <div class="content-container light-top-border-container grey-background">
+  <div class="secondary">
 <ul>
 <li class="head"><h2>State fact sheets</h2></li>
   
@@ -17,7 +17,7 @@
   <?php /* Featured Data */ ?>
   <?php if ( $page['year'] == 'home') {?>
     <?php  } else { ?>
-    <div class="content-container light-top-border-container grey-background">
+    <div class="secondary">
 <ul>
 <li class="head"><h2>2009 RECS Features</h2></li>
     <p><a href="/todayinenergy/detail.cfm?id=10271">Heating and cooling no longer majority of U.S. home energy use</a><br />
@@ -80,7 +80,7 @@ $neic      = new NEIC();
 <?php /* Today in Energy Widget Top3 */ ?>
 
    <?php /* Other Consumption Surveys */ ?>
-  <div class="content-container light-top-border-container grey-background">
+  <div class="secondary">
 <ul>
 <li class="head"><h2>Other End Use Surveys</h2></li>
   <p><a href="/consumption/commercial/">Commercial Buildings - CBECS</a></p>

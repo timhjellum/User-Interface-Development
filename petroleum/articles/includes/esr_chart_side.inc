@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul>
         <li class="header"><h2>Supplemental Data</h2></li>
 <.li>Annual Electric Utility data - EIA-861 data file, includes county service areas <a href="/electricity/data/eia861/" title="Annual Electric Utility data - EIA-861 data file, includes county service areas">dbf.xlsx</a></li>

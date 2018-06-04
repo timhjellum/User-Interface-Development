@@ -1,4 +1,4 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul><i class="ico pdf"><span>PDF</span></i>
         <li><a href="/petroleum/archive/comparison7822010.pdf">Full report<i class="ico pdf">PDF</i></a></li>
         <li class="form-label">Previous editions</li>

@@ -1,17 +1,17 @@
 	<p>Find environmental data on carbon dioxide emissions from energy and industry, by consuming sector (residential, commercial,
 		industrial, transportation, electric power), and other emissions.</p>
-	<div class="accordion">
+		<div class="accordions"><!-- is-first-expanded" -->
 		<div class="expand-collapse-container">
-			<span class="expand-all">
-				<i class="ico expand-collapse"></i> Expand all</span>
-			<span class="collapse-all">
-				<i class="ico expand-collapse"></i> Collapse all</span>
+			<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+			<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
 		</div>
-		<!-- BEGIN Summary Content //////////////// -->
-		<h2>
-			<i class="ico expand-collapse"></i>
+		<article class="accordion">
+			  <div class="accordion-head">
+				  <i class="ico expand-collapse"></i>
 			<a name="summary"></a>Summary</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>U.S. Carbon dioxide emissions from energy consumption (from 1973) </strong>
@@ -182,7 +182,9 @@
 		<h2>
 			<i class="ico expand-collapse"></i>
 			<a name="electric"></a>Electric power plant environmental</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li><span class="formats">Available formats:</span>
 					<strong>
@@ -242,7 +244,9 @@
 		<h2>
 			<i class="ico expand-collapse"></i>
 			<a name="intl"></a>International emissions</h2>
-		<div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 			<ul>
 				<li class="head">
 					<strong>

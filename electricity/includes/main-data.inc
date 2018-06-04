@@ -8,11 +8,11 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 <a class="no-border expandall"> EXPAND ALL</a>
 </span>
 <!-- BEGIN Summary Content -->
-<div class="accordion">
+<div class="accordion-head"><h2><i
 <h2>
 <i class="ico expand-collapse"></i>
 <a name="summary"></a>Summary</h2>
-<div class="_accordion-content">
+<div class="accordion-content">
 <ul>
 	<li>
 		<strong>Electricity overview</strong>
@@ -84,7 +84,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 			<li>
 				<strong>Annual</strong> (back to 2005)</li>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+				<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 			</li>
 			<li class="no-bullet">
 				<ul>
@@ -144,7 +144,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 <h2>
 <i class="ico expand-collapse"></i>
 <a name="sales"></a>Sales (consumption), revenue, prices &amp; customers</h2>
-<div class="_accordion-content">
+<div class="accordion-content">
 <ul>
 	<li class="highlight">
 		<strong> Detailed preliminary
@@ -199,7 +199,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 				<strong>Annual</strong>
 			</li>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+				<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 			</li>
 			<li>
 				<ul>
@@ -324,7 +324,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 				<!--?php include('adaptive/electricity/monthly/epm-release-date.inc') ?-->include here
 			</li>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+				<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 			</li>
 			<li class="no-bullet">
 				<ul>
@@ -379,7 +379,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						</a>
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+						<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 					</li>
 					<li>By sector, by state, by provider (back to 1990)</li>
 					<li class="additional-formats no-bullet">Available formats:
@@ -406,7 +406,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						</a>
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+						<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 					</li>
 					<li>
 						<strong>By state and utility</strong>
@@ -505,7 +505,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<!--?php include('adaptive/electricity/monthly/epm-release-date.inc') ?-->include here
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+						<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 					</li>
 					<li class="no-bullet">
 						<ul>
@@ -552,7 +552,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 								<a href="/electricity/annual/html/epa_02_04.html" title="Annual  average retail price of electricity to ultimate customers">By sector, by provider</a> (back to 2005)
 							</li>
 							<li class="no-bullet">
-								<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+								<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 							</li>
 							<li class="additional-formats no-bullet">Available formats:
 								<a href="/electricity/annual/xls/epa_02_04.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider(back to 2005)">
@@ -577,7 +577,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 							</li>
 							<li>By sector, by state (back to 2001)</li>
 							<li class="no-bullet">
-								<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+								<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 							</li>
 							<li>
 								<strong>By state and utility</strong>
@@ -675,7 +675,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 				</a>
 			</li>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+				<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 			</li>
 			<li>
 				<strong>By sector by state and/or utility</strong>
@@ -780,7 +780,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 <h2>
 <i class="ico expand-collapse"></i>
 <a name="netmetering"></a>Net metering</h2>
-<div class="_accordion-content">
+<div class="accordion-content">
 <ul>
 	<li>
 		<strong> Net metering</strong>
@@ -807,7 +807,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<a href="/electricity/annual/html/epa_04_10.html">Net metering customers and capacity by technology type, by end use sector</a>
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+						<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 					</li>
 					<li class="additional-formats no-bullet">Available formats:
 						<a href="/electricity/annual/xls/epa_04_10.xlsx" class="ico_xls" title=" annual net metering back to 2005">
@@ -825,7 +825,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 <h2>
 			<i class="ico expand-collapse"></i>
 			<a name="generation"></a>Generation and thermal output</h2>
-		<div class="_accordion-content">
+		<div class="accordion-content">
 			<ul>
 				<li class="highlight">
 					<strong>Detailed preliminary
@@ -875,7 +875,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 							<!--?php include('adaptive/electricity/monthly/epm-release-date.inc') ?-->include here
 						</li>
 						<li class="no-bullet">
-							<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+							<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 						</li>
 						<li class="no-bullet">
 							<ul>
@@ -957,7 +957,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 									<!--?php include('adaptive/electricity/monthly/epm-release-date.inc') ?-->include here
 								</li>
 								<li class="no-bullet">
-									<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+									<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 								</li>
 								<li class="no-bullet">
 									<ul>
@@ -1063,10 +1063,10 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<li>
 							<strong>Annual</strong>
 							<li class="no-bullet">
-								<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+								<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 							</li>
 							<li class="no-bullet">
-								<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+								<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 							</li>
 							<li class="no-bullet">
 								<ul>
@@ -1283,7 +1283,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<strong>By energy source and type of combined heat and power producers</strong>
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+						<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 					</li>
 					<li>
 						<ul>
@@ -1355,7 +1355,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 		<i class="ico expand-collapse"></i>
 		<a name="gencapacity"></a>
 		Capacity of electric power plants</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li>
 				<strong>Detailed
@@ -1421,7 +1421,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 
 
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+				<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 			</li>
 			<li>
 				<ul>
@@ -1547,7 +1547,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<h2>
 		<i class="ico expand-collapse"></i>
 		<a name="consumption"></a>Consumption of fuels used to generate electricity</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li>
 				<strong>Detailed
@@ -1605,7 +1605,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<!--?php include('adaptive/electricity/monthly/epm-release-date.inc') ?-->include here
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+						<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 					</li>
 					<li class="no-bullet">
 						<ul>
@@ -1726,7 +1726,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<h2>
 		<i class="ico expand-collapse"></i>
 		<a name="fossilfuels"></a>Receipts of fossil-fuels for electricity generation</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li>
 				<strong>Monthly summary</strong>
@@ -1847,7 +1847,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<h2>
 		<i class="ico expand-collapse"></i>
 		<a name="avgcost"></a>Average cost of fossil-fuels for electricity generation</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li>
 				<strong>Detailed
@@ -1871,7 +1871,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<!--?php include('adaptive/electricity/monthly/epm-release-date.inc') ?-->include here
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+						<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 					</li>
 					<li class="no-bullet">
 						<ul>
@@ -1964,7 +1964,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<strong>Receipts, average cost, and quality of fossil fuels for electricity generation</strong>
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+						<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 					</li>
 					<li class="no-bullet">
 						<ul>
@@ -2033,7 +2033,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<h2>
 		<i class="ico expand-collapse"></i>
 		<a name="ffstocks"></a>Fossil-fuel stocks for electricity generation</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li>
 				<strong>Stocks of fossil fuels by</strong>
@@ -2042,7 +2042,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 				<!--?php include('adaptive/electricity/monthly/epm-release-date.inc') ?-->include here
 			</li>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?-->include here
+				<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 			</li>
 			<li class="no-bullet">
 				<ul>
@@ -2108,13 +2108,13 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 		<i class="ico expand-collapse"></i>
 		<a name="revenue"></a>
 		Cost, revenue and expenses</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li>
 				<strong>For major investor-owned utilities</strong>
 			</li>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+				<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 			</li>
 			<li class="no-bullet">
 				<ul>
@@ -2203,7 +2203,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<h2>
 		<i class="ico expand-collapse"></i>
 		<a name="traderel"></a>Electricity transactions, reliability</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li class="highlight">
 				<strong>Detailed EIA-411 survey data</strong>(Data for 1990-2015, projections for 2016-2026)</li>
@@ -2219,7 +2219,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 				<strong>Electricity transactions</strong>
 			</li>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+				<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 			</li>
 			<li>
 				<ul>
@@ -2295,10 +2295,10 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<h2>
 		<i class="ico expand-collapse"></i>
 		<a name="dsm"></a>Demand-side management program</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li class="no-bullet">
-				<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+				<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 			</li>
 			<li class="no-bullet">
 				<ul>
@@ -2361,7 +2361,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 	<h2>
 		<i class="ico expand-collapse"></i>
 		<a name="elecenv"></a>Electricity and the environment</h2>
-	<div class="_accordion-content">
+	<div class="accordion-content">
 		<ul>
 			<li class="highlight">
 				<strong>Detailed EIA-923 emissions survey data</strong>
@@ -2393,7 +2393,7 @@ Find statistics on electric power plants, capacity, generation, fuel consumption
 						<strong>Annual</strong>
 					</li>
 					<li class="no-bullet">
-						<!--?php include('adaptive/electricity/annual/epa-release-date.inc') ?-->include here
+						<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 					</li>
 					<li class="no-bullet">
 						<ul>

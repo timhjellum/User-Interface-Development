@@ -20,7 +20,7 @@
   </p>
   </span> 
   <?php /* Other Consumption Surveys */ ?> 
-  <div class="content-container light-top-border-container grey-background">
+  <div class="secondary">
 <ul>
 <li class="head"><h2>Other End Use Surveys</h2></li>
   <p><a href="/consumption/commercial/">Commercial Buildings - CBECS</a></p>

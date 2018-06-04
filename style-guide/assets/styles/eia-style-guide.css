@@ -23,10 +23,9 @@
 @import "less/modules/banners";
 @import "less/modules/content-container";
 @import "less/modules/blue-background";
-@import "less/modules/dark-top-border-container";
+@import "less/modules/dropdown-menu";
 @import "less/modules/grey-background";
-@import "less/modules/light-top-border-container";
-@import "less/modules/standard-container";
+@import "less/modules/report-details";
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
 @import "less/modules/messaging";

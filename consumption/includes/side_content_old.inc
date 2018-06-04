@@ -1,6 +1,6 @@
         <?php $what = 'consumption'; ?>
         <?php include ('about/new/whatsnew_sitewide.php') ; ?>
-        <div class="content-container light-top-border-container grey-background">
+        <div class="secondary">
 <ul>
 <li class="head"><h2>Energy Use Data by Sector</h2></li>
 <p class="no_btm_border"><strong>Residential</li>

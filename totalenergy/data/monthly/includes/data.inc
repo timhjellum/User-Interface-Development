@@ -1,30 +1,28 @@
-
-
 <h1>Monthly Energy Review</h1>
 
 <p>A publication of recent and historical energy statistics. This publication includes statistics on total energy production,
 consumption, and trade; energy prices; overviews of petroleum, natural gas, coal, electricity, nuclear energy, renewable
 energy, and international petroleum; carbon dioxide emissions; and data unit conversion values.</p>
 <div class="notice">
-<p>The tables and graphs from the Monthly Energy Review are available in an interactive format on <a href="/totalenergy/data/browser/">EIA's Total Energy Data Browser</a>.</p>
-<p>Previous editions of the MER are available from January 1980 forward.</p>
-<p>EIA periodically adds tables to the MER containing data previously published in the Annual Energy Review , which has been discontinued. For a record of the MER expansion, please see &quot; <a href="/totalenergy/data/monthly/whatsnew.cfm">What's New in the Monthly Energy Review - Content Changes </a>."</p>
+	<p>The tables and graphs from the Monthly Energy Review are available in an interactive format on <a href="/totalenergy/data/browser/">EIA's Total Energy Data Browser</a>.</p>
+	<p>Previous editions of the MER are available from January 1980 forward.</p>
+	<p>EIA periodically adds tables to the MER containing data previously published in the Annual Energy Review, which has been discontinued. For a record of the MER expansion, please see &quot; <a href="/totalenergy/data/monthly/whatsnew.cfm">What's New in the Monthly Energy Review - Content Changes </a>."</p>
 </div>
 
+<h2>Data categories</h2>
 
-<h3>Data categories</h3>
-
-<div class="accordion">
+<div class="accordions"><!-- is-first-expanded" -->
 <div class="expand-collapse-container">
-<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
-<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
+	<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+	<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
 </div>
-
-
-
-
-<h2><i class="ico expand-collapse"></i><a name="summary"></a>Energy overview</h2>
-<div class="accordion-content">
+<article class="accordion">
+	  <div class="accordion-head">
+		  <i class="ico expand-collapse"></i>
+		  <a name="summary"></a>Energy overview</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats indent">Available formats:</span>  <a href="pdf/sec1.pdf" class="pdf" title="entire section"><i class="ico pdf"><span>PDF</span></i> (entire section )</a></li>
@@ -92,14 +90,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec1_n.pdf" class="ico_pdf" title="Section 1 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-<h2><i class="ico expand-collapse"></i><a name="consumption"></a>Energy consumption by sector</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="consumption"></a>Energy consumption by sector</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec2.pdf" class="pdf" title="entire section 2">PDF (entire section)</a></li>
@@ -143,16 +144,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec2_n.pdf" class="ico_pdf" title="Table 2 Section notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="petroleum"></a>Petroleum</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="petroleum"></a>Petroleum</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec3.pdf" class="pdf" title="entire section 3">PDF (entire section)</a></li>
@@ -250,15 +252,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec3_n.pdf" class="ico_pdf" title="section 3 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="naturalgas"></a>Natural gas</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="naturalgas"></a>Natural gas</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec4.pdf" class="pdf" title="entire section 4">PDF (entire section)</a></li>
@@ -282,16 +286,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec4_n.pdf" class="ico_pdf" title="Section 4 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="crude"></a>Crude oil and natural gas resource development</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="crude"></a>Crude oil and natural gas resource development</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec5.pdf" class="pdf" title="entire section 5"> PDF (entire section)</a></li>
@@ -307,16 +312,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec5_n.pdf" class="ico_pdf" title="Section 5 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="coal"></a>Coal</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="coal"></a>Coal</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec6.pdf" class="pdf" title="entire section 6"> PDF (entire section)</a></li>
@@ -336,16 +342,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec6_n.pdf" class="ico_pdf" title="Section 6 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="electricity"></a>Electricity</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="electricity"></a>Electricity</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec7.pdf" class="pdf" title="entire section 7"> PDF (entire section)</a></li>
@@ -447,19 +454,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 
 		<li>Allocating municipal solid waste to biogenic and nonbiogenic energy</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/historical/msw.pdf" class="ico_pdf" title="Table Allocating municipal solid waste to biogenic and nonbiogenic energy"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-<!--
-</li>
-</ul>
--->
-</div>
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="nuclear"></a>Nuclear energy</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="nuclear"></a>Nuclear energy</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec8.pdf" class="pdf" title="entire section 8"> PDF (entire section)</a></li>
@@ -471,16 +476,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec8_n.pdf" class="ico_pdf" title="Section 8 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="prices"></a>Energy prices</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="prices"></a>Energy prices</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec9.pdf" class="pdf" title="entire section 9"> PDF (entire section)</a></li>
@@ -528,16 +534,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec9_n.pdf" class="ico_pdf" title="Section 9 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="renewable"></a>Renewable energy</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="renewable"></a>Renewable energy</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec10.pdf" class="pdf" title="entire section 10"> PDF (entire section)</a></li>
@@ -588,15 +595,17 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec10_n.pdf" class="ico_pdf" title="Section 10 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
 		<li>Allocating municipal solid waste to biogenic and non-biogenic energy</li>
 		<li><span class="formats indent">Available formats:</span> <a href="pdf/historical/msw.pdf" class="ico_pdf" title="Table Allocating municipal solid waste to biogenic and non-biogenic energy"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul></div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="international"></a>International petroleum</h2>
-<div class="accordion-content">
+		</ul>
+		</div>
+	</div>
+  </article>
+<article class="accordion">
+	<div class="accordion-head">
+		<i class="ico expand-collapse"></i>
+		<h2><a name="international"></a>International petroleum</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
 	<ul>
 		<li class="head">Topic</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec11.pdf" class="pdf" title="entire section 11"> PDF (entire section)</a></li>
@@ -630,174 +639,180 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<ul>
 		<li class="head">Section notes</li>
 		<li><span class="formats">Available formats:</span> <a href="pdf/sec11_n.pdf" class="ico_pdf" title="Section 11 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul></div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="environment"></a>Environment</h2>
-<div class="accordion-content">
-	<ul>
-		<li class="head">Topic</li>
-		<li><span class="formats">Available formats:</span> <a href="pdf/sec12.pdf" class="pdf" title="entire section 12"> PDF (entire section)</a></li>
-		<li>Carbon dioxide emissions from energy consumption:</li>
-	</ul>
-<!--
-<li class="list-item sub-list">
--->
-	<ul>
-		<li><span class="number">12.1</span>By source</a></li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_3.pdf" class="ico_pdf" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.01&freq=m" class="ico_xls" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.01" class="ico_csv" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_2.pdf" class="ico_pdf" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.01#/?f=M&start=200001" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">12.2</span>Residential sector</a></li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_5.pdf" class="ico_pdf" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.02&freq=m" class="ico_xls" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.02" class="ico_csv" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.02#/?f=M&start=200001" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">12.3</span>Commercial sector</a></li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_6.pdf" class="ico_pdf" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.03&freq=m" class="ico_xls" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.03" class="ico_csv" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.03#/?f=M&start=200001" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">12.4</span>Industrial sector</a></li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_7.pdf" class="ico_pdf" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.04&freq=m" class="ico_xls" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.04" class="ico_csv" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.04#/?f=M&start=200001" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">12.5</span>Transportation sector</a></li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_8.pdf" class="ico_pdf" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.05&freq=m" class="ico_xls" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.05" class="ico_csv" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.05#/?f=M&start=200001" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">12.6</span>Electric Power sector</a></li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_9.pdf" class="ico_pdf" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.06&freq=m" class="ico_xls" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.06" class="ico_csv" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.06#/?f=M&start=200001" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number"> 12.7</span>Biomass</a></li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_10.pdf" class="ico_pdf" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.07&freq=m" class="ico_xls" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.07" class="ico_csv" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass"><i class="ico csv"><span>CSV</span></i></a></span> | <a href="/totalenergy/data/browser/index.php?tbl=T12.07#/?f=M&start=200001" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-<!--
-</li>
-</ul>
--->
-	<ul>
-				<li class="head">Section notes</li>
-		<li><span class="formats">Available formats:</span> <a href="pdf/sec12_n.pdf" class="ico_pdf" title="Section 12 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-</div>
-
-
-
-
-
-<h2><i class="ico expand-collapse"></i>
-<a name="appendices"></a>Appendices (heat rates, conversion factors, and more) </h2>
-<div class="accordion-content">
-	<ul>
-		<li class="head">Topic</li>
-		<li><span class="formats">Available formats:</span> <a href="pdf/sec13.pdf" class="pdf" title="Appendices"> PDF (entire section)</a></li>
-	</ul>
-	<ul>
-		<li>Approximate heat content of:</li>
-	</ul>
-<!--
-<li class="list-item sub-list">
--->
-	<ul>
-		<li><span class="number"> A1</span>Petroleum and other liquids</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_1.pdf" class="ico_pdf" title="Table A1  Petroleum and other liquids"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">A2</span>Petroleum production, imports, and exports</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_2.pdf" class="ico_pdf" title="Table A2  Petroleum production, imports, and exports"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA2&freq=a" class="ico_xls" title="Table A2  Petroleum production, imports, and exports"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA2" class="ico_csv" title="Table A2  Petroleum production, imports, and exports"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA2#/?f=A&start=1991" title="Table A2  Petroleum production, imports, and exports - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">A3</span>Petroleum consumption and fuel ethanol</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_3.pdf" class="ico_pdf" title="Table A3  Petroleum consumption and fuel ethanol"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA3&freq=a" class="ico_xls" title="Table A3  Petroleum consumption and fuel ethanol"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA3" class="ico_csv" title="Table A3  Petroleum consumption and fuel ethanol"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA3#/?f=A&start=1991" title="Table A3  Petroleum consumption and fuel ethanol - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">A4</span>Natural gas</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_4.pdf" class="ico_pdf" title="Table A4  Natural gas"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA4&freq=a" class="ico_xls" title="Table A4  Natural gas"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA4" class="ico_csv" title="Table A4  Natural gas"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA4#/?f=A&start=1991" title="Table A4  Natural gas - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">A5</span>Coal and coal coke</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_5.pdf" class="ico_pdf" title="Table A5  Coal and coal coke"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA5&freq=a" class="ico_xls" title="Table A5  Coal and coal coke"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA5" class="ico_csv" title="Table A5  Coal and coal coke"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA5#/?f=A&start=1991" title="Table A5  Coal and coal coke - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">A6</span>Approximate heat rates for electricity, and heat content of electricity</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_6.pdf" class="ico_pdf" title="Table A6  Approximate heat rates for electricity,"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA6&freq=a" class="ico_xls" title="Table A6  Approximate heat rates for electricity,"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA6" class="ico_csv" title="Table A6  Approximate heat rates for electricity,"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA6#/?f=A&start=1991" title="Table A6  Approximate heat rates for electricity, - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-<!--
-</li>
-</ul>
--->
-	<ul>
-		<li>Appendix A documentation</li>
-		<li><span class="formats">Available formats:</span> <a href="pdf/sec13_a_doc.pdf" class="ico_pdf" title="Appendix A documentation"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-<!--
-<li class="list-item sub-list">
--->
-	<ul>
-		<li><span class="number">B1</span>Metric conversion factors</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_16.pdf" class="ico_pdf" title="Table B1  Metric conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">B2</span>Metric prefixes</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_17.pdf" class="ico_pdf" title="Table B2  Metric prefixes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">B3</span>Other physical conversion factors</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_17.pdf" class="ico_pdf" title="Table B3  Other physical conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">C1</span>Population, U.S. gross domestic product, and U.S. gross output</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_19.pdf" class="ico_pdf" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TC1&freq=a" class="ico_xls" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TC1" class="ico_csv" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TC1#/?f=A&start=1991" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">D1</span>Estimated primary energy consumption in the United States, selected years, 1635-1945</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_21.pdf" class="ico_pdf" title="Table D1  Estimated primary energy consumption in the United States, selected years, 1635-1945"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-	<ul>
-		<li>Appendix D section notes</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_22.pdf" class="ico_pdf" title="appendix D section  notes"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-<!--
-</li>
-</ul>
--->
-	<ul>
-		<li>Appendix E</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_23.pdf" class="ico_pdf" title="Appendix E"><i class="ico pdf"><span>PDF</span></i></a></li>
-	</ul>
-<!--
-<li class="list-item sub-list">
--->
-	<ul>
-		<li><span class="number">E1a</span>Noncombustible renewable primary energy consumption: conventional hydroelectric power, geothermal, and wind</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_24.pdf" class="ico_pdf" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TE1A&amp;freq=a" class="ico_xls" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TE1A" class="ico_csv" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TE1A#/?f=A&amp;start=1991" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-	<ul>
-		<li><span class="number">E1b</span>Noncombustible renewable primary energy consumption: solar and total</li>
-		<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_25.pdf" class="ico_pdf" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TE1B&amp;freq=a" class="ico_xls" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TE1B" class="ico_csv" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TE1B#/?f=A&amp;start=1991" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
-	</ul>
-<!--
-</li>
-</ul>
--->
-</div>
-
-
-
-
-
-	<h2><i class="ico expand-collapse"></i><a name="Glossary"></a>Glossary</h2>
-	<div class="accordion-content">
-		<ul>
-			<li>Glossary</li>
-			<li><span class="formats">Available formats:</span> <a href="pdf/sec14.pdf" class="ico_pdf" title="Glossary"><i class="ico pdf"><span>PDF</span></i></a></li>
 		</ul>
+		</div>
 	</div>
+  </article>
+	<article class="accordion">
+		<div class="accordion-head">
+			<i class="ico expand-collapse"></i>
+			<h2><a name="environment"></a>Environment</h2>
+			</div>
+			<div class="accordion-body">
+				<div class="content">
+		<ul>
+			<li class="head">Topic</li>
+			<li><span class="formats">Available formats:</span> <a href="pdf/sec12.pdf" class="pdf" title="entire section 12"> PDF (entire section)</a></li>
+			<li>Carbon dioxide emissions from energy consumption:</li>
+		</ul>
+<!--
+<li class="list-item sub-list">
+-->
+			<ul>
+				<li><span class="number">12.1</span>By source</a></li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_3.pdf" class="ico_pdf" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.01&freq=m" class="ico_xls" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.01" class="ico_csv" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_2.pdf" class="ico_pdf" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.01#/?f=M&start=200001" title="Table 12.1 Carbon dioxide emissions from energy consumption: By source - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">12.2</span>Residential sector</a></li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_5.pdf" class="ico_pdf" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.02&freq=m" class="ico_xls" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.02" class="ico_csv" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.02#/?f=M&start=200001" title="Table 12.2 Carbon dioxide emissions from energy consumption: Residential sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">12.3</span>Commercial sector</a></li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_6.pdf" class="ico_pdf" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.03&freq=m" class="ico_xls" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.03" class="ico_csv" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.03#/?f=M&start=200001" title="Table 12.3 Carbon dioxide emissions from energy consumption:  Commercial sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">12.4</span>Industrial sector</a></li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_7.pdf" class="ico_pdf" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.04&freq=m" class="ico_xls" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.04" class="ico_csv" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.04#/?f=M&start=200001" title="Table 12.4 Carbon dioxide emissions from energy consumption:  Industrial sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">12.5</span>Transportation sector</a></li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_8.pdf" class="ico_pdf" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.05&freq=m" class="ico_xls" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.05" class="ico_csv" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.05#/?f=M&start=200001" title="Table 12.5 Carbon dioxide emissions from energy consumption:  Transportation sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">12.6</span>Electric Power sector</a></li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_9.pdf" class="ico_pdf" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.06&freq=m" class="ico_xls" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.06" class="ico_csv" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico csv"><span>CSV</span></i></a><a href="pdf/sec12_4.pdf" class="ico_pdf" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector"><i class="ico pdf"><span>PDF</span></i> (Graph)</a> | <a href="/totalenergy/data/browser/index.php?tbl=T12.06#/?f=M&start=200001" title="Table 12.6 Carbon dioxide emissions from energy consumption:  Electric Power sector - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number"> 12.7</span>Biomass</a></li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec12_10.pdf" class="ico_pdf" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=T12.07&freq=m" class="ico_xls" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=T12.07" class="ico_csv" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass"><i class="ico csv"><span>CSV</span></i></a></span> | <a href="/totalenergy/data/browser/index.php?tbl=T12.07#/?f=M&start=200001" title="Table 12.7 Carbon dioxide emissions from energy consumption:  Biomass - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+<!--
+</li>
+</ul>
+-->
+			<ul>
+				<li class="head">Section notes</li>
+				<li><span class="formats">Available formats:</span> <a href="pdf/sec12_n.pdf" class="ico_pdf" title="Section 12 notes"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+		</div>
+	</div>
+  	</article>
+	<article class="accordion">
+		<div class="accordion-head">
+			<i class="ico expand-collapse"></i>
+			<h2><a name="appendices"></a>Appendices (heat rates, conversion factors, and more) </h2>
+		</div>
+		<div class="accordion-body">
+			<div class="content">
+				<ul>
+					<li class="head">Topic</li>
+					<li><span class="formats">Available formats:</span> <a href="pdf/sec13.pdf" class="pdf" title="Appendices"> PDF (entire section)</a></li>
+				</ul>
+			<ul>
+				<li>Approximate heat content of:</li>
+			</ul>
+<!--
+<li class="list-item sub-list">
+-->
+			<ul>
+				<li><span class="number"> A1</span>Petroleum and other liquids</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_1.pdf" class="ico_pdf" title="Table A1  Petroleum and other liquids"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">A2</span>Petroleum production, imports, and exports</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_2.pdf" class="ico_pdf" title="Table A2  Petroleum production, imports, and exports"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA2&freq=a" class="ico_xls" title="Table A2  Petroleum production, imports, and exports"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA2" class="ico_csv" title="Table A2  Petroleum production, imports, and exports"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA2#/?f=A&start=1991" title="Table A2  Petroleum production, imports, and exports - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">A3</span>Petroleum consumption and fuel ethanol</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_3.pdf" class="ico_pdf" title="Table A3  Petroleum consumption and fuel ethanol"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA3&freq=a" class="ico_xls" title="Table A3  Petroleum consumption and fuel ethanol"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA3" class="ico_csv" title="Table A3  Petroleum consumption and fuel ethanol"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA3#/?f=A&start=1991" title="Table A3  Petroleum consumption and fuel ethanol - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">A4</span>Natural gas</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_4.pdf" class="ico_pdf" title="Table A4  Natural gas"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA4&freq=a" class="ico_xls" title="Table A4  Natural gas"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA4" class="ico_csv" title="Table A4  Natural gas"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA4#/?f=A&start=1991" title="Table A4  Natural gas - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">A5</span>Coal and coal coke</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_5.pdf" class="ico_pdf" title="Table A5  Coal and coal coke"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA5&freq=a" class="ico_xls" title="Table A5  Coal and coal coke"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA5" class="ico_csv" title="Table A5  Coal and coal coke"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA5#/?f=A&start=1991" title="Table A5  Coal and coal coke - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">A6</span>Approximate heat rates for electricity, and heat content of electricity</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_6.pdf" class="ico_pdf" title="Table A6  Approximate heat rates for electricity,"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TA6&freq=a" class="ico_xls" title="Table A6  Approximate heat rates for electricity,"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TA6" class="ico_csv" title="Table A6  Approximate heat rates for electricity,"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TA6#/?f=A&start=1991" title="Table A6  Approximate heat rates for electricity, - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+<!--
+</li>
+</ul>
+-->
+			<ul>
+				<li>Appendix A documentation</li>
+				<li><span class="formats">Available formats:</span> <a href="pdf/sec13_a_doc.pdf" class="ico_pdf" title="Appendix A documentation"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+<!--
+<li class="list-item sub-list">
+-->
+			<ul>
+				<li><span class="number">B1</span>Metric conversion factors</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_16.pdf" class="ico_pdf" title="Table B1  Metric conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">B2</span>Metric prefixes</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_17.pdf" class="ico_pdf" title="Table B2  Metric prefixes"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">B3</span>Other physical conversion factors</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_17.pdf" class="ico_pdf" title="Table B3  Other physical conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">C1</span>Population, U.S. gross domestic product, and U.S. gross output</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_19.pdf" class="ico_pdf" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TC1&freq=a" class="ico_xls" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TC1" class="ico_csv" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TC1#/?f=A&start=1991" title="Table C1  Population, U.S. gross domestic product, and U.S. gross output  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">D1</span>Estimated primary energy consumption in the United States, selected years, 1635-1945</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_21.pdf" class="ico_pdf" title="Table D1  Estimated primary energy consumption in the United States, selected years, 1635-1945"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+			<ul>
+				<li>Appendix D section notes</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_22.pdf" class="ico_pdf" title="appendix D section  notes"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+<!--
+</li>
+</ul>
+-->
+			<ul>
+				<li>Appendix E</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_23.pdf" class="ico_pdf" title="Appendix E"><i class="ico pdf"><span>PDF</span></i></a></li>
+			</ul>
+<!--
+<li class="list-item sub-list">
+-->
+			<ul>
+				<li><span class="number">E1a</span>Noncombustible renewable primary energy consumption: conventional hydroelectric power, geothermal, and wind</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_24.pdf" class="ico_pdf" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TE1A&amp;freq=a" class="ico_xls" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TE1A" class="ico_csv" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TE1A#/?f=A&amp;start=1991" title="Table E1a  Noncombustible Renewable Primary Energy Consumption: Conventional Hydroelectric Power, Geothermal, and Wind  - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+			<ul>
+				<li><span class="number">E1b</span>Noncombustible renewable primary energy consumption: solar and total</li>
+				<li><span class="formats indent">Available formats:</span> <a href="pdf/sec13_25.pdf" class="ico_pdf" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total"><i class="ico pdf"><span>PDF</span></i></a> | <a href="/totalenergy/data/browser/xls.php?tbl=TE1B&amp;freq=a" class="ico_xls" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total"><i class="ico xls"><span>XLS</span></i></a> | <a href="/totalenergy/data/browser/csv.php?tbl=TE1B" class="ico_csv" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total"><i class="ico csv"><span>CSV</span></i></a> | <a href="/totalenergy/data/browser/index.php?tbl=TE1B#/?f=A&amp;start=1991" title="Table E1b  Noncombustible Renewable Primary Energy Consumption: Solar and Total - View in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+			</ul>
+		</div>
+	</div>
+  	</article>
+	<article class="accordion">
+		<div class="accordion-head">
+			<i class="ico expand-collapse"></i>
+			<h2><a name="Glossary"></a>Glossary</h2>
+		</div>
+		<div class="accordion-body">
+			<div class="content">
+				<ul>
+					<li class="head">Glossary</li>
+					<li><span class="formats">Available formats:</span> <a href="pdf/sec14.pdf" class="ico_pdf" title="Glossary"><i class="ico pdf"><span>PDF</span></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</article>
 </div>
-
-<a href="/about/contact/totalenergy.cfm">Total Energy Experts</a>
+<div class="content-container">
+	<ul>
+		<li class="foot"><a href="/about/contact/totalenergy.cfm">Total Energy Experts</a></li>
+	</ul>
+</div>
 

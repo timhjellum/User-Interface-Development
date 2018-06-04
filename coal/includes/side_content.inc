@@ -36,7 +36,7 @@ $tie_lookup = $neic->get($bindVariables);
 <br />
 <?php  } // end if ?>
        <?php /* Weekly Releases */ ?>
-         <div class="content-container light-top-border-container grey-background">
+         <div class="secondary">
 <ul>
 <li class="head"><h2>Regular Weekly Releases*</h2></li>
         <p><a href="/coal/nymex/">Weekly NYMEX Coal Futures &rsaquo;</a><br />
@@ -57,7 +57,7 @@ $tie_lookup = $neic->get($bindVariables);
        
         </span> 
            <?php /* Survey */ ?>
-         <div class="content-container light-top-border-container grey-background">
+         <div class="secondary">
 <ul>
 <li class="head"><h2>Survey Forms, Changes & Announcements</h2></li>
             <p><a href="/survey/#coal">Coal survey forms &rsaquo;</a> </p>

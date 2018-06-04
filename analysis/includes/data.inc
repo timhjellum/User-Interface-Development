@@ -2,19 +2,18 @@
 
     <p>Find data from forecast models on crude oil and petroleum liquids, gasoline, diesel, natural gas, electricity, coal prices,
         supply, and demand projections and more.</p>
-    <div class="accordion">
+        <div class="accordions"><!-- is-first-expanded" -->
         <div class="expand-collapse-container">
-            <span class="expand-all">
-                <i class="ico expand-collapse"></i> Expand all</span>
-            <span class="collapse-all">
-                <i class="ico expand-collapse"></i> Collapse all</span>
+            <span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
+            <span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
         </div>
-
-
-        <h2>
-            <i class="ico expand-collapse"></i>
+        <article class="accordion">
+              <div class="accordion-head">
+                  <i class="ico expand-collapse"></i>
             <a name="forecasts"></a>Monthly short-term forecasts through the next calender year</h2>
-        <div class="accordion-content">
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul class="highlight">
                 <li>
                     <em>
@@ -286,12 +285,17 @@
                 <li>
                     <a href="/cfapps/ipdbproject/IEDIndex3.cfm">International petroleum supply, disposition</a>
                     <br />Query tool for detailed country and regional energy data (monthly, annual)</li>
-            </ul>
-        </div>
-        <h2>
-            <i class="ico expand-collapse"></i>
-            <a name="annualproj"></a>Annual projections to 2050</h2>
-        <div class="accordion-content">
+				</ul>
+			</div>
+    	</div>
+  	</article>
+	<article class="accordion">
+    	<div class="accordion-head">
+			<i class="ico expand-collapse"></i>
+			<h2> <a name="annualproj"></a>Annual projections to 2050</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul class="highlight">
                 <li>
                     <em>
@@ -573,12 +577,17 @@
                     </a>
                     <!-- <a href="/outlooks/aeo/pdf/tbla21.pdf">PDF</a> -->
                 </li>
-            </ul>
-        </div>
-        <h2>
-            <i class="ico expand-collapse"></i>
-            <a name="intlproj"></a>International projections to 2050</h2>
-        <div class="accordion-content">
+				</ul>
+			</div>
+    	</div>
+  	</article>
+	<article class="accordion">
+    	<div class="accordion-head">
+			<i class="ico expand-collapse"></i>
+			<h2> <a name="intlproj"></a>International projections to 2050</h2>
+    	</div>
+    	<div class="accordion-body">
+      		<div class="content">
             <ul>
                 <li class="highlight">
                     <em>
@@ -756,5 +765,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+			</div>
+            </div>
+        </article>
     </div>

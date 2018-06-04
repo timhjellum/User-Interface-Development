@@ -4,7 +4,7 @@
            /* <p class="dat"><script type="text/javascript">PubReleaseTimeStamp()</script></p> */ ?>          </h2>
           <p>Find data from forecast models on crude oil and petroleum liquids, gasoline, diesel, natural gas, electricity, coal prices, supply, and demand projections and more.<br />
           <?php /* <a href="" class="ico_pdf">PDF</a> */ ?></p>
-          <div class="accordion">
+          <div class="accordion-head"><h2><i
 	<div class="expand-collapse-container">
 		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
 		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
@@ -301,7 +301,7 @@ PDF (all tables)</a></td>
 <p>Find statistics on crude oil, gasoline, diesel, propane, jet fuel, ethanol, and other liquid fuels. Click on the blue bars
 	below for information on petroleum prices, crude reserves and production, refining and processing, imports/exports, stocks,
 	and consumption/sales.</p>
-<div class="accordion">
+<div class="accordion-head"><h2><i
 	<div class="expand-collapse-container">
 		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
 		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>

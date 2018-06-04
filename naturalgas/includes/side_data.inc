@@ -1,9 +1,9 @@
-<?php /*<div class="content-container light-top-border-container grey-background">
+<?php /*<div class="secondary">
 <ul>
 <li class="head"><h2>Announcement:</h2></li>
 <p>The July 2011 Monthly Natural Gas Gross Production Report and July 2011 Natural Gas Monthly, originally scheduled for release July 29th, 2011, will be released August 2, 2011. The delay is due to processing difficulties arising from recent resource reductions to EIA.</p>
 </span>*/ ?>
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 <ul>
 <li class="head"><h2>Most Requested Natural Gas Data</h2></li>
 <li class="sub-head"><strong>Summary</strong></li>
@@ -82,7 +82,7 @@
           <p class="no-border"><i>*No releases: Monday, Tuesday, Wednesday or Friday<br />
           Releases change on weeks with Federal holidays</i></p>
       </span>
-      <div class="content-container light-top-border-container grey-background">
+      <div class="secondary">
           <p class="ico_reports">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/reports/">Full list of upcoming reports</a></p>
           <p class="ico_email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tools/emailupdates/">Sign up for email notifications </a></p>
           <p class="ico_rss">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tools/rssfeeds/">Get the What's New RSS feed </a></p>

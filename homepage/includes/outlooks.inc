@@ -14,7 +14,7 @@ $outlooksThreeLabel = "International Energy Outlook";
 /* DO NOT EDIT BELOW */
 ?>
 
-<div class="content-container light-top-border-container grey-background two">
+<div class="secondary two">
 	<ul>
 		<li class="head"><h2>Outlooks</h2></li>
 		<li><a href='<?=$outlooksOneURL?>' title='<?=$outlooksOneLabel?>'><?=$outlooksOneLabel?></a></li>

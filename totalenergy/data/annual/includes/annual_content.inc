@@ -1,13 +1,6 @@
-<?php /* <?php include ('side_data.php') ; ?> */ ?>
-          <?php /* Start of Side Content box */ ?>
-          <?php /* Start of Energy Perspectives Content box */ ?>
-          <?php /*span class="grey_side green_top side_list_nocolumn">
-              <h4><a href="/totalenergy/data/annual/perspectives.cfm">Energy Perspectives</a></h4><p style="font-size:10px">Forty-two interactive graphs showing trends in U.S. energy production, consumption, and trade from 1949-2011</p><a href="/totalenergy/data/annual/perspectives.cfm"><img src="images/ep_2011_xsmall.png" alt="Energy Perspectives image"></a>
-          </span*/ ?>
-          <?php /* End of Energy Perspectives Content box */ ?>
-          <span class="grey_side blue_top side_list_nocolumn">
-          <?php /* Start of Changes in AER 2011 right side box content */ ?>
-            <h4>Changes to the  AER</h4>
+<div class="secondary">
+	<ul>
+		<li class="head"><h2>Changes to the  AER</h2></li>
             <ul>
 				<li>Tables with grayed-out numbers go to the MER (the most recent data).  The remaining tables still go to the AER 2011 (data through 2011).  In some cases the table numbering of the AER differs from that of the MER.
 				</li>
