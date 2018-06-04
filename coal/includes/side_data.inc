@@ -4,7 +4,7 @@
 <li class="sub-head"><strong><a href="/coal/annual/pdf/table28.pdf" title="pdf format: ">Prices</a></strong></li>
 <li>
 <ul>
-  <li><a href="/coal/annual/pdf/table33.pdf" title="html format: Average Sales Prices">Average sales prices</a></li>
+  <li><a href="/coal/annual/pdf/table33.pdf" title="PDF format: Average Sales Prices">Average sales prices</a></li>
 
 </ul>
 </li>
@@ -19,17 +19,17 @@
 <li class="sub-head"><strong>Consumption</strong></li>
 <li>
 <ul>
-  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t32p01p1.pdf" title="html format: Consumption by End-Use Sector">By end-use sector</a></li>
-  <li><a class="subcategory" href="/coal/annual/pdf/table26.pdf" title="html format: by End-Use Sector for Census Division & State">By end-use  sector for Census division & state</a></li>
-  <li><a href="/coal/production/quarterly/pdf/t35p01p1.pdf" title="html format: Consumption at Manufacturing Plants">At manufacturing plants</a></li>
+  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t32p01p1.pdf" title="PDF format: Consumption by End-Use Sector">By end-use sector</a></li>
+  <li><a class="subcategory" href="/coal/annual/pdf/table26.pdf" title="PDF format: by End-Use Sector for Census Division & State">By end-use  sector for Census division & state</a></li>
+  <li><a href="/coal/production/quarterly/pdf/t35p01p1.pdf" title="PDF format: Consumption at Manufacturing Plants">At manufacturing plants</a></li>
 </ul>
 </li>
-<li class="sub-head"><strong><a href="/coal/production/quarterly/pdf/t37p01p1.pdf" title="html format: ">Stocks</a></b>
+<li class="sub-head"><strong><a href="/coal/production/quarterly/pdf/t37p01p1.pdf" title="PDF format: ">Stocks</a></b>
 <li class="sub-head"><strong>Imports &amp; exports</strong></li>
 <li>
 <ul>
-  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t18p01p1.pdf" title="html format: Coal Imports">Coal imports</a></li>
-  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t7p01p1.pdf" title="html format: Coal Exports">Coal exports</a></li>
+  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t18p01p1.pdf" title="PDF format: Coal Imports">Coal imports</a></li>
+  <li><a class="subcategory" href="/coal/production/quarterly/pdf/t7p01p1.pdf" title="PDF format: Coal Exports">Coal exports</a></li>
 </ul>
 
 </span>
