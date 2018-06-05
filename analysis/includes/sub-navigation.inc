@@ -48,21 +48,18 @@ $faqLabel = "FAQS"; // FAQ
             <div class="left">
                 <ul class="left-nav">
                     <li class="<?php if ( $locale == "overview") {?>active<?php } ?>"><a href="/<?=$directory?>/">Overview</a></li>
-                    <li class="dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn"><?=$subNavLink02Label?><i class="ico sort-up"></i></a>
-                        <div class="dropdown-data-content dropdown-content">
-                            <ul>
-                                <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link03URL?>"><?=$menu01link03Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link04URL?>"><?=$menu01link04Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link05URL?>"><?=$menu01link05Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link06URL?>"><?=$menu01link06Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link07URL?>"><?=$menu01link07Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link08URL?>"><?=$menu01link08Label?></a></li>
-                            </ul>
+                    <li class="dropdown dropdown dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn"><?=$subNavLink02Label?><i class="ico sort-up"></i></a>
+                            <div class="dropdown-content dropdown-data-content">
+                                <ul>
+                                    <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
+                                    <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
+                                    <li><a href="/<?=$directory?>/<?=$menu01link03URL?>"><?=$menu01link03Label?></a></li>
+                                    <li><a href="/<?=$directory?>/<?=$menu01link04URL?>"><?=$menu01link04Label?></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </li>
-                    <li class="dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn"><?=$subNavLink03Label?><i class="ico sort-up"></i></a>
+                    <li class="dropdown dropdown dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn"><?=$subNavLink03Label?><i class="ico sort-up"></i></a>
                         <div class="dropdown-analysis-projections-content dropdown-content">
                             <div class="l-row">
                                 <div class="l-two-third-col"><h4><?=$menu02Title01?></h4></div>
