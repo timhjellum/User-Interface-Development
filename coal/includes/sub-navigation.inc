@@ -1,51 +1,50 @@
-<?php $l2id = 9; ?>
-<?php $sectionname = "Analysis & Projections"; ?>
-
 <?php
+$sectionname = "Coal";
+$l2id = 3;
 
-
-
-$directory = ""; // petroleum
-$subNavLink02URL = "projection-data.php"; // data.php
-$subNavLink02Label = "Projection Data"; // Data
+$directory = "coal"; // petroleum
+$subNavLink02URL = "data.php"; // data.php
+$subNavLink02Label = "Data"; // Data
 
 $subNavLink03URL = "reports.php"; // reports.php
 $subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
 
-// dropdown one
-$menu01link01URL = "";
-$menu01link01Label = "";
-$menu01link02URL = "";
-$menu01link02Label = "";
-$menu01link03URL = "";
-$menu01link03Label = "";
-$menu01link04URL = "";
-$menu01link04Label = "";
-$menu01link05URL = "";
-$menu01link05Label = "";
-$menu01link06URL = "";
-$menu01link06Label = "";
-$menu01link07URL = "";
-$menu01link07Label = "";
-$menu01link08URL = "";
-$menu01link08Label = "";
-//$menu01link09URL = "";
-//$menu01link09Label = "";
+$menu01link01URL = "data/browser/";
+$menu01link01Label = "Coal Data Browser (interactive query tool with charting and mapping)";
+$menu01link02URL = "data.php#summary";
+$menu01link02Label = "Summary";
+$menu01link03URL = "data.php#prices";
+$menu01link03Label = "Prices";
+$menu01link04URL = "data.php#reserves";
+$menu01link04Label = "Reserves";
+$menu01link05URL = "data.php#consumption";
+$menu01link05Label = "Consumption";
+$menu01link06URL = "data.php#production";
+$menu01link06Label = "Production";
+$menu01link07URL = "data.php#stocks";
+$menu01link07Label = "Stocks";
+$menu01link08URL = "data.php#imports";
+$menu01link08Label = "Imports, exports & distribution";
+$menu01link09URL = "data.php#coalplants";
+$menu01link09Label = "Coal-fired electric power plants";
+$menu01link10URL = "data.php#transrate";
+$menu01link10Label = "Transportation costs to electric power sector";
+$menu01link11URL = "data.php#intl";
+$menu01link11Label = "International";
+$menu01link12URL = "data.php";
+$menu01link12Label = "All coal data reports";
 
-// dropdown one
-// dropdown one
 $menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
+$menu02Title02 = "Find by"; // Find by
 
-$menu02link01URL = "";
-$menu02link01Label = "";
-$menu02link02URL = "";
-$menu02link02Label = "";
-$menu02link03URL = "";
-//$menu02link03Label = "";
-//$menu02link04URL = "";
+$menu02link01URL = "browsebytag.php";
+$menu02link01Label = "Alphabetical";
+$menu02link02URL = "reports.php#/T192,T182,T198,T1564,T1568";
+$menu02link02Label = "Recurring";
+$menu02link03URL = "browsebytag.php?tagcloud";
+$menu02link03Label = "Tag Cloud";
 
-$glossaryURL = "/glossary/"; // /glossary/
+$glossaryURL = "/glossary/?id=coal"; // /glossary/
 $glossaryLabel = "Glossary"; // Glossary
 $faqURL = "/tools/faqs/"; ///tools/faqs/
 $faqLabel = "FAQS"; // FAQ
@@ -62,7 +61,7 @@ $faqLabel = "FAQS"; // FAQ
             <div class="left">
                 <ul class="left-nav">
                     <li class="<?php if ( $locale == "overview") {?>active<?php } ?>"><a href="/<?=$directory?>/">Overview</a></li>
-                    <li class="dropdown dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn"><?=$subNavLink02Label?><i class="ico sort-up"></i></a>
+                    <li class="dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn"><?=$subNavLink02Label?><i class="ico sort-up"></i></a>
                         <div class="dropdown-data-content dropdown-content">
                             <ul>
                                 <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
@@ -73,10 +72,14 @@ $faqLabel = "FAQS"; // FAQ
                                 <li><a href="/<?=$directory?>/<?=$menu01link06URL?>"><?=$menu01link06Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link07URL?>"><?=$menu01link07Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link08URL?>"><?=$menu01link08Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link09URL?>"><?=$menu01link09Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link10URL?>"><?=$menu01link10Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link11URL?>"><?=$menu01link11Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link12URL?>"><?=$menu01link12Label?></a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn"><?=$subNavLink03Label?><i class="ico sort-up"></i></a>
+                    <li class="dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn"><?=$subNavLink03Label?><i class="ico sort-up"></i></a>
                         <div class="dropdown-analysis-projections-content dropdown-content">
                             <div class="l-row">
                                 <div class="l-two-third-col"><h4><?=$menu02Title01?></h4></div>

@@ -1,4 +1,4 @@
-<?php $l2id = 9; ?>
+<?php $l2id = 6; ?>
 <?php $sectionname = "Total Energy"; ?>
 
 <?php
@@ -19,7 +19,7 @@ $menu01link02Label = "Annual";
 // dropdown one
 // dropdown one
 $menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
+$menu02Title02 = "Find by"; // Find by
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -50,12 +50,6 @@ $faqLabel = "FAQS"; // FAQ
                             <ul>
                                 <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link03URL?>"><?=$menu01link03Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link04URL?>"><?=$menu01link04Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link05URL?>"><?=$menu01link05Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link06URL?>"><?=$menu01link06Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link07URL?>"><?=$menu01link07Label?></a></li>
-                                <li><a href="/<?=$directory?>/<?=$menu01link08URL?>"><?=$menu01link08Label?></a></li>
                             </ul>
                         </div>
                     </li>

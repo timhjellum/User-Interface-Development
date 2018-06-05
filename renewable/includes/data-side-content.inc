@@ -4,8 +4,8 @@
 		<li class="sub-head"><strong>Summary statistics</strong></li>
 		<li>
 			<ul>
-				<li><a href="/totalenergy/data/monthly/pdf/sec1_7.pdf" title="HTML format: Total Consumption">Total energy consumption</a></li>
-				<li><a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" title="HTML format: Total Consumption"> Renewable production and consumption</a></li>
+				<li><a href="/totalenergy/data/monthly/pdf/sec1_7.pdf" title="PDF format: Total Consumption">Total energy consumption</a></li>
+				<li><a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" title="PDF format: Total Consumption"> Renewable production and consumption</a></li>
 				<li><a href="/electricity/annual/html/epa_04_03.html" title="HTML format: Electricity Capacity">Electric capacity</a></li>
 				<li><a href="/electricity/annual/html/epa_03_01_b.html"  title="HTML format: Electricity Generation">Renewable electricity net generation</a></li>
 			</ul>

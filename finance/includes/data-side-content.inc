@@ -1,4 +1,4 @@
-<div class="most-requested">
+<div class="secondary">
 	<ul>
 		<li class="head"><h2>Most Requested Data</h2></li>
 
@@ -53,7 +53,7 @@
 		</li>
 	</ul>
 </div>
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
 	<ul>
 		<li class="head"><h2>Related Reports</h2></li>
 		<li><a href="/workingpapers/#finance">Working Papers</a></li>

@@ -9,7 +9,7 @@ energy, and international petroleum; carbon dioxide emissions; and data unit con
 	<p>EIA periodically adds tables to the MER containing data previously published in the Annual Energy Review, which has been discontinued. For a record of the MER expansion, please see &quot; <a href="/totalenergy/data/monthly/whatsnew.cfm">What's New in the Monthly Energy Review - Content Changes </a>."</p>
 </div>
 
-<h2>Data categories</h2>
+<h3>Data categories</h3>
 
 <div class="accordions"><!-- is-first-expanded" -->
 <div class="expand-collapse-container">

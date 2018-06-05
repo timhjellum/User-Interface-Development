@@ -23,8 +23,8 @@ function DataEndYear(lngLagValue)
 </head>
 <body>
 <?php include('adaptive/global/header/includes/header.inc') ?>
-<?php include('./includes/sub-navigation.inc'); ?>
-<?php include('./includes/energy-review-selector.inc'); ?>
+<?php include('adaptive/totalenergy/includes/sub-navigation.inc'); ?>
+<?php include('./includes/report-header.inc'); ?>
 <div class="l-row">
 	<div class="l-main-col">
     	<?php include('./includes/data.inc'); ?>
