@@ -1,6 +1,6 @@
-<div class="l-row header report-details">
+<div class="l-row header report-header">
     <div class="l-two-third-col">
-        <h1>Annual Energy Review</h1>
+        <h2>Annual Energy Review</h2>
         <div class="release-dates">Superseded -- see MER for key annual tables</div>
     </div>
     <div class="l-one-third-col gradient do-not-print">
