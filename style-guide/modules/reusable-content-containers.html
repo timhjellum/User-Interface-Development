@@ -30,20 +30,20 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#292929">
 
-	<!-- start style guide required vendor styles -->
-	<link href="../src/css/bootstrap.min.css" rel="stylesheet" />
-	<!-- end style guide required vendor styles -->
+    <!-- start style guide required vendor styles -->
+    <link href="../src/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- end style guide required vendor styles -->
 
-	<!-- start style guide vendor styles -->
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" />
-	<link href="../src/css/themify-icons.css" rel="stylesheet">
-	<link href="../src/css/highlight/ir-black.css" rel="stylesheet" />
-	<!-- start style guide required styles -->
+    <!-- start style guide vendor styles -->
+    <link href="../src/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" />
+    <link href="../src/css/themify-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/highlight/ir-black.css" />
+    <!-- start style guide required styles -->
 
-	<!-- start page specific styles -->
-	<link href="../src/css/eia-style-guide.css" rel="stylesheet" />
-	<!-- end page specific styless -->
+    <!-- start page specific styles -->
+    <link href="../src/css/eia-style-guide.css" rel="stylesheet" />
+    <!-- end page specific styless -->
 </head>
 
 <body>
@@ -875,11 +875,9 @@ aria-controls="tbdHtml">&lt;html&gt;</a>
 							<div id="footer"></div>
 </body>
 <!-- start style guide required vendor scripts -->
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-    crossorigin="anonymous"></script>
+<script src="../src/js/jquery.min.js"></script>
+<script src="../src/js/tether.min.js"></script>
+<script src="../src/js/bootstrap.min.js"></script>
 <!-- end style guide required vendor scripts -->
 
 <!-- start style guide custom scripts -->
@@ -888,14 +886,18 @@ aria-controls="tbdHtml">&lt;html&gt;</a>
 <script src="../src/js/style-guide-footer.js"></script>
 <script src="../src/js/highlight.js"></script>
 <script>
-	hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
+
+if($('.navbar-brand:contains(Modules)').length > 0) {
+    $('#nav-4').prop('checked', true);
+}
+
 </script>
 <!-- start style guide required scripts -->
 
 <!-- start page specific scripts -->
-<script src="../src/js/global.min.js"></script>
+<script src="../src/js/global.min.js"></script>  
 <!-- end page specific scripts -->
-
 </html>
 
 

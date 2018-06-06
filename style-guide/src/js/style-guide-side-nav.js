@@ -31,18 +31,19 @@ $("#nav").html('<ul class="navigation">'+
 '	</li>'+
 '	<li><input type="radio" id="nav-4" name="nav-group-1"><label for="nav-4">Modules</label>'+
 '		<ul class="sub">'+
-//'			<li><a href="../modules/accordion.html">Accordion</a></li>'+
-'			<li><a href="../modules/custom-content-containers.html">Custom content Containers</a></li>'+
+'			<li><a href="../modules/accordion.html">Accordion</a></li>'+
+'			<li><a href="../modules/side-containers.html">Side Containers</a></li>'+
 '			<li><a href="../modules/home-content-containers.html">Home content Containers</a></li>'+
-'			<li><a href="../modules/reusable-content-containers.html">Reusable content Containers</a></li>'+
-'			<li><a href="../modules/reusable-content-containers.html#standard-containers">Standard Containers</a></li>'+
-'			<li><a href="../modules/reusable-content-containers.html#light-blue-top-border">Light-blue-top-border Containers</a></li>'+
-'			<li><a href="../modules/reusable-content-containers.html#light-blue-top-border-grey-background">Light-blue-top-border Grey-background Containers</a></li>'+
-'			<li><a href="../modules/reusable-content-containers.html#dark-blue-top-border">Dark-blue-top-border Containers</a></li>'+
-//'			<li><a href="../modules/tables.html">Tables</a></li>'+
-//'			<li><a href="../modules/tabs.html">Tabs</a></li>'+
-'			<li><a href="../modules/page-titles.html">Page titles</a></li>'+
-//'			<li><a href="../modules/messaging.html">Messaging</a></li>'+
+//'			<li><a href="../modules/reusable-content-containers.html">Reusable content Containers</a></li>'+
+//'			<li><a href="../modules/reusable-content-containers.html#standard-containers">Standard Containers</a></li>'+
+//'			<li><a href="../modules/reusable-content-containers.html#light-blue-top-border">Light-blue-top-border Containers</a></li>'+
+//'			<li><a href="../modules/reusable-content-containers.html#light-blue-top-border-grey-background">Light-blue-top-border Grey-background Containers</a></li>'+
+//'			<li><a href="../modules/reusable-content-containers.html#dark-blue-top-border">Dark-blue-top-border Containers</a></li>'+
+'			<li><a href="../modules/report-header.html">Report Header</a></li>'+
+'			<li><a href="../modules/sub-navigation.html">Sub Navigation</a></li>'+
+'			<li><a href="../modules/tabs.html">Tabs</a></li>'+
+'			<li><a href="../modules/page-titles.html">Page Titles</a></li>'+
+'			<li><a href="../modules/messaging.html">Messaging</a></li>'+
 '			<li><a href="../modules/slider-home.html" target="_blank">Home Slider</a></li>'+
 '			<li><a href="../modules/slider-multi-cards.html" target="_blank">Multi-Card Slider</a></li>'+
 '		</ul>'+
