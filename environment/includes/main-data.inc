@@ -18,8 +18,8 @@
 					<strong>U.S. Carbon dioxide emissions from energy consumption (from 1973) </strong>
 				</li>
 				<li class="include">
-					<?php /* include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') */ ?>
-<span class="release-date">Release Date:</span> <span class="date">April 26, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
+					<?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+<span class="release-date">Release Date:</span> <span class="date">May 24, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
 				</li>
 				</li>
 			</ul>

@@ -8,7 +8,7 @@
 <html>
 <head>
 <?php include('adaptive/global/head/includes/head.inc') ?>
-<?php  if(!isset($no_titling)) include('global/includes/titling.inc') ?>
+<title>U.S. Energy Information Administration (EIA) - </title>
 </head>
 <body>
 <?php include('adaptive/global/header/includes/header.inc') ?>

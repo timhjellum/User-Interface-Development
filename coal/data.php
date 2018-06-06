@@ -1,12 +1,12 @@
 <!doctype html>
 <?php
-$pageTitle = '';
+$pageTitle = 'U.S. Energy Information Administration (EIA) - Coal Data';
 $locale = 'data';
 ?>
 <html>
 <head>
 <?php include('adaptive/global/head/includes/head.inc') ?>
-<?php  if(!isset($no_titling)) include('global/includes/titling.inc') ?>
+<title>U.S. Energy Information Administration (EIA) - Coal Data</title>
 </head>
 <body>
 <?php include('adaptive/global/header/includes/header.inc') ?>
@@ -14,6 +14,7 @@ $locale = 'data';
 <div class="l-row">
 	<div class="l-main-col">
 		<?php include('./includes/data.inc'); ?>
+		<?php include('./includes/weeklies.inc'); ?>
 	</div>
 	<div class="l-narrow-col">
 	  <?php include('./includes/data-side-content.inc') ?>

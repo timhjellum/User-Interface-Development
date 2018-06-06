@@ -313,5 +313,7 @@
 						<a href="/beta/international/data/browser/">International Energy Statistics</a>
 				</li>
 			</ul>
-		</div>
-	</div>
+			</div>
+            </div>
+        </article>
+    </div>

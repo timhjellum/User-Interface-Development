@@ -72,8 +72,8 @@
 				<li class="head">
 					<strong>Petroleum overview</strong></li>
 				<li class="include">
-					<?php /* include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') */ ?>
-<span class="release-date">Release Date:</span> <span class="date">April 26, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
+					<?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+<span class="release-date">Release Date:</span> <span class="date">May 24, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
 				</li>
 				<li>(
 					<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li>
@@ -156,8 +156,8 @@
 				<li class="head">
 					<strong>Motor gasoline retail prices, U.S. city average</strong></li>
 				<li class="include">
-					<?php /* include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') */ ?>
-<span class="release-date">Release Date:</span> <span class="date">April 26, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
+					<?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+<span class="release-date">Release Date:</span> <span class="date">May 24, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec9_6.pdf ">

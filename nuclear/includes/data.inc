@@ -15,7 +15,7 @@
       		<div class="content">
             <ul>
                 <li class="head">
-                    <strong>Daily nuclear status/outages</strong> (with annual capacity)</li>
+                    <strong>Daily nuclear status/outages (with annual capacity)</li>
                 <li>Daily status of U.S. nuclear plants with summary and plant-specific data on percentage output, outage amount,
                     and capacity</li>
                 <li><span class="formats">Available formats:</span> 
@@ -32,8 +32,7 @@
                     <a href="/nuclear/generation/index.html">Nuclear electricity generation and capacity</a>
                 </li>
                 <li>
-                    <span class="release-date">Release Date:</span> <span class="date">Release date: May 26, 2016</span> | data from:
-                    <span class="date"> survey forms
+                    <span class="release-date">Release Date:</span> <span class="date">Release date: May 26, 2016</span> | <span class="source">data from:</span> survey forms
                         <a href="/electricity/data/eia923/">EIA-923</a> and
                         <a href="/electricity/data/eia860/">EIA-860</a>.</span>
                 </li>
@@ -41,10 +40,10 @@
             </ul>
             <ul>
                 <li class="head">
-                    <strong> Nuclear generation, capacity summary data</strong> (monthly back to 1973, annual back to 1957)</li>
+                    Nuclear generation, capacity summary data (monthly back to 1973, annual back to 1957)</li>
                 <li class="include">
-                    <?php /* include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') */ ?>
-<span class="release-date">Release Date:</span> <span class="date">April 26, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
+                    <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+<span class="release-date">Release Date:</span> <span class="date">May 24, 2018</span> | <span class="note">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
                 </li>
                 <li><span class="formats">Available formats:</span> 
                     <a href="/totalenergy/data/monthly/pdf/sec8_3.pdf" class="ico_pdf" title="Nuclear generation, capacity summary data">
@@ -75,15 +74,14 @@
                     <a href="/nuclear/reactors/reactorcapacity.php">Reactor capacity and ownership</a>
                 </li>
                 <li>
-                    <span class="release-date">Release Date:</span> <span class="date">Release date: November 2017</span> | data from:
-                    <span class="date"> survey form
+                    <span class="release-date">Release Date:</span> <span class="date">Release date: November 2017</span> | <span class="source">data from:</span> survey form
                         <a href="/electricity/data/eia860/">EIA-860, Annual Electric Generator Report</a>
                 </li>
             </ul>
             <ul>
                 <li>
                     <a href="/totalenergy/data/annual/showtext.cfm?t=ptb0901">Nuclear generator licensing data</a>
-                    <li class="include"></li>
+                    <li class="include"><li><span class="release-date">Release Date: </span><span class="date">September 27, 2012</span> | <span class="source">data from:</span><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0903">Annual Energy Review</a>, 1949-2011 <span class="alert">(no longer updated)</li></li>
                     <li><span class="formats">Available formats:</span> 
                         <a href="/totalenergy/data/annual/pdf/sec9_3.pdf" class="ico_pdf" title="Nuclear generator licensing data">
                             <i class="ico pdf">
@@ -119,25 +117,23 @@
                     <a href="/uranium/production/annual/ureserve.cfm">Uranium reserves estimates</a>
                 </li>
                 <li>
-                    <span class="release-date">Release Date:</span> <span class="date">May 24, 2017</span> | data from:
-                    <span class="note">
+                    <span class="release-date">Release Date:</span> <span class="date">May 24, 2017</span> | <span class="source">data from:</span>
                         <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a>
-                    </span>
+
                 </li>
                 <li>Estimates of uranium reserves as of end of year</li>
             </ul>
             <ul>
                 <li>
-                    <strong>Uranium production</strong>
+                    <strong>Uranium production
                 </li>
                 <li class="list-item">
                     <ul>
                         <li>Annual</li>
                         <li>
-                            <span class="release-date">Release Date:</span> <span class="date">May 24, 2017</span> | data from:
-                            <span class="note">
+                            <span class="release-date">Release Date:</span> <span class="date">May 24, 2017</span> | <span class="source">data from:</span>
                                 <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a>
-                            </span>
+
                         </li>
                         <li class="list-item">
                             <ul>
@@ -338,10 +334,8 @@
                     <a href="/nuclear/spent_fuel/">Spent nuclear fuel discharged and stored at commercial sites</a>
                 </li>
                 <li>
-                    <span class="release-date">Release Date:</span> <span class="date">December 7, 2015</span> | data from:
-                    <span class="note">form
+                    <span class="release-date">Release Date:</span> <span class="date">December 7, 2015</span> | <span class="source">data from:</span>form
                         <a href="/survey/#gc-859">GC-859, Nuclear Fuel Data Survey</a>
-                    </span>
                 </li>
                 <li>Data cover all spent nuclear fuel discharged from and stored at commercial sites through June 30, 2013</li>
             </ul>
@@ -350,8 +344,7 @@
                     <a href="/nuclear/spent_fuel/ussnftab3.cfm">Annual commercial spent fuel discharges and burnup, 1968 - June 30, 2013 </a>
                 </li>
                 <li>
-                    <span class="release-date">Release Date:</span> <span class="date">December 7, 2015</span> | data from:
-                    <span class="note">form
+                    <span class="release-date">Release Date:</span> <span class="date">December 7, 2015</span> | <span class="source">data from:</span>form
                         <a href="/survey/#gc-859">GC-859, Nuclear Fuel Data Survey</a>
                     </span>
                 </li>
@@ -362,10 +355,9 @@
                     <a href="/nuclear/spent_fuel/ussnftab2.cfm">Detailed spent nuclear fuel data</a>
                 </li>
                 <li>
-                    <span class="release-date">Release Date:</span> <span class="date">December 7, 2015</span> | data from:
-                    <span class="note">form
+                    <span class="release-date">Release Date:</span> <span class="date">December 7, 2015</span> | <span class="source">data from:</span>form
                         <a href="/survey/#gc-859">GC-859, Nuclear Fuel Data Survey</a>
-                    </span>
+
                 </li>
             </ul>
 			</div>
