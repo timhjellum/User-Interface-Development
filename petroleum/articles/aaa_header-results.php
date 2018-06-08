@@ -9,7 +9,7 @@ $L2Title = "Comparison of Selected EIA-782 Data With Other Data Sources";
 <?php
 if(isset($pageTitle) && $pageTitle) {
 print "<title>" . $pageTitle . "</title>"; print PHP_EOL;
-$pageTitle = '';
+$pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 }
 ?>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">

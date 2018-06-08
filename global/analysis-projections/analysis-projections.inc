@@ -144,8 +144,8 @@ $recent_AP = $neic->get($bindVariables);
 		$thetitle = $row['title'];
 		$thelink = $row['link_html'];
 
-		//		include "adaptive/global/includes/analysis-projections/tags.inc";
-		//		include "adaptive/global/includes/";
+		//		include "css_rehab/archive/global/includes/analysis-projections/tags.inc";
+		//		include "css_rehab/archive/global/includes/";
 				include('tags.inc');
 		//		include "it_displaytags.inc";
 		echo "</div>";

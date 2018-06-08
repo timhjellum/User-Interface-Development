@@ -2,12 +2,12 @@
 	<div class="accordion-head"><h2><i
 		<div class="expand-collapse-container">
 			<span class="expand-all">
-				<i class="ico expand-collapse"></i> Expand all</span>
+				 Expand all</span>
 			<span class="collapse-all">
-				<i class="ico expand-collapse"></i> Collapse all</span>
+				 Collapse all</span>
 		</div>
 		<h2>
-			<i class="ico expand-collapse"></i>
+			
 			<a name="rec"></a>Residential Energy Consumption Survey data</h2>
 		<div class="accordion-content">
 			<ul>
@@ -49,7 +49,7 @@
 		<!--  end  -->
 		<!-- start -->
 		<h2>
-			<i class="ico expand-collapse"></i>
+			
 			<a name="cec"></a>Commercial Buildings Energy Consumption Survey data</h2>
 		<div class="accordion-content">
 			<ul>
@@ -97,7 +97,7 @@
 		<!--  end  -->
 		<!-- start -->
 		<h2>
-			<i class="ico expand-collapse"></i>
+			
 			<a name="mfg"></a>Manufacturing Energy Consumption Survey data</h2>
 		<div class="accordion-content">
 

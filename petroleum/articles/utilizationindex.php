@@ -9,7 +9,7 @@ $L2Title = "Petroleum and Other Liquids";
 <?php
 if(isset($pageTitle) && $pageTitle) {
 print "<title>" . $pageTitle . "</title>"; print PHP_EOL;
-$pageTitle = '';
+$pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 }
 ?>
 <?php include(ROOT.'global/includes/css_rehab_eia-head.inc'); ?>

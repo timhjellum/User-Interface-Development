@@ -2,37 +2,30 @@
 	<a name="mpurc" id="mpurc"></a>
 	<h1>Market Prices and Uncertainty Report Charts</h1>
 
-
-
-
-
-<div class="accordions all-expanded">
-	<article class="accordion">
-		  <div class="accordion-head">
-		  	<a name="selected-charts"></a><h2>Selected Charts</h2>
-    	</div>
-    	<div class="accordion-body">
+	<div id="accordion-all-open">
+		  	<h3><a name="selected-charts"></a>Selected Charts</h3>
+    	
       		<div class="content zebra">
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/uncertainty/images/uncertainty_fig1.png" class="lightbox">Figure 1: Historical crude oil front month futures prices</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/uncertainty/images/uncertainty_fig1.png" class="lightbox">Figure 1: Historical crude oil front month futures prices</a></li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/uncertainty/images/uncertainty_fig7.png" class="lightbox">Figure 7: Probability of the January 2016 WTI contract expiring above price levels</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/uncertainty/images/uncertainty_fig7.png" class="lightbox">Figure 7: Probability of the January 2016 WTI contract expiring above price levels</a></li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/uncertainty/images/uncertainty_fig8.png" class="lightbox">Figure 8: Historical RBOB futures prices and crack spreads</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/uncertainty/images/uncertainty_fig8.png" class="lightbox">Figure 8: Historical RBOB futures prices and crack spreads</a></li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/uncertainty/images/uncertainty_fig12.png" class="lightbox">Figure 12: Probability of January 2016 retail gasoline exceeding different prices levels at expiration</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/uncertainty/images/uncertainty_fig12.png" class="lightbox">Figure 12: Probability of January 2016 retail gasoline exceeding different prices levels at expiration</a></li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/uncertainty/images/uncertainty_fig14.png" class="lightbox">Figure 14: U.S. natural gas prices and storage</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/uncertainty/images/uncertainty_fig14.png" class="lightbox">Figure 14: U.S. natural gas prices and storage</a></li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/uncertainty/images/uncertainty_fig16.png" class="lightbox">Figure 16: Probability of the January 2016 Henry Hub contract expiring above price levels</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/uncertainty/images/uncertainty_fig16.png" class="lightbox">Figure 16: Probability of the January 2016 Henry Hub contract expiring above price levels</a></li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/images/Fig1.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/images/Fig1.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals</a></li>
 					<li><span class="formats">Available formats:</span> 
 						<a href="/forecasts/steo/xls/Fig1.xls" class="ico_xls">
 							<span hidden="West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals"></span>
@@ -43,7 +36,7 @@
 					</li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/images/Probability_WTI.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Probabilities</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/images/Probability_WTI.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Probabilities</a></li>
 					<li><span class="formats">Available formats:</span> 
 						<a href="/forecasts/steo/xls/Probability_WTI.xls" class="ico_xls">
 							<span hidden="West Texas Intermediate (WTI) Crude Oil Price Probabilities"></span>
@@ -54,7 +47,7 @@
 					</li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/images/Fig4.png" class="lightbox">Henry Hub natural gas prices and confidence intervals</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/images/Fig4.png" class="lightbox">Henry Hub natural gas prices and confidence intervals</a></li>
 					<li><span class="formats">Available formats:</span> 
 						<a href="/forecasts/steo/xls/Fig4.xls" class="ico_xls">
 							<span hidden="Henry Hub natural gas prices and confidence intervals"></span>
@@ -65,7 +58,7 @@
 					</li>
 				</ul>
 				<ul>
-					<li class="head"><strong><a href="/forecasts/steo/images/Probability_HH.png" class="lightbox">Henry Hub natural gas price probabilities</a></strong></li>
+					<li class="head"><a href="/forecasts/steo/images/Probability_HH.png" class="lightbox">Henry Hub natural gas price probabilities</a></li>
 					<li><span class="formats">Available formats:</span> 
 						<a href="/forecasts/steo/xls/Probability_HH.xls" class="ico_xls">
 							<span hidden="Henry Hub natural gas price probabilities"></span>
@@ -76,26 +69,21 @@
 					</li>
 				</ul>
 			</div>
-		</div>
-	</article>
+	
 </div>
 
 
 	<h1><a name="archive" id="archive"></a>Archive</h1>
 
-	<h2><a name="frs"></a>Financial Reporting System (FRS) <span class="alert">(suspended)</span></h2>
+	<h3><a name="frs"></a>Financial Reporting System (FRS) <span class="alert">(suspended)</span></h3>
 	<p>Find operating data and analysis for major U.S. energy companies.</p>
-<div class="accordions"><!-- is-first-expanded" -->
-	<div class="expand-collapse-container">
-		<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
-		<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
-	</div>
-	<article class="accordion">
-		  <div class="accordion-head">
-			  <i class="ico expand-collapse"></i>
-				<h2><a name="finance"></a>Finance</h2>
-    	</div>
-    	<div class="accordion-body">
+<span class="expand-collapse-container"> <span class="open">Expand all</span> </span><div id="accordion">
+
+	
+		  
+			  
+				<h3><a name="finance"></a>Finance</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Selected financial items</li>
@@ -112,7 +100,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Consolidated income statement</strong></li>
+				<li class="head">Consolidated income statement</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -126,7 +114,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Consolidated balance sheet</strong></li>
+				<li class="head">Consolidated balance sheet</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -140,7 +128,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Statement of cash flows</strong></li>
+				<li class="head">Statement of cash flows</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -154,7 +142,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Statement of income for U.S. &amp; foreign petroleum</strong></li>
+				<li class="head">Statement of income for U.S. &amp; foreign petroleum</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -168,7 +156,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Statement of income for U.S. & foreign downstream natural gas</strong></li>
+				<li class="head">Statement of income for U.S. & foreign downstream natural gas</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -182,7 +170,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Statement of income for U.S. & foreign electric power</strong></li>
+				<li class="head">Statement of income for U.S. & foreign electric power</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -196,7 +184,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>PP&E and investments and advances, by lines of business</strong></li>
+				<li class="head">PP&E and investments and advances, by lines of business</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -210,7 +198,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Return on investment for lines of business</strong></li>
+				<li class="head">Return on investment for lines of business</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -224,7 +212,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Size distribution of net investment in place</strong></li>
+				<li class="head">Size distribution of net investment in place</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -238,7 +226,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Research and development</strong></li>
+				<li class="head">Research and development</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -252,7 +240,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Income taxes</strong></li>
+				<li class="head">Income taxes</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -266,7 +254,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. taxes other than income taxes </strong></li>
+				<li class="head">U.S. taxes other than income taxes </li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -280,14 +268,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="oil"></a>Oil and natural gas costs/expenditures</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="oil"></a>Oil and natural gas costs/expenditures</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">U.S. energy operating statistics</li>
@@ -304,7 +290,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Exploration and development expenditures</strong></li>
+				<li class="head">Exploration and development expenditures</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -318,7 +304,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Exploration and development expenditures, U.S. &amp; foreign</strong></li>
+				<li class="head">Exploration and development expenditures, U.S. &amp; foreign</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -332,7 +318,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Exploration and development expenditures by region</strong></li>
+				<li class="head">Exploration and development expenditures by region</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -346,7 +332,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Production (lifting) costs by region</strong></li>
+				<li class="head">Production (lifting) costs by region</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -360,7 +346,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Oil and natural gas reserves</strong></li>
+				<li class="head">Oil and natural gas reserves</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -374,7 +360,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Oil and natural gas reserve balances</strong></li>
+				<li class="head">Oil and natural gas reserve balances</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -388,7 +374,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Exploration and development expenditures, reserves, and production by region</strong></li>
+				<li class="head">Exploration and development expenditures, reserves, and production by region</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -402,7 +388,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Oil and natural gas acreage</strong></li>
+				<li class="head">Oil and natural gas acreage</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -416,7 +402,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. wells completed, and in-progress at year end</strong></li>
+				<li class="head">U.S. wells completed, and in-progress at year end</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -427,7 +413,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. drilling footage and producing wells</strong></li>
+				<li class="head">U.S. drilling footage and producing wells</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -441,7 +427,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. wells completed, and average depth</strong></li>
+				<li class="head">U.S. wells completed, and average depth</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -455,7 +441,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Foreign wells completed, in-progress, and producing, by region</strong></li>
+				<li class="head">Foreign wells completed, in-progress, and producing, by region</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -469,14 +455,12 @@
 				</li>
 				</ul>
 			</div>
-		</div>
-	</article>
-	<article class="accordion">
-		<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="refining"></a>Refining and marketing</h2>
-    	</div>
-    	<div class="accordion-body">
+	
+	
+		
+			
+			<h3><a name="refining"></a>Refining and marketing</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">U.S. refining/marketing statement of income</li>
@@ -493,7 +477,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. petroleum refining/marketing general operating expenses</strong></li>
+				<li class="head">U.S. petroleum refining/marketing general operating expenses</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -507,7 +491,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. and foreign petroleum refining statistics</strong></li>
+				<li class="head">U.S. and foreign petroleum refining statistics</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -521,7 +505,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Refinery output and capacity, U.S. & foreign</strong></li>
+				<li class="head">Refinery output and capacity, U.S. & foreign</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -535,7 +519,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Sources and dispositions of raw materials, U.S. & foreign</strong></li>
+				<li class="head">Sources and dispositions of raw materials, U.S. & foreign</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -549,7 +533,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. purchases and sales of raw materials, and refined products</strong></li>
+				<li class="head">U.S. purchases and sales of raw materials, and refined products</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -563,7 +547,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>U.S. sales of refined products, by sales type</strong></li>
+				<li class="head">U.S. sales of refined products, by sales type</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -577,7 +561,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Sales of U.S. refined products, by volume and price</strong></li>
+				<li class="head">Sales of U.S. refined products, by volume and price</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span>
 				</li>
@@ -591,22 +575,21 @@
 				</li>
 			</ul>
 			</div>
-			</div>
-		  </article>
-	<article class="accordion">
-			<div class="accordion-head">
-				<i class="ico expand-collapse"></i>
-				<h2><a name="operations"></a>Consolidated company operations</h2>
-    	</div>
-    	<div class="accordion-body">
+		
+		  
+	
+			
+				
+				<h3><a name="operations"></a>Consolidated company operations</h3>
+    	
       		<div class="content">
 			<ul class="highlight">
-				<li class="head"><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's
+				<li class="head">Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's
 					Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.
 				</li>
 			</ul>
 			<ul>
-				<li><strong>Consolidating statement if Income</strong></li>
+				<li>Consolidating statement if Income</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5110.xls" class="ico_xls">
 						<span hidden="Consolidating statement if Income"></span>
@@ -617,7 +600,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Research &amp; development funding &amp; expenditures</strong></li>
+				<li class="head">Research &amp; development funding &amp; expenditures</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5111.xls" class="ico_xls">
 						<span hidden="Research & development funding & expenditures"></span>
@@ -628,7 +611,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Analysis of income taxes</strong></li>
+				<li class="head">Analysis of income taxes</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5112.xls" class="ico_xls">
 						<span hidden="Analysis of income taxes"></span>
@@ -639,7 +622,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Selected consolidated data (balance sheet)</strong></li>
+				<li class="head">Selected consolidated data (balance sheet)</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5120.xls" class="ico_xls">
 						<span hidden="Selected consolidated data (balance sheet)"></span>
@@ -650,7 +633,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Statement of sources &amp; uses of funds</strong></li>
+				<li class="head">Statement of sources &amp; uses of funds</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5130.xls" class="ico_xls">
 						<span hidden=" Statement of sources & uses of funds"></span>
@@ -661,7 +644,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Consolidated statement of cash flows</strong></li>
+				<li class="head">Consolidated statement of cash flows</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5131.xls" class="ico_xls">
 						<span hidden=" Consolidated statement of cash flows"></span>
@@ -672,7 +655,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Download all consolidated company operations data</strong></li>
+				<li class="head">Download all consolidated company operations data</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/archive/frsdata/s51.xls" class="ico_xls">
 						<span hidden=" Download all consolidated company operations data"></span>
@@ -683,22 +666,21 @@
 				</li>
 			</ul>
 			</div>
-			</div>
-		  </article>
-	<article class="accordion">
-			<div class="accordion-head">
-				<i class="ico expand-collapse"></i>
-				<h2><a name="petroleumops"></a>Petroleum operations</h2>
-    	</div>
-    	<div class="accordion-body">
+		
+		  
+	
+			
+				
+				<h3><a name="petroleumops"></a>Petroleum operations</h3>
+    	
       		<div class="content">
 			<ul class="highlight">
-				<li class="head"><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's
+				<li class="head">Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's
 					Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Statement of income</strong></li>
+				<li class="head">Statement of income</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5210.xls" class="ico_xls">
 						<span hidden="Statement of income"></span>
@@ -709,7 +691,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Refining, exploration &amp; production operations, expenditures &amp; operating expense detail</strong></li>
+				<li class="head">Refining, exploration &amp; production operations, expenditures &amp; operating expense detail</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5211.xls" class="ico_xls">
 						<span hidden="Refining, exploration & production operations, expenditures & operating expense detail"></span>
@@ -720,7 +702,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Purchases &amp; sales of raw materials &amp; refined products</strong></li>
+				<li class="head">Purchases &amp; sales of raw materials &amp; refined products</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5212.xls" class="ico_xls">
 						<span hidden="Purchases & sales of raw materials & refined products"></span>
@@ -731,7 +713,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Exploration, development, &amp; production statistics</strong></li>
+				<li class="head">Exploration, development, &amp; production statistics</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5241.xls" class="ico_xls">
 						<span hidden="Exploration, development, & production statistics"></span>
@@ -742,7 +724,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Refining statistics</strong></li>
+				<li class="head">Refining statistics</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5242.xls" class="ico_xls">
 						<span hidden=" Refining statistics"></span>
@@ -753,7 +735,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Sources &amp; dispositions of crude &amp; NGL's</strong></li>
+				<li class="head">Sources &amp; dispositions of crude &amp; NGL's</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5245.xls" class="ico_xls">
 						<span hidden=" Sources & dispositions of crude & NGL's"></span>
@@ -764,7 +746,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Proved petroleum reserves</strong></li>
+				<li class="head">Proved petroleum reserves</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5246.xls" class="ico_xls">
 						<span hidden=" Proved petroleum reserves"></span>
@@ -775,7 +757,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Download all company petroleum operations data</strong></li>
+				<li class="head">Download all company petroleum operations data</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/archive/frsdata/s52.xls" class="ico_xls">
 						<span hidden=" Download all company petroleum operations data"></span>
@@ -786,24 +768,23 @@
 				</li>
 			</ul>
 			</div>
-			</div>
-		  </article>
-	<article class="accordion">
-			<div class="accordion-head">
-				<i class="ico expand-collapse"></i>
-				<h2><a name="coalops"></a>Coal operations</h2>
-    	</div>
-    	<div class="accordion-body">
+		
+		  
+	
+			
+				
+				<h3><a name="coalops"></a>Coal operations</h3>
+    	
       		<div class="content">
 			<ul class="highlight">
 				<li>
-<strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's
+Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's
 					Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.
 				</li>
 
 				</ul>
 				<ul>
-				<li class="head"><strong>Coal - reserves &amp; production statistics</strong></li>
+				<li class="head">Coal - reserves &amp; production statistics</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/archive/frsdata/s5341.xls" class="ico_xls">
 						<span hidden=" Coal - reserves & production statistics"></span>
@@ -814,23 +795,22 @@
 				</li>
 			</ul>
 			</div>
-			</div>
-		  </article>
-	<article class="accordion">
-			<div class="accordion-head">
-				<i class="ico expand-collapse"></i>
-				<h2><a name="natgasops"></a>Downstream natural gas operations</h2>
-    	</div>
-    	<div class="accordion-body">
+		
+		  
+	
+			
+				
+				<h3><a name="natgasops"></a>Downstream natural gas operations</h3>
+    	
       		<div class="content">
 			<ul class="highlight">
 				<li>
-<strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's
+Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's
 					Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.
 				</li>
 			</ul>
 			<ul>
-				<li><strong>Statement of income</strong></li>
+				<li>Statement of income</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5710.xls" class="ico_xls">
 						<span hidden="Downstream natural gas operations Statement of income"></span>
@@ -841,7 +821,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>General operating expense detail</strong></li>
+				<li class="head">General operating expense detail</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5711.xls" class="ico_xls">
 						<span hidden="Downstream natural gas operations General operating expense detail"></span>
@@ -852,7 +832,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Purchases &amp; sales of natural gas and NGL's</strong></li>
+				<li class="head">Purchases &amp; sales of natural gas and NGL's</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/archive/frsdata/s5712.xls" class="ico_xls">
 						<span hidden="Downstream natural gas operations Purchases & sales of natural gas and NGL's"></span>
@@ -863,7 +843,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Download all company downstream natural gas operations data</strong></li>
+				<li class="head">Download all company downstream natural gas operations data</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/archive/frsdata/s57.xls" class="ico_xls">
 						<span hidden="Downstream natural gas operations Download all company downstream natural gas operations data"></span>
@@ -874,20 +854,19 @@
 				</li>
 			</ul>
 			</div>
-		</div>
-	</article>
-	<article class="accordion">
-			<div class="accordion-head">
-				<i class="ico expand-collapse"></i>
-				<h2><a nam="electricops"></a>Electric power operations</h2>
+	
+	
+			
+				
+				<h3><a nam="electricops"></a>Electric power operations</h3>
 				</div>
-				<div class="accordion-body">
+				
 					  <div class="content">
 				<ul class="highlight">
-					<li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
+					<li>Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
 				</ul>
 				<ul>
-					<li><strong>Statement of Income</strong></li>
+					<li>Statement of Income</li>
 					<li class="additional-formats divider">Available formats:
 						<a href="/finance/archive/frsdata/s5810.xls" class="ico_xls">
 							<span hidden="Electric power operations Statement of income"></span>
@@ -898,8 +877,7 @@
 					</li>
 				</ul>
 			</div>
-		</div>
-	</article>
+	
 </div>
 
 
@@ -919,21 +897,13 @@
 		the company's U.S. operations.</p>
 
 
-	<!--div class="accordion">
-		<div class="expand-collapse-container">
-			<span class="expand-all">
-				<i class="ico expand-collapse"></i> Expand all</span>
-			<span class="collapse-all">
-				<i class="ico expand-collapse"></i> Collapse all</span>
-		</div-->
-
-		<div class="accordions is-first-expanded">
-	<article class="accordion">
-		  <div class="accordion-head">
-			  <i class="ico expand-collapse"></i>
-				<h2><a name="2010"></a>2010</h2>
-    	</div>
-    	<div class="accordion-body">
+		<span class="expand-collapse-container"> <span class="open">Expand all</span> </span><div id="accordion">
+		
+	
+		  
+			  
+				<h3><a name="2010"></a>2010</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Third quarter 2010 </li>
@@ -947,7 +917,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2010</strong></li>
+				<li class="head">Second quarter 2010</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q210.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2010"></span>
@@ -958,7 +928,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2010</strong></li>
+				<li class="head">First quarter 2010</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q110.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2010"></span>
@@ -969,14 +939,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2009"></a>2009</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2009"></a>2009</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2009</li>
@@ -990,7 +958,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2009</strong></li>
+				<li class="head">Third quarter 2009</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q309.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2009"></span>
@@ -1001,7 +969,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2009</strong></li>
+				<li class="head">Second quarter 2009</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q209.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2009"></span>
@@ -1012,7 +980,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2009</strong></li>
+				<li class="head">First quarter 2009</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q109.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2009"></span>
@@ -1023,14 +991,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2008"></a>2008</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2008"></a>2008</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2008</li>
@@ -1044,7 +1010,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2008</strong></li>
+				<li class="head">Third quarter 2008</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q308.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2008"></span>
@@ -1055,7 +1021,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2008</strong></li>
+				<li class="head">Second quarter 2008</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q208.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2008"></span>
@@ -1066,7 +1032,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2008</strong></li>
+				<li class="head">First quarter 2008</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q108.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2008"></span>
@@ -1077,14 +1043,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2007"></a>2007</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2007"></a>2007</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2007</li>
@@ -1098,7 +1062,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2007</strong></li>
+				<li class="head">Third quarter 2007</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q307.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2007"></span>
@@ -1109,7 +1073,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2007</strong></li>
+				<li class="head">Second quarter 2007</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q207.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2007"></span>
@@ -1120,7 +1084,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2007</strong></li>
+				<li class="head">First quarter 2007</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q107.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2007"></span>
@@ -1131,14 +1095,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2006"></a>2006</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2006"></a>2006</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2006</li>
@@ -1152,7 +1114,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2006</strong></li>
+				<li class="head">Third quarter 2006</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q306.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2006"></span>
@@ -1163,7 +1125,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2006</strong></li>
+				<li class="head">Second quarter 2006</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q206.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2006"></span>
@@ -1174,7 +1136,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2006</strong></li>
+				<li class="head">First quarter 2006</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q106.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2006"></span>
@@ -1185,14 +1147,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2005"></a>2005</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2005"></a>2005</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2005</li>
@@ -1206,7 +1166,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2005</strong></li>
+				<li class="head">Third quarter 2005</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q305.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2005"></span>
@@ -1217,7 +1177,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2005</strong></li>
+				<li class="head">Second quarter 2005</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q205.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2005"></span>
@@ -1228,7 +1188,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2005</strong></li>
+				<li class="head">First quarter 2005</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q105.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2005"></span>
@@ -1239,14 +1199,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2004"></a>2004</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2004"></a>2004</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2004</li>
@@ -1260,7 +1218,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2004</strong></li>
+				<li class="head">Third quarter 2004</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q304.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2004"></span>
@@ -1271,7 +1229,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2004</strong></li>
+				<li class="head">Second quarter 2004</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q204.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2004"></span>
@@ -1282,7 +1240,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2004</strong></li>
+				<li class="head">First quarter 2004</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q104.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2004"></span>
@@ -1293,14 +1251,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2003"></a>2003</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2003"></a>2003</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2003</li>
@@ -1314,7 +1270,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2003</strong></li>
+				<li class="head">Third quarter 2003</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q303.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2003"></span>
@@ -1325,7 +1281,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2003</strong></li>
+				<li class="head">Second quarter 2003</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q203.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2003"></span>
@@ -1336,7 +1292,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2003</strong></li>
+				<li class="head">First quarter 2003</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q103.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2003"></span>
@@ -1347,14 +1303,12 @@
 				</li>
 				</ul>
 			</div>
-    	</div>
-  	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2002"></a>2002</h2>
-    	</div>
-    	<div class="accordion-body">
+  	
+	
+    	
+			
+			<h3><a name="2002"></a>2002</h3>
+    	
       		<div class="content">
 			<ul>
 				<li class="head">Fourth quarter 2002</li>
@@ -1368,7 +1322,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Third quarter 2002</strong></li>
+				<li class="head">Third quarter 2002</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q302.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Third quarter 2002"></span>
@@ -1379,7 +1333,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>Second quarter 2002</strong></li>
+				<li class="head">Second quarter 2002</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/finance/performanceprofiles/news_m/q202.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers Second quarter 2002"></span>
@@ -1390,7 +1344,7 @@
 				</li>
 			</ul>
 			<ul>
-				<li class="head"><strong>First quarter 2002</strong></li>
+				<li class="head">First quarter 2002</li>
 				<li class="additional-formats divider">Available formats:
 					<a href="/finance/performanceprofiles/news_m/q102.pdf" class="ico_pdf">
 						<span hidden="Financial News for Major Energy Producers First quarter 2002"></span>
@@ -1401,14 +1355,12 @@
 				</li>
 			</ul>
 			</div>
-		</div>
-	</article>
-	<article class="accordion">
-    	<div class="accordion-head">
-			<i class="ico expand-collapse"></i>
-			<h2><a name="2001"></a>2001</h2>
-    	</div>
-    	<div class="accordion-body">
+	
+	
+    	
+			
+			<h3><a name="2001"></a>2001</h3>
+    	
       		<div class="content">
 				<ul>
 					<li class="head">Fourth quarter 2001</li>
@@ -1422,14 +1374,12 @@
 					</li>
 				</ul>
 				<ul>
-					<li class="head"><strong>Third quarter 2001</strong></li>
+					<li class="head">Third quarter 2001</li>
 					<li><span class="formats">Available formats:</span> missing</li>
 				</ul>
 				<ul>
-				<li class="head"><strong>Second quarter 2001</strong></li>
+				<li class="head">Second quarter 2001</li>
 					<li><span class="formats">Available formats:</span>missing</li>
 				</ul>
 			</div>
-		</div>
-	</article>
 </div>

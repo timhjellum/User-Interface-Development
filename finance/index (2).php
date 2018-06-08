@@ -1,6 +1,6 @@
 <!doctype html>
 <?php
-$pageTitle = '';
+$pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 $L2T = 'Markets & Finance';
 $locale = 'overview';
 $l2page = 'page_fin';

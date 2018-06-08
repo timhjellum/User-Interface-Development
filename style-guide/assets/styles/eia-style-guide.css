@@ -18,7 +18,7 @@
 @import "less/layouts/reordering";
 @import "less/layouts/responsive";
 
-/* content container must be the first line item of the modules */
+/* modules */
 @import "less/modules/accordion";
 @import "less/modules/banners";
 @import "less/modules/content-container";

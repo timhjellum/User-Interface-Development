@@ -1,27 +1,23 @@
 	<p>Find environmental data on carbon dioxide emissions from energy and industry, by consuming sector (residential, commercial,
 		industrial, transportation, electric power), and other emissions.</p>
-		<div class="accordions"><!-- is-first-expanded" -->
-		<div class="expand-collapse-container">
-			<span class="expand-all"><i class="ico expand-collapse"></i> Expand all</span>
-			<span class="collapse-all"><i class="ico expand-collapse"></i> Collapse all</span>
-		</div>
-		<article class="accordion">
-			  <div class="accordion-head">
-				  <i class="ico expand-collapse"></i>
-			<a name="summary"></a>Summary</h2>
-    	</div>
-    	<div class="accordion-body">
+		<span class="expand-collapse-container"> <span class="open">Expand all</span> </span><div id="accordion">
+	
+			  
+				  
+			<h3><a name="summary"></a>Summary</h3>
+
+    	
       		<div class="content">
 			<ul>
 				<li class="head">
-					<strong>U.S. Carbon dioxide emissions from energy consumption (from 1973) </strong>
+					U.S. Carbon dioxide emissions from energy consumption (from 1973)
 				</li>
-				<li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
+				<li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
 				</li>
 			</ul>
 			<ul>
 				<li>
-					<strong>By source</strong>
+					By source
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_3.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By source">
@@ -38,7 +34,7 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>By residential sector</strong>
+					By residential sector
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_5.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By residential sector">
@@ -55,7 +51,7 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>By commercial sector </strong>
+					By commercial sector
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_6.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By commercial sector">
@@ -72,7 +68,7 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>By industrial sector</strong>
+					By industrial sector
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_7.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By industrial sector">
@@ -89,7 +85,7 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>By transportation sector</strong>
+					By transportation sector
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_8.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By transportation sector">
@@ -106,7 +102,7 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>By electric power</strong>
+					By electric power
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions By electric power">
@@ -123,7 +119,7 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>From biomass</strong>
+					From biomass
 				</li>
 				<li><span class="formats">Available formats:</span> 
 					<a href="/totalenergy/data/monthly/pdf/sec12_10.pdf" class="ico_pdf" title="U.S. Carbon dioxide emissions From biomass">
@@ -140,10 +136,10 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/environment/emissions/state/state_emissions.cfm">State CO
 							<sub>2</sub> emissions &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>
 					<span class="release-date">Release Date:</span> <span class="date">October 24, 2017</span>
@@ -151,9 +147,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/environment/emissions/co2_vol_mass.cfm">Fuel carbon dioxide emission coefficients &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>
 					<span class="release-date">Release Date:</span> <span class="date">February 2, 2016</span>
@@ -161,7 +157,7 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>Annual Energy Review carbon data &rsaquo;</strong>
+					Annual Energy Review carbon data &rsaquo;
 				</li>
 				<li>
 					<span class="release-date">Release Date:</span> <span class="date">September 27, 2012</span> |
@@ -179,17 +175,17 @@
 		</div>
 		<!-- END Summary Content //////////////// -->
 		<!-- BEGIN Electric Power Plant Environmental Content //////////////// -->
-		<h2>
-			<i class="ico expand-collapse"></i>
-			<a name="electric"></a>Electric power plant environmental</h2>
-    	</div>
-    	<div class="accordion-body">
+		<h3>
+			
+			<a name="electric"></a>Electric power plant environmental</h3>
+
+    	
       		<div class="content">
 			<ul>
 				<li><span class="formats">Available formats:</span>
-					<strong>
+					
 						<a href="/electricity/annual/html/epa_04_01.html">Number of generators &amp; capacity &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>
 					<span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
@@ -200,9 +196,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/electricity/annual/html/epa_09_04.html">Average flue gas desulfurization (scrubber) costs &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>
 					<span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
@@ -214,9 +210,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/electricity/annual/html/epa_09_01.html">Emissions from energy consumption at conventional power plants and combined-heat-and-power &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>
 					<span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
@@ -227,9 +223,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/electricity/annual/html/epa_09_02.html">Quality and net summer capacity of operable environmental equipment &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li class="solid-dashed">
 					<span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
@@ -241,17 +237,17 @@
 		</div>
 		<!-- END Electric Power Plant Environmental Content //////////////// -->
 		<!-- BEGIN International Emissions Content //////////////// -->
-		<h2>
-			<i class="ico expand-collapse"></i>
-			<a name="intl"></a>International emissions</h2>
-    	</div>
-    	<div class="accordion-body">
+		<h3>
+			
+			<a name="intl"></a>International emissions</h3>
+
+    	
       		<div class="content">
 			<ul>
 				<li class="head">
-					<strong>
+					
 						<a href="/cfapps/ipdbproject/IEDIndex3.cfm?tid=90&pid=44&aid=8">Total emissions &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>Data from:
 					<span class="date">
@@ -260,9 +256,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=45&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MTCDPP">Per capita emissions &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>Data from:
 					<span class="date">
@@ -271,9 +267,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=5&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from petroleum consumption &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>Data from:
 					<span class="date">
@@ -282,9 +278,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=3&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from natural gas consumption &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>Data from:
 					<span class="date">
@@ -293,9 +289,9 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=1&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from coal consumption &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li>Data from:
 					<span class="date">
@@ -304,16 +300,14 @@
 			</ul>
 			<ul>
 				<li>
-					<strong>
+					
 						<a href="/cfapps/ipdbproject/IEDIndex3.cfm?tid=91&pid=46&aid=31">Energy related carbon intensity &rsaquo;</a>
-					</strong>
+					
 				</li>
 				<li class="solid-dashed">Data from:
 					<span class="date">
 						<a href="/beta/international/data/browser/">International Energy Statistics</a>
 				</li>
 			</ul>
-			</div>
-            </div>
-        </article>
-    </div>
+		</div>
+	</div>

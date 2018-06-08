@@ -1,4 +1,4 @@
-<?php /* Set the HTML title (used by /global/includes/titling.cfm via eia_footer.cfm) */ ?>
+<?php  $pageTitle = "U.S. Energy Information Administration (EIA)";
 <?php $L2T = 'Petroleum & Other Liquids'; ?>
 <?php $locale = 'overview'; ?>
 <?php /* set this so that the carousel.cfm include query will pull the correct set of Issues and Trends for this page. */ ?>

@@ -48,7 +48,7 @@
                 <li class="head">
                     <strong> Nuclear generation, capacity summary data</strong> (monthly back to 1973, annual back to 1957)</li>
                 <li class="include">
-                    <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                    <?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
                 </li>
                 <li><span class="formats">Available formats:</span> 
                     <a href="/totalenergy/data/monthly/pdf/sec8_3.pdf" class="ico_pdf" title="Nuclear generation, capacity summary data">
@@ -202,7 +202,7 @@
                     <ul>
                         <li>Quarterly</li>
                         <li class="include">
-                            <?php include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') ?>
+                            <?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') ?>
                         </li>
                         <li class="list-item">
                             <ul>
@@ -287,7 +287,7 @@
                 </li>
                 <li>Quantity of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
                 <li class="include">
-                    <?php include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') ?>
+                    <?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') ?>
                 </li>
                 <li><span class="formats">Available formats:</span> 
                     <a href="/uranium/marketing/pdf/umartable1figures1n2.pdf">
@@ -308,7 +308,7 @@
                 </li>
                 <li>Weighted-average price of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
                 <li class="include">
-                    <?php include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') ?>
+                    <?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') ?>
                 </li>
                 <li><span class="formats">Available formats:</span> 
                     <a href="/uranium/marketing/pdf/umartableS1bfigureS2.pdf">

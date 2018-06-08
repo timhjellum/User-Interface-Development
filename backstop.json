@@ -13,7 +13,7 @@
 	"scenarios": [
 		{
 			"label": "Petroleum Containers",
-			"url": "https://www.eia.gov/adaptive/petroleum/index.php",
+			"url": "https://www.eia.gov/css_rehab/archive/petroleum/index.php",
 			"referenceUrl": "https://www.eia.gov/petroleum/index.php",
 			"hideSelectors": [],
 			"removeSelectors": [

@@ -1,5 +1,5 @@
 <!doctype html>
-<?php /* Set the HTML title (used by /global/includes/titling.cfm via eia_footer.cfm) */ ?>
+<?php  $pageTitle = "U.S. Energy Information Administration (EIA)";
 <?php $L2T = 'Nuclear & Uranium'; ?>
 
 

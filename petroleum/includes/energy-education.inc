@@ -21,7 +21,7 @@
                 <!-- /div -->
             </div>
             <div class="l-one-third-col">
-                <img src="/adaptive/global/images/energy-kids/icon_kids.png"/>
+                <img src="/css_rehab/archive/global/images/energy-kids/icon_kids.png"/>
                 <ul>
                     <li class="head"><h2><a href="/kids">Energy Kids</a></h2></li>
                     <li class="sub-head"><a href="/kids/energy.cfm?page=oil_home-basics">How was oil formed?</a></li>

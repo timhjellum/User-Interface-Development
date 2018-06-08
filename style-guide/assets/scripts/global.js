@@ -18,8 +18,8 @@ new BookshelfSearch();
 import BxSlider from './modules/bxslider';
 new BxSlider();
 
-import Accordion from './modules/accordion';
-//new Accordion();
+import jqueryUI from './modules/jquery-ui';
+new jqueryUI();
 
 import AnalysisProjections from './modules/analysis-projections';
 new AnalysisProjections();
@@ -34,7 +34,7 @@ import LocalScroll from './modules/local-scroll';
 new LocalScroll();
 
 // must use full path
-const jqueryUiTabs = require('jquery-ui-dist/jquery-ui.js');
+//const jqueryUiTabs = require('jquery-ui-dist/jquery-ui.js');
 // jquery ui init files go below
 //import PageTabs from './modules/page-tabs';
 //new PageTabs();

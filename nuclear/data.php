@@ -1,15 +1,16 @@
 <!doctype html>
 <?php
-$pageTitle = '';
+$pageTitle = 'U.S. Energy Information Administration (EIA)';
+$L2T = 'Nuclear & Uranium Data';
 $locale = 'data';
 ?>
 <html>
 <head>
-<?php include('adaptive/global/head/includes/head.inc') ?>
-<title>U.S. Energy Information Administration (EIA) - </title>
+<?php include('css_rehab/archive/global/head/includes/head.inc') ?>
+<title><?=$pageTitle?> - <?=$L2T?></title>
 </head>
 <body>
-<?php include('adaptive/global/header/includes/header.inc') ?>
+<?php include('css_rehab/archive/global/header/includes/header.inc') ?>
 <?php include('./includes/sub-navigation.inc'); ?>
 <div class="l-row">
 	<div class="l-main-col">
@@ -19,15 +20,6 @@ $locale = 'data';
 	  <?php include('./includes/data-side-content.inc') ?>
 	</div>
 </div>
-<?php include('adaptive/global/footer/includes/footer.inc') ?>
+<?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 </html>
-
-<script type="text/javascript">
-function MM_jumpMenuGo(objId,targ,restore){ //v9.0
-  var selObj = null;  with (document) { 
-  if (getElementById) selObj = getElementById(objId);
-  if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
-  if (restore) selObj.selectedIndex=0; }
-}
-</script>

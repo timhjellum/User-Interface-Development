@@ -49,14 +49,13 @@ $faqLabel = "FAQS"; // FAQ
                 <ul class="left-nav">
                     <li class="<?php if ( $locale == "overview") {?>active<?php } ?>"><a href="/<?=$directory?>/">Overview</a></li>
                     <li class="dropdown dropdown dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn"><?=$subNavLink02Label?><i class="ico sort-up"></i></a>
-                            <div class="dropdown-content dropdown-data-content">
-                                <ul>
-                                    <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
-                                    <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
-                                    <li><a href="/<?=$directory?>/<?=$menu01link03URL?>"><?=$menu01link03Label?></a></li>
-                                    <li><a href="/<?=$directory?>/<?=$menu01link04URL?>"><?=$menu01link04Label?></a></li>
-                                </ul>
-                            </div>
+                        <div class="dropdown-content dropdown-data-content">
+                            <ul>
+                                <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link03URL?>"><?=$menu01link03Label?></a></li>
+                                <li><a href="/<?=$directory?>/<?=$menu01link04URL?>"><?=$menu01link04Label?></a></li>
+                            </ul>
                         </div>
                     </li>
                     <li class="dropdown dropdown dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn"><?=$subNavLink03Label?><i class="ico sort-up"></i></a>
@@ -67,7 +66,7 @@ $faqLabel = "FAQS"; // FAQ
                             </div>
                             <div class="l-row">
                                 <ul class="l-two-third-col">
-                                    <?php include("adaptive/global/analysis-projections/sub-navigation-menus.inc") ?>
+                                    <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
                                 </ul>
                                 <ul class="l-one-third-col">
                                     <li><a href="/<?=$directory?>/<?=$menu02link01URL?>"><?=$menu02link01Label?></a></li>

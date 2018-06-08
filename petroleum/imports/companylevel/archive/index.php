@@ -23,7 +23,7 @@
         <a href="#">+ Expand all</a>
 </div>
 <h2>
-<i class="ico expand-collapse"></i>2017 Imports by Month</h2>
+2017 Imports by Month</h2>
 <div class="accordion-content">
 <div class="zebra-container">
 <table class="data">
@@ -81,7 +81,7 @@
 </div>
 </div>
 <h2>
-<i class="ico expand-collapse"></i>2016 Imports by Month</h2>
+2016 Imports by Month</h2>
 <div class="accordion-content">
 <div class="zebra-container">
 <table class="data">
@@ -187,7 +187,7 @@
 </div>
 </div>
 <h2>
-<i class="ico expand-collapse"></i>Historical Imports by Month Including Final Revisions</h2>
+Historical Imports by Month Including Final Revisions</h2>
 <div class="accordion-content">
 <div class="zebra-container">
 <table class="data">

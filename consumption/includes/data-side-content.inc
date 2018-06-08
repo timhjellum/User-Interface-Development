@@ -26,7 +26,7 @@
     <li><a href="/consumption/manufacturing/data/2002/">2002 data</a></li>
     <li><a href="/consumption/manufacturing/data/1998/">1998 data</a></li>
     <li><a href="/consumption/manufacturing/data/1994/">1994 data</a></li>
-    <li><a href="/consumption/manufacturing/data/1991/">1991 data</a></li>
+      <li><a href="/consumption/manufacturing/data/1991/">1991 data</a></li>
       </ul>
 </li>
 </ul>
