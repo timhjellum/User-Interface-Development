@@ -10,23 +10,23 @@
     <title>EIA Style Guide</title>
     <!-- color favicon -->
     <!--
-<link rel="apple-touch-icon" sizes="180x180" href="./src/img/color/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./src/img/color/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./src/img/color/favicon-16x16.png">
-<link rel="manifest" href="./src/color/img/site.webmanifest">
-<link rel="mask-icon" href="./src/img/color/safari-pinned-tab.svg" color="#003c57">
-<link rel="shortcut icon" href="./src/img/color/favicon.ico">
-<meta name="msapplication-TileColor" content="#003c57">
-<meta name="msapplication-config" content="/style-guide/src/img/color/browserconfig.xml">
-<meta name="theme-color" content="#003c57">
--->
+	<link rel="apple-touch-icon" sizes="180x180" href="/style-guide/src/img/color/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/style-guide/src/img/color/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/style-guide/src/img/color/favicon-16x16.png">
+	<link rel="manifest" href="/style-guide/src/color/img/site.webmanifest">
+	<link rel="mask-icon" href="/style-guide/src/img/color/safari-pinned-tab.svg" color="#003c57">
+	<link rel="shortcut icon" href="/style-guide/src/img/color/favicon.ico">
+	<meta name="msapplication-TileColor" content="#003c57">
+	<meta name="msapplication-config" content="/style-guide/src/img/color/browserconfig.xml">
+	<meta name="theme-color" content="#003c57">
+	-->
     <!-- b&w favicon -->
 
-    <link href="./src/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-    <link href="./src/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-    <link href="./src/img/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
-    <link href="./src/img/site.webmanifest" rel="manifest">
-    <link href="./src/img/safari-pinned-tab.svg" rel="mask-icon" color="#292929">
+    <link href="/style-guide/src/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/style-guide/src/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="/style-guide/src/img/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+    <link href="/style-guide/src/img/site.webmanifest" rel="manifest">
+    <link href="/style-guide/src/img/safari-pinned-tab.svg" rel="mask-icon" color="#292929">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#292929">
 
@@ -35,24 +35,14 @@
     <!-- end style guide required vendor styles -->
 
     <!-- start style guide vendor styles -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../src/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" />
-    <link href="./src/css/themify-icons.css" rel="stylesheet">
-    <link href="./src/css/highlight/tomorrow.css" rel="stylesheet" />
+    <link href="../src/css/themify-icons.css" rel="stylesheet">
+    <link href="../src/css/highlight/tomorrow.css" rel="stylesheet" />
     <!-- start style guide required styles -->
 
     <!-- start page specific styles -->
-    <link href="./src/css/eia-style-guide.css" rel="stylesheet" />
-    <!-- end page specific styless -->
-
-
-
-
-
-    <style>
-
-    </style>
-
+    <link href="../src/css/eia-style-guide.css" rel="stylesheet" />
     <!-- end page specific styless -->
 </head>
 
@@ -60,19 +50,15 @@
     <div class="wrapper">
         <div class="sidebar" data-background-color="white" data-active-color="danger">
             <div class="sidebar-wrapper">
-                <div class="logo-styleguide">
-                    <a class="logo-white-background"></a>
-                </div>
+                <div class="logo-style-guide"></div>
                 <div id="nav"></div>
-
             </div>
         </div>
-
         <div class="main-panel">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        Introduction
+                        <a class="navbar-brand">Base</a>
                     </div>
                     <div class="collapse navbar-collapse">
                     </div>
@@ -80,132 +66,12 @@
             </nav>
             <div class="content">
                 <div class="container-fluid">
-                    <div class="row style-guide">
+                    <div class="row">
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="header-style-guide">
                                     <article>
-                                        <h1 class="style-guide">Categorizing CSS Rules</h1>
-                                        <p class="style-guide">Every project needs some organization. Throwing every new style you create onto the end of a single file would make finding things more difficult and would be very confusing for anybody else working on the project.
-                                            Of course, you likely have some organization in place already. Hopefully, what you read among these pages will highlight what works with your existing process and, if I’m lucky, you will see new ways in which
-                                            you can improve your process.</p>
-
-                                        <p class="style-guide">How do you decide whether to use ID selectors, or class selectors, or any number of selectors that are at your disposal? How do you decide which elements should get the styling magic you wish to bestow upon it?
-                                            How do you make it easy to understand how your site and your styles are organized? </p>
-
-                                        <p class="style-guide">At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.</p>
-
-                                        <p class="style-guide">There are five types of categories:</p>
-                                        <ol class="style-guide">
-                                            <li>Base</li>
-                                            <li>Layout</li>
-                                            <li>Module</li>
-                                            <li>State</li>
-                                            <li>Theme</li>
-                                        </ol>
-
-                                        <p class="style-guide">We often find ourselves mixing styles across each of these categories. If we are more aware of what we are trying to style, we can avoid the complexity that comes from intertwining these rules.</p>
-
-                                        <p class="style-guide">Each category has certain guidelines that apply to it. This somewhat succinct separation allows us to ask ourselves questions during the development process. How are we going to code things and <em>why</em> are
-                                            we going to code them that way?</p>
-
-                                        <p class="style-guide">Much of the purpose of categorizing things is to codify patterns—things that repeat themselves within our design. Repetition results in less code, easier maintenance, and greater consistency in the user experience.
-                                            These are all wins. Exceptions to the rule can be advantageous but they should be justified.</p>
-
-                                        <p class="style-guide"><strong>Base rules</strong> are the defaults. They are almost exclusively single element selectors but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors. Essentially,
-                                            a base style says that wherever this element is on the page, it should look like <em>this</em>.</p>
-
-                                        <div class="example">
-                                            <p class="exm-caption">Examples of Base Styles</p>
-                                            <pre><code class="css">html {
-	line-height: 1.15; 
-	-ms-text-size-adjust: 100%; 
-	-webkit-text-size-adjust: 100%; 
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	font-size: 16px; 
-	box-sizing: border-box;
-}
-* {
-	box-sizing: border-box;
-}
-.print {
-    display: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}</code></pre>
-                                        </div>
-
-                                        <p class="style-guide"><strong>Layout rules</strong> divide the page into sections. Layouts hold one or more modules together.
-                                            <p class="style-guide">Layout class names always have a <code>l-</code>.</p>
-
-                                            <p class="style-guide"><strong>Modules</strong> are the reusable, modular parts of our design. They are the callouts, the sidebar sections, the product lists and so on.</p>
-
-                                            <p class="style-guide"><strong>State rules</strong> are ways to describe how our modules or layouts will look when in a particular state. Is it hidden or expanded? Is it active or inactive? They are about describing how a module or
-                                                layout looks on screens that are smaller or bigger. They are also about describing how a module might look in different views like the home page or the inside page.</p>
-
-                                            <p class="style-guide">Finally, <strong>Theme rules</strong> are similar to state rules in that they describe how modules or layouts might look. Most sites don’t require a layer of theming but it is good to be aware of it.</p>
-
-                                            <h2 class="style-guide">Naming Rules</h2>
-
-                                            <p class="style-guide">By separating rules into the five categories, naming convention is beneficial for immediately understanding which category a particular style belongs to and its role within the overall scope of the page. On
-                                                large projects, it is more likely to have styles broken up across multiple files. In these cases, naming convention also makes it easier to find which file a style belongs to.</p>
-
-                                            For State rules, I like <code>is-</code> as in <code>is-hidden</code> or <code>is-collapsed</code>. This helps describe things in a very readable way.</p>
-
-                                        <p class="style-guide">Modules are going to be the bulk of any project. As a result, having every module start with a prefix like <code>.module-</code> would be needlessly verbose. Modules just use the name of the module itself. </p>
-
-                                        <div class="example">
-                                            <p class="exm-caption">Example classes</p>
-                                            <pre><code class="css">/* Example Module */
-.example { }
-
-/* Callout Module */
-.callout { }
-
-/* Callout Module with State */
-.callout.is-collapsed { }
-
-/* Form field module */
-.field { }
-
-/* Inline layout  */
-.l-inline { }
-</code></pre>
-                                        </div>
-
-                                        <p class="style-guide">Related elements within a module use the base name as a prefix. On this site, code examples use <code>.exm</code> and the captions use <code>.exm-caption</code>. I can instantly look at the caption class and understand
-                                            that it is related to the code examples and where I can find the styles for that.</p>
-
-                                        <p class="style-guide">Modules that are a variation on another module should also use the base module name as a prefix. Sub-classing is covered in more detail in the Module Rules chapter.</p>
-
-                                        <p class="style-guide">This naming convention will be used throughout these pages. Like most other things that I have outlined here, don’t feel like you have to stick to these guidelines rigidly. Have a convention, document it, and stick
-                                            to it.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-                                    </article>
-
-
-
-
-                                    <h1 class="style-guide">Color Palette</h1>
-
-
-
-                                    <div class="content">
+                                        <h1 class="style-guide">Color Palette</h1>
                                         <!-- start style guide -->
                                         <!-- start style guide -->
                                         <!-- start style guide -->
@@ -968,18 +834,18 @@ table {
                                             </div>
                                             <div class="clearfix"></div>
                                         </div>
-                                    </div>
                                 </div>
                             </div>
-                            <!-- end color pallate section -->
-                            <!-- end  style guide -->
-                            <!-- end  style guide -->
-                            <!-- end  style guide -->
                         </div>
+                        <!-- end color pallate section -->
+                        <!-- end  style guide -->
+                        <!-- end  style guide -->
+                        <!-- end  style guide -->
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <div id="footer"></div>
 </body>
@@ -997,8 +863,8 @@ table {
 <script>
     hljs.initHighlightingOnLoad();
 
-    if ($('.navbar-brand:contains(Modules)').length > 0) {
-        $('#nav-4').prop('checked', true);
+    if ($('.navbar-brand:contains(Base)').length > 0) {
+        $('#nav-2').prop('checked', true);
     }
 
 

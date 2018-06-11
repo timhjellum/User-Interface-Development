@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>EIA Style Guide</title>
-	<!-- color favicon -->
-	<!--
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>EIA Style Guide</title>
+    <!-- color favicon -->
+    <!--
 	<link rel="apple-touch-icon" sizes="180x180" href="/style-guide/src/img/color/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/style-guide/src/img/color/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/style-guide/src/img/color/favicon-16x16.png">
@@ -20,257 +20,223 @@
 	<meta name="msapplication-config" content="/style-guide/src/img/color/browserconfig.xml">
 	<meta name="theme-color" content="#003c57">
 	-->
-	<!-- b&w favicon -->
+    <!-- b&w favicon -->
 
-	<link href="/style-guide/src/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-	<link href="/style-guide/src/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-	<link href="/style-guide/src/img/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
-	<link href="/style-guide/src/img/site.webmanifest" rel="manifest">
-	<link href="/style-guide/src/img/safari-pinned-tab.svg" rel="mask-icon" color="#292929">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#292929">
+    <link href="/style-guide/src/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/style-guide/src/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="/style-guide/src/img/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+    <link href="/style-guide/src/img/site.webmanifest" rel="manifest">
+    <link href="/style-guide/src/img/safari-pinned-tab.svg" rel="mask-icon" color="#292929">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#292929">
 
-	<!-- start style guide required vendor styles -->
-	<link href="../src/css/bootstrap.min.css" rel="stylesheet" />
-	<!-- end style guide required vendor styles -->
+    <!-- start style guide required vendor styles -->
+    <link href="../src/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- end style guide required vendor styles -->
 
-	<!-- start style guide vendor styles -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" />
-	<link href="../src/css/themify-icons.css" rel="stylesheet">
-	<link href="../src/css/highlight/ir-black.css" rel="stylesheet" />
-	<!-- start style guide required styles -->
+    <!-- start style guide vendor styles -->
+    <link href="../src/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" />
+    <link href="../src/css/themify-icons.css" rel="stylesheet">
+    <link href="../src/css/highlight/tomorrow.css" rel="stylesheet" />
+    <!-- start style guide required styles -->
 
-	<!-- start page specific styles -->
-	<link href="../src/css/eia-style-guide.css" rel="stylesheet" />
-	<!-- end page specific styless -->
+    <!-- start page specific styles -->
+    <link href="../src/css/eia-style-guide.css" rel="stylesheet" />
+    <!-- end page specific styless -->
 
+    <style>
 
+    </style>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
 
+            var icoNavWidth = $("i.ico.ico-nav.analysis-projections").width();
+            var icoNavHeight = $("i.ico.ico-nav.analysis-projections").height();
+            var icoFooterSocialWidth = $(".ico.ico-footer.facebook").width();
+            var icoFooterSocialHeight = $(".ico.ico-footer.facebook").height();
+            var icoNavSocialWidth = $(".ico.ico-menu.facebook").width();
+            var icoNavSocialHeight = $(".ico.ico-menu.facebook").height();
+            var aLogoWidth = $("a.logo").width();
+            var aLogoHeight = $("a.logo").height();
 
-
-	<style>
-		ul.list-group.general-icons li.list-group-item,
-		ul.list-group.ico-nav li.list-group-item {
-			width: 100px;
-			height: 100px;
-			text-align: center;
-		}
-
-		ul.list-group.general-icons li.list-group-item i,
-		ul.list-group.general-icons li.list-group-item i:before,
-		ul.list-group.ico-nav li.list-group-item i,
-		ul.list-group.ico-nav li.list-group-item i:before {
-			margin: 0px auto 0px auto;
-			float: none;
-			font-size: 0
-		}
-
-		ul.ico-nav li,
-		ul.general-icons li {
-			display: inline-block;
-		}
-
-		ul.logo-style-guide li {
-			display: table;
-			width: 100%;
-		}
-
-		ul.logo-style-guide a {
-			background-color: #003C57;
-		}
-
-		.close {
-			float: none !important;
-			filter: alpha(opacity=100) !important;
-			opacity: 1 !important;
-			top: 20.5px !important;
-			right: 23.5px !important;
-		}
-
-		.ico-nav-width,
-		.ico-nav-height,
-		.ico-footer-width,
-		.ico-footer-height,
-		.ico-nav-footer-width,
-		.ico-nav-footer-height,
-		.a-logo-width,
-		.a-logo-height {
-			display: inline;
-		}
-	</style>
-	<script>
-		$(document).ready(function () {
-			$('[data-toggle="tooltip"]').tooltip();
-
-			var icoNavWidth = $("i.ico.ico-nav.analysis-projections").width();
-			var icoNavHeight = $("i.ico.ico-nav.analysis-projections").height();
-			var icoFooterSocialWidth = $(".ico.ico-footer.facebook").width();
-			var icoFooterSocialHeight = $(".ico.ico-footer.facebook").height();
-			var icoNavSocialWidth = $(".ico.ico-menu.facebook").width();
-			var icoNavSocialHeight = $(".ico.ico-menu.facebook").height();
-			var aLogoWidth = $("a.logo").width();
-			var aLogoHeight = $("a.logo").height();
-
-			$(".ico-nav-width").html(icoNavWidth);
-			$(".ico-nav-height").html(icoNavHeight);
-			$(".ico-footer-width").html(icoFooterSocialWidth);
-			$(".ico-footer-height").html(icoFooterSocialHeight);
-			$(".ico-nav-footer-width").html(icoNavSocialWidth);
-			$(".ico-nav-footer-height").html(icoNavSocialHeight);
-			$(".a-logo-width").html(aLogoWidth);
-			$(".a-logo-height").html(aLogoHeight);
-		});
-	</script>
+            $(".ico-nav-width").html(icoNavWidth);
+            $(".ico-nav-height").html(icoNavHeight);
+            $(".ico-footer-width").html(icoFooterSocialWidth);
+            $(".ico-footer-height").html(icoFooterSocialHeight);
+            $(".ico-nav-footer-width").html(icoNavSocialWidth);
+            $(".ico-nav-footer-height").html(icoNavSocialHeight);
+            $(".a-logo-width").html(aLogoWidth);
+            $(".a-logo-height").html(aLogoHeight);
+        });
+    </script>
 </head>
 
 <body>
-	<div class="wrapper">
-		<div class="sidebar" data-background-color="white" data-active-color="danger">
-			<div class="sidebar-wrapper">
-				<div class="logo-styleguide">
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
+            <div class="sidebar-wrapper">
+                <div class="logo-style-guide"></div>
+                <div id="nav"></div>
+            </div>
+        </div>
+        <div class="main-panel">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">Base</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="header-style-guide">
+                                    <article>
+                                        <h1>Icons</h1>
+                                        <!--
+                                        <p>CSS sprites have become a mainstay of modern web development—and for good reason. They allow for multiple assets to be compiled into a single resource, minimizing the number of HTTP requests and ensuring that images
+                                            for things like rollover states are already loaded when needed. </p>
 
-				</div>
-				<div id="nav"></div>
+                                        <p>Before sprites came along, images would be used in two different contexts: as a background image, allowing other things to layer on top of it; or as a foreground image, residing inline with text. With sprites, everything
+                                            is now a background image and positioned within the mask of the element. </p>
 
-			</div>
-		</div>
+                                        <p>It is this latter scenario that this chapter will be specifically addressing.</p>
 
-		<div class="main-panel">
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="#">Base</a>
-					</div>
-					<div class="collapse navbar-collapse">
-					</div>
-				</div>
-			</nav>
-			<div class="content">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="card">
-								<div class="header-style-guide">
-										<article><h1>The Icon Module</h1>
-											
-											<p>CSS sprites have become a mainstay of modern web development—and for good reason. They allow for multiple assets to be compiled into a single resource, minimizing the number of HTTP requests and ensuring that images for things like rollover states are already loaded when needed. </p>
-											
-											<p>Before sprites came along, images would be used in two different contexts: as a background image, allowing other things to layer on top of it; or as a foreground image, residing inline with text. With sprites, everything is now a background image and positioned within the mask of the element. </p>
-											
-											<p>It is this latter scenario that this chapter will be specifically addressing.</p>
-											
-											<p>This will be best explained with an example, so let's look at a menu with its accompanying icons.</p>
-											
+                                        <p>This will be best explained with an example, so let's look at a menu with its accompanying icons.</p>
 
-											<div class="example">
-												<p class="example-caption">Menu HTML</p>
-												<pre><code>&lt;ul class="menu"&gt;
+
+                                        <div class="example">
+                                            <p class="example-caption">Menu HTML</p>
+                                            <pre><code>&lt;ul class="menu"&gt;
 												&lt;li class="menu-inbox"&gt;Inbox&lt;/li&gt;
 												&lt;li class="menu-drafts"&gt;Drafts&lt;/li&gt;
 											&lt;/ul&gt; </code></pre>
-												</div>
-											
-												<p>The HTML is straightforward. We have a list of menu items. A class is added to each menu item so that we can style each one differently.</p>
-											
-											<div class="example">
-												<p class="example-caption">Menu CSS</p>
-<pre><code class="html">.menu li {
-	background: url(/img/sprite.png) no-repeat 0 0;
-	padding-left: 20px;
-}
+                                        </div>
+-->
+                                        <p>The basic structure of the icon is an <code>i</code> with a class of <code>ico</code> and the name of the icon.</p>
+                                        <p>Some icons contain contenxual labels that are wrapped in a span. The span serves two purposes:</p>
+                                        <ol>
+                                            <li>Allows additional context to the icons</li>
+                                            <li>Allows for 508 Adaptive compliance.</li>
+                                        </ol>
 
-.menu .menu-inbox {
-	background-position: 0 -20px;
-}
+                                        <div class="example">
+                                            <p class="example-caption">HTML</p>
+                                            <pre><code class="html">&lt;!-- PDF --&gt;
+&lt;i class="ico pdf"&gt;
+    &lt;span&gt;PDF&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                        </div>
 
-.menu .menu-drafts {
-	background-position: 0 -40px;
-}
-</code></pre>
-												</div>
-											
-											<p>All list items are set to the single sprite and then each individual list item repositions the background to show the correct icon.</p>
-											
-											<p>On the surface, this looks pretty good and it worked for us, for the most part. As always, we began to run into edge cases where this complicated matters.</p>
-											
-											<ul>
-												<li>We became reliant on a very specific HTML structure: the list item.</li>
-												<li>Sprites had to be redefined to be used in other modules.</li>
-												<li>Positioning within the element was very fragile: bumping up font size could reveal other parts of the sprite.</li>
-												<li>Handling right-to-left interfaces was more difficult since we could only use horizontal sprites and fix the x position to 0.</li>
-											</ul>
-											
-											<p>To resolve these issues, we moved to where the icon itself became a module: the icon module.</p>
-											
-											<div class="example">
-												<p class="example-caption">Restructuring the HTML to create the icon module</p>
-<pre><code class="html">&lt;li&gt;&lt;i class="ico ico-16 ico-inbox"&gt;&lt;/i&gt; Inbox&lt;/li&gt; </code></pre>
-												</div>
-											
-											<p>Many people would likely balk at the use of the <code>i</code> tag. I chose to use it because it was small, mostly devoid of semantics, and was an empty element with no content. Why is there no content? In this example, the icon supports the visible text beside it. If the icon were to sit alone, then we would add a title attribute so that it could be read by a screen reader or used as a tooltip. If you disagree and feel a span is more appropriate, I'll understand.</p>
-											
-											<p>By having a single tag with the various icon classes applied to it, it no longer has any other HTML dependencies. That's good. But why three different classes? Each plays a slightly different role and all ultimately come together to mimic a traditional <code>img</code> element.</p>
-											
-											<div class="example">
-<p class="caption">Icon Module CSS</p>
-<pre><code class="css">.ico {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <!--
+                                        <p>All list items are set to the single sprite and then each individual list item repositions the background to show the correct icon.</p>
+
+                                        <p>On the surface, this looks pretty good and it worked for us, for the most part. As always, we began to run into edge cases where this complicated matters.</p>
+
+                                        <ul>
+                                            <li>We became reliant on a very specific HTML structure: the list item.</li>
+                                            <li>Sprites had to be redefined to be used in other modules.</li>
+                                            <li>Positioning within the element was very fragile: bumping up font size could reveal other parts of the sprite.</li>
+                                            <li>Handling right-to-left interfaces was more difficult since we could only use horizontal sprites and fix the x position to 0.</li>
+                                        </ul>
+
+                                        <p>To resolve these issues, we moved to where the icon itself became a module: the icon module.</p>
+
+                                        <div class="example">
+                                            <p class="example-caption">Restructuring the HTML to create the icon module</p>
+                                            <pre><code class="html">&lt;li&gt;&lt;i class="ico ico-16 ico-inbox"&gt;&lt;/i&gt; Inbox&lt;/li&gt; </code></pre>
+                                        </div>
+
+                                        <p>Many people would likely balk at the use of the <code>i</code> tag. I chose to use it because it was small, mostly devoid of semantics, and was an empty element with no content. Why is there no content? In this
+                                            example, the icon supports the visible text beside it. If the icon were to sit alone, then we would add a title attribute so that it could be read by a screen reader or used as a tooltip. If you disagree and
+                                            feel a span is more appropriate, I'll understand.</p>
+
+                                        <p>By having a single tag with the various icon classes applied to it, it no longer has any other HTML dependencies. That's good. But why three different classes? Each plays a slightly different role and all ultimately
+                                            come together to mimic a traditional <code>img</code> element.</p>
+
+                                        <div class="example">
+                                            <p class="caption">Icon Module CSS</p>
+                                            <pre><code class="css">.ico {
 tbd
 }
 </code>
 </pre>
-												</div>
-											
-												<p>The <code>ico</code> class defines the basics of turning the element into an inline-block element, which is what an image is. You may need to adjust <code>vertical-align</code> so that the icon sits relative to the text correctly. Internet Explorer has issues with applying <code>inline-block</code> to block elements. Since we're applying it to an inline element, it doesn't have the same issue. Alternatively, you can use <code>{ zoom:1; display:inline; }</code> for block elements in IE to behave like inline-block elements.</p>
-											
-												<p>The <code>ico-16</code> class sets the height and width. If your project only has one size of icon, you could define the size in the <code>ico</code> class. If every icon has a different size, you can define it in the class for the specific icon. For this project, we had sets of icons in about four different sizes.</p>
-											
-												<p>The last class, <code>ico-inbox</code>, positions the sprite to the correct coordinates. By having a fixed icon size, there's no longer a concern of the parent element growing too large and we can use the same code for right-to-left interfaces without having to modify the background position.</p>
-											
-											<div class="example">
-												<p class="example-caption">Densely packed image sprite</p>
-												<img src="/img/icon-menu2.png" alt="Icon module allows for densely packed sprites with more accurate masking.">
-											</div>
-											
-											<p>A more densely packed image also allows for better compression. Smaller file sizes will improve the performance of your site. (And if you're not already, I recommend using Yahoo!'s <a href="http://www.smushit.com/ysmush.it/">Smush.it</a> service or <a href="http://imageoptim.pornel.net/">ImageOptim</a> for the Mac to ensure your images are as small as possible.)</p>
-											
-											
-												<p>We've just looked at an example of how to refactor a specific part of a project to make things more flexible. There are many ways to approach a problem and what looks like it'll work on the surface can run into problems further into a project. Projects evolve as complexities reveal themselves and part of the fun in doing web development is deciding how best to solve these problems.</p>
-											</article>
-								</div>
-								<div class="content">
-									<!-- start style guide -->
-									<!-- start style guide -->
-									<!-- start style guide -->
+                                        </div>
 
-									<ol class="style-guide">
-										<li>
-											<a href="#logos">Logos</a>
-										</li>
-										<li>
-											<a href="#General">General</a>
-										</li>
-										<li>
-											<a href="#analysis-projections">Analysis Projections</a>
-										</li>
-										<li>
-											<a href="#nav-bar">Navigation</a>
-										</li>
-										<li>
-											<a href="#ResultsLayout">Social</a>
-										</li>
-										<li>
-											<a href="#misc">Misc</a>
-										</li>
-										<li>
-											<a href="#documents">Documents</a>
-										</li>
-										<li>
-											<a href="#side-column">Side-Column</a>
-										</li>
-									</ol>
+                                        <p>The <code>ico</code> class defines the basics of turning the element into an inline-block element, which is what an image is. You may need to adjust <code>vertical-align</code> so that the icon sits relative to
+                                            the text correctly. Internet Explorer has issues with applying <code>inline-block</code> to block elements. Since we're applying it to an inline element, it doesn't have the same issue. Alternatively, you can
+                                            use <code>{ zoom:1; display:inline; }</code> for block elements in IE to behave like inline-block elements.</p>
+
+                                        <p>The <code>ico-16</code> class sets the height and width. If your project only has one size of icon, you could define the size in the <code>ico</code> class. If every icon has a different size, you can define it
+                                            in the class for the specific icon. For this project, we had sets of icons in about four different sizes.</p>
+
+                                        <p>The last class, <code>ico-inbox</code>, positions the sprite to the correct coordinates. By having a fixed icon size, there's no longer a concern of the parent element growing too large and we can use the same code
+                                            for right-to-left interfaces without having to modify the background position.</p>
+
+                                        <div class="example">
+                                            <p class="example-caption">Densely packed image sprite</p>
+                                            <img src="/img/icon-menu2.png" alt="Icon module allows for densely packed sprites with more accurate masking.">
+                                        </div>
+
+                                        <p>A more densely packed image also allows for better compression. Smaller file sizes will improve the performance of your site. (And if you're not already, I recommend using Yahoo!'s <a href="http://www.smushit.com/ysmush.it/">Smush.it</a>                                            service or <a href="http://imageoptim.pornel.net/">ImageOptim</a> for the Mac to ensure your images are as small as possible.)</p>
 
 
+                                        <p>We've just looked at an example of how to refactor a specific part of a project to make things more flexible. There are many ways to approach a problem and what looks like it'll work on the surface can run into
+                                            problems further into a project. Projects evolve as complexities reveal themselves and part of the fun in doing web development is deciding how best to solve these problems.</p>
+                                    </article>
+                                </div>
+                            -->
+                                        <div class="content">
+                                            <!-- start style guide -->
+                                            <!-- start style guide -->
+                                            <!-- start style guide -->
+
+                                            <ol class="style-guide">
+                                                <li>
+                                                    <a href="#logos">Logos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#General">General</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#analysis-projections">Analysis Projections</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#nav-bar">Navigation</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#ResultsLayout">Social</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#misc">Misc</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#documents">Documents</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#side-column">Side-Column</a>
+                                                </li>
+                                            </ol>
 
 
 
@@ -279,12 +245,14 @@ tbd
 
 
 
-									<!-- start style guide -->
-									<!-- start style guide -->
-									<!-- start style guide -->
-									<a name="logos"></a>
-									<h3 class="style-guide">Logos</h3>
-									<!--
+
+
+                                            <!-- start style guide -->
+                                            <!-- start style guide -->
+                                            <!-- start style guide -->
+                                            <a name="logos"></a>
+                                            <h3 class="style-guide">Logos</h3>
+                                            <!--
 										<ul>
 										<li><strong>Width</strong>:
 											<div class="a-logo-width"></div>
@@ -294,29 +262,29 @@ tbd
 										</li>
 									</ul>
 								-->
-									<ul class="list-group logo-style-guide">
-										<li class="list-group-item">
-											<a class="logo">EIA</a>
-										</li>
-									</ul>
-									<h5>Icon Only with Shrunk state</h5>
-									<ul class="list-group logo-style-guide">
-										<li class="list-group-item shrink">
-											<a class="logo">EIA</a>
-										</li>
-									</ul>
-									<h5>Icon Only with White Background</h5>
-									<ul class="list-group logo-style-guide">
-										<li class="list-group-item ">
-											<a class="logo-white-background">EIA</a>
-										</li>
-									</ul>
-									<h3 class="style-guide">Header Menu</h3>
-									<ul class="list-group">
-										<li class="list-group-item">
-											<a class="energy-kids"></a>
-										</li>
-									</ul>
+                                            <ul class="list-group logo-style-guide">
+                                                <li class="list-group-item">
+                                                    <a class="logo">EIA</a>
+                                                </li>
+                                            </ul>
+                                            <h5>Icon Only with Shrunk state</h5>
+                                            <ul class="list-group logo-style-guide">
+                                                <li class="list-group-item shrink">
+                                                    <a class="logo">EIA</a>
+                                                </li>
+                                            </ul>
+                                            <h5>Icon Only with White Background</h5>
+                                            <ul class="list-group logo-style-guide">
+                                                <li class="list-group-item ">
+                                                    <a class="logo-white-background">EIA</a>
+                                                </li>
+                                            </ul>
+                                            <h3 class="style-guide">Header Menu</h3>
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <a class="energy-kids"></a>
+                                                </li>
+                                            </ul>
 
 
 
@@ -329,165 +297,166 @@ tbd
 
 
 
-									<a name="general"></a><h3 class="style-guide">General Icons</h3>
-									<ul class="list-group general-icons">
-										<li class="list-group-item">
-											<i class="ico analysis">analysis</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico cancel">cancel</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico column-chart">column-chart</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico compare">compare</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico d-arrow">d-arrow</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico download">download</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico edit">edit</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico filter">filter</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grab-dot">grab-dot</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-column">grid-column</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-line">grid-line</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-map">grid-map</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-parent-column">grid-parent-column</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-parent-line">grid-parent-line</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-parent-map">grid-parent-map</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-parent-pin">grid-parent-pin</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-pin">grid-pin</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico grid-key">grid-key</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico help">help</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico key">key</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico l-arrow">l-arrow</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico l-range">l-range</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico line-chart">line-chart</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico map">map</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico pause">pause</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico pin">pin</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico play">play</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico r-arrow">r-arrow</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico r-range">r-range</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico remove">remove</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico reset">Reset</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico reset-animation">reset-animation</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico scroll-h">scroll-h</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico scroll-v">scroll-v</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico search">Search</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico slide">slide</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico sort">sort</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico sort-down">sort-down</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico sort-up">sort-up</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico submit">submit</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico checkmark">checkmark</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico dash">dash</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico dot">dot</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico collapse" style="display: inline">collapse</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico edit">edit</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico facebook">Facebook</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico twitter">Twitter</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico youtube">Youtube</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico flickr">Flickr</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico linkedin">LinkedIn</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico email">Email Updates</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico rss">RSS Feeds</i>
-										</li>
-									</ul>
+                                            <a name="general"></a>
+                                            <h3 class="style-guide">General Icons</h3>
+                                            <ul class="list-group general-icons">
+                                                <li class="list-group-item">
+                                                    <i class="ico analysis">analysis</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico cancel">cancel</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico column-chart">column-chart</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico compare">compare</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico d-arrow">d-arrow</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico download">download</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico edit">edit</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico filter">filter</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grab-dot">grab-dot</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-column">grid-column</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-line">grid-line</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-map">grid-map</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-parent-column">grid-parent-column</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-parent-line">grid-parent-line</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-parent-map">grid-parent-map</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-parent-pin">grid-parent-pin</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-pin">grid-pin</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico grid-key">grid-key</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico help">help</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico key">key</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico l-arrow">l-arrow</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico l-range">l-range</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico line-chart">line-chart</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico map">map</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico pause">pause</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico pin">pin</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico play">play</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico r-arrow">r-arrow</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico r-range">r-range</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico remove">remove</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico reset">Reset</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico reset-animation">reset-animation</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico scroll-h">scroll-h</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico scroll-v">scroll-v</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico search">Search</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico slide">slide</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico sort">sort</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico sort-down">sort-down</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico sort-up">sort-up</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico submit">submit</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico checkmark">checkmark</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico dash">dash</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico dot">dot</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico collapse" style="display: inline">collapse</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico edit">edit</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico facebook">Facebook</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico twitter">Twitter</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico youtube">Youtube</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico flickr">Flickr</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico linkedin">LinkedIn</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico email">Email Updates</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico rss">RSS Feeds</i>
+                                                </li>
+                                            </ul>
 
 
 
@@ -497,62 +466,94 @@ tbd
 
 
 
-								<a name="analysis-projections"></a>
-								<h3 class="style-guide">Analysis Projections Icons</h3>
-								<ul class="list-group general-icons">
-									<li class="list-group-item">
-										<i class="ico d">D</i>
-									</li>
-									<li class="list-group-item">
-										<i class="ico a">A</i>
-									</li>
-									<li class="list-group-item">
-										<i class="ico p">P</i>
-									</li>
+                                            <a name="analysis-projections"></a>
+                                            <h3 class="style-guide">Analysis Projections Icons</h3>
+                                            <ul class="list-group general-icons">
+                                                <li class="list-group-item">
+                                                    <i class="ico d">D</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico a">A</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico p">P</i>
+                                                </li>
 
-									<li class="list-group-item">
-										<i class="ico da">DA</i>
-									</li>
-									<li class="list-group-item">
-										<i class="ico ap">AP</i>
-									</li>
-									<li class="list-group-item">
-										<i class="ico dp">DP</i>
-									</li>
+                                                <li class="list-group-item">
+                                                    <i class="ico da">DA</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico ap">AP</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico dp">DP</i>
+                                                </li>
 
-									<li class="list-group-item">
-										<i class="ico dap">DAP</i>
-									</li>
-								</ul>
-
-
+                                                <li class="list-group-item">
+                                                    <i class="ico dap">DAP</i>
+                                                </li>
+                                            </ul>
 
 
-								<a name="file-types"></a>
-								<h3 class="style-guide">File Types</h3>
-								<ul class="list-group general-icons">
-									<li class="list-group-item">
-										<i class="ico pdf"><span>PDF</span></i>
-									</li>
-									<li class="list-group-item">
-										<i class="ico xls"><span>XLS</span></i>
-									</li>
-									<li class="list-group-item">
-										<i class="ico csv"><span>CSV</span></i>
-									</li>
-									<li class="list-group-item">
-										<i class="ico external-link">CSV</i>
-									</li>
-								</ul>
+                                        </div>
+                                        <div class="row">
+                                            <a name="file-types"></a>
+                                            <h3 class="style-guide">File/Source Types</h3>
+
+                                            <div class="source-icon">
+                                                <i class="ico pdf"><span>PDF</span></i>
+                                                <pre><code class="html">&lt;!-- PDF --&gt;
+&lt;i class="ico pdf"&gt;
+    &lt;span&gt;PDF&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico xls"><span>XLS</span></i>
+                                                <pre><code class="html">&lt;!-- XLS --&gt;
+    &lt;i class="ico xls"&gt;
+    &lt;span&gt;XLS&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico csv"><span>CSV</span></i>
+                                                <pre><code class="html">&lt;!-- CSV --&gt;
+&lt;i class="ico csv"&gt;
+    &lt;span&gt;CSV&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico printer"><span>PRINT</span></i>
+                                                <pre><code class="html">&lt;!-- print --&gt;
+&lt;i class="ico print"&gt;
+    &lt;span&gt;PRINT&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico beta"><span>BETA</span></i>
+                                                <pre><code class="html">&lt;!-- beta --&gt;
+&lt;i class="ico beta"&gt;
+    &lt;span&gt;BETA&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico interactive"><span>INTERACTIVE</span></i>
+                                                <pre><code class="html">&lt;!-- interactive --&gt;
+&lt;i class="ico interactive"&gt;
+    &lt;span&gt;INTERACTIVE&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+                                        </div>
+                                        <div class="row">
 
 
-
-
-
-
-									<a name="navigational"></a>
-									<h3 class="style-guide">Navigational Icons</h3>
-									<!--
+                                            <a name="navigational"></a>
+                                            <h3 class="style-guide">Navigational Icons</h3>
+                                            <!--
 										<p>The width and height below reflect the actual width and height of the navigational icons.</p>
 										
 											<ul>
@@ -564,107 +565,256 @@ tbd
 										</li>
 									</ul>
 									-->
-									<ul class="list-group ico-nav">
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav analysis-projections">Analysis &amp; Projections</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav az-index">A-Z Index</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav beta">EIA Beta</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav coal">Coal</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav upcoming">Coming Up</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav consumption">Consumption &amp; Efficiency</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav data-tools-model">Data Tools &amp; Models</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav electricity">Electricity</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav email-complex">Email Updates</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav energy-explained">Energy Explained</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav energy-in-brief">Energy in Brief</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav environment">Environment</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav faq">FAQs</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav featured-reports">Featured Reports</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav markets-finance">Markets &amp; Finance</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav follow-us">Follow us. . .</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav glossary">Glossary</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav international">International</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav maps">Maps</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav natural-gas">Natural Gas</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav nuclear">Nuclear &amp; Uranium</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav open-data">Open Data</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav petroleum">Petroleum &amp; Other Liquids</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav press-room">Press Room</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav renewable">Renewable &amp; Alternative Fuels</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav reports">All Reports &amp; Publications</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav rss-complex">RSS Feeds</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav survey-forms">EIA Survey Forms</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav teachers">For Teachers</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav today-in-energy">Today in Energy</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav total-energy">Total Energy</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav states">U.S. States</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-menu ico-nav whats-new">What's New?</i>
-										</li>
-									</ul>
+                                            <ul class="list-group ico-nav">
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav analysis-projections">Analysis &amp; Projections</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav az-index">A-Z Index</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav beta">EIA Beta</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav coal">Coal</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav upcoming">Coming Up</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav consumption">Consumption &amp; Efficiency</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav data-tools-model">Data Tools &amp; Models</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav electricity">Electricity</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav email-complex">Email Updates</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav energy-explained">Energy Explained</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav energy-in-brief">Energy in Brief</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav environment">Environment</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav faq">FAQs</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav featured-reports">Featured Reports</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav markets-finance">Markets &amp; Finance</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav follow-us">Follow us. . .</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav glossary">Glossary</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav international">International</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav maps">Maps</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav natural-gas">Natural Gas</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav nuclear">Nuclear &amp; Uranium</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav open-data">Open Data</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav petroleum">Petroleum &amp; Other Liquids</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav press-room">Press Room</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav renewable">Renewable &amp; Alternative Fuels</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav reports">All Reports &amp; Publications</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav rss-complex">RSS Feeds</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav survey-forms">EIA Survey Forms</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav teachers">For Teachers</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav today-in-energy">Today in Energy</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav total-energy">Total Energy</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav states">U.S. States</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-menu ico-nav whats-new">What's New?</i>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                        <div class="row">
+                                            <a name="header"></a>
+                                            <h3 class="style-guide">Header Icons</h3>
+
+                                            <div class="source-icon">
+                                                <i class="ico close"><span>Close</span></i>
+                                                <pre><code class="html">&lt;!-- Close --&gt;
+&lt;i class="ico close"&gt;
+    &lt;span&gt;Close&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+                                            <div class="source-icon">
+                                                <i class="ico search"><span>Search</span></i>
+                                                <pre><code class="html">&lt;!-- Header Search --&gt;
+&lt;i class="ico search"&gt;
+    &lt;span&gt;Search&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+                                            <div class="source-icon">
+                                                <i class="ico search"><span>Search</span></i>
+                                                <pre><code class="html">&lt;!--  Mobile Header Search --&gt;
+&lt;i class="ico search"&gt;
+    &lt;span&gt;Search&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <a name="social"></a>
+                                            <h3 class="style-guide">Social (Stay Connected...) Icons in the Footer</h3>
+                                            <div class="source-icon">
+                                                <i class="ico ico-footer facebook"><span>Facebook</span></i>
+                                                <pre><code class="html">&lt;!-- Facebook --&gt;
+&lt;i class="ico ico-footer facebook"&gt;
+    &lt;span&gt;Facebook&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-footer twitter"><span>Twitter</span></i>
+                                                <pre><code class="html">&lt;!-- Twitter --&gt;
+&lt;i class="ico ico-footer twitter"&gt;
+    &lt;span&gt;Twitter&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-footer youtube"><span>Youtube</span></i>
+                                                <pre><code class="html">&lt;!-- Youtube --&gt;
+&lt;i class="ico ico-footer youtube"&gt;
+    &lt;span&gt;Youtube&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-footer flickr"><span>Flickr</span></i>
+                                                <pre><code class="html">&lt;!-- Flickr --&gt;
+&lt;i class="ico ico-footer flickr"&gt;
+    &lt;span&gt;Flickr&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-footer linkedin"><span>LinkedIn</span></i>
+                                                <pre><code class="html">&lt;!-- LinkedIn --&gt;
+&lt;i class="ico ico-footer linkedin"&gt;
+    &lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-footer email"><span>Email Updates</span></i>
+                                                <pre><code class="html">&lt;!-- Email Updates --&gt;
+&lt;i class="ico ico-footer email"&gt;
+    &lt;span&gt;Email Updates&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-footer rss"><span>RSS Feeds</span></i>
+                                                <pre><code class="html">&lt;!-- RSS Feeds --&gt;
+&lt;i class="ico ico-footer rss"&gt;
+    &lt;span&gt;RSS Feeds&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <a name="social-navigation"></a>
+                                            <h3 class="style-guide">Social (Stay Connected...) Icons in the Navigation</h3>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-menu facebook"><span>Facebook</span></i>
+                                                <pre><code class="html">&lt;!-- Facebook --&gt;
+&lt;i class="ico ico-menu facebook"&gt;
+    &lt;span&gt;Facebook&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-menu twitter"><span>Twitter</span></i>
+                                                <pre><code class="html">&lt;!-- Twitter --&gt;
+&lt;i class="ico ico-menu twitter"&gt;
+    &lt;span&gt;Twitter&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-menu youtube"><span>Youtube</span></i>
+                                                <pre><code class="html">&lt;!-- Youtube --&gt;
+&lt;i class="ico ico-menu youtube"&gt;
+    &lt;span&gt;Youtube&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-menu flickr"><span>Flickr</span></i>
+                                                <pre><code class="html">&lt;!-- Flickr --&gt;
+&lt;i class="ico ico-menu flickr"&gt;
+    &lt;span&gt;Flickr&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-menu linkedin"><span>LinkedIn</span></i>
+                                                <pre><code class="html">&lt;!-- LinkedIn --&gt;
+&lt;i class="ico ico-menu linkedin"&gt;
+    &lt;span&gt;LinkedIn&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-menu email"><span>Email Updates</span></i>
+                                                <pre><code class="html">&lt;!-- Email Updates --&gt;
+&lt;i class="ico ico-menu email"&gt;
+    &lt;span&gt;Email Updates&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
+
+                                            <div class="source-icon">
+                                                <i class="ico ico-menu rss"><span>RSS Feeds</span></i>
+                                                <pre><code class="html">&lt;!-- RSS Feeds --&gt;
+&lt;i class="ico ico-menu rss"&gt;
+    &lt;span&gt;RSS Feeds&lt;/span&gt;
+&lt;/i&gt;</code></pre>
+                                            </div>
 
 
 
@@ -672,110 +822,10 @@ tbd
 
 
 
-									<a name="navigational"></a>
-									<div class="container-style-guide">
-										<div class="card" style="width: 12em; float: left; margin-right: 1em;">
-											<div class="card-body" style="margin: 1em 0px">
-												<h4 class="card-title" style="text-align: center">Close Icon</h4>
-												<!--
-				ul>
-				<li><strong>Width</strong>: 40</li>
-				<li><strong>height</strong>: 40</li>
-			</ul>
-			<p class="card-text">The width and height below reflect the actual width and height of the navigational icons.</p
-			-->
-												<ul class="list-group ico-nav" style="text-align: center">
-													<li class="list-group-item" style="margin: 0 auto; width: 87px; height: 82px">
-														<i class="ico close">Close</i>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="card" style="width: 12em; float: left; margin-right: 1em;">
-											<div class="card-body" style="margin: 1em 0px">
-												<h4 class="card-title" style="text-align: center">Header Search</h4>
-												<!--
-				ul>
-				<li><strong>Laptop w</strong>: 21px</li>
-				<li><strong>Laptop h</strong>: 21px</li>
-			</ul
-			-->
-												<ul class="list-group search" style="text-align: center">
-													<li class="list-group-item" style="margin: 0 auto; width: 87px; height: 82px">
-														<i class="ico search">Search</i>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="card" style="width: 12em; float: left; margin-right: 1em;">
-											<div class="card-body" style="margin: 1em 0px">
-												<h4 class="card-title" style="text-align: center">Mobile Header Search</h4>
-												<!--
-				ul>
-				<li><strong>Mobile w</strong>: 30px</li>
-				<li><strong>Mobile h</strong>: 30px</li>
-			</ul
-			-->
-												<ul class="list-group search-menu-toggle" style="text-align: center">
-													<li class="list-group-item" style="margin: 0 auto; width: 87px; height: 82px">
-														<i class="ico search">Search</i>
-													</li>
-												</ul>
-											</div>
-										</div>
-
-									</div>
 
 
-
-
-
-
-
-
-									<a name="social"></a>
-									<h3 class="style-guide">Social (Stay Connected...) Icons in the Navigation</h3>
-									<!--
-										<ul>
-										<li><strong>Width</strong>:
-											<div class="ico-nav-footer-width"></div>
-										</li>
-										<li><strong>height</strong>:
-											<div class="ico-nav-footer-height"></div>
-										</li>
-									</ul>
-									-->
-									<ul class="list-group ico-nav">
-										<li class="list-group-item">
-											<i class="ico ico-menu facebook">Facebook</i></i>
-										</li>
-									</ul>
-									<ul class="list-group ico-nav">
-										<li class="list-group-item">
-											<i class="ico ico-menu facebook">Facebook</i></i>
-										</li>
-									</ul>
-									<ul class="list-group ico-nav">
-										<li class="list-group-item">
-											<i class="ico ico-menu facebook">Facebook</i></i>
-										</li>
-									</ul>
-									<ul class="list-group ico-nav">
-										<li class="list-group-item">
-											<i class="ico ico-menu facebook">Facebook</i></i>
-										</li>
-									</ul>
-
-
-
-
-
-
-
-
-
-									<h3 class="style-guide">Social (Stay Connected...) Icons in the Footer</h3>
-									<!--
+                                            <h3 class="style-guide">Social (Stay Connected...) Icons in the Footer</h3>
+                                            <!--
 										<ul>
 										<li><strong>Width</strong>:
 											<div class="ico-footer-width"></div>
@@ -785,34 +835,14 @@ tbd
 										</li>
 									</ul>
 									-->
-									<ul class="list-group">
-										<li class="list-group-item">
-											<i class="ico ico-footer facebook">Facebook</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico ico-footer twitter">Twitter</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico ico-footer youtube">Youtube</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico ico-footer flickr">Flickr</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico ico-footer linkedin">LinkedIn</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico ico-footer email">Email Updates</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico ico-footer rss">RSS Feeds</i>
-										</li>
-									</ul>
+                                            <ul class="list-group">
+
+                                            </ul>
 
 
 
 
-									<!--
+                                            <!--
 										<a name="side-column"></a>
 									<div class="row style-guide">
 										<h3 class="style-guide">Side Column Icons</h3>
@@ -1004,73 +1034,66 @@ tbd
 									</div>
  -->
 
+                                        </div>
+                                        <div class="row">
 
 
+                                            <a name="misc"></a>
+                                            <h3 class="style-guide">Miscellanious Icons, In Progress...</h3>
 
-									<a name="misc"></a>
-									<h3 class="style-guide">Miscellanious Icons, In Progress...</h3>
+                                            <ul class="list-group">
 
-									<ul class="list-group">
-										<li class="list-group-item">
-											<i class="ico beta-interactive">beta-interactive</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico plus-eiablue">plus-eiablue</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico circle total-energy-mer">total-energy-mer</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico circle disruptions">disruptions</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico circle steo">steo</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico circle aeo">aeo</i>
-										</li>
-										<!--
+                                                <li class="list-group-item">
+                                                    <i class="ico plus-eiablue">plus-eiablue</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico circle total-energy-mer">total-energy-mer</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico circle disruptions">disruptions</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico circle steo">steo</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico circle aeo">aeo</i>
+                                                </li>
+                                                <!--
 											<li class="list-group-item">
 											<i class="ico linechart">linechart</i>
 										</li>
 										-->
-										<li class="list-group-item">
-											<i class="ico telephone">telephone</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico-email">email</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico rss">rss</i>
-										</li>
-										<li class="list-group-item">
-											<i class="ico calendar">calendar</i>
+                                                <li class="list-group-item">
+                                                    <i class="ico telephone">telephone</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico-email">email</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico rss">rss</i>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico calendar">calendar</i>
 
-										</li>
-										<li class="list-group-item">
-											<i class="ico radio">radio</i>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="footer"></div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="ico radio">radio</i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
 </body>
-<!-- start page specific scripts -->
-<script src='../../global/scripts/global.min.js'></script>
-<!-- end page specific scripts -->
-
 <!-- start style guide required vendor scripts -->
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-    crossorigin="anonymous"></script>
+<script src="../src/js/jquery.min.js"></script>
+<script src="../src/js/tether.min.js"></script>
+<script src="../src/js/bootstrap.min.js"></script>
 <!-- end style guide required vendor scripts -->
 
 <!-- start style guide custom scripts -->
@@ -1079,8 +1102,17 @@ tbd
 <script src="../src/js/style-guide-footer.js"></script>
 <script src="../src/js/highlight.js"></script>
 <script>
-	hljs.initHighlightingOnLoad();
+    hljs.initHighlightingOnLoad();
+
+    if ($('.navbar-brand:contains(Base)').length > 0) {
+        $('#nav-2').prop('checked', true);
+    }
 </script>
 <!-- start style guide required scripts -->
+
+<!-- start page specific scripts -->
+<!-- script src="../src/js/global.min.js"></script-->
+<script src="../../global/scripts/global.min.js"></script>
+<!-- end page specific scripts -->
 
 </html>

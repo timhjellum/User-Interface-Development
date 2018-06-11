@@ -1,12 +1,15 @@
 /* variables & mixins */
+
 @import "less/global_vars";
 @import "less/global_mixins";
 
 /* base */
+
 @import "less/base";
 @import "less/icons";
 
 /* header / footer / menus */
+
 @import "less/vendor/fancybox";
 @import "less/header-footer/footer";
 @import "less/header-footer/header";
@@ -14,11 +17,13 @@
 @import "less/header-footer/social-sticker";
 
 /* layouts */
+
 @import "less/layouts/global";
 @import "less/layouts/reordering";
 @import "less/layouts/responsive";
 
 /* content container must be the first line item of the modules */
+
 @import "less/modules/accordion";
 @import "less/modules/banners";
 @import "less/modules/content-container";
@@ -29,24 +34,29 @@
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
 @import "less/modules/messaging";
-
+@import "less/modules/table-zebra";
+@import "less/modules/lists";
 
 /* tables */
+
 @import "less/modules/tables";
 @import "less/modules/table-basic";
 
 /* L2 */
+
 @import "less/l2/analysis-projections.less";
 @import "less/l2/visualizations";
 @import "less/l2/energy-education";
 @import "less/l2/sub-navigation";
 
 /* sliders */
+
 @import "less/sliders/shared";
 @import "less/sliders/home";
 @import "less/sliders/multi";
 
 /* home */
+
 @import "less/home/energy-kids";
 @import "less/home/features";
 @import "less/home/today-in-energy";

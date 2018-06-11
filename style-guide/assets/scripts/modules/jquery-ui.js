@@ -4,80 +4,62 @@ import Core from '../../../../node_modules/jquery-ui/ui/core.js';
 import Effect from '../../../../node_modules/jquery-ui/ui/effect.js';
 import Accordion from '../../../../node_modules/jquery-ui/ui/widgets/accordion.js';
 
-
 class jqueryUI {
     constructor() {
         //this.expandCollapseAll = $('.expand-collapse-container span');
-        $("#accordion").accordion({
-            heightStyle: "content",
+        $('#accordion').accordion({
+            heightStyle: 'content',
             active: false,
-            collapsible: true
+            collapsible: true,
+            header: 'h3',
+            icons: {
+                'header': 'ico expand',
+                'activeHeader': 'ico collapse'
+            },
         });
-        $("#accordion.all-open").accordion({
-            heightStyle: "content",
+        //var cornerTop = $('#accordion').accordion('option', 'classes.ui-corner-top');
+        //$('#accordion').accordion('option', 'cornerTop', null);
+
+        $('#accordion.all-open').accordion({
+            heightStyle: 'content',
             active: true,
             collapsible: true,
-            header: "h3",
-            //"activeHeader": "ui-icon-triangle-1-s",
-            //collapsible: true
-            //create: function(event, ui) {
-            //    $('#accordion .ui-accordion-content').show();
-            //}
+            header: 'h3',
+            icons: false
         });
-        $("#accordion.first-open").accordion({
-            heightStyle: "content",
+        $('#accordion.all-open h3').removeClass('ui-accordion-header-collapsed').addClass('ui-accordion-header-active').attr({ 'aria-selected': 'true', 'tabindex': '0' });
+        //$('h3 .ui-icon').removeClass('ui-icon-triangle-1-e').addClass('ui-icon-triangle-1-s');
+        $('#accordion.all-open .ui-accordion-content').addClass('ui-accordion-content-active').attr({ 'aria-expanded': 'true', 'aria-hidden': 'false' }).show();
+
+
+
+
+
+        $('#accordion.first-open').accordion({
+            heightStyle: 'content',
             collapsible: true
         });
         this.events();
         console.log($.ui.version);
     }
-
     events() {
-        // Expand/Collapse all
-        //this.expandCollapseAll.click(this.toggleContent.bind(this));  
+        // set the initial state
+        //$('.expand').hide();
 
-
-        $('.expand-collapse-container span').click(function() {
-            $('#accordion .ui-accordion-header:not(.ui-state-active)').next().slideToggle();
-            $(this).text($(this).text() == 'Expand all' ? 'Collapse all' : 'Expand all');
-            $(this).toggleClass('collapse-all');
-            return false;
+        $('.expand').click(function() {
+            $(this).closest('div').find('h3').removeClass('ui-accordion-header-collapsed').addClass('ui-accordion-header-active').attr({ 'aria-selected': 'true', 'tabindex': '0' });
+            //$('h3 .ui-icon').removeClass('ui-icon-triangle-1-e').addClass('ui-icon-triangle-1-s');
+            $(this).closest('div').find('.ui-accordion-content').addClass('ui-accordion-content-active').attr({ 'aria-expanded': 'true', 'aria-hidden': 'false' }).show();
+            $(this).hide();
+            $(this).parent('span').find('.collapse').show();
         });
-        /*
- $("#accordion").accordion({collapsible:true, active:false});
-    $('.open').click(function () {
-        $('.ui-accordion-header').removeClass('ui-corner-all').addClass('ui-accordion-header-active ui-state-active ui-corner-top').attr({'aria-selected':'true','tabindex':'0'});
-        $('.ui-accordion-header .ui-icon').removeClass('ui-icon-triangle-1-e').addClass('ui-icon-triangle-1-s');
-        $('.ui-accordion-content').addClass('ui-accordion-content-active').attr({'aria-expanded':'true','aria-hidden':'false'}).show();
-        $(this).hide();
-        $('.close').show();
-    });
-    $('.close').click(function () {
-        $('.ui-accordion-header').removeClass('ui-accordion-header-active ui-state-active ui-corner-top').addClass('ui-corner-all').attr({'aria-selected':'false','tabindex':'-1'});
-        $('.ui-accordion-header .ui-icon').removeClass('ui-icon-triangle-1-s').addClass('ui-icon-triangle-1-e');
-        $('.ui-accordion-content').removeClass('ui-accordion-content-active').attr({'aria-expanded':'false','aria-hidden':'true'}).hide();
-        $(this).hide();
-        $('.open').show();
-    });
-    $('.ui-accordion-header').click(function () {
-        $('.open').show();
-        $('.close').show();
-    });
-
-//header closed
-ui-accordion-header-icon ui-icon ui-icon-triangle-1-e
-ui-accordion-header-active
-
-        */
+        $('.collapse').click(function() {
+            $(this).closest('div').find('h3').removeClass('ui-accordion-header-active').addClass('ui-accordion-header-collapsed').attr({ 'aria-selected': 'false', 'tabindex': '-1' });
+            //$('h3 .ui-icon').removeClass('ui-icon-triangle-1-s').addClass('ui-icon-triangle-1-e');
+            $(this).closest('div').find('.ui-accordion-content').removeClass('ui-accordion-content-active').attr({ 'aria-expanded': 'false', 'aria-hidden': 'true' }).hide();
+            $(this).hide();
+            $(this).parent('span').find('.expand').show();
+        });
     }
-    /*
-    toggleContent() {
-        $('#accordion .ui-accordion-header:not(.ui-state-active)').next().slideToggle();
-        $('#accordion h3').addClass('ui-accordion-header-active').removeClass('ui-accordion-header-collapsed');
-        $(this).text($(this).text() == 'Expand all' ? 'Collapse all' : 'Expand all');
-        $(this).toggleClass('collapse');
-        return false;
-    }
-    */
 }
 export default jqueryUI;

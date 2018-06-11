@@ -410,7 +410,6 @@
 
 
 	.ico {
-		//text-indent: -9999px;
 		&.analysis {
 			&:before {
 				.controls-icon(20px, 20px);
@@ -889,11 +888,6 @@
 				.controls-icon(20px, 20px);
 				.icon-collapse();
 			}
-			&:hover {
-				&:before {
-					.icon-collapse;
-				}
-			}
 		}
 		&.facebook {
 			&:before {
@@ -901,14 +895,12 @@
 				.controls-icon(20px, 20px);
 			}
 		}
-
 		&.twitter {
 			&:before {
 				.icon-twitter();
 				.controls-icon(20px, 20px);
 			}
 		}
-
 		&.youtube {
 			&:before {
 				.icon-you-tube();
@@ -1010,13 +1002,7 @@
 				.controls-icon(35px, 35px);
 			}
 		}
-		&.beta-interactive {
-			background: transparent url(../images/icons/beta.png) no-repeat center left;
-			padding: 3px 0 2px 16px;
-			text-indent: -9999px;
-			width: 17px;
-			height: 17px;
-		}
+
 
 		&.pdf {
 			&:before {
@@ -1042,10 +1028,26 @@
 				margin-bottom: -5px;
 			}
 		}
+		&.printer {
+			&:before {
+				.controls-icon(20px, 20px);
+				.icon-print;
+				display: inline-block;
+				margin-bottom: -5px;
+			}
+		}
+		&.beta {
+			&:before {
+				.controls-icon(20px, 20px);
+				.icon-beta;
+				display: inline-block;
+				margin-bottom: -5px;
+			}
+		}
 		&.interactive {
 			&:before {
-				.icon-file-type(csv);
-				.controls-icon(18px, 18px);
+				.controls-icon(20px, 20px);
+				.icon-interactive;
 				display: inline-block;
 				margin-bottom: -5px;
 			}
