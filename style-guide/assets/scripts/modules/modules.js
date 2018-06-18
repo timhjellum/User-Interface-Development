@@ -1,5 +1,5 @@
 class ModuleScripts {
-	constructor() {
+    constructor() {
         //this.moduleVisualizations = $(".visualizations h3 a:empty");
         //this.moduleLinkList = $(".link-list a:empty");
         this.hideDescriptionIfEmpty = $(".slider-home h3 a:empty");
@@ -12,45 +12,76 @@ class ModuleScripts {
         //            $(element).closest('li').addClass("hide"); 
         //        })
 
-    this.events();
+        this.events();
     }
     events() {
-        this.hideElementIfEmpty.each((index, element) => {
-            $(element).closest('li').addClass("hide"); 
-        })
-
+        //this.hideElementIfEmpty.each((index, element) => {
+        //    $(element).closest('li').addClass("hide"); 
+        //});
 
 
 
 
         // if home slider slider href contains "?", append &x=z, else, append ?x=z
-        $('.slider-home h2 a, .slider-home h3 a').attr( "href", function(ind,attr) {
-            
+        $('.slider-home h2 a, .slider-home h3 a').attr("href", function(ind, attr) {
+
             var slideOrder = $(this).parents('li').attr('class');
             var hash_position = attr.indexOf('#');
             var new_url_argument = /\?/.test(attr) ? '&src=home-' + slideOrder : '?src=home-' + slideOrder;
 
             // if there is no hash in the url, then add the new argument to the end, otherwise insert before the hash.
             return hash_position == -1 ? (attr + new_url_argument) : attr.substring(0, hash_position) + new_url_argument + attr.substring(hash_position, attr.length)
-            //return /\?/.test(attr) ? attr + '&src=home-' + pos : attr + '?src=home-' + pos;
+                //return /\?/.test(attr) ? attr + '&src=home-' + pos : attr + '?src=home-' + pos;
         });
 
 
 
 
-        $(".slider-home h3 a:empty").each(function() {
-            $(this).parent().parent().addClass("no-description"); 
+        // $(".slider-home h3 a:empty").each(function() {
+        //     $(this).parent().parent().addClass("no-description");
+        // });
+
+        $('.slider-home h3 a').each(function() {
+            if ($(this).text().trim().length <= 0) {
+                $(this).parent().parent().addClass("no-description");
+                console.log('no description on slider so adding a no-description class');
+            }
         });
+
+        $('div.energy-education h2 a').each(function() {
+            if ($(this).text().trim().length <= 0) {
+                $(this).parent().parent().parent().parent().remove();
+                console.log('hiding empty element');
+            }
+        });
+
+        $('.visualizations h3 a').each(function() {
+            if ($(this).text().trim().length <= 0) {
+                $(this).parent().parent().remove();
+                console.log('hiding empty element');
+            }
+        });
+
+
+
+        $('.hide-mt a').each(function() {
+            if ($(this).text().trim().length <= 0) {
+                $(this).closest('li').remove();
+                console.log('hiding empty element');
+            }
+        });
+
+
         //this.hideDescriptionIfEmpty.each((index, element) => {
         //    $(element).closest('li').addClass('no-description');
         //});
 
 
 
-        $('.features a').attr( "href", function(ind,attr) {
+        $('.features a').attr("href", function(ind, attr) {
             var featureOrder = $(this).parents('div').attr('class');
             return /\?/.test(attr) ? attr + '&src=home-' + featureOrder : attr + '?src=home-' + featureOrder;
         });
-    }     
+    }
 }
 export default ModuleScripts;

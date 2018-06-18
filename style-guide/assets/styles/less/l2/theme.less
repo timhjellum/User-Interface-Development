@@ -1,0 +1,127 @@
+
+@media @mobile {
+	.l-narrow-col {
+		.secondary-alt,
+		.secondary {
+			&>ul {
+				padding: 6px;
+				&>li {
+					.font;
+					font-size: 0.688rem;
+					&.head {
+						margin-bottom: 0.750rem; // 12 pixels
+						width: 100%;
+						display: block;
+						h2  {
+							//font-size: 1.000rem; // 16 pixels
+							.header-font;
+							line-height: 1.25em;	
+							color: @eia-dark-grey;
+							font-weight: normal;
+							font-size: 1.5625rem; // 25 pixels
+							line-height: 1.3em;
+							padding: 0;
+							margin: 0;
+						}
+					}
+
+				}
+			}
+			ul {
+				padding: 6px;
+				li {
+					&.sub-head {
+						line-height: 1.3em;
+						font-size: 0.750rem; // 12 pixels
+						font-weight: 600;
+					}
+					&.description {
+						line-height: 1.3em;
+						font-size: 0.750rem; // 12 pixels
+					}
+				}
+			}
+		}
+		.secondary {
+			border-top: 4px solid @eia-blue;
+		}
+		.secondary-alt {
+			border-top: 4px solid @eia-green;
+		}
+	}
+
+//	.l-col,
+	.l-full-width-col,
+	.l-main-col,
+	.l-middle-col,
+	.l-split-narrow-col,
+	.l-split-wide-col,
+	.l-one-third-col,
+	.l-two-col,
+	.l-two-third-col
+	.l-main-col {
+		.primary-alt,
+		.primary,
+		.secondary-alt,
+		.secondary {
+            h1 {
+                display: block;
+                border-bottom: solid 1px #dadada;
+                padding: 1em 0 .4em 0;
+                clear: both;
+                line-height: 1;
+                margin-bottom: .5em;
+                font-weight: normal;
+                .header-font;
+                font-size: 26px;
+            }
+            h2 {
+                padding: 0 0 7px 0;
+                margin: 14px 0 7px 0;
+                border-bottom: 1px solid fade(@eia-black, 40%);
+                .font;
+                .bold;
+                font-size: 0.750rem * 1.35%;
+            }
+            ul {
+				li {
+					.font;
+					font-size: 0.813rem; // 13 pixels
+					&.head {
+						h2  {
+							font-size: 1.000rem; // 16 pixels
+						}
+					}
+					&.sub-head {
+						line-height: 1.3em;
+						font-size: 0.813rem; // 13 pixels
+					}
+					&.foot {
+						font-size: 0.813rem; // 13 pixels
+						a {
+							font-size: 0.813rem; // 13 pixels
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
+@media @laptop {
+    .dark-top-border-container {
+         ul {
+            li  {
+                font-size: 0.8rem; // 12 pixels
+                &.date {
+                    font-size: 0.7rem; // 11 pixels   
+                }
+                &.head {
+                    h2  {
+                        font-size: 1.125rem; // 18 pixels
+                    }
+                }
+            }
+        }        
+    }
+}

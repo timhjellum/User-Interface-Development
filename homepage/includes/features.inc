@@ -23,41 +23,65 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 /* DO NOT EDIT BELOW */
 ?>
 
-<div class="content-container dark-top-border-container features">
-	<h2>Features</h2>
-	<div class="f1">
-		<div>
-			<a href='<?=$featureOneURL?>'>
+    <div class="dark-top-border-container features">
+        <h2>Features</h2>
+        <div class="f1">
+            <div>
+                <a href='<?=$featureOneURL?>'>
 				<img src='/homepage/images/features/<?=$featureOneImageName?>' alt='<?=$featureOneAlt?>' />
 			</a>
-		</div>
-		<ul>
-			<li class="head"><h3><a href='<?=$featureOneURL?>'><?=$featureOneLabel?></a></h3></li>
-			<li><?=$featureOneDescription?></li>
-		</ul>
-	</div>
+            </div>
+            <ul>
+                <li class="head">
+                    <h3>
+                        <a href='<?=$featureOneURL?>'>
+                            <?=$featureOneLabel?>
+                        </a>
+                    </h3>
+                </li>
+                <li>
+                    <?=$featureOneDescription?>
+                </li>
+            </ul>
+        </div>
 
-	<div class="f2">
-		<div>
-			<a href='<?=$featureTwoURL?>'>
+        <div class="f2">
+            <div>
+                <a href='<?=$featureTwoURL?>'>
 				<img src='/homepage/images/features/<?=$featureTwoImageName?>' alt='<?=$featureTwoAlt?>' />
 			</a>
-		</div>
-		<ul>
-			<li class="head"><h3><a href='<?=$featureTwoURL?>'><?=$featureTwoLabel?></a></h3></li>
-			<li><?=$featureTwoDescription?></li>
-		</ul>
-	</div>
+            </div>
+            <ul>
+                <li class="head">
+                    <h3>
+                        <a href='<?=$featureTwoURL?>'>
+                            <?=$featureTwoLabel?>
+                        </a>
+                    </h3>
+                </li>
+                <li>
+                    <?=$featureTwoDescription?>
+                </li>
+            </ul>
+        </div>
 
-	<div class="f3">
-		<div>
-			<a href='<?=$featureThreeURL?>'>
+        <div class="f3">
+            <div>
+                <a href='<?=$featureThreeURL?>'>
 				<img src='/homepage/images/features/<?=$featureThreeImageName?>' alt='<?=$featureThreeAlt?>' />
 			</a>
-		</div>
-		<ul>
-			<li class="head"><h3><a href='<?=$featureThreeURL?>'><?=$featureThreeLabel?></a></h3></li>
-			<li><?=$featureThreeDescription?></li>
-		</ul>
-	</div>
-</div>
+            </div>
+            <ul>
+                <li class="head">
+                    <h3>
+                        <a href='<?=$featureThreeURL?>'>
+                            <?=$featureThreeLabel?>
+                        </a>
+                    </h3>
+                </li>
+                <li>
+                    <?=$featureThreeDescription?>
+                </li>
+            </ul>
+        </div>
+    </div>

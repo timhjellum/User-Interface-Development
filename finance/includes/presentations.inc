@@ -13,15 +13,26 @@ $TwoLabel = "Financial working papers";
 
 
 ?>
-<?php
+    <?php
 /* DO NOT EDIT BELOW */
 ?>
 
-<div class="content-container standard-container hide-mt">
-	<ul>
-		<li class="head"><h2><?=$mainTitle?></h2></li>
-        <li><a href='<?=$OneURL?>' title='<?=$OneLabel?>'><?=$OneLabel?></a></li>
-		<li><a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'><?=$TwoLabel?></a></li>
-	</ul>
-</div>
-
+        <div class="secondary hide-mt">
+            <ul>
+                <li class="head">
+                    <h2>
+                        <?=$mainTitle?>
+                    </h2>
+                </li>
+                <li>
+                    <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
+                        <?=$OneLabel?>
+                    </a>
+                </li>
+                <li>
+                    <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'>
+                        <?=$TwoLabel?>
+                    </a>
+                </li>
+            </ul>
+        </div>

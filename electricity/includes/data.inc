@@ -1,26 +1,26 @@
 <p>
     Find statistics on electric power plants, capacity, generation, fuel consumption, sales, prices and customers.</p>
-<span class="expand-collapse-container"> <span class="open">Expand all</span> </span>
-<div id="accordion">
-
-
-
-
-    <a name="summary"></a>Summary</h3>
+<span class="expand-collapse-container">
+<i class="ico expand"><span>Expand all</span></i>
+<i class="ico collapse"><span>Collapse all</span></i>
+</span>
+<div id="accordion" class="accordion">
+    <h3>
+        <a name="summary"></a>Summary</h3>
     <div class="content">
         <ul>
             <li>
                 Electricity overview
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
             </li>
             <li>
                 <span class="source">Interactive
 							<span class="source">data from:</span> Total Energy Data Browser</li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="/totalenergy/data/monthly/pdf/sec7_3.pdf" class="ico_pdf" title=" Electricity overview">
+                <a href="/totalenergy/data/monthly/pdf/sec7_3.pdf" title=" Electricity overview">
                     <i class="ico pdf">
 								<span>PDF</span>
 							</i>
@@ -28,12 +28,12 @@
             </li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.01" class="ico_csv" title=" Electricity overview">
+                <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.01" title=" Electricity overview">
                     <i class="ico csv">
 								<span>CSV</span>
 							</i>
                 </a>
-                <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.01&amp;freq=m" class="ico_xls" title=" Electricity overview">
+                <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.01&amp;freq=m" title=" Electricity overview">
                     <i class="ico xls">
 								<span>XLS</span>
 							</i>
@@ -47,13 +47,13 @@
             <li>
                 Total electric power industry summary statistics
             </li>
-            <li class="item-divider">
+            <li>
                 <ul>
                     <li>
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -62,7 +62,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_es1a.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - monthly">
+                                <a href="/electricity/monthly/xls/table_es1a.xlsx" title=" Total electric power industry summary statistics - monthly">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -73,7 +73,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_es1b.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - Year-to-date">
+                                <a href="/electricity/monthly/xls/table_es1b.xlsx" title=" Total electric power industry summary statistics - Year-to-date">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -84,7 +84,7 @@
                     <li>
                         Annual (back to 2005)</li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -93,7 +93,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_01_02.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - annual">
+                                <a href="/electricity/annual/xls/epa_01_02.xlsx" title=" Total electric power industry summary statistics - annual">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -104,7 +104,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_01_03.xlsx" class="ico_xls" title=" Total electric power industry summary statistics - annual Supply and disposition of electricity">
+                                <a href="/electricity/annual/xls/epa_01_03.xlsx" title=" Total electric power industry summary statistics - annual Supply and disposition of electricity">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -160,7 +160,7 @@
                     <li>Revenue, sales, customer counts, and retail price by state and sector</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/data/eia826/xls/sales_revenue.xls" class="ico_xls" title=" Revenue, sales, customer counts, and retail price by state and sector">
+                        <a href="/electricity/data/eia826/xls/sales_revenue.xls" title=" Revenue, sales, customer counts, and retail price by state and sector">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -173,13 +173,13 @@
             <li>
                 Retail sales of electricity to ultimate customers
             </li>
-            <li class="item-divider">
+            <li>
                 <ul>
                     <li>
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -188,7 +188,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_5_04_b.xlsx" class="ico_xls" title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers">
+                                <a href="/electricity/monthly/xls/table_5_04_b.xlsx" title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -210,7 +210,7 @@
                         Annual
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -218,7 +218,7 @@
                                 <a href="/electricity/annual/html/epa_02_02.html" title=" Annual retail sales of electricity to ultimate customers">By sector, by provider</a> (back to 2005, Interactive to 2001)</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_02_02.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers">
+                                <a href="/electricity/annual/xls/epa_02_02.xlsx" title=" Annual retail sales of electricity to ultimate customers">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -235,7 +235,7 @@
                             <li>By sector, by state, by provider (back to 1990)</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/data/state/sales_annual.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers by sector, by state, by provider">
+                                <a href="/electricity/data/state/sales_annual.xlsx" title=" Annual retail sales of electricity to ultimate customers by sector, by state, by provider">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -253,19 +253,19 @@
                                 <a href="/electricity/data/eia861/">Form EIA-861 annual survey data</a>
                             </li>
                             <li class="include">
-                                <?php include('css_rehab/archive/electricity/sales_revenue_price/esr-header.inc') ?>
+                                <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
                             </li>
                             <li class="list-item">
                                 <ul>
                                     <li>Residential sector</li>
                                     <li>
                                         <span class="formats">Available formats:</span>
-                                        <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector">
+                                        <a href="/electricity/sales_revenue_price/pdf/table6.pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector">
                                             <i class="ico pdf">
 														<span>PDF</span>
 													</i>
                                         </a>
-                                        <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector">
+                                        <a href="/electricity/sales_revenue_price/xls/table6.xlsx" title=" Annual retail sales of electricity to ultimate customers By state and utility residential sector">
                                             <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -276,12 +276,12 @@
                                     <li>Commercial sector</li>
                                     <li>
                                         <span class="formats">Available formats:</span>
-                                        <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector">
+                                        <a href="/electricity/sales_revenue_price/pdf/table7.pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector">
                                             <i class="ico pdf">
 														<span>PDF</span>
 													</i>
                                         </a>
-                                        <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector">
+                                        <a href="/electricity/sales_revenue_price/xls/table7.xlsx" title=" Annual retail sales of electricity to ultimate customers By state and utility commercial sector">
                                             <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -292,12 +292,12 @@
                                     <li>Industrial sector</li>
                                     <li>
                                         <span class="formats">Available formats:</span>
-                                        <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector">
+                                        <a href="/electricity/sales_revenue_price/pdf/table8.pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector">
                                             <i class="ico pdf">
 														<span>PDF</span>
 													</i>
                                         </a>
-                                        <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector">
+                                        <a href="/electricity/sales_revenue_price/xls/table8.xlsx" title=" Annual retail sales of electricity to ultimate customers By state and utility industrial sector">
                                             <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -308,12 +308,12 @@
                                     <li>Transportation sector</li>
                                     <li>
                                         <span class="formats">Available formats:</span>
-                                        <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector">
+                                        <a href="/electricity/sales_revenue_price/pdf/table9.pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector">
                                             <i class="ico pdf">
 														<span>PDF</span>
 													</i>
                                         </a>
-                                        <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector">
+                                        <a href="/electricity/sales_revenue_price/xls/table9.xlsx" title=" Annual retail sales of electricity to ultimate customers By state and utility transportation sector">
                                             <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -324,12 +324,12 @@
                                     <li>Total, all sectors </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
-                                        <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors">
+                                        <a href="/electricity/sales_revenue_price/pdf/table10.pdf" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors">
                                             <i class="ico pdf">
 														<span>PDF</span>
 													</i>
                                         </a>
-                                        <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors">
+                                        <a href="/electricity/sales_revenue_price/xls/table10.xlsx" title=" Annual retail sales of electricity to ultimate customers By state and utility all sectors">
                                             <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -350,10 +350,10 @@
                 Monthly
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -362,7 +362,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_5_02.xlsx" class="ico_xls" title="monthly revenue from retail sales of electricity to ultimate customers">
+                        <a href="/electricity/monthly/xls/table_5_02.xlsx" title="monthly revenue from retail sales of electricity to ultimate customers">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -379,7 +379,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_5_05_a.xlsx" class="ico_xls" title="monthly revenue from retail sales of electricity to ultimate customers">
+                        <a href="/electricity/monthly/xls/table_5_05_a.xlsx" title="monthly revenue from retail sales of electricity to ultimate customers">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -401,19 +401,19 @@
                         <a href="/electricity/annual/html/epa_02_03.html" title=" annual revenue from retail sales of electricity to ultimate customers By sector">By sector, by provider</a> (back to 2005)</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_02_03.xlsx" class="ico_xls" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by provider (back to 2005)">
+                        <a href="/electricity/annual/xls/epa_02_03.xlsx" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by provider (back to 2005)">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
                         </a>
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                     </li>
                     <li>By sector, by state, by provider (back to 1990)</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/data/state/revenue_annual.xlsx" class="ico_xls" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by state, by provider (back to 2005)">
+                        <a href="/electricity/data/state/revenue_annual.xlsx" title=" annual revenue from retail sales of electricity to ultimate customers By sector, by state, by provider (back to 2005)">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -437,17 +437,17 @@
                         </a>
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li>
                         By state and utility
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/sales_revenue_price/esr-header.inc') ?>
+                        <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
                     </li>
                     <li>Residential sector</li>
                     <li>
-                        <a href="/electricity/sales_revenue_price/xls/table6.xls" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, residential sector">
+                        <a href="/electricity/sales_revenue_price/xls/table6.xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, residential sector">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -455,7 +455,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility residential, sector">
+                        <a href="/electricity/sales_revenue_price/pdf/table6.pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility residential, sector">
                             <i class="ico pdf">
 										<span>PDF</span>
 									</i>
@@ -464,14 +464,14 @@
                     <li>Commercial sector</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector">
+                        <a href="/electricity/sales_revenue_price/pdf/table7.pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector">
                             <i class="ico pdf">
 										<span>PDF</span>
 									</i>
                         </a>
                     </li>
                     <li>
-                        <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector">
+                        <a href="/electricity/sales_revenue_price/xls/table7.xlsx" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, commercial sector">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -480,14 +480,14 @@
                     <li>Industrial sector</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility Industrial sector">
+                        <a href="/electricity/sales_revenue_price/pdf/table8.pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility Industrial sector">
                             <i class="ico pdf">
 										<span>PDF</span>
 									</i>
                         </a>
                     </li>
                     <li>
-                        <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, Industrial sector">
+                        <a href="/electricity/sales_revenue_price/xls/table8.xlsx" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, Industrial sector">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -496,14 +496,14 @@
                     <li>Transportation sector</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector">
+                        <a href="/electricity/sales_revenue_price/pdf/table9.pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector">
                             <i class="ico pdf">
 										<span>PDF</span>
 									</i>
                         </a>
                     </li>
                     <li>
-                        <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector">
+                        <a href="/electricity/sales_revenue_price/xls/table9.xlsx" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, transportation sector">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -512,12 +512,12 @@
                     <li>Total, all sectors</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, all sectors">
+                        <a href="/electricity/sales_revenue_price/pdf/table10.pdf" title=" Annual revenue from retail sales of electricity to ultimate customers By state and utility, all sectors">
                             <i class="ico pdf">
 										<span>PDF</span>
 									</i>
                         </a>
-                        <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls">
+                        <a href="/electricity/sales_revenue_price/xls/table10.xlsx">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -528,7 +528,7 @@
         </ul>
         </li>
 
-        <li class="item-divider">
+        <li>
             Average retail price of electricity to ultimate customers:
         </li>
         <li class="list-item">
@@ -537,10 +537,10 @@
                     Monthly
                 </li>
                 <li class="include">
-                    <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                    <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                 </li>
                 <li class="include">
-                    <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                    <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
                 </li>
                 <li class="list-item">
                     <ul>
@@ -549,7 +549,7 @@
                         </li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/monthly/xls/table_5_03.xlsx" class="ico_xls" title="Monthly average retail price of electricity to ultimate customers">
+                            <a href="/electricity/monthly/xls/table_5_03.xlsx" title="Monthly average retail price of electricity to ultimate customers">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -565,7 +565,7 @@
                         </li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/monthly/xls/table_5_06_a.xlsx" class="ico_xls" title="Monthly average retail price of electricity to ultimate customers">
+                            <a href="/electricity/monthly/xls/table_5_06_a.xlsx" title="Monthly average retail price of electricity to ultimate customers">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -587,11 +587,11 @@
                             <a href="/electricity/annual/html/epa_02_04.html" title="Annual  average retail price of electricity to ultimate customers">By sector, by provider</a> (back to 2005)
                         </li>
                         <li class="include">
-                            <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                            <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                         </li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/annual/xls/epa_02_04.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider(back to 2005)">
+                            <a href="/electricity/annual/xls/epa_02_04.xlsx" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider(back to 2005)">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -607,7 +607,7 @@
                         </li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/data/state/avgprice_annual.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider (back to 1990)">
+                            <a href="/electricity/data/state/avgprice_annual.xlsx" title="Annual  average retail price of electricity to ultimate customers  by sector, by provider (back to 1990)">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -615,25 +615,25 @@
                         </li>
                         <li>By sector, by state (back to 2001)</li>
                         <li class="include">
-                            <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                            <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
                         </li>
                         <li>
                             By state and utility
                         </li>
                         <li class="include">
-                            <?php include('css_rehab/archive/electricity/sales_revenue_price/esr-header.inc') ?>
+                            <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
                         </li>
                         <li>Residential sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table6.pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
                         </li>
                         <li>
-                            <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector">
+                            <a href="/electricity/sales_revenue_price/xls/table6.xlsx" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, residential sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -642,12 +642,12 @@
                         <li>Commercial sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table7.pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector">
+                            <a href="/electricity/sales_revenue_price/xls/table7.xlsx" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, commercial sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -656,12 +656,12 @@
                         <li>Industrial sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table8.pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector">
+                            <a href="/electricity/sales_revenue_price/xls/table8.xlsx" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, industrial sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -670,12 +670,12 @@
                         <li>Transportation sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table9.pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector">
+                            <a href="/electricity/sales_revenue_price/xls/table9.xlsx" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, transportation sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -684,12 +684,12 @@
                         <li>All sectors</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors">
+                            <a href="/electricity/sales_revenue_price/pdf/table10.pdf" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors">
+                            <a href="/electricity/sales_revenue_price/xls/table10.xlsx" title="Annual  average retail price of electricity to ultimate customers  by sector, by state and utility, all sectors">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -704,34 +704,34 @@
         <li>
             Number of customers (annual):
         </li>
-        <li class="item-divider">
+        <li>
             <ul>
                 <li>
                     <a href="/electricity/annual/html/epa_02_01.html" title=" Number of customers (annual) (back to 2005)">By sector, by provider</a> (back to 2005)
                 </li>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/annual/xls/epa_02_01.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005)">
+                    <a href="/electricity/annual/xls/epa_02_01.xlsx" title=" Number of customers (annual) (back to 2005)">
                         <i class="ico xls">
 									<span>XLS</span>
 								</i>
                     </a>
                 </li>
                 <li class="include">
-                    <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                    <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                 </li>
                 <li>
                     By sector by state and/or utility
                 </li>
                 <li class="include">
-                    <?php include('css_rehab/archive/electricity/sales_revenue_price/esr-header.inc') ?>
+                    <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
                 </li>
                 <li class="list-item">
                     <ul>
                         <li>By state, by provider</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/data/state/customers_annual.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, by provider">
+                            <a href="/electricity/data/state/customers_annual.xlsx" title=" Number of customers (annual) (back to 2005) by state, by provider">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -740,12 +740,12 @@
                         <li>By state by sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table1.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, by sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table1.pdf" title=" Number of customers (annual) (back to 2005) by state, by sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table1.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, by sector">
+                            <a href="/electricity/sales_revenue_price/xls/table1.xlsx" title=" Number of customers (annual) (back to 2005) by state, by sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -754,12 +754,12 @@
                         <li>Residential sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table6.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, residential sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table6.pdf" title=" Number of customers (annual) (back to 2005) by state, residential sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table6.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, residential sector">
+                            <a href="/electricity/sales_revenue_price/xls/table6.xlsx" title=" Number of customers (annual) (back to 2005) by state, residential sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -768,12 +768,12 @@
                         <li>Commercial sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table7.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, commercial sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table7.pdf" title=" Number of customers (annual) (back to 2005) by state, commercial sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table7.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, commercial sector">
+                            <a href="/electricity/sales_revenue_price/xls/table7.xlsx" title=" Number of customers (annual) (back to 2005) by state, commercial sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -782,12 +782,12 @@
                         <li>Industrial sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table8.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, industrial sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table8.pdf" title=" Number of customers (annual) (back to 2005) by state, industrial sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table8.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, industrial sector">
+                            <a href="/electricity/sales_revenue_price/xls/table8.xlsx" title=" Number of customers (annual) (back to 2005) by state, industrial sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -796,12 +796,12 @@
                         <li>Transportation sector</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table9.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, transportation sector">
+                            <a href="/electricity/sales_revenue_price/pdf/table9.pdf" title=" Number of customers (annual) (back to 2005) by state, transportation sector">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table9.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, transportation sector">
+                            <a href="/electricity/sales_revenue_price/xls/table9.xlsx" title=" Number of customers (annual) (back to 2005) by state, transportation sector">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -810,12 +810,12 @@
                         <li>All sectors by state and utility</li>
                         <li>
                             <span class="formats">Available formats:</span>
-                            <a href="/electricity/sales_revenue_price/pdf/table10.pdf" class="ico_pdf" title=" Number of customers (annual) (back to 2005) by state, all sectors">
+                            <a href="/electricity/sales_revenue_price/pdf/table10.pdf" title=" Number of customers (annual) (back to 2005) by state, all sectors">
                                 <i class="ico pdf">
 											<span>PDF</span>
 										</i>
                             </a>
-                            <a href="/electricity/sales_revenue_price/xls/table10.xlsx" class="ico_xls" title=" Number of customers (annual) (back to 2005) by state, all sectors">
+                            <a href="/electricity/sales_revenue_price/xls/table10.xlsx" title=" Number of customers (annual) (back to 2005) by state, all sectors">
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
@@ -857,11 +857,11 @@
                                 <a href="/electricity/annual/html/epa_04_10.html">Net metering customers and capacity by technology type, by end use sector</a>
                             </li>
                             <li class="include">
-                                <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_04_10.xlsx" class="ico_xls" title=" annual net metering back to 2005">
+                                <a href="/electricity/annual/xls/epa_04_10.xlsx" title=" annual net metering back to 2005">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -899,7 +899,7 @@
                             <li>Monthly (back to 2001)</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/data/state/generation_monthly.xlsx" class="ico_xls" title=" State-level generation and fuel consumption, monthly (back to 2001)">
+                                <a href="/electricity/data/state/generation_monthly.xlsx" title=" State-level generation and fuel consumption, monthly (back to 2001)">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -910,7 +910,7 @@
                             <li>Annual (back to 1990)</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/data/state/annual_generation_state.xls" class="ico_xls" title=" State-level generation and fuel consumption, annual (back to 1990)">
+                                <a href="/electricity/data/state/annual_generation_state.xls" title=" State-level generation and fuel consumption, annual (back to 1990)">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -931,10 +931,10 @@
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -943,7 +943,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_1_01.xlsx" class="ico_xls" title="Monthly Net generation By all energy sources">
+                                <a href="/electricity/monthly/xls/table_1_01.xlsx" title="Monthly Net generation By all energy sources">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -962,7 +962,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_1_01_a.xlsx" class="ico_xls" title="Monthly Net generation By type of renewable source">
+                                <a href="/electricity/monthly/xls/table_1_01_a.xlsx" title="Monthly Net generation By type of renewable source">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -978,7 +978,7 @@
                         <ul>
                             <li>By energy source (plus by annual back to 1950)</li>
                             <li class="include">
-                                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                                <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
                             </li>
                             <li>
                                 <span class="source">Interactive
@@ -988,17 +988,17 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/totalenergy/data/monthly/pdf/sec7_5.pdf" class="ico_pdf" title="Monthly Net generation By energy source (plus by annual back to 1950)">
+                                <a href="/totalenergy/data/monthly/pdf/sec7_5.pdf" title="Monthly Net generation By energy source (plus by annual back to 1950)">
                                     <i class="ico pdf">
 												<span>PDF</span>
 											</i>
                                 </a>
-                                <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.02A" class="ico_csv" title="Monthly Net generation By energy source (plus by annual back to 1950)">
+                                <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.02A" title="Monthly Net generation By energy source (plus by annual back to 1950)">
                                     <i class="ico csv">
 												<span>CSV</span>
 											</i>
                                 </a>
-                                <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.02A&amp;freq=m" class="ico_xls" title="Monthly Net generation By energy source (plus by annual back to 1950)">
+                                <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.02A&amp;freq=m" title="Monthly Net generation By energy source (plus by annual back to 1950)">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1015,10 +1015,10 @@
                         By energy source and producing sector
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -1027,7 +1027,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_1_02.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Electric utilities">
+                                <a href="/electricity/monthly/xls/table_1_02.xlsx" title="Monthly Net generation By energy source and producing sector Electric utilities">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1046,7 +1046,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_1_03.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector  Independent power producers">
+                                <a href="/electricity/monthly/xls/table_1_03.xlsx" title="Monthly Net generation By energy source and producing sector  Independent power producers">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1065,7 +1065,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_1_04.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Commercial combined heat and power sector">
+                                <a href="/electricity/monthly/xls/table_1_04.xlsx" title="Monthly Net generation By energy source and producing sector Commercial combined heat and power sector">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1084,7 +1084,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_1_05.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Industrial combined heat and power sector">
+                                <a href="/electricity/monthly/xls/table_1_05.xlsx" title="Monthly Net generation By energy source and producing sector Industrial combined heat and power sector">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1103,7 +1103,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_1_05.xlsx" class="ico_xls" title="Monthly Net generation By energy source and producing sector Residential combined heat and power sector">
+                                <a href="/electricity/monthly/xls/table_1_05.xlsx" title="Monthly Net generation By energy source and producing sector Residential combined heat and power sector">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1127,10 +1127,10 @@
 								Annual
 							</li>
 							<li class="incluide">
-								<?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+								<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
 							</li>
 							<li class="include">
-								<?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+								<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
 							</li>
 							<li class="list-item">
 								<ul>
@@ -1144,7 +1144,7 @@
             </li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="/electricity/annual/xls/epa_03_01_a.xlsx" class="ico_xls" title="Annual Net generation By all energy sources and by producing sector  All sectors">
+                <a href="/electricity/annual/xls/epa_03_01_a.xlsx" title="Annual Net generation By all energy sources and by producing sector  All sectors">
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1163,7 +1163,7 @@
             </li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="/electricity/annual/xls/epa_03_02_a.xlsx" class="ico_xls" title="Annual Net generation By all energy sources and by producing sector  Electric utilities">
+                <a href="/electricity/annual/xls/epa_03_02_a.xlsx" title="Annual Net generation By all energy sources and by producing sector  Electric utilities">
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1181,7 +1181,7 @@
             </li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="/electricity/annual/xls/epa_03_03_a.xlsx" class="ico_xls" title="Annual Net generation By all energy sources and by producing sector  Independent power producers">
+                <a href="/electricity/annual/xls/epa_03_03_a.xlsx" title="Annual Net generation By all energy sources and by producing sector  Independent power producers">
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1199,7 +1199,7 @@
             </li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="/electricity/annual/xls/epa_03_04_a.xlsx" class="ico_xls" title="Annual Net generation   Commercial sector">
+                <a href="/electricity/annual/xls/epa_03_04_a.xlsx" title="Annual Net generation   Commercial sector">
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1217,7 +1217,7 @@
             </li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="/electricity/annual/xls/epa_03_05_a.xlsx" class="ico_xls" title="Annual Net generation   Industrial sector">
+                <a href="/electricity/annual/xls/epa_03_05_a.xlsx" title="Annual Net generation   Industrial sector">
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1240,7 +1240,7 @@
                 </li>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/annual/xls/epa_03_01_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source All sectors">
+                    <a href="/electricity/annual/xls/epa_03_01_b.xlsx" title="Annual Net generation  By type of renewable source All sectors">
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1258,7 +1258,7 @@
                 </li>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/annual/xls/epa_03_02_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Electric utilities">
+                    <a href="/electricity/annual/xls/epa_03_02_b.xlsx" title="Annual Net generation  By type of renewable source Electric utilities">
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1276,7 +1276,7 @@
                 </li>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/annual/xls/epa_03_03_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Independent power producers">
+                    <a href="/electricity/annual/xls/epa_03_03_b.xlsx" title="Annual Net generation  By type of renewable source Independent power producers">
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1294,7 +1294,7 @@
                 </li>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/annual/xls/epa_03_04_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Commercial sector">
+                    <a href="/electricity/annual/xls/epa_03_04_b.xlsx" title="Annual Net generation  By type of renewable source Commercial sector">
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1312,7 +1312,7 @@
                 </li>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/annual/xls/epa_03_05_b.xlsx" class="ico_xls" title="Annual Net generation  By type of renewable source Industrial sector">
+                    <a href="/electricity/annual/xls/epa_03_05_b.xlsx" title="Annual Net generation  By type of renewable source Industrial sector">
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
@@ -1342,7 +1342,7 @@
                         By energy source and type of combined heat and power producers
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -1351,7 +1351,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_03_23.xlsx" class="ico_xls" title="Useful thermal output All sectors">
+                                <a href="/electricity/annual/xls/epa_03_23.xlsx" title="Useful thermal output All sectors">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1364,7 +1364,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_03_24.xlsx" class="ico_xls" title="Useful thermal output Electric power sector">
+                                <a href="/electricity/annual/xls/epa_03_24.xlsx" title="Useful thermal output Electric power sector">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1377,7 +1377,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_03_25.xlsx" class="ico_xls" title="Useful thermal output Commercial sector">
+                                <a href="/electricity/annual/xls/epa_03_25.xlsx" title="Useful thermal output Commercial sector">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1390,7 +1390,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_03_26.xlsx" class="ico_xls" title="Useful thermal output Industrial sector">
+                                <a href="/electricity/annual/xls/epa_03_26.xlsx" title="Useful thermal output Industrial sector">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1443,14 +1443,14 @@
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
                             <li>New electric generating units</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_6_03.xlsx" class="ico_xls" title="Monthly New electric generating units">
+                                <a href="/electricity/monthly/xls/table_6_03.xlsx" title="Monthly New electric generating units">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1461,7 +1461,7 @@
                             <li>Planned electric generating unit additions</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_6_05.xlsx" class="ico_xls" title="Monthly Planned electric generating unit additions">
+                                <a href="/electricity/monthly/xls/table_6_05.xlsx" title="Monthly Planned electric generating unit additions">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1472,7 +1472,7 @@
                             <li>Planned electric generating unit retirements</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_6_06.xlsx" class="ico_xls" title="Monthly Planned electric generating unit retirements">
+                                <a href="/electricity/monthly/xls/table_6_06.xlsx" title="Monthly Planned electric generating unit retirements">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1483,7 +1483,7 @@
                             <li>Retired electric generating units</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_6_04.xlsx" class="ico_xls" title="Monthly Retired electric generating units">
+                                <a href="/electricity/monthly/xls/table_6_04.xlsx" title="Monthly Retired electric generating units">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1497,7 +1497,7 @@
                 Annual
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -1506,7 +1506,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_03.xlsx" class="ico_xls" title="Annual Net generation By energy source">
+                        <a href="/electricity/annual/xls/epa_04_03.xlsx" title="Annual Net generation By energy source">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1519,7 +1519,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_04.xlsx" class="ico_xls" title="Annual Net generation By producer type">
+                        <a href="/electricity/annual/xls/epa_04_04.xlsx" title="Annual Net generation By producer type">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1532,7 +1532,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_02_a.xlsx" class="ico_xls" title="Annual Net generation By energy source, by producer">
+                        <a href="/electricity/annual/xls/epa_04_02_a.xlsx" title="Annual Net generation By energy source, by producer">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1545,7 +1545,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_02_b.xlsx" class="ico_xls" title="Annual Net generation By other renewables, by producer">
+                        <a href="/electricity/annual/xls/epa_04_02_b.xlsx" title="Annual Net generation By other renewables, by producer">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1556,7 +1556,7 @@
                     <li>Existing capacity by energy source, by producer, by state back to 2000 (annual data from: the EIA-860)</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/data/state/existcapacity_annual.xls" class="ico_xls" title="Existing capacity by energy source, by producer, by state back to 2000 (annual data from: the EIA-860)">
+                        <a href="/electricity/data/state/existcapacity_annual.xls" title="Existing capacity by energy source, by producer, by state back to 2000 (annual data from: the EIA-860)">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1569,7 +1569,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_06.xlsx" class="ico_xls" title="Annual Additions, retirements and changes in 2015">
+                        <a href="/electricity/annual/xls/epa_04_06.xlsx" title="Annual Additions, retirements and changes in 2015">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1582,7 +1582,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_05.xlsx" class="ico_xls" title="Annual Planned generating capacity changes, by energy source, 2016-2020">
+                        <a href="/electricity/annual/xls/epa_04_05.xlsx" title="Annual Planned generating capacity changes, by energy source, 2016-2020">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1595,7 +1595,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_01.xlsx" class="ico_xls" title="Annual Count of power plants by predominant source">
+                        <a href="/electricity/annual/xls/epa_04_01.xlsx" title="Annual Count of power plants by predominant source">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1608,7 +1608,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_08_02.xlsx" class="ico_xls" title="Annual Heat rates for selected energy sources">
+                        <a href="/electricity/annual/xls/epa_08_02.xlsx" title="Annual Heat rates for selected energy sources">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1621,7 +1621,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_04_04.xlsx" class="ico_xls" title="Annual Heat rates by prime mover">
+                        <a href="/electricity/annual/xls/epa_04_04.xlsx" title="Annual Heat rates by prime mover">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1635,7 +1635,7 @@
                         <a href="/electricity/data/eia860/">Form EIA-860</a>)</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/data/state/plancapacity_annual.xls" class="ico_xls" title="Annual Proposed additions by year, energy source, and state">
+                        <a href="/electricity/data/state/plancapacity_annual.xls" title="Annual Proposed additions by year, energy source, and state">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1688,7 +1688,7 @@
             <li>Monthly and annual
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
             </li>
             <li>
                 <span class="source">Interactive
@@ -1700,17 +1700,17 @@
                     <li>All combustible fuels (monthly back to 1973, annual to 1949)</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/totalenergy/data/monthly/pdf/sec7_9.pdf" class="ico_pdf" title="All combustible fuels (monthly back to 1973, annual to 1949)">
+                        <a href="/totalenergy/data/monthly/pdf/sec7_9.pdf" title="All combustible fuels (monthly back to 1973, annual to 1949)">
                             <i class="ico pdf">
 										<span>PDF</span>
 									</i>
                         </a>
-                        <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.03A" class="ico_csv" title="All combustible fuels (monthly back to 1973, annual to 1949)">
+                        <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.03A" title="All combustible fuels (monthly back to 1973, annual to 1949)">
                             <i class="ico csv">
 										<span>CSV</span>
 									</i>
                         </a>
-                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.03A&amp;freq=m" class="ico_xls" title="All combustible fuels (monthly back to 1973, annual to 1949)">
+                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.03A&amp;freq=m" title="All combustible fuels (monthly back to 1973, annual to 1949)">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1727,10 +1727,10 @@
                         By energy source
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -1739,7 +1739,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_2_01_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by coal">
+                                <a href="/electricity/monthly/xls/table_2_01_a.xlsx" title="Consumption of fuels used to generate electricity by coal">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1758,7 +1758,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_2_02_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by Petroleum liquids">
+                                <a href="/electricity/monthly/xls/table_2_02_a.xlsx" title="Consumption of fuels used to generate electricity by Petroleum liquids">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1777,7 +1777,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_2_03_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by Petroleum coke">
+                                <a href="/electricity/monthly/xls/table_2_03_a.xlsx" title="Consumption of fuels used to generate electricity by Petroleum coke">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1796,7 +1796,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_2_04_a.xlsx" class="ico_xls" title="Consumption of fuels used to generate electricity by Natural gas">
+                                <a href="/electricity/monthly/xls/table_2_04_a.xlsx" title="Consumption of fuels used to generate electricity by Natural gas">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1817,7 +1817,7 @@
                             <li>Monthly</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/data/state/consumption_monthly.xls" class="ico_xls" title="Consumption of fuels used to generate electricity by industry type and state, monthly">
+                                <a href="/electricity/data/state/consumption_monthly.xls" title="Consumption of fuels used to generate electricity by industry type and state, monthly">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1828,7 +1828,7 @@
                             <li>Annual (back to 1990)</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/data/state/annual_consumption_state.xls" class="ico_xls" title="Consumption of fuels used to generate electricity by industry type and state, annual">
+                                <a href="/electricity/data/state/annual_consumption_state.xls" title="Consumption of fuels used to generate electricity by industry type and state, annual">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1857,14 +1857,14 @@
                 Monthly summary
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
                     <li>Physical units</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_es2a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation Physical units">
+                        <a href="/electricity/monthly/xls/table_es2a.xlsx" title="Monthly summary Receipts of fossil-fuels for electricity generation Physical units">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1875,7 +1875,7 @@
                     <li>Btu</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_es2b.xlsx" class="ico_xls">
+                        <a href="/electricity/monthly/xls/table_es2b.xlsx">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1893,7 +1893,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_4_06_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation coal">
+                        <a href="/electricity/monthly/xls/table_4_06_a.xlsx" title="Monthly summary Receipts of fossil-fuels for electricity generation coal">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1912,7 +1912,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_4_07_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum liquids">
+                        <a href="/electricity/monthly/xls/table_4_07_a.xlsx" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum liquids">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1931,7 +1931,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_4_08_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum coke">
+                        <a href="/electricity/monthly/xls/table_4_08_a.xlsx" title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum coke">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1950,7 +1950,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_4_09_a.xlsx" class="ico_xls" title="Monthly summary Receipts of fossil-fuels for electricity generation natural gas">
+                        <a href="/electricity/monthly/xls/table_4_09_a.xlsx" title="Monthly summary Receipts of fossil-fuels for electricity generation natural gas">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1999,10 +1999,10 @@
                         Average cost of fossil fuels delivered by state
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -2011,7 +2011,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_4_10_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state  Coal">
+                                <a href="/electricity/monthly/xls/table_4_10_a.xlsx" title="Monthly Average cost of fossil fuels delivered by state  Coal">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2030,7 +2030,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_4_11_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state Petroleum liquids">
+                                <a href="/electricity/monthly/xls/table_4_11_a.xlsx" title="Monthly Average cost of fossil fuels delivered by state Petroleum liquids">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2049,7 +2049,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_4_12_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state Petroleum coke">
+                                <a href="/electricity/monthly/xls/table_4_12_a.xlsx" title="Monthly Average cost of fossil fuels delivered by state Petroleum coke">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2068,7 +2068,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/monthly/xls/table_4_13_a.xlsx" class="ico_xls" title="Monthly Average cost of fossil fuels delivered by state Natural gas">
+                                <a href="/electricity/monthly/xls/table_4_13_a.xlsx" title="Monthly Average cost of fossil fuels delivered by state Natural gas">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2098,7 +2098,7 @@
                         Receipts, average cost, and quality of fossil fuels for electricity generation
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -2107,7 +2107,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_07_01.xlsx" class="ico_xls" title="Receipts, cost, and quality of coal, petroleum, and natural gas">
+                                <a href="/electricity/annual/xls/epa_07_01.xlsx" title="Receipts, cost, and quality of coal, petroleum, and natural gas">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2125,7 +2125,7 @@
                         <ul>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_07_02.xlsx" class="ico_xls" title="Receipts and quality of coal">
+                                <a href="/electricity/annual/xls/epa_07_02.xlsx" title="Receipts and quality of coal">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2138,7 +2138,7 @@
                         <ul>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_07_03.xlsx" class="ico_xls" title="Average quality of coal, petroleum, and natural gas">
+                                <a href="/electricity/annual/xls/epa_07_03.xlsx" title="Average quality of coal, petroleum, and natural gas">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2151,7 +2151,7 @@
                         <ul>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_07_04.xlsx" class="ico_xls" title=" Weighted average cost of coal, petroleum, and natural gas">
+                                <a href="/electricity/annual/xls/epa_07_04.xlsx" title=" Weighted average cost of coal, petroleum, and natural gas">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2182,10 +2182,10 @@
                 Stocks of fossil fuels by
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
+                <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2194,7 +2194,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_3_01.xlsx" class="ico_xls" title="Stocks of fossil fuels by Electric power sector">
+                        <a href="/electricity/monthly/xls/table_3_01.xlsx" title="Stocks of fossil fuels by Electric power sector">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2207,7 +2207,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_3_02.xlsx" class="ico_xls" title="Stocks of fossil fuels by state">
+                        <a href="/electricity/monthly/xls/table_3_02.xlsx" title="Stocks of fossil fuels by state">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2220,7 +2220,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_3_03.xlsx" class="ico_xls" title="Stocks of fossil fuels by Census division">
+                        <a href="/electricity/monthly/xls/table_3_03.xlsx" title="Stocks of fossil fuels by Census division">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2233,7 +2233,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_3_04.xlsx" class="ico_xls" title="Stocks of fossil fuels by Coal and rank">
+                        <a href="/electricity/monthly/xls/table_3_04.xlsx" title="Stocks of fossil fuels by Coal and rank">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2268,7 +2268,7 @@
                 For major investor-owned utilities
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2277,7 +2277,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Revenue and expense statistics">
+                        <a href="/electricity/annual/xls/epa_08_03.xlsx" title="Revenue and expense statistics">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2290,7 +2290,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_08_03.xlsx" class="ico_xls" title="Average power plant operating expenses">
+                        <a href="/electricity/annual/xls/epa_08_03.xlsx" title="Average power plant operating expenses">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2332,7 +2332,7 @@
                 <a href="/electricity/generatorcosts/">For electric generators installed in 2015</a>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/generatorcosts/xls/generator_costs_2015.xlsx" class="ico_xls" title="Generator Construction cost data or electric generators installed in 2015 ">
+                    <a href="/electricity/generatorcosts/xls/generator_costs_2015.xlsx" title="Generator Construction cost data or electric generators installed in 2015 ">
                         <i class="ico xls">
 									<span>XLS</span>
 								</i>
@@ -2344,7 +2344,7 @@
                 <a href="/electricity/generatorcosts/archive/2014/">For electric generators installed in 2014</a>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/generatorcosts/archive/2014/xls/generator_costs_2014.xlsx" class="ico_xls" title="Generator Construction cost data or electric generators installed in 2014 ">
+                    <a href="/electricity/generatorcosts/archive/2014/xls/generator_costs_2014.xlsx" title="Generator Construction cost data or electric generators installed in 2014 ">
                         <i class="ico xls">
 									<span>XLS</span>
 								</i>
@@ -2356,7 +2356,7 @@
                 <a href="/electricity/generatorcosts/archive/2013/">For electric generators installed in 2013</a>
                 <li>
                     <span class="formats">Available formats:</span>
-                    <a href="/electricity/generatorcosts/archive/2013/xls/generator_costs_2013.xlsx" class="ico_xls" title="Generator Construction cost data or electric generators installed in 2013 ">
+                    <a href="/electricity/generatorcosts/archive/2013/xls/generator_costs_2013.xlsx" title="Generator Construction cost data or electric generators installed in 2013 ">
                         <i class="ico xls">
 									<span>XLS</span>
 								</i>
@@ -2387,7 +2387,7 @@
                 Electricity transactions
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2396,7 +2396,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_02_11.xlsx" class="ico_xls" title="Electricity purchases ">
+                        <a href="/electricity/annual/xls/epa_02_11.xlsx" title="Electricity purchases ">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2409,7 +2409,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_02_12.xlsx" class="ico_xls" title="Electricity sales for resale">
+                        <a href="/electricity/annual/xls/epa_02_12.xlsx" title="Electricity sales for resale">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2422,7 +2422,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_02_13.xlsx" class="ico_xls" title="Electricity imports and exports">
+                        <a href="/electricity/annual/xls/epa_02_13.xlsx" title="Electricity imports and exports">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2439,14 +2439,14 @@
                 Electric disturbance events
             </li>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
                     <li>Monthly, year-to-date current year </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_b_1.xlsx" class="ico_xls" title="Electric disturbance events,  Monthly, year-to-date current year">
+                        <a href="/electricity/monthly/xls/table_b_1.xlsx" title="Electric disturbance events,  Monthly, year-to-date current year">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2457,7 +2457,7 @@
                     <li>Monthly, last year </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/monthly/xls/table_b_2.xlsx" class="ico_xls" title="Electric disturbance events, Monthly, last year  ">
+                        <a href="/electricity/monthly/xls/table_b_2.xlsx" title="Electric disturbance events, Monthly, last year  ">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2481,7 +2481,7 @@
     <div class="content">
         <ul>
             <li class="include">
-                <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2490,7 +2490,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_10_06.xlsx" class="ico_xls" title="Energy efficiency">
+                        <a href="/electricity/annual/xls/epa_10_06.xlsx" title="Energy efficiency">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2503,7 +2503,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_10_07.xlsx" class="ico_xls" title="Energy efficiency - life cycle  ">
+                        <a href="/electricity/annual/xls/epa_10_07.xlsx" title="Energy efficiency - life cycle  ">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2516,7 +2516,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_10_08.xlsx" class="ico_xls" title="Demand response - yearly energy and demand savings">
+                        <a href="/electricity/annual/xls/epa_10_08.xlsx" title="Demand response - yearly energy and demand savings">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2529,7 +2529,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_10_09.xlsx" class="ico_xls" title="Demand response- program costs">
+                        <a href="/electricity/annual/xls/epa_10_09.xlsx" title="Demand response- program costs">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2542,7 +2542,7 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/annual/xls/epa_10_10.xlsx" class="ico_xls" title="Advanced metering count by technology type">
+                        <a href="/electricity/annual/xls/epa_10_10.xlsx" title="Advanced metering count by technology type">
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -2568,7 +2568,7 @@
                     <li>Electric power industry estimated emissions by state (back to 1990 )</li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/electricity/data/state/emission_annual.xls" class="ico_xls" title="Electric power industry estimated emissions by state (back to 1990 )">XLS</a>
+                        <a href="/electricity/data/state/emission_annual.xls" title="Electric power industry estimated emissions by state (back to 1990 )">XLS</a>
                     </li>
                 </ul>
                 <ul>
@@ -2598,7 +2598,7 @@
                         Annual
                     </li>
                     <li class="include">
-                        <?php include('css_rehab/archive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -2607,7 +2607,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_09_01.xlsx" class="ico_xls" title="Emissions from energy consumption at power plants ">
+                                <a href="/electricity/annual/xls/epa_09_01.xlsx" title="Emissions from energy consumption at power plants ">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2620,7 +2620,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_09_02.xlsx" class="ico_xls" title="Generators with environmental equipment">
+                                <a href="/electricity/annual/xls/epa_09_02.xlsx" title="Generators with environmental equipment">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2633,7 +2633,7 @@
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/electricity/annual/xls/epa_09_04.xlsx" class="ico_xls" title="Average flue gas desulfurization costs">
+                                <a href="/electricity/annual/xls/epa_09_04.xlsx" title="Average flue gas desulfurization costs">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -2648,7 +2648,7 @@
                     <li>
                         Monthly/Annual (monthly back to 2015, annual to 1950)</li>
                     <li class="include">
-                        <?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                        <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
                     </li>
                     <li>
                         <span class="source">Interactive
@@ -2660,17 +2660,17 @@
                             <li>Carbon dioxide emissions from electricity generation</li>
                             <li>
                                 <span class="formats">Available formats:</span>
-                                <a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" class="ico_pdf" title="Carbon dioxide emissions from electricity generation">
+                                <a href="/totalenergy/data/monthly/pdf/sec12_9.pdf" title="Carbon dioxide emissions from electricity generation">
                                     <i class="ico pdf">
 												<span>PDF</span>
 											</i>
                                 </a>
-                                <a href="/totalenergy/data/browser/csv.cfm?tbl=T12.06" class="ico_csv" title="Carbon dioxide emissions from electricity generation">
+                                <a href="/totalenergy/data/browser/csv.cfm?tbl=T12.06" title="Carbon dioxide emissions from electricity generation">
                                     <i class="ico csv">
 												<span>CSV</span>
 											</i>
                                 </a>
-                                <a href="/totalenergy/data/browser/xls.cfm?tbl=T12.06&amp;freq=m" class="ico_xls" title="Carbon dioxide emissions from electricity generation">
+                                <a href="/totalenergy/data/browser/xls.cfm?tbl=T12.06&amp;freq=m" title="Carbon dioxide emissions from electricity generation">
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>

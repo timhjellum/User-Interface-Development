@@ -1,5 +1,4 @@
-
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul>
         <li><i class="ico pdf">PDF</i><a href="pdf/tracking_tool.pdf">Full report</a></li>
     </ul>

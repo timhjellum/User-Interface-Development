@@ -26,16 +26,23 @@
 
 @import "less/modules/accordion";
 @import "less/modules/banners";
-@import "less/modules/content-container";
-@import "less/modules/blue-background";
+@import "less/modules/messaging";
 @import "less/modules/dropdown-menu";
-@import "less/modules/grey-background";
-@import "less/modules/report-header";
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
-@import "less/modules/messaging";
-@import "less/modules/table-zebra";
-@import "less/modules/lists";
+@import "less/modules/report-header";
+
+/* start reusable containers */
+
+@import "less/modules/container-primary-shared";
+@import "less/modules/container-secondary-shared";
+@import "less/modules/container-table-shared";
+@import "less/modules/container-zebra";
+@import "less/modules/container-lists";
+@import "less/modules/container-table-basic";
+
+/* end reusable containers */
+
 
 /* L2 */
 
@@ -43,6 +50,7 @@
 @import "less/l2/visualizations";
 @import "less/l2/energy-education";
 @import "less/l2/sub-navigation";
+@import "less/l2/theme";
 
 /* sliders */
 

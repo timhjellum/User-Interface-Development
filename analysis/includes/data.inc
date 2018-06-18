@@ -1,13 +1,15 @@
-<p>Find data from forecast models on crude oil and petroleum liquids, gasoline, diesel, natural gas, electricity, coal prices,
-    supply, and demand projections and more.</p>
+<p>Find data from forecast models on crude oil and petroleum liquids, gasoline, diesel, natural gas, electricity, coal prices, supply, and demand projections and more.</p>
 
-<span class="expand-collapse-container"> <span class="open">Expand all</span> </span>
-<div id="accordion">
-    <h3><a name="forecasts"></a>Monthly short-term forecasts through the next calender year</h3>
+<span class="expand-collapse-container">
+<i class="ico expand"><span>Expand all</span></i>
+<i class="ico collapse"><span>Collapse all</span></i>
+</span>
+<div id="accordion" class="accordion">
+    <h3>
+        <a name="forecasts"></a>Monthly short-term forecasts through the next calender year</h3>
     <div class="content">
         <ul class="highlight">
-            <li><em><a href="/outlooks/steo/">Short-Term Energy Outlook</a></em> Released: the first Tuesday following the first
-                Thursday of each month. </li>
+            <li><em><a href="/outlooks/steo/">Short-Term Energy Outlook</a></em> Released: the first Tuesday following the first Thursday of each month. </li>
         </ul>
         <ul>
             <li>WF01. Average consumer prices and expenditures for heating fuels during the winter</li>
@@ -139,8 +141,7 @@
             </li>
             <li><span class="formats">Available formats:</span><a href="/outlooks/steo/tables/pdf/9ctab.pdf" title="Table 9c. U.S. regional weather data"><i class="ico pdf"><span>PDF</span></i></a>
             </li>
-            <li><a href="/cfapps/ipdbproject/IEDIndex3.cfm">International petroleum supply, disposition</a><br />Query tool for
-                detailed country and regional energy data (monthly, annual)</li>
+            <li><a href="/cfapps/ipdbproject/IEDIndex3.cfm">International petroleum supply, disposition</a><br />Query tool for detailed country and regional energy data (monthly, annual)</li>
         </ul>
     </div>
 
@@ -148,11 +149,11 @@
 
 
 
-    <h3><a name="annualproj"></a>Annual projections to 2050</h3>
+    <h3>
+        <a name="annualproj"></a>Annual projections to 2050</h3>
     <div class="content">
         <ul class="highlight">
-            <li><em><a href="/outlooks/aeo/">Annual Energy Outlook 2017</a></em> (released: January 5, 2017) -- Reference case
-                main 21 tables See complete table listing for
+            <li><em><a href="/outlooks/aeo/">Annual Energy Outlook 2017</a></em> (released: January 5, 2017) -- Reference case main 21 tables See complete table listing for
                 <a href="/outlooks/aeo/tables_ref.cfm">reference case</a> and
                 <a href="/outlooks/aeo/tables_side.cfm">side cases</a>.
                 <a href="/outlooks/aeo/supplemental_case.cfm"> Supplemental case </a>(released June 26, 2017)</li>
@@ -309,11 +310,11 @@
 
 
 
-    <h3><a name="intlproj"></a>International projections to 2050</h3>
+    <h3>
+        <a name="intlproj"></a>International projections to 2050</h3>
     <div class="content">
         <ul>
-            <li class="highlight"><em><a href="/outlooks/ieo/">International Energy Outlook</a></em>-- Reference Case tables released: September
-                14, 2017</li>
+            <li class="highlight"><em><a href="/outlooks/ieo/">International Energy Outlook</a></em>-- Reference Case tables released: September 14, 2017</li>
             <li class="highlight"><a href="/outlooks/ieo/pdf/appa.pdf" class="pdf" title="International Energy Outlook">PDF (all tables)</a>
             </li>
         </ul>

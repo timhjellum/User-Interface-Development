@@ -1,8 +1,15 @@
 import $ from 'jquery';
 import Widget from '../../../../node_modules/jquery-ui/ui/widget.js';
+import Position from '../../../../node_modules/jquery-ui/ui/position.js';
+import FormResetMixin from '../../../../node_modules/jquery-ui/ui/form-reset-mixin.js';
+import Keycode from '../../../../node_modules/jquery-ui/ui/keycode.js';
+import Labels from '../../../../node_modules/jquery-ui/ui/labels.js';
+import UniqueID from '../../../../node_modules/jquery-ui/ui/unique-id.js';
 import Core from '../../../../node_modules/jquery-ui/ui/core.js';
 import Effect from '../../../../node_modules/jquery-ui/ui/effect.js';
 import Accordion from '../../../../node_modules/jquery-ui/ui/widgets/accordion.js';
+import Tabs from '../../../../node_modules/jquery-ui/ui/widgets/tabs.js';
+import Datepicker from '../../../../node_modules/jquery-ui/ui/widgets/datepicker.js';
 
 class jqueryUI {
     constructor() {
@@ -39,13 +46,37 @@ class jqueryUI {
             heightStyle: 'content',
             collapsible: true
         });
+        // set the initial state
+        $('.collapse').hide();
         this.events();
         console.log($.ui.version);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
     events() {
-        // set the initial state
-        //$('.expand').hide();
-
         $('.expand').click(function() {
             $(this).closest('div').find('h3').removeClass('ui-accordion-header-collapsed').addClass('ui-accordion-header-active').attr({ 'aria-selected': 'true', 'tabindex': '0' });
             //$('h3 .ui-icon').removeClass('ui-icon-triangle-1-e').addClass('ui-icon-triangle-1-s');

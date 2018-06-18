@@ -78,7 +78,7 @@ $faqLabel = "FAQS";
                             </div>
                             <div class="l-row">
                                 <ul class="l-two-third-col">
-                                    <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
+                                    <?php include("adaptive/global/analysis-projections/sub-navigation-menus.inc") ?>
                                 </ul>
                                 <ul class="l-one-third-col">
                                     <li><a href="/<?=$directory?>/<?=$menu02link01URL?>"><?=$menu02link01Label?></a></li>

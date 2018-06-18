@@ -1,8 +1,10 @@
-<div class="content-container basic-table">
+<div class="basic-table">
     <h1>Recent Data</h1>
-    <?php include('/analysis/includes/data_table_excel.inc') ?>
-	<?php include ('includes/data_table_cbs_ytd.inc') ; ?>
-    <ul class="basic_table">
-        <li class="foot"><a href="data.php">See more data</a></li>
-	</ul>
+    <?php /* include('analysis/includes/data_table_excel.inc') */ ?>
+    <?php include ('consumption/includes/data_table_cbs_ytd.inc') ?>
+    <div class="content-container">
+        <ul>
+            <li class="foot"><a href="data.php">See more data</a></li>
+        </ul>
+    </div>
 </div>

@@ -56,6 +56,6 @@ background: transparent url(/global/images/icons/audio.png) no-repeat center lef
   <?php include('includes/side-data.inc') ?>
 </div>
 </div>
-<?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
+<?php include('adaptive/global/footer/includes/footer.inc') ?>
 </body>
 </html>

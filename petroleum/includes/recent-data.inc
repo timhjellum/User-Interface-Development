@@ -1,4 +1,4 @@
-<div class="content-container basic-table">
+<div class="basic-table">
     <h1>Recent Data</h1>
     <?php /* replace this with something local in the include directory, or with inline code*/ ?>
     <?php 
@@ -14,7 +14,9 @@
     }
     //include ('petroleum/includes/data_table.inc') ;
     ?>
-    <ul class="basic_table">
-        <li class="foot"><a href="data.php">See more data</a></li>
-	</ul>
+    <div class="content-container">
+        <ul>
+            <li class="foot"><a href="data.php">See more data</a></li>
+        </ul>
+    </div>
 </div>

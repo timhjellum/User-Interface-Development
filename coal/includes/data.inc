@@ -1,6 +1,9 @@
 <p>Find statistics on coal production, consumption, exports, imports, stocks, mining, and prices.</p>
-<span class="expand-collapse-container"> <span class="open">Expand all</span></span>
-<div id="accordion">
+<span class="expand-collapse-container">
+<i class="ico expand"><span>Expand all</span></i>
+<i class="ico collapse"><span>Collapse all</span></i>
+</span>
+<div id="accordion" class="accordion">
     <h3>
         <a name="summary"></a>Summary</h3>
     <div class="content">
@@ -12,9 +15,9 @@
                     </li>
                     <li class="include"><span class="release-date">Release Date:</span> <span class="date">April 26, 2018</span> | <span class="source">data from:</span> <a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
                     </li>
-                    <li><span class="source">Interactive data from:</span><a href="/totalenergy/data/browser/">Total Energy Browser</a>
+                    <li><span class="source">Interactive data from:</span> <a href="/totalenergy/data/browser/">Total Energy Browser</a>
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/totalenergy/data/monthly/pdf/sec6_3.pdf" title="Coal overview monthly"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec6_3.pdf" title="Coal overview monthly"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/totalenergy/data/browser/csv.cfm?tbl=T06.01" class="ico_csv" title="Coal overview monthly"><i class="ico csv"><span>CSV</span></i></a>
                         <a href="/totalenergy/data/browser/xls.cfm?tbl=T06.01&amp;freq=m" title="Coal overview monthly"><i class="ico xls"><span>XLS</span></i></a> |
                         <a title="View Coal overview monthly in Total Energy Browser" href="/beta/MER/index.cfm?tbl=T06.01#/?f=M&start=200001"><i class="ico interactive"><span>Interactive</span></i></a>
@@ -23,8 +26,8 @@
                 <ul>
                     <li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0701">Annual</a>
                     </li>
-                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a>                        <span class="alert">(no longer updated)</span></li>
-                    <li><span class="formats">Available formats:</span><a href="/totalenergy/data/annual/pdf/sec7_5.pdf" title="Coal overview annual"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a>                        <span class="alert">(no longer updated)</span></li>
+                    <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec7_5.pdf" title="Coal overview annual"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/totalenergy/data/annual/xls/stb0701.xls" title="Coal overview annual"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
@@ -49,50 +52,47 @@
             <li class="list-item">
                 <ul>
                     <li>Average sales price</li>
-                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
+                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
                     </li>
-                    <li><span class="source">Interactive data from:</span><a href="/beta/coal/data/browser/" title="Average sales price Interactive data from">Coal Data Browser</a></li>
+                    <li><span class="source">Interactive data from:</span> <a href="/beta/coal/data/browser/" title="Average sales price Interactive data from">Coal Data Browser</a></li>
                     <li class="list-item sub-list">
                         <ul>
                             <li>By state and mine type</li>
-                            <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table28.pdf" title="Average sales price By state and mine type"><i class="ico pdf"><span>PDF</span></i></a>
+                            <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table28.pdf" title="Average sales price By state and mine type"><i class="ico pdf"><span>PDF</span></i></a>
                                 <a href="/coal/annual/xls/table28.xls" title="Average sales price By state and mine type"><i class="ico xls"><span>XLS</span></i></a></li>
                         </ul>
                         <ul>
                             <li>Open market and captive sales price by state</li>
-                            <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table33.pdf" title="Average sales price Open market and captive sales price by state"><i class="ico pdf"><span>PDF</span></i></a>
+                            <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table33.pdf" title="Average sales price Open market and captive sales price by state"><i class="ico pdf"><span>PDF</span></i></a>
                                 <a href="/coal/annual/xls/table33.xls" title="Average sales price Open market and captive sales price by state"><i class="ico xls"><span>XLS</span></i></a> |
                                 <a href="/beta/coal/data/browser/#/topic/28?agg=0,2,1&amp;geo=vvvvvvvvvvvvo&amp;freq=A&amp;start=2001&amp;ctype=map&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Average sales price Open market and captive sales price by state"><i class="ico interactive"><span>Interactive</span></i></a>
                             </li>
                         </ul>
                         <ul>
                             <li>By state and underground mining method</li>
-                            <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table29.pdf" title="Average sales price By state and underground mining method"><i class="ico pdf"><span>PDF</span></i></a>
+                            <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table29.pdf" title="Average sales price By state and underground mining method"><i class="ico pdf"><span>PDF</span></i></a>
                                 <a href="/coal/annual/xls/table29.xls" title="Average sales price By state and underground mining method"><i class="ico xls"><span>XLS</span></i></a></li>
                         </ul>
                         <ul>
                             <li>By state and county, with number of mines</li>
-                            <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table30.pdf" title="Average sales price By state and county, with number of mines"><i class="ico pdf"><span>PDF</span></i></a>
+                            <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table30.pdf" title="Average sales price By state and county, with number of mines"><i class="ico pdf"><span>PDF</span></i></a>
                                 <a href="/coal/annual/xls/table30.xls" title="Average sales price By state and county, with number of mines"><i class="ico xls"><span>XLS</span></i></a></li>
                         </ul>
                         <ul>
                             <li>By state and coal rank</li>
-                            <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table31.pdf" title="Average sales price By state and coal rank"><i class="ico pdf"><span>PDF</span></i></a>
+                            <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table31.pdf" title="Average sales price By state and coal rank"><i class="ico pdf"><span>PDF</span></i></a>
                                 <a href="/coal/annual/xls/table31.xls" title="Average sales price By state and coal rank"><i class="ico xls"><span>XLS</span></i></a> |
                                 <a href="/beta/coal/data/browser/#/topic/29?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;freq=A&amp;start=2001&amp;ctype=map&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Average sales price By state and coal rank"><i class="ico interactive"><span>Interactive</span></i></a></li>
                         </ul>
                         <ul>
                             <li>By mine production range and mine type</li>
-                            <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table32.pdf" title="Average sales price By mine production range and mine type"><i class="ico pdf"><span>PDF</span></i></a>
+                            <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table32.pdf" title="Average sales price By mine production range and mine type"><i class="ico pdf"><span>PDF</span></i></a>
                                 <a href="/coal/annual/xls/table32.xls" title="Average sales price By mine production range and mine type"><i class="ico xls"><span>XLS</span></i></a></li>
                         </ul>
                         <ul>
                             <li>By coal rank</li>
-                            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"></span>
-                                <a
-                                    href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a> <span class="alert">(no longer updated)</span></span>
-                            </li>
-                            <li><span class="formats">Available formats:</span><a href="/totalenergy/data/annual/pdf/sec7_21.pdf" title="Average sales price By coal rank"><i class="ico pdf"><span>PDF</span></i></a>
+                            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a>                                <span class="alert">(no longer updated)</span></li>
+                            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec7_21.pdf" title="Average sales price By coal rank"><i class="ico pdf"><span>PDF</span></i></a>
                                 <a href="/totalenergy/data/annual/xls/stb0709.xls" title="Average sales price By coal rank"><i class="ico xls"><span>XLS</span></i></a></li>
                         </ul>
                     </li>
@@ -104,17 +104,17 @@
                 <ul>
                     <li>Average delivered prices to end use sector by Census division and state
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table34.pdf"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table34.pdf"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table34.xls"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>Price of coal shipments to the electric power sector, by Census division, and state
                     </li>
-                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
+                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
                     </li>
                     <li><span class="formats">Available formats:</span>
-                        <a href="/beta/coal/data/browser/#/topic/45?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Price of coal shipments to the electric power sector, by Census division, and state"><i class="ico interactive"><span>INTERACTIVE</span></i></a>
+                        <a href="/beta/coal/data/browser/#/topic/45?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Price of coal shipments to the electric power sector, by Census division, and state"><i class="ico interactive"><span>Interactive</span></i></a>
                     </li>
                 </ul>
             </li>
@@ -130,10 +130,10 @@
     <div class="content">
         <ul>
             <li class="head"><a href="/coal/reserves/">Demonstrated Reserve Base</a></li>
-            <li class="release-date">Release Date: <span class="date">November 15, 2017</span> | <span class="source">data from:</span> <span class="source"><a href="/coal/reserves/">U.S. Coal Reserves</a></span></li>
+            <li class="release-date">Release Date: <span class="date">November 15, 2017</span> | <span class="source">data from:</span> <a href="/coal/reserves/">U.S. Coal Reserves</a></li>
 
             <li class="head">Recoverable reserves</li>
-            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
+            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
             </li>
             <li><span class="source">Interactive data from:</span> <a href="/coal/data/browser/" title="Recoverable reserves Interactive data from">Coal Data Browser</a></li>
 
@@ -141,28 +141,28 @@
                 <ul>
                     <li>At producing mines, estimated recoverable, and Demonstrated Reserve Base; by mine type
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table15.pdf" title="Recoverable reserves At producing mines, estimated recoverable, and Demonstrated Reserve Base; by mine type"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table15.pdf" title="Recoverable reserves At producing mines, estimated recoverable, and Demonstrated Reserve Base; by mine type"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table15.xls" title="Recoverable reserves At producing mines, estimated recoverable, and Demonstrated Reserve Base; by mine type"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At producing underground coal mines by state and mining method
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table16.pdf" title="Recoverable reserves At producing underground coal mines by state and mining method"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table16.pdf" title="Recoverable reserves At producing underground coal mines by state and mining method"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table14.xls" title="Recoverable reserves At producing underground coal mines by state and mining method"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At producing mines by mine production range and mine type
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table17.pdf" title="Recoverable reserves At producing mines by mine production range and mine type"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table17.pdf" title="Recoverable reserves At producing mines by mine production range and mine type"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table17.xls" title="Recoverable reserves At producing mines by mine production range and mine type"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At producing mines by state
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table14.pdf" title="Recoverable reserves At producing mines by state"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table14.pdf" title="Recoverable reserves At producing mines by state"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table14.xls" title="Recoverable reserves At producing mines by state"><i class="ico xls"><span>XLS</span></i></a> | <a title="View Recoverable reserves At producing mines by state in Total Energy Browser"
                             href="/beta/coal/data/browser/#/topic/31?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin="><i class="ico interactive"><span>Interactive</span></i></a>
                     </li>
@@ -183,48 +183,47 @@
     <div class="content">
         <ul>
             <li class="head">Monthly</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span></li>
-            <li><span class="source">Interactive data from:</span><a href="/coal/data/browser/" title="Consumption Monthly Interactive data from">Coal Data Browser</a></li>
-            <li><span class="formats">Available formats:</span><a href="/totalenergy/data/monthly/pdf/sec6_4.pdf" title="Consumption Monthly"><i class="ico pdf"><span>PDF</span></i></a>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></li>
+            <li><span class="source">Interactive data from:</span> <a href="/coal/data/browser/" title="Consumption Monthly Interactive data from">Coal Data Browser</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec6_4.pdf" title="Consumption Monthly"><i class="ico pdf"><span>PDF</span></i></a>
                 <a href="/totalenergy/data/browser/csv.cfm?tbl=T06.02" class="ico_csv" title="Consumption Monthly"><i class="ico csv"><span>CSV</span></i></a>
                 <a href="/totalenergy/data/browser/xls.cfm?tbl=T06.02&amp;freq=m" title="Consumption Monthly"><i class="ico xls"><span>XLS</span></i></a> |
                 <a href="/beta/MER/index.cfm?tbl=T06.02#/?f=M&amp;start=200001" title="Consumption Monthly"><i class="ico interactive"><span>Interactive</span></i></a></li>
             <li class="head">Quarterly</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/coal/production/quarterly/">Quarterly Coal Report</a></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/production/quarterly/">Quarterly Coal Report</a></li>
             <li class="list-item">
                 <ul>
                     <li>By sector
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t32p01p1.pdf" title="Consumption Quarterly By sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/coal/production/quarterly/xls/t32p01p1.xls"
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t32p01p1.pdf" title="Consumption Quarterly By sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/coal/production/quarterly/xls/t32p01p1.xls"
                             title="Consumption Quarterly By sector"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At manufacturing plants by North American Industry Classification System (NAICS) code
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t35p01p1.pdf" title="Consumption Quarterly At manufacturing plants by North American Industry Classification System (NAICS) code"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t35p01p1.pdf" title="Consumption Quarterly At manufacturing plants by North American Industry Classification System (NAICS) code"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/production/quarterly/xls/t35p01p1.xls" title="Consumption Quarterly At manufacturing plants by North American Industry Classification System (NAICS) code"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
             </li>
             <li class="head">Annual</li>
-            <li><span class="source">Interactive data from:</span><a href="/coal/data/browser/" title="Consumption Annual Interactive data from">Coal Data Browser</a></li>
+            <li><span class="source">Interactive data from:</span> <a href="/coal/data/browser/" title="Consumption Annual Interactive data from">Coal Data Browser</a></li>
             <li class="list-item">
                 <ul>
                     <li>By sector (latest year), Census division and state
                     </li>
-                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
+                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table26.pdf" title="Consumption Annual By sector (latest year), Census division and state"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table26.pdf" title="Consumption Annual By sector (latest year), Census division and state"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table26.xls" title="Consumption Annual By sector (latest year), Census division and state"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>By sector (1949-2011)
                     </li>
-                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a> <span class="alert">(no longer updated)</span></span>
-                    </li>
-                    <li><span class="formats">Available formats:</span><a href="/totalenergy/data/annual/pdf/sec7_9.pdf" title="Consumption Annual By sector (1949-2011)"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a>                        <span class="alert">(no longer updated)</span></li>
+                    <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec7_9.pdf" title="Consumption Annual By sector (1949-2011)"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/totalenergy/data/annual/xls/stb0703.xls" title="Consumption Annual By sector (1949-2011)"><i class="ico xls"><span>XLS</span></i></a> | <a href="/beta/MER/index.cfm?tbl=T06.02#/?f=A&amp;start=1949&amp;end=2014&amp;charted=1-5-12-13-14"
                             title="Consumption Annual By sector (1949-2011)"><i class="ico interactive"><span>Interactive</span></i></a>
                     </li>
@@ -232,14 +231,14 @@
                 <ul>
                     <li>By electric power sector, Census division, and state
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/beta/coal/data/browser/#/topic/20?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;sec=g&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"
+                    <li><span class="formats">Available formats:</span> <a href="/beta/coal/data/browser/#/topic/20?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;sec=g&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"
                             title="Consumption Annual  By electric power sector, Census division, and state"><i class="ico interactive"><span>Interactive</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>By commercial, coke plants, and other industrial, Census division, and state
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/beta/coal/data/browser/#/topic/20?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;sec=0s&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin="
+                    <li><span class="formats">Available formats:</span> <a href="/beta/coal/data/browser/#/topic/20?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;sec=0s&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin="
                             title="Consumption Annual  By commercial, coke plants, and other industrial, Census division, and state"><i class="ico interactive"><span>Interactive</span></i></a>
                     </li>
                 </ul>
@@ -308,18 +307,18 @@
             <li><span class="release-date">Released </span><span class="date">Released: Weekly (on Thursday)</span> |
                 <span class="source">from:</span> <a href="/coal/production/weekly/">Weekly Coal Production Report</a></li>
             <li class="head">Quarterly</li>
-            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/coal/production/quarterly/">Quarterly Coal Report</a></span></li>
-            <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t1p01p1.pdf" title="Consumption quarterly"><i class="ico pdf"><span>PDF</span></i></a>
+            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/production/quarterly/">Quarterly Coal Report</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t1p01p1.pdf" title="Consumption quarterly"><i class="ico pdf"><span>PDF</span></i></a>
                 <a href="/coal/production/quarterly/xls/t1p01p1.xls" title="Consumption quarterly"><i class="ico xls"><span>XLS</span></i></a></li>
             <li class="head">Annual</li>
-            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
+            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/annual/includes/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/annual/">Annual Coal Report</a></span>
             </li>
-            <li><span class="source">Interactive data from:</span><a href="/coal/data/browser/">Coal Data Browser</a></li>
+            <li><span class="source">Interactive data from:</span> <a href="/coal/data/browser/">Coal Data Browser</a></li>
             <li class="list-item">
                 <ul>
                     <li>By state and mine type
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table1.pdf" title="production Annual By state and mine type"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table1.pdf" title="production Annual By state and mine type"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table1.xls" title="production Annual By state and mine type"><i class="ico xls"><span>XLS</span></i></a> | <a href="/beta/coal/data/browser/#/topic/33?agg=1,0&amp;geo=vvvvvvvvvvvvo&amp;freq=A&amp;start=2008&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"
                             title="production Annual By state and mine type"><i class="ico interactive"><span>Interactive</span></i></a>
                     </li>
@@ -327,38 +326,38 @@
                 <ul>
                     <li>By state, county, and mine type
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table2.pdf" title="production Annual  By state, county, and mine type"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table2.pdf" title="production Annual  By state, county, and mine type"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table2.xls" title="production Annual  By state, county, and mine type"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>By state and coal rank
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table6.pdf" title="production Annual  By state and coal rank"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table6.pdf" title="production Annual  By state and coal rank"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table6.xls" title="production Annual  By state and coal rank"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>Coal mining productivity &amp; employees by state and mine type
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/annual/pdf/table21.pdf" title="Annual  Coal mining productivity & employees by state and mine type"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/annual/pdf/table21.pdf" title="Annual  Coal mining productivity & employees by state and mine type"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/annual/xls/table21.xls" title="Annual  Coal mining productivity & employees by state and mine type"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>Detailed mine level production data
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/beta/coal/data/browser/#/topic/38?agg=0,2,1&amp;rank=g&amp;geo=vvvvvvvvvvvvo&amp;mntp=g&amp;freq=A&amp;start=2001&amp;ctype=map&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin="
+                    <li><span class="formats">Available formats:</span> <a href="/beta/coal/data/browser/#/topic/38?agg=0,2,1&amp;rank=g&amp;geo=vvvvvvvvvvvvo&amp;mntp=g&amp;freq=A&amp;start=2001&amp;ctype=map&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin="
                             title="production Annual, Detailed mine level production data"><i class="ico interactive"><span>Interactive</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>By coal rank and mining method, 1949-2011
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/totalenergy/data/annual/pdf/sec7_7.pdf" title="production Annual By coal rank and mining method, 1949-2011"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec7_7.pdf" title="production Annual By coal rank and mining method, 1949-2011"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/totalenergy/data/annual/xls/stb0702.xls" title="production Annual By coal rank and mining method, 1949-2011"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
-                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a> <span class="alert">(no longer updated)</span></span>
+                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a>                        <span class="alert">(no longer updated)</span></span>
                     </li>
                 </ul>
             </li>
@@ -378,12 +377,12 @@
     <div class="content">
         <ul>
             <li class="head">Quarterly</li>
-            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/coal/production/quarterly/">Quarterly Coal Report</a></span></li>
+            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/production/quarterly/">Quarterly Coal Report</a></li>
             <li class="list-item">
                 <ul>
                     <li>By consuming sector and by producers
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t37p01p1.pdf" title="Quarterly stocks By consuming sector and by producers"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t37p01p1.pdf" title="Quarterly stocks By consuming sector and by producers"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/production/quarterly/xls/t37p01p1.xls" title="Quarterly stocks By consuming sector and by producers"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
@@ -392,35 +391,35 @@
                 <ul>
                     <li>By consuming sector and by producers
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t38p01p1.pdf" title="Quarterly stocks At coke plants by Census division"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t38p01p1.pdf" title="Quarterly stocks At coke plants by Census division"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/production/quarterly/xls/t38p01p1.xls" title="Quarterly stocks At coke plants by Census division"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At coke plants by Census division
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t39p01p1.pdf" title="Quarterly stocks At other industrial plants by Census division and state"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t39p01p1.pdf" title="Quarterly stocks At other industrial plants by Census division and state"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/production/quarterly/xls/t39p01p1.xls" title="Quarterly stocks At other industrial plants by Census division and state"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At other industrial plants by Census division and state
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t40p01p1.pdf" title="Quarterly stocks At manufacturing plants by North American Industry Classification System (NAICS) code"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t40p01p1.pdf" title="Quarterly stocks At manufacturing plants by North American Industry Classification System (NAICS) code"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/production/quarterly/xls/t40p01p1.xls" title="Quarterly stocks At manufacturing plants by North American Industry Classification System (NAICS) code"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At manufacturing plants by North American Industry Classification System (NAICS) code
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t42p01p1.pdf" title="Quarterly stocks At commercial and institutional users by Census division and state"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t42p01p1.pdf" title="Quarterly stocks At commercial and institutional users by Census division and state"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/production/quarterly/xls/t42p01p1.xls" title="Quarterly stocks At commercial and institutional users by Census division and state"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
                 <ul>
                     <li>At commercial and institutional users by Census division and state
                     </li>
-                    <li><span class="formats">Available formats:</span><a href="/coal/production/quarterly/pdf/t41p01p1.pdf" title="Quarterly stocks Coke and breeze stocks at coke plants by Census division"><i class="ico pdf"><span>PDF</span></i></a>
+                    <li><span class="formats">Available formats:</span> <a href="/coal/production/quarterly/pdf/t41p01p1.pdf" title="Quarterly stocks Coke and breeze stocks at coke plants by Census division"><i class="ico pdf"><span>PDF</span></i></a>
                         <a href="/coal/production/quarterly/xls/t41p01p1.xls" title="Quarterly stocks Coke and breeze stocks at coke plants by Census division"><i class="ico xls"><span>XLS</span></i></a>
                     </li>
                 </ul>
@@ -430,16 +429,15 @@
                 </ul>
             </li>
             <li class="head">Monthly by sector</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date">April 26, 2018</span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date">April 26, 2018</span> | <span class="source">data from:</span> <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></li>
             <li><span class="source">Interactive data from</span> <a href="/totalenergy/data/browser/" title="Interactive data from">Total Energy Browser</a></li>
-            <li><span class="formats">Available formats:</span><a href="/totalenergy/data/monthly/pdf/sec6_5.pdf" title="Monthly by sector"><i class="ico pdf"><span>PDF</span></i></a>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec6_5.pdf" title="Monthly by sector"><i class="ico pdf"><span>PDF</span></i></a>
                 <a href="/totalenergy/data/browser/csv.cfm?tbl=T06.03" class="ico_csv" title="Monthly by sector"><i class="ico csv"><span>CSV</span></i></a>
                 <a href="/totalenergy/data/browser/xls.cfm?tbl=T06.03&amp;freq=m" title="Monthly by sector"><i class="ico xls"><span>XLS</span></i></a> |
                 <a href="/beta/MER/index.cfm?tbl=T06.03#/?f=M&amp;start=200001" title="Monthly by sector"><i class="ico interactive"><span>Interactive</span></i></a></li>
             <li class="head">Annual by sector</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a> <span class="alert">(no longer updated)</span></span>
-            </li>
-            <li><span class="formats">Available formats:</span><a href="/totalenergy/data/annual/pdf/sec7_15.pdf" title="Annual by sector"><i class="ico pdf"><span>PDF</span></i></a>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/annual/includes/new-aer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/annual/">Annual Energy Review, 1949 through 2011</a>                <span class="alert">(no longer updated)</span></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec7_15.pdf" title="Annual by sector"><i class="ico pdf"><span>PDF</span></i></a>
                 <a href="/totalenergy/data/annual/xls/stb0706.xls" title="Annual by sector"><i class="ico xls"><span>XLS</span></i></a></li>
         </ul>
         </li>
@@ -454,13 +452,12 @@
     <div class="content">
         <ul>
             <li class="head">Imports by country of origin</li>
-            <li><span class="source">Interactive data from:</span><a href="/coal/data/browser/" title="Imports by country of origin Interactive data from">Coal Data Browser</a></li>
+            <li><span class="source">Interactive data from:</span> <a href="/coal/data/browser/" title="Imports by country of origin Interactive data from">Coal Data Browser</a></li>
             <li class="list-item">
                 <ul>
                     <li>Quarterly
                     </li>
-                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/coal/production/quarterly/">Quarterly Coal Report</a></span>
-                    </li>
+                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/production/quarterly/">Quarterly Coal Report</a></li>
                     <li class="list-item">
                         <ul>
                             <li>Latest two quarters</li>
@@ -496,13 +493,12 @@
         </ul>
         <ul>
             <li>Exports by country of destination</li>
-            <li><span class="source">Interactive data from:</span><a href="/coal/data/browser/" title="Exports by country of destination Interactive data from">Coal Data Browser</a></li>
+            <li><span class="source">Interactive data from:</span> <a href="/coal/data/browser/" title="Exports by country of destination Interactive data from">Coal Data Browser</a></li>
             <li>
                 <ul>
                     <li>Quarterly
                     </li>
-                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/coal/production/quarterly/">Quarterly Coal Report</a></span>
-                    </li>
+                    <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/coal/production/quarterly/includes/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/production/quarterly/">Quarterly Coal Report</a></li>
                     <li class="list-item">
                         <ul>
                             <li>Latest two quarters</li>
@@ -523,7 +519,7 @@
 <li class="list-item">
 <ul>
 <li><span class="formats">Available formats:</span> Back to 2000</li>
-                            <li><span class="formats">Available formats:</span><a href="archive/coal_historical_exports.xlsx" title="Exports by country of destination Quarterly Back to 2000"><i class="ico xls"><span>XLS</span></i></a> |
+                            <li><span class="formats">Available formats:</span> <a href="archive/coal_historical_exports.xlsx" title="Exports by country of destination Quarterly Back to 2000"><i class="ico xls"><span>XLS</span></i></a> |
                                 <a href="/beta/coal/data/browser/#/topic/41?agg=2,1,0&amp;rank=ok&amp;linechart=COAL.EXPORT_QTY.TOT-TOT-TOT.A&amp;columnchart=COAL.EXPORT_QTY.TOT-TOT-TOT.A&amp;map=COAL.EXPORT_QTY.TOT-TOT-TOT.A&amp;freq=A&amp;ctype=map&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"
                                     title="Exports by country of destination Quarterly Back to 2000"><i class="ico interactive"><span>Interactive</span></i></a></li>
                         </ul>
@@ -540,14 +536,12 @@
                 <ul>
                     <li><a href="/coal/distribution/quarterly/" title="Distribution Quarterly">Quarterly</a>
                     </li>
-                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/coal/distribution/quarterly/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/coal/distribution/quarterly/">Quarterly Coal Distribution Report</a></span>
-                    </li>
+                    <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/coal/distribution/quarterly/quarterly-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/distribution/quarterly/">Quarterly Coal Distribution Report</a></li>
                 </ul>
                 <ul>
                     <li><a href="/coal/distribution/annual/" title="Distribution Annual">Annual</a>
                     </li>
-                    <li class="include"><span class="release-date">Release Date: </span> <span class="date"><?php include('css_rehab/archive/coal/distribution/annual/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/distribution/annual/">Annual Coal Distribution Report</a></span>
-                    </li>
+                    <li class="include"><span class="release-date">Release Date: </span> <span class="date"><?php include('adaptive/coal/distribution/annual/annual-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/coal/distribution/annual/">Annual Coal Distribution Report</a></li>
                 </ul>
             </li>
         </ul>

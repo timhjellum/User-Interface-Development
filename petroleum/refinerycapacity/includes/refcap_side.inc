@@ -1,12 +1,13 @@
-<div class="content-container light-top-border-container grey-background">
+<div class="secondary">
     <ul>
-        <li class="header"><h2>Related Links</h2>
+        <li class="header">
+            <h2>Related Links</h2>
             <ul>
                 <li><a href="/finance/genealogy/">Genealogy Of Major U.S. Refiners</a> A schematic showing mergers and acquisitions of major U.S. refiners.</li>
                 <li><a href="/dnav/pet/pet_pnp_capwork_dcu_nus_a.htm">Working Storage Capacity at Operable Refineries</a> Historical Data 1982 - 2010</li>
                 <li><a href="/dnav/pet/pet_pnp_capshell_dcu_nus_a.htm">Shell Storage Capacity at Operable Refineries</a> Historical Data 1982 - 2010</li>
             </ul>
-</li>
+        </li>
     </ul>
 </div>
 
@@ -14,10 +15,13 @@
 
 
 
-<div class="content-container faq">
+<div class="faq">
     <ul>
-        <li class="header"><h2><a href="/tools/faqs/faq.cfm?id=29&amp;t=6 ">When was the last refinery built in the United States?</a></h2></li>
-        <li class="sub-header">Read all crude oil FAQs</a></li>
+        <li class="header">
+            <h2><a href="/tools/faqs/faq.cfm?id=29&amp;t=6 ">When was the last refinery built in the United States?</a></h2>
+        </li>
+        <li class="sub-header">Read all crude oil FAQs</a>
+        </li>
     </ul>
 </div>
 

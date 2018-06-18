@@ -11,16 +11,27 @@ $OneDescription = "Dr. Linda Capuano, Administrator";
 $OneDate = "February 6, 2018";
 
 ?>
-<?php
+    <?php
 /* DO NOT EDIT BELOW */
 ?>
 
-<div class="content-container standard-container hide-mt">
-	<ul>
-		<li class="head"><h2><?=$mainTitle?></h2></li>
-        <li><a href='<?=$OneURL?>' title='<?=$OneLabel?>'><?=$OneLabel?></a></li>
-        <li class="description"><?=$OneDescription?></li>
-		<li class="date"><?=$OneDate?></li>
-	</ul>
-</div>
-
+        <div class="secondary hide-mt">
+            <ul>
+                <li class="head">
+                    <h2>
+                        <?=$mainTitle?>
+                    </h2>
+                </li>
+                <li>
+                    <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
+                        <?=$OneLabel?>
+                    </a>
+                </li>
+                <li class="description">
+                    <?=$OneDescription?>
+                </li>
+                <li class="date">
+                    <?=$OneDate?>
+                </li>
+            </ul>
+        </div>

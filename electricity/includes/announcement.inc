@@ -1,0 +1,1 @@
+<span class="blue_side"> <b><i>New:</i> <a href="/beta/realtime_grid/?src=data#/summary/demand?end=20160725&amp;start=20160625">Electric System Operating Data </a></b> provides <b>hourly</b> electric operating data including actual and forecast demand, net generation, and the power flowing between electric systems. Check it out and give us feedback!</span>

@@ -14,27 +14,9 @@ $menu01link02URL = "data.php#cec";
 $menu01link02Label = "Commercial Buildings Energy Consumption Survey data";
 $menu01link03URL = "data.php#mfg";
 $menu01link03Label = "Manufacturing Energy Consumption Survey data";
-/*
-$menu01link04URL = "residential/data/2015/";
-$menu01link04Label = "Residential Energy Consumption Survey data";
-$menu01link05URL = "commercial/data/2012/";
-$menu01link05Label = "Commercial Energy Consumption Survey data";
-$menu01link06URL = "manufacturing/data/2014/";
-$menu01link06Label = "Manufacturing Energy Consumption Survey data";
-$menu01link07URL = "data.php#vehicles";
-$menu01link07Label = "Vehicle Energy Consumption Survey data";
-$menu01link08URL = "data.php#intensity";
-$menu01link08Label = "Energy intensity";
-$menu01link09URL = "data.php#consumption";
-$menu01link09Label = "Consumption summaries";
-$menu01link10URL = "data.php#avgcost";
-$menu01link10Label = "Average cost of fossil-fuels for electricity generation";
-$menu01link11URL = "data.php";
-$menu01link11Label = "All consumption &amp; efficiency data reports";
-*/
 
 $menu02Title01 = "Major Topics"; 
-$menu02Title01 = "Find by"; 
+$menu02Title02 = "Find by"; 
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -77,7 +59,7 @@ $faqLabel = "FAQS";
                             </div>
                             <div class="l-row">
                                 <ul class="l-two-third-col">
-                                    <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
+                                    <?php include("adaptive/global/analysis-projections/sub-navigation-menus.inc") ?>
                                 </ul>
                                 <ul class="l-one-third-col">
                                     <li><a href="/<?=$directory?>/<?=$menu02link01URL?>"><?=$menu02link01Label?></a></li>

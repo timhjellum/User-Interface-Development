@@ -1,8 +1,9 @@
 <p>Find statistics on energy consumption and efficiency across all fuel sources.</p>
 <span class="expand-collapse-container">
-    <span class="open">Expand all</span>
+<i class="ico expand"><span>Expand all</span></i>
+<i class="ico collapse"><span>Collapse all</span></i>
 </span>
-<div id="accordion">
+<div id="accordion" class="accordion">
 
     <h3>
         <a name="rec"></a>Residential Energy Consumption Survey data</h3>
@@ -15,8 +16,7 @@
                 <span class="release-date">Release Date: </span>
                 <span class="date">February 27, 2017</span>
             </li>
-            <li>Characteristics data (including structural features, appliance stock, electronics stock, and square footage)for
-                occupied primary housing units.</li>
+            <li>Characteristics data (including structural features, appliance stock, electronics stock, and square footage)for occupied primary housing units.</li>
         </ul>
         <ul>
             <li class="head">
@@ -53,8 +53,7 @@
                 <span class="release-date">Release Date: </span>
                 <span class="date">March 2015</span>
             </li>
-            <li>Detailed tabulated data providing number of buildings and floorspace by characteristics such as geographic region,
-                building activity, size and age, employment and occupancy, energy sources used, and energy-related equipment.</li>
+            <li>Detailed tabulated data providing number of buildings and floorspace by characteristics such as geographic region, building activity, size and age, employment and occupancy, energy sources used, and energy-related equipment.</li>
         </ul>
         <ul>
             <li class="head">
@@ -64,8 +63,7 @@
                 <span class="release-date">Release Date: </span>
                 <span class="date">May, 2016</span>
             </li>
-            <li>Detailed tabulated data providing total energy, electricity, natural gas, fuel oil and district heat consumption
-                figures and data by end use (heating, cooling, lighting, etc.).</li>
+            <li>Detailed tabulated data providing total energy, electricity, natural gas, fuel oil and district heat consumption figures and data by end use (heating, cooling, lighting, etc.).</li>
         </ul>
         <ul>
             <li class="head">
@@ -75,10 +73,8 @@
                 <span class="release-date">Release Date: </span>
                 <span class="date">May, 2016</span>
             </li>
-            <li>Raw data for 6,720 buildings for data users to create custom tables that are not available through the tabulated
-                information. The data represent commercial buildings from the 50 States and the District of Columbia. Each
-                record corresponds to a single responding, in-scope sampled building. Data are available in two formats:
-                a comma delimited file (CSV) and a SAS data file.
+            <li>Raw data for 6,720 buildings for data users to create custom tables that are not available through the tabulated information. The data represent commercial buildings from the 50 States and the District of Columbia. Each record corresponds
+                to a single responding, in-scope sampled building. Data are available in two formats: a comma delimited file (CSV) and a SAS data file.
             </li>
         </ul>
     </div>

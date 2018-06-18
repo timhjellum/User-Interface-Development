@@ -67,15 +67,14 @@
             </nav>
             <div class="content">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row-style-guide">
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="header-style-guide">
                                     <h1>Links List</h1>
                                     <a name="links-list"></a>
                                     <p>
-                                        Script feature that allows the state of the list item to be hidden if there's no content. The key to initiate the script
-                                        is to add the class of <code>hide-mt</code>                                        to the content container.
+                                        Script feature that allows the state of the list item to be hidden if there's no content. The key to initiate the script is to add the class of <code>hide-mt</code> to the content container.
                                     </p>
                                 </div>
                                 <div class="content">
@@ -85,10 +84,9 @@
 
                                     <section>
                                         <a name=""></a>
-                                        <div class="row style-guide">
+                                        <div class="row-style-guide">
                                             <p class="style-guide">
-                                                Some editible include files contain editible variables which write the values to corresponding HTML elements. Notice the
-                                                fourth and fifth variables have been left blank.
+                                                Some editible include files contain editible variables which write the values to corresponding HTML elements. Notice the fourth and fifth variables have been left blank.
                                             </p>
                                             <div class="l-row">
                                                 <pre>
@@ -118,7 +116,7 @@ $SixTitle = "Row Number Six";
 /* DO NOT EDIT BELOW */
 ?&gt;
 
-&lt;div class="content-container standard-container hide-mt"&gt;
+&lt;div class="standard-container hide-mt"&gt;
     &lt;ul&gt;
         &lt;li class="head"&gt;&lt;h2&gt;Survey Forms, Changes &amp;amp; Announcements&lt;/h2&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href='&lt;?=$OneURL?&gt;' title='&lt;?=$OneTitle?&gt;'&gt;&lt;?=$OneTitle?&gt;&lt;/a&gt;&lt;/li&gt;
@@ -136,7 +134,7 @@ $SixTitle = "Row Number Six";
                                             </p>
                                             <div class="l-row">
                                                 <pre>
-<code class="html">&lt;div class="content-container standard-container hide-mt"&gt;
+<code class="html">&lt;div class="standard-container hide-mt"&gt;
     &lt;ul&gt;
         &lt;li class="head"&gt;&lt;h2&gt;Survey Forms, Changes &amp;amp; Announcements&lt;/h2&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="/" title="Row Number One"&gt;Row Number One&lt;/a&gt;&lt;/li&gt;
@@ -154,9 +152,10 @@ $SixTitle = "Row Number Six";
                                                 Here's how the link list would display on the page with the fourth and fifth list items hidden from the user.
                                             </p>
                                             <div class="l-row">
-                                                <div class="content-container standard-container hide-mt" style="padding: 12px 20px;">
+                                                <div class="secondary hide-mt" style="padding: 12px 20px;">
                                                     <ul>
-                                                        <li class="head"><h2>Survey Forms, Changes &amp; Announcements</h2>
+                                                        <li class="head">
+                                                            <h2>Survey Forms, Changes &amp; Announcements</h2>
                                                         </li>
                                                         <li><a href="/" title="Row Number One">Row Number One</a></li>
                                                         <li><a href="/" title="Row Number Two">Row Number Two</a></li>
@@ -182,8 +181,7 @@ $SixTitle = "Row Number Six";
 
 
                                             <p class="style-guide">
-                                                Some editible include files contain editible variables which write the values to corresponding HTML elements. Notice the
-                                                fourth and fifth variables have been left blank.
+                                                Some editible include files contain editible variables which write the values to corresponding HTML elements. Notice the fourth and fifth variables have been left blank.
                                             </p>
                                             <div class="l-row">
                                                 <pre>
@@ -204,7 +202,7 @@ $ThrImageName = "crude-oil-import-data";// .png is not needed
 
 $FouURL = "/some-link/";
 $FouLabel = "STEO Data Browser";
-$FouImageName = "steo";// .png is not needed
+$FouImageName = "steo-data-browser";// .png is not needed
 
 $FivURL = "/radio";
 $FivLabel = "Radio Spot";
@@ -222,7 +220,7 @@ $SixImageName = ""; // .png is not needed
 &lt;div class="l-row"&gt;
     &lt;div&gt;
         &lt;h1&gt;Interactive Visualizations, Data, &amp;amp; Multimedia&lt;/h1&gt;
-        &lt;ul class="visualizations hide-mt"&gt;
+        &lt;ul class="visualizations"&gt;
             &lt;li class="l-col"&gt;&lt;a href="&lt;?=$OneURL?&gt;"&gt;&lt;span class="circle"&gt;&lt;img src="../&lt;?=$OneImageName?&gt;.png" alt="&lt;?=$OneLabel?&gt;"&gt;&lt;/span&gt;&lt;/a&gt;&lt;h3&gt;&lt;a href="&lt;?=$OneURL?&gt;" title="&lt;?=$OneLabel?&gt;"&gt;&lt;?=$OneLabel?&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
             &lt;li class="l-col"&gt;&lt;a href="&lt;?=$TwoURL?&gt;"&gt;&lt;span class="circle"&gt;&lt;img src="../&lt;?=$TwoImageName?&gt;.png" alt="&lt;?=$TwoLabel?&gt;"&gt;&lt;/span&gt;&lt;/a&gt;&lt;h3&gt;&lt;a href="&lt;?=$TwoURL?&gt;" title="&lt;?=$TwoLabel?&gt;"&gt;&lt;?=$TwoLabel?&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
             &lt;li class="l-col"&gt;&lt;a href="&lt;?=$ThrURL?&gt;"&gt;&lt;span class="circle"&gt;&lt;img src="../&lt;?=$ThrImageName?&gt;.png" alt="&lt;?=$ThrLabel?&gt;"&gt;&lt;/span&gt;&lt;/a&gt;&lt;h3&gt;&lt;a href="&lt;?=$ThrURL?&gt;" title="&lt;?=$ThrLabel?&gt;"&gt;&lt;?=$ThrLabel?&gt;&lt;/a&gt;&lt;/h3&gt;&lt;/li&gt;
@@ -242,7 +240,7 @@ $SixImageName = ""; // .png is not needed
 <code class="html">&lt;div class="l-row"&gt;
     &lt;div&gt;
         &lt;h1&gt;Interactive Visualizations, Data, &amp;amp; Multimedia&lt;/h1&gt;
-        &lt;ul class="visualizations hide-mt"&gt;
+        &lt;ul class="visualizations"&gt;
             &lt;li class="l-col"&gt;&lt;a href="/some-link/"&gt;&lt;span class="circle"&gt;&lt;img src="../petroleum-map.png" alt="U.S. Petroleum Infrastructure Map"&gt;&lt;/span&gt;&lt;/a&gt;
                 &lt;h3&gt;&lt;a href="/some-link/" title="U.S. Petroleum Infrastructure Map"&gt;U.S. Petroleum Infrastructure Map&lt;/a&gt;&lt;/h3&gt;
             &lt;/li&gt;
@@ -274,24 +272,26 @@ $SixImageName = ""; // .png is not needed
                                             <div class="l-row">
                                                 <div>
                                                     <h1>Interactive Visualizations, Data, &amp; Multimedia</h1>
-                                                    <ul class="visualizations hide-mt">
-                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/petroleum-map.png" alt="U.S. Petroleum Infrastructure Map"></span></a>
+                                                    <ul class="visualizations">
+                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/adaptive/global/images/issue-trends/interactive/petroleum-map.png" alt="U.S. Petroleum Infrastructure Map"></span></a>
                                                             <h3><a href="/some-link/" title="U.S. Petroleum Infrastructure Map">U.S. Petroleum Infrastructure Map</a></h3>
                                                         </li>
-                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/fossil-fuel-map.png" alt="U.S. Fossil Fuel Resource Map"></span></a>
+                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/adaptive/global/images/issue-trends/interactive/fossil-fuel-map.png" alt="U.S. Fossil Fuel Resource Map"></span></a>
                                                             <h3><a href="/some-link/" title="U.S. Fossil Fuel Resource Map">U.S. Fossil Fuel Resource Map</a></h3>
                                                         </li>
-                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/crude-oil-import-data.png" alt="U.S. Crude Import Tracking Tool"></span></a>
+                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/adaptive/global/images/issue-trends/interactive/crude-oil-import-data.png" alt="U.S. Crude Import Tracking Tool"></span></a>
                                                             <h3><a href="/some-link/" title="U.S. Crude Import Tracking Tool">U.S. Crude Import Tracking Tool</a></h3>
                                                         </li>
-                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/steo.png" alt="STEO Data Browser"></span></a>
+                                                        <li class="l-col"><a href="/some-link/"><span class="circle"><img src="https://www.eia.gov/adaptive/global/images/issue-trends/interactive/steo.png" alt="STEO Data Browser"></span></a>
                                                             <h3><a href="/some-link/" title="STEO Data Browser">STEO Data Browser</a></h3>
                                                         </li>
-                                                        <li class="l-col"><a href="/radio"><span class="circle"><img src="https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/radio.png" alt="Radio Spot"></span></a>
+                                                        <li class="l-col"><a href="/radio"><span class="circle"><img src="https://www.eia.gov/adaptive/global/images/issue-trends/interactive/radio.png" alt="Radio Spot"></span></a>
                                                             <h3><a href="/radio" title="Radio Spot">Radio Spot</a></h3>
                                                         </li>
-                                                        <li class="l-col hide"><a href=""><span class="circle"><img src="https://www.eia.gov/css_rehab/archive/global/images/issue-trends/interactive/.png" alt=""></span></a>
-                                                            <h3><a href="" title=""></a></h3>
+                                                        <li class="l-col hide"><a href=""><span class="circle"><img src="https://www.eia.gov/adaptive/global/images/issue-trends/interactive/.png" alt=""></span></a>
+                                                            <h3>
+                                                                <a href="" title=""></a>
+                                                            </h3>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -317,10 +317,8 @@ $SixImageName = ""; // .png is not needed
 
 <!-- start style guide required vendor scripts -->
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <!-- end style guide required vendor scripts -->
 
 <!-- start style guide custom scripts -->
@@ -330,7 +328,6 @@ $SixImageName = ""; // .png is not needed
 <script src="../src/js/highlight.js"></script>
 <script>
     hljs.initHighlightingOnLoad();
-
 </script>
 <!-- start style guide required scripts -->
 

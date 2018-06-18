@@ -41,15 +41,15 @@ $faqLabel = "FAQS"; // FAQ
 
 <div class="l-row header">
     <div class="l-full-width-col">
-        <div class="title-banner bg-petroleum">
+        <div class="title-banner bg-analysis">
         <h1><?php echo "$sectionname"?></h1>
         </div>
         <div class="sub-navigation">
             <div class="left">
                 <ul class="left-nav">
                     <li class="<?php if ( $locale == "overview") {?>active<?php } ?>"><a href="/<?=$directory?>/">Overview</a></li>
-                    <li class="dropdown dropdown dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn"><?=$subNavLink02Label?><i class="ico sort-up"></i></a>
-                        <div class="dropdown-content dropdown-data-content">
+                    <li class="dropdown dropdown dropdown-data <?php if ( $locale == "projectiondata") {?>active<?php } ?>"><a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn"><?=$subNavLink02Label?><i class="ico sort-up"></i></a>
+                        <div class="dropdown-data-content dropdown-content">
                             <ul>
                                 <li><a href="/<?=$directory?>/<?=$menu01link01URL?>"><?=$menu01link01Label?></a></li>
                                 <li><a href="/<?=$directory?>/<?=$menu01link02URL?>"><?=$menu01link02Label?></a></li>
@@ -66,7 +66,7 @@ $faqLabel = "FAQS"; // FAQ
                             </div>
                             <div class="l-row">
                                 <ul class="l-two-third-col">
-                                    <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
+                                    <?php include("adaptive/global/analysis-projections/sub-navigation-menus.inc") ?>
                                 </ul>
                                 <ul class="l-one-third-col">
                                     <li><a href="/<?=$directory?>/<?=$menu02link01URL?>"><?=$menu02link01Label?></a></li>

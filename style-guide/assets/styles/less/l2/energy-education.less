@@ -4,6 +4,47 @@
             margin: 0 0 3em;
             // width: 100%;
             display: table;
+            display: inline-block;
+            width: 100%;
+            ul {
+                list-style: none;
+                li {
+                    vertical-align: top;
+                    &.foot {
+                        .font;
+                        .bold;
+                        padding: 0;
+                        margin: 10px 0 0;
+                        a {
+                            display: block;
+                            color: @eia-blue;
+                            font-size: .8125rem; //13px;
+                            &:after { 
+                                content:"\00a0\203A";
+                            } 
+                        }
+                    }
+
+                    ul {
+                        list-style-type: disc;
+                    }
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             .l-one-third-col {
                 padding: 1em 0 1.5em 0;
                 img {
@@ -23,6 +64,8 @@
                     &.ico {
                         &.energy-education {
                             float: left;
+                            width: 66px;
+                            height: 75px;
                             &.faq {
                                 &::before {
                                     .icon-faq(@fill-color: @eia-darker-blue, @fill-color-lt: @eia-light-blue);
@@ -39,6 +82,62 @@
                                     margin-left: 0;
                                     border: none;
                                 }
+                            }
+                            &.energy-kids {
+                                background: url(/adaptive/global/images/energy-education/energy-kids.png) no-repeat right;
+                                background-size: 68%;
+                            }
+                            &.natural-gas {
+                                background: url(/adaptive/global/images/energy-education/natural-gas.png) no-repeat;
+
+                            }
+                            &.bio-fuel {
+                                background: url(/adaptive/global/images/energy-education/bio-fuel.png) no-repeat;
+
+                            }
+                            &.coal {
+                                background: url(/adaptive/global/images/energy-education/coal.png) no-repeat;
+
+                            }
+                            &.consumption {
+                                background: url(/adaptive/global/images/energy-education/consumption.png) no-repeat;
+
+                            }
+                            &.environment {
+                                background: url(/adaptive/global/images/energy-education/environment.png) no-repeat;
+
+                            }
+                            &.electricity {
+                                background: url(/adaptive/global/images/energy-education/electricity.png) no-repeat;
+
+                            }
+                            &.nuclear {
+                                background: url(/adaptive/global/images/energy-education/nuclear.png) no-repeat;
+
+                            }
+                            &.renewable {
+                                background: url(/adaptive/global/images/energy-education/renewable.png) no-repeat;
+
+                            }
+                            &.eib {
+                                background: url(/adaptive/global/images/energy-education/eib.png) no-repeat;
+
+                            }
+                        }
+                        &.consumption-surveys {
+                            float: left;
+                            &.residential {
+                                background: url(/adaptive/global/images/consumption/residential.png) no-repeat;
+
+                            }
+                            &.commercial {
+                                background: url(/adaptive/global/images/consumption/commercial.png) no-repeat;
+
+                            }
+                            &.industrial {
+                                background: url(/adaptive/global/images/consumption/industrial.png) no-repeat;
+                                margin-left: 10px;
+
                             }
                         }
                     }
@@ -72,6 +171,11 @@
                             margin-top: 4px;
                             text-align: center;
                             h2 {
+                                .font;
+                                .bold;
+                                color: @eia-dark-blue;
+                                line-height: 1.2em;
+                                text-transform: uppercase;
                                 font-size: .9375rem; //15px
                                 text-align: left;
                                 a {
@@ -79,7 +183,14 @@
                                     .bold;
                                     color: @eia-dark-blue;
                                     line-height: 1.2em;
-                                    text-transform: uppercase;               
+                                    text-transform: uppercase;
+                                    font-size: .9375rem; //15px
+                                    text-align: left;
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    } 
                                 }
                             }
                         }
@@ -88,9 +199,19 @@
                             font-style: italic;
                             font-size: .8125rem; // 13px
                             line-height: 1.5em;
+                            color: @eia-dark-grey;
                             text-align: left;
                             a {
+                                .font;
+                                font-style: italic;
+                                font-size: .8125rem; // 13px
+                                line-height: 1.5em;
                                 color: @eia-dark-grey;
+                                display: inline-block;
+                                text-decoration: none;
+                                &:hover {
+                                    text-decoration: underline;
+                                } 
                             }
                         }
                         &.foot {
@@ -99,9 +220,15 @@
                             a {
                                 font-size: .750rem; // 12px
                                 line-height: 1.375em; // 22px
+                                display: inline-block;
+                                color: @eia-blue;
+                                text-decoration: none;
+                                &:hover {
+                                    text-decoration: underline;
+                                }
                                 &:after { 
                                     content:"\00a0\203A";
-                                }  
+                                }
                             }
                         }
                     }
@@ -150,16 +277,17 @@
                     }
                 }
                 ul {
-                    margin: 0 0 0 0;
+                    //margin: 0 0 0 0;
+                    margin: 0 0 0 80px;
                     img {
                         margin: 0;
                     }
                 }
-                &:first-child {
-                    ul {
-                        margin: 0 0 0 60px;
-                    }
-                }
+                //&:first-child {
+                //    ul {
+                //        margin: 0 0 0 60px;
+                //    }
+                //}
                 &.border {
                     border-left: 1px solid shade(white, 17%);
                     border-right: 1px solid shade(white, 17%);

@@ -6583,7 +6583,6 @@ span.line-break {
   #accordion {
     background-color: white;
     margin-bottom: 2em;
-    cursor: pointer;
   }
   #accordion h3 {
     font-family: "Times New Roman", "Times", serif;
@@ -6594,6 +6593,7 @@ span.line-break {
     border: 0;
     padding: 7px 0;
     border-top: 1px solid #0096d7;
+    cursor: pointer;
   }
   #accordion h3:first-child {
     border-top: 1px solid #003953;
@@ -6636,10 +6636,12 @@ span.line-break {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
+    font-size: 0.750rem;
     color: #0096d7;
     display: block;
     width: 100%;
-    height: 30px;
+    height: 20px;
+    text-transform: uppercase;
   }
   .expand-collapse-container i.ico {
     float: right;
@@ -6731,15 +6733,61 @@ font-size: 1.625rem; // 26px pixels
     padding: 0;
     margin: 0 ;
     vertical-align: top;
+    width: 100%;
+    /*
+					&.icon {
+						width: 100%;
+						clear: both;
+						margin: 0 0 5px 0;
+						&:hover {
+							a {
+								text-decoration: underline;
+								i {
+									span {
+										text-decoration: underline;
+									}
+								}
+							}
+						}
+						a {
+							&:first-child {
+								width: 160px;
+								//border: 1px solid red;
+								float: left;
+								font-size: 0.688rem; // 11 pixels
+								line-height: 1.2em
+							}
+						}
+						a {
+							&:last-child {
+								width: 50px;
+								//border: 1px solid red;
+								float: right;
+								i {
+									.right;
+									span {
+										font-size: 0.688rem; // 11 pixels
+									}
+								}						
+							}
+						}
+					}
+					*/
   }
   .l-narrow-col .secondary-alt ul li a,
   .l-narrow-col .secondary ul li a {
     color: #0096d7;
     text-decoration: none;
+    width: 100%;
+    display: table;
   }
   .l-narrow-col .secondary-alt ul li a:hover,
   .l-narrow-col .secondary ul li a:hover {
     text-decoration: underline;
+  }
+  .l-narrow-col .secondary-alt ul li a .ico,
+  .l-narrow-col .secondary ul li a .ico {
+    float: right;
   }
   .l-narrow-col .secondary-alt ul li ul,
   .l-narrow-col .secondary ul li ul {
@@ -6747,23 +6795,12 @@ font-size: 1.625rem; // 26px pixels
     list-style-type: disc;
     display: block;
   }
-  .l-narrow-col .secondary-alt ul li ul li.icon,
-  .l-narrow-col .secondary ul li ul li.icon {
-    margin: 0 0 5px 0;
-  }
-  .l-narrow-col .secondary-alt ul li ul li.icon a:first-child,
-  .l-narrow-col .secondary ul li ul li.icon a:first-child {
-    width: 144px;
-  }
-  .l-narrow-col .secondary-alt ul li ul li.icon a:last-child,
-  .l-narrow-col .secondary ul li ul li.icon a:last-child {
-    width: 50px;
-  }
   .l-narrow-col .secondary-alt ul li ul li.foot,
   .l-narrow-col .secondary ul li ul li.foot {
     font-family: Arial, Helvetica, sans-serif;
-    color: #333;
     font-weight: normal;
+    color: #333;
+    font-weight: 700;
     padding: 0;
     margin: 0;
   }
@@ -6803,40 +6840,6 @@ font-size: 1.625rem; // 26px pixels
   .l-narrow-col .secondary-alt ul li.image img,
   .l-narrow-col .secondary ul li.image img {
     width: 100%;
-  }
-  .l-narrow-col .secondary-alt ul li.icon,
-  .l-narrow-col .secondary ul li.icon {
-    width: 100%;
-    clear: both;
-    margin: 0 0 5px 0;
-  }
-  .l-narrow-col .secondary-alt ul li.icon:hover a,
-  .l-narrow-col .secondary ul li.icon:hover a {
-    text-decoration: underline;
-  }
-  .l-narrow-col .secondary-alt ul li.icon:hover a i span,
-  .l-narrow-col .secondary ul li.icon:hover a i span {
-    text-decoration: underline;
-  }
-  .l-narrow-col .secondary-alt ul li.icon a:first-child,
-  .l-narrow-col .secondary ul li.icon a:first-child {
-    width: 160px;
-    float: left;
-    font-size: 0.688rem;
-    line-height: 1.2em;
-  }
-  .l-narrow-col .secondary-alt ul li.icon a:last-child,
-  .l-narrow-col .secondary ul li.icon a:last-child {
-    width: 50px;
-    float: right;
-  }
-  .l-narrow-col .secondary-alt ul li.icon a:last-child i,
-  .l-narrow-col .secondary ul li.icon a:last-child i {
-    float: right;
-  }
-  .l-narrow-col .secondary-alt ul li.icon a:last-child i span,
-  .l-narrow-col .secondary ul li.icon a:last-child i span {
-    font-size: 0.688rem;
   }
   .l-narrow-col .secondary-alt ul li.foot,
   .l-narrow-col .secondary ul li.foot {
@@ -7662,13 +7665,13 @@ font-size: 1.500rem; // 24 pixels
 */
 @media (min-width: 1px) {
   .title-banner {
+    min-height: 74px;
     border: none;
     width: 100%;
     padding: 0;
     background-color: #f4f4f4;
   }
   .title-banner.bg-commercial {
-    min-height: 74px;
     padding-bottom: 10px;
   }
   .title-banner h1 {
@@ -7681,8 +7684,8 @@ font-size: 1.500rem; // 24 pixels
 }
 @media (min-width: 600px) {
   .title-banner h1 {
-    padding: .25em 0 0 0;
     margin: 0 0 0 0;
+    min-height: 74px;
     border: none;
   }
   .title-banner h1.cbecs {
@@ -9681,6 +9684,26 @@ font-size: 1.500rem; // 24 pixels
     border-right: 1px solid #ededed;
     float: left;
     text-transform: uppercase;
+    /*
+						&.active {
+							a {
+								color: @eia-blue;
+								border-bottom: 2px solid @eia-blue;
+								text-decoration: none;
+								i {
+									display: none;
+								}
+								&:hover {
+									color: @eia-blue;
+									border-bottom: 2px solid @eia-blue;
+									text-decoration: none;
+									i {
+										display: none;
+									}
+								}
+							}
+						}
+						*/
   }
   .sub-navigation .left ul.left-nav > li:last-child {
     border-right: none;
@@ -9699,22 +9722,6 @@ font-size: 1.500rem; // 24 pixels
     display: none;
   }
   .sub-navigation .left ul.left-nav > li a:hover i {
-    display: none;
-  }
-  .sub-navigation .left ul.left-nav > li.active a {
-    color: #0096d7;
-    border-bottom: 2px solid #0096d7;
-    text-decoration: none;
-  }
-  .sub-navigation .left ul.left-nav > li.active a i {
-    display: none;
-  }
-  .sub-navigation .left ul.left-nav > li.active a:hover {
-    color: #0096d7;
-    border-bottom: 2px solid #0096d7;
-    text-decoration: none;
-  }
-  .sub-navigation .left ul.left-nav > li.active a:hover i {
     display: none;
   }
   .sub-navigation .left ul .dropdown-data-content,
@@ -9754,16 +9761,16 @@ font-size: 1.500rem; // 24 pixels
     padding: 0px;
     height: 30px;
   }
-  .sub-navigation .left ul.left-nav > li a {
+  .sub-navigation .left ul.left-nav > li > a {
     font-size: 0.750rem;
     color: #0096d7;
     text-decoration: none;
   }
-  .sub-navigation .left ul.left-nav > li a i.ico {
+  .sub-navigation .left ul.left-nav > li > a i.ico {
     display: block;
     float: right;
   }
-  .sub-navigation .left ul.left-nav > li a i.ico.sort-up:before {
+  .sub-navigation .left ul.left-nav > li > a i.ico.sort-up:before {
     content: ' ';
     height: 10px;
     width: 16px;
@@ -9788,34 +9795,34 @@ font-size: 1.500rem; // 24 pixels
     border-left: 1px solid rgba(0, 0, 0, 0.45);
     border-bottom: none;
   }
-  .sub-navigation .left ul.left-nav > li.active a {
+  .sub-navigation .left ul.left-nav > li.active > a {
     color: #003C57;
     border-bottom: none;
   }
-  .sub-navigation .left ul.left-nav > li.active a i.ico {
+  .sub-navigation .left ul.left-nav > li.active > a i.ico {
     display: block;
     float: right;
   }
-  .sub-navigation .left ul.left-nav > li.active a i.ico.sort-up:before {
+  .sub-navigation .left ul.left-nav > li.active > a i.ico.sort-up:before {
     background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-sort%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2014%2016%22%3E%3Cg%20id%3D%22group-47%22%3E%3Cpath%20id%3D%22path%22%20d%3D%22M1.2,10.1L7,15.9l5.8-5.8H1.2Z%22%20fill%3D%22%23003C57%22/%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
   }
   .sub-navigation .left ul.left-nav > li.active:hover {
     background: #0096d7;
   }
-  .sub-navigation .left ul.left-nav > li.active:hover a {
+  .sub-navigation .left ul.left-nav > li.active:hover > a {
     color: #003953;
     text-decoration: underline;
   }
-  .sub-navigation .left ul.left-nav > li.active:hover a i.ico.sort-up:before {
+  .sub-navigation .left ul.left-nav > li.active:hover > a i.ico.sort-up:before {
     background: url('data:image/svg+xml,%3Csvg%20id%3D%22icon-sort%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2014%2016%22%3E%3Cg%20id%3D%22group-47%22%3E%3Cpath%20id%3D%22path%22%20d%3D%22M1.2,10.1L7,15.9l5.8-5.8H1.2Z%22%20fill%3D%22%23003C57%22/%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
   }
-  .sub-navigation .left ul .dropdown-data-content {
+  .sub-navigation .left ul.left-nav > li .dropdown-data-content {
     width: 300px;
   }
-  .sub-navigation .left ul .dropdown-analysis-projections-content {
+  .sub-navigation .left ul.left-nav > li .dropdown-analysis-projections-content {
     width: 650px;
   }
-  .sub-navigation .left ul .dropdown-analysis-projections-content h4 {
+  .sub-navigation .left ul.left-nav > li .dropdown-analysis-projections-content h4 {
     margin: 12px 0 6px 0;
     padding-bottom: 2px;
     border-bottom: 1px solid silver;
@@ -9823,29 +9830,31 @@ font-size: 1.500rem; // 24 pixels
     font-size: 0.9375rem;
     font-weight: normal;
   }
-  .sub-navigation .left ul .dropdown-analysis-projections-content ul.l-two-third-col li {
+  .sub-navigation .left ul.left-nav > li .dropdown-analysis-projections-content ul.l-two-third-col li {
     float: left;
     width: 50%;
   }
-  .sub-navigation .left ul .dropdown-content {
+  .sub-navigation .left ul.left-nav > li .dropdown-content {
     margin-top: -3px;
     border-top: 3px solid #0096d7;
     z-index: 200;
   }
-  .sub-navigation .left ul .dropdown-content ul {
+  .sub-navigation .left ul.left-nav > li .dropdown-content ul {
     list-style: none;
     padding: 0;
   }
-  .sub-navigation .left ul .dropdown-content ul li a {
+  .sub-navigation .left ul.left-nav > li .dropdown-content ul li a {
     padding: 5px 0;
     text-transform: none;
     font-size: 0.75rem;
     display: block;
     color: #0096d7;
     border: none;
+    text-decoration: none;
   }
-  .sub-navigation .left ul .dropdown-content ul li a:hover {
+  .sub-navigation .left ul.left-nav > li .dropdown-content ul li a:hover {
     color: #003C57;
+    text-decoration: underline;
   }
   .sub-navigation .left .dropdown-analysis-projections:hover .dropdown-analysis-projections-content {
     display: block;

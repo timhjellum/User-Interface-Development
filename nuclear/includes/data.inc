@@ -1,21 +1,24 @@
-<p>Find statistics on nuclear operable units, nuclear electricity net generation, nuclear share of electricity net generation,
-    and capacity factor.</p>
+<p>Find statistics on nuclear operable units, nuclear electricity net generation, nuclear share of electricity net generation, and capacity factor.</p>
 
-<span class="expand-collapse-container"> <span class="open">Expand all</span> </span><div id="accordion">
-    <h3><a name="nuclear"></a>Nuclear power plants</h3>
+<span class="expand-collapse-container">
+    <i class="ico expand"><span>Expand all</span></i>
+<i class="ico collapse"><span>Collapse all</span></i>
+</span>
+<div id="accordion" class="accordion">
+    <h3>
+        <a name="nuclear"></a>Nuclear power plants</h3>
     <div class="content">
         <ul>
             <li class="head">
                 Daily nuclear status/outages (with annual capacity)</li>
-            <li>Daily status of U.S. nuclear plants with summary and plant-specific data on percentage output, outage amount,
-                and capacity</li>
+            <li>Daily status of U.S. nuclear plants with summary and plant-specific data on percentage output, outage amount, and capacity</li>
             <li>
                 <span class="formats">Available formats:</span>
                 <a href="/nuclear/outages/" title="Daily nuclear status/outages">
-                            <i class="ico interactive">
+                    <i class="ico interactive">
                                 <span>Interactive</span>
                             </i>
-                        </a>
+                </a>
             </li>
         </ul>
         <ul>
@@ -37,7 +40,7 @@
             <li class="include">
                 <span class="release-date">Release Date:</span>
                 <span class="date">
-                            <?php include('css_rehab/archive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                            <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
                         </span> |
                 <span class="source">data from:</span>
                 <a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
@@ -45,25 +48,25 @@
             <li>
                 <span class="formats">Available formats:</span>
                 <a href="/totalenergy/data/monthly/pdf/sec8_3.pdf" class="ico_pdf" title="Nuclear generation, capacity summary data">
-                            <i class="ico pdf">
+                    <i class="ico pdf">
                                 <span>PDF</span>
                             </i>
-                        </a>
+                </a>
                 <a href="/totalenergy/data/browser/csv.cfm?tbl=T08.01" class="ico_csv" title="Nuclear generation, capacity summary data">
-                            <i class="ico csv">
+                    <i class="ico csv">
                                 <span>CSV</span>
                             </i>
-                        </a>
+                </a>
                 <a href="/totalenergy/data/browser/xls.cfm?tbl=T08.01&amp;freq=m" class="ico_xls" title="Nuclear generation, capacity summary data">
-                            <i class="ico xls">
+                    <i class="ico xls">
                                 <span>XLS</span>
                             </i>
-                        </a> |
+                </a> |
                 <a href="/beta/MER/index.cfm?tbl=T08.01#/?f=M&amp;start=200001" title="Nuclear generation, capacity summary data">
-                            <i class="ico interactive">
+                    <i class="ico interactive">
                                 <span>Interactive</span>
                             </i>
-                        </a>
+                </a>
             </li>
         </ul>
         <ul>
@@ -80,17 +83,17 @@
         <ul>
             <li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0901">Nuclear generator licensing data</a></li>
             <li>
-                    <span class="formats">Available formats:</span>
-                    <a href="/totalenergy/data/annual/pdf/sec9_3.pdf" class="ico_pdf" title="Nuclear generator licensing data">
-                                <i class="ico pdf">
+                <span class="formats">Available formats:</span>
+                <a href="/totalenergy/data/annual/pdf/sec9_3.pdf" class="ico_pdf" title="Nuclear generator licensing data">
+                    <i class="ico pdf">
                                     <span>PDF</span>
                                 </i>
-                            </a>
-                    <a href="/totalenergy/data/annual/xls/stb0901.xls" class="ico_xls" title="Nuclear generator licensing data">
-                                <i class="ico xls">
+                </a>
+                <a href="/totalenergy/data/annual/xls/stb0901.xls" class="ico_xls" title="Nuclear generator licensing data">
+                    <i class="ico xls">
                                     <span>XLS</span>
                                 </i>
-                            </a>
+                </a>
             </li>
         </ul>
         <ul>
@@ -134,20 +137,19 @@
                     <li class="list-item">
                         <ul>
                             <li>
-                                <a href="/uranium/production/annual/usummary.cfm">Summary uranium production data</a>, back
-                                to 1993</li>
+                                <a href="/uranium/production/annual/usummary.cfm">Summary uranium production data</a>, back to 1993</li>
                             <li>
                                 <span class="formats">Available formats:</span>
                                 <a href="/uranium/production/annual/pdf/usummarytbl9.pdf" class="ico_pdf" title="Summary uranium production data, back to 1993">
-                                            <i class="ico pdf">
+                                    <i class="ico pdf">
                                                 <span>PDF</span>
                                             </i>
-                                        </a>
+                                </a>
                                 <a href="/uranium/production/annual/xls/usummarytbl9.xls" class="ico_xls" title="Summary uranium production data, back to 1993">
-                                            <i class="ico xls">
+                                    <i class="ico xls">
                                                 <span>XLS</span>
                                             </i>
-                                        </a>
+                                </a>
                             </li>
                         </ul>
                         <ul>
@@ -157,15 +159,15 @@
                             <li>
                                 <span class="formats">Available formats:</span>
                                 <a href="/uranium/production/annual/pdf/umillstbl4.pdf" class="ico_pdf" title="U.S. uranium mills by owner, capacity, and operating status">
-                                            <i class="ico pdf">
+                                    <i class="ico pdf">
                                                 <span>PDF</span>
                                             </i>
-                                        </a>
+                                </a>
                                 <a href="/uranium/production/annual/xls/umillstbl4.xls" class="ico_xls" title="U.S. uranium mills by owner, capacity, and operating status">
-                                            <i class="ico xls">
+                                    <i class="ico xls">
                                                 <span>XLS</span>
                                             </i>
-                                        </a>
+                                </a>
                             </li>
                         </ul>
                         <ul>
@@ -175,15 +177,15 @@
                             <li>
                                 <span class="formats">Available formats:</span>
                                 <a href="/uranium/production/annual/pdf/uisltbl5.pdf" class="ico_pdf" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status">
-                                            <i class="ico pdf">
+                                    <i class="ico pdf">
                                                 <span>PDF</span>
                                             </i>
-                                        </a>
+                                </a>
                                 <a href="/uranium/production/annual/xls/uisltbl5.xls" class="ico_xls" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status">
-                                            <i class="ico xls">
+                                    <i class="ico xls">
                                                 <span>XLS</span>
                                             </i>
-                                        </a>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -191,7 +193,7 @@
                 <ul>
                     <li>Quarterly</li>
                     <li class="include">
-                        <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') ?></span>                        | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
+                        <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') ?></span> | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
             </li>
             <li class="list-item">
                 <ul>
@@ -201,15 +203,15 @@
                     <li>
                         <span class="formats">Available formats:</span>
                         <a href="/uranium/production/quarterly/pdf/qupd_tbl1.pdf" class="ico_pdf" title="Total production of uranium concentrate">
-                                            <i class="ico pdf">
+                            <i class="ico pdf">
                                                 <span>PDF</span>
                                             </i>
-                                        </a>
+                        </a>
                         <a href="/uranium/production/quarterly/xls/qupd_tbl1.xls" class="ico_xls" title="Total production of uranium concentrate">
-                                            <i class="ico xls">
+                            <i class="ico xls">
                                                 <span>XLS</span>
                                             </i>
-                                        </a>
+                        </a>
                     </li>
                 </ul>
                 <ul>
@@ -219,15 +221,15 @@
                     <li>
                         <span class="formats">Available formats:</span>
                         <a href="http://www.eia.gov/uranium/production/quarterly/pdf/qupd_tbl2.pdf" class="ico_pdf" title="Number of uranium mills and plants producing uranium concentrate in the United States">
-                                            <i class="ico pdf">
+                            <i class="ico pdf">
                                                 <span>PDF</span>
                                             </i>
-                                        </a>
+                        </a>
                         <a href="/uranium/production/quarterly/xls/qupd_tbl2.xls" class="ico_xls" title="Number of uranium mills and plants producing uranium concentrate in the United States">
-                                            <i class="ico xls">
+                            <i class="ico xls">
                                                 <span>XLS</span>
                                             </i>
-                                        </a>
+                        </a>
                     </li>
                 </ul>
                 <ul>
@@ -237,15 +239,15 @@
                     <li>
                         <span class="formats">Available formats:</span>
                         <a href="/uranium/production/quarterly/pdf/qupd_tbl3.pdf" class="ico_pdf" title="U.S. uranium mills by owner, capacity, and operating status">
-                                            <i class="ico pdf">
+                            <i class="ico pdf">
                                                 <span>PDF</span>
                                             </i>
-                                        </a>
+                        </a>
                         <a href="/uranium/production/quarterly/xls/qupd_tbl3.xls" class="ico_xls" title="U.S. uranium mills by owner, capacity, and operating status">
-                                            <i class="ico xls">
+                            <i class="ico xls">
                                                 <span>XLS</span>
                                             </i>
-                                        </a>
+                        </a>
                     </li>
                 </ul>
                 <ul>
@@ -255,15 +257,15 @@
                     <li>
                         <span class="formats">Available formats:</span>
                         <a href="/uranium/production/quarterly/pdf/qupd_tbl4.pdf" class="ico_pdf" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status">
-                                            <i class="ico pdf">
+                            <i class="ico pdf">
                                                 <span>PDF</span>
                                             </i>
-                                        </a>
+                        </a>
                         <a href="/uranium/production/quarterly/xls/qupd_tbl4.xls" class="ico_xls" title="U.S. uranium in-situ-leach plants by owner, capacity, and operating status">
-                                            <i class="ico xls">
+                            <i class="ico xls">
                                                 <span>XLS</span>
                                             </i>
-                                        </a>
+                        </a>
                     </li>
                 </ul>
             </li>
@@ -276,19 +278,19 @@
             </li>
             <li>Quantity of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') */ ?></span>                | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
+                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') */ ?></span> | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
             <li>
                 <span class="formats">Available formats:</span>
                 <a href="/uranium/marketing/pdf/umartable1figures1n2.pdf">
-                            <i class="ico pdf">
+                    <i class="ico pdf">
                                 <span>PDF</span>
                             </i>
-                        </a>
+                </a>
                 <a href="/uranium/marketing/xls/umartable1figures1n2.xls">
-                            <i class="ico xls">
+                    <i class="ico xls">
                                 <span>XLS</span>
                             </i>
-                        </a>
+                </a>
             </li>
         </ul>
         <ul>
@@ -297,19 +299,19 @@
             </li>
             <li>Weighted-average price of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/uranium/production/quarterly/html/uma-new-header.inc') */ ?></span>                | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
+                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') */ ?></span> | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
             <li>
                 <span class="formats">Available formats:</span>
                 <a href="/uranium/marketing/pdf/umartableS1bfigureS2.pdf">
-                            <i class="ico pdf">
+                    <i class="ico pdf">
                                 <span>PDF</span>
                             </i>
-                        </a>
+                </a>
                 <a href="/uranium/marketing/xls/umartableS1bfigureS2.xls">
-                            <i class="ico xls">
+                    <i class="ico xls">
                                 <span>XLS</span>
                             </i>
-                        </a>
+                </a>
             </li>
         </ul>
         <ul>
