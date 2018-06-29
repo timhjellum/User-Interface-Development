@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong>Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2017-05/fig_HL1coppwp2.png" class="lightbox"><img src="images/2017-05/fig_HL1_coppwp_sm2.png" /></a>
-        </li>
+                <a href="images/2017-05/fig_HL1coppwp2.png" class="lightbox"><img src="images/2017-05/fig_HL1_coppwp_sm2.png" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3><strong>Highlights</strong></h3>
-            </li>
+                <h3><strong>Highlights</strong></h3></li>
             <li>
                 <h2 class="strong">Crude oil</h2>
                 <ul>
@@ -38,8 +35,7 @@
                 <li>Monthly average prices for refiner sales of No. 2 distillates show small changes in February. The average price for No. 2 diesel fuel sold to end users rose 0.8 cent to $1.755 per gallon, while the average wholesale price increased 0.5
                     cent to $1.641 per gallon. The wholesale price for No. 2 fuel oil decreased 0.7 cent to $1.553 per gallon.</li>
                 <li>February refiner sales of No. 2 ultra-low sulfur diesel fuel rose 5.7 million gallons per day (4.1%) to 143.9 million gallons per day. While retail sales fell 400,000 gallons per day (3.3%), wholesales climbed 6.1 million gallons per day
-                    (4.8%).
-                </li>
+                    (4.8%).</li>
             </ul>
             <br />
             <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
@@ -78,8 +74,7 @@
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Related information</h2>
-            </li>
+                <h2>Related information</h2></li>
             <li><a href="pdf/enote.pdf"><i class="ico pdf">PDF</i>Petroleum marketing explanatory notes</a></li>
             <li><a href="xls/fueltaxes.xls"><i class="ico xls">XLS</i>Federal and state motor fuel taxes</a></li>
             <li><a href="pdf/paddmap.pdf"><i class="ico pdf">PDF</i>Petroleum administration for defense district (PADD) map</a></li>

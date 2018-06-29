@@ -25,7 +25,7 @@ $(document).ready(function(){
 <?php /*/ Page/Section Title */ ?>
 <div class="subnav"> 
   <?php /* Page/Sub Nav */ ?> 
-  <span class="right"><a href="<?php echo "$glossary_path"?>?id=consumption">Glossary &rsaquo;</a> <a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span>
+  <span class="right"><a href="<?php echo "$glossary_path"?>?id=consumption">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span>
   <ul>
     <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/consumption/residential/index.cfm">Overview</a></li>
 <?php /*div class="dat_block">

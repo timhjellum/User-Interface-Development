@@ -7,7 +7,7 @@
     <?php /*/ Page/Section Title */ ?>
     <div id="subnav">
     <?php /* Page/Sub Nav */ ?>
-    <span class="right"><a href="#">Glossary &rsaquo;</a> <a href="#">FAQS &rsaquo;</a></span>
+    <span class="right"><a href="#">Glossary &rsaquo;</a><a href="#">FAQS &rsaquo;</a></span>
       <ul>
         <li class="subnav-overview"><a href="index.cfm">Overview</a></li>
         <li class="subnav-residential"><a href="residential.cfm">Residential</a></li>

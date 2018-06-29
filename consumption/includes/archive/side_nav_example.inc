@@ -6,7 +6,7 @@
                 <li><a href="#">Overview</a></li>
               </ul>
               <ul>
-                <li><a href="#" class="active">Data</a> </li>
+                <li><a href="#" class="active">Data</a></li>
               </ul>
               <ul>
                 <li><a href="#">Analysis, projections &amp; reports</a></li>

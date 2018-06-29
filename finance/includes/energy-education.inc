@@ -48,18 +48,15 @@ $itemThrFootLabel = "See more energy kids";
                                     <a href="<?=$itemOneHeadUrl?>">
                                         <?=$itemOneHeadLabel?>
                                     </a>
-                                </h2>
-                            </li>
+                                </h2></li>
                             <li class="sub-head">
                                 <a href="<?=$itemOneSubheadUrl?>">
                                     <?=$itemOneSubheadLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                             <li class="foot">
                                 <a href="<?=$itemOneFootUrl?>">
                                     <?=$itemOneFootLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                         </ul>
                     </div>
                     <div class="l-one-third-col border">
@@ -70,18 +67,15 @@ $itemThrFootLabel = "See more energy kids";
                                     <a href="<?=$itemTwoHeadUrl?>">
                                         <?=$itemTwoHeadLabel?>
                                     </a>
-                                </h2>
-                            </li>
+                                </h2></li>
                             <li class="sub-head">
                                 <a href="<?=$itemTwoSubheadUrl?>">
                                     <?=$itemTwoSubheadLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                             <li class="foot">
                                 <a href="<?=$itemTwoFootUrl?>">
                                     <?=$itemTwoFootLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                         </ul>
                     </div>
                     <div class="l-one-third-col">
@@ -92,23 +86,19 @@ $itemThrFootLabel = "See more energy kids";
                                     <a href="<?=$itemThrHeadUrl?>">
                                         <?=$itemThrHeadLabel?>
                                     </a>
-                                </h2>
-                            </li>
+                                </h2></li>
                             <li class="sub-head">
                                 <a href="<?=$itemThrSubheadUrl?>">
                                     <?=$itemThrSubheadLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                             <li class="sub-head">
                                 <a href="<?=$itemThrSecSubheadURL?>">
                                     <?=$itemThrSecSubheadLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                             <li class="foot">
                                 <a href="<?=$itemThrFootUrl?>">
                                     <?=$itemThrFootLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,8 +1,7 @@
 <div class="secondary">
     <ul>
         <li class="head">
-            <h2>Changes this month</h2>
-        </li>
+            <h2>Changes this month</h2></li>
         <li>
             <ul>
                 <li>"Approximate heat content of coal and coal coke" (<a href="/totalenergy/data/monthly/pdf/sec13_5.pdf">Table A5<i class="ico pdf"><span>PDF</span></i></a>) includes revisions for 2017 and 2018 that affect data in <a href="/totalenergy/data/monthly/#summary">Energy overview</a>,
@@ -13,41 +12,35 @@
                 <li>Data updates</li>
                 <li><a href="/totalenergy/data/monthly/whatsnew.php">See list of previous changes</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>
 <div class="secondary-alt">
     <ul>
         <li class="head">
-            <h2>Diagrams</h2>
-        </li>
+            <h2>Diagrams</h2></li>
         <li class="sub-head">Energy flows 2017</li>
         <li class="image"><img src="/totalenergy/data/monthly/pdf/flow/overview_flow_xsmall_2017.png" alt="Total Energy diagram image"></li>
         <li class="icon">
             <a href="/totalenergy/data/monthly/pdf/flow/total_energy.pdf"><i class="ico pdf">
                 <span>PDF</span>
-            </i>Total energy</a>
-        </li>
+            </i>Total energy</a></li>
         <li class="icon">
             <a href="/totalenergy/data/monthly/pdf/flow/petroleum.pdf"><i class="ico pdf">
                 <span>PDF</span>
-            </i>Petroleum</a>
-        </li>
+            </i>Petroleum</a></li>
         <li class="icon">
             <a href="/totalenergy/data/monthly/pdf/flow/natural_gas.pdf"><i class="ico pdf">
                 <span>PDF</span>
-            </i>Natural gas</a>
-        </li>
+            </i>Natural gas</a></li>
         <li class="icon">
             <a href="/totalenergy/data/monthly/pdf/flow/coal.pdf"><i class="ico pdf">
                 <span>PDF</span>
-            </i>Coal</a>
-        </li>
+            </i>Coal</a></li>
         <li class="icon">
             <a href="/totalenergy/data/monthly/pdf/flow/electricity.pdf"><i class="ico pdf">
                     <span>PDF</span>
-                </i>Electricity</a>
-        </li>
+                </i>Electricity</a></li>
         <li class="sub-head">Primary energy consumption 2017</li>
         <li class="image"><img src="/totalenergy/data/monthly/pdf/flow/css_2017_xsmall.png" alt="Consumption by Source and Sector diagram image"></li>
         <li class="sub-list">
@@ -55,16 +48,14 @@
                 <li class="icon">
                     <a href="/totalenergy/data/monthly/pdf/flow/css_2017_energy.pdf"><i class="ico pdf">
                     <span>PDF</span>
-                </i>Consumption by source and sector</a>
-                </li>
+                </i>Consumption by source and sector</a></li>
             </ul>
-        </li>
+</li>
         <li class="sub-list">
             <ul>
                 <li>
-                    <a href="/totalenergy/data/annual/archive/energyflow.php">Archive of energy flow and consumption diagrams</a>
-                </li>
+                    <a href="/totalenergy/data/annual/archive/energyflow.php">Archive of energy flow and consumption diagrams</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>

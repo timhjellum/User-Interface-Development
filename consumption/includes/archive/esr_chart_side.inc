@@ -41,9 +41,7 @@
      <a href="/electricity/sales_revenue_price/archive/2002/esr_2002_tables.xls">2002 Tables</a> 
     <br />
      <a href="/electricity/sales_revenue_price/archive/2001/esr_2001_tables.xls">2001
-      Tables</a> 
-        
-    <a href="#">Product Guide</a><br />
+      Tables</a><a href="#">Product Guide</a><br />
         <a href="#">Glossary</a><br />
         <a href="#">List of Articles</a><br />
   </p>*/ ?>

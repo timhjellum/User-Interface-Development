@@ -3,8 +3,7 @@
 <h1>Market Prices and Uncertainty Report Charts</h1>
 
 
-<h3>
-    <a name="selected-charts"></a>Selected Charts</h3>
+<h3><a name="selected-charts"></a>Selected Charts</h3>
 <div class="content zebra">
     <ul>
         <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig1.png" class="lightbox">Figure 1: Historical crude oil front month futures prices</a></li>
@@ -53,8 +52,7 @@
 
 
 <div id="accordion" class="accordion">
-    <h3>
-        <a name="finance"></a>Finance</h3>
+    <h3><a name="finance"></a>Finance</h3>
     <div class="content">
         <ul>
             <li class="head">Selected financial items</li>
@@ -117,7 +115,7 @@
             <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/T-12.xlsx" alt="Income taxes "><i class="ico xls"><span>XLS</span></i></a></li>
         </ul>
         <ul>
-            <li class="head">U.S. taxes other than income taxes </li>
+            <li class="head">U.S. taxes other than income taxes</li>
             <li><span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span></li>
             <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/T-13.xlsx" alt="U.S. taxes other than income taxes"><i class="ico xls"><span>XLS</span></i></a></li>
         </ul>
@@ -126,8 +124,7 @@
 
 
 
-    <h3>
-        <a name="oil"></a>Oil and natural gas costs/expenditures</h3>
+    <h3><a name="oil"></a>Oil and natural gas costs/expenditures</h3>
 
     <div class="content">
         <ul>
@@ -200,8 +197,7 @@
 
 
 
-    <h3>
-        <a name="refining"></a>Refining and marketing</h3>
+    <h3><a name="refining"></a>Refining and marketing</h3>
 
     <div class="content">
         <ul>
@@ -250,8 +246,7 @@
 
 
 
-    <h3>
-        <a name="operations"></a>Consolidated company operations</h3>
+    <h3><a name="operations"></a>Consolidated company operations</h3>
 
     <div class="content">
         <ul class="highlight">
@@ -291,8 +286,7 @@
 
 
 
-    <h3>
-        <a name="petroleumops"></a>Petroleum operations</h3>
+    <h3><a name="petroleumops"></a>Petroleum operations</h3>
 
     <div class="content">
         <ul class="highlight">
@@ -336,14 +330,12 @@
 
 
 
-    <h3>
-        <a name="coalops"></a>Coal operations</h3>
+    <h3><a name="coalops"></a>Coal operations</h3>
 
     <div class="content">
         <ul class="highlight">
             <li class="head">
-                Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.
-            </li>
+                Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
 
         </ul>
         <ul>
@@ -356,14 +348,12 @@
 
 
 
-    <h3>
-        <a name="natgasops"></a>Downstream natural gas operations</h3>
+    <h3><a name="natgasops"></a>Downstream natural gas operations</h3>
 
     <div class="content">
         <ul class="highlight">
             <li class="head">
-                Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.
-            </li>
+                Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
         </ul>
         <ul>
             <li>Statement of income</li>
@@ -386,8 +376,7 @@
 
 
 
-    <h3>
-        <a nam="electricops"></a>Electric power operations</h3>
+    <h3><a nam="electricops"></a>Electric power operations</h3>
 
 
     <div class="content">
@@ -420,12 +409,11 @@
 <span class="expand-collapse-container"> <i class="ico expand"><span>Expand all</span></i> <i class="ico collapse"><span>Collapse all</span></i> </span>
 
 <div id="accordion" class="accordion">
-    <h3>
-        <a name="2010"></a>2010</h3>
+    <h3><a name="2010"></a>2010</h3>
 
     <div class="content">
         <ul>
-            <li class="head">Third quarter 2010 </li>
+            <li class="head">Third quarter 2010</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q310.pdf" alt="Financial News for Major Energy Producers Third quarter 2010"><i class="ico pdf"><span>PDF</span></i></a></li>
         </ul>
         <ul>
@@ -441,8 +429,7 @@
 
 
 
-    <h3>
-        <a name="2009"></a>2009</h3>
+    <h3><a name="2009"></a>2009</h3>
 
     <div class="content">
         <ul>
@@ -466,8 +453,7 @@
 
 
 
-    <h3>
-        <a name="2008"></a>2008</h3>
+    <h3><a name="2008"></a>2008</h3>
 
     <div class="content">
         <ul>
@@ -491,8 +477,7 @@
 
 
 
-    <h3>
-        <a name="2007"></a>2007</h3>
+    <h3><a name="2007"></a>2007</h3>
 
     <div class="content">
         <ul>
@@ -516,8 +501,7 @@
 
 
 
-    <h3>
-        <a name="2006"></a>2006</h3>
+    <h3><a name="2006"></a>2006</h3>
 
     <div class="content">
         <ul>
@@ -541,8 +525,7 @@
 
 
 
-    <h3>
-        <a name="2005"></a>2005</h3>
+    <h3><a name="2005"></a>2005</h3>
 
     <div class="content">
         <ul>
@@ -566,8 +549,7 @@
 
 
 
-    <h3>
-        <a name="2004"></a>2004</h3>
+    <h3><a name="2004"></a>2004</h3>
 
     <div class="content">
         <ul>
@@ -591,8 +573,7 @@
 
 
 
-    <h3>
-        <a name="2003"></a>2003</h3>
+    <h3><a name="2003"></a>2003</h3>
 
     <div class="content">
         <ul>
@@ -616,8 +597,7 @@
 
 
 
-    <h3>
-        <a name="2002"></a>2002</h3>
+    <h3><a name="2002"></a>2002</h3>
 
     <div class="content">
         <ul>
@@ -641,8 +621,7 @@
 
 
 
-    <h3>
-        <a name="2001"></a>2001</h3>
+    <h3><a name="2001"></a>2001</h3>
 
     <div class="content">
         <ul>

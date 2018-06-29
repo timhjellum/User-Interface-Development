@@ -3,8 +3,7 @@
         <li><a href="pdf/ndaa.pdf">Full report<i class="ico pdf">PDF</i></a></li>
 
         <li class="header">
-            <h2>Previous Issues</h2>
-        </li>
+            <h2>Previous Issues</h2></li>
         <li><a href="../ndaa/archive/pdf/ndaa_oct_30_2014.pdf">10-30-2014</a></li>
         <li><a href="../ndaa/archive/pdf/ndaa_aug_28_2014.pdf">8-28-2014</a></li>
         <li><a href="../ndaa/archive/pdf/ndaa_jun_26_2014.pdf">6-26-2014</a></li>

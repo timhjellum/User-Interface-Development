@@ -2,8 +2,7 @@
     <ul>
         <li><i class="ico pdf">PDF</i><a href="pdf/ndaa.pdf">Full report</a></li>
         <li class="header">
-            <h2>Previous Issues</h2>
-        </li>
+            <h2>Previous Issues</h2></li>
         <li><i class="ico pdf">PDF</i><a href="../ndaa/archive/pdf/ndaa_dec_20_2013.pdf">12-20-2013</a></li>
         <li><i class="ico pdf">PDF</i><a href="../ndaa/archive/pdf/ndaa_oct_31_2013.pdf">10-31-2013</a></li>
         <li><i class="ico pdf">PDF</i><a href="../ndaa/archive/pdf/ndaa_aug_29_2013.pdf">8-29-2013</a></li>

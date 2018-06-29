@@ -10,8 +10,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>Procedures &amp; Methodology</h2>
-        </li>
+            <h2>Procedures &amp; Methodology</h2></li>
         <li class="sub-header"> Gasoline</li>
         <li><a href="gas_procedure.php">Data collection procedures</a></li>
         <li><a href="gas_methodology.php">Sampling methodology</a></li>
@@ -34,8 +33,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>Related Links</h2>
-        </li>
+            <h2>Related Links</h2></li>
         <li><a href="/energyexplained/index.cfm?page=gasoline_factors_affecting_prices">Gasoline Explained</a></li>
         <li><a href="/energyexplained/index.cfm?page=diesel_prices">Diesel Fuel Explained</a></li>
         <li><a href="/energyexplained/index.cfm?page=gasoline_where">Where Our Gasoline Comes From</a></li>
@@ -46,8 +44,7 @@
     <ul>
         <li class="header">
             <h2>
-                <li><a href="/tools/faqs/index.cfm">Frequently Asked Questions</a></h2>
-            </li>
+                <li><a href="/tools/faqs/index.cfm">Frequently Asked Questions</a></h2></li>
             <li><a href="/tools/faqs/faq.cfm?id=21&t=10">Can I tell where the gasoline at my local station comes from?</a></li>
             <li><a href="/tools/faqs/faq.cfm?id=2&t=9">Does EIA calculate diesel fuel surcharges?</a></li>
     </ul>

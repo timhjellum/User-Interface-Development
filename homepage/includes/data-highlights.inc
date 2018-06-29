@@ -1,8 +1,7 @@
 <div class="primary-alt">
     <ul>
         <li class="head">
-            <h2>Data Highlights</h2>
-        </li>
+            <h2>Data Highlights</h2></li>
         <li class="sub-head"><a href="/">WTI crude oil futures price</a></li>
         <li class="date">9/12/2017: <strong>$48.23/barrel</strong></li>
         <li><i class="down-arrow" title="Down"></i>$0.43 from week earlier</li>

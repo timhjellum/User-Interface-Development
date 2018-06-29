@@ -12,7 +12,7 @@
                     <li><a href="http://www.eia.gov/emeu/rtecs/rtecs1991/tablefiles/t0464(1991).pdf">1991</a></li>
                     <li><a href="http://www.eia.gov/emeu/rtecs/archive/arch_datatables/rtecshist_datatables.html">Archive</a></li>
                   </ul>
-                </li>
+</li>
               </ul>
               <ul>
                 <li><a href="/consumption/transportation/reports/">Analysis &amp; Reports</a></li>

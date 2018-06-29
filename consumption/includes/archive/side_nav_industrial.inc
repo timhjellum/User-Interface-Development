@@ -11,7 +11,7 @@
                     <?php /*<li><a href="/consumption/industrial/data/2002/">2002</a></li>
                     <li><a href="/consumption/industrial/data/archive.cfm">Archive</a></li>*/ ?>
                   </ul>
-                </li>
+</li>
               </ul>
               <ul>
                 <li><a href="http://www.eia.gov/reports/index.cfm?t=Consumption&amp;s=a">Analysis &amp; Reports</a></li>

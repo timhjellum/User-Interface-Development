@@ -1,8 +1,7 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><i class="ico xls"><span>XLS</span></i>
             <strong>Figure HL1.</strong> Crude oil and petroleum product wholesale prices</li>
         <li>
@@ -71,8 +70,7 @@
         <ul>
             <li class="header">
                 <h2>
-                    <h2>Sections</h2>
-            </li>
+                    <h2>Sections</h2></li>
             <a href="pdf/pmmall.pdf">Full Report</a></strong>
             <a href="#">Feature Article</a></strong>
             <a href="pdf/hilites.pdf">Highlights</a></strong>

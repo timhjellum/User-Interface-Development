@@ -39,8 +39,7 @@ $SixDate = "";
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
                         <?=$OneLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <!--<li><span><?=$TwoDate?></span>&#160;&#160;<a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'><?=$TwoLabel?></a></li>
 		<li><span><?=$ThrDate?></span>&#160;&#160;<a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'><?=$ThrLabel?></a></li>
         <li><span><?=$FouDate?></span>&#160;&#160;<a href='<?=$FouURL?>' title='<?=$FouLabel?>'><?=$FouLabel?></a></li>

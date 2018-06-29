@@ -46,18 +46,15 @@ $itemThrFootLabel = "See natural gas on Energy Kids";
                                     <a href="<?=$itemOneHeadURL?>">
                                         <?=$itemOneHeadLabel?>
                                     </a>
-                                </h2>
-                            </li>
+                                </h2></li>
                             <li class="sub-head">
                                 <a href="<?=$itemOneSubheadURL?>">
                                     <?=$itemOneSubheadLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                             <li class="foot">
                                 <a href="<?=$itemOneFootURL?>">
                                     <?=$itemOneFootLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                         </ul>
                     </div>
                     <div class="l-one-third-col border">
@@ -68,18 +65,15 @@ $itemThrFootLabel = "See natural gas on Energy Kids";
                                     <a href="<?=$itemTwoHeadURL?>">
                                         <?=$itemTwoHeadLabel?>
                                     </a>
-                                </h2>
-                            </li>
+                                </h2></li>
                             <li class="sub-head">
                                 <a href="<?=$itemTwoSubheadURL?>">
                                     <?=$itemTwoSubheadLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                             <li class="foot">
                                 <a href="<?=$itemTwoFootURL?>">
                                     <?=$itemTwoFootLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                         </ul>
                     </div>
                     <div class="l-one-third-col">
@@ -90,18 +84,15 @@ $itemThrFootLabel = "See natural gas on Energy Kids";
                                     <a href="<?=$itemThrHeadURL?>">
                                         <?=$itemThrHeadLabel?>
                                     </a>
-                                </h2>
-                            </li>
+                                </h2></li>
                             <li class="sub-head">
                                 <a href="<?=$itemThrSubheadURL?>">
                                     <?=$itemThrSubheadLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                             <li class="foot">
                                 <a href="<?=$itemThrFootURL?>">
                                     <?=$itemThrFootLabel?>
-                                </a>
-                            </li>
+                                </a></li>
                         </ul>
                     </div>
                 </div>

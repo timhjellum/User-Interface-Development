@@ -115,8 +115,7 @@ echo 'a';
 if(strtolower($row['has_forecast']) == "y") {
 echo 'p';
 }
-echo '.png" title="' . $TitleText . '"/>
-</li>';
+echo '.png" title="' . $TitleText . '"/></li>';
 echo PHP_EOL;
 echo '        <li class="header">
 <h2>';
@@ -126,8 +125,7 @@ echo "<a href=\"".$row['link_html']."\">".$row['title']."</a>";
 else
 echo $row['title'];
 echo PHP_EOL;
-echo '</h2>
-</li>';
+echo '</h2></li>';
 echo PHP_EOL;
 echo '<li class="tags">
 <span class="date">Released '.date('F d, Y',strtotime($row['release_date']))."</span>";
@@ -145,7 +143,6 @@ echo PHP_EOL;
 ?>
                 <ul class="analysis-projections">
                     <li class="footer">
-                        <a href="reports.cfm">See more analysis & projections</a>
-                    </li>
+                        <a href="reports.cfm">See more analysis & projections</a></li>
                 </ul>
         </div>

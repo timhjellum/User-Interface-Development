@@ -33,15 +33,12 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
             </div>
             <ul>
                 <li class="head">
-                    <h3>
-                        <a href='<?=$featureOneURL?>'>
+                    <h3><a href='<?=$featureOneURL?>'>
                             <?=$featureOneLabel?>
                         </a>
-                    </h3>
-                </li>
+                    </h3></li>
                 <li>
-                    <?=$featureOneDescription?>
-                </li>
+                    <?=$featureOneDescription?></li>
             </ul>
         </div>
 
@@ -53,15 +50,12 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
             </div>
             <ul>
                 <li class="head">
-                    <h3>
-                        <a href='<?=$featureTwoURL?>'>
+                    <h3><a href='<?=$featureTwoURL?>'>
                             <?=$featureTwoLabel?>
                         </a>
-                    </h3>
-                </li>
+                    </h3></li>
                 <li>
-                    <?=$featureTwoDescription?>
-                </li>
+                    <?=$featureTwoDescription?></li>
             </ul>
         </div>
 
@@ -73,15 +67,12 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
             </div>
             <ul>
                 <li class="head">
-                    <h3>
-                        <a href='<?=$featureThreeURL?>'>
+                    <h3><a href='<?=$featureThreeURL?>'>
                             <?=$featureThreeLabel?>
                         </a>
-                    </h3>
-                </li>
+                    </h3></li>
                 <li>
-                    <?=$featureThreeDescription?>
-                </li>
+                    <?=$featureThreeDescription?></li>
             </ul>
         </div>
     </div>

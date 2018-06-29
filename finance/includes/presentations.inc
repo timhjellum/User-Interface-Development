@@ -22,17 +22,14 @@ $TwoLabel = "Financial working papers";
                 <li class="head">
                     <h2>
                         <?=$mainTitle?>
-                    </h2>
-                </li>
+                    </h2></li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
                         <?=$OneLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'>
                         <?=$TwoLabel?>
-                    </a>
-                </li>
+                    </a></li>
             </ul>
         </div>

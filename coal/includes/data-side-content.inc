@@ -1,8 +1,7 @@
 <div class="secondary">
     <ul>
         <li class="head">
-            <h2>Most requested coal data</h2>
-        </li>
+            <h2>Most requested coal data</h2></li>
         <li class="sub-head">Prices</li>
         <li class="pdf"><a href="/coal/annual/pdf/table28.pdf" title="PDF format: Prices">Prices</a></li>
         <li class="pdf"><a href="/coal/annual/pdf/table33.pdf" title="PDF format: Average Sales Prices">Average sales prices</a></li>
@@ -15,7 +14,7 @@
             <ul>
                 <li><a href="/coal/reserves/" title="html format: Reserves">Reserves</a></li>
             </ul>
-        </li>
+</li>
         <li class="sub-head">Consumption</li>
         <li class="pdf"><a href="/coal/production/quarterly/pdf/t32p01p1.pdf" title="PDF format: Consumption by End-Use Sector">By end-use sector</a></li>
         <li class="pdf"><a href="/coal/annual/pdf/table26.pdf" title="PDF format: by End-Use Sector for Census Division & State">By end-use  sector for Census division &amp; state</a></li>

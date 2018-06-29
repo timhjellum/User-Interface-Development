@@ -5,10 +5,10 @@
                 <li><a href="/consumption/efficiency/index.cfm">Efficiency Overview</a></li>
               </ul>
               <ul>
-                <li><a href="/consumption/efficiency/data/">Data</a> </li>
+                <li><a href="/consumption/efficiency/data/">Data</a></li>
               </ul>
               <ul>
-                <li class="no_btm_border"><a  href="/consumption/efficiency/reports/">Analysis &amp; Reports</a></li>
+                <li class="no_btm_border"><a href="/consumption/efficiency/reports/">Analysis &amp; Reports</a></li>
               </ul>
               
           </span>

@@ -1,8 +1,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>Procedures &amp; Methodology</h2>
-        </li>
+            <h2>Procedures &amp; Methodology</h2></li>
         <li class="sub-header"> Gasoline</li>
         <li><a href="gas_procedure.php">Data collection procedures</a></li>
         <li><a href="gas_methodology.php">Sampling methodology</a></li>

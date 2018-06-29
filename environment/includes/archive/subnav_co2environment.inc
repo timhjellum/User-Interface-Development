@@ -21,7 +21,7 @@ $(document).ready(function(){
 </div>
 
 <div class="subnav"><?php /* Page/Sub Nav */ ?>
-  <span class="right"><a href="<?php echo "$glossary_path"?>?id=environment">Glossary &rsaquo;</a> <a href="<?php echo "$faqs_path"?>#environment">FAQS &rsaquo;</a></span>
+  <span class="right"><a href="<?php echo "$glossary_path"?>?id=environment">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>#environment">FAQS &rsaquo;</a></span>
   <ul>
     <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="index.php">Overview</a></li>
     <li class="dropdown <?php if ( $locale == 'data') {?>active<?php  } // end if ?>"><a href="data.php">Data</a></li>

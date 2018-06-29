@@ -65,46 +65,37 @@ $faqLabel = "FAQS"; // FAQ
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link01URL?>">
                                             <?=$menu01link01Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link02URL?>">
                                             <?=$menu01link02Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link03URL?>">
                                             <?=$menu01link03Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link04URL?>">
                                             <?=$menu01link04Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link05URL?>">
                                             <?=$menu01link05Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link06URL?>">
                                             <?=$menu01link06Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link07URL?>">
                                             <?=$menu01link07Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu01link08URL?>">
                                             <?=$menu01link08Label?>
-                                        </a>
-                                    </li>
+                                        </a></li>
                                 </ul>
-                            </div>
-                        </li>
+                            </div></li>
                         <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>">
                             <a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn">
                                 <?=$subNavLink03Label?><i class="ico sort-up"></i></a>
@@ -129,26 +120,22 @@ $faqLabel = "FAQS"; // FAQ
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">
                                                 <?=$menu02link01Label?>
-                                            </a>
-                                        </li>
+                                            </a></li>
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link02URL?>">
                                                 <?=$menu02link02Label?>
-                                            </a>
-                                        </li>
+                                            </a></li>
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link03URL?>">
                                                 <?=$menu02link03Label?>
-                                            </a>
-                                        </li>
+                                            </a></li>
                                     </ul>
                                 </div>
-                            </div>
-                        </li>
+                            </div></li>
                     </ul>
                 </div>
                 <div class="right">
-                    <span><a href="<?=$glossaryURL?>"><?=$glossaryLabel?></a> <a href="<?=$faqURL?>"><?=$faqLabel?></a></span>
+                    <span><a href="<?=$glossaryURL?>"><?=$glossaryLabel?></a><a href="<?=$faqURL?>"><?=$faqLabel?></a></span>
                 </div>
             </div>
         </div>

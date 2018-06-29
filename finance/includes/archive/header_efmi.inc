@@ -5,7 +5,7 @@
       <p style="font-size:14px;margin-top:-6px;">An analysis of 7 factors that influence oil markets, with chart data updated monthly and quarterly</p>
     </div><?php /*/ Page/Section Title */ ?>
 	<div class="subnav"><?php /* Page/Sub Nav */ ?>
-    <?php /*span class="right"><a href="<?php echo "$glossary_path"?>">Glossary &rsaquo;</a> <a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span*/ ?>
+    <?php /*span class="right"><a href="<?php echo "$glossary_path"?>">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span*/ ?>
        <ul>
         <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/finance/markets/">Overview</a></li>
       </ul>

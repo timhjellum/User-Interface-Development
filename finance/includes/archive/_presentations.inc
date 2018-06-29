@@ -20,18 +20,14 @@ $OneDate = "February 6, 2018";
                 <li class="head">
                     <h2>
                         <?=$mainTitle?>
-                    </h2>
-                </li>
+                    </h2></li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
                         <?=$OneLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li class="description">
-                    <?=$OneDescription?>
-                </li>
+                    <?=$OneDescription?></li>
                 <li class="date">
-                    <?=$OneDate?>
-                </li>
+                    <?=$OneDate?></li>
             </ul>
         </div>

@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong> Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2013-10/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2013-10/fig_HL1_coppwp_sm.jpg" /></a>
-        </li>
+                <a href="images/2013-10/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2013-10/fig_HL1_coppwp_sm.jpg" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3>Highlights</h3>
-            </li>
+                <h3>Highlights</h3></li>
             <li class="header">
                 <h2>Crude Oil</h2>
                 <ul>
@@ -24,10 +21,9 @@
                     <li>The average refiner acquisition cost for domestic crude oil rose $5.93 (5.9 percent), to $106.19 per barrel. The average cost of imported crude increased $4.39 (4.5 percent), to $101.56 per barrel. The composite refiner acquisition
                         cost for crude oil climbed $5.18 (5.2 percent), to $103.85 per barrel.</li>
                 </ul>
-            </li>
+</li>
             <li class="header">
-                <h2>Petroleum Products</h2>
-            </li>
+                <h2>Petroleum Products</h2></li>
             <li>
                 <h4>Motor Gasoline</h4>
                 <ul>
@@ -36,7 +32,7 @@
                     <li>Refiner sales of finished motor gasoline fell in July. Total sales decreased 3.2 million gallons per day (1.0 percent) to an average of 319.1 million gallons per day. Retail sales declined 500,000 gallons per day (2.1 percent), while
                         wholesales fell 2.7 million gallons per day (0.9 percent). DTW sales accounted for 9.9 percent of wholesales, while rack and bulk sales made up 82.2 percent and 8.0 percent, respectively.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>No. 2 Distillate</h4>
                 <ul>
@@ -45,17 +41,16 @@
                     <li>In total, refiner sales of No. 2 distillates increased during July, rising 3.8 million gallons per day (2.4 percent), to 164.7 million gallons per day. No. 2 fuel oil sales declined 100,000 gallons per day (2.5 percent), while sales
                         of No. 2 diesel fuel climbed 3.9 million gallons per day (2.5 percent).</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Residual Fuel Oil</h4>
                 <ul>
                     <li>Monthly average prices for refiner residual fuel oil sales were mixed in July. Prices for low-sulfur residual fuel oil fell 1.7 cents to $2.768 per gallon at retail, and 0.3 cent to $2.282 per gallon at wholesale. Prices for high-sulfur
                         residual fuel oil dropped 10.5 cents to $2.280 per gallon at retail, but increased 1.1 cents to $2.225 per gallon at wholesale.</li>
                     <li>Sales of residual fuel oil by refiners increased overall in July. Low-sulfur residual fuel oil sales increased 400,000 gallons per day (11.1 percent), while high-sulfur residual fuel oil sales decreased 100,000 gallons per day (0.9
-                        percent).
-                    </li>
+                        percent).</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Other Products</h4>
                 <ul>
@@ -64,7 +59,7 @@
                     <li>Refiner sales of these products varied in July. Sales of kerosene-type jet fuel, kerosene, and No. 1 distillate increased at both retail and wholesale. Propane sales declined at the retail level, but increased at wholesale, while aviation
                         gasoline sales show the opposite trend. Sales of No. 4 distillate increased at wholesale.</li>
                 </ul>
-            </li>
+</li>
         </ul>
     </div>
 
@@ -72,8 +67,7 @@
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Sections</h2>
-            </li>
+                <h2>Sections</h2></li>
             <li><a href="pdf/preface.pdf">Preface</a></li>
             <li><a href="pdf/enote.pdf">Explanatory Notes</a></li>
             <li><a href="pdf/mgt.pdf">Motor Fuel Taxes</a></li>

@@ -1,8 +1,7 @@
 <div class="secondary">
     <ul>
         <li class="head">
-            <h2>Most requested data</h2>
-        </li>
+            <h2>Most requested data</h2></li>
 
         <li class="icon">
 
@@ -14,20 +13,13 @@
 <span>XLS</span>
             </i>
             </a>
-            </span>
-
-
-
-
-
-        </li>
+            </span></li>
 
         <li class="icon">
             <a href="/cfapps/frs/frstables.cfm?tableNumber=2">Consolidated Income Statement</a>
             <span class="formats"><a href="/cfapps/frs/excel.cfm?tableNumber=2" title="Consolidated Income Statement"><i class="ico xls"><span>XLS</span></i>
             </a>
-            </span>
-        </li>
+            </span></li>
 
         <li class="icon">
             <a href="/cfapps/frs/frstables.cfm?tableNumber=3">Consolidated Balance Sheet</a>
@@ -37,8 +29,7 @@
 <span>XLS</span>
             </i>
             </a>
-            </span>
-        </li>
+            </span></li>
 
         <li class="icon">
             <a href="/cfapps/frs/frstables.cfm?tableNumber=4">Statement of Cash Flows</a>
@@ -48,8 +39,7 @@
 <span>XLS</span>
             </i>
             </a>
-            </span>
-        </li>
+            </span></li>
 
         <li class="icon">
 
@@ -65,8 +55,7 @@
 <span>XLS</span>
             </i>
             </a>
-            </span>
-        </li>
+            </span></li>
 
         <li class="icon">
 
@@ -78,24 +67,18 @@
             <span>XLS</span>
             </i>
             </a>
-            </span>
-
-
-        </li>
-        </li>
+            </span></li></li>
         <li class="sub-head">FRS Survey Data 1977 - 2009</li>
         <li>
             <ul>
                 <li>
-                    <a href="archive/frsdata/frsdata.html">The Financial Reporting System Public Data</a>
-                </li>
+                    <a href="archive/frsdata/frsdata.html">The Financial Reporting System Public Data</a></li>
             </ul>
             <ul>
                 <li>
-                    <a href="/finance/performanceprofiles/CoList.cfm">Historical Respondent Company List</a>
-                </li>
+                    <a href="/finance/performanceprofiles/CoList.cfm">Historical Respondent Company List</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>
 
@@ -104,13 +87,10 @@
 <div class="secondary">
     <ul>
         <li class="head">
-            <h2>Related Reports</h2>
-        </li>
+            <h2>Related Reports</h2></li>
         <li>
-            <a href="/workingpapers/#finance">Working Papers</a>
-        </li>
+            <a href="/workingpapers/#finance">Working Papers</a></li>
         <li>
-            <a href="/finance/workshops.cfm">Workshops</a>
-        </li>
+            <a href="/finance/workshops.cfm">Workshops</a></li>
     </ul>
 </div>

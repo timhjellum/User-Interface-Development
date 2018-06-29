@@ -43,8 +43,7 @@ $thetagnames = $row['reporttagnames'];
 <p class="tags">
 <?php include"it_displaytags.inc"; ?>
 </p>
-</div>
-</li>
+</div></li>
 <?php } } ?>
 </ul>
 </div>

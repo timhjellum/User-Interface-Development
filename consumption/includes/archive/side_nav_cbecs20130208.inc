@@ -7,23 +7,12 @@
 <a href="/emeu/cbecs/detailed_tables_1995.html">1995</a><span class="pipe">|</span>
 <a href="/emeu/cbecs/detailed_tables_1992.html">1992</a></p>
 <p>Consumption and Expenditures<br />
-    <a href="/emeu/cbecs/cbecs2003/detailed_tables_2003/detailed_tables_2003.html#consumexpen03">2003</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/detailed_tables_1999.html#ce">1999</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/detailed_tables_1995.html#ce">1995</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/detailed_tables_1992.html">1992</a></p>
+    <a href="/emeu/cbecs/cbecs2003/detailed_tables_2003/detailed_tables_2003.html#consumexpen03">2003</a><span class="pipe">|</span><a href="/emeu/cbecs/detailed_tables_1999.html#ce">1999</a><span class="pipe">|</span><a href="/emeu/cbecs/detailed_tables_1995.html#ce">1995</a><span class="pipe">|</span><a href="/emeu/cbecs/detailed_tables_1992.html">1992</a></p>
 <p>End-Use Consumption<br />
-    <a href="/emeu/cbecs/cbecs2003/detailed_tables_2003/detailed_tables_2003.html#enduse03">2003</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/cbec-eu1.html">1995</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/detailed_tables_1992.html">1992</a></p>
+    <a href="/emeu/cbecs/cbecs2003/detailed_tables_2003/detailed_tables_2003.html#enduse03">2003</a><span class="pipe">|</span><a href="/emeu/cbecs/cbec-eu1.html">1995</a><span class="pipe">|</span><a href="/emeu/cbecs/detailed_tables_1992.html">1992</a></p>
 <p class="no-border">Public Use Microdata<br />
-    <a href="/emeu/cbecs/cbecs2003/public_use_2003/cbecs_pudata2003.html">2003</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/1999publicuse/99microdat.html">1999</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/microdat.html">1995</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/92microdat.html">1992</a><br />
-    <a href="/emeu/cbecs/pubuse89/cbecs_pudata1989.html">1989</a><span class="pipe">|</span>
-    <a href="/emeu/cbecs/pubuse86/cbecs_pudata1986.html">1986</a><span class="pipe">|</span>
-    <a href="/consumption/commercial/data/1983/cbecs_pudata1983.html">1983</a><span class="pipe">|</span>
-    <a href="/consumption/commercial/data/1979/cbecs_pudata1979.html">1979</a></p>
+    <a href="/emeu/cbecs/cbecs2003/public_use_2003/cbecs_pudata2003.html">2003</a><span class="pipe">|</span><a href="/emeu/cbecs/1999publicuse/99microdat.html">1999</a><span class="pipe">|</span><a href="/emeu/cbecs/microdat.html">1995</a><span class="pipe">|</span><a href="/emeu/cbecs/92microdat.html">1992</a><br />
+    <a href="/emeu/cbecs/pubuse89/cbecs_pudata1989.html">1989</a><span class="pipe">|</span><a href="/emeu/cbecs/pubuse86/cbecs_pudata1986.html">1986</a><span class="pipe">|</span><a href="/consumption/commercial/data/1983/cbecs_pudata1983.html">1983</a><span class="pipe">|</span><a href="/consumption/commercial/data/1979/cbecs_pudata1979.html">1979</a></p>
 </span>
 <span class="grey_side green_top side_list_nocolumn">
 <li class="head"><h2>Large Hospital Buildings Report</h2></li>
@@ -87,8 +76,7 @@
 <div class="secondary">
     <ul>
         <li class="head">
-            <h2>Other End Use Surveys</h2>
-        </li>
+            <h2>Other End Use Surveys</h2></li>
         <p><a href="/consumption/residential/">Residential Buildings - RECS</a></p>
         <p><a href="/emeu/mecs/contents.html">Manufacturing - MECS</a>
             <p class="no-border"><a href="/consumption/archive/rtecs/contents.html">Transportation</a></p>

@@ -47,8 +47,7 @@ Carbon dioxide emissions by fuel<br />
 		<tfoot>
         <tr>
         <td colspan="7">Source:  Short-Term Energy Outlook <a href="/outlooks/steo/report/renew_co2.php?src=Environment-b1">Renewables and Carbon Dioxide Emissions</a><br />
-        Note: F= Forecast.
-</li>
+        Note: F= Forecast.</li>
         </tfoot>
         </tbody>
 </table>

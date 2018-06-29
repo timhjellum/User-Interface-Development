@@ -11,7 +11,7 @@
                     <li><a href="/consumption/industrial/data/2002/">2002</a></li>
                     <li><a href="/consumption/industrial/data/archive.cfm">Archive</a></li>
                   </ul>
-                </li>
+</li>
               </ul>
               <ul>
                 <li><a href="/consumption/industrial/reports/">Analysis &amp; Reports</a></li>

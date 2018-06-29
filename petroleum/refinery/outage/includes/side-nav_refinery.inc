@@ -2,8 +2,7 @@
     <ul>
         <li><i class="ico pdf">PDF</i><a href="pdf/refinery_outage.pdf">Full report</a></li>
         <li class="header">
-            <h2>Previous Issues</h2>
-        </li>
+            <h2>Previous Issues</h2></li>
         <li><i class="ico pdf">PDF</i><a href="/petroleum/refinery/outage/archive/pdf/outage_nov2016.pdf">Fall 2016 (November 2016)</a></li>
         <li><i class="ico pdf">PDF</i><a href="/petroleum/refinery/outage/archive/pdf/outage_mar2016.pdf">First Half of 2016 (March 2016)</a></li>
         <li><i class="ico pdf">PDF</i><a href="/petroleum/refinery/outage/archive/pdf/outage_oct2015.pdf">Fourth-Quarter (October 2015)</a></li>

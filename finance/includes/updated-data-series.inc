@@ -35,31 +35,24 @@ $SixDate = "";
         <div class="secondary hide-mt">
             <ul>
                 <li class="head">
-                    <h2>Updated Data Series</h2>
-                </li>
+                    <h2>Updated Data Series</h2></li>
                 <li class="icon">
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$OneDate?></span><span class="link-label"><?=$OneLabel?>
-                    </span></a>
-                </li>
+                    </span></a></li>
                 <li class="icon">
                     <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$TwoDate?></span><span class="link-label"><?=$TwoLabel?>
-                        </span></a>
-                </li>
+                        </span></a></li>
                 <li class="icon">
                     <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$ThrDate?></span><span class="link-label"><?=$ThrLabel?>
-                        </span></a>
-                </li>
+                        </span></a></li>
                 <li class="icon">
                     <a href='<?=$FouURL?>' title='<?=$FouLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$FouDate?></span><span class="link-label"><?=$FouLabel?>
-                        </span></a>
-                </li>
+                        </span></a></li>
                 <li class="icon">
                     <a href='<?=$FivURL?>' title='<?=$FivLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$FivDate?></span><span class="link-label"><?=$FivLabel?>
-                        </span></a>
-                </li>
+                        </span></a></li>
                 <li class="icon">
                     <a href='<?=$SixURL?>' title='<?=$SixLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$SixDate?></span><span class="link-label"><?=$SixLabel?>
-                        </span></a>
-                </li>
+                        </span></a></li>
             </ul>
         </div>

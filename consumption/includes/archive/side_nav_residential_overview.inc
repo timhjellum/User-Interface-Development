@@ -3,7 +3,7 @@
           <span class="grey_side_nav blue_top ">
               <ul class="top">
                 <h4>Residential Consumption:</h4>
-                 <p class="no_btm_border"> <strong>Residential Sector Total</strong> </li>         
+                 <p class="no_btm_border"> <strong>Residential Sector Total</strong></li>         
          <ul>
           <li><a href="/aer/txt/ptb0201e.html">annual</a> 	&mdash; 1949-2009			<li class="release-schedule">Annual Energy Review 2009<em></em></li>
           <li><a href="/mer/consump.html">monthly</a><br />

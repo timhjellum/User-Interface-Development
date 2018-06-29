@@ -17,22 +17,18 @@ $outlooksThreeLabel = "International Energy Outlook";
     <div class="secondary two">
         <ul>
             <li class="head">
-                <h2>Outlooks</h2>
-            </li>
+                <h2>Outlooks</h2></li>
             <li>
                 <a href='<?=$outlooksOneURL?>' title='<?=$outlooksOneLabel?>'>
                     <?=$outlooksOneLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$outlooksTwoURL?>' title='<?=$outlooksTwoLabel?>'>
                     <?=$outlooksTwoLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$outlooksThreeURL?>' title='<?=$outlooksThreeLabel?>'>
                     <?=$outlooksThreeLabel?>
-                </a>
-            </li>
+                </a></li>
         </ul>
     </div>

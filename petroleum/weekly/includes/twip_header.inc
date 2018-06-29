@@ -12,9 +12,7 @@ $twip_page = isset($twip_page) ? $twip_page : '';
                                 <div class="label"><?php include ('release_date.html') ; ?></div>
 <div class="release-dates">
 <div class="report-download-container">
-                                <i class="ico download">Download</i><a href="includes/download.php" class="lightbox" data-fancybox-type="iframe">Download data</a>
-                                <a href="includes/archive.php" data-fancybox-type="iframe" class="lightbox">Past Weeks in Petroleum</a>
-                                <a href="includes/schedule.php" data-fancybox-type="iframe" class="lightbox">Release schedule</a></div>
+                                <i class="ico download">Download</i><a href="includes/download.php" class="lightbox" data-fancybox-type="iframe">Download data</a><a href="includes/archive.php" data-fancybox-type="iframe" class="lightbox">Past Weeks in Petroleum</a><a href="includes/schedule.php" data-fancybox-type="iframe" class="lightbox">Release schedule</a></div>
 <div class="report-download-container">
                                 <?php if ( $twip_page == 'analysis') {?><a href="includes/analysis_print.php" data-fancybox-type="iframe" class="lightbox"><?php  } else { ?><a onClick="window.print();" style="cursor: pointer;"><?php  } // end if ?>Print</a>
                         </div>

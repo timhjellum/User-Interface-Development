@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong>Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2014-06/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-06/fig_HL1_coppwp_sm.jpg" /></a>
-        </li>
+                <a href="images/2014-06/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-06/fig_HL1_coppwp_sm.jpg" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3><strong>Highlights</strong></h3>
-            </li>
+                <h3><strong>Highlights</strong></h3></li>
             <li>
                 <h2 class="strong">Crude Oil</h2>
                 <ul>
@@ -24,10 +21,9 @@
                     <li>The average refiner acquisition cost for domestic crude oil increased 28 cents (0.3 percent), to $102.61 per barrel. The average cost of imported crude oil climbed $1.00 (1.0 percent), to $97.04 per barrel. The composite refiner acquisition
                         cost for crude oil increased 73 cents (0.7 percent), to $100.05 per barrel.</li>
                 </ul>
-            </li>
+</li>
             <li class="header">
-                <h2>Petroleum Products</h2>
-            </li>
+                <h2>Petroleum Products</h2></li>
             <li>
                 <h4>Motor Gasoline</h4>
                 <ul>
@@ -35,7 +31,7 @@
                     <li>Sales of finished motor gasoline by refiners declined modestly in March. Total sales decreased 100,000 gallons per day (0.0 percent) to an average of 303.4 million gallons per day. Retail sales were flat, while wholesales dropped 100,000
                         gallons per day (0.0 percent). DTW sales accounted for 8.4 percent of wholesales, while rack and bulk sales made up 83.6 percent and 8.0 percent, respectively.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>No. 2 Distillate</h4>
                 <ul>
@@ -44,7 +40,7 @@
                     <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel increased 1.4 million gallons per day (1.0 percent) to an average of 143.8 million gallons per day in March. No. 2 fuel oil sales decreased 2.1 million gallons per day (18.8 percent)
                         to an average of 9.1 million gallons per day.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Residual Fuel Oil</h4>
                 <ul>
@@ -52,7 +48,7 @@
                         oil fell 8.3 cents to $2.376 per gallon at retail, but rose 3.6 cents to $2.175 per gallon at wholesale.</li>
                     <li>Sales of residual fuel oil by refiners increased modestly in March, with total sales increasing 300,000 gallons per day (2.2 percent) to an average of 13.7 million gallons per day.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Other Products</h4>
                 <ul>
@@ -83,8 +79,7 @@
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Related information</h2>
-            </li>
+                <h2>Related information</h2></li>
             <li><a href="pdf/enote.pdf"><i class="ico pdf">PDF</i>Petroleum marketing explanatory notes</a></li>
             <li><a href="xls/fueltaxes.xls"><i class="ico xls">XLS</i>Federal and state motor fuel taxes</a></li>
             <li><a href="pdf/paddmap.pdf"><i class="ico pdf">PDF</i>Petroleum Administration for Defense District (PADD) map</a></li>

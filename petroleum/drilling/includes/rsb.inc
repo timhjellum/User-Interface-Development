@@ -2,8 +2,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>Contents</h2>
-        </li>
+            <h2>Contents</h2></li>
         <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/anadarko.pdf">Anadarko</a></li>
         <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/appalachia.pdf">Appalachia</a></li>
         <li><i class="ico pdf"><span>PDF</span></i><a href="pdf/bakken.pdf">Bakken</a></li>
@@ -26,8 +25,7 @@
 <div class="standard-list-container">
     <ul>
         <li class="header">
-            <h2>Related Today in Energy articles</h2>
-        </li>
+            <h2>Related Today in Energy articles</h2></li>
         <li><a href="http://www.eia.gov/todayinenergy/detail.php?id=27932">EIA now provides estimates of drilled but uncompleted wells in major production regions</a></li>
         <li><a href="/todayinenergy/detail.cfm?id=24932">Initial production rates in tight oil formations continue to rise</a></li>
         <li><a href="/todayinenergy/detail.cfm?id=22672">EIA expects near-term decline in natural gas production in major shale regions</a></li>
@@ -47,8 +45,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>Give Us Your Feedback</h2>
-        </li>
+            <h2>Give Us Your Feedback</h2></li>
     </ul>
     <?php include ('feedback.inc') ; ?>
 </div>

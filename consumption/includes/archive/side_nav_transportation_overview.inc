@@ -3,7 +3,7 @@
           <span class="grey_side_nav blue_top ">
               <ul class="top">
                 <h4>Transportation Consumption:</h4>
-                 <p class="no_btm_border"> <strong>Transportation sector total</strong> </li>         
+                 <p class="no_btm_border"> <strong>Transportation sector total</strong></li>         
          <ul>
           <li><a href="/aer/txt/ptb0201e.html">annual</a> 	&mdash; 1949-2009</li>
           <li><a href="/mer/consump.html">monthly</a></li>

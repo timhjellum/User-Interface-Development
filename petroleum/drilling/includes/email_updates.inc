@@ -10,8 +10,7 @@
 <input type="hidden" name="confirm" value="two" />
 <input type="hidden" name="showconfirm" value="T" />
 </form>
-</fieldset>
-</li>
+</fieldset></li>
                 <li><i class="ico email"></i><a href="/tools/emailupdates/">Sign up for more email updates</a></li>
     </ul>
 </div>

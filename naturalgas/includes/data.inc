@@ -5,24 +5,21 @@
 <i class="ico collapse"><span>Collapse all</span></i>
 </span>
 <div id="accordion" class="accordion">
-    <h3>
-        <a name="summary"></a>Summary</h3>
+    <h3><a name="summary"></a>Summary</h3>
 
     <div class="content">
         <ul>
             <li class="head"><a href="/dnav/ng/ng_sum_lsum_dcu_nus_m.htm">Summary &mdash; price, supply, disposition</a></li>
             <li class="include">
-                <?php include('css_rehab/archive/naturalgas/monthly/includes/releasedate.inc') ?>
-            </li>
+                <?php include('css_rehab/archive/naturalgas/monthly/includes/releasedate.inc') ?></li>
             <li class="include"><span class="release-date">Annual Release Date:</span><span class="date">    <?php include('css_rehab/archive/naturalgas/annual/includes/releasedate.inc') ?></span></li>
-            <li>Key natural gas data for prices, exploration &amp; reserves, production, imports, exports, storage and consumption by U.S. and state. </li>
+            <li>Key natural gas data for prices, exploration &amp; reserves, production, imports, exports, storage and consumption by U.S. and state.</li>
         </ul>
 
         <ul>
             <li><a href="/dnav/ng/ng_sum_sndm_s1_m.htm">U.S. monthly supply and disposition</a></li>
             <li class="include">
-                <?php include('css_rehab/archive/naturalgas/monthly/includes/releasedate.inc') ?>
-            </li>
+                <?php include('css_rehab/archive/naturalgas/monthly/includes/releasedate.inc') ?></li>
             <li>Includes production, imports, withdrawals and consumption</li>
             <li class="release-schedule">Monthly</li>
         </ul>
@@ -37,16 +34,13 @@
         <ul>
             <li><a href="/oil_gas/natural_gas/applications/eia176query.html">Annual company level data from: Form EIA-176</a></li>
             <li><span class="release-date">Release Date: </span><span class="date">September 2015</span></li>
-            <li>Company level statistics for supply, disposition, and delivery volumes; end-use prices; and number of customers.
-            </li>
+            <li>Company level statistics for supply, disposition, and delivery volumes; end-use prices; and number of customers.</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li>Natural gas overview
-            </li>
+            <li>Natural gas overview</li>
             <li class="include">
-                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
-            </li>
+                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></li>
             <li><span class="release-date">Release Date: </span><span class="date">Release Date: September 27, 2012</span></li>
             <li>Statistics on gross withdrawals, marketed production, dry gas production, supplemental gases, imports, exports, consumption, and storage withdrawals.</li>
             <li class="release-schedule">Annual</li>
@@ -55,21 +49,16 @@
                     <li>Monthly (
                         <a href="/totalenergy/data/monthly/#naturalgas">more on natural gas</a>)</li>
                     <li> <span class="formats">Available formats:</span>
-                        <a href="/totalenergy/data/monthly/pdf/sec4_3.pdf"> <i class="ico pdf">                <span>PDF</span>            </i> </a>
-                        <a href="/totalenergy/data/browser/csv.cfm?tbl=T04.01"> <i class="ico csv">                <span>CSV</span>            </i> </a>
-                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T04.01&amp;freq=m"> <i class="ico xls">                <span>XLS</span>            </i> </a>
-                    </li>
+                        <a href="/totalenergy/data/monthly/pdf/sec4_3.pdf"> <i class="ico pdf">                <span>PDF</span>            </i> </a><a href="/totalenergy/data/browser/csv.cfm?tbl=T04.01"> <i class="ico csv">                <span>CSV</span>            </i> </a><a href="/totalenergy/data/browser/xls.cfm?tbl=T04.01&amp;freq=m"> <i class="ico xls">                <span>XLS</span>            </i> </a></li>
                 </ul>
                 <ul>
                     <li>Annual (
                         <a href="/totalenergy/data/annual/showtext.cfm?t=ptb0601">more on natural gas</a>)</li>
                     <li> <span class="formats">Available formats:</span>
-                        <a href="/totalenergy/data/annual/pdf/sec6_5.pdf"> <i class="ico pdf">                <span>PDF</span>            </i> </a>
-                        <a href="/totalenergy/data/annual/xls/stb0601.xls"> <i class="ico xls">                <span>XLS</span>            </i> </a>
-                    </li>
+                        <a href="/totalenergy/data/annual/pdf/sec6_5.pdf"> <i class="ico pdf">                <span>PDF</span>            </i> </a><a href="/totalenergy/data/annual/xls/stb0601.xls"> <i class="ico xls">                <span>XLS</span>            </i> </a></li>
 
                 </ul>
-            </li>
+</li>
         </ul>
         <ul>
             <li><a href="/cfapps/ipdbproject/IEDIndex3.cfm">Natural gas statistics by country</a></li>
@@ -81,8 +70,7 @@
 
 
 
-    <h3>
-        <a name="prices"></a>Prices</h3>
+    <h3><a name="prices"></a>Prices</h3>
 
     <div class="content">
         <ul>
@@ -106,25 +94,22 @@
         <ul>
             <li class="head"><a href="/dnav/ng/ng_pri_fut_s1_d.htm">Natural gas spot and futures prices </a></li>
             <li class="include">
-                <?php include('css_rehab/archive/petroleum/supply/weekly/includes/releasedate_wpsr.inc') ?>
-            </li>
-            <li>New York Mercantile Exchange futures contracts for natural gas based on delivery at the Henry Hub in Louisiana
-            </li>
-            <li class="release-schedule">daily, weekly, monthly, annual </li>
+                <?php include('css_rehab/archive/petroleum/supply/weekly/includes/releasedate_wpsr.inc') ?></li>
+            <li>New York Mercantile Exchange futures contracts for natural gas based on delivery at the Henry Hub in Louisiana</li>
+            <li class="release-schedule">daily, weekly, monthly, annual</li>
             <li class="list-item">
                 <ul>
-                    <li> <a href="/dnav/ng/ng_pri_fut_s1_m.htm">Natural gas liquid composite</a> </li>
+                    <li> <a href="/dnav/ng/ng_pri_fut_s1_m.htm">Natural gas liquid composite</a></li>
                     <li class="release-schedule">Monthly, annual</li>
                 </ul>
-            </li>
+</li>
         </ul>
     </div>
 
 
 
 
-    <h3>
-        <a name="exploration"></a>Exploration &amp; reserves</h3>
+    <h3><a name="exploration"></a>Exploration &amp; reserves</h3>
 
     <div class="content">
         <ul>
@@ -134,47 +119,36 @@
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head">Proved reserves, reserves changes, and production
-            </li>
+            <li class="head">Proved reserves, reserves changes, and production</li>
             <li><span class="release-date">Release Date: </span><span class="date">February 13, 2018</span></li>
             <li>by U.S., region, and state</li>
             <li class="release-schedule">Annual</li>
             <li class="list-item">
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_wals_a_EPG0_R21_Bcf_a.htm">Natural gas, wet after lease separation</a>
-                        <a href="/dnav/ng/ng_enr_dry_dcu_NUS_a.htm"></a>
-                    </li>
+                    <li> <a href="/dnav/ng/ng_enr_wals_a_EPG0_R21_Bcf_a.htm">Natural gas, wet after lease separation</a><a href="/dnav/ng/ng_enr_dry_dcu_NUS_a.htm"></a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_dry_a_EPG0_r11_bcf_a.htm">Natural gas, dry</a> </li>
+                    <li> <a href="/dnav/ng/ng_enr_dry_a_EPG0_r11_bcf_a.htm">Natural gas, dry</a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_nang_a_EPG0_R31_Bcf_a.htm">Natural gas, nonassociated wet</a>
-                        <a href="/dnav/ng/ng_enr_wals_dcu_NUS_a.htm"></a>
-                    </li>
+                    <li> <a href="/dnav/ng/ng_enr_nang_a_EPG0_R31_Bcf_a.htm">Natural gas, nonassociated wet</a><a href="/dnav/ng/ng_enr_wals_dcu_NUS_a.htm"></a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_adng_a_EPG0_r41_Bcf_a.htm">Natural gas, associated-dissolved wet</a>
-                        <a href="/dnav/ng/ng_enr_nang_dcu_NUS_a.htm"></a>
-                    </li>
+                    <li> <a href="/dnav/ng/ng_enr_adng_a_EPG0_r41_Bcf_a.htm">Natural gas, associated-dissolved wet</a><a href="/dnav/ng/ng_enr_nang_dcu_NUS_a.htm"></a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_shalegas_a_EPG0_R5301_Bcf_a.htm">Shale gas</a>
-                        <a href="/dnav/ng/ng_enr_adng_dcu_NUS_a.htm"></a>
-                    </li>
+                    <li> <a href="/dnav/ng/ng_enr_shalegas_a_EPG0_R5301_Bcf_a.htm">Shale gas</a><a href="/dnav/ng/ng_enr_adng_dcu_NUS_a.htm"></a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_coalbed_a_EPG0_R51_Bcf_a.htm">Coalbed methane</a> </li>
+                    <li> <a href="/dnav/ng/ng_enr_coalbed_a_EPG0_R51_Bcf_a.htm">Coalbed methane</a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_cplc_a_EPCCOND_R01_MMbbl_a.htm">Crude oil plus lease condensate</a>
-                        <a href="/dnav/ng/ng_enr_ngl_dcu_NUS_a.htm"></a>
-                    </li>
+                    <li> <a href="/dnav/ng/ng_enr_cplc_a_EPCCOND_R01_MMbbl_a.htm">Crude oil plus lease condensate</a><a href="/dnav/ng/ng_enr_ngl_dcu_NUS_a.htm"></a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_enr_lc_a_EPL0_r56_MMbbl_a.htm">Lease condensate</a> </li>
+                    <li> <a href="/dnav/ng/ng_enr_lc_a_EPL0_r56_MMbbl_a.htm">Lease condensate</a></li>
                 </ul>
-            </li>
+</li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_enr_ngl_dcu_NUS_a.htm">Natural gas liquids proved reserves</a></li>
@@ -208,37 +182,34 @@
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_enr_wellend_s1_m.htm">Crude oil and natural gas exploratory and development wells</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span>                </li>
-            <li>Exploratory and development wells drilled for crude oil, natural gas and dry holes; total footage drilled
-            </li>
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span></li>
+            <li>Exploratory and development wells drilled for crude oil, natural gas and dry holes; total footage drilled</li>
             <li class="release-schedule">Monthly, annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_enr_wellfoot_s1_a.htm">Footage drilled for crude oil and natural gas wells</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span>                </li>
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span></li>
             <li>Footage drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_enr_welldep_s1_a.htm">Average depth of crude oil and natural gas wells</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span>                </li>
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span></li>
             <li>Average depth of wells drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_enr_wellcost_s1_a.htm">Costs of crude oil and natural gas wells drilled</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span>                </li>
-            <li>Per well and per foot costs of crude oil, natural gas, and dry hole wells
-            </li>
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span></li>
+            <li>Per well and per foot costs of crude oil, natural gas, and dry hole wells</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_enr_seis_s1_m.htm">Maximum U.S. active seismic crew counts</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span>                </li>
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date: </span> <span class="date">            <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_ngmer.inc') ?>        </span></li>
             <li>By onshore/offshore/Alaska and dimension (monthly)</li>
             <li class="head">
-                <a href="/naturalgas/crudeoilreserves/top100/">Top 100 U.S. Oil and Gas Fields</a>
-            </li>
+                <a href="/naturalgas/crudeoilreserves/top100/">Top 100 U.S. Oil and Gas Fields</a></li>
             <li>
                 <li> <span class="release-date">Release Date: </span> <span class="date">April 2, 2015 </span> <br> Ranks the 100 largest U.S. oil and gas fields by their estimated 2013 proved reserves.</li>
         </ul>
@@ -247,8 +218,7 @@
 
 
 
-    <h3>
-        <a name="production"></a>Production</h3>
+    <h3><a name="production"></a>Production</h3>
 
     <div class="content">
         <ul>
@@ -261,11 +231,9 @@
             <li class="head"><a href="/naturalgas/weekly/img/201803_monthly_dry_shale.png" class="lightbox">Dry shale gas production estimates by play</a></li>
             <li><span class="release-date">Release Date: </span><span class="date">April 19, 2018</span></li>
             <li>Estimated monthly production derived from state administrative data</li>
-            <li class="release-schedule">Monthly</span>
-            </li>
+            <li class="release-schedule">Monthly</span></li>
             <li><span class="formats">Available formats:</span>
-                <a href="/naturalgas/weekly/img/shale_gas_201803.xlsx"> <i class="ico xls">        <span>XLS</span>    </i></a>
-            </li>
+                <a href="/naturalgas/weekly/img/shale_gas_201803.xlsx"> <i class="ico xls">        <span>XLS</span>    </i></a></li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_prod_wells_s1_a.htm">Number of producing gas wells</a></li>
@@ -299,17 +267,15 @@
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_prod_pp_a_EPG0_ygp_mmcf_a.htm">Natural gas plant processing</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date:</span> <span class="date">            <?php include('css_rehab/archive/naturalgas/annual/includes/releasedate.inc') ?>        </span>                </li>
-            <li>U.S. and state level statistics for natural gas processed, total liquids extracted, extraction loss.
-            </li>
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <span class="release-date">Annual Release Date:</span> <span class="date">            <?php include('css_rehab/archive/naturalgas/annual/includes/releasedate.inc') ?>        </span></li>
+            <li>U.S. and state level statistics for natural gas processed, total liquids extracted, extraction loss.</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/cfapps/ngqs/ngqs.cfm?f_report=RP9&amp;f_sortby=&amp;f_items=&amp;f_year_start=&amp;f_year_end=&amp;f_show_compid=&amp;f_fullscreen">Plant-level location and capacity</a></li>
             <li>
                 <li> <span class="release-date">Release Date: </span> <span class="date">November 27, 2013 </span></li>
-                <li>Plant-level location and capacity information for all natural gas processing plants in the United States.
-                </li>
+                <li>Plant-level location and capacity information for all natural gas processing plants in the United States.</li>
                 <li class="release-schedule">Annual</li>
         </ul>
         <ul>
@@ -331,21 +297,20 @@
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head">Unconventional dry natural gas production
-            </li>
+            <li class="head">Unconventional dry natural gas production</li>
             <li><span class="release-date">Release Date: </span><span class="date">February 13, 2018</span></li>
             <li class="list-item">
                 <ul>
-                    <li> <a href="/dnav/ng/ng_prod_coalbed_s1_a.htm">Coalbed methane</a> </li>
+                    <li> <a href="/dnav/ng/ng_prod_coalbed_s1_a.htm">Coalbed methane</a></li>
                 </ul>
                 <ul>
-                    <li> <a href="/dnav/ng/ng_prod_shalegas_s1_a.htm" class="no-border">Shale gas</a> </li>
+                    <li> <a href="/dnav/ng/ng_prod_shalegas_s1_a.htm" class="no-border">Shale gas</a></li>
                 </ul>
-            </li>
+</li>
         </ul>
         <ul>
             <li class="head"><a href="/naturalgas/fieldcode/">Oil and gas field code master list</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <?php include('css_rehab/archive/naturalgas/fieldcode/includes/releasedate.inc') ?>    </li>    <li>Comprehensive listing of U.S. oil and gas field names.</li>    <li class="release-schedule">Annual</li>
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <?php include('css_rehab/archive/naturalgas/fieldcode/includes/releasedate.inc') ?></li>    <li>Comprehensive listing of U.S. oil and gas field names.</li>    <li class="release-schedule">Annual</li>
                 </ul>
                 <ul>
                     <li class="head"><a href="archive/petrosystem/petrosysog.html">Distribution and production of oil &amp; gas wells</a></li>
@@ -361,7 +326,7 @@
         </ul>
         <ul>
             <li class="head"><a href="/petroleum/production/">Monthly Crude Oil and Natural Gas Production</a></li>
-            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <?php include('css_rehab/archive/petroleum/production/includes/releasedate.inc') ?>    </li>    <li>Monthly crude oil and natural gas production data collected on Form EIA-914 (Monthly Crude Oil,
+            <li><span class="release-date">Release Date: </span><span class="date">    <li class="include">        <?php include('css_rehab/archive/petroleum/production/includes/releasedate.inc') ?></li>    <li>Monthly crude oil and natural gas production data collected on Form EIA-914 (Monthly Crude Oil,
                                 Lease Condensate, and Natural Gas Production Report)</li>    <li class="release-schedule">Monthly</li>
                 </ul>
             </div>
@@ -369,8 +334,7 @@
     
         
             
-            <h3>
-                <a name="imports"></a>Imports/exports</h3>
+            <h3><a name="imports"></a>Imports/exports</h3>
         
             <div class="content">
                 <ul>
@@ -417,16 +381,14 @@
             <li class="head"><a href="/naturalgas/pipelines/EIA-NaturalGasPipelineProjects.xlsx">Pipeline projects</a></li>
             <li>Detailed information on the size and location of pipeline projects announced or under construction.</li>
             <li><span class="formats">Available formats:</span>
-                <a href="/naturalgas/pipelines/EIA-NaturalGasPipelineProjects.xlsx"> <i class="ico xls">        <span>XLS</span>    </i></a>
-            </li>
+                <a href="/naturalgas/pipelines/EIA-NaturalGasPipelineProjects.xlsx"> <i class="ico xls">        <span>XLS</span>    </i></a></li>
         </ul>
     </div>
 
 
 
 
-    <h3>
-        <a name="pipelines"></a>Pipelines</h3>
+    <h3><a name="pipelines"></a>Pipelines</h3>
 
     <div class="content">
         <ul>
@@ -447,23 +409,20 @@
 
 
 
-    <h3>
-
-        <a name="storage"></a>Storage</h3>
+    <h3><a name="storage"></a>Storage</h3>
 
     <div class="content">
         <ul>
             <li class="head"><a href="/dnav/ng/ng_stor_wkly_s1_w.htm">Weekly working gas in underground storage </a></li>
             <li class="include"><span class="release-date">Annual Release Date:</span><span class="date">    <?php include('css_rehab/archive/dnav/ng/includes_ng/includes/releasedate_wngmsr.inc') ?></span></li>
             <li>U.S. natural gas inventories held in underground storage facilities</li>
-            <li class="release-schedule">Weekly</span>
-            </li>
+            <li class="release-schedule">Weekly</span></li>
             <li class="list-item">
                 <ul>
-                    <li> <a href="/dnav/ng/ng_stor_wkly_s2_w.htm">Underground storage East, West, and Producing regions</a> </li>
+                    <li> <a href="/dnav/ng/ng_stor_wkly_s2_w.htm">Underground storage East, West, and Producing regions</a></li>
                     <li>(historical data 12/31/1993 - 11/06/2015)</li>
                 </ul>
-            </li>
+</li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_stor_sum_a_EPG0_sat_mmcf_m.htm">Underground storage &mdash; all operators</a></li>
@@ -493,31 +452,26 @@
             <li class="head"><a href="/naturalgas/storagecapacity/">Underground natural gas working storage capacity</a></li>
             <li>
                 <li> <span class="release-date">Release Date: </span> <span class="date">April 3, 2017</span></li>
-                <li>This report provides estimates of aggregate peak working gas capacity and working gas design capacity for the U.S. underground natural gas storage as of November 2015.
-                </li>
+                <li>This report provides estimates of aggregate peak working gas capacity and working gas design capacity for the U.S. underground natural gas storage as of November 2015.</li>
                 <li class="release-schedule">Annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/cfapps/ngqs/ngqs.cfm?f_report=RP7&amp;f_sortby=&amp;f_items=&amp;f_year_start=&amp;f_year_end=&amp;f_show_compid=&amp;f_fullscreen">U.S. field level storage data</a></li>
             <li class="include">
-                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?>
-            </li>
-            <li>Annual field-level storage capacity and field-type data for all underground storage fields in the United States.
-            </li>
+                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?></li>
+            <li>Annual field-level storage capacity and field-type data for all underground storage fields in the United States.</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/naturalgas/storage/EIA-StoragePlan.xls">Planned storage projects</a></li>
-            <li>Detailed information on the size and location of underground storage facilities announced or under construction.
-            </li>
+            <li>Detailed information on the size and location of underground storage facilities announced or under construction.</li>
         </ul>
     </div>
 
 
 
 
-    <h3>
-        <a name="consumption"></a>Consumption</h3>
+    <h3><a name="consumption"></a>Consumption</h3>
 
     <div class="content">
         <ul>
@@ -528,17 +482,15 @@
         </ul>
         <ul>
             <li class="include">
-                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?>
-            </li>
-            <li>U.S. and State total consumption by lease and plant, pipeline, and end use consumers by sector </li>
+                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?></li>
+            <li>U.S. and State total consumption by lease and plant, pipeline, and end use consumers by sector</li>
             <li class="head"><a href="/dnav/ng/ng_cons_sum_a_EPG0_vgt_mmcf_m.htm">Delivered to consumers</a></li>
             <li class="release-schedule">Monthly</li>
             <li class="include"><span class="release-date">Annual Release Date:</span><span class="date">    <?php include('css_rehab/archive/naturalgas/annual/includes/releasedate.inc') ?></span></li>
             <li class="release-schedule">Annual</li>
             <li class="include">
-                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?>
-            </li>
-            <li>U.S. and State volumes delivered to end use consumers by sector </li>
+                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?></li>
+            <li>U.S. and State volumes delivered to end use consumers by sector</li>
         </ul>
         <ul>
             <li class="head"><a href="/dnav/ng/ng_cons_num_a_EPG0_VN3_Count_a.htm">Number of consumers</a></li>
@@ -561,15 +513,13 @@
         <ul>
             <li class="head"><a href="/dnav/ng/ng_cons_heat_a_EPG0_VGTH_btucf_a.htm">Heat content of natural gas consumed</a></li>
             <li class="include"><span class="release-date">Annual Release Date:</span><span class="date">    <?php include('css_rehab/archive/naturalgas/annual/includes/releasedate.inc') ?></span></li>
-            <li>Btu per cubic foot of natural gas delivered to consumers by state and other components of consumption for U.S.
-            </li>
+            <li>Btu per cubic foot of natural gas delivered to consumers by state and other components of consumption for U.S.</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
             <li class="head"><a href="/cfapps/ngqs/ngqs.cfm?f_report=RP1&amp;CFID=3671337&amp;CFTOKEN=adecb824a353d3ce-2B0A52F6-237D-DA68-24A4616E47171EC2">Company-level supply and disposition</a></li>
             <li class="include">
-                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?>
-            </li>
+                <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?></li>
             <li>Annual company-level supply and disposition data for all natural gas local distribution companies in the United States.</li>
             <li class="release-schedule">Annual</li>
         </ul>

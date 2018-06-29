@@ -15,7 +15,7 @@
 ">Electricity</li>
     <li><a href="http://www.eia.gov/mer/elect.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/elect.html" title="Annual Energy Review">AER</a></li>
     <li title="Operable units; net generation; nuclear share of total generation; capacity factor; more...">Nuclear</li>
-    <li><a href="http://www.eia.gov/mer/nuclear.html" title="Monthly Energy Review">MER</a> <a href="http://www.eia.gov/aer/nuclear.html" title="Annual Energy Review">| AER</a></li>
+    <li><a href="http://www.eia.gov/mer/nuclear.html" title="Monthly Energy Review">MER</a><a href="http://www.eia.gov/aer/nuclear.html" title="Annual Energy Review">| AER</a></li>
     <li title="Hydroelectricity, solar, wind, geothermal, wood, and waste consumption by sector; more...
 ">Renewable Energy</li>
     <li><a href="http://www.eia.gov/mer/renew.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/renew.html" title="Annual Energy Review">AER</a></li>

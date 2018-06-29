@@ -35,8 +35,7 @@ $SixDate = "";
         <div class="secondary hide-mt">
             <ul>
                 <li class="head">
-                    <h2>Updated Data Series</h2>
-                </li>
+                    <h2>Updated Data Series</h2></li>
                 <li><a href='<?=$OneURL?>' title='<?=$OneLabel?>'><span class="date"><?=$OneDate?></span><span class="link-label"><?=$OneLabel?></span></a></li>
                 <li><a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'><span class="date"><?=$TwoDate?></span><span class="link-label"><?=$TwoLabel?></span></a></li>
                 <li><a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'><span class="date"><?=$ThrDate?></span><span class="link-label"><?=$ThrLabel?></span></a></li>

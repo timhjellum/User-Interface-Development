@@ -31,8 +31,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags" class="ellipsis" data-truncate-lines="2" data-truncate-position="end">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.11/main.png');">
 </a>
 <div class="slide-content">
@@ -46,8 +45,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170809/article_images/twip170809fig1.png');">
 </a>
 <div class="slide-content">
@@ -61,8 +59,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170809/article_images/twip170809fig2.png');">
 </a>
 <div class="slide-content">
@@ -76,8 +73,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/todayinenergy/images/2017.08.04/main.png');">
 </a>
 <div class="slide-content">
@@ -91,8 +87,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -106,8 +101,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -121,8 +115,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -136,8 +129,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -151,8 +143,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -166,8 +157,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -181,8 +171,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -196,8 +185,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -211,8 +199,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -226,8 +213,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -241,8 +227,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 <li><a href="/" class="thumbnail" style="background-image: url('https://www.eia.gov/petroleum/weekly/archive/2017/170803/article_images/twip170802fig1.png');">
 </a>
 <div class="slide-content">
@@ -256,8 +241,7 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
 <p class="tags">
 <a href="/" class="capsule" title="aaaaa">aaaaa</a>, <a href="/" class="capsule" title="bbbbb">bbbbb</a>, <a href="/" class="capsule" title="ccccc">ccccc</a>, <a href="/" class="capsule" title="ddddd">ddddd</a>, <a href="/" class="capsule" title="eeeee">eeeee</a>, <a href="/" class="capsule" title="fffff">fffff</a>, <a href="/" class="capsule" title="ggggg">ggggg</a>, <a href="/" class="capsule" title="hhhhh">hhhhh</a>, <a href="/" class="capsule" title="iiiii">iiiii</a>, <a href="/" class="capsule" title="jjjjj">jjjjj</a>, <a href="/" class="capsule" title="kkkkk">kkkkk</a>,
 </p>
-</div>
-</li>
+</div></li>
 </ul>
 </div>
 </div>

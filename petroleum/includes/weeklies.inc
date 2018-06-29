@@ -3,18 +3,15 @@
 <div class="secondary-border primary-alt">
     <ul>
         <li class="head">
-            <h2>Regular Weekly Releases*</h2>
-        </li>
+            <h2>Regular Weekly Releases*</h2></li>
         <li class="sub-head">
-            <h3>Monday</h3>
-        </li>
+            <h3>Monday</h3></li>
 
         <li><a href="/petroleum/gasdiesel/">Gasoline and Diesel Fuel Update &rsaquo;</a></li>
         <li class="date">Usually Monday by 5:00 p.m. Eastern Time</li>
 
         <li class="sub-head">
-            <h3>Wednesday</h3>
-        </li>
+            <h3>Wednesday</h3></li>
 
         <li><a href="/oil_gas/petroleum/data_publications/weekly_petroleum_status_report/wpsr.html">Weekly Petroleum Status Report &rsaquo;</a>
             <li>

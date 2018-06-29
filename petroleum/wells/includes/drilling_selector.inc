@@ -17,11 +17,7 @@ print "<a href=\"/petroleum/drilling/\">&lsaquo; See Current Issue</a>";
                                 <div class="date"><?php echo "$next"?></div>
                         </div>
                         <div class="report-download-container">
-                                <i class="ico pdf">PDF</i><a href="pdf/wells.pdf">full report</a>
-                                <a href="/petroleum/wells/includes/archive.php" data-fancybox-type="iframe" class="lightbox">Previous reports</a>
-                                <a href="includes/download.php" class="lightbox" data-fancybox-type="iframe">Download data</a>
-                                <a href="xls/appendix_b.xlsx" ><i class="ico xls"><span>XLS</span></i>Appendix B</a>
-                                <a href="xls/appendix_c.xlsx" ><i class="ico xls"><span>XLS</span></i>Appendix C</a>
+                                <i class="ico pdf">PDF</i><a href="pdf/wells.pdf">full report</a><a href="/petroleum/wells/includes/archive.php" data-fancybox-type="iframe" class="lightbox">Previous reports</a><a href="includes/download.php" class="lightbox" data-fancybox-type="iframe">Download data</a><a href="xls/appendix_b.xlsx" ><i class="ico xls"><span>XLS</span></i>Appendix B</a><a href="xls/appendix_c.xlsx" ><i class="ico xls"><span>XLS</span></i>Appendix C</a>
                         </div>
                 </div>
         </div>

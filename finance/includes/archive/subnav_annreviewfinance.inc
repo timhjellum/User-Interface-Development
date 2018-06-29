@@ -22,7 +22,7 @@ $(document).ready(function(){
 </div>
 
 <div class="subnav"><?php /* Page/Sub Nav */ ?>
-  <span class="right"><a href="<?php echo "$glossary_path"?>">Glossary &rsaquo;</a> <a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span>
+  <span class="right"><a href="<?php echo "$glossary_path"?>">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span>
   <ul>
     <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/finance/">Overview</a></li>
     <li class="dropdown <?php if ( $locale == 'data') {?>active<?php  } // end if ?>"><a href="/finance/data.php">Data</a></li>

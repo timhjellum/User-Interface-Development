@@ -15,8 +15,8 @@ $neic      = new NEIC();
 <span class="grey_side blue_top side_list_nocolumn">
   <h4>Sector totals:</h4>
 <ul>
-      <li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0201a">annual</a> &mdash; 1949-2011 </li>
-      <li><a href="/totalenergy/data/monthly/index.cfm#consumption">monthly</a> </li>
+      <li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0201a">annual</a> &mdash; 1949-2011</li>
+      <li><a href="/totalenergy/data/monthly/index.cfm#consumption">monthly</a></li>
     </ul>
 </span>
 

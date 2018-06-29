@@ -35,37 +35,30 @@ $SixDate = "";
         <div class="secondary hide-mt">
             <ul>
                 <li class="head">
-                    <h2>Updated Data Series</h2>
-                </li>
+                    <h2>Updated Data Series</h2></li>
                 <li><span><?=$OneDate?></span>&#160;&#160;
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
                         <?=$OneLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li><span><?=$TwoDate?></span>&#160;&#160;
                     <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'>
                         <?=$TwoLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li><span><?=$ThrDate?></span>&#160;&#160;
                     <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'>
                         <?=$ThrLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li><span><?=$FouDate?></span>&#160;&#160;
                     <a href='<?=$FouURL?>' title='<?=$FouLabel?>'>
                         <?=$FouLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li><span><?=$FivDate?></span>&#160;&#160;
                     <a href='<?=$FivURL?>' title='<?=$FivLabel?>'>
                         <?=$FivLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li><span><?=$SixDate?></span>&#160;&#160;
                     <a href='<?=$SixURL?>' title='<?=$SixLabel?>'>
                         <?=$SixLabel?>
-                    </a>
-                </li>
+                    </a></li>
             </ul>
         </div>

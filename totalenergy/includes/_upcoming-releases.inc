@@ -39,8 +39,7 @@ $SixDate = "";
                 <li class="head">
                     <h2>
                         <?=$mainTitle?>
-                    </h2>
-                </li>
+                    </h2></li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
                         <?=$OneLabel?>

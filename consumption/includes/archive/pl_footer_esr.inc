@@ -27,7 +27,7 @@
                    </form>
                    &nbsp;<br/>
 
- <ul class="no-liststyle"><li>Class of Ownership, Number of Bundled Ultimate Consumers, Revenue, Sales, and Average Revenue per Kilowatthour </li></ul>					
+ <ul class="no-liststyle"><li>Class of Ownership, Number of Bundled Ultimate Consumers, Revenue, Sales, and Average Revenue per Kilowatthour</li></ul>					
           
                    <form name="form" id="form">
                    <label>2002 XLS: </label>

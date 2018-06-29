@@ -14,8 +14,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>Survey & Report Information</h2>
-        </li>
+            <h2>Survey & Report Information</h2></li>
         <li>
             <ul>
                 <li><a href="/petroleum/heatingoilpropane/pdf/explanatorynotes.pdf"><i class="ico pdf"><span>PDF</span></i>Explanatory notes</a></li>
@@ -23,16 +22,15 @@
                 <li><a href="padd-state_maps.cfm">Survey maps</a></li>
                 <li><a href="revision_report.cfm" style="white-space:nowrap;">Revision reports</a></li>
             </ul>
-        </li>
+</li>
         <li class="header">
-            <h2>More Price Data</h2>
-        </li>
+            <h2>More Price Data</h2></li>
         <li>
             <ul>
                 <li><a href="/dnav/pet/pet_pri_spt_s1_d.htm">Spot prices</a></li>
                 <li><a href="/dnav/pet/pet_pri_fut_s1_d.htm">NYMEX futures prices</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>
 
@@ -43,8 +41,7 @@
 <div class="faq">
     <ul>
         <li class="header">
-            <h2><a href="faq_datausers.cfm">Why are data not collected over the summer?</a></h2>
-        </li>
+            <h2><a href="faq_datausers.cfm">Why are data not collected over the summer?</a></h2></li>
         <li class="sub-header"><a href="faq_datausers.cfm">FAQs for Data User›</a></li>
         <li class="sub-header"><a href="faq_respondents.cfm">FAQs for Respondents</a></li>
         <li class="sub-header"><a href="faq_stateofficials.cfm">FAQs for State Energy Offices</a></li>
@@ -58,8 +55,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>Related Information</h2>
-        </li>
+            <h2>Related Information</h2></li>
         <li>
             <ul>
                 <li><a href="/petroleum/heatingoilpropane/pdf/winterfuels2016.pdf"><i class="ico pdf"><span>PDF</span></i>Winter Fuels Outlook</a></li>
@@ -72,7 +68,7 @@
                 <li><a href="/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li>
                 <li><a href="/petroleum/supply/weekly/nehor.cfm">Northeast Heating Oil Reserve</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>
 
@@ -83,8 +79,7 @@
 <div class="secondary">
     <ul>
         <li class="header">
-            <h2>For State Energy Officials</h2>
-        </li>
+            <h2>For State Energy Officials</h2></li>
         <li><a href="forstateofficials.cfm">Financial Forms</a></li>
         <li><a href="faq_stateofficials.cfm">FAQs for State Energy Offices</a></li>
         <li><a href="/petroleum/heatingoilpropane/workshop/">2016 SHOPP Workshop</a></li>

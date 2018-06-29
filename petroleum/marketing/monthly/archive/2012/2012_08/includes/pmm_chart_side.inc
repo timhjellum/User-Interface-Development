@@ -1,33 +1,28 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong> Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2012-08/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2012-08/fig_HL1_coppwp_sm.jpg" /></a>
-        </li>
+                <a href="images/2012-08/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2012-08/fig_HL1_coppwp_sm.jpg" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3>Highlights</h3>
-            </li>
+                <h3>Highlights</h3></li>
             <li>
                 <p>Monthly sales data show crude oil prices declined considerably during May, as did finished petroleum products prices in most U.S. regional markets. Prime Supplier sales data show consumption of gasoline and diesel fuel were on the rise
-                    in May. ...</p>
-            </li>
+                    in May. ...</p></li>
             <li><a href="pdf/hilites.pdf">Read all highlights...</a></li>
         </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Sections</h2>
-            </li>
+                <h2>Sections</h2></li>
             <li><a href="pdf/preface.pdf">Preface</a></li>
             <li><a href="pdf/enote.pdf">Explanatory Notes</a></li>
             <li><a href="pdf/pguide.pdf">Product Guide</a></li>

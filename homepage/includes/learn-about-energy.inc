@@ -14,17 +14,14 @@ $learnAboutEnergyTwoLabel = "Frequently Asked Questions";
     <div class="secondary two">
         <ul>
             <li class="head">
-                <h2>Learn About Energy</h2>
-            </li>
+                <h2>Learn About Energy</h2></li>
             <li>
                 <a href='<?=$learnAboutEnergyOneURL?>' title='<?=$learnAboutEnergyOneLabel?>'>
                     <?=$learnAboutEnergyOneLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$learnAboutEnergyTwoURL?>' title='<?=$learnAboutEnergyTwoLabel?>'>
                     <?=$learnAboutEnergyTwoLabel?>
-                </a>
-            </li>
+                </a></li>
         </ul>
     </div>

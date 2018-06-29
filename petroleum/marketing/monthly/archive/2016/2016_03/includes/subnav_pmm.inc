@@ -7,7 +7,7 @@
 </div>
 <div class="subnav">
 <div class="right">
-<span class="align-right"><a href="<?php echo "$glossary_path"?>?id=petroleum">Glossary</a> <a href="<?php echo "$faqs_path"?>#crudeoil">FAQS</a></span>
+<span class="align-right"><a href="<?php echo "$glossary_path"?>?id=petroleum">Glossary</a><a href="<?php echo "$faqs_path"?>#crudeoil">FAQS</a></span>
 </div>
 <div class="left">
 <ul class="left-nav">

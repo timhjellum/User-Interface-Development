@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong> Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2014-01/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-01/fig_HL1_coppwp_sm.jpg" /></a>
-        </li>
+                <a href="images/2014-01/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-01/fig_HL1_coppwp_sm.jpg" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3>Highlights</h3>
-            </li>
+                <h3>Highlights</h3></li>
             <li class="header">
                 <h2>Crude Oil</h2>
                 <ul>
@@ -24,10 +21,9 @@
                     <li>The average refiner acquisition cost for domestic crude oil decreased $4.61 (4.3 percent), to $103.35 per barrel. The average cost of imported crude oil dropped $5.52 (5.3 percent), to $97.97 per barrel. The composite refiner acquisition
                         cost for crude oil fell $5.18 (4.9 percent), to $100.52 per barrel.</li>
                 </ul>
-            </li>
+</li>
             <li class="header">
-                <h2>Petroleum Products</h2>
-            </li>
+                <h2>Petroleum Products</h2></li>
             <li>
                 <h4>Motor Gasoline</h4>
                 <ul>
@@ -36,7 +32,7 @@
                     <li>Refiner sales of finished motor gasoline rose in October. Total sales increased 2.5 million gallons per day (0.8 percent) to an average of 315.2 million gallons per day. Retail sales rose 400,000 gallons per day (1.7 percent), while
                         wholesales climbed 2.1 million gallons per day (0.7 percent). DTW sales accounted for 9.8 percent of wholesales, while rack and bulk sales made up 82.9 percent and 7.3 percent, respectively.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>No. 2 Distillate</h4>
                 <ul>
@@ -44,7 +40,7 @@
                         per gallon. The average wholesale price for No. 2 fuel oil decreased 2.2 cents to $2.951 per gallon.</li>
                     <li>Sales of No. 2 distillates by refiners were mostly on the increase during October. No. 2 diesel fuel sales climbed 14.0 million gallons per day (9.1 percent).</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Residual Fuel Oil</h4>
                 <ul>
@@ -52,7 +48,7 @@
                         oil declined 4.8 cents to $2.364 per gallon at retail, and 3.3 cents to $2.232 per gallon at wholesale.</li>
                     <li>Sales of residual fuel oil by refiners rose in October, with total sales increasing 300,000 gallons per day (2.4 percent).</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Other Products</h4>
                 <ul>
@@ -61,15 +57,14 @@
                     <li>Refiner sales of propane and kerosene-type jet fuel fell at the retail level but increased at wholesale in October. Aviation gasoline, kerosene, and No. 1 distillate climbed at both levels. Sales of No. 4 distillate decreased at wholesale
                         during October.</li>
                 </ul>
-            </li>
+</li>
         </ul>
     </div>
 
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Sections</h2>
-            </li>
+                <h2>Sections</h2></li>
             <li><a href="pdf/preface.pdf">Preface</a></li>
             <li><a href="pdf/enote.pdf">Explanatory Notes</a></li>
             <li><a href="pdf/mgt.pdf">Motor Fuel Taxes</a></li>

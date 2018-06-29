@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong>Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2016-06/fig_HL1coppwp2.png" class="lightbox"><img src="images/2016-06/fig_HL1_coppwp_sm2.png" /></a>
-        </li>
+                <a href="images/2016-06/fig_HL1coppwp2.png" class="lightbox"><img src="images/2016-06/fig_HL1_coppwp_sm2.png" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3><strong>Highlights</strong></h3>
-            </li>
+                <h3><strong>Highlights</strong></h3></li>
             <li>
                 <h2 class="strong">Crude Oil</h2>
                 <ul>
@@ -29,8 +26,7 @@
                 <h5 style="margin-bottom:-8px">Motor gasoline</h5>
                 <ul>
                     <li>March monthly average prices for sales of motor gasoline by refiners rose in all sales categories. The average retail price increased 22.1 cents to $1.553 per gallon, while the average wholesale price climbed 28.9 cents to $1.335 per
-                        gallon.
-                    </li>
+                        gallon.</li>
                     <li>Refiner sales of finished motor gasoline increased in March. Total sales rose 9.0 million gallons per day (2.8%) to an average of 329.2 million gallons per day. Retail sales fell 200,000 gallons per day (0.8%), while wholesales rose
                         9.2 million gallons per day (3.1%). DTW sales accounted for 7.7% of wholesales, while rack and bulk sales made up 83.9% and 8.4%, respectively.</li>
                 </ul>
@@ -78,8 +74,7 @@
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Related information</h2>
-            </li>
+                <h2>Related information</h2></li>
             <li><a href="pdf/enote.pdf"><i class="ico pdf">PDF</i>Petroleum marketing explanatory notes</a></li>
             <li><a href="xls/fueltaxes.xls"><i class="ico xls">XLS</i>Federal and state motor fuel taxes</a></li>
             <li><a href="pdf/paddmap.pdf"><i class="ico pdf">PDF</i>Petroleum administration for defense district (PADD) map</a></li>

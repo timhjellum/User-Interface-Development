@@ -24,49 +24,38 @@
               </tr*/ ?>
         <tr>
             <td><em><a href="/outlooks/steo/">Short-Term Energy Outlook</a></em> Released: the first Tuesday following the first Thursday of each month. </td>
-            <li><span class="formats">Available formats:</span> &nbsp;</span>
-            </li>
+            <li><span class="formats">Available formats:</span> &nbsp;</span></li>
             <tr class="white_first">
                 <td>
                     <p>WF01. Average consumer prices and expenditures for heating fuels during the winter</td>
-                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/wf-table.pdf" class="ico_pdf" title="Table  WF01. Average consumer prices and expenditures for heating fuels during the winter "><i class="ico pdf"><span>PDF</span></i></a>                    </span>
-                </li>
+                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/wf-table.pdf" class="ico_pdf" title="Table  WF01. Average consumer prices and expenditures for heating fuels during the winter "><i class="ico pdf"><span>PDF</span></i></a>                    </span></li>
                 <tr>
                     <td><a href="/outlooks/steo/tables/?tableNumber=3">1. U.S. energy market summary</a><br /></td>
-                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/1tab.pdf" class="ico_pdf" title="Table  1. U.S. energy market summary "><i class="ico pdf"><span>PDF</span></i></a></span>
-                    </li>
+                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/1tab.pdf" class="ico_pdf" title="Table  1. U.S. energy market summary "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                     <tr>
                         <td><a href="/outlooks/steo/tables/?tableNumber=8">2. U.S. energy prices </a><br /></td>
-                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/2tab.pdf" class="ico_pdf" title="Table  2. U.S. energy prices  "><i class="ico pdf"><span>PDF</span></i></a> </span>
-                        </li>
+                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/2tab.pdf" class="ico_pdf" title="Table  2. U.S. energy prices  "><i class="ico pdf"><span>PDF</span></i></a> </span></li>
                         <tr>
                             <td><a href="/outlooks/steo/tables/?tableNumber=6">3a. International crude oil and liquid fuels supply, consumption, and inventories</a></td>
-                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3atab.pdf" class="ico_pdf" title="Table  3a. International crude oil and liquid fuels supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span>
-                            </li>
+                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3atab.pdf" class="ico_pdf" title="Table  3a. International crude oil and liquid fuels supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                             <tr>
                                 <td><a href="/outlooks/steo/tables/?tableNumber=29">3b. Non-OPEC crude oil and liquid fuels supply</a></td>
-                                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3btab.pdf" class="ico_pdf" title="Table  3b. Non-OPEC crude oil and liquid fuels supply "><i class="ico pdf"><span>PDF</span></i></a> </span>
-                                </li>
+                                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3btab.pdf" class="ico_pdf" title="Table  3b. Non-OPEC crude oil and liquid fuels supply "><i class="ico pdf"><span>PDF</span></i></a> </span></li>
                                 <tr>
                                     <td><a href="/outlooks/steo/tables/?tableNumber=7">3c. OPEC crude oil and liquid fuels supply</a></td>
-                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3ctab.pdf" class="ico_pdf" title="Table  3c. OPEC crude oil and liquid fuels supply "><i class="ico pdf"><span>PDF</span></i></a> </span>
-                                    </li>
+                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3ctab.pdf" class="ico_pdf" title="Table  3c. OPEC crude oil and liquid fuels supply "><i class="ico pdf"><span>PDF</span></i></a> </span></li>
                                     <tr>
                                         <td><a href="/outlooks/steo/tables/?tableNumber=30">3d. World liquid fuels consumption</a></td>
-                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3dtab.pdf" class="ico_pdf" title="Table  3d. World liquid fuels consumption "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                        </li>
+                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/3dtab.pdf" class="ico_pdf" title="Table  3d. World liquid fuels consumption "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                         <tr>
                                             <td><a href="/outlooks/steo/tables/?tableNumber=9">4a. U.S. crude oil and liquid fuels supply, consumption, and inventories</a></td>
-                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/4atab.pdf" class="ico_pdf" title="Table  4a. U.S. crude oil and liquid fuels supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                            </li>
+                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/4atab.pdf" class="ico_pdf" title="Table  4a. U.S. crude oil and liquid fuels supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                             <tr>
                                                 <td><a href="/outlooks/steo/tables/?tableNumber=27">4b. U.S. petroleum refinery balance</a></td>
-                                                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/4btab.pdf" class="ico_pdf" title="Table  4b. U.S. petroleum refinery balance "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                </li>
+                                                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/4btab.pdf" class="ico_pdf" title="Table  4b. U.S. petroleum refinery balance "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                 <tr>
                                                     <td><a href="/outlooks/steo/tables/?tableNumber=10">4c. U.S. regional motor gasoline prices and inventories</a></td>
-                                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/4ctab.pdf" class="ico_pdf" title="Table  4c. U.S. regional motor gasoline prices and inventories "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                    </li>
+                                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/4ctab.pdf" class="ico_pdf" title="Table  4c. U.S. regional motor gasoline prices and inventories "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                     <?php /*<tr>
                 <td><a href="/forecasts/steo/tables/?tableNumber=11">4d. U.S. regional heating oil prices and inventories</a></td>
                 			<li><span class="formats">Available formats:</span>   <a href="/forecasts/steo/tables/pdf/4dtab.pdf" class="ico_pdf">PDF</a></span></li>
@@ -75,64 +64,52 @@
                 			<li><span class="formats">Available formats:</span>   <a href="/forecasts/steo/tables/pdf/4etab.pdf" class="ico_pdf">PDF</a></span></li> */ ?>
                                                     <tr>
                                                         <td><a href="/outlooks/steo/tables/?tableNumber=15">5a. U.S. natural gas supply, consumption, and inventories</a></td>
-                                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/5atab.pdf" class="ico_pdf" title="Table  5a. U.S. natural gas supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                        </li>
+                                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/5atab.pdf" class="ico_pdf" title="Table  5a. U.S. natural gas supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                         <tr>
                                                             <td><a href="/outlooks/steo/tables/?tableNumber=16">5b. U.S. regional natural gas prices</a></td>
-                                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/5btab.pdf" class="ico_pdf" title="Table 5b. U.S. regional natural gas prices "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                            </li>
+                                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/5btab.pdf" class="ico_pdf" title="Table 5b. U.S. regional natural gas prices "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                             <tr>
                                                                 <td><a href="/outlooks/steo/tables/?tableNumber=18">6. &nbsp; U.S. coal supply, consumption, and inventories</a></td>
-                                                                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/6tab.pdf" class="ico_pdf" title="Table 6. Â  U.S. coal supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                                </li>
+                                                                <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/6tab.pdf" class="ico_pdf" title="Table 6. Â  U.S. coal supply, consumption, and inventories "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                                 <tr>
                                                                     <td><a href="/outlooks/steo/tables/?tableNumber=19">7a. U.S. electricity overview</a></td>
-                                                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/7atab.pdf" class="ico_pdf" title="Table 7a. U.S. electricity overview "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                                    </li>
+                                                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/7atab.pdf" class="ico_pdf" title="Table 7a. U.S. electricity overview "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                                     <tr>
                                                                         <td><a href="/outlooks/steo/tables/?tableNumber=20">7b. U.S. regional electricity retail sales</a></td>
-                                                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/7btab.pdf" class="ico_pdf" title="Table 7b. U.S. regional electricity retail sales "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                                        </li>
+                                                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/7btab.pdf" class="ico_pdf" title="Table 7b. U.S. regional electricity retail sales "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                                         <tr>
                                                                             <td><a href="/outlooks/steo/tables/?tableNumber=21">7c. U.S. regional electricity prices</a></td>
-                                                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/7ctab.pdf" class="ico_pdf" title="Table 7c. U.S. regional electricity prices "><i class="ico pdf"><span>PDF</span></i></a></span>
-                                                                            </li>
+                                                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/steo/tables/pdf/7ctab.pdf" class="ico_pdf" title="Table 7c. U.S. regional electricity prices "><i class="ico pdf"><span>PDF</span></i></a></span></li>
                                                                             <tr>
                                                                                 <td><a href="/outlooks/steo/tables/?tableNumber=22">7d. U.S.  electricity generation by fuel and sector</a></td>
                                                                                 <li><span class="formats">Available formats:</span>
                                                                                     <a href="/outlooks/steo/tables/pdf/7dtab.pdf" class="ico_pdf" title="Table 7d. U.S. electricity generation by fuel and sector "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                    </span>
-                                                                                </li>
+                                                                                    </span></li>
                                                                                 <tr>
                                                                                     <td><a href="/outlooks/steo/tables/?tableNumber=23">7e. U.S. fuel consumption for electricity generation by sector</a></td>
                                                                                     <li><span class="formats">Available formats:</span>
                                                                                         <a href="/outlooks/steo/tables/pdf/7etab.pdf" class="ico_pdf" title="Table 7e. U.S. fuel consumption for electricity generation by sector "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                        </span>
-                                                                                    </li>
+                                                                                        </span></li>
                                                                                     <tr>
                                                                                         <td><a href="/outlooks/steo/tables/?tableNumber=24">8. U.S. renewable energy supply and consumption</a></td>
                                                                                         <li><span class="formats">Available formats:</span>
                                                                                             <a href="/outlooks/steo/tables/pdf/8tab.pdf" class="ico_pdf" title="Table 8. U.S. renewable energy supply and consumption "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                            </span>
-                                                                                        </li>
+                                                                                            </span></li>
                                                                                         <tr>
                                                                                             <td><a href="/outlooks/steo/tables/?tableNumber=5">9a. U.S. macroeconomic indicators and CO<sub>2</sub> emissions</a></td>
                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                 <a href="/outlooks/steo/tables/pdf/9atab.pdf" class="ico_pdf" title="Table 9a. U.S. macroeconomic indicators and CO2 emissions "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                </span>
-                                                                                            </li>
+                                                                                                </span></li>
                                                                                             <tr>
                                                                                                 <td><a href="/outlooks/steo/tables/?tableNumber=4">9b. U.S. regional macroeconomic data</a></td>
                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                     <a href="/outlooks/steo/tables/pdf/9btab.pdf" class="ico_pdf" title="Table 9b. U.S. regional macroeconomic data "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                    </span>
-                                                                                                </li>
+                                                                                                    </span></li>
                                                                                                 <tr>
                                                                                                     <td><a href="/outlooks/steo/tables/?tableNumber=28">9c. U.S. regional weather data</a></td>
                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                         <a href="/outlooks/steo/tables/pdf/9ctab.pdf" class="ico_pdf" title="Table 9c. U.S. regional weather data "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                        </span>
-                                                                                                    </li>
+                                                                                                        </span></li>
 
                                                                                                     <tr>
                                                                                                         <td><a href="/cfapps/ipdbproject/IEDIndex3.cfm">International petroleum supply, disposition</a><br /> Query tool for detailed country and regional energy
@@ -150,8 +127,7 @@
                                                                                                         <td><em><a href="/outlooks/aeo/">Annual Energy Outlook 2017</a></em> (released: January 5, 2017) -- Reference case main 21 tables<br /> See complete table
                                                                                                             listing for <a href="/outlooks/aeo/tables_ref.cfm">reference case</a> and <a href="/outlooks/aeo/tables_side.cfm">side cases</a>. <a href="/outlooks/aeo/supplemental_case.cfm"> Supplemental case </a>(released
                                                                                                             June 26, 2017)</td>
-                                                                                                        <li><span class="formats">Available formats:</span> &nbsp;</span>
-                                                                                                        </li>
+                                                                                                        <li><span class="formats">Available formats:</span> &nbsp;</span></li>
                                                                                                         <?php /* <tr class="white_first">
                 <td>Summary Reference Case Tables</td>
                 <td><h2><span class="right"> <a href="/forecasts/aeo/pdf/appa.pdf" class="ico_pdf">PDF</a></span></h2></li>
@@ -163,128 +139,103 @@
                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                 <a href="/outlooks/aeo/excel/aeotab_1.xlsx" class="ico_xls" title="Table  A1. Total energy supply and disposition demand "><i class="ico xls"><span>XLS</span></i></a>
                                                                                                                 <?php /* <a href="/outlooks/aeo/pdf/tbla1.pdf" class="ico_pdf">PDF</a> */ ?>
-                                                                                                                </span>
-                                                                                                            </li>
+                                                                                                                </span></li>
                                                                                                             <tr>
                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=2-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A2. Energy consumption by sector and source </a>                                                                                                                    <br /></td>
                                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                                     <a href="/outlooks/aeo/excel/aeotab_2.xlsx" class="ico_xls" title="Table  A2. Energy consumption by sector and source  "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla2.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                </li>
+                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla2.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                 <tr>
                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=3-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A3. Energy prices by sector and source</a></td>
                                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                                         <a href="/outlooks/aeo/excel/aeotab_3.xlsx" class="ico_xls" title="Table  A3. Energy prices by sector and source "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla3.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                    </li>
+                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla3.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                     <tr>
                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=4-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A4. Residential sector key indicators and consumption</a></td>
                                                                                                                         <li><span class="formats">Available formats:</span>
                                                                                                                             <a href="/outlooks/aeo/excel/aeotab_4.xlsx" class="ico_xls" title="Table  A4. Residential sector key indicators and consumption "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla4.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                        </li>
+                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla4.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                         <tr>
                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=5-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A5. Commercial sector key indicators and consumption</a></td>
                                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                                 <a href="/outlooks/aeo/excel/aeotab_5.xlsx" class="ico_xls" title="Table  A5. Commercial sector key indicators and consumption "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla5.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                            </li>
+                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla5.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                             <tr>
                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=6-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A6. Industrial sector key indicators and consumption</a></td>
                                                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                                                     <a href="/outlooks/aeo/excel/aeotab_6.xlsx" class="ico_xls" title="Table  A6. Industrial sector key indicators and consumption "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla6.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                </li>
+                                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla6.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                 <tr>
                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=7-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A7. Transportation sector key indicators and delivered energy consumption</a></td>
                                                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                                                         <a href="/outlooks/aeo/excel/aeotab_7.xlsx" class="ico_xls" title="Table  A7. Transportation sector key indicators and delivered energy consumption "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                        <?php /* <a href="/outlooks/aeo/er/pdf/tbla7.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                    </li>
+                                                                                                                                        <?php /* <a href="/outlooks/aeo/er/pdf/tbla7.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                     <tr>
                                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=8-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A8. Electricity supply Disposition, prices, and emissions</a></td>
                                                                                                                                         <li><span class="formats">Available formats:</span>
                                                                                                                                             <a href="/outlooks/aeo/excel/aeotab_8.xlsx" class="ico_xls" title="Table  A8. Electricity supply Disposition, prices, and emissions "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla8.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                        </li>
+                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla8.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                         <tr>
                                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=9-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A9. Electricity generating capacity</a></td>
                                                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                                                 <a href="/outlooks/aeo/excel/aeotab_9.xlsx" class="ico_xls" title="Table  A9. Electricity generating capacity "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla9.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                            </li>
+                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla9.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                             <tr>
                                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=10-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A10. Electricity trade</a></td>
-                                                                                                                                                <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_10.xlsx" class="ico_xls"
-                                                                                                                                                        title="Table  A10. Electricity trade "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla10.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                </li>
+                                                                                                                                                <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_10.xlsx" class="ico_xls" title="Table  A10. Electricity trade "><i class="ico xls"><span>XLS</span></i></a>
+                                                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla10.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                 <tr>
                                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=11-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A11. Liquid fuels supply and disposition balance</a></td>
-                                                                                                                                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_11.xlsx" class="ico_xls"
-                                                                                                                                                            title="Table  A11. Liquid fuels supply and disposition balance "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla11.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                    </li>
+                                                                                                                                                    <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_11.xlsx" class="ico_xls" title="Table  A11. Liquid fuels supply and disposition balance "><i class="ico xls"><span>XLS</span></i></a>
+                                                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla11.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                     <tr>
                                                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=12-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A12. Petroleum product prices</a></td>
-                                                                                                                                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_12.xlsx" class="ico_xls"
-                                                                                                                                                                title="Table A12. Petroleum product prices "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla12.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                        </li>
+                                                                                                                                                        <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_12.xlsx" class="ico_xls" title="Table A12. Petroleum product prices "><i class="ico xls"><span>XLS</span></i></a>
+                                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla12.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                         <tr>
                                                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=13-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A13. Natural gas supply, disposition, and prices</a></td>
-                                                                                                                                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_13.xlsx" class="ico_xls"
-                                                                                                                                                                    title="Table A13. Natural gas supply, disposition, and prices "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla13.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                            </li>
+                                                                                                                                                            <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_13.xlsx" class="ico_xls" title="Table A13. Natural gas supply, disposition, and prices "><i class="ico xls"><span>XLS</span></i></a>
+                                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla13.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                             <tr>
                                                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=14-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A14. Oil and gas supply</a></td>
                                                                                                                                                                 <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_14.xlsx"
                                                                                                                                                                         class="ico_xls" title="Table A14. Oil and gas supply "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla14.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                </li>
+                                                                                                                                                                    <?php /* <a href="/outlooks/aeo/pdf/tbla14.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                 <tr>
                                                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=15-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A15. Coal supply, disposition, and price</a></td>
                                                                                                                                                                     <li><span class="formats">Available formats:</span> <a href="/outlooks/aeo/excel/aeotab_15.xlsx"
                                                                                                                                                                             class="ico_xls" title="Table A15. Coal supply, disposition, and price "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla15.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                    </li>
+                                                                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla15.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                     <tr>
                                                                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=16-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A16. Renewable energy generating capacity and generation</a></td>
                                                                                                                                                                         <li><span class="formats">Available formats:</span>
                                                                                                                                                                             <a href="/outlooks/aeo/excel/aeotab_16.xlsx" class="ico_xls" title="Table A16. Renewable energy generating capacity and generation "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla16.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                        </li>
+                                                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla16.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                         <tr>
                                                                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=24-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A17. Renewable energy consumption by sector and source</a></td>
                                                                                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                                                                                 <a href="/outlooks/aeo/excel/aeotab_17.xlsx" class="ico_xls" title="Table A17. Renewable energy consumption by sector and source "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla17.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                            </li>
+                                                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla17.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                             <tr>
                                                                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=17-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A18. Carbon dioxide emissions by sector and source</a></td>
                                                                                                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                                                                                                     <a href="/outlooks/aeo/excel/aeotab_18.xlsx" class="ico_xls" title="Table A18. Carbon dioxide emissions by sector and source "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                                    <?php /*<a href="/outlooks/aeo/pdf/tbla18.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                                </li>
+                                                                                                                                                                                    <?php /*<a href="/outlooks/aeo/pdf/tbla18.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                                 <tr>
                                                                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=22-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A19. Energy-related carbon dioxide emissions by end-use</a></td>
                                                                                                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                                                                                                         <a href="/outlooks/aeo/excel/aeotab_19.xlsx" class="ico_xls" title="Table A19. Energy-related carbon dioxide emissions by end-use "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla19.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                                    </li>
+                                                                                                                                                                                        <?php /* <a href="/outlooks/aeo/pdf/tbla19.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                                     <tr>
                                                                                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=18-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A20. Macroeconomic indicators</a></td>
                                                                                                                                                                                         <li><span class="formats">Available formats:</span>
                                                                                                                                                                                             <a href="/outlooks/aeo/excel/aeotab_20.xlsx" class="ico_xls" title="Table A20. Macroeconomic indicators "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla20.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                                        </li>
+                                                                                                                                                                                            <?php /* <a href="/outlooks/aeo/pdf/tbla20.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                                         <tr>
                                                                                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=19-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A21. International liquids supply disposition summary</a></td>
                                                                                                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                 <a href="/outlooks/aeo/excel/aeotab_21.xlsx" class="ico_xls" title="Table A21. International liquids supply disposition summary "><i class="ico xls"><span>XLS</span></i></a>
-                                                                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla21.pdf" class="ico_pdf">PDF</a> */ ?></span>
-                                                                                                                                                                                            </li>
+                                                                                                                                                                                                <?php /* <a href="/outlooks/aeo/pdf/tbla21.pdf" class="ico_pdf">PDF</a> */ ?></span></li>
                                                                                                                                                                                             <?php /* <td><a href="/outlooks/aeo/tables_ref.cfm">Complete list of AEO tables for all projection scenarios</a></td>
                  */ ?>
 
@@ -326,89 +277,75 @@ PDF (all tables)</a></td>
                                                                                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=1-IEO2017">A1. World total primary energy consumption by region</a></td>
                                                                                                                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                     <a href="/outlooks/ieo/pdf/ieotab_1.pdf" class="ico_pdf" title="Table  A1. World total primary energy consumption by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                    </span>
-                                                                                                                                                                                                </li>
+                                                                                                                                                                                                    </span></li>
                                                                                                                                                                                                 <tr>
                                                                                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=2-IEO2017">A2. World total energy consumption by region and fuel</a><br
                                                                                                                                                                                                         /></td>
                                                                                                                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                         <a href="/outlooks/ieo/pdf/ieotab_2.pdf" class="ico_pdf" title="Table  A2. World total energy consumption by region and fuel "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                        </span>
-                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                        </span></li>
                                                                                                                                                                                                     <tr>
                                                                                                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=3-IEO2017">A3. World gross domestic product (GDP) by region expressed in purchasing power parity</a></td>
                                                                                                                                                                                                         <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                             <a href="/outlooks/ieo/pdf/ieotab_3.pdf" class="ico_pdf" title="Table  A3. World gross domestic product (GDP) by region expressed in purchasing power parity "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                            </span>
-                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                            </span></li>
                                                                                                                                                                                                         <tr>
                                                                                                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=4-IEO2017">A4. World gross domestic product (GDP) by region expressed in market exchange rates</a></td>
                                                                                                                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                 <a href="/outlooks/ieo/pdf/ieotab_4.pdf" class="ico_pdf" title="Table  A4. World gross domestic product (GDP) by region expressed in market exchange rates "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                </span>
-                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                </span></li>
                                                                                                                                                                                                             <tr>
                                                                                                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=5-IEO2017">A5. World liquids consumption by region</a></td>
                                                                                                                                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                     <a href="/outlooks/ieo/pdf/ieotab_5.pdf" class="ico_pdf" title="Table  A5. World liquids consumption by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                    </span>
-                                                                                                                                                                                                                </li>
+                                                                                                                                                                                                                    </span></li>
                                                                                                                                                                                                                 <tr>
                                                                                                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=6-IEO2017">A6. World natural gas consumption by region</a></td>
                                                                                                                                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                         <a href="/outlooks/ieo/pdf/ieotab_6.pdf" class="ico_pdf" title="Table  A6. World natural gas consumption by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                        </span>
-                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                        </span></li>
                                                                                                                                                                                                                     <tr>
                                                                                                                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=7-IEO2017">A7. World coal consumption by region</a></td>
                                                                                                                                                                                                                         <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                             <a href="/outlooks/ieo/pdf/ieotab_7.pdf" class="ico_pdf" title="Table  A7. World coal consumption by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                            </span>
-                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                            </span></li>
                                                                                                                                                                                                                         <tr>
                                                                                                                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=8-IEO2017">A8. World nuclear energy consumption by region</a></td>
                                                                                                                                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                                 <a href="/outlooks/ieo/pdf/ieotab_8.pdf" class="ico_pdf" title="Table  A8. World nuclear energy consumption by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                                </span>
-                                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                                </span></li>
                                                                                                                                                                                                                             <tr>
                                                                                                                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=9-IEO2017">A9. World consumption of hydroelectricity and other renewable energy by region</a></td>
                                                                                                                                                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                                     <a href="/outlooks/ieo/pdf/ieotab_9.pdf" class="ico_pdf" title="Table  A9. World consumption of hydroelectricity and other renewable energy by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                                    </span>
-                                                                                                                                                                                                                                </li>
+                                                                                                                                                                                                                                    </span></li>
                                                                                                                                                                                                                                 <tr>
                                                                                                                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=10-IEO2017">A10. World carbon dioxide emissions by region</a></td>
                                                                                                                                                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                                         <a href="/outlooks/ieo/pdf/ieotab_10.pdf" class="ico_pdf" title="Table  A10. World carbon dioxide emissions by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                                        </span>
-                                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                        </span></li>
                                                                                                                                                                                                                                     <tr>
                                                                                                                                                                                                                                         <td><a href="/outlooks/aeo/data/browser/#/?id=11-IEO2017">A11. World carbon dioxide emissions from liquids use by region</a></td>
                                                                                                                                                                                                                                         <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                                             <a href="/outlooks/ieo/pdf/ieotab_11.pdf" class="ico_pdf" title="Table  A11. World carbon dioxide emissions from liquids use by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                                            </span>
-                                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                                            </span></li>
                                                                                                                                                                                                                                         <tr>
                                                                                                                                                                                                                                             <td><a href="/outlooks/aeo/data/browser/#/?id=12-IEO2017">A12. World carbon dioxide emissions from natural gas use by region</a></td>
                                                                                                                                                                                                                                             <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                                                 <a href="/outlooks/ieo/pdf/ieotab_12.pdf" class="ico_pdf" title="Table A12. World carbon dioxide emissions from natural gas use by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                                                </span>
-                                                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                                                </span></li>
                                                                                                                                                                                                                                             <tr>
                                                                                                                                                                                                                                                 <td><a href="/outlooks/aeo/data/browser/#/?id=13-IEO2017">A13. World carbon dioxide emissions from coal use by region</a></td>
                                                                                                                                                                                                                                                 <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                                                     <a href="/outlooks/ieo/pdf/ieotab_13.pdf" class="ico_pdf" title="Table A13. World carbon dioxide emissions from coal use by region "><i class="ico pdf"><span>PDF</span></i></a>
-                                                                                                                                                                                                                                                    </span>
-                                                                                                                                                                                                                                                </li>
+                                                                                                                                                                                                                                                    </span></li>
                                                                                                                                                                                                                                                 <tr>
                                                                                                                                                                                                                                                     <td><a href="/outlooks/aeo/data/browser/#/?id=14-IEO2017">A14. World population by region</a></td>
                                                                                                                                                                                                                                                     <li><span class="formats">Available formats:</span>
                                                                                                                                                                                                                                                         <a href="/outlooks/ieo/pdf/ieotab_14.pdf" class="ico_pdf" title="Table A14. World population by region ">
                                                                                                                                                                                                                                                             <i class="ico pdf"><span>PDF</span></i>
                                                                                                                                                                                                                                                         </a>
-                                                                                                                                                                                                                                                        </span>
-                                                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                        </span></li>
                                                                                                                                                                                                                                                     <?php /*tr>
               <td>A7. <a href="/oiaf/aeo/tablebrowser/#release=IEO2013&amp;subject=0-IEO2013&amp;table=7-IEO2013&amp;region=0-0&amp;cases=Reference-d041117">World Coal Consumption by Region</a></td>
               			<li><span class="formats">Available formats:</span>   <a href="/forecasts/ieo/excel/ieotab_7.xls" class="ico_xls">XLS</a></span></li>
@@ -505,9 +442,7 @@ PDF (all tables)</a></td>
 
         <li class="head">Petroleum overview</li>
         <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span> (<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li>
-        <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_3.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T03.01"><i class="ico csv"><span>CSV</span></i></a>
-            <a href="/totalenergy/data/browser/xls.cfm?tbl=T03.01&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a>
-        </li>
+        <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_3.pdf"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/csv.cfm?tbl=T03.01"><i class="ico csv"><span>CSV</span></i></a><a href="/totalenergy/data/browser/xls.cfm?tbl=T03.01&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
 
 
 
@@ -574,14 +509,14 @@ PDF (all tables)</a></td>
 
         <li class="head">Motor gasoline retail prices, U.S. city average</li>
         <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/txt/new_merheader.inc'); ?></span></li>
-        <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf "><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/browser/csv.cfm?tbl=T09.04"><i class="ico csv"><span>CSV</span></i></a>            <a href="/totalenergy/data/browser/xls.cfm?tbl=T09.04&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
+        <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf "><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/csv.cfm?tbl=T09.04"><i class="ico csv"><span>CSV</span></i></a><a href="/totalenergy/data/browser/xls.cfm?tbl=T09.04&amp;freq=m"><i class="ico xls"><span>XLS</span></i></a></li>
 
 
 
 
 
         <li class="head"><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0524">Motor gasoline retail prices </a></li>
-        <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec5_59.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0524.xls"><i class="ico xls"><span>XLS</span></i></a></li>
+        <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec5_59.pdf"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/annual/xls/stb0524.xls"><i class="ico xls"><span>XLS</span></i></a></li>
         <li><span class="release-date">Release Date: </span><span class="date">September 27, 2012</span></li>
         <li>U.S. city average, annual from 1949&#8211;current</li>
         <li class="release-schedule">Annual Energy Review</li>
@@ -628,7 +563,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pri_refmg_dcu_nus_m.htm">Refiner gasoline prices by grade, sales type</a></li>
                 <li><a href="/dnav/pet/pet_pri_refmg2_d_nus_PTG_dpgal_m.htm">Refiner gasoline prices by formulation, grade, sales type</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -645,7 +580,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pri_prop_dcu_nus_m.htm">Propane (consumer grade) prices by sales type</a></li>
                 <li><a href="/dnav/pet/pet_pri_resid_dcu_nus_m.htm">Residual fuel oil prices by sales type</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -663,8 +598,7 @@ PDF (all tables)</a></td>
         <li class="head">Domestic crude oil first purchase prices</li>
         <li><span class="release-date">Monthly Release Date: </span>
             <?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc'); ?>
-            </span>
-        </li>
+            </span></li>
         <li><span class="release-date">Annual Release Date: </span><span class="date">June 1, 2016</span></li>
         <li>
             <ul>
@@ -672,7 +606,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pri_dfp2_k_m.htm">By crude stream</a></li>
                 <li><a href="/dnav/pet/pet_pri_dfp3_k_m.htm">By API gravity</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -687,7 +621,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pri_imc2_k_m.htm">By crude stream</a></li>
                 <li><a href="/dnav/pet/pet_pri_imc3_k_m.htm">By API gravity</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -702,7 +636,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pri_land2_k_m.htm">By crude stream</a></li>
                 <li><a href="/dnav/pet/pet_pri_land3_k_m.htm">By API gravity</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -741,8 +675,7 @@ PDF (all tables)</a></td>
     <ul>
         <li class="head"><a href="/dnav/pet/pet_crd_crpdn_adc_mbbl_m.htm">Crude oil production</a></li>
         <li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/release-date_psm.inc'); ?></span></li>
-        <li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by U.S., PAD District and state</span>
-        </li>
+        <li><span class="release-date">Annual Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/release-date_psa.inc'); ?></span> by U.S., PAD District and state</span></li>
 
 
 
@@ -774,7 +707,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_crd_pres_dcu_NUS_a.htm">Crude oil</a></li>
                 <li><a href="/dnav/pet/pet_crd_cplc_dcu_NUS_a.htm">Crude oil plus lease condensate</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -920,8 +853,7 @@ PDF (all tables)</a></td>
         <li class="head">Weekly production</li>
         <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/release-date_wpsr.inc'); ?></span></li>
         <li>Production of petroleum products by U.S. and PAD District</li>
-        <li class="release-schedule">Weekly, 4-week average</span>
-        </li>
+        <li class="release-schedule">Weekly, 4-week average</span></li>
         <li>
             <ul>
                 <li><a href="/dnav/pet/pet_pnp_wprodrb_dcu_nus_w.htm">Refiner &amp; blender</a></li>
@@ -929,7 +861,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pnp_wprodb_s1_w.htm">Blender</a></li>
                 <li><a href="/dnav/pet/pet_pnp_wprode_s1_w.htm">Ethanol plant</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -945,7 +877,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pnp_inpt2_dc_nus_mbbl_m.htm">Refiner</a></li>
                 <li><a href="/dnav/pet/pet_pnp_inpt3_dc_nus_mbbl_m.htm">Blender</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -989,7 +921,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_pnp_refp3_dc_nus_mbbl_m.htm">Blender</a></li>
                 <li><a href="/dnav/pet/pet_pnp_oxy_dc_nus_mbbl_m.htm">Oxygenate (ethanol and MTBE)</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -1021,9 +953,9 @@ PDF (all tables)</a></td>
                 <li>Refinery capacity data by individual refinery as of January 1, 2017</li>
                 <li><span class="formats">Available formats:</span> <a href="/petroleum/refinerycapacity/refcap17.xls"><i class="ico xls"><span>XLS</span></i></a></li>
                 <li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0509">Refinery capacity and utilization data, annual 1949 - 2011</a></li>
-                <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec5_23.pdf"><i class="ico pdf"><span>PDF</span></i></a> <a href="/totalenergy/data/annual/xls/stb0509.xls"><i class="ico xls"><span>XLS</span></i></a></li>
+                <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/annual/pdf/sec5_23.pdf"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/annual/xls/stb0509.xls"><i class="ico xls"><span>XLS</span></i></a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -1039,8 +971,7 @@ PDF (all tables)</a></td>
 
 
         <li class="head"><a href="/petroleum/ethanolcapacity/">U.S. fuel ethanol plant production capacity</a></li>
-        <li class="release-schedule">Release Date: June 20, 2017</span>
-        </li>
+        <li class="release-schedule">Release Date: June 20, 2017</span></li>
         <li>The U.S. Energy Information Administration released its annual fuel ethanol production capacity report. The new report contains data for all operating U.S. fuel ethanol production plants as of January 1, 2017.</li>
         <li class="release-schedule">Annual</li>
 
@@ -1187,7 +1118,7 @@ PDF (all tables)</a></td>
                     <li><a href="/dnav/pet/pet_move_tb_dc_R20-R10_mbbl_m.htm">By tanker and barge</a></li>
                     <li><a href="/dnav/pet/PET_MOVE_RAIL_A_EPC0_RAIL_MBBL_M.htm">By rail</a></li>
                 </ul>
-            </li>
+</li>
 
 
 
@@ -1211,15 +1142,14 @@ PDF (all tables)</a></td>
 
             <li class="head">F.O.B. costs of imported crude oil</li>
             <li><span class="release-date">Monthly Release Date: </span><span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc'); ?></span></li>
-            <li><span class="release-date">Annual Release Date: </span> June 1, 2016</span>
-            </li>
+            <li><span class="release-date">Annual Release Date: </span> June 1, 2016</span></li>
             <li>
                 <ul>
                     <li><a href="/dnav/pet/pet_move_imc1_k_m.htm">By area</a></li>
                     <li><a href="/dnav/pet/pet_move_imc2_k_m.htm">By crude stream</a></li>
                     <li><a href="/dnav/pet/pet_move_imc3_k_m.htm">By API gravity</a></li>
                 </ul>
-            </li>
+</li>
 
 
 
@@ -1234,7 +1164,7 @@ PDF (all tables)</a></td>
                     <li><a href="/dnav/pet/pet_move_land2_k_m.htm">By crude stream</a></li>
                     <li><a href="/dnav/pet/pet_move_land3_k_m.htm">By API gravity</a></li>
                 </ul>
-            </li>
+</li>
     </ul>
 </div>
 
@@ -1379,7 +1309,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_cons_refres_d_nus_VTR_mgalpd_m.htm">Residual fuel oil and No. 4 fuel oil</a></li>
                 <li><a href="/dnav/pet/pet_cons_refoth_d_nus_VTR_mgalpd_m.htm">Other products</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -1395,7 +1325,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_cons_821ker_dcu_nus_a.htm">Kerosene by end use</a></li>
                 <li><a href="/dnav/pet/pet_cons_821use_dcu_nus_a.htm">Distillate and kerosene by end use</a></li>
             </ul>
-        </li>
+</li>
 
 
 
@@ -1411,7 +1341,7 @@ PDF (all tables)</a></td>
                 <li><a href="/dnav/pet/pet_cons_821kera_dcu_nus_a.htm">Kerosene by end use</a></li>
                 <li><a href="/dnav/pet/pet_cons_821usea_dcu_nus_a.htm">Distillate and kerosene by end use</a></li>
             </ul>
-        </li>
+</li>
     </ul>
 </div>
 </div>

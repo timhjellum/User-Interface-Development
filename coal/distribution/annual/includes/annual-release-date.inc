@@ -1,1 +1,0 @@
-<span class="release-date">Release Date: </span><span class="date">November 21, 2017

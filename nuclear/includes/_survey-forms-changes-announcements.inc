@@ -29,37 +29,30 @@ $SixTitle = "";
         <div class="secondary hide-mt">
             <ul>
                 <li class="head">
-                    <h2>Survey Forms, Changes &amp; Announcements</h2>
-                </li>
+                    <h2>Survey Forms, Changes &amp; Announcements</h2></li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneTitle?>'>
                         <?=$OneTitle?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$TwoURL?>' title='<?=$TwoTitle?>'>
                         <?=$TwoTitle?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$ThrURL?>' title='<?=$ThrTitle?>'>
                         <?=$ThrTitle?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$FouURL?>' title='<?=$FouTitle?>'>
                         <?=$FouTitle?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$FivURL?>' title='<?=$FivTitle?>'>
                         <?=$FivTitle?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$SixURL?>' title='<?=$SixTitle?>'>
                         <?=$SixTitle?>
-                    </a>
-                </li>
+                    </a></li>
             </ul>
         </div>

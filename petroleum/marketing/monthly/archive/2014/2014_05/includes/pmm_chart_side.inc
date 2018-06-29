@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong> Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2014-05/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-05/fig_HL1_coppwp_sm.jpg" /></a>
-        </li>
+                <a href="images/2014-05/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-05/fig_HL1_coppwp_sm.jpg" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3><strong>Highlights</strong></h3>
-            </li>
+                <h3><strong>Highlights</strong></h3></li>
             <li class="header">
                 <h2>Crude Oil</h2>
                 <ul>
@@ -24,10 +21,9 @@
                     <li>The average refiner acquisition cost for domestic crude oil declined $2.09 (2.1 percent), to $95.78 per barrel. The average cost of imported crude oil fell 86 cents (0.9 percent), to $89.71 per barrel. The composite refiner acquisition
                         cost for crude oil decreased $1.50 (1.6 percent), to $92.82 per barrel.</li>
                 </ul>
-            </li>
+</li>
             <li class="header">
-                <h2>Petroleum Products</h2>
-            </li>
+                <h2>Petroleum Products</h2></li>
             <li>
                 <h4>Motor Gasoline</h4>
                 <ul>
@@ -36,10 +32,9 @@
                     <li>The average refiner acquisition cost for domestic crude oil increased $5.18 (5.3 percent), to $102.35 per barrel. The average cost of imported crude oil rose $6.41 (7.2 percent), to $96.04 per barrel. The composite refiner acquisition
                         cost for crude oil increased $5.81 (6.2 percent), to $99.33 per barrel.</li>
                 </ul>
-            </li>
+</li>
             <li class="header">
-                <h2>Petroleum Products</h2>
-            </li>
+                <h2>Petroleum Products</h2></li>
             <li>
                 <h4>Motor Gasoline</h4>
                 <ul>
@@ -47,7 +42,7 @@
                     <li>Sales of finished motor gasoline by refiners increased in February. Total sales climbed 14.8 million gallons per day (5.1 percent) to an average of 304.0 million gallons per day. Retail sales rose 600,000 gallons per day (3.4 percent),
                         while wholesales increased 14.2 million gallons per day (5.2 percent). DTW sales accounted for 9.0 percent of wholesales, while rack and bulk sales made up 82.0 percent and 8.9 percent, respectively.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>No. 2 Distillate</h4>
                 <ul>
@@ -56,7 +51,7 @@
                     <li>Refiner sales of No. 2 ultra-low sulfur diesel fuel decreased 4.1 million gallons per day (2.8 percent) to an average of 142.3 million gallons per day in February. No. 2 fuel oil sales increased 2.1 million gallons per day (22.9 percent)
                         to an average of 11.3 million gallons per day.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Residual Fuel Oil</h4>
                 <ul>
@@ -64,7 +59,7 @@
                         increased 1.6 cents to $2.416 per gallon at retail, and 2.2 cents to $2.139 per gallon at wholesale.</li>
                     <li>Sales of residual fuel oil by refiners declined modestly in February, with total sales falling 100,000 gallons per day (0.8 percent) to an average of 13.1 million gallons per day</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Other Products</h4>
                 <ul>
@@ -73,15 +68,14 @@
                     <li>Refiner sales of propane and No. 1 distillate declined at both the retail and wholesale levels in February. Kerosene-type jet fuel sales increased at retail, but fell at wholesale. Aviation gasoline sales declined at wholesale, while
                         sales of kerosene rose at the same level.</li>
                 </ul>
-            </li>
+</li>
         </ul>
     </div>
 
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Sections</h2>
-            </li>
+                <h2>Sections</h2></li>
             <li><a href="pdf/preface.pdf">Preface</a></li>
             <li><a href="pdf/enote.pdf">Explanatory Notes</a></li>
             <li><a href="pdf/mgt.pdf">Motor Fuel Taxes</a></li>

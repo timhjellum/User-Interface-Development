@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong>Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2014-10/fig_HL1coppwp2.png" class="lightbox"><img src="images/2014-10/fig_HL1_coppwp_sm2.png" /></a>
-        </li>
+                <a href="images/2014-10/fig_HL1coppwp2.png" class="lightbox"><img src="images/2014-10/fig_HL1_coppwp_sm2.png" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3><strong>Highlights</strong></h3>
-            </li>
+                <h3><strong>Highlights</strong></h3></li>
             <li>
                 <h2 class="strong">Crude Oil</h2>
                 <ul>
@@ -44,11 +41,9 @@
                 <h5 style="margin-bottom:-8px">Residual fuel oil</h5>
                 <ul>
                     <li>July monthly average prices for refi ner sales of residual fuel oil show mixed trends. Prices for low-sulfur residual fuel oil increased 8.9 cents to $2.977 per gallon at retail, but fell 7.1 cents to $2.287 per gallon at wholesale.
-                        Prices for high-sulfur residual fuel oil rose 1.0 cent to $2.324 per gallon at retail, but declined 5.9 cents to $2.188 per gallon at wholesale.
-                    </li>
+                        Prices for high-sulfur residual fuel oil rose 1.0 cent to $2.324 per gallon at retail, but declined 5.9 cents to $2.188 per gallon at wholesale.</li>
                     <li>At 12.3 million gallons per day, refi ner sales of residual fuel oil were fl at in July. Low-sulfur residual fuel oil sales fell 300,000 gallons per day (8.0 percent), while high-sulfur residual fuel oil sales rose 400,000 gallons
-                        per day (4.9 percent).
-                    </li>
+                        per day (4.9 percent).</li>
                 </ul>
                 <br />
                 <h5 style="margin-bottom:-8px">Other products</h5>
@@ -80,8 +75,7 @@
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Related information</h2>
-            </li>
+                <h2>Related information</h2></li>
             <li><a href="pdf/enote.pdf"><i class="ico pdf">PDF</i>Petroleum marketing explanatory notes</a></li>
             <li><a href="xls/fueltaxes.xls"><i class="ico xls">XLS</i>Federal and state motor fuel taxes</a></li>
             <li><a href="pdf/paddmap.pdf"><i class="ico pdf">PDF</i>Petroleum administration for defense district (PADD) map</a></li>

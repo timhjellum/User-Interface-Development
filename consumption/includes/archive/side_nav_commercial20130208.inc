@@ -12,7 +12,7 @@
                     <li><a href="http://www.eia.gov/emeu/cbecs/detailed_tables_1995.html">1995</a></li>
                     <li><a href="/consumption/commercial/data/archive.cfm">Archive</a></li>
                   </ul>
-                </li>
+</li>
               </ul>
               <ul>
                 <li><a href="/consumption/commercial/reports/">Analysis &amp; Reports</a></li>

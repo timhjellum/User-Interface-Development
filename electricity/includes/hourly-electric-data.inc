@@ -31,37 +31,30 @@ $SixLabel = "";
                 <li class="head">
                     <h2>
                         <?=$mainTitle?>
-                    </h2>
-                </li>
+                    </h2></li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>' class="link-label">
                         <?=$OneLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>' class="link-label">
                         <?=$TwoLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>' class="link-label">
                         <?=$ThrLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$FouURL?>' title='<?=$FouLabel?>' class="link-label">
                         <?=$FouLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$FivURL?>' title='<?=$FivLabel?>' class="link-label">
                         <?=$FivLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li>
                     <a href='<?=$SixURL?>' title='<?=$SixLabel?>' class="link-label">
                         <?=$SixLabel?>
-                    </a>
-                </li>
+                    </a></li>
             </ul>
         </div>

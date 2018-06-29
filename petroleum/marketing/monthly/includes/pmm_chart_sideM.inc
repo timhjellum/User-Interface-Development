@@ -5,8 +5,7 @@
 </strong>
 </span>
 </strong>
-<h3><strong>Highlights</strong></h3>
-</li>
+<h3><strong>Highlights</strong></h3></li>
 <li class="header">
     <h2>Crude oil</h2>
     <ul>
@@ -63,8 +62,7 @@
                                         <a href="pdf/paddmap.pdf"><i class="ico pdf">PDF</i>Petroleum Administration for Defense District (PADD) map</a></strong>
                                         <a href="pdf/pguide.pdf"><i class="ico pdf">PDF</i>Product guide</a></strong>
                                         <a href="pdf/glossary.pdf"><i class="ico pdf">PDF</i>Glossary</a></strong>
-                                        <a href="pdf/artlist.pdf"><i class="ico pdf">PDF</i>List of articles</a>
-                                        <a href="http://www.eia.gov/petroleum/marketing/annual/archive/"><i class="ico csv"><span>CSV</span></i>Petroleum Marketing Annual Archives</a></strong>
+                                        <a href="pdf/artlist.pdf"><i class="ico pdf">PDF</i>List of articles</a><a href="http://www.eia.gov/petroleum/marketing/annual/archive/"><i class="ico csv"><span>CSV</span></i>Petroleum Marketing Annual Archives</a></strong>
                                     </ul>
                         </ul>
                     </div>

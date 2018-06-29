@@ -29,42 +29,34 @@ $topPicksSevenLabel = "Today in Energy";
     <div class="primary">
         <ul>
             <li class="head">
-                <h2>Top Picks</h2>
-            </li>
+                <h2>Top Picks</h2></li>
             <li>
                 <a href='<?=$topPicksOneURL?>' title='<?=$topPicksOneLabel?>'>
                     <?=$topPicksOneLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$topPicksTwoURL?>' title='<?=$topPicksTwoLabel?>'>
                     <?=$topPicksTwoLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$topPicksThreeURL?>' title='<?=$topPicksThreeLabel?>'>
                     <?=$topPicksThreeLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$topPicksFourURL?>' title='<?=$topPicksFourLabel?>'>
                     <?=$topPicksFourLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$topPicksFiveURL?>' title='<?=$topPicksFiveLabel?>'>
                     <?=$topPicksFiveLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$topPicksSixURL?>' title='<?=$topPicksSixLabel?>'>
                     <?=$topPicksSixLabel?>
-                </a>
-            </li>
+                </a></li>
             <li>
                 <a href='<?=$topPicksSevenURL?>' title='<?=$topPicksSevenLabel?>'>
                     <?=$topPicksSevenLabel?>
-                </a>
-            </li>
+                </a></li>
         </ul>
     </div>

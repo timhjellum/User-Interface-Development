@@ -1,1 +1,0 @@
-<span class="release-date">Annual Release Date:</span> <span class="date">April 24, 2018</span><span class="pipe">|</span><span class="source">data from:</span> <span class="source"><a href="/electricity/monthly/">Electric Power Monthly</a></span></li>

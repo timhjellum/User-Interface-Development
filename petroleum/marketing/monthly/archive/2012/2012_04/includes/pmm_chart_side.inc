@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong> Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2012-04/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2012-04/fig_HL1_coppwp_sm.jpg" /></a>
-        </li>
+                <a href="images/2012-04/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2012-04/fig_HL1_coppwp_sm.jpg" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="header"><br>
-                <h3>Highlights</h3>
-            </li>
+                <h3>Highlights</h3></li>
             <li>
                 <p>After an appreciable increase at the start of the month, world crude oil prices saw only moderate changes during the remainder of January. Overall, the lack of volatility once prices had entered a new range was the result of the interplay
                     between the perception of international markets having sufficient inventories to meet immediate demand, and economic and political turbulence. Political tensions between the West and Iran over recently declared trade sanctions drove
@@ -32,8 +29,7 @@
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Sections</h2>
-            </li>
+                <h2>Sections</h2></li>
             <li><a href="pdf/preface.pdf">Preface</a></li>
             <li><a href="pdf/enote.pdf">Explanatory Notes</a></li>
             <li><a href="pdf/pguide.pdf">Product Guide</a></li>

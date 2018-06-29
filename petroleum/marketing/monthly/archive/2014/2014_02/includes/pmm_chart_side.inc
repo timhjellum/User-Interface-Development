@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li>strong>Figure HL1.</strong> Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2014-02/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-02/fig_HL1_coppwp_sm.jpg" /></a>
-        </li>
+                <a href="images/2014-02/fig_HL1coppwp.jpg" class="lightbox"><img src="images/2014-02/fig_HL1_coppwp_sm.jpg" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3><strong>Highlights</strong></h3>
-            </li>
+                <h3><strong>Highlights</strong></h3></li>
             <li class="header">
                 <h2>Crude Oil</h2>
                 <ul>
@@ -24,10 +21,9 @@
                     <li>The average refiner acquisition cost for domestic crude oil declined $6.91 (6.7 percent), to $96.09 per barrel. The average cost of imported crude oil dropped $7.52 (7.7 percent), to $90.32 per barrel. The composite refiner acquisition
                         cost for crude oil decreased $7.11 (7.1 percent), to $93.30 per barrel.</li>
                 </ul>
-            </li>
+</li>
             <li class="header">
-                <h2>Petroleum Products</h2>
-            </li>
+                <h2>Petroleum Products</h2></li>
             <li>
                 <h4>Motor Gasoline</h4>
                 <ul>
@@ -36,7 +32,7 @@
                     <li>The volume of finished motor gasoline sales by refiners increased modestly in November. Total sales rose 900,000 gallons per day (0.3 percent) to an average of 316.4 million gallons per day. Retail sales were flat, while wholesales
                         increased 900,000 gallons per day (0.3 percent). DTW sales made up 9.8 percent of wholesales, while rack and bulk sales accounted for 81.8 percent and 8.4 percent, respectively.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>No. 2 Distillate</h4>
                 <ul>
@@ -44,7 +40,7 @@
                         per gallon. The average wholesale price for No. 2 fuel oil declined 4.5 cents to $2.910 per gallon.</li>
                     <li>Refiner sales of No. 2 diesel fuel sales decreased 10.5 million gallons per day (6.2 percent) in November. In contrast, sales of No. 2 fuel oil rose 2.5 million gallons per day at the wholesale level.</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Residual Fuel Oil</h4>
                 <ul>
@@ -52,7 +48,7 @@
                         3.6 cents to $2.328 per gallon at retail, and 4.2 cents to $2.190 per gallon at wholesale.</li>
                     <li>Sales of residual fuel oil by refiners edged lower in November, with total sales falling 100,000 gallons per day (0.8 percent).</li>
                 </ul>
-            </li>
+</li>
             <li>
                 <h4>Other Products</h4>
                 <ul>
@@ -61,15 +57,14 @@
                     <li>Refiner sales of propane, kerosene, and No. 1 distillates increased at both retail and wholesale. Kerosene-type jet fuel remained flat at the retail level, but fell at wholesale. Aviation gasoline sales fell at retail, but increased
                         at wholesale. Sales of No. 4 distillate rose at wholesale during November.</li>
                 </ul>
-            </li>
+</li>
         </ul>
     </div>
 
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Sections</h2>
-            </li>
+                <h2>Sections</h2></li>
             <li><a href="pdf/preface.pdf">Preface</a></li>
             <li><a href="pdf/enote.pdf">Explanatory Notes</a></li>
             <li><a href="pdf/mgt.pdf">Motor Fuel Taxes</a></li>

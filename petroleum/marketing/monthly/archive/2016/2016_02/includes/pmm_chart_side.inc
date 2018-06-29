@@ -1,21 +1,18 @@
 <div class="secondary">
     <ul>
         <li>
-            <h2>Highlights</h2>
-        </li>
+            <h2>Highlights</h2></li>
         <li><strong>Figure HL1.</strong>Crude Oil and Petroleum Product Wholesale Prices</li>
         <li>
             <div class="image-container">
-                <a href="images/2016-02/fig_HL1coppwp2.png" class="lightbox"><img src="images/2016-02/fig_HL1_coppwp_sm2.png" /></a>
-        </li>
+                <a href="images/2016-02/fig_HL1coppwp2.png" class="lightbox"><img src="images/2016-02/fig_HL1_coppwp_sm2.png" /></a></li>
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
     <div class="secondary">
         <ul>
             <li class="sub-header">
-                <h3><strong>Highlights</strong></h3>
-            </li>
+                <h3><strong>Highlights</strong></h3></li>
             <li>
                 <h2 class="strong">Crude Oil</h2>
                 <ul>
@@ -50,8 +47,7 @@
                 <h5 style="margin-bottom:-8px">Other products</h5>
                 <ul>
                     <li>Refiner monthly average prices for pr<i class="ico xls"><span>XLS</span></i>t fuel fell at both the retail and wholesale levels in November. Prices for kerosene, aviation gasoline, and No. 1 distillate also declined at the wholesale
-                        level.
-                    </li>
+                        level.</li>
                     <li>Refiner sales of the products included in this section varied during November. Sales of propane increased at both the retail and wholesale levels, while kerosene-type jet fuel sales declined at retail, but rose at wholesale. Aviation
                         gasoline and kerosene fell at the wholesale level, while sales of No. 1 distillate increased in the same category.</li>
                 </ul>
@@ -77,8 +73,7 @@
     <div class="secondary">
         <ul>
             <li class="header">
-                <h2>Related information</h2>
-            </li>
+                <h2>Related information</h2></li>
             <li><a href="pdf/enote.pdf"><i class="ico pdf">PDF</i>Petroleum marketing explanatory notes</a></li>
             <li><a href="xls/fueltaxes.xls"><i class="ico xls">XLS</i>Federal and state motor fuel taxes</a></li>
             <li><a href="pdf/paddmap.pdf"><i class="ico pdf">PDF</i>Petroleum administration for defense district (PADD) map</a></li>

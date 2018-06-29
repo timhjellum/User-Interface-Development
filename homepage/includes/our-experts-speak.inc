@@ -18,24 +18,19 @@ $ourExpertsSpeakTwoDate = "February 13, 2018";
         <div class="primary">
             <ul>
                 <li class="head">
-                    <h2>Our Experts Speak</h2>
-                </li>
+                    <h2>Our Experts Speak</h2></li>
                 <li>
                     <a href='<?=$ourExpertsSpeakOneURL?>' title='<?=$ourExpertsSpeakOneLabel?>'>
                         <?=$ourExpertsSpeakOneLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li class="date">
-                    <?=$ourExpertsSpeakOneDate?>
-                </li>
+                    <?=$ourExpertsSpeakOneDate?></li>
                 <li>
                     <a href='<?=$ourExpertsSpeakTwoURL?>' title='<?=$ourExpertsSpeakTwoLabel?>'>
                         <?=$ourExpertsSpeakTwoLabel?>
-                    </a>
-                </li>
+                    </a></li>
                 <li class="date">
-                    <?=$ourExpertsSpeakTwoDate?>
-                </li>
+                    <?=$ourExpertsSpeakTwoDate?></li>
                 <li class="foot"><a href="pressroom/">More</a></li>
             </ul>
         </div>

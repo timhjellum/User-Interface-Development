@@ -55,8 +55,7 @@ for($j=0; $j < count($IssuesTrendsQuery) && $displayedCards < $cardLimit; $j++) 
                             <p class="tags">
                                 <?php include('global/includes/it_displaytags.inc') ?>
                             </p>
-                        </div>
-                    </li>
+                        </div></li>
                     <?php } } ?>
                 </ul>
             </div>

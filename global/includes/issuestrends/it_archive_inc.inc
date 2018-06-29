@@ -274,8 +274,7 @@ If this report is older than 60 days
 <p class="tags">
 <?php /* Get all the tag details (sorted by number of reports), then display the tags */ ?>
 <?php include ('it_displaytags.inc') ; ?>
-</p>
-</li>
+</p></li>
 <?php /* Now using ACTIVE instead of ACTIVE_DTE
 <?php  } // end if ?>
 */ ?>

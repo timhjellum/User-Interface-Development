@@ -39,31 +39,24 @@ $SixDate = "";
                 <li class="head">
                     <h2>
                         <?=$mainTitle?>
-                    </h2>
-                </li>
+                    </h2></li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>' class="link-label">
-                        <?=$OneLabel?><span>: <?=$OneDate?></span></a>
-                </li>
+                        <?=$OneLabel?><span>: <?=$OneDate?></span></a></li>
                 <li>
                     <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>' class="link-label">
-                        <?=$TwoLabel?><span>: <?=$TwoDate?></span></a>
-                </li>
+                        <?=$TwoLabel?><span>: <?=$TwoDate?></span></a></li>
                 <li>
                     <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>' class="link-label">
-                        <?=$ThrLabel?><span>: <?=$ThrDate?></span></a>
-                </li>
+                        <?=$ThrLabel?><span>: <?=$ThrDate?></span></a></li>
                 <li>
                     <a href='<?=$FouURL?>' title='<?=$FouLabel?>' class="link-label">
-                        <?=$FouLabel?><span>: <?=$FouDate?></span></a>
-                </li>
+                        <?=$FouLabel?><span>: <?=$FouDate?></span></a></li>
                 <li>
                     <a href='<?=$FivURL?>' title='<?=$FivLabel?>' class="link-label">
-                        <?=$FivLabel?><span>: <?=$FivDate?></span></a>
-                </li>
+                        <?=$FivLabel?><span>: <?=$FivDate?></span></a></li>
                 <li>
                     <a href='<?=$SixURL?>' title='<?=$SixLabel?>' class="link-label">
-                        <?=$SixLabel?><span>: <?=$SixDate?></span></a>
-                </li>
+                        <?=$SixLabel?><span>: <?=$SixDate?></span></a></li>
             </ul>
         </div>
