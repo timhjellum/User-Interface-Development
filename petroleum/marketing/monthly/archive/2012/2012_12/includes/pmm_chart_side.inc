@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3>Highlights</h3>
@@ -23,7 +23,8 @@
                     Bank's announcement of the third round of economic stimulus provided additional support for the price. After reaching the month's high of $98.94 per barrel on September 14, the price began to fall, pressured by robust stocks and ongoing
                     concerns about economic conditions in markets across the globe. After reaching its low of $89.92 per barrel on September 26, the price closed the month at $92.18 per barrel, $4.29 below its opening level for September. Averaging $94.51
                     per barrel for the month overall, the price was 38 cents (0.4 percent) higher than last month's average of $94.13 per barrel. Compared with September 2011 average of $85.56 per barrel, the current price is $8.95 (10.5 percent) higher.
-                    ...</p>
+                    ...
+                </p>
             </li>
             <li><a href="pdf/hilites.pdf">Read all highlights...</a></li>
         </ul>

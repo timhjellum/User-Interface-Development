@@ -2,14 +2,14 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$comingUpOneURL = "/state/";
-$comingUpOneLabel = "State Energy Profiles";
+$comingUpOneURL = "https://wwwdev.eia.gov/naturalgas/importsexports/annual/";
+$comingUpOneLabel = "U.S. Natural Gas Imports & Exports";
 
-$comingUpTwoURL = "/state/seds/seds-data-fuel.php?sid=US";
-$comingUpTwoLabel = "State Energy Data System (SEDS) for 2016 - Noncombustible renewable energy: geothermal energy, hydroelectric power, solar energy, and wind energy consumption";
+$comingUpTwoURL = "https://wwwdev.eia.gov/petroleum/ethanolcapacity/index.php";
+$comingUpTwoLabel = "U.S. Fuel Ethanol Plant Production Capacity";
 
-$comingUpThreeURL = "/petroleum/marketing/prime/";
-$comingUpThreeLabel = "Prime Supplier Report";
+$comingUpThreeURL = "https://wwwdev.eia.gov/renewable/annual/solar_photo/";
+$comingUpThreeLabel = "Solar Photovoltaic Cell/Module Shipments Report";
 
 ?>
     <?php
@@ -18,7 +18,7 @@ $comingUpThreeLabel = "Prime Supplier Report";
 /* DO NOT EDIT BELOW */
 ?>
 
-        <div class="dark-top-border-container">
+        <div class="primary">
             <ul>
                 <li class="head">
                     <h2>What's New</h2>

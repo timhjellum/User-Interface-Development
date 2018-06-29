@@ -62,14 +62,24 @@ class ModuleScripts {
             }
         });
 
-
-
-        $('.hide-mt a').each(function() {
-            if ($(this).text().trim().length <= 0) {
+        $('.secondary .icon a').each(function() {
+            if ($(this).attr('href').length <= 0) {
                 $(this).closest('li').remove();
                 console.log('hiding empty element');
             }
         });
+        $('.secondary.hide-mt a').each(function() {
+            if ($(this).attr('href').length <= 0) {
+                $(this).parent().remove();
+                console.log('hiding "secondary.hide-mt" empty element');
+            }
+        });
+        //        $('.hide-mt a').each(function() {
+        //            if ($(this).text().trim().length <= 0) {
+        //                $(this).closest('li').remove();
+        //                console.log('hiding empty element');
+        //            }
+        //        });
 
 
         //this.hideDescriptionIfEmpty.each((index, element) => {

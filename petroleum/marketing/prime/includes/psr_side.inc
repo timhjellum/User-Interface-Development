@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>Full report<a href="/petroleum/marketing/prime/csv/PSRALL.csv"><i class="ico csv"><span>CSV</span></i></a><a href="/petroleum/marketing/prime/pdf/PSRALL.pdf"><i class="ico pdf">PDF</i></a></li>
     </ul>
@@ -15,7 +15,6 @@
     <p>
         The EIA-782C respondent frame comprises approximately 202 prime suppliers representing producers, importers, and interstate resellers and retailers. Each month, respondents report their aggregated sales volumes (combined wholesale and retail) made during
         the reference month to local distributors, local retailers, and end users in each state where the product was delivered. To avoid double-counting volumes, respondents are instructed to exclude sales to other prime suppliers and traders.
-        <a
-            href="http://www.eia.gov/survey/form/eia_782c/exclusion_list.pdf">See exclusionary list.</a>
+        <a href="http://www.eia.gov/survey/form/eia_782c/exclusion_list.pdf">See exclusionary list.</a>
     </p>
 </div>

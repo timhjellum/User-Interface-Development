@@ -15,16 +15,17 @@ module.exports = {
         module: {
             loaders: [{
                 loader: 'babel',
-                // old
-                // "babel-preset-env": "^1.7.0",
-                //query: {
-                //    presets: ['es2015']
-                //},
+                "babel-preset-env": "^1.7.0",
+                query: {
+                    presets: ['es2015']
+                },
 
                 //new
-                query: {
-                    presets: ['env']
-                },
+                //query: {
+                //     presets: ['env']
+                //},
+
+
 
                 //newer
                 /*

@@ -11,7 +11,7 @@
             <li class="head">
                 U.S. Carbon dioxide emissions from energy consumption (from 1973)
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span><span class="pipe">|</span><span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
 				</li>
 			</ul>
 			<ul>
@@ -159,13 +159,13 @@
                 Annual Energy Review carbon data &rsaquo;
             </li>
             <li>
-                <span class="release-date">Release Date:</span> <span class="date">September 27, 2012</span> |
+                <span class="release-date">Release Date:</span> <span class="date">September 27, 2012</span><span class="pipe">|</span>
                 <span class="date"> data from:
 						<a href="/totalenergy/data/annual/">Annual Energy Review</a>
 				</li>
-				<li class="additional-formats solid-dashed">Available formats:
-					<a href="/totalenergy/data/annual/pdf/sec11.pdf" title="Annual Energy Review carbon data">
-						<i class="ico pdf">
+				<li><span class="formats">Available formats:</span>
+                <a href="/totalenergy/data/annual/pdf/sec11.pdf" title="Annual Energy Review carbon data">
+                    <i class="ico pdf">
 							<span>PDF</span>
                 </i>
                 </a>
@@ -185,7 +185,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
-                </span> |
+                </span><span class="pipe">|</span>
                 <span class="source">data from:</span>
                 <a href="/electricity/annual/">Electric Power Annual</a>
             </li>
@@ -198,7 +198,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
-                </span> | <span class="source">data from:</span>
+                </span><span class="pipe">|</span><span class="source">data from:</span>
                 <a href="/electricity/annual/">Electric Power Annual</a>
             </li>
         </ul>
@@ -210,7 +210,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
-                </span> | <span class="source">data from:</span>
+                </span><span class="pipe">|</span><span class="source">data from:</span>
                 <a href="/electricity/annual/">Electric Power Annual</a>
             </li>
         </ul>
@@ -222,7 +222,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">December 7, 2017</span>
-                </span> | <span class="source">data from:</span>
+                </span><span class="pipe">|</span><span class="source">data from:</span>
                 <a href="/electricity/annual/">Electric Power Annual</a>
             </li>
         </ul>

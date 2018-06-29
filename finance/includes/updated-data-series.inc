@@ -19,11 +19,11 @@ $FouURL = "/forecasts/steo/xls/Probability_HH.xlsx";
 $FouLabel = "Henry Hub Natural Gas Price Probabilities";
 $FouDate = "9/7/2016";
 
-$FivURL = "/";
+$FivURL = "";
 $FivLabel = "";
 $FivDate = "";
 
-$SixURL = "/";
+$SixURL = "";
 $SixLabel = "";
 $SixDate = "";
 
@@ -37,35 +37,29 @@ $SixDate = "";
                 <li class="head">
                     <h2>Updated Data Series</h2>
                 </li>
-                <li><span><?=$OneDate?></span>&#160;&#160;
-                    <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
-                        <?=$OneLabel?>
-                    </a>
+                <li class="icon">
+                    <a href='<?=$OneURL?>' title='<?=$OneLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$OneDate?></span><span class="link-label"><?=$OneLabel?>
+                    </span></a>
                 </li>
-                <li><span><?=$TwoDate?></span>&#160;&#160;
-                    <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'>
-                        <?=$TwoLabel?>
-                    </a>
+                <li class="icon">
+                    <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$TwoDate?></span><span class="link-label"><?=$TwoLabel?>
+                        </span></a>
                 </li>
-                <li><span><?=$ThrDate?></span>&#160;&#160;
-                    <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'>
-                        <?=$ThrLabel?>
-                    </a>
+                <li class="icon">
+                    <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$ThrDate?></span><span class="link-label"><?=$ThrLabel?>
+                        </span></a>
                 </li>
-                <li><span><?=$FouDate?></span>&#160;&#160;
-                    <a href='<?=$FouURL?>' title='<?=$FouLabel?>'>
-                        <?=$FouLabel?>
-                    </a>
+                <li class="icon">
+                    <a href='<?=$FouURL?>' title='<?=$FouLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$FouDate?></span><span class="link-label"><?=$FouLabel?>
+                        </span></a>
                 </li>
-                <li><span><?=$FivDate?></span>&#160;&#160;
-                    <a href='<?=$FivURL?>' title='<?=$FivLabel?>'>
-                        <?=$FivLabel?>
-                    </a>
+                <li class="icon">
+                    <a href='<?=$FivURL?>' title='<?=$FivLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$FivDate?></span><span class="link-label"><?=$FivLabel?>
+                        </span></a>
                 </li>
-                <li><span><?=$SixDate?></span>&#160;&#160;
-                    <a href='<?=$SixURL?>' title='<?=$SixLabel?>'>
-                        <?=$SixLabel?>
-                    </a>
+                <li class="icon">
+                    <a href='<?=$SixURL?>' title='<?=$SixLabel?>'><i class="ico xls"><span>XLS</span></i><span class="date"><?=$SixDate?></span><span class="link-label"><?=$SixLabel?>
+                        </span></a>
                 </li>
             </ul>
         </div>

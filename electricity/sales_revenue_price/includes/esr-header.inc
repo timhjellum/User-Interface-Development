@@ -1,1 +1,1 @@
-<span class="release-date">Release Date:</span> <span class="date">November 6, 2017</span> | <span class="source">data from:</span> <span class="source"><a href="/electricity/sales_revenue_price/">Electric Sales, Revenue, and Price</a></span>
+<span class="release-date">Release Date:</span> <span class="date">November 6, 2017</span><span class="pipe">|</span><span class="source">data from:</span> <span class="source"><a href="/electricity/sales_revenue_price/">Electric Sales, Revenue, and Price</a></span>

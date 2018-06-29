@@ -1,4 +1,4 @@
-<div class="content-container-border primary-alt">
+<div class="primary-alt">
     <ul>
         <li class="head">
             <h2>Data Highlights</h2>

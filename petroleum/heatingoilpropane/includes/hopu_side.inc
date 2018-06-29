@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul class="resources">
         <li><i class="ico calendar"></i><a href="schedule.cfm">Release schedule</a></li>
         <li><i class="ico email"></i><a href="/tools/emailupdates/">Sign up for email updates</a></li>

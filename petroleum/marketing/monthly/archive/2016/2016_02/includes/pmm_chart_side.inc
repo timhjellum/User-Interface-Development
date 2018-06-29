@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3><strong>Highlights</strong></h3>
@@ -50,7 +50,8 @@
                 <h5 style="margin-bottom:-8px">Other products</h5>
                 <ul>
                     <li>Refiner monthly average prices for pr<i class="ico xls"><span>XLS</span></i>t fuel fell at both the retail and wholesale levels in November. Prices for kerosene, aviation gasoline, and No. 1 distillate also declined at the wholesale
-                        level.</li>
+                        level.
+                    </li>
                     <li>Refiner sales of the products included in this section varied during November. Sales of propane increased at both the retail and wholesale levels, while kerosene-type jet fuel sales declined at retail, but rose at wholesale. Aviation
                         gasoline and kerosene fell at the wholesale level, while sales of No. 1 distillate increased in the same category.</li>
                 </ul>

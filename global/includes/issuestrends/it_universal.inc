@@ -1,31 +1,37 @@
-<?phprequire_once 'global/includes/utils/utils.inc';
+<?php
+require_once 'global/includes/utils/utils.inc';
 require_once 'global/includes/utils/Neic.inc';
 $neic      = new NEIC();
 ?>
-<style type="text/css">
-div.slick-slider div.one-container div.one-slide div.one-contentarea p::before, p.tags::before {
-content: "tags: ";
-color: #333;
-}
-/* For the more details page */
-ul.analysis-projections li span > h3+em::after {
-content: " | tags: ";
-padding: 0 0 0 2px;
-font-style: normal;
-}
-a.capsule::after {
-content: ", ";
-color: #333333;
-}
-a.capsule:last-child::after {
-content: "";
-}
-/* This is for the Recent Analyis & Projections part (to override EIA_global.css) */
-p.tags {
-margin-top:0;
-}
-</style>
-<?php
+    <style type="text/css">
+        div.slick-slider div.one-container div.one-slide div.one-contentarea p::before,
+        p.tags::before {
+            content: "tags: ";
+            color: #333;
+        }
+        /* For the more details page */
+        
+        ul.analysis-projections li span>h3+em::after {
+            content: " | tags: ";
+            padding: 0 0 0 2px;
+            font-style: normal;
+        }
+        
+        a.capsule::after {
+            content: ", ";
+            color: #333333;
+        }
+        
+        a.capsule:last-child::after {
+            content: "";
+        }
+        /* This is for the Recent Analyis & Projections part (to override EIA_global.css) */
+        
+        p.tags {
+            margin-top: 0;
+        }
+    </style>
+    <?php
 switch($l2page){
 case 'page_nat':
 $CorrespondingTag = 202;
@@ -111,4 +117,4 @@ $sqlStrored['sql'] = $neic->sql;
 $sqlStrored['bindVariables'] = $bindVariables;
 //print $neic->sql;
 //print_r($bindVariables);
-$IssuesTrendsQuery = $neic->get($bindVariables);
+$IssuesTrendsQuery = $neic->get($bindVariables);

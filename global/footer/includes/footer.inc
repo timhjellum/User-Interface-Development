@@ -1,8 +1,7 @@
-            
-            </div>
-        </div>
-    </div>
-</section>    
+</div>
+</div>
+</div>
+</section>
 <footer class="clearfix footer">
     <div class="l-row address-bar">
         <div class="l-two-third-col">
@@ -75,4 +74,4 @@
         </ul>
     </div>
 </footer>
-<script src='/adaptive/global/scripts/global.min.js'></script>
+<script src='/css_rehab/archive/global/scripts/global.min.js'></script>

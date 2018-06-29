@@ -1,1 +1,1 @@
-<span class="release-date">Release Date: </span><span class="date">March 30, 2018</span> |  <span class="date">data from: <a href="/biofuels/biodiesel/production/">Monthly Biodiesel Production Report</a></span>
+<span class="release-date">Release Date: </span><span class="date">March 30, 2018</span><span class="pipe">|</span> <span class="date">data from: <a href="/biofuels/biodiesel/production/">Monthly Biodiesel Production Report</a></span>

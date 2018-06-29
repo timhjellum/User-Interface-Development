@@ -2,20 +2,20 @@
 import bxslider from '../../../../node_modules/bxslider/dist/jquery.bxslider.min.js';
 
 class BxSlider {
-	constructor() {
+    constructor() {
         this.bxSliderHome = $('.slider-home ul');
         this.bxSliderMulti = $('.slider-multi ul');
         this.bxSliderHomeWrapper = $('.slider-home-wrapper');
         this.bxSlidermultiWrapper = $('.slider-multi-wrapper');
-		this.window = $(window);
+        this.window = $(window);
         this.checkSize();
         this.events();
         this.windowResizeEvents();
     }
     windowResizeEvents() {
-        
+
         this.window.resize(this.checkSize.bind(this));
-        
+
         // Returns a function, that, as long as it continues to be invoked, will not
         // be triggered. The function will be called after it stops being called for
         // N milliseconds. If `immediate` is passed, trigger the function on the
@@ -24,7 +24,8 @@ class BxSlider {
         function debounce(func, wait, immediate) {
             var timeout;
             return function() {
-                var context = this, args = arguments;
+                var context = this,
+                    args = arguments;
                 var later = function() {
                     timeout = null;
                     if (!immediate) func.apply(context, args);
@@ -36,16 +37,16 @@ class BxSlider {
             };
         };
         var myEfficientFn = debounce(function() {
-            console.log("resized");
+            //console.log("resized");
 
-        }, 250);       
+        }, 250);
         window.addEventListener('resize', myEfficientFn);
     }
-	events() {
+    events() {
         setTimeout(function() {
             $(".slider-multi").addClass("bxslider-visible");
             $(".slider-home").addClass("bxslider-visible");
-            console.log("visible");
+            //console.log("visible");
         }, 2000);
         //this.bxSliderHome.show();
         //this.bxSliderMulti.show();
@@ -53,7 +54,7 @@ class BxSlider {
             auto: true,
             minSlides: 1,
             maxSlides: 1,
-            slideMargin: 0,  //integer
+            slideMargin: 0, //integer
             wrapperClass: 'slider-home-wrapper',
             autoHover: true,
             controls: false,
@@ -64,13 +65,13 @@ class BxSlider {
         });
     }
     checkSize() {
-        console.log("check size");
+        //console.log("check size");
         var footerWidth = $('footer > div').width();
-        console.log("footer > div: " + footerWidth);
+        //console.log("footer > div: " + footerWidth);
         if ((footerWidth >= 801) && (footerWidth <= 987)) {
             // element width / number of slides
-            var tabletLandscapeSlideWidth = parseInt(footerWidth/4);
-            console.log("tablet-landscape slide width: " + tabletLandscapeSlideWidth);
+            var tabletLandscapeSlideWidth = parseInt(footerWidth / 4);
+            //console.log("tablet-landscape slide width: " + tabletLandscapeSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 wrapperClass: 'slider-multi-wrapper',
@@ -84,11 +85,11 @@ class BxSlider {
                 pagerSelector: '.slider-multi-pager',
                 slideWidth: tabletLandscapeSlideWidth,
                 slideMargin: 10
-            });  
+            });
         } else if ((footerWidth >= 600) && (footerWidth <= 800)) {
             // element width / number of slides
-            var tabletSlideWidth = parseInt((footerWidth - 60)/3);
-            console.log("tablet slide width: " + tabletSlideWidth);
+            var tabletSlideWidth = parseInt((footerWidth - 60) / 3);
+            //console.log("tablet slide width: " + tabletSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 wrapperClass: 'slider-multi-wrapper',
@@ -107,8 +108,8 @@ class BxSlider {
             $(".bx-viewport").css("overflow", "visible"); // required for peeking left and right slides
         } else if ((footerWidth >= 450) && (footerWidth <= 599)) {
             // element width / number of slides
-            var mobileLandscapeSlideWidth = parseInt((footerWidth - 60)/2);
-            console.log("mobile landscape slide width: " + mobileLandscapeSlideWidth);
+            var mobileLandscapeSlideWidth = parseInt((footerWidth - 60) / 2);
+            //console.log("mobile landscape slide width: " + mobileLandscapeSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 wrapperClass: 'slider-multi-wrapper',
@@ -128,7 +129,7 @@ class BxSlider {
         } else if ((footerWidth >= 320) && (footerWidth <= 449)) {
             // element width / number of slides
             var mobileSlideWidth = parseInt(footerWidth - 40);
-            console.log("mobile slide width: " + mobileSlideWidth);
+            //console.log("mobile slide width: " + mobileSlideWidth);
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 startSlide: 1,
@@ -143,9 +144,9 @@ class BxSlider {
                 //slideWidth: footerWidth,
                 slideMargin: 10
             });
-            $(".bx-viewport").css("overflow", "visible"); 
-        } else  {
-            console.log("laptop and everything larger");
+            $(".bx-viewport").css("overflow", "visible");
+        } else {
+            //console.log("laptop and everything larger");
             this.bxSliderMulti.bxSlider({
                 auto: false,
                 wrapperClass: 'slider-multi-wrapper',

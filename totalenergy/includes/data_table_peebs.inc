@@ -122,7 +122,7 @@ $neic      = new NEIC();
           <td><?php echo number_format($dblElectricity,3); ?></li>
     <tfoot>
         <tr>
-	        			<li>Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec1_11.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 1.4b</a></li>
+	        			<p>Source: U.S. Energy Information Administration, <a href="/totalenergy/data/monthly/pdf/sec1_11.pdf"><i>Monthly Energy Review</i>&nbsp;&ndash;&nbsp;Table 1.4b</a></p>
     </tfoot>
 	</tbody>
 </table>

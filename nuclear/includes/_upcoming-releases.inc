@@ -21,11 +21,11 @@ $FouURL = "";
 $FouLabel = "";
 $FouDate = "";
 
-$FivURL = "/";
+$FivURL = "";
 $FivLabel = "";
 $FivDate = "";
 
-$SixURL = "/";
+$SixURL = "";
 $SixLabel = "";
 $SixDate = "";
 
@@ -33,6 +33,7 @@ $SixDate = "";
     <?php
 /* DO NOT EDIT BELOW */
 ?>
+
 
         <div class="secondary hide-mt">
             <ul>
@@ -43,28 +44,40 @@ $SixDate = "";
                 </li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
-                        <?=$OneLabel?>
-                    </a>: <span class="date"><?=$OneDate?></span></li>
+                        <span class="link-label">
+                    <?=$OneLabel?>
+                </span>: <em><span class="date"><?=$OneDate?></span></em></a>
+                </li>
                 <li>
                     <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'>
-                        <?=$TwoLabel?>
-                    </a>: <span class="date"><?=$TwoDate?></span></li>
+                        <span class="link-label">
+                    <?=$TwoLabel?>
+                </span>: <em><span class="date"><?=$TwoDate?></span></em></a>
+                </li>
                 <li>
                     <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'>
-                        <?=$ThrLabel?>
-                    </a>: <span class="date"><?=$ThrDate?></span></li>
+                        <span class="link-label">
+                    <?=$ThrLabel?>
+                </span>: <em><span class="date"><?=$ThrDate?></span></em></a>
+                </li>
                 <li>
                     <a href='<?=$FouURL?>' title='<?=$FouLabel?>'>
-                        <?=$FouLabel?>
-                    </a>: <span class="date"><?=$FouDate?></span></li>
+                        <span class="link-label">
+                    <?=$FouLabel?>
+                </span>: <em><span class="date"><?=$FouDate?></span></em></a>
+                </li>
                 <li>
                     <a href='<?=$FivURL?>' title='<?=$FivLabel?>'>
-                        <?=$FivLabel?>
-                    </a>: <span class="date"><?=$FivDate?></span></li>
+                        <span class="link-label">
+                    <?=$FivLabel?>
+                </span>: <em><span class="date"><?=$FivDate?></span></em></a>
+                </li>
                 <li>
                     <a href='<?=$SixURL?>' title='<?=$SixLabel?>'>
-                        <?=$SixLabel?>
-                    </a>: <span class="date"><?=$SixDate?></span></li>
+                        <span class="link-label">
+                    <?=$SixLabel?>
+                </span>: <em><span class="date"><?=$SixDate?></span></em></a>
+                </li>
                 <li class="foot"><a href="/reports/upcoming.php">See all upcoming</a></li>
             </ul>
         </div>

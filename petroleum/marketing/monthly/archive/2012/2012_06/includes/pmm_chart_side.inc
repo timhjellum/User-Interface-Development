@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3>Highlights</h3>
@@ -19,7 +19,8 @@
             <li>
                 <p>U.S. gasoline and diesel fuel prices continued to rise at the retail outlet level in March. Based on data from EIA's weekly retail price surveys, monthly average prices (including taxes) for gasoline and on-highway diesel fuel show the
                     monthly average price for the regular grade of gasoline jumped 27.3 cents (7.6 percent) to $3.852 per gallon at the U.S. level, while the retail on-highway diesel fuel price increased 17.4 cents (4.4 percent) to $4.127 per gallon.
-                    ...</p>
+                    ...
+                </p>
             </li>
             <li><a href="pdf/hilites.pdf">Read all highlights...</a></li>
         </ul>

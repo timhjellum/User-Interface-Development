@@ -94,7 +94,7 @@
 
             <?php /* start what's new */ ?>
             <?php /* start coming Up */ ?>
-            <div class="dark-top-border-container">
+            <div class="primary">
                 <ul>
                     <li class="head">
                         <h2>What's New</h2>
@@ -162,11 +162,11 @@
     <div class="l-row">
         <div class="l-main-col">
             <?php /* start features */ ?>
-            <div class="features dark-top-border-container">
+            <div class="features primary">
                 <div class="l-row">
                     <h2>Features</h2>
                     <div class="l-one-third-col">
-                        <div class="content-container">
+                        <div class="secondary">
                             <a href="http://www.eia.gov/beta/realtime_grid/#/summary/demand"><img src="global/images/home_sm_features/electric_data_sys.jpg" alt="Electricity Data Browser" /></a>
                             <ul>
                                 <li class="head">
@@ -177,7 +177,7 @@
                         </div>
                     </div>
                     <div class="l-one-third-col">
-                        <div class="content-container">
+                        <div class="secondary">
                             <a href="/special/disruptions/"><img src="global/images/home_sm_features/disruptionsmap.jpg" alt="Energy Disruptions Map" /></a>
                             <ul>
                                 <li class="head">
@@ -188,7 +188,7 @@
                         </div>
                     </div>
                     <div class="l-one-third-col">
-                        <div class="content-container">
+                        <div class="secondary">
                             <img src="/global/images/home_sm_features/energy_mapping_system.jpg" alt="U.S. Energy Mapping System" /></a>
                             <ul>
                                 <li class="head">
@@ -208,7 +208,7 @@
                 <div class="l-one-third-col">
 
                     <?php /* Our Experts Speak */ ?>
-                    <div class="dark-top-border-container">
+                    <div class="primary">
                         <ul>
                             <li class="head">
                                 <h2>Our Experts Speak</h2>
@@ -226,7 +226,7 @@
                 <div class="l-one-third-col">
 
                     <?php /* Especially For */ ?>
-                    <div class="dark-top-border-container">
+                    <div class="primary">
                         <ul>
                             <li class="head">
                                 <h2>Especially For...</h2>
@@ -248,7 +248,7 @@
                 <div class="l-one-third-col">
 
                     <?php /* Top Picks */ ?>
-                    <div class="dark-top-border-container">
+                    <div class="primary">
                         <ul>
                             <li class="head">
                                 <h2>Top Picks</h2>

@@ -32,33 +32,33 @@ $SixTitle = "";
                     <h2>Survey Forms, Changes &amp; Announcements</h2>
                 </li>
                 <li>
-                    <a href='<?=$OneURL?>' title='<?=$OneTitle?>'>
-                        <?=$OneTitle?>
+                    <a href='<?=$OneURL?>' title='<?=$OneTitle?>' class="link-label">
+                        <?=$OneTitle?> &#8250;
                     </a>
                 </li>
                 <li>
-                    <a href='<?=$TwoURL?>' title='<?=$TwoTitle?>'>
-                        <?=$TwoTitle?>
+                    <a href='<?=$TwoURL?>' title='<?=$TwoTitle?>' class="link-label">
+                        <?=$TwoTitle?> &#8250;
                     </a>
                 </li>
                 <li>
-                    <a href='<?=$ThrURL?>' title='<?=$ThrTitle?>'>
-                        <?=$ThrTitle?>
+                    <a href='<?=$ThrURL?>' title='<?=$ThrTitle?>' class="link-label">
+                        <?=$ThrTitle?> &#8250;
                     </a>
                 </li>
                 <li>
-                    <a href='<?=$FouURL?>' title='<?=$FouTitle?>'>
-                        <?=$FouTitle?>
+                    <a href='<?=$FouURL?>' title='<?=$FouTitle?>' class="link-label">
+                        <?=$FouTitle?> &#8250;
                     </a>
                 </li>
                 <li>
-                    <a href='<?=$FivURL?>' title='<?=$FivTitle?>'>
-                        <?=$FivTitle?>
+                    <a href='<?=$FivURL?>' title='<?=$FivTitle?>' class="link-label">
+                        <?=$FivTitle?> &#8250;
                     </a>
                 </li>
                 <li>
-                    <a href='<?=$SixURL?>' title='<?=$SixTitle?>'>
-                        <?=$SixTitle?>
+                    <a href='<?=$SixURL?>' title='<?=$SixTitle?>' class="link-label">
+                        <?=$SixTitle?> &#8250;
                     </a>
                 </li>
             </ul>

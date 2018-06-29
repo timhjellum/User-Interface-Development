@@ -1,7 +1,7 @@
 <div class="basic-table">
     <h1>Recent Data</h1>
     <?php include('analysis/includes/data_table_excel.inc') ?>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="foot"><a href="data.php">See more data</a></li>
         </ul>

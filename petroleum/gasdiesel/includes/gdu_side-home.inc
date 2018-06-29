@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul class="resources">
         <li><i class="ico telephone"></i> 24-hour hotline: 202-586-6966</li>
         <li><i class="ico email"></i><a href="/tools/emailupdates/#petroleum">Sign up for email updates</a></li>

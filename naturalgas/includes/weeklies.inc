@@ -1,5 +1,5 @@
 <a name="weeklies"></a>
-<div class="content-container-border primary-alt">
+<div class="secondary-border primary-alt">
     <ul>
         <li class="head">
             <h2>Regular Weekly Releases*</h2>

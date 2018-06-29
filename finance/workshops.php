@@ -10,7 +10,7 @@ $l2id = 10;
     <html>
 
     <head>
-        <?php include('adaptive/global/head/includes/head.inc') ?>
+        <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
         <title>
             <?=$pageTitle?> -
                 <?=$L2T?>
@@ -18,7 +18,7 @@ $l2id = 10;
     </head>
 
     <body>
-        <?php include('adaptive/global/header/includes/header.inc') ?>
+        <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
         <?php include('./includes/sub-navigation.inc'); ?>
         <div class="l-row">
             <div class="l-main-col">
@@ -65,7 +65,7 @@ $l2id = 10;
                     <?php /* Workshop 2016 */ ?>
                     <h2>Financial and Physical Oil Market Linkages Workshop (September 28, 2016)</h2>
                     <ul>
-                        <li>Workshop Agenda, Speakers and Discussants <span hidden="  (September 28, 2017)"></span></li>
+                        <li>Workshop Agenda, Speakers and Discussants </li>
                         <li><span class="formats">Available formats:</span> <a href="/finance/markets/reports_presentations/EIA2016WorkshopAgenda.pdf"><i class="ico pdf"><span>PDF</span></i></a></li>
                         <li>Low Oil Price: Reasons and Consequences</li>
                         <li>
@@ -170,7 +170,7 @@ $l2id = 10;
                     <?php /* Workshops II */ ?>
                     <h2>Financial and Physical Oil Market Linkages II Workshop (September 27, 2012)</h2>
                     <ul>
-                        <li>Workshop Agenda and Participants <span hidden="  (September 27, 2017)"></span></li>
+                        <li>Workshop Agenda and Participants</li>
                         <li><span class="formats">Available formats:</span>
                             <a href="/finance/markets/reports_presentations/2012WorkshopAgendaParticipants.pdf" title="Financial and Physical Oil Market Linkages II Workshop (September 27, 2013), Workshop Agenda and Participants"><i class="ico pdf"><span>PDF</span></i></a>
                         </li>
@@ -226,7 +226,7 @@ $l2id = 10;
                     <h2>Financial and Physical Oil Market Linkages Workshop (August 24, 2011)</h2>
 
                     <ul>
-                        <li>Workshop Agenda and Participants<span hidden="  (August 24, 2017)"></span></li>
+                        <li>Workshop Agenda and Participants</li>
                         <li><span class="formats">Available formats:</span> <a href="/finance/markets/reports_presentations/financial_workshop_Agenda_2011.08.30.pdf" title="Financial and Physical Oil Market Linkages Workshop (August 24, 2011)"><i class="ico pdf"><span>PDF</span></i></a></li>
                         <li>Discussion Summary</li>
                         <li><span class="formats">Available formats:</span> <a href="/finance/markets/reports_presentations/Discussion summary.pdf" title="Financial and Physical Oil Market Linkages Workshop (August 24, 2011) "><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -278,7 +278,7 @@ $l2id = 10;
                 <?php include('./includes/data-side-content.inc') ?>
             </div>
         </div>
-        <?php include('adaptive/global/footer/includes/footer.inc') ?>
+        <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
     </body>
 
     </html>

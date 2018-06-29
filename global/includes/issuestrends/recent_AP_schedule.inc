@@ -1,8 +1,9 @@
-<?phprequire_once 'global/includes/utils/utils.inc';
+<?php
+require_once 'global/includes/utils/utils.inc';
 require_once 'global/includes/utils/Neic.inc';
 $neic      = new NEIC();
 ?>
-<?php
+    <?php
 $json_datafile = $_SERVER['DOCUMENT_ROOT'] . '/global/includes/issuestrends/bookshelf_records_input.json';
 if($json_datafile && file_exists($json_datafile)) {
 $json_data_tmp = trim(file_get_contents($json_datafile));
@@ -75,9 +76,9 @@ $bindVariables[":tag"] = $CorrespondingTag;
 $recent_AP = $neic->get($bindVariables);
 //print_r($recent_AP);
 ?>
-<h1>Recent Analysis &amp; Projections</h1>
-<div class="content-container">
-<?php
+        <h1>Recent Asecondaryjections</h1>
+        <div class="primary">
+            <?php
 foreach($recent_AP as $row) {
 $DataTypesArray = [];
 $filename = "";
@@ -142,9 +143,9 @@ echo "    </ul>";
 echo PHP_EOL;
 }
 ?>
-<ul class="analysis-projections">
-<li class="footer">
-<a href="reports.cfm">See more analysis & projections</a>
-</li>
-</ul>
-</div>
+                <ul class="analysis-projections">
+                    <li class="footer">
+                        <a href="reports.cfm">See more analysis & projections</a>
+                    </li>
+                </ul>
+        </div>

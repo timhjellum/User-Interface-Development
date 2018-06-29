@@ -21,11 +21,11 @@ $FouURL = "";
 $FouLabel = "";
 $FouDate = "";
 
-$FivURL = "/";
+$FivURL = "";
 $FivLabel = "";
 $FivDate = "";
 
-$SixURL = "/";
+$SixURL = "";
 $SixLabel = "";
 $SixDate = "";
 

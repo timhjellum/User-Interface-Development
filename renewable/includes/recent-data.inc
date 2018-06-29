@@ -13,7 +13,7 @@
           echo $homepageData;
         }
       ?>
-        <div class="content-container">
+        <div class="secondary">
             <ul>
                 <li class="foot"><a href="data.php">See more data</a></li>
             </ul>

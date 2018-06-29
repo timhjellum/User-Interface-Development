@@ -17,8 +17,8 @@ $itemTwoHeadURL = "/tools/faqs/";
 $itemTwoHeadLabel = "FAQs";
 $itemTwoSubheadURL = "/tools/faqs/faq.cfm?id=207&t=21";
 $itemTwoSubheadLabel = "How many nuclear power plants are in the U.S. and where are they located?";
-$itemTwoFootUrl = "See all nuclear FAQs";
-$itemTwoFootLabel = "/tools/faqs/#nuclear";
+$itemTwoFootUrl = "/tools/faqs/#nuclear";
+$itemTwoFootLabel = "See all nuclear FAQs";
 
 $itemThrIcon = "energy-kids";
 $itemThrHeadURL = "/kids";

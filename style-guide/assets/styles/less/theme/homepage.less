@@ -1,0 +1,135 @@
+
+@media @mobile {
+	.homepage {
+        display: table;
+        margin-bottom: 3em;
+        .primary {
+            border-top: solid 4px @eia-darker-blue;
+            ul {
+                li  {
+                    .font;
+                    line-height: 150%; // 18 pixels
+                    margin: 10px 0 1px 0;
+                    &.date {
+                        margin: 0;
+                        font-size: 0.688rem * 1.20%; 
+                    }
+                    &.head {
+                        margin: 14px 0 2px 0;
+                        h2  {
+                            .header-font;
+                            font-size: 1.125rem * 1.20%; 
+                        }
+                    }
+                    &.date {
+                        font-size: 0.750rem; // 12 pixels
+                        .italic;
+                        color: #333;
+                        margin: 0 0 14px 0;
+                        padding: 0 0 0 0;
+                    }
+                }
+            }        
+        }
+        .secondary {
+            border-top: 4px solid @eia-blue;
+            ul {
+                margin: 0;
+                li  {
+                    .font;
+                    font-size: 0.750rem * 1.10%; // 12 pixels
+                    line-height: 150%; // 18 pixels
+                    padding: 0 0 10px 0;
+                    margin: 10px 0 0; //8px 0 0 0;
+                    &:last-child {
+                        border-bottom: none;
+                        padding: 0;
+                    }
+                    a {
+                        display: block;
+                        color: @eia-blue;
+                        text-decoration: none;
+                        &:hover {
+                            text-decoration: underline;
+                        } 
+                    }
+                    &.head {
+                        padding: 0 0 7px 0;
+                        margin: 14px 0 7px 0;
+                        border-bottom: 1px solid fade(@eia-black, 40%);
+                        h2  {
+                            .font;
+                            .bold;
+                            font-size: 0.750rem * 1.35%;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                    &.sub-head {
+                        padding: 0 0 7px 0;
+                        margin: 14px 0 7px 0;
+                        border-bottom: none;
+                        .font;
+                        .bold;
+                        font-size: 0.750rem * 1.35%;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                }
+            }
+        }
+	}
+}
+@media @laptop {
+	.homepage {
+        .primary {
+            ul {
+                li  {
+                    font-size: 0.813rem; // 13 pixels
+                    &.date {
+                        font-size: 0.688rem; // 11 pixels 
+                    }
+                    &.head {
+                        h2  {
+                            font-size: 1.188rem; // 19 pixels
+                        }
+                    }
+                }
+            }        
+        }
+        .secondary {
+            border-top: 4px solid @eia-blue;
+            border-right: 1px solid rgb(227, 229, 230);
+            border-bottom: 1px solid rgb(227, 229, 230);
+            border-left: 1px solid rgb(227, 229, 230);
+            background-color: shade(white, 4.2%);
+            ul {
+                padding: 17px;
+                li  {
+                    padding: 0 0 10px 0;
+                    font-size: 0.8rem; // 12 pixels
+                    &.head {
+                        padding: 0 0 7px 0;
+                        margin: 0 0 7px 0;
+                        h2  {
+                            font-size: 0.8rem; // 12 pixels
+                        }
+                    }
+                    &.sub-head {
+                        padding: 0 0 7px 0;
+                        margin: 0 0 7px 0;
+                        font-size: 0.8rem; // 12 pixels
+                    }
+                    &.date {
+                        font-size: 0.750rem; // 12 pixels
+                        .italic;
+                        color: #333;
+                        margin: 0 0 14px 0;
+                        padding: 0 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+}

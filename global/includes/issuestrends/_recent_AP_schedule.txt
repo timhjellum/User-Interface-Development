@@ -90,7 +90,7 @@ $recent_AP = $neic->get($bindVariables);
 
 ?>
 <h1>Recent Analysis &amp; Projections</h1>
-<div class="content-container">
+<div class="secondary">
   <ul class="analysis-projections">
 
 	<?php

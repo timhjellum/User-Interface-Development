@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3><strong>Highlights</strong></h3>
@@ -29,7 +29,8 @@
                 <h5 style="margin-bottom:-8px">Motor gasoline</h5>
                 <ul>
                     <li>March monthly average prices for sales of motor gasoline by refiners rose in all sales categories. The average retail price increased 22.1 cents to $1.553 per gallon, while the average wholesale price climbed 28.9 cents to $1.335 per
-                        gallon.</li>
+                        gallon.
+                    </li>
                     <li>Refiner sales of finished motor gasoline increased in March. Total sales rose 9.0 million gallons per day (2.8%) to an average of 329.2 million gallons per day. Retail sales fell 200,000 gallons per day (0.8%), while wholesales rose
                         9.2 million gallons per day (3.1%). DTW sales accounted for 7.7% of wholesales, while rack and bulk sales made up 83.9% and 8.4%, respectively.</li>
                 </ul>
