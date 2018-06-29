@@ -13,7 +13,7 @@
                 Electricity overview
             </li>
             <li class="include">
-                <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
             </li>
             <li>
                 <span class="source">Interactive
@@ -37,7 +37,7 @@
                     <i class="ico xls">
 								<span>XLS</span>
 							</i>
-                </a> |
+                </a><span class="pipe">|</span>
                 <a href="/beta/MER/?tbl=T07.01#/?f=M&start=200001" title=" Electricity overview">
                     <i class="ico interactive">
 								<span>Interactive</span>
@@ -53,7 +53,7 @@
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -84,7 +84,7 @@
                     <li>
                         Annual (back to 2005)</li>
                     <li class="include">
-                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -123,7 +123,7 @@
                 <a href="/electricity/state/">State summary statistics</a> (Capacity, generation, price, emissions and more)</li>
             <li>
                 <span class="release-date">Release Date:</span>
-                <span class="date">January 25, 2018 </span> |
+                <span class="date">January 25, 2018 </span><span class="pipe">|</span>
                 <span class="source">data from:</span> State Electricity Profiles</li>
             <li>
                 International electricity data
@@ -179,7 +179,7 @@
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -192,7 +192,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a title="View in Total Energy Browser Monthly retail sales of electricity to ultimate customers " href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;linechart=ELEC.SALES.TX-ALL.M~ELEC.SALES.TX-RES.M~ELEC.SALES.TX-COM.M~ELEC.SALES.TX-IND.M&amp;columnchart=ELEC.SALES.TX-ALL.M~ELEC.SALES.TX-RES.M~ELEC.SALES.TX-COM.M~ELEC.SALES.TX-IND.M&amp;map=ELEC.SALES.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201510&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg">
                                     <i class="ico interactive">
 												<span>Interactive</span>
@@ -210,7 +210,7 @@
                         Annual
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -222,7 +222,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/5?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;linechart=ELEC.SALES.US-ALL.A&amp;columnchart=ELEC.SALES.US-ALL.A&amp;map=ELEC.SALES.US-ALL.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                                     title=" Annual retail sales of electricity to ultimate customers">
                                     <i class="ico interactive">
@@ -248,12 +248,12 @@
                             </li>
                             <li>
                                 <span class="release-date">Release Date:</span>
-                                <span class="date">November 6, 2017 </span> |
+                                <span class="date">November 6, 2017 </span><span class="pipe">|</span>
                                 <span class="source">data from:</span>
                                 <a href="/electricity/data/eia861/">Form EIA-861 annual survey data</a>
                             </li>
                             <li class="include">
-                                <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
+                                <?php include('css_rehab/archive/electricity/sales_revenue_price/releasedate.inc') ?>
                             </li>
                             <li class="list-item">
                                 <ul>
@@ -350,10 +350,10 @@
                 Monthly
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -366,7 +366,7 @@
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
-                        </a> |
+                        </a><span class="pipe">|</span>
                         <a title="View in Total Energy Browser monthly revenue from retail sales of electricity to ultimate customers by sector" href="/electricity/data/browser/#/topic/6?agg=0,1&amp;geo=g&amp;linechart=ELEC.REV.US-ALL.M~ELEC.REV.US-RES.M~ELEC.REV.US-COM.M~ELEC.REV.US-IND.M&amp;columnchart=ELEC.REV.US-ALL.M~ELEC.REV.US-RES.M~ELEC.REV.US-COM.M~ELEC.REV.US-IND.M&amp;map=ELEC.REV.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg">
                             <i class="ico interactive">
 										<span>Interactive</span>
@@ -383,7 +383,7 @@
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
-                        </a> |
+                        </a><span class="pipe">|</span>
                         <a title="View in Total Energy Browser monthly revenue from retail sales of electricity to ultimate customers by sector, by state" href="/electricity/data/browser/#/topic/6?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0">
                             <i class="ico interactive">
 										<span>Interactive</span>
@@ -408,7 +408,7 @@
                         </a>
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                     </li>
                     <li>By sector, by state, by provider (back to 1990)</li>
                     <li>
@@ -422,7 +422,7 @@
                     <li>By sector, by state (back to 2001)</li>
                     <li>
                         <span class="release-date">Release Date:</span>
-                        <span class="date">November 6, 2017 </span> |
+                        <span class="date">November 6, 2017 </span><span class="pipe">|</span>
                         <span class="source">data from:</span>
                         <a href="/electricity/data/eia861/">Form EIA-861 annual survey data</a>
                     </li>
@@ -437,13 +437,13 @@
                         </a>
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li>
                         By state and utility
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
+                        <?php include('css_rehab/archive/electricity/sales_revenue_price/releasedate.inc') ?>
                     </li>
                     <li>Residential sector</li>
                     <li>
@@ -537,10 +537,10 @@
                     Monthly
                 </li>
                 <li class="include">
-                    <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                    <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                 </li>
                 <li class="include">
-                    <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                    <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
                 </li>
                 <li class="list-item">
                     <ul>
@@ -553,7 +553,7 @@
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
-                            </a> |
+                            </a><span class="pipe">|</span>
                             <a title="View in Total Energy Browser Monthly average retail price of electricity to ultimate customers  by sector" href="/electricity/data/browser/#/topic/7?agg=0,1&amp;geo=g&amp;linechart=ELEC.PRICE.US-ALL.M~ELEC.PRICE.US-RES.M~ELEC.PRICE.US-COM.M~ELEC.PRICE.US-IND.M&amp;columnchart=ELEC.PRICE.US-ALL.M~ELEC.PRICE.US-RES.M~ELEC.PRICE.US-COM.M~ELEC.PRICE.US-IND.M&amp;map=ELEC.PRICE.US-ALL.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=&amp;endsec=vg">
                                 <i class="ico interactive">
 											<span>Interactive</span>
@@ -569,7 +569,7 @@
                                 <i class="ico xls">
 											<span>XLS</span>
 										</i>
-                            </a> |
+                            </a><span class="pipe">|</span>
                             <a title="View in Total Energy Browser Annual  average retail price of electricity to ultimate customers  by sector" href="/electricity/data/browser/#/topic/7?agg=0,1&amp;geo=vvvvvvvvvvvvo&amp;endsec=vg&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0">
                                 <i class="ico interactive">
 											<span>Interactive</span>
@@ -587,7 +587,7 @@
                             <a href="/electricity/annual/html/epa_02_04.html" title="Annual  average retail price of electricity to ultimate customers">By sector, by provider</a> (back to 2005)
                         </li>
                         <li class="include">
-                            <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                            <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                         </li>
                         <li>
                             <span class="formats">Available formats:</span>
@@ -600,7 +600,7 @@
                         <li>By sector, by state, by provider (back to 1990)</li>
                         <li>
                             <span class="release-date">Release Date:</span>
-                            <span class="date">November 6, 2017 </span> |
+                            <span class="date">November 6, 2017 </span><span class="pipe">|</span>
                             <span class="date">
 										<a href="/electricity/data/eia861/">Form EIA-861 annual survey data</a>
 									</span>
@@ -615,13 +615,13 @@
                         </li>
                         <li>By sector, by state (back to 2001)</li>
                         <li class="include">
-                            <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                            <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
                         </li>
                         <li>
                             By state and utility
                         </li>
                         <li class="include">
-                            <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
+                            <?php include('css_rehab/archive/electricity/sales_revenue_price/releasedate.inc') ?>
                         </li>
                         <li>Residential sector</li>
                         <li>
@@ -718,13 +718,13 @@
                     </a>
                 </li>
                 <li class="include">
-                    <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                    <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                 </li>
                 <li>
                     By sector by state and/or utility
                 </li>
                 <li class="include">
-                    <?php include('adaptive/electricity/sales_revenue_price/esr-header.inc') ?>
+                    <?php include('css_rehab/archive/electricity/sales_revenue_price/releasedate.inc') ?>
                 </li>
                 <li class="list-item">
                     <ul>
@@ -857,7 +857,7 @@
                                 <a href="/electricity/annual/html/epa_04_10.html">Net metering customers and capacity by technology type, by end use sector</a>
                             </li>
                             <li class="include">
-                                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                                <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -931,10 +931,10 @@
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -947,7 +947,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=0,1&amp;fuel=vtvo&amp;geo=vvvvvvvvvvvvo&amp;linechart=ELEC.GEN.ALL-US-99.M&amp;columnchart=ELEC.GEN.ALL-US-99.M&amp;map=ELEC.GEN.ALL-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                                     title="Monthly Net generation By all energy sources">
                                     <i class="ico interactive">
@@ -966,7 +966,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=1,0,2&amp;fuel=02&amp;geo=vvvvvvvvvvvvo&amp;sec=o3g&amp;linechart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&amp;columnchart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&amp;map=ELEC.GEN.AOR-US-99.M&amp;freq=M&amp;start=200101&amp;end=201412&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin="
                                     title="Monthly Net generation By type of renewable source">
                                     <i class="ico interactive">
@@ -978,7 +978,7 @@
                         <ul>
                             <li>By energy source (plus by annual back to 1950)</li>
                             <li class="include">
-                                <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
                             </li>
                             <li>
                                 <span class="source">Interactive
@@ -1002,7 +1002,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/beta/MER/?tbl=T07.02A#/?f=A&amp;start=1949&amp;end=2014&amp;charted=1-2-3-5-8-14" title="Monthly Net generation By energy source (plus by annual back to 1950)">
                                     <i class="ico interactive">
 												<span>Interactive</span>
@@ -1015,10 +1015,10 @@
                         By energy source and producing sector
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -1031,7 +1031,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=8&amp;linechart=ELEC.GEN.ALL-US-1.M~ELEC.GEN.COW-US-1.M~ELEC.GEN.NG-US-1.M~ELEC.GEN.NUC-US-1.M~ELEC.GEN.HYC-US-1.M&amp;columnchart=ELEC.GEN.ALL-US-1.M~ELEC.GEN.COW-US-1.M~ELEC.GEN.NG-US-1.M~ELEC.GEN.NUC-US-1.M~ELEC.GEN.HYC-US-1.M&amp;map=ELEC.GEN.ALL-US-1.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                                     title="Monthly Net generation By energy source and producing sector Electric utilities">
                                     <i class="ico interactive">
@@ -1050,7 +1050,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=00g&amp;linechart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;columnchart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;map=ELEC.GEN.ALL-US-94.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                                     title="Monthly Net generation By energy source and producing sector  Independent power producers Electric utilities">
                                     <i class="ico interactive">
@@ -1069,7 +1069,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=00g&amp;linechart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;columnchart=ELEC.GEN.ALL-US-94.M~ELEC.GEN.COW-US-94.M~ELEC.GEN.NG-US-94.M~ELEC.GEN.NUC-US-94.M~ELEC.GEN.HYC-US-94.M&amp;map=ELEC.GEN.ALL-US-94.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                                     title="Monthly Net generation By energy source and producing sector Commercial combined heat and power sector">
                                     <i class="ico interactive">
@@ -1088,7 +1088,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=0g&amp;linechart=ELEC.GEN.ALL-US-5.M~ELEC.GEN.COW-US-5.M~ELEC.GEN.AOR-US-5.M~ELEC.GEN.NG-US-5.M&amp;columnchart=ELEC.GEN.ALL-US-5.M~ELEC.GEN.COW-US-5.M~ELEC.GEN.AOR-US-5.M~ELEC.GEN.NG-US-5.M&amp;map=ELEC.GEN.ALL-US-5.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                                     title="Monthly Net generation By energy source and producing sector Industrial combined heat and power sector">
                                     <i class="ico interactive">
@@ -1107,7 +1107,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vtvv&amp;geo=g&amp;sec=004&amp;freq=M&amp;start=200101&amp;end=201610&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Monthly Net generation By energy source and producing sector Residential combined heat and power sector">
                                     <i class="ico interactive">
 												<span>Interactive</span>
@@ -1127,10 +1127,10 @@
 								Annual
 							</li>
 							<li class="incluide">
-								<?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+								<?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
 							</li>
 							<li class="include">
-								<?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+								<?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
 							</li>
 							<li class="list-item">
 								<ul>
@@ -1148,7 +1148,7 @@
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                </a> |
+                </a><span class="pipe">|</span>
                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=04&amp;linechart=ELEC.GEN.ALL-US-7.A~ELEC.GEN.COW-US-7.A~ELEC.GEN.NG-US-7.A~ELEC.GEN.AOR-US-7.A&amp;columnchart=ELEC.GEN.ALL-US-7.A~ELEC.GEN.COW-US-7.A~ELEC.GEN.NG-US-7.A~ELEC.GEN.AOR-US-7.A&amp;map=ELEC.GEN.ALL-US-7.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"
                     title="Annual Net generation By all energy sources and by producing sector  All sectors">
                     <i class="ico interactive">
@@ -1167,7 +1167,7 @@
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                </a> |
+                </a><span class="pipe">|</span>
                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=8&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation By all energy sources and by producing sector  Electric utilities">
                     <i class="ico interactive">
 														<span>Interactive</span>
@@ -1185,7 +1185,7 @@
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                </a> |
+                </a><span class="pipe">|</span>
                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=00g&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation By all energy sources and by producing sector  Independent power producers">
                     <i class="ico interactive">
 														<span>Interactive</span>
@@ -1203,7 +1203,7 @@
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                </a> |
+                </a><span class="pipe">|</span>
                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=01&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation   Commercial sector">
                     <i class="ico interactive">
 														<span>Interactive</span>
@@ -1221,7 +1221,7 @@
                     <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                </a> |
+                </a><span class="pipe">|</span>
                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=vvg&amp;geo=g&amp;sec=02&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation   Industrial sector">
                     <i class="ico interactive">
 														<span>Interactive</span>
@@ -1244,7 +1244,7 @@
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                    </a> |
+                    </a><span class="pipe">|</span>
                     <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=g&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation  By type of renewable source All sectors">
                         <i class="ico interactive">
 														<span>Interactive</span>
@@ -1262,7 +1262,7 @@
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                    </a> |
+                    </a><span class="pipe">|</span>
                     <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=8&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation  By type of renewable source Electric utilities">
                         <i class="ico interactive">
 														<span>Interactive</span>
@@ -1280,7 +1280,7 @@
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                    </a> |
+                    </a><span class="pipe">|</span>
                     <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=00g&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation  By type of renewable source Independent power producers">
                         <i class="ico interactive">
 														<span>Interactive</span>
@@ -1298,7 +1298,7 @@
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                    </a> |
+                    </a><span class="pipe">|</span>
                     <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=01&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=" title="Annual Net generation  By type of renewable source Commercial sector">
                         <i class="ico interactive">
 														<span>Interactive</span>
@@ -1316,7 +1316,7 @@
                         <i class="ico xls">
 														<span>XLS</span>
 													</i>
-                    </a> |
+                    </a><span class="pipe">|</span>
                     <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=02&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Annual Net generation  By type of renewable source Industrial sector">
                         <i class="ico interactive">
 														<span>Interactive</span>
@@ -1342,7 +1342,7 @@
                         By energy source and type of combined heat and power producers
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -1443,7 +1443,7 @@
                         Monthly
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -1497,7 +1497,7 @@
                 Annual
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -1688,7 +1688,7 @@
             <li>Monthly and annual
             </li>
             <li class="include">
-                <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
             </li>
             <li>
                 <span class="source">Interactive
@@ -1714,7 +1714,7 @@
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
-                        </a> |
+                        </a><span class="pipe">|</span>
                         <a href="/beta/MER/?tbl=T07.03A#/?f=M&amp;start=200001" title="All combustible fuels (monthly back to 1973, annual to 1949)">
                             <i class="ico interactive">
 										<span>Interactive</span>
@@ -1727,10 +1727,10 @@
                         By energy source
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -1743,7 +1743,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/3?agg=1,0,2&amp;fuel=8&amp;geo=g&amp;sec=o3g&amp;linechart=ELEC.CONS_EG.COW-US-99.M~ELEC.CONS_EG.COW-US-1.M~ELEC.CONS_EG.COW-US-94.M~ELEC.CONS_EG.COW-US-96.M~ELEC.CONS_EG.COW-US-97.M&amp;columnchart=ELEC.CONS_EG.COW-US-99.M~ELEC.CONS_EG.COW-US-1.M~ELEC.CONS_EG.COW-US-94.M~ELEC.CONS_EG.COW-US-96.M~ELEC.CONS_EG.COW-US-97.M&amp;map=ELEC.CONS_EG.COW-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                                     title="Consumption of fuels used to generate electricity by coal">
                                     <i class="ico interactive">
@@ -1762,7 +1762,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/3?agg=1,0,2&amp;fuel=4&amp;geo=g&amp;sec=o3g&amp;linechart=ELEC.CONS_EG.PEL-US-99.M~ELEC.CONS_EG.PEL-US-1.M~ELEC.CONS_EG.PEL-US-94.M~ELEC.CONS_EG.PEL-US-96.M~ELEC.CONS_EG.PEL-US-97.M&amp;columnchart=ELEC.CONS_EG.PEL-US-99.M~ELEC.CONS_EG.PEL-US-1.M~ELEC.CONS_EG.PEL-US-94.M~ELEC.CONS_EG.PEL-US-96.M~ELEC.CONS_EG.PEL-US-97.M&amp;map=ELEC.CONS_EG.PEL-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                                     title="Consumption of fuels used to generate electricity by Petroleum liquids">
                                     <i class="ico interactive">
@@ -1781,7 +1781,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/3?agg=1,0,2&amp;fuel=2&amp;geo=g&amp;sec=o3g&amp;linechart=ELEC.CONS_EG.PC-US-99.M~ELEC.CONS_EG.PC-US-1.M~ELEC.CONS_EG.PC-US-94.M~ELEC.CONS_EG.PC-US-96.M~ELEC.CONS_EG.PC-US-97.M&amp;columnchart=ELEC.CONS_EG.PC-US-99.M~ELEC.CONS_EG.PC-US-1.M~ELEC.CONS_EG.PC-US-94.M~ELEC.CONS_EG.PC-US-96.M~ELEC.CONS_EG.PC-US-97.M&amp;map=ELEC.CONS_EG.PC-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                                     title="Consumption of fuels used to generate electricity by Petroleum coke">
                                     <i class="ico interactive">
@@ -1800,7 +1800,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/0?agg=2,0,1&amp;fuel=03vo&amp;geo=g&amp;sec=02&amp;freq=A&amp;start=2001&amp;end=2014&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0" title="Consumption of fuels used to generate electricity by Natural gas">
                                     <i class="ico interactive">
 												<span>Interactive</span>
@@ -1857,7 +1857,7 @@
                 Monthly summary
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -1897,7 +1897,7 @@
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
-                        </a> |
+                        </a><span class="pipe">|</span>
                         <a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=8&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.COW-US-99.M&amp;columnchart=ELEC.RECEIPTS.COW-US-99.M&amp;map=ELEC.RECEIPTS.COW-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                             title="Monthly summary Receipts of fossil-fuels for electricity generation coal">
                             <i class="ico interactive">
@@ -1916,7 +1916,7 @@
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
-                        </a> |
+                        </a><span class="pipe">|</span>
                         <a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=4&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.PEL-US-99.M&amp;columnchart=ELEC.RECEIPTS.PEL-US-99.M&amp;map=ELEC.RECEIPTS.PEL-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                             title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum liquids">
                             <i class="ico interactive">
@@ -1935,7 +1935,7 @@
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
-                        </a> |
+                        </a><span class="pipe">|</span>
                         <a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=2&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.PC-US-99.M&amp;columnchart=ELEC.RECEIPTS.PC-US-99.M&amp;map=ELEC.RECEIPTS.PC-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                             title="Monthly summary Receipts of fossil-fuels for electricity generation petroleum coke">
                             <i class="ico interactive">
@@ -1954,7 +1954,7 @@
                             <i class="ico xls">
 										<span>XLS</span>
 									</i>
-                        </a> |
+                        </a><span class="pipe">|</span>
                         <a href="/electricity/data/browser/#/topic/12?agg=1,0,2&amp;fuel=1&amp;geo=vvvvvvvvvvvvo&amp;sec=o3o&amp;linechart=ELEC.RECEIPTS.NG-US-99.M&amp;columnchart=ELEC.RECEIPTS.NG-US-99.M&amp;map=ELEC.RECEIPTS.NG-US-99.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                             title="Monthly summary Receipts of fossil-fuels for electricity generation natural gas">
                             <i class="ico interactive">
@@ -1999,10 +1999,10 @@
                         Average cost of fossil fuels delivered by state
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -2015,7 +2015,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=8&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.COW-US-98.M&amp;columnchart=ELEC.COST_BTU.COW-US-98.M&amp;map=ELEC.COST_BTU.COW-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                                     title="Monthly Average cost of fossil fuels delivered by state  Coal">
                                     <i class="ico interactive">
@@ -2034,7 +2034,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=4&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.PEL-US-98.M&amp;columnchart=ELEC.COST_BTU.PEL-US-98.M&amp;map=ELEC.COST_BTU.PEL-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                                     title="Monthly Average cost of fossil fuels delivered by state Petroleum liquids">
                                     <i class="ico interactive">
@@ -2053,7 +2053,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=2&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.PC-US-98.M&amp;columnchart=ELEC.COST_BTU.PC-US-98.M&amp;map=ELEC.COST_BTU.PC-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;maptype=0&amp;rse=0&amp;pin="
                                     title="Monthly Average cost of fossil fuels delivered by state Petroleum coke">
                                     <i class="ico interactive">
@@ -2072,7 +2072,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/electricity/data/browser/#/topic/15?agg=1,0,2&amp;fuel=1&amp;geo=vvvvvvvvvvvvo&amp;sec=80o&amp;linechart=ELEC.COST_BTU.NG-US-98.M&amp;columnchart=ELEC.COST_BTU.NG-US-98.M&amp;map=ELEC.COST_BTU.NG-US-98.M&amp;freq=M&amp;ctype=linechart&amp;ltype=pin&amp;pin=&amp;rse=0&amp;maptype=0"
                                     title="Monthly Average cost of fossil fuels delivered by state Natural gas">
                                     <i class="ico interactive">
@@ -2098,7 +2098,7 @@
                         Receipts, average cost, and quality of fossil fuels for electricity generation
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -2182,10 +2182,10 @@
                 Stocks of fossil fuels by
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2268,7 +2268,7 @@
                 For major investor-owned utilities
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2303,7 +2303,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span>
-                <span class="date">February 6, 2018 </span> |
+                <span class="date">February 6, 2018 </span><span class="pipe">|</span>
                 <span class="source">data from:</span>
                 <a href="/outlooks/aeo/">Annual Energy Outlook 2018</a>
             </li>
@@ -2322,7 +2322,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span>
-                <span class="date">May 18, 2017</span> |
+                <span class="date">May 18, 2017</span><span class="pipe">|</span>
                 <span class="source">data from:</span>
                 <a href="/electricity/data/eia860/">Form EIA-860</a>
             </li>
@@ -2387,7 +2387,7 @@
                 Electricity transactions
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2439,7 +2439,7 @@
                 Electric disturbance events
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/monthly/epm-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2481,7 +2481,7 @@
     <div class="content">
         <ul>
             <li class="include">
-                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
@@ -2598,7 +2598,7 @@
                         Annual
                     </li>
                     <li class="include">
-                        <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                        <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                     </li>
                     <li class="list-item">
                         <ul>
@@ -2648,7 +2648,7 @@
                     <li>
                         Monthly/Annual (monthly back to 2015, annual to 1950)</li>
                     <li class="include">
-                        <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
+                        <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
                     </li>
                     <li>
                         <span class="source">Interactive
@@ -2674,7 +2674,7 @@
                                     <i class="ico xls">
 												<span>XLS</span>
 											</i>
-                                </a> |
+                                </a><span class="pipe">|</span>
                                 <a href="/beta/MER/?tbl=T12.06#/?f=M&amp;start=200001" title="Carbon dioxide emissions from electricity generation">
                                     <i class="ico interactive">
 												<span>Interactive</span>

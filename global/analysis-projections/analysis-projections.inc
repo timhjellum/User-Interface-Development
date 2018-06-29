@@ -67,19 +67,19 @@ $recent_AP = $neic->get($bindVariables);
 //print_r($recent_AP);
 
 ?>
-<div class="content-container">
-    <h1>Analysis &amp; Projections</h1>
-    <span id="overviewSideNavOptions">
-        <label id='ov_ap' name='ov_ap' value="ap" class="rpt_category active">Recent</label>
-        <span class="v_divider">&nbsp;|&nbsp;</span>
-        <label id='ov_hl' name='ov_hl' value="hl" class="rpt_category">Highlighted Reports</label>
-    </span>
-    <form id="ovFrm" name="ovFrm">
-        <input type="hidden" id='ovPref' name='ovPref' value="ap">
-    </form>
+    <div class="analysis-projections">
+        <h1>Analysis &amp; Projections</h1>
+        <div id="overviewSideNavOptions" class="analysis-projections-selector">
+            <label id='ov_ap' name='ov_ap' value="ap" class="rpt_category active">Recent</label>
+            <span class="v_divider">&nbsp;|&nbsp;</span>
+            <label id='ov_hl' name='ov_hl' value="hl" class="rpt_category">Highlighted Reports</label>
+        </div>
+        <form id="ovFrm" name="ovFrm">
+            <input type="hidden" id='ovPref' name='ovPref' value="ap">
+        </form>
 
-    <ul class="analysis-projections">
-	<?php
+        <ul>
+            <?php
 	$rptCnt = 10;	
 	foreach($recent_AP as $row) {
 		$DataTypesArray = [];
@@ -144,8 +144,8 @@ $recent_AP = $neic->get($bindVariables);
 		$thetitle = $row['title'];
 		$thelink = $row['link_html'];
 
-		//		include "adaptive/global/includes/analysis-projections/tags.inc";
-		//		include "adaptive/global/includes/";
+		//		include "css_rehab/archive/global/includes/analysis-projections/tags.inc";
+		//		include "css_rehab/archive/global/includes/";
 				include('tags.inc');
 		//		include "it_displaytags.inc";
 		echo "</div>";
@@ -157,7 +157,7 @@ $recent_AP = $neic->get($bindVariables);
 	}
 	?>
 
-		<li class="foot"><a href="reports.php">See more analysis &amp; projections</a></li>
-	</ul>
-</div>
-<!--	window.scrollTo(300,500);-->
+                <li class="foot"><a href="reports.php">See more analysis &amp; projections</a></li>
+        </ul>
+    </div>
+    <!--	window.scrollTo(300,500);-->

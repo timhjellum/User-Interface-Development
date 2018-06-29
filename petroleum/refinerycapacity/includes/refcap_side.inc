@@ -29,7 +29,7 @@
 
 
 
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li><strong>Note:</strong> The EIA-820 refinery capacity survey was not conducted for January 1, 1996 or January 1, 1998.</li>
         <li>The Refinery Capacity Report became a separate product in 2006, which includes tables in PDF format and an individual refinery XLS file.</li>

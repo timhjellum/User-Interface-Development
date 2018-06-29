@@ -2,25 +2,25 @@
 $l2dir = str_replace ("index.php", "", $_SERVER['SCRIPT_NAME']); ?>
 
 
-<div class="l-row header">
-    <div class="l-full-width-col">
-        <div class="slider-multi-header">
-            <div class="left">
-                <h2>Current Issues &amp; Trends</h2>
-            </div>
-            <div class="right">
-                <a href="<?php echo $l2dir . 'issuestrends/'?>" class="see-all">See all</a>
-                <div class="slider-multi-pager"></div>
+    <div class="l-row header">
+        <div class="l-full-width-col">
+            <div class="slider-multi-header">
+                <div class="left">
+                    <h2>Current Issues &amp; Trends</h2>
+                </div>
+                <div class="right">
+                    <a href="<?php echo $l2dir . 'issuestrends/'?>" class="see-all">See all</a>
+                    <div class="slider-multi-pager"></div>
+                </div>
             </div>
         </div>
-    </div>    
-</div>
-<div class="l-row header">
-    <div class="l-full-width-col">
-        <div class="slider-multi">
-            <ul>
-<?php /* include"it_universal.inc"; */ ?>
-<?php include('global/includes/it_universal.inc');
+    </div>
+    <div class="l-row header">
+        <div class="l-full-width-col">
+            <div class="slider-multi">
+                <ul>
+                    <?php /* include"it_universal.inc"; */ ?>
+                    <?php include('global/includes/it_universal.inc');
 // limit to 25 on L2 pages, all on issue trends (see more) page
 $cardLimit = strpos($_SERVER['SCRIPT_NAME'],"issuestrends") ? count($IssuesTrendsQuery) : min(count($IssuesTrendsQuery), 25);
 $displayedCards = 0;
@@ -44,15 +44,21 @@ for($j=0; $j < count($IssuesTrendsQuery) && $displayedCards < $cardLimit; $j++) 
         $thetagnames = $row['reporttagnames'];
         $displayedCards++;
 ?>
-                <li>                    <a href="<?= $thelink ?>" class="thumbnail" style="background-image: url('<?= $row['imgurl'] ?>');"></a>
-                    <div class="slide-content">
-                        <h3 class="ellipsis"><a href="<?= $thelink ?>"><?= $thetitle ?></a></h3>
-                        <p class="tags"><?php include('global/includes/it_displaytags.inc') ?></p>
-                    </div>
-                </li>
-<?php } } ?>
-            </ul>
+                    <li>
+                        <a href="<?= $thelink ?>" class="thumbnail" style="background-image: url('<?= $row['imgurl'] ?>');"></a>
+                        <div class="slide-content">
+                            <h3 class="ellipsis">
+                                <a href="<?= $thelink ?>">
+                                    <?= $thetitle ?>
+                                </a>
+                            </h3>
+                            <p class="tags">
+                                <?php include('global/includes/it_displaytags.inc') ?>
+                            </p>
+                        </div>
+                    </li>
+                    <?php } } ?>
+                </ul>
+            </div>
         </div>
-    </div>    
-</div>
-<?php /* include "it_displaytags.inc"; */ ?>
+    </div>

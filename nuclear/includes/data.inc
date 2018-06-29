@@ -28,7 +28,7 @@
             <li>
                 <li class="include">
                     <span class="release-date">Release Date:</span>
-                    <span class="date">May 26, 2016</span> |
+                    <span class="date">May 26, 2016</span><span class="pipe">|</span>
                     <span class="source">data from:</span> survey forms
                     <a href="/electricity/data/eia923/">EIA-923</a> and
                     <a href="/electricity/data/eia860/">EIA-860</a>.</li>
@@ -40,8 +40,8 @@
             <li class="include">
                 <span class="release-date">Release Date:</span>
                 <span class="date">
-                            <?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
-                        </span> |
+                            <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
+                        </span><span class="pipe">|</span>
                 <span class="source">data from:</span>
                 <a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
             </li>
@@ -61,7 +61,7 @@
                     <i class="ico xls">
                                 <span>XLS</span>
                             </i>
-                </a> |
+                </a><span class="pipe">|</span>
                 <a href="/beta/MER/index.cfm?tbl=T08.01#/?f=M&amp;start=200001" title="Nuclear generation, capacity summary data">
                     <i class="ico interactive">
                                 <span>Interactive</span>
@@ -75,7 +75,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span>
-                <span class="date">Release date: November 2017</span> |
+                <span class="date">Release date: November 2017</span><span class="pipe">|</span>
                 <span class="source">data from:</span> survey form
                 <a href="/electricity/data/eia860/">EIA-860, Annual Electric Generator Report</a>
             </li>
@@ -115,7 +115,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span>
-                <span class="date">May 24, 2017</span> |
+                <span class="date">May 24, 2017</span><span class="pipe">|</span>
                 <span class="source">data from:</span>
                 <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a>
             </li>
@@ -129,7 +129,7 @@
                     <li>Annual</li>
                     <li>
                         <span class="release-date">Release Date:</span>
-                        <span class="date">May 24, 2017</span> |
+                        <span class="date">May 24, 2017</span><span class="pipe">|</span>
                         <span class="source">data from:</span>
                         <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a>
                         </span>
@@ -193,7 +193,7 @@
                 <ul>
                     <li>Quarterly</li>
                     <li class="include">
-                        <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') ?></span> | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
+                        <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/uranium/production/quarterly/html/releasedate.inc') ?></span><span class="pipe">|</span><span class="source">data from:</span>                        <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
             </li>
             <li class="list-item">
                 <ul>
@@ -278,7 +278,9 @@
             </li>
             <li>Quantity of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') */ ?></span> | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
+                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/uranium/production/quarterly/html/releasedate.inc') */ ?></span><span class="pipe">|</span><span class="source">data from:</span>
+                <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a>
+            </li>
             <li>
                 <span class="formats">Available formats:</span>
                 <a href="/uranium/marketing/pdf/umartable1figures1n2.pdf">
@@ -299,7 +301,9 @@
             </li>
             <li>Weighted-average price of uranium purchased by owners and operators of U.S. civilian nuclear power reactors</li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('adaptive/uranium/production/quarterly/html/uma-new-header.inc') */ ?></span> | <span class="source">data from:</span> <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a></li>
+                <span class="release-date">Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/uranium/production/quarterly/html/releasedate.inc') */ ?></span><span class="pipe">|</span><span class="source">data from:</span>
+                <a href="/uranium/production/annual/">Domestic Uranium Production Report - Annual</a>
+            </li>
             <li>
                 <span class="formats">Available formats:</span>
                 <a href="/uranium/marketing/pdf/umartableS1bfigureS2.pdf">
@@ -331,7 +335,7 @@
             </li>
             <li>
                         <span class="release-date">Release Date:</span>
-                <span class="date">December 7, 2015</span> |
+                <span class="date">December 7, 2015</span><span class="pipe">|</span>
                 <span class="source">data from:</span> form
                 <a href="/survey/#gc-859">GC-859, Nuclear Fuel Data Survey</a>
             </li>
@@ -343,7 +347,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:</span>
-                <span class="date">December 7, 2015</span> |
+                <span class="date">December 7, 2015</span><span class="pipe">|</span>
                 <span class="source">data from:</span> form
                 <a href="/survey/#gc-859">GC-859, Nuclear Fuel Data Survey</a>
             </li>
@@ -353,7 +357,7 @@
             <li><a href="/nuclear/spent_fuel/ussnftab2.cfm">Detailed spent nuclear fuel data</a></li>
             <li>
                 <span class="release-date">Release Date:</span>
-                <span class="date">December 7, 2015</span> |
+                <span class="date">December 7, 2015</span><span class="pipe">|</span>
                 <span class="source">data from:</span> form
                 <a href="/survey/#gc-859">GC-859, Nuclear Fuel Data Survey</a>
             </li>

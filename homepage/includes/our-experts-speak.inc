@@ -15,7 +15,7 @@ $ourExpertsSpeakTwoDate = "February 13, 2018";
 /* DO NOT EDIT BELOW */
 ?>
 
-        <div class="dark-top-border-container">
+        <div class="primary">
             <ul>
                 <li class="head">
                     <h2>Our Experts Speak</h2>

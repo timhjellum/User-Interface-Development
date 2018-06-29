@@ -1,147 +1,121 @@
 const gulp = require('gulp');
-//const cleanCSS = require('gulp-clean-css');
-//const less = require('gulp-less');
 const rename = require('gulp-rename');
 const path = require('path');
 const del = require('del');
 const removeCode = require('gulp-remove-code');
 
-const server = '//WWWDEV/website/css_rehab/archive/';
+const source = '.';
 
-const analysis      		= 'analysis/includes';
-const coal          		= 'coa/includes';
-const consumption   		= 'consumption/includes';
-const electricity   		= 'electricity/includes';
-const environment   		= 'environment/includes';
-const finance       		= 'finance/includes';
-const naturalGas    		= 'naturalgas/includes';
-const nuclear       		= 'nuclear/includes';
-const petroleum     		= 'petroleum/includes';
-const renewable     		= 'renewable/includes';
-const totalEnergy   		= 'totalenergy/includes';
-const totalEnergyMonthly  	= 'totalenergy/data/monthly/includes';
-const totalEnergyAnnual  	= 'totalenergy/data/annua/includes';
+const destination = '//WWWdev/website';
 
 
-gulp.task('xfer-release-dates', ['pmm-release-date']);
+gulp.task('xfer-release-dates', ['eia1']);
 
-//gulp.task('xfer-analysis', ['xfer-coal'], () =>
-//	gulp.src('./analysis/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-//	.pipe(gulp.dest(server + analysis))
-//);
-
-
-gulp.task('pmm-release-date', ['biofuels-release-date'], () =>
-gulp.src('/petroleum/marketing/monthly/includes/pmm-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/marketing/monthly/includes'))
+gulp.task('eia1', ['eia2'], () =>
+    gulp.src(source + '/biofuels/biomass/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/biofuels/biomass/includes/'))
 );
-gulp.task('biofuels-release-date', ['ngmer-release-date'], () =>
-gulp.src('/biofuels/biomass/includes/biofuels-release-date.inc')
-.pipe(gulp.dest(server + '/biofuels/biomass/includes'))
+gulp.task('eia2', ['eia3'], () =>
+    gulp.src(source + '/coal/annual/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/coal/annual/includes/'))
 );
-gulp.task('ngmer-release-date', ['wngsr-release-date'], () =>
-gulp.src('/dnav/ng/includes_ng/includes/ngmer-release-date.inc')
-.pipe(gulp.dest(server + '/dnav/ng/includes_ng/includes'))
+gulp.task('eia3', ['eia4'], () =>
+    gulp.src(source + '/coal/distribution/quarterly/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/coal/distribution/quarterly/includes/'))
 );
-gulp.task('wngsr-release-date', ['petmer-release-date'], () =>
-gulp.src('/dnav/ng/includes_ng/includes/wngsr-release-date.inc')
-.pipe(gulp.dest(server + '/dnav/ng/includes_ng/includes'))
+gulp.task('eia4', ['eia5'], () =>
+    gulp.src(source + '/coal/distribution/annual/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/coal/distribution/annual/includes/'))
 );
-gulp.task('petmer-release-date', ['epa-release-date'], () =>
-gulp.src('/dnav/pet/includes/petmer-release-date.inc')
-.pipe(gulp.dest(server + '/dnav/pet/includes'))
+gulp.task('eia5', ['eia6'], () =>
+    gulp.src(source + '/coal/production/quarterly/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/coal/production/quarterly/includes/'))
 );
-gulp.task('epa-release-date', ['electricity-data-browser'], () =>
-gulp.src('/electricity/annua/includes/epa-release-date.inc')
-.pipe(gulp.dest(server + '/electricity/annua/includes'))
+gulp.task('eia6', ['eia7'], () =>
+    gulp.src(source + '/coal/production/annual/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/coal/production/annual/includes/'))
 );
-gulp.task('electricity-data-browser', ['epm-release-date'], () =>
-gulp.src('/electricity/monthly/includes/electricity-data-browser.inc')
-.pipe(gulp.dest(server + '/electricity/monthly/includes'))
+gulp.task('eia7', ['eia8'], () =>
+    gulp.src(source + '/dnav/ng/includes_ng/releasedate_ngmer.inc')
+    .pipe(gulp.dest(destination + '/dnav/ng/includes_ng/'))
 );
-gulp.task('epm-release-date', ['esr-header'], () =>
-gulp.src('/electricity/monthly/includes/epm-release-date.inc')
-.pipe(gulp.dest(server + '/electricity/monthly/includes'))
+gulp.task('eia8', ['eia9'], () =>
+    gulp.src(source + '/dnav/ng/includes_ng/releasedate_wngmsr.inc')
+    .pipe(gulp.dest(destination + '/dnav/ng/includes_ng/'))
 );
-gulp.task('esr-header', ['annual-release-date'], () =>
-gulp.src('/electricity/sales_revenue_price/includes/esr-header.inc')
-.pipe(gulp.dest(server + '/electricity/sales_revenue_price/includes'))
+gulp.task('eia9', ['eia10'], () =>
+    gulp.src(source + '/dnav/pet/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/dnav/pet/includes/'))
 );
-gulp.task('annual-release-date', ['fcml-release-date'], () =>
-gulp.src('/naturalgas/annua/includes/annual-release-date.inc')
-.pipe(gulp.dest(server + '/naturalgas/annua/includes'))
+gulp.task('eia10', ['eia11'], () =>
+    gulp.src(source + '/electricity/annual/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/electricity/annual/includes/'))
 );
-gulp.task('fcml-release-date', ['monthly-release-date'], () =>
-gulp.src('/naturalgas/fieldcode/includes/fcml-release-date.inc')
-.pipe(gulp.dest(server + '/naturalgas/fieldcode/includes'))
+gulp.task('eia11', ['eia12'], () =>
+    gulp.src(source + '/electricity/monthly/includes/electricity-data-browser.inc')
+    .pipe(gulp.dest(destination + '/electricity/monthly/includes/'))
 );
-gulp.task('monthly-release-date', ['steo-release-date'], () =>
-gulp.src('/naturalgas/monthly/includes/monthly-release-date.inc')
-.pipe(gulp.dest(server + '/naturalgas/monthly/includes'))
+gulp.task('eia12', ['eia13'], () =>
+    gulp.src(source + '/electricity/monthly/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/electricity/monthly/includes/'))
 );
-gulp.task('steo-release-date', ['gdu-release-date'], () =>
-gulp.src('/outlooks/steo/includes/steo-release-date.inc')
-.pipe(gulp.dest(server + '/outlooks/steo/includes'))
+gulp.task('eia13', ['eia14'], () =>
+    gulp.src(source + '/electricity/sales_revenue_price/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/electricity/sales_revenue_price/includes/'))
 );
-gulp.task('gdu-release-date', ['psr-release-date'], () =>
-gulp.src('/petroleum/gasdiesel/includes/gdu-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/gasdiesel/includes'))
+gulp.task('eia14', ['eia15'], () =>
+    gulp.src(source + '/naturalgas/annual/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/naturalgas/annual/includes/'))
 );
-
-//gulp.task('pmm-release-date', ['psr-release-date'], () =>
-//gulp.src('/petroleum/marketing/monthly/includes/pmm-release-date.inc')
-//.pipe(gulp.dest(server + '/petroleum/marketing/monthly/includes'))
-//);
-gulp.task('psr-release-date', ['914-release-date'], () =>
-gulp.src('/petroleum/marketing/prime/includes/psr-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/marketing/prime/includes'))
+gulp.task('eia15', ['eia16'], () =>
+    gulp.src(source + '/naturalgas/fieldcode/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/naturalgas/fieldcode/includes/'))
 );
-gulp.task('914-release-date', ['psa-release-date'], () =>
-gulp.src('/petroleum/production/includes/914-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/production/includes'))
+gulp.task('eia16', ['eia17'], () =>
+    gulp.src(source + '/naturalgas/monthly/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/naturalgas/monthly/includes/'))
 );
-gulp.task('psa-release-date', ['psm-release-date'], () =>
-gulp.src('/petroleum/supply/annua/volume1/includes/psa-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/supply/annua/volume1/includes'))
+gulp.task('eia17', ['eia18'], () =>
+    gulp.src(source + '/outlooks/steo/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/outlooks/steo/includes/'))
 );
-gulp.task('psm-release-date', ['wpsrshopp-release-date'], () =>
-gulp.src('/petroleum/supply/monthly/includes/psm-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/supply/monthly/includes'))
+gulp.task('eia18', ['eia19'], () =>
+    gulp.src(source + '/petroleum/gasdiesel/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/petroleum/gasdiesel/includes/'))
 );
-gulp.task('wpsrshopp-release-date', ['wpsr-release-date'], () =>
-gulp.src('/petroleum/supply/weekly/includes/wpsrshopp-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/supply/weekly/includes'))
+gulp.task('eia19', ['eia20'], () =>
+    gulp.src(source + '/petroleum/marketing/prime/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/petroleum/marketing/prime/includes/'))
 );
-gulp.task('wpsr-release-date', ['wspr-release-date'], () =>
-gulp.src('/petroleum/supply/weekly/includes/wpsr-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/supply/weekly/includes'))
+gulp.task('eia20', ['eia21'], () =>
+    gulp.src(source + '/petroleum/production/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/petroleum/production/includes/'))
 );
-gulp.task('wspr-release-date', ['afv-release-date'], () =>
-gulp.src('/petroleum/supply/weekly/includes/wspr-release-date.inc')
-.pipe(gulp.dest(server + '/petroleum/supply/weekly/includes'))
+gulp.task('eia21', ['eia22a'], () =>
+    gulp.src(source + '/petroleum/supply/monthly/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/petroleum/supply/monthly/includes/'))
 );
-gulp.task('afv-release-date', ['renewable-header'], () =>
-gulp.src('/renewable/afv/includes/afv-release-date.inc')
-.pipe(gulp.dest(server + '/renewable/afv/includes'))
+gulp.task('eia22a', ['eia22b'], () =>
+    gulp.src(source + '/petroleum/supply/weekly/includes/releasedate_wpsr.inc')
+    .pipe(gulp.dest(destination + '/petroleum/supply/weekly/includes/'))
 );
-gulp.task('renewable-header', ['new-aer-header'], () =>
-gulp.src('/renewable/monthly/solar_photo/includes/renewable-header.inc')
-.pipe(gulp.dest(server + '/renewable/monthly/solar_photo/includes'))
+gulp.task('eia22b', ['eia23'], () =>
+    gulp.src(source + '/petroleum/supply/weekly/includes/releasedate_wpsr_shopp.inc')
+    .pipe(gulp.dest(destination + '/petroleum/supply/weekly/includes/'))
 );
-gulp.task('new-aer-header', ['new-mer-header'], () =>
-gulp.src('/totalenergy/data/annua/includes/new-aer-header.inc')
-.pipe(gulp.dest(server + '/totalenergy/data/annua/includes'))
+gulp.task('eia23', ['eia24'], () =>
+    gulp.src(source + '/renewable/afv/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/renewable/afv/includes/'))
 );
-gulp.task('new-mer-header', ['uma-new-header'], () =>
-gulp.src('/totalenergy/data/monthly/includes/new-mer-header.inc')
-.pipe(gulp.dest(server + '/totalenergy/data/monthly/includes'))
+gulp.task('eia24', ['eia25'], () =>
+    gulp.src(source + '/totalenergy/data/annual/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/totalenergy/data/annual/includes/'))
 );
-gulp.task('uma-new-header', () =>
-gulp.src('/uranium/production/quarterly/htm/uma-new-header.inc')
-.pipe(gulp.dest(server + '/uranium/production/quarterly/includes'))
+gulp.task('eia25', ['eia26'], () =>
+    gulp.src(source + '/totalenergy/data/monthly/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/totalenergy/data/monthly/includes/'))
 );
-
-
-
+gulp.task('eia26', () =>
+    gulp.src(source + '/uranium/production/quarterly/includes/releasedate.inc')
+    .pipe(gulp.dest(destination + '/uranium/production/quarterly/includes/'))
+);

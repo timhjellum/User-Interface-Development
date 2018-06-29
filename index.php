@@ -2,12 +2,12 @@
 <html>
 
 <head>
-    <?php include('adaptive/global/head/includes/head.inc') ?>
+    <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
     <title></title>
 </head>
 
 <body>
-    <?php include('adaptive/global/header/includes/header.inc') ?>
+    <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
     <?php include('homepage/includes/slider.inc') ?>
     <div class="homepage">
         <div class="l-row l-3-col l-reorder">
@@ -15,12 +15,12 @@
                 <?php include('homepage/includes/whats-new.inc') ?>
             </div>
             <div class="l-middle-col l-first">
-                <div class="main-content-container">
+                <div class="main-secondary">
                     <?php include('todayinenergy/includes/file_scrub_live.inc') ?>
                 </div>
             </div>
             <div class="l-narrow-col l-third">
-                <div class="content-container-border primary-alt">
+                <div class="secondary-border primary-alt">
                     <ul>
                         <?php include('global/includes/homepage_data.html') ?>
                     </ul>
@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    <?php include('adaptive/global/footer/includes/footer.inc') ?>
+    <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 
 </html>

@@ -1,26 +1,29 @@
 <div class="l-row header report-details">
-        <div class="l-full-width-col">
-                <a href="/petroleum/reports.cfm">&lsaquo; See All Petrolem Reports</a>
-                <h2><?php echo $headtitle; ?></h2>
+    <div class="l-full-width-col">
+        <a href="/petroleum/reports.cfm">&lsaquo; See All Petrolem Reports</a>
+        <h2>
+            <?php echo $headtitle; ?>
+        </h2>
 
-                <div class="release-dates">
-                        <                                <div class="date-container">
-                                        <div class="label">Data for week ending September 8, 2017</div></div>
-                        <div class="date-container">
-                                <div class="label">Release Date:</div>
-                                <div class="date">September 13, 2017</div>
-                        </div>
-                        <div class="date-container">
-                                <div class="label">Next Release Date:</div>
-                                <div class="date">September 20, 2017</div>
-                        </div>
-                        <div class="report-download-container">
-                                <i class="ico pdf">PDF</i><a href="/petroleum/supply/weekly/pdf/wpsrall.pdf">full report</a></div>
-                        </div>
-                </div>
+        <div class="release-dates">
+            <div class="date-container">
+                <div class="label">Data for week ending September 8, 2017</div>
+            </div>
+            <div class="date-container">
+                <div class="label">Release Date:</div>
+                <div class="date">September 13, 2017</div>
+            </div>
+            <div class="date-container">
+                <div class="label">Next Release Date:</div>
+                <div class="date">September 20, 2017</div>
+            </div>
+            <div class="report-download-container">
+                <i class="ico pdf">PDF</i><a href="/petroleum/supply/weekly/pdf/wpsrall.pdf">full report</a></div>
         </div>
-        <div class="l-split-narrow-col gradient">
-                <span class="form-wrapper-outer">
+    </div>
+</div>
+<div class="l-split-narrow-col gradient">
+    <span class="form-wrapper-outer">
                         <h4>Previous Issues</h4>
                         <span class="form-wrapper-inner">
                                 <form name="form" id="form">
@@ -47,6 +50,6 @@
                                         <input type="button" name="go_button" class="arrow_go" id="go_button" value="Go" />
                                 </form>
                         </span>
-                </span>
-        </div>
+    </span>
+</div>
 </div>

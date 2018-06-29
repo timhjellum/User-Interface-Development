@@ -33,6 +33,9 @@ new ScrollTo();
 import LocalScroll from './modules/local-scroll';
 new LocalScroll();
 
+import Modal from './modules/modal';
+new Modal();
+
 // must use full path
 //const jqueryUiTabs = require('jquery-ui-dist/jquery-ui.js');
 // jquery ui init files go below

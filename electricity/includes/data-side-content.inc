@@ -1,12 +1,12 @@
 <div class="secondary">
     <ul>
         <li class="head">
-            <h2>Interactive Electricity Data</h2>
+            <h2><i class="ico interactive"><span>Interactive</span></i>Interactive Electricity Data</h2>
         </li>
         <li class="description">browse pre-defined or custom data views, graph or map data series down to the plant level</li>
-        <li class="icon"><a href="/electricity/data/browser/"><i class="ico interactive"><span>Interactive</span></i>Electricity data browser</a></li>
+        <li><a href="/electricity/data/browser/">Electricity data browser</a></li>
         <li style="text-align: center"> - OR - </li>
-        <li><em> create your own app with our</em> <a href="/beta/api/qb.cfm?category=0"><strong>API</strongb></a></li>
+        <li><em>create your own app with our</em> <a href="/beta/api/qb.cfm?category=0"><strong>API</strong></a></li>
     </ul>
 </div>
 <div class="secondary">

@@ -8,19 +8,19 @@ const removeCode = require('gulp-remove-code');
 
 const server = '//WWWDEV/website/css_rehab/archive/';
 
-const analysis      		= 'analysis/includes';
-const coal          		= 'coa/includes';
-const consumption   		= 'consumption/includes';
-const electricity   		= 'electricity/includes';
-const environment   		= 'environment/includes';
-const finance       		= 'finance/includes';
-const naturalGas    		= 'naturalgas/includes';
-const nuclear       		= 'nuclear/includes';
-const petroleum     		= 'petroleum/includes';
-const renewable     		= 'renewable/includes';
-const totalEnergy   		= 'totalenergy/includes';
-const totalEnergyMonthly  	= 'totalenergy/data/monthly/includes';
-const totalEnergyAnnual  	= 'totalenergy/data/annua/includes';
+const analysis = 'analysis/includes';
+const coal = 'coal/includes';
+const consumption = 'consumption/includes';
+const electricity = 'electricity/includes';
+const environment = 'environment/includes';
+const finance = 'finance/includes';
+const naturalGas = 'naturalgas/includes';
+const nuclear = 'nuclear/includes';
+const petroleum = 'petroleum/includes';
+const renewable = 'renewable/includes';
+const totalEnergy = 'totalenergy/includes';
+const totalEnergyMonthly = 'totalenergy/data/monthly/includes';
+const totalEnergyAnnual = 'totalenergy/data/annua/includes';
 //const styleFolder   		= 'style-guide/assets/styles';
 
 
@@ -34,64 +34,64 @@ const totalEnergyAnnual  	= 'totalenergy/data/annua/includes';
 gulp.task('xfer2adaptive', ['xfer-analysis']);
 
 gulp.task('xfer-analysis', ['xfer-coal'], () =>
-	gulp.src('./analysis/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + analysis))
+    gulp.src('./analysis/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + analysis))
 );
 gulp.task('xfer-coal', ['xfer-consumption'], () =>
-	gulp.src('./coa/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + coal))
+    gulp.src('./coa/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + coal))
 );
 gulp.task('xfer-consumption', ['xfer-electricity'], () =>
-	gulp.src('./consumption/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + consumption))
+    gulp.src('./consumption/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + consumption))
 );
 gulp.task('xfer-electricity', ['xfer-environment'], () =>
-	gulp.src('./electricity/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + electricity))
+    gulp.src('./electricity/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + electricity))
 );
 gulp.task('xfer-environment', ['xfer-finance'], () =>
-	gulp.src('./environment/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + environment))
+    gulp.src('./environment/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + environment))
 );
 gulp.task('xfer-finance', ['xfer-natural-gas'], () =>
-	gulp.src('./finance/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + finance))
+    gulp.src('./finance/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + finance))
 );
 gulp.task('xfer-natural-gas', ['xfer-nuclear'], () =>
-	gulp.src('./naturalgas/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + naturalGas))
+    gulp.src('./naturalgas/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + naturalGas))
 );
 gulp.task('xfer-nuclear', ['xfer-petroleum'], () =>
-	gulp.src('./nuclear/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + nuclear))
+    gulp.src('./nuclear/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + nuclear))
 );
 gulp.task('xfer-petroleum', ['xfer-renewable'], () =>
-	gulp.src('./petroleum/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + petroleum))
+    gulp.src('./petroleum/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + petroleum))
 );
 gulp.task('xfer-renewable', ['xfer-total-energy-monthly'], () =>
-	gulp.src('./renewable/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + renewable))
+    gulp.src('./renewable/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + renewable))
 );
 /*
 gulp.task('xfer-total-energy', () =>
@@ -102,16 +102,16 @@ gulp.src('./totalenergy/includes/data-side-content.inc')
 );
 */
 gulp.task('xfer-total-energy-monthly', ['xfer-total-energy-annual'], () =>
-	gulp.src('./totalenergy/data/monthly/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + totalEnergyMonthly))
+    gulp.src('./totalenergy/data/monthly/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + totalEnergyMonthly))
 );
 gulp.task('xfer-total-energy-annual', () =>
-	gulp.src('./totalenergy/data/annua/includes/data-side-content.inc')
-//	.pipe(removeCode({ INCconversion: true }))
-//	.pipe(rename('main-data.inc'))
-	.pipe(gulp.dest(server + totalEnergyAnnual))
+    gulp.src('./totalenergy/data/annua/includes/data-side-content.inc')
+    //	.pipe(removeCode({ INCconversion: true }))
+    //	.pipe(rename('main-data.inc'))
+    .pipe(gulp.dest(server + totalEnergyAnnual))
 );
 
 /*

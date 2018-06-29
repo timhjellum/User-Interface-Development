@@ -31,18 +31,18 @@ $("#nav").html('<ul class="navigation">' +
     '	<li><input type="radio" id="nav-4" name="nav-group-1"><label for="nav-4">Modules</label>' +
     '		<ul class="sub">' +
     '			<li><a href="../modules/accordion.html">Accordion</a></li>' +
-    '			<li><a href="../modules/home-content-containers.html">Home content Containers</a></li>' +
-    //'			<li><a href="../modules/reusable-content-containers.html#standard-containers">Standard Containers</a></li>'+
-    //'			<li><a href="../modules/reusable-content-containers.html#light-blue-top-border">Light-blue-top-border Containers</a></li>'+
-    //'			<li><a href="../modules/reusable-content-containers.html#light-blue-top-border-dilly">Light-blue-top-border dilly Containers</a></li>'+
-    //'			<li><a href="../modules/reusable-content-containers.html#dark-blue-top-border">Dark-blue-top-border Containers</a></li>'+
+    '			<li><a href="../modules/home-secondarys.html">Home content Containers</a></li>' +
+    //'			<li><a href="../modules/reusable-secondarys.html#standard-containers">Standard Containers</a></li>'+
+    //'			<li><a href="../modules/reusable-secondarys.html#light-blue-top-border">Light-blue-top-border Containers</a></li>'+
+    //'			<li><a href="../modules/reusable-secondarys.html#light-blue-top-border-dilly">Light-blue-top-border dilly Containers</a></li>'+
+    //'			<li><a href="../modules/reusable-secondarys.html#dark-blue-top-border">Dark-blue-top-border Containers</a></li>'+
     '			<li><a href="../modules/report-header.html">Report Header</a></li>' +
     '			<li><a href="../modules/sub-navigation.html">Sub Navigation</a></li>' +
     '			<li><a href="../modules/table-list-formatting.html">Table and List Formatting</a></li>' +
     '			<li><a href="../modules/tabs.html">Tabs</a></li>' +
     '			<li><a href="../modules/page-titles.html">Page Titles</a></li>' +
     '			<li><a href="../modules/messaging.html">Messaging</a></li>' +
-    '			<li><a href="../modules/side-content-containers.html">Side Content Containers</a></li>' +
+    '			<li><a href="../modules/side-secondarys.html">Side Content Containers</a></li>' +
     //'			<li><a href="../modules/slider-home.html" target="_blank">Home Slider</a></li>' +
     //'			<li><a href="../modules/slider-multi-cards.html" target="_blank">Multi-Card Slider</a></li>' +
     '		</ul>' +
@@ -50,10 +50,7 @@ $("#nav").html('<ul class="navigation">' +
     '	<li><input type="radio" id="nav-5" name="nav-group-1"><label for="nav-5">States</label>' +
     '		<ul class="sub">' +
     '			<li><a href="../states/links-list.html">Links List</a></li>' +
-    //'			<li><a href="../states/header-menu.html">Header Menus</a></li>'+
-    //'			<li><a href="../states/sub-nav-menus.html">Subnav Menus</a></li>'+
-    //'			<li><a href="../states/local-scroll.html">Local Scroll</a></li>'+
-    //'			<li><a href="../states/scroll-to.html">Scroll To</a></li>'+
+    '			<li><a href="../states/empty-list-items.html">Empty List Items</a></li>' +
     '		</ul>' +
     '	</li>' +
     '	<li><input type="radio" id="nav-6" name="nav-group-1"><label for="nav-6">Themes</label>' +
@@ -117,9 +114,9 @@ $("#nav").html('<ul class="navigation">' +
 		'</a>'+
 		'<ul class="sub-nav">'+
 			'			<li><a href="../modules/accordion.html">Accordion</a></li>'+
-			'			<li><a href="../modules/custom-content-containers.html">Custom content Containers</a></li>'+
-			'			<li><a href="../modules/home-content-containers.html">Home content Containers</a></li>'+
-			'			<li><a href="../modules/reusable-content-containers.html">Reusable content Containers</a></li>'+
+			'			<li><a href="../modules/custom-secondarys.html">Custom content Containers</a></li>'+
+			'			<li><a href="../modules/home-secondarys.html">Home content Containers</a></li>'+
+			'			<li><a href="../modules/reusable-secondarys.html">Reusable content Containers</a></li>'+
 			'			<li><a href="../modules/tables.html">Tables</a></li>'+
 			'			<li><a href="../modules/tabs.html">Tabs</a></li>'+
 			'			<li><a href="../modules/page-titles.html">Page titles</a></li>'+

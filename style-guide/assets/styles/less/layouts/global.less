@@ -241,10 +241,9 @@
 		width: 33.333333%;
 	}
 //	.l-one-third-col,
-	.l-two-col,
 //	.l-split-narrow-col,
 //	.l-split-wide-col,
-	.l-two-third-col {
+	.l-two-col {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
@@ -257,6 +256,49 @@
 		}		
 		&:last-child {
 			padding: 0 0 0 22px;
+		}
+	}
+	.l-two-third-col {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 66.666667%;
+		-ms-flex: 0 0 66.666667%;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+		width: 66.666667%;
+		&:first-child {
+			padding: 0 22px 0 0;
+		}		
+		&:last-child {
+			padding: 0 0 0 22px;
+		}
+	}
+	.l-one-third-col {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 33.333333%;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+		width: 33.333333%;
+		&:first-child {
+			padding: 0 22px 0 0;
+		}		
+		&:last-child {
+			padding: 0 0 0 22px;
+		}
+	}
+	.l-row {
+		.l-row {
+			padding: 0;
+			.l-two-col,
+			.l-two-third-col,
+			.l-one-third-col {
+				&:first-child {
+					padding: 0 11px 0 0;
+				}		
+				&:last-child {
+					padding: 0 0 0 11px;
+				}
+			}
 		}
 	}
 }
@@ -416,17 +458,9 @@
 	.l-row {
 		&>div {
 			padding-right: 44px;
-			&:last-child {
+			&:last-of-type {
 				padding-right: 0;
 			}
-			// if full-width, remove all padding, margins and make 100%
-//			&.l-full-width-col {
-//				padding: 0;
-//				width: 100%;
-//				&:last-child {
-//					padding: 0;
-//				}
-//			}
 			// if nested, remove all padding, margins and make 100%
 			.l-row {
 				padding: 0;

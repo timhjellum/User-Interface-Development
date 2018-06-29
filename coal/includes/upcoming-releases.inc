@@ -1,70 +1,13 @@
-<?php
-/* edit the link URL, Label and Date below */
-/* no need to add the  > or the &nbsp;› */
-/* leave fields blank if unused - a script will hide unused list items*/
-
-$mainTitle = "Upcoming Releases";
-
-$OneURL = "/coal/markets/";
-$OneLabel = "* Coal Markets";
-$OneDate = "5:00 p.m. ET, Monday (* Formerly  <em>Weekly NYMEX Coal Futures</em> and <em>Coal News & Markets</em>)";
-
-$TwoURL = "/coal/production/weekly/";
-$TwoLabel = "Weekly Coal Production";
-$TwoDate = "5:00 p.m. ET, Thursday";
-
-$ThrURL = "";
-$ThrLabel = "";
-$ThrDate = "";
-
-$FouURL = "";
-$FouLabel = "";
-$FouDate = "";
-
-$FivURL = "/";
-$FivLabel = "";
-$FivDate = "";
-
-$SixURL = "/";
-$SixLabel = "";
-$SixDate = "";
-
-?>
-    <?php
-/* DO NOT EDIT BELOW */
-?>
-
-        <div class="secondary hide-mt">
-            <ul>
-                <li class="head">
-                    <h2>
-                        <?=$mainTitle?>
-                    </h2>
-                </li>
-                <li>
-                    <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
-                        <?=$OneLabel?>
-                    </a>: <span class="date"><?=$OneDate?></span></li>
-                <li>
-                    <a href='<?=$TwoURL?>' title='<?=$TwoLabel?>'>
-                        <?=$TwoLabel?>
-                    </a>: <span class="date"><?=$TwoDate?></span></li>
-                <li>
-                    <a href='<?=$ThrURL?>' title='<?=$ThrLabel?>'>
-                        <?=$ThrLabel?>
-                    </a>: <span class="date"><?=$ThrDate?></span></li>
-                <li>
-                    <a href='<?=$FouURL?>' title='<?=$FouLabel?>'>
-                        <?=$FouLabel?>
-                    </a>: <span class="date"><?=$FouDate?></span></li>
-                <li>
-                    <a href='<?=$FivURL?>' title='<?=$FivLabel?>'>
-                        <?=$FivLabel?>
-                    </a>: <span class="date"><?=$FivDate?></span></li>
-                <li>
-                    <a href='<?=$SixURL?>' title='<?=$SixLabel?>'>
-                        <?=$SixLabel?>
-                    </a>: <span class="date"><?=$SixDate?></span></li>
-                <li class="foot"><a href="/reports/upcoming.php">See all upcoming</a></li>
-            </ul>
-        </div>
+<div class="secondary">
+    <ul>
+        <li class="head">
+            <h2>
+                Upcoming Releases
+            </h2>
+        </li>
+        <li><em>Release days may change on weeks with Federal holidays</em>.</li>
+        <li>*<a href="/coal/markets/">Coal Markets</a>: <em>5:00 p.m. ET, Monday</em> (*Formerly <em>Weekly NYMEX Coal Futures</em> and <em>Coal News &amp; Markets</em>)</li>
+        <li><a href="/coal/production/weekly/">Weekly Coal Production</a>: <em>5:00 p.m. ET, Thursday</em></li>
+        <li class="foot"><a href="/reports/upcoming.php">See all upcoming</a></li>
+    </ul>
+</div>

@@ -16,7 +16,7 @@ include("global/includes/bookshelf/bookshelf_head.inc");
     <html>
 
     <head>
-        <?php include('adaptive/global/head/includes/head.inc') ?>
+        <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
         <title>
             <?=$pageTitle?> -
                 <?=$L2T?>
@@ -24,14 +24,14 @@ include("global/includes/bookshelf/bookshelf_head.inc");
     </head>
 
     <body>
-        <?php include('adaptive/global/header/includes/header.inc') ?>
+        <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
         <?php include('./includes/sub-navigation.inc'); ?>
         <div class="l-row">
             <div class="l-full-width-col">
                 <?php include("global/includes/bookshelf/bookshelf_results.inc") ?>
             </div>
         </div>
-        <?php include('adaptive/global/footer/includes/footer.inc') ?>
+        <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
     </body>
 
     </html>

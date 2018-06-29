@@ -3,13 +3,15 @@
 <div class="l-row header">
     <div class="l-full-width-col">
         <div class="title-banner bg-petroleum">
-        <h1><?php echo "$sectionname"?></h1>
+            <h1>
+                <?php echo "$sectionname"?>
+            </h1>
         </div>
         <div class="sub-navigation">
             <div class="left">
                 <ul class="left-nav">
-                    <li class="<?php if ( $locale == "overview") {?>active<?php } ?>"><a href="/petroleum/">Overview</a></li>
-                    <li class="dropdown dropdown-data <?php if ( $locale == "data") {?>active<?php } ?>"><a href="/petroleum/data.php" class="dropbtn">Data<i class="ico sort-up"></i></a>
+                    <li class="<?php if ( $locale == 'overview') {?>active<?php } ?>"><a href="/petroleum/">Overview</a></li>
+                    <li class="dropdown dropdown-data <?php if ( $locale == 'data') {?>active<?php } ?>"><a href="/petroleum/data.php" class="dropbtn">Data<i class="ico sort-up"></i></a>
                         <div class="dropdown-data-content dropdown-content">
                             <ul>
                                 <li><a href="/petroleum/data.cfm#summary">Summary</a></li>
@@ -23,15 +25,19 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  "ap") {?>active<?php } ?>"><a href="/petroleum/reports.cfm" class="dropbtn">Analysis & Projections<i class="ico sort-up"></i></a>
+                    <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>"><a href="/petroleum/reports.cfm" class="dropbtn">Analysis & Projections<i class="ico sort-up"></i></a>
                         <div class="dropdown-analysis-projections-content dropdown-content">
                             <div class="l-row">
-                                <div class="l-two-third-col"><h4>Major Topics</h4></div>
-                                <div class="l-one-third-col"><h4>Browse by Tag</h4></div>
+                                <div class="l-two-third-col">
+                                    <h4>Major Topics</h4>
+                                </div>
+                                <div class="l-one-third-col">
+                                    <h4>Browse by Tag</h4>
+                                </div>
                             </div>
                             <div class="l-row">
                                 <ul class="l-two-third-col">
-                                    <?php include("adaptive/global/analysis-projections/sub-navigation-menus.inc") ?>
+                                    <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
                                 </ul>
                                 <ul class="l-one-third-col">
                                     <li><a href="/petroleum/browsebytag.cfm">Alphabetical</a></li>

@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3><strong>Highlights</strong></h3>

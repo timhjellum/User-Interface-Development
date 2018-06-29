@@ -1,1 +1,1 @@
-<span class="release-date">Release Date: </span><span class="date">March 9, 2018</span> |  <span class="date">data from: <a href="/survey/#eia-886">Annual Survey of Alternative Fueled Vehicles</a></span>
+<span class="release-date">Release Date: </span><span class="date">March 9, 2018</span><span class="pipe">|</span> <span class="date">data from: <a href="/survey/#eia-886">Annual Survey of Alternative Fueled Vehicles</a></span>

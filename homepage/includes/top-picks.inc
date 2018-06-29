@@ -26,7 +26,7 @@ $topPicksSevenLabel = "Today in Energy";
 /* DO NOT EDIT BELOW */
 ?>
 
-    <div class="dark-top-border-container">
+    <div class="primary">
         <ul>
             <li class="head">
                 <h2>Top Picks</h2>

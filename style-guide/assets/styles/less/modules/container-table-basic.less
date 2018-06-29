@@ -5,7 +5,7 @@
     .basic-table table,
     table.basic_table {
         width: 100%;
-        //margin: 1.2em 0 .2em;
+
         a {
             display: inline-block;
             color: @eia-blue;
@@ -15,8 +15,15 @@
             } 
         }
         caption {
-            padding: 0 10px;
-            font-size: .9375rem * 1.10%;    
+            padding: 0;
+            //font-size: .9375rem * 1.10%;   
+            font-size: .938rem; //15px / 11pt;
+            text-align: left;
+            .bold;
+            caption-side: top;
+            a {
+                color: #189bd7;    
+            }
             em {
                 .normal;
                 text-transform: none;
@@ -38,6 +45,7 @@
                     vertical-align: bottom;
                     border-bottom: 1px solid silver;
                     text-align: right;
+                    padding: 6px 10px 5px 10px;
                     &:first-child {
                         text-align: left;
                     }
@@ -47,7 +55,6 @@
                     &.left {
                         float: left;
                     }
-                    // float right
                     &.right {
                         float: right;
                     }
@@ -68,6 +75,9 @@
                     }
                     &.align-bottom {
                         vertical-align: bottom;
+                    }
+                    em {
+                        .bold;
                     }
                 }
             }

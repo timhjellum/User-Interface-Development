@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3><strong>Highlights</strong></h3>
@@ -42,7 +42,8 @@
                     <li>The direction of monthly average refiner prices for No. 2 distillates varied in January. The average sales price for No. 2 diesel fuel to end users fell 3.0 cents to $3.025 per gallon, while the average wholesale price decreased 1.9
                         cents to $2.979 per gallon. The average price for No. 2 fuel oil sales to end users increased 1.3 cents to $3.591 per gallon, while the average wholesale price for No. 2 fuel oil rose 4.8 cents to $3.059 per gallon.</li>
                     <li>Refiner sales of No. 2 distillates reached 159.7 million gallons per day in January. No. 2 fuel oil sales increased 1.1 million gallons per day (13.6 percent), while sales of No. 2 diesel fuel rose 1.2 million gallons per day (0.8
-                        percent).</li>
+                        percent).
+                    </li>
                 </ul>
             </li>
             <li>

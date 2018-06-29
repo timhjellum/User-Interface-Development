@@ -1,12 +1,17 @@
+@import "less/style-guide/swatch";
+@import "less/style-guide/typography";
+@import "less/style-guide/nav";
+@import "less/style-guide/styles";
+
 /* variables & mixins */
 
-@import "less/global_vars";
-@import "less/global_mixins";
-
-/* base */
-
-@import "less/base";
-@import "less/icons";
+@import "less/base/vars";
+@import "less/base/mixins";
+@import "less/base/base";
+@import "less/base/icons";
+@import "less/base/forms";
+@import "less/base/lists";
+@import "less/base/tables";
 
 /* header / footer / menus */
 
@@ -24,7 +29,6 @@
 
 /* modules */
 
-@import "less/modules/accordion";
 @import "less/modules/banners";
 @import "less/modules/messaging";
 @import "less/modules/dropdown-menu";
@@ -34,12 +38,6 @@
 
 /* start reusable containers */
 
-@import "less/modules/container-primary-shared";
-@import "less/modules/container-secondary-shared";
-@import "less/modules/container-table-shared";
-@import "less/modules/container-zebra";
-@import "less/modules/container-lists";
-@import "less/modules/container-table-basic";
 
 /* end reusable containers */
 
@@ -50,7 +48,6 @@
 @import "less/l2/visualizations";
 @import "less/l2/energy-education";
 @import "less/l2/sub-navigation";
-@import "less/l2/theme";
 
 /* sliders */
 
@@ -65,7 +62,14 @@
 @import "less/home/today-in-energy";
 @import "less/home/layout";
 @import "less/home/data-highlights";
-@import "less/style-guide/swatch";
-@import "less/style-guide/typography";
-@import "less/style-guide/nav";
-@import "less/style-guide/styles";
+
+/* theme */
+
+@import "less/theme/accordion";
+@import "less/theme/two-col";
+@import "less/theme/narrow-col";
+@import "less/theme/basic-table";
+@import "less/theme/zebra";
+@import "less/theme/homepage";
+
+/* @import "../../../node_modules/jquery-ui/themes/base/tabs.css"; */

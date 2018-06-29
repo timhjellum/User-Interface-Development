@@ -10,7 +10,7 @@ $l2id = 5;
     <html>
 
     <head>
-        <?php include('adaptive/global/head/includes/head.inc') ?>
+        <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
         <title>
             <?=$pageTitle?> -
                 <?=$L2T?>
@@ -18,9 +18,9 @@ $l2id = 5;
     </head>
 
     <body>
-        <?php include('adaptive/global/header/includes/header.inc') ?>
+        <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
         <?php include('./includes/sub-navigation.inc'); ?>
-        <?php include('adaptive/global/sliders/multi-card-slider.inc') ?>
+        <?php include('css_rehab/archive/global/sliders/multi-card-slider.inc') ?>
         <div class="l-row">
             <div class="l-two-col">
                 <?php include('./includes/recent-data.inc') ?>
@@ -28,7 +28,7 @@ $l2id = 5;
                 <?php include('./includes/survey-forms-changes-announcements.inc') ?>
             </div>
             <div class="l-two-col">
-                <?php include('adaptive/global/analysis-projections/analysis-projections.inc') ?>
+                <?php include('css_rehab/archive/global/analysis-projections/analysis-projections.inc') ?>
                 <?php include('./includes/released-daily.inc') ?>
                 <?php include('./includes/presentations.inc') ?>
                 <?php include('./includes/upcoming-releases.inc') ?>
@@ -36,7 +36,7 @@ $l2id = 5;
         </div>
         <?php include('./includes/visualizations.inc') ?>
         <?php include('./includes/energy-education.inc'); ?>
-        <?php include('adaptive/global/footer/includes/footer.inc') ?>
+        <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
     </body>
 
     </html>

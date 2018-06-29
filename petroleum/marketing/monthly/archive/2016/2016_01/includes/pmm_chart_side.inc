@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3><strong>Highlights</strong></h3>
@@ -29,7 +29,8 @@
                 <h5 style="margin-bottom:-8px">Motor gasoline</h5>
                 <ul>
                     <li>Refiner monthly average prices for sales of motor gasoline remained on a downward path during October. The average retail price fell 7.0 cents to $1.850 per gallon, while the average wholesale price declined 5.1 cents to $1.558 per
-                        gallon.</li>
+                        gallon.
+                    </li>
                     <li>Overall, sales of finished motor gasoline by refiners fell in October. While total sales fell 3.6 million gallons per day (1.1%) to an average of 325.8 million gallons per day, retail sales increased 300,000 gallons per day (1.2%).
                         Wholesales decreased 3.9 million gallons per day (1.3%). DTW sales accounted for 7.7% of wholesales, while rack and bulk sales explained 86.0% and 6.3%, respectively.</li>
                 </ul>

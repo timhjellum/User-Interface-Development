@@ -1,10 +1,10 @@
 @media @mobile {
 	.title-banner {
-		min-height: 74px;
+		//min-height: 74px;
 		border: none;
 		width: 100%;
-		padding: 0;
-		background-color: shade(white, 4.2%);
+		padding: 1em 2em;
+		//background-color: shade(white, 4.2%);
 		&.bg-commercial {
 			//background-color: shade(white, 4.2%);
 			
@@ -20,12 +20,21 @@
 			text-transform: uppercase;
 			//text-indent: 1.375rem; // 22 pixels
 			font-size: 2rem; // 32px
+			display: block;
+			//font-size: 1.625rem;
+			border-bottom: none;
+			padding: 0;
+			margin: 0;
+			//clear: both;
 		}
 	}
 }
 		
-@media @tablet{
+@media @tablet-landscape {
 	.title-banner {
+		min-height: 74px;
+		padding: 0;
+		background-color: shade(white, 4.2%);
 		h1 {
 			//padding: .25em 0 0 0;
 			margin: 0 0 0 0;
@@ -37,11 +46,8 @@
 			}
 		}
 	}
-}
-
-
-
-@media @laptop {
+//}
+//@media @laptop {
 	.title-banner {
 		border-bottom: solid 1px #ededee;
 		background-repeat: no-repeat;

@@ -1,23 +1,28 @@
 <div class="l-row header report-details">
-        <div class="l-split-wide-col">
-        
-                <a href="/petroleum/reports.cfm">&lsaquo; All Petroleum and Other Liquids Reports</a>
-                <h2>Petroleum Marketing Monthly Archives <?php /* | <em>August 2012</em>*/ ?></h2>
+    <div class="l-split-wide-col">
 
-                <div class="release-dates">
-                        <div class="label-series">Data for June 2017</div><!-- /label-series -->
-<                                <div class="date-container">
-                                        <div class="label">Release Date:</div><!-- /label -->
-                                <div class="date">September 1, 2017</div><!-- /date -->
-                        </div><!-- /date-container -->
-                        <div class="report-download-container">
-                                <a href="pdf/pmmall.pdf"><i class="ico pdf"></i>full report</a>
-                                </div>
-                        </div>
-                </div>
+        <a href="/petroleum/reports.cfm">&lsaquo; All Petroleum and Other Liquids Reports</a>
+        <h2>Petroleum Marketing Monthly Archives
+            <?php /*<span class="pipe">|</span><em>August 2012</em>*/ ?></h2>
+
+        <div class="release-dates">
+            <div class="label-series">Data for June 2017</div>
+            <!-- /label-series -->
+            < <div class="date-container">
+                <div class="label">Release Date:</div>
+                <!-- /label -->
+                <div class="date">September 1, 2017</div>
+                <!-- /date -->
         </div>
-        <div class="l-split-narrow-col gradient">
-                <span class="form-wrapper-outer">
+        <!-- /date-container -->
+        <div class="report-download-container">
+            <a href="pdf/pmmall.pdf"><i class="ico pdf"></i>full report</a>
+        </div>
+    </div>
+</div>
+</div>
+<div class="l-split-narrow-col gradient">
+    <span class="form-wrapper-outer">
                         <h4>Previous Issues</h4>
                         <span class="form-wrapper-inner">
 
@@ -43,7 +48,6 @@
                                         <input type="button" name="go_button" class="arrow_go" id="go_button" value="Go" />
                                 </form>
                         </span>
-                </span>
-        </div>
+    </span>
 </div>
-
+</div>

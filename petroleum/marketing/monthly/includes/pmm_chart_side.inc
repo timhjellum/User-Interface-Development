@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>

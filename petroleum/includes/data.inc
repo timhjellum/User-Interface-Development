@@ -3,7 +3,7 @@
 </p>
 <span class="expand-collapse-container">
     <i class="ico expand"><span>Expand all</span></i>
-    <i class="ico collapse"><span>Collapse all</span></i>
+<i class="ico collapse"><span>Collapse all</span></i>
 </span>
 <div id="accordion" class="accordion">
     <h3>
@@ -16,7 +16,7 @@
                 <a href="/dnav/pet/pet_sum_sndw_dcus_nus_w.htm">Weekly supply estimates</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/weekly/includes/wpsr-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/weekly/includes/releasedate_wpsr.inc') ?></span></li>
 
 
             <li>Production, refinery inputs and utilization, stocks, days of supply, imports, exports, and product supplied estimates for crude oil and petroleum products by U.S., PAD District</li>
@@ -28,8 +28,8 @@
                 <a href="/dnav/pet/pet_sum_snd_d_nus_mbbl_m_cur.htm">Supply and disposition</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span></li>
             <li>Field production, net production, imports, net receipts, stock changes, net inputs, exports, and product supplied statistics for crude oil and petroleum products by U.S., PAD District</li>
         </ul>
         <ul>
@@ -38,9 +38,9 @@
                 <a href="/dnav/pet/pet_sum_crdsnd_k_m.htm">U.S. crude oil supply &amp; disposition</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Detailed statistics for crude oil supply, disposition, and ending stocks. Includes statistics for commercial and Strategic Petroleum Reserve sectors</li>
         </ul>
@@ -50,7 +50,7 @@
                 <a href="/dnav/pet/pet_sum_mkt_dcu_nus_m.htm">Prices, sales volumes &amp; stocks by state</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Annual Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -59,7 +59,7 @@
         <ul>
             <li class="head">
                 Petroleum overview</li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> | <span class="source">data from:</span> <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span><span class="pipe">|</span><span class="source">data from:</span> <a href="/totalenergy/data/monthly/">Monthly Energy Review</a></li>
             <li>(
                 <a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a>)</li>
             <li><span class="formats">Available formats:</span>
@@ -105,7 +105,7 @@
                 <a href="/petroleum/gasdiesel/">Gasoline and diesel fuel update</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/gasdiesel/gdu-release-date.inc') ?></span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/gasdiesel/releasedate.inc') ?></span>
             </li>
             <li>Prices of regular gasoline and on-highway diesel fuel by PAD District.</li>
             <li class="release-schedule">Weekly</li>
@@ -116,7 +116,7 @@
                 <a href="/petroleum/heatingoilpropane/">Heating Oil and Propane Update</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?><span class="release-date">Release Date:</span> <span class="date">October 4, 2017</span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?><span class="release-date">Release Date:</span> <span class="date">October 4, 2017</span>
             </li>
             <li>Weekly heating oil and propane prices; October through March..</li>
             <li class="release-schedule">Weekly</li>
@@ -127,7 +127,7 @@
                 <a href="/dnav/pet/pet_pri_gnd_dcus_nus_w.htm">Weekly retail gasoline and on-highway diesel prices</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/gasdiesel/gdu-release-date.inc') ?></span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/gasdiesel/releasedate.inc') ?></span>
             </li>
             <li>Gasoline prices by grade and formulation and diesel prices by sulfur content for U.S., PAD District, selected states and cities</li>
             <li class="release-schedule">Weekly</li>
@@ -135,7 +135,9 @@
         <ul>
             <li class="head">
                 Motor gasoline retail prices, U.S. city average</li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?></span> | <span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span><span class="pipe">|</span><span class="source">data from:</span>
+                <span
+                    class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></span>
             </li>
             <li><span class="formats">Available formats:</span>
                 <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf ">
@@ -206,7 +208,7 @@
                 <a href="/dnav/pet/pet_pri_wfr_dcus_nus_w.htm">Weekly heating oil &amp; propane prices</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?><span class="release-date">Release Date:</span> <span class="date">October 4, 2017</span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?><span class="release-date">Release Date:</span> <span class="date">October 4, 2017</span>
             </li>
             <li>Residential and wholesale prices of heating oil and propane by U.S., selected PAD Districts and states</li>
             <li class="release-schedule">Weekly, monthly from October - March</li>
@@ -214,7 +216,7 @@
         <ul>
             <li class="head">
                 Refiner petroleum product prices by sales type</li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Annual Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -266,7 +268,7 @@
                 <a href="/dnav/pet/pet_pri_rac2_dcu_nus_m.htm">Refiner acquisition cost of crude oil</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Annual Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -276,7 +278,7 @@
             <li class="head">
                 Domestic crude oil first purchase prices
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Annual Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -298,7 +300,7 @@
             <li class="head">
                 F.O.B. costs of imported crude oil
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Annual Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -320,7 +322,7 @@
             <li class="head">
                 Landed costs of imported crude oil
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Annual Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -344,7 +346,7 @@
                 <a href="/outlooks/steo/realprices/">Real U.S. petroleum prices (past &amp; projected)</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('adaptive/outlooks/steo/includes/release-date_steo.inc') */ ?><span class="release-date">Release Date:</span> <span class="date">April 10, 2018</span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/outlooks/steo/includes/release-date_steo.inc') */ ?><span class="release-date">Release Date:</span> <span class="date">April 10, 2018</span>
             </li>
             <li>Real and nominal U.S. prices for gasoline, heating oil, diesel fuel, and imported crude oil</li>
             <li class="release-schedule">Monthly, annual; past and projected values</li>
@@ -365,9 +367,9 @@
                 <a href="/dnav/pet/pet_crd_crpdn_adc_mbbl_m.htm">Crude oil production</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>by U.S., PAD District and state</span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>by U.S., PAD District and state</span>
             </li>
         </ul>
         <ul>
@@ -448,7 +450,7 @@
                 <a href="/dnav/pet/pet_crd_drill_s1_m.htm">Crude oil and natural gas drilling activity</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/dnav/pet/includes/petmer-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/dnav/pet/includes/releasedate.inc') ?></span></li>
             <li>Rotary rigs in operation, footage drilled, and active well service rig counts</li>
             <li class="release-schedule">Monthly, annual</li>
         </ul>
@@ -458,7 +460,7 @@
                 <a href="/dnav/pet/pet_crd_wellend_s1_m.htm">Crude oil and natural gas exploratory and development wells</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/dnav/pet/includes/petmer-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/dnav/pet/includes/releasedate.inc') ?></span></li>
             <li>Exploratory and development wells drilled for crude oil, natural gas and dry holes; total footage drilled</li>
             <li class="release-schedule">Monthly, annual></li>
         </ul>
@@ -468,7 +470,7 @@
                 <a href="/dnav/pet/pet_crd_wellfoot_s1_a.htm">Footage drilled for crude oil and natural gas wells</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/dnav/pet/includes/petmer-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/dnav/pet/includes/releasedate.inc') ?></span></li>
             <li>Footage drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
             <li class="release-schedule">Annual</li>
         </ul>
@@ -478,7 +480,7 @@
                 <a href="/dnav/pet/pet_crd_welldep_s1_a.htm">Average depth of crude oil and natural gas wells</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/dnav/pet/includes/petmer-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/dnav/pet/includes/releasedate.inc') ?></span></li>
             <li>Average depth of wells drilled by exploratory and development wells and by crude oil, natural gas, and dry holes</li>
             <li class="release-schedule">Annual</li>
         </ul>
@@ -488,7 +490,7 @@
                 <a href="/dnav/pet/pet_crd_wellcost_s1_a.htm">Costs of crude oil and natural gas wells drilled</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/dnav/pet/includes/petmer-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/dnav/pet/includes/releasedate.inc') ?></span></li>
             <li>Per well and per foot costs of crude oil, natural gas, and dry hole wells</li>
             <li class="release-schedule">Annual</li>
         </ul>
@@ -498,7 +500,7 @@
                 <a href="/dnav/pet/pet_crd_seis_s1_m.htm">Maximum U.S. active seismic crew counts</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/dnav/pet/includes/petmer-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/dnav/pet/includes/releasedate.inc') ?></span></li>
             <li> by onshore/offshore/Alaska and dimension</li>
             <li class="release-schedule">Monthly</li>
         </ul>
@@ -508,7 +510,7 @@
                 <a href="/petroleum/production/">Monthly Crude Oil and Natural Gas Production</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('adaptive/petroleum/production/includes/914-release-date.inc') */ ?><span class="release-date">Release Date:</span> <span class="date">March 30, 2018</span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/petroleum/production/includes/releasedate.inc') */ ?><span class="release-date">Release Date:</span> <span class="date">March 30, 2018</span>
             </li>
             <li>Monthly crude oil and natural gas production data collected on Form EIA-914 (Monthly Crude Oil, Lease Condensate, and Natural Gas Production Report)</li>
             <li class="release-schedule">Monthly</li>
@@ -531,7 +533,7 @@
                 <a href="/naturalgas/fieldcode/">Oil and gas county code master list</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('adaptive/naturalgas/fieldcode/includes/fcml-release-date.inc') */ ?>Coming soon...
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/naturalgas/fieldcode/includes/releasedate.inc') */ ?>Coming soon...
 				</li>
 				<li>Comprehensive listing of U.S. oil and gas field names.</li>
 				<li class="release-schedule">Annual</li>
@@ -593,9 +595,9 @@
         <ul>
             <li class="head">
                 Net input</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Net input of crude oil and petroleum products by PAD and Refining Districts</li>
             <li class="sub-list">
@@ -618,9 +620,9 @@
                 <a href="/dnav/pet/pet_pnp_unc_dcu_nus_m.htm">Refinery utilization and capacity</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Gross input to crude distillation units, operable capacity and utilization rate by PAD and Refining Districts</li>
         </ul>
@@ -630,9 +632,9 @@
                 <a href="/dnav/pet/pet_pnp_crq_dcu_nus_m.htm">Crude oil input qualities</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil sulfur content and API</li>
         </ul>
@@ -642,18 +644,18 @@
                 <a href="/dnav/pet/pet_pnp_dwns_dc_nus_mbblpd_m.htm">Downstream processing of fresh feed input</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Catalytic cracking, catalytic hydrocracking, and delayed and fluid coking by PAD and Refining Districts</li>
         </ul>
         <ul>
             <li class="head">
                 Net production</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Net production of finished petroleum products by PAD and Refining Districts</li>
             <li class="sub-list">
@@ -679,9 +681,9 @@
                 <a href="/dnav/pet/pet_pnp_pct_dc_nus_pct_m.htm">Refinery yield</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Percent yield of petroleum products by PAD and Refining Districts</li>
         </ul>
@@ -756,9 +758,9 @@
                 <a href="/dnav/pet/pet_pnp_gp_dc_nus_mbbl_m.htm">Natural gas plant field production</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Net production of petroleum products by PAD and Refining Districts</li>
         </ul>
@@ -779,7 +781,7 @@
                 <a href="/biofuels/biodiesel/production/">Monthly biodiesel production</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('adaptive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') */ ?><span class="release-date">Release Date:</span> <span class="date">March 30, 2018</span>                | <span class="source">data from:</span> <span class="source"><a href="/biofuels/biodiesel/production/">Monthly Biodiesel Production Report</a></span>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') */ ?><span class="release-date">Release Date:</span> <span class="date">March 30, 2018</span>                <span class="pipe">|</span><span class="source">data from:</span> <span class="source"><a href="/biofuels/biodiesel/production/">Monthly Biodiesel Production Report</a></span>
             </li>
             <li>The U.S. Energy Information Administration release showing national and regional monthly biodiesel production. In addition to biodiesel production, data included producer sales, producer stocks, and feedstock inputs.</li>
         </ul>
@@ -830,9 +832,9 @@
                 <a href="/dnav/pet/pet_move_imp_dc_NUS-Z00_mbbl_m.htm">Imports by area of entry</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and petroleum products by U.S., PAD District</li>
         </ul>
@@ -842,9 +844,9 @@
                 <a href="/dnav/pet/pet_move_imp2_dc_R10-Z00_mbbl_m.htm">Imports by processing area</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and petroleum products by U.S., PAD District</li>
         </ul>
@@ -854,9 +856,9 @@
                 <a href="/dnav/pet/pet_move_impcus_a2_nus_ep00_im0_mbbl_m.htm">U.S. imports by country of origin</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and petroleum products by country of origin</li>
         </ul>
@@ -866,9 +868,9 @@
                 <a href="/dnav/pet/pet_move_impcp_a2_r10_ep00_ip0_mbbl_m.htm">PAD District imports by country of origin</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and unfinished oils by country of origin</li>
         </ul>
@@ -878,7 +880,7 @@
                 <a href="/petroleum/imports/companylevel/">Company level imports</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li>Crude oil and total petroleum imports by the top 15 countries (monthly) and a summary of crude oil imports by company from the Persian Gulf (year-to-date).</li>
         </ul>
         <ul>
@@ -887,9 +889,9 @@
                 <a href="/dnav/pet/pet_move_res_dc_nus-Z00_mbbl_m.htm">Residual fuel imports by state of entry</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li> by U.S., PAD District, state</li>
         </ul>
@@ -899,7 +901,7 @@
                 <a href="/dnav/pet/pet_move_ipct_k_m.htm">Percentages of total imported crude oil by API gravity</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -908,9 +910,9 @@
                 <a href="/dnav/pet/pet_move_exp_dc_NUS-Z00_mbbl_m.htm">Exports</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li> by U.S., PAD District</li>
         </ul>
@@ -920,9 +922,9 @@
                 <a href="/dnav/pet/pet_move_expc_a_EP00_EEX_mbbl_m.htm">Exports by destination</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li> by country of export destination</li>
         </ul>
@@ -932,18 +934,18 @@
                 <a href="/dnav/pet/pet_move_neti_a_EP00_IMN_mbblpd_m.htm">U.S. net imports by country</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and petroleum products by country and region</li>
         </ul>
         <ul>
             <li class="head">
                 Movements between PAD Districts</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li class="sub-list">
                 <ul>
@@ -968,10 +970,8 @@
                 <a href="/dnav/pet/PET_MOVE_RAILNA_A_EPC0_RAIL_MBBL_M.htm">Movements of Crude Oil and Selected Products by Rail</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
-            <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
-            </li>
+            <!-- li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li -->
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span></li>
         </ul>
         <ul>
             <li class="head">
@@ -979,15 +979,14 @@
                 <a href="/dnav/pet/pet_move_netr_d_r10-z0p_VNR_mbbl_m.htm">Net receipts of crude oil and petroleum products by pipeline, tanker, barge, and rail</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
-            <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+            <!-- li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li -->
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
         </ul>
         <ul>
             <li class="head">
                 F.O.B. costs of imported crude oil</li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -1008,7 +1007,7 @@
         <ul>
             <li class="head">
                 Landed costs of imported crude oil</li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Annual Release Date:</span> <span class="date">June 1, 2016</span>
             </li>
@@ -1048,9 +1047,9 @@
                 <a href="/dnav/pet/pet_stoc_ts_dcu_nus_m.htm">Stocks of motor gasoline, distillate fuel oil, residual fuel oil, propane, and propylene</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Stocks of selected petroleum products by U.S., PAD District, and sub-PAD District</li>
         </ul>
@@ -1060,9 +1059,9 @@
                 <a href="/dnav/pet/pet_stoc_typ_d_nus_SAE_mbbl_m.htm">Stocks by type</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and petroleum products by U.S., PAD District</li>
         </ul>
@@ -1072,9 +1071,9 @@
                 <a href="/dnav/pet/pet_stoc_st_dc_NUS_mbbl_m.htm">Refinery, bulk terminal, and natural gas plant stocks by state</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and petroleum products</li>
         </ul>
@@ -1084,8 +1083,8 @@
                 <a href="/dnav/pet/pet_stoc_ref_dc_nus_mbbl_m.htm">Refinery stocks</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Crude oil and petroleum products by U.S., PAD and Refining District</li>
         </ul>
@@ -1095,9 +1094,9 @@
                 <a href="/dnav/pet/pet_stoc_cu_s1_m.htm">Crude oil stocks at tank farms & pipelines</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li> by U.S., PAD District, and Cushing, Oklahoma</li>
         </ul>
@@ -1107,9 +1106,9 @@
                 <a href="/dnav/pet/pet_stoc_gp_dcu_nus_m.htm">Natural gas plant stocks</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li>Petroleum products by U.S., PAD and Refining District</li>
         </ul>
@@ -1158,9 +1157,9 @@
                 <a href="/dnav/pet/pet_cons_psup_dc_nus_mbbl_m.htm">Product supplied</a>
 
             </li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/monthly/includes/psm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/monthly/includes/releasedate.inc') ?></span></li>
             <li class="include">
-                <span class="release-date">Release Date:</span> <span class="date"><?php include('adaptive/petroleum/supply/annual/volume1/includes/psa-release-date.inc') ?></span>
+                <span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/supply/annual/volume1/includes/releasedate.inc') ?></span>
             </li>
             <li> by U.S., PAD District</li>
         </ul>
@@ -1170,7 +1169,7 @@
                 <a href="/dnav/pet/pet_cons_prim_dcu_nus_m.htm">Prime supplier sales volumes</a>
 
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('adaptive/petroleum/marketing/prime/includes/psr-release-date.inc') */ ?>Coming soon...
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php /* include('css_rehab/archive/petroleum/marketing/prime/includes/releasedate.inc') */ ?>Coming soon...
 				</li>
 				<li>
 					<span class="release-date">Annual Release Date:</span> <span class="date">April 1, 2013</span>
@@ -1180,7 +1179,7 @@
         <ul>
             <li class="head">
                 Refiner sales volumes</li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/marketing/monthly/includes/pmm-release-date.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/marketing/monthly/includes/releasedate.inc') ?></span></li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">June 1, 2016</span> by U.S., PAD District, state and sales type</li>
             <li class="sub-list">
@@ -1201,7 +1200,7 @@
             <li class="head">
                 Sales of fuel oil and kerosene
             </li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/fueloilkerosene/includes/release-date_foks.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc') ?></span></li>
             <li> by U.S., PAD District, state</li>
             <li class="sub-list">
                 <ul>
@@ -1223,7 +1222,7 @@
         <ul>
             <li class="head">
                 Adjusted sales of fuel oil and kerosene</li>
-            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('adaptive/petroleum/fueloilkerosene/includes/release-date_foks.inc') ?></span></li>
+            <li class="include"><span class="release-date">Annual Release Date:</span> <span class="date"><?php include('css_rehab/archive/petroleum/fueloilkerosene/includes/release-date_foks.inc') ?></span></li>
             <li> by U.S., PAD District, state</li>
             <li class="sub-list">
                 <ul>

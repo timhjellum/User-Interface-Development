@@ -3,11 +3,98 @@
 	.l-narrow-col {
 		.secondary-alt,
 		.secondary {
+			margin-bottom: 2em;
+			ul {
+				li {
+					&.list-item {
+						ul {
+							//padding: 0 0 0 17px;
+						}
+					}
+					&.sub-head {
+						margin: 8px 0 10px 0;
+					}
+					&.description {
+						margin: 8px 0 10px 0;
+					}
+					&.image {
+						img {
+							width: 100%;
+						}
+						margin-bottom: 1em;
+					}
+					&.icon {
+						a {
+							text-decoration: none;
+							width: 100%;
+							display: table;
+							.ico {
+								float: right;
+							}
+							span {
+								&.date {
+									font-style: normal;
+									color: #333;
+									position: absolute;
+									display: table;
+									text-decoration: none;						
+								}
+							}
+							span {
+								&.link-label {
+									margin-left: 60px;
+									display: block;
+								}
+							}
+							&:hover {
+								text-decoration: underline;
+								.ico {
+									text-decoration: underline;
+								}
+								span {
+									&.date {
+										text-decoration: none;									
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			&>ul {
 				padding: 6px;
 				&>li {
-					.font;
-					font-size: 0.688rem;
+					a {
+						span {
+							&.link-label {
+								//margin-left: 60px;
+								display: table-cell;
+							}
+						}
+						em {
+							.italic;
+							color: #333;
+						}
+						span {
+							&.date {
+								font-style: normal;
+								color: #333;
+								text-decoration: none;
+								display: table-cell;
+								padding-right: 12px;				
+							}
+						}
+						&:hover {
+							span {
+								&.date {
+									text-decoration: underline solid white;
+								}
+							}
+							em {
+								text-decoration: underline solid white;
+							}
+						}
+					}
 					&.head {
 						margin-bottom: 0.750rem; // 12 pixels
 						width: 100%;
@@ -24,12 +111,6 @@
 							margin: 0;
 						}
 					}
-
-				}
-			}
-			ul {
-				padding: 6px;
-				li {
 					&.sub-head {
 						line-height: 1.3em;
 						font-size: 0.750rem; // 12 pixels
@@ -49,6 +130,28 @@
 			border-top: 4px solid @eia-green;
 		}
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //	.l-col,
 	.l-full-width-col,
@@ -100,28 +203,26 @@
 						font-size: 0.813rem; // 13 pixels
 						a {
 							font-size: 0.813rem; // 13 pixels
+							&:after { 
+								content:"\00a0\203A";
+							} 
 						}
 					}
-
 				}
 			}
 		}
 	}
 }
+
+@media @tablet {
+	.secondary-alt,
+	.secondary {
+		margin-bottom: 3em;
+	}
+}
 @media @laptop {
-    .dark-top-border-container {
-         ul {
-            li  {
-                font-size: 0.8rem; // 12 pixels
-                &.date {
-                    font-size: 0.7rem; // 11 pixels   
-                }
-                &.head {
-                    h2  {
-                        font-size: 1.125rem; // 18 pixels
-                    }
-                }
-            }
-        }        
-    }
+	.secondary-alt,
+	.secondary {
+		margin-bottom: 1em;
+	}
 }

@@ -1,4 +1,4 @@
-<div class="main-content-container">
+<div class="primary-main">
     <h1>Today in Energy<span class="date">Posted September 14, 2017</span></h1>
     <h2>
         <a href="/">EIA projects 28% increase in world energy use by 2040</a>

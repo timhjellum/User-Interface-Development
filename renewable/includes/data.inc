@@ -14,83 +14,66 @@
             <li>
                 <span class="release-date">Release Date:</span>
                 <span class="date">
-							<?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
-						</span> |
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
+</span><span class="pipe">|</span>
                 <span class="source">data from:</span>
-                <span class="source">
-							<a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
-						</span>
+
+                <a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
             </li>
             <li>
                 <span class="source">Interactive data from:</span>
                 <a href="/totalenergy/data/browser/">Total Energy Data Browse</li>
 
-					<li class="list-item">
-						<ul>
-							<li>Renewable energy production and consumption by source</li>
-							<li class="formats">Available formats:
-								<a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" class="ico_pdf">
-									<!-- span hidden="Renewable energy production and consumption by source"></span -->
-									<i class="ico pdf">
-										<span>PDF</span>
-									</i>
-								</a>
-                <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.01&amp;freq=m" class="ico_xls">
-                    <!-- span hidden="Renewable energy production and consumption by source"></span -->
-                    <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                </a> |
-                <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001">
-                    <!-- span hidden="Renewable energy production and consumption by source"></span -->
-                    <i class="ico interactive">
-										<span>Interactive</span>
-									</i>
-                </a>
+<li class="list-item">
+<ul>
+<li>Renewable energy production and consumption by source</li>
+<li class="formats">Available formats:
+<a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" alt="Renewable energy production and consumption by source"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.01&amp;freq=m" alt="Renewable energy production and consumption by source"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001" alt="Renewable energy production and consumption by source"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
             </li>
         </ul>
         <ul>
             <li>Renewable energy production and total energy production by state</li>
             <li class="formats">Available formats:
-                <a href="/state/seds/sep_prod/SEDS_Production_Report.pdf" class="ico_pdf">
-                    <!-- span hidden="Renewable energy production and total energy production by state"></span -->
-                    <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                </a>
+                <a href="/state/seds/sep_prod/SEDS_Production_Report.pdf" alt="Renewable energy production and total energy production by state"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
             </li>
             <ul>
                 <li>Total energy consumption of renewable and nonrenewable energy sources</li>
                 <li class="formats">Available formats:
-                    <a href="/totalenergy/data/monthly/pdf/sec1_7.pdf" class="ico_pdf">
-                        <!-- span hidden="Total energy consumption of renewable and nonrenewable energy sources"></span -->
-                        <i class="ico pdf">
-											<span>PDF</span>
-										</i>
-                    </a>
-                    <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.03&amp;freq=m" class="ico_xls">
-                        <!-- span hidden="Total energy consumption of renewable and nonrenewable energy sources"></span -->
-                        <i class="ico xls">
-											<span>XLS</span>
-										</i>
-                    </a> |
-                    <a href="/totalenergy/data/browser/?tbl=T01.03#/?f=M&start=200001">
-                        <!-- span hidden="Total energy consumption of renewable and nonrenewable energy sources"></span -->
-                        <i class="ico interactive">
-											<span>Interactive</span>
-										</i>
-                    </a>
+                    <a href="/totalenergy/data/monthly/pdf/sec1_7.pdf" alt="Total energy consumption of renewable and nonrenewable energy sources"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                    <a href="/totalenergy/data/browser/xls.cfm?tbl=T01.03&amp;freq=m" alt="Total energy consumption of renewable and nonrenewable energy sources"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                    <a href="/totalenergy/data/browser/?tbl=T01.03#/?f=M&start=200001" alt="Total energy consumption of renewable and nonrenewable energy sources"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                 </li>
             </ul>
             <ul>
                 <li>Renewable energy consumption and total energy consumption by state</li>
                 <li class="formats">Available formats:
-                    <a href="/state/seds/sep_use/notes/use_print.pdf" class="ico_pdf">
-                        <!-- span hidden="Renewable energy consumption and total energy consumption by state"></span -->
-                        <i class="ico pdf">
-											<span>PDF</span>
-										</i>
-                    </a>
+                    <a href="/state/seds/sep_use/notes/use_print.pdf" alt="Renewable energy consumption and total energy consumption by state"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
                 </li>
             </ul>
             <ul>
@@ -99,70 +82,52 @@
                     <ul>
                         <li>Residential and commercial </li>
                         <li class="formats">Available formats:
-                            <a href="/totalenergy/data/monthly/pdf/sec10_4.pdf" class="ico_pdf">
-                                <!-- span hidden="Renewable energy consumption by sector   Residential and commercial"></span -->
-                                <i class="ico pdf">
-													<span>PDF</span>
-												</i>
-                            </a>
-                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02A&amp;freq=m" class="ico_xls">
-                                <!-- span hidden="Renewable energy consumption by sector   Residential and commercial"></span -->
-                                <i class="ico xls">
-													<span>XLS</span>
-												</i>
-                            </a> |
-                            <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001">
-                                <!-- span hidden="Renewable energy consumption by sector   Residential and commercial"></span -->
-                                <i class="ico interactive">
-													<span>Interactive</span>
-												</i>
-                            </a>
+                            <a href="/totalenergy/data/monthly/pdf/sec10_4.pdf" alt="Renewable energy consumption by sector   Residential and commercial"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02A&amp;freq=m" alt="Renewable energy consumption by sector   Residential and commercial"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                            <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001" alt="Renewable energy consumption by sector   Residential and commercial"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                         </li>
                     </ul>
                     <ul>
                         <li>Industrial and transportation </li>
                         <li class="formats">Available formats:
-                            <a href="/totalenergy/data/monthly/pdf/sec10_5.pdf" class="ico_pdf">
-                                <!-- span hidden="Renewable energy consumption by sector    Industrial and transportation"></span -->
-                                <i class="ico pdf">
-													<span>PDF</span>
-												</i>
-                            </a>
-                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02B&amp;freq=m" class="ico_xls">
-                                <!-- span hidden="Renewable energy consumption by sector    Industrial and transportation"></span -->
-                                <i class="ico xls">
-													<span>XLS</span>
-												</i>
-                            </a> |
-                            <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001">
-                                <!-- span hidden="Renewable energy consumption by sector    Industrial and transportation"></span -->
-                                <i class="ico interactive">
-													<span>Interactive</span>
-												</i>
-                            </a>
+                            <a href="/totalenergy/data/monthly/pdf/sec10_5.pdf" alt="Renewable energy consumption by sector    Industrial and transportation"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02B&amp;freq=m" alt="Renewable energy consumption by sector    Industrial and transportation"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                            <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001" alt="Renewable energy consumption by sector    Industrial and transportation"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                         </li>
                     </ul>
                     <ul>
                         <li>Electric power</li>
                         <li class="formats">Available formats:
-                            <a href="/totalenergy/data/monthly/pdf/sec10_6.pdf" class="ico_pdf">
-                                <!-- span hidden="Renewable energy consumption by sector    Electric power"></span -->
-                                <i class="ico pdf">
-													<span>PDF</span>
-												</i>
-                            </a>
-                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02C&amp;freq=m" class="ico_xls">
-                                <!-- span hidden="Renewable energy consumption by sector    Electric power"></span -->
-                                <i class="ico xls">
-													<span>XLS</span>
-												</i>
-                            </a> |
-                            <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001">
-                                <!-- span hidden="Renewable energy consumption by sector    Electric power"></span -->
-                                <i class="ico interactive">
-													<span>Interactive</span>
-												</i>
-                            </a>
+                            <a href="/totalenergy/data/monthly/pdf/sec10_6.pdf" alt="Renewable energy consumption by sector    Electric power"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.02C&amp;freq=m" alt="Renewable energy consumption by sector    Electric power"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                            <a href="/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001" alt="Renewable energy consumption by sector    Electric power"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                         </li>
                     </ul>
                 </li>
@@ -174,17 +139,15 @@
                 Renewable electricity
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
                     <li class="formats">Available formats:
-                        <a href="/electricity/annual/xls/epa_04_03.xlsx" class="ico_xls">
-                            <!-- span hidden="Generation capacity"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a>
+                        <a href="/electricity/annual/xls/epa_04_03.xlsx" alt="Generation capacity"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
                     </li>
                 </ul>
                 <ul>
@@ -193,17 +156,15 @@
                     </li>
                     <li>Capacity by energy source showing renewables' share </li>
                     <li class="formats">Available formats:
-                        <a href="/electricity/annual/xls/epa_03_01_b.xlsx" class="ico_xls">
-                            <!-- span hidden="net generation from renewable sources"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a>
+                        <a href="/electricity/annual/xls/epa_03_01_b.xlsx" alt="net generation from renewable sources"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="http://www.eia.gov/electricity/annual/html/epa_03_01_b.html">Net generation from renewable sources</a>
+                        <a href="/electricity/annual/html/epa_03_01_b.html">Net generation from renewable sources</a>
                     </li>
                 </ul>
             </li>
@@ -243,12 +204,12 @@
             <li>
                 <span class="release-date">Release Date:</span>
                 <span class="date">
-							<?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
-						</span> |
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
+</span><span class="pipe">|</span>
                 <span class="source">data from:</span>
                 <span class="source">
-							<a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
-						</span>
+<a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
+</span>
                 <li>
                     <span class="source">Interactive data from:</span>
                     <a href="/totalenergy/data/browser/">Total Energy Data Browser</a>
@@ -257,47 +218,35 @@
                     <ul>
                         <li>Fuel ethanol overview</li>
                         <li class="formats">Available formats:
-                            <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" class="ico_pdf">
-                                <!-- span hidden="Fuel ethanol overview"></span -->
-                                <i class="ico pdf">
-											<span>PDF</span>
-										</i>
-                            </a>
-                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.03&amp;freq=m" class="ico_xls">
-                                <!-- span hidden="Fuel ethanol overview"></span -->
-                                <i class="ico xls">
-											<span>XLS</span>
-										</i>
-                            </a> |
-                            <a href="/totalenergy/data/browser/?tbl=T10.03#/?f=M&start=200001">
-                                <!-- span hidden="Fuel ethanol overview"></span -->
-                                <i class="ico interactive">
-											<span>Interactive</span>
-										</i>
-                            </a>
+                            <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" alt="Fuel ethanol overview"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.03&amp;freq=m" alt="Fuel ethanol overview"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                            <a href="/totalenergy/data/browser/?tbl=T10.03#/?f=M&start=200001" alt="Fuel ethanol overview"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                         </li>
                     </ul>
                     <ul>
                         <li>Biodiesel and other renewable fuels overview</li>
                         <li class="formats">Available formats:
-                            <a href="/totalenergy/data/monthly/pdf/sec10_8.pdf" class="ico_pdf">
-                                <!-- span hidden="Biodiesel and other renewable fuels overview"></span -->
-                                <i class="ico pdf">
-											<span>PDF</span>
-										</i>
-                            </a>
-                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.04&amp;freq=m" class="ico_xls">
-                                <!-- span hidden="Biodiesel and other renewable fuels overview"></span -->
-                                <i class="ico xls">
-											<span>XLS</span>
-										</i>
-                            </a> |
-                            <a href="/beta/MER/index.cfm?tbl=T10.04#/?f=M&amp;start=200001">
-                                <!-- span hidden="Biodiesel and other renewable fuels overview"></span -->
-                                <i class="ico interactive">
-											<span>Interactive</span>
-										</i>
-                            </a>
+                            <a href="/totalenergy/data/monthly/pdf/sec10_8.pdf" alt="Biodiesel and other renewable fuels overview"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                            <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.04&amp;freq=m" alt="Biodiesel and other renewable fuels overview"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                            <a href="/beta/MER/index.cfm?tbl=T10.04#/?f=M&amp;start=200001" alt="Biodiesel and other renewable fuels overview"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                         </li>
                     </ul>
                 </li>
@@ -308,93 +257,73 @@
         </ul>
         <ul>
             <li class="head">Monthly biodiesel production</li>
-            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('adaptive/biofuels/biomass/includes/biofuels-release-date.inc') ?></span> | <span class="source">data from:</span> <a href="/biofuels/biodiesel/production/">Monthly Biodiesel Production Report</a></li>
+            <li class="include"><span class="release-date">Release Date: </span><span class="date"><?php include('css_rehab/archive/biofuels/biomass/includes/releasedate.inc') ?></span><span class="pipe">|</span><span class="source">data from:</span> <a href="/biofuels/biodiesel/production/">Monthly Biodiesel Production Report</a></li>
         </ul>
         <ul>
             <li class="list-item">
                 <ul>
                     <li>Production capacity and production</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table1.pdf" class="ico_pdf">
-                            <!-- span hidden="Production capacity and production"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table1.xls" class="ico_xls">
-                            <!-- span hidden="Production capacity and production"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a>
+                        <a href="/biofuels/biodiesel/production/table1.pdf" alt="Production capacity and production"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table1.xls" alt="Production capacity and production"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
                     </li>
                 </ul>
                 <ul>
                     <li>Production, sales, and stocks</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table2.pdf" class="ico_pdf">
-                            <!-- span hidden="Production, sales, and stocks"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table2.xls" class="ico_xls">
-                            <!-- span hidden="Production, sales, and stocks"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a>
+                        <a href="/biofuels/biodiesel/production/table2.pdf" alt="Production, sales, and stocks"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table2.xls" alt="Production, sales, and stocks"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
                     </li>
                 </ul>
                 <ul>
                     <li>Inputs to biodiesel production</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table3.pdf" class="ico_pdf">
-                            <!-- span hidden="Inputs to biodiesel production"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table3.xls" class="ico_xls">
-                            <!-- span hidden="Inputs to biodiesel production"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a>
+                        <a href="/biofuels/biodiesel/production/table3.pdf" alt="Inputs to biodiesel production"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table3.xls" alt="Inputs to biodiesel production"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
                     </li>
                 </ul>
                 <ul>
                     <li>Producers and production capacity, by state</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table4.pdf" class="ico_pdf">
-                            <!-- span hidden="Producers and production capacity, by state"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table4.xls" class="ico_xls">
-                            <!-- span hidden="Producers and production capacity, by state"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a>
+                        <a href="/biofuels/biodiesel/production/table4.pdf" alt="Producers and production capacity, by state"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table4.xls" alt="Producers and production capacity, by state"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
                     </li>
                 </ul>
                 <ul>
                     <li>Production by Petroleum Administration for Defense District </li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table5.pdf" class="ico_pdf">
-                            <!-- span hidden="Production by Petroleum Administration for Defense District"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table5.xls" class="ico_xls">
-                            <!-- span hidden="Production by Petroleum Administration for Defense District"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a>
+                        <a href="/biofuels/biodiesel/production/table5.pdf" alt="Production by Petroleum Administration for Defense District"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table5.xls" alt="Production by Petroleum Administration for Defense District"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
                     </li>
                 </ul>
             </li>
@@ -426,8 +355,8 @@
             <li>
                 <span class="release-date">Release Date:</span>
                 <span class="date">
-							<?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
-						</span> |
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
+</span><span class="pipe">|</span>
                 <span class="source">data from:</span>
 
                 <a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
@@ -435,12 +364,10 @@
             </li>
             <!-- li> (<a href="/totalenergy/data/monthly/#petroleum">more on petroleum</a></li -->
             <li class="formats">Available formats:
-                <a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" class="ico_pdf">
-                    <!-- span hidden="Geothermal energy consumption"></span -->
-                    <i class="ico pdf">
-								<span>PDF</span>
-							</i>
-                </a>
+                <a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" alt="Geothermal energy consumption"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
         </ul>
     </div>
 
@@ -454,21 +381,18 @@
         <ul>
             <li class="head">
 
-                <a href="/electricity/annual/html/epa_03_14.html">
-                    <!-- span hidden="Hydropower"></span -->Generation</a>
+                <a href="/electricity/annual/html/epa_03_14.html" alt="Hydropower"></span -->Generation</a>
 
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
             </li>
             <li>Net generation from hydroelectric (conventional) power by state by sector</li>
             <li class="formats">Available formats:
-                <a href="/electricity/annual/xls/epa_03_14.xlsx" class="ico_xls">
-                    <!-- span hidden="Hydropower generation"></span -->
-                    <i class="ico xls">
-								<span>XLS</span>
-							</i>
-                </a>
+                <a href="/electricity/annual/xls/epa_03_14.xlsx" alt="Hydropower generation"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a>
             </li>
         </ul>
     </div>
@@ -486,7 +410,7 @@
             </li>
             <li>
                 <span class="release-date">Release Date:
-							<span class="date">July 28, 2017 </span>
+<span class="date">July 28, 2017 </span>
             </li>
             <li class="formats">Available formats:
                 <a href="/renewable/annual/solar_photo/">Solar Photovoltaic Cell/Module Shipments Report</a>
@@ -495,28 +419,24 @@
                 <ul>
                     <li>Number of companies involved in photovoltaic activities and number of employees</li>
                     <li class="formats">Available formats:
-                        <a href="/renewable/annual/solar_photo/pdf/table1.pdf" class="ico_pdf">
-                            <!-- span hidden="Number of companies involved in photovoltaic activities and number of employees"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
+                        <a href="/renewable/annual/solar_photo/pdf/table1.pdf" alt="Number of companies involved in photovoltaic activities and number of employees"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
                 </ul>
                 <ul>
                     <li>Annual photovoltaic module shipments, back to 2006</li>
                     <li class="formats">Available formats:
-                        <a href="/renewable/annual/solar_photo/pdf/table3.pdf" class="ico_pdf">
-                            <!-- span hidden="Annual photovoltaic module shipments, back to 2006"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
+                        <a href="/renewable/annual/solar_photo/pdf/table3.pdf" alt="Annual photovoltaic module shipments, back to 2006"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
                 </ul>
                 <ul>
                     <li>
                         <a href="/totalenergy/data/annual/showtext.cfm?t=ptb1008">Photovoltaic Cell and Module Shipments by Type, Trade, and Prices</a>, 1982-2010</li>
                     <li class="include">
-                        <?php include('adaptive/totalenergy/data/annual/includes/new-aer-header.inc') ?>
+                        <?php include('css_rehab/archive/totalenergy/data/annual/includes/releasedate.inc') ?>
                     </li>
                 </ul>
                 </li>
@@ -530,7 +450,7 @@
                             <a href="/renewable/monthly/solar_photo/">Monthly Solar Photovoltaic Module Shipments Report</a>
                         </li>
                         <li class="include">
-                            <?php include('adaptive/renewable/monthly/solar_photo/includes/renewable-header.inc') ?>
+                            <?php include('css_rehab/archive/renewable/monthly/solar_photo/includes/releasedate.inc') ?>
                         </li>
                     </ul>
                 </li>
@@ -549,36 +469,34 @@
                 Net generation from wind by state by sector
             </li>
             <li class="include">
-                <?php include('adaptive/electricity/monthly/electricity-data-browser.inc') ?>
+                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
                     <li>Annual (back to 2001)</li>
                     <li class="formats">Available formats:
                         <!-- span class="beta" -->
-                        <a href="/electricity/data/browser/#/topic/0?agg=1,0,2&amp;fuel=008&amp;geo=vvvvvvvvvvvvo&amp;sec=o3g&amp;linechart=ELEC.GEN.WND-US-99.A~ELEC.GEN.WND-IA-99.A~ELEC.GEN.WND-TX-99.A&amp;columnchart=ELEC.GEN.WND-US-99.A~ELEC.GEN.WND-IA-99.A~ELEC.GEN.WND-TX-99.A&amp;map=ELEC.GEN.WND-US-99.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0">
-                            <!-- span hidden="wind annual (back to 2001)"></span -->
-                            <i class="ico interactive">
-										<span>Interactive</span>
-									</i>
-                        </a>
+                        <a href="/electricity/data/browser/#/topic/0?agg=1,0,2&amp;fuel=008&amp;geo=vvvvvvvvvvvvo&amp;sec=o3g&amp;linechart=ELEC.GEN.WND-US-99.A~ELEC.GEN.WND-IA-99.A~ELEC.GEN.WND-TX-99.A&amp;columnchart=ELEC.GEN.WND-US-99.A~ELEC.GEN.WND-IA-99.A~ELEC.GEN.WND-TX-99.A&amp;map=ELEC.GEN.WND-US-99.A&amp;freq=A&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;pin=&amp;rse=0&amp;maptype=0"
+                            alt="wind annual (back to 2001)"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                 </ul>
                 <ul>
                     <li>Monthly (back to 2001)</li>
                     <li class="formats">Available formats:
                         <!-- span class="beta" -->
-                        <a href="/electricity/data/browser/#/topic/0?agg=1,0,2&amp;fuel=008&amp;geo=vvvvvvvvvvvvo&amp;sec=o3g&amp;linechart=ELEC.GEN.WND-US-99.M~ELEC.GEN.WND-IA-99.M~ELEC.GEN.WND-TX-99.M&amp;columnchart=ELEC.GEN.WND-US-99.M~ELEC.GEN.WND-IA-99.M~ELEC.GEN.WND-TX-99.M&amp;map=ELEC.GEN.WND-US-99.M&amp;freq=M&amp;start=200101&amp;end=201407&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin=">
-                            <!-- span hidden="wind monthly (back to 2001)"></span -->
-                            <i class="ico interactive">
-										<span>Interactive</span>
-									</i>
-                        </a>
+                        <a href="/electricity/data/browser/#/topic/0?agg=1,0,2&amp;fuel=008&amp;geo=vvvvvvvvvvvvo&amp;sec=o3g&amp;linechart=ELEC.GEN.WND-US-99.M~ELEC.GEN.WND-IA-99.M~ELEC.GEN.WND-TX-99.M&amp;columnchart=ELEC.GEN.WND-US-99.M~ELEC.GEN.WND-IA-99.M~ELEC.GEN.WND-TX-99.M&amp;map=ELEC.GEN.WND-US-99.M&amp;freq=M&amp;start=200101&amp;end=201407&amp;ctype=linechart&amp;ltype=pin&amp;rtype=s&amp;maptype=0&amp;rse=0&amp;pin="
+                            alt="wind monthly (back to 2001)"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                 </ul>
                 </li>
                 <li>
                     <a href="/electricity/annual/html/epa_04_02_b.html">Electric net summer capacity by wind and other renewable sources</a>, annual (back to 2002)</li>
                 <li class="include">
-                    <?php include('adaptive/electricity/annual/epa-release-date.inc') ?>
+                    <?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
                 </li>
         </ul>
     </div>
@@ -594,7 +512,7 @@
             <li class="head">
                 Alternative fueled and hybrid vehicles (on-road)</li>
             <li class="list-item">
-                <?php include('adaptive/renewable/afv/afv-release-date.inc') ?>
+                <?php include('css_rehab/archive/renewable/afv/releasedate.inc') ?>
             </li>
             <li>Data on alternative fuel vehicle (AFV) supply and fuel use and number of vehicles for four types of vehicle fleets: federal government, state government, transit agencies, and fuel providers; fleet &amp; fuel data back to 2003, supplier data
                 back to 1994 </li>
@@ -617,32 +535,25 @@
                     <li>
                         <span class="release-date">Release Date:</span>
                         <span class="date">
-									<?php include('adaptive/totalenergy/data/monthly/includes/new-mer-header.inc') ?>
-								</span> |
+<?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
+</span><span class="pipe">|</span>
                         <span class="source">data from:</span>
-                        <span class="source">
-									<a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
-								</span>
+                        <a href="/totalenergy/data/monthly/">Monthly Energy Review</a>
+
                     </li>
                     <li class="formats">Available formats:
-                        <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" class="ico_pdf">
-                            <!-- span hidden="Fuel ethanol overview"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.03&amp;freq=m" class="ico_xls">
-                            <!-- span hidden="Fuel ethanol overview"></span -->
-                            <i class="ico xls">
-										<span>XLS</span>
-									</i>
-                        </a> |
-                        <a href="/totalenergy/data/browser/?tbl=T10.03#/?f=M&start=200001">
-                            <!-- span hidden="Fuel ethanol overview"></span -->
-                            <i class="ico interactive">
-										<span>Interactive</span>
-									</i>
-                        </a>
+                        <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" alt="Fuel ethanol overview"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T10.03&amp;freq=m" alt="Fuel ethanol overview"><i class="ico xls">
+<span>XLS</span>
+</i>
+</a><span class="pipe">|</span>
+                        <a href="/totalenergy/data/browser/?tbl=T10.03#/?f=M&start=200001" alt="Fuel ethanol overview"><i class="ico interactive">
+<span>Interactive</span>
+</i>
+</a>
                     </li>
                 </ul>
             </li>
@@ -651,75 +562,59 @@
             </li>
             <li>
                 <span class="release-date">Release Date: </span>
-                <span class="date">June 20, 2017 </span> | data from:
-                <span class="note">
-							<a href="/survey/#eia-819">Form EIA-819M Monthly Oxygenate Report</a>
-						</span>
-            </li>
+                <span class="date">June 20, 2017</span><span class="pipe">|</span><span class="source">data from:</span> <a href="/survey/#eia-819">Form EIA-819M Monthly Oxygenate Report</a></li>
             <li>Production capacity data for all operating U.S. fuel ethanol production plants </li>
             <li class="include">
-                <?php include('adaptive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ?>
+                <?php include('css_rehab/archive/biofuels/biodiesel/production/includes/biodiesel-release-date.inc') ?>
             </li>
             <li class="list-item">
                 <ul>
                     <li>Production capacity and production</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table1.pdf" class="ico_pdf">
-                            <!-- span hidden="Production capacity and production"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table1.xls" class="ico_xls">
-                            <!-- span hidden="Production capacity and production"></span -->XLS</a>
+                        <a href="/biofuels/biodiesel/production/table1.pdf" alt="Production capacity and production"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table1.xls" alt="Production capacity and production"><i class="ico xls"><span>XLS</span>
+</i></a>
                 </ul>
                 <ul>
                     <li>Production, sales, and stocks</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table2.pdf" class="ico_pdf">
-                            <!-- span hidden="Production, sales, and stocks"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table2.xls" class="ico_xls">
-                            <!-- span hidden="Production, sales, and stocks"></span -->XLS</a>
+                        <a href="/biofuels/biodiesel/production/table2.pdf" alt="Production, sales, and stocks"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table2.xls" alt="Production, sales, and stocks"><i class="ico xls"><span>XLS</span>
+</i></a>
                 </ul>
                 <ul>
                     <li>Inputs to biodiesel production</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table3.pdf" class="ico_pdf">
-                            <!-- span hidden="Inputs to biodiesel production"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table3.xls" class="ico_xls">
-                            <!-- span hidden="Inputs to biodiesel production"></span -->XLS</a>
+                        <a href="/biofuels/biodiesel/production/table3.pdf" alt="Inputs to biodiesel production"><i class="ico pdf"><span>PDF</span></i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table3.xls" alt="Inputs to biodiesel production"><i class="ico xls"><span>XLS</span>
+</i></a>
                 </ul>
                 <ul>
                     <li>Producers and production capacity, by state</li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table4.pdf" class="ico_pdf">
-                            <!-- span hidden="Producers and production capacity, by state"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table4.xls" class="ico_xls">
-                            <!-- span hidden="Producers and production capacity, by state"></span -->XLS</a>
+                        <a href="/biofuels/biodiesel/production/table4.pdf" alt="Producers and production capacity, by state"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table4.xls" alt="Producers and production capacity, by state"><i class="ico xls"><span>XLS</span>
+</i></a>
                 </ul>
                 <ul>
                     <li>Production by Petroleum Administration for Defense District </li>
                     <li class="formats">Available formats:
-                        <a href="/biofuels/biodiesel/production/table5.pdf" class="ico_pdf">
-                            <!-- span hidden="Production by Petroleum Administration for Defense District"></span -->
-                            <i class="ico pdf">
-										<span>PDF</span>
-									</i>
-                        </a>
-                        <a href="/biofuels/biodiesel/production/table5.xls" class="ico_xls">
-                            <!-- span hidden="Production by Petroleum Administration for Defense District"></span -->XLS</a>
+                        <a href="/biofuels/biodiesel/production/table5.pdf" alt="Production by Petroleum Administration for Defense District"><i class="ico pdf">
+<span>PDF</span>
+</i>
+</a>
+                        <a href="/biofuels/biodiesel/production/table5.xls" alt="Production by Petroleum Administration for Defense District"><i class="ico xls"><span>XLS</span>
+</i></a>
                 </ul>
                 </li>
     </div>

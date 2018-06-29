@@ -1,4 +1,4 @@
-<div class="content-container">
+<div class="secondary">
     <ul>
         <li>
             <h2>Highlights</h2>
@@ -11,7 +11,7 @@
         <li><a href="pdf/pmmgraphic.pdf"><i class="ico pdf">PDF</i>Download Figure Data</a></li>
     </ul>
     </div>
-    <div class="content-container">
+    <div class="secondary">
         <ul>
             <li class="sub-header">
                 <h3>Highlights</h3>
@@ -52,7 +52,8 @@
                     <li>Monthly average prices for refiner residual fuel oil sales were mixed in July. Prices for low-sulfur residual fuel oil fell 1.7 cents to $2.768 per gallon at retail, and 0.3 cent to $2.282 per gallon at wholesale. Prices for high-sulfur
                         residual fuel oil dropped 10.5 cents to $2.280 per gallon at retail, but increased 1.1 cents to $2.225 per gallon at wholesale.</li>
                     <li>Sales of residual fuel oil by refiners increased overall in July. Low-sulfur residual fuel oil sales increased 400,000 gallons per day (11.1 percent), while high-sulfur residual fuel oil sales decreased 100,000 gallons per day (0.9
-                        percent).</li>
+                        percent).
+                    </li>
                 </ul>
             </li>
             <li>
