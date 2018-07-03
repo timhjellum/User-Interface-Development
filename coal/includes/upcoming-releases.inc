@@ -1,5 +1,5 @@
 <div class="secondary">
-    <ul>
+    <ul class="upcoming-releases">
         <li class="head">
             <h2>
                 Upcoming Releases

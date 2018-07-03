@@ -1,4 +1,4 @@
-<!--- Data Source: STEO price summary table as shown on http://wwwdev.eia.gov/forecasts/steo/index.cfm --->
+<!--- Data Source: STEO price summary table as shown on http://wwwdev.eia.gov/forecasts/steo/index.php --->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" class="basic_table" >
   <caption>Price summary (historical and forecast) 
   </caption>

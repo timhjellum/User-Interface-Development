@@ -1,7 +1,7 @@
 <div class="l-row header report-details">
         <div class="l-split-wide-col">
         
-                <a href="/petroleum/reports.cfm">&lsaquo; See All Petrolem Reports</a>
+                <a href="/petroleum/reports.php">&lsaquo; See All Petrolem Reports</a>
                 <h2><?php echo "$headtitle"?></h2>
 
                 <div class="release-dates">

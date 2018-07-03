@@ -43,7 +43,7 @@
 <div class="faq">
     <ul>
         <li class="header">
-            <h2><a href="/tools/faqs/faq.cfm?id=1&t=10">What's up (and down) with gasoline prices?</a></h2></li>
+            <h2><a href="/tools/faqs/faq.php?id=1&t=10">What's up (and down) with gasoline prices?</a></h2></li>
         <li>
             <li class="sub-header">See all FAQs on Gasoline</a></li>
             <li>
@@ -53,7 +53,7 @@
 <div class="faq">
     <ul>
         <li class="header">
-            <h2><a href="/tools/faqs/faq.cfm?id=2&t=9">How do I calculate/find diesel fuel surcharges?</a></h2></li>
+            <h2><a href="/tools/faqs/faq.php?id=2&t=9">How do I calculate/find diesel fuel surcharges?</a></h2></li>
         <li>
             <li class="sub-header">See all FAQs on Diesel Fuel</a></li>
             <li>

@@ -6,7 +6,7 @@ $OneURL = "/electricity/data/browser/";
 $OneLabel = "Electricity<br />Data Browser";
 $OneImageName = "electricity-data-browser"; // .png is not needed
 
-$TwoURL = "/state/maps.cfm?v=Electricity";
+$TwoURL = "/state/maps.php?v=Electricity";
 $TwoLabel = "U.S. Electricity Infrastructure Map";
 $TwoImageName = "natural-gas-map"; // .png is not needed
 

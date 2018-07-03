@@ -53,13 +53,15 @@
                 <li><a href="/dnav/pet/pet_cons_prim_dcu_nus_m.htm">Prime Supplier Sales Volumes </a></li>
             </ul>
 </li>
+</ul>
+<ul>
         <li class="head">
-            <h2>International Data</h2></li>
+            <h2>International data</h2></li>
         <li class="sub-head">Overview</li>
         <li>
             <ul>
-                <li><a href="/cfapps/ipdbproject/IEDIndex3.cfm">International Energy Statistics</a></li>
+                <li><a href="/cfapps/ipdbproject/IEDIndex3.php">International Energy Statistics</a></li>
             </ul>
-</li>
+    </li>
     </ul>
 </div>

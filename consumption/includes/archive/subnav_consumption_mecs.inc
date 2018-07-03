@@ -26,8 +26,8 @@ $(document).ready(function(){
   <?php /* Page/Sub Nav */ ?> 
   <span class="right"><a href="<?php echo "$glossary_path"?>?id=consumption">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>#crudeoil">FAQS &rsaquo;</a></span>
   <ul>
-    <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/consumption/manufacturing/index.cfm">Overview</a></li>
-    <li class="dropdown <?php if ( $locale == 'data') {?>active<?php  } // end if ?>"><a href="/consumption/manufacturing/data/index.cfm">Data</a></li>
+    <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/consumption/manufacturing/index.php">Overview</a></li>
+    <li class="dropdown <?php if ( $locale == 'data') {?>active<?php  } // end if ?>"><a href="/consumption/manufacturing/data/index.php">Data</a></li>
     <div class="dat_block">
       <ul>
       <li ><a href="/consumption/manufacturing/data/2014/">2014</a></li>
@@ -43,7 +43,7 @@ $(document).ready(function(){
       </ul>
       
     </div>
-    <li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/consumption/manufacturing/reports.cfm">Analysis &amp; Projections</a></li>
+    <li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/consumption/manufacturing/reports.php">Analysis &amp; Projections</a></li>
   </ul>
 </div>
 <?php /*/ Page/Sub Nav */ ?> 

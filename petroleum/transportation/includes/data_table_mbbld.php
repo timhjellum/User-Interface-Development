@@ -1,4 +1,5 @@
-<table class="data"><caption>
+<table class="data">
+<caption>
 Crude oil movements by rail, June 2017<br />
 <span style="font-weight:normal">thousand barrels/day</span>
 </caption>
@@ -114,8 +115,8 @@ Crude oil movements by rail, June 2017<br />
     <tfoot>
             <td colspan="9">
 NA = data not available
-<br />
-PADD = <a href="/petroleum/weekly/includes/padds.cfm" data-fancybox-type="iframe" class="lightbox">Petroleum Administration for Defense District</a> <br />
+<br />.php
+PADD = <a href="/petroleum/weekly/includes/padds.php" data-fancybox-type="iframe" class="lightbox">Petroleum Administration for Defense District</a> <br />
 Notes: Includes movements to and from Canada. A zero may indicate volume of less than 0.5 thousand barrels per day.
 <br />
 Source: U.S. Energy Information Administration estimates based on analysis of data from the Surface Transportation Board and others.

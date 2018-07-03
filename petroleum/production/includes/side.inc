@@ -12,7 +12,7 @@
                 <li><a href="pdf/eia914methodology.pdf"><i class="ico pdf">PDF</i>Methodology</a></li>
                 <li><a href="pdf/eia914revisionpolicy.pdf"><i class="ico pdf">PDF</i>Revision Policy</a></li></li>
                 <li><a href="images/2015-914states.png" class="lightbox"><img src="images/2015-914states.png" alt="map of 914 states gas surveyed" width="270"/></a></li>
-                <li><a href="faqs.cfm">Frequently Asked Questions</a></li>
+                <li><a href="faqs.php">Frequently Asked Questions</a></li>
 </div>
 <?php
 require($_SERVER['DOCUMENT_ROOT'].'/global/includes/utils/utils.inc';
@@ -47,8 +47,8 @@ $tie_lookup = $neic->get($bindVariables);
 <?php  } // end if ?>
 <div class="blue_top">
         <li class="header"><h2>Related data and reports</h2></li>
-                <li><a href="/petroleum/data.cfm" >Petroleum data</a></li>
+                <li><a href="/petroleum/data.php" >Petroleum data</a></li>
                 <li><a href="/petroleum/supply/monthly/">Petroleum Supply Monthly</a></li>
-                <li><a href="/naturalgas/data.cfm" >Natural gas data</a></li>
+                <li><a href="/naturalgas/data.php" >Natural gas data</a></li>
                 <li><a href="/naturalgas/monthly/" >Natural Gas Monthly</a></li>
 </div>

@@ -156,25 +156,25 @@ in the final quarter</a></td>
             <td>December</td>
             <td>29</td>
             <td>23</td>
-            <td><a href="/petroleum/weekly/archive/2016/161229/includes/analysis_print.cfm">U.S. average regular gasoline and diesel retail prices climb</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161229/includes/analysis_print.php">U.S. average regular gasoline and diesel retail prices climb</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>21</td>
             <td>16</td>
-            <td><a href="/petroleum/weekly/archive/2016/161221/includes/analysis_print.cfm">Strategic Petroleum Reserve sales under recently enacted laws are expected to start in January 2017</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161221/includes/analysis_print.php">Strategic Petroleum Reserve sales under recently enacted laws are expected to start in January 2017</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>14</td>
             <td>9</td>
-            <td><a href="/petroleum/weekly/archive/2016/161214/includes/analysis_print.cfm">Quarterly upstream earnings positive for the first time since 2014</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161214/includes/analysis_print.php">Quarterly upstream earnings positive for the first time since 2014</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>7</td>
             <td>2</td>
-            <td><a href="/petroleum/weekly/archive/2016/161207/includes/analysis_print.cfm">OPEC production cuts reflected in EIA forecast; HGL production grows through 2017</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161207/includes/analysis_print.php">OPEC production cuts reflected in EIA forecast; HGL production grows through 2017</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -182,31 +182,31 @@ in the final quarter</a></td>
             <td>November</td>
             <td>30</td>
             <td>25</td>
-            <td><a href="/petroleum/weekly/archive/2016/161130/includes/analysis_print.cfm">U.S. gasoline inventories, consumption, production, and exports all increased over the past year</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161130/includes/analysis_print.php">U.S. gasoline inventories, consumption, production, and exports all increased over the past year</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>23</td>
             <td>18</td>
-            <td><a href="/petroleum/weekly/archive/2016/161123/includes/analysis_print.cfm">Tighter marine fuel sulfur limits will spark changes by both refiners and vessel operators</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161123/includes/analysis_print.php">Tighter marine fuel sulfur limits will spark changes by both refiners and vessel operators</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>16</td>
             <td>11</td>
-            <td><a href="/petroleum/weekly/archive/2016/161116/includes/analysis_print.cfm">Planned refinery outages through year-end not expected to constrain availability of transportation fuels</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161116/includes/analysis_print.php">Planned refinery outages through year-end not expected to constrain availability of transportation fuels</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>9</td>
             <td>4</td>
-            <td><a href="/petroleum/weekly/archive/2016/161109/includes/analysis_print.cfm">EIA forecasts $51 per barrel 2017 Brent crude oil price</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161109/includes/analysis_print.php">EIA forecasts $51 per barrel 2017 Brent crude oil price</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>2</td>
             <td>10/28</td>
-            <td><a href="/petroleum/weekly/archive/2016/161102/includes/analysis_print.cfm">Stable oil prices, improving credit conditions contributing to rise in merger and acquisition activity</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161102/includes/analysis_print.php">Stable oil prices, improving credit conditions contributing to rise in merger and acquisition activity</a></td>
         </tr>
         </tr>
     </tbody>
@@ -215,26 +215,26 @@ in the final quarter</a></td>
             <td>October</td>
             <td>26</td>
             <td>21</td>
-            <td><a href="/petroleum/weekly/archive/2016/161026/includes/analysis_print.cfm">Low tanker rates are enabling long-distance crude oil and petroleum product trade</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161026/includes/analysis_print.php">Low tanker rates are enabling long-distance crude oil and petroleum product trade</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>19</td>
             <td>14</td>
-            <td><a href="/petroleum/weekly/archive/2016/161019/includes/analysis_print.cfm">Heating oil expenditures expected to increase 38% this winter, but remain below normal</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161019/includes/analysis_print.php">Heating oil expenditures expected to increase 38% this winter, but remain below normal</a></td>
         </tr>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>13</td>
             <td>7</td>
-            <td><a href="/petroleum/weekly/archive/2016/161013/includes/analysis_print.cfm">Updated forecast in October STEO implies slower path to global oil market balance</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161013/includes/analysis_print.php">Updated forecast in October STEO implies slower path to global oil market balance</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>5</td>
             <td>9/30</td>
-            <td><a href="/petroleum/weekly/archive/2016/161005/includes/analysis_print.cfm">U.S. crude oil imports rise during first-half 2016, first increase since 2010</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/161005/includes/analysis_print.php">U.S. crude oil imports rise during first-half 2016, first increase since 2010</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -242,26 +242,26 @@ in the final quarter</a></td>
             <td>September</td>
             <td>28</td>
             <td>23</td>
-            <td><a href="/petroleum/weekly/archive/2016/160928/includes/analysis_print.cfm">Rapid growth in propane exports drove U.S. petroleum product export growth <br />
+            <td><a href="/petroleum/weekly/archive/2016/160928/includes/analysis_print.php">Rapid growth in propane exports drove U.S. petroleum product export growth <br />
 in the first half of 2016</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>21</td>
             <td>16</td>
-            <td><a href="/petroleum/weekly/archive/2016/160921/includes/analysis_print.cfm">Pipeline shutdown disrupts gasoline supply in the Southeast</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160921/includes/analysis_print.php">Pipeline shutdown disrupts gasoline supply in the Southeast</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>14</td>
             <td>9</td>
-            <td><a href="/petroleum/weekly/archive/2016/160914/includes/analysis_print.cfm">EIA's weekly crude oil inventory data will soon be presented without lease stocks</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160914/includes/analysis_print.php">EIA's weekly crude oil inventory data will soon be presented without lease stocks</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>8</td>
             <td>2</td>
-            <td><a href="/petroleum/weekly/archive/2016/160908/includes/analysis_print.cfm">U.S. retail gasoline prices at twelve-year low heading into Labor Day</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160908/includes/analysis_print.php">U.S. retail gasoline prices at twelve-year low heading into Labor Day</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -269,31 +269,31 @@ in the first half of 2016</a></td>
             <td>August</td>
             <td>31</td>
             <td>26</td>
-            <td><a href="/petroleum/weekly/archive/2016/160831/includes/analysis_print.cfm">EIA now using near-real-time export data to provide better weekly petroleum consumption statistics</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160831/includes/analysis_print.php">EIA now using near-real-time export data to provide better weekly petroleum consumption statistics</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>24</td>
             <td>19</td>
-            <td><a href="/petroleum/weekly/archive/2016/160824/includes/analysis_print.cfm">Changing crude oil price differentials contribute to global <br />convergence of refining profits</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160824/includes/analysis_print.php">Changing crude oil price differentials contribute to global <br />convergence of refining profits</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>17</td>
             <td>12</td>
-            <td><a href="/petroleum/weekly/archive/2016/160817/includes/analysis_print.cfm">OPEC net oil export revenue in 2015 drops to lowest level since 2004</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160817/includes/analysis_print.php">OPEC net oil export revenue in 2015 drops to lowest level since 2004</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>10</td>
             <td>5</td>
-            <td><a href="/petroleum/weekly/archive/2016/160810/includes/analysis_print.cfm">U.S. crude oil exports reach more destinations and continue to increase</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160810/includes/analysis_print.php">U.S. crude oil exports reach more destinations and continue to increase</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>3</td>
             <td>7/29</td>
-            <td><a href="/petroleum/weekly/archive/2016/160803/includes/analysis_print.cfm">Declining economic activity and oil revenues in Russia <br />
+            <td><a href="/petroleum/weekly/archive/2016/160803/includes/analysis_print.php">Declining economic activity and oil revenues in Russia <br />
 are adversely affecting its regional neighbor</a></td>
         </tr>
     </tbody>
@@ -302,26 +302,26 @@ are adversely affecting its regional neighbor</a></td>
             <td>July</td>
             <td>27</td>
             <td>22</td>
-            <td><a href="/petroleum/weekly/archive/2016/160727/includes/analysis_print.cfm">Increased gasoline production and high inventories combine to reduce global <br /> refinery gasoline margins</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160727/includes/analysis_print.php">Increased gasoline production and high inventories combine to reduce global <br /> refinery gasoline margins</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>20</td>
             <td>15</td>
-            <td><a href="/petroleum/weekly/archive/2016/160720/includes/analysis_print.cfm">Increased drilling may slow pace of Lower 48 states crude oil<br />
+            <td><a href="/petroleum/weekly/archive/2016/160720/includes/analysis_print.php">Increased drilling may slow pace of Lower 48 states crude oil<br />
 production declines</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>13</td>
             <td>8</td>
-            <td><a href="/petroleum/weekly/archive/2016/160713/includes/analysis_print.cfm">2016 EIA Energy Conference</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160713/includes/analysis_print.php">2016 EIA Energy Conference</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>7</td>
             <td>1</td>
-            <td><a href="/petroleum/weekly/archive/2016/160707/includes/analysis_print.cfm">Crude-by-rail volumes to the East Coast drop as imports rise</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160707/includes/analysis_print.php">Crude-by-rail volumes to the East Coast drop as imports rise</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -329,33 +329,33 @@ production declines</a></td>
             <td>June</td>
             <td>29</td>
             <td>24</td>
-            <td><a href="/petroleum/weekly/archive/2016/160629/includes/analysis_print.cfm">U.S. refinery capacity rises 1.9%</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160629/includes/analysis_print.php">U.S. refinery capacity rises 1.9%</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>22</td>
             <td>17</td>
-            <td><a href="/petroleum/weekly/archive/2016/160622/includes/analysis_print.cfm">Modest changes to crude oil and petroleum product flows expected from <br />
+            <td><a href="/petroleum/weekly/archive/2016/160622/includes/analysis_print.php">Modest changes to crude oil and petroleum product flows expected from <br />
 expanded Panama Canal</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>15</td>
             <td>10</td>
-            <td><a href="/petroleum/weekly/archive/2016/160615/includes/analysis_print.cfm">Higher U.S. gasoline production and inventories are reducing gasoline <br /> crack spreads</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160615/includes/analysis_print.php">Higher U.S. gasoline production and inventories are reducing gasoline <br /> crack spreads</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>8</td>
             <td>3</td>
-            <td><a href="/petroleum/weekly/archive/2016/160608/includes/analysis_print.cfm">Storage capacity utilization rises, as growth in stored volumes <br />
+            <td><a href="/petroleum/weekly/archive/2016/160608/includes/analysis_print.php">Storage capacity utilization rises, as growth in stored volumes <br />
 outpaces expansion of storage capacity</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>2</td>
             <td>5/27</td>
-            <td><a href="/petroleum/weekly/archive/2016/160602/includes/analysis_print.cfm">Recent drilling activity has lowered costs and increased performance</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160602/includes/analysis_print.php">Recent drilling activity has lowered costs and increased performance</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -363,25 +363,25 @@ outpaces expansion of storage capacity</a></td>
             <td>May</td>
             <td>25</td>
             <td>20</td>
-            <td><a href="/petroleum/weekly/archive/2016/160525/includes/analysis_print.cfm">Oil companies focus on production over exploration as low oil prices reduce value of new reserves</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160525/includes/analysis_print.php">Oil companies focus on production over exploration as low oil prices reduce value of new reserves</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>18</td>
             <td>13</td>
-            <td><a href="/petroleum/weekly/archive/2016/160518/includes/analysis_print.cfm">China&#8217;s diesel exports put downward pressure on Asia-Pacific crack spreads</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160518/includes/analysis_print.php">China&#8217;s diesel exports put downward pressure on Asia-Pacific crack spreads</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>11</td>
             <td>6</td>
-            <td><a href="/petroleum/weekly/archive/2016/160511/includes/analysis_print.cfm">EIA's global crude supply outlook considers planned and unplanned production outages</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160511/includes/analysis_print.php">EIA's global crude supply outlook considers planned and unplanned production outages</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>4</td>
             <td>4/29</td>
-            <td><a href="/petroleum/weekly/archive/2016/160504/includes/analysis_print.cfm">Variation across gasoline consumption estimates &mdash; a guide for the perplexed
+            <td><a href="/petroleum/weekly/archive/2016/160504/includes/analysis_print.php">Variation across gasoline consumption estimates &mdash; a guide for the perplexed
         </tr>
     </tbody>
     <tbody>
@@ -389,26 +389,26 @@ outpaces expansion of storage capacity</a></td>
             <td>April</td>
             <td>27</td>
             <td>22</td>
-            <td><a href="/petroleum/weekly/archive/2016/160427/includes/analysis_print.cfm">Crude oil prices rise and contango narrows, but high inventories <br />
+            <td><a href="/petroleum/weekly/archive/2016/160427/includes/analysis_print.php">Crude oil prices rise and contango narrows, but high inventories <br />
 should constrain further price increases</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>20</td>
             <td>15</td>
-            <td><a href="/petroleum/weekly/archive/2016/160420/includes/analysis_print.cfm">2015 financials reveal significant differences across U.S. onshore-only producers</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160420/includes/analysis_print.php">2015 financials reveal significant differences across U.S. onshore-only producers</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>13</td>
             <td>8</td>
-            <td><a href="/petroleum/weekly/archive/2016/160413/includes/analysis_print.cfm">Logistical challenges result in ship-to-ship transfers of U.S. propane exports</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160413/includes/analysis_print.php">Logistical challenges result in ship-to-ship transfers of U.S. propane exports</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>7</td>
             <td>1</td>
-            <td><a href="/petroleum/weekly/archive/2016/160407/includes/analysis_print.cfm">EIA tracks monthly ethanol and biodiesel rail movements</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160407/includes/analysis_print.php">EIA tracks monthly ethanol and biodiesel rail movements</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -416,31 +416,31 @@ should constrain further price increases</a></td>
             <td>March</td>
             <td>30</td>
             <td>25</td>
-            <td><a href="/petroleum/weekly/archive/2016/160330/includes/analysis_print.cfm">Engine design trends lead to increased demand for higher-octane gasoline</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160330/includes/analysis_print.php">Engine design trends lead to increased demand for higher-octane gasoline</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>23</td>
             <td>18</td>
-            <td><a href="/petroleum/weekly/archive/2016/160323/includes/analysis_print.cfm">First-half 2016 refinery outage report released</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160323/includes/analysis_print.php">First-half 2016 refinery outage report released</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>16</td>
             <td>11</td>
-            <td><a href="/petroleum/weekly/archive/2016/160316/includes/analysis_print.cfm">U.S. petroleum product exports continue to expand </a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160316/includes/analysis_print.php">U.S. petroleum product exports continue to expand </a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>9</td>
             <td>4</td>
-            <td><a href="/petroleum/weekly/archive/2016/160309/includes/analysis_print.cfm">EIA lowers its crude oil price forecast</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160309/includes/analysis_print.php">EIA lowers its crude oil price forecast</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>2</td>
             <td>2/26</td>
-            <td><a href="/petroleum/weekly/archive/2016/160302/includes/analysis_print.cfm">Rail still moves crude from the Midwest to coastal regions, but in smaller volumes</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160302/includes/analysis_print.php">Rail still moves crude from the Midwest to coastal regions, but in smaller volumes</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -448,26 +448,26 @@ should constrain further price increases</a></td>
             <td>February</td>
             <td>24</td>
             <td>19</td>
-            <td><a href="/petroleum/weekly/archive/2016/160224/includes/analysis_print.cfm">U.S. crude oil inventories continue to increase</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160224/includes/analysis_print.php">U.S. crude oil inventories continue to increase</a></td>
         </tr>
         <tr>
         <tr>
             <td class="indented"></td>
             <td>18</td>
             <td>12</td>
-            <td><a href="/petroleum/weekly/archive/2016/160218/includes/analysis_print.cfm">European distillate oversupply results in floating storage and shipping changes</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160218/includes/analysis_print.php">European distillate oversupply results in floating storage and shipping changes</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>10</td>
             <td>5</td>
-            <td><a href="/petroleum/weekly/archive/2016/160210/includes/analysis_print.cfm">U.S. regular retail gasoline to average below $2 per gallon in 2016; lowest since 2004</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160210/includes/analysis_print.php">U.S. regular retail gasoline to average below $2 per gallon in 2016; lowest since 2004</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>3</td>
             <td>1/29</td>
-            <td><a href="/petroleum/weekly/archive/2016/160203/includes/analysis_print.cfm">East Coast, Gulf Coast trade transportation fuels to balance needs, supply</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160203/includes/analysis_print.php">East Coast, Gulf Coast trade transportation fuels to balance needs, supply</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -475,25 +475,25 @@ should constrain further price increases</a></td>
             <td>January</td>
             <td>27</td>
             <td>22</td>
-            <td><a href="/petroleum/weekly/archive/2016/160127/includes/analysis_print.cfm">Warm temperatures and low oil prices are reducing home heating expenditures</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160127/includes/analysis_print.php">Warm temperatures and low oil prices are reducing home heating expenditures</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>21</td>
             <td>15</td>
-            <td><a href="/petroleum/weekly/archive/2016/160121/includes/analysis_print.cfm">Iran's petroleum production seen rising as many sanctions are lifted</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160121/includes/analysis_print.php">Iran's petroleum production seen rising as many sanctions are lifted</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>13</td>
             <td>8</td>
-            <td><a href="/petroleum/weekly/archive/2016/160113/includes/analysis_print.cfm">Crude oil prices will remain relatively low through 2016 and 2017</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160113/includes/analysis_print.php">Crude oil prices will remain relatively low through 2016 and 2017</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>6</td>
             <td>1</td>
-            <td><a href="/petroleum/weekly/archive/2016/160106/includes/analysis_print.cfm">California begins 2016 with supply disruptions and higher prices</a></td>
+            <td><a href="/petroleum/weekly/archive/2016/160106/includes/analysis_print.php">California begins 2016 with supply disruptions and higher prices</a></td>
         </tr>
     </tbody>
 <tfoot>
@@ -518,31 +518,31 @@ should constrain further price increases</a></td>
             <td>December</td>
             <td>30</td>
             <td>25</td>
-            <td><a href="/petroleum/weekly/archive/2015/151230/includes/analysis_print.cfm">U.S. average retail regular gasoline price changes mixed, diesel fuel prices decrease</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151230/includes/analysis_print.php">U.S. average retail regular gasoline price changes mixed, diesel fuel prices decrease</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>23</td>
             <td>18</td>
-            <td><a href="/petroleum/weekly/archive/2015/151223/includes/analysis_print.cfm">Effects of removing crude export restrictions depend on price and resource assumptions</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151223/includes/analysis_print.php">Effects of removing crude export restrictions depend on price and resource assumptions</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>16</td>
             <td>11</td>
-            <td><a href="/petroleum/weekly/archive/2015/151216/includes/analysis_print.cfm">Recent trends in net oil import dependence vary by region</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151216/includes/analysis_print.php">Recent trends in net oil import dependence vary by region</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>9</td>
             <td>4</td>
-            <td><a href="/petroleum/weekly/archive/2015/151209/includes/analysis_print.cfm">December <em>Short-Term Energy Outlook</em> forecasts non-OPEC production decline in 2016</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151209/includes/analysis_print.php">December <em>Short-Term Energy Outlook</em> forecasts non-OPEC production decline in 2016</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>2</td>
             <td>11/27</td>
-            <td><a href="/petroleum/weekly/archive/2015/151202/includes/analysis_print.cfm">Crude oil storage capacity and inventories have increased in Cushing, Oklahoma and PADD 3 since September</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151202/includes/analysis_print.php">Crude oil storage capacity and inventories have increased in Cushing, Oklahoma and PADD 3 since September</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -550,25 +550,25 @@ should constrain further price increases</a></td>
             <td>November</td>
             <td>25</td>
             <td>20</td>
-            <td><a href="/petroleum/weekly/archive/2015/151125/includes/analysis_print.cfm">Lowest retail gasoline prices since 2008 lead to Thanksgiving trip savings across United States</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151125/includes/analysis_print.php">Lowest retail gasoline prices since 2008 lead to Thanksgiving trip savings across United States</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>18</td>
             <td>13</td>
-            <td><a href="/petroleum/weekly/archive/2015/151118/includes/analysis_print.cfm">Oil companies announce significant write-downs in third-quarter 2015</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151118/includes/analysis_print.php">Oil companies announce significant write-downs in third-quarter 2015</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>12</td>
             <td>6</td>
-            <td><a href="/petroleum/weekly/archive/2015/151112/includes/analysis_print.cfm">October <em>Short-Term Energy Outlook</em> lowers crude price forecast for 2016</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151112/includes/analysis_print.php">October <em>Short-Term Energy Outlook</em> lowers crude price forecast for 2016</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>4</td>
             <td>10/30</td>
-            <td><a href="/petroleum/weekly/archive/2015/151104/includes/analysis_print.cfm">High inventories in Central Atlantic weighing on distillate spot prices</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151104/includes/analysis_print.php">High inventories in Central Atlantic weighing on distillate spot prices</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -576,25 +576,25 @@ should constrain further price increases</a></td>
             <td>October</td>
             <td>28</td>
             <td>23</td>
-            <td><a href="/petroleum/weekly/archive/2015/151028/includes/analysis_print.cfm">As U.S. propane production and export capacity expand, U.S. <br />
+            <td><a href="/petroleum/weekly/archive/2015/151028/includes/analysis_print.php">As U.S. propane production and export capacity expand, U.S. <br />
 propane exports reach more distant markets</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>21</td>
             <td>16</td>
-            <td><a href="/petroleum/weekly/archive/2015/151021/includes/analysis_print.cfm">Fourth-quarter 2015 refinery outage report released</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151021/includes/analysis_print.php">Fourth-quarter 2015 refinery outage report released</a></td>
         </tr>
             <td class="indented"></td>
             <td>15</td>
             <td>9</td>
-            <td><a href="/petroleum/weekly/archive/2015/151015/includes/analysis_print.cfm">Effects of unplanned refinery outages on prices vary by region</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151015/includes/analysis_print.php">Effects of unplanned refinery outages on prices vary by region</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>7</td>
             <td>2</td>
-            <td><a href="/petroleum/weekly/archive/2015/151007/includes/analysis_print.cfm">Heating oil expenditures forecast to be lower this winter</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/151007/includes/analysis_print.php">Heating oil expenditures forecast to be lower this winter</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -602,31 +602,31 @@ propane exports reach more distant markets</a></td>
             <td>September</td>
             <td>30</td>
             <td>25</td>
-            <td><a href="/petroleum/weekly/archive/2015/150930/includes/analysis_print.cfm">EIA releases West Coast transportation fuels supply/demand study</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150930/includes/analysis_print.php">EIA releases West Coast transportation fuels supply/demand study</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>23</td>
             <td>18</td>
-            <td><a href="/petroleum/weekly/archive/2015/150923/includes/analysis_print.cfm">Sustained low oil prices could reduce exploration and production investment</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150923/includes/analysis_print.php">Sustained low oil prices could reduce exploration and production investment</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>16</td>
             <td>11</td>
-            <td><a href="/petroleum/weekly/archive/2015/150916/includes/analysis_print.cfm">EIA projects lower gasoline prices despite recent demand growth</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150916/includes/analysis_print.php">EIA projects lower gasoline prices despite recent demand growth</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>10</td>
             <td>4</td>
-            <td><a href="/petroleum/weekly/archive/2015/150910/includes/analysis_print.cfm">U.S. onshore producers face challenging times</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150910/includes/analysis_print.php">U.S. onshore producers face challenging times</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>2</td>
             <td>8/28</td>
-            <td><a href="/petroleum/weekly/archive/2015/150902/includes/analysis_print.cfm">Effects of removing crude export restrictions depend on price and resource assumptions</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150902/includes/analysis_print.php">Effects of removing crude export restrictions depend on price and resource assumptions</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -634,25 +634,25 @@ propane exports reach more distant markets</a></td>
             <td>August</td>
             <td>26</td>
             <td>21</td>
-            <td><a href="/petroleum/weekly/archive/2015/150826/includes/analysis_print.cfm">Recently announced crude oil swaps with Mexico likely to provide economic and environmental benefits</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150826/includes/analysis_print.php">Recently announced crude oil swaps with Mexico likely to provide economic and environmental benefits</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>19</td>
             <td>14</td>
-            <td><a href="/petroleum/weekly/archive/2015/150819/includes/analysis_print.cfm">Unplanned refinery outage leads to higher Midwest gasoline prices</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150819/includes/analysis_print.php">Unplanned refinery outage leads to higher Midwest gasoline prices</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>12</td>
             <td>7</td>
-            <td><a href="/petroleum/weekly/archive/2015/150812/includes/analysis_print.cfm">August <em>Short-Term Energy Outlook</em> lowers crude price forecast for 2015 and <br /> 2016</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150812/includes/analysis_print.php">August <em>Short-Term Energy Outlook</em> lowers crude price forecast for 2015 and <br /> 2016</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>5</td>
             <td>7/31</td>
-            <td><a href="/petroleum/weekly/archive/2015/150805/includes/analysis_print.cfm">U.S. refineries run at record high throughputs</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150805/includes/analysis_print.php">U.S. refineries run at record high throughputs</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -660,32 +660,32 @@ propane exports reach more distant markets</a></td>
             <td>July</td>
             <td>29</td>
             <td>24</td>
-            <td><a href="/petroleum/weekly/archive/2015/150729/includes/analysis_print.cfm">EIA reports show different aspects of U.S. oil production statistics and trends</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150729/includes/analysis_print.php">EIA reports show different aspects of U.S. oil production statistics and trends</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>22</td>
             <td>17</td>
-            <td><a href="/petroleum/weekly/archive/2015/150722/includes/analysis_print.cfm">Average diesel retail price falls below gasoline for first time in six years</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150722/includes/analysis_print.php">Average diesel retail price falls below gasoline for first time in six years</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>15</td>
             <td>10</td>
-            <td><a href="/petroleum/weekly/archive/2015/150715/includes/analysis_print.cfm">California gasoline prices rise further as
+            <td><a href="/petroleum/weekly/archive/2015/150715/includes/analysis_print.php">California gasoline prices rise further as
 lengthier supply chain is strained</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>8</td>
             <td>3</td>
-            <td><a href="/petroleum/weekly/archive/2015/150708/includes/analysis_print.cfm">Exports provide an outlet for growing propane production</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150708/includes/analysis_print.php">Exports provide an outlet for growing propane production</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>1</td>
             <td>6/26</td>
-            <td><a href="/petroleum/weekly/archive/2015/150701/includes/analysis_print.cfm">Net petroleum product exports continue to increase</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150701/includes/analysis_print.php">Net petroleum product exports continue to increase</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -693,24 +693,24 @@ lengthier supply chain is strained</a></td>
             <td>June</td>
             <td>24</td>
             <td>19</td>
-            <td><a href="/petroleum/weekly/archive/2015/150624/includes/analysis_print.cfm">U.S. refinery capacity reaches 18 million barrels per day</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150624/includes/analysis_print.php">U.S. refinery capacity reaches 18 million barrels per day</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>17</td>
             <td>12</td>
-            <td><a href="/petroleum/weekly/archive/2015/150617/includes/analysis_print.cfm">2015 EIA Energy Conference</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150617/includes/analysis_print.php">2015 EIA Energy Conference</a></td>
         </tr>                       <tr>
             <td class="indented"></td>
             <td>10</td>
             <td>5</td>
-            <td><a href="/petroleum/weekly/archive/2015/150610/includes/analysis_print.cfm">June <em>Short-Term Energy Outlook</em> reduces crude oil price forecast based  <br /> on supply</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150610/includes/analysis_print.php">June <em>Short-Term Energy Outlook</em> reduces crude oil price forecast based  <br /> on supply</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>3</td>
             <td>5/29</td>
-            <td><a href="/petroleum/weekly/archive/2015/150603/includes/analysis_print.cfm">EIA projects 56% of crude oil production growth between 2014 and 2020<br /> will consist of light sweet grades</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150603/includes/analysis_print.php">EIA projects 56% of crude oil production growth between 2014 and 2020<br /> will consist of light sweet grades</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -718,7 +718,7 @@ lengthier supply chain is strained</a></td>
             <td>May</td>
             <td>28</td>
             <td>22</td>
-            <td><a href="/petroleum/weekly/archive/2015/150528/includes/analysis_print.cfm">Crude by rail receipts continue to be an important source of supply for <br /> West Coast refiners</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150528/includes/analysis_print.php">Crude by rail receipts continue to be an important source of supply for <br /> West Coast refiners</a></td>
         </tr>
         <tr>
         </tr>
@@ -726,19 +726,19 @@ lengthier supply chain is strained</a></td>
             <td class="indented"></td>
             <td>20</td>
             <td>15</td>
-            <td><a href="/petroleum/weekly/archive/2015/150520/includes/analysis_print.cfm">EIA launches redesigned International Energy Portal</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150520/includes/analysis_print.php">EIA launches redesigned International Energy Portal</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>13</td>
             <td>8</td>
-            <td><a href="/petroleum/weekly/archive/2015/150513/includes/analysis_print.cfm">EIA updates crude oil price forecast for 2015 and 2016</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150513/includes/analysis_print.php">EIA updates crude oil price forecast for 2015 and 2016</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>6</td>
             <td>5/1</td>
-            <td><a href="/petroleum/weekly/archive/2015/150506/includes/analysis_print.cfm">EIA releases study on "Implications of Increasing Light Tight Oil Production <br /> for U.S. Refining"</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150506/includes/analysis_print.php">EIA releases study on "Implications of Increasing Light Tight Oil Production <br /> for U.S. Refining"</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -746,31 +746,31 @@ lengthier supply chain is strained</a></td>
             <td>April</td>
             <td>29</td>
             <td>24</td>
-            <td><a href="/petroleum/weekly/archive/2015/150429/includes/analysis_print.cfm">Assessing 2014 oil and gas company financials</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150429/includes/analysis_print.php">Assessing 2014 oil and gas company financials</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>22</td>
             <td>17</td>
-            <td><a href="/petroleum/weekly/archive/2015/150422/includes/analysis_print.cfm">EIA's Drilling Productivity Report predicts May tight oil production below <br /> April's level</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150422/includes/analysis_print.php">EIA's Drilling Productivity Report predicts May tight oil production below <br /> April's level</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>15</td>
             <td>10</td>
-            <td><a href="/petroleum/weekly/archive/2015/150415/includes/analysis_print.cfm">Price declines can affect companies&#8217; proved reserves</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150415/includes/analysis_print.php">Price declines can affect companies&#8217; proved reserves</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>8</td>
             <td>3</td>
-            <td><a href="/petroleum/weekly/archive/2015/150408/includes/analysis_print.cfm">Retail gasoline prices for summer 2015 are projected to be more  than <br /> $1/gallon lower than last summer</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150408/includes/analysis_print.php">Retail gasoline prices for summer 2015 are projected to be more  than <br /> $1/gallon lower than last summer</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>1</td>
             <td>3/27</td>
-            <td><a href="/petroleum/weekly/archive/2015/150401/includes/analysis_print.cfm">New monthly data on crude by rail improves EIA regional petroleum balances</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150401/includes/analysis_print.php">New monthly data on crude by rail improves EIA regional petroleum balances</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -778,22 +778,22 @@ lengthier supply chain is strained</a></td>
             <td>March</td>
             <td>25</td>
             <td>20</td>
-            <td><a href="/petroleum/weekly/archive/2015/150325/includes/analysis_print.cfm">Gasoline specification changes and price effects</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150325/includes/analysis_print.php">Gasoline specification changes and price effects</a></td>
         </tr>
             <td class="indented"></td>
             <td>18</td>
             <td>13</td>
-            <td><a href="/petroleum/weekly/archive/2015/150318/includes/analysis_print.cfm">Cold winter weather increases Northeast distillate demand, but  conditions <br /> are moderating</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150318/includes/analysis_print.php">Cold winter weather increases Northeast distillate demand, but  conditions <br /> are moderating</a></td>
         </tr>
             <td class="indented"></td>
             <td>11</td>
             <td>6</td>
-            <td><a href="/petroleum/weekly/archive/2015/150311/includes/analysis_print.cfm">U.S. crude oil inventories increase as WTI contango deepens</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150311/includes/analysis_print.php">U.S. crude oil inventories increase as WTI contango deepens</a></td>
         </tr>
             <td class="indented"></td>
             <td>4</td>
             <td>2/27</td>
-            <td><a href="/petroleum/weekly/archive/2015/150304/includes/analysis_print.cfm">U.S. petroleum product exports reach record high in 2014</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150304/includes/analysis_print.php">U.S. petroleum product exports reach record high in 2014</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -801,24 +801,24 @@ lengthier supply chain is strained</a></td>
             <td>February</td>
             <td>25</td>
             <td>20</td>
-            <td><a href="/petroleum/weekly/archive/2015/150225/includes/analysis_print.cfm">Potential market implications of outage at ExxonMobil's Torrance, <br /> California refinery</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150225/includes/analysis_print.php">Potential market implications of outage at ExxonMobil's Torrance, <br /> California refinery</a></td>
         </tr>
             <td class="indented"></td>
             <td>19</td>
             <td>13</td>
-            <td><a href="/petroleum/weekly/archive/2015/150219/includes/analysis_print.cfm">Appreciation of the U.S. dollar moderates recent decline in
+            <td><a href="/petroleum/weekly/archive/2015/150219/includes/analysis_print.php">Appreciation of the U.S. dollar moderates recent decline in
 crude oil prices <br /> for some oil-producing nations </a></td>
         </tr>
             <td class="indented"></td>
             <td>11</td>
             <td>6</td>
-            <td><a href="/petroleum/weekly/archive/2015/150211/includes/analysis_print.cfm">EIA expects gasoline demand to increase by nearly 1% in 2015</a>
+            <td><a href="/petroleum/weekly/archive/2015/150211/includes/analysis_print.php">EIA expects gasoline demand to increase by nearly 1% in 2015</a>
 </td>
         </tr>
             <td class="indented"></td>
             <td>4</td>
             <td>1/31</td>
-            <td><a href="/petroleum/weekly/archive/2015/150204/includes/analysis_print.cfm">Midwest propane market much better balanced than year ago</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150204/includes/analysis_print.php">Midwest propane market much better balanced than year ago</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -826,23 +826,23 @@ crude oil prices <br /> for some oil-producing nations </a></td>
             <td>January</td>
             <td>28</td>
             <td>23</td>
-            <td><a href="/petroleum/weekly/archive/2015/150128/includes/analysis_print.cfm">Market balances are reflected in changing futures price spreads</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150128/includes/analysis_print.php">Market balances are reflected in changing futures price spreads</a></td>
         </tr>
             <td class="indented"></td>
             <td>22</td>
             <td>16</td>
-            <td><a href="/petroleum/weekly/archive/2015/150122/includes/analysis_print.cfm">Falling gasoline prices: the influence of crude oil prices and other factors</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150122/includes/analysis_print.php">Falling gasoline prices: the influence of crude oil prices and other factors</a></td>
         </tr>
             <td class="indented"></td>
             <td>14</td>
             <td>9</td>
-            <td><a href="/petroleum/weekly/archive/2015/150114/includes/analysis_print.cfm">Market expectations of oil price uncertainty have increased in  recent months</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150114/includes/analysis_print.php">Market expectations of oil price uncertainty have increased in  recent months</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>7</td>
             <td>2</td>
-            <td><a href="/petroleum/weekly/archive/2015/150107/includes/analysis_print.cfm">Regional refinery trends continue to evolve</a></td>
+            <td><a href="/petroleum/weekly/archive/2015/150107/includes/analysis_print.php">Regional refinery trends continue to evolve</a></td>
         </tr>
     </tbody>
 <tfoot>
@@ -867,32 +867,32 @@ crude oil prices <br /> for some oil-producing nations </a></td>
             <td>December</td>
             <td>31</td>
             <td>26</td>
-            <td><a href="/petroleum/weekly/archive/2014/141231/includes/analysis_print.cfm">U.S. gasoline prices end 2014 down more than <br />
+            <td><a href="/petroleum/weekly/archive/2014/141231/includes/analysis_print.php">U.S. gasoline prices end 2014 down more than <br />
 $1 per gallon from year ago, diesel prices also fall</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>24</td>
             <td>19</td>
-            <td><a href="/petroleum/weekly/archive/2014/141224/includes/analysis_print.cfm">U.S. gasoline prices move with Brent prices rather than WTI prices</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141224/includes/analysis_print.php">U.S. gasoline prices move with Brent prices rather than WTI prices</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>17</td>
             <td>12</td>
-            <td><a href="/petroleum/weekly/archive/2014/141217/includes/analysis_print.cfm">Lower crude oil prices further reduce expected spending on heating oil this winter</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141217/includes/analysis_print.php">Lower crude oil prices further reduce expected spending on heating oil this winter</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>10</td>
             <td>5</td>
-            <td><a href="/petroleum/weekly/archive/2014/141210/includes/analysis_print.cfm">EIA forecasts $68-per-barrel average Brent crude price in 2015 while recognizing high price uncertainty</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141210/includes/analysis_print.php">EIA forecasts $68-per-barrel average Brent crude price in 2015 while recognizing high price uncertainty</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>3</td>
             <td>11/28</td>
-            <td><a href="/petroleum/weekly/archive/2014/141203/includes/analysis_print.cfm">After hitting a record low before Thanksgiving, Midwest distillate inventories are increasing</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141203/includes/analysis_print.php">After hitting a record low before Thanksgiving, Midwest distillate inventories are increasing</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -900,24 +900,24 @@ $1 per gallon from year ago, diesel prices also fall</a></td>
             <td>November</td>
             <td>26</td>
             <td>21</td>
-            <td><a href="/petroleum/weekly/archive/2014/141126/includes/analysis_print.cfm">Third-quarter results for North America-focused crude oil producers</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141126/includes/analysis_print.php">Third-quarter results for North America-focused crude oil producers</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>19</td>
             <td>14</td>
-            <td><a href="/petroleum/weekly/archive/2014/141119/includes/analysis_print.cfm">Refinery outages in fall 2014</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141119/includes/analysis_print.php">Refinery outages in fall 2014</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>13</td>
             <td>7</td>
-            <td><a href="/petroleum/weekly/archive/2014/141113/includes/analysis_print.cfm">2015 global oil balance loosens considerably in latest <em>Short-Term Energy Outlook</em></a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141113/includes/analysis_print.php">2015 global oil balance loosens considerably in latest <em>Short-Term Energy Outlook</em></a></td>
         </tr>
             <td class="indented"></td>
             <td>5</td>
             <td>10/31</td>
-            <td><a href="/petroleum/weekly/archive/2014/141105/includes/analysis_print.cfm">U.S. gasoline prices move with Brent prices rather than WTI prices</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141105/includes/analysis_print.php">U.S. gasoline prices move with Brent prices rather than WTI prices</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -925,31 +925,31 @@ $1 per gallon from year ago, diesel prices also fall</a></td>
             <td>October</td>
             <td>29</td>
             <td>24</td>
-            <td><a href="/petroleum/weekly/archive/2014/141029/includes/analysis_print.cfm">U.S. average retail regular gasoline price near $3 per gallon</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141029/includes/analysis_print.php">U.S. average retail regular gasoline price near $3 per gallon</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>22</td>
             <td>17</td>
-            <td><a href="/petroleum/weekly/archive/2014/141022/includes/analysis_print.cfm">Crude exports and re-exports continue to rise; some volumes sent to Europe and Asia</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141022/includes/analysis_print.php">Crude exports and re-exports continue to rise; some volumes sent to Europe and Asia</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>16</td>
             <td>10</td>
-            <td><a href="/petroleum/weekly/archive/2014/141016/includes/analysis_print.cfm">Role of benchmarks in the global crude oil market</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141016/includes/analysis_print.php">Role of benchmarks in the global crude oil market</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>8</td>
             <td>3</td>
-            <td><a href="/petroleum/weekly/archive/2014/141008/includes/analysis_print.cfm">Heating oil and propane expenditures projected to be lower than last winter</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141008/includes/analysis_print.php">Heating oil and propane expenditures projected to be lower than last winter</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>1</td>
             <td>9/26</td>
-            <td><a href="/petroleum/weekly/archive/2014/141001/includes/analysis_print.cfm">Crude delivered by rail continues to supply West Coast refineries</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/141001/includes/analysis_print.php">Crude delivered by rail continues to supply West Coast refineries</a></td>
         </tr>
     </tbody>
     <tbody>
@@ -957,13 +957,13 @@ $1 per gallon from year ago, diesel prices also fall</a></td>
             <td>September</td>
             <td>24</td>
             <td>19</td>
-            <td><a href="/petroleum/weekly/archive/2014/140924/includes/analysis_print.cfm">Weak demand, plentiful supply drive recent decline in oil prices</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/140924/includes/analysis_print.php">Weak demand, plentiful supply drive recent decline in oil prices</a></td>
         </tr>
         <tr>
             <td class="indented"></td>
             <td>17</td>
             <td>12</td>
-            <td><a href="/petroleum/weekly/archive/2014/140917/includes/analysis_print.cfm">North American shale-focused companies' financial performance has improved</a></td>
+            <td><a href="/petroleum/weekly/archive/2014/140917/includes/analysis_print.php">North American shale-focused companies' financial performance has improved</a></td>
         </tr>
         <tr>
             <td class="indented"></td>

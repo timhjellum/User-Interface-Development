@@ -5,7 +5,7 @@
 <?php include ('global/includes/eia_head_info.inc') ; ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ******************************************************************** */ ?>
-<?php /* File Name:            previous.cfm                                   */ ?>
+<?php /* File Name:            previous.php                                   */ ?>
 <?php /* Purpose:              Display Annual Energy Review previous releases */ ?>
 <?php /* Release date:         September 27, 2012                             */ ?>
 <?php /* Revised date:         September 27, 2012                             */ ?>
@@ -38,7 +38,7 @@
 
 <?php /* Start of description text for release of AER */ ?>
 <p>
-            A report of historical annual energy statistics. For many series, data begin with the year 1949. Included are data on total energy production, consumption, and trade; overviews of petroleum, natural gas, coal, electricity, nuclear energy, renewable energy, as well as financial and environmental indicators; and data unit conversion tables.&nbsp;&nbsp;<a href="about_the_data.cfm">About the data</a>
+            A report of historical annual energy statistics. For many series, data begin with the year 1949. Included are data on total energy production, consumption, and trade; overviews of petroleum, natural gas, coal, electricity, nuclear energy, renewable energy, as well as financial and environmental indicators; and data unit conversion tables.&nbsp;&nbsp;<a href="about_the_data.php">About the data</a>
 </p>
 <?php /* End of description text for release of AER */ ?>
 		  <p><h3>Previous Editions</h3></p>
@@ -372,7 +372,7 @@ PDF</a></span>
           </table>    
 <?php /* End of release drop down boxes for the AER */ ?>
 <?php /* ***** Start of data experts contant  ******* */ ?>
-         <br /><br /><p><b><a href="/about/contact/totalenergy.cfm">Total Energy Experts</a></b></p>   
+         <br /><br /><p><b><a href="/about/contact/totalenergy.php">Total Energy Experts</a></b></p>   
 <?php /* ***** End of data experts contant  ******* */ ?>
          <?php /* End of Total Energy : Monthly */ ?>
 	  <?php /* End of Main Column */ ?>

@@ -6,11 +6,11 @@ $OneURL = "/renewable/afv/";
 $OneLabel = "Alternative Fuel Vehicle Data Browser";
 $OneImageName = "afv"; // .png is not needed
 
-$TwoURL = "/state/maps.cfm?v=Renewable";
+$TwoURL = "/state/maps.php?v=Renewable";
 $TwoLabel = "U.S. Renewable Infrastructure Map";
 $TwoImageName = "natural-gas-map"; // .png is not needed
 
-$ThrURL = "/state/maps.cfm?v=Renewable";
+$ThrURL = "/state/maps.php?v=Renewable";
 $ThrLabel = "U.S. Renewable Resource Map";
 $ThrImageName = "fossil-fuel-map"; // .png is not needed
 

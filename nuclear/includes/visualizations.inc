@@ -6,7 +6,7 @@ $OneURL = "/nuclear/outages/";
 $OneLabel = "Status of U.S. Nuclear Outages";
 $OneImageName = "nuclear-outages-v2"; // .png is not needed
 
-$TwoURL = "/state/maps.cfm?v=electricity";
+$TwoURL = "/state/maps.php?v=electricity";
 $TwoLabel = "U.S. Electricity Infrastructure Map";
 $TwoImageName = "natural-gas-map"; // .png is not needed
 

@@ -16,18 +16,10 @@ $OneDate = "February 6, 2018";
 ?>
 
         <div class="secondary hide-mt">
-            <ul>
-                <li class="head">
-                    <h2>
-                        <?=$mainTitle?>
-                    </h2></li>
-                <li>
-                    <a href='<?=$OneURL?>' title='<?=$OneLabel?>'>
-                        <?=$OneLabel?>
-                    </a></li>
-                <li class="description">
-                    <?=$OneDescription?></li>
-                <li class="date">
-                    <?=$OneDate?></li>
+            <ul class="presentations">
+                <li class="head"><h2><?=$mainTitle?></h2></li>
+                <li class="pdf"><a href='<?=$OneURL?>' title='<?=$OneLabel?>'><?=$OneLabel?></a></li>
+                <li class="description"><?=$OneDescription?></li>
+                <li class="date"><?=$OneDate?></li>  
             </ul>
         </div>

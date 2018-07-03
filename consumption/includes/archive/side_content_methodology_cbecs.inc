@@ -13,7 +13,7 @@
               <a href="http://www.eia.gov/emeu/cbecs/comparesampdesign.html">Comparison 
               Between Years</a></h4>
             <h4>
-  <a href="/consumption/commercial/methodology/cbecs_glossary.cfm">Glossary</a> </h4>
+  <a href="/consumption/commercial/methodology/cbecs_glossary.php">Glossary</a> </h4>
             <h4>
               
               <a href="http://www.eia.gov/emeu/cbecs/census_maps.html"> Census  Map</a></h4>

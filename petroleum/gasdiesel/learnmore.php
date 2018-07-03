@@ -18,40 +18,40 @@
                 <h2>Price trends and regional differences</h2>
 <p style="margin-left:10px"><strong>What causes fluctuations in motor gasoline prices?</strong><br />
 Retail gasoline prices are mainly affected by crude oil prices and the level of gasoline supply relative to demand. Strong and increasing demand for gasoline and other petroleum products in the United States and the rest of the world at times places intense pressure on available supplies. Even when crude oil prices are stable...
-<a href="/energyexplained/index.cfm?page=gasoline_fluctuations">read more in Gasoline Explained</a><br /><br />
+<a href="/energyexplained/index.php?page=gasoline_fluctuations">read more in Gasoline Explained</a><br /><br />
 <strong>What causes fluctuations in diesel fuel oil prices?</strong><br />
 The retail price of a gallon of diesel fuel reflects the underlying costs and profits (or losses) of producing and delivering the product to customers. The price of diesel at the pump reflects the costs and profits of the entire production and distribution chain, including...
-<a href="/energyexplained/index.cfm?page=diesel_factors_affecting_prices">read more in Diesel Fuel Explained</a><br /><br />
+<a href="/energyexplained/index.php?page=diesel_factors_affecting_prices">read more in Diesel Fuel Explained</a><br /><br />
 <strong>Why are gasoline prices higher in some regions than in others?</strong><br />
 Although price levels vary over time, average retail gasoline prices are often highest in certain States or regions. Besides taxes, there are other factors that contribute to regional and even local differences in gasoline prices...
-<a href="/energyexplained/index.cfm?page=gasoline_regional">read more in Gasoline Explained</a></p>
+<a href="/energyexplained/index.php?page=gasoline_regional">read more in Gasoline Explained</a></p>
 <h3 style="font-weight:normal; margin-left:20px">Related FAQ's</h3>
-<p style="margin-left:20px"><a href="/tools/faqs/faq.cfm?id=587&t=10">Does EIA have gasoline prices by city, county, or zip code?</a><br />
-<a href="/tools/faqs/faq.cfm?id=26&t=10">How can I find historical gasoline prices for each state?</a><br />
-<a href="/tools/faqs/faq.cfm?id=247&t=10">What was the highest U.S. average retail price of regular gasoline?</a><br />
-<a href="/tools/faqs/faq.cfm?id=1&t=10">What's up (and down) with gasoline prices? </a><br />
+<p style="margin-left:20px"><a href="/tools/faqs/faq.php?id=587&t=10">Does EIA have gasoline prices by city, county, or zip code?</a><br />
+<a href="/tools/faqs/faq.php?id=26&t=10">How can I find historical gasoline prices for each state?</a><br />
+<a href="/tools/faqs/faq.php?id=247&t=10">What was the highest U.S. average retail price of regular gasoline?</a><br />
+<a href="/tools/faqs/faq.php?id=1&t=10">What's up (and down) with gasoline prices? </a><br />
 </p>
                 <h2><br />
 Price components</h2>
 <p style="margin-left:10px"><strong>What are components of retail price of diesel fuel?</strong><br />
-The cost to produce and deliver diesel fuel to customers includes the costs of crude oil, refinery processing, marketing and distribution, and retail station operation. The retail pump price reflects these costs and the profits (and sometimes losses) of the refiners... <a href="/energyexplained/index.cfm?page=diesel_prices">read more in Diesel Fuel Explained</a><br />
+The cost to produce and deliver diesel fuel to customers includes the costs of crude oil, refinery processing, marketing and distribution, and retail station operation. The retail pump price reflects these costs and the profits (and sometimes losses) of the refiners... <a href="/energyexplained/index.php?page=diesel_prices">read more in Diesel Fuel Explained</a><br />
 <br />
 <strong>What are fuel surcharges? </strong><br />
-Many transportation companies and freight carriers include a fuel-cost surcharge in their rates and invoices to cover increases in the cost of diesel...  <a href="/energyexplained/index.cfm?page=diesel_surcharges">read more in Diesel Fuel Explained</a><br />
+Many transportation companies and freight carriers include a fuel-cost surcharge in their rates and invoices to cover increases in the cost of diesel...  <a href="/energyexplained/index.php?page=diesel_surcharges">read more in Diesel Fuel Explained</a><br />
 </p>
 <h3 style="font-weight:normal; margin-left:20px">Related FAQ's</h3>
-<p style="margin-left:20px"><a href="/tools/faqs/faq.cfm?id=10&amp;t=10">How much tax do we pay on a gallon of gasoline and diesel fuel? </a><br />
-<a href="/tools/faqs/faq.cfm?id=22&amp;t=10">What do I pay for in a gallon of regular gasoline?</a><br />
-<a href="/tools/faqs/faq.cfm?id=2&amp;t=9">How do I calculate/find diesel fuel surcharges?</a><br />
-<a href="/tools/faqs/faq.cfm?id=327&amp;t=9">How many gallons of motor gasoline and diesel fuel does one barrel of oil make? </a>       </p>
+<p style="margin-left:20px"><a href="/tools/faqs/faq.php?id=10&amp;t=10">How much tax do we pay on a gallon of gasoline and diesel fuel? </a><br />
+<a href="/tools/faqs/faq.php?id=22&amp;t=10">What do I pay for in a gallon of regular gasoline?</a><br />
+<a href="/tools/faqs/faq.php?id=2&amp;t=9">How do I calculate/find diesel fuel surcharges?</a><br />
+<a href="/tools/faqs/faq.php?id=327&amp;t=9">How many gallons of motor gasoline and diesel fuel does one barrel of oil make? </a>       </p>
                 <h2><br />
 Measuring prices</h2>
 <p style="margin-left:10px"><strong>Where can I find real motor gasoline and on-highway diesel prices?</strong><br />
 <em>Real</em> petroleum prices are computed by dividing the nominal price in a given month by the ratio of the Consumer Price Index (CPI) in that month to the CPI in some &quot;base&quot; period. The Real Petroleum Prices... <a href="/outlooks/steo/realprices/">view interactive chart of real prices in Short-Term Energy Outlook</a><br />
 </p>
 <h3 style="font-weight:normal; margin-left:20px">Related FAQ's</h3>
-<p style="margin-left:20px"><a href="/tools/faqs/faq.cfm?id=9&amp;t=9"> Why has diesel fuel been more expensive than gasoline?</a><br />
-<a href="/tools/faqs/faq.cfm?id=14&amp;t=9">Where can I find prices for &quot;off-road&quot; diesel fuel?</a><br />
+<p style="margin-left:20px"><a href="/tools/faqs/faq.php?id=9&amp;t=9"> Why has diesel fuel been more expensive than gasoline?</a><br />
+<a href="/tools/faqs/faq.php?id=14&amp;t=9">Where can I find prices for &quot;off-road&quot; diesel fuel?</a><br />
 </p>
                 <h2><br />
 Additional options for  motor gasoline and diesel data files</h2>
@@ -66,7 +66,7 @@ The prices are published around 5:00 p.m. Monday (Eastern time), except on gover
 <a href="/tools/emailupdates/#petroleum">Sign-up  </a>for the email notification list.<br />
 </p>
 <p style="margin-left:10px"><strong>What are procedures for reuse of EIA data and graphs?<br />
-</strong>U.S. Government publications are in the public domain and are not subject to copyright protection. You may use and/or distribute any of our data, files, databases, reportst... <a href="/about/copyrights_reuse.cfm">read more in Copyrights and Reuse policy</a></p>
+</strong>U.S. Government publications are in the public domain and are not subject to copyright protection. You may use and/or distribute any of our data, files, databases, reportst... <a href="/about/copyrights_reuse.php">read more in Copyrights and Reuse policy</a></p>
                 <h2><br />
 Data quality and survey methodology</h2>
 <p style="margin-left:10px"><strong>What are the motor gasoline price data collection methods?</strong><br />

@@ -1,7 +1,7 @@
 <div class="l-row header report-details">
         <div class="l-split-wide-col">
         
-                <a href="/petroleum/reports.cfm">&lsaquo; See All Petroleum & Other Liquids Reports</a>
+                <a href="/petroleum/reports.php">&lsaquo; See All Petroleum & Other Liquids Reports</a>
                 <h2><?php echo "$headtitle"?></h2>
 
                 <div class="release-dates">
@@ -27,12 +27,12 @@
                                 <form name="form" id="form">
                                         <label>Year:</label>
                                         <select name="jumpMenu" id="jumpMenu">
-                                                <option value="/petroleum/supply/annual/volume1/archive/2015/psa_volume1_2015.cfm" selected="selected">2015</option>
-                                                <option value="/petroleum/supply/annual/volume1/archive/2014/psa_volume1_2014.cfm">2014</option>
-                                                <option value="/petroleum/supply/annual/volume1/archive/2013/psa_volume1_2013.cfm">2013</option>
-                                                <option value="/petroleum/supply/annual/volume1/archive/2012/psa_volume1_2012.cfm">2012</option>
-                                                <option value="/petroleum/supply/annual/volume1/archive/2011/psa_volume1_2011.cfm">2011</option>
-                                                <option value="/petroleum/supply/annual/volume1/archive/2010/psa_volume1_2010.cfm">2010</option>
+                                                <option value="/petroleum/supply/annual/volume1/archive/2015/psa_volume1_2015.php" selected="selected">2015</option>
+                                                <option value="/petroleum/supply/annual/volume1/archive/2014/psa_volume1_2014.php">2014</option>
+                                                <option value="/petroleum/supply/annual/volume1/archive/2013/psa_volume1_2013.php">2013</option>
+                                                <option value="/petroleum/supply/annual/volume1/archive/2012/psa_volume1_2012.php">2012</option>
+                                                <option value="/petroleum/supply/annual/volume1/archive/2011/psa_volume1_2011.php">2011</option>
+                                                <option value="/petroleum/supply/annual/volume1/archive/2010/psa_volume1_2010.php">2010</option>
                                                 <option value="/petroleum/supply/annual/volume1/archive/2009/psa_volume1_2009.html">2009</option>
                                                 <option value="/petroleum/supply/annual/volume1/archive/2008/psa_volume1_2008.html">2008</option>
                                                 <option value="/petroleum/supply/annual/volume1/archive/2007/psa_volume1_2007.html">2007</option>

@@ -51,21 +51,26 @@ class ModuleScripts {
         $('div.energy-education h2 a').each(function() {
             if ($(this).text().trim().length <= 0) {
                 $(this).parent().parent().parent().parent().remove();
-                console.log('hiding empty element');
+                console.log('removing empty element');
             }
         });
-
+        $('div.energy-education li.foot a').each(function() {
+            if ($(this).attr('href').length <= 0) {
+                $(this).remove();
+                console.log('removing empty element');
+            }
+        });
         $('.visualizations h3 a').each(function() {
             if ($(this).text().trim().length <= 0) {
                 $(this).parent().parent().remove();
-                console.log('hiding empty element');
+                console.log('removing empty element');
             }
         });
 
         $('.secondary .icon a').each(function() {
             if ($(this).attr('href').length <= 0) {
                 $(this).closest('li').remove();
-                console.log('hiding empty element');
+                console.log('removing empty element');
             }
         });
         $('.secondary.hide-mt a').each(function() {
@@ -74,10 +79,21 @@ class ModuleScripts {
                 console.log('hiding "secondary.hide-mt" empty element');
             }
         });
+
+        if($('a').find('img').length > 0) {
+            console.log("There is an image.");
+         } else {
+            console.log("There isn't an image.");
+         }
+
+
+
+
+
         //        $('.hide-mt a').each(function() {
         //            if ($(this).text().trim().length <= 0) {
         //                $(this).closest('li').remove();
-        //                console.log('hiding empty element');
+        //                console.log('removing empty element');
         //            }
         //        });
 

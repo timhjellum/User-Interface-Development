@@ -1,4 +1,4 @@
-<?php /* Data Source: STEO price summary table (table 2 annual values) as shown on http://wwwdev.eia.gov/forecasts/steo/index.cfm */ ?>
+<?php /* Data Source: STEO price summary table (table 2 annual values) as shown on http://wwwdev.eia.gov/forecasts/steo/index.php */ ?>
 <?php /* Get current directory path */ ?>
 <?php $strCurDirPath =  getcwd(); ?>
 <?php /* Assign spreadsheet name */ ?>

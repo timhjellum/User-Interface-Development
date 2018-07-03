@@ -69,7 +69,7 @@ continue;
 }
 $tmpArr[] = $v1;
 ?>
-<a href="/petroleum/reports.cfm#/T<?php echo $v1['tagid']; ?>"><?php echo $v1['tag']; ?></a>
+<a href="/petroleum/reports.php#/T<?php echo $v1['tagid']; ?>"><?php echo $v1['tag']; ?></a>
 <?php
 if ($i < $total) {
 print ", ";

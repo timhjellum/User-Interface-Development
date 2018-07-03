@@ -1,6 +1,6 @@
 <?php /*
 File: Universal L2 Issue and Trends Archive Include.
-Desc: this file uses the variable (#l2page#) set on the <root>/<L2 Page>/issuestrends/index.cfm page to render the correct Issues and Trends Archive page
+Desc: this file uses the variable (#l2page#) set on the <root>/<L2 Page>/issuestrends/index.php page to render the correct Issues and Trends Archive page
 Created: 2014-07-15
 Authors: christian.stauffer@eia.gov & steven.waters@eia.gov
 ==
@@ -11,7 +11,7 @@ require_once 'global/includes/utils/utils.inc';
 require_once 'global/includes/utils/Neic.inc';
 $neic = new NEIC();
 $locale = 'issuestrends'; ?>
-<?php /*choose which subnav include to insert based off of the #l2page# var set in the index.cfm page this is included on. */ ?>
+<?php /*choose which subnav include to insert based off of the #l2page# var set in the index.php page this is included on. */ ?>
 <?php
 switch($l2page) {
 case 'page_pet':
@@ -171,7 +171,7 @@ If this report is dated within the past 60 days
 */ ?>
 <?php /* If this is the DEV or TEST server */ ?>
 <?php if (strchr($_SERVER['HTTP_HOST'], 'wwwdev') || strchr($_SERVER['HTTP_HOST'], 'wwwtest')) { ?>
-<span style="font-size:10px;">- <a href="/global/admin/it_edit.cfm?id=<?php echo "$id"?>">Edit</a>
+<span style="font-size:10px;">- <a href="/global/admin/it_edit.php?id=<?php echo "$id"?>">Edit</a>
 </span>
 <?php  } // end if ?>
 </p>
@@ -263,7 +263,7 @@ If this report is older than 60 days
 */ ?>
 <?php /* If this is the DEV or TEST server */ ?>
 <?php if (strchr($_SERVER['HTTP_HOST'], 'wwwdev') || strchr($_SERVER['HTTP_HOST'], 'wwwtest')) { ?>
-<span style="font-size:10px;">- <a href="/global/admin/it_edit.cfm?id=<?php echo "$id"?>">Edit</a>
+<span style="font-size:10px;">- <a href="/global/admin/it_edit.php?id=<?php echo "$id"?>">Edit</a>
 </span>
 <?php  } // end if ?>
 <span style="float:right;">

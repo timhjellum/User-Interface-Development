@@ -46,7 +46,7 @@
         </ul>
         <ul>
             <li class="head">
-                <a href="/consumption/commercial/data/2012/index.cfm?view=consumption">Consumption and Expenditures</a></li>
+                <a href="/consumption/commercial/data/2012/index.php?view=consumption">Consumption and Expenditures</a></li>
             <li>
                 <span class="release-date">Release Date: </span>
                 <span class="date">May, 2016</span></li>
@@ -54,7 +54,7 @@
         </ul>
         <ul>
             <li class="head">
-                <a href="/consumption/commercial/data/2012/index.cfm?view=microdata">Detailed building microdata</a></li>
+                <a href="/consumption/commercial/data/2012/index.php?view=microdata">Detailed building microdata</a></li>
             <li>
                 <span class="release-date">Release Date: </span>
                 <span class="date">May, 2016</span></li>

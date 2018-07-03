@@ -1,6 +1,6 @@
 <div class="l-row header report-details">
         <div class="l-full-width-col">
-                <a href="/petroleum/reports.cfm">&lsaquo; See all Petroleum reports</a>
+                <a href="/petroleum/reports.php">&lsaquo; See all Petroleum reports</a>
                 <h2>U.S. Movements of Crude Oil By Rail</h2>
 
                 <div class="release-dates">

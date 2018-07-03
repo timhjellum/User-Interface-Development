@@ -18,7 +18,7 @@
 <?php /* start main content */ ?>
 <p class="grey_side"><strong>Notice:</strong> We are currently experiencing technical issues that are delaying todayÃ¢â‚¬â„¢s release of the motor gasoline price data.  We will update this page as soon as possible once those issues are resolved. We apologize for the inconvenience.
 </p>
-<strong>Note:</strong> <a href="/survey/notice/marketing2017.cfm">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
+<strong>Note:</strong> <a href="/survey/notice/marketing2017.php">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
 </p>
 <?php include('./includes/gdu_gas.php'); ?>
 <?php include('./includes/gdu_diesel.php'); ?>

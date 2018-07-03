@@ -33,16 +33,16 @@
        <span class="grey_side green_top">
             <li class="head"><h2>Coal Maps</h2></li>
             
-          <p><a href="/energy_in_brief/role_coal_us.cfm "><img src="/energy_in_brief/images/charts/coal_production_regions_medium_map.jpg"  width="200"></a><br/><br/><a href="/maps#coal">See more coal maps &rsaquo;</a></p>
+          <p><a href="/energy_in_brief/role_coal_us.php "><img src="/energy_in_brief/images/charts/coal_production_regions_medium_map.jpg"  width="200"></a><br/><br/><a href="/maps#coal">See more coal maps &rsaquo;</a></p>
           </span>
 		  */ ?>
         <?php /* FAQ Promo */ ?>
         <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=69&t=2">Which States produce the most coal? &rsaquo;</a></h2></li>
+          <h4 class="q_side"><a href="/tools/faqs/faq.php?id=69&t=2">Which States produce the most coal? &rsaquo;</a></h2></li>
           <p><a href="/tools/faqs/#coal">See all coal FAQs  &rsaquo;</a></p>
         </span>
          <?php /* Energy Explained Promo */ ?>
         
-        <p><a href="/energyexplained/index.cfm?page=coal_home"><img src="/energyexplained/images/section-banners/coal.jpg" alt="Energy Explained - Coal" width="240" /></a></p>
+        <p><a href="/energyexplained/index.php?page=coal_home"><img src="/energyexplained/images/section-banners/coal.jpg" alt="Energy Explained - Coal" width="240" /></a></p>
         <?php /* Kids Promo */ ?>
         <?php include ('global/includes/kids_dates.inc') ; ?>

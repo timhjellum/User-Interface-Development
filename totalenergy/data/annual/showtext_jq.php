@@ -24,7 +24,7 @@
 </style>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ****************************************************************************  */ ?>
-<?php /* File Name:  showtext.cfm                                                      */ ?>
+<?php /* File Name:  showtext.php                                                      */ ?>
 <?php /* Purpose:    Display the AER html pages w/ EIA's header and footer information */ ?>
 <?php /* Revision date:   October 5 9, 2011                                            */ ?>
 <?php /* ****************************************************************************  */ ?>

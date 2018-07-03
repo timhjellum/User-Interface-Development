@@ -39,8 +39,7 @@
         </ul>
         <ul>
             <li>Natural gas overview</li>
-            <li class="include">
-                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></li>
+            <li><!-- class="include" --><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span></li>
             <li><span class="release-date">Release Date: </span><span class="date">Release Date: September 27, 2012</span></li>
             <li>Statistics on gross withdrawals, marketed production, dry gas production, supplemental gases, imports, exports, consumption, and storage withdrawals.</li>
             <li class="release-schedule">Annual</li>
@@ -49,11 +48,11 @@
                     <li>Monthly (
                         <a href="/totalenergy/data/monthly/#naturalgas">more on natural gas</a>)</li>
                     <li> <span class="formats">Available formats:</span>
-                        <a href="/totalenergy/data/monthly/pdf/sec4_3.pdf"> <i class="ico pdf">                <span>PDF</span>            </i> </a><a href="/totalenergy/data/browser/csv.cfm?tbl=T04.01"> <i class="ico csv">                <span>CSV</span>            </i> </a><a href="/totalenergy/data/browser/xls.cfm?tbl=T04.01&amp;freq=m"> <i class="ico xls">                <span>XLS</span>            </i> </a></li>
+                        <a href="/totalenergy/data/monthly/pdf/sec4_3.pdf"> <i class="ico pdf">                <span>PDF</span>            </i> </a><a href="/totalenergy/data/browser/csv.php?tbl=T04.01"> <i class="ico csv">                <span>CSV</span>            </i> </a><a href="/totalenergy/data/browser/xls.php?tbl=T04.01&amp;freq=m"> <i class="ico xls">                <span>XLS</span>            </i> </a></li>
                 </ul>
                 <ul>
                     <li>Annual (
-                        <a href="/totalenergy/data/annual/showtext.cfm?t=ptb0601">more on natural gas</a>)</li>
+                        <a href="/totalenergy/data/annual/showtext.php?t=ptb0601">more on natural gas</a>)</li>
                     <li> <span class="formats">Available formats:</span>
                         <a href="/totalenergy/data/annual/pdf/sec6_5.pdf"> <i class="ico pdf">                <span>PDF</span>            </i> </a><a href="/totalenergy/data/annual/xls/stb0601.xls"> <i class="ico xls">                <span>XLS</span>            </i> </a></li>
 
@@ -61,7 +60,7 @@
 </li>
         </ul>
         <ul>
-            <li><a href="/cfapps/ipdbproject/IEDIndex3.cfm">Natural gas statistics by country</a></li>
+            <li><a href="/cfapps/ipdbproject/IEDIndex3.php">Natural gas statistics by country</a></li>
             <li>Query detailed country and regional energy data supply, disposition</li>
             <li class="release-schedule">Annual</li>
         </ul>
@@ -272,7 +271,7 @@
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head"><a href="/cfapps/ngqs/ngqs.cfm?f_report=RP9&amp;f_sortby=&amp;f_items=&amp;f_year_start=&amp;f_year_end=&amp;f_show_compid=&amp;f_fullscreen">Plant-level location and capacity</a></li>
+            <li class="head"><a href="/cfapps/ngqs/ngqs.php?f_report=RP9&amp;f_sortby=&amp;f_items=&amp;f_year_start=&amp;f_year_end=&amp;f_show_compid=&amp;f_fullscreen">Plant-level location and capacity</a></li>
             <li>
                 <li> <span class="release-date">Release Date: </span> <span class="date">November 27, 2013 </span></li>
                 <li>Plant-level location and capacity information for all natural gas processing plants in the United States.</li>
@@ -319,7 +318,7 @@
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head"><a href="/cfapps/ngqs/ngqs.cfm?f_report=RP2&amp;f_sortby=ICA&amp;f_items=0110VL,0120VL,0210VL,0220VL,0230VL,0300VL,0400VL,0500VL,0600VL,0700VL,0800VL,&amp;f_year_start=2009&amp;f_year_end=2012&amp;f_show_compid=Name&amp;f_fullscreen=">Production by company</a></li>
+            <li class="head"><a href="/cfapps/ngqs/ngqs.php?f_report=RP2&amp;f_sortby=ICA&amp;f_items=0110VL,0120VL,0210VL,0220VL,0230VL,0300VL,0400VL,0500VL,0600VL,0700VL,0800VL,&amp;f_year_start=2009&amp;f_year_end=2012&amp;f_show_compid=Name&amp;f_fullscreen=">Production by company</a></li>
             <li class="include"><span class="release-date">Annual Release Date:</span><span class="date">    <?php include('css_rehab/archive/naturalgas/annual/includes/releasedate.inc') ?></span></li>
             <li>Annual production volumes from data collected on Form EIA-176 (Annual Report of Natural and Supplemental Gas Supply and Disposition)</li>
             <li class="release-schedule">Annual</li>
@@ -374,9 +373,9 @@
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head"><a href="/cfapps/ipdbproject/IEDIndex3.cfm?tid=3&amp;pid=26&amp;aid=3">International imports data</a></li>
+            <li class="head"><a href="/cfapps/ipdbproject/IEDIndex3.php?tid=3&amp;pid=26&amp;aid=3">International imports data</a></li>
             <li>Imports by country, region and country groups</li>
-            <li class="head"><a href="/cfapps/ipdbproject/IEDIndex3.cfm?tid=3&amp;pid=26&amp;aid=4">International exports data</a></li>
+            <li class="head"><a href="/cfapps/ipdbproject/IEDIndex3.php?tid=3&amp;pid=26&amp;aid=4">International exports data</a></li>
             <li>Exports by country, region and country groups</li>
             <li class="head"><a href="/naturalgas/pipelines/EIA-NaturalGasPipelineProjects.xlsx">Pipeline projects</a></li>
             <li>Detailed information on the size and location of pipeline projects announced or under construction.</li>
@@ -456,7 +455,7 @@
                 <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head"><a href="/cfapps/ngqs/ngqs.cfm?f_report=RP7&amp;f_sortby=&amp;f_items=&amp;f_year_start=&amp;f_year_end=&amp;f_show_compid=&amp;f_fullscreen">U.S. field level storage data</a></li>
+            <li class="head"><a href="/cfapps/ngqs/ngqs.php?f_report=RP7&amp;f_sortby=&amp;f_items=&amp;f_year_start=&amp;f_year_end=&amp;f_show_compid=&amp;f_fullscreen">U.S. field level storage data</a></li>
             <li class="include">
                 <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?></li>
             <li>Annual field-level storage capacity and field-type data for all underground storage fields in the United States.</li>
@@ -517,14 +516,14 @@
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head"><a href="/cfapps/ngqs/ngqs.cfm?f_report=RP1&amp;CFID=3671337&amp;CFTOKEN=adecb824a353d3ce-2B0A52F6-237D-DA68-24A4616E47171EC2">Company-level supply and disposition</a></li>
+            <li class="head"><a href="/cfapps/ngqs/ngqs.php?f_report=RP1&amp;CFID=3671337&amp;CFTOKEN=adecb824a353d3ce-2B0A52F6-237D-DA68-24A4616E47171EC2">Company-level supply and disposition</a></li>
             <li class="include">
                 <?php include('css_rehab/archive/naturalgas/annual/includes/nga-release-date.inc') ?></li>
             <li>Annual company-level supply and disposition data for all natural gas local distribution companies in the United States.</li>
             <li class="release-schedule">Annual</li>
         </ul>
         <ul>
-            <li class="head"><a href="/cfapps/ipdbproject/IEDIndex3.cfm?tid=3&amp;pid=26&amp;aid=2">International natural gas consumption</a></li>
+            <li class="head"><a href="/cfapps/ipdbproject/IEDIndex3.php?tid=3&amp;pid=26&amp;aid=2">International natural gas consumption</a></li>
             <li>Dry natural gas consumption, by country, region, and country groups</li>
             <li><a href="/beta/international/data/browser/">International Energy Statistics</a>
                 <li class="release-schedule">Annual</li>

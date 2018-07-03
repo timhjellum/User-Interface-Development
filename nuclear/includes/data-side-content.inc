@@ -5,9 +5,9 @@
         <li class="sub-head">Uranium &amp; nuclear fuel</li>
         <li>
             <ul>
-                <li><a href="/uranium/production/annual/ureserve.cfm" title="html format: U.S. Reserves Estimates">Uranium reserves estimates</a></li>
-                <li><a href="/uranium/production/annual/usummary.cfm" title="html format: Summary Production Statistics">Summary production statistics</a></li>
-                <li><a href="/uranium/production/quarterly/qupdtable1.cfm" title="html format: Quarterly Production">Quarterly production</a></li>
+                <li><a href="/uranium/production/annual/ureserve.php" title="html format: U.S. Reserves Estimates">Uranium reserves estimates</a></li>
+                <li><a href="/uranium/production/annual/usummary.php" title="html format: Summary Production Statistics">Summary production statistics</a></li>
+                <li><a href="/uranium/production/quarterly/qupdtable1.php" title="html format: Quarterly Production">Quarterly production</a></li>
                 <li><a href="/nuclear/umtra/" title="html format: Remediation of Mill Sites">Remediation of mill sites</a></li>
             </ul>
 </li>
@@ -34,6 +34,6 @@
     <ul>
         <li class="head">
             <h2>Nuclear energy</h2></li>
-        <li><a href="/energyexplained/index.cfm?page=nuclear_home">Nuclear energy explained</a></li>
+        <li><a href="/energyexplained/index.php?page=nuclear_home">Nuclear energy explained</a></li>
     </ul>
 </div>

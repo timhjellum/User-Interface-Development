@@ -44,7 +44,7 @@ $tie_lookup = $neic->get($bindVariables);
 
 <?php /* FAQ Promo */ ?> 
 <span class="blue_side">
-<h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=104&t=21">How much electricity does a typical nuclear power plant generate? &rsaquo;</a> </h2></li>
+<h4 class="q_side"><a href="/tools/faqs/faq.php?id=104&t=21">How much electricity does a typical nuclear power plant generate? &rsaquo;</a> </h2></li>
 <p><a href="/tools/faqs/ ">See all FAQs &rsaquo;</a></p>
 </span> 
 <?php /*<span class="grey_side green_top">
@@ -56,6 +56,6 @@ $tie_lookup = $neic->get($bindVariables);
 
 <?php /* Energy Explained Promo */ ?>
 
-<p><a href="/energyexplained/index.cfm?page=nuclear_home"><img src="/energyexplained/images/section-banners/nuclear.jpg" alt="Energy Explained - Nuclear"  width="240"  /></a></p>
+<p><a href="/energyexplained/index.php?page=nuclear_home"><img src="/energyexplained/images/section-banners/nuclear.jpg" alt="Energy Explained - Nuclear"  width="240"  /></a></p>
 <?php /* Kids Promo */ ?>
 <?php include ('global/includes/kids_dates.inc') ; ?>

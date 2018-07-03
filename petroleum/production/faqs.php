@@ -41,7 +41,7 @@
 </p>
 <p>Additional  information about the survey methodology is available in the Form EIA-914 <a href="/petroleum/production/pdf/eia914methodology.pdf">Methodology Report</a> and in <a href="http://www.reginfo.gov/public/do/PRAViewDocument?ref_nbr=201408-1905-001">Supporting Statement B</a>, which is available from the U.S.  Office of Management and Budget.
 </p>
-<p>More  information on Form EIA-914 and <a href="/survey/form/eia_914/faqs.cfm">some frequently asked questions</a> for respondents are available on  EIA&rsquo;s website.
+<p>More  information on Form EIA-914 and <a href="/survey/form/eia_914/faqs.php">some frequently asked questions</a> for respondents are available on  EIA&rsquo;s website.
 </p>
 <br />
 <h3 style="border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCC; margin-bottom:10px">What states are included in the Form EIA-914?</h3>
@@ -159,7 +159,7 @@ U.S total oil production</caption>
 <p>The PSM is released two months after the end of a given month (June 2015 data were released at the end of August 2015). The August 2015 edition was the first PSM that included state-level production estimates based on Form EIA-914 data. EIA derived estimates for the nonsampled states to develop a total U.S. crude oil production estimate. The STEO forecasts are benchmarked to the latest monthly oil production estimates from the PSM.
 </p>
 <!--<h3>Where can I find additional information about Form EIA-914?</h3>
-<p>EIA&rsquo;s survey  forms page has <a href="/survey/#eia-914">additional information about Form  EIA-914</a>, including  an <a href="/survey/form/eia_914/faqs.cfm">FAQ for respondents</a> and the <a href="/survey/form/eia_914/form.pdf">Form EIA-914</a>.
+<p>EIA&rsquo;s survey  forms page has <a href="/survey/#eia-914">additional information about Form  EIA-914</a>, including  an <a href="/survey/form/eia_914/faqs.php">FAQ for respondents</a> and the <a href="/survey/form/eia_914/form.pdf">Form EIA-914</a>.
 </p>-->
 <?php /* end main content */ ?>
 </div>l-narrow-col

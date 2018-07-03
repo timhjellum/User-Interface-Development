@@ -6,11 +6,11 @@
 <li class="head"><h2>What's New in Total Energy?</h2></li>
                 
             
-            <p><a href="monthly.cfm"><strong>Monthly Energy Review &rsaquo;</strong></a>
+            <p><a href="monthly.php"><strong>Monthly Energy Review &rsaquo;</strong></a>
             <p><em>released January  2011</em></p>
-            <a href="annual.cfm"><strong>Annual Energy Review 2009 &rsaquo;</strong></a>
+            <a href="annual.php"><strong>Annual Energy Review 2009 &rsaquo;</strong></a>
             <p><em>released August 2010</em></p>
-            <a href="annual.cfm"><strong>Consumption, Price, and Expenditure Estimates &rsaquo;</strong></a>
+            <a href="annual.php"><strong>Consumption, Price, and Expenditure Estimates &rsaquo;</strong></a>
             <p><em>complete release of final 2009 data: end of June 2011</em></p></span>
             <!-- Start of Graphics side items */ ?>
               
@@ -36,7 +36,7 @@
           </span>
           <?php /* End of Energy Flow Content box */ ?>
 <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=85&t=1">How much energy does a person use in a year? &rsaquo;</a></h2></li>
+          <h4 class="q_side"><a href="/tools/faqs/faq.php?id=85&t=1">How much energy does a person use in a year? &rsaquo;</a></h2></li>
           <p><a href="/tools/faqs/#generalenergy" width="240"><br />
           See all general energy FAQs  &rsaquo;</a></p>
         </span>
@@ -45,4 +45,4 @@
               
 <img src="" width="200"><a href=""></a>-->
         <?php /* Energy Explained Promo */ ?>
-        <p><a href="/energyexplained/index.cfm?page=us_energy_home"><img src="/energyexplained/images/section-banners/usa_energy_facts.jpg"  alt="Energy Explained - U.S. Energy Facts" width="240"/></a></p>
+        <p><a href="/energyexplained/index.php?page=us_energy_home"><img src="/energyexplained/images/section-banners/usa_energy_facts.jpg"  alt="Energy Explained - U.S. Energy Facts" width="240"/></a></p>

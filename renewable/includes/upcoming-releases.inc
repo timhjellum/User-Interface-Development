@@ -5,7 +5,7 @@
 
 $mainTitle = "Upcoming Releases";
 
-$OneURL = "/petroleum/ethanolcapacity/index.cfm";
+$OneURL = "/petroleum/ethanolcapacity/index.php";
 $OneLabel = "U.S. Fuel Ethanol Plant Production Capacity";
 $OneDate = "June 2018";
 

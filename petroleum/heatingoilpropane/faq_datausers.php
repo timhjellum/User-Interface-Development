@@ -70,7 +70,7 @@ One important factor affecting retail heating fuel supplies is the distribution 
 
 
 
-The survey was developed to collect information for the States using heating oil and propane as their primary source of residential heating during the winter months. As shown in this <a href="/todayinenergy/detail.cfm?id=3550">2011 article</a>, the majority of heating oil and propane consumed for heating purposes is in the Northeast and Midwest of the country.</p>
+The survey was developed to collect information for the States using heating oil and propane as their primary source of residential heating during the winter months. As shown in this <a href="/todayinenergy/detail.php?id=3550">2011 article</a>, the majority of heating oil and propane consumed for heating purposes is in the Northeast and Midwest of the country.</p>
 <p>
 
 

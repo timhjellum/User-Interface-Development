@@ -4,7 +4,7 @@ $twip_page = isset($twip_page) ? $twip_page : '';
 <div class="l-row hel-split-wide-coldetails">
         <div class="l-split-wide">
 
-<a href="/petroleum/reports.cfm">&lsaquo; See all Petroleum &amp; Other Liquids Reports</a>
+<a href="/petroleum/reports.php">&lsaquo; See all Petroleum &amp; Other Liquids Reports</a>
                 <h1>This Week in Petroleum</h1>
 
                 <div class="release-dates">

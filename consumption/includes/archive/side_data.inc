@@ -14,7 +14,7 @@
 <ul>
   <li><a href="/consumption/commercial/data/2012/index.php?view=characteristics">Building characteristics</a></li>
   <li><a href="/consumption/commercial/data/2012/index.php?view=consumption">Commercial energy use &amp; costs</a></li>
-  <li><a href="/consumption/commercial/data/2012/index.php?view=microdata2003/index.cfm?view=microdata">Detailed buildings microdata</a></li>
+  <li><a href="/consumption/commercial/data/2012/index.php?view=microdata2003/index.php?view=microdata">Detailed buildings microdata</a></li>
 </ul>
 </li>
 <li class="sub-head"><strong>Manufacturing energy consumption</strong></li>
@@ -39,8 +39,8 @@
 <li class="sub-head"><strong>Energy intensity&nbsp;</strong></li>
 <li>
 <ul>
-  <li> <a href="/consumption/residential/data/2009/index.cfm?view=consumption#summary">Residential</a></li>
-  <li><a href="/consumption/commercial/data/2003/index.cfm?view=consumption">Commercial     buildings</a></li>
+  <li> <a href="/consumption/residential/data/2009/index.php?view=consumption#summary">Residential</a></li>
+  <li><a href="/consumption/commercial/data/2003/index.php?view=consumption">Commercial     buildings</a></li>
   <li><a href="/consumption/manufacturing/reports/archive/iron_steel_9802/steel_9802_data.html">Manufacturing industries</a></li>
 </ul>
 </li>
@@ -81,8 +81,8 @@
 <li class="sub-head"><strong>Annual Energy Outlook 2011, Early Release:</strong></li>
 <li>
 <ul>
-  <li> <a href="http://www.eia.gov/forecasts/aeo/early_consumption.cfm">Energy consumption by sector </a></li>
-  <li> <a href="http://www.eia.gov/forecasts/aeo/early_intensity.cfm">Energy intensity </a></li>
+  <li> <a href="http://www.eia.gov/forecasts/aeo/early_consumption.php">Energy consumption by sector </a></li>
+  <li> <a href="http://www.eia.gov/forecasts/aeo/early_intensity.php">Energy intensity </a></li>
 </ul>
 </li>
 <li class="sub-head"><strong>Annual Energy Outlook 2010 with Projections to 2035</strong></li>

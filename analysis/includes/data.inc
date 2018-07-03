@@ -97,7 +97,10 @@
         <ul>
             <li><a href="/outlooks/steo/tables/?tableNumber=28">9c. U.S. regional weather data</a></li>
             <li><span class="formats">Available formats:</span><a href="/outlooks/steo/tables/pdf/9ctab.pdf" title="Table 9c. U.S. regional weather data"><i class="ico pdf"><span>PDF</span></i></a></li>
-            <li><a href="/cfapps/ipdbproject/IEDIndex3.cfm">International petroleum supply, disposition</a><br />Query tool for detailed country and regional energy data (monthly, annual)</li>
+        </ul>
+        <ul>
+            <li><a href="/cfapps/ipdbproject/IEDIndex3.php">International petroleum supply, disposition</a></li>
+            <li>Query tool for detailed country and regional energy data (monthly, annual)</li>
         </ul>
     </div>
 
@@ -109,9 +112,9 @@
     <div class="content">
         <ul class="highlight">
             <li><em><a href="/outlooks/aeo/">Annual Energy Outlook 2017</a></em> (released: January 5, 2017) -- Reference case main 21 tables See complete table listing for
-                <a href="/outlooks/aeo/tables_ref.cfm">reference case</a> and
-                <a href="/outlooks/aeo/tables_side.cfm">side cases</a>.
-                <a href="/outlooks/aeo/supplemental_case.cfm"> Supplemental case </a>(released June 26, 2017)</li>
+                <a href="/outlooks/aeo/tables_ref.php">reference case</a> and
+                <a href="/outlooks/aeo/tables_side.php">side cases</a>.
+                <a href="/outlooks/aeo/supplemental_case.php"> Supplemental case </a>(released June 26, 2017)</li>
         </ul>
         <ul>
             <li><a href="/outlooks/aeo/data/browser/#/?id=1-aeo2017&amp;cases=ref2017~ref_no_cpp&amp;sourcekey=0">A1. Total energy supply and disposition demand</a></li>
@@ -226,8 +229,8 @@
     <h3><a name="intlproj"></a>International projections to 2050</h3>
     <div class="content">
         <ul>
-            <li class="highlight"><em><a href="/outlooks/ieo/">International Energy Outlook</a></em>-- Reference Case tables released: September 14, 2017</li>
-            <li class="highlight"><a href="/outlooks/ieo/pdf/appa.pdf" class="pdf" title="International Energy Outlook">PDF (all tables)</a></li>
+            <li class="highlight"><em><a href="/outlooks/ieo/">International Energy Outlook</a></em> -- Reference Case tables released: September 14, 2017</li>
+            <li class="highlight"><span class="formats">Available formats:</span><a href="/outlooks/ieo/pdf/appa.pdf" class="pdf" title="International Energy Outlook"><i class="ico pdf"><span>PDF (all tables)</span></i></a></li>
         </ul>
         <ul>
             <li><a href="/outlooks/aeo/data/browser/#/?id=1-IEO2017">A1. World total primary energy consumption by region</a></li>

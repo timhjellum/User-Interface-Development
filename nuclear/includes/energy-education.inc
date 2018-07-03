@@ -3,19 +3,19 @@
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "nuclear";
-$itemOneHeadURL = "/energyexplained/index.cfm?page=nuclear_home";
+$itemOneHeadURL = "/energyexplained/index.php?page=nuclear_home";
 $itemOneHeadLabel = "Nuclear Explained";
-$itemOneSubheadURL = "/energyexplained/index.cfm?page=nuclear_fuel_cycle";
+$itemOneSubheadURL = "/energyexplained/index.php?page=nuclear_fuel_cycle";
 $itemOneSubheadLabel = "The nuclear fuel cycle";
-$itemOneSubheadSecURL = "/energyexplained/index.cfm?page=nuclear_where";
+$itemOneSubheadSecURL = "/energyexplained/index.php?page=nuclear_where";
 $itemOneSubheadSecLabel = "Where our uranium comes from";
-$itemOneFootUrl = "/energyexplained/index.cfm?page=nuclear_home";
+$itemOneFootUrl = "/energyexplained/index.php?page=nuclear_home";
 $itemOneFootLabel = "See more nuclear topics";
 
 $itemTwoIcon = "faq";
 $itemTwoHeadURL = "/tools/faqs/";
 $itemTwoHeadLabel = "FAQs";
-$itemTwoSubheadURL = "/tools/faqs/faq.cfm?id=207&t=21";
+$itemTwoSubheadURL = "/tools/faqs/faq.php?id=207&t=21";
 $itemTwoSubheadLabel = "How many nuclear power plants are in the U.S. and where are they located?";
 $itemTwoFootUrl = "/tools/faqs/#nuclear";
 $itemTwoFootLabel = "See all nuclear FAQs";
@@ -23,9 +23,9 @@ $itemTwoFootLabel = "See all nuclear FAQs";
 $itemThrIcon = "energy-kids";
 $itemThrHeadURL = "/kids";
 $itemThrHeadLabel = "Energy Kids";
-$itemThrSubheadURL = "/kids/energy.cfm?page=nuclear_home-basics";
+$itemThrSubheadURL = "/kids/energy.php?page=nuclear_home-basics";
 $itemThrSubheadLabel = "Uranium (nuclear) basics";
-$itemThrFootUrl = "/kids/energy.cfm?page=nuclear_home-basics";
+$itemThrFootUrl = "/kids/energy.php?page=nuclear_home-basics";
 $itemThrFootLabel = "See Nuclear on Energy Kids";
 
 ?>

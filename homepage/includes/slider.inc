@@ -34,7 +34,7 @@ $slideSixTitle = "Monthly Energy Review";
 $slideSixDescription = "Recent energy statistics";
 
 /*
-$slideSevURL = "/outlooks/archive/aeo16/section_issues.cfm#policies";
+$slideSevURL = "/outlooks/archive/aeo16/section_issues.php#policies";
 $slideSevImageName = "slide07.jpg";
 $slideSevTitle = "Alternative Policies in Power Generation and Energy Demand Markets from the Annual Energy Outlook 2018";
 $slideSevDescription = "";

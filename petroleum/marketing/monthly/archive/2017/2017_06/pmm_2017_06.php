@@ -33,7 +33,7 @@ $report_pdf = '<a href="pdf/pmmall.pdf" class="pdf"; ?>Full Report</a>'; ?>
                         <div class="l-main-col">
                             <!-- start main content  -->
                             <!-- mpub_temp  -->
-                            <p class="grey_side"><strong>Note:</strong> <a href="/survey/notice/marketing2017.cfm">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
+                            <p class="grey_side"><strong>Note:</strong> <a href="/survey/notice/marketing2017.php">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
                             </p>
                             <!--
 <div class="feature">

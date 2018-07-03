@@ -21,30 +21,14 @@
                             font-size: .8125rem; //13px;
                             &:after { 
                                 content:"\00a0\203A";
-                            } 
+                            }
                         }
                     }
-
                     ul {
                         list-style-type: disc;
                     }
                 }
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             .l-one-third-col {
                 padding: 1em 0 1.5em 0;
                 img {
@@ -68,7 +52,7 @@
                             height: 75px;
                             &.faq {
                                 &::before {
-                                    .icon-faq(@fill-color: @eia-darker-blue, @fill-color-lt: @eia-light-blue);
+                                    .icon-faq(@fill-color: @eia-darker-blue, @fill-color-lt: @eia-blue);
                                     .nav-bar-icon(75px, 66px);
                                     background-size: 90%;
                                     border: none;
@@ -88,36 +72,79 @@
                                 background-size: 68%;
                             }
                             &.natural-gas {
-                                background: url(/css_rehab/archive/global/images/energy-education/natural-gas.png) no-repeat;
-
+                                &:before {
+                                    .icon-natural-gas(@fill-color: @eia-blue);
+                                    .nav-bar-icon(75px, 66px);
+                                    background-size: 90%;
+                                    margin-left: 0;
+                                    border: none;
+                                }
+//background: url(/css_rehab/archive/global/images/energy-education/natural-gas.png) no-repeat;
                             }
                             &.bio-fuel {
                                 background: url(/css_rehab/archive/global/images/energy-education/bio-fuel.png) no-repeat;
-
                             }
                             &.coal {
-                                background: url(/css_rehab/archive/global/images/energy-education/coal.png) no-repeat;
-
+                                &:before {
+                                    .icon-coal(@fill-color: @eia-dark-grey, @fill-color-lt: shade(@eia-brown, 30%)); //  #7a6b4d
+                                    .nav-bar-icon(75px, 66px);
+                                    background-size: 90%;
+                                    margin-left: 0;
+                                    border: none;
+                                    background-position-y: 45%;
+                                }
                             }
+//background: url(/css_rehab/archive/global/images/energy-education/coal.png) no-repeat;
                             &.consumption {
-                                background: url(/css_rehab/archive/global/images/energy-education/consumption.png) no-repeat;
-
+                                &:before {
+                                    .icon-consumption(@fill-color: @eia-brown);// 
+                                    .nav-bar-icon(75px, 66px);
+                                    background-size: 90%;
+                                    margin-left: 0;
+                                    border: none;
+                                }
+//background: url(/css_rehab/archive/global/images/energy-education/consumption.png) no-repeat;
                             }
                             &.environment {
-                                background: url(/css_rehab/archive/global/images/energy-education/environment.png) no-repeat;
-
+                                &:before {
+                                    .icon-environment(@fill-color: @eia-brown);
+                                    .nav-bar-icon(75px, 66px);
+                                    background-size: 90%;
+                                    margin-left: 0;
+                                    border: none;
+                                    background-position-y: 45%;
+                                }
+//background: url(/css_rehab/archive/global/images/energy-education/environment.png) no-repeat;
                             }
                             &.electricity {
-                                background: url(/css_rehab/archive/global/images/energy-education/electricity.png) no-repeat;
-
+                                &:before {
+                                    .icon-electricity(@fill-color: @eia-blue);
+                                    .nav-bar-icon(75px, 66px);
+                                    background-size: 90%;
+                                    margin-left: 0;
+                                    border: none;
+                                }
+//background: url(/css_rehab/archive/global/images/energy-education/electricity.png) no-repeat;
                             }
                             &.nuclear {
-                                background: url(/css_rehab/archive/global/images/energy-education/nuclear.png) no-repeat;
-
+                                &:before {
+                                    .icon-nuclear(@fill-color: @eia-red);
+                                    .nav-bar-icon(75px, 66px);
+                                    //background-size: 90%;
+                                    margin-left: 0;
+                                    border: none;
+                                }
+//background: url(/css_rehab/archive/global/images/energy-education/nuclear.png) no-repeat;
                             }
                             &.renewable {
-                                background: url(/css_rehab/archive/global/images/energy-education/renewable.png) no-repeat;
-
+                                &:before {
+                                    .icon-renewable(@fill-color: @eia-green);
+                                    .nav-bar-icon(75px, 66px);
+                                    background-size: 90%;
+                                    margin-left: 0;
+                                    border: none;
+                                }
+//background: url(/css_rehab/archive/global/images/energy-education/renewable.png) no-repeat;
                             }
                             &.eib {
                                 background: url(/css_rehab/archive/global/images/energy-education/eib.png) no-repeat;

@@ -3,25 +3,25 @@
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "consumption";
-$itemOneHeadURL = "/energyexplained/index.cfm";
+$itemOneHeadURL = "/energyexplained/index.php";
 $itemOneHeadLabel = "Energy Explained";
-$itemOneSubheadURL = "/energyexplained/index.cfm?page=us_energy_use";
+$itemOneSubheadURL = "/energyexplained/index.php?page=us_energy_use";
 $itemOneSubheadLabel = "Use of Energy";
-$itemOneFootUrl = "/energyexplained/index.cfm?page=us_energy_industry";
+$itemOneFootUrl = "/energyexplained/index.php?page=us_energy_industry";
 $itemOneFootLabel = "see more energy explained";
 
 $itemTwoIcon = "faq";
-$itemTwoHeadURL = "/tools/faqs/faq.cfm?id=97&t=3";
+$itemTwoHeadURL = "/tools/faqs/faq.php?id=97&t=3";
 $itemTwoHeadLabel = "FAQs";
-$itemTwoSubheadURL = "/tools/faqs/faq.cfm?id=97&t=3";
+$itemTwoSubheadURL = "/tools/faqs/faq.php?id=97&t=3";
 $itemTwoSubheadLabel = "How much electricity does an American home use?";
 $itemTwoFootUrl = "/tools/faqs/";
 $itemTwoFootLabel = "See all  FAQs ";
 
 $itemThrIcon = "energy-kids";
-$itemThrHeadURL = "/kids/energy.cfm?page=us_energy_use-basics";
+$itemThrHeadURL = "/kids/energy.php?page=us_energy_use-basics";
 $itemThrHeadLabel = "Energy Kids";
-$itemThrSubheadURL = "/kids/energy.cfm?page=XXXXXXXXXXXXXXXXXXXX";
+$itemThrSubheadURL = "/kids/energy.php?page=XXXXXXXXXXXXXXXXXXXX";
 $itemThrSubheadLabel = "How we use energy";
 $itemThrFootUrl = "/kids/";
 $itemThrFootLabel = "Using & Saving Energy";

@@ -27,12 +27,12 @@ $(document).ready(function(){
   <?php /* Page/Sub Nav */ ?> 
   <span class="right"><a href="<?php echo "$glossary_path"?>?id=consumption">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span>
   <ul>
-    <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/consumption/residential/index.cfm">Overview</a></li>
+    <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/consumption/residential/index.php">Overview</a></li>
 <?php /*div class="dat_block">
       <ul>
-        <li><a href="/consumption/residential/about.cfm">About RECS</a></li>
-        <li><a href="/consumption/residential/terminology.cfm">RECS Terminology</a></li>
-        <li><a href="/consumption/residential/faqs.cfm">RECS FAQs</a></li>
+        <li><a href="/consumption/residential/about.php">About RECS</a></li>
+        <li><a href="/consumption/residential/terminology.php">RECS Terminology</a></li>
+        <li><a href="/consumption/residential/faqs.php">RECS FAQs</a></li>
       </ul>
     </div*/ ?>
     <li class="dropdown <?php if ( $locale == 'data') {?>active<?php  } // end if ?>"><a href="/consumption/residential/data/2015">Data</a></li>
@@ -44,20 +44,20 @@ $(document).ready(function(){
         <li><a href="/consumption/residential/data/2001/">2001</a></li>
         <li><a href="/consumption/residential/data/1997/">1997</a></li>
         <li><a href="/consumption/residential/data/1993/">1993</a></li>
-        <li><a href="/consumption/residential/data/previous.cfm">Previous</a></li>
-        <?php /*li><a href="/consumption/residential/data/archive.cfm">Archive</a></li*/ ?>
+        <li><a href="/consumption/residential/data/previous.php">Previous</a></li>
+        <?php /*li><a href="/consumption/residential/data/archive.php">Archive</a></li*/ ?>
       </ul>
       
     </div>
-    <?php /*li class="dropdown <?php if ( $locale == 'methodology') {?>active<?php  } // end if ?>"><a href="/consumption/residential/methodology/index.cfm" >Methodology</a></li>
+    <?php /*li class="dropdown <?php if ( $locale == 'methodology') {?>active<?php  } // end if ?>"><a href="/consumption/residential/methodology/index.php" >Methodology</a></li>
     <div class="dat_block">
       <ul>
-        <li><a href="/consumption/residential/surveyforms.cfm">Survey Forms</a></li>
+        <li><a href="/consumption/residential/surveyforms.php">Survey Forms</a></li>
         <li><a href="#">Terminology</a></li>
       </ul>
     </div*/ ?>
-    <li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/consumption/residential/reports.cfm">Analysis &amp; Projections</a></li>
-    <?php /*li class="dropdown"><a href="/consumption/residential/about.cfm">Surveys</a></li>
+    <li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/consumption/residential/reports.php">Analysis &amp; Projections</a></li>
+    <?php /*li class="dropdown"><a href="/consumption/residential/about.php">Surveys</a></li>
     <div class="dat_block">
       <ul>
         <li><a href="/emeu/cbecs/contents.html">Commercial (CBECS)</a></li>

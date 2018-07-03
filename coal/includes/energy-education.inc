@@ -3,17 +3,17 @@
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "coal";
-$itemOneHeadURL = "/energyexplained/index.cfm?page=coal_home";
+$itemOneHeadURL = "/energyexplained/index.php?page=coal_home";
 $itemOneHeadLabel = "Coal Explained";
-$itemOneSubheadURL = "/energyexplained/index.cfm?page=coal_where";
+$itemOneSubheadURL = "/energyexplained/index.php?page=coal_where";
 $itemOneSubheadLabel = "Where our coal comes from";
-$itemOneFootUrl = "/energyexplained/index.cfm?page=coal_home";
+$itemOneFootUrl = "/energyexplained/index.php?page=coal_home";
 $itemOneFootLabel = "See more coal topics";
 
 $itemTwoIcon = "faq";
 $itemTwoHeadURL = "/tools/faqs/";
 $itemTwoHeadLabel = "FAQs";
-$itemTwoSubheadURL = "/tools/faqs/faq.cfm?id=527&t=2";
+$itemTwoSubheadURL = "/tools/faqs/faq.php?id=527&t=2";
 $itemTwoSubheadLabel = "How much coal, natural gas, or petroleum is used to generate a kilowatt-hour of electricity?";
 $itemTwoFootUrl = "/tools/faqs/#coal";
 $itemTwoFootLabel = "See all coal FAQs";
@@ -21,9 +21,9 @@ $itemTwoFootLabel = "See all coal FAQs";
 $itemThrIcon = "energy-kids";
 $itemThrHeadURL = "/kids";
 $itemThrHeadLabel = "Energy Kids";
-$itemThrSubheadURL = "/kids/energy.cfm?page=coal_home-basics#coal_environment-basics";
+$itemThrSubheadURL = "/kids/energy.php?page=coal_home-basics#coal_environment-basics";
 $itemThrSubheadLabel = "Coal & the Environment";
-$itemThrFootUrl = "/kids/energy.cfm?page=coal_home-basics";
+$itemThrFootUrl = "/kids/energy.php?page=coal_home-basics";
 $itemThrFootLabel = "See coal on Energy Kids";
 
 ?>

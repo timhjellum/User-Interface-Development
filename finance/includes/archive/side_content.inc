@@ -36,7 +36,7 @@ $tie_lookup = $neic->get($bindVariables);
 <?php  } // end if ?>
 <span class="grey_side green_top">
 <h4>Related Information</h4>
-<p><a href="/finance/workshops.cfm">Workshops</a></p>
+<p><a href="/finance/workshops.php">Workshops</a></p>
 <p><a href="/discussionpapers/#finance">Working papers</a></p>
 <p class="no-border">From IEA - <a href="http://omrpublic.iea.org/special_sup_apr11.pdf" class="ico_pdf">The Mechanics of the Derivatives Markets: What They Are and How they Function </a></p>
 </span> <span class="grey_side green_top">

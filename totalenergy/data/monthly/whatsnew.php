@@ -5,7 +5,7 @@
 <?php include ('global/includes/eia_head_info.inc') ; ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ****************************************************************** */ ?>
-<?php /*   File Name:     whatsnew_archive.cfm                              */ ?>
+<?php /*   File Name:     whatsnew_archive.php                              */ ?>
 <?php /*   Purpose:       List the past changes in the MER                  */ ?>
 <?php /* ****************************************************************** */ ?>
 <body>
@@ -741,7 +741,7 @@ This issue marks 40 years of continuous publication of the <i>Monthly Energy Rev
 <tr>
 <td  bgcolor="#FFFFFF">
 <h4>April 2014 Release</h4><p></p>
-<p>Approximate Heat Content of Coal and Coal  Coke (<?php /*<a href="/totalenergy/data/monthly/pdf/sec13_5.pdf">*/ ?>Table A5<?php /*</a>*/ ?>) includes revisions for 2013 that affect Btu data in <?php /*<a href="/totalenergy/data/monthly/index.cfm#summary">*/ ?>Energy  Overview<?php /*</a>*/ ?>, <?php /*<a href="/totalenergy/data/monthly/index.cfm#consumption">*/ ?>Energy Consumption<?php /*</a>*/ ?>, and <?php /*<a href="/totalenergy/data/monthly/index.cfm#environment">*/ ?>Environment<?php /*</a>*/ ?>; the 2013 preliminary heat contents are used as estimated 2014 heat contents.
+<p>Approximate Heat Content of Coal and Coal  Coke (<?php /*<a href="/totalenergy/data/monthly/pdf/sec13_5.pdf">*/ ?>Table A5<?php /*</a>*/ ?>) includes revisions for 2013 that affect Btu data in <?php /*<a href="/totalenergy/data/monthly/index.php#summary">*/ ?>Energy  Overview<?php /*</a>*/ ?>, <?php /*<a href="/totalenergy/data/monthly/index.php#consumption">*/ ?>Energy Consumption<?php /*</a>*/ ?>, and <?php /*<a href="/totalenergy/data/monthly/index.php#environment">*/ ?>Environment<?php /*</a>*/ ?>; the 2013 preliminary heat contents are used as estimated 2014 heat contents.
 </p>
 </td>
 </tr>
@@ -1867,7 +1867,7 @@ Natural gas imports from Nigeria are added to Table 4.2 and "Other" is adjusted 
 <td bgcolor="#FFFFFF">
 <h4>December 2006 Release</h4><p></p>
 <p>
-1) This issue of the <i>Monthly Energy Review</i> is the final one to be released in printed form.  All of the data in the published report continues to be available on the Web site, and a complete PDF file of the report continues to be available at http://www.eia.gov/totalenergy/data/monthly/previous.cfm.
+1) This issue of the <i>Monthly Energy Review</i> is the final one to be released in printed form.  All of the data in the published report continues to be available on the Web site, and a complete PDF file of the report continues to be available at http://www.eia.gov/totalenergy/data/monthly/previous.php.
 </p>
 <p>
 2) Monthly revisions for 2002-2004 occur in electricity end use (Table 7.6), causing related revisions in Energy Consumption by Sector.

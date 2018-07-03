@@ -52,9 +52,9 @@
         </ul>
         <ul class="l-col">
             <li>Policies</li>
-            <li><a href="/about/privacy_security_policy.cfm">Privacy/Security</a></li>
-            <li><a href="/about/copyrights_reuse.cfm">Copyright &amp; Reuse</a></li>
-            <li><a href="/about/accessability.cfm">Accessibility</a></li>
+            <li><a href="/about/privacy_security_policy.php">Privacy/Security</a></li>
+            <li><a href="/about/copyrights_reuse.php">Copyright &amp; Reuse</a></li>
+            <li><a href="/about/accessability.php">Accessibility</a></li>
         </ul>
         <ul class="l-col">
             <li>Related Sites</li>

@@ -49,7 +49,7 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
                    var buttonOffset = angular.element('#main_download_button').offset(),
                        dialog = angular.element('#download_dialog'),
                        exporter_url = '/global/scripts/jquery/highcharts/exporting-server/',
-                       csvExporter = 'csv_exporter.cfm',
+                       csvExporter = 'csv_exporter.php',
                        inputs = {};
 
                    dialog.show();
@@ -64,7 +64,7 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
                                case 'png':
                                case 'svg':
                                    inputs = vizService.exportData(e.target.id);
-                                   exporter = 'index.cfm';
+                                   exporter = 'index.php';
                                    break;
                                case 'vizualization_data':
                                    inputs = vizService.exportData('csv');

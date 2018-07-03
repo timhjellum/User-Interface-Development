@@ -1,4 +1,4 @@
-<?php /* File: data_table_csec_ytd.cfm */ ?>
+<?php /* File: data_table_csec_ytd.php */ ?>
 <?php /* Date: 11/19/2014 */ ?>
 <?php /* Author: Tony Allen */ ?>
 <?php /* Data Source: Monthly Energy Review - Commercial Sector Energy Consumption - Table 2.3 */ ?>

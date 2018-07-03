@@ -1,7 +1,7 @@
 <div class="l-row header report-details">
         <div class="l-split-wide-col">
         
-                <a href="/petroleum/reports.cfm">&lsaquo; See All Petroleum Reports</a>
+                <a href="/petroleum/reports.php">&lsaquo; See All Petroleum Reports</a>
 <?php
 if(strstr( $_SERVER['PHP_SELF'], 'archive'))
 print "<a href=\"/petroleum/drilling/\">&lsaquo; See Current Issue</a>";

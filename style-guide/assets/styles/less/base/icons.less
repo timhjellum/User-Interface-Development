@@ -417,7 +417,7 @@
 		span {
 			.normal;
 			margin-left: 4px;
-			color: @eia-blue;
+			//color: @eia-blue;
 			font-size: 0.750rem; // 12 pixels
 		}
 		&.analysis {
@@ -945,6 +945,46 @@
 				.controls-icon(20px, 20px);
 			}
 		}
+//		@eia-muted-blue: #66a0b9;
+//		@eia-muted-green: ;
+//		@eia-muted-brown: ;
+		
+		&.residential {
+			&:before {
+				.icon-residential();
+				.controls-icon(55px, 55px);
+			}
+		}
+		&.commercial {
+			&:before {
+				.icon-commercial();
+				.controls-icon(55px, 55px);
+			}
+		}
+		&.industrial {
+			&:before {
+				.icon-industrial();
+				.controls-icon(55px, 55px);
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		/*-search submit --------------------------*/
 		&.submit {
 			top: -6px;

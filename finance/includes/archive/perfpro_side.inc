@@ -72,5 +72,5 @@
                     <td><a href="pdf/tbla10.pdf" class="pdf_link">&nbsp;</a></td>
                     <td><a href="excel/aeotab_10.xls" class="xls_link">&nbsp;</a></li>
                 </table>
-		        <p><a href="tables_ref.cfm"><b>View More &rsaquo;</b></a></p>
+		        <p><a href="tables_ref.php"><b>View More &rsaquo;</b></a></p>
             <hr class="hr_soft"/> */ ?>

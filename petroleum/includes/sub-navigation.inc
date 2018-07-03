@@ -14,17 +14,17 @@
                     <li class="dropdown dropdown-data <?php if ( $locale == 'data') {?>active<?php } ?>"><a href="/petroleum/data.php" class="dropbtn">Data<i class="ico sort-up"></i></a>
                         <div class="dropdown-data-content dropdown-content">
                             <ul>
-                                <li><a href="/petroleum/data.cfm#summary">Summary</a></li>
-                                <li><a href="/petroleum/data.cfm#prices">Prices</a></li>
-                                <li><a href="/petroleum/data.cfm#crude">Crude reserves and production</a></li>
-                                <li><a href="/petroleum/data.cfm#refining">Refining and processing</a></li>
-                                <li><a href="/petroleum/data.cfm#imports">Imports/exports &amp; movements</a></li>
-                                <li><a href="/petroleum/data.cfm#stocks" target="_parent">Stocks</a></li>
-                                <li><a href="/petroleum/data.cfm#consumption">Consumption/sales</a></li>
-                                <li><a href="/petroleum/data.cfm" class="foot">All petroleum &amp; other liquids data reports</a></li>
+                                <li><a href="/petroleum/data.php#summary">Summary</a></li>
+                                <li><a href="/petroleum/data.php#prices">Prices</a></li>
+                                <li><a href="/petroleum/data.php#crude">Crude reserves and production</a></li>
+                                <li><a href="/petroleum/data.php#refining">Refining and processing</a></li>
+                                <li><a href="/petroleum/data.php#imports">Imports/exports &amp; movements</a></li>
+                                <li><a href="/petroleum/data.php#stocks" target="_parent">Stocks</a></li>
+                                <li><a href="/petroleum/data.php#consumption">Consumption/sales</a></li>
+                                <li><a href="/petroleum/data.php" class="foot">All petroleum &amp; other liquids data reports</a></li>
                             </ul>
                         </div></li>
-                    <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>"><a href="/petroleum/reports.cfm" class="dropbtn">Analysis & Projections<i class="ico sort-up"></i></a>
+                    <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>"><a href="/petroleum/reports.php" class="dropbtn">Analysis & Projections<i class="ico sort-up"></i></a>
                         <div class="dropdown-analysis-projections-content dropdown-content">
                             <div class="l-row">
                                 <div class="l-two-third-col">
@@ -39,9 +39,9 @@
                                     <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
                                 </ul>
                                 <ul class="l-one-third-col">
-                                    <li><a href="/petroleum/browsebytag.cfm">Alphabetical</a></li>
-                                    <li><a href="/petroleum/browsebytag.cfm?frequency">Frequency</a></li>
-                                    <li><a href="/petroleum/browsebytag.cfm?tagcloud">Tag Cloud</a></li>
+                                    <li><a href="/petroleum/browsebytag.php">Alphabetical</a></li>
+                                    <li><a href="/petroleum/browsebytag.php?frequency">Frequency</a></li>
+                                    <li><a href="/petroleum/browsebytag.php?tagcloud">Tag Cloud</a></li>
                                 </ul>
                             </div>
                         </div></li>

@@ -5,7 +5,7 @@
 <?php include ('global/includes/eia_head_info.inc') ; ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* *********************************************** */ ?>
-<?php /*   File Name:  whatsnew.cfm                      */ ?>
+<?php /*   File Name:  whatsnew.php                      */ ?>
 <?php /*   Purpose:    Displays information about        */ ?>
 <?php /*               what's new in the AER             */ ?>
 <?php /*   Release date:   September 27, 2012            */ ?>
@@ -29,7 +29,7 @@
 <?php /* ******************************** Start of What's New in the AER ****************************** */ ?>
 <?php /*h1>What's New in Annual Energy Review</h1*/ ?>
 <?php /* Start of release date of AER */ ?>
-<?php /*cfinclude template="includes/release_date.cfm"*/ ?>
+<?php /*cfinclude template="includes/release_date.php"*/ ?>
 <?php /* End of release date of AER */ ?>
 <p><h3>CONTENT CHANGES</h3></p>
 <span class="condaterange"><a class="no-border expandall">+ EXPAND ALL</a></span>
@@ -106,7 +106,7 @@
 <td bgcolor="#FFFFFF">
 <h4>Annual Energy Review 2010 Release: October 19, 2011</h4><p></p>
 <p>
-<b>Energy Perspectives:</b><br />&nbsp;&mdash;&nbsp;Removed from the print edition of the AER.  The Energy Perspectives are now a stand-alone web product available at http://www.eia.gov/totalenergy/data/annual/perspectives.cfm.
+<b>Energy Perspectives:</b><br />&nbsp;&mdash;&nbsp;Removed from the print edition of the AER.  The Energy Perspectives are now a stand-alone web product available at http://www.eia.gov/totalenergy/data/annual/perspectives.php.
 </p>
 <p>
 Primary Energy Consumption by Source (Table 1.3):</b><br />&nbsp;&mdash;&nbsp;Reconfigured to display noncombustible renewable energy (hydroelectric power, geothermal, solar thermal and photovoltaic, and wind) broken into three columns:<br />
@@ -120,7 +120,7 @@ Heat Content of Petroleum Products Supplied (Table 5.12):</b><br />&nbsp;&mdash;
 Consumption for Electricity Generation by Energy Source: Electric Power Sector (Table 8.4b):<br />&nbsp;&mdash;&nbsp;Modified to use the fossil-fuels heat rate as the conversion factor for geothermal electricity net generation.  This change affects data series in Primary Energy Overview (Table 1.1), Primary Energy Production by Source (Table 1.2), Primary Energy Consumption by Source (Table 1.3), Electric Power Sector Energy Consumption (Table 2.1f), Consumption for Electricity Generation by Energy Source: Total (All Sectors) (Table 8.4a), Renewable Energy Production and Consumption by Source (Table 10.1), and Renewable Energy Consumption: Electric Power Sector (Table 10.2c). See Appendix F for more information.
 </p>
 <p>
-International Energy (Section 11):</b><br />&nbsp;&mdash;&nbsp;Deleted from AER 2010.  For international energy statistics, see http://www.eia.gov/countries/data.cfm.
+International Energy (Section 11):</b><br />&nbsp;&mdash;&nbsp;Deleted from AER 2010.  For international energy statistics, see http://www.eia.gov/countries/data.php.
 </p>
 <p>
 &nbsp;&mdash;&nbsp;"Carbon Dioxide Emissions From Energy Consumption: End-Use Sectors" (previously Table 12.3): Reconfigured into five new tables that include estimates of emissions from biomass energy consumption:<br />
@@ -454,7 +454,7 @@ The following table is deleted:
 <?php /* Start of Annual Total Energy Subject Matter Contact link */ ?>	
 <p></p>
 <p>
-<b><a href="/about/contact/totalenergy.cfm">Total Energy Experts</a></b>
+<b><a href="/about/contact/totalenergy.php">Total Energy Experts</a></b>
 </p>
 <?php /* End of Annual Total Energy Subject Matter Contact link */ ?>	
 <?php /* End of Main Column */ ?>

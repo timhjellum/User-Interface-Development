@@ -22,7 +22,7 @@ $("#tabs").tabs();
 <?php /* start main content */ ?>
 <?php //p class="grey_side"><strong><strong>Note:</strong>strong> Last release of the Heating Season.  ?>
 <div class="notice">
-<p><strong>Note:</strong> <a href="/survey/notice/marketing2017.cfm">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
+<p><strong>Note:</strong> <a href="/survey/notice/marketing2017.php">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
 <!--br>The heating season is over. Data for residential and wholesale prices for heating oil and propane will return in October 2017. -->
 </p>
 </div>

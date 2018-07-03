@@ -3,11 +3,11 @@
 /* no need to add the  > or the &nbsp;› */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/beta/MER/index.cfm?tbl=T12.01#/?f=M&start=200001";
+$OneURL = "/beta/MER/index.php?tbl=T12.01#/?f=M&start=200001";
 $OneLabel = "Carbon Dioxide Emissions From Energy Consumption, by source";
 $OneDate = "04/25/2017";
 
-$TwoURL = "/beta/MER/index.cfm?tbl=T12.02#/?f=M&start=200001";
+$TwoURL = "/beta/MER/index.php?tbl=T12.02#/?f=M&start=200001";
 $TwoLabel = "Carbon Dioxide Emissions From Energy Consumption, Residential Sector";
 $TwoDate = "04/25/2017";
 

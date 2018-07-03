@@ -34,7 +34,7 @@
 
 </span>
 <?php /*
-cfinclude template="side_content.cfm"
+cfinclude template="side_content.php"
 <span class="dblue_side_top blue_top "><b>Regular Weekly Releases*</b></span>
   <span class="grey_side side_list2">
   <li class="head"><h2>Monday</h2></li>

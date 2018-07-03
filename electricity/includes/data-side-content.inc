@@ -5,7 +5,7 @@
         <li class="description">browse pre-defined or custom data views, graph or map data series down to the plant level</li>
         <li><a href="/electricity/data/browser/">Electricity data browser</a></li>
         <li style="text-align: center"> - OR -</li>
-        <li><em>create your own app with our</em> <a href="/beta/api/qb.cfm?category=0"><strong>API</strong></a></li>
+        <li><em>create your own app with our</em> <a href="/beta/api/qb.php?category=0"><strong>API</strong></a></li>
     </ul>
 </div>
 <div class="secondary">

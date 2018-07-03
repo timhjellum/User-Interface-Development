@@ -41,14 +41,14 @@ EIA's <a href="/petroleum/supply/weekly/"><em>Weekly Petroleum Status Report</em
 <li>A test of WPSR IR released files will be provided for csv and xls formats. (See schedule below)</li>
 </ul>
 <p>
-    Review <a href="/petroleum/weekly/archive/2016/160914/includes/analysis_print.cfm"><em>This Week in Petroleum</a></em> and <a href="/petroleum/supply/weekly/wpsr_notice_09142016.cfm">previous notice</a> for more information about these changes.
+    Review <a href="/petroleum/weekly/archive/2016/160914/includes/analysis_print.php"><em>This Week in Petroleum</a></em> and <a href="/petroleum/supply/weekly/wpsr_notice_09142016.php">previous notice</a> for more information about these changes.
 </p>
 <p>
 Dates and procedures for testing the WPSR data, particularly for automated data retrieval programs, follow:
 <p>
 <h3>Testing schedule</h3>
 <p>
-    Testing will be conducted under the same conditions as the regular weekly WPSR release that takes place at 10:30 a.m. on Wednesdays. EIA will conduct one test of the WPSR through the test site. The test version of WPSR is located at: <a href="/petroleum/supply/weekly/testsite.cfm">http://www.eia.gov/petroleum/supply/weekly/testsite.cfm</a>.
+    Testing will be conducted under the same conditions as the regular weekly WPSR release that takes place at 10:30 a.m. on Wednesdays. EIA will conduct one test of the WPSR through the test site. The test version of WPSR is located at: <a href="/petroleum/supply/weekly/testsite.php">http://www.eia.gov/petroleum/supply/weekly/testsite.php</a>.
 </p>
 <table class="data"><caption></caption><thead><tr><th>Day</th>
 <th style="text-align:center;">Date</th>
@@ -80,7 +80,7 @@ Dates and procedures for testing the WPSR data, particularly for automated data 
 </p>
 <h3>Detailed testing instructions</h3>
 <p>
-Test site address: <a href="/petroleum/supply/weekly/testsite.cfm">http://www.eia.gov/petroleum/supply/weekly/testsite.cfm</a>.
+Test site address: <a href="/petroleum/supply/weekly/testsite.php">http://www.eia.gov/petroleum/supply/weekly/testsite.php</a>.
 </p>
 
 

@@ -320,19 +320,19 @@ function makeChart(){
 					menuItems: [{
 						  text: 'Download Image as PNG',
 						  onclick: function(){
-							this.exportChart({url:'/global/scripts/jquery/highcharts/exporting-server/index.cfm', type: 'image/png'});
+							this.exportChart({url:'/global/scripts/jquery/highcharts/exporting-server/index.php', type: 'image/png'});
 						  }
 						},
 						{
 						  text: 'Download Image as SVG',
 						  onclick: function(){
-							this.exportChart({url:'/global/scripts/jquery/highcharts/exporting-server/index.cfm', type: 'image/svg+xml'});
+							this.exportChart({url:'/global/scripts/jquery/highcharts/exporting-server/index.php', type: 'image/svg+xml'});
 						  }
 						},
 						{
 						  text: 'Download Document as PDF',
 						  onclick: function(){
-							this.exportChart({url:'/global/scripts/jquery/highcharts/exporting-server/index.cfm', type: 'application/pdf'});
+							this.exportChart({url:'/global/scripts/jquery/highcharts/exporting-server/index.php', type: 'application/pdf'});
 						  }
 						},
 						{

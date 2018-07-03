@@ -24,7 +24,7 @@ $(document).ready(function(){
 					}					
 				});
 			}
-			if(document.location.href.toLowerCase().indexOf('/data.cfm')>0 || document.location.href.toLowerCase().indexOf('totalenergy/data/')>0){
+			if(document.location.href.toLowerCase().indexOf('/data.php')>0 || document.location.href.toLowerCase().indexOf('totalenergy/data/')>0){
 				// open the tab containing the most highlighted keywords
 				var maxAppearances=0;
 				var aryCountObj = [];

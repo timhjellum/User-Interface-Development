@@ -1,1 +1,0 @@
-<span class="notes">Interactive data from: <a href="/electricity/data/browser/">Electricity Data Browser</a></span>

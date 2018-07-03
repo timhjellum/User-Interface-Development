@@ -265,7 +265,7 @@ The petroleum supply situation in the context of historical information and sele
 </tr>
 <tr>
 <td class="align-center">C</td>
-<td class="align-left"><a href="nehor.cfm">Northeast Reserves</a></td>
+<td class="align-left"><a href="nehor.php">Northeast Reserves</a></td>
 <td></td>
 <td></td>
 <td class="align-center"><a href="/petroleum/supply/weekly/pdf/appendixc.pdf"><i class="ico pdf">PDF</i></a></td>

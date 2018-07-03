@@ -3,7 +3,7 @@
 /* no need to add the  > or the &nbsp;› */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/beta/MER/index.cfm?tbl=T06.01#/?f=M&start=200001";
+$OneURL = "/beta/MER/index.php?tbl=T06.01#/?f=M&start=200001";
 $OneLabel = "Overview of consumption, production, and exports";
 $OneDate = "05/24/2018";
 

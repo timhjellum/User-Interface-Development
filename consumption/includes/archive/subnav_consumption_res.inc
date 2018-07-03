@@ -1,7 +1,7 @@
 <?php /* Renewable Sub Nav */ ?>
     <div class="title bg_residential">
 <?php /* Page/Section Title */ ?>
-      <a href="index.cfm">&lsaquo; Consumption & Efficiency</a>
+      <a href="index.php">&lsaquo; Consumption & Efficiency</a>
       <h1>Residential</h1>
     </div><?php /*/ Page/Section Title */ ?>
     

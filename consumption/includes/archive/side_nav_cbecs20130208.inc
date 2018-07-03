@@ -16,8 +16,8 @@
 </span>
 <span class="grey_side green_top side_list_nocolumn">
 <li class="head"><h2>Large Hospital Buildings Report</h2></li>
-<a href="/consumption/commercial/reports/2007/large-hospital.cfm"><img src="/consumption/commercial/images/large-hospital-report-callout.png" /></a>
-<p><a href="/consumption/commercial/reports/2007/large-hospital.cfm">Read the report &#8250;</a></p>
+<a href="/consumption/commercial/reports/2007/large-hospital.php"><img src="/consumption/commercial/images/large-hospital-report-callout.png" /></a>
+<p><a href="/consumption/commercial/reports/2007/large-hospital.php">Read the report &#8250;</a></p>
 </span>
 <span class="blue_side">
     <h4 class="q_side"><a href="/EMEU/cbecs/faq.html#q1">What do you mean by "commercial" building?</a></h2></li>
@@ -32,8 +32,8 @@
 <span class="grey_side blue_top side_list_nocolumn">
   <li class="head"><h2>Methodology</h2></li>
   <ul class="ajdustment1">
-    <li><a href="/consumption/commercial/2012-cbecs-building-sampling.cfm">How Will Buildings Be Selected for the 2012 CBECS?</a></li>
-    <li><a href="/consumption/NAS.cfm">Assessment of EIA's Building Consumption Data</a></li>
+    <li><a href="/consumption/commercial/2012-cbecs-building-sampling.php">How Will Buildings Be Selected for the 2012 CBECS?</a></li>
+    <li><a href="/consumption/NAS.php">Assessment of EIA's Building Consumption Data</a></li>
     <li>Survey Methods<br />
         <a href="/emeu/cbecs/2003sample.html">2003</a><span class="pipe">|</span>
 <a href="/emeu/cbecs/1999sample.htm">1999</a><span class="pipe">|</span>
@@ -50,7 +50,7 @@
 <span class="grey_side blue_top side_list_nocolumn">
   <li class="head"><h2>Special Topics</h2></li>
   <ul class="ajdustment1">
-    <li><a href="/consumption/commercial/reports/2007/large-hospital.cfm">Large Hospital Buildings (2007)</a></li>
+    <li><a href="/consumption/commercial/reports/2007/large-hospital.php">Large Hospital Buildings (2007)</a></li>
     <li><a href="/emeu/cbecs/cbecs2003/officereport/office1.html">Office Buildings (2003)</a></li>
     <li><a href="/emeu/cbecs/cbecs2003/lighting/lighting1.html">Lighting in Commercial Buildings (2003)</a></li>
     <li><a href="/emeu/cbecs/cbecs2003/overview1.html">Overview of Commercial Buildings, 2003</a></li>

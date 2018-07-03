@@ -20,7 +20,7 @@
 		<?php /*
 		<p class="grey_side_nav">
 		<strong>Petroleum Marketing Monthly</strong> publications represent preliminary data. For final data refer to: <br /><br />
-		&nbsp;&nbsp;&nbsp;<a href="/petroleum/data.cfm"><strong>Petroleum Data</strong></a> - Latest monthly and annual data.<br />
+		&nbsp;&nbsp;&nbsp;<a href="/petroleum/data.php"><strong>Petroleum Data</strong></a> - Latest monthly and annual data.<br />
 		&nbsp;&nbsp;&nbsp;<a href="/petroleum/marketing/annual/volume2/"><strong>Petroleum marketing Annual, Volume 2</strong></a> - Final monthly data; replaces Petroleum marketing Monthly data.<br />
 		&nbsp;&nbsp;&nbsp;<a href="/petroleum/marketing/annual/volume1/"><strong>Petroleum marketing Annual, Volume 1</strong></a> - Final annual totals data.
 		</p>
@@ -47,75 +47,75 @@
 
 				<div class="l-row">
 					<div class="l-narrow-col">January</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_01/pmm_2016_01.cfm">10/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_01/pmm_2016_01.php">10/2015</a></div>
 					<div class="l-narrow-col">January</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_01/pmm_2017_01.cfm">10/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_01/pmm_2017_01.php">10/2016</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">February</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_02/pmm_2016_02.cfm">11/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_02/pmm_2016_02.php">11/2015</a></div>
 					<div class="l-narrow-col">February</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_02/pmm_2017_02.cfm">11/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_02/pmm_2017_02.php">11/2016</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">March</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_03/pmm_2016_03.cfm">12/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_03/pmm_2016_03.php">12/2015</a></div>
 					<div class="l-narrow-col">March</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_03/pmm_2017_03.cfm">12/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_03/pmm_2017_03.php">12/2016</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">April</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_04/pmm_2016_04.cfm">1/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_04/pmm_2016_04.php">1/2016</a></div>
 					<div class="l-narrow-col">April</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_04/pmm_2017_04.cfm">1/2017</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_04/pmm_2017_04.php">1/2017</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">May</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_05/pmm_2016_05.cfm">2/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_05/pmm_2016_05.php">2/2016</a></div>
 					<div class="l-narrow-col">May</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_05/pmm_2017_05.cfm">2/2017</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_05/pmm_2017_05.php">2/2017</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">June</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_06/pmm_2016_06.cfm">3/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_06/pmm_2016_06.php">3/2016</a></div>
 					<div class="l-narrow-col">June</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_06/pmm_2017_06.cfm">3/2017</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_06/pmm_2017_06.php">3/2017</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">July</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_07/pmm_2016_07.cfm">4/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_07/pmm_2016_07.php">4/2016</a></div>
 					<div class="l-narrow-col">July</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_07/pmm_2017_07.cfm">4/2017</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_07/pmm_2017_07.php">4/2017</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">August</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_08/pmm_2016_08.cfm">5/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_08/pmm_2016_08.php">5/2016</a></div>
 					<div class="l-narrow-col">August</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_08/pmm_2017_08.cfm">5/2017</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_08/pmm_2017_08.php">5/2017</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">September</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_09/pmm_2016_09.cfm">6/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_09/pmm_2016_09.php">6/2016</a></div>
 					<div class="l-narrow-col">September</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_09/pmm_2017_09.cfm">6/2017</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2017/2017_09/pmm_2017_09.php">6/2017</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">October</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_10/pmm_2016_10.cfm">7/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_10/pmm_2016_10.php">7/2016</a></div>
 					<div class="l-narrow-col">October</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_10/pmm_2015_10.cfm">7/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_10/pmm_2015_10.php">7/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">November</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_11/pmm_2016_11.cfm">8/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_11/pmm_2016_11.php">8/2016</a></div>
 					<div class="l-narrow-col">November</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_11/pmm_2015_11.cfm">8/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_11/pmm_2015_11.php">8/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">December</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_12/pmm_2016_12.cfm">9/2016</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2016/2016_12/pmm_2016_12.php">9/2016</a></div>
 					<div class="l-narrow-col">December</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_12/pmm_2015_12.cfm">9/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_12/pmm_2015_12.php">9/2015</a></div>
 				</div>
 			</div>
 			<h2>
@@ -131,69 +131,69 @@
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">February</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_02/pmm_2014_02.cfm">11/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_02/pmm_2014_02.php">11/2013</a></div>
 					<div class="l-narrow-col">February</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_02/pmm_2015_02.cfm">11/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_02/pmm_2015_02.php">11/2014</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">March</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_03/pmm_2014_03.cfm">12/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_03/pmm_2014_03.php">12/2013</a></div>
 					<div class="l-narrow-col">March</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_03/pmm_2015_03.cfm">12/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_03/pmm_2015_03.php">12/2014</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">April</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_04/pmm_2014_04.cfm">1/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_04/pmm_2014_04.php">1/2014</a></div>
 					<div class="l-narrow-col">April</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_04/pmm_2015_04.cfm">1/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_04/pmm_2015_04.php">1/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">May</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_05/pmm_2014_05.cfm">2/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_05/pmm_2014_05.php">2/2014</a></div>
 					<div class="l-narrow-col">May</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_05/pmm_2015_05.cfm">2/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_05/pmm_2015_05.php">2/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">June</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_06/pmm_2014_06.cfm">3/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_06/pmm_2014_06.php">3/2014</a></div>
 					<div class="l-narrow-col">June</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_06/pmm_2015_06.cfm">3/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_06/pmm_2015_06.php">3/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">July</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_07/pmm_2014_07.cfm">4/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_07/pmm_2014_07.php">4/2014</a></div>
 					<div class="l-narrow-col">July</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_07/pmm_2015_07.cfm">4/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_07/pmm_2015_07.php">4/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">August</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_08/pmm_2014_08.cfm">5/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_08/pmm_2014_08.php">5/2014</a></div>
 					<div class="l-narrow-col">August</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_08/pmm_2015_08.cfm">5/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_08/pmm_2015_08.php">5/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">September</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_09/pmm_2014_09.cfm">6/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_09/pmm_2014_09.php">6/2014</a></div>
 					<div class="l-narrow-col">September</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_09/pmm_2015_09.cfm">6/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_09/pmm_2015_09.php">6/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">October</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_10/pmm_2014_10.cfm">7/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_10/pmm_2014_10.php">7/2014</a></div>
 					<div class="l-narrow-col">October</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_10/pmm_2015_10.cfm">7/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_10/pmm_2015_10.php">7/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">November</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_11/pmm_2014_11.cfm">8/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_11/pmm_2014_11.php">8/2014</a></div>
 					<div class="l-narrow-col">November</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_11/pmm_2015_11.cfm">8/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_11/pmm_2015_11.php">8/2015</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">December</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_12/pmm_2014_12.cfm">9/2014</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2014/2014_12/pmm_2014_12.php">9/2014</a></div>
 					<div class="l-narrow-col">December</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_12/pmm_2015_12.cfm">9/2015</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2015/2015_12/pmm_2015_12.php">9/2015</a></div>
 				</div>
 			</div>
 			<h2>
@@ -212,73 +212,73 @@
 					<div class="l-narrow-col">January</div>
 					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_01/pmm_2012_01.html">10/2011</a></div>
 					<div class="l-narrow-col">January</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_01/pmm_2013_01.cfm">10/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_01/pmm_2013_01.php">10/2012</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">February</div>
 					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_02/pmm_2012_02.html">11/2011</a></div>
 					<div class="l-narrow-col">February</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_02/pmm_2013_02.cfm">11/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_02/pmm_2013_02.php">11/2012</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">March</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_03/pmm_2012_03.cfm">12/2011</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_03/pmm_2012_03.php">12/2011</a></div>
 					<div class="l-narrow-col">March</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_03/pmm_2013_03.cfm">12/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_03/pmm_2013_03.php">12/2012</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">April</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_04/pmm_2012_04.cfm">1/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_04/pmm_2012_04.php">1/2012</a></div>
 					<div class="l-narrow-col">April</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_04/pmm_2013_04.cfm">1/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_04/pmm_2013_04.php">1/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">May</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_05/pmm_2012_05.cfm">2/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_05/pmm_2012_05.php">2/2012</a></div>
 					<div class="l-narrow-col">May</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_05/pmm_2013_05.cfm">2/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_05/pmm_2013_05.php">2/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">June</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_06/pmm_2012_06.cfm">3/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_06/pmm_2012_06.php">3/2012</a></div>
 					<div class="l-narrow-col">June</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_06/pmm_2013_06.cfm">3/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_06/pmm_2013_06.php">3/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">July</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_07/pmm_2012_07.cfm">4/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_07/pmm_2012_07.php">4/2012</a></div>
 					<div class="l-narrow-col">July</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_07/pmm_2013_07.cfm">4/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_07/pmm_2013_07.php">4/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">August</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_08/pmm_2012_08.cfm">5/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_08/pmm_2012_08.php">5/2012</a></div>
 					<div class="l-narrow-col">August</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_08/pmm_2013_08.cfm">5/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_08/pmm_2013_08.php">5/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">September</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_09/pmm_2012_09.cfm">6/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_09/pmm_2012_09.php">6/2012</a></div>
 					<div class="l-narrow-col">September</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_09/pmm_2013_09.cfm">6/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_09/pmm_2013_09.php">6/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">October</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_10/pmm_2012_10.cfm">7/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_10/pmm_2012_10.php">7/2012</a></div>
 					<div class="l-narrow-col">October</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_10/pmm_2013_10.cfm">7/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_10/pmm_2013_10.php">7/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">November</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_11/pmm_2012_11.cfm">8/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_11/pmm_2012_11.php">8/2012</a></div>
 					<div class="l-narrow-col">November</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_11/pmm_2013_11.cfm">8/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_11/pmm_2013_11.php">8/2013</a></div>
 				</div>
 				<div class="l-row">
 					<div class="l-narrow-col">December</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_12/pmm_2012_12.cfm">9/2012</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2012/2012_12/pmm_2012_12.php">9/2012</a></div>
 					<div class="l-narrow-col">December</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_12/pmm_2013_12.cfm">9/2013</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2013/2013_12/pmm_2013_12.php">9/2013</a></div>
 				</div>
 			</div>
 			<h2>
@@ -362,7 +362,7 @@
 					<div class="l-narrow-col">December</div>
 					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2010/2010_12/pmm_2010_12.html">9/2010</a></div>
 					<div class="l-narrow-col">December</div>
-					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2011/2011_12/pmm_2011_12.cfm">9/2011</a></div>
+					<div class="l-narrow-col"><a href="/petroleum/marketing/monthly/archive/2011/2011_12/pmm_2011_12.php">9/2011</a></div>
 				</div>
 			</div>
 			<h2>

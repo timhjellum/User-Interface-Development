@@ -1,6 +1,5 @@
 
 @media @mobile {
-
     //	.l-full-width-col,
 	.l-main-col,
 //	.l-middle-col,
@@ -18,7 +17,7 @@
             margin-bottom: 3em;
             h1 {
                 display: block;
-                border-bottom: solid 1px #dadada;
+                border-bottom: 1px solid shade(white, 16.8%);
                 padding: 1em 0 .4em 0;
                 clear: both;
                 line-height: 1;
@@ -29,20 +28,32 @@
                 color: @eia-dark-grey;  
             }
             h2 {
-                padding: 0 0 7px 0;
-                margin: 14px 0 7px 0;
+                padding: 0;
+                margin: 0 0 7px 0;
                 color: @eia-dark-grey;
+                border-bottom: 1px solid shade(white, 40%);
                 .font;
                 .bold;
-                font-size: 0.750rem;
-                text-transform: uppercase;
-
-                
+                font-size: 0.938rem; // 15 pixels
+                text-transform: uppercase;               
+            }
+            ul {
+                &.upcoming-releases {
+                    li {
+                        margin-bottom: 14px
+                    }
+                }
+                &.presentations {
+                    li {
+                        &.date {
+                            .italic;
+                        }
+                    }
+                }
             }
 		}
 	}
 }
-
 @media @tablet {
 	.l-main-col,
     .l-two-col {
@@ -51,17 +62,6 @@
         .secondary-alt,
         .secondary {
 		    margin-bottom: 2em;
-        }
-    }
-}
-@media @laptop {
-	.l-main-col,
-    .l-two-col {
-        .primary-alt 
-        .primary,
-        .secondary-alt,
-        .secondary {
-            margin-bottom: 1em;
         }
     }
 }

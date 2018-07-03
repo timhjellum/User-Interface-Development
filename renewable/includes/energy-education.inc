@@ -3,11 +3,11 @@
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "renewable";
-$itemOneHeadURL = "/energyexplained/index.cfm?page=renewable_home";
+$itemOneHeadURL = "/energyexplained/index.php?page=renewable_home";
 $itemOneHeadLabel = "What is renewable energy?";
-$itemOneSubheadURL = "/energyexplained/index.cfm?page=renewable_home#tab3";
+$itemOneSubheadURL = "/energyexplained/index.php?page=renewable_home#tab3";
 $itemOneSubheadLabel = "Renewable energy incentives";
-$itemOneFootUrl = "/energyexplained/index.cfm?page=renewable_home";
+$itemOneFootUrl = "/energyexplained/index.php?page=renewable_home";
 $itemOneFootLabel = "See more Renewable energy topics";
 
 $itemTwoIcon = "faq";

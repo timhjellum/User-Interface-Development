@@ -31,14 +31,14 @@ $tie_lookup = $neic->get($bindVariables);
 <br />
 <?php  } // end if ?>
 
-       <?php /*cfinclude template="/about/new/whatsnew_sitewide.cfm"*/ ?>
+       <?php /*cfinclude template="/about/new/whatsnew_sitewide.php"*/ ?>
         <?php /*span class="grey_side blue_top">
             <h4>Survey Forms, Changes &amp; Announcements</h4>
             <p>add text </p>
           </span*/ ?>
           <?php /* FAQ Promo */ ?>
         <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=74&t=11">How much carbon dioxide (CO2) is produced per kilowatt-hour when generating electricity with fossil fuels?  &rsaquo; </a></h4>
+          <h4 class="q_side"><a href="/tools/faqs/faq.php?id=74&t=11">How much carbon dioxide (CO2) is produced per kilowatt-hour when generating electricity with fossil fuels?  &rsaquo; </a></h4>
           <p><a href="/tools/faqs/#environment">See all environment FAQs &rsaquo;</a></p>
         </span>
     <?php /*span class="grey_side green_top">

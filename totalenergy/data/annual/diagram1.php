@@ -18,7 +18,7 @@ function DataEndYear(lngLagValue)
 <?php /* End of user defined Javascript function */ ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ****************************************************************** */ ?>
-<?php /* File Name:  diagram1.cfm   */ ?>
+<?php /* File Name:  diagram1.php   */ ?>
 <?php /* Purpose:    Display the Energy Flow diagram*/ ?>
 <?php /* Revision date:  September 27, 2012  */ ?>
 <?php /* ****************************************************************** */ ?>

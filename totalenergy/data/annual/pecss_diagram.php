@@ -5,7 +5,7 @@
 <?php include ('global/includes/eia_head_info.inc') ; ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ******************************************* */ ?>
-<?php /* File Name:  pecss_diagram.cfm               */ ?>
+<?php /* File Name:  pecss_diagram.php               */ ?>
 <?php /* Purpose:    Display the Energy Flow diagram */ ?>
 <?php /* Revision date:   September 27, 2012         */ ?>
 <?php /* ******************************************* */ ?>
@@ -32,7 +32,7 @@
 <?php /*
 <img src="images/pecss_btu_2011_med.jpg" alt="Primary Energy Consumption by Source and Sector diagram image" border="0" usemap="#Map">
 <map name="Map" id="Map">
-  <area shape="rect" coords="117,3,229,19" href="pecss_diagram2.cfm" alt="see also by percent" />
+  <area shape="rect" coords="117,3,229,19" href="pecss_diagram2.php" alt="see also by percent" />
 </map>
 */ ?>
 <?php /* End of old Primary Energy Consumption by Source and Sector by Percentage diagram - Commented out by CA2 on 8/30/2012 */ ?>

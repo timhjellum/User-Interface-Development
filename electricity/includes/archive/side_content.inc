@@ -52,7 +52,7 @@ $tie_lookup = $neic->get($bindVariables);
         </span>
          <?php /* FAQ Promo */ ?>
         <span class="blue_side">
-          <h4 class="q_side"><a href="/tools/faqs/faq.cfm?id=97&t=3 ">How much electricity does an American home use?   &rsaquo;</a></h2></li>
+          <h4 class="q_side"><a href="/tools/faqs/faq.php?id=97&t=3 ">How much electricity does an American home use?   &rsaquo;</a></h2></li>
         <p><a href="/tools/faqs/#electricity"><strong>Read all electricity FAQs &rsaquo;</strong></a></p>
         </span>
         <?php /* State Electricity Restructuring Map */ ?>
@@ -67,6 +67,6 @@ $tie_lookup = $neic->get($bindVariables);
         </span>
         <?php /* Energy Explained Promo */ ?>
         
-        <p><a href="/energyexplained/index.cfm?page=electricity_home"><img src="/energyexplained/images/section-banners/electricity.jpg" alt="Energy Explained - Renewable Energy"  width="240"  /></a></p>
+        <p><a href="/energyexplained/index.php?page=electricity_home"><img src="/energyexplained/images/section-banners/electricity.jpg" alt="Energy Explained - Renewable Energy"  width="240"  /></a></p>
         <?php /* Kids Promo */ ?>
 		<?php include ('global/includes/kids_dates.inc') ; ?>

@@ -6,6 +6,6 @@
     <div class="subnav"><?php /* Page/Sub Nav */ ?>
     <span class="right"><a href="<?php echo "$glossary_path"?>">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>">FAQS &rsaquo;</a></span>
        <ul>
-        <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/finance/markets/ui2.cfm">Overview</a></li>
+        <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/finance/markets/ui2.php">Overview</a></li>
       </ul>
     </div><?php /*/ Page/Sub Nav */ ?>

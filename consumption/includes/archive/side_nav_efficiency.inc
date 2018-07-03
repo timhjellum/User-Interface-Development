@@ -2,7 +2,7 @@
           
           <span class="grey_side_nav blue_top ">
               <ul class="top">
-                <li><a href="/consumption/efficiency/index.cfm">Efficiency Overview</a></li>
+                <li><a href="/consumption/efficiency/index.php">Efficiency Overview</a></li>
               </ul>
               <ul>
                 <li><a href="/consumption/efficiency/data/">Data</a></li>

@@ -1,6 +1,6 @@
 <div class="l-row header report-details">
         <
-a href="/petroleum/reports.cfm">&lsaquo; See All Petroleum & Other Liquids Reports</a>
+a href="/petroleum/reports.php">&lsaquo; See All Petroleum & Other Liquids Reports</a>
                 <h2><?php echo "$headtitle"?></h2>
 
                 <div class="release-dates">

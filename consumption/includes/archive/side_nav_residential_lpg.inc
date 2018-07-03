@@ -1,9 +1,9 @@
  <span class="grey_side green_top">
   <li class="head"><h2>Background Information</h2></li>
-  <p><a href="/consumption/residential/about.cfm">About the RECS</a></p>
+  <p><a href="/consumption/residential/about.php">About the RECS</a></p>
  <p><a href="/survey/#eia-457">RECS Survey Forms</a></p>
-<?php /* <p><a href="/consumption/residential/maps.cfm">RECS Maps</a></p>*/ ?>
-  <p><a href="/consumption/residential/terminology.cfm">RECS Terminology</a></p>
+<?php /* <p><a href="/consumption/residential/maps.php">RECS Maps</a></p>*/ ?>
+  <p><a href="/consumption/residential/terminology.php">RECS Terminology</a></p>
   <p><a href="/consumption/residential/background-technical.php">Survey Background & Technical Information</a></p>
 <p class="no-border"><a href="/consumption/residential/data/archive/">Archived Reports</a></p></span>
 
@@ -12,8 +12,8 @@
   <?php /* FAQ Promo */ ?> 
   <?php /*
  <span class="blue_side">
-  <h4 class="q_side"><a href="/consumption/residential/reports/2015/home-selected.cfm">Has your home been selected for the RECS?</a></h2></li> */ ?>
-  <?php /*p><strong><a href="../residential/data/2015/home-selected.cfm">See all RECS FAQs &rsaquo;</a></strong></p*/ ?>
+  <h4 class="q_side"><a href="/consumption/residential/reports/2015/home-selected.php">Has your home been selected for the RECS?</a></h2></li> */ ?>
+  <?php /*p><strong><a href="../residential/data/2015/home-selected.php">See all RECS FAQs &rsaquo;</a></strong></p*/ ?>
   <?php /*</span> */ ?>
   <?php /*<div class="secondary">
 <h4 class="announcement_side">RECS Status</h2></li>
@@ -39,27 +39,27 @@
     <div class="secondary">
 <ul>
 <li class="head"><h2>2009 RECS Features</h2></li>
-    <p><a href="/todayinenergy/detail.cfm?id=10271">Heating and cooling no longer majority of U.S. home energy use</a><br />
+    <p><a href="/todayinenergy/detail.php?id=10271">Heating and cooling no longer majority of U.S. home energy use</a><br />
       <em>March 7, 2013</em>
-    <p><a href="/todayinenergy/detail.cfm?id=9951">Newer U.S. homes are 30% larger but consume about as much energy as older homes</a><br />
+    <p><a href="/todayinenergy/detail.php?id=9951">Newer U.S. homes are 30% larger but consume about as much energy as older homes</a><br />
       <em>February 12, 2013</em> </p>
-    <p><a href="/consumption/residential/reports/2009/methodology-square-footage.cfm">Where does RECS square footage data come from?</a><br />
+    <p><a href="/consumption/residential/reports/2009/methodology-square-footage.php">Where does RECS square footage data come from?</a><br />
       <em>July 11, 2012</em>
-    <p><a href="/consumption/residential/reports/2009/consumption-down.cfm">RECS data show decreased energy consumption per household</a><br />
+    <p><a href="/consumption/residential/reports/2009/consumption-down.php">RECS data show decreased energy consumption per household</a><br />
       <em>June 6, 2012</em>
-    <p><a href="/consumption/residential/reports/2009/square-footage.cfm">The impact of increasing home size on energy demand</a><br />
+    <p><a href="/consumption/residential/reports/2009/square-footage.php">The impact of increasing home size on energy demand</a><br />
       <em>April 19, 2012</em>
-    <p><a href="/consumption/residential/reports/2009/air-conditioning.cfm">Did you know that air conditioning is in nearly 100 million U.S. homes?</a><br />
+    <p><a href="/consumption/residential/reports/2009/air-conditioning.php">Did you know that air conditioning is in nearly 100 million U.S. homes?</a><br />
       <em>August 19, 2011</em> </p>*/ ?>
-    <?php /*p><a href="/consumption/residential/reports/2009/overview.cfm">What's new in our home energy use?</a><br />
+    <?php /*p><a href="/consumption/residential/reports/2009/overview.php">What's new in our home energy use?</a><br />
       <em>March 28, 2011</em></p>
-    <p><a href="/consumption/residential/reports/2009/16-states.cfm">EIA expands household energy use data series to include 16 states</a><br />
+    <p><a href="/consumption/residential/reports/2009/16-states.php">EIA expands household energy use data series to include 16 states</a><br />
       <em>March 28, 2011</em></p>
-    <p><a href="/consumption/residential/reports/2009/electronics.cfm">Share of energy used by appliances and consumer electronics increases in U.S. homes</a><br />
+    <p><a href="/consumption/residential/reports/2009/electronics.php">Share of energy used by appliances and consumer electronics increases in U.S. homes</a><br />
       <em>March 28, 2011</em> </p>
-      <p><a href="/consumption/residential/reports/2009/methodology-end-use.cfm">How does EIA estimate energy consumption and end uses  in U.S.  homes?</a><br />
+      <p><a href="/consumption/residential/reports/2009/methodology-end-use.php">How does EIA estimate energy consumption and end uses  in U.S.  homes?</a><br />
       <em>March 28, 2011</em> </p*/ ?>
-    <?php /*<li class="sub-head"><strong><a href="/consumption/residential/reports.cfm">See more ></a></strong></li>
+    <?php /*<li class="sub-head"><strong><a href="/consumption/residential/reports.php">See more ></a></strong></li>
     </span>
   <?php  } // end if 
   */

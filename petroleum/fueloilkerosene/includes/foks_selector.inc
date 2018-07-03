@@ -2,7 +2,7 @@
 
 <span class="left rtitle" style="width:718px"> 
 
-<a href="/petroleum/reports.cfm">&lsaquo; See All Petrolem Reports</a>
+<a href="/petroleum/reports.php">&lsaquo; See All Petrolem Reports</a>
 
   <h2>
     <?php echo "$headtitle"?>

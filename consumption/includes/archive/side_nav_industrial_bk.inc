@@ -9,7 +9,7 @@
                   <ul>
                     <li><a href="/consumption/industrial/data/2006/">2006</a></li>
                     <li><a href="/consumption/industrial/data/2002/">2002</a></li>
-                    <li><a href="/consumption/industrial/data/archive.cfm">Archive</a></li>
+                    <li><a href="/consumption/industrial/data/archive.php">Archive</a></li>
                   </ul>
 </li>
               </ul>

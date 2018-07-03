@@ -1,4 +1,4 @@
-<?php /* File: data_table_epsec_ytd.cfm */ ?>
+<?php /* File: data_table_epsec_ytd.php */ ?>
 <?php /* Date: 11/21/2014 */ ?>
 <?php /* Author: Tony Allen */ ?>
 <?php /* Data Source: Monthly Energy Review - Electric Power Sector Energy Consumption - Table 2.6 */ ?>

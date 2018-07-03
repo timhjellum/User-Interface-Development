@@ -1,5 +1,5 @@
           <span class="grey_side green_top">
-            <h4>2006 Data Tables<a href="../generic.cfm"></a></h4>
+            <h4>2006 Data Tables<a href="../generic.php"></a></h4>
 
 <p class="no_btm_border">  Most current data for Manufacturing Energy Consumption Surveys.
   </p>

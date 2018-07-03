@@ -15,7 +15,7 @@
          </p>
                 <ul>
           
-          <li><a href="http://wwwdev.eia.gov/consumption/residential/data/2005/index.cfm">data </a></li><li><a href="http://wwwdev.eia.gov/consumption/residential/about_recs.cfm">about the survey</a></li>
+          <li><a href="http://wwwdev.eia.gov/consumption/residential/data/2005/index.php">data </a></li><li><a href="http://wwwdev.eia.gov/consumption/residential/about_recs.php">about the survey</a></li>
           <li><a href="http://wwwdev.eia.gov/consumption/residential/reports/">analysis &amp; reports</a></li></ul><br />-->
                 <span class="no_btm_border"><strong>Efficiency related:</strong></span>
                 </p>

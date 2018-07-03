@@ -11,9 +11,9 @@ $subNavLink03URL = "reports.php"; // reports.php
 $subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
 
 // dropdown one
-$menu01link01URL = "data/monthly/index.cfm";
+$menu01link01URL = "data/monthly/index.php";
 $menu01link01Label = "Monthly";
-$menu01link02URL = "data/annual/index.cfm";
+$menu01link02URL = "data/annual/index.php";
 $menu01link02Label = "Annual";
 
 // dropdown one

@@ -27,11 +27,10 @@
                 <li title="Drilling activity measurements; wells drilled; active seismic crew counts; more...">Energy Resources</li>
                 <li><a href="http://www.eia.gov/mer/resource.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/resource.html" title="Annual Energy Review">AER</a></li>
                 <li title="Greenhouse gas emissions; carbon dioxide, methane, nitrous oxide emissions; emissions from electricity generation; more...">Environment</li>
-                <li><a href="http://www.eia.gov/mer/environ.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/envir.html" title="Annual Energy Review">AER</a></li>
+                <li><a href="http://www.eia.gov/mer/environ.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/envir.html" title="Annual Energy Review">AER</a>        </li>
             </ul>
-</li>
-        <li class="head">
-            <h2>International Data</h2></li>
+            <ul>
+                <li class="head"><h2>International data</h2></li>
         <li>
             <ul>
                 <li title="Crude oil production by OPEC, Persian Gulf, Non-OPEC, World; OECD petroleum consumption, stocks; more...">Petroleum</li>

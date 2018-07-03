@@ -6,11 +6,11 @@ $OneURL = "/beta/coal/data/browser/";
 $OneLabel = "Coal Data Browser";
 $OneImageName = "coal-data-browser"; // .png is not needed
 
-$TwoURL = "/state/maps.cfm?v=Coal";
+$TwoURL = "/state/maps.php?v=Coal";
 $TwoLabel = "U.S. Coal Infrastructure Map";
 $TwoImageName = "natural-gas-map"; // .png is not needed
 
-$ThrURL = "/state/maps.cfm?v=Fossil%20Fuel%20Resources";
+$ThrURL = "/state/maps.php?v=Fossil%20Fuel%20Resources";
 $ThrLabel = "U.S. Fossil Fuel Resource Map";
 $ThrImageName = "fossil-fuel-map"; // .png is not needed
 

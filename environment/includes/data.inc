@@ -9,7 +9,7 @@
         <ul>
             <li class="head">
                 U.S. Carbon dioxide emissions from energy consumption (from 1973)</li>
-            <li class="include"><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span><span class="pipe">|</span><span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></li>
+            <li><!-- class="include" --><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span><span class="pipe">|</span><span class="source">data from:</span> <span class="source"><a href="/totalenergy/data/monthly/">Monthly Energy Review</a></li>
 			</ul>
 			<ul>
 				<li>
@@ -112,7 +112,7 @@
         <ul>
             <li>
 
-                <a href="/environment/emissions/state/state_emissions.cfm">State CO
+                <a href="/environment/emissions/state/state_emissions.php">State CO
 							<sub>2</sub> emissions &rsaquo;</a></li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">October 24, 2017</span></li>
@@ -120,7 +120,7 @@
         <ul>
             <li>
 
-                <a href="/environment/emissions/co2_vol_mass.cfm">Fuel carbon dioxide emission coefficients &rsaquo;</a></li>
+                <a href="/environment/emissions/co2_vol_mass.php">Fuel carbon dioxide emission coefficients &rsaquo;</a></li>
             <li>
                 <span class="release-date">Release Date:</span> <span class="date">February 2, 2016</span></li>
         </ul>
@@ -188,7 +188,7 @@
         <ul>
             <li class="head">
 
-                <a href="/cfapps/ipdbproject/IEDIndex3.cfm?tid=90&pid=44&aid=8">Total emissions &rsaquo;</a></li>
+                <a href="/cfapps/ipdbproject/IEDIndex3.php?tid=90&pid=44&aid=8">Total emissions &rsaquo;</a></li>
             <li>Data from:
                 <span class="date">
 						<a href="/beta/international/data/browser/">International Energy Statistics</a></li>
@@ -196,7 +196,7 @@
 			<ul>
 				<li>
 					
-						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=45&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MTCDPP">Per capita emissions &rsaquo;</a></li>
+						<a href="/cfapps/ipdbproject/iedindex3.php?tid=90&amp;pid=45&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MTCDPP">Per capita emissions &rsaquo;</a></li>
 				<li>Data from:
 					<span class="date">
 						<a href="/beta/international/data/browser/">International Energy Statistics</a></li>
@@ -204,7 +204,7 @@
 			<ul>
 				<li>
 					
-						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=5&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from petroleum consumption &rsaquo;</a></li>
+						<a href="/cfapps/ipdbproject/iedindex3.php?tid=90&amp;pid=5&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from petroleum consumption &rsaquo;</a></li>
 				<li>Data from:
 					<span class="date">
 						<a href="/beta/international/data/browser/">International Energy Statistics</a></li>
@@ -212,7 +212,7 @@
 			<ul>
 				<li>
 					
-						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=3&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from natural gas consumption &rsaquo;</a></li>
+						<a href="/cfapps/ipdbproject/iedindex3.php?tid=90&amp;pid=3&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from natural gas consumption &rsaquo;</a></li>
 				<li>Data from:
 					<span class="date">
 						<a href="/beta/international/data/browser/">International Energy Statistics</a></li>
@@ -220,7 +220,7 @@
 			<ul>
 				<li>
 					
-						<a href="/cfapps/ipdbproject/iedindex3.cfm?tid=90&amp;pid=1&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from coal consumption &rsaquo;</a></li>
+						<a href="/cfapps/ipdbproject/iedindex3.php?tid=90&amp;pid=1&amp;aid=8&amp;cid=&amp;syid=2004&amp;eyid=2010&amp;unit=MMTCD">Emissions from coal consumption &rsaquo;</a></li>
 				<li>Data from:
 					<span class="date">
 						<a href="/beta/international/data/browser/">International Energy Statistics</a></li>
@@ -228,7 +228,7 @@
 			<ul>
 				<li>
 					
-						<a href="/cfapps/ipdbproject/IEDIndex3.cfm?tid=91&pid=46&aid=31">Energy related carbon intensity &rsaquo;</a></li>
+						<a href="/cfapps/ipdbproject/IEDIndex3.php?tid=91&pid=46&aid=31">Energy related carbon intensity &rsaquo;</a></li>
 				<li>Data from:
 					<span class="date">
 						<a href="/beta/international/data/browser/">International Energy Statistics</a></li>

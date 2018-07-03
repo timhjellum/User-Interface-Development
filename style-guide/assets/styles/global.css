@@ -30,6 +30,7 @@
 @import "less/modules/page-tabs";
 @import "less/modules/page-titles";
 @import "less/modules/report-header";
+@import "less/modules/accent";
 
 /* start reusable containers */
 
@@ -42,6 +43,7 @@
 @import "less/l2/analysis-projections.less";
 @import "less/l2/visualizations";
 @import "less/l2/energy-education";
+@import "less/l2/consumption-surveys";
 @import "less/l2/sub-navigation";
 
 /* sliders */
@@ -56,13 +58,13 @@
 @import "less/home/features";
 @import "less/home/today-in-energy";
 @import "less/home/layout";
-@import "less/home/data-highlights";
+
 
 /* theme */
 
 @import "less/theme/accordion";
-@import "less/theme/two-col";
-@import "less/theme/narrow-col";
+@import "less/theme/primary-col-modules";
+@import "less/theme/secondary-col-modules";
 @import "less/theme/basic-table";
 @import "less/theme/zebra";
 @import "less/theme/homepage";

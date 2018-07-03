@@ -5,7 +5,7 @@
 <?php include ('global/includes/eia_head_info.inc') ; ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ****************************************************************** */ ?>
-<?php /*   File Name:            about_the_data.cfm                         */ ?>
+<?php /*   File Name:            about_the_data.php                         */ ?>
 <?php /*   Purpose:              A summary  on the type of data used        */ ?>
 <?php /*   Revision date:        September 27, 2012                         */ ?>
 <?php /* ****************************************************************** */ ?>
@@ -31,7 +31,7 @@
 			<p align="left"><b><i>Comprehensive Changes:</i></b> Most <b><i>AER 2011</i></b> tables and figures carry a new year of data (usually 2011), which are often preliminary and likely to be revised next year, and revisions to much of the 2010 data, which are now final in many cases.</p>
 
 	      <?php /* Start of Annual Total Energy Subject Matter Contact link */ ?>	
-         <br /><br /><p><b><a href="/about/contact/totalenergy.cfm">Total Energy Experts</a></b></p>   
+         <br /><br /><p><b><a href="/about/contact/totalenergy.php">Total Energy Experts</a></b></p>   
 	      <?php /* End of Annual Total Energy Subject Matter Contact link */ ?>	
 
 	      <?php /* End of Total Energy - Annual */ ?>

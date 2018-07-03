@@ -54,9 +54,9 @@ Carbon dioxide emissions by fuel<br />
 
 <?php /*<h2>Updated Data Series</h2>
       <ul class="updated_data">
-        <li><span class="series_date">09/09/14</span> <a href="/forecasts/steo/report/coal.cfm">Coal prices</a></li>
-        <li><span class="series_date">09/09/14</span> <a href="/forecasts/steo/report/natgas.cfm">Natural Gas prices</a></li>
-        <li><span class="series_date">09/09/14</span> <a href="/forecasts/steo/report/us_oil.cfm">Petroleum prices</a></li>
+        <li><span class="series_date">09/09/14</span> <a href="/forecasts/steo/report/coal.php">Coal prices</a></li>
+        <li><span class="series_date">09/09/14</span> <a href="/forecasts/steo/report/natgas.php">Natural Gas prices</a></li>
+        <li><span class="series_date">09/09/14</span> <a href="/forecasts/steo/report/us_oil.php">Petroleum prices</a></li>
       </ul>*/ ?>
 
 

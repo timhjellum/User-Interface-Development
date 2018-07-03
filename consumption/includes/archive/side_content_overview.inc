@@ -15,12 +15,12 @@ $neic      = new NEIC();
 <span class="grey_side blue_top side_list_nocolumn">
   <h4>Sector totals:</h4>
 <ul>
-      <li><a href="/totalenergy/data/annual/showtext.cfm?t=ptb0201a">annual</a> &mdash; 1949-2011</li>
-      <li><a href="/totalenergy/data/monthly/index.cfm#consumption">monthly</a></li>
+      <li><a href="/totalenergy/data/annual/showtext.php?t=ptb0201a">annual</a> &mdash; 1949-2011</li>
+      <li><a href="/totalenergy/data/monthly/index.php#consumption">monthly</a></li>
     </ul>
 </span>
 
-<?php /*cfinclude template="/about/new/whatsnew_sitewide_noTIE.cfm"*/ ?>
+<?php /*cfinclude template="/about/new/whatsnew_sitewide_noTIE.php"*/ ?>
 
 <?php /*/ Today in Energy Widget Top3 */ ?>
 <?php
@@ -57,12 +57,12 @@ $tie_lookup = $neic->get($bindVariables);
   <p class="no-border"><strong>Annual Energy Outlook 2013<br/>
   Reference Case:</strong></p>
     <ul>
-    <li> <a href="/forecasts/aeo/er/early_consumption.cfm">consumption by sector projections</a></li>
-    <li> <a href="/forecasts/aeo/er/early_intensity.cfm">energy intensity projections</a></li>
-    <?php /*  <li> <a href="/analysis/projection-data.cfm#annualproj">Reference case   projections</a></li>
-      <li> <a href="/forecasts/aeo/chapter_market_trends.cfm">Market trends discussions</a></li> */ ?>
+    <li> <a href="/forecasts/aeo/er/early_consumption.php">consumption by sector projections</a></li>
+    <li> <a href="/forecasts/aeo/er/early_intensity.php">energy intensity projections</a></li>
+    <?php /*  <li> <a href="/analysis/projection-data.php#annualproj">Reference case   projections</a></li>
+      <li> <a href="/forecasts/aeo/chapter_market_trends.php">Market trends discussions</a></li> */ ?>
     </ul>
-<?php /* <p><a href="/analysis/reports.cfm?t=128">More analysis &rsaquo;</a></p>*/ ?>
+<?php /* <p><a href="/analysis/reports.php?t=128">More analysis &rsaquo;</a></p>*/ ?>
 </span>
 <?php include ('global/includes/kids_dates.inc') ; ?>
 

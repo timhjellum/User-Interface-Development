@@ -5,7 +5,6 @@
     .basic-table table,
     table.basic_table {
         width: 100%;
-
         a {
             display: inline-block;
             color: @eia-blue;
@@ -15,13 +14,18 @@
             } 
         }
         caption {
-            //padding: 0;
-            //font-size: .9375rem * 1.10%;   
-            //font-size: .938rem; //15px / 11pt;
-            //text-align: left;
-            //.bold;
-//            caption-side: top;
-
+            em {
+                font-weight: 400;
+            }
+            span {
+                &.units {
+                    float: none;
+                    display: inline;
+                    font-weight: normal;
+                    .italic;
+                    font-size: 0.813rem; // 13 pixels
+                }
+            }
         }
         thead {
             tr {
@@ -67,10 +71,11 @@
             }
         }
         tbody {
+            border-top: 3px solid @eia-blue;
             tr {
                 td {
                     text-align: right;
-                    border-bottom: 1px dashed silver;
+                    border-bottom: 1px dashed #d8d8d8;;
                     white-space: normal !important;
                     &:first-child {
                         text-align: left;
@@ -106,7 +111,7 @@
                 }
                 &:first-child {
                     td {
-                        border-top: 3px solid @eia-blue;
+                        //border-top: 3px solid @eia-blue;
                         &.divider {
                             border-top-color: #fff;
                         }
@@ -140,7 +145,7 @@
                 }
                 &.total {                   
                     td {
-                        border-top: 2px solid silver;
+                        border-top: 2px solid #d8d8d8;;
                         border-bottom: 1px solid @eia-blue;
                         margin-bottom: -2px;
                         &.divider {

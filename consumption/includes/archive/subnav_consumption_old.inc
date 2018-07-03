@@ -20,7 +20,7 @@ $(document).ready(function(){
   });
 });	
 </script>
-<?php /*cfinclude template="/global/includes/sub_menu_fix.cfm"*/ ?>
+<?php /*cfinclude template="/global/includes/sub_menu_fix.php"*/ ?>
 <?php /* Page/Section Title */ ?>
 <div class="title bg_enduse">
   <h1><?php echo "$sectionname"?></h1>
@@ -31,23 +31,23 @@ $(document).ready(function(){
   <span class="right"><a href="<?php echo "$glossary_path"?>?id=consumption">Glossary &rsaquo;</a><a href="<?php echo "$faqs_path"?>#conversion%20equivalents">FAQS &rsaquo;</a></span>
   <ul>
     <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/consumption/">Overview</a></li>
-    <li class="dropdown <?php if ( $locale == 'data') {?>active<?php  } // end if ?>"><a href="/consumption/data.cfm">Data</a></li>
+    <li class="dropdown <?php if ( $locale == 'data') {?>active<?php  } // end if ?>"><a href="/consumption/data.php">Data</a></li>
     <?php /* Data Menu Drop Down */ ?>
     <div class="dat_block dat_links">
       <ul>
-      <li><a href="/consumption/data.cfm#rec">Residential Energy Consumption Survey data</a></li>
-      <li><a href="/consumption/data.cfm#cec">Commercial Energy Consumption Survey data</a></li>
-      <li><a href="/consumption/data.cfm#mfg">Manufacturing Energy Consumption Survey data</a></li>
-      <li><a href="/consumption/data.cfm#vehicles">Vehicle Energy Consumption Survey data</a></li>
-      <li><a href="/consumption/data.cfm#intensity">Energy intensity</a></li>
-      <li><a href="/consumption/data.cfm#consumption">Consumption summaries</a></li>
-      <li><a href="/consumption/data.cfm#avgcost">Average cost of fossil-fuels for electricity generation</a></li>
-      <li><a href="/consumption/data.cfm">All consumption &amp; efficiency data reports</a></li>
+      <li><a href="/consumption/data.php#rec">Residential Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.php#cec">Commercial Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.php#mfg">Manufacturing Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.php#vehicles">Vehicle Energy Consumption Survey data</a></li>
+      <li><a href="/consumption/data.php#intensity">Energy intensity</a></li>
+      <li><a href="/consumption/data.php#consumption">Consumption summaries</a></li>
+      <li><a href="/consumption/data.php#avgcost">Average cost of fossil-fuels for electricity generation</a></li>
+      <li><a href="/consumption/data.php">All consumption &amp; efficiency data reports</a></li>
       </ul>
     </div>
     <?php /*/ Data Menu Drop Down */ ?>
 
-    <li class="dropdown <?php if ( $locale == 'ap') {?>active<?php  } // end if ?>"><a href="/consumption/reports.cfm">Analysis & Projections</a></li>
+    <li class="dropdown <?php if ( $locale == 'ap') {?>active<?php  } // end if ?>"><a href="/consumption/reports.php">Analysis & Projections</a></li>
 
     <?php /* Reports Menu Drop Down */ ?>
     <div id="analysis-projections" class="dat_block dat_links" style="width:600px;">
@@ -65,9 +65,9 @@ $(document).ready(function(){
       <div class="listContainer2" style="width:200px; float:right">
         <h4 style="margin: 12px 20px 6px 20px; border-bottom:1px solid #ccc; padding-bottom:2px;">Browse by Tag</h4>
         <ul>
-          <li><a href="/consumption/browsebytag.cfm">Alphabetical</a></li>
-          <li><a href="/consumption/browsebytag.cfm?frequency">Frequency</a></li>
-          <li><a href="/consumption/browsebytag.cfm?tagcloud">Tag Cloud</a></li>
+          <li><a href="/consumption/browsebytag.php">Alphabetical</a></li>
+          <li><a href="/consumption/browsebytag.php?frequency">Frequency</a></li>
+          <li><a href="/consumption/browsebytag.php?tagcloud">Tag Cloud</a></li>
         </ul>
       </div>
     </div>

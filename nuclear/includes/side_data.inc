@@ -4,9 +4,9 @@
 <li class="sub-head"><strong>Uranium &amp; nuclear fuel</strong></li>
 <li>
 <ul>
-  <li><a href="/uranium/production/annual/ureserve.cfm" title="html format: U.S. Reserves Estimates">Uranium reserves estimates</a></li>
-  <li><a href="/uranium/production/annual/usummary.cfm" title="html format: Summary Production Statistics">Summary production statistics</a></li>
-  <li><a href="/uranium/production/quarterly/qupdtable1.cfm" title="html format: Quarterly Production">Quarterly production</a></li>
+  <li><a href="/uranium/production/annual/ureserve.php" title="html format: U.S. Reserves Estimates">Uranium reserves estimates</a></li>
+  <li><a href="/uranium/production/annual/usummary.php" title="html format: Summary Production Statistics">Summary production statistics</a></li>
+  <li><a href="/uranium/production/quarterly/qupdtable1.php" title="html format: Quarterly Production">Quarterly production</a></li>
   <li><a href="/nuclear/umtra/" title="html format: Remediation of Mill Sites">Remediation of mill sites</a>
     </lu>
 </ul>
@@ -28,10 +28,10 @@
 </ul>
 </span> <span class="grey_side green_top">
 <li class="head"><h2>Nuclear energy</h2></li>
-<p><a href="/energyexplained/index.cfm?page=nuclear_home">Nuclear energy explained</a></p>
+<p><a href="/energyexplained/index.php?page=nuclear_home">Nuclear energy explained</a></p>
 <?php /*<p><a href="/nuclear/outages/">Status of U.S. nuclear outagesWhat is the status of the U.S. nuclear industry?</a></p>*/ ?>
 </span><?php /* <span class="grey_side green_top">
 <li class="head"><h2><a href="/nuclear/state/">State Nuclear Profiles</a></h2></li>
 <!--<h5><i>Release Date: April 26, 2012</i></h5>-->
 <a href="/nuclear/state_profiles/nuc_state_sum.html"> <img src="/energy_in_brief/images/charts/nuclear_state_profiles.gif" width="220" height="200" /></a> </span>*/ ?>
-<?php /*cfinclude template="side_content.cfm"*/ ?>
+<?php /*cfinclude template="side_content.php"*/ ?>

@@ -6,7 +6,7 @@
                               
 <ul> 
 <li><a href="/emeu/recs/recs2005/hc2005_tables/detailed_tables2005.html">Lighting usage indicator tables</a>    &mdash; 2005<br /></li>
-          <li><a href="http://www.eia.gov/forecasts/aeo/early_intensity.cfm">Key energy intensity indicators and consumption by sector</a>   &mdash; projections to 2035<br /></li>
+          <li><a href="http://www.eia.gov/forecasts/aeo/early_intensity.php">Key energy intensity indicators and consumption by sector</a>   &mdash; projections to 2035<br /></li>
                 
      <li><a href"http://www.eia.gov/cneaf/electricity/epa/epa_sum.html#nine">Electric utility demand-side management</a></li>
      <li><a href="/aer/txt/ptb0208.html">Motor Vehicle Milage, Fuel Consumption, and Fuel Economy</a> 1949-2008<br /></li>
@@ -23,8 +23,8 @@
 Energy consumption:</h4>
                          
          
-        <li><a href="data/index.cfm">homes </a></li>
-     <!--    <p> <a href="data/index.cfm">Home Energy Use & Costs</a> &mdash; 2005</p>
+        <li><a href="data/index.php">homes </a></li>
+     <!--    <p> <a href="data/index.php">Home Energy Use & Costs</a> &mdash; 2005</p>
          <p><a href="data/2003/">Building Characteristics </a> &mdash; 2005</p>-->
 <li> <a href="data/2003/">commercial buildings</a></li>
 <li><a href="data/2006/">manufacturing </a></li>

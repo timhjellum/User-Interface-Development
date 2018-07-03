@@ -19,7 +19,7 @@ $report_pdf = '<a href="pdf/pmmall.pdf" class="pdf">full report</a>'; ?>
 <div class="l-row">
 <div class="l-main-col">
 <!-- start main content  -->
-<p class="grey_side"><strong>Note:</strong> <a href="/survey/notice/marketing2017.cfm">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
+<p class="grey_side"><strong>Note:</strong> <a href="/survey/notice/marketing2017.php">Petroleum Marketing Survey Form Changes Proposed for 2017</a>
 </p>
 <p>Monthly price and volume statistics on crude oil and petroleum products at a national, regional<br /> and state level.
 </p>

@@ -5,7 +5,7 @@
 $itemOneIcon = "faq";
 $itemOneHeadURL = "/tools/faqs/";
 $itemOneHeadLabel = "FAQs";
-$itemOneSubheadURL = "/tools/faqs/faq.cfm?id=85&t=1";
+$itemOneSubheadURL = "/tools/faqs/faq.php?id=85&t=1";
 $itemOneSubheadLabel = "How much energy does a person use in a year?";
 $itemOneFootUrl = "/tools/faqs/";
 $itemOneFootLabel = "See more FAQs";

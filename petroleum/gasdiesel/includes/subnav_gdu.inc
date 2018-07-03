@@ -1,6 +1,6 @@
 <div class="l-row header report-details">
     <div class="l-full-width-col">
-        <a href="/petroleum/reports.cfm">&lsaquo; See all petroleum reports</a>
+        <a href="/petroleum/reports.php">&lsaquo; See all petroleum reports</a>
         <h2>Gasoline and Diesel Fuel Update</h2>
 
         <div class="release-dates">
@@ -25,7 +25,7 @@
 </div>
 <script>
     $(document).ready(function() {
-        var patCfm = /\.cfm/i;
+        var patCfm = /\.php/i;
         var patPhp = /\.php/i;
         var patIndex = /\/index/i;
         if ((patCfm.test(window.location.href) || patPhp.test(window.location.href)) && !patIndex.test(window.location.href)) {

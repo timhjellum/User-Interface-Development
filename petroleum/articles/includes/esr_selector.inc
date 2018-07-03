@@ -1,6 +1,6 @@
 <div class="l-row header report-details">
         <div class="l-full-width-col">
-                <a href="/electricity/reports.cfm">&lsaquo; See All Electricity Reports</a>
+                <a href="/electricity/reports.php">&lsaquo; See All Electricity Reports</a>
                 <h2><?php echo "$headtitle"?></h2>
 
                 <div class="release-dates">

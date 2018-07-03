@@ -144,7 +144,7 @@ function WriteLinks()
 	strContact='<br>&nbsp;&nbsp;<a href="mercontacts.html" target="_blank">MER Contacts</a><br>';
 	strAER='<br>&nbsp;&nbsp;<a href="http://www.eia.gov/emeu/aer/contents.html" target="_blank">Annual Energy Review</a>';
 	strSEDS='<br>&nbsp;&nbsp;<a href="http://www.eia.gov/emeu/states/_seds.html" target="_blank">State Energy Data System</a><br>';
-	strIEA='<br>&nbsp;&nbsp;<a href="http://www.eia.gov/cfapps/ipdbproject/IEDIndex3.cfm" target="_blank">International Energy Statistics</a>';
+	strIEA='<br>&nbsp;&nbsp;<a href="http://www.eia.gov/cfapps/ipdbproject/IEDIndex3.php" target="_blank">International Energy Statistics</a>';
 	strIPM='<br>&nbsp;&nbsp;<a href="http://www.eia.gov/ipm/contents.html" target="_blank">International Petroleum Monthly</a><br>';
 	strSTEO='<br>&nbsp;&nbsp;<a href="http://www.eia.gov/emeu/steo/pub/contents.html" target="_blank">Short-Term Energy Outlook</a>';
 	strAEO='<br>&nbsp;&nbsp;<a href="http://www.eia.gov/oiaf/aeo/index.html" target="_blank">Annual Energy Outlook</a>';

@@ -1,10 +1,10 @@
 <span class="grey_side green_top">
             <h4>Survey Methods<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="2001_recs_methodology.cfm">2001</a>&nbsp;&nbsp;<a href="http://www.eia.gov/emeu/recs/recs97/rx97appa.html">1997</a></h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="2001_recs_methodology.php">2001</a>&nbsp;&nbsp;<a href="http://www.eia.gov/emeu/recs/recs97/rx97appa.html">1997</a></h4>
             <h4>Data Quality<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.eia.gov/emeu/recs/recs2001/appendixb.html">2001</a><a href="http://www.eia.gov/emeu/recs/recs97/rx97appb.html">1997</a><a href="http://www.eia.gov/emeu/recs/recs2d.html">1993</a></h4>
             <h4>Survey Forms<br />
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="recs_survey_forms.cfm">2009 2005 2001 1997 </a></h4>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="recs_survey_forms.php">2009 2005 2001 1997 </a></h4>
             <h4>
               <a href="http://www.eia.gov/emeu/cbecs/glossary_1.html">Glossary</a> </h4>
             <h4>

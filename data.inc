@@ -9,7 +9,7 @@
     <p>Previous editions of the MER are available from January 1980 forward.</p>
     <p>EIA periodically adds tables to the MER containing data previously published in the
         <li class="release-schedule">Annual Energy Review</span>, which has been discontinued. For a record of the MER expansion, please see &quot;
-            <a href="/totalenergy/data/monthly/whatsnew.cfm">What's New in the Monthly Energy Review - Content Changes </a>."</p>
+            <a href="/totalenergy/data/monthly/whatsnew.php">What's New in the Monthly Energy Review - Content Changes </a>."</p>
 </div>
 <h3>Data categories</h3>
 </p>
@@ -2744,7 +2744,7 @@
                                     <li>
                                         <p>
                                             <b>
-												<a href="/about/contact/totalenergy.cfm">Total Energy Experts</a>
+												<a href="/about/contact/totalenergy.php">Total Energy Experts</a>
 											</b>
                                         </p>
                                 </ul>

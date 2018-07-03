@@ -3,17 +3,17 @@
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "natural-gas";
-$itemOneHeadURL = "/energyexplained/index.cfm?page=natural_gas_home";
+$itemOneHeadURL = "/energyexplained/index.php?page=natural_gas_home";
 $itemOneHeadLabel = "Natural Gas Explained";
-$itemOneSubheadURL = "/energyexplained/index.cfm?page=natural_gas_factors_affecting_prices";
+$itemOneSubheadURL = "/energyexplained/index.php?page=natural_gas_factors_affecting_prices";
 $itemOneSubheadLabel = "Factors affecting natural gas prices";
-$itemOneFootURL = "/energyexplained/index.cfm?page=natural_gas_home";
+$itemOneFootURL = "/energyexplained/index.php?page=natural_gas_home";
 $itemOneFootLabel = "See more natural gas topics";
 
 $itemTwoIcon = "faq";
 $itemTwoHeadURL = "/tools/faqs/";
 $itemTwoHeadLabel = "FAQs";
-$itemTwoSubheadURL = "/tools/faqs/faq.cfm?id=45&t=8";
+$itemTwoSubheadURL = "/tools/faqs/faq.php?id=45&t=8";
 $itemTwoSubheadLabel = "What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?";
 $itemTwoFootURL = "/tools/faqs/#naturalgas";
 $itemTwoFootLabel = "See all natural gas FAQs";
@@ -21,9 +21,9 @@ $itemTwoFootLabel = "See all natural gas FAQs";
 $itemThrIcon = "energy-kids";
 $itemThrHeadURL = "/kids";
 $itemThrHeadLabel = "Energy Kids";
-$itemThrSubheadURL = "/kids/energy.cfm?page=natural_gas_home-basics";
+$itemThrSubheadURL = "/kids/energy.php?page=natural_gas_home-basics";
 $itemThrSubheadLabel = "How Was Natural Gas Formed?";
-$itemThrFootURL = "/kids/energy.cfm?page=natural_gas_home-basics";
+$itemThrFootURL = "/kids/energy.php?page=natural_gas_home-basics";
 $itemThrFootLabel = "See natural gas on Energy Kids";
 
 ?>

@@ -235,7 +235,7 @@ $l2id = 10;
                         <li>
                             <ul>
                                 <li>Full Version of Paper - (available on SSRN website)</li>
-                                <li><span class="formats">Available formats:</span> <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1855264" title="Does paper oil matter"><i class="ico pdf"><span>PDF</span></i></a></li>
+                                <li><span class="formats">Available formats:</span> <a href="http://papers.ssrn.com/sol3/papers.php?abstract_id=1855264" title="Does paper oil matter"><i class="ico pdf"><span>PDF</span></i></a></li>
                                 <li>Presentation - (Michel Robe)</li>
                                 <li><span class="formats">Available formats:</span> <a href="/finance/markets/reports_presentations/Presentation-Does Paper Oil Matter.pdf" title="Does paper oil matter, Presentation by Michel Robe"><i class="ico pdf"><span>PDF</span></i></a></li>
                                 <li>Discussant Presentation - (James Smith)</li>

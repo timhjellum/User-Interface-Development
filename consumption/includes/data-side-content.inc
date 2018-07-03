@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="/consumption/commercial/data/2012/index.php?view=characteristics">Building characteristics</a></li>
                 <li><a href="/consumption/commercial/data/2012/index.php?view=consumption">Commercial energy use &amp; costs</a></li>
-                <li><a href="/consumption/commercial/data/2012/index.php?view=microdata2003/index.cfm?view=microdata">Detailed buildings microdata</a></li>
+                <li><a href="/consumption/commercial/data/2012/index.php?view=microdata2003/index.php?view=microdata">Detailed buildings microdata</a></li>
             </ul>
 </li>
         <li class="sub-head"><strong>Manufacturing energy consumption</strong></li>

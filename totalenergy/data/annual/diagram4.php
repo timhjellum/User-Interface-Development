@@ -18,7 +18,7 @@ function DataEndYear(lngLagValue)
 <?php /* End of user defined Javascript function */ ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ****************************************************************** */ ?>
-<?php /* File Name:  diagram4.cfm   */ ?>
+<?php /* File Name:  diagram4.php   */ ?>
 <?php /* Purpose:    Display the Coal Flow diagram*/ ?>
 <?php /* Revision date:   September 27, 2012  */ ?>
 <?php /* ****************************************************************** */ ?>

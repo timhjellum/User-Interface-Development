@@ -37,7 +37,7 @@ $itemThrFootLabel = "view the MECS";
         <div class="l-row">
             <div class="l-full-width-col">
                 <h1>Consumption Surveys</h1>
-                <div class="energy-education">
+                <div class="consumption-surveys">
                     <div class="l-one-third-col">
                         <i class="ico consumption-surveys <?=$itemOneIcon?>"></i>
                         <ul>

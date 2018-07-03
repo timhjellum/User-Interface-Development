@@ -1,6 +1,6 @@
 <div class="report_header">
 <span class="left rtitle">
-  <?php /*a href="/naturalgas/reports.cfm">&lsaquo; See all Natural Gas Reports</a*/ ?>
+  <?php /*a href="/naturalgas/reports.php">&lsaquo; See all Natural Gas Reports</a*/ ?>
   <h2>Annual Energy Review</h2>
   <?php /*p><strong>With Data for  2012</strong>&nbsp;&nbsp;|&nbsp;&nbsp;<strong>Release Date:</strong>&nbsp;June 10, 2013&nbsp;&nbsp;|&nbsp;&nbsp;<strong>Next Update:</strong> July 2013<br /</p*/ ?>
   <p><?php /*strong>Next release date:</strong*/ ?> Superseded -- see MER for key annual tables</p>

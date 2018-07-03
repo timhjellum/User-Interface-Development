@@ -18,7 +18,7 @@ function DataEndYear(lngLagValue)
 <?php /* End of user defined Javascript function */ ?>
 <?php  if(!isset($no_titling)) include "global/includes/titling.inc"; ?></head>
 <?php /* ****************************************************************** */ ?>
-<?php /* File Name:  diagram2.cfm   */ ?>
+<?php /* File Name:  diagram2.php   */ ?>
 <?php /* Purpose:    Display the Petroleum Energy Flow diagram*/ ?>
 <?php /* Revision date:   September 27, 2012  */ ?>
 <?php /* ****************************************************************** */ ?>
@@ -59,7 +59,7 @@ and aviation gasoline blending components.<br />
 <br />
 <strong>Sources:</strong><br />
 U.S. Energy Information Administration, <a href="/totalenergy/data/annual/pdf/aer.pdf">Annual Energy Review 2011</a>
-&nbsp;Tables 5.1b, 5.3, 5.5, 5.8, 5.11, 5.13a-5.13d, 5.16;&nbsp;U.S. Energy Information Administration, <a href="/petroleum/supply/monthly/archive/2012/2012_02/psm_2012_02.cfm"><i>Petroleum Supply Monthly</i></a>, February 2012, Table 4; and revisions to crude oil production and adjustments (see sources for Table 5.1b).
+&nbsp;Tables 5.1b, 5.3, 5.5, 5.8, 5.11, 5.13a-5.13d, 5.16;&nbsp;U.S. Energy Information Administration, <a href="/petroleum/supply/monthly/archive/2012/2012_02/psm_2012_02.php"><i>Petroleum Supply Monthly</i></a>, February 2012, Table 4; and revisions to crude oil production and adjustments (see sources for Table 5.1b).
 </p>
 	      <?php /* End of  */ ?>
 	  <?php /* End of Main Column */ ?>

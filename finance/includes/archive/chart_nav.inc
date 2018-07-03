@@ -38,43 +38,43 @@
 
 </style> 
 <ul id="bubble3">
-    <li>      <a href="non-oecd_demand.cfm" class="fb">
+    <li>      <a href="non-oecd_demand.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_demand_non_oecd_off.png" alt="Demand non-OECD" />
         <img class="large" src="images/ui/thumbs/thumb_demand_non_oecd_on.png" alt="Demand non-OECD" />
       </a></li>
-    <li>      <a href="oecd_demand.cfm" class="fb">
+    <li>      <a href="oecd_demand.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_demand_oecd_off.png" alt="Demand OECD" />
         <img class="large" src="images/ui/thumbs/thumb_demand_oecd_on.png" alt="Demand OECD" />
       </a></li>
-    <li>      <a href="non-opec_production.cfm" class="fb">
+    <li>      <a href="non-opec_production.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_supply_non_oecd_off.png" alt="Supply non-OECD" />
         <img class="large" src="images/ui/thumbs/thumb_supply_non_oecd_on.png" alt="Supply non-OECD" />
       </a></li>
-    <li>      <a href="opec_spare_capacity.cfm" class="fb">
+    <li>      <a href="opec_spare_capacity.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_supply_oecd_off.png" alt="Supply OECD" />
         <img class="large" src="images/ui/thumbs/thumb_supply_oecd_on.png" alt="Supply OECD" />
       </a></li>
-    <li>      <a href="active_trading.cfm" class="fb">
+    <li>      <a href="active_trading.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_trading_active_off.png" alt="Trading Active" />
         <img class="large" src="images/ui/thumbs/thumb_trading_active_on.png" alt="Trading Active" />
       </a></li>
-    <li>      <a href="passive_trading.cfm" class="fb">
+    <li>      <a href="passive_trading.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_trading_passive_off.png" alt="Trading Passive" />
         <img class="large" src="images/ui/thumbs/thumb_trading_passive_on.png" alt="Trading Passive" />
       </a></li>
-    <li>      <a href="other_financial_markets.cfm" class="fb">
+    <li>      <a href="other_financial_markets.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_trading_other_off.png" alt="Trading Other Financial Markets" />
         <img class="large" src="images/ui/thumbs/thumb_trading_other_on.png" alt="Trading Other Financial Markets" />
       </a></li>
-    <li>      <a href="inventory.cfm" class="fb">
+    <li>      <a href="inventory.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_inventories_off.png" alt="Inventories" />
         <img class="large" src="images/ui/thumbs/thumb_inventories_on.png" alt="Inventories" />
       </a></li>
-    <li>      <a href="risk_factors.cfm" class="fb">
+    <li>      <a href="risk_factors.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_geopolitical_off.png" alt="Geopolitical and Other Events" />
         <img class="large" src="images/ui/thumbs/thumb_geopolitical_on.png" alt="Geopolitical and Other Events" />
       </a></li>
-    <li>      <a href="expectations.cfm" class="fb">
+    <li>      <a href="expectations.php" class="fb">
         <img class="small" src="images/ui/thumbs/thumb_expectations_off.png" alt="Expectations" />
         <img class="large" src="images/ui/thumbs/thumb_expectations_on.png" alt="Expectations" />
       </a></li>

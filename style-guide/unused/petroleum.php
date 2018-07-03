@@ -1,7 +1,7 @@
 <?php  $pageTitle = "U.S. Energy Information Administration (EIA)";
 <?php $L2T = 'Petroleum & Other Liquids'; ?>
 <?php $locale = 'overview'; ?>
-<?php /* set this so that the carousel.cfm include query will pull the correct set of Issues and Trends for this page. */ ?>
+<?php /* set this so that the carousel.php include query will pull the correct set of Issues and Trends for this page. */ ?>
 <?php $l2page = 'page_pet'; ?>
 <!doctype html>
 <html>
@@ -26,7 +26,7 @@
     <!-- <div class="pagecontent eqcol_temp"> -->
     <!-- test alert -->
     <div class="alert">
-        <p><strong>What's changed?</strong> &nbsp; See <a href="/about/eia_explained.cfm#l2_enhancements" id="enhance" style="background:none; padding-right:0; margin-right:0">highlights of new features</a> or <a href="#video" id="youtube" style="background:none; padding-right:0; margin-right:0">take a 60 second video tour</a>.</p>
+        <p><strong>What's changed?</strong> &nbsp; See <a href="/about/eia_explained.php#l2_enhancements" id="enhance" style="background:none; padding-right:0; margin-right:0">highlights of new features</a> or <a href="#video" id="youtube" style="background:none; padding-right:0; margin-right:0">take a 60 second video tour</a>.</p>
     </div>
     <?php include ('global/includes/l2-youtube.inc') ; ?>
     <!-- delete this -->
@@ -101,8 +101,8 @@ echo $homepageData;
                 <h2>Survey Forms, Changes & Announcements</h2>
                 <ul>
                     <li><a href="/survey/#petroleum">Petroleum surveys &rsaquo;</a></li>
-                    <li><a href="/survey/notice/marketing2017.cfm">Petroleum Marketing Survey Form Changes Proposed for 2017 &rsaquo;</a></li>
-                    <li><a href="/survey/notice/petngproduction2017.cfm">Proposed Changes to the EIA-914 Monthly Crude Oil, Lease Condensate, and Natural Gas Production Form</a></li>
+                    <li><a href="/survey/notice/marketing2017.php">Petroleum Marketing Survey Form Changes Proposed for 2017 &rsaquo;</a></li>
+                    <li><a href="/survey/notice/petngproduction2017.php">Proposed Changes to the EIA-914 Monthly Crude Oil, Lease Condensate, and Natural Gas Production Form</a></li>
                 </ul>
                 <!-- Replace this
 </span>
@@ -132,7 +132,7 @@ with This -->
             <?php /*Interactive visualizations section*/ ?>
             <h1>Interactive Visualizations, Data, & Multimedia</h1>
             <div class="l-col">
-                <a title="U.S. Petroleum Infrastructure Map" href="/state/maps.cfm?v=Petroleum">
+                <a title="U.S. Petroleum Infrastructure Map" href="/state/maps.php?v=Petroleum">
                     <ul>
                         <li class="circle_pet_map circle"></li>
                         <li class="foot">U.S. Petroleum Infrastructure Map</li>
@@ -140,7 +140,7 @@ with This -->
                 </a>
             </div>
             <div class="l-col">
-                <a title="U.S. Fossil Fuel Resourse Map" href="/state/maps.cfm?v=Fossil%20Fuel%20Resources">
+                <a title="U.S. Fossil Fuel Resourse Map" href="/state/maps.php?v=Fossil%20Fuel%20Resources">
                     <ul>
                         <li class="circle_fossil_fuel circle"></li>
                         <li class="foot">U.S. Fossil Fuel Resource Map</li>
@@ -194,22 +194,22 @@ Table Browser</strong></a></li>*/ ?>
             <div class="ed_section">
                 <div>
                     <div> <img src="/global/images/icons/education/petroleum.png" /> <span>
-<h2><a href="/energyexplained/index.cfm?page=oil_home">Oil: Crude &amp; Petroleum Products Explained</a></h2>
-<p><em><a href="/energyexplained/index.cfm?page=gasoline_prices">Gasoline Prices and Outlook</a></em></p>
+<h2><a href="/energyexplained/index.php?page=oil_home">Oil: Crude &amp; Petroleum Products Explained</a></h2>
+<p><em><a href="/energyexplained/index.php?page=gasoline_prices">Gasoline Prices and Outlook</a></em></p>
 <p><strong>See more petroleum topics &rsaquo;</strong></a></p>
 </span> </div>
                 </div>
                 <div>
                     <div> <img src="/global/includes/issuestrends/images/faq.png" /> <span>
 <h2><a href="/tools/faqs/">FAQs</a></h2>
-<p><em><a href="/tools/faqs/faq.cfm?id=45&t=8">What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?</a></em></p>
+<p><em><a href="/tools/faqs/faq.php?id=45&t=8">What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?</a></em></p>
 <p><strong>See all petroleum FAQs &rsaquo;</strong></a></p>
 </span> </div>
                 </div>
                 <div>
                     <div> <img src="/global/includes/issuestrends/images/icon_kids.png" /> <span>
 <h2><a href="/kids">Energy Kids</a></h2>
-<p><em><a href="/kids/energy.cfm?page=oil_home-basics">How was oil formed?</a></em></p>
+<p><em><a href="/kids/energy.php?page=oil_home-basics">How was oil formed?</a></em></p>
 <p><strong>See nonrenewable sources on Energy Kids &rsaquo;</strong></a></p>
 </span> </div>
                 </div>

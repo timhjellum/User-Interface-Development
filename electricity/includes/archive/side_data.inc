@@ -1,4 +1,4 @@
-<?php /*cfinclude template="side_content.cfm"*/ ?>
+<?php /*cfinclude template="side_content.php"*/ ?>
 
 <?php /* Interactive Table Viewer Promo */ ?>
       <span class="blue_side">
@@ -10,7 +10,7 @@
          <?php /*hr width="55" align="center"/*/ ?>
          <span style="font-size:18px; text-align:center"> - OR - </span><br /><br />
           <em> create your own app with our </em>
-          <a href="/beta/api/qb.cfm?category=0"><b> API </b><b>  &rsaquo;</b></a><br />
+          <a href="/beta/api/qb.php?category=0"><b> API </b><b>  &rsaquo;</b></a><br />
 	</p>
     </span>	
 		<?php /* Interactive Table Viewer Promo */ ?>

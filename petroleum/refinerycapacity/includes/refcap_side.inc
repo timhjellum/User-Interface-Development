@@ -18,7 +18,7 @@
 <div class="faq">
     <ul>
         <li class="header">
-            <h2><a href="/tools/faqs/faq.cfm?id=29&amp;t=6 ">When was the last refinery built in the United States?</a></h2></li>
+            <h2><a href="/tools/faqs/faq.php?id=29&amp;t=6 ">When was the last refinery built in the United States?</a></h2></li>
         <li class="sub-header">Read all crude oil FAQs</a></li>
     </ul>
 </div>

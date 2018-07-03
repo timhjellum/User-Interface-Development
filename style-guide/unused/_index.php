@@ -38,7 +38,7 @@
                 <li class="feature_new2">
                     <div class="slider-overlay">
                         <div class="slider-content">
-                            <h2><a href="/beta/international/regions-topics.cfm?RegionTopicID=WOTC&amp;src=home-b2">World chokepoints for maritime transit of oil are a critical part of global energy security ›</a></h2>
+                            <h2><a href="/beta/international/regions-topics.php?RegionTopicID=WOTC&amp;src=home-b2">World chokepoints for maritime transit of oil are a critical part of global energy security ›</a></h2>
                             <h3></h3>
                         </div>
                     </div>
@@ -117,8 +117,8 @@
                     </li>
                     <li><a href="/forecasts/aeo/retrospective/">AEO Retrospective Review</a></li>
                     <li><a href="/forecasts/ieo/">International Energy Outlook</a></li>
-                    <li><a href="/beta/international/analysis.cfm?iso=ECU">Ecuador Country Analysis Brief</a></li>
-                    <li class="foot"><a href="/reports/upcoming.cfm">More</a></li>
+                    <li><a href="/beta/international/analysis.php?iso=ECU">Ecuador Country Analysis Brief</a></li>
+                    <li class="foot"><a href="/reports/upcoming.php">More</a></li>
                 </ul>
             </div>
             <!--
@@ -146,7 +146,7 @@
             <?php if(file_exists("../global/includes/css_rehab_data-highlights.html")){
         $homepage_data_file = "../global/includes/css_rehab_data-highlights.html";
       } else {
-        $homepage_data_file = "../global/includes/homepage_data.cfm";
+        $homepage_data_file = "../global/includes/homepage_data.php";
       }
       if(!$homepageData = file_get_contents($homepage_data_file, FILE_USE_INCLUDE_PATH)) {
         echo "Data highlights not currently available. Check back soon.";
@@ -192,7 +192,7 @@
                             <img src="/global/images/home_sm_features/energy_mapping_system.jpg" alt="U.S. Energy Mapping System" /></a>
                             <ul>
                                 <li class="head">
-                                    <h2><a href="/state/maps.cfm">U.S. Energy Mapping System</a></h2>
+                                    <h2><a href="/state/maps.php">U.S. Energy Mapping System</a></h2>
                                 </li>
                                 <li>Rankings, layers of energy information, and state comparisons.</li>
                             </ul>
@@ -232,13 +232,13 @@
                                 <h2>Especially For...</h2>
                             </li>
                             <li><a href="about/careers/">Job Seekers</a></li>
-                            <li><a href="about/especiallyfor/analysts.cfm">Policy Analysts</a></li>
+                            <li><a href="about/especiallyfor/analysts.php">Policy Analysts</a></li>
                             <li><a href="pressroom/">Media</a></li>
                             <li><a href="tools/models/">Researchers</a></li>
                             <li><a href="/kids">Students</a></li>
-                            <li><a href="/kids/energy.cfm?page=6">Teachers</a></li>
+                            <li><a href="/kids/energy.php?page=6">Teachers</a></li>
                             <li><a href="/survey/">Survey Respondents</a></li>
-                            <li><a href="about/especiallyfor/employees.cfm">EIA Employees</a></li>
+                            <li><a href="about/especiallyfor/employees.php">EIA Employees</a></li>
                             <li><a href="/developer/">Developers API</a></li>
                         </ul>
                     </div>

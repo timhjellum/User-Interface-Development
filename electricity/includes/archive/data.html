@@ -21,9 +21,7 @@
                     <li>
                         Electricity overview
                     </li>
-                    <li class="include">
-                        <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
-                    </li>
+                    <li><!-- class="include" --><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span></li>
                     <li>
                         <span class="source">Interactive
 							<span class="source">data from:</span> Total Energy Data Browser</li>
@@ -37,12 +35,12 @@
                     </li>
                     <li>
                         <span class="formats">Available formats:</span>
-                        <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.01" class="ico_csv" title=" Electricity overview">
+                        <a href="/totalenergy/data/browser/csv.php?tbl=T07.01" class="ico_csv" title=" Electricity overview">
                             <i class="ico csv">
 								<span>CSV</span>
 							</i>
                         </a>
-                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.01&amp;freq=m" class="ico_xls" title=" Electricity overview">
+                        <a href="/totalenergy/data/browser/xls.php?tbl=T07.01&amp;freq=m" class="ico_xls" title=" Electricity overview">
                             <i class="ico xls">
 								<span>XLS</span>
 							</i>
@@ -61,13 +59,11 @@
                             <li>
                                 Monthly
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                            </li>
+<li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
                             <li class="list-item">
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_es1a" title=" Total electric power industry summary statistics">Latest month </a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_es1a" title=" Total electric power industry summary statistics">Latest month </a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -78,7 +74,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_es1b" title=" Total electric power industry summary statistics">Year-to-date </a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_es1b" title=" Total electric power industry summary statistics">Year-to-date </a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -188,13 +184,11 @@
                             <li>
                                 Monthly
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                            </li>
+<li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
                             <li class="list-item">
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_01">By sector</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_5_01">By sector</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -212,7 +206,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_04_a" title="Monthly retail sales of electricity to ultimate customers">By sector, by state </a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_5_04_a" title="Monthly retail sales of electricity to ultimate customers">By sector, by state </a>
                                     </li>
                                 </ul>
                             </li>
@@ -359,16 +353,12 @@
                     <li class="release-schedule">
                         Monthly
                     </li>
-                    <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                    </li>
-                    <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                    </li>
+                    <li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
+                    <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                     <li class="list-item">
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_02" title="monthly revenue from retail sales of electricity to ultimate customers">By sector</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_5_02" title="monthly revenue from retail sales of electricity to ultimate customers">By sector</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -385,7 +375,7 @@
                             </li>
 
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_05_a" title="monthly revenue from retail sales of electricity to ultimate customers">By sector, by state</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_5_05_a" title="monthly revenue from retail sales of electricity to ultimate customers">By sector, by state</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -446,9 +436,7 @@
 									</i>
                                 </a>
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                            </li>
+                            <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                             <li>
                                 By state and utility
                             </li>
@@ -546,16 +534,12 @@
                         <li class="release-schedule">
                             Monthly
                         </li>
-                        <li class="include">
-                            <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                        </li>
-                        <li class="include">
-                            <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                        </li>
+                        <li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
+                        <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                         <li class="list-item">
                             <ul>
                                 <li>
-                                    <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_03" title="Monthly average retail price of electricity to ultimate customers">By sector</a>
+                                    <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_5_03" title="Monthly average retail price of electricity to ultimate customers">By sector</a>
                                 </li>
                                 <li>
                                     <span class="formats">Available formats:</span>
@@ -571,7 +555,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_06_a" title="Annual  average retail price of electricity to ultimate customers">By sector, by state</a>
+                                    <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_5_06_a" title="Annual  average retail price of electricity to ultimate customers">By sector, by state</a>
                                 </li>
                                 <li>
                                     <span class="formats">Available formats:</span>
@@ -624,9 +608,7 @@
                                     </a>
                                 </li>
                                 <li>By sector, by state (back to 2001)</li>
-                                <li class="include">
-                                    <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                                </li>
+                                <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                                 <li>
                                     By state and utility
                                 </li>
@@ -942,16 +924,12 @@
                             <li>
                                 Monthly
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                            </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                            </li>
+<li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
+                            <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                             <li class="list-item">
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01" title="Monthly Net generation">By all energy sources</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_1_01" title="Monthly Net generation">By all energy sources</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -970,7 +948,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_01_a" title="Monthly Net generation">By type of renewable source</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_1_01_a" title="Monthly Net generation">By type of renewable source</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -989,9 +967,7 @@
                                 </ul>
                                 <ul>
                                     <li>By energy source (plus by annual back to 1950)</li>
-                                    <li class="include">
-                                        <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
-                                    </li>
+                                    <li><!-- class="include" --><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span></li>
                                     <li>
                                         <span class="source">Interactive
 											<span class="source">data from:</span>
@@ -1005,12 +981,12 @@
 												<span>PDF</span>
 											</i>
                                         </a>
-                                        <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.02A" class="ico_csv" title="Monthly Net generation By energy source (plus by annual back to 1950)">
+                                        <a href="/totalenergy/data/browser/csv.php?tbl=T07.02A" class="ico_csv" title="Monthly Net generation By energy source (plus by annual back to 1950)">
                                             <i class="ico csv">
 												<span>CSV</span>
 											</i>
                                         </a>
-                                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.02A&amp;freq=m" class="ico_xls" title="Monthly Net generation By energy source (plus by annual back to 1950)">
+                                        <a href="/totalenergy/data/browser/xls.php?tbl=T07.02A&amp;freq=m" class="ico_xls" title="Monthly Net generation By energy source (plus by annual back to 1950)">
                                             <i class="ico xls">
 												<span>XLS</span>
 											</i>
@@ -1026,16 +1002,12 @@
                             <li>
                                 By energy source and producing sector
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                            </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                            </li>
+<li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
+                            <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                             <li class="list-item">
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_a" title="Monthly Net generation By energy source and producing sector">Electric utilities</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_1_02_a" title="Monthly Net generation By energy source and producing sector">Electric utilities</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1054,7 +1026,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_b" title="Monthly Net generation By energy source and producing sector">Independent power producers</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_1_02_b" title="Monthly Net generation By energy source and producing sector">Independent power producers</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1073,7 +1045,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_c" title="Monthly Net generation By energy source and producing sector">Commercial combined heat and power sector</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_1_02_c" title="Monthly Net generation By energy source and producing sector">Commercial combined heat and power sector</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1092,7 +1064,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_d" title="Monthly Net generation By energy source and producing sector">Industrial combined heat and power sector</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_1_02_d" title="Monthly Net generation By energy source and producing sector">Industrial combined heat and power sector</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1111,7 +1083,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_1_02_e" title="Monthly Net generation By energy source and producing sector">Residential combined heat and power sector</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_1_02_e" title="Monthly Net generation By energy source and producing sector">Residential combined heat and power sector</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1141,9 +1113,7 @@
 							<li class="incluide">
 								<?php include('css_rehab/archive/electricity/annual/releasedate.inc') ?>
 							</li>
-							<li class="include">
-								<?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-							</li>
+                            <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
 							<li class="list-item">
 								<ul>
 									<li>
@@ -1455,9 +1425,7 @@
                             <li>
                                 Monthly
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                            </li>
+<li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
                             <li class="list-item">
                                 <ul>
                                     <li>New electric generating units</li>
@@ -1701,9 +1669,7 @@
                 <ul>
                     <li>Monthly and annual
                     </li>
-                    <li class="include">
-                        <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
-                    </li>
+                    <li><!-- class="include" --><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span></li>
                     <li>
                         <span class="source">Interactive
 							<span class="source">data from:</span>
@@ -1719,12 +1685,12 @@
 										<span>PDF</span>
 									</i>
                                 </a>
-                                <a href="/totalenergy/data/browser/csv.cfm?tbl=T07.03A" class="ico_csv" title="All combustible fuels (monthly back to 1973, annual to 1949)">
+                                <a href="/totalenergy/data/browser/csv.php?tbl=T07.03A" class="ico_csv" title="All combustible fuels (monthly back to 1973, annual to 1949)">
                                     <i class="ico csv">
 										<span>CSV</span>
 									</i>
                                 </a>
-                                <a href="/totalenergy/data/browser/xls.cfm?tbl=T07.03A&amp;freq=m" class="ico_xls" title="All combustible fuels (monthly back to 1973, annual to 1949)">
+                                <a href="/totalenergy/data/browser/xls.php?tbl=T07.03A&amp;freq=m" class="ico_xls" title="All combustible fuels (monthly back to 1973, annual to 1949)">
                                     <i class="ico xls">
 										<span>XLS</span>
 									</i>
@@ -1740,16 +1706,12 @@
                             <li>
                                 By energy source
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                            </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                            </li>
+<li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
+                            <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                             <li class="list-item">
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_01_a" title="Consumption of fuels used to generate electricity by">Coal</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_2_01_a" title="Consumption of fuels used to generate electricity by">Coal</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1768,7 +1730,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_02_a" title="Consumption of fuels used to generate electricity by">Petroleum liquids</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_2_02_a" title="Consumption of fuels used to generate electricity by">Petroleum liquids</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1787,7 +1749,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_03_a" title="Consumption of fuels used to generate electricity by">Petroleum coke</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_2_03_a" title="Consumption of fuels used to generate electricity by">Petroleum coke</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1806,7 +1768,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_2_04_a" title="Consumption of fuels used to generate electricity by">Natural gas</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_2_04_a" title="Consumption of fuels used to generate electricity by">Natural gas</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -1904,7 +1866,7 @@
                     <li class="list-item">
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_06_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Coal</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_06_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Coal</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -1923,7 +1885,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_07_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Petroleum liquids</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_07_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Petroleum liquids</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -1942,7 +1904,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_08_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Petroleum coke</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_08_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Petroleum coke</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -1961,7 +1923,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_09_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Natural gas</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_09_a" title="Monthly summary Receipts of fossil-fuels for electricity generation">Natural gas</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -2014,16 +1976,12 @@
                             <li>
                                 Average cost of fossil fuels delivered by state
                             </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                            </li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                            </li>
+                            <li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
+                            <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                             <li class="list-item">
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_10_a" title="Monthly Average cost of fossil fuels delivered by state">Coal</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_10_a" title="Monthly Average cost of fossil fuels delivered by state">Coal</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -2042,7 +2000,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_11_a" title="Monthly Average cost of fossil fuels delivered by state">Petroleum liquids</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_11_a" title="Monthly Average cost of fossil fuels delivered by state">Petroleum liquids</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -2061,7 +2019,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_12_a" title="Monthly Average cost of fossil fuels delivered by state">Petroleum coke</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_12_a" title="Monthly Average cost of fossil fuels delivered by state">Petroleum coke</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -2080,7 +2038,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_4_13_a" title="Monthly Average cost of fossil fuels delivered by state">Natural gas</a>
+                                        <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_4_13_a" title="Monthly Average cost of fossil fuels delivered by state">Natural gas</a>
                                     </li>
                                     <li>
                                         <span class="formats">Available formats:</span>
@@ -2198,16 +2156,12 @@
                     <li>
                         Stocks of fossil fuels by
                     </li>
-                    <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?>
-                    </li>
-                    <li class="include">
-                        <?php include('css_rehab/archive/electricity/monthly/electricity-data-browser.inc') ?>
-                    </li>
+                    <li><!-- class="include" --><span class="release-date">Monthly Release Date:</span> <span class="date"><?php include('css_rehab/archive/electricity/monthly/releasedate.inc') ?></li>
+                    <li><!-- class="include" --><span class="source">Interactive data from:</span> <?php include('css_rehab/archive/electricity/monthly/includes/electricity-data-browser.inc') ?></li>
                     <li class="list-item">
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_01" title="Stocks of fossil fuels by">Electric power sector</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_3_01" title="Stocks of fossil fuels by">Electric power sector</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -2220,7 +2174,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_02" title="Stocks of fossil fuels by">State</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_3_02" title="Stocks of fossil fuels by">State</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -2233,7 +2187,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_03" title="Stocks of fossil fuels by">Census division</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_3_03" title="Stocks of fossil fuels by">Census division</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -2246,7 +2200,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a href="/electricity/monthly/epm_table_grapher.cfm?t=epmt_3_04" title="Stocks of fossil fuels by">Coal and rank</a>
+                                <a href="/electricity/monthly/epm_table_grapher.php?t=epmt_3_04" title="Stocks of fossil fuels by">Coal and rank</a>
                             </li>
                             <li>
                                 <span class="formats">Available formats:</span>
@@ -2328,7 +2282,7 @@
                     <li class="list-item">
                         <ul>
                             <li>
-                                <a href="/outlooks/aeo/electricity_generation.cfm">Levelized cost of new generating technologies</a>
+                                <a href="/outlooks/aeo/electricity_generation.php">Levelized cost of new generating technologies</a>
                             </li>
                             <li>
                                 <a href="/outlooks/aeo/assumptions/pdf/table_8.2.pdf">Cost and performance characteristics of new generating technologies</a>
@@ -2668,9 +2622,7 @@
                         <ul>
                             <li>
                                 Monthly/Annual (monthly back to 2015, annual to 1950)</li>
-                            <li class="include">
-                                <?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?>
-                            </li>
+                                <li><!-- class="include" --><span class="release-date">Release Date:</span> <span class="date"><?php include('css_rehab/archive/totalenergy/data/monthly/includes/releasedate.inc') ?></span></li>
                             <li>
                                 <span class="source">Interactive
 									<span class="source">data from:</span>
@@ -2686,12 +2638,12 @@
 												<span>PDF</span>
 											</i>
                                         </a>
-                                        <a href="/totalenergy/data/browser/csv.cfm?tbl=T12.06" class="ico_csv" title="Carbon dioxide emissions from electricity generation">
+                                        <a href="/totalenergy/data/browser/csv.php?tbl=T12.06" class="ico_csv" title="Carbon dioxide emissions from electricity generation">
                                             <i class="ico csv">
 												<span>CSV</span>
 											</i>
                                         </a>
-                                        <a href="/totalenergy/data/browser/xls.cfm?tbl=T12.06&amp;freq=m" class="ico_xls" title="Carbon dioxide emissions from electricity generation">
+                                        <a href="/totalenergy/data/browser/xls.php?tbl=T12.06&amp;freq=m" class="ico_xls" title="Carbon dioxide emissions from electricity generation">
                                             <i class="ico xls">
 												<span>XLS</span>
 											</i>

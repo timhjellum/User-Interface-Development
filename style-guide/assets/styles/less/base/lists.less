@@ -1,10 +1,4 @@
 @media @mobile {
-    
-//    .hide-mt a:empty {
-//        display: none;
-//     }
-
-     
     .primary-alt,
     .primary,
     .secondary-alt,
@@ -13,18 +7,17 @@
         ul {
             li {
                 .font;
-                line-height: 1.3em;
+                line-height: 1.4;
                 color: @eia-dark-grey;
-                font-size: 0.78rem * 1.20%; 
+                font-size: .875rem * 1.20%; 
                 a {
                     color: @eia-blue;
-                    font-size: 0.78rem * 1.20%; 
+                    font-size: .875rem * 1.20%; 
                     text-decoration: none;
                     span {
                         &.date {
-                            margin-right:   12px;
-                            color: #333;
-                            //position: absolute;
+                            margin-right:  12px;
+                            color: @eia-dark-grey;
                             display: inline-block;
                             text-decoration: none;						
                         }
@@ -37,10 +30,10 @@
                     }
                     &.link-label {
                         em {
-                            color: #333;
+                            color: @eia-dark-grey;
                         }
                         span {
-                            color: #333;
+                            color: @eia-dark-grey;
                         }
                         &:hover {
                             em {
@@ -63,26 +56,45 @@
                                 text-decoration: none;									
                             }
                         }
-//                        em {
-//                               text-decoration-line: underline;
-//                               text-decoration-color: #fff;
-//                         }
                     }
-//                    &:hover { 
-//                        text-decoration: underline;
-//                    }
                 }
-
+                &.release-schedule {
+                    .italic;
+                }
                 &.list-item {
+                    list-style: none;
                     &>ul {
                         display: block;
                         &>li {
                             list-style-type: none;
-                            //margin: 3px 0 0 17px;
                             &:first-child {
                                 list-style-type: disc;
                             }
                         }
+                    }
+                }
+                &.pdf {
+                    position: relative;
+                    &:before {
+                        .icon-file-type(pdf);
+                        .controls-icon(15px, 16px);
+                        position: absolute;
+                    }
+                    a {
+                        padding-left: 20px;
+                        display: table;
+                    }
+                }
+                &.xls {
+                    position: relative;
+                    &:before {
+                        .icon-file-type(xls);
+                        .controls-icon(15px, 16px);
+                        position: absolute;
+                    }
+                    a {
+                        padding-left: 20px;
+                        display: table;
                     }
                 }
                 ul {
@@ -93,14 +105,10 @@
                 }
                 // creates vertical space to indicate a new list
                 &.sub-list {
-        //            list-style-type: none;
                     ul {
                         margin: 1em 0;
-                        padding: 0 0 0 0;
+                        padding: 0;
                         display: block;
-                        li {
-        //                    list-style-type: none;	
-                        }
                     }
                 }
             }
@@ -109,7 +117,7 @@
             list-style: none;
             &>li {
 				.font;
-				line-height: 1.5em;
+				line-height: 1.4;
 				min-height: 0.875rem;
 				vertical-align: top;
 				width: 100%;
@@ -148,9 +156,9 @@
     .content {
         ul {
             li {
-                font-size: 0.78rem; // 12 pixels
+                font-size: .875rem;
                 a {
-                    font-size: 0.78rem; // 12 pixels
+                    font-size: .875rem;
                 }
             }
         }
@@ -195,7 +203,7 @@
 
 /*
     .double-header th[colspan]{
-        border-bottom: 1px solid silver;
+        border-bottom: 1px solid #d8d8d8;;
         border-right: 6px solid #fff;
         text-align: left;
     }
@@ -222,7 +230,7 @@
         tbody th,
         tbody td {
             text-align: center;
-            border-bottom: 1px solid silver;
+            border-bottom: 1px solid #d8d8d8;;
         }      
         tbody td,
         tbody th,
@@ -249,7 +257,7 @@
         } 
     .double-header {
         th[colspan] {
-            border-bottom: 1px solid silver;
+            border-bottom: 1px solid #d8d8d8;;
             border-right: 6px solid #fff;
             text-align: left;
         }
@@ -295,7 +303,7 @@
             padding-bottom: 12px;
         }
         .sectionhead td {
-            border-bottom: 1px solid silver;
+            border-bottom: 1px solid #d8d8d8;;
         }
     }
 
@@ -314,7 +322,7 @@
         border-bottom: 2px solid #189bd7;
     }
     tr td {
-        border-bottom: 1px dashed silver;
+        border-bottom: 1px dashed #d8d8d8;;
         vertical-align: top;
     }
     td, th {
@@ -477,7 +485,7 @@
         }
         tbody td {
             font-size: .750rem; // 12px;
-            border-bottom: 1px dashed silver;
+            border-bottom: 1px dashed #d8d8d8;;
 
         }
 
@@ -529,7 +537,7 @@
         }
 
         .double-header th[colspan] {
-            border-bottom: 1px solid silver;
+            border-bottom: 1px solid #d8d8d8;;
             border-right: 6px solid #fff;
             text-align: left;
         }

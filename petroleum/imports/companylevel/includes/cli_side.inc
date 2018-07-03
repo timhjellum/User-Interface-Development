@@ -19,7 +19,7 @@
 <div class="faq">
     <ul>
         <li class="header">
-            <h2><a href="/tools/faqs/faq.cfm?id=32&t=6 ">How dependent is the United States on foreign oil?</a></h2></li>
+            <h2><a href="/tools/faqs/faq.php?id=32&t=6 ">How dependent is the United States on foreign oil?</a></h2></li>
         <li class="sub-header">Read all crude oil FAQs</a></li>
     </ul>
 </div>

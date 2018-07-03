@@ -869,7 +869,7 @@
 
 
     $.cssHooks.backgroundColor = {
-        get: function(elem) {
+        get: function (elem) {
             if (elem.currentStyle)
                 var bg = elem.currentStyle["background-color"];
             else if (window.getComputedStyle)
@@ -889,7 +889,7 @@
     }
 
 
-    $(function() {
+    $(function () {
         //$('.swatch-wrapper').each(function() { 
         $(".eia-dark-blue").html($(".eia-dark-blue").css("backgroundColor"));
         $(".eia-dark-blue-75").html($(".eia-dark-blue-75").css("backgroundColor"));
@@ -992,6 +992,7 @@
 
 
     });
+
 </script>
 
 <!-- script src="../src/js/global.min.js"></script-->

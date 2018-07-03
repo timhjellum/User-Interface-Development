@@ -3,17 +3,17 @@
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "environment";
-$itemOneHeadURL = "/energyexplained/index.cfm?page=environment_home";
+$itemOneHeadURL = "/energyexplained/index.php?page=environment_home";
 $itemOneHeadLabel = "Energy and the Environment Explained";
-$itemOneSubheadURL = "/energyexplained/index.cfm?page=environment_how_ghg_affect_climate";
+$itemOneSubheadURL = "/energyexplained/index.php?page=environment_how_ghg_affect_climate";
 $itemOneSubheadLabel = "Greenhouse Gases' Effect on the Climate";
-$itemOneFootURL = "/energyexplained/index.cfm?page=environment_home";
+$itemOneFootURL = "/energyexplained/index.php?page=environment_home";
 $itemOneFootLabel = "See more energy and the environment topics";
 
 $itemTwoIcon = "faq";
 $itemTwoHeadURL = "/tools/faqs/";
 $itemTwoHeadLabel = "FAQs";
-$itemTwoSubheadURL = "/tools/faqs/faq.cfm?id=74&t=11";
+$itemTwoSubheadURL = "/tools/faqs/faq.php?id=74&t=11";
 $itemTwoSubheadLabel = "How much carbon dioxide (CO2) is produced per kilowatthour when generating electricity with fossil fuels?";
 $itemTwoFootURL = "/tools/faqs/#environment";
 $itemTwoFootLabel = "See more environmental FAQs";
@@ -21,9 +21,9 @@ $itemTwoFootLabel = "See more environmental FAQs";
 $itemThrIcon = "energy-kids";
 $itemThrHeadURL = "/kids";
 $itemThrHeadLabel = "Energy Kids";
-$itemThrSubheadURL = "/kids/energy.cfm?page=environment_about_ghg-basics";
+$itemThrSubheadURL = "/kids/energy.php?page=environment_about_ghg-basics";
 $itemThrSubheadLabel = "What are the types of greenhouse gases?";
-$itemThrFootURL = "/kids/energy.cfm?page=environment_home-basics";
+$itemThrFootURL = "/kids/energy.php?page=environment_home-basics";
 $itemThrFootLabel = "See more Energy and the Environment";
 
 ?>

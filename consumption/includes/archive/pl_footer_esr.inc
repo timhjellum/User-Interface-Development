@@ -4,7 +4,7 @@
               <span class="left_box">
                 <h4>About the Electric Sales, Revenue, and Average Price Annual</h4>
                 <ul class="no-liststyle">
-                   <li><a href="/about/contact/electric.cfm">Contact Information and Staff</a></li>
+                   <li><a href="/about/contact/electric.php">Contact Information and Staff</a></li>
                   <?php /* <li><a href="#">Press Release</a></li>*/ ?>
                 </ul>
               </span>

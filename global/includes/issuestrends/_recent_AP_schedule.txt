@@ -166,7 +166,7 @@ $recent_AP = $neic->get($bindVariables);
 	?>
 	</ul>
 	<ul class="analysis-projections">
-		<li class="footer"><a href="reports.cfm">See more analysis &amp; projections &rsaquo;</a></li>
+		<li class="footer"><a href="reports.php">See more analysis &amp; projections &rsaquo;</a></li>
 	</ul>
 </div>
 

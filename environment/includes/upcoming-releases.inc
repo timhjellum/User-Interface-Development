@@ -9,7 +9,7 @@ $OneURL = "/totalenergy/data/monthly/#environment";
 $OneLabel = "Environment overview";
 $OneDate = "1/26/2018 Monthly Energy Review";
 
-$TwoURL = "/outlooks/steo/report/renew_co2.cfm";
+$TwoURL = "/outlooks/steo/report/renew_co2.php";
 $TwoLabel = "Carbon dioxide emissions";
 $TwoDate = "1/9/2018 Short-Term Energy Outlook";
 

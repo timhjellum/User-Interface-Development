@@ -2,7 +2,7 @@
 <?php  $pageTitle = "U.S. Energy Information Administration (EIA)";
 <?php $L2T = 'Natural Gas'; ?>
 <?php $locale = 'overview'; ?>
-<?php /* set this so that the carousel.cfm include query will pull the correct set of Issues and Trends for this page. */ ?>
+<?php /* set this so that the carousel.php include query will pull the correct set of Issues and Trends for this page. */ ?>
 <?php $l2page = 'page_nat';
 $l2id = 1;
 ?>
@@ -30,14 +30,14 @@ $l2id = 1;
         <?php /* Page/Body Content */ ?>
 
         <div class="pagecontent eqcol_temp">
-            <?php /*<div class="alert"><p><strong>What's changed?</strong> &nbsp; See <a href="/about/eia_explained.cfm#l2_enhancements" id="enhance" style="background:none; padding-right:0; margin-right:0">highlights of new features</a> or <a href="#video" id="youtube" style="background:none; padding-right:0; margin-right:0">take a 60 second video tour</a>.</p></div>*/ ?>
+            <?php /*<div class="alert"><p><strong>What's changed?</strong> &nbsp; See <a href="/about/eia_explained.php#l2_enhancements" id="enhance" style="background:none; padding-right:0; margin-right:0">highlights of new features</a> or <a href="#video" id="youtube" style="background:none; padding-right:0; margin-right:0">take a 60 second video tour</a>.</p></div>*/ ?>
             <?php include ('global/includes/l2-youtube.inc') ; ?>
             <?php include ('global/includes/carousel.inc') ; ?>
             <div class="main">
                 <?php /*Left column*/ ?><span class="main_col">
       <h1>Recent Data</h1>
     <?php include ('naturalgas/includes/data_table.html')    ?>
-    <p><a href="/naturalgas/data.cfm"><b>See more data &rsaquo;</b></a></p> 
+    <p><a href="/naturalgas/data.php"><b>See more data &rsaquo;</b></a></p> 
       
       <h2>Updated Data Series</h2>
       <ul class="updated_data">
@@ -70,18 +70,18 @@ $l2id = 1;
                 <?php /*Interactive visualizations section*/ ?>
                 <h1>Interactive Visualizations, Data, & Multimedia</h1>
                 <ul class="visualizations">
-                    <?php /*li><a title="U.S. Natural Gas Data Brower" href="/dnav/ng/data.cfm#summary?src=-f10">
+                    <?php /*li><a title="U.S. Natural Gas Data Brower" href="/dnav/ng/data.php#summary?src=-f10">
           <div class="circle_ng_navigator circle"></div>
           <b>U.S. Natural Gas<br />Data Brower</b></a></li*/ ?>
 
                     <li>
-                        <a title="U.S. Natural Gas Infrastructure Map" href="/state/maps.cfm?v=Natural%20Gas">
+                        <a title="U.S. Natural Gas Infrastructure Map" href="/state/maps.php?v=Natural%20Gas">
                             <div class="circle_ng_map circle"></div>
                             <b>U.S. Natural Gas Infrastructure Map</b></a>
                     </li>
 
                     <li>
-                        <a title="U.S. Fossil Fuel Resource Map" href="/state/maps.cfm?v=Fossil%20Fuel%20Resources">
+                        <a title="U.S. Fossil Fuel Resource Map" href="/state/maps.php?v=Fossil%20Fuel%20Resources">
                             <div class="circle_fossil_fuel circle"></div>
                             <b>U.S. Fossil Fuel Resource Map</b></a>
                     </li>
@@ -100,7 +100,7 @@ $l2id = 1;
                     </li>
 
                     <li>
-                        <a title="Company-level Query System" href="/cfapps/ngqs/ngqs.cfm?f_report=RP2&f_sortby=&f_items=&f_year_start=&f_year_end=&f_show_compid=&f_fullscreen=">
+                        <a title="Company-level Query System" href="/cfapps/ngqs/ngqs.php?f_report=RP2&f_sortby=&f_items=&f_year_start=&f_year_end=&f_show_compid=&f_fullscreen=">
                             <div class="circle_ng_query circle"></div>
                             <b>Company-level<br />
           Query System</b></a>
@@ -123,23 +123,23 @@ $l2id = 1;
                 <div class="ed_section">
                     <div>
                         <div> <img src="/global/images/icons/education/nat_gas.png" /> <span>
-            <h2><a href="/energyexplained/index.cfm?page=natural_gas_home">Natural Gas Explained</a></h2>
-            <p><em><a href="/energyexplained/index.cfm?page=natural_gas_factors_affecting_prices">Factors affecting natural gas prices</a></em></p>
-            <p><a href="/energyexplained/index.cfm?page=natural_gas_home"><b>See more natural gas topics &rsaquo;</b></a></p>
+            <h2><a href="/energyexplained/index.php?page=natural_gas_home">Natural Gas Explained</a></h2>
+            <p><em><a href="/energyexplained/index.php?page=natural_gas_factors_affecting_prices">Factors affecting natural gas prices</a></em></p>
+            <p><a href="/energyexplained/index.php?page=natural_gas_home"><b>See more natural gas topics &rsaquo;</b></a></p>
             </span> </div>
                     </div>
                     <div>
                         <div> <img src="/global/includes/issuestrends/images/faq.png" /> <span>
             <h2><a href="/tools/faqs/">FAQs</a></h2>
-            <p><em><a href="/tools/faqs/faq.cfm?id=45&t=8">What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?</a></em></p>
+            <p><em><a href="/tools/faqs/faq.php?id=45&t=8">What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?</a></em></p>
             <p><a href="/tools/faqs/#naturalgas"><b>See all natural gas FAQs &rsaquo;</b></a></p>
             </span> </div>
                     </div>
                     <div>
                         <div> <img src="/global/includes/issuestrends/images/icon_kids.png" /> <span>
             <h2><a href="/kids">Energy Kids</a></h2>
-            <p><em><a href="/kids/energy.cfm?page=natural_gas_home-basics">How Was Natural Gas Formed?</a></em></p>
-            <p><a href="/kids/energy.cfm?page=natural_gas_home-basics"><b>See natural gas on Energy Kids &rsaquo;</b></a></p>
+            <p><em><a href="/kids/energy.php?page=natural_gas_home-basics">How Was Natural Gas Formed?</a></em></p>
+            <p><a href="/kids/energy.php?page=natural_gas_home-basics"><b>See natural gas on Energy Kids &rsaquo;</b></a></p>
             </span> </div>
                     </div>
                 </div>

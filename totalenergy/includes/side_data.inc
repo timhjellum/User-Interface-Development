@@ -2,7 +2,7 @@
     <span class="side_list2">
 <ul>
   <li title="Energy production, consumption, net imports; more...">Energy Overview</li>
-  <li><a href="monthly.cfm#summary" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/overview.html" title="Annual Energy Review">AER</a></li>
+  <li><a href="monthly.php#summary" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/overview.html" title="Annual Energy Review">AER</a></li>
     <li title="Residential, commercial, industrial, transportation, and electric power consumption of energy; more... ">Consumption by Sector</li>
     <li><a href="http://www.eia.gov/mer/consump.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/consump.html" title="Annual Energy Review">AER</a></li>
     <li title="Production; stock change; products supplied; imports by country; exports; prices; SPR; more...">Petroleum</li>
@@ -26,15 +26,11 @@
     <li title="Drilling activity measurements; wells drilled; active seismic crew counts; more...">Energy Resources</li>
     <li><a href="http://www.eia.gov/mer/resource.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/resource.html" title="Annual Energy Review">AER</a></li>
     <li title="Greenhouse gas emissions; carbon dioxide, methane, nitrous oxide emissions; emissions from electricity generation; more...">Environment</li>
-    <li><a href="http://www.eia.gov/mer/environ.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/envir.html" title="Annual Energy Review">AER</a></li>
-
-    </ul>
-    </span><br />
-    <br />
-
-    <b>International Data </b><br />
-    <span class="side_list2">
-<ul>  <li title="Crude oil production by OPEC, Persian Gulf, Non-OPEC, World; OECD petroleum consumption, stocks; more...">Petroleum</li>
+    <li><a href="http://www.eia.gov/mer/environ.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span><a href="http://www.eia.gov/aer/envir.html" title="Annual Energy Review">AER</a>        </li>
+</ul>
+<ul>
+    <li class="head"><h2>International data</h2></li>
+<li>Petroleum</li>
   <li><a href="http://www.eia.gov/mer/inter.html" title="Monthly Energy Review">MER</a><span class="pipe">|</span>&#8212;&#8211;-</li>
     <li title="World energy reserves, production, consumption by energy resource; more� ">World Energy</li>
     <li>&#8212;&#8211;-<span class="pipe">|</span><a href="http://www.eia.gov/aer/inter.html" title="Annual Energy Review">AER</a></li>

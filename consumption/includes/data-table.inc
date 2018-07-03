@@ -1,4 +1,4 @@
-<?php /* File: data_table_cbs_ytd.cfm */ ?>
+<?php /* File: data_table_cbs_ytd.php */ ?>
 <?php /* Date: 10/20/2015             */ ?>
 <?php /* Revised Date: 6/10/2016      */ ?>
 <?php /* Author: Tony Allen           */ ?>

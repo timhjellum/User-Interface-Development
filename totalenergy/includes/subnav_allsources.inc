@@ -15,7 +15,7 @@ $(document).ready(function(){
   });
 });	
 </script>
-<?php /*cfinclude template="/global/includes/sub_menu_fix.cfm"*/ ?>
+<?php /*cfinclude template="/global/includes/sub_menu_fix.php"*/ ?>
 <?php /* Page/Section Title */ ?>
 <div class="title bg_allsources">
   <h1><?php echo "$sectionname"?></h1>
@@ -29,8 +29,8 @@ $(document).ready(function(){
     <?php /* Data Menu Drop Down */ ?>
     <div class="dat_block">
         <ul>
-          <li><a href="/totalenergy/data/monthly/index.cfm">Monthly</a></li>
-          <li><a href="/totalenergy/data/annual/index.cfm" class="no-border">Annual</a></li>
+          <li><a href="/totalenergy/data/monthly/index.php">Monthly</a></li>
+          <li><a href="/totalenergy/data/annual/index.php" class="no-border">Annual</a></li>
         </ul>
     </div>
     <?php /*/ Data Menu Drop Down */ ?>

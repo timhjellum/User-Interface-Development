@@ -110,7 +110,7 @@ PADD 2 - Crude oil movements by rail, June 2017<br />
     </tbody>
     <tfoot>
             <td colspan="9">
-<strong>Note:</strong>= <a href="/petroleum/weekly/includes/padds.cfm" data-fancybox-type="iframe" class="lightbox">Petroleum Administration for Defense District</a> <br />
+<strong>Note:</strong>= <a href="/petroleum/weekly/includes/padds.php" data-fancybox-type="iframe" class="lightbox">Petroleum Administration for Defense District</a> <br />
 Note: A zero may indicate volume of less than 0.5 thousand barrels per day.
 <br />
 Source: U.S. Energy Information Administration  estimates based on analysis of data from the Surface Transportation Board and others.

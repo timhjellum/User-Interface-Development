@@ -1,5 +1,5 @@
           <span class="grey_side green_top">
-            <li class="head"><h2>Data Tables<a href="../generic.cfm"></a></h2></li>
+            <li class="head"><h2>Data Tables<a href="../generic.php"></a></h2></li>
             All available data for Residential Energy Consumption Surveys.
           </span>
           <div class="secondary">

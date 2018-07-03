@@ -1,6 +1,6 @@
 <div class="l-row header report-details">
         <div class="l-full-width-col">
-                <a href="/petroleum/reports.cfm">&lsaquo; All Petroleum and Other Liquids Reports</a>
+                <a href="/petroleum/reports.php">&lsaquo; All Petroleum and Other Liquids Reports</a>
                 <h2>Petroleum Marketing Monthly    <?php /*| <em>June 2012</em>*/ ?></h2>
 
                 <div class="release-dates">

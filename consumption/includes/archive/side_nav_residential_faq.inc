@@ -1,15 +1,15 @@
       <div class="side_col right">
         <?php /* Side Column */ ?>
         <div class="secondary">
-        <p><a href="/consumption/residential/about.cfm">About the RECS</a></p>
-        <p><a href="/consumption/residential/methodology/index.cfm">Methodology</a></p>
-        <p class="no_btm_border"><a href="/consumption/residential/surveyforms.cfm">Survey Forms</a></p>
+        <p><a href="/consumption/residential/about.php">About the RECS</a></p>
+        <p><a href="/consumption/residential/methodology/index.php">Methodology</a></p>
+        <p class="no_btm_border"><a href="/consumption/residential/surveyforms.php">Survey Forms</a></p>
         </span>
 
         <?php /* FAQ Promo 
         <span class="blue_side">
           <h4 class="q_side">
-          	<a href="recs_faqs.cfm">Were you contacted about participating in RECS Energy Supplier Survey?</a>
+          	<a href="recs_faqs.php">Were you contacted about participating in RECS Energy Supplier Survey?</a>
       </h2></li>
           <strong>
           <p><a href="/tools/faqs/">See all RECS FAQs &rsaquo;</a></p></strong>

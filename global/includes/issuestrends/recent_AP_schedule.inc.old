@@ -480,7 +480,7 @@ $neic      = new NEIC();
 	}
 
 /* NOTE:
-1. PossibleTagsQuery has already executed by it_universal.cfm (called by carousel.cfm) and can be reused
+1. PossibleTagsQuery has already executed by it_universal.php (called by carousel.php) and can be reused
 2. IssuesTrendsQuery in that same file cannot be reused because it involves the ISSUESTRENDS table. Instead, the query "recent_AP" below gets the Bookshelf reports
 */
 
@@ -610,4 +610,4 @@ $recent_AP = $neic->get($bindVariables);
     }
 ?>
 </ul>
-<p><a href="reports.cfm"><b>See more analysis &amp; projections &rsaquo;</b></a></p>
+<p><a href="reports.php"><b>See more analysis &amp; projections &rsaquo;</b></a></p>

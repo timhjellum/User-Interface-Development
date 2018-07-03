@@ -38,15 +38,15 @@
         <p class="no_btm_border"><strong>Efficiency (Energy Intensity)</strong></li>
 <li>
 <ul>
-          <li><a href="/consumption/efficiency/index.cfm">overview</a></li>
-          <li><a href="/consumption/efficiency/data/index.cfm">data</a></li>
-          <li><a href="/consumption/efficiency/reports/index.cfm">aalysis, projections &amp; reports</a></li>
+          <li><a href="/consumption/efficiency/index.php">overview</a></li>
+          <li><a href="/consumption/efficiency/data/index.php">data</a></li>
+          <li><a href="/consumption/efficiency/reports/index.php">aalysis, projections &amp; reports</a></li>
         </ul>
           
           </span>
           <?php /* FAQ Promo */ ?>
         <span class="blue_side">
-          <h4 class="q_side"><a href="consumption_faqs.cfm#rfaq1">What is the basis for EIA&#8217;s statistics on household energy consumption and expenditures?</a></h2></li>
-          <p><a href="consumption_faqs.cfm">See all Energy End Use FAQs &rsaquo;</a></p>
+          <h4 class="q_side"><a href="consumption_faqs.php#rfaq1">What is the basis for EIA&#8217;s statistics on household energy consumption and expenditures?</a></h2></li>
+          <p><a href="consumption_faqs.php">See all Energy End Use FAQs &rsaquo;</a></p>
         </span>
         

@@ -4,12 +4,12 @@
 <head>
 
 <?php /* ****************************************************************************  */ ?>
-<?php /* File Name:  showtext.cfm                                                      */ ?>
+<?php /* File Name:  showtext.php                                                      */ ?>
 <?php /* Purpose:    Display the AER html pages w/ EIA's header and footer information */ ?>
 <?php /* Revision date:   September 27, 2012                                           */ ?>
 <?php /* ****************************************************************************  */ ?>
 
-<?php $hct = 'y'; ?><?php /*include highcharts eia-theme via eia_head_info.cfm */ ?>
+<?php $hct = 'y'; ?><?php /*include highcharts eia-theme via eia_head_info.php */ ?>
 <?php include ('global/includes/eia_head_info.inc') ; ?>
 <?php /* Start of Outer Wrapper */ ?>
 <div id="outerX">

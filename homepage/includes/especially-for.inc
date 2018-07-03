@@ -5,7 +5,7 @@
 $especiallyForOneURL = "/about/careers/";
 $especiallyForOneLabel = "Job Seekers";
 
-$especiallyForTwoURL = "/about/especiallyfor/analysts.cfm";
+$especiallyForTwoURL = "/about/especiallyfor/analysts.php";
 $especiallyForTwoLabel = "Policy Analysts";
 
 $especiallyForThreeURL = "/pressroom/";
@@ -17,13 +17,13 @@ $especiallyForFourLabel = "Researchers";
 $especiallyForFiveURL = "/kids/";
 $especiallyForFiveLabel = "Students";
 
-$especiallyForSixURL = "/kids/energy.cfm?page=6";
+$especiallyForSixURL = "/kids/energy.php?page=6";
 $especiallyForSixLabel = "Teachers";
 
 $especiallyForSevenURL = "/survey/";
 $especiallyForSevenLabel = "Survey Respondents";
 
-$especiallyForEightURL = "/about/especiallyfor/employees.cfm";
+$especiallyForEightURL = "/about/especiallyfor/employees.php";
 $especiallyForEightLabel = "EIA Employees";
 
 $especiallyForNineURL = "/developer/";

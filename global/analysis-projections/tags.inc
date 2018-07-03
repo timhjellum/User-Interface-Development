@@ -33,7 +33,7 @@ if(strlen($thetags) && strlen($thetagnames)) {
     }
 
     if(count($thetagsarray) > 0) {
-        echo "tags:<span class='tag-list'>";
+        echo "tags: <span class='tag-list'>";
 
         $displayedTags = max(count($thetagsarray), 6);
         for($i=0; $i < min(count($thetagsarray), 6); $i++) {

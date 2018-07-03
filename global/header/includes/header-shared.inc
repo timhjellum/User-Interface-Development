@@ -300,29 +300,29 @@
                             <h3><a href="/energyexplained/">Energy Explained</a>
                             </h3>
                             <ul class="energy-explained-list left">
-                                <li> <a href="/energyexplained/index.cfm?page=about_home">What is Energy?</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=about_energy_units">Units &amp; Calculators</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=us_energy_use">Use of Energy</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=environment_home">Energy &amp; Environment</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=oil_home">Petroleum</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=hgls_home">Hydrocarbon Gas Liquids</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=natural_gas_home">Natural Gas</a></li>
+                                <li> <a href="/energyexplained/index.php?page=about_home">What is Energy?</a></li>
+                                <li> <a href="/energyexplained/index.php?page=about_energy_units">Units &amp; Calculators</a></li>
+                                <li> <a href="/energyexplained/index.php?page=us_energy_use">Use of Energy</a></li>
+                                <li> <a href="/energyexplained/index.php?page=environment_home">Energy &amp; Environment</a></li>
+                                <li> <a href="/energyexplained/index.php?page=oil_home">Petroleum</a></li>
+                                <li> <a href="/energyexplained/index.php?page=hgls_home">Hydrocarbon Gas Liquids</a></li>
+                                <li> <a href="/energyexplained/index.php?page=natural_gas_home">Natural Gas</a></li>
                             </ul>
                             <ul class="energy-explained-list right">
-                                <li> <a href="/energyexplained/index.cfm?page=coal_home">Coal</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=nuclear_home">Nuclear</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=electricity_home">Electricity</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=hydropower_home">Hydropower</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=biofuel_home">Biofuels: Ethanol &amp; Biodiesel</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=wind_home">Wind</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=geothermal_home">Geothermal</a></li>
-                                <li> <a href="/energyexplained/index.cfm?page=solar_home">Solar</a></li>
+                                <li> <a href="/energyexplained/index.php?page=coal_home">Coal</a></li>
+                                <li> <a href="/energyexplained/index.php?page=nuclear_home">Nuclear</a></li>
+                                <li> <a href="/energyexplained/index.php?page=electricity_home">Electricity</a></li>
+                                <li> <a href="/energyexplained/index.php?page=hydropower_home">Hydropower</a></li>
+                                <li> <a href="/energyexplained/index.php?page=biofuel_home">Biofuels: Ethanol &amp; Biodiesel</a></li>
+                                <li> <a href="/energyexplained/index.php?page=wind_home">Wind</a></li>
+                                <li> <a href="/energyexplained/index.php?page=geothermal_home">Geothermal</a></li>
+                                <li> <a href="/energyexplained/index.php?page=solar_home">Solar</a></li>
                             </ul>
                         </div>
 
                         <div class="nav-menu teachers">
                             <i class="ico-menu ico-nav teachers"></i>
-                            <h3><a href="/kids/energy.cfm?page=6">For Teachers</a>
+                            <h3><a href="/kids/energy.php?page=6">For Teachers</a>
                             </h3>
                             <p>Lesson plans, science fair experiments, field trips, teacher guide, and career corner.</p>
                         </div>
@@ -348,12 +348,12 @@
                                 <li> <a href="/tools/faqs/#environment">Environment</a></li>
                             </ul>
                             <ul class="faq-list right">
-                                <li> <a href="/tools/faqs/index.cfm#gasoline">Gasoline</a></li>
-                                <li> <a href="/tools/faqs/index.cfm#generalenergy">General Energy</a></li>
-                                <li> <a href="/tools/faqs/index.cfm#naturalgas">Natural Gas</a></li>
-                                <li> <a href="/tools/faqs/index.cfm#nuclear">Nuclear</a></li>
-                                <li> <a href="/tools/faqs/index.cfm#prices">Prices</a></li>
-                                <li> <a href="/tools/faqs/index.cfm#renewables">Renewables</a></li>
+                                <li> <a href="/tools/faqs/index.php#gasoline">Gasoline</a></li>
+                                <li> <a href="/tools/faqs/index.php#generalenergy">General Energy</a></li>
+                                <li> <a href="/tools/faqs/index.php#naturalgas">Natural Gas</a></li>
+                                <li> <a href="/tools/faqs/index.php#nuclear">Nuclear</a></li>
+                                <li> <a href="/tools/faqs/index.php#prices">Prices</a></li>
+                                <li> <a href="/tools/faqs/index.php#renewables">Renewables</a></li>
                             </ul>
                         </div>
                         <div class="nav-menu energy-kids">
@@ -412,7 +412,7 @@
                                 <li> <a href='/analysis/transportationfuels/padd1n3/'>East Coast and Gulf Coast Transportation Fuels Markets</a></li>
                                 <li> <a href='/analysis/transportationfuels/padd5/'>West Coast Transportation Fuels Markets</a></li>
                                 <li> <a href='/special/disruptions/socal/winter/'>Southern California Daily Energy Report</a></li>
-                                <li> <a href='/outlooks/archive/aeo16/section_issues.cfm#cpp'>Effects of the Clean Power Plan</a></li>
+                                <li> <a href='/outlooks/archive/aeo16/section_issues.php#cpp'>Effects of the Clean Power Plan</a></li>
                             </ul>
                         </div>
                     </div>
@@ -423,30 +423,30 @@
                         <h3><a href="/tools/a-z/">A-Z Index</a>
                         </h3>
                         <div class="a-z-list">
-                            <a href="/tools/a-z/index.cfm?id=a">A</a> |
-                            <a href="/tools/a-z/index.cfm?id=b">B</a> |
-                            <a href="/tools/a-z/index.cfm?id=c">C</a> |
-                            <a href="/tools/a-z/index.cfm?id=d">D</a> |
-                            <a href="/tools/a-z/index.cfm?id=e">E</a> |
-                            <a href="/tools/a-z/index.cfm?id=f">F</a> |
-                            <a href="/tools/a-z/index.cfm?id=g">G</a> |
-                            <a href="/tools/a-z/index.cfm?id=h">H</a> |
-                            <a href="/tools/a-z/index.cfm?id=i">I</a> |
-                            <a href="/tools/a-z/index.cfm?id=j">J</a> |
-                            <a href="/tools/a-z/index.cfm?id=k">K</a> |
-                            <a href="/tools/a-z/index.cfm?id=l">L</a> |
-                            <a href="/tools/a-z/index.cfm?id=m">M</a> |
-                            <a href="/tools/a-z/index.cfm?id=n">N</a> |
-                            <a href="/tools/a-z/index.cfm?id=o">O</a> |
-                            <a href="/tools/a-z/index.cfm?id=p">P</a> |
-                            <a href="/tools/a-z/index.cfm?id=q">Q</a> |
-                            <a href="/tools/a-z/index.cfm?id=r">R</a> |
-                            <a href="/tools/a-z/index.cfm?id=s">S</a> |
-                            <a href="/tools/a-z/index.cfm?id=t">T</a> |
-                            <a href="/tools/a-z/index.cfm?id=u">U</a> |
-                            <a href="/tools/a-z/index.cfm?id=v">V</a> |
-                            <a href="/tools/a-z/index.cfm?id=w">W</a> |
-                            <a href="/tools/a-z/index.cfm?id=xyz">XYZ</a>
+                            <a href="/tools/a-z/index.php?id=a">A</a> |
+                            <a href="/tools/a-z/index.php?id=b">B</a> |
+                            <a href="/tools/a-z/index.php?id=c">C</a> |
+                            <a href="/tools/a-z/index.php?id=d">D</a> |
+                            <a href="/tools/a-z/index.php?id=e">E</a> |
+                            <a href="/tools/a-z/index.php?id=f">F</a> |
+                            <a href="/tools/a-z/index.php?id=g">G</a> |
+                            <a href="/tools/a-z/index.php?id=h">H</a> |
+                            <a href="/tools/a-z/index.php?id=i">I</a> |
+                            <a href="/tools/a-z/index.php?id=j">J</a> |
+                            <a href="/tools/a-z/index.php?id=k">K</a> |
+                            <a href="/tools/a-z/index.php?id=l">L</a> |
+                            <a href="/tools/a-z/index.php?id=m">M</a> |
+                            <a href="/tools/a-z/index.php?id=n">N</a> |
+                            <a href="/tools/a-z/index.php?id=o">O</a> |
+                            <a href="/tools/a-z/index.php?id=p">P</a> |
+                            <a href="/tools/a-z/index.php?id=q">Q</a> |
+                            <a href="/tools/a-z/index.php?id=r">R</a> |
+                            <a href="/tools/a-z/index.php?id=s">S</a> |
+                            <a href="/tools/a-z/index.php?id=t">T</a> |
+                            <a href="/tools/a-z/index.php?id=u">U</a> |
+                            <a href="/tools/a-z/index.php?id=v">V</a> |
+                            <a href="/tools/a-z/index.php?id=w">W</a> |
+                            <a href="/tools/a-z/index.php?id=xyz">XYZ</a>
                         </div>
                     </div>
                 </div>

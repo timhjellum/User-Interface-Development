@@ -232,7 +232,7 @@
         </tr>
         <tr>
             <td><strong>C</strong></td>
-            <td style="text-align:left;"><a href="nehor.cfm">Northeast Reserves</a></td>
+            <td style="text-align:left;"><a href="nehor.php">Northeast Reserves</a></td>
             <td></td>
             <td></td>
             <td><a href="/petroleum/supply/weekly/pdf/appendixc.pdf"><i class="ico pdf"><span>PDF</span></i></a></td>

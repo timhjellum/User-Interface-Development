@@ -15,7 +15,7 @@ $(document).ready(function(){
   });
 });	
 </script>
-<?php /*cfinclude template="/global/includes/sub_menu_fix.cfm"*/ ?>
+<?php /*cfinclude template="/global/includes/sub_menu_fix.php"*/ ?>
 <?php /* Page/Section Title */ ?>
 <div class="title bg_finance">
   <h1><?php echo "$sectionname"?></h1>

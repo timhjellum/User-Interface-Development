@@ -1,4 +1,4 @@
-<?php /* File: data_table_isec_ytd.cfm */ ?>
+<?php /* File: data_table_isec_ytd.php */ ?>
 <?php /* Date: 11/20/2014 */ ?>
 <?php /* Author: Tony Allen */ ?>
 <?php /* Data Source: Monthly Energy Review - Industrial Sector Energy Consumption - Table 2.6 */ ?>

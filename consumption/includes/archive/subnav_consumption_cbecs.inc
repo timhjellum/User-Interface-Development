@@ -36,6 +36,6 @@ $(document).ready(function(){
         <li><a href="/consumption/commercial/data/previous/">Previous</a></li>
       </ul>
     </div>
-    <li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/consumption/commercial/reports.cfm">Analysis &amp; Projections</a></li>
+    <li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/consumption/commercial/reports.php">Analysis &amp; Projections</a></li>
 </div>
 <?php /*/ Page/Sub Nav */ ?> 

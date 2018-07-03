@@ -1,10 +1,10 @@
 <?php include ('side_nav_residential.inc') ; ?>
 <?php /*
  <span class="grey_side green_top">
-  <p><a href="/consumption/residential/about.cfm">About the RECS</a></p>
-  <p><a href="/consumption/residential/maps.cfm">RECS Maps</a></p>
-  <p><a href="/consumption/residential/terminology.cfm">RECS Terminology</a></p>
-  <p class="no-border"><a href="/consumption/residential/data/archive.cfm">Archived Reports</a></p>
+  <p><a href="/consumption/residential/about.php">About the RECS</a></p>
+  <p><a href="/consumption/residential/maps.php">RECS Maps</a></p>
+  <p><a href="/consumption/residential/terminology.php">RECS Terminology</a></p>
+  <p class="no-border"><a href="/consumption/residential/data/archive.php">Archived Reports</a></p>
   </span>
   <?php if ( $page['year'] == "2009") {?>
     <div class="secondary">
@@ -24,23 +24,23 @@
     <div class="secondary">
 <ul>
 <li class="head"><h2>2009 Features</h2></li>
-    <p><a href="/consumption/residential/reports/2009-RECS-methodology-square-footage-data.cfm">Where does RECS square footage data come from?</a><br />
+    <p><a href="/consumption/residential/reports/2009-RECS-methodology-square-footage-data.php">Where does RECS square footage data come from?</a><br />
     <em>July 9, 2012</em>
-    <p><a href="/consumption/residential/reports/2009-RECS-show-decreased-home-energy-consumption.cfm">RECS data show decreased energy consumption per household</a><br />
+    <p><a href="/consumption/residential/reports/2009-RECS-show-decreased-home-energy-consumption.php">RECS data show decreased energy consumption per household</a><br />
     <em>June 6, 2012</em>
-    <p><a href="/consumption/residential/reports/2009-square-footage.cfm">The impact of increasing home size on energy demand</a><br />
+    <p><a href="/consumption/residential/reports/2009-square-footage.php">The impact of increasing home size on energy demand</a><br />
     <em>April 1, 2012</em>
-    <p><a href="/consumption/residential/reports/air_conditioning09.cfm">Did you know that air conditioning is in nearly 100 million U.S. homes?</a><br />
+    <p><a href="/consumption/residential/reports/air_conditioning09.php">Did you know that air conditioning is in nearly 100 million U.S. homes?</a><br />
     <em>August 19, 2011</em>
     </p>
-    <p><a href="/consumption/residential/reports/2009overview.cfm">How are we using energy in homes today?</a><br />
+    <p><a href="/consumption/residential/reports/2009overview.php">How are we using energy in homes today?</a><br />
     <em>March 28, 2011</em></p>
-    <p><a href="/consumption/residential/reports/16-states.cfm">EIA expands household energy use data series to include 16 states</a><br />
+    <p><a href="/consumption/residential/reports/16-states.php">EIA expands household energy use data series to include 16 states</a><br />
     <em>March 28, 2011</em></p>
-    <p><a href="/consumption/residential/reports/electronics.cfm">Share of energy used by appliances and consumer electronics increases in U.S. homes</a><br />
+    <p><a href="/consumption/residential/reports/electronics.php">Share of energy used by appliances and consumer electronics increases in U.S. homes</a><br />
     <em>March 28, 2011</em>
     </p>
-    <li class="sub-head"><strong><a href="/consumption/residential/reports.cfm">See more RECS features and reports ></a></strong></li>
+    <li class="sub-head"><strong><a href="/consumption/residential/reports.php">See more RECS features and reports ></a></strong></li>
   </span>
   
   <?php  } // end if ?>

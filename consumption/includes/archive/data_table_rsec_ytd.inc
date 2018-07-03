@@ -1,4 +1,4 @@
-<?php /* File: data_table_rsec_ytd.cfm */ ?>
+<?php /* File: data_table_rsec_ytd.php */ ?>
 <?php /* Date: 11/19/2014 */ ?>
 <?php /* Revised Date: 11/16/2015 */ ?>
 <?php /* Author: Tony Allen */ ?>

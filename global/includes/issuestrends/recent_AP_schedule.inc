@@ -20,7 +20,7 @@ $RAP = array();
 if($l2page && !empty($returnArr))
 $RAP = $returnArr['l2page'][$l2page];
 /* NOTE:
-1. PossibleTagsQuery has already executed by it_universal.cfm (called by carousel.cfm) and can be reused
+1. PossibleTagsQuery has already executed by it_universal.php (called by carousel.php) and can be reused
 2. IssuesTrendsQuery in that same file cannot be reused because it involves the ISSUESTRENDS table. Instead, the query "recent_AP" below gets the Bookshelf reports
 */
 $exploded   = explode(',',$RAP[date('j')]);
@@ -143,6 +143,6 @@ echo PHP_EOL;
 ?>
                 <ul class="analysis-projections">
                     <li class="footer">
-                        <a href="reports.cfm">See more analysis & projections</a></li>
+                        <a href="reports.php">See more analysis & projections</a></li>
                 </ul>
         </div>

@@ -12,6 +12,6 @@
 <?php $last_year_annual_data = 2017; ?>
 <?php if ( !isset($set_vars_only)) {?>
 
-<p><?php echo date_format($a_release_date, "F Y"); ?>&nbsp;&nbsp;<a href="pdf/aer.pdf" class="ico_pdf">PDF</a>&nbsp;&#124;&nbsp;<a href="previous.cfm">previous editions</a><br />
-Release Date: <?php echo date_format($a_release_date, "F j, Y"); ?><br /><?php /*Next Update: Suspended for 2013 (see <a href="/pressroom/releases/press386.cfm">press release</a>)*/ ?></p>
+<p><?php echo date_format($a_release_date, "F Y"); ?>&nbsp;&nbsp;<a href="pdf/aer.pdf" class="ico_pdf">PDF</a>&nbsp;&#124;&nbsp;<a href="previous.php">previous editions</a><br />
+Release Date: <?php echo date_format($a_release_date, "F j, Y"); ?><br /><?php /*Next Update: Suspended for 2013 (see <a href="/pressroom/releases/press386.php">press release</a>)*/ ?></p>
 <?php  } // end if ?>

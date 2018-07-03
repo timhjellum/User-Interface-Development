@@ -5,19 +5,15 @@
 		margin-bottom: 2em;
 		h3 {
 			.header-font;
-			font-size: 1rem * 1.20%;
+			font-size: 1.2rem * 1.20%;
 			width: 100%;
 			color: @eia-dark-grey;
 			border: 0;
 			padding: 7px 0;
 			border-top: 1px solid @eia-blue;
-
 			cursor: pointer;
 			&:focus {
 				outline: none;
-			}
-			&.ui-accordion-header-active {
-				border-bottom: 1px solid @eia-blue;
 			}
 			span {
 				display: block;
@@ -53,6 +49,9 @@
         margin: 0;
         width: 100%;
 		background-color: white;
+		&.ui-accordion-content-active {
+			border-bottom: 2px solid @eia-blue; 
+		}
 		ul {
 			li {
 				.number {
@@ -74,16 +73,9 @@
                 }
                 .normal {
                     font-style: normal;
-                    color: #333;
+                    color: @eia-dark-grey;
                 }
                 .release-date {
-                    .italic;
-                }
-                .note {
-                    color: orange;
-                    .italic;
-                }
-                .release-schedule {
                     .italic;
                 }
                 .date {
@@ -92,25 +84,29 @@
 				&.list-item {
 					&>ul {
 						margin-top: 12px;
+						li {
+							ul {
+								margin-top: 5px;
+							}
+						}
 					}
 				}
+                ul {
+                    li {
+                        margin-top: 0;
+                    }
+                }
 			}
 		}
 		&>ul{
-			padding: 14px 0 26px 0;
-			//margin: 0 27px 26px 27px;
-			margin: 0 27px 0 27px;
-			//margin-bottom: 26px;
+			padding: 14px 0;
+			margin: 0 27px;
 			border-bottom: dashed 1px #d8d8d8;
             &:last-child {
                 border-bottom: none;
                 margin-bottom: 26px;
             }
-            //&:first-child {
-            //    margin-bottom: 0;
-			//}
             &>li {
-				//padding: 0 27px;
 				&.head {
 					.bold;
 					margin-top: 12px;
@@ -118,26 +114,27 @@
 						margin-top: 0;
 					}
 				}
-				&:first-child {
-					.bold;
-				}
-				&.list-item {
-					&>ul {
-						&>li {
-							&:first-child {
-								.bold;
-							}
-						}
-					}
-				}
+				//&:first-child {
+				//	.bold;
+				//}
+				//&.list-item {
+				//	&>ul {
+				//		&>li {
+				//			&:first-child {
+				//				.bold;
+				//			}
+				//		}
+				//	}
+				//}
 			}
 			&.highlight {
 				.font;
+				border-top: 1px solid #d8d8d8;
 				background-color: #f5fbfd;
+				border-bottom: 1px solid #d8d8d8;
 				margin: 0;
 				padding: 0;
 				width: 100%;
-				border-bottom: 1px solid #d8d8d8;
 				li {
 					padding: 0 27px;
 					&:first-child {
@@ -192,10 +189,14 @@
 @media @tablet {
 	.accordion {
 		h3 {
-			font-size: 1rem; // 16 pixels
+			font-size: 1.2rem; // 16 pixels
 		}
 	}
 	.expand-collapse-container {
 		font-size: 0.750rem; // 12 pixels
 	}
 }
+
+
+
+//

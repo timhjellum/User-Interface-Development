@@ -12,8 +12,8 @@
 <div class="left">
 <ul class="left-nav">
 <li <?php if ( $locale == 'overview') {?>class="active"<?php  } // end if ?>><a href="/petroleum/">Overview</a></li>
-<li  <?php if ( $locale == 'data') {?>class="active"<?php  } // end if ?>><a href="/petroleum/data.cfm">Data</a></li>
-<li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/petroleum/reports.cfm">Analysis &amp; Projections</a></li>
+<li  <?php if ( $locale == 'data') {?>class="active"<?php  } // end if ?>><a href="/petroleum/data.php">Data</a></li>
+<li <?php if ( $locale == 'ap') {?>class="active"<?php  } // end if ?>><a href="/petroleum/reports.php">Analysis &amp; Projections</a></li>
     </ul>
 </div>
 </div>

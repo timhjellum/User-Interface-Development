@@ -9,13 +9,13 @@
           <li><a href="/mer/consump.html">monthly</a></li>
           
           </ul>
-          <span class="no_btm_border"><a href"http://wwwdev.eia.gov/consumption/transportation/about_trans.cfm"><strong>End-use consumption data</strong></a></span>
+          <span class="no_btm_border"><a href"http://wwwdev.eia.gov/consumption/transportation/about_trans.php"><strong>End-use consumption data</strong></a></span>
                 </p>
               
                               
                 <ul>
                <!-- <li><a href="http://www.eia.gov/emeu/rtecs/nhts_survey/2001/tablefiles/t0464%282005%29.pdf" class="ico_pdf">2001</a>—most recent</li>
-               <li><a href="about_trans.cfm">About the survey</a></li>
+               <li><a href="about_trans.php">About the survey</a></li>
                <li><a href="http://www.eia.gov/cneaf/alternate/page/atftables/afv_atf.html">Alternatives to Traditional Transportation Fuels 2008</a></li>-->
                </ul>
        <!--  <p class="no_btm_border"><strong>Residential Energy Consumption Statistics</strong><br/>
@@ -24,7 +24,7 @@
          </p>
                 <ul>
           
-          <li><a href="http://wwwdev.eia.gov/consumption/residential/data/2005/index.cfm">data </a></li><li><a href="http://wwwdev.eia.gov/consumption/residential/about_recs.cfm">about the survey</a></li>
+          <li><a href="http://wwwdev.eia.gov/consumption/residential/data/2005/index.php">data </a></li><li><a href="http://wwwdev.eia.gov/consumption/residential/about_recs.php">about the survey</a></li>
           <li><a href="http://wwwdev.eia.gov/consumption/residential/reports/">analysis &amp; reports</a></li></ul><br />-->
                 <span class="no_btm_border"><strong>Efficiency related:</strong></span>
                 </p>

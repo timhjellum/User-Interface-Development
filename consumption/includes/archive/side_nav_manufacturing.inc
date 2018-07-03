@@ -1,8 +1,8 @@
 <div class="side_col right"> <span class="grey_side green_top">
-  <p><a href="/consumption/manufacturing/about.cfm">About the MECS</a></p>
+  <p><a href="/consumption/manufacturing/about.php">About the MECS</a></p>
   <p><a href="/survey/#eia-846">Survey forms</a></p>
-  <p><a href="/consumption/manufacturing/maps.cfm">Maps</a></p>
-  <p><a href="/consumption/manufacturing/terms.cfm">MECS Terminology</a></p>
+  <p><a href="/consumption/manufacturing/maps.php">Maps</a></p>
+  <p><a href="/consumption/manufacturing/terms.php">MECS Terminology</a></p>
   <p class="no-border"><a href="data/archive/">Archives</a></p>
   </span> 
   <?php /* FAQ Promo */ ?> 
@@ -15,8 +15,8 @@
   <?php /* Featured Data */ ?> 
   <span class="grey_side blue_top side_list_nocolumn">
   <li class="head"><h2>Features</h2></li>
-  <p class="no-border"><a href="/pressroom/releases/press383.cfm">First 2010 Data Press Release</a><br />
-  <p class="no-border"><a href="reports/2010/decrease_use.cfm">2010 Data Brief</a><br />
+  <p class="no-border"><a href="/pressroom/releases/press383.php">First 2010 Data Press Release</a><br />
+  <p class="no-border"><a href="reports/2010/decrease_use.php">2010 Data Brief</a><br />
   </p>
   </span> 
   <?php /* Other Consumption Surveys */ ?> 

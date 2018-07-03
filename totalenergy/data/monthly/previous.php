@@ -3710,7 +3710,7 @@ PDF</a></span></td>
 
           </table>    
 <?php /* ***** Start of data experts contant  ******* */ ?>
-         <br /><br /><p><b><a href="/about/contact/totalenergy.cfm">Total Energy Experts</a></b></p>   
+         <br /><br /><p><b><a href="/about/contact/totalenergy.php">Total Energy Experts</a></b></p>   
 <?php /* ***** End of data experts contant  ******* */ ?>
          <?php /* End of Total Energy : Monthly */ ?>
 	  <?php /* End of Main Column */ ?>

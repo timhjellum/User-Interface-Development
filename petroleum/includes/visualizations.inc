@@ -2,11 +2,11 @@
 /* edit the link URL, Label and Date below */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/state/maps.cfm?v=Petroleum";
+$OneURL = "/state/maps.php?v=Petroleum";
 $OneLabel = "U.S. Petroleum Infrastructure Map";
 $OneImageName = "petroleum-map";// .png is not needed
 
-$TwoURL = "/state/maps.cfm?v=Fossil%20Fuel%20Resources";
+$TwoURL = "/state/maps.php?v=Fossil%20Fuel%20Resources";
 $TwoLabel = "U.S. Fossil Fuel Resource Map";
 $TwoImageName = "fossil-fuel-map";// .png is not needed
 

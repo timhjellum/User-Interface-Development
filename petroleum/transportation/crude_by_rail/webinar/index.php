@@ -53,9 +53,9 @@ noneSelectedText: "Select workshop(s)"
 <p>The new data fully integrates EIA's petroleum supply and disposition data along with pipeline, tanker, and barge data. Fully incorporating crude-by-rail movements improves EIA's regional petroleum balances by reducing regional crude oil adjustments (unaccounted for crude oil).
 </p>
 <p>Analytical reports derived from this new data include:
-</p><ul><p><a href="/todayinenergy/detail.cfm?id=21092">Crude by rail accounts for more than half of East Coast refinery supply in February 2015</a> - May 5, 2015</p>
+</p><ul><p><a href="/todayinenergy/detail.php?id=21092">Crude by rail accounts for more than half of East Coast refinery supply in February 2015</a> - May 5, 2015</p>
 <p><a href="/petroleum/transportation/#tabs-summary-1">U.S. movements of crude oil by rail</a> (data page) - April 29, 2015</p>
-<p><a href="/todayinenergy/detail.cfm?id=20592">New EIA monthly data track crude oil movements by rail</a> - March 31, 2015</p></ul>
+<p><a href="/todayinenergy/detail.php?id=20592">New EIA monthly data track crude oil movements by rail</a> - March 31, 2015</p></ul>
 </p>
 <p>The data is located in EIA's <a href="http://wwwdev.eia.gov/petroleum/supply/monthly/">Petroleum Supply Monthly</a> tables affected are tables 5-25 and 57. A new table 60 shows crude oil movements by pipeline, tanker, barge, and rail. The current table 60 is now  table 61.
 </p>

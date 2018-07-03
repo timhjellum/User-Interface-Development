@@ -1,4 +1,5 @@
-<?phprequire_once 'global/includes/utils/utils.inc';
+<?php
+require_once 'global/includes/utils/utils.inc';
 require_once 'global/includes/utils/Neic.inc';
 $neic      = new NEIC();
 ?>
@@ -509,7 +510,7 @@ echo PHP_EOL;
 }
 ?>
 </ul>
-</div>        <li><a href="reports.cfm">
+</div>        <li><a href="reports.php">
 <strong>See more analysis & projections &rsaquo;</strong>
 </a>
-</p>
+</p>

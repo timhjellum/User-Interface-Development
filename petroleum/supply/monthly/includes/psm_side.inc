@@ -3,7 +3,7 @@
         <li class="header">
             <h2>Related Links</h2></li>
         <li class="sub-header">Petroleum Supply Monthly <span>- Preliminary data; final data appears in Petroleum Supply Annual, Vol 2.</span></li>
-        <li><a href="/petroleum/data.cfm">Petroleum Data</a> - Latest monthly and annual data.</li>
+        <li><a href="/petroleum/data.php">Petroleum Data</a> - Latest monthly and annual data.</li>
         <li><a href="/petroleum/supply/annual/volume2/">Petroleum Supply Annual, Volume 2</a> - Final monthly data; replaces Petroleum Supply Monthly data.</li>
         <li><a href="/petroleum/supply/annual/volume1/">Petroleum Supply Annual, Volume 1</a> - Final annual totals data.</li>
         <li><a href="/petroleum/refinerycapacity/">Annual Refinery Capacity Report</a></li>

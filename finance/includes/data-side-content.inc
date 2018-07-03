@@ -5,10 +5,10 @@
 
         <li class="icon">
 
-            <a href="/cfapps/frs/frstables.cfm?tableNumber=1">Selected Financial Items</a>
+            <a href="/cfapps/frs/frstables.php?tableNumber=1">Selected Financial Items</a>
 
             <span class="formats">
-<a href="/cfapps/frs/excel.cfm?tableNumber=1&amp;startYear=1977" title="Selected Financial Items">
+<a href="/cfapps/frs/excel.php?tableNumber=1&amp;startYear=1977" title="Selected Financial Items">
 <i class="ico xls">
 <span>XLS</span>
             </i>
@@ -16,15 +16,15 @@
             </span></li>
 
         <li class="icon">
-            <a href="/cfapps/frs/frstables.cfm?tableNumber=2">Consolidated Income Statement</a>
-            <span class="formats"><a href="/cfapps/frs/excel.cfm?tableNumber=2" title="Consolidated Income Statement"><i class="ico xls"><span>XLS</span></i>
+            <a href="/cfapps/frs/frstables.php?tableNumber=2">Consolidated Income Statement</a>
+            <span class="formats"><a href="/cfapps/frs/excel.php?tableNumber=2" title="Consolidated Income Statement"><i class="ico xls"><span>XLS</span></i>
             </a>
             </span></li>
 
         <li class="icon">
-            <a href="/cfapps/frs/frstables.cfm?tableNumber=3">Consolidated Balance Sheet</a>
+            <a href="/cfapps/frs/frstables.php?tableNumber=3">Consolidated Balance Sheet</a>
             <span class="formats">
-    <a href="/cfapps/frs/excel.cfm?tableNumber=3&startYear=1977" title="Consolidated Balance Sheet">
+    <a href="/cfapps/frs/excel.php?tableNumber=3&startYear=1977" title="Consolidated Balance Sheet">
 <i class="ico xls">
 <span>XLS</span>
             </i>
@@ -32,25 +32,9 @@
             </span></li>
 
         <li class="icon">
-            <a href="/cfapps/frs/frstables.cfm?tableNumber=4">Statement of Cash Flows</a>
+            <a href="/cfapps/frs/frstables.php?tableNumber=4">Statement of Cash Flows</a>
             <span class="formats">
-    <a href="/cfapps/frs/excel.cfm?tableNumber=4&startYear=1977" title="Statement of Cash Flows">
-<i class="ico xls">
-<span>XLS</span>
-            </i>
-            </a>
-            </span></li>
-
-        <li class="icon">
-
-
-            <a href="/cfapps/frs/frstables.cfm?tableNumber=5">Statement of Income for U.S. &amp; Foreign Petroleum</a>
-
-
-
-
-            <span class="formats">
-<a href="/cfapps/frs/excel.cfm?tableNumber=5" title="Statement of Income for U.S. and Foreign Petroleum">
+    <a href="/cfapps/frs/excel.php?tableNumber=4&startYear=1977" title="Statement of Cash Flows">
 <i class="ico xls">
 <span>XLS</span>
             </i>
@@ -59,10 +43,26 @@
 
         <li class="icon">
 
-            <a href="/cfapps/frs/frstables.cfm?tableNumber=6">Statement of Income for U.S. &amp; Foreign Downstream Natural Gas</a>
+
+            <a href="/cfapps/frs/frstables.php?tableNumber=5">Statement of Income for U.S. &amp; Foreign Petroleum</a>
+
+
+
 
             <span class="formats">
-            <a href="/cfapps/frs/excel.cfm?tableNumber=6" title="Statement of Income for U.S. and Foreign Downstream Natural Gas">
+<a href="/cfapps/frs/excel.php?tableNumber=5" title="Statement of Income for U.S. and Foreign Petroleum">
+<i class="ico xls">
+<span>XLS</span>
+            </i>
+            </a>
+            </span></li>
+
+        <li class="icon">
+
+            <a href="/cfapps/frs/frstables.php?tableNumber=6">Statement of Income for U.S. &amp; Foreign Downstream Natural Gas</a>
+
+            <span class="formats">
+            <a href="/cfapps/frs/excel.php?tableNumber=6" title="Statement of Income for U.S. and Foreign Downstream Natural Gas">
             <i class="ico xls">
             <span>XLS</span>
             </i>
@@ -76,7 +76,7 @@
             </ul>
             <ul>
                 <li>
-                    <a href="/finance/performanceprofiles/CoList.cfm">Historical Respondent Company List</a></li>
+                    <a href="/finance/performanceprofiles/CoList.php">Historical Respondent Company List</a></li>
             </ul>
 </li>
     </ul>
@@ -91,6 +91,6 @@
         <li>
             <a href="/workingpapers/#finance">Working Papers</a></li>
         <li>
-            <a href="/finance/workshops.cfm">Workshops</a></li>
+            <a href="/finance/workshops.php">Workshops</a></li>
     </ul>
 </div>

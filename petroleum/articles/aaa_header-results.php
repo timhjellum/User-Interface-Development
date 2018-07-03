@@ -52,7 +52,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><p><strong>Quarterly Survey of Industrial, Commercial &amp; Institutional Coal Users</strong> <br>
                   Utilized to collect coal consumption data from   U.S. manufacturers, transformation and processing plants, and commercial and   institutional users. Information collected includes coal consumption, stocks,   and receipts.</p>
                 <p><a href="/survey/form/eia_3/form.pdf" class="ico_pdf">Form</a> (includes instructions) &nbsp;
-                                    | &nbsp; <a href="/survey/form/eia_3/faqs.cfm">Frequently Asked   Questions</a> </p>
+                                    | &nbsp; <a href="/survey/form/eia_3/faqs.php">Frequently Asked   Questions</a> </p>
                
                 <a class="show">[+] See more </a>
                 <div class="more">
@@ -121,7 +121,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   | &nbsp; <a href="/survey/form/eia_7a/datum_instructions.pdf" class="ico_pdf">Special Instructions for  Location Datum (PDF) </a> &nbsp;&nbsp;
                   | &nbsp; <a href="/survey/form/eia_7a/registration_guide.pdf" class="ico_pdf">EIA-7A SSO Registration Guide</a> &nbsp;&nbsp;
                   | &nbsp; <a href="/survey/form/eia_7a/users_guide.pdf" class="ico_pdf">EIA-7A Users Guide</a> &nbsp;
-                  | &nbsp; <a href="/survey/form/eia_7a/faqs.cfm">Frequently Asked Questions</a>                    </p>
+                  | &nbsp; <a href="/survey/form/eia_7a/faqs.php">Frequently Asked Questions</a>                    </p>
                                <a class="show">[+] See more</a>
                 <div class="more">
                   <p> Respondents are all U.S. coal mining companies that owned a mining operation which produced 25,000 or more short tons of coal, or anthracite mines that produced 10,000 or more  short tons.  Stand-alone facilities (i.e., coal preparation plants, tipples, loading docks, and train loadout facilities) that recorded at least 5,000 person-hours of labor must also report. </p>
@@ -142,7 +142,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 <p>Collects coal stocks data for publications, analyses, and statistical reports used by public and private analysts.
                   Data collected include coal stocks by state location, exported coal by origin state, and export revenue of coal sold during the reporting year.</p>
                 <p> <a href="/survey/form/eia_8a/form.pdf" class="ico_pdf">Form (includes instructions)</a> &nbsp;
-                  | &nbsp; <a href="/survey/form/eia_8a/faqs.cfm">Frequently Asked Questions</a></p>
+                  | &nbsp; <a href="/survey/form/eia_8a/faqs.php">Frequently Asked Questions</a></p>
                                              <a class="show">[+] See more</a>
                 <div class="more">
                   <p>Respondents are U.S. coal brokers, coal traders and coal terminals that owned stocks of 10,000 or more tons of coal at the end of the reporting year  and/or exported coal during the reporting year.  Companies that take custody (physical possession) of the coal and transport but never own the coal need not report. </p>
@@ -163,7 +163,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 <p> <a href="/survey/form/eia_14/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;
                   | &nbsp; <a href="/survey/form/eia_14/faqs.php">Frequently Asked Questions</a></p>
 
-<!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+<!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_14/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_14/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
 
                 <a class="show">[+] See more</a>
@@ -241,7 +241,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory<br>
                     Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b), 15, 5(a), 5(b), 52 </p>
                 </div></td>
-              <td><a href="/survey/form/eia_23l/rigs.cfm" class="ico_sso">E-file</a><br>
+              <td><a href="/survey/form/eia_23l/rigs.php" class="ico_sso">E-file</a><br>
                 <a href="/survey/form/eia_23l/form.pdf" class="ico_pdf">PDF</a>
                 </td>
               <td><a href="mailto:steven.grape@eia.gov">Steven G. Grape</a><br>
@@ -413,7 +413,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52 </p>
                 </div></td>
               <td>
-              	<a href="/survey/form/eia_176/efs176.cfm" class="ico_sso">E-file</a><br>
+              	<a href="/survey/form/eia_176/efs176.php" class="ico_sso">E-file</a><br>
              	<a href="/survey/form/eia_176/form.xlsx" class="ico_xls">XLS</a><br>
                 <a href="/survey/form/eia_176/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:jennifer.wade@eia.gov">Jennifer Wade</a><br>(202) 586-4749</td>
@@ -425,7 +425,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 <p> <a href="/survey/form/eia_182/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;
                   | &nbsp; <a href="/survey/form/eia_182/faqs.php">Frequently Asked Questions</a> </p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_182/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_182/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
 
                 <a class="show">[+] See more</a>
@@ -535,7 +535,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
             <tr>
               <td><a name="eia-457"></a>EIA-457 (A-G)</td>
               <td><strong>Residential Energy Consumption Survey (RECS)</strong><br>
-                <p>Collects comprehensive national and regional data on energy use in the residential sector of the economy. For the 2015 RECS, respondents completed the household questionnaire by one of three modes: a computer-assisted personal interview (CAPI), a self-administered paper questionnaire, or a self-administered web questionnaire. The CAPI and paper questionnaires are provided here. The content and presentation for the Web questionnaire was nearly identical to the paper version, although Web respondents were automatically skipped through questions that did not apply to them. Also see: <a href="/consumption/residential/about.cfm">About the RECS</a></p>
+                <p>Collects comprehensive national and regional data on energy use in the residential sector of the economy. For the 2015 RECS, respondents completed the household questionnaire by one of three modes: a computer-assisted personal interview (CAPI), a self-administered paper questionnaire, or a self-administered web questionnaire. The CAPI and paper questionnaires are provided here. The content and presentation for the Web questionnaire was nearly identical to the paper version, although Web respondents were automatically skipped through questions that did not apply to them. Also see: <a href="/consumption/residential/about.php">About the RECS</a></p>
                 <a class="show">[+] See more including additional cycle years</a>
                 <div class="more">
                   <p>Data are used for analyzing and forecasting residential energy consumption. Housing, appliance, and demographic characteristics data are collected via personal interviews with households, and consumption and expenditure billing data are collected from the energy suppliers. End-use intensities are produced for space heating, water heating, air conditioning,   refrigerators, and appliances. Rental agents are contacted by telephone to check   on fuels used in rented units. Surveys were conducted in 1978, 1979, 1980, 1981, 1982, 1984, 1987, 1990, 1993, 1997, 2001,  2005, and 2009. The next survey is scheduled for 2019. </p>
@@ -690,7 +690,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   &nbsp;|&nbsp; <a href="/survey/form/eia_782a/faqs.php">Frequently Asked Questions</a>
                   &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_782a/reference_guide.pdf" class="ico_pdf">Reference Guide (PDF)</a><br> &nbsp;|&nbsp;&nbsp; EIA-782A Exclusionary List <a href="/survey/form/eia_782a/exclusion_list.pdf" class="ico_pdf">PDF</a> <a href="/survey/form/eia_782a/exclusion_list.txt" class="ico_csv">TXT</a>  </p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_782a/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_782a/proposed/form.pdf" class="ico_pdf">Form</a> &nbsp;&nbsp;| &nbsp;  <a href="/survey/form/eia_782a/proposed/reference_guide.pdf" class="ico_pdf">Reference Guide</a><br />
                       <a href="/survey/form/eia_782a/proposed/list782a.pdf" class="ico_pdf">Exclusionary List</a> </p-->
 
@@ -738,7 +738,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   &nbsp;|&nbsp;&nbsp; EIA-782C Exclusionary List <a href="/survey/form/eia_782c/exclusion_list.pdf" class="ico_pdf">PDF</a>
                   <a href="/survey/form/eia_782c/exclusion_list.txt" class="ico_csv">TXT</a> </p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_782c/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_782c/proposed/form.pdf" class="ico_pdf">Form</a>  &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_782c/proposed/list782c.pdf" class="ico_pdf">Exclusionary List</a>  </p-->
 
                 <a class="show">[+] See more</a>
@@ -762,7 +762,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-800"></a>EIA-800</td>
               <td><strong>Weekly Refinery and Fractionator Report</strong><br>
                 <p> Input and stocks of refinery feedstocks as well as inputs, production, and stocks of selected finished petroleum products are collected from a sample of operators of petroleum refineries and fractionators. </p>
-                <p> <a href="/survey/form/eia_800/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/refinery.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_800/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/refinery.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 										<a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_800/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_800/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -808,7 +808,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-802"></a>EIA-802</td>
               <td><strong>Weekly Product Pipeline Report</strong> <br>
                 <p>End-of-week stock levels of selected petroleum products which include stocks of NGPLs and LRGs (including propane/propylene), fuel ethanol, finished motor gasoline, motor gasoline blending components, kerosene-type jet fuel, kerosene, and distillate fuel oil by sulphur content are collected from a sample of petroleum product pipeline companies on a PAD and sub-PAD District basis.</p>
-                <p><a href="/survey/form/eia_802/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/product_pipeline.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p><a href="/survey/form/eia_802/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/product_pipeline.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 																			 <a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_802/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_802/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -833,7 +833,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-803"></a>EIA-803</td>
               <td><strong>Weekly Crude Oil Stocks Report</strong> <br>
                 <p>End-of-week crude oil stocks by PAD District, stocks of Alaskan crude oil in transit by water and stocks at Cushing, Oklahoma; are reported by a sample of gathering and trunk pipeline companies (interstate, intrastate, and intracompany pipelines), terminal operators, storers of crude oil (except refineries), and transporters of Alaskan crude oil by water.</p>
-                <p> <a href="/survey/form/eia_803/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/storage_capacity.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_803/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/storage_capacity.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
@@ -842,7 +842,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 <a class="show">[+] See more</a>
                 <div class="more">
                   <p>Data are reported on a custody basis. The resulting statistics are used by public and private analysts. Respondents are gathering and trunk pipeline companies (interstate, intrastate, and intracompany pipelines), terminal operators, storers of crude oil (except refineries), and transporters of Alaskan crude oil by water. Data are reported by a sample of companies that carry or store 1,000 barrels or more of crude oil. </p>
-                  <p><a href="/survey/faqs/storage_capacity.cfm"></a> Frequency of Collection: Weekly <br>
+                  <p><a href="/survey/faqs/storage_capacity.php"></a> Frequency of Collection: Weekly <br>
                     Number of Respondents: 75 <br>
                     Reporting Requirement: Mandatory <br>
                     Legal Citation: Public Law 93-275 (Federal
@@ -860,7 +860,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-804"></a>EIA-804</td>
               <td><strong>Weekly Imports Report</strong> <br>
                 <p> Imports of crude oil, (including imports for delivery to the SPR), NGPLs and LRGs (including propane/propylene), fuel ethanol, finished motor gasoline, motor gasoline blending components, kerosene-type jet fuel, kerosene, distillated fuel oil by sulphur content, residual fuel oil, and other petroleum products are provided by a sample of importers on a PAD and sub-PAD district. </p>
-                <p> <a href="/survey/form/eia_804/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/imports.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_804/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/imports.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 																			 <a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_804/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_804/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -885,7 +885,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-805"></a>EIA-805</td>
               <td><strong>Weekly Bulk Terminal and Blender Report </strong> <br>
                 <p>Input and production of oxygenates, renewable fuels (including fuel ethanol), NGPLs and LRGs, finished motor gasoline, motor gasoline blending components, kerosene-type jet fuel, kerosene, and distillate fuel oil by sulfur content, are collected from a sample of terminal blenders.</p>
-                <p> <a href="/survey/form/eia_805/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/terminal_blenders.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_805/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/terminal_blenders.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 																			 <a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_805/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_805/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -910,7 +910,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-809"></a>EIA-809</td>
               <td><strong>Weekly Oxygenate Report</strong> <br>
                 <p> Denatured and undenatured fuel ethanol production and end-of-week stocks are reported by a sample of all facilities that produce fuel ethanol.</p>
-                <p> <a href="/survey/form/eia_809/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/oxygenate.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_809/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/oxygenate.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 																			 <a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_809/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_809/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -935,7 +935,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-810"></a>EIA-810</td>
               <td><strong>Monthly Refinery Report </strong> <br>
                 <p>Collects information regarding the balance between the supply (beginning stocks, receipts, and production) and disposition (inputs, shipments, fuel use and losses, and ending stocks) of crude oil and refined products located at refineries. </p>
-                <p> <a href="/survey/form/eia_810/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/refinery.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_810/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/refinery.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 																			 <a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_810/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_810/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -962,7 +962,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-812"></a>EIA-812</td>
               <td><strong>Monthly Product Pipeline Report </strong> <br>
                 <p> End-of-month stock levels and movements of petroleum products transported by pipeline are reported on a custody basis by all product pipeline companies. </p>
-                <p> <a href="/survey/form/eia_812/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/product_pipeline.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/812tutorial/index.html"> Tutorial </a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_812/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/product_pipeline.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/812tutorial/index.html"> Tutorial </a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 																			 <a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_812/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_812/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -988,7 +988,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-813"></a>EIA-813</td>
               <td><strong>Monthly Crude Oil Report</strong> <br>
                 <p> Collects information on end-of-month stocks of crude oil, by PAD District, at pipeline/tank farms, in Cushing Oklahoma and Alaskan crude oil in transit by water.  In addition, receipts of domestic crude oil by the Strategic Petroleum Reserve, movements of crude oil by pipeline between PAD Districts and storage capacity are collected for working, shell in operation, and shell idle. </p>
-                <p> <a href="/survey/form/eia_813/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/storage_capacity.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_813/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/storage_capacity.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
@@ -1014,7 +1014,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-814"></a>EIA-814</td>
               <td><strong>Monthly Imports Report </strong> <br>
                 <p>Collects data on imports of crude oil and/or petroleum products. The resulting statistics are used by public and private analysts. </p>
-                <p> <a href="/survey/form/eia_814/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/imports.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_814/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/imports.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
 																			 <a href="/survey/frn/petroleum/FRN-30-Day-Supply-May-11-2016.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_814/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_814/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -1039,7 +1039,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-815"></a>EIA-815</td>
               <td><strong>Monthly Bulk Terminal and Blender Report</strong> <br>
                 <p>Collects information on the balance between the supply (beginning stocks, receipts, and production), and disposition (inputs, shipments, fuel use and losses, and ending stocks) of refined products and renewable fuels from bulk terminals.  In addition, storage capacity is collected for working, shell in operation, and shell idle for several major product groupings.</p>
-                <p> <a href="/survey/form/eia_815/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/terminal_blenders.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_815/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/terminal_blenders.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
@@ -1114,7 +1114,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-819"></a>EIA-819</td>
               <td><strong>Monthly Oxygenate Report </strong> <br>
                 <p>Collects information on fuel ethanol production capacity (Nameplate), fuel ethanol production, ending stocks, gasoline blending at fuel ethanol plants and production and ending stocks of other oxygenates and storage capacity of fuel ethanol.</p>
-                <p> <a href="/survey/form/eia_819/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/oxygenate.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_819/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/oxygenate.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
@@ -1140,7 +1140,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-820"></a>EIA-820</td>
               <td><strong>Annual Refinery Report</strong> <br>
                 <p>Collects data on: fuel, electricity, and steam purchased for consumption at the refinery; refinery receipts of crude oil by method of transportation; current and projected capacities for atmospheric crude oil distillation, downstream charge, and production capacities. </p>
-                <p> <a href="/survey/form/eia_820/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/refinery.cfm"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
+                <p> <a href="/survey/form/eia_820/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/refinery.php"> Frequently Asked Questions</a> &nbsp;|&nbsp;&nbsp; <a href="/petroleum/supply/monthly/pdf/psmdefs.pdf"> Definitions</a>  &nbsp;|&nbsp;&nbsp; <a href="/survey/faqs/petguidelinkingdata.pdf"> Guide to Linking Data</a></p>
 
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Comment on proposed survey form revisions:</strong><br />
@@ -1168,7 +1168,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_821/faqs.php">Frequently Asked Questions</a>
                   &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_821/reference_guide.pdf" class="ico_pdf"> Reference Guide </a> </p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_821/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_821/proposed/form.pdf" class="ico_pdf">Proposed Form</a><br />
                   <a href="/survey/form/eia_821/proposed/reference_guide.pdf" class="ico_pdf">Reference Guide</a>  </p-->
 
@@ -1211,7 +1211,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
             <tr>
               <td><a name="eia-846"></a>EIA-846(A,B)</td>
               <td><strong>Manufacturing Energy Consumption Survey (MECS)</strong> <br>
-                <p> Collect information on energy consumption and, energy usage patternsof the manufacturing sector of the U.S. economy. The information from this survey is used to publish aggregate statistics on the consumption of energy for fuel and nonfuel purposes, as well as certain energy-related issues such as energy prices, on-site electricity generation, purchases of electricity from utilities and nonutilities, and, occasionally, the capability to switch fuels. Also see: <a href="/consumption/manufacturing/about.cfm">About the MECS</a></p>
+                <p> Collect information on energy consumption and, energy usage patternsof the manufacturing sector of the U.S. economy. The information from this survey is used to publish aggregate statistics on the consumption of energy for fuel and nonfuel purposes, as well as certain energy-related issues such as energy prices, on-site electricity generation, purchases of electricity from utilities and nonutilities, and, occasionally, the capability to switch fuels. Also see: <a href="/consumption/manufacturing/about.php">About the MECS</a></p>
 
                 
                 <a class="show">[+] See more</a>
@@ -1284,7 +1284,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   &nbsp;|&nbsp;&nbsp;<a href="/survey/form/eia_856/eia856appb.pdf">Appendix B U.S. Port Codes</a>
                 </p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_856/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_856/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
 
                 <a class="show">[+] See more</a>
@@ -1305,7 +1305,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-857"></a>EIA-857</td>
               <td><strong>Monthly Report of Natural Gas Purchases and Deliveries to Consumers</strong> <br>
                 <p>Volume and cost data on natural gas delivered to residential, commercial, and industrial consumers are reported by a sample of natural gas          companies that deliver to consumers in the United States. </p>
-                <p> <a href="/survey/form/eia_857/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="https://www.youtube.com/playlist?list=PL2OD0gKF-sIULwpCNRF0wzz20GVou-gB3">Instructional Videos</a>&nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_857/faqs.cfm"> Frequently Asked Questions</a> &nbsp;&nbsp;| &nbsp;  <a href="/survey/form/eia_857/sft_instructions.pdf" class="ico_pdf">Secure File Transfer</a></p>
+                <p> <a href="/survey/form/eia_857/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="https://www.youtube.com/playlist?list=PL2OD0gKF-sIULwpCNRF0wzz20GVou-gB3">Instructional Videos</a>&nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_857/faqs.php"> Frequently Asked Questions</a> &nbsp;&nbsp;| &nbsp;  <a href="/survey/form/eia_857/sft_instructions.pdf" class="ico_pdf">Secure File Transfer</a></p>
 
 
                 <p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/ngdownstreamforms2018.php">Comment on proposed survey form revisions:</a></strong><br>
@@ -1414,7 +1414,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-861"></a>EIA-861</td>
               <td><strong>Annual Electric Power Industry Report</strong> <br>
                 <p>Collects information on the status of a sample of electric power industry participants involved in the generation, transmission, and distribution of electric energy in the United States, and its territories.</p>
-                <p> <a href="/survey/form/eia_861/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_861/faqs.cfm">Frequently Asked Questions</a></p>
+                <p> <a href="/survey/form/eia_861/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_861/faqs.php">Frequently Asked Questions</a></p>
                 
                  <p></p>
 
@@ -1441,7 +1441,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><strong>Monthly Electric Power Industry Report</strong><br>
                     <p>Collects information from utilities and nonutility companies that sell or deliver electric power to end users, including electric utilities, energy service providers, and distribution companies. Data collected include retail sales and revenue for all end-use sectors (residential, commercial, industrial and transportation).</p>
 <p> <a href="/survey/form/eia_861m/instructions.pdf" class="ico_pdf">Instructions</a>
-&nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_861m/faqs.cfm">Frequently Asked Questions</a></p>
+&nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_861m/faqs.php">Frequently Asked Questions</a></p>
                     <a class="show">[+] See more</a>
                     <div class="more">
                   <p>The data from this form appear in the various EIA information products and are used by public and private analysts to monitor the current status and trends of the electric power industry and to evaluate the future of the industry. The Form EIA-826 is completed by a sample of electric utilities, energy service providers, and distribution companies that sell or distribute electric power to end users chosen from the respondent frame of the  <a href="/survey/#eia-861">Form EIA-861</a>, Annual Electric Power Industry Report. <a href="/survey/#eia-861">Form EIA-861 </a>collects retail sales of electricity and associated revenue from all electric utilities, energy service providers and distribution companies in the United States on an annual basis. Survey respondents should submit data electronically using </p>
@@ -1488,7 +1488,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 <p>Information is collected on size, type, and geographic location of No. 2 distillate and residual fuel oil dealers, motor gasoline resellers, and propane resellers. </p>
                 <p> <a href="/survey/form/eia_863/instructions.pdf" class="ico_pdf">Instructions</a></p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_863/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_863/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
 
                 <a class="show">[+] See more</a>
@@ -1513,7 +1513,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
             <tr>
               <td><a name="eia-871"></a>EIA-871</td>
               <td><strong>Commercial Buildings Energy Consumption Survey (CBECS)</strong> <br>
-                <p> The survey provides comprehensive national and regional information on the consumption of, and expenditures for, energy in the commercial buildings sector of the economy as well as the number and square footage of U.S. commercial buildings by various energy-related building characteristics. Also see: <a href="/consumption/commercial/about.cfm">About the CBECS</a> </p>
+                <p> The survey provides comprehensive national and regional information on the consumption of, and expenditures for, energy in the commercial buildings sector of the economy as well as the number and square footage of U.S. commercial buildings by various energy-related building characteristics. Also see: <a href="/consumption/commercial/about.php">About the CBECS</a> </p>
                 <a class="show">[+] See more</a>
                 <div class="more">
                   <p>Data are used in EIA forecasting and energy end use intensity models and are published in statistical and analytical reports. The physical characteristics information for commercial buildings is collected using Form EIA-871A in interviews with owners, managers, or tenants of buildings. The building respondents are also asked to provide energy consumption and expenditures information, if available. In cases where the building respondent is unable to provide energy consumption and expenditure data, the information is collected by mail from individual energy suppliers by using Forms EIA-871C through F (depending upon the energy source). The survey was renamed CBECS in 1989. Previously it was conducted under the name of Nonresidential Buildings Energy Consumption Survey. Surveys were conducted in 1979, 1983, 1986, 1989, 1992, 1995, 1999, 2003, 2007, and 2012. The next CBECS is scheduled for 2017.</p>
@@ -1590,7 +1590,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 <p>Residential prices of No. 2 heating oil are reported by selected retailers in PAD Districts 1 and 2 residential propane prices are reported by selected retailers of PAD Districts 1, 2, 3 and 4.</p>
                 <p> <a href="/survey/form/eia_877/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/petroleum/heatingoilpropane/faq_respondents.php">Frequently Asked Questions</a> </p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp;
                   <a href="/survey/form/eia_877/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp;
                   <a href="/survey/form/eia_877/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
@@ -1615,7 +1615,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   | <a href="/survey/form/eia_878/reference_guide.pdf" class="ico_pdf"> Reference Guide </a>
                 </p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_878/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_878/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
 
 
@@ -1662,7 +1662,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 <p>The retail cash price of self-serve, No. 2 ultra-low sulfur diesel fuel and low sulfur diesel fuel sold for on-highway use are reported by a sample of companies which sell diesel fuel through truck stops and service stations.</p>
                 <p> <a href="/survey/form/eia_888/instructions.pdf" class="ico_pdf">Instructions</a> | <a href="/survey/form/eia_888/faqs.php">Frequently Asked Questions</a></p>
 
-                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.cfm">Comment on proposed survey form revisions:</a></strong><br />
+                <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/marketing2017.php">Comment on proposed survey form revisions:</a></strong><br />
                   <a href="/survey/frn/petroleum/FRN-60-Day-Marketing-April-3-2017.pdf" class="ico_pdf">Federal Register Notice</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_888/proposed/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;&nbsp;| &nbsp; <a href="/survey/form/eia_888/proposed/form.pdf" class="ico_pdf">Form</a> </p-->
 
 
@@ -1770,11 +1770,11 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-914"></a>EIA-914</td>
               <td><strong>Monthly Crude Oil, Lease Condensate, and Natural Gas Production Report</strong><br>
                 <p>A sample survey to collect State-level crude oil production, API gravity, and natural gas production and sales information from well operators on a monthly basis. Submission of January 2015, and later, data should be done using the new form and using the EIA Data xChange Community Portal <a href="https://eiadataxchange-c.force.com/">http://www.eia4usa.eia.gov/</a>.</p>
-                <p><a href="/survey/form/eia_914/faqs.cfm">Frequently Asked Questions</a></p>
+                <p><a href="/survey/form/eia_914/faqs.php">Frequently Asked Questions</a></p>
 
                 <!--p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong>Old form, used to collect December 2014, and earlier data:</strong><br />
 							 The old EIA-914 survey should ONLY be used to submit or resubmit data for December 2014, and earlier. The old form and frequently asked questions related to the old form are available via the linked files below. Submission of January 2015, and later, data should be done using the new form and using the EIA Data xChange Community Portal <a href="https://eiadataxchange-c.force.com/">http://www.eia4usa.eia.gov/</a>.<br /><br />
-									<a href="/survey/form/eia_914/2014/faqs.cfm">Frequently Asked Questions</a> &nbsp;&nbsp;| &nbsp;
+									<a href="/survey/form/eia_914/2014/faqs.php">Frequently Asked Questions</a> &nbsp;&nbsp;| &nbsp;
 								<a href="/survey/form/eia_914/2014/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp;
 								<a href="/survey/form/eia_914/2014/form.pdf" class="ico_pdf">Form</a> &nbsp;&nbsp;| &nbsp;
 								<a href="/survey/form/eia_914/2014/form.xls" class="ico_xls">XLS</a>

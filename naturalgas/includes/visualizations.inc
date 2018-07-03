@@ -2,11 +2,11 @@
 /* edit the link URL, Label and Date below */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/state/maps.cfm?v=Natural%20Gas";
+$OneURL = "/state/maps.php?v=Natural%20Gas";
 $OneLabel = "U.S. Natural Gas Infrastructure Map";
 $OneImageName = "natural-gas-map"; // .png is not needed
 
-$TwoURL = "/state/maps.cfm?v=Fossil%20Fuel%20Resources";
+$TwoURL = "/state/maps.php?v=Fossil%20Fuel%20Resources";
 $TwoLabel = "U.S. Fossil Fuel Resource Map";
 $TwoImageName = "fossil-fuel-map"; // .png is not needed
 
@@ -18,7 +18,7 @@ $FouURL = "/outlooks/steo/query/";
 $FouLabel = "STEO Data Browser";
 $FouImageName = "steo-data-browser"; // .png is not needed
 
-$FivURL = "/cfapps/ngqs/ngqs.cfm?f_report=RP2&f_sortby=&f_items=&f_year_start=&f_year_end=&f_show_compid=&f_fullscreen=";
+$FivURL = "/cfapps/ngqs/ngqs.php?f_report=RP2&f_sortby=&f_items=&f_year_start=&f_year_end=&f_show_compid=&f_fullscreen=";
 $FivLabel = "Company-level Query System";
 $FivImageName = "natural-gas-query"; // .png is not needed
 
