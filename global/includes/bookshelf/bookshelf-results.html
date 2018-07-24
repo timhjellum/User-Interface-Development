@@ -1,0 +1,294 @@
+
+<div class="l-row">
+	<div class="l-full-width-col">
+		<div class="g-filters-container" id="filters">
+			<div class="g-filters-label">Filter &amp; Search</div>
+			<div id="filter-radio" title="To close(X) the Filters selection box, click here once.">
+				<input type="radio" id="bookshelf-all" name="filter" value="all">
+				<label for="bookshelf-all" id="all_tags" class="g-filters-all">Search tags</label>
+				<input type="radio" id="bookshelf-source" name="filter" value="source">
+				<label for="bookshelf-source" class="g-filters-source">Fuel source</label>
+				<input type="radio" id="bookshelf-report" name="filter" value="report">
+				<label for="bookshelf-report" class="g-filters-report">Reports</label>
+				<input type="radio" id="bookshelf-geography" name="filter" value="geography">
+				<label for="bookshelf-geography" class="g-filters-geography">Geography</label>
+				<input type="radio" id="bookshelf-topic" name="filter" value="topic">
+				<label for="bookshelf-topic" class="g-filters-topic">Subject</label>
+			</div>
+			<div class="g-filters-pointer hide"></div>
+		</div>
+		<div id="more-options">
+			<div id="tags-container" class="loading">
+				<div id="customize_data_form_buttons">
+					<h3 id="num-tags">Tags (x)</h3>
+					<button name="reset" id="reset" class="reset">Clear all</button>
+					<button name="close" id="close" class="close">Close</button>
+					<div class="top_input_box">
+						<input type="text" id="input-search" value="" tabindex="-1" align="right" placeholder="search tags" class="search" ></input>
+						<div id="tags_search" class="tags_search">
+							<ul class="bookshelftags"></ul>
+						</div>
+					</div>
+		
+					<div class="az-index" id="az-index">
+		<div class="primary">
+            <ul>
+                <li class="head"><h2>A-Z Index</h3>
+						<div class="az-list">
+							<a class="active">A</a>
+							<a>B</a>
+							<a>C</a>
+							<a>D</a>
+							<a>E</a>
+							<a>F</a>
+							<a>G</a>
+							<a>H</a>
+							<a>I</a>
+							<a>J</a>
+							<a>K</a>
+							<a>L</a>
+							<a>M</a>
+							<a>N</a>
+							<a>O</a>
+							<a>P</a>
+							<a>Q</a>
+							<a>R</a>
+							<a>S</a>
+							<a>T</a>
+							<a>U</a>
+							<a>V</a>
+							<a>W</a>
+							<a>XYZ</a>
+						</div>
+				 	</div>
+		
+					<div id="tags-holder">
+						<div id="loading"><em>Loading tags ...</em></div>
+						<div id="no_tags"><em>No additional tags to display</em></div>
+		
+						<div id="tag_categories">
+							<ul class="bookshelftags"></ul>
+						</div>
+						<div class="tags-container" id="inner-tags-container">
+							<div id="tags">
+								<ul class="bookshelftags"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </div>
+		
+		 <div class="tag_search_box">
+				<div class="selected_tags ">
+				</div>
+			 <button name="reset" id="reset" class="reset">Clear all</button>
+		 </div>
+		
+		
+		 <div class="search_container">
+				<div id="reports-title" class="reports-title">
+					<h2 id="num-reports">Recent Analysis & Projections</h2>
+				</div>
+		 </div>
+		
+		<div id="reports-heading" class="reports-heading hidden">
+			<div id="frequency" class="frequency-container" tabindex="1">
+				<h4>Frequency</h4>
+				<div class="dropdown-button" id="frequency-button">
+					<span class="text">All available</span>
+				</div>
+				<div class="dropdown-menu" id="frequency-menu">
+					<ul class="bookshelftags"></ul>
+				</div>
+		
+			</div>
+		
+			<div id="timeSeriesFormContainer" class="timeSeries">
+				<h4>Filter by date range</h4>
+				<form id="date-form">
+					From:&nbsp; 
+					<input id="start-date" type="text" class="datepicker" name="tag_datefrom" placeholder="MM/DD/YYYY">&nbsp;&nbsp; 
+					To:&nbsp; 
+					<input id="end-date" type="text" class="datepicker" name="tag_dateto" placeholder="MM/DD/YYYY">
+				</form>
+			</div>
+					
+			<div id="legend" class="legend">
+				<h4>Legend</h4>
+				<span id='rpt_D' name='rpt_D' value="show" class="report-contents has-data" title="Indicates a report includes data and that reports containing data are included in the results." >D</span><span id='rpt_D_txt'>Data</span>&nbsp;&nbsp;
+				<span id='rpt_A' name='rpt_A' value="show" class="report-contents has-analysis" title="Indicates a report includes analysis and that reports containing analysis are included in the results." >A</span><span id='rpt_A_txt'>Analysis</span>&nbsp;&nbsp;
+				<span id='rpt_P' name='rpt_P' value="show" class="report-contents has-projections" title="Indicates a report includes projections and that reports containing projections are included in the results." >P</span><span id='rpt_P_txt'>Projections</span>
+			</div>	
+		</div> 
+	</div>
+</div>	
+
+
+
+<div class="l-row"><!-- reports-container" -->
+	<div class="l-main-col"><!--  id="reports-holder" class="reports-holder" -->
+		<hr/>
+		<div class="l-row">
+			<h1 class="no-border">Sources & Uses</h1>
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Petroleum & Other Liquids <span class="cmore"><a href="/petroleum/reports.cfm">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/petroleum/weekly/">This Week in Petroleum</a></li>
+						<li>Weekly prices & analytical summary of the petroleum industry</li>
+						<li class="sub-head"><a href="/petroleum/supply/weekly/">Weekly Petroleum Status Report</a></li>
+						<li>Weekly petroleum prices, production & stocks data</li>
+						<li class="sub-head"><a href="/petroleum/gasdiesel/">Gasoline and Diesel Fuel Update</a></li>
+						<li>Weekly prices & analytical summary of the petroleum industry</li>
+						<li class="sub-head"><a href="/petroleum/imports/companylevel/">Petroleum Imports</a></li>
+						<li>By country and company</li>
+					</ul>
+				</div>
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Electricity <span class="cmore"><a href="/electricity/reports.cfm">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/electricity/monthly/">Electric Power Monthly</a></li>
+						<li>Monthly summary of electric power generation and capacity</li>
+						<li class="sub-head"><a href="/electricity/monthly/update/">Electricity Monthly Update</a></li>
+						<li>Provides monthly analysis and highlights of the electric power data</li>
+					</ul>
+				</div>
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Nuclear & Uranium <span class="cmore"><a href="/nuclear/reports.cfm">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/nuclear/outages/">Status of U.S. Nuclear Outages</a></li>
+						<li>Daily statistics on nuclear capacity by plant. </li>
+						<li class="sub-head"><a href="/uranium/production/quarterly/">Domestic Uranium Production Report - Quarterly</a></li>
+						<li>Information on uranium production and the number of producing facilities</li>
+					</ul>
+				</div>
+			</div>
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Natural Gas <span class="cmore"><a href="/naturalgas/reports.cfm">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="http://ir.eia.gov/ngs/ngs.html">Weekly Natural Gas Storage</a></li>
+						<li>Working natural gas stocks in underground storage</li>
+						<li class="sub-head"><a href="/naturalgas/weekly/">Natural Gas Weekly Update</a></li>
+						<li>Weekly prices & analytical summary of the natural gas industry</li>
+					</ul>
+				</div>
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Coal <span class="cmore"><a href="/coal/reports.cfm">See more &rsaquo;</span></h3>
+						<li class="sub-head"><a href="/coal/production/weekly/">Weekly Coal Production</a></li>
+						<li>Weekly production estimates by region and state</li>
+						<li class="sub-head"><a href="/coal/production/quarterly/">Quarterly Coal Report</a></li>
+						<li>Production, imports, exports, stocks & consumption data and analysis</li>
+					</ul>
+				</div>
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Consumption & Efficiency <span class="cmore"><a href="/consumption/reports.cfm">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/consumption/residential/">Residential Energy Consumption Survey</a></li>
+						<li>Household end use consumption of energy and expenditures </li>
+						<li class="sub-head"><a href="/consumption/commercial/">Commercial Buildings Energy Consumption Survey</a></li>
+						<li>End use consumption of energy and expenditures in commercial buildings</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr/>
+		<div class="l-row">
+			<h1 class="no-border">Topics</h1>
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Analysis & Projections <span class="cmore"><a href="/analysis/reports.cfm">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/outlooks/steo/">Short Term Energy Outlook</a></li>
+						<li>Monthly energy projections out to 2019 (STEO) and projections out to 2050 (AEO).</li>
+						<li class="sub-head"><a href="/outlooks/aeo/">Annual Energy Outlook</a></li>
+						<li>Annual energy projections out to 2040</li>
+					</ul>
+				</div>
+			</div>
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Markets & Finance <span class="cmore"><a href="/finance/reports.cfm">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/finance/markets/">Energy &amp; Financial Markets: What Drives Crude Oil Prices?</a></li>
+						<li>An assessment of the various factors that may influence oil prices </li>
+						<li class="sub-head"><a href="/outlooks/steo/uncertainty/">Market Prices and Uncertainty Report</a></li>
+						<li>This monthly supplement to the Short-Term Energy Outlook addresses price volatility and forecast uncertainty for crude oil and natural gas</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr/>
+		<div class="l-row">
+			<h1 class="no-border">Geography</h1>
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>U. S. States & Countries <span class="cmore"><a href="/state/">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/state/index.cfm?ref=bookshelf">State Energy Profiles</a></li>
+						<li>State level data, analysis, and maps</li>
+						<li class="sub-head"><a href="/environment/emissions/state/analysis/">State-Level Energy-Related Carbon Dioxide Emissions</a></li>
+						<li>An analysis of some of the factors that influence State-level carbon dioxide emissions from the consumption of fossil fuels</li>
+					</ul>
+				</div>
+			</div>
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>International <span class="cmore"><a href="/beta/international/">See more &rsaquo;</a></span></h2></li>
+						<li class="sub-head"><a href="/beta/international/analysis.cfm">Country Energy Analysis Reports</a></li>
+						<li>Includes country level data, charts, and Country Analysis Briefs</li>
+						<li class="sub-head"><a href="/outlooks/ieo/">International Energy Outlook</a></li>
+						<li>International energy projections out to 2040</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr/>
+		<div class="l-row">
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<li class="head"><h2>Special Reports</h1>
+						<li class="sub-head"><a href="/analysis/reports.cfm?t=138">Congressional &amp; Other Requests</a></li>
+						<li>Requested analysis of energy-related issues & proposed legislation</li>
+						<li class="sub-head"><a href="/totalenergy/data/monthly/?ref=bookshelf">Monthly Energy Review</a></li>
+						<li>Latest monthly data all in one place</li>
+						<li class="sub-head"><a href="/workingpapers/">Working papers</a></li>
+						<li>Preliminary staff papers for stimulating discussion and critical comment</li>
+						<li class="sub-head"><a href="/reports/upcoming.cfm">Upcoming Reports</a><br>Future reports scheduled for release</li>
+					</ul>
+				</div>
+			</div>
+			<div class="l-two-col">
+				<div class="primary">
+					<ul>
+						<h1 class="no-border">Basic Energy Information</h1>
+						<li class="sub-head"><a href="/todayinenergy/">Today in Energy</a><br>Short term articles with graphics on energy, facts, issues, and trends</li>
+						<li class="sub-head"><a href="/energyexplained/">Energy Explained</a><br>A guide to understanding energy</li>
+						<li class="sub-head"><a href="/kids/">Energy Kids</a><br>Kids resource for understanding energy</li>
+						<li class="sub-head"><a href="/tools/faqs/">Frequently Asked Questions</a><br>Frequently answered questions on energy related topics</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+     <div class="l-narrow-col"><!-- id="result_side" -->
+         <?php include ("side-content.inc"); ?>
+     </div>
+ </div>
+
+
+<script type="text/javascript">
+
+$("document").ready(function()  {
+
+if (typeof $.cookie("lastTop")=="string") {
+	var lastTop = parseInt($.cookie("lastTop"));
+	}
+});
+
+
+</script>

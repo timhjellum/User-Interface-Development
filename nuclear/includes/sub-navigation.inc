@@ -5,12 +5,12 @@
 
 
 
-$directory = "nuclear"; // petroleum
-$subNavLink02URL = "data.php"; // data.php
-$subNavLink02Label = "Data"; // Data
+$directory = "nuclear";
+$subNavLink02URL = "data.php";
+$subNavLink02Label = "Data";
 
-$subNavLink03URL = "reports.php"; // reports.php
-$subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
+$subNavLink03URL = "reports.php";
+$subNavLink03Label = "Analysis & Projections";
 
 $menu01link01URL = "outages";
 $menu01link01Label = "Status of U.S. nuclear outages (interactive)";
@@ -23,10 +23,8 @@ $menu01link04Label = "Spent nuclear fuel";
 $menu01link05URL = "data.php";
 $menu01link05Label = "All nuclear data reports";
 
-// dropdown one
-// dropdown one
-$menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
+$menu02Title01 = "Major Topics";
+$menu02Title02 = "Find by";
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -35,10 +33,10 @@ $menu02link02Label = "Recurring";
 $menu02link03URL = "browsebytag.php?tagcloud";
 $menu02link03Label = "Tag Cloud";
 
-$glossaryURL = "/glossary/?id=nuclear"; // /glossary/
-$glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/#nuclear"; ///tools/faqs/
-$faqLabel = "FAQS"; // FAQ
+$glossaryURL = "/glossary/?id=nuclear";
+$glossaryLabel = "Glossary";
+$faqURL = "/tools/faqs/#nuclear";
+$faqLabel = "FAQS";
 ?>
 
 
@@ -98,9 +96,7 @@ $faqLabel = "FAQS"; // FAQ
                                     </div>
                                 </div>
                                 <div class="l-row">
-                                    <ul class="l-two-third-col">
-                                        <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                    </ul>
+                                    <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
                                     <ul class="l-one-third-col">
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">

@@ -3,22 +3,22 @@
 /* note, you must add the arrow &nbsp; */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/survey/#naturalgas";
+$OneUrl = "/survey/#naturalgas";
 $OneTitle = "Natural gas surveys";
 
-$TwoURL = "https://www.youtube.com/playlist?list=PL2OD0gKF-sIULwpCNRF0wzz20GVou-gB3";
+$TwoUrl = "https://www.youtube.com/playlist?list=PL2OD0gKF-sIULwpCNRF0wzz20GVou-gB3";
 $TwoTitle = "EIA-857 Survey Instructional Videos";
 
-$ThrURL = "";
+$ThrUrl = "";
 $ThrTitle = "";
 
-$FouURL = "";
+$FouUrl = "";
 $FouTitle = "";
 
-$FivURL = "";
+$FivUrl = "";
 $FivTitle = "";
 
-$SixURL = "";
+$SixUrl = "";
 $SixTitle = "";
 
 ?>

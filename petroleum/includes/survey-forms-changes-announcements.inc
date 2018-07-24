@@ -4,7 +4,7 @@
 /* leave fields blank if unused - a script will hide unused list items*/
 
 $OneURL = "/survey/#petroleum";
-$OneTitle = "Petroleum surveys &nbsp;";
+$OneTitle = "Petroleum surveys";
 
 $TwoURL = "/survey/notice/petform806ngliquids.php";
 $TwoTitle = "Information for stakeholders of Form EIA-806 Weekly Natural Gas Liquids Report";

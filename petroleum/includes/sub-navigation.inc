@@ -35,9 +35,7 @@
                                 </div>
                             </div>
                             <div class="l-row">
-                                <ul class="l-two-third-col">
-                                    <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                </ul>
+                                <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
                                 <ul class="l-one-third-col">
                                     <li><a href="/petroleum/browsebytag.php">Alphabetical</a></li>
                                     <li><a href="/petroleum/browsebytag.php?frequency">Frequency</a></li>

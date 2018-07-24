@@ -174,7 +174,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory<br>
                     Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52; Public Law 94-163   (Energy Policy and Conservation Act), Sec. 507 </p>
                 </div></td>
-              <td><a href="/survey/form/eia_14/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_14/form.xlsx">XLS</a><br>
               <a href="/survey/form/eia_14/form.pdf" class="ico_pdf">PDF</a><br>
               <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
               </td>
@@ -226,7 +226,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><a name="eia-23l"></a>EIA-23L</td>
               <td><strong>Annual Report of Domestic Oil and Gas Reserves (County Level Version)</strong> <br>
                 <p>Collects data on U.S. proved reserves of crude oil and natural gas. These data are used to develop national and regional estimates of proved reserves of domestic crude oil, natural gas, and lease condensate, and to facilitate national energy policy decisions.</p>
-                <p> <a href="/survey/form/eia_23l/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; Appendix B. Table of county codes by state  <a href="/survey/form/eia_23l/appendixb.pdf" class="ico_pdf">PDF</a> <a href="/survey/form/eia_23l/appendixb.xlsx" class="ico_xls">XLS</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_23l/faqs.pdf" class="ico_pdf"> Frequently Asked Questions</a> </p>
+                <p> <a href="/survey/form/eia_23l/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp; Appendix B. Table of county codes by state  <a href="/survey/form/eia_23l/appendixb.pdf" class="ico_pdf">PDF</a> <a href="/survey/form/eia_23l/appendixb.xlsx">XLS</a> &nbsp;|&nbsp;&nbsp; <a href="/survey/form/eia_23l/faqs.pdf" class="ico_pdf"> Frequently Asked Questions</a> </p>
 
 
 
@@ -266,7 +266,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b), 15, 5(a), 5(b), 52 </p>
                 </div></td>
               <td><a href="/survey/form/eia_23s/form.pdf" class="ico_pdf">PDF</a><br>
-                <!--a href="/survey/form/eia_23s/form.xls" class="ico_xls">XLS</a--></td>
+                <!--a href="/survey/form/eia_23s/form.xls">XLS</a--></td>
               <td><a href="mailto:steven.grape@eia.gov">Steven G. Grape</a><br>
                 (202) 586-1868<br>
                 </td>
@@ -330,8 +330,8 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
               <td><p><strong>Densified  Biomass Fuel Report</strong> <br>
                 </p>
                 <p>Data collected will be used to estimate densified biomass fuel consumption in the United States, as well as production, sales, and inventory at state, regional, and national levels.</p>
-                <p><a href="/survey/form/eia_63c/form_final.xlsx" class="ico_xls"> Form </a> | &nbsp; <a href="/survey/form/eia_63c/instructions_f.xlsx" class="ico_xls">Instructions</a></p><p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><!---<strong>Comment on proposed survey form:</strong><br />
-                    <a href="/survey/frn/electricity/electricity2015_12232013.pdf" class="ico_pdf">---><a href="/survey/frn/renewable/renewable2018_10202017.pdf" class="ico_pdf">Federal Register Notice</a> | &nbsp;<a href="/survey/form/eia_63c/proposed/2018/form.xlsx" class="ico_xls">Form </a> | &nbsp; <a href="/survey/form/eia_63c/proposed/2018/instructions.xlsx" class="ico_xls">Instructions</a> &nbsp;| &nbsp;  &nbsp;<a href="/survey/changes/renewables/2018/">Background information</a></p>
+                <p><a href="/survey/form/eia_63c/form_final.xlsx"> Form </a> | &nbsp; <a href="/survey/form/eia_63c/instructions_f.xlsx">Instructions</a></p><p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><!---<strong>Comment on proposed survey form:</strong><br />
+                    <a href="/survey/frn/electricity/electricity2015_12232013.pdf" class="ico_pdf">---><a href="/survey/frn/renewable/renewable2018_10202017.pdf" class="ico_pdf">Federal Register Notice</a> | &nbsp;<a href="/survey/form/eia_63c/proposed/2018/form.xlsx">Form </a> | &nbsp; <a href="/survey/form/eia_63c/proposed/2018/instructions.xlsx">Instructions</a> &nbsp;| &nbsp;  &nbsp;<a href="/survey/changes/renewables/2018/">Background information</a></p>
 
                 <a class="show">[+] See more</a>
                 <div class="more">
@@ -343,7 +343,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   Reporting Requirement: Mandatory <br>
                   Legal Citation:  Federal Power Act, Sec. 202(C), 311; Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(b), 5(a); </div></td>
               <td><a href="https://www.eia4usa.eia.gov/">E-file</a><br>
-              <a href="/survey/form/eia_63c/form_final.xlsx" class="ico_xls">XLS</a></td>
+              <a href="/survey/form/eia_63c/form_final.xlsx">XLS</a></td>
               <td><a href="mailto:channele.wirman@eia.gov">Channele Wirman</a><br>202-586-5356</td>
             </tr>
             <tr>
@@ -363,7 +363,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory<br>
                     Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52 </p>
                 </div></td>
-              <td><a href="/survey/form/eia_64a/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_64a/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_64a/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:steven.grape@eia.gov">Steven Grape</a><br>
                 (202) 586-1868</td>
@@ -414,7 +414,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 </div></td>
               <td>
               	<a href="/survey/form/eia_176/efs176.php" class="ico_sso">E-file</a><br>
-             	<a href="/survey/form/eia_176/form.xlsx" class="ico_xls">XLS</a><br>
+             	<a href="/survey/form/eia_176/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_176/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:jennifer.wade@eia.gov">Jennifer Wade</a><br>(202) 586-4749</td>
             </tr>
@@ -436,7 +436,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory<br>
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52; Public Law 94-163 (Energy Policy and Conservation Act), Sec. 507 </p>
                 </div></td>
-              <td><a href="/survey/form/eia_182/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_182/form.xlsx">XLS</a><br>
                <a href="/survey/form/eia_182/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:David.Gatton@eia.gov">David Gatton</a><br>
                 (202) 586-5995 </td>
@@ -455,7 +455,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 										Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52 </p>
 								</div></td>
 							<td ><a href="/survey/form/eia_191a/form.pdf" class="ico_pdf">PDF</a><br />
-								<a href="/survey/form/eia_191a/form.xls" class="ico_xls">XLS</a></td>
+								<a href="/survey/form/eia_191a/form.xls">XLS</a></td>
 							<td><strong></strong><a href="mailto:sharon.belcher@eia.gov">Sharon Belcher</a><br />
 								(202) 586-6119 <br /></td>
 						</tr>-->
@@ -479,7 +479,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory<br>
                     Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52 </p>
                 </div></td>
-              <td><a href="/survey/form/eia_191/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_191/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_191/form.pdf" class="ico_pdf">PDF</a></td>
               <td><strong></strong><a href="mailto:sharon.belcher@eia.gov">Sharon Belcher</a><br>
                 (202) 586-6119 <br></td>
@@ -660,10 +660,10 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b) </p>
                 </div></td>
               <td valign="top"><p>Schedule A:<br>
-                  <a href="/survey/form/eia_757/form_a.xls" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_757/form_a.xls">XLS</a><br>
                   <a href="/survey/form/eia_757/form_a.pdf" class="ico_pdf">PDF</a></p>
                 <p>Schedule B:<br>
-                  <a href="/survey/form/eia_757/form_b.xls" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_757/form_b.xls">XLS</a><br>
                   <a href="/survey/form/eia_757/form_b.pdf" class="ico_pdf">PDF</a></p></td>
               <td valign="top"><a href="mailto:michael.kopalek@eia.gov">Michael Kopalek</a><br>
                 (202) 586-4001 </td>
@@ -703,7 +703,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy Administration   Act of 1974), Sec. 13(b), 5(a), 5(b), 52; Public Law 94-163 (Energy Policy and   Conservation Act), Sec. 507; Public Law 102-486 (Energy Policy Act of 1992), Sec. 407(a)(3) </p>
                 </div></td>
               <td>
-                <a href="/survey/form/eia_782a/form.xlsx" class="ico_xls">XLS</a><br>
+                <a href="/survey/form/eia_782a/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_782a/form.pdf" class="ico_pdf">PDF</a><br>
                 <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:maureen.klein@eia.gov">Maureen Klein</a> <br>
@@ -723,7 +723,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy Administration   Act of 1974), Sec. 13(b), 5(a), 5(b), 52; Public Law 94-163 (Energy Policy and   Conservation Act), Sec. 507; Public Law 102-486 (Energy Policy Act of 1992), Sec. 407(a)(3) </p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_782b/form.xls" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_782b/form.xls">XLS</a><br>
                   <a href="/survey/form/eia_782b/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:maureen.klein@eia.gov">Maureen Klein</a> <br>
@@ -750,7 +750,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy   Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52; Public Law 94-163   (Energy Policy and Conservation Act), Sec. 507 </p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_782c/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_782c/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_782c/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
                   </td>
@@ -776,7 +776,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation:Public Law 93-275 (Federal Energy Administration   Act of 1974), Sec. 13(b), 5(a), 5(b), 52 </p>
                 </div></td>
               <td>
-              <a href="/survey/form/eia_800/form.xlsx" class="ico_xls">XLS</a><br>
+              <a href="/survey/form/eia_800/form.xlsx">XLS</a><br>
               <a href="/survey/form/eia_800/form.pdf" class="ico_pdf">PDF</a><br>
                <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
               </td>
@@ -799,7 +799,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal                 Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52 </p>
                 </div></td>
               <td><!--a href="/survey/form/eia_801/form.pdf" class="ico_pdf">PDF</a--> <br>
-                <!--a href="/survey/form/eia_801/form.xls" class="ico_xls">XLS<br />
+                <!--a href="/survey/form/eia_801/form.xls">XLS<br />
 								</a--><!--a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a--></td>
               <td><a href="mailto:robert.merriam@eia.gov">Robert Merriam</a> <br>
                 (202) 586-4615</td>
@@ -822,7 +822,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   Legal Citation: Public Law 93-275 (Federal
                   Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</div></td>
               <td>
-                <a href="/survey/form/eia_802/form.xlsx" class="ico_xls">XLS</a><br>
+                <a href="/survey/form/eia_802/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_802/form.pdf" class="ico_pdf">PDF</a><br>
               	<a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
                 </td>
@@ -849,7 +849,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52 </p>
                 </div></td>
               <td>
-                <a href="/survey/form/eia_803/form.xlsx" class="ico_xls">XLS</a><br>
+                <a href="/survey/form/eia_803/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_803/form.pdf" class="ico_pdf">PDF</a><br>
                 <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
                 </td>
@@ -875,7 +875,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 </div></td>
               <td>
 
-                  <a href="/survey/form/eia_804/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_804/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_804/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:robert.merriam@eia.gov">Robert Merriam</a> <br>
@@ -900,7 +900,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_805/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_805/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_805/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:robert.merriam@eia.gov">Robert Merriam</a> <br>
@@ -925,7 +925,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_809/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_809/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_809/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:robert.merriam@eia.gov">Robert Merriam</a> <br>
@@ -951,7 +951,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                <a href="/survey/form/eia_810/form.xlsx" class="ico_xls">XLS</a><br>
+                <a href="/survey/form/eia_810/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_810/form.pdf" class="ico_pdf">PDF</a><br>
                  <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
                 </td>
@@ -977,7 +977,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal                 Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                <a href="/survey/form/eia_812/form.xlsx" class="ico_xls">XLS</a><br>
+                <a href="/survey/form/eia_812/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_812/form.pdf" class="ico_pdf">PDF</a><br>
                 <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
                 </td>
@@ -1004,7 +1004,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal                 Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_813/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_813/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_813/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:mark.mayo@eia.gov">Mark Mayo</a><br>
@@ -1029,7 +1029,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_814/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_814/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_814/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:john.duff@eia.gov">John Duff</a><br>
@@ -1054,7 +1054,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal                 Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_815/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_815/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_815/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:mark.mayo@eia.gov">Mark Mayo</a><br>(202) 586-3536</td>
@@ -1077,7 +1077,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal                 Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_816/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_816/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_816/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:sasha.abdalla@eia.gov">Sasha Abdalla</a><br>
@@ -1103,7 +1103,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation:  Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-               <a href="/survey/form/eia_817/form.xlsx" class="ico_xls">XLS</a><br>
+               <a href="/survey/form/eia_817/form.xlsx">XLS</a><br>
                <a href="/survey/form/eia_817/form.pdf" class="ico_pdf">PDF</a><br>
                 <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a>
                </td>
@@ -1130,7 +1130,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
               <td>
-                  <a href="/survey/form/eia_819/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_819/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_819/form.pdf" class="ico_pdf">PDF</a><br>
                   <a href="/survey/form/pedro/index.html" class="ico_pedro">PEDRO</a></td>
               <td><a href="mailto:chris.buckner@eia.gov">Chris Buckner</a><br>
@@ -1155,7 +1155,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory <br>
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
-              <td><a href="/survey/form/eia_820/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_820/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_820/form.pdf" class="ico_pdf">PDF</a> <br></td>
               <td><a href="mailto:julie.harris@eia.gov">Julie Harris</a><br>
                 (202) 586-6281</td>
@@ -1182,7 +1182,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal
                     Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
-              <td><a href="/survey/form/eia_821/form.xls" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_821/form.xls">XLS</a><br>
                 <a href="/survey/form/eia_821/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:daniel.walzer@eia.gov">Daniel Walzer</a><br>
                 (202) 586-3511</td>
@@ -1203,7 +1203,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public  Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b).</p>
                 </div></td>
 
-              <td><a href="/survey/form/eia_826/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_826/form.xlsx">XLS</a><br>
                 <a href="https://signon.eia.doe.gov/ssoserver/login">E-file</a><br>
                <a href="/survey/form/eia_826/form.pdf" class="ico_pdf">PDF</a></td>
               <td></td>
@@ -1296,7 +1296,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory <br>
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52; Public Law 94-163 (Energy Policy and Conservation Act), Sec. 252, 253, 254 and 507</p>
                 </div></td>
-              <td><a href="/survey/form/eia_856/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_856/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_856/form.pdf" class="ico_pdf">PDF</a> <br></td>
               <td><a href="mailto:elizabeth.scott@eia.gov">Elizabeth Scott</a><br>
                 (202) 586-1258</td>
@@ -1321,7 +1321,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Reporting Requirement: Mandatory <br>
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
-              <td><a href="/survey/form/eia_857/form.xlsx" class="ico_xls">XLS</a><br>
+              <td><a href="/survey/form/eia_857/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_857/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:jennifer.wade@eia.gov">Jennifer Wade</a><br>
                 (202) 586-4749</td>
@@ -1367,7 +1367,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 </div></td>
               <td>
                   <a href="https://signon.eia.doe.gov/ssoserver/login">E-file</a><br>
-                  <a href="/survey/form/eia_860/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_860/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_860/form.pdf" class="ico_pdf">PDF</a></td>
               <td><p><a href="mailto:Suparna.Ray@eia.gov">Suparna Ray</a><br>
                   (202) 586-5077</p>
@@ -1429,7 +1429,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 </div></td>
               <td>
               <a href="https://signon.eia.doe.gov/ssoserver/login">E-file</a><br>
-              <a href="/survey/form/eia_861/form.xlsx" class="ico_xls">XLS</a><br>
+              <a href="/survey/form/eia_861/form.xlsx">XLS</a><br>
               <a href="/survey/form/eia_861/form.pdf" class="ico_pdf">PDF</a><br>
                               </td>
 
@@ -1453,7 +1453,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 </div></td>
               <td>
               <a href="https://signon.eia.doe.gov/ssoserver/login">E-file</a><br>
-              <a href="/survey/form/eia_861m/form.xlsx" class="ico_xls">XLS</a><br>
+              <a href="/survey/form/eia_861m/form.xlsx">XLS</a><br>
               <a href="/survey/form/eia_861m/form.pdf" class="ico_pdf">PDF</a></td>
               <td><p><a href="mailto:peter.wong@eia.gov">Peter Wong</a><br>
                   (202) 586-7574</p></td>
@@ -1476,7 +1476,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                 </div></td>
               <td>
                   <a href="https://signon.eia.doe.gov/ssoserver/login">E-file</a><br>
-                  <a href="/survey/form/eia_861s/form.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_861s/form.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_861s/form.pdf" class="ico_pdf">PDF</a></td>
               <td><p><a href="mailto:stephen.scott@eia.gov">Stephen Scott</a><br>
                   202-586-5140 </p></td>
@@ -1505,7 +1505,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Public Law 94-163 (Energy Policy and Conservation Act), Sec. 507</p>
                 </div></td>
               <td>
-              	<!--a href="/survey/form/eia_863/form.xls" class="ico_xls">XLS</a><br /-->
+              	<!--a href="/survey/form/eia_863/form.xls">XLS</a><br /-->
                 <a href="/survey/form/eia_863/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:amerine.woodyard@eia.gov">Amerine Woodyard</a><br>
                 (202) 586-1256</td>
@@ -1632,7 +1632,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
              <td valign="top"><p>Schedule A:<br>
                   <a href="/survey/form/eia_878/form_a.pdf" class="ico_pdf">PDF</a></p>
                 <p>Schedule B:<br>
-                  <a href="/survey/form/eia_878/form_b.xlsx" class="ico_xls">XLS</a><br>
+                  <a href="/survey/form/eia_878/form_b.xlsx">XLS</a><br>
                   <a href="/survey/form/eia_878/form_b.pdf" class="ico_pdf">PDF</a></p></td>
               <td><a href="mailto:amerine.woodyard@eia.gov">Amerine Woodyard</a><br>
                 (202) 586-1256</td>
@@ -1737,7 +1737,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal
                     Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</p>
                 </div></td>
-              <td><a href="/survey/form/eia_910/form.xlsx" class="ico_xls">XLS<br>
+              <td><a href="/survey/form/eia_910/form.xlsx">XLS<br>
               </a><a href="/survey/form/eia_910/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:vicki.spangler@eia.gov">Vicki Spangler</a><br>
                 (202) 586-8555</td>
@@ -1762,7 +1762,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                   Reporting Requirement: Mandatory <br>
                   Legal Citation: Public Law 93-275 (Federal
                   Energy Administration Act of 1974), Sec. 13(b), 5(a), 5(b), 52</div></td>
-              <td><a href="/survey/form/eia_912/form.xls" class="ico_xls">XLS<br>
+              <td><a href="/survey/form/eia_912/form.xls">XLS<br>
               </a><a href="/survey/form/eia_912/form.pdf" class="ico_pdf">PDF</a></td>
               <td><a href="mailto:Jose.Villar@eia.gov">Jose Villar</a><br>(202) 586-9613</td>
             </tr>
@@ -1777,7 +1777,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 									<a href="/survey/form/eia_914/2014/faqs.php">Frequently Asked Questions</a> &nbsp;&nbsp;| &nbsp;
 								<a href="/survey/form/eia_914/2014/instructions.pdf" class="ico_pdf">Instructions</a> &nbsp;|&nbsp;&nbsp;
 								<a href="/survey/form/eia_914/2014/form.pdf" class="ico_pdf">Form</a> &nbsp;&nbsp;| &nbsp;
-								<a href="/survey/form/eia_914/2014/form.xls" class="ico_xls">XLS</a>
+								<a href="/survey/form/eia_914/2014/form.xls">XLS</a>
 								</p-->
 
                 <p style="border:1px solid #CCCCCC;padding:8px; margin-right:75px;"><strong><a href="/survey/notice/petngproduction2017.php">Comment on proposed survey form revisions:</a></strong><br>
@@ -1856,7 +1856,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
                     Legal Citation: Public Law 93-275 (Federal Energy Administration Act of 1974), Sec. 13(b).</p>
                 </div></td>
               <td>                <a href="https://signon.eia.doe.gov/ssoserver/login">E-file</a><br>
-                <a href="/survey/form/eia_923/form.xlsx" class="ico_xls">XLS</a><br>
+                <a href="/survey/form/eia_923/form.xlsx">XLS</a><br>
                 <a href="/survey/form/eia_923/form.pdf" class="ico_pdf">PDF</a></td>
               <td><p><a href="mailto:EIA-923@eia.gov">EIA-923@eia.gov</a><br>
                    </p></td>

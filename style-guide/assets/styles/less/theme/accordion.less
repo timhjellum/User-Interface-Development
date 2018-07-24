@@ -1,5 +1,8 @@
 
 @media @mobile {
+//	.dilly {
+//		border: 3px solid red;
+//	}
 	.accordion {
 		background-color: white;
 		margin-bottom: 2em;
@@ -43,7 +46,7 @@
 			background-image: none;
 		}
 	}
-    .content {
+    .accordion-content {
         font-size: 12px;
         padding: 0;
         margin: 0;
@@ -76,11 +79,13 @@
                     color: @eia-dark-grey;
                 }
                 .release-date {
-                    .italic;
+					.italic;
+					color: #999;
                 }
                 .date {
                     font-style: normal;
-				}
+					color: #999;
+                }
 				&.list-item {
 					&>ul {
 						margin-top: 12px;
@@ -100,7 +105,7 @@
 		}
 		&>ul{
 			padding: 14px 0;
-			margin: 0 27px;
+			margin: 0 20px; // 27px;
 			border-bottom: dashed 1px #d8d8d8;
             &:last-child {
                 border-bottom: none;
@@ -108,7 +113,6 @@
             }
             &>li {
 				&.head {
-					.bold;
 					margin-top: 12px;
 					&:first-child {
 						margin-top: 0;
@@ -135,7 +139,7 @@
 				margin: 0;
 				padding: 0;
 				width: 100%;
-				li {
+				&>li {
 					padding: 0 27px;
 					&:first-child {
 						padding-top: 12px;
@@ -155,6 +159,14 @@
 		}
 	}
 	.expand-collapse-container {
+		.font;
+		font-size: 0.750rem * 1.20%; // 
+		color: @eia-blue;
+		display: block;
+		width: 100%;
+		height: 12px;
+		margin-top: 12px;
+		text-transform: uppercase;
 		i {
 			&.ico {
 				.right;
@@ -177,13 +189,14 @@
 				}
 			}
 		}
-		.font;
-		font-size: 0.750rem * 1.20%; // 
-		color: @eia-blue;
-		display: block;
-		width: 100%;
-		height: 20px;
-		text-transform: uppercase;
+	}
+	h2 {
+		.expand-collapse-container {
+			width: 200px;
+			padding-top: 4px;
+			.right;
+			margin-top: 0;
+		}
 	}
 }
 @media @tablet {
@@ -192,11 +205,13 @@
 			font-size: 1.2rem; // 16 pixels
 		}
 	}
+	.accordion-content {
+		&>ul{ 
+			padding: 14px 0;
+			margin: 0 20px; // 27px;
+		}
+	}
 	.expand-collapse-container {
 		font-size: 0.750rem; // 12 pixels
 	}
 }
-
-
-
-//

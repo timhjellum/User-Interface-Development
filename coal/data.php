@@ -6,7 +6,7 @@ $locale = 'data';
 ?>
     <html>
 
-    <head>
+<head>
         <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
         <title>
             <?=$pageTitle?> -
@@ -14,19 +14,19 @@ $locale = 'data';
         </title>
     </head>
 
-    <body>
-        <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
-        <?php include('./includes/sub-navigation.inc'); ?>
+<body>
+        <?php include('global/header/includes/header.inc') ?>
+        <?php include('includes/sub-navigation.inc'); ?>
         <div class="l-row">
             <div class="l-main-col">
-                <?php include('./includes/data.inc'); ?>
-                <?php include('./includes/weeklies.inc'); ?>
-            </div>
+                <?php include('includes/data.inc'); ?>
+                <?php include('includes/weeklies.inc'); ?>
+                </div>
             <div class="l-narrow-col">
-                <?php include('./includes/data-side-content.inc') ?>
+                <?php include('includes/data-side-content.inc') ?>
             </div>
-        </div>
+                </div>
         <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
-    </body>
+</body>
 
-    </html>
+</html>

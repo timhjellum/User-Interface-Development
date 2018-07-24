@@ -5,20 +5,21 @@
 
 class ScrollTo {
     constructor() {
-        //console.log('hash');
 
         // Get hash from query string
         //var hash = window.location.hash;
-        var hashValue = decodeURI(window.location.hash);
 
 
-        //console.log(hashValue);
-        console.log(hashValue.substr(1));
 
-        //        if (hash) {
-        var nameValue = $(hashValue.substr(1));
-        $('[name="ElementNameHere"]').parent().parent().css('border', '3px solid red');
-        //      }
+//console.log(hashValue);
+//        console.log(hashValue.substr(1));
+
+//    if (hashValue) {
+//        var nameValue = $(hashValue.substr(1));
+//        $('a[name="'+ nameValue +'"]').addClass('border');
+//        console.log('dilly');
+//       }
+//    }
 
 
 

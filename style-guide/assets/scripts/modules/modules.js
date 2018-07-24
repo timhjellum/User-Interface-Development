@@ -2,8 +2,8 @@ class ModuleScripts {
     constructor() {
         //this.moduleVisualizations = $(".visualizations h3 a:empty");
         //this.moduleLinkList = $(".link-list a:empty");
-        this.hideDescriptionIfEmpty = $(".slider-home h3 a:empty");
-        this.hideElementIfEmpty = $(".hide-mt a:empty");
+        //this.hideDescriptionIfEmpty = $(".slider-home h3 a:empty");
+        //this.hideElementIfEmpty = $(".hide-mt a:empty");
         // these scripts look for an empty element and then hides the parent element
         //        this.moduleLinkList.each((index, element) => {
         //            $(element).parent().addClass("hide"); 
@@ -12,9 +12,38 @@ class ModuleScripts {
         //            $(element).closest('li').addClass("hide"); 
         //        })
 
+
+        $('a').each(function() {
+            var a = new RegExp('/' + window.location.host + '/');
+            //if (!a.test(this.href) && ($(this).find('img').length === 0) && ($(this).attr('href'))) {
+            //    $(this).addClass('external-link');
+            //}
+            if (!a.test(this.href) && ($(this).find('img').length === 1) && ($(this).attr('href'))) {
+                $(this).addClass('external-image-link');
+            }
+        });
+
+/*
+if(window.location.href.indexOf("eia.gov")!=-1) {
+    $(this).removeClass("specialbrand");
+    console.log("yep");
+}
+*/
+
+
+
         this.events();
     }
+
+
+
+
+
+
     events() {
+
+
+
         //this.hideElementIfEmpty.each((index, element) => {
         //    $(element).closest('li').addClass("hide"); 
         //});
@@ -22,17 +51,7 @@ class ModuleScripts {
 
 
 
-        // if home slider slider href contains "?", append &x=z, else, append ?x=z
-        $('.slider-home h2 a, .slider-home h3 a').attr("href", function(ind, attr) {
 
-            var slideOrder = $(this).parents('li').attr('class');
-            var hash_position = attr.indexOf('#');
-            var new_url_argument = /\?/.test(attr) ? '&src=home-' + slideOrder : '?src=home-' + slideOrder;
-
-            // if there is no hash in the url, then add the new argument to the end, otherwise insert before the hash.
-            return hash_position == -1 ? (attr + new_url_argument) : attr.substring(0, hash_position) + new_url_argument + attr.substring(hash_position, attr.length)
-                //return /\?/.test(attr) ? attr + '&src=home-' + pos : attr + '?src=home-' + pos;
-        });
 
 
 
@@ -44,51 +63,46 @@ class ModuleScripts {
         $('.slider-home h3 a').each(function() {
             if ($(this).text().trim().length <= 0) {
                 $(this).parent().parent().addClass("no-description");
-                console.log('no description on slider so adding a no-description class');
+                //console.log('no description on slider so adding a no-description class');
             }
         });
 
         $('div.energy-education h2 a').each(function() {
             if ($(this).text().trim().length <= 0) {
                 $(this).parent().parent().parent().parent().remove();
-                console.log('removing empty element');
+                //console.log('removing empty element');
             }
         });
         $('div.energy-education li.foot a').each(function() {
             if ($(this).attr('href').length <= 0) {
                 $(this).remove();
-                console.log('removing empty element');
+                //console.log('removing empty element');
             }
         });
-        $('.visualizations h3 a').each(function() {
+        $('.visualizations a').each(function() {
             if ($(this).text().trim().length <= 0) {
-                $(this).parent().parent().remove();
-                console.log('removing empty element');
+                $(this).parent().remove();
+                //console.log('removing empty element');
             }
         });
-
+        $('ul.updated-data-series a').each(function() {
+            if ($(this).attr('href').length <= 0) {
+                $(this).parent().remove();
+                //console.log('removing empty element');
+            }
+        });
         $('.secondary .icon a').each(function() {
             if ($(this).attr('href').length <= 0) {
                 $(this).closest('li').remove();
-                console.log('removing empty element');
+                //console.log('removing empty element');
             }
         });
         $('.secondary.hide-mt a').each(function() {
             if ($(this).attr('href').length <= 0) {
                 $(this).parent().remove();
-                console.log('hiding "secondary.hide-mt" empty element');
+                //console.log('hiding "secondary.hide-mt" empty element');
             }
         });
-
-        if($('a').find('img').length > 0) {
-            console.log("There is an image.");
-         } else {
-            console.log("There isn't an image.");
-         }
-
-
-
-
 
         //        $('.hide-mt a').each(function() {
         //            if ($(this).text().trim().length <= 0) {

@@ -1,14 +1,14 @@
-<?php $l2id = 7; ?>
-<?php $sectionname = "Renewable & Alternative Fuels"; ?>
 <?php
-$directory = "renewables"; // renewables
-$subNavLink02URL = "data.php"; // data.php
-$subNavLink02Label = "Data"; // Data
+$l2id = 7;
+$sectionname = "Renewable & Alternative Fuels";
+$directory = "renewable"; 
 
-$subNavLink03URL = "reports.php"; // reports.php
-$subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
+$subNavLink02URL = "data.php"; 
+$subNavLink02Label = "Data"; 
 
-// dropdown one
+$subNavLink03URL = "reports.php"; 
+$subNavLink03Label = "Analysis & Projections"; 
+
 $menu01link01URL    = "data.php#summary";
 $menu01link01Label  = "Summary";
 $menu01link02URL    = "data.php#biomass";
@@ -26,10 +26,8 @@ $menu01link07Label  = "Alternative transportation fuels";
 $menu01link08URL    = "data.php";
 $menu01link08Label  = "All renewable & alternative fuels data reports";
 
-// dropdown one
-// dropdown one
-$menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
+$menu02Title01 = "Major Topics"; 
+$menu02Title02 = "Find by"; 
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -38,10 +36,10 @@ $menu02link02Label = "Recurring";
 $menu02link03URL = "browsebytag.php?tagcloud";
 $menu02link03Label = "Tag Cloud";
 
-$glossaryURL = "/glossary/?id=renewable"; // /glossary/
-$glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/#renewable"; ///tools/faqs/
-$faqLabel = "FAQS"; // FAQ
+$glossaryURL = "/glossary/?id=renewable"; 
+$glossaryLabel = "Glossary";
+$faqURL = "/tools/faqs/#renewable";
+$faqLabel = "FAQS";
 ?>
 
 
@@ -113,9 +111,7 @@ $faqLabel = "FAQS"; // FAQ
                                     </div>
                                 </div>
                                 <div class="l-row">
-                                    <ul class="l-two-third-col">
-                                        <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                    </ul>
+                                    <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
                                     <ul class="l-one-third-col">
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">

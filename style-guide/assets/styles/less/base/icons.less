@@ -14,7 +14,7 @@
 		&.logo {
 			text-indent: -9999px;
 			font-size: 0;			
-			float: left;
+			.left;
 			transition: all 0.3s ease-in-out;
 
 			&:before {
@@ -60,7 +60,7 @@
 		&:before {
 			.icon-down-arrow();
 			.controls-icon(14px, 16px);
-			float: left;
+			.left;
 			margin-right: 6px;
 //			background-position: bottom center;
 		}
@@ -70,7 +70,7 @@
 		&:before {
 			.icon-up-arrow();
 			.controls-icon(14px, 16px);
-			float: left;
+			.left;
 			margin-right: 6px;
 //			background-position: bottom center;
 		}
@@ -82,7 +82,7 @@
 		&:before {
 			.icon-down-arrow();
 			.controls-icon(12px, 14px);
-			float: left;
+			.left;
 			margin-right: 3px;
 	
 		}
@@ -93,7 +93,7 @@
 		&:before {
 			.icon-up-arrow();
 			.controls-icon(12px, 14px);
-			float: left;
+			.left;
 			margin-right: 3px;
 		}
 	}
@@ -104,7 +104,7 @@
 		&:before {
 			.icon-right-arrow-head();
 			.controls-icon(14px, 14px);
-			float: left;
+			.left;
 			margin: 6px 0 0 4px;
 		}
 	}
@@ -945,10 +945,7 @@
 				.controls-icon(20px, 20px);
 			}
 		}
-//		@eia-muted-blue: #66a0b9;
-//		@eia-muted-green: ;
-//		@eia-muted-brown: ;
-		
+	
 		&.residential {
 			&:before {
 				.icon-residential();
@@ -1110,6 +1107,24 @@
 				display: inline-block;
 			}
 		}
+		&.tour {
+			&:before {
+				.icon-tour();
+				.controls-icon(20px, 20px);
+				display: inline-block;
+				position: relative;
+				top: 4px;
+			}
+		}
+		&.info {
+			&:before {
+				.icon-info();
+				.controls-icon(20px, 20px);
+				display: inline-block;
+				position: relative;
+				top: 4px;
+			}
+		}
 	}
 
 
@@ -1204,7 +1219,7 @@
 		&.arrow-right {
 			width: 0;
 			height: 0;
-			float: right;
+			.right;
 			margin: 7px 0 0 6px;
 			border-top: 4px solid transparent;
 			border-bottom: 4px solid transparent;
@@ -1213,7 +1228,7 @@
 		&.arrow-down {
 			width: 0;
 			height: 0;
-			float: right;
+			.right;
 			margin: 13px 0 0 6px;
 			border-top: 4px solid @eia-blue;
 			border-right: 4px solid transparent;
@@ -1276,7 +1291,7 @@
 				&:before {
 					.controls-icon(20px, 20px);
 					.icon-search(@eia-greyish-blue);
-					float: right;
+					.right;
 					margin: 10px;;
 				}
 			}

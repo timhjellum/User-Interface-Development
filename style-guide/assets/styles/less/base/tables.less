@@ -50,7 +50,7 @@
         }
         caption {
             font-size: .938rem; //15px / 11pt;
-            text-align: left;
+            .align-left;
             caption-side: top;
             color: @eia-dark-grey;
             .font;
@@ -81,17 +81,19 @@
         thead {
             tr {
                 &.double-header {
-                    th {
+                    th[colspan] {
+                        border-bottom: 1px solid #d8d8d8;;
+                        border-right: 6px solid #fff;
+                        .align-left;
                         &:last-child {
-                            text-align: left;
-                            border-bottom: 1px solid #d8d8d8;;
+                            border-right: none;
                         }
                     }
                 }
                 th {
                     font-size: .750rem; // 12px;
                     vertical-align: top;
-                    text-align: left;                     
+                    .align-left;                     
                     padding: 6px 0 5px 0;
                     color: @eia-dark-grey;
                     .font;
@@ -106,20 +108,20 @@
                         border-color: transparent;
                     }
                     &.left {
-                        float: left;
+                        .left;
                     }
                     // float right
                     &.right {
-                        float: right;
+                        .right;
                     }
                     &.align-left {
-                        text-align: left;
+                        .align-left;
                     }
                     &.align-center {
                         text-align: center;
                     }
                     &.align-right {
-                        text-align: right;
+                        .align-right;
                     }
                     &.align-top {
                         vertical-align: top;
@@ -156,7 +158,7 @@
                     color: @eia-dark-grey;
                     .font;
                     vertical-align: top;
-                    text-align: left;
+                    .align-left;
                     padding: 6px 10px 5px 10px;
                     h4 {
                         margin: 0;
@@ -177,20 +179,20 @@
                         border-color: transparent;
                     }
                     &.left {
-                        float: left;
+                        .left;
                     }
                     // float right
                     &.right {
-                        float: right;
+                        .right;
                     }
                     &.align-left {
-                        text-align: left;
+                        .align-left;
                     }
                     &.align-center {
                         text-align: center;
                     }
                     &.align-right {
-                        text-align: right;
+                        .align-right;
                     }
                     &.align-top {
                         vertical-align: top;
@@ -235,7 +237,7 @@
                     color: @eia-dark-grey;
                     .font;
                     vertical-align: top;
-                    text-align: left;                     
+                    .align-left;                     
                     padding: 6px 10px 5px 10px; 
                 }
             }    
@@ -268,29 +270,29 @@
                     th {
                         vertical-align: bottom;
                         border-bottom: 1px solid #d8d8d8;;
-                        text-align: right;
+                        .align-right;
                         .bold;
                         &:first-child {
-                            text-align: left;
+                            .align-left;
                         }
                         &.no-border {
                             border-color: transparent;
                         }
                         &.left {
-                            float: left;
+                            .left;
                         }
                         // float right
                         &.right {
-                            float: right;
+                            .right;
                         }
                         &.align-left {
-                            text-align: left;
+                            .align-left;
                         }
                         &.align-center {
                             text-align: center;
                         }
                         &.align-right {
-                            text-align: right;
+                            .align-right;
                         }
                         &.align-top {
                             vertical-align: top;
@@ -307,29 +309,29 @@
             tbody {
                 tr {
                     td {
-                        text-align: right;
+                        .align-right;
                         border-bottom: 1px dashed #d8d8d8;;
                         &:first-child {
-                            text-align: left;
+                            .align-left;
                         }
                         &.no-border {
                             border-color: transparent;
                         }
                         &.left {
-                            float: left;
+                            .left;
                         }
                         // float right
                         &.right {
-                            float: right;
+                            .right;
                         }
                         &.align-left {
-                            text-align: left;
+                            .align-left;
                         }
                         &.align-center {
                             text-align: center;
                         }
                         &.align-right {
-                            text-align: right;
+                            .align-right;
                         }
                         &.align-top {
                             vertical-align: top;
@@ -359,9 +361,9 @@
             tfoot {
                 tr {
                     td {
-                        text-align: right;
+                        .align-right;
                         &:first-child {
-                            text-align: left;
+                            .align-left;
                         }
                     }
                     &:last-child {
@@ -545,7 +547,7 @@
                     th {
                         //font-size: .750rem; // 12px;
                         //vertical-align: top;
-                        //text-align: left;                    
+                        //.align-left;                    
                         //padding: 6px 10px 5px 10px;
                         //.bold;
                         //font-weight: normal;
@@ -559,20 +561,20 @@
                             border-color: transparent;
                         }
                         &.left {
-                            float: left;
+                            .left;
                         }
                         // float right
                         &.right {
-                            float: right;
+                            .right;
                         }
                         &.align-left {
-                            text-align: left;
+                            .align-left;
                         }
                         &.align-center {
                             text-align: center;
                         }
                         &.align-right {
-                            text-align: right;
+                            .align-right;
                         }
                         &.align-top {
                             vertical-align: top;
@@ -662,7 +664,7 @@
     .double-header th[colspan]{
         border-bottom: 1px solid #d8d8d8;;
         border-right: 6px solid #fff;
-        text-align: left;
+        .align-left;
     }
     .double-header th[colspan]:last-child{
         border-right:none;
@@ -692,7 +694,7 @@
         tbody td,
         tbody th,
         th:first-child {
-            text-align: left;
+            .align-left;
         }
     }
 
@@ -716,7 +718,7 @@
         th[colspan] {
             border-bottom: 1px solid #d8d8d8;;
             border-right: 6px solid #fff;
-            text-align: left;
+            .align-left;
         }
         th[colspan]:last-child{
             border-right:none;
@@ -783,10 +785,10 @@
         vertical-align: top;
     }
     td, th {
-        text-align: right;
+        .align-right;
     }
     td:first-child, th:first-child {
-        text-align: left;
+        .align-left;
     }
     td:first-child {
         padding-left:10px;
@@ -822,7 +824,7 @@
     }
     &.all_left td, &.all_left th,
     &.all_left tbody tr:first-child td, &.all_left tbody .section td {
-        text-align: left;
+        .align-left;
         padding-left: 10px;
     }
     
@@ -882,7 +884,7 @@
     background-color: #003C57;
     font-size: 0.75em;
     font-weight: normal;
-    text-align: left;
+    .align-left;
     padding: 5px 10px;
     vertical-align: middle;
     border-bottom: 1px solid #fff;
@@ -921,7 +923,7 @@
             background-color: none;
             margin: .5em .75em;
             font-size: .938rem; //15px / 11pt;
-            text-align: left;
+            .align-left;
             .bold;
             caption-side: top;
         }
@@ -995,7 +997,7 @@
         .double-header th[colspan] {
             border-bottom: 1px solid #d8d8d8;;
             border-right: 6px solid #fff;
-            text-align: left;
+            .align-left;
         }
         .double-header th[colspan]:last-child {
             border-right: none;

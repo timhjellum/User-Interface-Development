@@ -5,23 +5,23 @@
 
 $OneURL = "/beta/MER/?tbl=T01.01#/?f=M";
 $OneLabel = "Primary energy overview";
-$OneDate = "04/26/2018";
+$OneDate = "06/26/2018";
 
 $TwoURL = "/beta/MER/?tbl=T01.06#/?f=M";
 $TwoLabel = "Cost of fuels to end users in real dollars";
-$TwoDate = "04/26/2018";
+$TwoDate = "06/26/2018";
 
 $ThrURL = "/beta/MER/?tbl=T02.01#/?f=M";
 $ThrLabel = "Energy consumption by sector";
-$ThrDate = "04/26/2018";
+$ThrDate = "06/26/2018";
 
 $FouURL = "/beta/MER/?tbl=T03.03C#/?f=M";
 $FouLabel = "Imports from OPEC Countries";
-$FouDate = "04/26/2018";
+$FouDate = "06/26/2018";
 
 $FivURL = "/beta/MER/?tbl=T03.03D#/?f=M";
 $FivLabel = "Imports from Non-OPEC Countries";
-$FivDate = "04/26/2018";
+$FivDate = "06/26/2018";
 
 $SixURL = "";
 $SixLabel = "";

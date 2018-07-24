@@ -5,11 +5,11 @@
 
 $OneURL = "/electricity/data/browser/#/topic/0?agg=1,0,2&fuel=08&geo=vvvvvvvvvvvvo&sec=o3g&linechart=ELEC.GEN.NUC-US-99.M~ELEC.GEN.NUC-PA-99.M~ELEC.GEN.NUC-IL-99.M&columnchart=ELEC.GEN.NUC-US-99.M~ELEC.GEN.NUC-PA-99.M~ELEC.GEN.NUC-IL-99.M&map=ELEC.GEN.NUC-US-99.M&freq=M";
 $OneLabel = "Net generation from nuclear, monthly";
-$OneDate = "04/24/2018";
+$OneDate = "06/25/2018";
 
 $TwoURL = "/nuclear/generation/";
 $TwoLabel = "U.S. Nuclear Generation and Generating Capacity";
-$TwoDate = "04/25/2018";
+$TwoDate = "06/28/2018";
 
 $ThrURL = "";
 $ThrLabel = "";

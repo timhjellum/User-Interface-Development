@@ -1,27 +1,27 @@
 <?php
-/* edit the link URL, Label and Date below */
+/* edit the link Url, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "residential";
-$itemOneHeadURL = "/consumption/residential/";
+$itemOneHeadUrl = "/consumption/residential/";
 $itemOneHeadLabel = "RESIDENTIAL ENERGY CONSUMPTION SURVEY (RECS)";
-$itemOneSubheadURL = "/consumption/residential/";
+$itemOneSubheadUrl = "/consumption/residential/";
 $itemOneSubheadLabel = "A nationally representative sample of housing units that specially trained interviewers collect energy characteristics, usage patterns, and household demographics.";
 $itemOneFootUrl = "/consumption/residential/";
 $itemOneFootLabel = "view the RECS";
 
 $itemTwoIcon = "commercial";
-$itemTwoHeadURL = "/consumption/commercial/";
+$itemTwoHeadUrl = "/consumption/commercial/";
 $itemTwoHeadLabel = "COMMERCIAL BUILDING ENERGY CONSUMPTION SURVEY (CBECS)";
-$itemTwoSubheadURL = "/consumption/commercial/";
+$itemTwoSubheadUrl = "/consumption/commercial/";
 $itemTwoSubheadLabel = "A national sample survey that collects information on the stock of U.S. commercial buildings, including their energy-related building characteristics and energy usage data.";
 $itemTwoFootUrl = "/consumption/commercial/";
 $itemTwoFootLabel = "view the CBECS";
 
 $itemThrIcon = "industrial";
-$itemThrHeadURL = "/consumption/manufacturing/";
+$itemThrHeadUrl = "/consumption/manufacturing/";
 $itemThrHeadLabel = "MANUFACTURING ENERGY CONSUMPTION SURVEY (MECS)";
-$itemThrSubheadURL = "/consumption/manufacturing/";
+$itemThrSubheadUrl = "/consumption/manufacturing/";
 $itemThrSubheadLabel = "A national sample survey that collects information on the U.S. manufacturing establishment, their energy-related building characteristics, and their energy usage and expenditures";
 $itemThrFootUrl = "/consumption/manufacturing/";
 $itemThrFootLabel = "view the MECS";

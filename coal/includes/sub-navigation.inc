@@ -34,20 +34,22 @@ $menu01link11Label = "International";
 $menu01link12URL = "data.php";
 $menu01link12Label = "All coal data reports";
 
-$menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title02 = "Find by"; // Find by
+$menu02Title01 = "Major Topics";
+$menu02Title02 = "Find by";
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
+
 $menu02link02URL = "reports.php#/T192,T182,T198,T1564,T1568";
 $menu02link02Label = "Recurring";
+
 $menu02link03URL = "browsebytag.php?tagcloud";
 $menu02link03Label = "Tag Cloud";
 
-$glossaryURL = "/glossary/?id=coal"; // /glossary/
-$glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/"; ///tools/faqs/
-$faqLabel = "FAQS"; // FAQ
+$glossaryURL = "/glossary/?id=coal";
+$glossaryLabel = "Glossary";
+$faqURL = "/tools/faqs/";
+$faqLabel = "FAQS";
 ?>
 
 
@@ -135,9 +137,9 @@ $faqLabel = "FAQS"; // FAQ
                                     </div>
                                 </div>
                                 <div class="l-row">
-                                    <ul class="l-two-third-col">
-                                        <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                    </ul>
+
+                                        <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
+
                                     <ul class="l-one-third-col">
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">

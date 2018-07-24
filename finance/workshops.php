@@ -18,13 +18,13 @@ $l2id = 10;
     </head>
 
     <body>
-        <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
+        <?php include('global/header/includes/header.inc') ?>
         <?php include('./includes/sub-navigation.inc'); ?>
         <div class="l-row">
             <div class="l-main-col">
 
 
-                <div class="content">
+                <div class="accordion-content">
                     <h2>Financial and physical Oil Market Linkages Workshop (September 19, 2017)</h2>
 
                     <ul>

@@ -10,8 +10,8 @@
 		}
 	}
 	?>
-	<?php include('header-shared.inc') ?>
+	<?php include('global/header/includes/header-shared.inc') ?>
 	<section>
 		<div class="l-outer-wrapper">
-			<div class="l-inner-wrapper">
+			<div class="l-inner-wrapper <?=$locale?>">
 				<?php include('global/announcements/includes/announcement-responsive.inc') ?>

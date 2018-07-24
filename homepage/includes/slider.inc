@@ -2,39 +2,39 @@
 /* edit the link URL, Title and Date below */
 /* no need to add the  > or the &nbsp;› or the  &rsaquo; */
 
-$slideOneURL = "/petroleum/drilling/";
+$slideOneUrl = "/petroleum/drilling/";
 $slideOneImageName = "slide01.jpg";
 $slideOneTitle = "Drilling Productivity Report";
 $slideOneDescription = "Assessing the productivity of oil and natural gas drilling operations&#8212;May 2018 report";
 
-$slideTwoURL = "/outlooks/steo/";
+$slideTwoUrl = "/outlooks/steo/";
 $slideTwoImageName = "slide02.jpg";
 $slideTwoTitle = "Short-Term Energy Outlook May 2018";
 $slideTwoDescription = "Energy projections for supply, demand, and prices";
 
-$slideFourURL = "/conference/2018/";
+$slideFourUrl = "/conference/2018/";
 $slideFourImageName = "slide04.jpg";
 $slideFourTitle = "2018 EIA Energy Conference";
 $slideFourDescription = "Join the conversation.<br>
 Register today";
 
-$slideThreeURL = "/outlooks/aeo/section_issues.php#npo";
+$slideThreeUrl = "/outlooks/aeo/section_issues.php#npo";
 $slideThreeImageName = "slide03.jpg";
 $slideThreeTitle = "Outlook for U.S. nuclear power generating capacity through 2050";
 $slideThreeDescription = "See sensitivity cases from<br>Annual Energy Outlook 2018";
 
-$slideFiveURL = "/electricity/monthly/update/archive/april2018/";
+$slideFiveUrl = "/electricity/monthly/update/archive/april2018/";
 $slideFiveImageName = "slide05.jpg";
 $slideFiveTitle = "Electricity Monthly Update";
 $slideFiveDescription = "With data for February 2018";
 
-$slideSixURL = "/totalenergy/data/monthly/";
+$slideSixUrl = "/totalenergy/data/monthly/";
 $slideSixImageName = "slide06.jpg";
 $slideSixTitle = "Monthly Energy Review";
 $slideSixDescription = "Recent energy statistics";
 
 /*
-$slideSevURL = "/outlooks/archive/aeo16/section_issues.php#policies";
+$slideSevUrl = "/outlooks/archive/aeo16/section_issues.php#policies";
 $slideSevImageName = "slide07.jpg";
 $slideSevTitle = "Alternative Policies in Power Generation and Energy Demand Markets from the Annual Energy Outlook 2018";
 $slideSevDescription = "";
@@ -43,7 +43,7 @@ $slideSevDescription = "";
 
 /* test slide - you must remove the 'start' and 'end' php comment lines to view the slide */
 
-/*$slideSevURL = "";
+/*$slideSevUrl = "";
 $slideSevImageName = "";
 $slideSevTitle = "";
 $slideSevDescription = "";*/

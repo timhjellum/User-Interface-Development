@@ -1,35 +1,24 @@
-
+<!doctype html>
+<?php
+//$pageTitle = 'U.S. Energy Information Administration (EIA)';
+$L2T = "Total Energy";
+$l2id = 6;
+?>
+<html>
 <head>
-
-	<?php
-	$L2T = "Total Energy";
-	$l2id = 6;
-
-	include("global/includes/bookshelf/bookshelf_legacy_redirects.inc");
-	include("global/includes/eia_head_info.inc");
-	include("global/includes/bookshelf/bookshelf_head.inc");
-	?>
-
+<?php include("global/includes/bookshelf/bookshelf_legacy_redirects.inc") ?>
+<?php include('css_rehab/archive/global/head/includes/head.inc') ?>
+<?php include("global/includes/bookshelf/bookshelf_head.inc") ?>
+<title><?=$pageTitle?> - <?=$L2T?></title>
 </head>
 <body>
-<?php /* Outer Wrapper */ ?>
-<div id="outerX">
-
-	<?php
-	include("global/includes/eia_header.inc");
-	?>
-
-  <?php /* Navigation Menu */ ?>
-  <?php include ('includes/subnav_allsources.inc') ; ?>
-
-	<?php
-	/* Page/Body Content */
-	$l2id = 6;
-	include("global/includes/bookshelf/bookshelf_results.inc");
-	/* End Page/Body Content */
-	include("global/includes/eia_footer.inc");
-	?>
-
+<?php include('global/header/includes/header.inc') ?>
+<?php include('includes/sub-navigation.inc'); ?>
+<div class="l-row">
+	<div class="l-full-width-col">
+	<?php include("css_rehab/archive/global/includes/bookshelf/bookshelf-results.inc") ?>
+	</div>
 </div>
-<?php /* End Outer Wrapper */ ?>
+<?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
+</html>

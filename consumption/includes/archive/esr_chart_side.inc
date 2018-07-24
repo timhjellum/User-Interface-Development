@@ -2,7 +2,7 @@
 <?php /*<h2>Highlights</h2>
     <span>
     <p><b>Figure HL1.</b> Crude Oil and Petroleum Product Wholesale Prices<a href="images/2011-04/fig_HL1_coppwp.jpg" class="lightbox"><img src="images/2011-04/fig_HL1_coppwp_sm.jpg" /></a>
-      <span class="right"><a href="#" class="ico_xls">Download Figure Data</a></span>
+      <span class="right"><a href="#">Download Figure Data</a></span>
     </p>
     </span>*/ ?>
 <?php /*    <h3>Highlights</h3>

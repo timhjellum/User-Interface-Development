@@ -1,25 +1,21 @@
-<?php $l2id = 6; ?>
-<?php $sectionname = "Total Energy"; ?>
-
 <?php
+$l2id = 6;
+$sectionname = "Total Energy";
 
-$directory = "totalenergy"; // petroleum
-$subNavLink02URL = "data.php"; // data.php
-$subNavLink02Label = "Data"; // Data
+$directory = "totalenergy";
+$subNavLink02URL = "data/monthly/index.php";
+$subNavLink02Label = "Data";
 
-$subNavLink03URL = "reports.php"; // reports.php
-$subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
+$subNavLink03URL = "reports.php";
+$subNavLink03Label = "Analysis & Projections";
 
-// dropdown one
 $menu01link01URL = "data/monthly/index.php";
 $menu01link01Label = "Monthly";
 $menu01link02URL = "data/annual/index.php";
 $menu01link02Label = "Annual";
 
-// dropdown one
-// dropdown one
-$menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title02 = "Find by"; // Find by
+$menu02Title01 = "Major Topics";
+$menu02Title02 = "Find by";
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -28,10 +24,10 @@ $menu02link02Label = "Recurring";
 $menu02link03URL = "browsebytag.php?tagcloud";
 $menu02link03Label = "Tag Cloud";
 
-$glossaryURL = "/glossary/"; // /glossary/
-$glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/"; ///tools/faqs/
-$faqLabel = "FAQS"; // FAQ
+$glossaryURL = "/glossary/";
+$glossaryLabel = "Glossary";
+$faqURL = "/tools/faqs/";
+$faqLabel = "FAQS";
 ?>
 
 
@@ -79,9 +75,7 @@ $faqLabel = "FAQS"; // FAQ
                                     </div>
                                 </div>
                                 <div class="l-row">
-                                    <ul class="l-two-third-col">
-                                        <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                    </ul>
+                                        <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
                                     <ul class="l-one-third-col">
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">

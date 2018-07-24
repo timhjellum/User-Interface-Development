@@ -5878,7 +5878,7 @@
           var cfg = coreservices_1.services.locationConfig;
           var isHtml5 = cfg.html5Mode();
           if (!isHtml5 && url !== null) {
-            url = "#" + cfg.hashPrefix() + url;
+            Url = "#" + cfg.hashPrefix() + url;
           }
           url = appendBasePath(url, isHtml5, options.absolute);
           if (!options.absolute || !url) {

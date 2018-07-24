@@ -7,11 +7,11 @@ $mainTitle = "Upcoming Releases";
 
 $OneURL = "/forecasts/steo/";
 $OneLabel = "Short-Term Energy Outlook";
-$OneDate = "5/8/2018";
+$OneDate = "7/10/2018";
 
 $TwoURL = "/totalenergy/data/monthly/";
 $TwoLabel = "Monthly Energy Review";
-$TwoDate = "5/24/2018";
+$TwoDate = "7/26/2018";
 
 $ThrURL = "";
 $ThrLabel = "";

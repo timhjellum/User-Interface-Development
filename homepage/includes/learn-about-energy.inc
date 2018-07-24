@@ -11,17 +11,10 @@ $learnAboutEnergyTwoLabel = "Frequently Asked Questions";
 /* DO NOT EDIT BELOW */
 ?>
 
-    <div class="secondary two">
-        <ul>
-            <li class="head">
-                <h2>Learn About Energy</h2></li>
-            <li>
-                <a href='<?=$learnAboutEnergyOneURL?>' title='<?=$learnAboutEnergyOneLabel?>'>
-                    <?=$learnAboutEnergyOneLabel?>
-                </a></li>
-            <li>
-                <a href='<?=$learnAboutEnergyTwoURL?>' title='<?=$learnAboutEnergyTwoLabel?>'>
-                    <?=$learnAboutEnergyTwoLabel?>
-                </a></li>
-        </ul>
-    </div>
+<div class="secondary two">
+	<ul>
+		<li class="head"><h2>Learn About Energy</h2></li>
+		<li><a href='<?=$learnAboutEnergyOneURL?>' title='<?=$learnAboutEnergyOneLabel?>'><?=$learnAboutEnergyOneLabel?></a></li>
+		<li><a href='<?=$learnAboutEnergyTwoURL?>' title='<?=$learnAboutEnergyTwoLabel?>'><?=$learnAboutEnergyTwoLabel?></a></li>
+	</ul>
+</div>

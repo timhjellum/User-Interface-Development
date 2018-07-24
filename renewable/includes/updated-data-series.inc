@@ -5,15 +5,15 @@
 
 $OneURL = "/totalenergy/data/browser/?tbl=T10.01#/?f=M&start=200001";
 $OneLabel = "Renewable energy production and consumption by source ";
-$OneDate = "04/24/2018";
+$OneDate = "06/25/2018";
 
 $TwoURL = "/electricity/data/browser/#/topic/0?agg=1,0,2&fuel=04&geo=vvvvvvvvvvvvo&sec=o3g&linechart=ELEC.GEN.HYC-US-99.M~ELEC.GEN.HYC-CA-99.M~ELEC.GEN.HYC-OR-99.M~ELEC.GEN.HYC-WA-99.M&columnchart=ELEC.GEN.HYC-US-99.M~ELEC.GEN.HYC-CA-99.M~ELEC.GEN.HYC-OR-99.M~ELEC.GEN.HYC-WA-99.M&map=ELEC.GEN.HYC-US-99.M&freq=M&start=200101&end=201406&ctype=linechart&ltype=pin&rtype=s&maptype=0&rse=0&pin=";
 $TwoLabel = "Net generation for conventional hydroelectric";
-$TwoDate = "04/24/2018";
+$TwoDate = "06/25/2018";
 
 $ThrURL = "/electricity/data/browser/#/topic/0?agg=1,0,2&fuel=02&geo=vvvvvvvvvvvvo&sec=o3g&linechart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&columnchart=ELEC.GEN.AOR-US-99.M~ELEC.GEN.AOR-US-1.M~ELEC.GEN.AOR-US-94.M~ELEC.GEN.AOR-US-96.M~ELEC.GEN.AOR-US-97.M&map=ELEC.GEN.AOR-US-99.M&freq=M&start=200101&end=201406&ctype=linechart&ltype=pin&rtype=s&pin=&rse=0&maptype=0";
 $ThrLabel = "Net generation for other renewables";
-$ThrDate = "04/24/2018";
+$ThrDate = "06/25/2018";
 
 $FouURL = "";
 $FouLabel = "";

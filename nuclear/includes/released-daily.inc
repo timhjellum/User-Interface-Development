@@ -7,9 +7,9 @@ $OneURL = "http://www.eia.gov/beta/outages/";
 $OneLabel = "Status of Nuclear Outages";
 $OnePrefix = "BETA:";
 
-$TwoURL = "/nuclear/generation/";
-$TwoLabel = "U.S. Nuclear Generation and Generating Capacity";
-$TwoDate = "04/25/2018";
+$TwoURL = "";
+$TwoLabel = "";
+$TwoDate = "";
 
 $ThrURL = "";
 $ThrLabel = "";

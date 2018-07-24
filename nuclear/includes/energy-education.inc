@@ -1,29 +1,29 @@
 <?php
-/* edit the link URL, Label and Date below */
+/* edit the link Url, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "nuclear";
-$itemOneHeadURL = "/energyexplained/index.php?page=nuclear_home";
+$itemOneHeadUrl = "/energyexplained/index.php?page=nuclear_home";
 $itemOneHeadLabel = "Nuclear Explained";
-$itemOneSubheadURL = "/energyexplained/index.php?page=nuclear_fuel_cycle";
+$itemOneSubheadUrl = "/energyexplained/index.php?page=nuclear_fuel_cycle";
 $itemOneSubheadLabel = "The nuclear fuel cycle";
-$itemOneSubheadSecURL = "/energyexplained/index.php?page=nuclear_where";
+$itemOneSubheadSecUrl = "/energyexplained/index.php?page=nuclear_where";
 $itemOneSubheadSecLabel = "Where our uranium comes from";
 $itemOneFootUrl = "/energyexplained/index.php?page=nuclear_home";
 $itemOneFootLabel = "See more nuclear topics";
 
 $itemTwoIcon = "faq";
-$itemTwoHeadURL = "/tools/faqs/";
+$itemTwoHeadUrl = "/tools/faqs/";
 $itemTwoHeadLabel = "FAQs";
-$itemTwoSubheadURL = "/tools/faqs/faq.php?id=207&t=21";
+$itemTwoSubheadUrl = "/tools/faqs/faq.php?id=207&t=21";
 $itemTwoSubheadLabel = "How many nuclear power plants are in the U.S. and where are they located?";
 $itemTwoFootUrl = "/tools/faqs/#nuclear";
 $itemTwoFootLabel = "See all nuclear FAQs";
 
 $itemThrIcon = "energy-kids";
-$itemThrHeadURL = "/kids";
+$itemThrHeadUrl = "/kids";
 $itemThrHeadLabel = "Energy Kids";
-$itemThrSubheadURL = "/kids/energy.php?page=nuclear_home-basics";
+$itemThrSubheadUrl = "/kids/energy.php?page=nuclear_home-basics";
 $itemThrSubheadLabel = "Uranium (nuclear) basics";
 $itemThrFootUrl = "/kids/energy.php?page=nuclear_home-basics";
 $itemThrFootLabel = "See Nuclear on Energy Kids";
@@ -49,7 +49,7 @@ $itemThrFootLabel = "See Nuclear on Energy Kids";
                                         <?=$itemOneHeadLabel?>
                                     </a>
                                 </h2></li>
-                            <li class="sub-head">
+                            <li class="sub-head list-spacer">
                                 <a href="<?=$itemOneSubheadUrl?>">
                                     <?=$itemOneSubheadLabel?>
                                 </a></li>

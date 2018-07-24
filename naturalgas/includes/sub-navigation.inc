@@ -29,7 +29,7 @@ $menu01link09URL = "data.php";
 $menu01link09Label = "All natural gas data reports";
 
 $menu02Title01 = "Major Topics"; 
-$menu02Title01 = "Find by"; 
+$menu02Title02 = "Find by"; 
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -117,9 +117,7 @@ $faqLabel = "FAQS";
                                     </div>
                                 </div>
                                 <div class="l-row">
-                                    <ul class="l-two-third-col">
-                                        <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                    </ul>
+                                    <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
                                     <ul class="l-one-third-col">
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">

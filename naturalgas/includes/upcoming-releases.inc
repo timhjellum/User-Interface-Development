@@ -39,7 +39,11 @@ $SixDate = "";
                 <li class="head">
                     <h2>
                         <?=$mainTitle?>
-                    </h2></li>
+                    </h2>
+				</li>
+				<li class="list-spacer">
+					<em>Releases may change on weeks with Federal holidays.</em>
+				</li>
                 <li>
                     <a href='<?=$OneURL?>' title='<?=$OneLabel?>' class="link-label">
                         <?=$OneLabel?><em>: <?=$OneDate?></em></a></li>

@@ -60,7 +60,7 @@
 //		width: 100%;
 		min-height: 1px;
 		margin: 0;
-		float: left;
+		.left;
 	}
 	.l-row {
 		padding: 0 22px;
@@ -223,7 +223,7 @@
 		flex: 0 0 50%;
 		max-width: 50%;
 		width: 50%;
-		float: left;
+		.left;
 	}
 	*/
 }
@@ -250,7 +250,7 @@
 		flex: 0 0 50%;
 		max-width: 50%;
 		width: 50%;
-		float: left;
+		.left;
 		&:first-child {
 			padding: 0 22px 0 0;
 		}		
@@ -289,7 +289,7 @@
 	.l-row {
 		.l-row {
 			padding: 0;
-			.l-two-col,
+//			.l-two-col,
 			.l-two-third-col,
 			.l-one-third-col {
 				&:first-child {
@@ -348,7 +348,7 @@
 	.l-col,
 	.l-narrow-col,
 	.l-one-third-col,
-	.l-two-col,
+//	.l-two-col,
 	.l-middle-col,
 	.l-split-narrow-col,
 	.l-split-wide-col,
@@ -413,14 +413,17 @@
 	}
 
 //	.l-main-col,
-	.l-middle-col,
-	.l-two-col {
+	.l-middle-col
+	/*,
+	.l-two-col
+	*/ {
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
 		max-width: 50%;
 		width: 50%;
+
 	}
 
 	.l-split-wide-col {
@@ -458,6 +461,9 @@
 	.l-row {
 		&>div {
 			padding-right: 44px;
+			&.l-full-width-col {
+				padding-right: 22px;
+			}
 			&:last-of-type {
 				padding-right: 0;
 			}

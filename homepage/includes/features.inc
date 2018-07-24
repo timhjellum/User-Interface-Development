@@ -2,19 +2,19 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› or the  &rsaquo; */
 
-$featureOneURL = "/beta/realtime_grid/";
+$featureOneUrl = "/beta/realtime_grid/";
 $featureOneImageName = "electricity-data-browser.jpg";
 $featureOneAlt = "Electricity Data Browser";
 $featureOneLabel = "Electric System Operating Data Tool";
 $featureOneDescription = "Near real-time electricity operations data for the Lower 48 states.";
 
-$featureTwoURL = "/conference/2018/";
+$featureTwoUrl = "/conference/2018/";
 $featureTwoImageName = "2018-eia-energy-conference.jpg";
 $featureTwoAlt = "Gateway";
 $featureTwoLabel = "2018 Energy Conference";
 $featureTwoDescription = "Registration is now open";
 
-$featureThreeURL = "/state/maps.php";
+$featureThreeUrl = "/state/maps.php";
 $featureThreeImageName = "us-energy-mapping-system.jpg";
 $featureThreeAlt = "U.S. Energy Mapping System";
 $featureThreeLabel = "U.S. Energy Mapping System";
@@ -23,9 +23,9 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 /* DO NOT EDIT BELOW */
 ?>
 
-    <div class="features">
+    <div class="features secondary">
         <h2>Features</h2>
-        <div class="f1 secondary">
+        <div class="f1">
             <div>
                 <a href='<?=$featureOneURL?>'>
 				<img src='/homepage/images/features/<?=$featureOneImageName?>' alt='<?=$featureOneAlt?>' />
@@ -42,7 +42,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
             </ul>
         </div>
 
-        <div class="f2 secondary">
+        <div class="f2">
             <div>
                 <a href='<?=$featureTwoURL?>'>
 				<img src='/homepage/images/features/<?=$featureTwoImageName?>' alt='<?=$featureTwoAlt?>' />
@@ -59,7 +59,7 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
             </ul>
         </div>
 
-        <div class="f3 secondary">
+        <div class="f3">
             <div>
                 <a href='<?=$featureThreeURL?>'>
 				<img src='/homepage/images/features/<?=$featureThreeImageName?>' alt='<?=$featureThreeAlt?>' />

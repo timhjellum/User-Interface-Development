@@ -18,8 +18,10 @@ $menu01link04Label = "All projections reports";
 
 $menu02Title01 = "Major Topics";
 $menu02Title02 = "Find by";
+
 $menu02link01URL = "browsebytag.php"; 
-$menu02link01Label = "Alphabetical"; 
+$menu02link01Label = "Alphabetical";
+ 
 $menu02link02URL = "reports.php#/T186,T182,T198,T1568"; 
 $menu02link02Label = "Recurring"; 
 
@@ -43,7 +45,7 @@ $faqLabel = "FAQS";
                 <div class="left">
                     <ul class="left-nav">
                         <li class="<?php if ( $locale == 'overview') {?>active<?php } ?>"><a href="/<?=$directory?>/">Overview</a></li>
-                        <li class="dropdown dropdown-data <?php if ( $locale == 'projectiondata') {?>active<?php } ?>">
+                        <li class="dropdown-data <?php if ( $locale == 'projectiondata') {?>active<?php } ?>">
                             <a href="/<?=$directory?>/<?=$subNavLink02URL?>" class="dropbtn">
                                 <?=$subNavLink02Label?><i class="ico sort-up"></i></a>
                             <div class="dropdown-data-content dropdown-content">
@@ -66,7 +68,7 @@ $faqLabel = "FAQS";
                                         </a></li>
                                 </ul>
                             </div></li>
-                        <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>">
+                        <li class="dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>">
                             <a href="/<?=$directory?>/<?=$subNavLink03URL?>" class="dropbtn">
                                 <?=$subNavLink03Label?><i class="ico sort-up"></i></a>
                             <div class="dropdown-analysis-projections-content dropdown-content">
@@ -83,9 +85,9 @@ $faqLabel = "FAQS";
                                     </div>
                                 </div>
                                 <div class="l-row">
-                                    <ul class="l-two-third-col">
-                                        <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                    </ul>
+
+                                        <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
+
                                     <ul class="l-one-third-col">
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">

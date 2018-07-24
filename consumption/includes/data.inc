@@ -1,18 +1,18 @@
-<p>Find statistics on energy consumption and efficiency across all fuel sources.</p>
+<div class="primary"><p>Find statistics on energy consumption and efficiency across all fuel sources.</p>
 <span class="expand-collapse-container">
 <i class="ico expand"><span>Expand all</span></i>
 <i class="ico collapse"><span>Collapse all</span></i>
 </span>
-<div id="accordion" class="accordion">
+<div class="accordion">
 
     <h3><a name="rec"></a>Residential Energy Consumption Survey data</h3>
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">
                 <a href="/consumption/residential/data/2015/index.php?view=characteristics">Household characteristics</a></li>
             <li>
                 <span class="release-date">Release Date: </span>
-                <span class="date">February 27, 2017</span></li>
+                <span class="date">May 2018</span></li>
             <li>Characteristics data (including structural features, appliance stock, electronics stock, and square footage)for occupied primary housing units.</li>
         </ul>
         <ul>
@@ -20,7 +20,7 @@
                 <a href="/consumption/residential/data/2015/index.php?view=consumption">Home energy use &amp; costs</a></li>
             <li>
                 <span class="release-date">Release Date: </span>
-                <span class="date">Anticipated Spring 2018</span></li>
+                <span class="date">May 2018</span></li>
             <li>Energy consumption and expenditures for occupied primary housing units by end uses and by fuel.</li>
         </ul>
         <ul>
@@ -28,14 +28,14 @@
                 <a href="/consumption/residential/data/2015/index.php?view=microdata">Detailed household microdata</a></li>
             <li>
                 <span class="release-date">Release Date: </span>
-                <span class="date">October 2017</span></li>
+                <span class="date">May 2018</span></li>
             <li>Data are available in two formats: CSV (a comma delimited file) and a SAS data file.</li>
         </ul>
     </div>
 
 
     <h3><a name="cec"></a>Commercial Buildings Energy Consumption Survey data</h3>
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">
                 <a href="/consumption/commercial/data/2012/">Building characteristics</a></li>
@@ -65,7 +65,7 @@
 
 
     <h3><a name="mfg"></a>Manufacturing Energy Consumption Survey data</h3>
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Consumption of energy for all purposes, by industry & region</li>
             <li>
@@ -73,7 +73,7 @@
                 <span class="date">October 2017</span></li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="manufacturing/data/2014/XLS/Table1_1.xlsx" class="ico_xls" title="Consumption of energy for all purposes, by industry & region">
+                <a href="manufacturing/data/2014/XLS/Table1_1.xlsx" title="Consumption of energy for all purposes, by industry & region">
                     <i class="ico xls">
                         <span>XLS</span>
                     </i>
@@ -91,7 +91,7 @@
                 <span class="date">October 2017</span></li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="manufacturing/data/2014/xls/Table2_1.xlsx" class="ico_xls" title="Energy Used as a Nonfuel (Feedstock)">
+                <a href="manufacturing/data/2014/xls/Table2_1.xlsx" title="Energy Used as a Nonfuel (Feedstock)">
                     <i class="ico xls">
                         <span>XLS</span>
                     </i>
@@ -109,7 +109,7 @@
                 <span class="date">October 2017</span></li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="manufacturing/data/2014/xls/Table3_1.xlsx" class="ico_xls" title="Energy consumption as a fuel, by industry & region">
+                <a href="manufacturing/data/2014/xls/Table3_1.xlsx" title="Energy consumption as a fuel, by industry & region">
                     <i class="ico xls">
                         <span>XLS</span>
                     </i>
@@ -127,7 +127,7 @@
                 <span class="date">October 2017</span></li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="manufacturing/data/2014/xls/Table4_1.xlsx" class="ico_xls" title="Offsite-produced fuel consumption, by industry">
+                <a href="manufacturing/data/2014/xls/Table4_1.xlsx" title="Offsite-produced fuel consumption, by industry">
                     <i class="ico xls">
                         <span>XLS</span>
                     </i>
@@ -145,7 +145,7 @@
                 <span class="date">October 2017</span></li>
             <li>
                 <span class="formats">Available formats:</span>
-                <a href="manufacturing/data/2014/xls/Table11_1.xlsx" class="ico_xls" title="Total consumption of electricity, by industry & region">
+                <a href="manufacturing/data/2014/xls/Table11_1.xlsx" title="Total consumption of electricity, by industry & region">
                     <i class="ico xls">
                         <span>XLS</span>
                     </i>
@@ -154,6 +154,7 @@
                         <span>PDF</span>
                     </i>
                 </a></li>
-        </ul>
+            </ul>
+        </div>
     </div>
 </div>

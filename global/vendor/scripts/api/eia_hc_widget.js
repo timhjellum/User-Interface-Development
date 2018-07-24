@@ -480,8 +480,8 @@ window.eia_widget_callback_count = 0;
 		};
 		//fetch data object, duplicate array for processing
 		//data = fetchDataObject(request.appKey,seriesIds.join(";")).slice(0);
-		//var series_data_url = "https://api.eia.gov/series/?api_key=" + request.appKey + "&series_id="; //init fetch url
-		var series_data_url = "https://api.eia.gov/series/?api_key=" + request.appKey + "&series_id="; //init fetch url
+		//var series_data_Url = "https://api.eia.gov/series/?api_key=" + request.appKey + "&series_id="; //init fetch url
+		var series_data_Url = "https://api.eia.gov/series/?api_key=" + request.appKey + "&series_id="; //init fetch url
 		var series_to_fetch = ""; //init fetch series string
 		//seriesIds=seriesIds.slice(0);
 		//outputData[seriesIds.length-1]=undefined; //fill outputData with undefined equal to request size

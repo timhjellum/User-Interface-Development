@@ -24,9 +24,34 @@ isset($highstock) || $highstock = '';
 <link rel="icon" href="//www.eia.gov/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="//www.eia.gov/favicon.ico" />
 
-<link href="/css_rehab/archive/global/styles/global.min.css" type="text/css" media="screen, projection" rel="stylesheet" />
+<link href="/css_rehab/archive/global/styles/global.min.css?v=2.0.2" type="text/css" media="screen, projection" rel="stylesheet" />
 <link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
 <link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
 
-<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script>
+<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script> 
 <?php include('global/includes/highcharts.inc') ?>
+
+<?php
+if(strpos($_SERVER['HTTP_HOST'],'wwwdev')===false){
+?>
+<script type="text/javascript" src="/global/scripts/jquery/ga/ga-file-downloads.js"></script>
+<?php include('global/includes/ga.inc') ?>
+<?php
+}
+?>
+
+
+
+
+<?php
+
+$glossary_path = '/tools/glossary/';
+$faqs_path = '/tools/faqs/';
+
+if($locale == "data") {
+	echo '<script src="/global/scripts/custom/search_landing_highlight.js"></script>';
+	print PHP_EOL;
+}
+
+?>
+

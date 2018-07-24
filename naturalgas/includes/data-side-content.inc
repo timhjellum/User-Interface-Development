@@ -52,7 +52,7 @@
             </ul>
         </li>
     </ul>
-    <ul>
+    <ul class="list-seperator">
         <li class="head"><h2>International data</h2></li>
         <li class="sub-head">Overview</li>
         <li>
@@ -62,7 +62,7 @@
                 <li><a href="/cfapps/ipdbproject/IEDIndex3.php?tid=3&amp;pid=26&amp;aid=3">Imports</a></li>
                 <li><a href="/cfapps/ipdbproject/IEDIndex3.php?tid=3&amp;pid=26&amp;aid=4">Exports</a></li>
                 <li><a href="/cfapps/ipdbproject/IEDIndex3.php?tid=3&amp;pid=3&amp;aid=6">Reserves</a></li>
-                <li class="foot"><a href="/emeu/international/contents.html">More</a></li>
+                <li class="foot"><a href="/emeu/international/contents.html">more &rsaquo;</a></li>
             </ul>
         </li>
     </ul>

@@ -1,6 +1,8 @@
 
 @media @mobile {
 	.l-narrow-col {
+		.primary-alt,
+		.primary,
 		.secondary-alt,
 		.secondary {
 			margin-bottom: 3em;
@@ -14,10 +16,12 @@
 						}
 					}
 					&.sub-head {
-						margin: 14px 0 8px 0;
+						margin-top: 14px;
+						margin-bottom: 8px;
 					}
 					&.description {
-						margin: 8px 0;
+						margin-top: 8px;
+						margin-bottom: 8px;
 					}
 					&.image {
 						img {
@@ -34,11 +38,13 @@
 								display: table-cell;
 								white-space: nowrap;
 								height: 12px;
+								position: relative;
+								top: 3px;
 								a {
 									border-left: 1px solid #d8d8d8;;
 									margin-left: 5px;
 									padding-left: 5px;
-									float: right;
+									.right;
 								}
 							}
 						}
@@ -57,23 +63,16 @@
 			}
 			&>ul {
 				padding: 6px;
+				&.list-seperator {
+					margin-top: 1.2em;
+					padding-top: .5em;
+				}
 				&>li {
-//					width: 100%;
-//					border: 3px solid blue;
-//					clear: both;
-//					display: table;
-/*
-					span {
-
-					}
-					*/
 					a {
 						span {
 							&.link-label {
 								display: table-cell;
-
 							}
-
 						}
 						em {
 							.italic;
@@ -114,7 +113,7 @@
 							padding: 0;
 							margin: 0;
 							.ico {
-								float: left;
+								.left;
 								margin: 8px 8px 0 0;
 								&.interactive {
 									span {
@@ -235,14 +234,22 @@
 }
 
 @media @tablet {
-	.secondary-alt,
-	.secondary {
-		margin-bottom: 2em;
+	.l-narrow-col {
+		.primary-alt,
+		.primary,
+		.secondary-alt,
+		.secondary {
+			margin-bottom: 2em;
+		}
 	}
 }
 @media @laptop {
-	.secondary-alt,
-	.secondary {
-		margin-bottom: 1em;
+	.l-narrow-col {
+		.primary-alt,
+		.primary,
+		.secondary-alt,
+		.secondary {
+			margin-bottom: 2em;
+		}
 	}
 }

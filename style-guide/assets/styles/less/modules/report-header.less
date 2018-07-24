@@ -5,14 +5,16 @@
 		width: 100%;
         border-left: 22px solid white;
 		border-bottom: solid 1px #ededee; // check
-        background-color: white;
+//        background-color: white;
         padding-bottom: 6px;
-        min-height: 123px;
+        //min-height: 123px;
+        margin-bottom: 1.5em;
 		h2 {
 			.header-font;
             font-size: 26px;
             margin: 0;
-            padding-top: 40px;
+            padding: 0;
+        //    padding-top: 40px;
         }
         .publish-metadata {
             .font;
@@ -37,7 +39,7 @@
                     } 
                 }
                 .pdf {
-                    float: left;
+                    .left;
                     margin: -3px 6px 0 0;
                     span {
                         position: absolute;
@@ -58,18 +60,27 @@
                 }
             }
         }
-
+        /*
         .gradient {
             min-height: 123px;
             .gradient(@stops:rgba(255,255,255,1) 0,rgba(255,255,255,1) 20%,rgba(227,227,227,1) 100%,#eeeeee 100%;);
         }
+        */
+
+
+
+
+        
         .report-selector-container {
             font-size: 0.813rem; // 13 pixels
             .font;
             .bold;
             margin: 0;
-            padding: 44px 0 0 22px;
+            padding: 6px 0 12px 0;
             color: #626262; // check
+            //fieldset {
+            //    padding-top: 6px;
+            //}
         }
 
 

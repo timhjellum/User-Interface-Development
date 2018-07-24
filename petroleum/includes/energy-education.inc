@@ -1,30 +1,30 @@
 <?php
-/* edit the link URL, Label and Date below */
+/* edit the link Url, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "petroleum";
-$itemOneHeadURL = "/energyexplained/index.php?page=oil_homem";
+$itemOneHeadUrl = "/energyexplained/index.php?page=oil_homem";
 $itemOneHeadLabel = "Oil: Crude &amp; Petroleum Products Explained";
-$itemOneSubheadURL = "/energyexplained/index.php?page=gasoline_prices";
+$itemOneSubheadUrl = "/energyexplained/index.php?page=gasoline_prices";
 $itemOneSubheadLabel = "Gasoline Prices and Outlook";
 $itemOneFootUrl = "/energyexplained/index.php?page=oil_home";
 $itemOneFootLabel = "See more petroleum topics";
 
 $itemTwoIcon = "faq";
-$itemTwoHeadURL = "/tools/faqs/faq.php?id=97&t=3";
+$itemTwoHeadUrl = "/tools/faqs/";
 $itemTwoHeadLabel = "FAQs";
-$itemTwoSubheadURL = "/tools/faqs/faq.php?id=97&t=3";
-$itemTwoSubheadLabel = "How much electricity does an American home use?";
-$itemTwoFootUrl = "/tools/faqs/";
-$itemTwoFootLabel = "See all  FAQs ";
+$itemTwoSubheadUrl = "/tools/faqs/faq.cfm?id=45&t=8";
+$itemTwoSubheadLabel = "What are Mcf, Btu, and therms? How do I convert prices in Mcf to Btu's and therms?";
+$itemTwoFootUrl = "/tools/faqs/index.php#oil/petroleum";
+$itemTwoFootLabel = "See all petroleum FAQs ";
 
 $itemThrIcon = "energy-kids";
-$itemThrHeadURL = "/kids/energy.php?page=us_energy_use-basics";
+$itemThrHeadUrl = "/kids/";
 $itemThrHeadLabel = "Energy Kids";
-$itemThrSubheadURL = "/kids/energy.php?page=XXXXXXXXXXXXXXXXXXXX";
-$itemThrSubheadLabel = "How we use energy";
-$itemThrFootUrl = "/kids/";
-$itemThrFootLabel = "Using & Saving Energy";
+$itemThrSubheadUrl = "/kids/energy.php?page=oil_home-basics";
+$itemThrSubheadLabel = "How was oil formed?";
+$itemThrFootUrl = "/kids/energy.php?page=nonrenewable_home-basics";
+$itemThrFootLabel = "See nonrenewable sources on Energy Kids";
 
 ?>
     <?php
@@ -42,16 +42,16 @@ $itemThrFootLabel = "Using & Saving Energy";
                         <ul>
                             <li class="head">
                                 <h2>
-                                    <a href="<?=$itemOneHeadURL?>">
+                                    <a href="<?=$itemOneHeadUrl?>">
                                         <?=$itemOneHeadLabel?>
                                     </a>
                                 </h2></li>
                             <li class="sub-head">
-                                <a href="<?=$itemOneSubheadURL?>">
+                                <a href="<?=$itemOneSubheadUrl?>">
                                     <?=$itemOneSubheadLabel?>
                                 </a></li>
                             <li class="foot">
-                                <a href="<?=$itemOneFootURL?>">
+                                <a href="<?=$itemOneFootUrl?>">
                                     <?=$itemOneFootLabel?>
                                 </a></li>
                         </ul>
@@ -61,16 +61,16 @@ $itemThrFootLabel = "Using & Saving Energy";
                         <ul>
                             <li class="head">
                                 <h2>
-                                    <a href="<?=$itemTwoHeadURL?>">
+                                    <a href="<?=$itemTwoHeadUrl?>">
                                         <?=$itemTwoHeadLabel?>
                                     </a>
                                 </h2></li>
                             <li class="sub-head">
-                                <a href="<?=$itemTwoSubheadURL?>">
+                                <a href="<?=$itemTwoSubheadUrl?>">
                                     <?=$itemTwoSubheadLabel?>
                                 </a></li>
                             <li class="foot">
-                                <a href="<?=$itemTwoFootURL?>">
+                                <a href="<?=$itemTwoFootUrl?>">
                                     <?=$itemTwoFootLabel?>
                                 </a></li>
                         </ul>
@@ -80,16 +80,16 @@ $itemThrFootLabel = "Using & Saving Energy";
                         <ul>
                             <li class="head">
                                 <h2>
-                                    <a href="<?=$itemThrHeadURL?>">
+                                    <a href="<?=$itemThrHeadUrl?>">
                                         <?=$itemThrHeadLabel?>
                                     </a>
                                 </h2></li>
                             <li class="sub-head">
-                                <a href="<?=$itemThrSubheadURL?>">
+                                <a href="<?=$itemThrSubheadUrl?>">
                                     <?=$itemThrSubheadLabel?>
                                 </a></li>
                             <li class="foot">
-                                <a href="<?=$itemThrFootURL?>">
+                                <a href="<?=$itemThrFootUrl?>">
                                     <?=$itemThrFootLabel?>
                                 </a></li>
                         </ul>

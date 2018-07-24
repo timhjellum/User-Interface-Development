@@ -32,49 +32,21 @@ $especiallyForNineLabel = "Developers API";
 /* DO NOT EDIT BELOW */
 ?>
 
-    <div class="primary">
-        <ul>
-            <li class="head">
-                <h2>Especially For...</h2></li>
-            <div class="l-responsive">
-                <li>
-                    <a href='<?=$especiallyForOneURL?>' title='<?=$especiallyForOneLabel?>'>
-                        <?=$especiallyForOneLabel?>
-                    </a></li>
-                <li>
-                    <a href='<?=$especiallyForTwoURL?>' title='<?=$especiallyForTwoLabel?>'>
-                        <?=$especiallyForTwoLabel?>
-                    </a></li>
-                <li>
-                    <a href='<?=$especiallyForThreeURL?>' title='<?=$especiallyForThreeLabel?>'>
-                        <?=$especiallyForThreeLabel?>
-                    </a></li>
-                <li>
-                    <a href='<?=$especiallyForFourURL?>' title='<?=$especiallyForFourLabel?>'>
-                        <?=$especiallyForFourLabel?>
-                    </a></li>
-                <li>
-                    <a href='<?=$especiallyForFiveURL?>' title='<?=$especiallyForFiveLabel?>'>
-                        <?=$especiallyForFiveLabel?>
-                    </a></li>
-            </div>
-            <div class="l-responsive">
-                <li>
-                    <a href='<?=$especiallyForSixURL?>' title='<?=$especiallyForSixLabel?>'>
-                        <?=$especiallyForSixLabel?>
-                    </a></li>
-                <li>
-                    <a href='<?=$especiallyForSevenURL?>' title='<?=$especiallyForSevenLabel?>'>
-                        <?=$especiallyForSevenLabel?>
-                    </a></li>
-                <li>
-                    <a href='<?=$especiallyForEightURL?>' title='<?=$especiallyForEightLabel?>'>
-                        <?=$especiallyForEightLabel?>
-                    </a></li>
-                <li>
-                    <a href='<?=$especiallyForNineURL?>' title='<?=$especiallyForNineLabel?>'>
-                        <?=$especiallyForNineLabel?>
-                    </a></li>
-            </div>
-        </ul>
-    </div>
+<div class="primary">
+	<ul>
+		<li class="head"><h2>Especially For...</h2></li>
+		<div class="l-responsive">
+			<li><a href='<?=$especiallyForOneURL?>' title='<?=$especiallyForOneLabel?>'><?=$especiallyForOneLabel?></a></li>
+			<li><a href='<?=$especiallyForTwoURL?>' title='<?=$especiallyForTwoLabel?>'><?=$especiallyForTwoLabel?></a></li>
+			<li><a href='<?=$especiallyForThreeURL?>' title='<?=$especiallyForThreeLabel?>'><?=$especiallyForThreeLabel?></a></li>
+			<li><a href='<?=$especiallyForFourURL?>' title='<?=$especiallyForFourLabel?>'><?=$especiallyForFourLabel?></a></li>
+			<li><a href='<?=$especiallyForFiveURL?>' title='<?=$especiallyForFiveLabel?>'><?=$especiallyForFiveLabel?></a></li>
+		</div>
+		<div class="l-responsive">
+			<li><a href='<?=$especiallyForSixURL?>' title='<?=$especiallyForSixLabel?>'><?=$especiallyForSixLabel?></a></li>
+			<li><a href='<?=$especiallyForSevenURL?>' title='<?=$especiallyForSevenLabel?>'><?=$especiallyForSevenLabel?></a></li>
+			<li><a href='<?=$especiallyForEightURL?>' title='<?=$especiallyForEightLabel?>'><?=$especiallyForEightLabel?></a></li>
+			<li><a href='<?=$especiallyForNineURL?>' title='<?=$especiallyForNineLabel?>'><?=$especiallyForNineLabel?></a></li>
+		</div>
+	</ul>
+</div>

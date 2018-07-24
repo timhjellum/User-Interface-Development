@@ -3,7 +3,7 @@
     <?php include('analysis/includes/data_table_excel.inc') ?>
     <div class="secondary">
         <ul>
-            <li class="foot"><a href="data.php">See more data</a></li>
+            <li class="foot"><a href="data.php">See more projection data</a></li>
         </ul>
     </div>
 </div>

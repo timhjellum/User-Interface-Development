@@ -18,7 +18,7 @@ $menu01link04URL = "reports.php#/T76";
 $menu01link04Label = "All environment data reports";
 
 $menu02Title01 = "Major Topics"; 
-$menu02Title01 = "Find by"; 
+$menu02Title02 = "Find by"; 
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -67,22 +67,7 @@ $faqLabel = "FAQS";
                                     <a href="/<?=$directory?>/<?=$menu01link04URL?>">
                                         <?=$menu01link04Label?>
                                     </a></li>
-                                <li>
-                                    <a href="/<?=$directory?>/<?=$menu01link05URL?>">
-                                        <?=$menu01link05Label?>
-                                    </a></li>
-                                <li>
-                                    <a href="/<?=$directory?>/<?=$menu01link06URL?>">
-                                        <?=$menu01link06Label?>
-                                    </a></li>
-                                <li>
-                                    <a href="/<?=$directory?>/<?=$menu01link07URL?>">
-                                        <?=$menu01link07Label?>
-                                    </a></li>
-                                <li>
-                                    <a href="/<?=$directory?>/<?=$menu01link08URL?>">
-                                        <?=$menu01link08Label?>
-                                    </a></li>
+
                             </ul>
                         </div></li>
                     <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>">
@@ -102,9 +87,7 @@ $faqLabel = "FAQS";
                                 </div>
                             </div>
                             <div class="l-row">
-                                <ul class="l-two-third-col">
-                                    <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                </ul>
+                                <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
                                 <ul class="l-one-third-col">
                                     <li>
                                         <a href="/<?=$directory?>/<?=$menu02link01URL?>">

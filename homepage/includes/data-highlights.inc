@@ -1,26 +1,25 @@
-<div class="primary-alt">
-    <ul>
-        <li class="head">
-            <h2>Data Highlights</h2></li>
-        <li class="sub-head"><a href="/">WTI crude oil futures price</a></li>
-        <li class="date">9/12/2017: <strong>$48.23/barrel</strong></li>
-        <li><i class="down-arrow" title="Down"></i>$0.43 from week earlier</li>
-        <li><i class="up-arrow" title="Up"></i>$1.94 from year earlier</li>
-        <li class="sub-head"><a href="/">Natural gas futures price</a></li>
-        <li class="date">9/12/2017:<strong>$3.001/MMBtu</strong></li>
-        <li><i class="up-arrow" title="Up"></i>$0.029 from week earlier</li>
-        <li><i class="up-arrow" title="Up"></i>$0.086 from year earlier</li>
-        <li class="sub-head"><a href="/">Retail gasoline price</a></li>
-        <li class="date">9/11/2017: <strong>$2.685/gal</strong></li>
-        <li><i class="up-arrow" title="Up"></i>$0.006 from week earlier</li>
-        <li><i class="up-arrow" title="Up"></i>$0.483 from year earlier</li>
-        <li class="sub-head"><a href="/">Crude oil inventories</a></li>
-        <li class="date">9/8/2017: <strong>468.2 million barrels&nbsp; </strong></li>
-        <li><i class="up-arrow" title="Up"></i>5.9 million barrels from week earlier</li>
-        <li><i class="down-arrow" title="Down"></i>11.9 million barrels from year earlier</li>
-        <li class="sub-head"><a href="/">Weekly coal production</a></li>
-        <li class="date">9/2/2017: <strong>16.421 million tons</strong></li>
-        <li><i class="down-arrow" title="Down"></i>0.322 million tons from week earlier</li>
-        <li><i class="up-arrow" title="Up"></i>0.819 million tons from year earlier</li>
-    </ul>
-</div>
+<h2>Data Highlights</h2>
+<h3><a href="http://www.eia.gov/petroleum/gasdiesel/">Retail gasoline price</a></h3>
+<p class="p12">7/9/2018: <b>$2.857/gal</b><br>
+</p><p><span class="ico_up">up</span>$0.013   from week earlier<br>
+<span class="ico_up">up</span>$0.560   from year earlier</p>
+
+<h3><a href="http://www.eia.gov/petroleum/gasdiesel/">Retail diesel price</a></h3>
+<p class="p12">7/9/2018: <b>$3.243/gal</b><br>
+</p><p><span class="ico_up">up</span>$0.007   from week earlier<br>
+<span class="ico_up">up</span>$0.762   from year earlier</p>
+
+<h3><a href="http://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&amp;s=RCLC1&amp;f=D">WTI crude oil futures price</a></h3>
+<p class="p12">7/6/2018: <b>$73.80/barrel</b><br>
+</p><p><span class="ico_down">down</span>$0.35   from week earlier<br>
+<span class="ico_up">up</span>$28.28   from year earlier</p>
+
+<h3><a href="http://www.eia.gov/dnav/ng/hist/rngc1d.htm">Natural gas futures price</a></h3>
+<p class="p12">7/6/2018: <b>$2.858/MMBtu</b><br>
+</p><p><span class="ico_down">down</span>$0.066    from week earlier<br>
+<span class="ico_down">down</span>$0.030   from year earlier</p>
+
+<h3><a href="http://www.eia.gov/cneaf/coal/weekly/weekly_html/wcpweek.html">Weekly coal production</a></h3>
+<p class="p12">6/30/2018: <b>14.574  million tons</b><br>
+</p><p><span class="ico_up">up</span>0.037  million tons from week earlier<br>
+<span class="ico_down">down</span>0.970  million tons from year earlier</p>

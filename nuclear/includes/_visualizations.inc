@@ -2,27 +2,27 @@
 /* edit the link URL, Label and Date below */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "";
+$OneUrl = "";
 $OneLabel = "";
 $OneImageName = ""; // .png is not needed
 
-$TwoURL = "";
+$TwoUrl = "";
 $TwoLabel = "";
 $TwoImageName = ""; // .png is not needed
 
-$ThrURL = "";
+$ThrUrl = "";
 $ThrLabel = "";
 $ThrImageName = ""; // .png is not needed
 
-$FouURL = "";
+$FouUrl = "";
 $FouLabel = "";
 $FouImageName = ""; // .png is not needed
 
-$FivURL = "";
+$FivUrl = "";
 $FivLabel = "";
 $FivImageName = ""; // .png is not needed
 
-$SixURL = "";
+$SixUrl = "";
 $SixLabel = ""; 
 $SixImageName = ""; // .png is not needed
 
@@ -36,7 +36,7 @@ $SixImageName = ""; // .png is not needed
                 <h1>Interactive Visualizations, Data, &amp; Multimedia</h1>
                 <ul class="visualizations">
                     <li class="l-col">
-                        <a href="<?=$OneURL?>">
+                        <a href="<?=$OneUrl?>">
                             <div class="circle"><img src="/global/images/interactive/<?=$OneImageName?>.png" alt="<?=$OneLabel?>"></div>
                         </a>
                         <h3><a href="<?=$OneURL?>" title="<?=$OneLabel?>">
@@ -44,7 +44,7 @@ $SixImageName = ""; // .png is not needed
                             </a>
                         </h3></li>
                     <li class="l-col">
-                        <a href="<?=$TwoURL?>">
+                        <a href="<?=$TwoUrl?>">
                             <div class="circle"><img src="/global/images/interactive/<?=$TwoImageName?>.png" alt="<?=$TwoLabel?>"></div>
                         </a>
                         <h3><a href="<?=$TwoURL?>" title="<?=$TwoLabel?>">
@@ -52,7 +52,7 @@ $SixImageName = ""; // .png is not needed
                             </a>
                         </h3></li>
                     <li class="l-col">
-                        <a href="<?=$ThrURL?>">
+                        <a href="<?=$ThrUrl?>">
                             <div class="circle"><img src="/global/images/interactive/<?=$ThrImageName?>.png" alt="<?=$ThrLabel?>"></div>
                         </a>
                         <h3><a href="<?=$ThrURL?>" title="<?=$ThrLabel?>">
@@ -60,7 +60,7 @@ $SixImageName = ""; // .png is not needed
                             </a>
                         </h3></li>
                     <li class="l-col">
-                        <a href="<?=$FouURL?>">
+                        <a href="<?=$FouUrl?>">
                             <div class="circle"><img src="/global/images/interactive/<?=$FouImageName?>.png" alt="<?=$FouLabel?>"></div>
                         </a>
                         <h3><a href="<?=$FouURL?>" title="<?=$FouLabel?>">
@@ -68,7 +68,7 @@ $SixImageName = ""; // .png is not needed
                             </a>
                         </h3></li>
                     <li class="l-col">
-                        <a href="<?=$FivURL?>">
+                        <a href="<?=$FivUrl?>">
                             <div class="circle"><img src="/global/images/interactive/<?=$FivImageName?>.png" alt="<?=$FivLabel?>"></div>
                         </a>
                         <h3><a href="<?=$FivURL?>" title="<?=$FivLabel?>">
@@ -76,7 +76,7 @@ $SixImageName = ""; // .png is not needed
                             </a>
                         </h3></li>
                     <li class="l-col">
-                        <a href="<?=$SixURL?>">
+                        <a href="<?=$SixUrl?>">
                             <div class="circle"><img src="/global/images/interactive/<?=$SixImageName?>.png" alt="<?=$SixLabel?>"></div>
                         </a>
                         <h3><a href="<?=$SixURL?>" title="<?=$SixLabel?>">

@@ -22,18 +22,18 @@ font-size: 1.500rem; // 24 pixels
     ul  {
         &.accent {
             border: 1px solid #e3e5e6;
-            background-color: white;
             padding: 4px;
+            list-style: none;
             &>li {
                 padding-left: 20px;
                 padding-right: 20px;
-                //padding-top: 14px;
                 background-color: @eia-blue-module-background;
                 margin: 0;
                 display: table;
                 .font;
-                font-size: is .875rem; 
+                font-size: .875rem; 
                 line-height: 1.5em;
+                list-style: none;
                 a {
                     display: block;
                     color: @eia-blue;
@@ -70,13 +70,12 @@ font-size: 1.500rem; // 24 pixels
                         margin: 0;
                         .font;
                         .bold;
-                    //    font-size: 14px;
                         color: #333;
-                        
                         text-transform: uppercase;
                     }
                 }
-                &.sub-list {
+                &.list-spacer {
+                    margin: 0;
                     ul {
                         margin: 0;
                         padding: 0 0 11px 0;

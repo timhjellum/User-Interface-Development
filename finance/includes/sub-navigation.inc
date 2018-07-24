@@ -20,7 +20,7 @@ $menu01link02Label = "Archive";
 // dropdown one
 // dropdown one
 $menu02Title01 = "Major Topics"; // Major Topics
-$menu02Title01 = "Find by"; // Find by
+$menu02Title02 = "Find by"; // Find by
 
 $menu02link01URL = "browsebytag.php";
 $menu02link01Label = "Alphabetical";
@@ -80,9 +80,7 @@ $faqLabel = "FAQS"; // FAQ
                                     </div>
                                 </div>
                                 <div class="l-row">
-                                    <ul class="l-two-third-col">
-                                        <?php include("css_rehab/archive/global/analysis-projections/sub-navigation-menus.inc") ?>
-                                    </ul>
+                                    <?php include("global/analysis-projections/sub-navigation-menus.inc") ?>
                                     <ul class="l-one-third-col">
                                         <li>
                                             <a href="/<?=$directory?>/<?=$menu02link01URL?>">

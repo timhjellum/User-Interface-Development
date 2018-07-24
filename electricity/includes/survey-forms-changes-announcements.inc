@@ -6,8 +6,8 @@
 $OneURL = "/survey/#electricity";
 $OneTitle = "Electric survey forms";
 
-$TwoURL = "";
-$TwoTitle = "";
+$TwoURL = "/electricity/data/guide/";
+$TwoTitle = "New Electric Power Data Guide";
 
 $ThrURL = "";
 $ThrTitle = "";

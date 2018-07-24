@@ -5,27 +5,27 @@
 
 $mainTitle = "";
 
-$OneURL = "";
+$OneUrl = "";
 $OneLabel = "";
 $OneDate = "";
 
-$TwoURL = "";
+$TwoUrl = "";
 $TwoLabel = "";
 $TwoDate = "";
 
-$ThrURL = "";
+$ThrUrl = "";
 $ThrLabel = "";
 $ThrDate = "";
 
-$FouURL = "";
+$FouUrl = "";
 $FouLabel = "";
 $FouDate = "";
 
-$FivURL = "";
+$FivUrl = "";
 $FivLabel = "";
 $FivDate = "";
 
-$SixURL = "";
+$SixUrl = "";
 $SixLabel = "";
 $SixDate = "";
 

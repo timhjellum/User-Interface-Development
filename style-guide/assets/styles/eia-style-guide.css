@@ -49,6 +49,7 @@
 @import "less/l2/energy-education";
 @import "less/l2/consumption-surveys";
 @import "less/l2/sub-navigation";
+@import "less/l2/updated-data-series";
 
 /* sliders */
 
@@ -56,12 +57,9 @@
 @import "less/sliders/home";
 @import "less/sliders/multi";
 
-/* home */
 
-@import "less/home/energy-kids";
-@import "less/home/features";
-@import "less/home/today-in-energy";
-@import "less/home/layout";
+
+
 
 /* theme */
 
@@ -69,7 +67,14 @@
 @import "less/theme/primary-col-modules";
 @import "less/theme/secondary-col-modules";
 @import "less/theme/basic-table";
-@import "less/theme/zebra";
-@import "less/theme/homepage";
+@import "less/theme/overview";
+@import "less/theme/data";
+/* home */
+@import "less/theme/homepage/modules";
+@import "less/theme/homepage/data-highlights";
+@import "less/theme/homepage/energy-kids";
+@import "less/theme/homepage/features";
+@import "less/theme/homepage/today-in-energy";
+@import "less/theme/homepage/layout";
 
 /* @import "../../../node_modules/jquery-ui/themes/base/tabs.css"; */

@@ -428,7 +428,7 @@ if(options.matchSubset){for(var i=q.length-1;i>=options.minChars;i--){var c=data
 /**************/
 /* Removed as an experiment -SNW
 if (usagov_sayt_url === undefined) {
-    var usagov_sayt_url = "http://search.usa.gov/sayt?aid=173&";
+    var usagov_sayt_Url = "http://search.usa.gov/sayt?aid=173&";
 }
 $(document).ready(function() {
   $(".usagov-search-autocomplete").autocomplete(usagov_sayt_url, {

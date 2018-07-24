@@ -4,17 +4,17 @@
   <span class="side_list2">
   <ul>
   	<li>    <a href="/cfapps/frs/frstables.php?tableNumber=1">Selected Financial Items</a></li>
-  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=1&amp;startYear=1977" class="ico_xls" title="Selected Financial Items">XLS</a></span><br /></li>
+  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=1&amp;startYear=1977" title="Selected Financial Items">XLS</a></span><br /></li>
   	<li>  	<a href="/cfapps/frs/frstables.php?tableNumber=2">Consolidated Income Statement</a></li>
-  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=2" class="ico_xls" title="Consolidated Income Statement">XLS</a></span><br /></li>
+  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=2" title="Consolidated Income Statement">XLS</a></span><br /></li>
   	<li>	<a href="/cfapps/frs/frstables.php?tableNumber=3">Consolidated Balance Sheet</a></li>
-  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=3&startYear=1977" class="ico_xls" title="Consolidated Balance Sheet">XLS</a></span></li>
+  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=3&startYear=1977" title="Consolidated Balance Sheet">XLS</a></span></li>
   	<li><a href="/cfapps/frs/frstables.php?tableNumber=4">Statement of Cash Flows</a></li>
-  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=4&startYear=1977" class="ico_xls" title="Statement of Cash Flows">XLS</a></span></li>
+  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=4&startYear=1977" title="Statement of Cash Flows">XLS</a></span></li>
   	<li><a href="/cfapps/frs/frstables.php?tableNumber=5">Statement of Income for U.S. &amp; Foreign Petroleum</a></li>
-  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=5" class="ico_xls" title="Statement of Income for U.S. and Foreign Petroleum">XLS</a></span><br /></li>
+  	<li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=5" title="Statement of Income for U.S. and Foreign Petroleum">XLS</a></span><br /></li>
     <li>    <a href="/cfapps/frs/frstables.php?tableNumber=6">Statement of Income for U.S. &amp; Foreign Downstream Natural Gas</a></li>
-    <li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=6" class="ico_xls" title="Statement of Income for U.S. and Foreign Downstream Natural Gas">XLS</a></span><br /></li>
+    <li><span class="formats">Available formats:</span>  <a href="/cfapps/frs/excel.php?tableNumber=6" title="Statement of Income for U.S. and Foreign Downstream Natural Gas">XLS</a></span><br /></li>
   </ul>
   </span>
   <div class="clear">&nbsp;</div>

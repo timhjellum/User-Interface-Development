@@ -27,11 +27,11 @@ new AnalysisProjections();
 import ModuleScripts from './modules/modules';
 new ModuleScripts();
 
-import ScrollTo from './modules/scroll-to';
-new ScrollTo();
+//import ScrollTo from './modules/scroll-to';
+//new ScrollTo();
 
-import LocalScroll from './modules/local-scroll';
-new LocalScroll();
+//import LocalScroll from './modules/local-scroll';
+//new LocalScroll();
 
 import Modal from './modules/modal';
 new Modal();

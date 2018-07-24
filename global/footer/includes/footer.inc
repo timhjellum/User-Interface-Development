@@ -1,7 +1,8 @@
-</div>
-</div>
-</div>
-</section>
+            
+            </div>
+        </div>
+    </div>
+</section>    
 <footer class="clearfix footer">
     <div class="l-row address-bar">
         <div class="l-two-third-col">
@@ -52,9 +53,9 @@
         </ul>
         <ul class="l-col">
             <li>Policies</li>
-            <li><a href="/about/privacy_security_policy.php">Privacy/Security</a></li>
-            <li><a href="/about/copyrights_reuse.php">Copyright &amp; Reuse</a></li>
-            <li><a href="/about/accessability.php">Accessibility</a></li>
+            <li><a href="/about/privacy_security_policy.cfm">Privacy/Security</a></li>
+            <li><a href="/about/copyrights_reuse.cfm">Copyright &amp; Reuse</a></li>
+            <li><a href="/about/accessability.cfm">Accessibility</a></li>
         </ul>
         <ul class="l-col">
             <li>Related Sites</li>
@@ -74,4 +75,4 @@
         </ul>
     </div>
 </footer>
-<script src='/css_rehab/archive/global/scripts/global.min.js'></script>
+<script src='/css_rehab/archive/global/scripts/global.min.js?v=1.0.2'></script>

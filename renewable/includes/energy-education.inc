@@ -1,30 +1,30 @@
 <?php
-/* edit the link URL, Label and Date below */
+/* edit the link Url, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
 $itemOneIcon = "renewable";
-$itemOneHeadURL = "/energyexplained/index.php?page=renewable_home";
+$itemOneHeadUrl = "/energyexplained/index.php?page=renewable_home";
 $itemOneHeadLabel = "What is renewable energy?";
-$itemOneSubheadURL = "/energyexplained/index.php?page=renewable_home#tab3";
+$itemOneSubheadUrl = "/energyexplained/index.php?page=renewable_home#tab3";
 $itemOneSubheadLabel = "Renewable energy incentives";
 $itemOneFootUrl = "/energyexplained/index.php?page=renewable_home";
 $itemOneFootLabel = "See more Renewable energy topics";
 
 $itemTwoIcon = "faq";
-$itemTwoHeadURL = "";
-$itemTwoHeadLabel = "";
-$itemTwoSubheadURL = "";
-$itemTwoSubheadLabel = "";
-$itemTwoFootUrl = "";
-$itemTwoFootLabel = "";
+$itemTwoHeadUrl = "/tools/faqs/";
+$itemTwoHeadLabel = "FAQs";
+$itemTwoSubheadUrl = "/tools/faqs/faq.cfm?id=93&t=4";
+$itemTwoSubheadLabel = "How many alternative fuel and hybrid vehicles are there in the U.S.?";
+$itemTwoFootUrl = "/tools/faqs/index.php#renewables";
+$itemTwoFootLabel = "See all petroleum FAQs ";
 
-$itemThrIcon = "";
-$itemThrHeadURL = "";
-$itemThrHeadLabel = "";
-$itemThrSubheadURL = "";
-$itemThrSubheadLabel = "";
-$itemThrFootURL = "";
-$itemThrFootLabel = "";
+$itemThrIcon = "energy-kids";
+$itemThrHeadUrl = "/kids/";
+$itemThrHeadLabel = "Energy Kids";
+$itemThrSubheadUrl = "/kids/energy.php?page=renewable_home-basics";
+$itemThrSubheadLabel = "Renewable";
+$itemThrFootUrl = "/kids/energy.php?page=renewable_home-basics";
+$itemThrFootLabel = "See more Renewable topics";
 
 ?>
     <?php

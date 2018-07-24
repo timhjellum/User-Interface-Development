@@ -3,7 +3,7 @@
     <ul class="accent">
         <li class="head"><h2>Regular Weekly Releases*</h2></li>
         <li class="sub-head"><h3>Thursday</h3></li>
-        <li class="sub-list">
+        <li class="list-spacer">
             <ul>
                 <li><a href="http://ir.eia.gov/ngs/ngs.html">Weekly Natural Gas Storage Report</a></li>
                 <li class="release-schedule">10:30 a.m. EST</li>

@@ -1,6 +1,6 @@
-<div class="energy-kids">
-    <a href="/kids/">
-        <?php
+<div class="primary energy-kids">
+	<a href="/kids/">
+		<?php
 		$yearin=date("Y");
 		$format = "m/d/Y";
 		$now = DateTime::createFromFormat($format, date($format));
@@ -29,10 +29,11 @@
 			}
 		}
 		?>
-            <picture>
-                <source media="(min-width: 956px)" srcset="/homepage/images/energy-kids/kids-laptop-<?php echo $theme; ?>.png?<?php echo(rand());?>">
-                <source media="(min-width: 480px)" srcset="/homepage/images/energy-kids/kids-tablet-<?php echo $theme; ?>.png?<?php echo(rand());?>">
-                <img src="/homepage/images/energy-kids/kids-mobile-<?php echo $theme; ?>.png?<?php echo(rand());?>" alt="Small image of Energy Kids banner with host Energy Ant">
-            </picture>
-    </a>
+		<picture>
+			<source media="(min-width: 956px)" srcset="/homepage/images/energy-kids/kids-laptop-<?php echo $theme; ?>.png?<?php echo(rand());?>">
+			<source media="(min-width: 480px)" srcset="/homepage/images/energy-kids/kids-tablet-<?php echo $theme; ?>.png?<?php echo(rand());?>">
+			<img src="/homepage/images/energy-kids/kids-mobile-<?php echo $theme; ?>.png?<?php echo(rand());?>" alt="Small image of Energy Kids banner with host Energy Ant">
+		</picture>
+	</a>
 </div>
+

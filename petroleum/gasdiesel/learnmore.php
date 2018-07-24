@@ -57,8 +57,8 @@ Measuring prices</h2>
 Additional options for  motor gasoline and diesel data files</h2>
 <p style="margin-left:10px"><strong>Are the data available in Excel format?</strong><font color="#FF0000"></font><br />
 Yes, find links titled &quot;full history&quot; on the top right of the each table on the <a href="/petroleum/gasdiesel/">main page</a>. The same links are provided below:   <br />
-See <a class="ico_xls" href="/petroleum/gasdiesel/xls/pswrgvwall.xls">historical motor gasoline prices spreadsheet </a><br />
-See <a class="ico_xls" href="/petroleum/gasdiesel/xls/psw18vwall.xls">historical diesel fuel prices spreadsheet </a></p>
+See <a href="/petroleum/gasdiesel/xls/pswrgvwall.xls">historical motor gasoline prices spreadsheet </a><br />
+See <a href="/petroleum/gasdiesel/xls/psw18vwall.xls">historical diesel fuel prices spreadsheet </a></p>
 <p style="margin-left:10px"><strong>What is the release schedule?</strong><br />
 The prices are published around 5:00 p.m. Monday (Eastern time), except on government holidays, when the data are released on Tuesday (but still represent Monday's price).  See  <a href="/petroleum/gasdiesel/schedule.php">holiday schedule</a>.
 </p>

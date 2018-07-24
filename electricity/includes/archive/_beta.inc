@@ -3,27 +3,27 @@
 /* no need to add the  > or the &nbsp;› */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "/beta/electricity/data/browser";
+$OneUrl = "/beta/electricity/data/browser";
 $OneLabel = "Updated Electricity Data Browser";
 $OneDate = ": Now includes water usage and new plant-level information.";
 
-$TwoURL = "";
+$TwoUrl = "";
 $TwoLabel = "";
 $TwoDate = "";
 
-$ThrURL = "";
+$ThrUrl = "";
 $ThrLabel = "";
 $ThrDate = "";
 
-$FouURL = "";
+$FouUrl = "";
 $FouLabel = "";
 $FouDate = "";
 
-$FivURL = "";
+$FivUrl = "";
 $FivLabel = "";
 $FivDate = "";
 
-$SixURL = "";
+$SixUrl = "";
 $SixLabel = "";
 $SixDate = "";
 

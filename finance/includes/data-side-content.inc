@@ -84,13 +84,14 @@
 
 
 
-<div class="secondary">
+<div class="secondary-alt">
     <ul>
-        <li class="head">
-            <h2>Related Reports</h2></li>
+        <li class="head"><h2>Related Reports</h2></li>
         <li>
-            <a href="/workingpapers/#finance">Working Papers</a></li>
-        <li>
-            <a href="/finance/workshops.php">Workshops</a></li>
+			<ul>
+				<li><a href="/workingpapers/#finance">Working Papers</a></li>
+				<li><a href="/finance/workshops.php">Workshops</a></li>
+			</ul>
+		</li>
     </ul>
 </div>

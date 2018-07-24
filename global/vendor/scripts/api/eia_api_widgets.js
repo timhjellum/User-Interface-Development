@@ -2,7 +2,7 @@ var eia_widget_data_stored = []; //stores recently accessed data so to not refet
 
 //fill recently accessed storage ahead of other calls to reduce ajax call count
 function eia_widgets_prefill(series){ 
-	var series_data_url = "https://api.eia.gov/series/?api_key=limiteduse3rdpartykey&series_id="; //init fetch string
+	var series_data_Url = "https://api.eia.gov/series/?api_key=limiteduse3rdpartykey&series_id="; //init fetch string
 	jQuery.support.cors = true; //ie8 fixed
 	
 	jQuery.ajax({
@@ -26,7 +26,7 @@ function eia_widgets_prefill(series){
 //fetch data object from requested series
 function fetchDataObject(appKey,series){ 
 	var seriesList=series.split(";"); //split ; seperated string into array
-	var series_data_url = "https://api.eia.gov/series/?api_key=" + appKey + "&series_id="; //init fetch url
+	var series_data_Url = "https://api.eia.gov/series/?api_key=" + appKey + "&series_id="; //init fetch url
 	var series_to_fetch = ""; //init fetch series string
 	var returnData=[],outputData=[]; //init series data arrays
 	outputData[seriesList.length-1]=undefined; //fill outputData with undefined equal to request size

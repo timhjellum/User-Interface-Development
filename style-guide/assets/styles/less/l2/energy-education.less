@@ -2,8 +2,6 @@
     div {
         &.energy-education {
             margin: 0 0 3em;
-            // width: 100%;
-            display: table;
             display: inline-block;
             width: 100%;
             ul {
@@ -41,13 +39,13 @@
                     //margin: 0 auto 1em auto;
                     //width: 100%;
                     //height: 100px;
-                    float: left;
+                    .left;
                     width: 75px;
                     height: 66px;
                     margin: 0;
                     &.ico {
                         &.energy-education {
-                            float: left;
+                            .left;
                             width: 66px;
                             height: 75px;
                             &.faq {
@@ -56,6 +54,7 @@
                                     .nav-bar-icon(75px, 66px);
                                     background-size: 90%;
                                     border: none;
+                                    border-radius: 0;
                                 }
                             }
                             &.petroleum {
@@ -65,10 +64,11 @@
                                     background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                 }
                             }
                             &.energy-kids {
-                                background: url(/css_rehab/archive/global/images/energy-education/energy-kids.png) no-repeat right;
+                                background: url(/global/images/energy-education/energy-kids.png) no-repeat right;
                                 background-size: 68%;
                             }
                             &.natural-gas {
@@ -78,11 +78,11 @@
                                     background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                 }
-//background: url(/css_rehab/archive/global/images/energy-education/natural-gas.png) no-repeat;
                             }
                             &.bio-fuel {
-                                background: url(/css_rehab/archive/global/images/energy-education/bio-fuel.png) no-repeat;
+                                background: url(/global/images/energy-education/bio-fuel.png) no-repeat;
                             }
                             &.coal {
                                 &:before {
@@ -91,40 +91,40 @@
                                     background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                     background-position-y: 45%;
                                 }
                             }
-//background: url(/css_rehab/archive/global/images/energy-education/coal.png) no-repeat;
                             &.consumption {
                                 &:before {
-                                    .icon-consumption(@fill-color: @eia-brown);// 
+                                    .icon-consumption(@fill-color: @eia-green);
                                     .nav-bar-icon(75px, 66px);
                                     background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                 }
-//background: url(/css_rehab/archive/global/images/energy-education/consumption.png) no-repeat;
                             }
                             &.environment {
                                 &:before {
-                                    .icon-environment(@fill-color: @eia-brown);
+                                    .icon-environment(@fill-color: @eia-dark-green, @fill-color-lt: @eia-yellow); 
                                     .nav-bar-icon(75px, 66px);
                                     background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                     background-position-y: 45%;
                                 }
-//background: url(/css_rehab/archive/global/images/energy-education/environment.png) no-repeat;
                             }
                             &.electricity {
                                 &:before {
-                                    .icon-electricity(@fill-color: @eia-blue);
+                                    .icon-electricity(@fill-color: @eia-yellow);
                                     .nav-bar-icon(75px, 66px);
                                     background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                 }
-//background: url(/css_rehab/archive/global/images/energy-education/electricity.png) no-repeat;
                             }
                             &.nuclear {
                                 &:before {
@@ -133,8 +133,8 @@
                                     //background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                 }
-//background: url(/css_rehab/archive/global/images/energy-education/nuclear.png) no-repeat;
                             }
                             &.renewable {
                                 &:before {
@@ -143,26 +143,23 @@
                                     background-size: 90%;
                                     margin-left: 0;
                                     border: none;
+                                    border-radius: 0;
                                 }
-//background: url(/css_rehab/archive/global/images/energy-education/renewable.png) no-repeat;
                             }
                             &.eib {
-                                background: url(/css_rehab/archive/global/images/energy-education/eib.png) no-repeat;
-
+                                background: url(/global/images/energy-education/eib.png) no-repeat;
                             }
                         }
                         &.consumption-surveys {
-                            float: left;
+                            .left;
                             &.residential {
-                                background: url(/css_rehab/archive/global/images/consumption/residential.png) no-repeat;
-
+                                background: url(/global/images/consumption/residential.png) no-repeat;
                             }
                             &.commercial {
-                                background: url(/css_rehab/archive/global/images/consumption/commercial.png) no-repeat;
-
+                                background: url(/global/images/consumption/commercial.png) no-repeat;
                             }
                             &.industrial {
-                                background: url(/css_rehab/archive/global/images/consumption/industrial.png) no-repeat;
+                                background: url(/global/images/consumption/industrial.png) no-repeat;
                                 margin-left: 10px;
 
                             }
@@ -176,7 +173,7 @@
                 }
                 &:last-child {
                     img {
-                        float: left;
+                        .left;
                         margin: 0 0 0 13px;
                     }
                     ul {
@@ -191,7 +188,7 @@
                     clear: none;
                     margin: 0 0 0 80px;
                     position: relative;
-                    text-align: left;
+                    .align-left;
                     li {
                         &.head {
                             padding: 0 0 2px 0;
@@ -204,7 +201,7 @@
                                 line-height: 1.2em;
                                 text-transform: uppercase;
                                 font-size: .9375rem; //15px
-                                text-align: left;
+                                .align-left;
                                 a {
                                     .font;
                                     .bold;
@@ -212,7 +209,7 @@
                                     line-height: 1.2em;
                                     text-transform: uppercase;
                                     font-size: .9375rem; //15px
-                                    text-align: left;
+                                    .align-left;
                                     display: inline-block;
                                     text-decoration: none;
                                     &:hover {
@@ -227,7 +224,7 @@
                             font-size: .8125rem; // 13px
                             line-height: 1.5em;
                             color: @eia-dark-grey;
-                            text-align: left;
+                            .align-left;
                             a {
                                 .font;
                                 font-style: italic;
@@ -243,7 +240,7 @@
                         }
                         &.foot {
                             margin-top: 8px;
-                            text-align: left;
+                            .align-left;
                             a {
                                 font-size: .750rem; // 12px
                                 line-height: 1.375em; // 22px
@@ -287,9 +284,10 @@
                 padding: 0;
                 i {
                     margin: 0;
+                    /*
                     &.ico {
                         &.energy-education {
-                            float: left;
+                            .left;
                             &.faq {
                                 &:before {
                                     //margin-left: -17px;
@@ -302,6 +300,7 @@
                             }
                         }
                     }
+                    */
                 }
                 ul {
                     //margin: 0 0 0 0;
@@ -319,6 +318,9 @@
                     border-left: 1px solid shade(white, 17%);
                     border-right: 1px solid shade(white, 17%);
                     padding: 0 10px 20px 10px;
+                }
+                &:first-child {
+                    padding: 0 10px 0 0;
                 }
             }
         }

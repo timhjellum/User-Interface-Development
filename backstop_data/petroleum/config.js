@@ -9,7 +9,7 @@ report({
         "fileName": "backstop_default_Petroleum_0_document_0_tablet.png",
         "label": "Petroleum",
         "misMatchThreshold": 0.1,
-        "url": "https://www.eia.gov/css_rehab/archive/petroleum/index.php",
+        "url": "https://www.eia.gov/petroleum/index.php",
         "referenceUrl": "https://www.eia.gov/petroleum/index.php",
         "diff": {
           "isSameDimensions": false,

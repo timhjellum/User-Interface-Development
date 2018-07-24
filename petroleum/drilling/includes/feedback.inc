@@ -1,4 +1,5 @@
-<srcipt>function validateForm() {
+<srcipt>
+function validateForm() {
 var email = $("#email").val();
 var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 if(!re.test(email))
@@ -42,7 +43,7 @@ $mailinfo[$k][5] = (string) $item->server;
 //print_r($mailinfo);
 ?>
 <?php
-$domain = $_SERVER['HTTP_HOST'];
+$domUrl = "_SERVER['HTTP_HOST'];
 $strUrl = "http://" . $domain . $_SERVER['REQUEST_URI'];
 ?>
 <script>

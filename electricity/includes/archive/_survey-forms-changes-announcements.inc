@@ -3,22 +3,22 @@
 /* note, you must add the arrow &nbsp; */
 /* leave fields blank if unused - a script will hide unused list items*/
 
-$OneURL = "";
+$OneUrl = "";
 $OneTitle = "";
 
-$TwoURL = "";
+$TwoUrl = "";
 $TwoTitle = "";
 
-$ThrURL = "";
+$ThrUrl = "";
 $ThrTitle = "";
 
-$FouURL = "";
+$FouUrl = "";
 $FouTitle = "";
 
-$FivURL = "";
+$FivUrl = "";
 $FivTitle = "";
 
-$SixURL = "";
+$SixUrl = "";
 $SixTitle = "";
 
 ?>

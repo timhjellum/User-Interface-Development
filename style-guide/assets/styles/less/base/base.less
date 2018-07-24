@@ -81,6 +81,7 @@ strong {
 .hide {
 	display: none;
 }
+/*
 .footer {
 	a[href^="http:"],
 	a[href^="https:"],
@@ -95,6 +96,18 @@ strong {
 		}
 	}
 }
+
+a {
+	&.external-link {
+		background: url(/global/images/icons/external_link.png) no-repeat scroll right center transparent;
+		padding-right: 10px;
+		margin-right: 1px;
+		&:hover {
+			text-decoration: underline !important;
+		}
+	}
+}
+*/
 
 .formats {
 	.italic;
@@ -113,6 +126,86 @@ strong {
 .source {
 	.italic;
 }
+.no-border {
+	border-color: transparent;
+	border-top: none;
+	border-right: none;
+	border-bottom: none !important;
+	border-left: none;
+}
+
+
+
+a.external-link::after,
+a[href*=".com"]::after,
+a[href^="http:"]::after,
+a[href^="https:"]::after {
+	content: '';
+    background: url(/global/images/icons/external_link.png) no-repeat scroll right center transparent;
+    //padding-right: 10px;
+	//margin-right: 1px;
+	margin: 0 0 0 2px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+}
+ 
+a[href*="eia.gov"]::after,
+.global-nav a[href*=".com"]::after,
+.global-nav a[href^="http:"]::after,
+.global-nav a[href^="https:"]::after {
+	content: none;
+	background: none;
+}
+.social a::after,
+.social a[href^="https:"]::after {  
+	content: none;
+	background: none;
+}
+.bx-viewport a::after,
+.bx-viewport a[href^="https:"]::after {  
+	content: none;
+	background: none;
+}
+
+
+
+/*
+.no-wrap(@NoWrap: no-wrap) { white-space: @NoWrap; }
+.align-right(@AlignRight: right) {text-align: @AlignRight; }
+.align-left(@AlignLeft: left) {text-align: @AlignLeft; }
+.align-center(@AlignCenter: center) {text-align: @AlignCenter; }
+.align-top(@AlignTop: top) {vertical-align: @AlignTop; }
+.align-middle(@AlignMiddle: middle) {vertical-align: @AlignMiddle; }
+.align-bottom(@AlignBottom: bottom) {vertical-align:@AlignBottom; }
+&.no-border {
+	border-color: transparent;
+}
+&.left {
+	float: left;
+}
+&.right {
+	float: right;
+}
+&.align-left {
+	text-align: left;
+}
+&.align-center {
+	text-align: center;
+}
+&.align-right {
+	text-align: right;
+}
+&.align-top {
+	vertical-align: top;
+}
+&.align-middle {
+	vertical-align: middle;
+}
+&.align-bottom {
+	vertical-align: bottom;
+}
+*/
 	/* caption
 	.source {
 		width: 100%;
@@ -729,9 +822,25 @@ span {
 	width: 100%;
 }
 .responsive {
-	max-width: 100%;
 	margin: 0 auto;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+    background-size: cover
 }
+
+
+
+
+
+
+
+
 
 
 .pipe {

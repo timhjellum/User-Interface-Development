@@ -1,6 +1,5 @@
 <div class="basic-table">
     <h1>Recent Data</h1>
-    <?php /* include('analysis/includes/data_table_excel.inc') */ ?>
     <?php include ('consumption/includes/data_table_cbs_ytd.inc') ?>
     <div class="secondary">
         <ul>

@@ -6,30 +6,30 @@
 
 
 $directory = ""; // petroleum
-$subNavLink02URL = "projection-data.php"; // data.php
+$subNavLink02Url = "projection-data.php"; // data.php
 $subNavLink02Label = "Projection Data"; // Data
 
-$subNavLink03URL = "reports.php"; // reports.php
+$subNavLink03Url = "reports.php"; // reports.php
 $subNavLink03Label = "Analysis & Projections"; // Analysis & Projections
 
 // dropdown one
-$menu01link01URL = "";
+$menu01link01Url = "";
 $menu01link01Label = "";
-$menu01link02URL = "";
+$menu01link02Url = "";
 $menu01link02Label = "";
-$menu01link03URL = "";
+$menu01link03Url = "";
 $menu01link03Label = "";
-$menu01link04URL = "";
+$menu01link04Url = "";
 $menu01link04Label = "";
-$menu01link05URL = "";
+$menu01link05Url = "";
 $menu01link05Label = "";
-$menu01link06URL = "";
+$menu01link06Url = "";
 $menu01link06Label = "";
-$menu01link07URL = "";
+$menu01link07Url = "";
 $menu01link07Label = "";
-$menu01link08URL = "";
+$menu01link08Url = "";
 $menu01link08Label = "";
-//$menu01link09URL = "";
+//$menu01link09Url = "";
 //$menu01link09Label = "";
 
 // dropdown one
@@ -37,17 +37,17 @@ $menu01link08Label = "";
 $menu02Title01 = "Major Topics"; // Major Topics
 $menu02Title01 = "Find by"; // Find by
 
-$menu02link01URL = "";
+$menu02link01Url = "";
 $menu02link01Label = "";
-$menu02link02URL = "";
+$menu02link02Url = "";
 $menu02link02Label = "";
-$menu02link03URL = "";
+$menu02link03Url = "";
 //$menu02link03Label = "";
-//$menu02link04URL = "";
+//$menu02link04Url = "";
 
-$glossaryURL = "/glossary/"; // /glossary/
+$glossaryUrl = "/glossary/"; // /glossary/
 $glossaryLabel = "Glossary"; // Glossary
-$faqURL = "/tools/faqs/"; ///tools/faqs/
+$faqUrl = "/tools/faqs/"; ///tools/faqs/
 $faqLabel = "FAQS"; // FAQ
 ?>
 
@@ -70,35 +70,35 @@ $faqLabel = "FAQS"; // FAQ
                             <div class="dropdown-data-content dropdown-content">
                                 <ul>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link01URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link01Url?>">
                                             <?=$menu01link01Label?>
                                         </a></li>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link02URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link02Url?>">
                                             <?=$menu01link02Label?>
                                         </a></li>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link03URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link03Url?>">
                                             <?=$menu01link03Label?>
                                         </a></li>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link04URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link04Url?>">
                                             <?=$menu01link04Label?>
                                         </a></li>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link05URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link05Url?>">
                                             <?=$menu01link05Label?>
                                         </a></li>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link06URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link06Url?>">
                                             <?=$menu01link06Label?>
                                         </a></li>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link07URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link07Url?>">
                                             <?=$menu01link07Label?>
                                         </a></li>
                                     <li>
-                                        <a href="/<?=$directory?>/<?=$menu01link08URL?>">
+                                        <a href="/<?=$directory?>/<?=$menu01link08Url?>">
                                             <?=$menu01link08Label?>
                                         </a></li>
                                 </ul>
@@ -125,15 +125,15 @@ $faqLabel = "FAQS"; // FAQ
                                     </ul>
                                     <ul class="l-one-third-col">
                                         <li>
-                                            <a href="/<?=$directory?>/<?=$menu02link01URL?>">
+                                            <a href="/<?=$directory?>/<?=$menu02link01Url?>">
                                                 <?=$menu02link01Label?>
                                             </a></li>
                                         <li>
-                                            <a href="/<?=$directory?>/<?=$menu02link02URL?>">
+                                            <a href="/<?=$directory?>/<?=$menu02link02Url?>">
                                                 <?=$menu02link02Label?>
                                             </a></li>
                                         <li>
-                                            <a href="/<?=$directory?>/<?=$menu02link03URL?>">
+                                            <a href="/<?=$directory?>/<?=$menu02link03Url?>">
                                                 <?=$menu02link03Label?>
                                             </a></li>
                                     </ul>
@@ -142,7 +142,7 @@ $faqLabel = "FAQS"; // FAQ
                     </ul>
                 </div>
                 <div class="right">
-                    <span><a href="<?=$glossaryURL?>"><?=$glossaryLabel?></a><a href="<?=$faqURL?>"><?=$faqLabel?></a></span>
+                    <span><a href="<?=$glossaryUrl?>"><?=$glossaryLabel?></a><a href="<?=$faqUrl?>"><?=$faqLabel?></a></span>
                 </div>
             </div>
         </div>

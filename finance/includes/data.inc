@@ -1,59 +1,52 @@
-<a name="mpurc" id="mpurc">
-</a>
-<h1>Market Prices and Uncertainty Report Charts</h1>
-
-
-<h3><a name="selected-charts"></a>Selected Charts</h3>
-<div class="content zebra">
-    <ul>
-        <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig1.png" class="lightbox">Figure 1: Historical crude oil front month futures prices</a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig7.png" class="lightbox">Figure 7: Probability of the January 2016 WTI contract expiring above price levels</a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig8.png" class="lightbox">Figure 8: Historical RBOB futures prices and crack spreads</a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig12.png" class="lightbox">Figure 12: Probability of January 2016 retail gasoline exceeding different prices levels at expiration</a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig14.png" class="lightbox">Figure 14: U.S. natural gas prices and storage</a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig16.png" class="lightbox">Figure 16: Probability of the January 2016 Henry Hub contract expiring above price levels</a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/images/Fig1.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals</a></li>
-        <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Fig1.xls" alt="West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals"><i class="ico xls"><span>XLS</span></i></a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/images/Probability_WTI.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Probabilities</a></li>
-        <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Probability_WTI.xls" alt="West Texas Intermediate (WTI) Crude Oil Price Probabilities"><i class="ico xls"><span>XLS</span></i></a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/images/Fig4.png" class="lightbox">Henry Hub natural gas prices and confidence intervals</a></li>
-        <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Fig4.xls" alt="Henry Hub natural gas prices and confidence intervals"><i class="ico xls"><span>XLS</span></i></a></li>
-    </ul>
-    <ul>
-        <li><a href="/forecasts/steo/images/Probability_HH.png" class="lightbox">Henry Hub natural gas price probabilities</a></li>
-        <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Probability_HH.xls" alt="Henry Hub natural gas price probabilities"><i class="ico xls"><span>XLS</span></i></a></li>
-    </ul>
+<div class="primary">
+<h1 class="no-border"><a name="mpurc" id="mpurc"></a>Market Prices and Uncertainty Report Charts</h1>
+<div class="accordion all-open">
+    <h3><a name="selected-charts"></a>Selected Charts</h3>
+    <div class="accordion-content">
+        <ul>
+            <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig1.png" class="lightbox">Figure 1: Historical crude oil front month futures prices</a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig7.png" class="lightbox">Figure 7: Probability of the January 2016 WTI contract expiring above price levels</a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig8.png" class="lightbox">Figure 8: Historical RBOB futures prices and crack spreads</a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig12.png" class="lightbox">Figure 12: Probability of January 2016 retail gasoline exceeding different prices levels at expiration</a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig14.png" class="lightbox">Figure 14: U.S. natural gas prices and storage</a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/uncertainty/images/uncertainty_fig16.png" class="lightbox">Figure 16: Probability of the January 2016 Henry Hub contract expiring above price levels</a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/images/Fig1.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Fig1.xls" alt="West Texas Intermediate (WTI) Crude Oil Price Confidence Intervals"><i class="ico xls"><span>XLS</span></i></a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/images/Probability_WTI.png" class="lightbox">West Texas Intermediate (WTI) Crude Oil Price Probabilities</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Probability_WTI.xls" alt="West Texas Intermediate (WTI) Crude Oil Price Probabilities"><i class="ico xls"><span>XLS</span></i></a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/images/Fig4.png" class="lightbox">Henry Hub natural gas prices and confidence intervals</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Fig4.xls" alt="Henry Hub natural gas prices and confidence intervals"><i class="ico xls"><span>XLS</span></i></a></li>
+        </ul>
+        <ul>
+            <li><a href="/forecasts/steo/images/Probability_HH.png" class="lightbox">Henry Hub natural gas price probabilities</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/forecasts/steo/xls/Probability_HH.xls" alt="Henry Hub natural gas price probabilities"><i class="ico xls"><span>XLS</span></i></a></li>
+        </ul>
+    </div>
 </div>
 
-<h1>
-    <a name="archive" id="archive"></a>Archive</h1>
-
-<h2>
-    <a name="frs"></a>Financial Reporting System (FRS) <span class="alert">(suspended)</span></h2>
-
+<h1><a name="archive" id="archive"></a>Archive</h1>
+<h4><a name="frs"></a>Financial Reporting System (FRS) <span class="alert">(suspended)</span></h4>
 <p>Find operating data and analysis for major U.S. energy companies.</p>
 <span class="expand-collapse-container"> <i class="ico expand"><span>Expand all</span></i> <i class="ico collapse"><span>Collapse all</span></i> </span>
-
-
-<div id="accordion" class="accordion">
+<div class="accordion">
     <h3><a name="finance"></a>Finance</h3>
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Selected financial items</li>
             <li><span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span></li>
@@ -120,13 +113,8 @@
             <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/T-13.xlsx" alt="U.S. taxes other than income taxes"><i class="ico xls"><span>XLS</span></i></a></li>
         </ul>
     </div>
-
-
-
-
     <h3><a name="oil"></a>Oil and natural gas costs/expenditures</h3>
-
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">U.S. energy operating statistics</li>
             <li><span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span></li>
@@ -199,7 +187,7 @@
 
     <h3><a name="refining"></a>Refining and marketing</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">U.S. refining/marketing statement of income</li>
             <li><span class="release-date">Annual Release Date:</span> <span class="date">April 2011</span></li>
@@ -248,12 +236,12 @@
 
     <h3><a name="operations"></a>Consolidated company operations</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul class="highlight">
-            <li class="head">Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
+            <li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
         </ul>
         <ul>
-            <li>Consolidating statement if Income</li>
+            <li class="head">Consolidating statement if Income</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/s5110.xls" alt="Consolidating statement if Income"><i class="ico xls"><span>XLS</span></i></a></li>
         </ul>
         <ul>
@@ -288,9 +276,9 @@
 
     <h3><a name="petroleumops"></a>Petroleum operations</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul class="highlight">
-            <li class="head">Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
+            <li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
         </ul>
         <ul>
             <li class="head">Statement of income</li>
@@ -332,12 +320,9 @@
 
     <h3><a name="coalops"></a>Coal operations</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul class="highlight">
-            <li class="head">
-                Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
-
-        </ul>
+            <li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>        </ul>
         <ul>
             <li class="head">Coal - reserves &amp; production statistics</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/s5341.xls" alt=" Coal - reserves & production statistics"><i class="ico xls"><span>XLS</span></i></a></li>
@@ -350,13 +335,12 @@
 
     <h3><a name="natgasops"></a>Downstream natural gas operations</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul class="highlight">
-            <li class="head">
-                Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
+            <li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
         </ul>
         <ul>
-            <li>Statement of income</li>
+            <li class="head">Statement of income</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/s5710.xls" alt="Downstream natural gas operations Statement of income"><i class="ico xls"><span>XLS</span></i></a></li>
         </ul>
         <ul>
@@ -376,20 +360,18 @@
 
 
 
-    <h3><a nam="electricops"></a>Electric power operations</h3>
-
-
-    <div class="content">
-        <ul class="highlight">
-            <li class="head">Time-series data: These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
-        </ul>
-        <ul>
-            <li>Statement of Income</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/s5810.xls" alt="Electric power operations Statement of income"><i class="ico xls"><span>XLS</span></i></a></li>
-        </ul>
+        <h3><a nam="electricops"></a>Electric power operations</h3>
+        <div class="accordion-content">
+            <ul class="highlight">
+                <li><strong>Time-series data:</strong> These files contain disclosure-free aggregate data from the Energy Information Administration's Financial Reporting System (FRS) database. The data cover the years 1977 through 2009.</li>
+            </ul>
+            <ul>
+                <li class="head">Statement of Income</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/archive/frsdata/s5810.xls" alt="Electric power operations Statement of income"><i class="ico xls"><span>XLS</span></i></a></li>
+            </ul>
+        </div>
     </div>
 
-</div>
 
 
 
@@ -398,20 +380,17 @@
 
 
 
-
-<h1>Financial News for Major Energy Producers
-    <span class="alert">(suspended)</span>
-</h1>
+<h4>Financial News for Major Energy Producers <span class="alert">(suspended)</span></h4>
 <p>The "Financial News for Major Energy Companies" is issued quarterly to report recent trends in the financial performance of the major energy companies. These include the respondents to Form EIA-28 (Financial Reporting System (FRS)), with the exception
     of the FRS companies that do not issue quarterly earnings releases or do not provide separate information for the company's U.S. operations.</p>
 
 
 <span class="expand-collapse-container"> <i class="ico expand"><span>Expand all</span></i> <i class="ico collapse"><span>Collapse all</span></i> </span>
 
-<div id="accordion" class="accordion">
+<div class="accordion">
     <h3><a name="2010"></a>2010</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Third quarter 2010</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q310.pdf" alt="Financial News for Major Energy Producers Third quarter 2010"><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -431,7 +410,7 @@
 
     <h3><a name="2009"></a>2009</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Fourth quarter 2009</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q409.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2009"><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -455,7 +434,7 @@
 
     <h3><a name="2008"></a>2008</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Fourth quarter 2008</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q408.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2008"><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -479,7 +458,7 @@
 
     <h3><a name="2007"></a>2007</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Fourth quarter 2007</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q407.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2007"><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -503,7 +482,7 @@
 
     <h3><a name="2006"></a>2006</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Fourth quarter 2006</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q406.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2006"><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -527,7 +506,7 @@
 
     <h3><a name="2005"></a>2005</h3>
 
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Fourth quarter 2005</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q405.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2005"><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -550,8 +529,7 @@
 
 
     <h3><a name="2004"></a>2004</h3>
-
-    <div class="content">
+    <div class="accordion-content">
         <ul>
             <li class="head">Fourth quarter 2004</li>
             <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q404.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2004"><i class="ico pdf"><span>PDF</span></i></a></li>
@@ -573,68 +551,66 @@
 
 
 
-    <h3><a name="2003"></a>2003</h3>
-
-    <div class="content">
-        <ul>
-            <li class="head">Fourth quarter 2003</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q403.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-        <ul>
-            <li class="head">Third quarter 2003</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q303.pdf" alt="Financial News for Major Energy Producers Third quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-        <ul>
-            <li class="head">Second quarter 2003</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q203.pdf" alt="Financial News for Major Energy Producers Second quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-        <ul>
-            <li class="head">First quarter 2003</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q103.pdf" alt="Financial News for Major Energy Producers First quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-    </div>
-
-
-
-
-    <h3><a name="2002"></a>2002</h3>
-
-    <div class="content">
-        <ul>
-            <li class="head">Fourth quarter 2002</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q402.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-        <ul>
-            <li class="head">Third quarter 2002</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q302.pdf" alt="Financial News for Major Energy Producers Third quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-        <ul>
-            <li class="head">Second quarter 2002</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q202.pdf" alt="Financial News for Major Energy Producers Second quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-        <ul>
-            <li class="head">First quarter 2002</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q102.pdf" alt="Financial News for Major Energy Producers First quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-    </div>
+        <h3><a name="2003"></a>2003</h3>
+        <div class="accordion-content">
+            <ul>
+                <li class="head">Fourth quarter 2003</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q403.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+            <ul>
+                <li class="head">Third quarter 2003</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q303.pdf" alt="Financial News for Major Energy Producers Third quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+            <ul>
+                <li class="head">Second quarter 2003</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q203.pdf" alt="Financial News for Major Energy Producers Second quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+            <ul>
+                <li class="head">First quarter 2003</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q103.pdf" alt="Financial News for Major Energy Producers First quarter 2003"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+        </div>
 
 
 
 
-    <h3><a name="2001"></a>2001</h3>
+        <h3><a name="2002"></a>2002</h3>
+        <div class="accordion-content">
+            <ul>
+                <li class="head">Fourth quarter 2002</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q402.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+            <ul>
+                <li class="head">Third quarter 2002</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q302.pdf" alt="Financial News for Major Energy Producers Third quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+            <ul>
+                <li class="head">Second quarter 2002</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q202.pdf" alt="Financial News for Major Energy Producers Second quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+            <ul>
+                <li class="head">First quarter 2002</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q102.pdf" alt="Financial News for Major Energy Producers First quarter 2002"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+        </div>
 
-    <div class="content">
-        <ul>
-            <li class="head">Fourth quarter 2001</li>
-            <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q401.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2001"><i class="ico pdf"><span>PDF</span></i></a></li>
-        </ul>
-        <ul>
-            <li class="head">Third quarter 2001</li>
-            <li><span class="formats">Available formats:</span> missing</li>
-        </ul>
-        <ul>
-            <li class="head">Second quarter 2001</li>
-            <li><span class="formats">Available formats:</span>missing</li>
-        </ul>
+
+
+
+        <h3><a name="2001"></a>2001</h3>
+        <div class="accordion-content">
+            <ul>
+                <li class="head">Fourth quarter 2001</li>
+                <li><span class="formats">Available formats:</span> <a href="/finance/performanceprofiles/news_m/q401.pdf" alt="Financial News for Major Energy Producers Fourth quarter 2001"><i class="ico pdf"><span>PDF</span></i></a></li>
+            </ul>
+            <ul>
+                <li class="head">Third quarter 2001</li>
+                <li><span class="formats">Available formats:</span> missing</li>
+            </ul>
+            <ul>
+                <li class="head">Second quarter 2001</li>
+                <li><span class="formats">Available formats:</span> missing</li>
+            </ul>
+        </div>
     </div>
 </div>

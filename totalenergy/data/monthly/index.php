@@ -6,7 +6,7 @@ $locale = 'data';
 ?>
     <html>
 
-    <head>
+<head>
         <title>
             <?=$pageTitle?> -
                 <?=$L2T?>
@@ -14,18 +14,18 @@ $locale = 'data';
         <?php include('css_rehab/archive/global/head/includes/head.inc') ?>
     </head>
 
-    <body>
-        <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
-        <?php include('css_rehab/archive/totalenergy/includes/sub-navigation.inc'); ?>
+<body>
+        <?php include('global/header/includes/header.inc') ?>
+        <?php include('totalenergy/includes/sub-navigation.inc'); ?>
         <div class="l-row">
             <div class="l-main-col">
-                <?php include('./includes/data.inc'); ?>
-            </div>
+                <?php include('includes/data.inc'); ?>
+      </div>
             <div class="l-narrow-col">
-                <?php include('./includes/data-side-content.inc') ?>
-            </div>
-        </div>
+                <?php include('includes/data-side-content.inc') ?>
+      </div>
+    </div>
         <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
-    </body>
+</body>
 
-    </html>
+</html>
