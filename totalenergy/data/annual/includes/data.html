@@ -1,0 +1,891 @@
+
+<style>
+.numbered > ul > li {
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+} 
+
+span.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+}
+</style>
+
+
+
+
+
+<h3>Data categories</h3>
+<span class="expand-collapse-container">
+<i class="ico expand"><span>Expand all</span></i>
+<i class="ico collapse"><span>Collapse all</span></i>
+</span>
+<div id="accordion" class="accordion">
+    <h3><a name="summary"></a>Energy overview</h3>
+
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="mer number">1.0</span>Energy flow</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/flow/total_energy.pdf" title="Table 1.0  Energy flow"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.1</span>Primary energy overview</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_3.pdf" title="Table 1.1  Primary energy overview"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.01&freq=a" title="Table 1.1  Primary energy overview"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.01" title="Table 1.1  Primary energy overview"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.01#/?f=A&start=200001" title="Table 1.1  Primary energy overview  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.2</span>Primary energy production by source</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_5.pdf" title="Table 1.2  Primary energy production by source"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.02&freq=a" title="Table 1.2  Primary energy production by source"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.02" title="Table 1.2  Primary energy production by source"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.02#/?f=A&start=200001" title="Table 1.2  Primary energy production by source  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.3</span>Primary energy consumption estimates by source</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_7.pdf" title="Table 1.3  Primary energy consumption estimates by source"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.03&freq=a" title="Table 1.3  Primary energy consumption estimates by source"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.03" title="Table 1.3  Primary energy consumption estimates by source"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.03#/?f=A&start=200001" title="Table 1.3  Primary energy consumption estimates by source  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.4</span>Primary energy trade by source</li>
+            <li>Imports by source</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_10.pdf" title="Table 1.4  Imports by source"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.04A" title="Table 1.4  Imports by source"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.04A" title="Table 1.4  Imports by source"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.04A#/?f=A&start=200001" title="Table 1.4  Imports by source  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+            <li>Exports by source</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_11.pdf" title="Table 1.4  Exports by source"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.04B" title="Table 1.4  Exports by source"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.04B" title="Table 1.4  Exports by source"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.04B#/?f=A&start=200001" title="Table 1.4  Exports by source  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.5</span>Energy consumption, expenditures, and emissions indicators estimates</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_17.pdf" title="Table 1.5  Energy consumption, expenditures, and emissions indicators estimates"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.07&freq=m" class="ico_xls" title="Table 1.5  Energy consumption, expenditures, and emissions indicators estimates"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.07" title="Table 1.5  Energy consumption, expenditures, and emissions indicators estimates"><i class="ico csv"><span>CSV</span></i></a><a href="/totalenergy/data/monthly/pdf/sec1_16.pdf" title="Table 1.5  Energy consumption, expenditures, and emissions indicators estimates"><i class="ico pdf"><span>PDF</span></i> (graph)</a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.07#/?f=M&start=200001" title="Table 1.5  Energy consumption, expenditures, and emissions indicators estimates  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">1.6</span><a href="showtext.php?t=ptb0106">State-level energy consumption, expenditure, and prices estimates, <script>DataEndYear(2);</script></li>
+			<li><span class="formats">Available formats:</span> <a href="pdf/sec1_15.pdf" title="Table 1.6  State-level energy consumption, expenditure, and prices estimates, 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0106.xls" class="ico_xls" title="Table 1.6  State-level energy consumption, expenditure, and prices estimates, 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec1_14.pdf" title="Table 1.6  State-level energy consumption, expenditure, and prices estimates, 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.7</span>Heating degree-days by month</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_20.pdf" title="Table 1.7  Heating degree-days by month"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.09&amp;freq=m" title="Table 1.7  Heating degree-days by month"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.09" title="Table 1.7  Heating degree-days by month"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.09#/?f=A&start=200001" title="Table 1.7  Heating degree-days by month - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.8</span>Cooling degree-days by month</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_21.pdf" title="Table 1.8  Cooling degree-days by month"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.10&amp;freq=m" title="Table 1.8  Cooling degree-days by month"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.10" title="Table 1.8  Cooling degree-days by month"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.10#/?f=A&start=200001" title="Table 1.8  Cooling degree-days by month - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.9</span>Heating degree-days by Census division</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_20.pdf" title="Table 1.9  Heating degree-days by Census division"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.09&amp;freq=m" title="Table 1.9  Heating degree-days by Census division"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.09" title="Table 1.9  Heating degree-days by Census division"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.09#/?f=A&start=200001" title="Table 1.9  Heating degree-days by Census division - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.10</span>Cooling degree-days by Census division</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_21.pdf" title="Table 1.10  Cooling degree-days by Census division"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.10&amp;freq=m" title="Table 1.10  Cooling degree-days by Census division"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.10" title="Table 1.10  Cooling degree-days by Census division"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.10#/?f=A&start=200001" title="Table 1.10  Cooling degree-days by Census division - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.11</span>U.S. government energy consumption by agency, fiscal years</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_14.pdf" title="Table 1.11  U.S. government energy consumption by agency, fiscal years"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.07&freq=m" title="Table 1.11  U.S. government energy consumption by agency, fiscal years"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.07" title="Table 1.11  U.S. government energy consumption by agency, fiscal years"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.07#/?f=M&start=200001" title="Table 1.11  U.S. government energy consumption by agency, fiscal years - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.12</span>U.S. government energy consumption by source</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_15.pdf" title="Table 1.12  U.S. government energy consumption by source"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.08&freq=m" title="Table 1.12  U.S. government energy consumption by source"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.08" title="Table 1.12  U.S. government energy consumption by source"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.08#/?f=M&start=200001" title="Table 1.12  U.S. government energy consumption by source - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">1.13</span><a href="showtext.php?t=ptb0113">U.S. government energy consumption by agency and source, fiscal years <script>DataEndYear(9);</script>, <script>DataEndYear(2);</script> , and <script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec1_29.pdf" title="Table 1.13  U.S. government energy consumption by agency and source, fiscal years 2003, 2010, and 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0113.xls" title="Table 1.13  U.S. government energy consumption by agency and source, fiscal years 2003, 2010, and 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec1_28.pdf" title="Table 1.13  U.S. government energy consumption by agency and source, fiscal years 2003, 2010, and 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">1.14</span><a href="showtext.php?t=ptb0114">Sales of fossil fuels produced on Federal and American Indian Lands, fiscal years 2003&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec1_31.pdf" title="Table 1.15  in physical units"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0114.xls" class="ico_xls" title="Table 1.15  in physical units"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec1_30.pdf" title="Table 1.15  in physical units">GRAPH</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">1.15</span>Non-combustion use of fossil fuels</li>
+        </ul>
+        <ul class="numbered">
+            <li>in physical units</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_22.pdf" title="Table 1.15  in physical units"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.11A" class="ico_xls" title="Table 1.15  in physical units"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.11A" title="Table 1.15  in physical units"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/totalenergy/data/browser/index.php?tbl=T01.11A#/?f=A&amp;start=200001" title="Table 1.15  in physical units - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li>in quadrillion Btu</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_23.pdf" title="Table 1.15  in quadrillion Btu"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.11B" class="ico_xls" title="Table 1.15  in quadrillion Btu"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.11B" title="Table 1.15  in quadrillion Btu"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.11B#/?f=A&start=200001" title="Table 1.15  in quadrillion Btu - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="consumption"></a>Energy consumption by sector</h3>
+
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="mer number">2.0</span>Primary energy consumption by source and sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/flow/css_2016_energy.pdf" title="Table 2.0  Primary energy consumption by source and sector"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">2.1a</span>Energy consumption estimates by sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_3.pdf" title="Table 2.1a  Energy consumption estimates by sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.01" title="Table 2.1a  Energy consumption estimates by sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.01" title="Table 2.1a  Energy consumption estimates by sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.01#/?f=A&start=200001" title="Table 2.1a  Energy consumption estimates by sector  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">2.1b</span>Residential sector energy consumption estimates</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_5.pdf" title="Table 2.1b  Residential sector energy consumption estimates"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.02" title="Table 2.1b  Residential sector energy consumption estimates"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.02" title="Table 2.1b  Residential sector energy consumption estimates"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.02#/?f=A&start=200001" title="Table 2.1b  Residential sector energy consumption estimates  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">2.1c</span>Commercial sector energy consumption estimates</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_7.pdf" title="Table 2.1c  Commercial sector energy consumption estimates"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.03" title="Table 2.1c  Commercial sector energy consumption estimates"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.03" title="Table 2.1c  Commercial sector energy consumption estimates"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.03#/?f=A&start=200001" title="Table 2.1c  Commercial sector energy consumption estimates  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">2.1d</span>Industrial sector energy consumption estimates</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_9.pdf" title="Table 2.1d  Industrial sector energy consumption estimates"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.04" title="Table 2.1d  Industrial sector energy consumption estimates"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.04" title="Table 2.1d  Industrial sector energy consumption estimates"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.04#/?f=A&start=200001" title="Table 2.1d  Industrial sector energy consumption estimates  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">2.1e</span>Transportation sector energy consumption estimates</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_11.pdf" title="Table 2.1e  Transportation sector energy consumption estimates"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.05" title="Table 2.1e  Transportation sector energy consumption estimates"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.05" title="Table 2.1e  Transportation sector energy consumption estimates"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.05#/?f=A&start=200001" title="Table 2.1e  Transportation sector energy consumption estimates  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">2.1f</span>Electric power sector energy consumption</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec2_13.pdf" title="Table 2.1f  Electric power sector energy consumption"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T02.06" title="Table 2.1f  Electric power sector energy consumption"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T02.06" title="Table 2.1f  Electric power sector energy consumption"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T02.06#/?f=A&start=200001" title="Table 2.1f  Electric power sector energy consumption  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+
+        <ul class="numbered">
+            <li><span class="number aer">2.2</span><a href="showtext.php?t=ptb0202">Manufacturing energy consumption for all purposes, <script>DataEndYear(6)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_13.pdf" title="Table 2.2  Manufacturing energy consumption for all purposes, 2006"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0202.xls" class="ico_xls" title="Table 2.2  Manufacturing energy consumption for all purposes, 2006"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_12.pdf" title="Table 2.2  Manufacturing energy consumption for all purposes, 2006"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.3</span><a href="showtext.php?t=ptb0203">Manufacturing energy consumption for heat, power, and electricity generation by end use,<script>DataEndYear(6)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_15.pdf" title="Table 2.3  Manufacturing energy consumption for heat, power, and electricity generation by end use, 2006"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0203.xls" class="ico_xls" title="Table 2.3  Manufacturing energy consumption for heat, power, and electricity generation by end use, 2006"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_14.pdf" title="Table 2.3  Manufacturing energy consumption for heat, power, and electricity generation by end use, 2006"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.4</span><a href="showtext.php?t=ptb0204">Household energy consumption by Census region, selected years, 1978&ndash;<script>DataEndYear(3)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_17.pdf" title="Table 2.4  Household energy consumption by Census region, selected years, 1978– 2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0204.xls" title="Table 2.4  Household energy consumption by Census region, selected years, 1978– 2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_16.pdf" title="Table 2.4  Household energy consumption by Census region, selected years, 1978– 2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.5</span><a href="showtext.php?t=ptb0205">Household energy consumption and expenditures by end use and energy source, selected years, 1978&ndash;<script>DataEndYear(7)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_19.pdf" title="Table 2.5  Household energy consumption and expenditures by end use and energy source, selected years, 1978–2005"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0205.xls" class="ico_xls" title="Table 2.5  Household energy consumption and expenditures by end use and energy source, selected years, 1978–2005"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_18.pdf" title="Table 2.5  Household energy consumption and expenditures by end use and energy source, selected years, 1978–2005"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.6</span><a href="showtext.php?t=ptb0206">Household end uses: fuel types and appliances and electronics, selected years, 1978&ndash;<script>DataEndYear(3)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_21.pdf" title="Table 2.6  Household end uses: fuel types and appliances and electronics, selected years, 1978–2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0206.xls" title="Table 2.6  Household end uses: fuel types and appliances and electronics, selected years, 1978–2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_20.pdf" title="Table 2.6  Household end uses: fuel types and appliances and electronics, selected years, 1978–2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.7</span><a href="showtext.php?t=ptb0207">Type of heating in occupied housing units, selected years, 1950&ndash;<script>DataEndYear(3);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_23.pdf" title="Table 2.7  Type of heating in occupied housing units, selected years, 1950– 2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0207.xls" title="Table 2.7  Type of heating in occupied housing units, selected years, 1950– 2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_22.pdf" title="Table 2.7  Type of heating in occupied housing units, selected years, 1950– 2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">2.8</span>Motor vehicle mileage, fuel consumption, and fuel economy</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec1_19.pdf" title="Table 2.8  Motor vehicle mileage, fuel consumption, and fuel economy"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T01.08" title="Table 2.8  Motor vehicle mileage, fuel consumption, and fuel economy"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T01.08" title="Table 2.8  Motor vehicle mileage, fuel consumption, and fuel economy"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T01.08#/?f=A&start=200001" title="Table 2.8  Motor vehicle mileage, fuel consumption, and fuel economy - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.9</span><a href="showtext.php?t=ptb0209">Commercial buildings consumption by energy source, selected years, 1979&ndash;<script>DataEndYear(9);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_27.pdf" title="Table 2.9  Commercial buildings consumption by energy source, selected years, 1979– 2003"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0209.xls" title="Table 2.9  Commercial buildings consumption by energy source, selected years, 1979– 2003"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_26.pdf" title="Table 2.9  Commercial buildings consumption by energy source, selected years, 1979– 2003"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.10</span><a href="showtext.php?t=ptb0210">Commercial buildings energy consumption and expenditure indicators, selected years, 1979&ndash;<script>DataEndYear(9);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_29.pdf" title="Table 2.10  Commercial buildings energy consumption and expenditure indicators, selected years, 1979–2003"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0210.xls" class="ico_xls" title="Table 2.10  Commercial buildings energy consumption and expenditure indicators, selected years, 1979–2003"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_28.pdf" title="Table 2.10  Commercial buildings energy consumption and expenditure indicators, selected years, 1979–2003"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">2.11</span><a href="showtext.php?t=ptb0211">Commercial buildings electricity consumption by end use,<script>DataEndYear(9);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec2_31.pdf" title="Table 2.11  Commercial buildings electricity consumption by end use, 2003"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0211.xls" class="ico_xls" title="Table 2.11  Commercial buildings electricity consumption by end use, 2003"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec2_30.pdf" title="Table 2.11  Commercial buildings electricity consumption by end use, 2003"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+    <h3><a name="financial"></a>Financial indicators</h3>
+
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="number aer">3.1</span><a href="showtext.php?t=ptb0301">Fossil fuel production prices, 1949&ndash;<script>DataEndYear(1)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_3.pdf" title="Table 3.1  Fossil fuel production prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0301.xls" class="ico_xls" title="Table 3.1  Fossil fuel production prices, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_2.pdf" title="Table 3.1  Fossil fuel production prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.2</span><a href="showtext.php?t=ptb0302">Value of fossil fuel production, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_5.pdf" title="Table 3.2  Value of fossil fuel production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0302.xls" class="ico_xls" title="Table 3.2  Value of fossil fuel production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_4.pdf" title="Table 3.2  Value of fossil fuel production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.3</span><a href="showtext.php?t=ptb0303">Consumer price estimates for energy by source, 1970&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_7.pdf" title="Table 3.3  Consumer price estimates for energy by source, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0303.xls" class="ico_xls" title="Table 3.3  Consumer price estimates for energy by source, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_6.pdf" title="Table 3.3  Consumer price estimates for energy by source, 1970– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.4</span><a href="showtext.php?t=ptb0304">Consumer price estimates for energy by end-use sector, 1970&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_9.pdf" title="Table 3.4  Consumer price estimates for energy by end-use sector, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0304.xls" class="ico_xls" title="Table 3.4  Consumer price estimates for energy by end-use sector, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_8.pdf" title="Table 3.4  Consumer price estimates for energy by end-use sector, 1970– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.5</span><a href="showtext.php?t=ptb0305">Consumer expenditure estimates for energy by source, 1970&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_11.pdf" title="Table 3.5  Consumer expenditure estimates for energy by source, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0305.xls" class="ico_xls" title="Table 3.5  Consumer expenditure estimates for energy by source, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_10.pdf" title="Table 3.5  Consumer expenditure estimates for energy by source, 1970– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.6</span><a href="showtext.php?t=ptb0306">Consumer expenditure estimates for energy by end-use sector, 1970&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_13.pdf" title="Table 3.6  Consumer expenditure estimates for energy by end-use sector, 1970– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0306.xls" title="Table 3.6  Consumer expenditure estimates for energy by end-use sector, 1970– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_12.pdf" title="Table 3.6  Consumer expenditure estimates for energy by end-use sector, 1970– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.7</span><a href="showtext.php?t=ptb0307">Value of fossil fuel imports, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_15.pdf" title="Table 3.7  Value of fossil fuel imports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0307.xls" class="ico_xls" title="Table 3.7  Value of fossil fuel imports, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_14.pdf" title="Table 3.7  Value of fossil fuel imports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.8</span><a href="showtext.php?t=ptb0308">Value of fossil fuel exports, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_17.pdf" title="Table 3.8  Value of fossil fuel exports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0308.xls" class="ico_xls" title="Table 3.8  Value of fossil fuel exports, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_16.pdf" title="Table 3.8  Value of fossil fuel exports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">3.9</span><a href="showtext.php?t=ptb0309">Value of fossil fuel net imports, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec3_19.pdf" title="Table 3.9  Value of fossil fuel net imports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0309.xls" class="ico_xls" title="Table 3.9  Value of fossil fuel net imports, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec3_18.pdf" title="Table 3.9  Value of fossil fuel net imports, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="resources"></a>Energy resources</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="number aer">4.1</span><a href="showtext.php?t=ptb0401">Technically recoverable crude oil and natural gas resource estimates,<script>DataEndYear(3);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_3.pdf" title="Table 4.1  Technically recoverable crude oil and natural gas resource estimates, 2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0401.xls" title="Table 4.1  Technically recoverable crude oil and natural gas resource estimates, 2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_2.pdf" title="Table 4.1  Technically recoverable crude oil and natural gas resource estimates, 2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.2</span><a href="showtext.php?t=ptb0402">Crude oil and natural gas cumulative production and proved reserves, 1977&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_5.pdf" title="Table 4.2  Crude oil and natural gas cumulative production and proved reserves, 1977– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0402.xls" title="Table 4.2  Crude oil and natural gas cumulative production and proved reserves, 1977– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_4.pdf" title="Table 4.2  Crude oil and natural gas cumulative production and proved reserves, 1977– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.3</span><a href="showtext.php?t=ptb0403">Crude oil, natural gas, and natural gas liquids proved reserves, 1949&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_7.pdf" title="Table 4.3  Crude oil, natural gas, and natural gas liquids proved reserves, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0403.xls" title="Table 4.3  Crude oil, natural gas, and natural gas liquids proved reserves, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_6.pdf" title="Table 4.3  Crude oil, natural gas, and natural gas liquids proved reserves, 1949– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">4.4</span>Crude oil and natural gas rotary rigs in operation</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec5_3.pdf" title="Table 4.4  Crude oil and natural gas rotary rigs in operation"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T05.01" title="Table 4.4  Crude oil and natural gas rotary rigs in operation"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T05.01" title="Table 4.4  Crude oil and natural gas rotary rigs in operation"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T05.01#/?f=A&start=200001" title="Table 4.4  Crude oil and natural gas rotary rigs in operation  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.5</span><a href="showtext.php?t=ptb0405">Crude oil and natural gas exploratory and development wells, 1949&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_11.pdf" title="Table 4.5  Crude oil and natural gas exploratory and development wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0405.xls" title="Table 4.5  Crude oil and natural gas exploratory and development wells, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_10.pdf" title="Table 4.5  Crude oil and natural gas exploratory and development wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.6</span><a href="showtext.php?t=ptb0406">Crude oil and natural gas exploratory wells, 1949&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_13.pdf" title="Table 4.6  Crude oil and natural gas exploratory wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0406.xls" class="ico_xls" title="Table 4.6  Crude oil and natural gas exploratory wells, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_12.pdf" title="Table 4.6  Crude oil and natural gas exploratory wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.7</span><a href="showtext.php?t=ptb0407">Crude oil and natural gas development wells, 1949&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_15.pdf" title="Table 4.7  Crude oil and natural gas development wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0407.xls" class="ico_xls" title="Table 4.7  Crude oil and natural gas development wells, 1949– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_14.pdf" title="Table 4.7  Crude oil and natural gas development wells, 1949– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.8</span><a href="showtext.php?t=ptb0408">Coal demonstrated reserve base, January 1,<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_17.pdf" title="Table 4.8  Coal demonstrated reserve base, January 1, 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0408.xls" class="ico_xls" title="Table 4.8  Coal demonstrated reserve base, January 1, 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_16.pdf" title="Table 4.8  Coal demonstrated reserve base, January 1, 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.9</span><a href="showtext.php?t=ptb0409">Uranium exploration and development drilling, 1949&mdash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_19.pdf" title="Table 4.9  Uranium exploration and development drilling, 1949— 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0409.xls" class="ico_xls" title="Table 4.9  Uranium exploration and development drilling, 1949— 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_18.pdf" title="Table 4.9  Uranium exploration and development drilling, 1949— 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.10</span><a href="showtext.php?t=ptb0410">Uranium reserves,<script>DataEndYear(4);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_21.pdf" title="Table 4.10  Uranium reserves, 2008"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0410.xls" class="ico_xls" title="Table 4.10  Uranium reserves, 2008"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec4_20.pdf" title="Table 4.10  Uranium reserves, 2008"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.11</span>Concentrating solar resources</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_22.pdf" title="Table 4.11  Concentrating solar resources"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.12</span>Photovoltaic solar resources</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_23.pdf" title="Table 4.12  Photovoltaic solar resources"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.13</span>Onshore wind resources</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_24.pdf" title="Table 4.13  Onshore wind resources"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.14</span>Offshore wind resources</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_25.pdf" title="Table 4.14  Offshore wind resources"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.15</span>Geothermal resources</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_26.pdf" title="Table 4.15  Geothermal resources"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">4.16</span>Biomass resources</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec4_27.pdf" title="Table 4.16  Biomass resources"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="petroleum"></a>Petroleum and other liquids</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="mer number">5.0</span>Petroleum Flow</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/flow/petroleum.pdf" title="Table 5.0  Petroleum Flow"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.1a</span><a href="showtext.php?t=ptb0501a">Petroleum and other liquids overview, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_6.pdf" title="Table 5.1a  Petroleum and other liquids overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0501a.xls" class="ico_xls" title="Table 5.1a  Petroleum and other liquids overview, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_4.pdf" title="Table 5.1a  Petroleum and other liquids overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.1b</span>Petroleum overview</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_3.pdf" title="Table 5.1b  Petroleum overview"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.01" title="Table 5.1b  Petroleum overview"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.01" title="Table 5.1b  Petroleum overview"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.01#/?f=A&start=200001" title="Table 5.1b  Petroleum overview  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.2</span><a href="showtext.php?t=ptb0502">Crude oil production and crude oil well productivity, 1954&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_9.pdf" title="Table 5.2  Crude oil production and crude oil well productivity, 1954– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0502.xls" class="ico_xls" title="Table 5.2  Crude oil production and crude oil well productivity, 1954– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_8.pdf" title="Table 5.2  Crude oil production and crude oil well productivity, 1954– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.3</span>Petroleum imports by type</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_9.pdf" title="Table 5.3  Petroleum imports by type"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.03B" title="Table 5.3  Petroleum imports by type"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.03B" title="Table 5.3  Petroleum imports by type"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.03B#/?f=A&start=200001" title="Table 5.3  Petroleum imports by type  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.4</span>Petroleum imports by country of origin</li>
+        </ul>
+        <ul class="numbered">
+            <li>Imports from OPEC countries</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_10.pdf" title="Table 5.4  Imports from OPEC countries"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.03C" title="Table 5.4  Imports from OPEC countries"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.03C" title="Table 5.4  Imports from OPEC countries"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.03C#/?f=A&start=200001" title="Table 5.4  Imports from OPEC countries  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li>Imports from non-OPEC countries</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_11.pdf" title="Table 5.4  Imports from non-OPEC countries"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.03D" title="Table 5.4  Imports from non-OPEC countries"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.03D" title="Table 5.4  Imports from non-OPEC countries"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.03D#/?f=A&start=200001" title="Table 5.4  Imports from non-OPEC countries  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.5</span>Petroleum exports by type</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_9.pdf" title="Table 5.5  Petroleum exports by type"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.03B" title="Table 5.5  Petroleum exports by type"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.03B" title="Table 5.5  Petroleum exports by type"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.03B#/?f=A&start=200001" title="Table 5.5  Petroleum exports by type  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.6</span><a href="showtext.php?t=ptb0506">Petroleum exports by country of destination, 1960&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_17.pdf" title="Table 5.6  Petroleum exports by country of destination, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0506.xls" class="ico_xls" title="Table 5.6  Petroleum exports by country of destination, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_16.pdf" title="Table 5.6  Petroleum exports by country of destination, 1960– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.7</span><a href="showtext.php?t=ptb0507">Petroleum net imports by country of origin, 1960&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_19.pdf" title="Table 5.7  Petroleum net imports by country of origin, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0507.xls" class="ico_xls" title="Table 5.7  Petroleum net imports by country of origin, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_18.pdf" title="Table 5.7  Petroleum net imports by country of origin, 1960– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.8</span>Refinery and blender net inputs and net production</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_5.pdf" title="Table 5.8  Refinery and blender net inputs and net production"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.02" title="Table 5.8  Refinery and blender net inputs and net production"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.02" title="Table 5.8  Refinery and blender net inputs and net production"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.02#/?f=A&start=200001" title="Table 5.8  Refinery and blender net inputs and net production - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.9</span><a href="showtext.php?t=ptb0509">Refinery capacity and utilization, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_23.pdf" title="Table 5.9  Refinery capacity and utilization, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0509.xls" class="ico_xls" title="Table 5.9  Refinery capacity and utilization, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_22.pdf" title="Table 5.9  Refinery capacity and utilization, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.10</span><a href="showtext.php?t=ptb0510">Natural gas plant liquids production, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_25.pdf" title="Table 5.10  Natural gas plant liquids production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0510.xls" class="ico_xls" title="Table 5.10  Natural gas plant liquids production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_24.pdf" title="Table 5.10  Natural gas plant liquids production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.11</span>Petroleum products supplied by type</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_15.pdf" title="Table 5.11  Petroleum products supplied by type"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.05" title="Table 5.11  Petroleum products supplied by type"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.05" title="Table 5.11  Petroleum products supplied by type"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.05#/?f=A&start=200001" title="Table 5.11  Petroleum products supplied by type - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.12</span>Heat content of petroleum products supplied</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_17.pdf" title="Table 5.12  Heat content of petroleum products supplied"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.06" title="Table 5.12  Heat content of petroleum products supplied"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.06" title="Table 5.12  Heat content of petroleum products supplied"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.05#/?f=A&start=200001" title="Table 5.12  Heat content of petroleum products supplied - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.13a</span>Petroleum consumption estimates: residential and commercial sectors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_19.pdf" title="Table 5.13a  Petroleum consumption estimates: residential and commercial sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.07A" class="ico_xls" title="Table 5.13a  Petroleum consumption estimates: residential and commercial sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.07A" title="Table 5.13a  Petroleum consumption estimates: residential and commercial sectors"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.07A#/?f=A&start=200001" title="Table 5.13a  Petroleum consumption estimates: residential and commercial sectors - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.13b</span>Petroleum consumption estimates: industrial sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_20.pdf" title="Table 5.13b  Petroleum consumption estimates: industrial sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.07B" title="Table 5.13b  Petroleum consumption estimates: industrial sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.07B" title="Table 5.13b  Petroleum consumption estimates: industrial sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.07B#/?f=A&start=200001" title="Table 5.13b  Petroleum consumption estimates: industrial sector - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.13c</span>Petroleum consumption estimates: transportation sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_21.pdf" title="Table 5.13c  Petroleum consumption estimates: transportation sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.07C" title="Table 5.13c  Petroleum consumption estimates: transportation sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.07C" title="Table 5.13c  Petroleum consumption estimates: transportation sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.07C#/?f=A&start=200001" title="Table 5.13c  Petroleum consumption estimates: transportation sector - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.13d</span>Petroleum Consumption Estimates: Electric Power Sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_21.pdf" title="Table 5.13d  Petroleum Consumption Estimates: Electric Power Sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.07C" title="Table 5.13d  Petroleum Consumption Estimates: Electric Power Sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.07C" title="Table 5.13d  Petroleum Consumption Estimates: Electric Power Sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.07C#/?f=A&start=200001" title="Table 5.13d  Petroleum Consumption Estimates: Electric Power Sector - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.14a</span>Heat content of petroleum consumption estimates: residential and commercial sectors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_24.pdf" title="Table 5.14a  Heat content of petroleum consumption estimates: residential and commercial sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.08A" class="ico_xls" title="Table 5.14a  Heat content of petroleum consumption estimates: residential and commercial sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.08A" title="Table 5.14a  Heat content of petroleum consumption estimates: residential and commercial sectors"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.08A#/?f=A&start=200001" title="Table 5.14a  Heat content of petroleum consumption estimates: residential and commercial sectors - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.14b</span>Heat content of petroleum consumption estimates: industrial sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_25.pdf" title="Table 5.14b  Heat content of petroleum consumption estimates: industrial sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.08B" class="ico_xls" title="Table 5.14b  Heat content of petroleum consumption estimates: industrial sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.08B" title="Table 5.14b  Heat content of petroleum consumption estimates: industrial sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.08B#/?f=A&start=200001" title="Table 5.14b  Heat content of petroleum consumption estimates: industrial sector - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.14c</span>Heat content of petroleum consumption estimates: transportation and electric power Sectors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_26.pdf" title="Table 5.14c  Heat content of petroleum consumption estimates: transportation and electric power Sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.08C" class="ico_xls" title="Table 5.14c  Heat content of petroleum consumption estimates: transportation and electric power Sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.08C" title="Table 5.14c  Heat content of petroleum consumption estimates: transportation and electric power Sectors"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.08C#/?f=A&start=200001" title="Table 5.14c  Heat content of petroleum consumption estimates: transportation and electric power Sectors - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.15</span><a href="showtext.php?t=ptb0515">Fuel oil and kerosene sales, 1984&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_41.pdf" title="Table 5.15  Fuel oil and kerosene sales, 1984– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0515.xls" class="ico_xls" title="Table 5.15  Fuel oil and kerosene sales, 1984– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_40.pdf" title="Table 5.15  Fuel oil and kerosene sales, 1984– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.16</span>Petroleum primary stocks by type</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec3_13.pdf" title="Table 5.16  Petroleum primary stocks by type"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T03.04" title="Table 5.16  Petroleum primary stocks by type"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T03.04" title="Table 5.16  Petroleum primary stocks by type"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T03.04#/?f=A&start=200001" title="Table 5.16  Petroleum primary stocks by type - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.17</span><a href="showtext.php?t=ptb0517">Strategic Petroleum Reserve, 1977&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_45.pdf" title="Table 5.17  Strategic Petroleum Reserve, 1977– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0517.xls" class="ico_xls" title="Table 5.17  Strategic Petroleum Reserve, 1977– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_44.pdf" title="Table 5.17  Strategic Petroleum Reserve, 1977– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.18</span><a href="showtext.php?t=ptb0518">Crude oil domestic first purchase prices, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_47.pdf" title="Table 5.18  Crude oil domestic first purchase prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0518.xls" class="ico_xls" title="Table 5.18  Crude oil domestic first purchase prices, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_46.pdf" title="Table 5.18  Crude oil domestic first purchase prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.19</span>Landed costs of crude oil imports from selected countries</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec9_5.pdf" title="Table 5.19  Landed costs of crude oil imports from selected countries"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T09.03" title="Table 5.19  Landed costs of crude oil imports from selected countries"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T09.03" title="Table 5.19  Landed costs of crude oil imports from selected countries"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T09.03#/?f=A&start=200001" title="Table 5.19  Landed costs of crude oil imports from selected countries - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.20</span><a href="showtext.php?t=ptb0520">Value of crude oil imports from selected countries, 1973&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_51.pdf" title="Table 5.20  Value of crude oil imports from selected countries, 1973– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0520.xls" class="ico_xls" title="Table 5.20  Value of crude oil imports from selected countries, 1973– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_50.pdf" title="Table 5.20  Value of crude oil imports from selected countries, 1973– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.21</span><a href="showtext.php?t=ptb0521">Crude oil refiner acquisition costs, 1968&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_53.pdf" title="Table 5.21  Crude oil refiner acquisition costs, 1968– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0521.xls" class="ico_xls" title="Table 5.21  Crude oil refiner acquisition costs, 1968– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_52.pdf" title="Table 5.21  Crude oil refiner acquisition costs, 1968– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.22</span><a href="showtext.php?t=ptb0522">Refiner sales prices and refiner margins for selected petroleum products, <script>DataEndYear(17);</script> &ndash; <script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_55.pdf" title="Table 5.22  Refiner sales prices and refiner margins for selected petroleum products, 1995–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0522.xls" title="Table 5.22  Refiner sales prices and refiner margins for selected petroleum products, 1995–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_54.pdf" title="Table 5.22  Refiner sales prices and refiner margins for selected petroleum products, 1995–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">5.23</span><a href="showtext.php?t=ptb0523">All sellers sales prices for selected petroleum products,1994&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec5_57.pdf" title="Table 5.23  All sellers sales prices for selected petroleum products,1994– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0523.xls" class="ico_xls" title="Table 5.23  All sellers sales prices for selected petroleum products,1994– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec5_56.pdf" title="Table 5.23  All sellers sales prices for selected petroleum products,1994– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">5.24</span>Retail motor gasoline and on-highway diesel fuel prices</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec9_6.pdf" title="Table 5.24  Retail motor gasoline and on-highway diesel fuel prices"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T09.04" title="Table 5.24  Retail motor gasoline and on-highway diesel fuel prices"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T09.04" title="Table 5.24  Retail motor gasoline and on-highway diesel fuel prices"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T09.04#/?f=A&start=200001" title="Table 5.24  Retail motor gasoline and on-highway diesel fuel prices - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="naturalgas"></a>Natural gas</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="mer number">6.0</span>Natural gas flow</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/flow/natural_gas.pdf" title="Table 6.0 Natural gas flow"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">6.1</span>Natural gas overview</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec4_3.pdf" title="Table 6.1  Natural gas overview"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T04.01" title="Table 6.1  Natural gas overview"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T04.01" title="Table 6.1  Natural gas overview"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T04.01#/?f=A&start=200001" title="Table 6.1  Natural gas overview - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">6.2</span><a href="showtext.php?t=ptb0602">Natural gas production, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec6_7.pdf" title="Table 6.2  Natural gas production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0602.xls" class="ico_xls" title="Table 6.2  Natural gas production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec6_6.pdf" title="Table 6.2  Natural gas production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">6.3</span>Natural gas imports, exports, and net imports</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec4_4.pdf" title="Table 6.3  Natural gas imports, exports, and net imports"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T04.02" title="Table 6.3  Natural gas imports, exports, and net imports"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T04.02" title="Table 6.3  Natural gas imports, exports, and net imports"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T04.02#/?f=A&start=200001" title="Table 6.3  Natural gas imports, exports, and net imports  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">6.4</span><a href="showtext.php?t=ptb0604">Natural gas gross withdrawals and natural gas well productivity, 1960&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec6_11.pdf" title="Table 6.4  Natural gas gross withdrawals and natural gas well productivity, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0604.xls" title="Table 6.4  Natural gas gross withdrawals and natural gas well productivity, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec6_10.pdf" title="Table 6.4  Natural gas gross withdrawals and natural gas well productivity, 1960– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">6.5</span>Natural gas consumption by sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec4_5.pdf" title="Table 6.5  Natural gas consumption by sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T04.03" title="Table 6.5  Natural gas consumption by sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T04.03" title="Table 6.5  Natural gas consumption by sector"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T04.03#/?f=A&start=200001" title="Table 6.5  Natural gas consumption by sector  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">6.6</span>Natural gas underground storage, end of year</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec4_6.pdf" title="Table 6.6  Natural gas underground storage, end of year"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T04.04" title="Table 6.6  Natural gas underground storage, end of year"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T04.04" title="Table 6.6  Natural gas underground storage, end of year"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T04.04#/?f=A&start=200001" title="Table 6.6  Natural gas underground storage, end of year  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">6.7</span>Natural gas wellhead, city gate, and imports prices</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec9_15.pdf" title="Table 6.7  Natural gas wellhead, city gate, and imports prices"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T09.10" title="Table 6.7  Natural gas wellhead, city gate, and imports prices"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T09.10" title="Table 6.7  Natural gas wellhead, city gate, and imports prices"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T09.10#/?f=A&start=200001" title="Table 6.7  Natural gas wellhead, city gate, and imports prices  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">6.8</span>Natural gas prices by sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec9_15.pdf" title="Table 6.8  Natural gas prices by secto"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T09.10" title="Table 6.8  Natural gas prices by secto"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T09.10" title="Table 6.8  Natural gas prices by secto"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T09.10#/?f=A&start=200001" title="Table 6.8  Natural gas prices by secto  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="coal"></a>Coal</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="mer number">7.0</span>Coal flow</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/flow/coal.pdf" title="Table 7.0 Coal flow"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">7.1</span>Coal overview</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec6_3.pdf" title="Table 7.1  Coal overview"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T06.01" class="ico_xls" title="Table 7.1  Coal overview"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T06.01" title="Table 7.1  Coal overview"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T06.01#/?f=A&start=200001" title="Table 7.1  Coal overview - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">7.2</span><a href="showtext.php?t=ptb0702">Coal production, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec7_7.pdf" title="Table 7.2  Coal production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0702.xls" class="ico_xls" title="Table 7.2  Coal production, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec7_6.pdf" title="Table 7.2  Coal production, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">7.3</span>Coal consumption by sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec6_4.pdf" title="Table 7.3  Coal consumption by sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T06.02" title="Table 7.3  Coal consumption by sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T06.02" title="Table 7.3  Coal consumption by sector"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T06.02#/?f=A&start=200001" title="Table 7.3  Coal consumption by sector  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">7.4</span><a href="showtext.php?t=ptb0704">Coal imports by country of origin, 2000&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec7_11.pdf" title="Table 7.4  Coal imports by country of origin, 2000– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0704.xls" class="ico_xls" title="Table 7.4  Coal imports by country of origin, 2000– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec7_10.pdf" title="Table 7.4  Coal imports by country of origin, 2000– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">7.5</span><a href="showtext.php?t=ptb0705">Coal exports by country of destination, 1960&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec7_13.pdf" title="Table 7.5  Coal exports by country of destination, 1960– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0705.xls" class="ico_xls" title="Table 7.5  Coal exports by country of destination, 1960– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec7_12.pdf" title="Table 7.5  Coal exports by country of destination, 1960– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">7.6</span>Coal stocks by sector, end of year</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec6_5.pdf" title="Table 7.6  Coal stocks by sector, end of year"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T06.03" title="Table 7.6  Coal stocks by sector, end of year"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T06.03" title="Table 7.6  Coal stocks by sector, end of year"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T06.03#/?f=A&start=200001" title="Table 7.6  Coal stocks by sector, end of year  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">7.7</span><a href="showtext.php?t=ptb0707">Coal mining productivity, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec7_17.pdf" title="Table 7.7  Coal mining productivity, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0707.xls" class="ico_xls" title="Table 7.7  Coal mining productivity, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec7_16.pdf" title="Table 7.7  Coal mining productivity, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">7.8</span><a href="showtext.php?t=ptb0708">Coke overview, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec7_19.pdf" title="Table 7.8  Coke overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0708.xls" class="ico_xls" title="Table 7.8  Coke overview, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec7_18.pdf" title="Table 7.8  Coke overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">7.9</span><a href="showtext.php?t=ptb0709">Coal prices, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec7_21.pdf" title="Table 7.9  Coal prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0709.xls" class="ico_xls" title="Table 7.9  Coal prices, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec7_20.pdf" title="Table 7.9  Coal prices, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="electricity"></a>Electricity</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="mer number">8.0</span>Electricity flow</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/flow/electricity.pdf" title="Table 8.0   Electricity flow"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.1</span>Electricity overview</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_3.pdf" title="Table 8.1  Electricity overview"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.01" title="Table 8.1  Electricity overview"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.01" title="Table 8.1  Electricity overview"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.01#/?f=A&start=200001" title="Table 8.1  Electricity overview - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.2a</span>Electricity net generation: total (all sectors)</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_5.pdf" title="Table 8.2a  Electricity net generation: total (all sectors)"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.02A" title="Table 8.2a  Electricity net generation: total (all sectors)"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.02A" title="Table 8.2a  Electricity net generation: total (all sectors)"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.02A#/?f=A&start=200001" title="Table 8.2a  Electricity net generation: total (all sectors)  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.2b</span>Electricity net generation: electric power sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_6.pdf" title="Table 8.2b  Electricity net generation: electric power sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.02B" title="Table 8.2b  Electricity net generation: electric power sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.02B" title="Table 8.2b  Electricity net generation: electric power sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.02B#/?f=A&start=200001" title="Table 8.2b  Electricity net generation: electric power sector  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.2c</span><a href="showtext.php?t=ptb0802c">Electricity net generation: electric power sector by plant type, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_10.pdf" title="Table 8.2c  Electricity net generation: electric power sector by plant type, 1989– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0802c.xls" title="Table 8.2c  Electricity net generation: electric power sector by plant type, 1989– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_7.pdf" title="Table 8.2c  Electricity net generation: electric power sector by plant type, 1989– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.2d</span>Electricity net generation: commercial and industrial sectors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_7.pdf" title="Table 8.2d  Electricity net generation: commercial and industrial sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.02C" title="Table 8.2d  Electricity net generation: commercial and industrial sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.02C" title="Table 8.2d  Electricity net generation: commercial and industrial sectors"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.02C#/?f=A&start=200001" title="Table 8.2d  Electricity net generation: commercial and industrial sectors  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.3a</span><a href="showtext.php?t=ptb0803a">Useful thermal output at combined-heat-and-power plants: total (all sectors), 1989 &ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_13.pdf" title="Table 8.3a  Useful thermal output at combined-heat-and-power plants: total (all sectors), 1989 –2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0803a.xls" title="Table 8.3a  Useful thermal output at combined-heat-and-power plants: total (all sectors), 1989 –2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_12.pdf" title="Table 8.3a  Useful thermal output at combined-heat-and-power plants: total (all sectors), 1989 –2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.3b</span><a href="showtext.php?t=ptb0803b">Useful thermal output at combined-heat-and-power plants: electric power sector, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_14.pdf" title="Table 8.3b  Useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0803b.xls" title="Table 8.3b  Useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_12.pdf" title="Table 8.3b  Useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.3c</span><a href="showtext.php?t=ptb0803c">Useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_15.pdf" title="Table 8.3c  Useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0803c.xls" class="ico_xls" title="Table 8.3c  Useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_12.pdf" title="Table 8.3c  Useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.4a</span><a href="showtext.php?t=ptb0804a">Consumption for electricity generation by energy source: total (all sectors), 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_17.pdf" title="Table 8.4a  Consumption for electricity generation by energy source: total (all sectors), 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0804a.xls" title="Table 8.4a  Consumption for electricity generation by energy source: total (all sectors), 1949–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_16.pdf" title="Table 8.4a  Consumption for electricity generation by energy source: total (all sectors), 1949–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.4b</span><a href="showtext.php?t=ptb0804b">Consumption for electricity generation by energy source: electric power sector, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_18.pdf" title="Table 8.4b  Consumption for electricity generation by energy source: electric power sector, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0804b.xls" title="Table 8.4b  Consumption for electricity generation by energy source: electric power sector, 1949–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_16.pdf" title="Table 8.4b  Consumption for electricity generation by energy source: electric power sector, 1949–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.4c</span><a href="showtext.php?t=ptb0804c">Consumption for electricity generation by energy source: commercial and industrial Sectors, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_19.pdf" title="Table 8.4c  Consumption for electricity generation by energy source: commercial and industrial Sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0804c.xls" class="ico_xls" title="Table 8.4c  Consumption for electricity generation by energy source: commercial and industrial Sectors, 1989–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_16.pdf" title="Table 8.4c  Consumption for electricity generation by energy source: commercial and industrial Sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.5a</span>Consumption of combustible fuels for electricity generation: total (all sectors)</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_9.pdf" title="Table 8.5a  Consumption of combustible fuels for electricity generation: total (all sectors)"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.03A" class="ico_xls" title="Table 8.5a  Consumption of combustible fuels for electricity generation: total (all sectors)"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.03A" title="Table 8.5a  Consumption of combustible fuels for electricity generation: total (all sectors)"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.03A#/?f=A&start=200001" title="Table 8.5a  Consumption of combustible fuels for electricity generation: total (all sectors) - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.5b</span>Consumption of combustible fuels for electricity generation: electric power sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_10.pdf" title="Table 8.5b  Consumption of combustible fuels for electricity generation: electric power sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.03B" class="ico_xls" title="Table 8.5b  Consumption of combustible fuels for electricity generation: electric power sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.03B" title="Table 8.5b  Consumption of combustible fuels for electricity generation: electric power sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.03B#/?f=A&start=200001" title="Table 8.5b  Consumption of combustible fuels for electricity generation: electric power sector - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.5c</span><a href="showtext.php?t=ptb0805c">Consumption of combustible fuels for electricity generation: electric power sector by Plant Type, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_24.pdf" title="Table 8.5c  Consumption of combustible fuels for electricity generation: electric power sector by Plant Type, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0805c.xls" class="ico_xls" title="Table 8.5c  Consumption of combustible fuels for electricity generation: electric power sector by Plant Type, 1989–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_21.pdf" title="Table 8.5c  Consumption of combustible fuels for electricity generation: electric power sector by Plant Type, 1989–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.5d</span>Consumption of combustible fuels for electricity generation: commercial and industrial sectors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_11.pdf" title="Table 8.5d  Consumption of combustible fuels for electricity generation: commercial and industrial sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.03C" class="ico_xls" title="Table 8.5d  Consumption of combustible fuels for electricity generation: commercial and industrial sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.03C" title="Table 8.5d  Consumption of combustible fuels for electricity generation: commercial and industrial sectors"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.03C#/?f=A&start=200001" title="Table 8.5d  Consumption of combustible fuels for electricity generation: commercial and industrial sectors - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.6a</span><a href="showtext.php?t=ptb0806a">Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: total (all sectors), 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span>
+                <a href="pdf/sec8_27.pdf" title="Table 8.6a  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: total (all sectors), 1989–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0806a.xls" class="ico_xls" title="Table 8.6a  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: total (all sectors), 1989–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_26.pdf" title="Table 8.6a  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: total (all sectors), 1989–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.6b</span><a href="showtext.php?t=ptb0806b">Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: electric power sector, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span>
+                <a href="pdf/sec8_28.pdf" title="Table 8.6b  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0806b.xls" class="ico_xls" title="Table 8.6b  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_26.pdf" title="Table 8.6b  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: electric power sector, 1989–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.6c</span><a href="showtext.php?t=ptb0806c">Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span>
+                <a href="pdf/sec8_29.pdf" title="Table 8.6c  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0806c.xls" class="ico_xls" title="Table 8.6c  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_26.pdf" title="Table 8.6c  Estimated consumption of combustible fuels for useful thermal output at combined-heat-and-power plants: commercial and industrial sectors, 1989–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.7a</span>Consumption of combustible fuels for electricity generation and useful thermal output: total (all sectors)</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_13.pdf" title="Table 8.7a  Consumption of combustible fuels for electricity generation and useful thermal output: total (all sectors)"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.04A" class="ico_xls" title="Table 8.7a  Consumption of combustible fuels for electricity generation and useful thermal output: total (all sectors)"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.04A" title="Table 8.7a  Consumption of combustible fuels for electricity generation and useful thermal output: total (all sectors)"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.04A#/?f=A&start=200001" title="Table 8.7a  Consumption of combustible fuels for electricity generation and useful thermal output: total (all sectors) - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.7b</span>Consumption of combustible fuels for electricity generation and useful thermal output: electric power sector</li>
+            <li><span class="formats">Available formats:</span>
+                <a href="/totalenergy/data/monthly/pdf/sec7_14.pdf" title="Table 8.7b  Consumption of combustible fuels for electricity generation and useful thermal output: electric power sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.04B" class="ico_xls" title="Table 8.7b  Consumption of combustible fuels for electricity generation and useful thermal output: electric power sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.04B" title="Table 8.7b  Consumption of combustible fuels for electricity generation and useful thermal output: electric power sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.04B#/?f=A&start=200001" title="Table 8.7b  Consumption of combustible fuels for electricity generation and useful thermal output: electric power sector - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.7c</span>Consumption of combustible fuels for electricity generation and useful thermal output: commercial and industrial sectors</li>
+            <li><span class="formats">Available formats:</span>
+                <a href="/totalenergy/data/monthly/pdf/sec7_15.pdf" title="Table 8.7c  Consumption of combustible fuels for electricity generation and useful thermal output: commercial and industrial sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.04C" class="ico_xls" title="Table 8.7c  Consumption of combustible fuels for electricity generation and useful thermal output: commercial and industrial sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.04C" title="Table 8.7c  Consumption of combustible fuels for electricity generation and useful thermal output: commercial and industrial sectors"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.04C#/?f=A&start=200001" title="Table 8.7c  Consumption of combustible fuels for electricity generation and useful thermal output: commercial and industrial sectors - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.8</span>Stocks of coal and petroleum: electric power sector, end of year</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_17.pdf" title="Table 8.8  Stocks of coal and petroleum: electric power sector, end of year"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.05" title="Table 8.8  Stocks of coal and petroleum: electric power sector, end of year"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.05" title="Table 8.8  Stocks of coal and petroleum: electric power sector, end of year"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.05#/?f=A&start=200001" title="Table 8.8  Stocks of coal and petroleum: electric power sector, end of year - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.9</span>Electricity end use</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec7_19.pdf" title="Table 8.9  Electricity end use"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T07.06" title="Table 8.9  Electricity end use"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T07.06" title="Table 8.9  Electricity end use"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T07.06#/?f=A&start=200001" title="Table 8.9  Electricity end use - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">8.10</span>Average retail prices of electricity</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec9_11.pdf" title="Table 8.10  Average retail prices of electricity"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T09.08" title="Table 8.10  Average retail prices of electricity"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T09.08" title="Table 8.10  Average retail prices of electricity"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T09.08#/?f=A&start=200001" title="Table 8.10  Average retail prices of electricity - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.11a</span><a href="showtext.php?t=ptb0811a">Electric net summer capacity: total (all sectors), 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_42.pdf" title="Table 8.11a  Electric net summer capacity: total (all sectors), 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0811a.xls" class="ico_xls" title="Table 8.11a  Electric net summer capacity: total (all sectors), 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_40.pdf" title="Table 8.11a  Electric net summer capacity: total (all sectors), 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.11b</span><a href="showtext.php?t=ptb0811b">Electric net summer capacity: electric power sector, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_43.pdf" title="Table 8.11b  Electric net summer capacity: electric power sector, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0811b.xls" class="ico_xls" title="Table 8.11b  Electric net summer capacity: electric power sector, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_41.pdf" title="Table 8.11b  Electric net summer capacity: electric power sector, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.11c</span><a href="showtext.php?t=ptb0811c">Electric net summer capacity: electric power sector by plant type, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_44.pdf" title="Table 8.11c  Electric net summer capacity: electric power sector by plant type, 1989– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0811c.xls" title="Table 8.11c  Electric net summer capacity: electric power sector by plant type, 1989– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_41.pdf" title="Table 8.11c  Electric net summer capacity: electric power sector by plant type, 1989– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.11d</span><a href="showtext.php?t=ptb0811d">Electric net summer capacity: commercial and industrial sectors, 1989&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_45.pdf" title="Table 8.11d  Electric net summer capacity: commercial and industrial sectors, 1989– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0811d.xls" title="Table 8.11d  Electric net summer capacity: commercial and industrial sectors, 1989– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_41.pdf" title="Table 8.11d  Electric net summer capacity: commercial and industrial sectors, 1989– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.12a</span><a href="showtext.php?t=ptb0812a">Electric noncoincident peak load and capacity margin: summer peak period, 1986&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_48.pdf" title="Table 8.12a  Electric noncoincident peak load and capacity margin: summer peak period, 1986– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0812a.xls" title="Table 8.12a  Electric noncoincident peak load and capacity margin: summer peak period, 1986– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_46.pdf" title="Table 8.12a  Electric noncoincident peak load and capacity margin: summer peak period, 1986– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.12b</span><a href="showtext.php?t=ptb0812b">Electric noncoincident peak load and capacity margin: winter peak period, 1986&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_49.pdf" title="Table 8.12b  Electric noncoincident peak load and capacity margin: winter peak period, 1986– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0812b.xls" title="Table 8.12b  Electric noncoincident peak load and capacity margin: winter peak period, 1986– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_47.pdf" title="Table 8.12b  Electric noncoincident peak load and capacity margin: winter peak period, 1986– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">8.13</span><a href="showtext.php?t=ptb0813">Electric utility demand-Side management programs, 1989&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec8_51.pdf" title="Table 8.13  Electric utility demand-Side management programs, 1989– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0813.xls" class="ico_xls" title="Table 8.13  Electric utility demand-Side management programs, 1989– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec8_50.pdf" title="Table 8.13  Electric utility demand-Side management programs, 1989– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="nuclear"></a>Nuclear energy</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="number aer">9.1</span><a href="showtext.php?t=ptb0901">Nuclear generating units, 1955&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec9_3.pdf" title="Table 9.1  Nuclear generating units, 1955– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0901.xls" class="ico_xls" title="Table 9.1  Nuclear generating units, 1955– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec9_2.pdf" title="Table 9.1  Nuclear generating units, 1955– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">9.2</span>Nuclear power plant operations</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec8_3.pdf" title="Table 9.2  Nuclear power plant operations"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T08.01" title="Table 9.2  Nuclear power plant operations"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T08.01" title="Table 9.2  Nuclear power plant operations"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T08.01#/?f=A&start=200001" title="Table 9.2  Nuclear power plant operations - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">9.3</span><a href="showtext.php?t=ptb0903">Uranium overview, 1949&ndash;<script>DataEndYear(1);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec9_7.pdf" title="Table 9.3  Uranium overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb0903.xls" class="ico_xls" title="Table 9.3  Uranium overview, 1949– 2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec9_6.pdf" title="Table 9.3  Uranium overview, 1949– 2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="renewable"></a>Renewable energy</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="mer number">10.1</span>Renewable energy production and consumption by primary energy source</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec10_3.pdf" title="Table 10.1 Renewable energy production and consumption by primary energy source"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T10.01" class="ico_xls" title="Table 10.1 Renewable energy production and consumption by primary energy source"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T10.01" title="Table 10.1 Renewable energy production and consumption by primary energy source"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T10.01#/?f=A&start=200001" title="Table 10.1 Renewable energy production and consumption by primary energy source - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">10.2a</span>Renewable energy consumption: residential and commercial sectors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec10_4.pdf" title="Table 10.2a  Renewable energy consumption: residential and commercial sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T10.02A" class="ico_xls" title="Table 10.2a  Renewable energy consumption: residential and commercial sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T10.02A" title="Table 10.2a  Renewable energy consumption: residential and commercial sectors"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T10.02A#/?f=A&start=200001" title="Table 10.2a  Renewable energy consumption: residential and commercial sectors - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">10.2b</span>Renewable energy consumption: industrial and transportation sectors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec10_5.pdf" title="Table 10.2b  Renewable energy consumption: industrial and transportation sectors"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T10.02B" class="ico_xls" title="Table 10.2b  Renewable energy consumption: industrial and transportation sectors"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T10.02B" title="Table 10.2b  Renewable energy consumption: industrial and transportation sectors"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T10.02B#/?f=A&start=200001" title="Table 10.2b  Renewable energy consumption: industrial and transportation sectors  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">10.2c</span>Renewable energy consumption: electric power sector</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec10_6.pdf" title="Table 10.2c  Renewable energy consumption: electric power sector"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T10.02C" title="Table 10.2c  Renewable energy consumption: electric power sector"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T10.02C" title="Table 10.2c  Renewable energy consumption: electric power sector"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T10.02C#/?f=A&start=200001" title="Table 10.2c  Renewable energy consumption: electric power sector  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">10.3</span>Fuel ethanol overview</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec10_7.pdf" title="Table 10.3  Fuel ethanol overview"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T10.03" title="Table 10.3  Fuel ethanol overview"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T10.03" title="Table 10.3  Fuel ethanol overview"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T10.03#/?f=A&start=200001" title="Table 10.3  Fuel ethanol overview  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">10.4</span>Biodiesel overview</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec10_8.pdf" title="Table 10.4  Biodiesel overview"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=T10.04" title="Table 10.4  Biodiesel overview"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=T10.04" title="Table 10.4  Biodiesel overview"><i class="ico csv"><span>CSV</span></i></a<span class="pipe">|</span><a href="/beta/MER/index.php?tbl=T10.04#/?f=A&start=200001" title="Table 10.4  Biodiesel overview  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">10.5</span><a href="showtext.php?t=ptb1005">Estimated number of alternative-fueled vehicles in use and fuel consumption, 1992&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec10_15.pdf" title="Table 10.5  Estimated number of alternative-fueled vehicles in use and fuel consumption, 1992– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1005.xls" title="Table 10.5  Estimated number of alternative-fueled vehicles in use and fuel consumption, 1992– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec10_14.pdf" title="Table 10.5  Estimated number of alternative-fueled vehicles in use and fuel consumption, 1992– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">10.6</span><a href="showtext.php?t=ptb1006">Solar thermal collector shipments by type, price, and trade, 1974&ndash;<script>DataEndYear(3);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec10_17.pdf" title="Table 10.6  Solar thermal collector shipments by type, price, and trade, 1974– 2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1006.xls" title="Table 10.6  Solar thermal collector shipments by type, price, and trade, 1974– 2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec10_16.pdf" title="Table 10.6  Solar thermal collector shipments by type, price, and trade, 1974– 2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">10.7</span><a href="showtext.php?t=ptb1007">Solar thermal collector shipments by market sector, end use, and type, 2000&ndash;<script>DataEndYear(3);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec10_19.pdf" title="Table 10.7  Solar thermal collector shipments by market sector, end use, and type, 2000– 2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1007.xls" title="Table 10.7  Solar thermal collector shipments by market sector, end use, and type, 2000– 2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec10_18.pdf" title="Table 10.7  Solar thermal collector shipments by market sector, end use, and type, 2000– 2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">10.8</span><a href="showtext.php?t=ptb1008">Photovoltaic cell and module shipments by type, trade, and prices, 1982&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec10_21.pdf" title="Table 10.8  Photovoltaic cell and module shipments by type, trade, and prices, 1982– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1008.xls" title="Table 10.8  Photovoltaic cell and module shipments by type, trade, and prices, 1982– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec10_20.pdf" title="Table 10.8  Photovoltaic cell and module shipments by type, trade, and prices, 1982– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">10.9</span><a href="showtext.php?t=ptb1009">Photovoltaic cell and module shipments by sector and end use, 1989&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec10_23.pdf" title="Table 10.9  Photovoltaic cell and module shipments by sector and end use, 1989– 2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1009.xls" title="Table 10.9  Photovoltaic cell and module shipments by sector and end use, 1989– 2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec10_22.pdf" title="Table 10.9  Photovoltaic cell and module shipments by sector and end use, 1989– 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="environment"></a>Environment</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li><span class="number aer">11.1</span><a href="showtext.php?t=ptb1101">Carbon dioxide emissions from energy consumption by source Selected Years, 1949&ndash;<script>DataEndYear(1)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_3.pdf" title="Table 11.1  Carbon dioxide emissions from energy consumption by source Selected Years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1101.xls" title="Table 11.1  Carbon dioxide emissions from energy consumption by source Selected Years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_2.pdf" title="Table 11.1  Carbon dioxide emissions from energy consumption by source Selected Years, 1949–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.2a</span><a href="showtext.php?t=ptb1102a">Carbon dioxide emissions from energy consumption: residential sector, selected years, 1949&ndash;<script>DataEndYear(1)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_5.pdf" title="Table 11.2a  Carbon dioxide emissions from energy consumption: residential sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1102a.xls" class="ico_xls" title="Table 11.2a  Carbon dioxide emissions from energy consumption: residential sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_4.pdf" title="Table 11.2a  Carbon dioxide emissions from energy consumption: residential sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.2b</span><a href="showtext.php?t=ptb1102b">Carbon dioxide emissions from energy consumption: commercial sector, selected years, 1949&ndash; <script>DataEndYear(1)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_6.pdf" title="Table 11.2b  Carbon dioxide emissions from energy consumption: 11.2b  Carbon dioxide emissions from energy consumption:"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1102b.xls" class="ico_xls" title="Table 11.2b  Carbon dioxide emissions from energy consumption: 11.2b  Carbon dioxide emissions from energy consumption:"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_4.pdf" title="Table 11.2b  Carbon dioxide emissions from energy consumption: 11.2b  Carbon dioxide emissions from energy consumption:"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.2c</span><a href="showtext.php?t=ptb1102c">Carbon dioxide emissions from energy consumption: industrial sector, selected years, 1949&ndash;<script>DataEndYear(1)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_7.pdf" title="Table 11.2c  Carbon dioxide emissions from energy consumption: industrial sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1102c.xls" class="ico_xls" title="Table 11.2c  Carbon dioxide emissions from energy consumption: industrial sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_4.pdf" title="Table 11.2c  Carbon dioxide emissions from energy consumption: industrial sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.2d</span><a href="showtext.php?t=ptb1102d">Carbon dioxide emissions from energy consumption: transportation sector, selected years, 1949&ndash;<script>DataEndYear(1)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_8.pdf" title="Table 11.2d  Carbon dioxide emissions from energy consumption: transportation sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1102d.xls" class="ico_xls" title="Table 11.2d  Carbon dioxide emissions from energy consumption: transportation sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_4.pdf" title="Table 11.2d  Carbon dioxide emissions from energy consumption: transportation sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.2e</span><a href="showtext.php?t=ptb1102e">Carbon dioxide emissions from energy consumption: electric power sector, selected years, 1949&ndash;<script>DataEndYear(1)</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_9.pdf" title="Table 11.2e  Carbon dioxide emissions from energy consumption: electric power sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1102e.xls" class="ico_xls" title="Table 11.2e  Carbon dioxide emissions from energy consumption: electric power sector, selected years, 1949–2011"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_4.pdf" title="Table 11.2e  Carbon dioxide emissions from energy consumption: electric power sector, selected years, 1949–2011"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.3</span><a href="showtext.php?t=ptb1103">Methane emissions, 1980&ndash;<script>DataEndYear(3);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_11.pdf" title="Table 11.3  Methane emissions, 1980– 2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1103.xls" class="ico_xls" title="Table 11.3  Methane emissions, 1980– 2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_10.pdf" title="Table 11.3  Methane emissions, 1980– 2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.4</span><a href="showtext.php?t=ptb1104">Nitrous oxide emissions, 1980&ndash;<script>DataEndYear(3);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_13.pdf" title="Table 11.4  Nitrous oxide emissions, 1980– 2009"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1104.xls" class="ico_xls" title="Table 11.4  Nitrous oxide emissions, 1980– 2009"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_12.pdf" title="Table 11.4  Nitrous oxide emissions, 1980– 2009"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.5a</span><a href="showtext.php?t=ptb1105a">Emissions from energy consumption for electricity generation and useful thermal output: total (all sectors), 1989&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_15.pdf" title="Table 11.5a  Emissions from energy consumption for electricity generation and useful thermal output: total (all sectors), 1989–2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1105a.xls" class="ico_xls" title="Table 11.5a  Emissions from energy consumption for electricity generation and useful thermal output: total (all sectors), 1989–2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_14.pdf" title="Table 11.5a  Emissions from energy consumption for electricity generation and useful thermal output: total (all sectors), 1989–2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.5b</span><a href="showtext.php?t=ptb1105b">Emissions from energy consumption for electricity generation and useful thermal output: electric power sector, 1989&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_16.pdf" title="Table 11.5b  Emissions from energy consumption for electricity generation and useful thermal output: electric power sector, 1989–2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1105b.xls" class="ico_xls" title="Table 11.5b  Emissions from energy consumption for electricity generation and useful thermal output: electric power sector, 1989–2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_14.pdf" title="Table 11.5b  Emissions from energy consumption for electricity generation and useful thermal output: electric power sector, 1989–2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.5c</span><a href="showtext.php?t=ptb1105c">Emissions From energy consumption for electricity generation and useful thermal output: commercial and industrial sectors, 1989&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span>
+                <a href="pdf/sec11_17.pdf" title="Table 11.5c  Emissions From energy consumption for electricity generation and useful thermal output: commercial and industrial sectors, 1989–2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1105c.xls" class="ico_xls" title="Table 11.5c  Emissions From energy consumption for electricity generation and useful thermal output: commercial and industrial sectors, 1989–2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_14.pdf" title="Table 11.5c  Emissions From energy consumption for electricity generation and useful thermal output: commercial and industrial sectors, 1989–2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">11.6</span><a href="showtext.php?t=ptb1106">Installed nameplate capacity of fossil-fuel steam-electric generators with environmental equipment, 1985&ndash;<script>DataEndYear(2);</script></a></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec11_19.pdf" title="Table 11.6  Installed nameplate capacity of fossil-fuel steam-electric generators with environmental equipment, 1985–2010"><i class="ico pdf"><span>PDF</span></i></a><a href="xls/stb1106.xls" class="ico_xls" title="Table 11.6  Installed nameplate capacity of fossil-fuel steam-electric generators with environmental equipment, 1985–2010"><i class="ico xls"><span>XLS</span></i></a><a href="pdf/sec11_18.pdf" title="Table 11.6  Installed nameplate capacity of fossil-fuel steam-electric generators with environmental equipment, 1985–2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li class="head">Section notes</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/secnote11.pdf"><i class="ico pdf"><span>PDF</span></i></a>
+        </ul>
+    </div>
+
+
+
+
+    <h3><a name="appendices"></a>Appendices (heat content, conversion factors, and more)</h3>
+    <div class="content">
+        <ul class="numbered">
+            <li class="head">Topic</li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">A1</span>Approximate heat content of petroleum products</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_1.pdf" title="Appendix A1 Approximate heat content of petroleum products"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">A2</span>Approximate heat content of petroleum production, imports, and exports</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_2.pdf" title="Appendix A2  Approximate heat content of petroleum production, imports, and exports"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=TA2" class="ico_xls" title="Appendix A2  Approximate heat content of petroleum production, imports, and exports"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=TA2" title="Appendix A2  Approximate heat content of petroleum production, imports, and exports"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=TA2#/?f=A&start=200001" title="Appendix A2  Approximate heat content of petroleum production, imports, and exports - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">A3</span>Approximate heat content of petroleum consumption and biofuels production</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_3.pdf" title="Appendix A3  Approximate heat content of petroleum consumption and biofuels production"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=TA3" class="ico_xls" title="Appendix A3  Approximate heat content of petroleum consumption and biofuels production"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=TA3" title="Appendix A3  Approximate heat content of petroleum consumption and biofuels production"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=TA3#/?f=A&start=200001" title="Appendix A3  Approximate heat content of petroleum consumption and biofuels production  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">A4</span>Approximate heat content of natural gas</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_4.pdf" title="Appendix A4  Approximate heat content of natural gas"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=TA4" title="Appendix A4  Approximate heat content of natural gas"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=TA4" title="Appendix A4  Approximate heat content of natural gas"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=TA4#/?f=A&start=200001" title="Appendix A4  Approximate heat content of natural gas  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">A5</span>Approximate heat content of coal and coal coke</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_5.pdf" title="Appendix A5  Approximate heat content of coal and coal coke"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=TA5" title="Appendix A5  Approximate heat content of coal and coal coke"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=TA5" title="Appendix A5  Approximate heat content of coal and coal coke"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=TA5#/?f=A&start=200001" title="Appendix A5  Approximate heat content of coal and coal coke  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">A6</span>Approximate heat rates for electricity, and heat content of electricity</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_6.pdf" title="Appendix A6  Approximate heat rates for electricity, and heat content of electricity"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=TA6" class="ico_xls" title="Appendix A6  Approximate heat rates for electricity, and heat content of electricity"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=TA6" title="Appendix A6  Approximate heat rates for electricity, and heat content of electricity"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=TA6#/?f=A&start=200001" title="Appendix A6  Approximate heat rates for electricity, and heat content of electricity  - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li>Documentation</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/secnote12.pdf" title="Documentation"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">B1</span>Metric conversion factors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_14.pdf" title="Appendix B1  Metric conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">B2</span>Metric prefixes</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_15.pdf" title="Appendix B2  Metric prefixes"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">B3</span>Other physical conversion factors</li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_15.pdf" title="Appendix B3  Other physical conversion factors"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">C1</span>U.S. Census regions and divisions</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec14_1.pdf" title="Appendix C1  U.S. Census regions and divisions"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">D1</span>Population, U.S. gross domestic product, and implicit price deflator</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_19.pdf" title="Appendix D1  Population, U.S. gross domestic product, and implicit price deflator"><i class="ico pdf"><span>PDF</span></i></a><a href="/totalenergy/data/browser/xls.php?tbl=TC1&freq=a" class="ico_xls" title="Appendix D1  Population, U.S. gross domestic product, and implicit price deflator"><i class="ico xls"><span>XLS</span></i></a><a href="/totalenergy/data/browser/csv.php?tbl=TC1" title="Appendix D1  Population, U.S. gross domestic product, and implicit price deflator"><i class="ico csv"><span>CSV</span></i></a><span class="pipe">|</span><a href="/beta/MER/index.php?tbl=TC1#/?f=A&start=1991" title="Appendix D1  Population, U.S. gross domestic product, and implicit price deflator - view in Total Energy Browser"><i class="ico interactive"><span>Interactive</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="mer number">E1</span>Estimated primary energy consumption in the United States, 1635-1945</a></li>
+            <li><span class="formats">Available formats:</span> <a href="/totalenergy/data/monthly/pdf/sec13_21.pdf" title="Appendix E1  Estimated primary energy consumption in the United States, 1635-1945"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li>Appendix F: Alternatives for estimating energy consumption</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec17.pdf" title="Appendix F: Alternatives for estimating energy consumption"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">F1</span>Conversion efficiencies of noncombustible renewable energy sources</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec17_3.pdf" title="Appendix F1  Conversion efficiencies of noncombustible renewable energy sources"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">F1</span>Primary energy consumption and delivered total energy,
+                <script>
+                    DataEndYear(2);
+                </script></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec17_5.pdf" title="Appendix F1  Primary energy consumption and delivered total energy, 2010"><i class="ico pdf"><span>PDF</span></i> (graph)</a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">F2</span>Energy consumption by sector,
+                <script>
+                    DataEndYear(2);
+                </script></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec17_6.pdf" title="Appendix F2  Energy consumption by sector, 2010"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li><span class="number aer">F3</span>Noncombustible renewable primary energy consumption by energy source,
+                <script>
+                    DataEndYear(2);
+                </script></li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec17_6.pdf" title="Appendix F3  Noncombustible renewable primary energy consumption by energy source, 2010"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+        <ul class="numbered">
+            <li>Glossary</li>
+            <li><span class="formats">Available formats:</span> <a href="pdf/sec18.pdf" title="Glossary"><i class="ico pdf"><span>PDF</span></i></a></li>
+        </ul>
+    </div>
+</div>
