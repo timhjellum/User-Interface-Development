@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 class AnalysisProjections {
     constructor() {
         $("#overviewSideNavOptions").on('click', '#ov_ap, #ov_hl', changeOVSideNav);
@@ -10,8 +8,6 @@ class AnalysisProjections {
             $(this).parents('.tag-list').toggleClass('show-more', true);
             return false;
         });
-
-
         function changeOVSideNav(evt) {
             $('#overviewSideNavOptions > label').removeClass('active');
             if ($(this).attr('name') == "ov_ap") {

@@ -7,9 +7,9 @@ $("#nav").html('<ul class="navigation">' +
     '	<li><input type="radio" id="nav-2" name="nav-group-1"><label for="nav-2">Base</label>' +
     '		<ul class="sub">' +
     '			<li><a href="../base/color-palette.html">Color Palette</a></li>' +
-    //'			<li><a href="../base/header-and-footer.html" target="_blank">Header & Footer</a></li>'+
+    '			<li><a href="../base/scripts.html">Scripts</a></li>'+
     '			<li><a href="../base/icons.html">Icons</a></li>' +
-    //'			<li><a href="../base/typography.html">Typography</a></li>'+
+    '			<li><a href="../base/lists.html">Lists</a></li>'+
     '		</ul>' +
     '	</li>' +
     '	<li><input type="radio" id="nav-3" name="nav-group-1"><label for="nav-3">Layouts</label>' +

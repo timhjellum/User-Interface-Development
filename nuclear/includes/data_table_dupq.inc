@@ -16,33 +16,39 @@
       <td nowrap="nowrap">226,780</td>
       <td nowrap="nowrap">450,215 </td>
       <td nowrap="nowrap">626,522</td>
-      <td nowrap="nowrap">1,154,408</li>
+      <td nowrap="nowrap">1,154,408</td>
+    </tr>
     <tr>
       <td nowrap="nowrap"><strong>2nd Quarter</strong></td>
       <td nowrap="nowrap">--</td>
       <td nowrap="nowrap">726,375</td>
       <td nowrap="nowrap">745,306</td>
-      <td nowrap="nowrap">789,980</li>
+      <td nowrap="nowrap">789,980</td>
+    </tr>
     <tr>
       <td nowrap="nowrap"><strong>3rd Quarter</strong></td>
       <td nowrap="nowrap">--</td>
       <td nowrap="nowrap">643,212</td>
       <td nowrap="nowrap">818,783</td>
-      <td nowrap="nowrap">774,541</li>
+      <td nowrap="nowrap">774,541</td>
+    </tr>
     <tr>
       <td nowrap="nowrap"><strong>4th Quarter</strong></td>
       <td nowrap="nowrap">--</td>
       <td nowrap="nowrap">622,987</td>
       <td nowrap="nowrap">725,947</td>
-      <td nowrap="nowrap">624,278</li>
+      <td nowrap="nowrap">624,278</td>
+    </tr>
     <tr class="total">
       <td nowrap="nowrap"><strong>Calendar year total</strong></td>
       <td nowrap="nowrap">226,780</td>
       <td nowrap="nowrap"><strong>2,422,789</strong></td>
       <td nowrap="nowrap"><strong>2,916,558</strong></td>
-      <td nowrap="nowrap"><strong>3,343,207</strong></li>
+      <td nowrap="nowrap"><strong>3,343,207</strong></td>
+    </tr>
   </tbody>
  <tfoot>
     <tr>
-      <td colspan="6">Source: U.S. Energy Information Administration, <a href="/uranium/production/quarterly/">Domestic Uranium Production Report - Quarterly</a></li>
+      <td colspan="6">Source: U.S. Energy Information Administration, <a href="/uranium/production/quarterly/">Domestic Uranium Production Report - Quarterly</a></td>
+    </tr>
   </tfoot></table>

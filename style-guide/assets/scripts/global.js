@@ -18,17 +18,14 @@ new BookshelfSearch();
 import BxSlider from './modules/bxslider';
 new BxSlider();
 
-import jqueryUI from './modules/jquery-ui';
-new jqueryUI();
-
 import AnalysisProjections from './modules/analysis-projections';
 new AnalysisProjections();
 
 import ModuleScripts from './modules/modules';
 new ModuleScripts();
 
-//import ScrollTo from './modules/scroll-to';
-//new ScrollTo();
+//import HighCharts from './modules/highcharts';
+//new HighCharts();
 
 //import LocalScroll from './modules/local-scroll';
 //new LocalScroll();
@@ -36,11 +33,8 @@ new ModuleScripts();
 import Modal from './modules/modal';
 new Modal();
 
-// must use full path
-//const jqueryUiTabs = require('jquery-ui-dist/jquery-ui.js');
-// jquery ui init files go below
-//import PageTabs from './modules/page-tabs';
-//new PageTabs();
-
 import FirefoxHack from './modules/firefox-hack';
 new FirefoxHack();
+
+import jqueryUI from './modules/jquery-ui';
+new jqueryUI();

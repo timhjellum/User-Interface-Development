@@ -8,14 +8,17 @@
 	// overide for non-responsive mobile (move to laptop+ when responsive is activated)	
 	.page-wrapper {
 		width: 100%;
+		min-width: 320px;
 		padding: 0;
 		margin: 0;
+		overflow: hidden;
 		.l-outer-wrapper {
 			-webkit-box-flex: 0;
 			-webkit-flex: 0 0 100%;
 			-ms-flex: 0 0 100%;
 			flex: 0 0 100%;
 			max-width: 100%;
+			width: 100%;
 			padding: 0;
 			background-color: #fff;		
 			.l-inner-wrapper{
@@ -24,6 +27,7 @@
 				-ms-flex: 0 0 100%;
 				flex: 0 0 100%;
 				max-width: 100%;
+				width: 100%;
 				padding: 39px 0 0;
 				margin: 0;
 				&>.l-row {
@@ -63,7 +67,7 @@
 		.left;
 	}
 	.l-row {
-		padding: 0 22px;
+		padding: 0 12px;
 		//		display: table; <--- cannot be a table
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 100%;
@@ -197,35 +201,9 @@
 }
 
 @media @tablet {	// mobile panorama
-
-
-
-
-
-
-	/*
-	.l-col {
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 33.333333%;
-		-ms-flex: 0 0 33.333333%;
-		flex: 0 0 33.333333%;
-		max-width: 33.333333%;
+	.l-row {
+		padding: 0 1em;
 	}
-	.l-narrow-col,
-	.l-one-third-col,
-	.l-two-col,
-	.l-split-narrow-col,
-	.l-split-wide-col,
-	.l-two-third-col {
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 50%;
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%;
-		width: 50%;
-		.left;
-	}
-	*/
 }
 
 

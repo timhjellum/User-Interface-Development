@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>EIA Style Guide</title>
+    <!-- color favicon -->
+    <!--
+	<link rel="apple-touch-icon" sizes="180x180" href="/style-guide/src/img/color/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/style-guide/src/img/color/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/style-guide/src/img/color/favicon-16x16.png">
+	<link rel="manifest" href="/style-guide/src/color/img/site.webmanifest">
+	<link rel="mask-icon" href="/style-guide/src/img/color/safari-pinned-tab.svg" color="#003c57">
+	<link rel="shortcut icon" href="/style-guide/src/img/color/favicon.ico">
+	<meta name="msapplication-TileColor" content="#003c57">
+	<meta name="msapplication-config" content="/style-guide/src/img/color/browserconfig.xml">
+	<meta name="theme-color" content="#003c57">
+	-->
+    <!-- b&w favicon -->
+
+    <link href="/style-guide/src/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/style-guide/src/img/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="/style-guide/src/img/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+    <link href="/style-guide/src/img/site.webmanifest" rel="manifest">
+    <link href="/style-guide/src/img/safari-pinned-tab.svg" rel="mask-icon" color="#292929">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#292929">
+
+    <!-- start style guide required vendor styles -->
+    <link href="../src/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- end style guide required vendor styles -->
+
+    <!-- start style guide vendor styles -->
+    <link href="../src/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" />
+    <link href="../src/css/themify-icons.css" rel="stylesheet">
+    <link href="../src/css/highlight/tomorrow.css" rel="stylesheet" />
+    <!-- start style guide required styles -->
+
+    <!-- start page specific styles -->
+    <link href="../src/css/eia-style-guide.css" rel="stylesheet" />
+    <!-- end page specific styless -->
+
+<style>
+.line-through {
+    text-decoration: line-through;
+}
+
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
+            <div class="sidebar-wrapper">
+                <div class="logo-style-guide"></div>
+                <div id="nav"></div>
+            </div>
+        </div>
+        <div class="main-panel">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">Base</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row-style-guide">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="header-style-guide">
+                                    <article>
+                                        <h1 class="style-guide">Scripts</h1>
+
+<p class="style-guide"></p>
+
+<h2 class="style-guide">Script Inventory</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+        <th style="width: 150px;">Event type</th>
+        <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td><strong>jquery.min.js</strong></td>
+        <td>Is bundled along with JavaScript files (modules) and outputted to the <strong>global.min.js</strong>.<br />
+<pre><code class="js">plugins: [
+    new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery",
+        "window.jQuery": "jquery",
+        "window.$": "jquery"
+    })
+]
+</code></pre>
+</td>
+<td>Description:<br />
+    <ol>
+        <li></li></ol></td>
+    </tr>
+
+<tr>
+<td><strong>header-menu.js</strong>
+<ul>
+    <li>jquery.fancybox.js</li>
+    <li>jquery.fancybox.pack.js</li>
+</ul>
+</td>
+<td>Is bundled and outputted to the: <strong>global.min.js</strong> from:<br />
+<ul>
+    <li><code>node_modules/fancybox/dist/js/jquery.fancybox.js</code></li>
+    <li><code>node_modules/fancybox/dist/js/jquery.fancybox.pack.js</code></li>
+</ul>
+</td>
+<td>Description:<br />
+    <ol>
+        <li></li></ol></td>
+    </tr>
+
+<tr>
+<td><strong>bxslider.js</strong>
+<ul>
+    <li>bxslider.min.js</li>
+</ul>
+</td>
+<td>Is bundled and outputted to the: <strong>global.min.js</strong> from: <code class="line-through">node_modules/bxslider/dist/bxslider.min.js</code> <code>global/scripts/vendor/bxslider/bxslider.js</code>. UPDATE: the bxslider is no longer maintained, and there is a bug that throws an error when users use the touchscreen. The error shows up in the browser console, only and there's no known issues with the slider's performance. A copy of the bxslider.js with the 'fix' and the file now resides on the global/scripts/bxslider folder.</td>
+<td>Description:<br />
+    <ol>
+        <li>Home slider</li>
+        <li>Overview slider</li>
+    </ol></td>
+</tr>
+
+
+<tr>
+<td><strong>jquiry-ui.js</strong>
+<ul>
+<li>widget.js</li>
+<li>position.js</li>
+<li>form-reset-mixin.js</li>
+<li>keycode.js</li>
+<li>labels.js</li>
+<li>unique-id.js</li>
+<li>core.js</li>
+<li>effect.js</li>
+<li>widgets/accordion.js</li>
+<li>widgets/menu.js</li>
+<li>widgets/selectmenu.js</li>
+<li>widgets/tabs.js</li>
+<li>widgets/datepicker.js</li>
+</ul>
+</td>
+<td>Is bundled and outputted to the: <strong>global.min.js</strong> from:<br />
+<ul>
+<li><code>node_modules/jquery-ui/ui/widget.js</code></li>
+<li><code>node_modules/jquery-ui/ui/position.js</code></li>
+<li><code>node_modules/jquery-ui/ui/form-reset-mixin.js</code></li>
+<li><code>node_modules/jquery-ui/ui/keycode.js</code></li>
+<li><code>node_modules/jquery-ui/ui/labels.js</code></li>
+<li><code>node_modules/jquery-ui/ui/unique-id.js</code></li>
+<li><code>node_modules/jquery-ui/ui/core.js</code></li>
+<li><code>node_modules/jquery-ui/ui/effect.js</code></li>
+<li><code>node_modules/jquery-ui/ui/widgets/accordion.js</code></li>
+<li><code>node_modules/jquery-ui/ui/widgets/menu.js</code></li>
+<li><code>node_modules/jquery-ui/ui/widgets/selectmenu.js</code></li>
+<li><code>node_modules/jquery-ui/ui/widgets/tabs.js</code></li>
+<li><code>node_modules/jquery-ui/ui/widgets/datepicker.js</code></li>
+</ul>  
+</td>
+<td>Description:<br />
+    <ol>
+        <li>Accordions</li>
+        <li>Tabs</li>
+    </ol></td>
+</tr>
+
+
+<tr>
+<td>analysis-projections</td>
+<td>Custom module is bundled and outputted to the <strong>global.min.js</strong></td><td>Description:<br />
+    <ol>
+        <li></li></ol></td>
+    </tr>
+<tr>
+<td>bookshelf-search</td>
+<td>Custom module is bundled and outputted to the <strong>global.min.js</strong></td><td>Description:<br />
+    <ol>
+        <li></li></ol></td>
+    </tr>
+<tr>
+<td>firefox-hack</td>
+<td>Custom module is bundled and outputted to the <strong>global.min.js</strong></td><td>Description:<br />
+    <ol>
+        <li></li></ol></td>
+    </tr>
+<tr>
+<td>header-search</td>
+<td>Custom module is bundled and outputted to the <strong>global.min.js</strong></td><td>Description:<br />
+    <ol>
+        <li></li></ol></td>
+    </tr>
+<tr>
+<td>header-shrink-expand</td>
+<td>Custom module is bundled and outputted to the <strong>global.min.js</strong></td><td>Description:<br />
+    <ol>
+        <li></li></ol></td>
+    </tr>
+<tr>
+<td class="line-through">local-scroll</td>
+<td class="line-through">Is bundled and outputted to the: <strong>global.min.js</strong> from: <code class="line-through">node_modules/local-scroll/dist/local-scroll.js</code></td>
+<td>Description:<br />
+    <ol>
+        <li>Module removed, replaced with custom code in the accordiions module</li>
+    </ol>
+</td>
+</tr>
+<tr>
+<td>modules</td>
+<td>Custom module is bundled and outputted to the <strong>global.min.js</strong></td><td>Description:<br />
+    <ol>
+<li>Hides empty <a href="lists.html">list items</a></li></ol></td>
+</tr>
+<tr>
+<td class="line-through">scroll-to.js</td>
+<td class="line-through">Is bundled and outputted to the: <strong>global.min.js</strong> from: <code class="line-through">node_modules/scrollto/index.js</code></td>
+<td>Description:<br />
+    <ol>
+        <li>Module removed, replaced with custom code in the accordiions module</li>
+    </ol>
+</td>
+</tr>
+<tr>
+<td>social-sticker</td>
+<td>Is bundled and outputted to the <strong>global.min.js</strong></td><td>Description:<br />
+    <ol>
+    <li></li></ol></td>
+<td>Description:<br />
+    <ol>
+    <li></li></ol></td>
+</tr>
+
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+ - Description: located in the /global/vendor/ directory.
+<span>
+<a href="https://www.npmjs.com/package/" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+</ul>
+
+<ul class="list-group">
+<li class="list-group-item justify-content-between list-group-item-success">jquery-ui.min.js - Description: located in the /global/vendor/ directory.
+<span>
+<a href="https://www.npmjs.com/package/" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+<li class="list-group-item justify-content-between list-group-item-success">accordion-init.js - Description: contains all configurations and initiation scripts.
+<span>
+<span class="badge badge-pill badge-warning">Custom</span>
+</span>
+</li>
+</ul>
+
+<div class="row-style-guide">
+<h3 class="style-guide">Header Scripts</h3>
+</div>
+<ul class="list-group">
+<li class="list-group-item justify-content-between list-group-item-success">jquery.fancybox.js - Description: located in the /global/vendor/ directory.
+<span>
+<a href="https://www.npmjs.com/package/" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+<li class="list-group-item justify-content-between list-group-item-success">jquery.fancybox.pack.js - Description: located in the /global/vendor/ directory.
+<span>
+<a href="https://www.npmjs.com/package/" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+<li class="list-group-item justify-content-between list-group-item-success">jQuery header-init.js - Description: contains all configurations and initiation scripts.
+<span>
+<span class="badge badge-pill badge-warning">Custom</span>
+</span>
+</li>
+</ul>
+<div class="row-style-guide">
+<h3 class="style-guide">Social Sticker</h3>
+</div>
+<ul class="list-group">
+<li class="list-group-item justify-content-between list-group-item-success">jQuery social-init.js - Description: contains all configurations and initiation scripts.
+<span>
+<span class="badge badge-pill badge-warning">Custom</span>
+</span>
+</li>
+</ul>
+<div class="row-style-guide">
+<h3 class="style-guide">Sliders</h3>
+</div>
+<ul class="list-group">
+<li class="list-group-item justify-content-between list-group-item-success">jquery.bxslider.min.js - Description: located in the /global/vendor/ directory.
+<span>
+<a href="https://www.npmjs.com/package/bxslider/" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com/stevenwanderski/bxslider-4" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+<li class="list-group-item justify-content-between list-group-item-success">slider-home-init.js - Description: contains all configurations and initiation scripts.
+<span>
+<span class="badge badge-pill badge-warning">Custom</span>
+</span>
+</li>
+<li class="list-group-item justify-content-between list-group-item-success">slider-multi-cards-init.js - Description: contains all configurations and initiation scripts.
+<span>
+<span class="badge badge-pill badge-warning">Custom</span>
+</span>
+</li>
+</ul>
+</ul>
+<div class="row-style-guide">
+<h3 class="style-guide">Scroll Scripts</h3>
+</div>
+<p class="style-guide">Notes: Not sure where these are used yet but they are required - tim</p>
+<ul class="list-group">
+<li class="list-group-item justify-content-between">jQuery.ScrollTo - Description: Easy element scrolling using jQuery.
+<span>
+<a href="https://www.npmjs.com/package/jquery.serialscroll" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com/" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+<li class="list-group-item justify-content-between">jQuery.LocalScroll - Description: Animated scrolling navigation, using anchors.
+<span>
+<a href="https://www.npmjs.com/package/jquery.localscroll" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com/" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+</ul>
+<div class="row-style-guide">
+<h3 class="style-guide">In Progress</h3>
+</div>
+<ul class="list-group">
+<li class="list-group-item justify-content-between">jQuery Title Replacement Script - Description:
+<span>
+<span class="badge badge-pill badge-warning">Custom</span>
+</span>
+</li>
+<li class="list-group-item justify-content-between">jQuery Plugin js.cookie v1.4.1 - Description:
+<span>
+<a href="https://www.npmjs.com/package/js-cookie" target="_blank">
+<span class="badge badge-pill badge-primary">Vendor (NPM)</span>
+</a>
+<a href="https://github.com/carhartl/jquery-cookie">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+<li class="list-group-item justify-content-between">jQuery Plugin: easyListSplitter 1.0.2 - Description:
+<span>
+<span class="badge badge-pill badge-danger">Not Supported</span>
+<!-- http://www.madeincima.eu -->
+</span>
+</li>
+<li class="list-group-item justify-content-between">jQuery Plugin: url read get variables - Description:
+<!-- a href="http://ajaxcssblog.com/jquery/url-read-get-variables" -->jQuery Url Plugin gives the ability to read GET parameters from the actual URL
+<!-- /a -->.
+<span></span>
+<span class="badge badge-pill badge-danger">Not Supported</span>
+</span>
+</li>
+<li class="list-group-item justify-content-between">jQuery Plugin: bgiframe jQuery plugin - Description: Unknown
+<span>
+<a href="https://github.com/brandonaaron/bgiframe" target="_blank">
+<span class="badge badge-pill badge-success">Supported</span>
+</a>
+</span>
+</li>
+</ul>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Size Conversion</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+
+<table class="table table-hover table-striped">
+<thead>
+<tr>
+<th>Pixels</th>
+<th>REMs</th>
+<th>EMs</th>
+<th>Percent</th>
+<th>Points</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>6px</td>
+<td></td>
+<td>0.375em</td>
+<td>37.5%</td>
+<td>5pt</td>
+</tr>
+<tr>
+<td>7px</td>
+<td></td>
+<td>0.438em</td>
+<td>43.8%</td>
+<td>5pt</td>
+</tr>
+<tr>
+<td>8px</td>
+<td>0.5rem</td>
+<td>0.5em</td>
+<td>50.0%</td>
+<td>6pt</td>
+</tr>
+<tr>
+<td>9px</td>
+<td></td>
+<td>0.563em</td>
+<td>56.3%</td>
+<td>7pt</td>
+</tr>
+<tr>
+<td>10px</td>
+<td>0.625rem</td>
+<td>0.625em</td>
+<td>62.5%</td>
+<td>8pt</td>
+</tr>
+<tr>
+<td>11px</td>
+<td>0.6875rem</td>
+<td>0.688em</td>
+<td>68.8%</td>
+<td>8pt</td>
+</tr>
+<tr>
+<td>12px</td>
+<td>0.75rem</td>
+<td>0.75em</td>
+<td>75.0%</td>
+<td>9pt</td>
+</tr>
+<tr>
+<td>13px</td>
+<td>0.8125rem</td>
+<td>0.8125em</td>
+<td>81.3%</td>
+<td>10pt</td>
+</tr>
+<tr>
+<td>14px</td>
+<td>0.875rem</td>
+<td>0.875em</td>
+<td>87.5%</td>
+<td>11pt</td>
+</tr>
+<tr>
+<td>15px</td>
+<td>0.9375rem</td>
+<td>0.938em</td>
+<td>93.8%</td>
+<td>11pt</td>
+</tr>
+<tr class="table-warning">
+<td>16px</td>
+<td>1rem</td>
+<td>1em</td>
+<td>100.0%</td>
+<td>12pt</td>
+</tr>
+<tr>
+<td>17px</td>
+<td>1.0625rem</td>
+<td>1.063em</td>
+<td>106.3%</td>
+<td>13pt</td>
+</tr>
+<tr>
+<td>18px</td>
+<td>1.125rem</td>
+<td>1.125em</td>
+<td>112.5%</td>
+<td>14pt</td>
+</tr>
+<tr>
+<td>19px</td>
+<td>1.1875rem</td>
+<td>1.188em</td>
+<td>118.8%</td>
+<td>14pt</td>
+</tr>
+<tr>
+<td>20px</td>
+<td>1.25rem</td>
+<td>1.25em</td>
+<td>125.0%</td>
+<td>15pt</td>
+</tr>
+<tr>
+<td>21px</td>
+<td>1.3125rem</td>
+<td>1.313em</td>
+<td>131.3%</td>
+<td>16pt</td>
+</tr>
+<tr>
+<td>22px</td>
+<td>1.375rem</td>
+<td>1.375em</td>
+<td>137.5%</td>
+<td>17pt</td>
+</tr>
+<tr>
+<td>23px</td>
+<td>1.4375rem</td>
+<td>1.438em</td>
+<td>143.8%</td>
+<td>17pt</td>
+</tr>
+<tr>
+<td>24px</td>
+<td>1.5rem</td>
+<td>1.5em</td>
+<td>150.0%</td>
+<td>18pt</td>
+<tr>
+<td>25px</td>
+<td>1.5625rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<!--
+<tr>
+<td>26px</td>
+<td>1.625rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+<tr>
+<td>27px</td>
+<td>1.6875rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+<tr>
+<td>28px</td>
+<td>1.75rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+<tr>
+<td>29px</td>
+<td>1.8125rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+<tr>
+<td>30px</td>
+<td>1.875rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+<tr>
+<td>31px</td>
+<td>1.9375rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>32px</td>
+<td>2rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>33px</td>
+<td>2.0625rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>34px</td>
+<td>2.125rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>35px</td>
+<td>2.1875rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>36px</td>
+<td>2.25rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>37px</td>
+<td>2.3125rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>38px</td>
+<td>2.375rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>39px</td>
+<td>2.4375rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>40px</td>
+<td>2.5rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>41px</td>
+<td>2.5625rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>42px</td>
+<td>2.625rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>43px</td>
+<td>2.6875rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>44px</td>
+<td>2.75rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>45px</td>
+<td>2.8125rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>46px</td>
+<td>2.875rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>47px</td>
+<td>2.9375rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>48px</td>
+<td>3rem</td>
+<td>em</td>
+<td>%</td>
+<td>pt</td>
+</tr>
+<tr>
+<td>49px</td>
+<td>3.0625rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>50px</td>
+                <td>3.125rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>51px</td>
+                <td>3.1875rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>52px</td>
+                <td>3.25rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>53px</td>
+                <td>3.3125rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>54px</td>
+                <td>3.375rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>55px</td>
+                <td>3.4375rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>56px</td>
+                <td>3.5rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>57px</td>
+                <td>3.5625rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>58px</td>
+                <td>3.625rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>59px</td>
+                <td>3.6875rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>60px</td>
+                <td>3.75rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>61px</td>
+                <td>3.8125rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>62px</td>
+                <td>3.875rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>63px</td>
+                <td>3.9375rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+              <tr>
+                <td>64px</td>
+                <td>4rem</td>
+                <td>em</td>
+                <td>%</td>
+                <td>pt</td>
+              </tr>
+            -->
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+                                        <!-- end  style guide -->
+                                        <!-- end  style guide -->
+                                        <!-- end  style guide -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+</body>
+<!-- start style guide required vendor scripts -->
+<script src="../src/js/jquery.min.js"></script>
+<script src="../src/js/tether.min.js"></script>
+<script src="../src/js/bootstrap.min.js"></script>
+<!-- end style guide required vendor scripts -->
+
+<!-- start style guide custom scripts -->
+<script src="../src/js/style-guide-side-nav.js"></script>
+<script src="../src/js/style-guide-header.js"></script>
+<script src="../src/js/style-guide-footer.js"></script>
+<script src="../src/js/highlight.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+
+    if ($('.navbar-brand:contains(Modules)').length > 0) {
+        $('#nav-2').prop('checked', true);
+    }
+</script>
+<!-- start style guide required scripts -->
+
+<!-- start page specific scripts -->
+<!-- script src="../src/js/global.min.js"></script-->
+<script src="../../global/scripts/global.min.js"></script>
+<!-- end page specific scripts -->
+
+</html>

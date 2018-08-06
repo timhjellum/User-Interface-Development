@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 class SocialSticker {
     constructor() {
         this.target = $('#sticker');

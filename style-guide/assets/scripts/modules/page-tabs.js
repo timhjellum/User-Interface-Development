@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 class PageTabs {
 	constructor() {
         $(".page_tabs").tabs();

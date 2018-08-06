@@ -53,7 +53,9 @@ module.exports = {
                 // ignore the mode modules folder
                 exclude: /node_modules/
             }],
-        },
+        }
+        /*
+        ,
         plugins: [
             new webpack.ProvidePlugin({
                 $: "jquery",
@@ -62,4 +64,5 @@ module.exports = {
                 "window.$": "jquery"
             })
         ]
+        */
     } // module.exports

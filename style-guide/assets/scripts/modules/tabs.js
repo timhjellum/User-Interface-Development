@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 class Tabs {
 	constructor() {
         this.tabOne = $('.tabs li.one');

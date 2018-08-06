@@ -1,3 +1,4 @@
+//const $ = require("jquery");
 import fancybox from '../../../../node_modules/fancybox/dist/js/jquery.fancybox.js';
 import fancyboxPack from '../../../../node_modules/fancybox/dist/js/jquery.fancybox.pack.js';
 
@@ -12,63 +13,41 @@ class HeaderMenu {
         //this.events();
         this.openMenu();
     }
+
+
+
     lightBox() {
-            // this.closeButton.prepend('<i class="ico-menu close">Close</i>');
-            // console.log("fancybox lightbox");
-            $("a.lightbox").fancybox({
-                autoResize: false, // To sidestep issue with Highcharts in Fancybox 2 disappearing when the browser is resized -SNW
-                'transitionIn': 'elastic',
-                'transitionOut': 'elastic',
-                'speedIn': 600,
-                'speedOut': 200,
-                'overlayShow': false
-            });
-            // For HTML content, since Fancybox 2 now requires specifying IFRAME mode explicitly for non-images
-            $("a.lightboxhtml").fancybox({
-                type: "iframe",
-                fitToView: true,
-                autoSize: true
-            });
-            $("#youtube").fancybox({
-                'scrolling': 'no',
-                'titleShow': false,
-                'onClosed': function() {
-                    $("#login_error").hide();
-                }
-            });
-        }
+        // this.closeButton.prepend('<i class="ico-menu close">Close</i>');
+        // console.log("fancybox lightbox");
+        $("a.lightbox").fancybox({
+            autoResize: false, // To sidestep issue with Highcharts in Fancybox 2 disappearing when the browser is resized -SNW
+            'transitionIn': 'elastic',
+            'transitionOut': 'elastic',
+            'speedIn': 600,
+            'speedOut': 200,
+            'overlayShow': false
+        });
+        // For HTML content, since Fancybox 2 now requires specifying IFRAME mode explicitly for non-images
+        $("a.lightboxhtml").fancybox({
+            type: "iframe",
+            fitToView: true,
+            autoSize: true
+        });
+        $("#youtube").fancybox({
+            'scrolling': 'no',
+            'titleShow': false,
+            'onClosed': function() {
+                $("#login_error").hide();
+            }
+        });
+    }
+        
         //events() {
         //	this.window.resize(this.checkSize.bind(this));
         //	$("a.lightbox").click(lightBox());
         //}
     openMenu() {
-            $('.fancybox-menu').click(function() {
-                var target = $(this).data("target");
-                var options = { active: 0 };
-                switch (target) {
-                    case 'nav-sources':
-                        options.active = 0;
-                        break;
-                    case 'nav-topics':
-                        options.active = 1;
-                        break;
-                    case 'nav-geography':
-                        options.active = 2;
-                        break;
-                    case 'nav-tools':
-                        options.active = 3;
-                        break;
-                    case 'nav-learn':
-                        options.active = 4;
-                        break;
-                    case 'nav-news':
-                        options.active = 5;
-                        break;
-                    case 'nav-default':
-                        options.active = 0;
-                }
-                $('.section-tabs').tabs(options);
-            });
+
             var viewPortWidth = window.innerWidth;
             var viewPortHeight = window.innerHeight;
             var fbWidth = 980;
@@ -102,7 +81,7 @@ class HeaderMenu {
                     };
                 },
                 beforeShow: function() {
-                    $('.section-tabs').parent().parent().parent().parent().addClass('global-nav');
+                    $('.dilly-tabs').parent().parent().parent().parent().addClass('global-nav');
                 },
                 onUpdate: function() {
                     if (window.innerWidth <= fbWidth) {
@@ -114,7 +93,7 @@ class HeaderMenu {
                         this.fitToView = false;
                     };
                     $.fancybox.reposition();
-                    $('.section-tabs .ui-tabs-anchor').click(function() {
+                    $('.dilly-tabs .ui-tabs-anchor').click(function() {
                         $.fancybox.update();
                     });
                 },

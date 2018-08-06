@@ -1,31 +1,29 @@
-//import $ from 'jquery';
-import bxslider from '../../../../node_modules/bxslider/dist/jquery.bxslider.min.js';
+
+//import bxslider from '../../../../node_modules/bxslider/dist/jquery.bxslider.min.js';
+/* the bxslider is no longer maintained and there is a bug that throws an error when users use the touchscreen. The error shows up in the console only and there's no known issues with the slider. A copy of the bxslider.js with the 'fix' and the file now resides on the global/scripts/bxslider file */
+import bxslider from '../../../../global/scripts/vendor/bxslider/bxslider.js';
 
 class BxSlider {
     constructor() {
-        //this.bxSliderHome = $('.slider-home ul');
-        //this.bxSliderMulti = $('.slider-multi ul');
+
         this.bxSliderHomeWrapper = $('.slider-home-wrapper');
         this.bxSlidermultiWrapper = $('.slider-multi-wrapper');
-        //this.window = $(window);
-        this.bxSliderMulti();
+
+        // run on initial page load
         this.bxSliderHome();
-        this.slideOrder();
-        //this.reloadSlider();
+        // run on window resize
+        $(window).resize(this.bxSliderHome);
+        // run on initial page load
+        this.bxSliderMulti();
+        // run on window resize
+//        $(window).resize(this.bxSliderMulti);
+        $(window).on('orientationchange resize', function() {
+            this.bxSliderMulti
+              console.log(window.orientation);
+          });
     }
 
-
-
-
-
-
     bxSliderHome() {
-
-        function bxSliderLoaded() {
-            console.log('Loaded - show slides');
-            $(".slider-home").addClass("bxslider-visible");
-        }
-
         $('.slider-home ul').bxSlider({
             auto: true,
             minSlides: 1,
@@ -39,181 +37,138 @@ class BxSlider {
             slideWidth: 960,
             pause: 10000,
             // onLoad
-            onSliderLoad: 'bxSliderLoaded'
+            onSliderLoad: bxSliderLoaded()
         });
+        // load the slider when it's ready
+        function bxSliderLoaded() {
+            console.log('Loaded - show slides');
+            $('.slider-home').addClass('bxslider-visible');
+        }
     }
 
     bxSliderMulti() {
-
-        function getSettings() {
-            var footerWidth = $('footer > div').width();
-            console.log("footer > div: " + footerWidth);
-            var settings = {
-                    tabletLandscape : {
-                    auto: false,
-                    wrapperClass: 'slider-multi-wrapper',
-                    startSlide: 1,
-                    infiniteLoop: true,
-                    pagerSelector: '.slider-multi-pager',
-//                    onSliderResize: 'bxSliderResize',
-//                    onSliderLoad: 'bxSliderLoaded',
-                    minSlides: 4,
-                    maxSlides: 4,
-                    moveSlides: 4,
-                    nextText: '&#8250;',
-                    prevText: '&#8249;',
-                    pager: true,
-                    controls: true,
-                    slideWidth: parseInt(footerWidth / 4),
-                    slideMargin: 10
-                },
-                tablet : {
-                    auto: false,
-                    wrapperClass: 'slider-multi-wrapper',
-                    startSlide: 1,
-                    infiniteLoop: true,
-                    pagerSelector: '.slider-multi-pager',
-//                    onSliderResize: 'bxSliderResize',
-//                    onSliderLoad: 'bxSliderLoaded',
-                    minSlides: 3,
-                    maxSlides: 3,
-                    moveSlides: 3,
-                    nextText: '&#8250;',
-                    prevText: '&#8249;',
-                    pager: false,
-                    controls: false,
-                    slideWidth: parseInt((footerWidth - 60) / 3),
-                    slideMargin: 10
-                },
-                mobileLandscape : {
-                    auto: false,
-                    wrapperClass: 'slider-multi-wrapper',
-                    startSlide: 1,
-                    infiniteLoop: true,
-                    pagerSelector: '.slider-multi-pager',
-//                    onSliderResize: 'bxSliderResize',
-//                    onSliderLoad: 'bxSliderLoaded',
-                    minSlides: 2,
-                    maxSlides: 2,
-                    moveSlides: 2,
-                    nextText: '&#8250;',
-                    prevText: '&#8249;',
-                    pager: false,
-                    controls: false,
-                    slideWidth: parseInt((footerWidth - 60) / 2),
-                    slideMargin: 10
-                },
-                mobile : {
-                    auto: false,
-                    wrapperClass: 'slider-multi-wrapper',
-                    startSlide: 1,
-                    infiniteLoop: true,
-                    pagerSelector: '.slider-multi-pager',
-//                    onSliderResize: 'bxSliderResize',
-//                    onSliderLoad: 'bxSliderLoaded',
-                    minSlides: 1,
-                    maxSlides: 1,
-                    moveSlides: 1,
-                    nextText: '&#8250;',
-                    prevText: '&#8249;',
-                    pager: false,
-                    controls: false,
-                    slideWidth: parseInt(footerWidth - 40),
-                    slideMargin: 10
-                }, 
-                laptopPlus : {
-                    auto: false,
-                    wrapperClass: 'slider-multi-wrapper',
-                    startSlide: 1,
-                    infiniteLoop: true,
-                    pagerSelector: '.slider-multi-pager',
-//                    onSliderResize: 'bxSliderResize',
-//                    onSliderLoad: 'bxSliderLoaded',
-                    minSlides: 5,
-                    maxSlides: 5,
-                    moveSlides: 5,
-                    nextText: '&#8250;',
-                    prevText: '&#8249;',
-                    pager: true,
-                    controls: true,
-                    slideWidth: 154,
-                    slideMargin: 14
-                }
-            };
-            if ((footerWidth >= 801) && (footerWidth <= 987)) { 
-                return settings.tabletLandscape; 
-            } else if ((footerWidth >= 600) && (footerWidth <= 800)) { 
-                return settings.tablet;
-            } else if ((footerWidth >= 450) && (footerWidth <= 599)) { 
-                return settings.mobileLandscape;
-            } else if ((footerWidth >= 320) && (footerWidth <= 449)) { 
-                return settings.mobile;
-            } else {
-                return settings.laptopPlus;
-            }
-        }
-        var settings = getSettings();
-  
-        console.log('auto:              ' + settings.auto);
-        console.log('wrapper class:     ' + settings.wrapperClass);
-        console.log('start slide:       ' + settings.startSlide);
-        console.log('min slides:        ' + settings.minSlides);
-        console.log('max slides:        ' + settings.maxSlides);
-        console.log('move slides:       ' + settings.moveSlides);
-        console.log('next text:         ' + settings.nextText);
-        console.log('prev text:         ' + settings.prevText);
-        console.log('infinite loop:     ' + settings.infiniteLoop);
-        console.log('controls:          ' + settings.controls);
-        console.log('pager:             ' + settings.pager);
-        console.log('pager selector:    ' + settings.pagerSelector);
-        console.log('slide width:       ' + settings.slideWidth);
-        console.log('slide margin:      ' + settings.slideMargin);
-        //console.log('on slider resize:  ' + settings.onSliderResize);
-        //console.log('on slider load:    ' + settings.onSliderLoad);
-
-        function bxSliderResize() {
-            $(".slider-multi").removeClass("bxslider-visible");
-            /*
-            setTimeout(function(){
-                MultiSlider.destroySlider();
-                console.log("destroySlider");
-            }, 1000);
-            */
-            setTimeout(function(){
-                // https://bxslider.com/options/
-                // reload isn't clearing the variables
-                MultiSlider.reloadSlider();
-                console.log('reloadSlider - auto: ' + settings.auto + 
-                ', wrapper class: ' + settings.wrapperClass + 
-                ', start slide: ' + settings.startSlide + 
-                ', min slides: ' + settings.minSlides + 
-                ', max slides: ' + settings.maxSlides + 
-                ', move slides: ' + settings.moveSlides + 
-                ', next text: ' + settings.nextText + 
-                ', prev text: ' + settings.prevText + 
-                ', infinite loop: ' + settings.infiniteLoop + 
-                ', controls: ' + settings.controls + 
-                ', pager: ' + settings.pager + 
-                ', pager selector: ' + settings.pagerSelector + 
-                ', slide width: ' + settings.slideWidth + 
-                ', slide margin: ' + settings.slideMargin);
-            }, 2000);
+        var footerWidth                 = $('footer > div').width();
+        var mobileSlideWidth            = parseInt(footerWidth - 40);
+        var mobileLandscapeSlideWidth   = parseInt(footerWidth/2);
+        var tabletSlideWidth            = parseInt(footerWidth/3);
+        var tabletLandscapeSlideWidth   = parseInt(footerWidth/4);
+        var basicTable                  = parseInt(footerWidth - 12);
+        var laptop = {
+            auto: false,
+            wrapperClass: 'slider-multi-wrapper',
+            minSlides: 5,
+            maxSlides: 5,
+            moveSlides: 5,
+            nextText: '&#8250;',
+            prevText: '&#8249;',
+            infiniteLoop: true,
+            pager: true,
+            pagerSelector: '.slider-multi-pager',
+            slideWidth: 154,
+            slideMargin: 14,
+            onSliderLoad: bxSliderLoaded()
+        };
+        var tabletLandscape = {
+            auto: false,
+            wrapperClass: 'slider-multi-wrapper',
+            minSlides: 4,
+            maxSlides: 4,
+            moveSlides: 4,
+            nextText: '&#8250;',
+            prevText: '&#8249;',
+            infiniteLoop: true,
+            pager: true,
+            pagerSelector: '.slider-multi-pager',
+            slideWidth: tabletLandscapeSlideWidth,
+            slideMargin: 10,
+            onSliderLoad: bxSliderLoaded()
+        };
+        var tablet = {
+            auto: false,
+            wrapperClass: 'slider-multi-wrapper',
+            minSlides: 3,
+            maxSlides: 3,
+            moveSlides: 3,
+            nextText: '&#8250;',
+            prevText: '&#8249;',
+            infiniteLoop: true,
+            pager: false,
+            pagerSelector: '',
+            slideWidth: tabletSlideWidth,
+            slideMargin: 10,
+            onSliderLoad: bxSliderLoaded()
+        };
+        var mobileLandscape = {
+            auto: false,
+            wrapperClass: 'slider-multi-wrapper',
+            minSlides: 2,
+            maxSlides: 2,
+            moveSlides: 2,
+            nextText: '&#8250;',
+            prevText: '&#8249;',
+            infiniteLoop: true,
+            pager: false,
+            pagerSelector: '',
+            slideWidth: mobileLandscapeSlideWidth,
+            slideMargin: 10,
+            onSliderLoad: bxSliderLoaded()
+        };
+        var mobile = {
+            auto: false,
+            wrapperClass: 'slider-multi-wrapper',
+            minSlides: 1,
+            maxSlides: 1,
+            moveSlides: 1,
+            nextText: '&#8250;',
+            prevText: '&#8249;',
+            infiniteLoop: true,
+            pager: false,
+            pagerSelector: '',
+            slideWidth: mobileSlideWidth,
+            slideMargin: 10,
+            onSliderLoad: bxSliderLoaded()
+        };
+        if ((footerWidth >= 801) && (footerWidth <= 987)) {
+            $('.slider-multi ul').bxSlider(tabletLandscape);
+            console.log(tabletLandscape);
+        } else if ((footerWidth >= 600) && (footerWidth <= 800)) {
+            $('.slider-multi ul').bxSlider(tablet);
+            $('.page-wrapper').css('width', + footerWidth);
+            $(".bx-viewport").css("overflow", "visible"); // required for peeking left and right slides
+            console.log(tablet);
+        } else if ((footerWidth >= 450) && (footerWidth <= 599)) {
+            $('.slider-multi ul').bxSlider(mobileLandscape);
+            $('.page-wrapper').css('width', + footerWidth);
+            $(".bx-viewport").css("overflow", "visible"); // required for peeking left and right slides
+            console.log(mobileLandscape);
+        } else if ((footerWidth >= 320) && (footerWidth <= 449)) {
+            $('.slider-multi ul').bxSlider(mobile);
+            $('.page-wrapper').css('width', + footerWidth);
+            $(".bx-viewport").css("overflow", "visible"); // required for peeking left and right slides
+            console.log(mobile);
+        } else {
+            $('.slider-multi ul').bxSlider(laptop);
+            console.log(laptop);
+        };
+        // load the slider when it's ready
+        function bxSliderLoaded() {
+            console.log('Loaded - show slides');
+            $('.slider-multi').addClass('bxslider-visible');
         }
 
-        var MultiSlider = $('.slider-multi ul').bxSlider(settings);
-        window.addEventListener('resize', bxSliderResize);
-
-        setTimeout(function() {
-            $(".slider-multi").addClass("bxslider-visible");
-            console.log("visible");
-        }, 1000);
-
+        console.log('footer Width: ' + footerWidth);
+        console.log('mobile / slide width: ' + mobileSlideWidth);
+        console.log('mobile landscape / slide width: ' + mobileLandscapeSlideWidth);
+        console.log('tablet / slide width: ' + tabletSlideWidth);
+        console.log('tablet-landscape / slide width: ' + tabletLandscapeSlideWidth);
 
         
+        //$('.basic-table').css('width', + basicTable);
     }
+
     slideOrder() {
-        // if home slider slider href contains "?", append &x=z, else, append ?x=z
-        $('.slider-home h2 a, .slider-home h3 a').attr("href", function(ind, attr) {
+        // if home slider slider href contains '?', append &x=z, else, append ?x=z
+        $('.slider-home h2 a, .slider-home h3 a').attr('href', function(ind, attr) {
 
             var slideOrder = $(this).parents('li').attr('class');
             var hash_position = attr.indexOf('#');

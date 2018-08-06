@@ -1,22 +1,62 @@
-import $ from 'jquery';
+const $ = require("jquery");
+// widgets
+import Accordion from '../../../../node_modules/jquery-ui/ui/widgets/accordion.js';
+import Tabs from '../../../../node_modules/jquery-ui/ui/widgets/tabs.js';
+//import Datepicker from '../../../../node_modules/jquery-ui/ui/widgets/datepicker.js';
+// dependencies
+import Version from '../../../../node_modules/jquery-ui/ui/version.js';
 import Widget from '../../../../node_modules/jquery-ui/ui/widget.js';
 import Position from '../../../../node_modules/jquery-ui/ui/position.js';
 import FormResetMixin from '../../../../node_modules/jquery-ui/ui/form-reset-mixin.js';
 import Keycode from '../../../../node_modules/jquery-ui/ui/keycode.js';
 import Labels from '../../../../node_modules/jquery-ui/ui/labels.js';
 import UniqueID from '../../../../node_modules/jquery-ui/ui/unique-id.js';
-
 import Core from '../../../../node_modules/jquery-ui/ui/core.js';
 import Effect from '../../../../node_modules/jquery-ui/ui/effect.js';
-import Accordion from '../../../../node_modules/jquery-ui/ui/widgets/accordion.js';
-//import Menu from '../../../../node_modules/jquery-ui/ui/widgets/menu.js';
-//import SelectMenu from '../../../../node_modules/jquery-ui/ui/widgets/selectmenu.js';
-import Tabs from '../../../../node_modules/jquery-ui/ui/widgets/tabs.js';
-import Datepicker from '../../../../node_modules/jquery-ui/ui/widgets/datepicker.js';
+import EscapeSelector from '../../../../node_modules/jquery-ui/ui/escape-selector';
+import SafeActiveElement from '../../../../node_modules/jquery-ui/ui/safe-active-element';
 
 class jqueryUI {
     constructor() {
-        //this.expandCollapseAll = $('.expand-collapse-container span');
+        $(".page_tabs").tabs();
+        /*
+        $(".page_tabs").localScroll({
+            target:".page_tabs",
+            duration:0,
+            hash:true
+        });
+        */
+        console.log('Dilly Tabs');
+        $('.fancybox-menu').click(function() {
+            var section = $(this).data("target");
+            var options = { active: 0 };
+            switch (section) {
+                case 'nav-sources':
+                    options.active = 0;
+                    break;
+                case 'nav-topics':
+                    options.active = 1;
+                    break;
+                case 'nav-geography':
+                    options.active = 2;
+                    break;
+                case 'nav-tools':
+                    options.active = 3;
+                    break;
+                case 'nav-learn':
+                    options.active = 4;
+                    break;
+                case 'nav-news':
+                    options.active = 5;
+                    break;
+                case 'nav-default':
+                    options.active = 0;
+            }
+            $('.section-tabs').tabs(options);
+        });
+
+
+
         $('.accordion').accordion({
             heightStyle: 'content',
             active: false,
@@ -52,7 +92,8 @@ class jqueryUI {
         // set the initial state
         $('.collapse').hide();
 
-        if ($('.accordion')[0]) {                
+        //if ($('.accordion')[0]) {
+        if ($('.accordion')) {                 
             // Select all links with hashes
             $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
                 // On-page links
@@ -104,31 +145,17 @@ class jqueryUI {
                     }
                 });
             }
-            /*
-            $('a[name="' + windowHash.substr(1) + '"]').each(function() {
-                console.log(windowHash.substr(1));
-                $(this).closest('h3').next('div').css('display', 'block');
-                $('html').animate({ scrollTop: $('a[name=' + windowHash.substr(1) + ']').offset().top - 60 }, 'slow');
-            });
-            */
         }
-        this.events();
-        //console.log($.ui.version);
-    }
-    events() {
+//        this.events();
+        console.log($.ui.version);
+//    }
+//    events() {
         $('.expand-collapse-container .expand').click(function() {
             $(this).parent().next('div').find('h3').removeClass('ui-accordion-header-collapsed').addClass('ui-accordion-header-active').attr({ 'aria-selected': 'true', 'tabindex': '0' });
             $(this).parent().next('div').find('.ui-accordion-content').addClass('ui-accordion-content-active').attr({ 'aria-expanded': 'true', 'aria-hidden': 'false' }).show();
             $(this).hide();
             $(this).parent('span').find('.collapse').show();
             $(this).parent().next('div').find('.ui-accordion-header-icon').removeClass('expand').addClass('collapse').attr({ 'aria-selected': 'true', 'tabindex': '0' });
-        
-            //$(this).parent().next('div').each((index, element) => {
-            //    $(element).parent().next('li').addClass("hide"); 
-            //});
-            //$('.ui-accordion-header-icon').each((index, element) => {
-            //    $(element).removeClass('expand').addClass('collapse');
-            //});
         });
         $('.expand-collapse-container .collapse').click(function() {
             $(this).parent().next('div').find('h3').removeClass('ui-accordion-header-active').addClass('ui-accordion-header-collapsed').attr({ 'aria-selected': 'false', 'tabindex': '-1' });
@@ -136,30 +163,7 @@ class jqueryUI {
             $(this).hide();
             $(this).parent('span').find('.expand').show();
             $(this).parent().next('div').find('.ui-accordion-header-icon').removeClass('collapse').addClass('expand').attr({ 'aria-selected': 'true', 'tabindex': '0' });
-            
-            //$('.ui-accordion-header-icon').each((index, element) => {
-            //    $(element).addClass('expand').removeClass('collapse');
-            //});
         });
-
-        /*
-                $('.ico.expand').click(function() {
-                    $(this).parent().next('div').each('h3').removeClass('ui-accordion-header-collapsed').addClass('ui-accordion-header-active').attr({ 'aria-selected': 'true', 'tabindex': '0' });
-                    $(this).parent().next('div').each('.ui-accordion-content').addClass('ui-accordion-content-active').attr({ 'aria-expanded': 'true', 'aria-hidden': 'false' }).show();
-                    $(this).parent().next('div').each('.ui-accordion-header-icon').removeClass('.active').addClass('.collapse');
-                    $(this).hide();
-                    $(this).parent('span').each('.collapse').show();
-                });
-                $('.ico.collapse').click(function() {
-                    $(this).parent().next('div').each('h3').removeClass('ui-accordion-header-active').addClass('ui-accordion-header-collapsed').attr({ 'aria-selected': 'false', 'tabindex': '-1' });
-                    $(this).parent().next('div').each('.ui-accordion-content').removeClass('ui-accordion-content-active').attr({ 'aria-expanded': 'false', 'aria-hidden': 'true' }).hide();
-                    $(this).parent().next('div').each('.ui-accordion-header-icon').addClass('.active').removeClass('.collapse');
-                    $(this).hide();
-                    $(this).parent('span').each('.expand').show();
-                });
-        */
-
-
     }
 }
 export default jqueryUI;
