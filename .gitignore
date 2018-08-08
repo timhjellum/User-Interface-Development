@@ -7,17 +7,12 @@ yarn-error.log*
 ./
 
 # Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
 
 # Dependency directories
 node_modules/
 
-# Generated directories
-dist/
+# Ignore Directories
+
 beta/
 # petroleum/
 petroleum/articles
@@ -42,6 +37,7 @@ petroleum/supply
 petroleum/transportation
 petroleum/weekly
 petroleum/wells
+style-guide/
 
 
 
