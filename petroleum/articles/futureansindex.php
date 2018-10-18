@@ -18,7 +18,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 <body>
 <?php include(ROOT.'global/includes/css_rehab_eia-header.inc'); ?>
 <div class="l-row">
-<div class="l-main-col">
+<div class=" l-two-col-right-narrow">
 <?php /* start main content */ ?>
 <h1>Future Oil Production for the Alaska North Slope</h1>
 <p class="date">May 1, 2001<br />

@@ -12,7 +12,8 @@ isset($hct) || $hct = '';
 isset($hcVersion) || $hcVersion = 3;
 isset($highstock) || $highstock = '';
 ?>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
@@ -24,19 +25,19 @@ isset($highstock) || $highstock = '';
 <link rel="icon" href="//www.eia.gov/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="//www.eia.gov/favicon.ico" />
 
-<link href="/css_rehab/archive/global/styles/global.min.css?v=2.0.2" type="text/css" media="screen, projection" rel="stylesheet" />
+<link href="/css_rehab/archive/global/styles/global.min.css?v=3.2.2" type="text/css" media="screen, projection" rel="stylesheet" />
 <link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
 <link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
-
-<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script> 
+<link href="/global/survey/engine/css/layout.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script>
 <?php include('global/includes/highcharts.inc') ?>
 
 <?php
 if(strpos($_SERVER['HTTP_HOST'],'wwwdev')===false){
 ?>
-<script type="text/javascript" src="/global/scripts/jquery/ga/ga-file-downloads.js"></script>
-<?php include('global/includes/ga.inc') ?>
+	<script type="text/javascript" src="/global/scripts/jquery/ga/ga-file-downloads.js" ></script>
 <?php
+	include $_SERVER['DOCUMENT_ROOT']."/global/includes/ga.inc";
 }
 ?>
 
@@ -47,11 +48,6 @@ if(strpos($_SERVER['HTTP_HOST'],'wwwdev')===false){
 
 $glossary_path = '/tools/glossary/';
 $faqs_path = '/tools/faqs/';
-
-if($locale == "data") {
-	echo '<script src="/global/scripts/custom/search_landing_highlight.js"></script>';
-	print PHP_EOL;
-}
-
 ?>
+
 

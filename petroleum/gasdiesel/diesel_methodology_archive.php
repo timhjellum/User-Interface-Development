@@ -11,7 +11,7 @@
 <?php include('../includes/sub-navigation.inc'); ?>
 <?php $headtitle = 'Gasoline and Diesel Fuel Update'; ?>
 <?php include('./includes/subnav_gdumeth.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
 <h2>Previous Diesel Fuel Sampling Methodology</h2>

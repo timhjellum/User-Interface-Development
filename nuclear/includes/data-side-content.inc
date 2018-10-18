@@ -1,4 +1,4 @@
-<div class="secondary">
+<div class="secondary sticky">
     <ul>
         <li class="head">
             <h2>Most requested nuclear data</h2></li>

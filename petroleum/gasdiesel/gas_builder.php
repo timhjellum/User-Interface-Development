@@ -9,8 +9,7 @@
 </head>
 <body>
 <?php include(ROOT.'global/includes/css_rehab_eia-header.inc'); ?>
-<div class="l-main-col
-<div class="l-main-column">
+<div class="l-main-col">
 <?php /* start main content */ ?>
 <?php include('./includes/global_dates.inc'); ?>
 <?php include('./includes/gas_buildvar.inc'); ?>

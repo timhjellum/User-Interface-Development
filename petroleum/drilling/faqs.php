@@ -14,7 +14,7 @@
 <?php $release = 'July 14, 2014'; ?>
 <?php include('../includes/sub-navigation.inc'); ?>
 <?php include('./includes/drilling_selector.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
 <h1 style="border-bottom-color:#fff; font-size:18pt">Frequently Asked Questions</h1>

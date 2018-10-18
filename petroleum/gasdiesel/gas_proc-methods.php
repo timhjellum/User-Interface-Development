@@ -11,7 +11,7 @@
 <?php include('../includes/sub-navigation.inc'); ?>
 <?php $headtitle = 'Gasoline and Diesel Fuel Update'; ?>
 <?php include('./includes/report-details.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
 <h1> Procedures, Methodology, and Coefficients of Variation</h1>

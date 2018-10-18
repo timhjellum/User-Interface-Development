@@ -14,7 +14,7 @@ $locale = 'ap';
 <title><?=$pageTitle?> - <?=$L2T?></title>
 </head>
 <body>
-<?php include('global/header/includes/header.inc') ?>
+<?php include('css_rehab/archive/global/header/includes/header.inc') ?>
 <?php include('includes/sub-navigation.inc'); ?>
 <div class="l-row">
 	<div class="l-full-width-col">

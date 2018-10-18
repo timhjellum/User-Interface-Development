@@ -24,7 +24,7 @@
                                 <li><a href="/petroleum/data.php" class="foot">All petroleum &amp; other liquids data reports</a></li>
                             </ul>
                         </div></li>
-                    <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  " ap ") {?>active<?php } ?>"><a href="/petroleum/reports.php" class="dropbtn">Analysis & Projections<i class="ico sort-up"></i></a>
+                    <li class="dropdown dropdown-analysis-projections <?php if( $locale ==  'ap') {?>active<?php } ?>"><a href="/petroleum/reports.php" class="dropbtn">Analysis & Projections<i class="ico sort-up"></i></a>
                         <div class="dropdown-analysis-projections-content dropdown-content">
                             <div class="l-row">
                                 <div class="l-two-third-col">

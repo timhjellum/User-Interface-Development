@@ -1,4 +1,4 @@
-<div class="basic-table" style="overflow-x:auto;">
+<div class="basic-table">
     <h1>Recent Data</h1>
 
     <?php include('./includes/table-data.inc') ?>

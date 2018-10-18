@@ -17,7 +17,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 </head>
 <body>
 <?php include(ROOT.'global/includes/css_rehab_eia-header.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
 <h1>Inquiry into August 2003 Gasoline Price Spike</h1>

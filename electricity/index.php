@@ -17,7 +17,7 @@ $l2page = 'page_ele';$l2id = 2;
 </head>
     
 <body>
-    <?php include('global/header/includes/header.inc') ?>
+    <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
     <?php include('includes/sub-navigation.inc'); ?>
     <?php include('global/sliders/multi-card-slider.inc') ?>
     <div class="l-row">

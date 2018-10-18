@@ -13,7 +13,7 @@ $l2id = 3;
 <link href="/css_rehab/archive/global/includes/bookshelf/bookshelf.css" rel="stylesheet" />
 </head>
 <body>
-<?php include('global/header/includes/header.inc') ?>
+<?php include('css_rehab/archive/global/header/includes/header.inc') ?>
 <?php include('includes/sub-navigation.inc'); ?>
 <?php include("css_rehab/archive/global/includes/bookshelf/bookshelf-results.inc") ?>
 <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>

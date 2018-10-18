@@ -14,9 +14,9 @@ $locale = 'data';
         </title>
     </head>
 <body>
-        <?php include('global/header/includes/header.inc') ?>
+        <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
         <?php include('includes/sub-navigation.inc') ?>
-        <div class="l-row">
+        <div class="l-row l-two-col-right-narrow">
             <div class="l-main-col">
                 <?php include('includes/data.inc') ?>
                 <?php include('includes/main-data.inc') ?>

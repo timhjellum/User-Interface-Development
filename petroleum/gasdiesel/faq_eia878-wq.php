@@ -11,7 +11,7 @@
 <?php /* include('petroleum/ */ include('../includes/subnav_petroleum.inc') ;
 $headtitle = 'Frequently Asked Questions for survey form EIA-878';
 include ('includes/report-details.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
                 <h2>FAQs for Survey Form EIA-878</h2></p>

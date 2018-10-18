@@ -2,14 +2,11 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$comingUpOneURL = "/outlooks/ieo/";
-$comingUpOneLabel = "International Energy Outlook 2018";
+$comingUpOneURL = "/outlooks/aeo/retrospective/";
+$comingUpOneLabel = "Annual Energy Outlook Retrospective Review";
 
-$comingUpTwoURL = "/petroleum/ethanolcapacity/index.php";
-$comingUpTwoLabel = "U.S. Fuel Ethanol Plant Production Capacity";
-
-$comingUpThreeURL = "/renewable/annual/solar_photo/";
-$comingUpThreeLabel = "Solar Photovoltaic Cell/Module Shipments Report";
+$comingUpTwoURL = "/naturalgas/annual/";
+$comingUpTwoLabel = "Natural Gas Annual";
 
 ?>
 <?php

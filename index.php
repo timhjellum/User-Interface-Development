@@ -3,22 +3,19 @@
 $pageTitle = "U.S. Energy Information Administration (EIA)";
 $locale = 'homepage';
 ?>
-
-    <html>
-    <head>
-    <title><?=$pageTitle?></title>
-    <?php include('global/head/includes/head.inc') ?>
+<html>
+<head>
+<title><?=$pageTitle?></title>
+<?php include('global/head/includes/head.inc') ?>
 </head>
-
 <body>
-    <?php include('global/header/includes/header.inc') ?>
+    <?php include('css_rehab/archive/global/header/includes/header.inc') ?>
     <?php include('homepage/includes/slider.inc') ?>
-    <div class="homepage">
         <div class="l-row l-3-col l-reorder">
             <div class="l-narrow-col l-second">
                 <?php include('homepage/includes/whats-new.inc') ?>
             </div>
-            <div class="l-middle-col l-first">
+            <div class="l-two-col l-first">
                 <div class="today-in-energy">
                     <?php include('todayinenergy/includes/file_scrub_live.inc') ?>
                 </div>
@@ -31,7 +28,7 @@ $locale = 'homepage';
                 </div>
             </div>
         </div>
-        <div class="l-row l-2-col-right header">
+        <div class="l-row l-two-col-right-narrow"><!-- l-2-col-right header" -->
             <div class="l-main-col">
                 <?php include('homepage/includes/features.inc') ?>
             </div>
@@ -57,7 +54,7 @@ $locale = 'homepage';
             </div>
         </div>
     </div>
-    <?php include('global/footer/includes/footer.inc') ?>
+    <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 
 </html>

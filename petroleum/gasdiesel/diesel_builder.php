@@ -13,8 +13,7 @@ $hct = 'y';
 <?php include(ROOT.'global/includes/css_rehab_eia-header.inc'); ?>
 <!-- start header -->
 <?php include('./includes/utils.inc'); ?>
-<div class="l-main-col
-<div class="l-main-column">
+<div class="l-main-col">
 <?php /* start main content */ ?>
 <?php include('./includes/global_dates.inc'); ?>
 <?php include('./includes/diesel_buildvar.inc'); ?>

@@ -17,7 +17,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 </head>
 <body>
 <?php include(ROOT.'global/includes/css_rehab_eia-header.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
 <h1>A Contrast Between Distillate Fuel Oil Markets in Autumn 1996 and 1997</h1>

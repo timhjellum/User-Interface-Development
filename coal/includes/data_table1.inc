@@ -61,7 +61,7 @@
         </tbody>
         <tfoot>
             <tr>
-            	<td colspan="6"><b>Source: </b>With permission, <a href="/coal/markets/">Coal Markets</a></td>
+            	<td colspan="6"><strong>Source: </strong>With permission, <a href="/coal/markets/">Coal Markets</a></td>
             </tr>
         </tfoot>
         

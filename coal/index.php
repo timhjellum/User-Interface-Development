@@ -12,7 +12,7 @@ $l2id = 3;
 <title><?=$pageTitle?> - <?=$L2T?></title>
 </head>
 <body>
-<?php include('global/header/includes/header.inc') ?>
+<?php include('css_rehab/archive/global/header/includes/header.inc') ?>
 <?php include('includes/sub-navigation.inc'); ?>
 <?php include('global/sliders/multi-card-slider.inc') ?>
 <div class="l-row">
@@ -28,6 +28,10 @@ $l2id = 3;
 </div>
 <?php include('includes/visualizations.inc') ?>
 <?php include('includes/energy-education.inc') ?>
+<div class="_container">
+    <a id="inline" href="#data">...</a>
+    <div style="display:none"><div id="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div></div>
+</div>
 <?php include('css_rehab/archive/global/footer/includes/footer.inc') ?>
 </body>
 </html>

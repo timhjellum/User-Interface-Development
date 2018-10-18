@@ -2,19 +2,19 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› or the  &rsaquo; */
 
-$featureOneUrl = "/beta/realtime_grid/";
+$featureOneURL = "/beta/realtime_grid/";
 $featureOneImageName = "electricity-data-browser.jpg";
 $featureOneAlt = "Electricity Data Browser";
 $featureOneLabel = "Electric System Operating Data Tool";
 $featureOneDescription = "Near real-time electricity operations data for the Lower 48 states.";
 
-$featureTwoUrl = "/conference/2018/";
-$featureTwoImageName = "2018-eia-energy-conference.jpg";
-$featureTwoAlt = "Gateway";
-$featureTwoLabel = "2018 Energy Conference";
-$featureTwoDescription = "Registration is now open";
+$featureTwoURL = "/renewable/";
+$featureTwoImageName = "solarandwindhomepagebannerfeature.jpg";
+$featureTwoAlt = "Renewable and alternative fuels";
+$featureTwoLabel = "Renewable and alternative fuels";
+$featureTwoDescription = "Learn about EIA’s hydropower, solar, wind, geothermal, biomass, and ethanol data.";
 
-$featureThreeUrl = "/state/maps.php";
+$featureThreeURL = "/state/maps.php";
 $featureThreeImageName = "us-energy-mapping-system.jpg";
 $featureThreeAlt = "U.S. Energy Mapping System";
 $featureThreeLabel = "U.S. Energy Mapping System";
@@ -24,14 +24,14 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
 ?>
 
     <div class="features secondary">
-        <h2>Features</h2>
+	<h2>Features</h2>
         <div class="f1">
-            <div>
-                <a href='<?=$featureOneURL?>'>
+		<div>
+			<a href='<?=$featureOneURL?>'>
 				<img src='/homepage/images/features/<?=$featureOneImageName?>' alt='<?=$featureOneAlt?>' />
 			</a>
-            </div>
-            <ul>
+		</div>
+		<ul>
                 <li class="head">
                     <h3><a href='<?=$featureOneURL?>'>
                             <?=$featureOneLabel?>
@@ -39,16 +39,16 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
                     </h3></li>
                 <li>
                     <?=$featureOneDescription?></li>
-            </ul>
-        </div>
+		</ul>
+	</div>
 
         <div class="f2">
-            <div>
-                <a href='<?=$featureTwoURL?>'>
+		<div>
+			<a href='<?=$featureTwoURL?>'>
 				<img src='/homepage/images/features/<?=$featureTwoImageName?>' alt='<?=$featureTwoAlt?>' />
 			</a>
-            </div>
-            <ul>
+		</div>
+		<ul>
                 <li class="head">
                     <h3><a href='<?=$featureTwoURL?>'>
                             <?=$featureTwoLabel?>
@@ -56,23 +56,23 @@ $featureThreeDescription = "Rankings, layers of energy information, and state co
                     </h3></li>
                 <li>
                     <?=$featureTwoDescription?></li>
-            </ul>
-        </div>
+		</ul>
+	</div>
 
         <div class="f3">
-            <div>
-                <a href='<?=$featureThreeURL?>'>
+		<div>
+			<a href='<?=$featureThreeURL?>'>
 				<img src='/homepage/images/features/<?=$featureThreeImageName?>' alt='<?=$featureThreeAlt?>' />
 			</a>
-            </div>
-            <ul>
+		</div>
+		<ul>
                 <li class="head">
                     <h3><a href='<?=$featureThreeURL?>'>
                             <?=$featureThreeLabel?>
                         </a>
                     </h3></li>
                 <li>
-                    <?=$featureThreeDescription?></li>
-            </ul>
-        </div>
+                <?=$featureThreeDescription?></li>
+		</ul>
+	</div>
     </div>

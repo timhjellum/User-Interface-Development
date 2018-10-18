@@ -14,7 +14,7 @@
 <?php $release = 'August 14, 2017'; ?>
 <?php include('../includes/sub-navigation.inc'); ?>
 <?php include('./includes/drilling_selector.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
 <div id="tabs">

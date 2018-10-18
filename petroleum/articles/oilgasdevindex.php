@@ -17,7 +17,7 @@ $pageTitle = 'U.S. Energy Information Administration (EIA) - ';
 </head>
 <body>
 <?php include(ROOT.'global/includes/css_rehab_eia-header.inc'); ?>
-<div class="l-row">
+<div class="l-row l-two-col-right-narrow">
 <div class="l-main-col">
 <?php /* start main content */ ?>
 <h1>Oil and Gas Development in the United States in the Early 1990's </h1>

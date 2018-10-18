@@ -2,13 +2,13 @@
 /* edit the link URL, Label and Date below */
 /* no need to add the  > or the &nbsp;› */
 
-$ourExpertsSpeakOneURL = "/pressroom/testimonies/maples_03072018.pdf";
-$ourExpertsSpeakOneLabel = "John Maples, Senior Transportation Analyst, testified before House Subcommittee";
-$ourExpertsSpeakOneDate = "March 7, 2018";
+$ourExpertsSpeakOneURL = "/pressroom/presentations/capuano_07242018.pdf";
+$ourExpertsSpeakOneLabel = "EIA Administrator Dr. Linda Capuano presents EIA’s International Energy Outlook 2018";
+$ourExpertsSpeakOneDate = "July 24, 2018";
 
-$ourExpertsSpeakTwoURL = "/pressroom/presentations/conti_020132018.pdf";
-$ourExpertsSpeakTwoLabel = "John J. Conti, Deputy Administrator, presented EIA’s Annual Energy Outlook 2018";
-$ourExpertsSpeakTwoDate = "February 13, 2018";
+$ourExpertsSpeakTwoURL = "/pressroom/testimonies/maples_03072018.pdf";
+$ourExpertsSpeakTwoLabel = "John Maples, Senior Transportation Analyst, testified before House Subcommittee";
+$ourExpertsSpeakTwoDate = "March 7, 2018";
 
 ?>
 <?php
